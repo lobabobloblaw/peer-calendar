@@ -206,6 +206,229 @@
             display: block;
         }
 
+        /* Calendar Preview Section */
+        .preview-section {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        .preview-section h2 {
+            font-size: 1.1em;
+            color: #2c3e50;
+            margin: 0 0 16px;
+        }
+
+        .view-tabs {
+            display: flex;
+            gap: 4px;
+            margin-bottom: 16px;
+        }
+
+        .view-tab {
+            padding: 8px 16px;
+            border: 1px solid #ddd;
+            background: white;
+            cursor: pointer;
+            font-size: 0.85em;
+            transition: all 0.2s;
+        }
+
+        .view-tab:first-child { border-radius: 6px 0 0 6px; }
+        .view-tab:last-child { border-radius: 0 6px 6px 0; }
+
+        .view-tab.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+        }
+
+        .calendar-preview {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        /* Month navigation */
+        .month-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #eee;
+        }
+
+        .month-nav button {
+            background: none;
+            border: 1px solid #ddd;
+            padding: 6px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85em;
+        }
+
+        .month-nav button:hover { background: #eee; }
+
+        .month-nav .month-label {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        /* List view */
+        .list-view {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .event-day {
+            border-bottom: 1px solid #eee;
+        }
+
+        .event-day:last-child { border-bottom: none; }
+
+        .day-header {
+            background: #f8f9fa;
+            padding: 8px 16px;
+            font-weight: 600;
+            font-size: 0.85em;
+            color: #555;
+            position: sticky;
+            top: 0;
+        }
+
+        .event-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 10px 16px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .event-item:last-child { border-bottom: none; }
+
+        .event-color {
+            width: 4px;
+            min-height: 36px;
+            border-radius: 2px;
+            flex-shrink: 0;
+        }
+
+        .event-details {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .event-title {
+            font-weight: 500;
+            font-size: 0.9em;
+            color: #333;
+            margin-bottom: 2px;
+        }
+
+        .event-meta {
+            font-size: 0.8em;
+            color: #666;
+        }
+
+        .event-time {
+            color: #888;
+        }
+
+        /* Grid view */
+        .grid-view {
+            display: none;
+        }
+
+        .grid-view.active { display: block; }
+        .list-view.active { display: block; }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+        }
+
+        .grid-header {
+            background: #f8f9fa;
+            padding: 8px 4px;
+            text-align: center;
+            font-size: 0.75em;
+            font-weight: 600;
+            color: #666;
+            border-bottom: 1px solid #eee;
+        }
+
+        .grid-day {
+            min-height: 80px;
+            border-right: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding: 4px;
+            font-size: 0.75em;
+        }
+
+        .grid-day:nth-child(7n) { border-right: none; }
+
+        .grid-day.other-month {
+            background: #fafafa;
+            color: #bbb;
+        }
+
+        .grid-day.today {
+            background: #e8f4fc;
+        }
+
+        .day-number {
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: #555;
+        }
+
+        .grid-day.other-month .day-number { color: #ccc; }
+
+        .grid-event {
+            background: var(--peer-support);
+            color: white;
+            padding: 2px 4px;
+            border-radius: 2px;
+            margin-bottom: 2px;
+            font-size: 0.7em;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            cursor: pointer;
+        }
+
+        .grid-event:hover {
+            opacity: 0.9;
+        }
+
+        .more-events {
+            color: #666;
+            font-size: 0.7em;
+            cursor: pointer;
+        }
+
+        .no-events {
+            padding: 40px 20px;
+            text-align: center;
+            color: #888;
+        }
+
+        @media (max-width: 600px) {
+            .grid-day { min-height: 60px; }
+            .grid-event { display: none; }
+            .day-number.has-events::after {
+                content: '';
+                display: inline-block;
+                width: 6px;
+                height: 6px;
+                background: var(--accent);
+                border-radius: 50%;
+                margin-left: 4px;
+            }
+        }
+
         /* Updates section */
         .updates-section {
             margin-top: 30px;
@@ -357,6 +580,27 @@
             </div>
         </div>
 
+        <div class="preview-section">
+            <h2>Preview Events</h2>
+            <div class="view-tabs">
+                <button class="view-tab active" data-view="list">List</button>
+                <button class="view-tab" data-view="grid">Calendar</button>
+            </div>
+            <div class="calendar-preview">
+                <div class="month-nav">
+                    <button id="prev-month">&larr; Prev</button>
+                    <span class="month-label" id="month-label">January 2025</span>
+                    <button id="next-month">Next &rarr;</button>
+                </div>
+                <div class="list-view active" id="list-view">
+                    <div class="no-events">Loading events...</div>
+                </div>
+                <div class="grid-view" id="grid-view">
+                    <div class="calendar-grid" id="calendar-grid"></div>
+                </div>
+            </div>
+        </div>
+
         <div class="updates-section">
             <h2>Updates</h2>
             <ul class="updates-list">
@@ -418,6 +662,320 @@
             const isShown = categories.classList.toggle('show');
             this.textContent = isShown ? '− Hide category calendars' : '+ Show category calendars';
         });
+
+        // Calendar Preview functionality
+        let eventsData = null;
+        let currentMonth = new Date();
+        let currentView = 'list';
+
+        const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+                           'July', 'August', 'September', 'October', 'November', 'December'];
+
+        // Parse schedule strings like "1st & 3rd Wednesdays, 2-3:30pm"
+        function parseSchedule(schedule) {
+            if (!schedule) return null;
+
+            const result = { ordinals: [], day: null, startTime: null, endTime: null, weekly: false };
+            const lower = schedule.toLowerCase();
+
+            // Find day of week
+            const days = { 'sunday': 0, 'monday': 1, 'tuesday': 2, 'wednesday': 3,
+                          'thursday': 4, 'friday': 5, 'saturday': 6,
+                          'sundays': 0, 'mondays': 1, 'tuesdays': 2, 'wednesdays': 3,
+                          'thursdays': 4, 'fridays': 5, 'saturdays': 6 };
+            for (const [name, num] of Object.entries(days)) {
+                if (lower.includes(name)) {
+                    result.day = num;
+                    break;
+                }
+            }
+
+            // Find ordinals (1st, 2nd, 3rd, 4th)
+            const ordinalMatch = lower.match(/(\d+)(?:st|nd|rd|th)/g);
+            if (ordinalMatch) {
+                result.ordinals = ordinalMatch.map(o => parseInt(o));
+            }
+
+            // Check for "every" (weekly)
+            if (lower.includes('every')) {
+                result.weekly = true;
+            }
+
+            // Parse time
+            const timeMatch = schedule.match(/(\d{1,2})(?::(\d{2}))?\s*-\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm)?/i);
+            if (timeMatch) {
+                let startHour = parseInt(timeMatch[1]);
+                const startMin = timeMatch[2] ? parseInt(timeMatch[2]) : 0;
+                let endHour = parseInt(timeMatch[3]);
+                const endMin = timeMatch[4] ? parseInt(timeMatch[4]) : 0;
+                const period = timeMatch[5]?.toLowerCase();
+
+                if (period === 'pm') {
+                    if (startHour < 12) startHour += 12;
+                    if (endHour < 12) endHour += 12;
+                }
+
+                result.startTime = `${startHour}:${startMin.toString().padStart(2, '0')}`;
+                result.endTime = `${endHour}:${endMin.toString().padStart(2, '0')}`;
+            }
+
+            return result;
+        }
+
+        // Get dates for a schedule in a given month
+        function getScheduleDates(schedule, year, month) {
+            const parsed = parseSchedule(schedule);
+            if (!parsed || parsed.day === null) return [];
+
+            const dates = [];
+            const firstDay = new Date(year, month, 1);
+            const lastDay = new Date(year, month + 1, 0);
+
+            // Find all occurrences of the day in this month
+            let date = new Date(firstDay);
+            let weekOfMonth = 0;
+            let lastWeekNum = -1;
+
+            while (date <= lastDay) {
+                if (date.getDay() === parsed.day) {
+                    const weekNum = Math.floor((date.getDate() - 1) / 7) + 1;
+
+                    if (parsed.weekly || parsed.ordinals.includes(weekNum)) {
+                        dates.push({
+                            date: new Date(date),
+                            startTime: parsed.startTime,
+                            endTime: parsed.endTime
+                        });
+                    }
+                }
+                date.setDate(date.getDate() + 1);
+            }
+
+            return dates;
+        }
+
+        // Generate all events for a month
+        function generateMonthEvents(year, month) {
+            if (!eventsData) return [];
+
+            const events = [];
+
+            for (const entry of eventsData.events) {
+                // Handle programs with schedules
+                if (entry.programs && entry.programs.length > 0) {
+                    for (const program of entry.programs) {
+                        if (program.schedule) {
+                            const dates = getScheduleDates(program.schedule, year, month);
+                            for (const d of dates) {
+                                events.push({
+                                    title: program.name || entry.title,
+                                    org: entry.title,
+                                    date: d.date,
+                                    startTime: d.startTime,
+                                    endTime: d.endTime,
+                                    color: entry.color,
+                                    category: entry.categoryName,
+                                    location: program.location || entry.address,
+                                    format: program.format
+                                });
+                            }
+                        }
+                    }
+                }
+
+                // Handle direct schedule on entry
+                if (entry.schedule && !entry.programs?.length) {
+                    const dates = getScheduleDates(entry.schedule, year, month);
+                    for (const d of dates) {
+                        events.push({
+                            title: entry.title,
+                            org: null,
+                            date: d.date,
+                            startTime: d.startTime,
+                            endTime: d.endTime,
+                            color: entry.color,
+                            category: entry.categoryName,
+                            location: entry.address
+                        });
+                    }
+                }
+            }
+
+            // Sort by date and time
+            events.sort((a, b) => {
+                const dateCompare = a.date - b.date;
+                if (dateCompare !== 0) return dateCompare;
+                return (a.startTime || '').localeCompare(b.startTime || '');
+            });
+
+            return events;
+        }
+
+        // Format time for display
+        function formatTime(time) {
+            if (!time) return '';
+            const [hour, min] = time.split(':').map(Number);
+            const period = hour >= 12 ? 'pm' : 'am';
+            const displayHour = hour > 12 ? hour - 12 : (hour === 0 ? 12 : hour);
+            return min > 0 ? `${displayHour}:${min.toString().padStart(2, '0')}${period}` : `${displayHour}${period}`;
+        }
+
+        // Render list view
+        function renderListView() {
+            const container = document.getElementById('list-view');
+            const events = generateMonthEvents(currentMonth.getFullYear(), currentMonth.getMonth());
+
+            if (events.length === 0) {
+                container.innerHTML = '<div class="no-events">No scheduled events this month</div>';
+                return;
+            }
+
+            // Group by date
+            const grouped = {};
+            for (const event of events) {
+                const key = event.date.toDateString();
+                if (!grouped[key]) grouped[key] = [];
+                grouped[key].push(event);
+            }
+
+            let html = '';
+            for (const [dateStr, dayEvents] of Object.entries(grouped)) {
+                const date = new Date(dateStr);
+                const dayName = dayNames[date.getDay()];
+                const monthDay = `${monthNames[date.getMonth()]} ${date.getDate()}`;
+
+                html += `<div class="event-day">
+                    <div class="day-header">${dayName}, ${monthDay}</div>`;
+
+                for (const event of dayEvents) {
+                    const timeStr = event.startTime ?
+                        `${formatTime(event.startTime)}${event.endTime ? ' - ' + formatTime(event.endTime) : ''}` : '';
+                    const locationStr = event.format === 'Zoom' ? 'Online (Zoom)' : (event.location || '');
+
+                    html += `<div class="event-item">
+                        <div class="event-color" style="background: ${event.color}"></div>
+                        <div class="event-details">
+                            <div class="event-title">${event.title}</div>
+                            <div class="event-meta">
+                                ${timeStr ? `<span class="event-time">${timeStr}</span>` : ''}
+                                ${timeStr && locationStr ? ' · ' : ''}
+                                ${locationStr}
+                            </div>
+                        </div>
+                    </div>`;
+                }
+
+                html += '</div>';
+            }
+
+            container.innerHTML = html;
+        }
+
+        // Render grid view
+        function renderGridView() {
+            const container = document.getElementById('calendar-grid');
+            const year = currentMonth.getFullYear();
+            const month = currentMonth.getMonth();
+
+            const firstDay = new Date(year, month, 1);
+            const lastDay = new Date(year, month + 1, 0);
+            const startOffset = firstDay.getDay();
+
+            const events = generateMonthEvents(year, month);
+            const eventsByDate = {};
+            for (const event of events) {
+                const key = event.date.getDate();
+                if (!eventsByDate[key]) eventsByDate[key] = [];
+                eventsByDate[key].push(event);
+            }
+
+            const today = new Date();
+            const isCurrentMonth = today.getFullYear() === year && today.getMonth() === month;
+
+            let html = dayNames.map(d => `<div class="grid-header">${d}</div>`).join('');
+
+            // Previous month days
+            const prevMonth = new Date(year, month, 0);
+            for (let i = startOffset - 1; i >= 0; i--) {
+                html += `<div class="grid-day other-month"><div class="day-number">${prevMonth.getDate() - i}</div></div>`;
+            }
+
+            // Current month days
+            for (let day = 1; day <= lastDay.getDate(); day++) {
+                const isToday = isCurrentMonth && today.getDate() === day;
+                const dayEvents = eventsByDate[day] || [];
+                const hasEvents = dayEvents.length > 0;
+
+                html += `<div class="grid-day${isToday ? ' today' : ''}">
+                    <div class="day-number${hasEvents ? ' has-events' : ''}">${day}</div>`;
+
+                const maxShow = 2;
+                for (let i = 0; i < Math.min(dayEvents.length, maxShow); i++) {
+                    const evt = dayEvents[i];
+                    html += `<div class="grid-event" style="background: ${evt.color}" title="${evt.title}">${evt.title}</div>`;
+                }
+
+                if (dayEvents.length > maxShow) {
+                    html += `<div class="more-events">+${dayEvents.length - maxShow} more</div>`;
+                }
+
+                html += '</div>';
+            }
+
+            // Next month days
+            const totalCells = startOffset + lastDay.getDate();
+            const remaining = (7 - (totalCells % 7)) % 7;
+            for (let i = 1; i <= remaining; i++) {
+                html += `<div class="grid-day other-month"><div class="day-number">${i}</div></div>`;
+            }
+
+            container.innerHTML = html;
+        }
+
+        // Update display
+        function updateCalendarDisplay() {
+            document.getElementById('month-label').textContent =
+                `${monthNames[currentMonth.getMonth()]} ${currentMonth.getFullYear()}`;
+
+            renderListView();
+            renderGridView();
+        }
+
+        // View tab switching
+        document.querySelectorAll('.view-tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                document.querySelectorAll('.view-tab').forEach(t => t.classList.remove('active'));
+                this.classList.add('active');
+
+                currentView = this.dataset.view;
+                document.getElementById('list-view').classList.toggle('active', currentView === 'list');
+                document.getElementById('grid-view').classList.toggle('active', currentView === 'grid');
+            });
+        });
+
+        // Month navigation
+        document.getElementById('prev-month').addEventListener('click', () => {
+            currentMonth.setMonth(currentMonth.getMonth() - 1);
+            updateCalendarDisplay();
+        });
+
+        document.getElementById('next-month').addEventListener('click', () => {
+            currentMonth.setMonth(currentMonth.getMonth() + 1);
+            updateCalendarDisplay();
+        });
+
+        // Load events data
+        fetch(baseUrl + 'events.json')
+            .then(res => res.json())
+            .then(data => {
+                eventsData = data;
+                updateCalendarDisplay();
+            })
+            .catch(err => {
+                document.getElementById('list-view').innerHTML =
+                    '<div class="no-events">Could not load events</div>';
+            });
     </script>
 </body>
 </html>
