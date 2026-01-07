@@ -1,0 +1,457 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Portland Metro Resources//Calendar Generator//EN
+X-WR-CALNAME:Portland Resources - Peer Support
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b8b48cbe08f220fe@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251207T150000
+DTEND:20251207T163000
+SUMMARY:NAMI Multnomah: Connection Peer Support (In-Person)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  464 SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\n
+ Website: https://namimultnomah.org\nDetails: No diagnosis required for any
+  groups. Groups are peer-led by trained volunteers with lived experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>A
+ ddress:</strong> 464 SE 185th Ave\, Suite 315\, Portland\, OR 97233</p><p>
+ <strong>Phone:</strong> <a href="tel:503-228-5692">503-228-5692</a></p><p>
+ <strong>Website:</strong> <a href="https://namimultnomah.org">https://nami
+ multnomah.org</a></p><p><strong>Details:</strong> No diagnosis required fo
+ r any groups. Groups are peer-led by trained volunteers with lived experie
+ nce.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Community for Positive Aging\, 1820 NE 40th Ave\, Portland OR 9721
+ 2
+URL:https://namimultnomah.org
+RRULE:FREQ=MONTHLY;BYDAY=SU;BYSETPOS=2,4
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dba6711eb13da213@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251207T150000
+DTEND:20251207T163000
+SUMMARY:NAMI Multnomah: Connection Peer Support (Online)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nAddress: 464 
+ SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsi
+ te: https://namimultnomah.org\nDetails: No diagnosis required for any grou
+ ps. Groups are peer-led by trained volunteers with lived experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p><strong>Addres
+ s:</strong> 464 SE 185th Ave\, Suite 315\, Portland\, OR 97233</p><p><stro
+ ng>Phone:</strong> <a href="tel:503-228-5692">503-228-5692</a></p><p><stro
+ ng>Website:</strong> <a href="https://namimultnomah.org">https://namimultn
+ omah.org</a></p><p><strong>Details:</strong> No diagnosis required for any
+  groups. Groups are peer-led by trained volunteers with lived experience.<
+ /p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+URL:https://namimultnomah.org
+RRULE:FREQ=MONTHLY;BYDAY=SU;BYSETPOS=1,3
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f9777816b12080f9@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251208T190000
+DTEND:20251208T203000
+SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
+ LGBTQ2SIA+ adults 18+ with mental health symptoms\nAddress: 464 SE 185th A
+ ve\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: https:
+ //namimultnomah.org\nDetails: No diagnosis required for any groups. Groups
+  are peer-led by trained volunteers with lived experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p><strong>Eligib
+ ility:</strong> LGBTQ2SIA+ adults 18+ with mental health symptoms</p><p><s
+ trong>Address:</strong> 464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+ </p><p><strong>Phone:</strong> <a href="tel:503-228-5692">503-228-5692</a>
+ </p><p><strong>Website:</strong> <a href="https://namimultnomah.org">https
+ ://namimultnomah.org</a></p><p><strong>Details:</strong> No diagnosis requ
+ ired for any groups. Groups are peer-led by trained volunteers with lived 
+ experience.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+URL:https://namimultnomah.org
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c8206c50171db713@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T180000
+DTEND:20251203T193000
+SUMMARY:NAMI Multnomah: Young Adult (18-35)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
+ Ages 18-35 with mental health symptoms\nAddress: 464 SE 185th Ave\, Suite 
+ 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: https://namimultn
+ omah.org\nDetails: No diagnosis required for any groups. Groups are peer-l
+ ed by trained volunteers with lived experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p><strong>Eligib
+ ility:</strong> Ages 18-35 with mental health symptoms</p><p><strong>Addre
+ ss:</strong> 464 SE 185th Ave\, Suite 315\, Portland\, OR 97233</p><p><str
+ ong>Phone:</strong> <a href="tel:503-228-5692">503-228-5692</a></p><p><str
+ ong>Website:</strong> <a href="https://namimultnomah.org">https://namimult
+ nomah.org</a></p><p><strong>Details:</strong> No diagnosis required for an
+ y groups. Groups are peer-led by trained volunteers with lived experience.
+ </p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+URL:https://namimultnomah.org
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=1,3
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4b11c0aa298f2306@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251204T190000
+DTEND:20251204T203000
+SUMMARY:NAMI Multnomah: BIPOC Peer Support
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
+ Black\, Indigenous\, and/or People of Color adults with mental health cond
+ itions\nAddress: 464 SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone
+ : 503-228-5692\nWebsite: https://namimultnomah.org\nDetails: No diagnosis 
+ required for any groups. Groups are peer-led by trained volunteers with li
+ ved experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p><strong>Eligib
+ ility:</strong> Black\, Indigenous\, and/or People of Color adults with me
+ ntal health conditions</p><p><strong>Address:</strong> 464 SE 185th Ave\, 
+ Suite 315\, Portland\, OR 97233</p><p><strong>Phone:</strong> <a href="tel
+ :503-228-5692">503-228-5692</a></p><p><strong>Website:</strong> <a href="h
+ ttps://namimultnomah.org">https://namimultnomah.org</a></p><p><strong>Deta
+ ils:</strong> No diagnosis required for any groups. Groups are peer-led by
+  trained volunteers with lived experience.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+URL:https://namimultnomah.org
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=1,3
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c08dbed81b24d0f5@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251209T190000
+DTEND:20251209T203000
+SUMMARY:NAMI Multnomah: Complex Trauma & Dissociation Support
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
+ Those experiencing complex trauma and/or dissociation\nAddress: 464 SE 185
+ th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: ht
+ tps://namimultnomah.org\nDetails: No diagnosis required for any groups. Gr
+ oups are peer-led by trained volunteers with lived experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p><strong>Eligib
+ ility:</strong> Those experiencing complex trauma and/or dissociation</p><
+ p><strong>Address:</strong> 464 SE 185th Ave\, Suite 315\, Portland\, OR 9
+ 7233</p><p><strong>Phone:</strong> <a href="tel:503-228-5692">503-228-5692
+ </a></p><p><strong>Website:</strong> <a href="https://namimultnomah.org">h
+ ttps://namimultnomah.org</a></p><p><strong>Details:</strong> No diagnosis 
+ required for any groups. Groups are peer-led by trained volunteers with li
+ ved experience.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+URL:https://namimultnomah.org
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:531662b55bc0a9a7@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251209T190000
+DTEND:20251209T203000
+SUMMARY:NAMI Clackamas: NAMI Connection Support Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
+ o: For adults living with mental health conditions. Registration required.
+ \nAddress: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222\nPhone: 50
+ 3-344-5050\nWebsite: https://namicc.org\nDetails: Registration required fo
+ r most groups. All groups free and peer-led by trained volunteers with liv
+ ed experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> Virtual (Zoom)</p><p>For 
+ adults living with mental health conditions. Registration required.</p><p>
+ <strong>Address:</strong> 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 9
+ 7222</p><p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050
+ </a></p><p><strong>Website:</strong> <a href="https://namicc.org">https://
+ namicc.org</a></p><p><strong>Details:</strong> Registration required for m
+ ost groups. All groups free and peer-led by trained volunteers with lived 
+ experience.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222
+URL:https://namicc.org
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:abda9c8971b1314b@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T170000
+DTEND:20251203T183000
+SUMMARY:NAMI Clackamas: Women (18+) Only Support Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Bi-weekly peer-led re
+ covery support\nAddress: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97
+ 222\nPhone: 503-344-5050\nWebsite: https://namicc.org\nDetails: Registrati
+ on required for most groups. All groups free and peer-led by trained volun
+ teers with lived experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p>Bi-weekly peer-led recovery support</p><p><strong>
+ Address:</strong> 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222</p>
+ <p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p>
+ <p><strong>Website:</strong> <a href="https://namicc.org">https://namicc.o
+ rg</a></p><p><strong>Details:</strong> Registration required for most grou
+ ps. All groups free and peer-led by trained volunteers with lived experien
+ ce.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Milwaukie (in-person)
+URL:https://namicc.org
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=1,3
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:651932636ba165c7@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251208T190000
+DTEND:20251208T203000
+SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): LGBTQIA+ Suppo
+ rt Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online (1st Monday 
+ hybrid)\nWebsite: https://mentalhealthisforeveryone.com/\nDetails: Peer-fa
+ cilitated support groups since 2005. Typical attendance 10-25 people. Thre
+ e chapters: Eastside\, West Portland\, and LGBTQ. All meetings free and dr
+ op-in.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> Online (1st Monday hybrid
+ )</p><p><strong>Website:</strong> <a href="https://mentalhealthisforeveryo
+ ne.com/">https://mentalhealthisforeveryone.com/</a></p><p><strong>Details:
+ </strong> Peer-facilitated support groups since 2005. Typical attendance 1
+ 0-25 people. Three chapters: Eastside\, West Portland\, and LGBTQ. All mee
+ tings free and drop-in.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+URL:https://mentalhealthisforeveryone.com/
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:215024356d2538f2@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251209T183000
+DTEND:20251209T195000
+SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (W
+ est Portland)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nWebsite: ht
+ tps://mentalhealthisforeveryone.com/\nDetails: Peer-facilitated support gr
+ oups since 2005. Typical attendance 10-25 people. Three chapters: Eastside
+ \, West Portland\, and LGBTQ. All meetings free and drop-in.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> Online</p><p><strong>Webs
+ ite:</strong> <a href="https://mentalhealthisforeveryone.com/">https://men
+ talhealthisforeveryone.com/</a></p><p><strong>Details:</strong> Peer-facil
+ itated support groups since 2005. Typical attendance 10-25 people. Three c
+ hapters: Eastside\, West Portland\, and LGBTQ. All meetings free and drop-
+ in.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+URL:https://mentalhealthisforeveryone.com/
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:49d6b06cbd9d0a5b@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251204T190000
+DTEND:20251204T203000
+SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (E
+ astside)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nWebsite: ht
+ tps://mentalhealthisforeveryone.com/\nDetails: Peer-facilitated support gr
+ oups since 2005. Typical attendance 10-25 people. Three chapters: Eastside
+ \, West Portland\, and LGBTQ. All meetings free and drop-in.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> Online</p><p><strong>Webs
+ ite:</strong> <a href="https://mentalhealthisforeveryone.com/">https://men
+ talhealthisforeveryone.com/</a></p><p><strong>Details:</strong> Peer-facil
+ itated support groups since 2005. Typical attendance 10-25 people. Three c
+ hapters: Eastside\, West Portland\, and LGBTQ. All meetings free and drop-
+ in.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+URL:https://mentalhealthisforeveryone.com/
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:568f2b14f76f137e@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251205T190000
+DTEND:20251205T203000
+SUMMARY:Recovery Dharma Portland (PDX): Sarpashana
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
+  https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
+ and. Buddhist-based recovery using mindfulness and loving-kindness - alter
+ native to 12-step programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>W
+ ebsite:</strong> <a href="https://recoverydharmapdx.org/">https://recovery
+ dharmapdx.org/</a></p><p><strong>Details:</strong> 30+ weekly meetings acr
+ oss Portland. Buddhist-based recovery using mindfulness and loving-kindnes
+ s - alternative to 12-step programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Portland Insight Meditation Center\, 6536 SE Duke St
+URL:https://recoverydharmapdx.org/
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5dccfbb24ed3c3f2@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251208T190000
+DTEND:20251208T203000
+SUMMARY:Q Center Portland (LGBTQ+ Community Center): LGBTQIA2S+ Mental Heal
+ th Support
+DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: Peer-
+ led for anxiety\, depression\, bipolar\, PTSD\nAddress: 4115 N Mississippi
+  Ave\, Portland\, OR 97217\nPhone: 503-234-7837\nWebsite: https://www.pdxq
+ center.org/\nDetails: Portland's LGBTQ+ community center. Safe space with 
+ multi-generational programs. Many support groups and weekly events.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE (most programs)</p><p>Peer-led for anxiety\, depression\
+ , bipolar\, PTSD</p><p><strong>Address:</strong> 4115 N Mississippi Ave\, 
+ Portland\, OR 97217</p><p><strong>Phone:</strong> <a href="tel:503-234-783
+ 7">503-234-7837</a></p><p><strong>Website:</strong> <a href="https://www.p
+ dxqcenter.org/">https://www.pdxqcenter.org/</a></p><p><strong>Details:</st
+ rong> Portland&#x27\;s LGBTQ+ community center. Safe space with multi-gene
+ rational programs. Many support groups and weekly events.</p></BODY></HTML
+ >
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:4115 N Mississippi Ave\, Portland\, OR 97217
+URL:https://www.pdxqcenter.org/
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:65981a99ae5aad6e@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T190000
+DTEND:20251203T210000
+SUMMARY:Q Center Portland (LGBTQ+ Community Center): QTIBIPOC Community Spa
+ ce
+DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: For q
+ ueer\, trans\, intersex BIPOC community members\nAddress: 4115 N Mississip
+ pi Ave\, Portland\, OR 97217\nPhone: 503-234-7837\nWebsite: https://www.pd
+ xqcenter.org/\nDetails: Portland's LGBTQ+ community center. Safe space wit
+ h multi-generational programs. Many support groups and weekly events.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE (most programs)</p><p>For queer\, trans\, intersex BIPOC
+  community members</p><p><strong>Address:</strong> 4115 N Mississippi Ave\
+ , Portland\, OR 97217</p><p><strong>Phone:</strong> <a href="tel:503-234-7
+ 837">503-234-7837</a></p><p><strong>Website:</strong> <a href="https://www
+ .pdxqcenter.org/">https://www.pdxqcenter.org/</a></p><p><strong>Details:</
+ strong> Portland&#x27\;s LGBTQ+ community center. Safe space with multi-ge
+ nerational programs. Many support groups and weekly events.</p></BODY></HT
+ ML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:4115 N Mississippi Ave\, Portland\, OR 97217
+URL:https://www.pdxqcenter.org/
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=2,4
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e3edc33c7c6abd02@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251206T100000
+DTEND:20251206T110000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Saturday Meeting
+DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
+ 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
+ regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
+ al illness and substance use. Peer-led meetings.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Address:</strong> 521 SW 11th Ave\, 2nd Fl
+ oor\, Portland\, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-2
+ 22-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://
+ ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 
+ 12-Step plus 5 additional steps for co-occurring mental illness and substa
+ nce use. Peer-led meetings.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Portland Alano Club (Board Room)
+URL:http://ddaoregon.com/
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fd5742a493e3fee2@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251206T103000
+DTEND:20251206T113000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Virtual Meeting
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nAddress: 521 
+ SW 11th Ave\, 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsit
+ e: http://ddaoregon.com/\nDetails: 12-Step plus 5 additional steps for co-
+ occurring mental illness and substance use. Peer-led meetings.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p><strong>Addres
+ s:</strong> 521 SW 11th Ave\, 2nd Floor\, Portland\, OR 97205</p><p><stron
+ g>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><stron
+ g>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/<
+ /a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co
+ -occurring mental illness and substance use. Peer-led meetings.</p></BODY>
+ </HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:521 SW 11th Ave\, 2nd Floor\, Portland\, OR 97205
+URL:http://ddaoregon.com/
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

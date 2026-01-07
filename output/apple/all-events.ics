@@ -1,0 +1,1226 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Portland Metro Resources//Calendar Generator//EN
+X-WR-CALNAME:Portland Metro Resources - All Events
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:America/Los_Angeles
+X-APPLE-CALENDAR-COLOR:#7B68EE
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b8b48cbe08f220fe@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251207T150000
+DTEND:20251207T163000
+SUMMARY:NAMI Multnomah: Connection Peer Support (In-Person)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  464 SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\n
+ Website: https://namimultnomah.org\nDetails: No diagnosis required for any
+  groups. Groups are peer-led by trained volunteers with lived experience.
+LOCATION:Community for Positive Aging\, 1820 NE 40th Ave\, Portland OR 9721
+ 2
+URL:https://namimultnomah.org
+RRULE:FREQ=MONTHLY;BYDAY=SU;BYSETPOS=2,4
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dba6711eb13da213@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251207T150000
+DTEND:20251207T163000
+SUMMARY:NAMI Multnomah: Connection Peer Support (Online)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nAddress: 464 
+ SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsi
+ te: https://namimultnomah.org\nDetails: No diagnosis required for any grou
+ ps. Groups are peer-led by trained volunteers with lived experience.
+LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+URL:https://namimultnomah.org
+RRULE:FREQ=MONTHLY;BYDAY=SU;BYSETPOS=1,3
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f9777816b12080f9@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251208T190000
+DTEND:20251208T203000
+SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
+ LGBTQ2SIA+ adults 18+ with mental health symptoms\nAddress: 464 SE 185th A
+ ve\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: https:
+ //namimultnomah.org\nDetails: No diagnosis required for any groups. Groups
+  are peer-led by trained volunteers with lived experience.
+LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+URL:https://namimultnomah.org
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c8206c50171db713@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T180000
+DTEND:20251203T193000
+SUMMARY:NAMI Multnomah: Young Adult (18-35)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
+ Ages 18-35 with mental health symptoms\nAddress: 464 SE 185th Ave\, Suite 
+ 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: https://namimultn
+ omah.org\nDetails: No diagnosis required for any groups. Groups are peer-l
+ ed by trained volunteers with lived experience.
+LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+URL:https://namimultnomah.org
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=1,3
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4b11c0aa298f2306@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251204T190000
+DTEND:20251204T203000
+SUMMARY:NAMI Multnomah: BIPOC Peer Support
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
+ Black\, Indigenous\, and/or People of Color adults with mental health cond
+ itions\nAddress: 464 SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone
+ : 503-228-5692\nWebsite: https://namimultnomah.org\nDetails: No diagnosis 
+ required for any groups. Groups are peer-led by trained volunteers with li
+ ved experience.
+LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+URL:https://namimultnomah.org
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=1,3
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c08dbed81b24d0f5@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251209T190000
+DTEND:20251209T203000
+SUMMARY:NAMI Multnomah: Complex Trauma & Dissociation Support
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
+ Those experiencing complex trauma and/or dissociation\nAddress: 464 SE 185
+ th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: ht
+ tps://namimultnomah.org\nDetails: No diagnosis required for any groups. Gr
+ oups are peer-led by trained volunteers with lived experience.
+LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+URL:https://namimultnomah.org
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:531662b55bc0a9a7@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251209T190000
+DTEND:20251209T203000
+SUMMARY:NAMI Clackamas: NAMI Connection Support Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
+ o: For adults living with mental health conditions. Registration required.
+ \nAddress: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222\nPhone: 50
+ 3-344-5050\nWebsite: https://namicc.org\nDetails: Registration required fo
+ r most groups. All groups free and peer-led by trained volunteers with liv
+ ed experience.
+LOCATION:10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222
+URL:https://namicc.org
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:abda9c8971b1314b@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T170000
+DTEND:20251203T183000
+SUMMARY:NAMI Clackamas: Women (18+) Only Support Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Bi-weekly peer-led re
+ covery support\nAddress: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97
+ 222\nPhone: 503-344-5050\nWebsite: https://namicc.org\nDetails: Registrati
+ on required for most groups. All groups free and peer-led by trained volun
+ teers with lived experience.
+LOCATION:Milwaukie (in-person)
+URL:https://namicc.org
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=1,3
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:651932636ba165c7@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251208T190000
+DTEND:20251208T203000
+SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): LGBTQIA+ Suppo
+ rt Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online (1st Monday 
+ hybrid)\nWebsite: https://mentalhealthisforeveryone.com/\nDetails: Peer-fa
+ cilitated support groups since 2005. Typical attendance 10-25 people. Thre
+ e chapters: Eastside\, West Portland\, and LGBTQ. All meetings free and dr
+ op-in.
+URL:https://mentalhealthisforeveryone.com/
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:215024356d2538f2@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251209T183000
+DTEND:20251209T195000
+SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (W
+ est Portland)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nWebsite: ht
+ tps://mentalhealthisforeveryone.com/\nDetails: Peer-facilitated support gr
+ oups since 2005. Typical attendance 10-25 people. Three chapters: Eastside
+ \, West Portland\, and LGBTQ. All meetings free and drop-in.
+URL:https://mentalhealthisforeveryone.com/
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:49d6b06cbd9d0a5b@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251204T190000
+DTEND:20251204T203000
+SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (E
+ astside)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nWebsite: ht
+ tps://mentalhealthisforeveryone.com/\nDetails: Peer-facilitated support gr
+ oups since 2005. Typical attendance 10-25 people. Three chapters: Eastside
+ \, West Portland\, and LGBTQ. All meetings free and drop-in.
+URL:https://mentalhealthisforeveryone.com/
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:568f2b14f76f137e@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251205T190000
+DTEND:20251205T203000
+SUMMARY:Recovery Dharma Portland (PDX): Sarpashana
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
+  https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
+ and. Buddhist-based recovery using mindfulness and loving-kindness - alter
+ native to 12-step programs.
+LOCATION:Portland Insight Meditation Center\, 6536 SE Duke St
+URL:https://recoverydharmapdx.org/
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5dccfbb24ed3c3f2@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251208T190000
+DTEND:20251208T203000
+SUMMARY:Q Center Portland (LGBTQ+ Community Center): LGBTQIA2S+ Mental Heal
+ th Support
+DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: Peer-
+ led for anxiety\, depression\, bipolar\, PTSD\nAddress: 4115 N Mississippi
+  Ave\, Portland\, OR 97217\nPhone: 503-234-7837\nWebsite: https://www.pdxq
+ center.org/\nDetails: Portland's LGBTQ+ community center. Safe space with 
+ multi-generational programs. Many support groups and weekly events.
+LOCATION:4115 N Mississippi Ave\, Portland\, OR 97217
+URL:https://www.pdxqcenter.org/
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:65981a99ae5aad6e@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T190000
+DTEND:20251203T210000
+SUMMARY:Q Center Portland (LGBTQ+ Community Center): QTIBIPOC Community Spa
+ ce
+DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: For q
+ ueer\, trans\, intersex BIPOC community members\nAddress: 4115 N Mississip
+ pi Ave\, Portland\, OR 97217\nPhone: 503-234-7837\nWebsite: https://www.pd
+ xqcenter.org/\nDetails: Portland's LGBTQ+ community center. Safe space wit
+ h multi-generational programs. Many support groups and weekly events.
+LOCATION:4115 N Mississippi Ave\, Portland\, OR 97217
+URL:https://www.pdxqcenter.org/
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=2,4
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e3edc33c7c6abd02@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251206T100000
+DTEND:20251206T110000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Saturday Meeting
+DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
+ 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
+ regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
+ al illness and substance use. Peer-led meetings.
+LOCATION:Portland Alano Club (Board Room)
+URL:http://ddaoregon.com/
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fd5742a493e3fee2@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251206T103000
+DTEND:20251206T113000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Virtual Meeting
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nAddress: 521 
+ SW 11th Ave\, 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsit
+ e: http://ddaoregon.com/\nDetails: 12-Step plus 5 additional steps for co-
+ occurring mental illness and substance use. Peer-led meetings.
+LOCATION:521 SW 11th Ave\, 2nd Floor\, Portland\, OR 97205
+URL:http://ddaoregon.com/
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3edaaea6cbe1c3ad@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T190000
+DTEND:20251203T202000
+SUMMARY:Dharma Rain Zen Center: Wednesday Evening Meditation
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 8500 NE Sisk
+ iyou St\, Portland\, OR 97220\nWebsite: https://dharma-rain.org/\nDetails:
+  Oldest and largest Soto Zen Buddhist temple in Oregon\, founded 1975. All
+  welcome at Sunday program.
+LOCATION:8500 NE Siskiyou St\, Portland\, OR 97220
+URL:https://dharma-rain.org/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:85da36a11cd8de05@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251209T183000
+DTEND:20251209T200000
+SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Evening Group
+DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
+ at: In-person\nAddress: 6536 SE Duke St\, Portland\, OR 97206\nPhone: 503-
+ 519-9686\nWebsite: https://www.portlandinsight.org/\nDetails: Vipassana (i
+ nsight) tradition. Welcomes all faiths\, orientations\, genders\, abilitie
+ s\, ages\, and backgrounds.
+LOCATION:6536 SE Duke St\, Portland\, OR 97206
+URL:https://www.portlandinsight.org/
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:50283de6a02f284c@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251209T150000
+DTEND:20251209T163000
+SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Teatime
+DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
+ at: Online\nAddress: 6536 SE Duke St\, Portland\, OR 97206\nPhone: 503-519
+ -9686\nWebsite: https://www.portlandinsight.org/\nDetails: Vipassana (insi
+ ght) tradition. Welcomes all faiths\, orientations\, genders\, abilities\,
+  ages\, and backgrounds.
+LOCATION:6536 SE Duke St\, Portland\, OR 97206
+URL:https://www.portlandinsight.org/
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:69576450a4c8ec45@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251209T173000
+DTEND:20251209T193000
+SUMMARY:Gresham Senior Center: Tuesday Night Dance
+DESCRIPTION:Category: Fitness & Wellness\nInfo: Live band\nAddress: 600 NE 
+ 8th Street\, Room 130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: 
+ https://greshamoregon.gov/Recreation/
+LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
+URL:https://greshamoregon.gov/Recreation/
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fa2a6f7932e27924@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251208T130000
+DTEND:20251208T150000
+SUMMARY:Gresham Senior Center: Monday Movie Matinees
+DESCRIPTION:Category: Fitness & Wellness\nAddress: 600 NE 8th Street\, Room
+  130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: https://greshamor
+ egon.gov/Recreation/
+LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
+URL:https://greshamoregon.gov/Recreation/
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:79365ba3889a5027@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251205T130000
+DTEND:20251205T143000
+SUMMARY:Gresham Senior Center: Friday Speaker Series
+DESCRIPTION:Category: Fitness & Wellness\nAddress: 600 NE 8th Street\, Room
+  130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: https://greshamor
+ egon.gov/Recreation/
+LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
+URL:https://greshamoregon.gov/Recreation/
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2fc95dd415237f2f@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T130000
+DTEND:20251203T143000
+SUMMARY:Gresham Senior Center: Alzheimer's Caregiver Support
+DESCRIPTION:Category: Fitness & Wellness\nAddress: 600 NE 8th Street\, Room
+  130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: https://greshamor
+ egon.gov/Recreation/
+LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
+URL:https://greshamoregon.gov/Recreation/
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=2,4
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9d926352b7451d03@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251205T170000
+DTEND:20251205T210000
+SUMMARY:Rock Haven Climbing (Gresham Partnership): Free Friday Climbing
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE for Gresham residents 
+ on specific days\nNote: Includes rental shoes on Free Friday Climbing\nInf
+ o: Includes rental shoes\nAddress: Gresham\, OR\nWebsite: https://greshamo
+ regon.gov/Recreation/
+LOCATION:Gresham\, OR
+URL:https://greshamoregon.gov/Recreation/
+RRULE:FREQ=MONTHLY;BYDAY=FR;BYSETPOS=1
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:120fe89373741af7@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251206T180000
+DTEND:20251206T210000
+SUMMARY:Rock Haven Climbing (Gresham Partnership): Teen Nights
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE for Gresham residents 
+ on specific days\nNote: Includes rental shoes on Free Friday Climbing\nEli
+ gibility: Ages 13-18\nAddress: Gresham\, OR\nWebsite: https://greshamorego
+ n.gov/Recreation/
+LOCATION:Gresham\, OR
+URL:https://greshamoregon.gov/Recreation/
+RRULE:FREQ=MONTHLY;BYDAY=SA;BYSETPOS=1,3
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2c4a1c226a516cbd@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251208T183000
+DTEND:20251208T200000
+SUMMARY:Portland Parks Free Open Swim Sessions: Creston Pool Free Swim
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: Various Port
+ land pools\nPhone: 503-823-2525\nWebsite: https://portland.gov/parks/outdo
+ or-pools\nDetails: June 20 - August 31 season
+LOCATION:Creston Pool\, SE 44th & Powell
+URL:https://portland.gov/parks/outdoor-pools
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:19f37adeb9323fcb@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251209T130000
+DTEND:20251209T154500
+SUMMARY:Portland Parks Free Open Swim Sessions: Peninsula Pool Free Swim
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: Various Port
+ land pools\nPhone: 503-823-2525\nWebsite: https://portland.gov/parks/outdo
+ or-pools\nDetails: June 20 - August 31 season
+LOCATION:Peninsula Pool\, 700 N Rosa Parks Way
+URL:https://portland.gov/parks/outdoor-pools
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b759cc72f6eb0b0f@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T130000
+DTEND:20251203T150000
+SUMMARY:Portland Parks Free Open Swim Sessions: Grant Pool Free Swim
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: Various Port
+ land pools\nPhone: 503-823-2525\nWebsite: https://portland.gov/parks/outdo
+ or-pools\nDetails: June 20 - August 31 season
+LOCATION:Grant Pool\, 2300 NE 33rd Ave
+URL:https://portland.gov/parks/outdoor-pools
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4bb53254bccbec2d@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T183000
+DTEND:20251203T200000
+SUMMARY:Portland Parks Free Open Swim Sessions: Sellwood Pool Free Swim
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: Various Port
+ land pools\nPhone: 503-823-2525\nWebsite: https://portland.gov/parks/outdo
+ or-pools\nDetails: June 20 - August 31 season
+LOCATION:Sellwood Pool\, 7951 SE 7th Ave
+URL:https://portland.gov/parks/outdoor-pools
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c62bc17ff46d5148@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T180000
+DTEND:20251203T200000
+SUMMARY:NAYA (Native American Youth and Family Center): Culture Nights
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 5135 NE Columbia
+  Blvd\, Portland\, OR\nPhone: 503-288-8177\nWebsite: https://nayapdx.org/\
+ nDetails: 40+ programs. Youth Centered\, Family Driven\, Elder Guided. Ove
+ r 40 years serving Portland.
+LOCATION:5135 NE Columbia Blvd\, Portland\, OR
+URL:https://nayapdx.org/
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=1,3
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef7911bf9a58117f@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251204T183000
+DTEND:20251204T193000
+SUMMARY:MHCC Planetarium Sky Theatre: Early Planetarium Show
+DESCRIPTION:Category: Arts & Culture\nNote: Cash and card accepted at door\
+ nAddress: 26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath li
+ brary)\nPhone: 503-491-7309\nWebsite: https://www.mhcc.edu/community-resou
+ rces/planetarium-sky-theatre\nDetails: Affordable planetarium shows in Eas
+ t County. Different astronomy topic each month. Perfect for families.
+LOCATION:26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath libr
+ ary)
+URL:https://www.mhcc.edu/community-resources/planetarium-sky-theatre
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=1,3
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1e02aa101489f47a@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251204T200000
+DTEND:20251204T210000
+SUMMARY:MHCC Planetarium Sky Theatre: Late Planetarium Show
+DESCRIPTION:Category: Arts & Culture\nNote: Cash and card accepted at door\
+ nAddress: 26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath li
+ brary)\nPhone: 503-491-7309\nWebsite: https://www.mhcc.edu/community-resou
+ rces/planetarium-sky-theatre\nDetails: Affordable planetarium shows in Eas
+ t County. Different astronomy topic each month. Perfect for families.
+LOCATION:26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath libr
+ ary)
+URL:https://www.mhcc.edu/community-resources/planetarium-sky-theatre
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=1,3
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1f7bf9869ba2e83a@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T120000
+DTEND:20251203T130000
+SUMMARY:The Old Church Concert Hall: Lunchtime Concert Series
+DESCRIPTION:Category: Arts & Culture\nCost: FREE lunchtime concerts\nInfo: 
+ Historic 1882 venue\, fully wheelchair accessible\nAddress: 1422 SW 11th A
+ ve\, Portland\, OR 97201\nWebsite: https://theoldchurch.org/
+LOCATION:1422 SW 11th Ave\, Portland\, OR 97201
+URL:https://theoldchurch.org/
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=1,3
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff0fa1eb966895c2@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T190000
+DTEND:20251203T220000
+SUMMARY:Artichoke Community Music: Open Mic Night
+DESCRIPTION:Category: Arts & Culture\nCost: FREE (donations welcome)\nInfo:
+  Supportive listening-room environment\, no alcohol\nAddress: 2007 SE Powe
+ ll Blvd\, Portland\, OR 97202\nWebsite: https://artichokemusic.org/\nDetai
+ ls: Nonprofit community music center since 1973
+LOCATION:2007 SE Powell Blvd\, Portland\, OR 97202
+URL:https://artichokemusic.org/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0379c9729163580c@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251207T160000
+DTEND:20251207T170000
+SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
+ s
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Multiple Sundays th
+ roughout the year\nAddress: 1315 SW Park Ave\, Portland\, OR 97201
+LOCATION:1315 SW Park Ave\, Portland\, OR 97201
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:904f46f7f1ae22e0@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251205T170000
+DTEND:20251205T190000
+SUMMARY:Turn! Turn! Turn!: Comedy Open Mic
+DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
+ ingsworth St\, Portland\, OR
+LOCATION:8 NE Killingsworth St\, Portland\, OR
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d8fc3329cc6894ad@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251207T123000
+DTEND:20251207T153000
+SUMMARY:Turn! Turn! Turn!: Drawing Club
+DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
+ ingsworth St\, Portland\, OR
+LOCATION:8 NE Killingsworth St\, Portland\, OR
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d9e5489d6044ef66@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251208T200000
+DTEND:20251208T230000
+SUMMARY:Turn! Turn! Turn!: Karaoke Night
+DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
+ ingsworth St\, Portland\, OR
+LOCATION:8 NE Killingsworth St\, Portland\, OR
+RRULE:FREQ=MONTHLY;BYDAY=MO;BYSETPOS=2,4
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:361be0cc45ef3e68@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T180000
+DTEND:20251203T193000
+SUMMARY:Tigard Public Library: ESL Conversation Classes
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nNote: Fine-free library s
+ ystem\nInfo: All levels welcome\, no registration required\nAddress: 13500
+  SW Hall Blvd\, Tigard\, OR 97223\nPhone: 503-684-6537\nWebsite: https://w
+ ww.tigard-or.gov/your-government/departments/library\nDetails: Part of Was
+ hington County Cooperative Library Services (WCCLS). Cultural Pass Express
+  provides free/reduced admission to local venues.
+LOCATION:Technology Room (2nd floor)
+URL:https://www.tigard-or.gov/your-government/departments/library
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:91fcae740514833e@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20251120
+DTEND;VALUE=DATE:20251124
+SUMMARY:PCC Theatre: Much Ado About Nothing
+DESCRIPTION:Category: Arts & Culture\nCost: Ticket prices vary by section\n
+ Note: Student and senior discounts typically available\nAddress: 12000 SW 
+ 49th Ave\, Portland\, OR 97219\nPhone: 971-722-4848\nWebsite: https://www.
+ pcc.edu/theatre/\nEligibility: Open to the public\nDetails: Community coll
+ ege theater with professional-quality productions. Drama\, comedy\, and mu
+ sicals.
+LOCATION:12000 SW 49th Ave\, Portland\, OR 97219
+URL:https://www.pcc.edu/theatre/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0473d198bc52eabd@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:Portland Parks Summer Free For All
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nWebsite: https://port
+ land.gov/parks/free-for-all\nDetails: Movies at dusk\; concerts typically 
+ 6:30-8:30pm
+URL:https://portland.gov/parks/free-for-all
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b514914b512b76e2@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260518
+DTEND;VALUE=DATE:20260519
+SUMMARY:Sunday Parkways 2025
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nWebsite: https://port
+ land.gov/transportation/sunday-parkways\nDetails: Free BIKETOWN rides on e
+ vent days
+URL:https://portland.gov/transportation/sunday-parkways
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:89d4e6940795d2c3@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+SUMMARY:Sunday Parkways 2025
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nWebsite: https://port
+ land.gov/transportation/sunday-parkways\nDetails: Free BIKETOWN rides on e
+ vent days
+URL:https://portland.gov/transportation/sunday-parkways
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:64089eecf65fd24e@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+SUMMARY:Sunday Parkways 2025
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nWebsite: https://port
+ land.gov/transportation/sunday-parkways\nDetails: Free BIKETOWN rides on e
+ vent days
+URL:https://portland.gov/transportation/sunday-parkways
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2930646f99c22f4e@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Sunday Parkways 2025
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nWebsite: https://port
+ land.gov/transportation/sunday-parkways\nDetails: Free BIKETOWN rides on e
+ vent days
+URL:https://portland.gov/transportation/sunday-parkways
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dfec4ad22ddda582@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260721
+SUMMARY:Cathedral Park Jazz Festival
+DESCRIPTION:Category: Events & Festivals\nCost: FREE (donations accepted)\n
+ Address: Cathedral Park\, N Edison St & Pittsburg Ave\, Portland\, OR 9720
+ 3\nWebsite: https://jazzoregon.org/\nDetails: Longest-running free jazz/bl
+ ues festival west of the Mississippi. All-volunteer Jazz Society of Oregon
+ . Alcohol restricted to beer garden\; family-friendly.
+LOCATION:Cathedral Park\, N Edison St & Pittsburg Ave\, Portland\, OR 97203
+URL:https://jazzoregon.org/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:72c0d6101876f7bb@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260524
+SUMMARY:Portland Rose Festival
+DESCRIPTION:Category: Events & Festivals\nCost: Multiple free events\nWebsi
+ te: https://www.rosefestival.org/\nDetails: 60+ events over 3 weeks. 500\,
+ 000+ attend Grand Floral Parade.
+URL:https://www.rosefestival.org/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0f0d273481cc0ecd@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260721
+SUMMARY:Portland Pride
+DESCRIPTION:Category: Events & Festivals\nCost: Suggested $10 donation - no
+  one turned away\nAddress: Tom McCall Waterfront Park\, Portland\nWebsite:
+  https://portlandpride.org/\nDetails: One of largest donation-based LGBTQI
+ A2S+ Pride events on west coast. Moved from June to July in 2023 to avoid 
+ conflicts with Juneteenth and Delta Park Powwow. Run by Pride Northwest.
+LOCATION:Tom McCall Waterfront Park\, Portland
+URL:https://portlandpride.org/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:71e919571174ce47@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251204T170000
+DTEND:20251204T210000
+SUMMARY:First Thursday Art Walk
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Pearl Distri
+ ct\, Portland\nWebsite: https://www.pearldistrict.org/article/first-thursd
+ ay-is-back\nDetails: Since 1986. Dozens of galleries with free receptions.
+  Street Gallery runs April-October on NW 13th Ave (100+ artists\, 4 blocks
+ ).
+LOCATION:Pearl District\, Portland
+URL:https://www.pearldistrict.org/article/first-thursday-is-back
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bd517104cb00543c@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251204T180000
+DTEND:20251204T210000
+SUMMARY:Last Thursday on Alberta
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: NE Alberta S
+ treet\, 15th-30th Ave\, Portland\nWebsite: https://www.lastthursdayalberta
+ .org/\nDetails: Since 1997. 27 years of community-driven arts. Year-round 
+ gallery openings indoors. Free vending for local artists (no permit needed
+ ).
+LOCATION:NE Alberta Street\, 15th-30th Ave\, Portland
+URL:https://www.lastthursdayalberta.org/
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a51c3018c49f316a@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Portland Tree Lighting Ceremony
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Pioneer Cour
+ thouse Square\, 701 SW 6th Ave\, Portland\nWebsite: https://www.thesquarep
+ dx.org/\nDetails: Since 1984. 75-foot tree donated by Stimson Lumber. Pink
+  Martini sing-along\, 10\,000 lights. 2025 was 41st annual.
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland
+URL:https://www.thesquarepdx.org/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c8f42108a7538ee3@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20270101
+SUMMARY:Peacock Lane Holiday Lights
+DESCRIPTION:Category: Events & Festivals\nCost: FREE (donations accepted at
+  cocoa booth)\nAddress: SE 39th Ave between Belmont & Stark\, Portland\nWe
+ bsite: https://www.peacocklane.org/\nDetails: Since 1932 (93 years). Histo
+ ric Tudor homes. 2032 will be 100th anniversary.
+LOCATION:SE 39th Ave between Belmont & Stark\, Portland
+URL:https://www.peacocklane.org/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d50d5cc747663bed@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T183000
+DTEND:20251203T203000
+SUMMARY:Gresham Wednesday Music in the Parks: Music in the Parks
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: July-August at 
+ Nadaka Nature Park\, Bella Vista Park\, Butler Creek Park\, Vance Park\nAd
+ dress: Various Gresham parks\nPhone: 503-618-2300\nWebsite: https://gresha
+ moregon.gov/Recreation/
+LOCATION:Various Gresham parks
+URL:https://greshamoregon.gov/Recreation/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:708c6dfd86bfecc0@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY:Wooden Shoe Tulip Festival
+DESCRIPTION:Category: Events & Festivals\nCost: $16 weekday / $21 weekend a
+ dults\; Children 12 and under FREE\nNote: Online tickets only\; best bloom
+  mid-April\nAddress: 33814 S Meridian Rd\, Woodburn\, OR 97071\nWebsite: h
+ ttps://www.woodenshoe.com/
+LOCATION:33814 S Meridian Rd\, Woodburn\, OR 97071
+URL:https://www.woodenshoe.com/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b18dd951df2feef7@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260502
+DTEND;VALUE=DATE:20260504
+SUMMARY:Spring Garden Fair
+DESCRIPTION:Category: Events & Festivals\nCost: $7 one-day / $12 two-day\; 
+ Kids under 16 FREE\nAddress: Clackamas County Fairgrounds\, 694 NE 4th Ave
+ \, Canby\, OR
+LOCATION:Clackamas County Fairgrounds\, 694 NE 4th Ave\, Canby\, OR
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:396829af8d43697e@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
+SUMMARY:Gresham Arts Festival
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: 401 NE 2nd S
+ t\, Gresham\, OR\nWebsite: https://greshamoregon.gov/\nDetails: 150+ artis
+ ts\, kids village\, live music\, food trucks
+LOCATION:401 NE 2nd St\, Gresham\, OR
+URL:https://greshamoregon.gov/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4fbec19f3f135081@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:India Festival
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Pioneer Cour
+ thouse Square\, 701 SW 6th Ave\, Portland\, OR\nDetails: 10\,000+ attendee
+ s\, Indian dance\, music\, food
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland\, OR
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e17302519b24aeeb@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:Obon Festival (Oregon Buddhist Temple)
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Oregon Buddh
+ ist Temple\, 3720 SE 34th Ave\, Portland\, OR 97202\nDetails: Japanese Bud
+ dhist festival\, all welcome. Free dance practices held beforehand\; no ex
+ perience needed
+LOCATION:Oregon Buddhist Temple\, 3720 SE 34th Ave\, Portland\, OR 97202
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:708ce630a215d18c@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:Swan Island Dahlias
+DESCRIPTION:Category: Events & Festivals\nCost: FREE entry (flowers for pur
+ chase)\nAddress: 995 NW 22nd Ave\, Canby\, OR\nWebsite: https://www.dahlia
+ s.com/
+LOCATION:995 NW 22nd Ave\, Canby\, OR
+URL:https://www.dahlias.com/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:299891133691a158@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260823
+SUMMARY:Clackamas County Fair
+DESCRIPTION:Category: Events & Festivals\nCost: $8-12 adults (look for earl
+ y-week discount days)\nAddress: 694 NE 4th Ave\, Canby\, OR 97013\nWebsite
+ : https://clackamascountyfair.com/\nDetails: Carnival\, PRCA rodeo\, lives
+ tock\, multiple entertainment stages
+LOCATION:694 NE 4th Ave\, Canby\, OR 97013
+URL:https://clackamascountyfair.com/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cf6b2748cda84a9c@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260921
+SUMMARY:Portland Polish Festival
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Polish Hall\
+ , 3900 N Interstate Ave\, Portland\, OR 97227
+LOCATION:Polish Hall\, 3900 N Interstate Ave\, Portland\, OR 97227
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1b5cf0280b32b4e2@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261005
+SUMMARY:Portland Greek Festival
+DESCRIPTION:Category: Events & Festivals\nCost: $5 (children under 12 FREE)
+ \nAddress: Holy Trinity Greek Orthodox Cathedral\, 3131 NE Glisan St\, Por
+ tland\, OR
+LOCATION:Holy Trinity Greek Orthodox Cathedral\, 3131 NE Glisan St\, Portla
+ nd\, OR
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b297a771e14010c2@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Día de los Muertos (Gresham)
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Gresham Arts
+  Plaza\, 401 NE 2nd St\, Gresham\, OR\nWebsite: https://greshamoregon.gov/
+LOCATION:Gresham Arts Plaza\, 401 NE 2nd St\, Gresham\, OR
+URL:https://greshamoregon.gov/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f74bcb91ff4bdb04@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:Happy Valley Fourth of July Festival
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Happy Valley
+  Park\, Happy Valley\, OR
+LOCATION:Happy Valley Park\, Happy Valley\, OR
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:afe46f3866470119@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251204T180000
+DTEND:20251204T200000
+SUMMARY:Concerts in the Valley (Happy Valley): Thursday Concert
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: July-August\nAd
+ dress: Happy Valley Park\, Happy Valley\, OR
+LOCATION:Happy Valley Park\, Happy Valley\, OR
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c84065f96fc8c6dd@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:Happy Valley Oktoberfest
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Happy Valley
+  Park\, Happy Valley\, OR
+LOCATION:Happy Valley Park\, Happy Valley\, OR
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6307714643aeb4c8@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Happy Valley Tree Lighting
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: 16000 SE Mis
+ ty Dr\, Happy Valley\, OR
+LOCATION:16000 SE Misty Dr\, Happy Valley\, OR
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aaa23b8964841ce2@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260215
+DTEND;VALUE=DATE:20260217
+SUMMARY:Oregon Free Fishing Weekends
+DESCRIPTION:Category: Events & Festivals\nCost: FREE - no license required\
+ nAddress: Statewide - all Oregon waters\nWebsite: https://myodfw.com/artic
+ les/free-fishing-days-and-events
+LOCATION:Statewide - all Oregon waters
+URL:https://myodfw.com/articles/free-fishing-days-and-events
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:77ae73c28b0f9ccd@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260608
+SUMMARY:Oregon Free Fishing Weekends
+DESCRIPTION:Category: Events & Festivals\nCost: FREE - no license required\
+ nAddress: Statewide - all Oregon waters\nWebsite: https://myodfw.com/artic
+ les/free-fishing-days-and-events
+LOCATION:Statewide - all Oregon waters
+URL:https://myodfw.com/articles/free-fishing-days-and-events
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aadf365d4c01dd72@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261129
+SUMMARY:Oregon Free Fishing Weekends
+DESCRIPTION:Category: Events & Festivals\nCost: FREE - no license required\
+ nAddress: Statewide - all Oregon waters\nWebsite: https://myodfw.com/artic
+ les/free-fishing-days-and-events
+LOCATION:Statewide - all Oregon waters
+URL:https://myodfw.com/articles/free-fishing-days-and-events
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1a234bcce979e25f@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261219
+SUMMARY:Christmas Ships Parade
+DESCRIPTION:Category: Events & Festivals\nCost: FREE viewing from any river
+ front\nAddress: Columbia and Willamette Rivers\, Portland\, OR\nWebsite: h
+ ttps://christmasships.org/\nDetails: 15 nights of decorated boats on the r
+ ivers
+LOCATION:Columbia and Willamette Rivers\, Portland\, OR
+URL:https://christmasships.org/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da583f55cb2a0059@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251205T183000
+DTEND:20251205T203000
+SUMMARY:Tualatin Concerts in the Parks
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Tualatin Com
+ munity Park\, 8515 SW Tualatin Rd\nWebsite: https://www.tualatinoregon.gov
+ /recreation/concerts-parks\nDetails: Free outdoor summer concert series fe
+ aturing diverse music genres.
+LOCATION:Tualatin Community Park\, 8515 SW Tualatin Rd
+URL:https://www.tualatinoregon.gov/recreation/concerts-parks
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d0d1268d98c1ddcc@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20260206
+DTEND;VALUE=DATE:20260207
+SUMMARY:Cascade Festival of African Films
+DESCRIPTION:Category: Events & Festivals\nCost: FREE - all screenings free 
+ to public\nNote: Oldest and longest-running African film festival in the U
+ S\nAddress: Hollywood Theatre\, 4122 NE Sandy Blvd\, Portland\, OR 97212\n
+ Website: https://www.africanfilmfestival.org/\nEligibility: Open to the pu
+ blic\nDetails: Free 5-week celebration of African cinema during Black Hist
+ ory Month. 36 years running. Community discussions after films.
+LOCATION:Hollywood Theatre\, 4122 NE Sandy Blvd\, Portland\, OR 97212
+URL:https://www.africanfilmfestival.org/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:435f2bc1450ffc3a@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251204T150000
+DTEND:20251204T190000
+SUMMARY:Rockwood Community Market
+DESCRIPTION:Category: Food & Farms\nCost: FREE to attend\nAddress: Downtown
+  Rockwood Plaza\, 458 SE 185th Ave\, Gresham\, OR\nWebsite: https://rockwo
+ odcommunitymarket.com\nDetails: Evening market serving the diverse Rockwoo
+ d community.
+LOCATION:Downtown Rockwood Plaza\, 458 SE 185th Ave\, Gresham\, OR
+URL:https://rockwoodcommunitymarket.com
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:22b230d60826a8b3@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T083000
+DTEND:20251203T113000
+SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
+DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
+ some low-cost\nInfo: Novice to advanced\; guidance for starters\nAddress: 
+ 5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222\nPhone: 503-653-8100\nWebs
+ ite: https://ncprd.org/milwaukie-community-center\nDetails: Primary hub fo
+ r older adults in North Clackamas. Meals on Wheels program delivers 300+ m
+ eals daily.
+LOCATION:5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222
+URL:https://ncprd.org/milwaukie-community-center
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7cb8b8ed6e217a00@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251208T020000
+DTEND:20251208T030000
+SUMMARY:Oregon Food Bank Volunteer Program
+DESCRIPTION:Category: Social Activities\nCost: FREE\nAddress: 7900 NE 33rd 
+ Dr\, Portland\, OR 97211\nWebsite: https://oregonfoodbank.org/get-involved
+ /volunteer\nDetails: Team-oriented volunteer shifts
+LOCATION:7900 NE 33rd Dr\, Portland\, OR 97211
+URL:https://oregonfoodbank.org/get-involved/volunteer
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fccea8118d9f2fba@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T180000
+DTEND:20251203T200000
+SUMMARY:Starlight Knitting Society: Wednesday Knitting Circle
+DESCRIPTION:Category: Social Activities\nCost: FREE\nAddress: 7028 SE 52nd 
+ Ave\, Portland\, OR 97206
+LOCATION:7028 SE 52nd Ave\, Portland\, OR 97206
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8961f5d05e61f6ab@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251209T150000
+DTEND:20251209T170000
+SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
+DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nAddress: Portl
+ and\, OR
+LOCATION:Portland\, OR
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8569003d0f2e736e@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251204T190000
+DTEND:20251204T210000
+SUMMARY:Puddletown Knitters Guild: Monthly Meeting
+DESCRIPTION:Category: Social Activities\nCost: FREE for visitors\nInfo: Sep
+ tember through May\nAddress: Rose City Park Presbyterian Church\, 1907 NE 
+ 45th Ave\, Portland\, OR
+LOCATION:Rose City Park Presbyterian Church\, 1907 NE 45th Ave\, Portland\,
+  OR
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=2
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,101 @@
+# Template for new resource entries in sources.yaml
+# Copy this template and fill in all applicable fields
+
+- id: kebab-case-unique-id  # e.g., portland-art-museum, nami-multnomah
+  name: "Official Name of Resource"
+  category: category_name  # See CLAUDE.md for valid categories
+  
+  # Location (if applicable)
+  address: "Full Street Address, City, OR ZIP"
+  phone: 503-XXX-XXXX
+  website: https://official-website.org
+  
+  # Verification
+  source_urls:
+    - https://primary-source.org
+    - https://secondary-source.org
+  last_verified: 2025-XX-XX  # Date you researched this
+  next_audit: 2025-XX-XX     # Based on audit_frequency
+  audit_frequency: quarterly  # weekly | monthly | quarterly | annually
+  
+  # Cost and Access
+  pricing:
+    description: "FREE or cost summary"
+    regular: "$XX"           # If applicable
+    discounted: "$X"         # If discounts available
+    accepts:                 # Assistance programs accepted
+      - EBT/SNAP
+      - WIC
+    notes: "Additional pricing context"
+  
+  eligibility: "Who can access this resource"
+  
+  # Schedule
+  hours: "Mon-Fri 9am-5pm"   # Operating hours
+  season: "June-August"      # If seasonal
+  
+  # For transit-accessible locations
+  transit: "Bus #XX, MAX Blue Line"
+
+  # Enrichment fields for peer specialists
+  practical_tips:
+    first_visit: "What to expect, where to check in"
+    registration: "How to sign up if required"
+    what_to_bring: "ID, water bottle, etc."
+    good_to_know: "Best times, insider tips"
+
+  accessibility:  # Standardized tags (use any that apply)
+    - wheelchair_accessible
+    - transit_nearby       # Within 5 min walk of bus/MAX
+    - elevator
+    - asl_available
+    - hearing_loop
+    - scent_free
+    - low_vision_friendly
+    - gender_neutral_restroom
+    - sliding_scale        # For services with fees
+
+  accessibility_notes: "Additional details about accessibility"
+
+  social_intensity: solo  # solo | drop_in | casual_group | structured_group | one_on_one
+
+  good_for:  # Standardized tags (use any that apply)
+    - anxiety_friendly     # Quiet, low-pressure, can leave easily
+    - grief
+    - isolation            # Good for reconnecting
+    - new_to_area          # Welcoming to newcomers
+    - low_energy           # Doesn't require much physical/mental effort
+    - active               # Physical activity involved
+    - creative             # Art, writing, music
+    - outdoor
+    - indoor
+    - family_friendly
+
+  # Programs (for resources with multiple offerings)
+  programs:
+    - name: "Program Name"
+      schedule: "When it meets"
+      location: "Where if different from main address"
+      cost: "FREE or $X"
+      format: "In-person | Online | Hybrid"
+  
+  # Features/amenities
+  features:
+    - Feature 1
+    - Feature 2
+  
+  # Documentation
+  guide_location: "activities-guide-X.md#section-name"
+  notes: "Internal notes about this resource"
+  
+  # Status flags
+  flags:
+    - "🔄 SEASONAL"         # Only available part of year
+    - "📅 DATE-SENSITIVE"   # Specific event dates
+    - "⚠️ VERIFY"           # Needs verification
+    - "❓ UNVERIFIED"       # Not yet verified via official source
+    - "❌ CLOSED"           # Permanently closed
+  
+  # If closed
+  status: CLOSED             # Only if closed
+  closed_date: 2025-XX-XX    # When it closed

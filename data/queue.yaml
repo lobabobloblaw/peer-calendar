@@ -1,0 +1,203 @@
+# Portland Metro Resources - Addition Queue
+# Resources to research and potentially add to the database
+
+---
+# Priority levels:
+# - high: Frequently requested or fills a major gap
+# - medium: Would be useful addition
+# - low: Nice to have
+
+pending:
+  # No pending items - all sessions complete!
+
+---
+# Completed additions moved here with date:
+completed:
+  # Session 5: Community Colleges (Completed December 2025)
+  - name: "PCC free community programs"
+    category: arts_culture
+    completed_date: 2025-12-03
+    entry_ids:
+      - pcc-art-galleries
+      - pcc-theatre-much-ado
+      - cascade-festival-african-films
+      - jade-night-market
+    notes: "Added 3 PCC campus art galleries (Paragon, Helzer, North View - all FREE), PCC Theatre Shakespeare production (Nov 2025), Cascade Festival of African Films (FREE 5-week event Feb-Mar 2026), Jade International Night Market (FREE annual event Aug)"
+
+  - name: "Mt. Hood Community College programs"
+    category: arts_culture
+    completed_date: 2025-12-03
+    entry_ids:
+      - mhcc-planetarium
+      - mhcc-visual-arts-gallery
+      - mhcc-senior-tuition
+    notes: "Added MHCC Planetarium Sky Theatre ($5 adults, FREE kids 15 & under, 1st/3rd Thursdays), Visual Arts Gallery (FREE), Senior Tuition Discount (FREE audit for 65+)"
+  - name: "Washington County YMCA locations"
+    category: fitness_wellness
+    completed_date: 2025-12-02
+    entry_id: ymca-columbia-willamette
+    notes: "Added 3 locations (Beaverton, Sherwood, Clark County) with hours and financial assistance"
+
+  - name: "Clackamas County Library programs"
+    category: arts_culture
+    completed_date: 2025-12-02
+    entry_id: clackamas-county-libraries
+    notes: "Added LINCC system with Oak Lodge and Gladstone locations, programs, and services"
+
+  - name: "Gresham Senior Center full program list"
+    category: fitness_wellness
+    completed_date: 2025-12-02
+    entry_id: gresham-senior-center
+    notes: "Entry already had programs; added website URL and source URL"
+
+  - name: "Write Around Portland schedule"
+    category: social_activities
+    completed_date: 2025-12-02
+    entry_id: write-around-portland
+    notes: "Entry already complete with 10-week workshops and public readings"
+
+  - name: "THPRD (Tualatin Hills) fee waiver details"
+    category: discount_programs
+    completed_date: 2025-12-02
+    entry_id: thprd-financial-aid
+    notes: "Full program details researched and added to sources.yaml including income guidelines, covered programs, application process"
+
+  - name: "Free community meals (comprehensive)"
+    category: food_farms
+    completed_date: 2025-12-02
+    notes: "Extracted existing entries (Blanchet House, Sisters of the Road, Portland Rescue Mission, Sikh Center Langar, Loaves & Fishes) from guides to sources.yaml"
+
+  # Session 1: Clackamas County Focus (Completed December 2025)
+  - name: "North Clackamas Parks & Recreation programs"
+    category: fitness_wellness
+    completed_date: 2025-12-02
+    entry_ids:
+      - ncprd-aquatic-park
+      - ncprd-scholarship
+    notes: "Added Aquatic Park (address, hours, pricing, programs) and Scholarship Program (25-75% off for eligible residents)"
+
+  - name: "Clackamas County senior centers"
+    category: social_activities
+    completed_date: 2025-12-02
+    entry_ids:
+      - milwaukie-community-center
+      - pioneer-community-center
+      - lake-oswego-acc
+      - clackamas-adrc
+    notes: "Added 3 senior centers (Milwaukie, Oregon City Pioneer, Lake Oswego ACC) plus ADRC central resource hub"
+
+  - name: "Oregon City community resources"
+    category: arts_culture
+    completed_date: 2025-12-02
+    entry_ids:
+      - pioneer-community-center
+      - end-of-oregon-trail
+    notes: "Added End of Oregon Trail Interpretive Center with free days and library pass program"
+
+  - name: "Milwaukie community programs"
+    category: social_activities
+    completed_date: 2025-12-02
+    entry_ids:
+      - milwaukie-community-center
+      - ncprd-aquatic-park
+    notes: "Added Milwaukie Community Center with Meals on Wheels, drop-in activities, senior services"
+
+  - name: "Clackamas County food resources"
+    category: food_farms
+    completed_date: 2025-12-02
+    entry_ids:
+      - clackamas-service-center
+      - gleaners-clackamas
+      - lake-oswego-farmers-market
+    notes: "Added Clackamas Service Center (largest food pantry), Gleaners of Clackamas County, Lake Oswego Farmers Market with SNAP matching"
+
+  # Session 2: East Portland/Gresham (Completed December 2025)
+  - name: "East Portland community centers"
+    category: fitness_wellness
+    completed_date: 2025-12-02
+    entry_ids:
+      - east-portland-cc
+      - mt-scott-cc
+      - charles-jordan-cc
+    notes: "Added 3 PP&R community centers with Access Discount (up to 90% off), TeenForce free program, pool/gym details"
+
+  - name: "Gresham city programs and events"
+    category: events
+    completed_date: 2025-12-02
+    entry_ids:
+      - gresham-farmers-market
+      - main-city-park-gresham
+      - gresham-movies-in-park
+    notes: "Added Gresham Farmers Market (EBT accepted), Main City Park with Tsuru Island Japanese Garden, Movies in the Park"
+
+  - name: "Rockwood community resources"
+    category: social_activities
+    completed_date: 2025-12-02
+    entry_ids:
+      - rockwood-library
+      - rockwood-community-market
+    notes: "Added Rockwood Library (renovated Oct 2025, makerspace with 3D printers), Rockwood Community Market"
+
+  # Session 3: Tigard/SW Portland Focus (Completed December 2025)
+  - name: "Tigard community programs"
+    category: social_activities
+    completed_date: 2025-12-02
+    entry_ids:
+      - tigard-senior-center
+      - tigard-public-library
+      - cook-park-tigard
+      - ttad-pools
+      - elsie-stuhr-center
+    notes: "Added Tigard Senior Center (Meals on Wheels dining), Tigard Library (WCCLS, ESL classes), Cook Park (79 acres, inclusive playground), TTAD pools (SilverSneakers), Elsie Stuhr 55+ Center"
+
+  - name: "Lake Oswego free/low-cost options"
+    category: social_activities
+    completed_date: 2025-12-02
+    entry_ids:
+      - lake-oswego-library
+      - lake-oswego-parks-scholarship
+      - lake-oswego-farmers-market
+      - lake-oswego-summer-concerts
+      - lake-oswego-lorac
+    notes: "Added LO Library (Cultural Pass Express, film series), Parks Scholarship ($300/person), Farmers Market (SNAP matching), Summer Concerts, LORAC (opened June 2025)"
+
+  - name: "Tualatin community resources"
+    category: social_activities
+    completed_date: 2025-12-02
+    entry_ids:
+      - tualatin-public-library
+      - tualatin-community-park
+      - tualatin-concerts-in-parks
+      - juanita-pohl-center
+      - tualatin-recreation-scholarship
+      - tualatin-heritage-center
+    notes: "Added Tualatin Library (Makerspace, music series), Community Park (skate park, river access), Concerts in Parks (free summer series), Juanita Pohl Active Aging Center (Spanish support group, free legal aid), Recreation Scholarship, Heritage Center (Fossil Fest)"
+
+  # Session 4: Free Fitness Region-wide (Completed December 2025)
+  - name: "Free outdoor fitness groups"
+    category: fitness_wellness
+    completed_date: 2025-12-02
+    entry_ids:
+      - november-project-portland
+      - foot-traffic-group-runs
+      - portland-trail-runners
+      - trail-sisters-portland
+      - ppr-fitness-in-park
+      - thprd-fitness-in-park
+    notes: "Added November Project (Wed 6:29am), Foot Traffic runs (4 locations), Portland Trail Runners (Sat), Trail Sisters (Mon women's run), PP&R Fitness in Park (summer), THPRD Fitness in Park (year-round)"
+
+  - name: "Free swim times at pools"
+    category: fitness_wellness
+    completed_date: 2025-12-02
+    entry_ids:
+      - ppr-free-swim
+    notes: "Added PP&R free swim sessions at 6 outdoor pools (Creston, Grant, Montavilla, Peninsula, Pier, Sellwood) - one free session per pool weekly during summer"
+
+  - name: "Yoga and wellness programs"
+    category: fitness_wellness
+    completed_date: 2025-12-02
+    entry_ids:
+      - peoples-yoga
+      - yoga-on-yamhill
+      - recovery-dharma-pdx
+    notes: "Added People's Yoga (2 locations, sliding scale, free Sun class), Yoga on Yamhill (donation-based $8-12), Recovery Dharma PDX (20+ meetings weekly, in-person and virtual)"

@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Portland Metro Resources//Calendar Generator//EN
+X-WR-CALNAME:Portland Resources - Social Activities
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:22b230d60826a8b3@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T083000
+DTEND:20251203T113000
+SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
+DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
+ some low-cost\nInfo: Novice to advanced\; guidance for starters\nAddress: 
+ 5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222\nPhone: 503-653-8100\nWebs
+ ite: https://ncprd.org/milwaukie-community-center\nDetails: Primary hub fo
+ r older adults in North Clackamas. Meals on Wheels program delivers 300+ m
+ eals daily.
+LOCATION:5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222
+URL:https://ncprd.org/milwaukie-community-center
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7cb8b8ed6e217a00@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251208T020000
+DTEND:20251208T030000
+SUMMARY:Oregon Food Bank Volunteer Program
+DESCRIPTION:Category: Social Activities\nCost: FREE\nAddress: 7900 NE 33rd 
+ Dr\, Portland\, OR 97211\nWebsite: https://oregonfoodbank.org/get-involved
+ /volunteer\nDetails: Team-oriented volunteer shifts
+LOCATION:7900 NE 33rd Dr\, Portland\, OR 97211
+URL:https://oregonfoodbank.org/get-involved/volunteer
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fccea8118d9f2fba@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T180000
+DTEND:20251203T200000
+SUMMARY:Starlight Knitting Society: Wednesday Knitting Circle
+DESCRIPTION:Category: Social Activities\nCost: FREE\nAddress: 7028 SE 52nd 
+ Ave\, Portland\, OR 97206
+LOCATION:7028 SE 52nd Ave\, Portland\, OR 97206
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8961f5d05e61f6ab@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251209T150000
+DTEND:20251209T170000
+SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
+DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nAddress: Portl
+ and\, OR
+LOCATION:Portland\, OR
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8569003d0f2e736e@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251204T190000
+DTEND:20251204T210000
+SUMMARY:Puddletown Knitters Guild: Monthly Meeting
+DESCRIPTION:Category: Social Activities\nCost: FREE for visitors\nInfo: Sep
+ tember through May\nAddress: Rose City Park Presbyterian Church\, 1907 NE 
+ 45th Ave\, Portland\, OR
+LOCATION:Rose City Park Presbyterian Church\, 1907 NE 45th Ave\, Portland\,
+  OR
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=2
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

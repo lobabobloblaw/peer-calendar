@@ -1,0 +1,197 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Portland Metro Resources//Calendar Generator//EN
+X-WR-CALNAME:Portland Resources - Arts & Culture
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c62bc17ff46d5148@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T180000
+DTEND:20251203T200000
+SUMMARY:NAYA (Native American Youth and Family Center): Culture Nights
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 5135 NE Columbia
+  Blvd\, Portland\, OR\nPhone: 503-288-8177\nWebsite: https://nayapdx.org/\
+ nDetails: 40+ programs. Youth Centered\, Family Driven\, Elder Guided. Ove
+ r 40 years serving Portland.
+LOCATION:5135 NE Columbia Blvd\, Portland\, OR
+URL:https://nayapdx.org/
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=1,3
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ef7911bf9a58117f@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251204T183000
+DTEND:20251204T193000
+SUMMARY:MHCC Planetarium Sky Theatre: Early Planetarium Show
+DESCRIPTION:Category: Arts & Culture\nNote: Cash and card accepted at door\
+ nAddress: 26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath li
+ brary)\nPhone: 503-491-7309\nWebsite: https://www.mhcc.edu/community-resou
+ rces/planetarium-sky-theatre\nDetails: Affordable planetarium shows in Eas
+ t County. Different astronomy topic each month. Perfect for families.
+LOCATION:26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath libr
+ ary)
+URL:https://www.mhcc.edu/community-resources/planetarium-sky-theatre
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=1,3
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1e02aa101489f47a@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251204T200000
+DTEND:20251204T210000
+SUMMARY:MHCC Planetarium Sky Theatre: Late Planetarium Show
+DESCRIPTION:Category: Arts & Culture\nNote: Cash and card accepted at door\
+ nAddress: 26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath li
+ brary)\nPhone: 503-491-7309\nWebsite: https://www.mhcc.edu/community-resou
+ rces/planetarium-sky-theatre\nDetails: Affordable planetarium shows in Eas
+ t County. Different astronomy topic each month. Perfect for families.
+LOCATION:26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath libr
+ ary)
+URL:https://www.mhcc.edu/community-resources/planetarium-sky-theatre
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=1,3
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1f7bf9869ba2e83a@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T120000
+DTEND:20251203T130000
+SUMMARY:The Old Church Concert Hall: Lunchtime Concert Series
+DESCRIPTION:Category: Arts & Culture\nCost: FREE lunchtime concerts\nInfo: 
+ Historic 1882 venue\, fully wheelchair accessible\nAddress: 1422 SW 11th A
+ ve\, Portland\, OR 97201\nWebsite: https://theoldchurch.org/
+LOCATION:1422 SW 11th Ave\, Portland\, OR 97201
+URL:https://theoldchurch.org/
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=1,3
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff0fa1eb966895c2@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T190000
+DTEND:20251203T220000
+SUMMARY:Artichoke Community Music: Open Mic Night
+DESCRIPTION:Category: Arts & Culture\nCost: FREE (donations welcome)\nInfo:
+  Supportive listening-room environment\, no alcohol\nAddress: 2007 SE Powe
+ ll Blvd\, Portland\, OR 97202\nWebsite: https://artichokemusic.org/\nDetai
+ ls: Nonprofit community music center since 1973
+LOCATION:2007 SE Powell Blvd\, Portland\, OR 97202
+URL:https://artichokemusic.org/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0379c9729163580c@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251207T160000
+DTEND:20251207T170000
+SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
+ s
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Multiple Sundays th
+ roughout the year\nAddress: 1315 SW Park Ave\, Portland\, OR 97201
+LOCATION:1315 SW Park Ave\, Portland\, OR 97201
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:904f46f7f1ae22e0@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251205T170000
+DTEND:20251205T190000
+SUMMARY:Turn! Turn! Turn!: Comedy Open Mic
+DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
+ ingsworth St\, Portland\, OR
+LOCATION:8 NE Killingsworth St\, Portland\, OR
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d8fc3329cc6894ad@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251207T123000
+DTEND:20251207T153000
+SUMMARY:Turn! Turn! Turn!: Drawing Club
+DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
+ ingsworth St\, Portland\, OR
+LOCATION:8 NE Killingsworth St\, Portland\, OR
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d9e5489d6044ef66@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251208T200000
+DTEND:20251208T230000
+SUMMARY:Turn! Turn! Turn!: Karaoke Night
+DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
+ ingsworth St\, Portland\, OR
+LOCATION:8 NE Killingsworth St\, Portland\, OR
+RRULE:FREQ=MONTHLY;BYDAY=MO;BYSETPOS=2,4
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:361be0cc45ef3e68@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART:20251203T180000
+DTEND:20251203T193000
+SUMMARY:Tigard Public Library: ESL Conversation Classes
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nNote: Fine-free library s
+ ystem\nInfo: All levels welcome\, no registration required\nAddress: 13500
+  SW Hall Blvd\, Tigard\, OR 97223\nPhone: 503-684-6537\nWebsite: https://w
+ ww.tigard-or.gov/your-government/departments/library\nDetails: Part of Was
+ hington County Cooperative Library Services (WCCLS). Cultural Pass Express
+  provides free/reduced admission to local venues.
+LOCATION:Technology Room (2nd floor)
+URL:https://www.tigard-or.gov/your-government/departments/library
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:91fcae740514833e@portlandresources.org
+DTSTAMP:20251203T083810Z
+DTSTART;VALUE=DATE:20251120
+DTEND;VALUE=DATE:20251124
+SUMMARY:PCC Theatre: Much Ado About Nothing
+DESCRIPTION:Category: Arts & Culture\nCost: Ticket prices vary by section\n
+ Note: Student and senior discounts typically available\nAddress: 12000 SW 
+ 49th Ave\, Portland\, OR 97219\nPhone: 971-722-4848\nWebsite: https://www.
+ pcc.edu/theatre/\nEligibility: Open to the public\nDetails: Community coll
+ ege theater with professional-quality productions. Drama\, comedy\, and mu
+ sicals.
+LOCATION:12000 SW 49th Ave\, Portland\, OR 97219
+URL:https://www.pcc.edu/theatre/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

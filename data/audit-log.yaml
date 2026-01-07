@@ -1,0 +1,314 @@
+# Portland Metro Resources - Audit Log
+# Records all verification activities and changes
+
+---
+- date: 2025-12-02
+  type: audit
+  auditor: claude
+  summary: "Completed January 2026 peer support audits early - all 7 entries verified"
+  entries_audited: 7
+  entries:
+    - id: nami-multnomah
+      status: verified
+      changes: "Schedule confirmed current. Next audit Feb 2026."
+    - id: nami-clackamas
+      status: updated
+      changes: |
+        - Added Connection Support Group (Tuesdays 7-8:30pm Zoom)
+        - Added Family Support Group
+        - Added Spanish-Speaking Support Group
+        - Added LGBTQ+ joint program with NAMI Multnomah
+        - Added Suicide Bereavement Support Group
+        - Updated source URLs
+    - id: folktime
+      status: updated
+      changes: |
+        - Updated Oregon City address to 150 Beavercreek Rd, Ste 400
+        - Added specific hours for each location
+        - Added email: peerconnection@folktime.org
+        - Added orientation schedule (2nd & 3rd Wednesdays)
+        - Added upcoming Peer Respite Center info
+    - id: northstar-clubhouse
+      status: updated
+      changes: |
+        - Added address: 5600 NE Glisan St, Portland
+        - Added hours: Mon-Wed, Fri 9am-5pm; Thu 9am-7pm
+        - Expanded eligibility requirements
+        - Added services list
+    - id: new-narrative-comfort-zone
+      status: verified
+      changes: "Added contact phone 503-726-3690. Next audit Feb 2026."
+    - id: bhrc
+      status: verified
+      changes: "Updated notes to reflect The Peer Company (formerly MHAAO). Added clarification about services NOT offered."
+    - id: dbsa-portland
+      status: verified
+      changes: "Added member liaison email. Schedule confirmed current."
+  notes: |
+    All 7 peer support entries due January 2026 now audited and updated.
+    Next audits pushed to February 2026.
+    Calendar events increased from 35 to 36.
+
+---
+- date: 2025-12-02
+  type: addition
+  auditor: claude
+  summary: "Major peer support expansion - added 6 new entries"
+  entries_added: 6
+  new_entries:
+    - id: peer-company
+      category: peer_support
+      notes: "The Peer Company (formerly MHAAO) - free peer support with walk-in locations"
+    - id: q-center-portland
+      category: peer_support
+      notes: "Q Center Portland - LGBTQ+ community center with support groups"
+    - id: dda-oregon
+      category: peer_support
+      notes: "Dual Diagnosis Anonymous Oregon - 12-step+ for co-occurring disorders"
+    - id: aa-portland-intergroup
+      category: peer_support
+      notes: "AA Portland Intergroup - 900+ meetings/week, 24hr support line"
+    - id: dougy-center
+      category: peer_support
+      notes: "The Dougy Center - grief support for children, teens, young adults"
+    - id: providence-grief-support
+      category: peer_support
+      notes: "Providence Hospice grief support - free, no registration"
+  data_quality_fixes:
+    - "Added source URLs to First Thursday, Last Thursday, Peacock Lane, Tree Lighting, Tualatin River NWR"
+    - "Fixed audit_check.py to skip next_audit check for CLOSED entries"
+  notes: |
+    Peer support category expanded from 9 to 15 entries.
+    Calendar events increased from 31 to 35.
+    Total entries: 92 (up from 86).
+
+    Coverage now includes:
+    - LGBTQ+ support (Q Center, NAMI LGBTQIA+ groups)
+    - Dual diagnosis (DDA Oregon)
+    - 12-step programs (AA, Recovery Dharma)
+    - Grief support (Dougy Center, Providence)
+    - General mental health peer support
+
+---
+- date: 2025-12-02
+  type: addition
+  auditor: claude
+  summary: "Processed queue items - added 2 new entries, updated 1"
+  entries_added: 2
+  entries_updated: 1
+  new_entries:
+    - id: ymca-columbia-willamette
+      category: fitness_wellness
+      notes: "Added 3 YMCA locations (Beaverton, Sherwood, Clark County) with hours, programs, and financial assistance info"
+    - id: clackamas-county-libraries
+      category: arts_culture
+      notes: "Added LINCC library system with Oak Lodge and Gladstone locations, programs, and services"
+  updated_entries:
+    - id: gresham-senior-center
+      changes: "Added website URL and additional source URL"
+  queue_items_completed:
+    - "Washington County YMCA locations"
+    - "Clackamas County Library programs"
+    - "Gresham Senior Center full program list"
+    - "Write Around Portland schedule (already complete)"
+  notes: |
+    All 4 queue items processed. Queue now empty.
+    Total entries: 86 (up from 84)
+
+    Write Around Portland entry was already complete with
+    10-week workshop and public reading info.
+
+---
+- date: 2025-12-02
+  type: audit
+  auditor: claude
+  summary: "Completed verification of ALL 35 unverified entries - database now 100% verified"
+  entries_verified: 35
+  categories_verified:
+    peer_support: 5
+    fitness_wellness: 9
+    arts_culture: 12
+    events: 4
+    parks_nature: 3
+    food_farms: 1
+    discount_programs: 2
+  closures_identified:
+    - id: five-oaks-museum
+      status: "CLOSED December 2024 - funding cuts"
+    - id: neighborwalks
+      status: "CLOSED after 2022 season"
+  notes: |
+    Major verification session. All 35 UNVERIFIED entries now have official source URLs.
+    Unverified count reduced from 35 to 0.
+    Calendar events: 31 total.
+
+    Key discoveries:
+    - Portland Yoga Collective entry was for Portland, Maine - replaced with BYMC Portland
+    - Five Oaks Museum closed December 2024
+    - NeighborWalks program ended after 2022
+    - Oregon Rail Heritage Center adding admission fee January 2026
+    - Recovery Dharma recategorized from fitness_wellness to peer_support (9 meetings/week)
+
+---
+- date: 2025-12-02
+  type: audit
+  auditor: claude
+  summary: "Verified 4 peer support entries via official websites"
+  entries_verified: 4
+  entries_audited:
+    - id: new-narrative-comfort-zone
+      status: verified
+      changes: |
+        - Added address: 10130 SW Nimbus Ave, Suite D1/D2, Portland, OR 97223
+        - Added website: https://www.comfortzonenn.org
+        - Added hours: Monday-Friday 11am-4pm
+        - Added detailed services list and weekly programs (BIPOC, LGBTQ+, PeerZone, Hearing Voices, Wellbriety)
+        - Removed UNVERIFIED flag
+        - Source: newnarrativepdx.org
+    - id: bhrc
+      status: verified
+      changes: |
+        - Updated address format with cross-street
+        - Added email: bhrc-info@multco.us
+        - Added website: multco.us/info/behavioral-health-resource-center
+        - Updated hours to include 4th Friday closure
+        - Added access_notes about ticket system
+        - Expanded services list (12 services)
+        - Added shelter_info (33 beds, 30-day stay, waitlist phone)
+        - Added bridge_housing info (19 beds, 90-day stay)
+        - Updated eligibility and notes
+        - Removed UNVERIFIED flag
+        - Source: Multnomah County official website
+    - id: dbsa-portland
+      status: verified
+      changes: |
+        - Added website: https://mentalhealthisforeveryone.com/
+        - Expanded programs to 4 groups with specific schedules and contacts:
+          * LGBTQIA+: Mondays 7-8:30pm (1st Monday hybrid)
+          * West Portland: Tuesdays 6:30-7:50pm
+          * Eastside: Thursdays 7-8:30pm
+          * Healthcare Professionals: Saturdays 10am
+        - Added registration/contact info for each group
+        - Updated eligibility to list conditions
+        - Added notes about group size and history
+        - Removed UNVERIFIED flag
+        - Source: DBSA Portland official website
+    - id: oregon-warmline
+      status: verified
+      changes: |
+        - Updated name to "David Romprey Oregon Warmline"
+        - Added business phone: 503-303-7479
+        - Added email: warmlinefeedback@ccsemail.org
+        - Added website: https://ccswebsite.org/warmline/
+        - Added hours: 24/7
+        - Added languages: English, Spanish (Linea de Esperanza)
+        - Updated notes with IPS framework info
+        - Removed UNVERIFIED flag
+        - Source: Community Counseling Solutions official website
+  notes: |
+    All 4 unverified peer support entries now have official source URLs.
+    These entries generate recurring calendar events.
+    Unverified count reduced from 35 to 31.
+
+---
+- date: 2025-12-02
+  type: audit
+  auditor: claude
+  summary: "Web research verification and THPRD Financial Aid addition"
+  entries_added: 1
+  entries_verified: 1
+  changes_detected: 1
+  entries_audited:
+    - id: nami-multnomah
+      status: updated
+      changes: |
+        - Added BIPOC Peer Support group (1st & 3rd Thursdays 7pm Zoom)
+        - Added Complex Trauma & Dissociation Support group (Tuesdays 7pm Zoom)
+        - Updated LGBTQ+ group name to LGBTQ2SIA+
+        - Added eligibility details for each group
+        - Added email contact
+        - Updated source URL to peer-support-groups page
+        - Added note about no diagnosis required
+    - id: thprd-financial-aid
+      status: added
+      changes: "NEW ENTRY - comprehensive THPRD financial aid details including income guidelines, covered programs, application process"
+  tools_created:
+    - "scripts/generate_calendar.py - iCal/ICS calendar export from sources.yaml"
+    - "scripts/audit_check.py - Audit status reporting tool"
+    - "scripts/README.md - Documentation for scripts"
+    - "output/ - Generated calendar files (peer_support.ics, events.ics, all-events.ics, events.json)"
+  notes: |
+    Calendar export system now operational. Generates:
+    - Category-specific .ics files for calendar subscriptions
+    - Combined all-events.ics for full calendar
+    - JSON feed for web applications
+
+    NAMI Multnomah verified via official website. Found 2 additional groups
+    not previously documented. Next audit: January 2026.
+
+---
+- date: 2025-12-02
+  type: addition
+  auditor: claude
+  summary: "Major expansion of sources.yaml - extracted remaining resources from guides"
+  entries_added: 68
+  entries_verified: 0
+  changes_detected: 0
+  categories_expanded:
+    - "Community meals (5 entries): Blanchet House, Sisters of the Road, Portland Rescue Mission, Sikh Center Langar, Loaves & Fishes"
+    - "Peer support (7 entries): FolkTime, NorthStar Clubhouse, New Narrative, BHRC, DBSA Portland, Oregon Warmline"
+    - "Yoga/meditation (7 entries): Portland Yoga Collective, Portland Yoga Project, Dharma Rain, Diamond Way, Portland Insight, Recovery Dharma"
+    - "Movie theaters (5 entries): Academy, Avalon, Laurelhurst, Living Room, Hollywood Theatre"
+    - "Gaming/social (3 entries): Ground Kontrol, Guardian Games, PDX Board Games Meetup"
+    - "Parks/nature (7 entries): Oaks Bottom, Cooper Mountain, Oxbow, Tualatin River NWR, Hoyt Arboretum, Bird Alliance"
+    - "Cultural centers (6 entries): NAYA, IRCO, Oregon Historical Society, Oregon Jewish Museum, Five Oaks, Oregon Rail Heritage"
+    - "Events (8 entries): Cathedral Park Jazz, Noon Tunes, Rose Festival, Pride, First Thursday, Last Thursday, Tree Lighting, Peacock Lane"
+    - "Community centers (4 entries): East Portland CC, Mt. Scott CC, Gresham Senior Center, Milwaukie CC"
+    - "Social activities (5 entries): Write Around Portland, Friends of Trees, SOLVE, Oregon Food Bank, Multnomah Arts Center"
+    - "Utility discounts (4 entries): PGE, Pacific Power, NW Natural, Double Up Food Bucks"
+    - "Running/walking (3 entries): Portland Running Company, Lloyd Center walking, NeighborWalks"
+    - "Bike programs (2 entries): Shift to Bikes, Portland Bicycling Club"
+  notes: |
+    Total entries now: ~90 (from original 22)
+
+    Many new entries flagged as UNVERIFIED - need official source URLs.
+    Priority for verification:
+    - Peer support groups (schedules change frequently)
+    - Community meals (hours/locations critical)
+    - Seasonal events (dates for 2026)
+
+    Next steps:
+    - Create calendar export functionality (iCal/ICS)
+    - Web research to verify flagged entries
+    - Verify NAMI schedules (due January 2026)
+
+---
+- date: 2025-11-25
+  type: initial_import
+  auditor: claude
+  summary: "Initial creation of sources.yaml from existing guides"
+  entries_added: 22
+  entries_verified: 0
+  changes_detected: 0
+  notes: |
+    Imported key entries from Free_Activities_Guide_11-25-25.md and
+    Free_Activities_Guide_Part_2_11-25-25.md. Many entries still need
+    extraction - this is a starter set of high-priority items.
+
+    Flagged for verification:
+    - Tryon Creek parking fee implementation (Oct 2025)
+    - Yoga on Yamhill needs official source
+    - NAMI group schedules should be verified monthly
+
+---
+# Template for future entries:
+# - date: YYYY-MM-DD
+#   type: audit | addition | removal | correction
+#   auditor: name
+#   entries_audited:
+#     - id: entry-id
+#       status: verified | updated | flagged | closed
+#       changes: "Description of any changes"
+#   summary: "Brief description of audit session"
+#   notes: |
+#     Additional context
