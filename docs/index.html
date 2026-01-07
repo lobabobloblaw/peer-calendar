@@ -39,9 +39,10 @@
             line-height: 1.6;
             max-width: 1200px;
             margin: 0 auto;
-            padding: 20px 40px;
+            padding: 16px 40px;
             background: var(--bg-dark);
             color: var(--text-primary);
+            min-height: 100vh;
         }
 
         /* Two-column layout for desktop */
@@ -345,13 +346,13 @@
 
         /* List view */
         .list-view {
-            max-height: 400px;
+            max-height: 50vh;
             overflow-y: auto;
         }
 
         @media (min-width: 768px) {
             .list-view {
-                max-height: 520px;
+                max-height: calc(100vh - 380px);
             }
         }
 
@@ -442,7 +443,7 @@
         }
 
         .grid-day {
-            min-height: 70px;
+            min-height: 60px;
             border-right: 1px solid var(--border-color);
             border-bottom: 1px solid var(--border-color);
             padding: 3px;
@@ -453,7 +454,7 @@
 
         @media (min-width: 768px) {
             .grid-day {
-                min-height: 90px;
+                min-height: 70px;
                 padding: 4px 6px;
                 font-size: 0.8em;
             }
@@ -1157,7 +1158,6 @@
         // Modal functions
         function showEventModal(event) {
             const overlay = document.getElementById('event-modal-overlay');
-            document.getElementById('modal-color').style.background = event.color;
             document.getElementById('modal-title').textContent = event.title;
             document.getElementById('modal-org').textContent = event.org || '';
             document.getElementById('modal-org').style.display = event.org ? 'block' : 'none';
@@ -1241,7 +1241,7 @@
                 const evt = dayEvents[i];
                 const timeStr = evt.startTime ? formatTime(evt.startTime) : '';
                 html += `<div class="day-popup-event" data-event-index="${i}">
-                    <div class="day-popup-event-color" style="background: ${evt.color}"></div>
+                    <div class="day-popup-event-color"></div>
                     <div class="day-popup-event-details">
                         <div class="day-popup-event-title">${evt.title}</div>
                         ${timeStr ? `<div class="day-popup-event-time">${timeStr}</div>` : ''}
@@ -1405,7 +1405,7 @@
                 const maxShow = window.innerWidth >= 768 ? 3 : 2;
                 for (let i = 0; i < Math.min(dayEvents.length, maxShow); i++) {
                     const evt = dayEvents[i];
-                    html += `<div class="grid-event" style="background: ${evt.color}" title="${evt.title}" data-day="${day}" data-index="${i}">${evt.title}</div>`;
+                    html += `<div class="grid-event" title="${evt.title}" data-day="${day}" data-index="${i}">${evt.title}</div>`;
                 }
 
                 if (dayEvents.length > maxShow) {
@@ -1471,15 +1471,34 @@
             });
         });
 
-        // Month navigation
+        // Month navigation (don't go before current month)
+        const minMonth = new Date();
+        minMonth.setDate(1);
+        minMonth.setHours(0, 0, 0, 0);
+
+        function updateNavButtons() {
+            const prevBtn = document.getElementById('prev-month');
+            const atMin = currentMonth.getFullYear() === minMonth.getFullYear() &&
+                          currentMonth.getMonth() === minMonth.getMonth();
+            prevBtn.disabled = atMin;
+            prevBtn.style.opacity = atMin ? '0.4' : '1';
+            prevBtn.style.cursor = atMin ? 'not-allowed' : 'pointer';
+        }
+
         document.getElementById('prev-month').addEventListener('click', () => {
-            currentMonth.setMonth(currentMonth.getMonth() - 1);
-            updateCalendarDisplay();
+            const atMin = currentMonth.getFullYear() === minMonth.getFullYear() &&
+                          currentMonth.getMonth() === minMonth.getMonth();
+            if (!atMin) {
+                currentMonth.setMonth(currentMonth.getMonth() - 1);
+                updateCalendarDisplay();
+                updateNavButtons();
+            }
         });
 
         document.getElementById('next-month').addEventListener('click', () => {
             currentMonth.setMonth(currentMonth.getMonth() + 1);
             updateCalendarDisplay();
+            updateNavButtons();
         });
 
         // Load events data
@@ -1488,6 +1507,7 @@
             .then(data => {
                 eventsData = data;
                 updateCalendarDisplay();
+                updateNavButtons();
             })
             .catch(err => {
                 document.getElementById('list-view').innerHTML =
