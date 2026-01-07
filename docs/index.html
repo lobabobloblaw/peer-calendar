@@ -81,22 +81,6 @@
             margin-bottom: 12px;
         }
 
-        /* How it works */
-        .how-it-works {
-            margin-bottom: 16px;
-            font-size: 0.85em;
-            font-style: italic;
-        }
-
-        .how-it-works p {
-            margin: 0;
-            color: rgba(255, 255, 255, 0.7);
-        }
-
-        .how-it-works strong {
-            font-weight: 500;
-        }
-
         /* Platform selector */
         .choose-label {
             text-align: center;
@@ -769,22 +753,17 @@
                 display: none;
             }
         }
-        /* Header logo with animated fill - left aligned */
-        .header-logo-container {
+        /* Header logo - left aligned */
+        .header-logo {
             display: block;
             width: 100%;
             max-width: 400px;
-            position: relative;
-        }
-
-        .header-logo-container canvas {
-            display: block;
-            width: 100%;
             height: auto;
+            filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.7));
         }
 
         @media (min-width: 768px) {
-            .header-logo-container {
+            .header-logo {
                 max-width: 350px;
             }
         }
@@ -809,16 +788,10 @@
     <div id="vanta-bg" aria-hidden="true"></div>
 
     <header>
-        <div class="header-logo-container" role="img" aria-label="FolkTime 2026 Peer Support Calendar">
-            <canvas id="logo-canvas"></canvas>
-        </div>
+        <img src="2026.png" alt="2026 Peer Support Calendar" class="header-logo">
     </header>
 
     <main>
-        <div class="how-it-works">
-            <p><strong>Subscribe once, stay updated.</strong> When you add this calendar, new events appear automatically — no need to re-download or check back.</p>
-        </div>
-
         <div class="main-content">
             <div class="left-panel">
                 <p class="choose-label">Which calendar app do you use?</p>
@@ -1572,59 +1545,5 @@
     })();
     </script>
 
-    <!-- Animated logo fill -->
-    <script>
-    (function() {
-        const canvas = document.getElementById('logo-canvas');
-        if (!canvas) return;
-
-        const ctx = canvas.getContext('2d');
-        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        const img = new Image();
-        let time = 0;
-
-        img.onload = function() {
-            canvas.width = img.width;
-            canvas.height = img.height;
-            if (prefersReducedMotion) {
-                drawStatic();
-            } else {
-                animate();
-            }
-        };
-        img.src = '2026.png';
-
-        function drawStatic() {
-            ctx.drawImage(img, 0, 0);
-        }
-
-        function animate() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-            // Draw logo first to establish alpha channel
-            ctx.drawImage(img, 0, 0);
-
-            // Create animated cloud-like gradient (whites and soft blues)
-            const offset = Math.sin(time * 0.3) * 0.5 + 0.5;
-            const offset2 = Math.cos(time * 0.2) * 0.5 + 0.5;
-            const gradientStart = -canvas.width * 0.3 + offset * canvas.width;
-            const gradient = ctx.createLinearGradient(gradientStart, 0, gradientStart + canvas.width * 0.8, canvas.height * offset2);
-            gradient.addColorStop(0, '#ffffff');
-            gradient.addColorStop(0.25, '#e8f4fc');
-            gradient.addColorStop(0.5, '#ffffff');
-            gradient.addColorStop(0.75, '#d4e8f7');
-            gradient.addColorStop(1, '#ffffff');
-
-            // Apply gradient only where logo pixels exist, preserving original alpha
-            ctx.globalCompositeOperation = 'source-in';
-            ctx.fillStyle = gradient;
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-            ctx.globalCompositeOperation = 'source-over';
-
-            time += 0.015;
-            requestAnimationFrame(animate);
-        }
-    })();
-    </script>
 </body>
 </html>
