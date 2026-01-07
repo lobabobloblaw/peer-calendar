@@ -49,6 +49,20 @@
             margin: 0;
         }
 
+        /* How it works */
+        .how-it-works {
+            background: #e8f4e8;
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-bottom: 20px;
+            font-size: 0.95em;
+        }
+
+        .how-it-works p {
+            margin: 0;
+            color: #2d5a2d;
+        }
+
         /* Platform selector */
         .choose-label {
             text-align: center;
@@ -238,6 +252,10 @@
     </header>
 
     <main>
+        <div class="how-it-works">
+            <p><strong>Subscribe once, stay updated.</strong> When you add this calendar, new events appear automatically — no need to re-download or check back.</p>
+        </div>
+
         <p class="choose-label">Which calendar app do you use?</p>
         <div class="platform-tabs">
             <button class="platform-tab active" data-platform="apple">Apple Calendar</button>
@@ -252,7 +270,7 @@
                         <span class="color-dot" style="background: #333;"></span>
                         <span class="calendar-name">All Events</span>
                     </div>
-                    <button class="copy-btn" data-file="all-events.ics">Copy Link</button>
+                    <button class="copy-btn" data-file="all-events.ics">Subscribe</button>
                 </li>
             </ul>
 
@@ -264,71 +282,71 @@
                         <span class="color-dot" style="background: var(--peer-support);"></span>
                         <span class="calendar-name">Peer Support</span>
                     </div>
-                    <button class="copy-btn" data-file="peer_support.ics">Copy Link</button>
+                    <button class="copy-btn" data-file="peer_support.ics">Subscribe</button>
                 </li>
                 <li>
                     <div class="calendar-info">
                         <span class="color-dot" style="background: var(--fitness);"></span>
                         <span class="calendar-name">Fitness & Wellness</span>
                     </div>
-                    <button class="copy-btn" data-file="fitness_wellness.ics">Copy Link</button>
+                    <button class="copy-btn" data-file="fitness_wellness.ics">Subscribe</button>
                 </li>
                 <li>
                     <div class="calendar-info">
                         <span class="color-dot" style="background: var(--events);"></span>
                         <span class="calendar-name">Events & Festivals</span>
                     </div>
-                    <button class="copy-btn" data-file="events.ics">Copy Link</button>
+                    <button class="copy-btn" data-file="events.ics">Subscribe</button>
                 </li>
                 <li>
                     <div class="calendar-info">
                         <span class="color-dot" style="background: var(--arts);"></span>
                         <span class="calendar-name">Arts & Culture</span>
                     </div>
-                    <button class="copy-btn" data-file="arts_culture.ics">Copy Link</button>
+                    <button class="copy-btn" data-file="arts_culture.ics">Subscribe</button>
                 </li>
                 <li>
                     <div class="calendar-info">
                         <span class="color-dot" style="background: var(--social);"></span>
                         <span class="calendar-name">Social Activities</span>
                     </div>
-                    <button class="copy-btn" data-file="social_activities.ics">Copy Link</button>
+                    <button class="copy-btn" data-file="social_activities.ics">Subscribe</button>
                 </li>
                 <li>
                     <div class="calendar-info">
                         <span class="color-dot" style="background: var(--food);"></span>
                         <span class="calendar-name">Food & Farms</span>
                     </div>
-                    <button class="copy-btn" data-file="food_farms.ics">Copy Link</button>
+                    <button class="copy-btn" data-file="food_farms.ics">Subscribe</button>
                 </li>
             </ul>
 
             <div class="instructions" id="instructions-apple">
                 <strong>How to subscribe:</strong>
                 <ol>
-                    <li>Copy the link above</li>
+                    <li>Tap "Subscribe" to copy the link</li>
                     <li>On iPhone/iPad: Settings &gt; Calendar &gt; Accounts &gt; Add Account &gt; Other &gt; Add Subscribed Calendar</li>
                     <li>On Mac: File &gt; New Calendar Subscription</li>
-                    <li>Paste the link and subscribe</li>
+                    <li>Paste the link — events will sync automatically</li>
                 </ol>
             </div>
 
             <div class="instructions" id="instructions-google" style="display: none;">
                 <strong>How to subscribe:</strong>
                 <ol>
-                    <li>Copy the link above</li>
+                    <li>Click "Subscribe" to copy the link</li>
                     <li>Go to <a href="https://calendar.google.com" target="_blank">calendar.google.com</a></li>
                     <li>Click + next to "Other calendars" &gt; From URL</li>
-                    <li>Paste the link and add</li>
+                    <li>Paste the link — events will sync automatically</li>
                 </ol>
             </div>
 
             <div class="instructions" id="instructions-outlook" style="display: none;">
                 <strong>How to subscribe:</strong>
                 <ol>
-                    <li>Copy the link above</li>
+                    <li>Click "Subscribe" to copy the link</li>
                     <li>In Outlook: Add calendar &gt; Subscribe from web</li>
-                    <li>Paste the link and import</li>
+                    <li>Paste the link — events will sync automatically</li>
                 </ol>
             </div>
         </div>
@@ -379,10 +397,10 @@
                     document.body.removeChild(textarea);
                 }
 
-                this.textContent = 'Copied!';
+                this.textContent = 'Link copied!';
                 this.classList.add('copied');
                 setTimeout(() => {
-                    this.textContent = 'Copy Link';
+                    this.textContent = 'Subscribe';
                     this.classList.remove('copied');
                 }, 2000);
             });
