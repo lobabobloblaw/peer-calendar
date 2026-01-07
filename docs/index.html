@@ -12,10 +12,27 @@
             --arts: #9370DB;
             --food: #DAA520;
             --social: #FF69B4;
-            --accent: #4a90d9;
+            --accent: #5a9fe9;
+            --bg-dark: #0a0a0a;
+            --bg-card: rgba(255, 255, 255, 0.6);
+            --bg-card-hover: rgba(255, 255, 255, 0.7);
+            --border-color: rgba(0, 0, 0, 0.1);
+            --text-primary: #1a1a1a;
+            --text-secondary: #333;
+            --text-muted: #666;
         }
 
         * { box-sizing: border-box; }
+
+        /* Vanta.js fog background */
+        #vanta-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -23,8 +40,8 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px 40px;
-            background: #fafafa;
-            color: #333;
+            background: var(--bg-dark);
+            color: var(--text-primary);
         }
 
         /* Two-column layout for desktop */
@@ -60,35 +77,21 @@
             margin-bottom: 12px;
         }
 
-        header img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        @media (min-width: 768px) {
-            header img {
-                max-width: 550px;
-            }
-        }
-
-        @media (min-width: 1024px) {
-            header img {
-                max-width: 650px;
-            }
-        }
-
         /* How it works */
         .how-it-works {
-            background: #e8f4e8;
+            background: rgba(255, 255, 255, 0.6);
+            border: 1px solid var(--border-color);
             border-radius: 8px;
             padding: 12px 16px;
             margin-bottom: 20px;
             font-size: 0.95em;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
         }
 
         .how-it-works p {
             margin: 0;
-            color: #2d5a2d;
+            color: #1a1a1a;
         }
 
         /* Platform selector */
@@ -96,7 +99,7 @@
             text-align: center;
             font-weight: 500;
             margin-bottom: 12px;
-            color: #444;
+            color: var(--text-secondary);
         }
 
         .platform-tabs {
@@ -108,18 +111,20 @@
         .platform-tab {
             flex: 1;
             padding: 12px 8px;
-            border: 2px solid #ddd;
-            background: white;
+            border: 2px solid var(--border-color);
+            background: var(--bg-card);
             border-radius: 8px;
             cursor: pointer;
             text-align: center;
             font-size: 0.9em;
             font-weight: 500;
+            color: var(--text-primary);
             transition: all 0.2s;
         }
 
         .platform-tab:hover {
             border-color: var(--accent);
+            background: var(--bg-card-hover);
         }
 
         .platform-tab.active {
@@ -130,10 +135,12 @@
 
         /* Calendar list */
         .calendar-section {
-            background: white;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
             border-radius: 8px;
             padding: 16px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
         }
 
         .calendar-list {
@@ -147,7 +154,7 @@
             align-items: center;
             justify-content: space-between;
             padding: 10px 0;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid var(--border-color);
         }
 
         .calendar-list li:last-child {
@@ -181,16 +188,16 @@
             font-size: 0.85em;
         }
 
-        .copy-btn:hover { background: #357abd; }
+        .copy-btn:hover { background: #4a8fd9; }
         .copy-btn.copied { background: #27ae60; }
 
         /* Instructions */
         .instructions {
             margin-top: 16px;
             padding-top: 16px;
-            border-top: 1px solid #eee;
+            border-top: 1px solid var(--border-color);
             font-size: 0.9em;
-            color: #555;
+            color: var(--text-secondary);
         }
 
         .instructions ol {
@@ -200,6 +207,10 @@
 
         .instructions li {
             margin-bottom: 6px;
+        }
+
+        .instructions a {
+            color: var(--accent);
         }
 
         /* More options toggle */
@@ -219,7 +230,7 @@
 
         .category-calendars {
             display: none;
-            border-top: 1px solid #eee;
+            border-top: 1px solid var(--border-color);
             margin-top: 8px;
             padding-top: 8px;
         }
@@ -248,7 +259,7 @@
         .preview-section {
             margin-top: 30px;
             padding-top: 20px;
-            border-top: 1px solid #ddd;
+            border-top: 1px solid var(--border-color);
         }
 
         @media (min-width: 768px) {
@@ -265,7 +276,7 @@
 
         .preview-section h2 {
             font-size: 1.1em;
-            color: #2c3e50;
+            color: var(--text-primary);
             margin: 0 0 16px;
         }
 
@@ -277,8 +288,9 @@
 
         .view-tab {
             padding: 8px 16px;
-            border: 1px solid #ddd;
-            background: white;
+            border: 1px solid var(--border-color);
+            background: var(--bg-card);
+            color: var(--text-primary);
             cursor: pointer;
             font-size: 0.85em;
             transition: all 0.2s;
@@ -287,6 +299,10 @@
         .view-tab:first-child { border-radius: 6px 0 0 6px; }
         .view-tab:last-child { border-radius: 0 6px 6px 0; }
 
+        .view-tab:hover {
+            background: var(--bg-card-hover);
+        }
+
         .view-tab.active {
             background: var(--accent);
             border-color: var(--accent);
@@ -294,10 +310,12 @@
         }
 
         .calendar-preview {
-            background: white;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             overflow: hidden;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
         }
 
         /* Month navigation */
@@ -306,24 +324,25 @@
             justify-content: space-between;
             align-items: center;
             padding: 12px 16px;
-            background: #f8f9fa;
-            border-bottom: 1px solid #eee;
+            background: rgba(0, 0, 0, 0.03);
+            border-bottom: 1px solid var(--border-color);
         }
 
         .month-nav button {
-            background: none;
-            border: 1px solid #ddd;
+            background: rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
             padding: 6px 12px;
             border-radius: 4px;
             cursor: pointer;
             font-size: 0.85em;
+            color: var(--text-primary);
         }
 
-        .month-nav button:hover { background: #eee; }
+        .month-nav button:hover { background: rgba(0, 0, 0, 0.1); }
 
         .month-nav .month-label {
             font-weight: 600;
-            color: #2c3e50;
+            color: var(--text-primary);
         }
 
         /* List view */
@@ -339,17 +358,17 @@
         }
 
         .event-day {
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid var(--border-color);
         }
 
         .event-day:last-child { border-bottom: none; }
 
         .day-header {
-            background: #f8f9fa;
+            background: rgba(0, 0, 0, 0.03);
             padding: 8px 16px;
             font-weight: 600;
             font-size: 0.85em;
-            color: #555;
+            color: var(--text-secondary);
             position: sticky;
             top: 0;
         }
@@ -359,13 +378,13 @@
             align-items: flex-start;
             gap: 10px;
             padding: 10px 16px;
-            border-bottom: 1px solid #f0f0f0;
+            border-bottom: 1px solid var(--border-color);
             cursor: pointer;
             transition: background 0.15s;
         }
 
         .event-item:hover {
-            background: #f8f9fa;
+            background: var(--bg-card-hover);
         }
 
         .event-item:last-child { border-bottom: none; }
@@ -385,17 +404,17 @@
         .event-title {
             font-weight: 500;
             font-size: 0.9em;
-            color: #333;
+            color: var(--text-primary);
             margin-bottom: 2px;
         }
 
         .event-meta {
             font-size: 0.8em;
-            color: #666;
+            color: var(--text-secondary);
         }
 
         .event-time {
-            color: #888;
+            color: var(--text-muted);
         }
 
         /* Grid view */
@@ -417,20 +436,20 @@
         }
 
         .grid-header {
-            background: #f8f9fa;
+            background: rgba(0, 0, 0, 0.03);
             padding: 8px 2px;
             text-align: center;
             font-size: 0.75em;
             font-weight: 600;
-            color: #666;
-            border-bottom: 1px solid #eee;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border-color);
             min-width: 0;
         }
 
         .grid-day {
             min-height: 70px;
-            border-right: 1px solid #eee;
-            border-bottom: 1px solid #eee;
+            border-right: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
             padding: 3px;
             font-size: 0.75em;
             min-width: 0;
@@ -448,21 +467,21 @@
         .grid-day:nth-child(7n) { border-right: none; }
 
         .grid-day.other-month {
-            background: #fafafa;
-            color: #bbb;
+            background: rgba(0, 0, 0, 0.05);
+            color: var(--text-muted);
         }
 
         .grid-day.today {
-            background: #e8f4fc;
+            background: rgba(90, 159, 233, 0.15);
         }
 
         .day-number {
             font-weight: 600;
             margin-bottom: 4px;
-            color: #555;
+            color: var(--text-secondary);
         }
 
-        .grid-day.other-month .day-number { color: #ccc; }
+        .grid-day.other-month .day-number { color: var(--text-muted); }
 
         .grid-event {
             background: var(--peer-support);
@@ -482,7 +501,7 @@
         }
 
         .more-events {
-            color: #666;
+            color: var(--text-secondary);
             font-size: 0.7em;
             cursor: pointer;
         }
@@ -500,7 +519,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(0, 0, 0, 0.5);
+            background: rgba(0, 0, 0, 0.7);
             z-index: 1000;
             justify-content: center;
             align-items: center;
@@ -512,13 +531,16 @@
         }
 
         .event-modal {
-            background: white;
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid var(--border-color);
             border-radius: 12px;
             max-width: 450px;
             width: 100%;
             max-height: 80vh;
             overflow-y: auto;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
         }
 
         .event-modal-header {
@@ -526,7 +548,7 @@
             align-items: flex-start;
             gap: 12px;
             padding: 16px;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid var(--border-color);
         }
 
         .event-modal-color {
@@ -543,12 +565,12 @@
         .event-modal-title h3 {
             margin: 0 0 4px;
             font-size: 1.1em;
-            color: #333;
+            color: var(--text-primary);
         }
 
         .event-modal-title .event-org {
             font-size: 0.85em;
-            color: #666;
+            color: var(--text-secondary);
         }
 
         .event-modal-close {
@@ -556,13 +578,13 @@
             border: none;
             font-size: 1.5em;
             cursor: pointer;
-            color: #999;
+            color: var(--text-muted);
             padding: 0;
             line-height: 1;
         }
 
         .event-modal-close:hover {
-            color: #333;
+            color: var(--text-primary);
         }
 
         .event-modal-body {
@@ -583,34 +605,38 @@
         .event-modal-icon {
             width: 20px;
             text-align: center;
-            color: #888;
+            color: var(--text-muted);
             flex-shrink: 0;
         }
 
         .event-modal-value {
             font-size: 0.9em;
-            color: #444;
+            color: var(--text-secondary);
         }
 
         /* Day events popup (for +X more) */
         .day-popup {
             position: absolute;
-            background: white;
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid var(--border-color);
             border-radius: 8px;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
             min-width: 220px;
             max-width: 300px;
             z-index: 100;
             max-height: 300px;
             overflow-y: auto;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
         }
 
         .day-popup-header {
             padding: 10px 12px;
-            background: #f8f9fa;
-            border-bottom: 1px solid #eee;
+            background: rgba(0, 0, 0, 0.03);
+            border-bottom: 1px solid var(--border-color);
             font-weight: 600;
             font-size: 0.85em;
+            color: var(--text-primary);
             position: sticky;
             top: 0;
             display: flex;
@@ -623,13 +649,13 @@
             border: none;
             font-size: 1.2em;
             cursor: pointer;
-            color: #999;
+            color: var(--text-muted);
             padding: 0;
             line-height: 1;
         }
 
         .day-popup-close:hover {
-            color: #333;
+            color: var(--text-primary);
         }
 
         .day-popup-events {
@@ -647,7 +673,7 @@
         }
 
         .day-popup-event:hover {
-            background: #f0f0f0;
+            background: var(--bg-card-hover);
         }
 
         .day-popup-event-color {
@@ -665,19 +691,19 @@
         .day-popup-event-title {
             font-size: 0.85em;
             font-weight: 500;
-            color: #333;
+            color: var(--text-primary);
             margin-bottom: 2px;
         }
 
         .day-popup-event-time {
             font-size: 0.75em;
-            color: #888;
+            color: var(--text-muted);
         }
 
         .no-events {
             padding: 40px 20px;
             text-align: center;
-            color: #888;
+            color: var(--text-muted);
         }
 
         @media (max-width: 600px) {
@@ -698,12 +724,12 @@
         .updates-section {
             margin-top: 20px;
             padding-top: 16px;
-            border-top: 1px solid #eee;
+            border-top: 1px solid var(--border-color);
         }
 
         .updates-section h2 {
             font-size: 0.95em;
-            color: #555;
+            color: var(--text-secondary);
             margin: 0 0 10px;
         }
 
@@ -712,12 +738,12 @@
             padding: 0;
             margin: 0;
             font-size: 0.85em;
-            color: #666;
+            color: var(--text-secondary);
         }
 
         .updates-list li {
             padding: 6px 0;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid var(--border-color);
         }
 
         .updates-list li:last-child {
@@ -726,21 +752,51 @@
 
         .update-date {
             font-weight: 500;
-            color: #444;
+            color: var(--text-primary);
             margin-right: 8px;
         }
 
         footer {
             margin-top: 30px;
             text-align: center;
-            color: #888;
+            color: var(--text-muted);
             font-size: 0.85em;
+        }
+        /* Header logo with animated fill */
+        .header-logo-container {
+            display: block;
+            width: 100%;
+            max-width: 550px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .header-logo-container canvas {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        @media (min-width: 768px) {
+            .header-logo-container {
+                max-width: 550px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .header-logo-container {
+                max-width: 650px;
+            }
         }
     </style>
 </head>
 <body>
+    <div id="vanta-bg" aria-hidden="true"></div>
+
     <header>
-        <img src="logo.webp" alt="FolkTime 2026 Peer Support Calendar">
+        <div class="header-logo-container" role="img" aria-label="FolkTime 2026 Peer Support Calendar">
+            <canvas id="logo-canvas"></canvas>
+        </div>
     </header>
 
     <main>
@@ -880,7 +936,7 @@
     </main>
 
     <footer>
-        <p>Maintained by FolkTime</p>
+        <p>Maintained by Alex V</p>
     </footer>
 
     <!-- Event detail modal -->
@@ -1448,6 +1504,91 @@
                 document.getElementById('list-view').innerHTML =
                     '<div class="no-events">Could not load events</div>';
             });
+    </script>
+
+    <!-- Vanta.js CLOUDS background -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+    <script>
+    (function() {
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        let vantaEffect = VANTA.CLOUDS({
+            el: "#vanta-bg",
+            mouseControls: false,
+            touchControls: false,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            speed: prefersReducedMotion ? 0 : 1.0
+        });
+
+        // Cleanup on page hide for battery saving
+        document.addEventListener('visibilitychange', () => {
+            if (vantaEffect) {
+                if (document.hidden) {
+                    vantaEffect.setOptions({ speed: 0 });
+                } else if (!prefersReducedMotion) {
+                    vantaEffect.setOptions({ speed: 1.0 });
+                }
+            }
+        });
+    })();
+    </script>
+
+    <!-- Animated logo fill -->
+    <script>
+    (function() {
+        const canvas = document.getElementById('logo-canvas');
+        if (!canvas) return;
+
+        const ctx = canvas.getContext('2d');
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const img = new Image();
+        let time = 0;
+
+        img.onload = function() {
+            canvas.width = img.width;
+            canvas.height = img.height;
+            if (prefersReducedMotion) {
+                drawStatic();
+            } else {
+                animate();
+            }
+        };
+        img.src = 'logo.webp';
+
+        function drawStatic() {
+            ctx.drawImage(img, 0, 0);
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Create animated cloud-like gradient (whites and soft blues)
+            const offset = Math.sin(time * 0.3) * 0.5 + 0.5;
+            const offset2 = Math.cos(time * 0.2) * 0.5 + 0.5;
+            const gradientStart = -canvas.width * 0.3 + offset * canvas.width;
+            const gradient = ctx.createLinearGradient(gradientStart, 0, gradientStart + canvas.width * 0.8, canvas.height * offset2);
+            gradient.addColorStop(0, '#ffffff');
+            gradient.addColorStop(0.25, '#e8f4fc');
+            gradient.addColorStop(0.5, '#ffffff');
+            gradient.addColorStop(0.75, '#d4e8f7');
+            gradient.addColorStop(1, '#ffffff');
+
+            // Draw gradient
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Use logo as mask
+            ctx.globalCompositeOperation = 'destination-in';
+            ctx.drawImage(img, 0, 0);
+            ctx.globalCompositeOperation = 'source-over';
+
+            time += 0.015;
+            requestAnimationFrame(animate);
+        }
+    })();
     </script>
 </body>
 </html>
