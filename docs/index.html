@@ -339,32 +339,40 @@
         /* Grid view */
         .grid-view {
             display: none;
+            width: 100%;
+            overflow-x: auto;
         }
 
         .grid-view.active { display: block; }
         .list-view.active { display: block; }
+        .list-view { display: none; }
 
         .calendar-grid {
             display: grid;
-            grid-template-columns: repeat(7, 1fr);
+            grid-template-columns: repeat(7, minmax(0, 1fr));
+            width: 100%;
+            min-width: 100%;
         }
 
         .grid-header {
             background: #f8f9fa;
-            padding: 8px 4px;
+            padding: 8px 2px;
             text-align: center;
             font-size: 0.75em;
             font-weight: 600;
             color: #666;
             border-bottom: 1px solid #eee;
+            min-width: 0;
         }
 
         .grid-day {
-            min-height: 80px;
+            min-height: 70px;
             border-right: 1px solid #eee;
             border-bottom: 1px solid #eee;
-            padding: 4px;
+            padding: 3px;
             font-size: 0.75em;
+            min-width: 0;
+            overflow: hidden;
         }
 
         .grid-day:nth-child(7n) { border-right: none; }
