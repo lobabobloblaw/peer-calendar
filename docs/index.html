@@ -53,6 +53,8 @@
         @media (min-width: 768px) {
             body {
                 padding: 24px 48px;
+                height: 100vh;
+                overflow: hidden;
             }
 
             .main-content {
@@ -60,6 +62,7 @@
                 grid-template-columns: 420px 1fr;
                 gap: 32px;
                 align-items: start;
+                height: calc(100vh - 160px);
             }
 
             h1 {
@@ -74,25 +77,24 @@
         }
 
         header {
-            text-align: center;
+            text-align: left;
             margin-bottom: 12px;
         }
 
         /* How it works */
         .how-it-works {
-            background: rgba(255, 255, 255, 0.6);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 12px 16px;
-            margin-bottom: 20px;
-            font-size: 0.95em;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
+            margin-bottom: 16px;
+            font-size: 0.85em;
+            font-style: italic;
         }
 
         .how-it-works p {
             margin: 0;
-            color: #1a1a1a;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .how-it-works strong {
+            font-weight: 500;
         }
 
         /* Platform selector */
@@ -246,11 +248,20 @@
 
         .right-panel {
             min-width: 0; /* Prevent grid blowout */
+            max-height: 100%;
+            overflow-y: auto;
         }
 
         @media (max-width: 767px) {
             .left-panel {
                 position: static;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .left-panel {
+                max-height: 100%;
+                overflow-y: auto;
             }
         }
 
@@ -752,12 +763,17 @@
             color: var(--text-muted);
             font-size: 0.85em;
         }
-        /* Header logo with animated fill */
+
+        @media (min-width: 768px) {
+            footer {
+                display: none;
+            }
+        }
+        /* Header logo with animated fill - left aligned */
         .header-logo-container {
             display: block;
             width: 100%;
-            max-width: 550px;
-            margin: 0 auto;
+            max-width: 400px;
             position: relative;
         }
 
@@ -769,13 +785,22 @@
 
         @media (min-width: 768px) {
             .header-logo-container {
-                max-width: 550px;
+                max-width: 350px;
             }
         }
 
-        @media (min-width: 1024px) {
-            .header-logo-container {
-                max-width: 650px;
+        /* FolkTime logo below Updates */
+        .folktime-logo {
+            display: block;
+            width: 100px;
+            height: auto;
+            margin-top: 16px;
+            opacity: 0.85;
+        }
+
+        @media (min-width: 768px) {
+            .folktime-logo {
+                width: 90px;
             }
         }
     </style>
@@ -897,6 +922,8 @@
                         <li><span class="update-date">Jan 7, 2025</span> Added CMHC Peer Groups: ColorFlow, Intentional Silence & Meditation, Cultivate & Connect, Healing with Photography, Karaoke Night</li>
                     </ul>
                 </div>
+
+                <a href="https://www.folktime.org" target="_blank" rel="noopener"><img src="folktime.png" alt="FolkTime" class="folktime-logo"></a>
             </div>
 
             <div class="right-panel">
@@ -1565,7 +1592,7 @@
                 animate();
             }
         };
-        img.src = 'logo.webp';
+        img.src = '2026.png';
 
         function drawStatic() {
             ctx.drawImage(img, 0, 0);
