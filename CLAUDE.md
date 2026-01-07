@@ -277,6 +277,7 @@ Calendars are hosted via GitHub Pages for public subscription access.
 - Replace `apple` with `google` or `outlook` for platform-specific versions
 
 **Landing page features:**
+- Responsive two-column layout on desktop (768px+), single-column on mobile
 - Platform selector (Apple/Google/Outlook) with subscribe buttons
 - Inline calendar preview with List and Calendar grid views
 - Updates section for announcing new content
