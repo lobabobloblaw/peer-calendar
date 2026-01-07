@@ -12,16 +12,15 @@
             --arts: #9370DB;
             --food: #DAA520;
             --social: #FF69B4;
+            --accent: #4a90d9;
         }
 
-        * {
-            box-sizing: border-box;
-        }
+        * { box-sizing: border-box; }
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
-            max-width: 900px;
+            max-width: 600px;
             margin: 0 auto;
             padding: 20px;
             background: #fafafa;
@@ -30,46 +29,62 @@
 
         header {
             text-align: center;
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 2px solid #e0e0e0;
+            margin-bottom: 25px;
         }
 
         header img {
-            max-width: 200px;
+            max-width: 160px;
             height: auto;
         }
 
         h1 {
             color: #2c3e50;
-            margin: 15px 0 10px;
-            font-size: 1.8em;
+            margin: 12px 0 6px;
+            font-size: 1.5em;
         }
 
         .tagline {
             color: #666;
-            font-size: 1.1em;
+            font-size: 1em;
             margin: 0;
         }
 
-        h2 {
-            color: #2c3e50;
-            border-bottom: 2px solid #e0e0e0;
-            padding-bottom: 8px;
-            margin-top: 35px;
+        /* Platform selector */
+        .platform-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
         }
 
-        .platform-section {
+        .platform-tab {
+            flex: 1;
+            padding: 12px 8px;
+            border: 2px solid #ddd;
             background: white;
             border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            cursor: pointer;
+            text-align: center;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: all 0.2s;
         }
 
-        .platform-section h3 {
-            margin-top: 0;
-            color: #2c3e50;
+        .platform-tab:hover {
+            border-color: var(--accent);
+        }
+
+        .platform-tab.active {
+            border-color: var(--accent);
+            background: var(--accent);
+            color: white;
+        }
+
+        /* Calendar list */
+        .calendar-section {
+            background: white;
+            border-radius: 8px;
+            padding: 16px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
         .calendar-list {
@@ -82,10 +97,8 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 12px 0;
+            padding: 10px 0;
             border-bottom: 1px solid #eee;
-            flex-wrap: wrap;
-            gap: 10px;
         }
 
         .calendar-list li:last-child {
@@ -96,108 +109,81 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            flex: 1;
-            min-width: 200px;
         }
 
         .color-dot {
-            width: 12px;
-            height: 12px;
+            width: 10px;
+            height: 10px;
             border-radius: 50%;
-            flex-shrink: 0;
         }
 
         .calendar-name {
             font-weight: 500;
-        }
-
-        .calendar-desc {
-            color: #666;
-            font-size: 0.9em;
+            font-size: 0.95em;
         }
 
         .copy-btn {
-            background: #4a90d9;
+            background: var(--accent);
             color: white;
             border: none;
-            padding: 8px 16px;
+            padding: 6px 12px;
             border-radius: 4px;
             cursor: pointer;
-            font-size: 0.9em;
-            transition: background 0.2s;
+            font-size: 0.85em;
         }
 
-        .copy-btn:hover {
-            background: #357abd;
-        }
+        .copy-btn:hover { background: #357abd; }
+        .copy-btn.copied { background: #27ae60; }
 
-        .copy-btn:active {
-            background: #2a5f8f;
-        }
-
-        .copy-btn.copied {
-            background: #27ae60;
-        }
-
+        /* Instructions */
         .instructions {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 6px;
-            margin-top: 15px;
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #555;
         }
 
         .instructions ol {
-            margin: 0;
+            margin: 8px 0 0;
             padding-left: 20px;
         }
 
         .instructions li {
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
-        .category-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
-            margin-top: 15px;
-        }
-
-        .category-card {
-            background: white;
-            padding: 15px;
-            border-radius: 6px;
-            border-left: 4px solid;
-        }
-
-        .category-card h4 {
-            margin: 0 0 8px;
-            font-size: 1em;
-        }
-
-        .category-card p {
-            margin: 0;
+        /* More options toggle */
+        .more-toggle {
+            background: none;
+            border: none;
+            color: var(--accent);
+            cursor: pointer;
             font-size: 0.9em;
-            color: #666;
+            padding: 8px 0;
+            margin-top: 8px;
+        }
+
+        .more-toggle:hover {
+            text-decoration: underline;
+        }
+
+        .category-calendars {
+            display: none;
+            border-top: 1px solid #eee;
+            margin-top: 8px;
+            padding-top: 8px;
+        }
+
+        .category-calendars.show {
+            display: block;
         }
 
         footer {
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 2px solid #e0e0e0;
+            margin-top: 30px;
             text-align: center;
-            color: #666;
-            font-size: 0.9em;
-        }
-
-        @media (max-width: 600px) {
-            .calendar-list li {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .copy-btn {
-                width: 100%;
-            }
+            color: #888;
+            font-size: 0.85em;
         }
     </style>
 </head>
@@ -205,330 +191,157 @@
     <header>
         <img src="folktime-logo.png" alt="FolkTime Logo">
         <h1>Peer Support Calendar</h1>
-        <p class="tagline">Free and low-cost activities in the Portland metro area</p>
+        <p class="tagline">Free activities in the Portland metro area</p>
     </header>
 
     <main>
-        <p>Subscribe to these calendars to automatically receive updates about free community resources, peer support groups, wellness activities, and events in the Portland area. Calendars update automatically when you subscribe.</p>
+        <div class="platform-tabs">
+            <button class="platform-tab active" data-platform="apple">Apple</button>
+            <button class="platform-tab" data-platform="google">Google</button>
+            <button class="platform-tab" data-platform="outlook">Outlook</button>
+        </div>
 
-        <h2>Subscribe to Calendars</h2>
-
-        <!-- Apple Calendar -->
-        <div class="platform-section">
-            <h3>Apple Calendar (iPhone, iPad, Mac)</h3>
-            <ul class="calendar-list" id="apple-list">
+        <div class="calendar-section">
+            <ul class="calendar-list">
                 <li>
                     <div class="calendar-info">
                         <span class="color-dot" style="background: #333;"></span>
-                        <div>
-                            <div class="calendar-name">All Events</div>
-                            <div class="calendar-desc">Everything in one calendar</div>
-                        </div>
+                        <span class="calendar-name">All Events</span>
                     </div>
-                    <button class="copy-btn" data-url="apple/all-events.ics">Copy Link</button>
+                    <button class="copy-btn" data-file="all-events.ics">Copy Link</button>
                 </li>
+            </ul>
+
+            <button class="more-toggle">+ Show category calendars</button>
+
+            <ul class="calendar-list category-calendars">
                 <li>
                     <div class="calendar-info">
                         <span class="color-dot" style="background: var(--peer-support);"></span>
-                        <div>
-                            <div class="calendar-name">Peer Support</div>
-                            <div class="calendar-desc">Support groups, NAMI meetings, recovery programs</div>
-                        </div>
+                        <span class="calendar-name">Peer Support</span>
                     </div>
-                    <button class="copy-btn" data-url="apple/peer_support.ics">Copy Link</button>
+                    <button class="copy-btn" data-file="peer_support.ics">Copy Link</button>
                 </li>
                 <li>
                     <div class="calendar-info">
                         <span class="color-dot" style="background: var(--fitness);"></span>
-                        <div>
-                            <div class="calendar-name">Fitness & Wellness</div>
-                            <div class="calendar-desc">Free yoga, community center activities, walking groups</div>
-                        </div>
+                        <span class="calendar-name">Fitness & Wellness</span>
                     </div>
-                    <button class="copy-btn" data-url="apple/fitness_wellness.ics">Copy Link</button>
+                    <button class="copy-btn" data-file="fitness_wellness.ics">Copy Link</button>
                 </li>
                 <li>
                     <div class="calendar-info">
                         <span class="color-dot" style="background: var(--events);"></span>
-                        <div>
-                            <div class="calendar-name">Events & Festivals</div>
-                            <div class="calendar-desc">Free festivals, community events, seasonal activities</div>
-                        </div>
+                        <span class="calendar-name">Events & Festivals</span>
                     </div>
-                    <button class="copy-btn" data-url="apple/events.ics">Copy Link</button>
+                    <button class="copy-btn" data-file="events.ics">Copy Link</button>
                 </li>
                 <li>
                     <div class="calendar-info">
                         <span class="color-dot" style="background: var(--arts);"></span>
-                        <div>
-                            <div class="calendar-name">Arts & Culture</div>
-                            <div class="calendar-desc">Free museum days, library events, cultural programs</div>
-                        </div>
+                        <span class="calendar-name">Arts & Culture</span>
                     </div>
-                    <button class="copy-btn" data-url="apple/arts_culture.ics">Copy Link</button>
+                    <button class="copy-btn" data-file="arts_culture.ics">Copy Link</button>
                 </li>
                 <li>
                     <div class="calendar-info">
                         <span class="color-dot" style="background: var(--social);"></span>
-                        <div>
-                            <div class="calendar-name">Social Activities</div>
-                            <div class="calendar-desc">Writing groups, craft nights, volunteer opportunities</div>
-                        </div>
+                        <span class="calendar-name">Social Activities</span>
                     </div>
-                    <button class="copy-btn" data-url="apple/social_activities.ics">Copy Link</button>
+                    <button class="copy-btn" data-file="social_activities.ics">Copy Link</button>
                 </li>
                 <li>
                     <div class="calendar-info">
                         <span class="color-dot" style="background: var(--food);"></span>
-                        <div>
-                            <div class="calendar-name">Food & Farms</div>
-                            <div class="calendar-desc">Farmers markets, community meals, food resources</div>
-                        </div>
+                        <span class="calendar-name">Food & Farms</span>
                     </div>
-                    <button class="copy-btn" data-url="apple/food_farms.ics">Copy Link</button>
+                    <button class="copy-btn" data-file="food_farms.ics">Copy Link</button>
                 </li>
             </ul>
-            <div class="instructions">
+
+            <div class="instructions" id="instructions-apple">
                 <strong>How to subscribe:</strong>
                 <ol>
-                    <li>Copy the calendar link above</li>
+                    <li>Copy the link above</li>
                     <li>On iPhone/iPad: Settings &gt; Calendar &gt; Accounts &gt; Add Account &gt; Other &gt; Add Subscribed Calendar</li>
                     <li>On Mac: File &gt; New Calendar Subscription</li>
-                    <li>Paste the link and click Subscribe</li>
+                    <li>Paste the link and subscribe</li>
                 </ol>
             </div>
-        </div>
 
-        <!-- Google Calendar -->
-        <div class="platform-section">
-            <h3>Google Calendar</h3>
-            <ul class="calendar-list" id="google-list">
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: #333;"></span>
-                        <div>
-                            <div class="calendar-name">All Events</div>
-                            <div class="calendar-desc">Everything in one calendar</div>
-                        </div>
-                    </div>
-                    <button class="copy-btn" data-url="google/all-events.ics">Copy Link</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--peer-support);"></span>
-                        <div>
-                            <div class="calendar-name">Peer Support</div>
-                        </div>
-                    </div>
-                    <button class="copy-btn" data-url="google/peer_support.ics">Copy Link</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--fitness);"></span>
-                        <div>
-                            <div class="calendar-name">Fitness & Wellness</div>
-                        </div>
-                    </div>
-                    <button class="copy-btn" data-url="google/fitness_wellness.ics">Copy Link</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--events);"></span>
-                        <div>
-                            <div class="calendar-name">Events & Festivals</div>
-                        </div>
-                    </div>
-                    <button class="copy-btn" data-url="google/events.ics">Copy Link</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--arts);"></span>
-                        <div>
-                            <div class="calendar-name">Arts & Culture</div>
-                        </div>
-                    </div>
-                    <button class="copy-btn" data-url="google/arts_culture.ics">Copy Link</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--social);"></span>
-                        <div>
-                            <div class="calendar-name">Social Activities</div>
-                        </div>
-                    </div>
-                    <button class="copy-btn" data-url="google/social_activities.ics">Copy Link</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--food);"></span>
-                        <div>
-                            <div class="calendar-name">Food & Farms</div>
-                        </div>
-                    </div>
-                    <button class="copy-btn" data-url="google/food_farms.ics">Copy Link</button>
-                </li>
-            </ul>
-            <div class="instructions">
+            <div class="instructions" id="instructions-google" style="display: none;">
                 <strong>How to subscribe:</strong>
                 <ol>
-                    <li>Copy the calendar link above</li>
+                    <li>Copy the link above</li>
                     <li>Go to <a href="https://calendar.google.com" target="_blank">calendar.google.com</a></li>
-                    <li>Click the + next to "Other calendars" &gt; From URL</li>
-                    <li>Paste the link and click "Add calendar"</li>
+                    <li>Click + next to "Other calendars" &gt; From URL</li>
+                    <li>Paste the link and add</li>
                 </ol>
             </div>
-        </div>
 
-        <!-- Outlook -->
-        <div class="platform-section">
-            <h3>Outlook</h3>
-            <ul class="calendar-list" id="outlook-list">
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: #333;"></span>
-                        <div>
-                            <div class="calendar-name">All Events</div>
-                            <div class="calendar-desc">Everything in one calendar</div>
-                        </div>
-                    </div>
-                    <button class="copy-btn" data-url="outlook/all-events.ics">Copy Link</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--peer-support);"></span>
-                        <div>
-                            <div class="calendar-name">Peer Support</div>
-                        </div>
-                    </div>
-                    <button class="copy-btn" data-url="outlook/peer_support.ics">Copy Link</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--fitness);"></span>
-                        <div>
-                            <div class="calendar-name">Fitness & Wellness</div>
-                        </div>
-                    </div>
-                    <button class="copy-btn" data-url="outlook/fitness_wellness.ics">Copy Link</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--events);"></span>
-                        <div>
-                            <div class="calendar-name">Events & Festivals</div>
-                        </div>
-                    </div>
-                    <button class="copy-btn" data-url="outlook/events.ics">Copy Link</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--arts);"></span>
-                        <div>
-                            <div class="calendar-name">Arts & Culture</div>
-                        </div>
-                    </div>
-                    <button class="copy-btn" data-url="outlook/arts_culture.ics">Copy Link</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--social);"></span>
-                        <div>
-                            <div class="calendar-name">Social Activities</div>
-                        </div>
-                    </div>
-                    <button class="copy-btn" data-url="outlook/social_activities.ics">Copy Link</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--food);"></span>
-                        <div>
-                            <div class="calendar-name">Food & Farms</div>
-                        </div>
-                    </div>
-                    <button class="copy-btn" data-url="outlook/food_farms.ics">Copy Link</button>
-                </li>
-            </ul>
-            <div class="instructions">
+            <div class="instructions" id="instructions-outlook" style="display: none;">
                 <strong>How to subscribe:</strong>
                 <ol>
-                    <li>Copy the calendar link above</li>
+                    <li>Copy the link above</li>
                     <li>In Outlook: Add calendar &gt; Subscribe from web</li>
-                    <li>Paste the link and click Import</li>
+                    <li>Paste the link and import</li>
                 </ol>
-            </div>
-        </div>
-
-        <h2>What's Included</h2>
-        <div class="category-grid">
-            <div class="category-card" style="border-color: var(--peer-support);">
-                <h4>Peer Support</h4>
-                <p>NAMI support groups, Recovery Dharma, depression/anxiety groups, grief support, and more.</p>
-            </div>
-            <div class="category-card" style="border-color: var(--fitness);">
-                <h4>Fitness & Wellness</h4>
-                <p>Free yoga classes, community center drop-ins, walking groups, swimming.</p>
-            </div>
-            <div class="category-card" style="border-color: var(--events);">
-                <h4>Events & Festivals</h4>
-                <p>Free community festivals, seasonal celebrations, holiday events.</p>
-            </div>
-            <div class="category-card" style="border-color: var(--arts);">
-                <h4>Arts & Culture</h4>
-                <p>Free museum admission days, library programs, gallery openings.</p>
-            </div>
-            <div class="category-card" style="border-color: var(--social);">
-                <h4>Social Activities</h4>
-                <p>Writing workshops, craft groups, volunteer opportunities.</p>
-            </div>
-            <div class="category-card" style="border-color: var(--food);">
-                <h4>Food & Farms</h4>
-                <p>Farmers markets, community meals, gleaning events.</p>
             </div>
         </div>
     </main>
 
     <footer>
-        <p>Maintained by FolkTime peer support programs.<br>
-        For questions or to suggest a resource, contact us.</p>
+        <p>Maintained by FolkTime</p>
     </footer>
 
     <script>
-        // Get the base URL for calendar links
         const baseUrl = window.location.href.replace(/index\.html$/, '').replace(/\/$/, '') + '/';
+        let currentPlatform = 'apple';
 
-        // Handle copy button clicks
+        // Platform tab switching
+        document.querySelectorAll('.platform-tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                document.querySelectorAll('.platform-tab').forEach(t => t.classList.remove('active'));
+                this.classList.add('active');
+                currentPlatform = this.dataset.platform;
+
+                // Update instructions
+                document.querySelectorAll('.instructions').forEach(i => i.style.display = 'none');
+                document.getElementById('instructions-' + currentPlatform).style.display = 'block';
+            });
+        });
+
+        // Copy button functionality
         document.querySelectorAll('.copy-btn').forEach(btn => {
             btn.addEventListener('click', async function() {
-                const relativeUrl = this.getAttribute('data-url');
-                const fullUrl = baseUrl + relativeUrl;
+                const file = this.dataset.file;
+                const fullUrl = baseUrl + currentPlatform + '/' + file;
 
                 try {
                     await navigator.clipboard.writeText(fullUrl);
-                    this.textContent = 'Copied!';
-                    this.classList.add('copied');
-
-                    setTimeout(() => {
-                        this.textContent = 'Copy Link';
-                        this.classList.remove('copied');
-                    }, 2000);
                 } catch (err) {
-                    // Fallback for older browsers
                     const textarea = document.createElement('textarea');
                     textarea.value = fullUrl;
                     document.body.appendChild(textarea);
                     textarea.select();
                     document.execCommand('copy');
                     document.body.removeChild(textarea);
-
-                    this.textContent = 'Copied!';
-                    this.classList.add('copied');
-
-                    setTimeout(() => {
-                        this.textContent = 'Copy Link';
-                        this.classList.remove('copied');
-                    }, 2000);
                 }
+
+                this.textContent = 'Copied!';
+                this.classList.add('copied');
+                setTimeout(() => {
+                    this.textContent = 'Copy Link';
+                    this.classList.remove('copied');
+                }, 2000);
             });
+        });
+
+        // Toggle category calendars
+        document.querySelector('.more-toggle').addEventListener('click', function() {
+            const categories = document.querySelector('.category-calendars');
+            const isShown = categories.classList.toggle('show');
+            this.textContent = isShown ? '− Hide category calendars' : '+ Show category calendars';
         });
     </script>
 </body>
