@@ -2,6 +2,31 @@
 # Records all verification activities and changes
 
 ---
+- date: 2025-01-07
+  type: infrastructure
+  auditor: claude
+  summary: "Set up GitHub Pages hosting with interactive calendar preview"
+  changes:
+    - Created public calendar hosting at https://lobabobloblaw.github.io/peer-calendar/
+    - Built landing page with platform selector (Apple/Google/Outlook)
+    - Added inline calendar preview with List and Grid views
+    - Implemented schedule parsing for recurring events
+    - Added Updates section for announcing new content
+    - Updated generate_calendar.py with --publish flag for docs/ deployment
+  entries_added:
+    - id: cmhc-peer-groups
+      name: "CMHC Peer Groups (Clackamas Mental Health Clinic)"
+      programs:
+        - ColorFlow (1st & 3rd Wednesdays, 2-3:30pm)
+        - Intentional Silence & Meditation (2nd Tuesday, 5-6pm)
+        - Cultivate & Connect (2nd Thursday, 3-4pm)
+        - Healing with Photography (2nd & 4th Wednesdays, 2:30-4pm)
+        - Karaoke Night (3rd Friday, 6:45-8pm)
+  notes: |
+    Calendar now has 84 scheduled events across 179 total entries.
+    Live site serves Tri-County area resources.
+    Subscription URLs auto-update when calendar is regenerated and pushed.
+
 - date: 2025-12-02
   type: audit
   auditor: claude

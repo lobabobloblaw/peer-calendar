@@ -269,12 +269,17 @@ python scripts/generate_monthly_calendars.py
 
 Calendars are hosted via GitHub Pages for public subscription access.
 
-**Live URL:** `https://[username].github.io/peer-support-calendar/`
+**Live URL:** https://lobabobloblaw.github.io/peer-calendar/
 
 **Subscription URLs:**
-- All events: `https://[username].github.io/peer-support-calendar/apple/all-events.ics`
-- By category: `https://[username].github.io/peer-support-calendar/apple/peer_support.ics`
+- All events: `https://lobabobloblaw.github.io/peer-calendar/apple/all-events.ics`
+- By category: `https://lobabobloblaw.github.io/peer-calendar/apple/peer_support.ics`
 - Replace `apple` with `google` or `outlook` for platform-specific versions
+
+**Landing page features:**
+- Platform selector (Apple/Google/Outlook) with subscribe buttons
+- Inline calendar preview with List and Calendar grid views
+- Updates section for announcing new content
 
 **Publishing workflow:**
 ```bash
