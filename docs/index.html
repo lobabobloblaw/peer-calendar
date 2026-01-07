@@ -20,14 +20,36 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
-            max-width: 800px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 20px 40px;
             background: #fafafa;
             color: #333;
         }
 
-        @media (max-width: 600px) {
+        /* Two-column layout for desktop */
+        .main-content {
+            display: block;
+        }
+
+        @media (min-width: 768px) {
+            body {
+                padding: 24px 48px;
+            }
+
+            .main-content {
+                display: grid;
+                grid-template-columns: 420px 1fr;
+                gap: 32px;
+                align-items: start;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+
+        @media (max-width: 767px) {
             body {
                 padding: 16px;
             }
@@ -206,11 +228,39 @@
             display: block;
         }
 
+        /* Panel styles for two-column layout */
+        .left-panel {
+            position: sticky;
+            top: 24px;
+        }
+
+        .right-panel {
+            min-width: 0; /* Prevent grid blowout */
+        }
+
+        @media (max-width: 767px) {
+            .left-panel {
+                position: static;
+            }
+        }
+
         /* Calendar Preview Section */
         .preview-section {
             margin-top: 30px;
             padding-top: 20px;
             border-top: 1px solid #ddd;
+        }
+
+        @media (min-width: 768px) {
+            .preview-section {
+                margin-top: 0;
+                padding-top: 0;
+                border-top: none;
+            }
+
+            .preview-section h2 {
+                font-size: 1.2em;
+            }
         }
 
         .preview-section h2 {
@@ -280,6 +330,12 @@
         .list-view {
             max-height: 400px;
             overflow-y: auto;
+        }
+
+        @media (min-width: 768px) {
+            .list-view {
+                max-height: 520px;
+            }
         }
 
         .event-day {
@@ -373,6 +429,14 @@
             font-size: 0.75em;
             min-width: 0;
             overflow: hidden;
+        }
+
+        @media (min-width: 768px) {
+            .grid-day {
+                min-height: 90px;
+                padding: 4px 6px;
+                font-size: 0.8em;
+            }
         }
 
         .grid-day:nth-child(7n) { border-right: none; }
@@ -493,8 +557,10 @@
             <p><strong>Subscribe once, stay updated.</strong> When you add this calendar, new events appear automatically — no need to re-download or check back.</p>
         </div>
 
-        <p class="choose-label">Which calendar app do you use?</p>
-        <div class="platform-tabs">
+        <div class="main-content">
+            <div class="left-panel">
+                <p class="choose-label">Which calendar app do you use?</p>
+                <div class="platform-tabs">
             <button class="platform-tab active" data-platform="apple">Apple Calendar</button>
             <button class="platform-tab" data-platform="google">Google Calendar</button>
             <button class="platform-tab" data-platform="outlook">Outlook</button>
@@ -587,8 +653,10 @@
                 </ol>
             </div>
         </div>
+            </div>
 
-        <div class="preview-section">
+            <div class="right-panel">
+                <div class="preview-section">
             <h2>Preview Events</h2>
             <div class="view-tabs">
                 <button class="view-tab active" data-view="list">List</button>
@@ -605,6 +673,8 @@
                 </div>
                 <div class="grid-view" id="grid-view">
                     <div class="calendar-grid" id="calendar-grid"></div>
+                </div>
+            </div>
                 </div>
             </div>
         </div>
@@ -918,7 +988,7 @@
                 html += `<div class="grid-day${isToday ? ' today' : ''}">
                     <div class="day-number${hasEvents ? ' has-events' : ''}">${day}</div>`;
 
-                const maxShow = 2;
+                const maxShow = window.innerWidth >= 768 ? 3 : 2;
                 for (let i = 0; i < Math.min(dayEvents.length, maxShow); i++) {
                     const evt = dayEvents[i];
                     html += `<div class="grid-event" style="background: ${evt.color}" title="${evt.title}">${evt.title}</div>`;
