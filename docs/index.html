@@ -12,7 +12,7 @@
             --arts: #9370DB;
             --food: #DAA520;
             --social: #FF69B4;
-            --accent: #5a9fe9;
+            --accent: #e08050;
             --bg-dark: #0a0a0a;
             --bg-card: rgba(255, 255, 255, 0.6);
             --bg-card-hover: rgba(255, 255, 255, 0.7);
@@ -1565,6 +1565,9 @@
         function animate() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
+            // Draw logo first to establish alpha channel
+            ctx.drawImage(img, 0, 0);
+
             // Create animated cloud-like gradient (whites and soft blues)
             const offset = Math.sin(time * 0.3) * 0.5 + 0.5;
             const offset2 = Math.cos(time * 0.2) * 0.5 + 0.5;
@@ -1576,13 +1579,10 @@
             gradient.addColorStop(0.75, '#d4e8f7');
             gradient.addColorStop(1, '#ffffff');
 
-            // Draw gradient
+            // Apply gradient only where logo pixels exist, preserving original alpha
+            ctx.globalCompositeOperation = 'source-in';
             ctx.fillStyle = gradient;
             ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-            // Use logo as mask
-            ctx.globalCompositeOperation = 'destination-in';
-            ctx.drawImage(img, 0, 0);
             ctx.globalCompositeOperation = 'source-over';
 
             time += 0.015;
