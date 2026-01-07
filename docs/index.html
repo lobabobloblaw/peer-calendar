@@ -50,6 +50,13 @@
         }
 
         /* Platform selector */
+        .choose-label {
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 12px;
+            color: #444;
+        }
+
         .platform-tabs {
             display: flex;
             gap: 8px;
@@ -195,9 +202,10 @@
     </header>
 
     <main>
+        <p class="choose-label">Which calendar app do you use?</p>
         <div class="platform-tabs">
-            <button class="platform-tab active" data-platform="apple">Apple</button>
-            <button class="platform-tab" data-platform="google">Google</button>
+            <button class="platform-tab active" data-platform="apple">Apple Calendar</button>
+            <button class="platform-tab" data-platform="google">Google Calendar</button>
             <button class="platform-tab" data-platform="outlook">Outlook</button>
         </div>
 
