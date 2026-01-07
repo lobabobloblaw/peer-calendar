@@ -38,8 +38,13 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 - `scripts/audit_check.py` - Reports entries due for audit, unverified entries, statistics
 - `scripts/deduplicate_entries.py` - Merge duplicate entries in sources.yaml
 - `scripts/add_type_fields.py` - Migration script for adding location_type/resource_type fields
+- `scripts/add_enrichment_fields.py` - Migration script for adding enrichment fields
 - `scripts/requirements.txt` - Python dependencies (pyyaml)
 - `scripts/venv/` - Virtual environment
+
+**Templates:**
+- `templates/resource-entry.yaml` - Template for new database entries
+- `templates/audit-report.md` - Template for quarterly audit reports
 
 **Output files (platform-specific calendars):**
 ```
@@ -314,6 +319,21 @@ The `docs/` folder contains:
 1. Add calendar > Subscribe from web
 2. Paste the subscription URL
 3. HTML descriptions with clickable links will display
+
+## YAML Structure Notes
+
+`sources.yaml` uses multi-document YAML format with `---` separators between category sections. When parsing:
+```python
+# Correct way to load sources.yaml
+for doc in yaml.safe_load_all(content):
+    if doc and isinstance(doc, list):
+        entries.extend(doc)
+```
+
+Schedule strings are parsed with natural language patterns:
+- "Every Tuesday 6-7pm" → weekly recurring on Tuesdays
+- "1st and 3rd Wednesday 2-3:30pm" → monthly on specific week positions
+- The `parse_schedule()` function in `generate_calendar.py` handles this conversion
 
 ## Ongoing Work
 

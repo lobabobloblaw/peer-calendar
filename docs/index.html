@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peer Support Calendar - Free Tri-County Resources</title>
+    <title>FolkTime 2026 Peer Support Calendar</title>
     <style>
         :root {
             --peer-support: #7B68EE;
@@ -61,20 +61,15 @@
         }
 
         header img {
-            max-width: 160px;
+            max-width: 100%;
             height: auto;
+            border-radius: 8px;
         }
 
-        h1 {
-            color: #2c3e50;
-            margin: 12px 0 6px;
-            font-size: 1.5em;
-        }
-
-        .tagline {
-            color: #666;
-            font-size: 1em;
-            margin: 0;
+        @media (min-width: 768px) {
+            header img {
+                max-width: 600px;
+            }
         }
 
         /* How it works */
@@ -360,6 +355,12 @@
             gap: 10px;
             padding: 10px 16px;
             border-bottom: 1px solid #f0f0f0;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+
+        .event-item:hover {
+            background: #f8f9fa;
         }
 
         .event-item:last-child { border-bottom: none; }
@@ -481,6 +482,193 @@
             cursor: pointer;
         }
 
+        .more-events:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+
+        /* Event detail modal */
+        .event-modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .event-modal-overlay.active {
+            display: flex;
+        }
+
+        .event-modal {
+            background: white;
+            border-radius: 12px;
+            max-width: 450px;
+            width: 100%;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .event-modal-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 16px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .event-modal-color {
+            width: 6px;
+            min-height: 40px;
+            border-radius: 3px;
+            flex-shrink: 0;
+        }
+
+        .event-modal-title {
+            flex: 1;
+        }
+
+        .event-modal-title h3 {
+            margin: 0 0 4px;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .event-modal-title .event-org {
+            font-size: 0.85em;
+            color: #666;
+        }
+
+        .event-modal-close {
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            color: #999;
+            padding: 0;
+            line-height: 1;
+        }
+
+        .event-modal-close:hover {
+            color: #333;
+        }
+
+        .event-modal-body {
+            padding: 16px;
+        }
+
+        .event-modal-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .event-modal-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .event-modal-icon {
+            width: 20px;
+            text-align: center;
+            color: #888;
+            flex-shrink: 0;
+        }
+
+        .event-modal-value {
+            font-size: 0.9em;
+            color: #444;
+        }
+
+        /* Day events popup (for +X more) */
+        .day-popup {
+            position: absolute;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+            min-width: 220px;
+            max-width: 300px;
+            z-index: 100;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .day-popup-header {
+            padding: 10px 12px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #eee;
+            font-weight: 600;
+            font-size: 0.85em;
+            position: sticky;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .day-popup-close {
+            background: none;
+            border: none;
+            font-size: 1.2em;
+            cursor: pointer;
+            color: #999;
+            padding: 0;
+            line-height: 1;
+        }
+
+        .day-popup-close:hover {
+            color: #333;
+        }
+
+        .day-popup-events {
+            padding: 8px;
+        }
+
+        .day-popup-event {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+
+        .day-popup-event:hover {
+            background: #f0f0f0;
+        }
+
+        .day-popup-event-color {
+            width: 4px;
+            min-height: 28px;
+            border-radius: 2px;
+            flex-shrink: 0;
+        }
+
+        .day-popup-event-details {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .day-popup-event-title {
+            font-size: 0.85em;
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 2px;
+        }
+
+        .day-popup-event-time {
+            font-size: 0.75em;
+            color: #888;
+        }
+
         .no-events {
             padding: 40px 20px;
             text-align: center;
@@ -547,9 +735,7 @@
 </head>
 <body>
     <header>
-        <img src="folktime-logo.png" alt="FolkTime Logo">
-        <h1>Peer Support Calendar</h1>
-        <p class="tagline">Free activities in the Tri-County area</p>
+        <img src="logo.png" alt="FolkTime 2026 Peer Support Calendar">
     </header>
 
     <main>
@@ -690,6 +876,21 @@
     <footer>
         <p>Maintained by FolkTime</p>
     </footer>
+
+    <!-- Event detail modal -->
+    <div class="event-modal-overlay" id="event-modal-overlay">
+        <div class="event-modal">
+            <div class="event-modal-header">
+                <div class="event-modal-color" id="modal-color"></div>
+                <div class="event-modal-title">
+                    <h3 id="modal-title"></h3>
+                    <div class="event-org" id="modal-org"></div>
+                </div>
+                <button class="event-modal-close" id="modal-close">&times;</button>
+            </div>
+            <div class="event-modal-body" id="modal-body"></div>
+        </div>
+    </div>
 
     <script>
         const baseUrl = window.location.href.replace(/index\.html$/, '').replace(/\/$/, '') + '/';
@@ -899,6 +1100,148 @@
             return min > 0 ? `${displayHour}:${min.toString().padStart(2, '0')}${period}` : `${displayHour}${period}`;
         }
 
+        // Store events indexed for quick lookup
+        let eventsByDateKey = {};
+
+        // Modal functions
+        function showEventModal(event) {
+            const overlay = document.getElementById('event-modal-overlay');
+            document.getElementById('modal-color').style.background = event.color;
+            document.getElementById('modal-title').textContent = event.title;
+            document.getElementById('modal-org').textContent = event.org || '';
+            document.getElementById('modal-org').style.display = event.org ? 'block' : 'none';
+
+            // Build modal body
+            let bodyHtml = '';
+
+            // Date
+            const dateStr = `${dayNames[event.date.getDay()]}, ${monthNames[event.date.getMonth()]} ${event.date.getDate()}, ${event.date.getFullYear()}`;
+            bodyHtml += `<div class="event-modal-row">
+                <div class="event-modal-icon">📅</div>
+                <div class="event-modal-value">${dateStr}</div>
+            </div>`;
+
+            // Time
+            if (event.startTime) {
+                const timeStr = event.endTime
+                    ? `${formatTime(event.startTime)} - ${formatTime(event.endTime)}`
+                    : formatTime(event.startTime);
+                bodyHtml += `<div class="event-modal-row">
+                    <div class="event-modal-icon">🕐</div>
+                    <div class="event-modal-value">${timeStr}</div>
+                </div>`;
+            }
+
+            // Location/Format
+            if (event.format === 'Zoom' || event.format === 'Online') {
+                bodyHtml += `<div class="event-modal-row">
+                    <div class="event-modal-icon">💻</div>
+                    <div class="event-modal-value">Online (${event.format})</div>
+                </div>`;
+            } else if (event.location) {
+                bodyHtml += `<div class="event-modal-row">
+                    <div class="event-modal-icon">📍</div>
+                    <div class="event-modal-value">${event.location}</div>
+                </div>`;
+            }
+
+            // Category
+            if (event.category) {
+                bodyHtml += `<div class="event-modal-row">
+                    <div class="event-modal-icon">🏷️</div>
+                    <div class="event-modal-value">${event.category}</div>
+                </div>`;
+            }
+
+            document.getElementById('modal-body').innerHTML = bodyHtml;
+            overlay.classList.add('active');
+        }
+
+        function hideEventModal() {
+            document.getElementById('event-modal-overlay').classList.remove('active');
+        }
+
+        // Close modal on overlay click or close button
+        document.getElementById('event-modal-overlay').addEventListener('click', function(e) {
+            if (e.target === this) hideEventModal();
+        });
+        document.getElementById('modal-close').addEventListener('click', hideEventModal);
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') hideEventModal();
+        });
+
+        // Day popup for "+X more"
+        let currentDayPopup = null;
+
+        function showDayPopup(dayElement, dayEvents, dateLabel) {
+            // Remove any existing popup
+            hideDayPopup();
+
+            const popup = document.createElement('div');
+            popup.className = 'day-popup';
+
+            let html = `<div class="day-popup-header">
+                <span>${dateLabel}</span>
+                <button class="day-popup-close">&times;</button>
+            </div>
+            <div class="day-popup-events">`;
+
+            for (let i = 0; i < dayEvents.length; i++) {
+                const evt = dayEvents[i];
+                const timeStr = evt.startTime ? formatTime(evt.startTime) : '';
+                html += `<div class="day-popup-event" data-event-index="${i}">
+                    <div class="day-popup-event-color" style="background: ${evt.color}"></div>
+                    <div class="day-popup-event-details">
+                        <div class="day-popup-event-title">${evt.title}</div>
+                        ${timeStr ? `<div class="day-popup-event-time">${timeStr}</div>` : ''}
+                    </div>
+                </div>`;
+            }
+
+            html += '</div>';
+            popup.innerHTML = html;
+
+            // Position the popup
+            const rect = dayElement.getBoundingClientRect();
+            const gridRect = document.getElementById('calendar-grid').getBoundingClientRect();
+
+            popup.style.position = 'fixed';
+            popup.style.top = `${rect.bottom + 4}px`;
+            popup.style.left = `${Math.max(10, Math.min(rect.left, window.innerWidth - 320))}px`;
+
+            document.body.appendChild(popup);
+            currentDayPopup = popup;
+
+            // Add event listeners
+            popup.querySelector('.day-popup-close').addEventListener('click', hideDayPopup);
+
+            popup.querySelectorAll('.day-popup-event').forEach((el, idx) => {
+                el.addEventListener('click', () => {
+                    showEventModal(dayEvents[idx]);
+                    hideDayPopup();
+                });
+            });
+
+            // Close on outside click
+            setTimeout(() => {
+                document.addEventListener('click', handleOutsideClick);
+            }, 10);
+        }
+
+        function hideDayPopup() {
+            if (currentDayPopup) {
+                currentDayPopup.remove();
+                currentDayPopup = null;
+                document.removeEventListener('click', handleOutsideClick);
+            }
+        }
+
+        function handleOutsideClick(e) {
+            if (currentDayPopup && !currentDayPopup.contains(e.target) && !e.target.classList.contains('more-events') && !e.target.classList.contains('grid-event')) {
+                hideDayPopup();
+            }
+        }
+
         // Render list view
         function renderListView() {
             const container = document.getElementById('list-view');
@@ -909,6 +1252,9 @@
                 return;
             }
 
+            // Store events for click handling
+            const allListEvents = [];
+
             // Group by date
             const grouped = {};
             for (const event of events) {
@@ -918,6 +1264,7 @@
             }
 
             let html = '';
+            let eventIndex = 0;
             for (const [dateStr, dayEvents] of Object.entries(grouped)) {
                 const date = new Date(dateStr);
                 const dayName = dayNames[date.getDay()];
@@ -931,7 +1278,7 @@
                         `${formatTime(event.startTime)}${event.endTime ? ' - ' + formatTime(event.endTime) : ''}` : '';
                     const locationStr = event.format === 'Zoom' ? 'Online (Zoom)' : (event.location || '');
 
-                    html += `<div class="event-item">
+                    html += `<div class="event-item" data-list-index="${eventIndex}" style="cursor: pointer;">
                         <div class="event-color" style="background: ${event.color}"></div>
                         <div class="event-details">
                             <div class="event-title">${event.title}</div>
@@ -942,12 +1289,26 @@
                             </div>
                         </div>
                     </div>`;
+
+                    allListEvents.push(event);
+                    eventIndex++;
                 }
 
                 html += '</div>';
             }
 
             container.innerHTML = html;
+
+            // Add click handlers for list events
+            container.querySelectorAll('.event-item').forEach(el => {
+                el.addEventListener('click', function() {
+                    const index = parseInt(this.dataset.listIndex);
+                    const event = allListEvents[index];
+                    if (event) {
+                        showEventModal(event);
+                    }
+                });
+            });
         }
 
         // Render grid view
@@ -961,11 +1322,13 @@
             const startOffset = firstDay.getDay();
 
             const events = generateMonthEvents(year, month);
-            const eventsByDate = {};
+
+            // Store events by date for click handlers
+            eventsByDateKey = {};
             for (const event of events) {
                 const key = event.date.getDate();
-                if (!eventsByDate[key]) eventsByDate[key] = [];
-                eventsByDate[key].push(event);
+                if (!eventsByDateKey[key]) eventsByDateKey[key] = [];
+                eventsByDateKey[key].push(event);
             }
 
             const today = new Date();
@@ -982,20 +1345,20 @@
             // Current month days
             for (let day = 1; day <= lastDay.getDate(); day++) {
                 const isToday = isCurrentMonth && today.getDate() === day;
-                const dayEvents = eventsByDate[day] || [];
+                const dayEvents = eventsByDateKey[day] || [];
                 const hasEvents = dayEvents.length > 0;
 
-                html += `<div class="grid-day${isToday ? ' today' : ''}">
+                html += `<div class="grid-day${isToday ? ' today' : ''}" data-day="${day}">
                     <div class="day-number${hasEvents ? ' has-events' : ''}">${day}</div>`;
 
                 const maxShow = window.innerWidth >= 768 ? 3 : 2;
                 for (let i = 0; i < Math.min(dayEvents.length, maxShow); i++) {
                     const evt = dayEvents[i];
-                    html += `<div class="grid-event" style="background: ${evt.color}" title="${evt.title}">${evt.title}</div>`;
+                    html += `<div class="grid-event" style="background: ${evt.color}" title="${evt.title}" data-day="${day}" data-index="${i}">${evt.title}</div>`;
                 }
 
                 if (dayEvents.length > maxShow) {
-                    html += `<div class="more-events">+${dayEvents.length - maxShow} more</div>`;
+                    html += `<div class="more-events" data-day="${day}">+${dayEvents.length - maxShow} more</div>`;
                 }
 
                 html += '</div>';
@@ -1009,6 +1372,31 @@
             }
 
             container.innerHTML = html;
+
+            // Add click handlers for events
+            container.querySelectorAll('.grid-event').forEach(el => {
+                el.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const day = parseInt(this.dataset.day);
+                    const index = parseInt(this.dataset.index);
+                    const event = eventsByDateKey[day]?.[index];
+                    if (event) {
+                        showEventModal(event);
+                    }
+                });
+            });
+
+            // Add click handlers for "+X more"
+            container.querySelectorAll('.more-events').forEach(el => {
+                el.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const day = parseInt(this.dataset.day);
+                    const dayEvents = eventsByDateKey[day] || [];
+                    const dayCell = this.closest('.grid-day');
+                    const dateLabel = `${monthNames[month]} ${day}`;
+                    showDayPopup(dayCell, dayEvents, dateLabel);
+                });
+            });
         }
 
         // Update display
