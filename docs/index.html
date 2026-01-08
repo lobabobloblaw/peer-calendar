@@ -708,6 +708,24 @@
                 width: 90px;
             }
         }
+
+        /* Responsive visibility */
+        .desktop-only {
+            display: none;
+        }
+
+        .mobile-only {
+            display: block;
+        }
+
+        @media (min-width: 768px) {
+            .desktop-only {
+                display: block;
+            }
+            .mobile-only {
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -775,7 +793,7 @@
                     </ul>
                 </div>
 
-                <a href="https://www.folktime.org" target="_blank" rel="noopener"><img src="folktime.png" alt="FolkTime" class="folktime-logo"></a>
+                <a href="https://www.folktime.org" target="_blank" rel="noopener" class="folktime-link desktop-only"><img src="folktime.png" alt="FolkTime" class="folktime-logo"></a>
             </div>
 
             <div class="right-panel">
@@ -794,6 +812,8 @@
             </div>
             </div>
         </div>
+
+        <a href="https://www.folktime.org" target="_blank" rel="noopener" class="folktime-link mobile-only"><img src="folktime.png" alt="FolkTime" class="folktime-logo"></a>
     </main>
 
     <footer>
