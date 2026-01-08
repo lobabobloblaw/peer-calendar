@@ -726,10 +726,41 @@
                 display: none;
             }
         }
+
+        /* Landscape lock overlay for mobile */
+        .landscape-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(10, 10, 10, 0.95);
+            z-index: 9999;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+        .landscape-overlay p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        @media (max-width: 767px) and (orientation: landscape) {
+            .landscape-overlay {
+                display: flex;
+            }
+        }
     </style>
 </head>
 <body>
     <div id="vanta-bg" aria-hidden="true"></div>
+    <div class="landscape-overlay" aria-hidden="true">
+        <p>Please rotate your device to portrait mode</p>
+    </div>
 
     <header>
         <img src="2026.png" alt="2026 Peer Support Calendar" class="header-logo">
