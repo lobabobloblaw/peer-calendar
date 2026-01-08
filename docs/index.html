@@ -1182,11 +1182,23 @@
 
             // Position the popup
             const rect = dayElement.getBoundingClientRect();
-            const gridRect = document.getElementById('calendar-grid').getBoundingClientRect();
+            const popupHeight = 300; // max-height of popup
+            const spaceBelow = window.innerHeight - rect.bottom - 10;
+            const spaceAbove = rect.top - 10;
 
             popup.style.position = 'fixed';
-            popup.style.top = `${rect.bottom + 4}px`;
             popup.style.left = `${Math.max(10, Math.min(rect.left, window.innerWidth - 320))}px`;
+
+            // Position above or below based on available space
+            if (spaceBelow >= popupHeight || spaceBelow >= spaceAbove) {
+                // Position below, but cap at viewport bottom
+                const maxTop = window.innerHeight - popupHeight - 10;
+                popup.style.top = `${Math.min(rect.bottom + 4, maxTop)}px`;
+            } else {
+                // Position above
+                popup.style.bottom = `${window.innerHeight - rect.top + 4}px`;
+                popup.style.top = 'auto';
+            }
 
             document.body.appendChild(popup);
             currentDayPopup = popup;
