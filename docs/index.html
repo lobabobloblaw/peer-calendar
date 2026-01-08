@@ -783,8 +783,8 @@
         <!-- View toggle toolbar -->
         <div class="toolbar">
             <div class="view-tabs">
-                <button class="view-tab active" data-view="list">List</button>
-                <button class="view-tab" data-view="grid">Calendar</button>
+                <button class="view-tab active" data-view="grid">Calendar</button>
+                <button class="view-tab" data-view="list">List</button>
             </div>
         </div>
 
@@ -847,10 +847,10 @@
                     <span class="month-label" id="month-label">January 2025</span>
                     <button id="next-month">Next &rarr;</button>
                 </div>
-                <div class="list-view active" id="list-view">
+                <div class="list-view" id="list-view">
                     <div class="no-events">Loading events...</div>
                 </div>
-                <div class="grid-view" id="grid-view">
+                <div class="grid-view active" id="grid-view">
                     <div class="calendar-grid" id="calendar-grid"></div>
                 </div>
             </div>
@@ -925,7 +925,7 @@
         // Calendar Preview functionality
         let eventsData = null;
         let currentMonth = new Date();
-        let currentView = 'list';
+        let currentView = 'grid';
 
         const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
