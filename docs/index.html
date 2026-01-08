@@ -226,24 +226,18 @@
 
         /* Panel styles for two-column layout */
         .left-panel {
-            position: sticky;
-            top: 24px;
+            padding: 0;
+            margin: 0;
         }
 
         .right-panel {
+            padding: 0;
+            margin: 0;
             min-width: 0; /* Prevent grid blowout */
-            max-height: 100%;
-            overflow-y: auto;
-        }
-
-        @media (max-width: 767px) {
-            .left-panel {
-                position: static;
-            }
         }
 
         @media (min-width: 768px) {
-            .left-panel {
+            .left-panel, .right-panel {
                 max-height: 100%;
                 overflow-y: auto;
             }
