@@ -90,6 +90,18 @@
             margin-bottom: 16px;
         }
 
+        .platform-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .toolbar-label {
+            font-size: 0.85em;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
         .platform-tabs, .view-tabs {
             display: flex;
             gap: 6px;
@@ -733,10 +745,13 @@
     <main>
         <!-- Unified toolbar with all navigation buttons -->
         <div class="toolbar">
-            <div class="platform-tabs">
-                <button class="platform-tab active" data-platform="apple">Apple</button>
-                <button class="platform-tab" data-platform="google">Google</button>
-                <button class="platform-tab" data-platform="outlook">Outlook</button>
+            <div class="platform-group">
+                <span class="toolbar-label">Subscribe with:</span>
+                <div class="platform-tabs">
+                    <button class="platform-tab active" data-platform="apple">Apple</button>
+                    <button class="platform-tab" data-platform="google">Google</button>
+                    <button class="platform-tab" data-platform="outlook">Outlook</button>
+                </div>
             </div>
             <div class="view-tabs">
                 <button class="view-tab active" data-view="list">List</button>
