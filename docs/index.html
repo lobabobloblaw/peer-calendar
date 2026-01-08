@@ -81,40 +81,38 @@
             margin-bottom: 12px;
         }
 
-        /* Platform selector */
-        .choose-label {
-            text-align: center;
-            font-weight: 500;
-            margin: 0 0 12px 0;
-            color: var(--text-secondary);
-        }
-
-        .platform-tabs {
+        /* Unified toolbar */
+        .toolbar {
             display: flex;
-            gap: 8px;
-            margin-bottom: 20px;
+            justify-content: space-between;
+            align-items: center;
+            gap: 32px;
+            margin-bottom: 16px;
         }
 
-        .platform-tab {
-            flex: 1;
-            padding: 12px 8px;
-            border: 2px solid var(--border-color);
+        .platform-tabs, .view-tabs {
+            display: flex;
+            gap: 6px;
+        }
+
+        .platform-tab, .view-tab {
+            padding: 8px 14px;
+            border: 1px solid var(--border-color);
             background: var(--bg-card);
-            border-radius: 8px;
+            border-radius: 6px;
             cursor: pointer;
-            text-align: center;
-            font-size: 0.9em;
+            font-size: 0.85em;
             font-weight: 500;
             color: var(--text-primary);
             transition: all 0.2s;
         }
 
-        .platform-tab:hover {
+        .platform-tab:hover, .view-tab:hover {
             border-color: var(--accent);
             background: var(--bg-card-hover);
         }
 
-        .platform-tab.active {
+        .platform-tab.active, .view-tab.active {
             border-color: var(--accent);
             background: var(--accent);
             color: white;
@@ -243,60 +241,7 @@
             }
         }
 
-        /* Calendar Preview Section */
-        .preview-section {
-            margin-top: 30px;
-            padding-top: 20px;
-            border-top: 1px solid var(--border-color);
-        }
-
-        @media (min-width: 768px) {
-            .preview-section {
-                margin-top: 0;
-                padding-top: 0;
-                border-top: none;
-            }
-
-            .preview-section h2 {
-                font-size: 1.2em;
-            }
-        }
-
-        .preview-section h2 {
-            font-size: 1.1em;
-            color: var(--text-primary);
-            margin: 0 0 16px;
-        }
-
-        .view-tabs {
-            display: flex;
-            gap: 4px;
-            margin: 0 0 16px 0;
-        }
-
-        .view-tab {
-            padding: 8px 16px;
-            border: 1px solid var(--border-color);
-            background: var(--bg-card);
-            color: var(--text-primary);
-            cursor: pointer;
-            font-size: 0.85em;
-            transition: all 0.2s;
-        }
-
-        .view-tab:first-child { border-radius: 6px 0 0 6px; }
-        .view-tab:last-child { border-radius: 0 6px 6px 0; }
-
-        .view-tab:hover {
-            background: var(--bg-card-hover);
-        }
-
-        .view-tab.active {
-            background: var(--accent);
-            border-color: var(--accent);
-            color: white;
-        }
-
+        /* Calendar Preview */
         .calendar-preview {
             background: var(--bg-card);
             border: 1px solid var(--border-color);
@@ -304,12 +249,6 @@
             overflow: hidden;
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
-        }
-
-        @media (min-width: 768px) {
-            .calendar-preview {
-                margin-top: 52px; /* Align with All Events card on left */
-            }
         }
 
         /* Month navigation */
@@ -792,15 +731,21 @@
     </header>
 
     <main>
-        <div class="main-content">
-            <div class="left-panel">
-                <p class="choose-label">Which calendar app do you use?</p>
-                <div class="platform-tabs">
-            <button class="platform-tab active" data-platform="apple">Apple Calendar</button>
-            <button class="platform-tab" data-platform="google">Google Calendar</button>
-            <button class="platform-tab" data-platform="outlook">Outlook</button>
+        <!-- Unified toolbar with all navigation buttons -->
+        <div class="toolbar">
+            <div class="platform-tabs">
+                <button class="platform-tab active" data-platform="apple">Apple</button>
+                <button class="platform-tab" data-platform="google">Google</button>
+                <button class="platform-tab" data-platform="outlook">Outlook</button>
+            </div>
+            <div class="view-tabs">
+                <button class="view-tab active" data-view="list">List</button>
+                <button class="view-tab" data-view="grid">Calendar</button>
+            </div>
         </div>
 
+        <div class="main-content">
+            <div class="left-panel">
         <div class="calendar-section">
             <ul class="calendar-list">
                 <li>
@@ -900,11 +845,6 @@
             </div>
 
             <div class="right-panel">
-                <div class="preview-section">
-            <div class="view-tabs">
-                <button class="view-tab active" data-view="list">List</button>
-                <button class="view-tab" data-view="grid">Calendar</button>
-            </div>
             <div class="calendar-preview">
                 <div class="month-nav">
                     <button id="prev-month">&larr; Prev</button>
@@ -918,10 +858,8 @@
                     <div class="calendar-grid" id="calendar-grid"></div>
                 </div>
             </div>
-                </div>
             </div>
         </div>
-
     </main>
 
     <footer>
