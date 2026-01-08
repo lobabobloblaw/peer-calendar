@@ -47,7 +47,18 @@
 
         /* Two-column layout for desktop */
         .main-content {
-            display: block;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* On mobile: calendar first, then instructions */
+        .left-panel {
+            order: 2;
+        }
+
+        .right-panel {
+            order: 1;
+            margin-bottom: 20px;
         }
 
         @media (min-width: 768px) {
@@ -209,19 +220,21 @@
         }
 
         /* Panel styles for two-column layout */
-        .left-panel {
-            padding: 0;
-            margin: 0;
-        }
-
-        .right-panel {
-            padding: 0;
-            margin: 0;
-            min-width: 0; /* Prevent grid blowout */
-        }
-
         @media (min-width: 768px) {
-            .left-panel, .right-panel {
+            .left-panel {
+                order: 1;
+                padding: 0;
+                margin: 0;
+                max-height: 100%;
+                overflow-y: auto;
+            }
+
+            .right-panel {
+                order: 2;
+                padding: 0;
+                margin: 0;
+                margin-bottom: 0;
+                min-width: 0;
                 max-height: 100%;
                 overflow-y: auto;
             }
