@@ -208,30 +208,11 @@
             color: var(--accent);
         }
 
-        /* More options toggle */
-        .more-toggle {
-            background: none;
-            border: none;
-            color: var(--accent);
-            cursor: pointer;
-            font-size: 0.9em;
-            padding: 8px 0;
+        .instruction-note {
+            font-size: 0.85em;
+            color: var(--text-muted);
             margin-top: 8px;
-        }
-
-        .more-toggle:hover {
-            text-decoration: underline;
-        }
-
-        .category-calendars {
-            display: none;
-            border-top: 1px solid var(--border-color);
-            margin-top: 8px;
-            padding-top: 8px;
-        }
-
-        .category-calendars.show {
-            display: block;
+            font-style: italic;
         }
 
         /* Panel styles for two-column layout */
@@ -772,79 +753,34 @@
                 </li>
             </ul>
 
-            <button class="more-toggle">+ Show category calendars</button>
-
-            <ul class="calendar-list category-calendars">
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--peer-support);"></span>
-                        <span class="calendar-name">Peer Support</span>
-                    </div>
-                    <button class="copy-btn" data-file="peer_support.ics">Subscribe</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--fitness);"></span>
-                        <span class="calendar-name">Fitness & Wellness</span>
-                    </div>
-                    <button class="copy-btn" data-file="fitness_wellness.ics">Subscribe</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--events);"></span>
-                        <span class="calendar-name">Events & Festivals</span>
-                    </div>
-                    <button class="copy-btn" data-file="events.ics">Subscribe</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--arts);"></span>
-                        <span class="calendar-name">Arts & Culture</span>
-                    </div>
-                    <button class="copy-btn" data-file="arts_culture.ics">Subscribe</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--social);"></span>
-                        <span class="calendar-name">Social Activities</span>
-                    </div>
-                    <button class="copy-btn" data-file="social_activities.ics">Subscribe</button>
-                </li>
-                <li>
-                    <div class="calendar-info">
-                        <span class="color-dot" style="background: var(--food);"></span>
-                        <span class="calendar-name">Food & Farms</span>
-                    </div>
-                    <button class="copy-btn" data-file="food_farms.ics">Subscribe</button>
-                </li>
-            </ul>
-
             <div class="instructions" id="instructions-apple">
                 <strong>How to subscribe:</strong>
                 <ol>
-                    <li>Tap "Subscribe" to copy the link</li>
-                    <li>On iPhone/iPad: Settings &gt; Calendar &gt; Accounts &gt; Add Account &gt; Other &gt; Add Subscribed Calendar</li>
-                    <li>On Mac: File &gt; New Calendar Subscription</li>
-                    <li>Paste the link — events will sync automatically</li>
+                    <li>Click "Subscribe" to copy the calendar link</li>
+                    <li><strong>iPhone/iPad:</strong> Settings &gt; Apps &gt; Calendar &gt; Accounts &gt; Add Account &gt; Other &gt; Add Subscribed Calendar</li>
+                    <li><strong>Mac:</strong> Open Calendar app &gt; File &gt; New Calendar Subscription</li>
+                    <li>Paste the link and tap/click Subscribe</li>
                 </ol>
             </div>
 
             <div class="instructions" id="instructions-google" style="display: none;">
                 <strong>How to subscribe:</strong>
                 <ol>
-                    <li>Click "Subscribe" to copy the link</li>
-                    <li>Go to <a href="https://calendar.google.com" target="_blank">calendar.google.com</a></li>
-                    <li>Click + next to "Other calendars" &gt; From URL</li>
-                    <li>Paste the link — events will sync automatically</li>
+                    <li>Click "Subscribe" to copy the calendar link</li>
+                    <li>Go to <a href="https://calendar.google.com" target="_blank">calendar.google.com</a> (desktop only)</li>
+                    <li>Click <strong>+</strong> next to "Other calendars" in the left sidebar</li>
+                    <li>Select "From URL" and paste the link</li>
                 </ol>
+                <p class="instruction-note">Note: Google Calendar subscriptions must be added from a computer, not the mobile app.</p>
             </div>
 
             <div class="instructions" id="instructions-outlook" style="display: none;">
                 <strong>How to subscribe:</strong>
                 <ol>
-                    <li>Click "Subscribe" to copy the link</li>
-                    <li>In Outlook: Add calendar &gt; Subscribe from web</li>
-                    <li>Paste the link — events will sync automatically</li>
+                    <li>Click "Subscribe" to copy the calendar link</li>
+                    <li><strong>Outlook.com:</strong> Settings (gear) &gt; View all Outlook settings &gt; Calendar &gt; Shared calendars &gt; Subscribe from web</li>
+                    <li><strong>Outlook desktop:</strong> Add Calendar &gt; From Internet, then paste the link</li>
+                    <li>Name the calendar and click Import/Subscribe</li>
                 </ol>
             </div>
         </div>
@@ -937,13 +873,6 @@
                     this.classList.remove('copied');
                 }, 2000);
             });
-        });
-
-        // Toggle category calendars
-        document.querySelector('.more-toggle').addEventListener('click', function() {
-            const categories = document.querySelector('.category-calendars');
-            const isShown = categories.classList.toggle('show');
-            this.textContent = isShown ? '− Hide category calendars' : '+ Show category calendars';
         });
 
         // Calendar Preview functionality
