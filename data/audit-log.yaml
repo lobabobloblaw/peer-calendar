@@ -2,6 +2,29 @@
 # Records all verification activities and changes
 
 ---
+- date: 2026-01-07
+  type: infrastructure
+  auditor: claude
+  summary: "Major landing page redesign with Vanta.js clouds background"
+  changes:
+    - Added Vanta.js CLOUDS animated background effect
+    - Implemented dark-to-light theme with warm sunset accent colors (#e08050)
+    - Redesigned header with separate 2026.png logo and white glow effect
+    - Created unified toolbar with List/Calendar view toggle
+    - Moved platform tabs (Apple/Google/Outlook) into instruction section
+    - Updated subscription instructions for all platforms with accurate steps
+    - Added "Copy Calendar Link" button at bottom of instructions
+    - Simplified to single "All Events" calendar (removed category calendars)
+    - Fixed mobile layout: calendar appears first, then instructions
+    - Added landscape orientation lock for mobile devices
+    - Fixed day popup positioning to stay within viewport
+    - Added FolkTime logo linking to folktime.org
+    - Fixed sticky date headers in list view scroll
+  notes: |
+    Complete visual overhaul of the calendar landing page.
+    Mobile-first responsive design with portrait mode lock.
+    Live at https://lobabobloblaw.github.io/peer-calendar/
+
 - date: 2025-01-07
   type: infrastructure
   auditor: claude
