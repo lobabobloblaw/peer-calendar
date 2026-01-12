@@ -24,110 +24,10 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:eabf3fe16f592657@portlandresources.org
-DTSTAMP:20260107T145618Z
-DTSTART;VALUE=DATE:20270710
-DTEND;VALUE=DATE:20270711
-SUMMARY:Portland Parks Summer Free For All
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nWebsite: https://port
- land.gov/parks/free-for-all\nDetails: Movies at dusk\; concerts typically 
- 6:30-8:30pm
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
- ><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="http
- s://portland.gov/parks/free-for-all">https://portland.gov/parks/free-for-a
- ll</a></p><p><strong>Details:</strong> Movies at dusk\; concerts typically
-  6:30-8:30pm</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-URL:https://portland.gov/parks/free-for-all
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:434492f5eeda7289@portlandresources.org
-DTSTAMP:20260107T145618Z
-DTSTART;VALUE=DATE:20270518
-DTEND;VALUE=DATE:20270519
-SUMMARY:Sunday Parkways 2025
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nWebsite: https://port
- land.gov/transportation/sunday-parkways\nDetails: Free BIKETOWN rides on e
- vent days
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
- ><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="http
- s://portland.gov/transportation/sunday-parkways">https://portland.gov/tran
- sportation/sunday-parkways</a></p><p><strong>Details:</strong> Free BIKETO
- WN rides on event days</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-URL:https://portland.gov/transportation/sunday-parkways
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:dbac7f3624f6f779@portlandresources.org
-DTSTAMP:20260107T145618Z
-DTSTART;VALUE=DATE:20270629
-DTEND;VALUE=DATE:20270630
-SUMMARY:Sunday Parkways 2025
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nWebsite: https://port
- land.gov/transportation/sunday-parkways\nDetails: Free BIKETOWN rides on e
- vent days
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
- ><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="http
- s://portland.gov/transportation/sunday-parkways">https://portland.gov/tran
- sportation/sunday-parkways</a></p><p><strong>Details:</strong> Free BIKETO
- WN rides on event days</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-URL:https://portland.gov/transportation/sunday-parkways
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:39cf0cb17746bbd7@portlandresources.org
-DTSTAMP:20260107T145618Z
-DTSTART;VALUE=DATE:20270727
-DTEND;VALUE=DATE:20270728
-SUMMARY:Sunday Parkways 2025
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nWebsite: https://port
- land.gov/transportation/sunday-parkways\nDetails: Free BIKETOWN rides on e
- vent days
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
- ><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="http
- s://portland.gov/transportation/sunday-parkways">https://portland.gov/tran
- sportation/sunday-parkways</a></p><p><strong>Details:</strong> Free BIKETO
- WN rides on event days</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-URL:https://portland.gov/transportation/sunday-parkways
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:25854d2b560a642d@portlandresources.org
-DTSTAMP:20260107T145618Z
-DTSTART;VALUE=DATE:20270914
-DTEND;VALUE=DATE:20270915
-SUMMARY:Sunday Parkways 2025
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nWebsite: https://port
- land.gov/transportation/sunday-parkways\nDetails: Free BIKETOWN rides on e
- vent days
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
- ><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="http
- s://portland.gov/transportation/sunday-parkways">https://portland.gov/tran
- sportation/sunday-parkways</a></p><p><strong>Details:</strong> Free BIKETO
- WN rides on event days</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-URL:https://portland.gov/transportation/sunday-parkways
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:0c743354b6f23b73@portlandresources.org
-DTSTAMP:20260107T145618Z
-DTSTART;VALUE=DATE:20270718
-DTEND;VALUE=DATE:20270721
+UID:008d34ae2bc45953@portlandresources.org
+DTSTAMP:20260112T093258Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260720
 SUMMARY:Cathedral Park Jazz Festival
 DESCRIPTION:Category: Events & Festivals\nCost: FREE (donations accepted)\n
  Address: Cathedral Park\, N Edison St & Pittsburg Ave\, Portland\, OR 9720
@@ -151,7 +51,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:040809e6cdb0de1f@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:Portland Rose Festival
@@ -170,10 +70,10 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:0b0158ac8f9efda9@portlandresources.org
-DTSTAMP:20260107T145618Z
-DTSTART;VALUE=DATE:20270719
-DTEND;VALUE=DATE:20270721
+UID:34fcf208f3ca4a9b@portlandresources.org
+DTSTAMP:20260112T093258Z
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260720
 SUMMARY:Portland Pride
 DESCRIPTION:Category: Events & Festivals\nCost: Suggested $10 donation - no
   one turned away\nAddress: Tom McCall Waterfront Park\, Portland\nWebsite:
@@ -197,9 +97,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:71e919571174ce47@portlandresources.org
-DTSTAMP:20260107T145618Z
-DTSTART:20260108T170000
-DTEND:20260108T210000
+DTSTAMP:20260112T093258Z
+DTSTART:20260115T170000
+DTEND:20260115T210000
 SUMMARY:First Thursday Art Walk
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Pearl Distri
  ct\, Portland\nWebsite: https://www.pearldistrict.org/article/first-thursd
@@ -223,9 +123,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bd517104cb00543c@portlandresources.org
-DTSTAMP:20260107T145618Z
-DTSTART:20260108T180000
-DTEND:20260108T210000
+DTSTAMP:20260112T093258Z
+DTSTART:20260115T180000
+DTEND:20260115T210000
 SUMMARY:Last Thursday on Alberta
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: NE Alberta S
  treet\, 15th-30th Ave\, Portland\nWebsite: https://www.lastthursdayalberta
@@ -249,7 +149,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a51c3018c49f316a@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Portland Tree Lighting Ceremony
@@ -273,7 +173,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:981e8d40cd3a420a@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20271215
 DTEND;VALUE=DATE:20280101
 SUMMARY:Peacock Lane Holiday Lights
@@ -297,9 +197,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d50d5cc747663bed@portlandresources.org
-DTSTAMP:20260107T145618Z
-DTSTART:20260107T183000
-DTEND:20260107T203000
+DTSTAMP:20260112T093258Z
+DTSTART:20260114T183000
+DTEND:20260114T203000
 SUMMARY:Gresham Wednesday Music in the Parks: Music in the Parks
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: July-August at 
  Nadaka Nature Park\, Bella Vista Park\, Butler Creek Park\, Vance Park\nAd
@@ -322,7 +222,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f726cfa67160de1d@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:Wooden Shoe Tulip Festival
@@ -345,7 +245,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b18dd951df2feef7@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20260502
 DTEND;VALUE=DATE:20260504
 SUMMARY:Spring Garden Fair
@@ -364,7 +264,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:396829af8d43697e@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20260718
 DTEND;VALUE=DATE:20260719
 SUMMARY:Gresham Arts Festival
@@ -385,7 +285,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4fbec19f3f135081@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:India Festival
@@ -404,7 +304,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e17302519b24aeeb@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:Obon Festival (Oregon Buddhist Temple)
@@ -425,7 +325,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:51f7331f0c5f34bd@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20270815
 DTEND;VALUE=DATE:20270816
 SUMMARY:Swan Island Dahlias
@@ -446,7 +346,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:299891133691a158@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260823
 SUMMARY:Clackamas County Fair
@@ -469,7 +369,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cf6b2748cda84a9c@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260921
 SUMMARY:Portland Polish Festival
@@ -486,7 +386,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1b5cf0280b32b4e2@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261005
 SUMMARY:Portland Greek Festival
@@ -506,7 +406,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b297a771e14010c2@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Día de los Muertos (Gresham)
@@ -526,7 +426,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f74bcb91ff4bdb04@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20260705
 SUMMARY:Happy Valley Fourth of July Festival
@@ -543,9 +443,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:afe46f3866470119@portlandresources.org
-DTSTAMP:20260107T145618Z
-DTSTART:20260108T180000
-DTEND:20260108T200000
+DTSTAMP:20260112T093258Z
+DTSTART:20260115T180000
+DTEND:20260115T200000
 SUMMARY:Concerts in the Valley (Happy Valley): Thursday Concert
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: July-August\nAd
  dress: Happy Valley Park\, Happy Valley\, OR
@@ -561,7 +461,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c84065f96fc8c6dd@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:Happy Valley Oktoberfest
@@ -578,7 +478,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6307714643aeb4c8@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Happy Valley Tree Lighting
@@ -595,7 +495,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aaa23b8964841ce2@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20260215
 DTEND;VALUE=DATE:20260217
 SUMMARY:Oregon Free Fishing Weekends
@@ -616,7 +516,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:77ae73c28b0f9ccd@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20260608
 SUMMARY:Oregon Free Fishing Weekends
@@ -637,7 +537,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aadf365d4c01dd72@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:Oregon Free Fishing Weekends
@@ -658,7 +558,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1a234bcce979e25f@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261219
 SUMMARY:Christmas Ships Parade
@@ -681,9 +581,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da583f55cb2a0059@portlandresources.org
-DTSTAMP:20260107T145618Z
-DTSTART:20260109T183000
-DTEND:20260109T203000
+DTSTAMP:20260112T093258Z
+DTSTART:20260116T183000
+DTEND:20260116T203000
 SUMMARY:Tualatin Concerts in the Parks
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Tualatin Com
  munity Park\, 8515 SW Tualatin Rd\nWebsite: https://www.tualatinoregon.gov
@@ -706,7 +606,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ca22b194d8222030@portlandresources.org
-DTSTAMP:20260107T145618Z
+DTSTAMP:20260112T093258Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:Cascade Festival of African Films

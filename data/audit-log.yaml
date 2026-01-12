@@ -360,3 +360,65 @@
 #   summary: "Brief description of audit session"
 #   notes: |
 #     Additional context
+
+---
+- date: 2026-01-12
+  type: removal
+  auditor: user
+  summary: "Removed 2025 annual events - calendar is for 2026"
+  entries_removed: 2
+  entries:
+    - id: summer-free-for-all-2025
+      reason: "2025 dates passed, awaiting 2026 schedule"
+    - id: sunday-parkways-2025
+      reason: "2025 dates passed, awaiting 2026 schedule"
+
+---
+- date: 2026-01-12
+  type: audit
+  auditor: user
+  summary: "Audit completed - Cathedral Park Jazz Festival"
+  entries_audited: 1
+  entries:
+    - id: cathedral-park-jazz
+      status: updated
+      changes: "Updated to 2026 dates (July 17-19, 46th annual)"
+
+---
+- date: 2026-01-12
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Pride"
+  entries_audited: 1
+  entries:
+    - id: portland-pride
+      status: updated
+      changes: "Updated to 2026 dates (July 18-19)"
+
+---
+- date: 2026-01-12
+  type: removal
+  auditor: claude
+  summary: "Removed stale entries - websites no longer active"
+  entries_removed: 3
+  entries:
+    - id: portland-yoga-project
+      reason: "Website is for Portland, MAINE not Oregon"
+    - id: peoples-yoga
+      reason: "Domain for sale - business closed"
+    - id: starlight-knitting
+      reason: "Domain not found - group no longer active"
+
+---
+- date: 2026-01-12
+  type: audit
+  auditor: claude
+  summary: "Updated Guardian Games with correct address; verified CMHC Peer Groups"
+  entries_audited: 2
+  entries:
+    - id: guardian-games
+      status: updated
+      changes: "Added address (345 SE Taylor St) and phone number"
+    - id: cmhc-peer-groups
+      status: verified
+      changes: "Added Clackamas County source URL; updated audit dates"

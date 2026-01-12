@@ -615,6 +615,7 @@
   website: null
   source_urls:
     - references/CMHC Peer Groups Final.pdf
+    - https://www.clackamas.us/behavioralhealth/support.html
   pricing:
     description: FREE
   eligibility: Open to individuals receiving Peer Support in Clackamas County
@@ -639,8 +640,8 @@
       schedule: 3rd Friday, 6:45-8pm
       format: In-person
       notes: An open space for joy, laughter, and self-expression through song. Come as you are — sing solo, join in with others, or cheer from the crowd as we build confidence, connection, and community through music.
-  last_verified: 2025-01-07
-  next_audit: 2025-04-07
+  last_verified: 2026-01-12
+  next_audit: 2026-04-12
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by the clinic to get connected with a Peer Support Specialist if you don't already have one
@@ -1299,128 +1300,6 @@
   guide_location: activities-guide-2.md#grief-support
   notes: Open to anyone grieving the death of a significant person. Free and no registration
     required.
-- id: recovery-dharma-pdx
-  name: Recovery Dharma PDX
-  category: peer_support
-  location_type: hybrid
-  resource_type: program
-  email: pdxintersangha@gmail.com
-  website: https://recoverydharmapdx.org
-  source_urls:
-  - https://recoverydharmapdx.org/meetings/
-  pricing:
-    description: FREE (donations welcome)
-  meetings:
-    in_person:
-    - name: Middle Way on MLK
-      day: Sunday
-      time: 4pm
-      location: True Colors Recovery, 3807 NE MLK Jr Blvd, Portland
-    - name: Soft Landing
-      day: Sunday
-      time: 5pm
-      location: 4D Recovery Clackamas, 11690 SE 82nd Ave, Happy Valley
-    - name: Three Jewels
-      day: Monday
-      time: 5:30pm
-      location: 4D Recovery Hillsboro, 362 SW Oak St, Hillsboro
-    - name: Hungry Ghosts
-      day: Monday
-      time: 6pm
-      location: 3442 SE Morrison St, Portland
-      accessibility: Not ADA accessible
-    - name: Dharma Rain (Eightfold Path Study)
-      day: Monday
-      time: 7pm
-      location: Dharma Rain Zen Center, 8500 NE Siskiyou St, Portland
-      format: Hybrid (Zoom available)
-    - name: Mindful Men's Meditation
-      day: Monday (1st & 3rd)
-      time: 7-9pm
-      location: Heart of Wisdom Zen Temple, 6401 NE 10th Ave, Portland
-    - name: True Colors
-      day: Tuesday
-      time: 12pm
-      location: True Colors Recovery, 3807 NE MLK Jr Blvd, Portland
-    - name: Women's, Trans, and Non-Binary
-      day: Tuesday
-      time: 7:30pm
-      location: True Colors Recovery, 3807 NE MLK Jr Blvd, Portland
-    - name: True Colors (evening)
-      day: Wednesday
-      time: 8:30pm
-      location: True Colors Recovery, 3807 NE MLK Jr Blvd, Portland
-    - name: Thursday Portland Alano Club
-      day: Thursday
-      time: 12pm
-      location: 909 NW 24th Ave, Portland (SE Room)
-      accessibility: Not ADA accessible
-    - name: Forest Grove
-      day: Friday
-      time: 6pm
-      location: Forest Grove Recovery Club, 2722 19th Pl, Forest Grove
-    - name: Sarpashana
-      day: Friday
-      time: 7-8:30pm
-      location: Portland Insight Meditation Center, 6536 SE Duke St, Portland
-    - name: Meditation Sandwich
-      day: Saturday
-      time: 7pm
-      location: Portland Alano Club Loft, 909 NW 24th Ave, Portland
-      accessibility: Not ADA accessible
-    virtual:
-    - name: Queer Paths (LGBTQIA+)
-      day: Sunday
-      time: 10am
-    - name: Exploring Recovery from Disordered Eating
-      day: Sunday
-      time: 1pm
-    - name: Dawn Metta
-      day: Monday
-      time: 7am
-    - name: Introduction to Meditation
-      day: Monday
-      time: 5pm
-    - name: Awakening Minds (Mental Health)
-      day: Monday
-      time: 6pm
-    - name: Men's Candlelight Meeting
-      day: Tuesday
-      time: 8pm
-    - name: 'RD Academy: Ethics & The Precepts'
-      day: Wednesday
-      time: 6pm
-    - name: Chronic Pain and Conditions
-      day: Friday
-      time: 2pm
-    - name: Metta-Morphosis
-      day: Saturday
-      time: 9am
-    - name: Virtual Sandwich
-      day: Saturday
-      time: 7pm
-    - name: Disco Dharma
-      day: Saturday
-      time: 9pm
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
-  audit_frequency: quarterly
-  practical_tips:
-    first_visit: Just show up - all meetings welcome newcomers
-    registration: null
-    what_to_bring: null
-    good_to_know: Trauma-informed, non-theistic approach. Uses Buddhist practices,
-      not religious.
-  accessibility:
-    - transit_nearby
-  accessibility_notes: Many virtual meetings available via Zoom. In-person accessibility varies - Portland Alano Club (909 NW 24th Ave) and Hungry Ghosts location (3442 SE Morrison) are NOT ADA accessible. Check individual meeting details before attending.
-  social_intensity: structured_group
-  good_for:
-  - anxiety_friendly
-  guide_location: activities-guide-2.md#recovery-support
-  notes: 'Buddhist-based recovery meetings. Peer-led, trauma-informed, non-theistic.
-    Many specialty meetings: LGBTQIA+, women''s, mental health, chronic pain, disordered
-    eating.'
 
 ---
 # FITNESS WELLNESS
@@ -1651,47 +1530,6 @@
   guide_location: activities-guide-1.md#free-yoga-and-meditation
   notes: Replaced Portland Yoga Collective entry (which is in Maine). BYMC offers
     weekly by-donation classes in SE Portland.
-- id: portland-yoga-project
-  name: The Portland Yoga Project
-  category: fitness_wellness
-  location_type: physical
-  resource_type: program
-  address: null
-  phone: null
-  website: https://theportlandyogaproject.com
-  source_urls:
-  - https://theportlandyogaproject.com
-  pricing:
-    description: FREE monthly classes
-  programs:
-  - name: Fat Yoga
-    schedule: 1st Wednesdays 7pm
-  - name: Trauma-Informed Yoga for Women Survivors
-    schedule: 2nd Wednesdays 7pm
-  - name: BIPOC Yoga
-    schedule: 3rd Wednesdays 7pm
-  - name: Yoga for Grief
-    schedule: Last Fridays 5:30pm
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
-  audit_frequency: quarterly
-  practical_tips:
-    first_visit: Check website for current class schedule and registration links
-    registration: Pre-registration required for most classes (online signup)
-    what_to_bring: Mat if you have one, comfortable clothes. Chair yoga available.
-    good_to_know: Specialized monthly classes including Fat Yoga, Trauma-Informed Yoga for Women Survivors, BIPOC Yoga, and Yoga for Grief. All classes available on mat or chair - truly accessible to all bodies. FREE always.
-  accessibility:
-    - wheelchair_accessible
-  accessibility_notes: All classes offered on mat or chair, making them accessible to people with mobility limitations
-  social_intensity: casual_group
-  good_for:
-    - anxiety_friendly
-    - indoor
-    - low_energy
-    - grief
-    - isolation
-  guide_location: activities-guide-1.md#free-yoga-and-meditation
-  notes: All classes available on mat or chair
 - id: dharma-rain
   name: Dharma Rain Zen Center
   category: fitness_wellness
@@ -2864,56 +2702,6 @@
     areas to reduce barriers to access.
   flags:
   - 📅 DATE-SENSITIVE
-- id: peoples-yoga
-  name: The People's Yoga
-  category: fitness_wellness
-  location_type: physical
-  resource_type: organization
-  phone: null
-  website: https://thepeoplesyoga.org
-  source_urls:
-  - https://thepeoplesyoga.org
-  - https://thepeoplesyoga.org/faq/
-  pricing:
-    description: Low-cost sliding scale; free community class Sundays
-    notes: 1-4 free/donation classes weekly with trainees
-  locations:
-  - name: NE Killingsworth
-    address: 3014 NE Killingsworth St, Portland
-  - name: SE Hawthorne
-    address: 4029 SE Hawthorne Blvd, Portland
-  programs:
-  - name: Free Community Class
-    schedule: Sundays
-    cost: FREE
-  - name: Trainee/Alumni Classes
-    schedule: 1-4 classes weekly
-    cost: FREE or by donation
-  - name: Regular Classes
-    cost: Sliding scale
-    notes: 80+ classes weekly; scholarship program available
-  features:
-  - First low-cost yoga studio in Portland (2008)
-  - Monthly scholarship program (~30/month)
-  - 'Bike incentive: 20 rides = free class'
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
-  audit_frequency: quarterly
-  practical_tips:
-    first_visit: Try gentle yoga, mindful hatha, yin, or restorative if beginner
-    registration: Check schedule for free class times
-    what_to_bring: Mat if you have one (mats available)
-    good_to_know: $5 of each membership goes to support scholarships
-  accessibility:
-  - wheelchair_accessible
-  social_intensity: casual_group
-  good_for:
-  - anxiety_friendly
-  - indoor
-  - low_energy
-  guide_location: activities-guide-1.md#yoga
-  notes: 'Portland''s first community-oriented low-cost yoga studio. Mission: yoga
-    accessible regardless of economic barriers.'
 
 ---
 # ARTS CULTURE
@@ -3195,8 +2983,8 @@
   category: arts_culture
   location_type: physical
   resource_type: place
-  address: null
-  phone: null
+  address: 345 SE Taylor St, Portland, OR 97214
+  phone: 503-238-4000
   website: https://ggportland.com
   source_urls:
   - https://ggportland.com
@@ -4248,80 +4036,6 @@
 # EVENTS
 ---
 
-- id: summer-free-for-all-2025
-  name: Portland Parks Summer Free For All
-  category: events
-  location_type: physical
-  resource_type: event
-  address: null
-  phone: null
-  website: https://portland.gov/parks/free-for-all
-  source_urls:
-  - https://portland.gov/parks/free-for-all
-  pricing:
-    description: FREE
-  dates: July 10 - September 6, 2025
-  schedule: 40+ free concerts, outdoor movies, cultural festivals
-  practical_tips:
-    first_visit: Check portland.gov/parks/free-for-all for schedule and locations
-    registration: None - just show up
-    what_to_bring: Blankets or lawn chairs, snacks, layers for evening events
-    good_to_know: 40+ free concerts, outdoor movies, and cultural festivals across Portland parks July-September. Movies start at dusk, concerts typically 6:30-8:30pm. Different locations each night - great way to explore Portland parks.
-  accessibility:
-    - wheelchair_accessible
-  accessibility_notes: Most events in accessible park locations. Check specific venue for details.
-  social_intensity: drop_in
-  good_for:
-    - outdoor
-    - family_friendly
-    - anxiety_friendly
-    - isolation
-  notes: Movies at dusk; concerts typically 6:30-8:30pm
-  last_verified: 2025-11-25
-  next_audit: 2025-06-01
-  audit_frequency: annually
-  guide_location: activities-guide-1.md#seasonal-events
-  flags:
-  - 📅 DATE-SENSITIVE
-- id: sunday-parkways-2025
-  name: Sunday Parkways 2025
-  category: events
-  location_type: physical
-  resource_type: event
-  address: null
-  phone: null
-  website: https://portland.gov/transportation/sunday-parkways
-  source_urls:
-  - https://portland.gov/transportation/sunday-parkways
-  pricing:
-    description: FREE
-  dates:
-  - 'May 18: Southwest Portland'
-  - 'June 29: Northeast Cully'
-  - 'July 27: East Portland'
-  - 'September 14: Downtown'
-  practical_tips:
-    first_visit: Arrive early at any point along the route - maps at portland.gov/transportation/sunday-parkways
-    registration: None - open streets, just show up
-    what_to_bring: Bike, skateboard, scooter, or walking shoes. Water and snacks.
-    good_to_know: 4 events per year in different neighborhoods. Streets closed to cars for walking, biking, skating. Free BIKETOWN rides on event days. Activity hubs along routes with music, food, community booths. Great for all ages and abilities.
-  accessibility:
-    - wheelchair_accessible
-  accessibility_notes: Routes on paved streets - accessible to wheelchairs and mobility devices. No vehicle traffic during event hours.
-  social_intensity: drop_in
-  good_for:
-    - outdoor
-    - active
-    - family_friendly
-    - anxiety_friendly
-    - new_to_area
-  notes: Free BIKETOWN rides on event days
-  last_verified: 2025-11-25
-  next_audit: 2025-04-01
-  audit_frequency: annually
-  guide_location: activities-guide-1.md#seasonal-events
-  flags:
-  - 📅 DATE-SENSITIVE
 - id: cathedral-park-jazz
   name: Cathedral Park Jazz Festival
   category: events
@@ -4334,10 +4048,10 @@
   - https://jazzoregon.org/event/cathedral-park-jazz-festival-3
   pricing:
     description: FREE (donations accepted)
-  dates: 'Mid-July annually (2025: July 18-20, 45th annual)'
+  dates: 'July 17-19, 2026 (46th annual)'
   hours: Fri 4:30-10pm, Sat 1-9:30pm, Sun 1-8pm
-  last_verified: 2025-12-02
-  next_audit: 2026-06-01
+  last_verified: 2026-01-12
+  next_audit: 2027-01-12
   audit_frequency: annually
   practical_tips:
     first_visit: Arrive early for best lawn spots. Enter from N Edison St entrance.
@@ -4449,10 +4163,10 @@
   - https://portlandpride.org/festival-1
   pricing:
     description: Suggested $10 donation - no one turned away
-  dates: 'Mid-July annually (2025: July 19-20)'
+  dates: 'July 18-19, 2026'
   schedule: Sat noon-8pm, Sun 11:30am-6pm; Parade Sun 11am
-  last_verified: 2025-12-02
-  next_audit: 2026-06-01
+  last_verified: 2026-01-12
+  next_audit: 2027-01-12
   audit_frequency: annually
   practical_tips:
     first_visit: Enter at any Waterfront Park entrance. Donation suggested but not required.
@@ -6876,35 +6590,6 @@
     - indoor
   guide_location: activities-guide-2.md#free-art-and-craft-programs
   notes: Sliding-scale arts education
-- id: starlight-knitting
-  name: Starlight Knitting Society
-  category: social_activities
-  location_type: physical
-  resource_type: program
-  address: 7028 SE 52nd Ave, Portland, OR 97206
-  phone: null
-  website: null
-  source_urls: []
-  pricing:
-    description: FREE
-  programs:
-  - name: Wednesday Knitting Circle
-    schedule: Wednesdays 6-8pm
-    cost: FREE
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
-  audit_frequency: quarterly
-  practical_tips: "FREE Wednesday knitting circle 6-8pm. Bring your own supplies or borrow from the shop. All skill levels welcome from beginners to experts. Friendly, social atmosphere. SE Portland location."
-  accessibility:
-    - wheelchair_accessible
-    - transit_nearby
-  social_intensity: casual_group
-  good_for:
-    - creative
-    - indoor
-    - low_energy
-    - isolation
-  guide_location: activities-guide-2.md#craft-circles
 - id: northwest-wools
   name: Northwest Wools Crafting Compassion
   category: social_activities

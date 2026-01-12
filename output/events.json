@@ -1,6 +1,6 @@
 {
-  "generated": "2026-01-07T14:56:18.049388",
-  "count": 179,
+  "generated": "2026-01-12T09:32:58.166737",
+  "count": 173,
   "categories": {
     "peer_support": "Peer Support",
     "fitness_wellness": "Fitness & Wellness",
@@ -1066,30 +1066,6 @@
       ]
     },
     {
-      "id": "recovery-dharma-pdx",
-      "title": "Recovery Dharma PDX",
-      "category": "peer_support",
-      "categoryName": "Peer Support",
-      "color": "#7B68EE",
-      "address": null,
-      "phone": null,
-      "website": "https://recoverydharmapdx.org",
-      "pricing": {
-        "description": "FREE (donations welcome)"
-      },
-      "programs": [],
-      "dates": null,
-      "schedule": null,
-      "flags": [],
-      "accessibility": [
-        "transit_nearby"
-      ],
-      "social_intensity": "structured_group",
-      "good_for": [
-        "anxiety_friendly"
-      ]
-    },
-    {
       "id": "matt-dishman-cc",
       "title": "Matt Dishman Community Center",
       "category": "fitness_wellness",
@@ -1279,51 +1255,6 @@
         "anxiety_friendly",
         "indoor",
         "low_energy",
-        "isolation"
-      ]
-    },
-    {
-      "id": "portland-yoga-project",
-      "title": "The Portland Yoga Project",
-      "category": "fitness_wellness",
-      "categoryName": "Fitness & Wellness",
-      "color": "#32CD32",
-      "address": null,
-      "phone": null,
-      "website": "https://theportlandyogaproject.com",
-      "pricing": {
-        "description": "FREE monthly classes"
-      },
-      "programs": [
-        {
-          "name": "Fat Yoga",
-          "schedule": "1st Wednesdays 7pm"
-        },
-        {
-          "name": "Trauma-Informed Yoga for Women Survivors",
-          "schedule": "2nd Wednesdays 7pm"
-        },
-        {
-          "name": "BIPOC Yoga",
-          "schedule": "3rd Wednesdays 7pm"
-        },
-        {
-          "name": "Yoga for Grief",
-          "schedule": "Last Fridays 5:30pm"
-        }
-      ],
-      "dates": null,
-      "schedule": null,
-      "flags": [],
-      "accessibility": [
-        "wheelchair_accessible"
-      ],
-      "social_intensity": "casual_group",
-      "good_for": [
-        "anxiety_friendly",
-        "indoor",
-        "low_energy",
-        "grief",
         "isolation"
       ]
     },
@@ -2313,49 +2244,6 @@
       ]
     },
     {
-      "id": "peoples-yoga",
-      "title": "The People's Yoga",
-      "category": "fitness_wellness",
-      "categoryName": "Fitness & Wellness",
-      "color": "#32CD32",
-      "address": null,
-      "phone": null,
-      "website": "https://thepeoplesyoga.org",
-      "pricing": {
-        "description": "Low-cost sliding scale; free community class Sundays",
-        "notes": "1-4 free/donation classes weekly with trainees"
-      },
-      "programs": [
-        {
-          "name": "Free Community Class",
-          "schedule": "Sundays",
-          "cost": "FREE"
-        },
-        {
-          "name": "Trainee/Alumni Classes",
-          "schedule": "1-4 classes weekly",
-          "cost": "FREE or by donation"
-        },
-        {
-          "name": "Regular Classes",
-          "cost": "Sliding scale",
-          "notes": "80+ classes weekly; scholarship program available"
-        }
-      ],
-      "dates": null,
-      "schedule": null,
-      "flags": [],
-      "accessibility": [
-        "wheelchair_accessible"
-      ],
-      "social_intensity": "casual_group",
-      "good_for": [
-        "anxiety_friendly",
-        "indoor",
-        "low_energy"
-      ]
-    },
-    {
       "id": "portland-art-museum",
       "title": "Portland Art Museum",
       "category": "arts_culture",
@@ -2615,8 +2503,8 @@
       "category": "arts_culture",
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
-      "address": null,
-      "phone": null,
+      "address": "345 SE Taylor St, Portland, OR 97214",
+      "phone": "503-238-4000",
       "website": "https://ggportland.com",
       "pricing": {
         "description": "FREE Sunday Open Play"
@@ -3562,70 +3450,6 @@
       ]
     },
     {
-      "id": "summer-free-for-all-2025",
-      "title": "Portland Parks Summer Free For All",
-      "category": "events",
-      "categoryName": "Events & Festivals",
-      "color": "#FF6347",
-      "address": null,
-      "phone": null,
-      "website": "https://portland.gov/parks/free-for-all",
-      "pricing": {
-        "description": "FREE"
-      },
-      "programs": [],
-      "dates": "July 10 - September 6, 2025",
-      "schedule": "40+ free concerts, outdoor movies, cultural festivals",
-      "flags": [
-        "\ud83d\udcc5 DATE-SENSITIVE"
-      ],
-      "accessibility": [
-        "wheelchair_accessible"
-      ],
-      "social_intensity": "drop_in",
-      "good_for": [
-        "outdoor",
-        "family_friendly",
-        "anxiety_friendly",
-        "isolation"
-      ]
-    },
-    {
-      "id": "sunday-parkways-2025",
-      "title": "Sunday Parkways 2025",
-      "category": "events",
-      "categoryName": "Events & Festivals",
-      "color": "#FF6347",
-      "address": null,
-      "phone": null,
-      "website": "https://portland.gov/transportation/sunday-parkways",
-      "pricing": {
-        "description": "FREE"
-      },
-      "programs": [],
-      "dates": [
-        "May 18: Southwest Portland",
-        "June 29: Northeast Cully",
-        "July 27: East Portland",
-        "September 14: Downtown"
-      ],
-      "schedule": null,
-      "flags": [
-        "\ud83d\udcc5 DATE-SENSITIVE"
-      ],
-      "accessibility": [
-        "wheelchair_accessible"
-      ],
-      "social_intensity": "drop_in",
-      "good_for": [
-        "outdoor",
-        "active",
-        "family_friendly",
-        "anxiety_friendly",
-        "new_to_area"
-      ]
-    },
-    {
       "id": "cathedral-park-jazz",
       "title": "Cathedral Park Jazz Festival",
       "category": "events",
@@ -3638,7 +3462,7 @@
         "description": "FREE (donations accepted)"
       },
       "programs": [],
-      "dates": "Mid-July annually (2025: July 18-20, 45th annual)",
+      "dates": "July 17-19, 2026 (46th annual)",
       "schedule": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
@@ -3727,7 +3551,7 @@
         "description": "Suggested $10 donation - no one turned away"
       },
       "programs": [],
-      "dates": "Mid-July annually (2025: July 19-20)",
+      "dates": "July 18-19, 2026",
       "schedule": "Sat noon-8pm, Sun 11:30am-6pm; Parade Sun 11am",
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
@@ -5753,40 +5577,6 @@
         "creative",
         "isolation",
         "indoor"
-      ]
-    },
-    {
-      "id": "starlight-knitting",
-      "title": "Starlight Knitting Society",
-      "category": "social_activities",
-      "categoryName": "Social Activities",
-      "color": "#FF69B4",
-      "address": "7028 SE 52nd Ave, Portland, OR 97206",
-      "phone": null,
-      "website": null,
-      "pricing": {
-        "description": "FREE"
-      },
-      "programs": [
-        {
-          "name": "Wednesday Knitting Circle",
-          "schedule": "Wednesdays 6-8pm",
-          "cost": "FREE"
-        }
-      ],
-      "dates": null,
-      "schedule": null,
-      "flags": [],
-      "accessibility": [
-        "wheelchair_accessible",
-        "transit_nearby"
-      ],
-      "social_intensity": "casual_group",
-      "good_for": [
-        "creative",
-        "indoor",
-        "low_energy",
-        "isolation"
       ]
     },
     {

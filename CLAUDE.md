@@ -32,14 +32,15 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 - `guides/activities-guide-2.md` - U-pick farms, community centers, peer support
 - `templates/resource-entry.yaml` - Template for new entries
 
-**Scripts (require Python 3.13+ with PyYAML):**
+**Scripts (require Python 3.13+ with PyYAML, python-dateutil):**
 - `scripts/generate_calendar.py` - Generates iCal/ICS calendar feeds to `output/`
 - `scripts/generate_monthly_calendars.py` - Expands recurring events into month-specific calendars in `distribution/`
 - `scripts/audit_check.py` - Reports entries due for audit, unverified entries, statistics
+- `scripts/audit_complete.py` - Mark entries as audited, auto-updates dates and logs
 - `scripts/deduplicate_entries.py` - Merge duplicate entries in sources.yaml
 - `scripts/add_type_fields.py` - Migration script for adding location_type/resource_type fields
 - `scripts/add_enrichment_fields.py` - Migration script for adding enrichment fields
-- `scripts/requirements.txt` - Python dependencies (pyyaml)
+- `scripts/requirements.txt` - Python dependencies (pyyaml, python-dateutil)
 - `scripts/venv/` - Virtual environment
 
 **Templates:**
@@ -105,6 +106,40 @@ python scripts/audit_check.py --category peer_support  # Filter by category
 - `monthly`: Pricing, hours, seasonal programs
 - `quarterly`: Contact info, eligibility requirements, program details
 - `annually`: Addresses, general descriptions, stable policies
+
+**Weekly audit workflow (15-30 min):**
+
+1. **Start your session:**
+   ```bash
+   source scripts/venv/bin/activate
+   python scripts/audit_check.py --weekly-summary
+   ```
+
+2. **Work through entries in priority order:**
+   - Overdue entries first (shown with days overdue)
+   - Then entries due this week
+   - Monthly-frequency entries take priority over quarterly/annual
+
+3. **For each entry:**
+   - Open the source URL(s) shown in the output
+   - Verify: pricing, hours/schedule, address, phone, still operating
+   - If **no changes**: `python scripts/audit_complete.py --id entry-id`
+   - If **changes found**: Update `sources.yaml`, then run:
+     `python scripts/audit_complete.py --id entry-id --changes "Brief description"`
+
+4. **End of session:**
+   - Run `python scripts/audit_check.py --overdue` to confirm none remain
+   - If schedule changes were made, regenerate calendars:
+     ```bash
+     python scripts/generate_calendar.py --json --publish
+     ```
+
+**Quick reference - audit_check.py flags:**
+- `--weekly-summary`: Best for weekly check-ins (shows overdue + due this week)
+- `--overdue`: Show only overdue entries
+- `--due-this-week`: Show entries due in next 7 days
+- `--due-this-month`: Show all entries due this month
+- `--category peer_support`: Filter by category
 
 ### 2. Add New Resources
 
@@ -246,6 +281,16 @@ source scripts/venv/bin/activate
 # Check what's due for audit
 python scripts/audit_check.py
 
+# Weekly audit workflow
+python scripts/audit_check.py --weekly-summary    # Start here for weekly check-ins
+python scripts/audit_check.py --overdue           # Show overdue entries
+python scripts/audit_check.py --due-this-week     # Show entries due in 7 days
+
+# Mark an entry as audited (auto-updates dates and logs)
+python scripts/audit_complete.py --id entry-id                    # No changes found
+python scripts/audit_complete.py --id entry-id --changes "desc"   # Changes were made
+python scripts/audit_complete.py --id entry-id --preview          # Preview without writing
+
 # Generate calendar files for all platforms
 python scripts/generate_calendar.py --json
 
@@ -259,6 +304,10 @@ python scripts/generate_calendar.py --platform outlook
 
 # Generate specific category
 python scripts/generate_calendar.py --category peer_support
+
+# Use custom paths (both scripts support these)
+python scripts/generate_calendar.py --sources /path/to/sources.yaml --output ./my-calendars
+python scripts/audit_check.py --sources /path/to/sources.yaml
 
 # Deduplicate entries (preview mode - no changes)
 python scripts/deduplicate_entries.py --preview
