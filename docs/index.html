@@ -680,6 +680,50 @@
             margin-right: 8px;
         }
 
+        /* Stats bar */
+        .stats-bar {
+            display: flex;
+            gap: 16px;
+            padding: 10px 14px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 0.8em;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .stat-value {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* Contact section */
+        .contact-section {
+            margin-top: 16px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.8em;
+            color: var(--text-muted);
+        }
+
+        .contact-section a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+
         footer {
             margin-top: 30px;
             text-align: center;
@@ -788,6 +832,12 @@
     </header>
 
     <main>
+        <!-- Stats bar -->
+        <div class="stats-bar" id="stats-bar">
+            <div class="stat-item"><span class="stat-value" id="stat-events">--</span> events</div>
+            <div class="stat-item"><span class="stat-value" id="stat-categories">--</span> categories</div>
+        </div>
+
         <!-- View toggle toolbar -->
         <div class="toolbar">
             <div class="view-tabs">
@@ -844,6 +894,10 @@
                         <li><span class="update-date">Jan 12, 2026</span> Database audit: removed 6 stale entries, updated 2026 event dates for Cathedral Park Jazz and Portland Pride</li>
                         <li><span class="update-date">Jan 7, 2025</span> Added CMHC Peer Groups: ColorFlow, Intentional Silence & Meditation, Cultivate & Connect, Healing with Photography, Karaoke Night</li>
                     </ul>
+                </div>
+
+                <div class="contact-section">
+                    Something missing or incorrect? <a href="mailto:lobabobloblaw@icloud.com">Let us know</a>
                 </div>
 
                 <a href="https://www.folktime.org" target="_blank" rel="noopener" class="folktime-link desktop-only"><img src="folktime.png" alt="FolkTime" class="folktime-logo"></a>
@@ -1457,6 +1511,23 @@
                 eventsData = data;
                 updateCalendarDisplay();
                 updateNavButtons();
+
+                // Populate stats bar
+                if (data.events) {
+                    // Count total programs/events
+                    let totalEvents = 0;
+                    const categories = new Set();
+                    for (const entry of data.events) {
+                        if (entry.categoryName) categories.add(entry.categoryName);
+                        if (entry.programs && entry.programs.length > 0) {
+                            totalEvents += entry.programs.length;
+                        } else if (entry.schedule) {
+                            totalEvents += 1;
+                        }
+                    }
+                    document.getElementById('stat-events').textContent = totalEvents;
+                    document.getElementById('stat-categories').textContent = categories.size;
+                }
             })
             .catch(err => {
                 document.getElementById('list-view').innerHTML =
@@ -1470,6 +1541,9 @@
     <script>
     (function() {
         const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const isMobile = window.innerWidth < 768;
+        // Slower speed for better performance (0.4 vs original 1.0)
+        const targetSpeed = prefersReducedMotion ? 0 : (isMobile ? 0.3 : 0.4);
 
         let vantaEffect = VANTA.CLOUDS({
             el: "#vanta-bg",
@@ -1478,7 +1552,7 @@
             gyroControls: false,
             minHeight: 200.00,
             minWidth: 200.00,
-            speed: prefersReducedMotion ? 0 : 1.0
+            speed: targetSpeed
         });
 
         // Cleanup on page hide for battery saving
@@ -1487,7 +1561,7 @@
                 if (document.hidden) {
                     vantaEffect.setOptions({ speed: 0 });
                 } else if (!prefersReducedMotion) {
-                    vantaEffect.setOptions({ speed: 1.0 });
+                    vantaEffect.setOptions({ speed: targetSpeed });
                 }
             }
         });
