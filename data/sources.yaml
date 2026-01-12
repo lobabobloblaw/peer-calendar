@@ -2108,9 +2108,10 @@
   location_type: physical
   resource_type: place
   address: 12000 SE 82nd Ave, Happy Valley, OR 97086
-  phone: null
-  website: null
-  source_urls: []
+  phone: 503-653-6913
+  website: https://www.clackamastowncenter.com/en/
+  source_urls:
+  - https://www.clackamastowncenter.com/en/visit/
   pricing:
     description: FREE
   hours: Doors open 6am daily for walkers
@@ -2138,9 +2139,10 @@
   location_type: physical
   resource_type: place
   address: 9585 SW Washington Square Rd, Portland, OR 97223
-  phone: null
-  website: null
-  source_urls: []
+  phone: 503-639-8860
+  website: https://www.shopwashingtonsquare.com/
+  source_urls:
+  - https://www.shopwashingtonsquare.com/Services
   pricing:
     description: FREE
   hours: Opens 7am daily for walkers
@@ -3409,8 +3411,9 @@
   resource_type: program
   address: 1315 SW Park Ave, Portland, OR 97201
   phone: null
-  website: null
-  source_urls: []
+  website: https://stjamespdx.org/life/wm/bach/
+  source_urls:
+  - https://stjamespdx.org/life/wm/bach/
   pricing:
     description: FREE
   programs:
@@ -3437,8 +3440,9 @@
   resource_type: place
   address: 900 SE 35th Ave, Portland, OR
   phone: null
-  website: null
-  source_urls: []
+  website: https://www.portland.gov/fire/belmont-firehouse-museum
+  source_urls:
+  - https://www.portland.gov/fire/belmont-firehouse-museum
   pricing:
     description: FREE
   programs:
@@ -3467,9 +3471,10 @@
   location_type: physical
   resource_type: place
   address: 8 NE Killingsworth St, Portland, OR
-  phone: null
-  website: null
-  source_urls: []
+  phone: 503-284-6019
+  website: https://turnturnturnpdx.com/
+  source_urls:
+  - https://turnturnturnpdx.com/
   pricing:
     description: FREE events
   programs:
@@ -3500,9 +3505,10 @@
   location_type: physical
   resource_type: place
   address: 2958 NE Glisan St, Portland, OR 97232
-  phone: null
-  website: null
-  source_urls: []
+  phone: 503-232-1504
+  website: https://laurelthirst.com/
+  source_urls:
+  - https://laurelthirst.com/
   pricing:
     description: FREE happy hour shows
   programs:
@@ -3527,10 +3533,11 @@
   category: arts_culture
   location_type: physical
   resource_type: place
-  address: Gresham, OR
-  phone: null
-  website: null
-  source_urls: []
+  address: 401 E Powell Blvd, Gresham, OR 97030
+  phone: 503-665-0604
+  website: https://www.mthoodtheatre.com/
+  source_urls:
+  - https://www.mthoodtheatre.com/
   pricing:
     description: $5 Bargain Wednesdays
   last_verified: 2025-12-02
@@ -4411,8 +4418,9 @@
   resource_type: event
   address: Clackamas County Fairgrounds, 694 NE 4th Ave, Canby, OR
   phone: null
-  website: null
-  source_urls: []
+  website: https://springgardenfair.org/
+  source_urls:
+  - https://springgardenfair.org/
   pricing:
     description: $7 one-day / $12 two-day; Kids under 16 FREE
   dates: May 2-3, 2026
@@ -4475,8 +4483,9 @@
   resource_type: event
   address: Pioneer Courthouse Square, 701 SW 6th Ave, Portland, OR
   phone: null
-  website: null
-  source_urls: []
+  website: https://www.icaportland.org/
+  source_urls:
+  - https://www.icaportland.org/
   pricing:
     description: FREE
   dates: August 23, 2026
@@ -4508,8 +4517,9 @@
   resource_type: event
   address: Oregon Buddhist Temple, 3720 SE 34th Ave, Portland, OR 97202
   phone: null
-  website: null
-  source_urls: []
+  website: https://www.oregonbuddhisttemple.com/obon-festival
+  source_urls:
+  - https://www.oregonbuddhisttemple.com/obon-festival
   pricing:
     description: FREE
   dates: August 1, 2026
@@ -4606,8 +4616,9 @@
   resource_type: event
   address: Polish Hall, 3900 N Interstate Ave, Portland, OR 97227
   phone: null
-  website: null
-  source_urls: []
+  website: https://www.polishfestivalpdx.org/
+  source_urls:
+  - https://www.polishfestivalpdx.org/
   pricing:
     description: FREE
   dates: September 19-20, 2026
@@ -4636,8 +4647,9 @@
   resource_type: event
   address: Holy Trinity Greek Orthodox Cathedral, 3131 NE Glisan St, Portland, OR
   phone: null
-  website: null
-  source_urls: []
+  website: https://www.portlandgreekfestival.com/
+  source_urls:
+  - https://www.portlandgreekfestival.com/
   pricing:
     description: $5 (children under 12 FREE)
   dates: October 2-4, 2026
@@ -4703,8 +4715,9 @@
   resource_type: event
   address: Happy Valley Park, Happy Valley, OR
   phone: null
-  website: null
-  source_urls: []
+  website: https://www.happyvalleyor.gov/4th-of-july-family-festival/
+  source_urls:
+  - https://www.happyvalleyor.gov/4th-of-july-family-festival/
   pricing:
     description: FREE
   dates: July 4, 2026
@@ -4733,8 +4746,9 @@
   resource_type: event
   address: Happy Valley Park, Happy Valley, OR
   phone: null
-  website: null
-  source_urls: []
+  website: https://www.happyvalleyor.gov/services/hv-community-events/summer-concerts/
+  source_urls:
+  - https://www.happyvalleyor.gov/services/hv-community-events/summer-concerts/
   pricing:
     description: FREE
   programs:
@@ -4769,8 +4783,9 @@
   resource_type: event
   address: Happy Valley Park, Happy Valley, OR
   phone: null
-  website: null
-  source_urls: []
+  website: https://www.happyvalleyor.gov/services/hv-community-events/
+  source_urls:
+  - https://www.happyvalleyor.gov/services/hv-community-events/
   pricing:
     description: FREE
   dates: October 4, 2026
@@ -4799,8 +4814,9 @@
   resource_type: event
   address: 16000 SE Misty Dr, Happy Valley, OR
   phone: null
-  website: null
-  source_urls: []
+  website: https://www.happyvalleyor.gov/services/hv-community-events/tree-lighting-ceremony/
+  source_urls:
+  - https://www.happyvalleyor.gov/services/hv-community-events/tree-lighting-ceremony/
   pricing:
     description: FREE
   dates: December 7, 2026
@@ -5549,8 +5565,9 @@
   resource_type: place
   address: 21199 NE Blue Lake Rd, Fairview, OR 97024
   phone: null
-  website: null
-  source_urls: []
+  website: https://www.oregonmetro.gov/places/blue-lake-regional-park-disc-golf-course
+  source_urls:
+  - https://www.oregonmetro.gov/places/blue-lake-regional-park-disc-golf-course
   pricing:
     description: Course FREE; parking $5 ($40 annual pass)
   features:
@@ -5626,8 +5643,9 @@
   resource_type: place
   address: Wilsonville, OR
   phone: null
-  website: null
-  source_urls: []
+  website: https://www.oregonmetro.gov/parks/graham-oaks-nature-park
+  source_urls:
+  - https://www.oregonmetro.gov/parks/graham-oaks-nature-park
   pricing:
     description: FREE
   features:
@@ -5651,8 +5669,9 @@
   resource_type: place
   address: Happy Valley, OR
   phone: null
-  website: null
-  source_urls: []
+  website: https://www.oregonmetro.gov/parks/scouters-mountain-nature-park
+  source_urls:
+  - https://www.oregonmetro.gov/parks/scouters-mountain-nature-park
   pricing:
     description: FREE
   features:
@@ -5677,8 +5696,9 @@
   resource_type: place
   address: Clackamas, OR
   phone: null
-  website: null
-  source_urls: []
+  website: https://www.oregonmetro.gov/places/mount-talbert-nature-park
+  source_urls:
+  - https://www.oregonmetro.gov/places/mount-talbert-nature-park
   pricing:
     description: FREE
   features:
@@ -6041,9 +6061,10 @@
   location_type: physical
   resource_type: place
   address: 22255 SE Borges Road, Damascus, OR 97089
-  phone: null
-  website: null
-  source_urls: []
+  phone: 503-658-2237
+  website: http://www.olson-farms.com/
+  source_urls:
+  - http://www.olson-farms.com/
   pricing:
     description: FREE entry; flat-rate pumpkins
     notes: Free hayrides
@@ -6067,9 +6088,10 @@
   location_type: physical
   resource_type: place
   address: 16511 NW Gillihan Road, Sauvie Island, OR
-  phone: null
-  website: null
-  source_urls: []
+  phone: 503-621-3874
+  website: https://www.thepumpkinpatch.com/
+  source_urls:
+  - https://www.thepumpkinpatch.com/
   pricing:
     description: FREE entry; Corn maze $8-10
   last_verified: 2025-12-02
@@ -6092,8 +6114,9 @@
   resource_type: program
   address: 17805 SE Stark St, Portland, OR
   phone: 503-674-8785
-  website: null
-  source_urls: []
+  website: https://www.snowcap.org/
+  source_urls:
+  - https://www.snowcap.org/
   pricing:
     description: FREE plots for low-income residents east of 82nd Ave
   eligibility: Low-income residents east of 82nd Avenue
@@ -6117,8 +6140,9 @@
   resource_type: program
   address: Rosewood Neighborhood Garden, 17200 SE Alder, Portland, OR
   phone: 971-231-4191
-  website: null
-  source_urls: []
+  website: https://outgrowinghunger.org/
+  source_urls:
+  - https://outgrowinghunger.org/
   pricing:
     description: FREE - drop in, farm 2 hours, leave with free produce
   last_verified: 2025-12-02
@@ -6595,10 +6619,11 @@
   category: social_activities
   location_type: physical
   resource_type: program
-  address: Portland, OR
-  phone: null
-  website: null
-  source_urls: []
+  address: 3524 SW Troy St, Portland, OR 97219
+  phone: 503-244-5024
+  website: https://www.northwestwools.com/
+  source_urls:
+  - https://www.northwestwools.com/
   pricing:
     description: FREE drop-in
   programs:
@@ -6625,8 +6650,9 @@
   resource_type: program
   address: Rose City Park Presbyterian Church, 1907 NE 45th Ave, Portland, OR
   phone: null
-  website: null
-  source_urls: []
+  website: https://www.puddletownknittersguild.com/
+  source_urls:
+  - https://www.puddletownknittersguild.com/
   pricing:
     description: FREE for visitors
   programs:

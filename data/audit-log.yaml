@@ -2,6 +2,24 @@
 # Records all verification activities and changes
 
 ---
+- date: 2026-01-12
+  type: data_quality
+  auditor: claude
+  summary: "Added official source URLs to 26 entries missing documentation"
+  changes:
+    - Added source URLs, websites, and phone numbers to 26 entries
+    - "Parks (4): graham-oaks, mount-talbert, scouters-mountain, blue-lake-disc-golf - all Metro parks"
+    - "Happy Valley events (4): july4, concerts, oktoberfest, tree-lighting - city official pages"
+    - "Cultural festivals (4): india-festival, obon-festival, portland-greek-festival, portland-polish-festival"
+    - "Venues (5): st-james-bach, belmont-firehouse, turn-turn-turn, laurelthirst-pub, mt-hood-theatre"
+    - "Food/farms (4): outgrowing-hunger, pumpkin-patch-olson, pumpkin-patch-sauvie, snowcap-garden"
+    - "Craft groups (3): northwest-wools, puddletown-knitters, spring-garden-fair"
+    - "Walking programs (2): clackamas-town-center-walking, washington-square-walking"
+  notes: |
+    All 26 data quality issues (missing source URLs) resolved.
+    Also updated addresses, phone numbers, and websites where found during research.
+    Database now has 173 entries with 100% source URL coverage.
+
 - date: 2026-01-07
   type: infrastructure
   auditor: claude
