@@ -680,32 +680,6 @@
             margin-right: 8px;
         }
 
-        /* Stats bar */
-        .stats-bar {
-            display: flex;
-            gap: 16px;
-            padding: 10px 14px;
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            font-size: 0.8em;
-            color: var(--text-secondary);
-            margin-bottom: 16px;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-        }
-
-        .stat-item {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .stat-value {
-            font-weight: 600;
-            color: var(--text-primary);
-        }
-
         /* Contact section */
         .contact-section {
             margin-top: 16px;
@@ -725,16 +699,7 @@
         }
 
         footer {
-            margin-top: 30px;
-            text-align: center;
-            color: var(--text-muted);
-            font-size: 0.85em;
-        }
-
-        @media (min-width: 768px) {
-            footer {
-                display: none;
-            }
+            display: none;
         }
         /* Header logo - left aligned */
         .header-logo {
@@ -832,12 +797,6 @@
     </header>
 
     <main>
-        <!-- Stats bar -->
-        <div class="stats-bar" id="stats-bar">
-            <div class="stat-item"><span class="stat-value" id="stat-events">--</span> events</div>
-            <div class="stat-item"><span class="stat-value" id="stat-categories">--</span> categories</div>
-        </div>
-
         <!-- View toggle toolbar -->
         <div class="toolbar">
             <div class="view-tabs">
@@ -889,15 +848,16 @@
         </div>
 
                 <div class="updates-section">
-                    <h2>Updates</h2>
+                    <h2>Updates <span id="stats-inline" style="font-weight: normal; font-size: 0.85em; color: var(--text-muted);"></span></h2>
                     <ul class="updates-list">
-                        <li><span class="update-date">Jan 12, 2026</span> Database audit: removed 6 stale entries, updated 2026 event dates for Cathedral Park Jazz and Portland Pride</li>
-                        <li><span class="update-date">Jan 7, 2025</span> Added CMHC Peer Groups: ColorFlow, Intentional Silence & Meditation, Cultivate & Connect, Healing with Photography, Karaoke Night</li>
+                        <li><span class="update-date">Jan 12, 2026</span> Calendar audit: removed unverifiable schedules, updated board games meetup times</li>
+                        <li><span class="update-date">Jan 7, 2026</span> Added CMHC Peer Groups: ColorFlow, Intentional Silence & Meditation, Cultivate & Connect, Healing with Photography, Karaoke Night</li>
                     </ul>
                 </div>
 
                 <div class="contact-section">
-                    Something missing or incorrect? <a href="mailto:lobabobloblaw@icloud.com">Let us know</a>
+                    Something missing or incorrect? <a href="mailto:lobabobloblaw@icloud.com">Let us know</a><br>
+                    <span style="opacity: 0.7;">Maintained by Alex V</span>
                 </div>
 
                 <a href="https://www.folktime.org" target="_blank" rel="noopener" class="folktime-link desktop-only"><img src="folktime.png" alt="FolkTime" class="folktime-logo"></a>
@@ -1512,7 +1472,7 @@
                 updateCalendarDisplay();
                 updateNavButtons();
 
-                // Populate stats bar
+                // Populate inline stats
                 if (data.events) {
                     // Count total programs/events
                     let totalEvents = 0;
@@ -1525,8 +1485,7 @@
                             totalEvents += 1;
                         }
                     }
-                    document.getElementById('stat-events').textContent = totalEvents;
-                    document.getElementById('stat-categories').textContent = categories.size;
+                    document.getElementById('stats-inline').textContent = `· ${totalEvents} events · ${categories.size} categories`;
                 }
             })
             .catch(err => {
