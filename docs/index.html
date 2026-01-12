@@ -63,21 +63,45 @@
 
         @media (min-width: 768px) {
             body {
-                padding: 24px 48px;
+                padding: 16px 48px;
                 height: 100vh;
                 overflow: hidden;
             }
 
             .main-content {
                 display: grid;
-                grid-template-columns: 420px 1fr;
-                gap: 32px;
+                grid-template-columns: 400px 1fr;
+                gap: 24px;
                 align-items: start;
-                height: calc(100vh - 160px);
+                height: calc(100vh - 110px);
             }
 
             h1 {
                 font-size: 1.8em;
+            }
+        }
+
+        /* Tighter layout for 1080p displays */
+        @media (min-width: 768px) and (max-height: 800px) {
+            body {
+                padding: 8px 40px;
+            }
+
+            .main-content {
+                height: calc(100vh - 80px);
+            }
+
+            header {
+                margin-top: 4px;
+                margin-bottom: 4px;
+            }
+
+            .header-logo {
+                max-width: 380px;
+            }
+
+            .toolbar {
+                margin-bottom: 8px;
             }
         }
 
@@ -403,6 +427,22 @@
                 min-height: 70px;
                 padding: 4px 6px;
                 font-size: 0.8em;
+            }
+        }
+
+        /* Shorter grid cells for 1080p displays */
+        @media (min-width: 768px) and (max-height: 800px) {
+            .grid-day {
+                min-height: 56px;
+                padding: 3px 4px;
+            }
+
+            .month-nav {
+                padding: 8px 12px;
+            }
+
+            .grid-header {
+                padding: 6px 2px;
             }
         }
 
