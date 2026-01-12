@@ -63,7 +63,7 @@
 
         @media (min-width: 768px) {
             body {
-                padding: 16px 48px;
+                padding: 10px 40px;
                 height: 100vh;
                 overflow: hidden;
             }
@@ -71,9 +71,9 @@
             .main-content {
                 display: grid;
                 grid-template-columns: 400px 1fr;
-                gap: 24px;
+                gap: 20px;
                 align-items: start;
-                height: calc(100vh - 110px);
+                height: calc(100vh - 80px);
             }
 
             h1 {
@@ -81,27 +81,97 @@
             }
         }
 
-        /* Tighter layout for 1080p displays */
-        @media (min-width: 768px) and (max-height: 800px) {
+        /* Tighter layout for 1080p displays (viewport up to ~980px after browser chrome) */
+        @media (min-width: 768px) and (max-height: 1000px) {
             body {
-                padding: 8px 40px;
+                padding: 4px 40px;
             }
 
             .main-content {
-                height: calc(100vh - 80px);
+                height: calc(100vh - 100px);
             }
 
             header {
-                margin-top: 4px;
-                margin-bottom: 4px;
+                margin-top: 0;
+                margin-bottom: 0;
             }
 
             .header-logo {
-                max-width: 380px;
+                max-width: 340px;
             }
 
             .toolbar {
+                margin-bottom: 6px;
+            }
+
+            .left-panel {
+                overflow-y: hidden;
+            }
+
+            .calendar-section {
+                padding: 12px;
+            }
+
+            .section-header {
                 margin-bottom: 8px;
+                font-size: 0.9em;
+            }
+
+            .instructions ol {
+                margin: 6px 0 0;
+            }
+
+            .instructions li {
+                margin-bottom: 4px;
+                font-size: 0.85em;
+            }
+
+            .instruction-note {
+                font-size: 0.8em;
+                margin-top: 6px;
+            }
+
+            .copy-btn {
+                padding: 8px 14px;
+                margin-top: 10px;
+            }
+
+            .updates-section {
+                margin-top: 12px;
+                padding-top: 10px;
+            }
+
+            .updates-section h2 {
+                font-size: 0.9em;
+                margin-bottom: 6px;
+            }
+
+            .updates-list {
+                font-size: 0.8em;
+            }
+
+            .updates-list li {
+                padding: 4px 0;
+            }
+
+            .contact-section {
+                margin-top: 10px;
+                padding-top: 8px;
+                font-size: 0.75em;
+            }
+
+            .folktime-logo {
+                width: 70px;
+                margin-top: 10px;
+            }
+
+            .platform-tabs {
+                margin-bottom: 8px;
+            }
+
+            .platform-tab {
+                padding: 4px 10px;
+                font-size: 0.75em;
             }
         }
 
@@ -113,15 +183,15 @@
 
         header {
             text-align: left;
-            margin-top: 16px;
-            margin-bottom: 8px;
+            margin-top: 8px;
+            margin-bottom: 4px;
         }
 
         /* View toolbar */
         .toolbar {
             display: flex;
             justify-content: flex-end;
-            margin-bottom: 16px;
+            margin-bottom: 10px;
         }
 
         .view-tabs {
@@ -313,6 +383,12 @@
             }
         }
 
+        @media (min-width: 768px) and (max-height: 1000px) {
+            .list-view {
+                max-height: calc(100vh - 150px);
+            }
+        }
+
         .event-day {
             border-bottom: 1px solid var(--border-color);
         }
@@ -431,18 +507,34 @@
         }
 
         /* Shorter grid cells for 1080p displays */
-        @media (min-width: 768px) and (max-height: 800px) {
+        @media (min-width: 768px) and (max-height: 1000px) {
             .grid-day {
-                min-height: 56px;
-                padding: 3px 4px;
+                min-height: 52px;
+                padding: 2px 4px;
             }
 
             .month-nav {
-                padding: 8px 12px;
+                padding: 6px 12px;
             }
 
             .grid-header {
-                padding: 6px 2px;
+                padding: 4px 2px;
+            }
+
+            .grid-day.today .day-number {
+                width: 22px;
+                height: 22px;
+                font-size: 0.8em;
+            }
+
+            .grid-event {
+                padding: 1px 3px;
+                font-size: 0.65em;
+            }
+
+            .day-number {
+                font-size: 0.85em;
+                margin-bottom: 2px;
             }
         }
 
@@ -923,14 +1015,13 @@
                 <div class="updates-section">
                     <h2>Updates <span id="stats-inline" style="font-weight: normal; font-size: 0.85em; color: var(--text-muted);"></span></h2>
                     <ul class="updates-list">
-                        <li><span class="update-date">Jan 12, 2026</span> Calendar audit: removed unverifiable schedules, updated board games meetup times</li>
-                        <li><span class="update-date">Jan 7, 2026</span> Added CMHC Peer Groups: ColorFlow, Intentional Silence & Meditation, Cultivate & Connect, Healing with Photography, Karaoke Night</li>
+                        <li><span class="update-date">Jan 12</span> Audit: removed unverifiable schedules, updated board games times</li>
+                        <li><span class="update-date">Jan 7</span> Added 5 CMHC Peer Groups (ColorFlow, Meditation, Photography, Karaoke)</li>
                     </ul>
                 </div>
 
                 <div class="contact-section">
-                    Something missing or incorrect? <a href="mailto:lobabobloblaw@icloud.com">Let us know</a><br>
-                    <span style="opacity: 0.7;">Maintained by Alex V</span>
+                    Something wrong? <a href="mailto:lobabobloblaw@icloud.com">Let us know</a> · <span style="opacity: 0.7;">Maintained by Alex V</span>
                 </div>
 
                 <a href="https://www.folktime.org" target="_blank" rel="noopener" class="folktime-link desktop-only"><img src="folktime.png" alt="FolkTime" class="folktime-logo"></a>
