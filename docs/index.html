@@ -73,7 +73,7 @@
                 grid-template-columns: 400px 1fr;
                 gap: 20px;
                 align-items: start;
-                height: calc(100vh - 80px);
+                height: calc(100vh - 50px);
             }
 
             h1 {
@@ -88,7 +88,7 @@
             }
 
             .main-content {
-                height: calc(100vh - 100px);
+                height: calc(100vh - 70px);
             }
 
             header {
@@ -98,10 +98,6 @@
 
             .header-logo {
                 max-width: 340px;
-            }
-
-            .toolbar {
-                margin-bottom: 6px;
             }
 
             .left-panel {
@@ -187,33 +183,28 @@
             margin-bottom: 4px;
         }
 
-        /* View toolbar */
-        .toolbar {
-            display: flex;
-            justify-content: flex-end;
-            margin-bottom: 10px;
-        }
-
+        /* View tabs (in month nav) */
         .view-tabs {
             display: flex;
-            gap: 6px;
+            gap: 4px;
+            margin-left: auto;
         }
 
         .view-tab {
-            padding: 8px 14px;
+            padding: 5px 10px;
             border: 1px solid var(--border-color);
-            background: var(--bg-card);
-            border-radius: 6px;
+            background: transparent;
+            border-radius: 4px;
             cursor: pointer;
-            font-size: 0.85em;
+            font-size: 0.8em;
             font-weight: 500;
-            color: var(--text-primary);
+            color: var(--text-secondary);
             transition: all 0.2s;
         }
 
         .view-tab:hover {
             border-color: var(--accent);
-            background: var(--bg-card-hover);
+            color: var(--text-primary);
         }
 
         .view-tab.active {
@@ -347,28 +338,30 @@
         /* Month navigation */
         .month-nav {
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            padding: 12px 16px;
+            gap: 8px;
+            padding: 10px 12px;
             background: rgba(0, 0, 0, 0.03);
             border-bottom: 1px solid var(--border-color);
         }
 
-        .month-nav button {
+        .month-nav > button {
             background: rgba(0, 0, 0, 0.05);
             border: 1px solid var(--border-color);
-            padding: 6px 12px;
+            padding: 5px 10px;
             border-radius: 4px;
             cursor: pointer;
             font-size: 0.85em;
             color: var(--text-primary);
         }
 
-        .month-nav button:hover { background: rgba(0, 0, 0, 0.1); }
+        .month-nav > button:hover { background: rgba(0, 0, 0, 0.1); }
 
         .month-nav .month-label {
             font-weight: 600;
             color: var(--text-primary);
+            min-width: 120px;
+            text-align: center;
         }
 
         /* List view */
@@ -514,7 +507,23 @@
             }
 
             .month-nav {
-                padding: 6px 12px;
+                padding: 6px 10px;
+                gap: 6px;
+            }
+
+            .month-nav > button {
+                padding: 4px 8px;
+                font-size: 0.8em;
+            }
+
+            .month-nav .month-label {
+                min-width: 100px;
+                font-size: 0.9em;
+            }
+
+            .view-tab {
+                padding: 4px 8px;
+                font-size: 0.75em;
             }
 
             .grid-header {
@@ -962,14 +971,6 @@
     </header>
 
     <main>
-        <!-- View toggle toolbar -->
-        <div class="toolbar">
-            <div class="view-tabs">
-                <button class="view-tab active" data-view="grid">Calendar</button>
-                <button class="view-tab" data-view="list">List</button>
-            </div>
-        </div>
-
         <div class="main-content">
             <div class="left-panel">
         <div class="calendar-section">
@@ -1030,9 +1031,13 @@
             <div class="right-panel">
             <div class="calendar-preview">
                 <div class="month-nav">
-                    <button id="prev-month">&larr; Prev</button>
+                    <button id="prev-month">&larr;</button>
                     <span class="month-label" id="month-label">January 2025</span>
-                    <button id="next-month">Next &rarr;</button>
+                    <button id="next-month">&rarr;</button>
+                    <div class="view-tabs">
+                        <button class="view-tab active" data-view="grid">Calendar</button>
+                        <button class="view-tab" data-view="list">List</button>
+                    </div>
                 </div>
                 <div class="list-view" id="list-view">
                     <div class="no-events">Loading events...</div>
