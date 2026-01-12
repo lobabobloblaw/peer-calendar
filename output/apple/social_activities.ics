@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:22b230d60826a8b3@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T083000
 DTEND:20260114T113000
 SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
@@ -44,7 +44,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7cb8b8ed6e217a00@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260112T020000
 DTEND:20260112T030000
 SUMMARY:Oregon Food Bank Volunteer Program
@@ -59,28 +59,32 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8961f5d05e61f6ab@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260113T150000
 DTEND:20260113T170000
 SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
-DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nAddress: Portl
- and\, OR
-LOCATION:Portland\, OR
+DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nAddress: 3524 
+ SW Troy St\, Portland\, OR 97219\nPhone: 503-244-5024\nWebsite: https://ww
+ w.northwestwools.com/
+LOCATION:3524 SW Troy St\, Portland\, OR 97219
+URL:https://www.northwestwools.com/
 RRULE:FREQ=WEEKLY;BYDAY=TU
 CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8569003d0f2e736e@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260115T190000
 DTEND:20260115T210000
 SUMMARY:Puddletown Knitters Guild: Monthly Meeting
 DESCRIPTION:Category: Social Activities\nCost: FREE for visitors\nInfo: Sep
  tember through May\nAddress: Rose City Park Presbyterian Church\, 1907 NE 
- 45th Ave\, Portland\, OR
+ 45th Ave\, Portland\, OR\nWebsite: https://www.puddletownknittersguild.com
+ /
 LOCATION:Rose City Park Presbyterian Church\, 1907 NE 45th Ave\, Portland\,
   OR
+URL:https://www.puddletownknittersguild.com/
 RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=2
 CATEGORIES:Social Activities
 TRANSP:TRANSPARENT

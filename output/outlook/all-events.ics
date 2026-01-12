@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:b8b48cbe08f220fe@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260118T150000
 DTEND:20260118T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (In-Person)
@@ -52,7 +52,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dba6711eb13da213@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260118T150000
 DTEND:20260118T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (Online)
@@ -78,7 +78,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9777816b12080f9@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260112T190000
 DTEND:20260112T203000
 SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support
@@ -106,7 +106,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c8206c50171db713@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T180000
 DTEND:20260114T193000
 SUMMARY:NAMI Multnomah: Young Adult (18-35)
@@ -134,7 +134,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4b11c0aa298f2306@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260115T190000
 DTEND:20260115T203000
 SUMMARY:NAMI Multnomah: BIPOC Peer Support
@@ -163,7 +163,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c08dbed81b24d0f5@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260113T190000
 DTEND:20260113T203000
 SUMMARY:NAMI Multnomah: Complex Trauma & Dissociation Support
@@ -191,7 +191,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:531662b55bc0a9a7@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260113T190000
 DTEND:20260113T203000
 SUMMARY:NAMI Clackamas: NAMI Connection Support Group
@@ -220,7 +220,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:abda9c8971b1314b@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T170000
 DTEND:20260114T183000
 SUMMARY:NAMI Clackamas: Women (18+) Only Support Group
@@ -247,7 +247,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:80c98c702199b308@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T140000
 DTEND:20260114T153000
 SUMMARY:CMHC Peer Groups (Clackamas Mental Health Clinic): ColorFlow
@@ -275,7 +275,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e316600684ec1523@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260113T170000
 DTEND:20260113T180000
 SUMMARY:CMHC Peer Groups (Clackamas Mental Health Clinic): Intentional Sile
@@ -305,7 +305,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f234895ee256a32c@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260115T150000
 DTEND:20260115T160000
 SUMMARY:CMHC Peer Groups (Clackamas Mental Health Clinic): Cultivate & Conn
@@ -335,7 +335,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:31776a6d2df51554@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T143000
 DTEND:20260114T160000
 SUMMARY:CMHC Peer Groups (Clackamas Mental Health Clinic): Healing with Pho
@@ -364,7 +364,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9266fce812b6dd31@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260116T184500
 DTEND:20260116T200000
 SUMMARY:CMHC Peer Groups (Clackamas Mental Health Clinic): Karaoke Night
@@ -393,7 +393,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:651932636ba165c7@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260112T190000
 DTEND:20260112T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): LGBTQIA+ Suppo
@@ -419,7 +419,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:215024356d2538f2@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260113T183000
 DTEND:20260113T195000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (W
@@ -444,7 +444,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49d6b06cbd9d0a5b@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260115T190000
 DTEND:20260115T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (E
@@ -469,7 +469,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:568f2b14f76f137e@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260116T190000
 DTEND:20260116T203000
 SUMMARY:Recovery Dharma Portland (PDX): Sarpashana
@@ -493,7 +493,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5dccfbb24ed3c3f2@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260112T190000
 DTEND:20260112T203000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): LGBTQIA2S+ Mental Heal
@@ -522,7 +522,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:65981a99ae5aad6e@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T190000
 DTEND:20260114T210000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): QTIBIPOC Community Spa
@@ -551,7 +551,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e3edc33c7c6abd02@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260117T100000
 DTEND:20260117T110000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Saturday Meeting
@@ -576,7 +576,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fd5742a493e3fee2@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260117T103000
 DTEND:20260117T113000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Virtual Meeting
@@ -602,7 +602,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3edaaea6cbe1c3ad@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T190000
 DTEND:20260114T202000
 SUMMARY:Dharma Rain Zen Center: Wednesday Evening Meditation
@@ -626,7 +626,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85da36a11cd8de05@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260113T183000
 DTEND:20260113T200000
 SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Evening Group
@@ -653,7 +653,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:50283de6a02f284c@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260113T150000
 DTEND:20260113T163000
 SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Teatime
@@ -680,7 +680,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:69576450a4c8ec45@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260113T173000
 DTEND:20260113T193000
 SUMMARY:Gresham Senior Center: Tuesday Night Dance
@@ -703,7 +703,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fa2a6f7932e27924@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260112T130000
 DTEND:20260112T150000
 SUMMARY:Gresham Senior Center: Monday Movie Matinees
@@ -725,7 +725,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:79365ba3889a5027@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260116T130000
 DTEND:20260116T143000
 SUMMARY:Gresham Senior Center: Friday Speaker Series
@@ -747,7 +747,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2fc95dd415237f2f@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T130000
 DTEND:20260114T143000
 SUMMARY:Gresham Senior Center: Alzheimer's Caregiver Support
@@ -769,7 +769,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9d926352b7451d03@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260116T170000
 DTEND:20260116T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Free Friday Climbing
@@ -793,21 +793,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:120fe89373741af7@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260117T180000
 DTEND:20260117T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Teen Nights
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE for Gresham residents 
  on specific days\nNote: Includes rental shoes on Free Friday Climbing\nEli
- gibility: Ages 13-18\nAddress: Gresham\, OR\nWebsite: https://greshamorego
- n.gov/Recreation/
+ gibility: Ages 13-18\, Gresham residents\nAddress: Gresham\, OR\nWebsite: 
+ https://greshamoregon.gov/Recreation/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
  ><strong>Cost:</strong> FREE for Gresham residents on specific days</p><p>
  <em>Includes rental shoes on Free Friday Climbing</em></p><p><strong>Eligi
- bility:</strong> Ages 13-18</p><p><strong>Address:</strong> Gresham\, OR</
- p><p><strong>Website:</strong> <a href="https://greshamoregon.gov/Recreati
- on/">https://greshamoregon.gov/Recreation/</a></p></BODY></HTML>
+ bility:</strong> Ages 13-18\, Gresham residents</p><p><strong>Address:</st
+ rong> Gresham\, OR</p><p><strong>Website:</strong> <a href="https://gresha
+ moregon.gov/Recreation/">https://greshamoregon.gov/Recreation/</a></p></BO
+ DY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Gresham\, OR
 URL:https://greshamoregon.gov/Recreation/
@@ -817,7 +818,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2c4a1c226a516cbd@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260112T183000
 DTEND:20260112T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Creston Pool Free Swim
@@ -840,7 +841,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:19f37adeb9323fcb@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260113T130000
 DTEND:20260113T154500
 SUMMARY:Portland Parks Free Open Swim Sessions: Peninsula Pool Free Swim
@@ -863,7 +864,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b759cc72f6eb0b0f@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T130000
 DTEND:20260114T150000
 SUMMARY:Portland Parks Free Open Swim Sessions: Grant Pool Free Swim
@@ -886,7 +887,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4bb53254bccbec2d@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T183000
 DTEND:20260114T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Sellwood Pool Free Swim
@@ -909,7 +910,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c62bc17ff46d5148@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T180000
 DTEND:20260114T200000
 SUMMARY:NAYA (Native American Youth and Family Center): Culture Nights
@@ -934,7 +935,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7911bf9a58117f@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260115T183000
 DTEND:20260115T193000
 SUMMARY:MHCC Planetarium Sky Theatre: Early Planetarium Show
@@ -963,7 +964,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e02aa101489f47a@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260115T200000
 DTEND:20260115T210000
 SUMMARY:MHCC Planetarium Sky Theatre: Late Planetarium Show
@@ -992,7 +993,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f7bf9869ba2e83a@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T120000
 DTEND:20260114T130000
 SUMMARY:The Old Church Concert Hall: Lunchtime Concert Series
@@ -1013,107 +1014,100 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ff0fa1eb966895c2@portlandresources.org
-DTSTAMP:20260112T093258Z
-DTSTART:20260114T190000
-DTEND:20260114T220000
-SUMMARY:Artichoke Community Music: Open Mic Night
-DESCRIPTION:Category: Arts & Culture\nCost: FREE (donations welcome)\nInfo:
-  Supportive listening-room environment\, no alcohol\nAddress: 2007 SE Powe
- ll Blvd\, Portland\, OR 97202\nWebsite: https://artichokemusic.org/\nDetai
- ls: Nonprofit community music center since 1973
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE (donations welcome)</p><p>Supportive listening-ro
- om environment\, no alcohol</p><p><strong>Address:</strong> 2007 SE Powell
-  Blvd\, Portland\, OR 97202</p><p><strong>Website:</strong> <a href="https
- ://artichokemusic.org/">https://artichokemusic.org/</a></p><p><strong>Deta
- ils:</strong> Nonprofit community music center since 1973</p></BODY></HTML
- >
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:2007 SE Powell Blvd\, Portland\, OR 97202
-URL:https://artichokemusic.org/
-RRULE:FREQ=WEEKLY;BYDAY=WE
-CATEGORIES:Arts & Culture
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:0379c9729163580c@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260118T160000
 DTEND:20260118T170000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
  s
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Multiple Sundays th
- roughout the year\nAddress: 1315 SW Park Ave\, Portland\, OR 97201
+ roughout the year\nAddress: 1315 SW Park Ave\, Portland\, OR 97201\nWebsit
+ e: https://stjamespdx.org/life/wm/bach/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
  rong>Cost:</strong> FREE</p><p>Multiple Sundays throughout the year</p><p>
- <strong>Address:</strong> 1315 SW Park Ave\, Portland\, OR 97201</p></BODY
- ></HTML>
+ <strong>Address:</strong> 1315 SW Park Ave\, Portland\, OR 97201</p><p><st
+ rong>Website:</strong> <a href="https://stjamespdx.org/life/wm/bach/">http
+ s://stjamespdx.org/life/wm/bach/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:1315 SW Park Ave\, Portland\, OR 97201
+URL:https://stjamespdx.org/life/wm/bach/
 RRULE:FREQ=WEEKLY;BYDAY=SU
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:904f46f7f1ae22e0@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260116T170000
 DTEND:20260116T190000
 SUMMARY:Turn! Turn! Turn!: Comedy Open Mic
 DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
- ingsworth St\, Portland\, OR
+ ingsworth St\, Portland\, OR\nPhone: 503-284-6019\nWebsite: https://turntu
+ rnturnpdx.com/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
  rong>Cost:</strong> FREE events</p><p><strong>Address:</strong> 8 NE Killi
- ngsworth St\, Portland\, OR</p></BODY></HTML>
+ ngsworth St\, Portland\, OR</p><p><strong>Phone:</strong> <a href="tel:503
+ -284-6019">503-284-6019</a></p><p><strong>Website:</strong> <a href="https
+ ://turnturnturnpdx.com/">https://turnturnturnpdx.com/</a></p></BODY></HTML
+ >
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:8 NE Killingsworth St\, Portland\, OR
+URL:https://turnturnturnpdx.com/
 RRULE:FREQ=WEEKLY;BYDAY=FR
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d8fc3329cc6894ad@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260118T123000
 DTEND:20260118T153000
 SUMMARY:Turn! Turn! Turn!: Drawing Club
 DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
- ingsworth St\, Portland\, OR
+ ingsworth St\, Portland\, OR\nPhone: 503-284-6019\nWebsite: https://turntu
+ rnturnpdx.com/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
  rong>Cost:</strong> FREE events</p><p><strong>Address:</strong> 8 NE Killi
- ngsworth St\, Portland\, OR</p></BODY></HTML>
+ ngsworth St\, Portland\, OR</p><p><strong>Phone:</strong> <a href="tel:503
+ -284-6019">503-284-6019</a></p><p><strong>Website:</strong> <a href="https
+ ://turnturnturnpdx.com/">https://turnturnturnpdx.com/</a></p></BODY></HTML
+ >
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:8 NE Killingsworth St\, Portland\, OR
+URL:https://turnturnturnpdx.com/
 RRULE:FREQ=WEEKLY;BYDAY=SU
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d9e5489d6044ef66@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260112T200000
 DTEND:20260112T230000
 SUMMARY:Turn! Turn! Turn!: Karaoke Night
 DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
- ingsworth St\, Portland\, OR
+ ingsworth St\, Portland\, OR\nPhone: 503-284-6019\nWebsite: https://turntu
+ rnturnpdx.com/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
  rong>Cost:</strong> FREE events</p><p><strong>Address:</strong> 8 NE Killi
- ngsworth St\, Portland\, OR</p></BODY></HTML>
+ ngsworth St\, Portland\, OR</p><p><strong>Phone:</strong> <a href="tel:503
+ -284-6019">503-284-6019</a></p><p><strong>Website:</strong> <a href="https
+ ://turnturnturnpdx.com/">https://turnturnturnpdx.com/</a></p></BODY></HTML
+ >
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:8 NE Killingsworth St\, Portland\, OR
+URL:https://turnturnturnpdx.com/
 RRULE:FREQ=MONTHLY;BYDAY=MO;BYSETPOS=2,4
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:361be0cc45ef3e68@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T180000
 DTEND:20260114T193000
 SUMMARY:Tigard Public Library: ESL Conversation Classes
@@ -1143,7 +1137,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:91fcae740514833e@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20251120
 DTEND;VALUE=DATE:20251124
 SUMMARY:PCC Theatre: Much Ado About Nothing
@@ -1171,7 +1165,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:008d34ae2bc45953@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260720
 SUMMARY:Cathedral Park Jazz Festival
@@ -1197,7 +1191,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:040809e6cdb0de1f@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:Portland Rose Festival
@@ -1217,7 +1211,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:34fcf208f3ca4a9b@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20260718
 DTEND;VALUE=DATE:20260720
 SUMMARY:Portland Pride
@@ -1243,7 +1237,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:71e919571174ce47@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260115T170000
 DTEND:20260115T210000
 SUMMARY:First Thursday Art Walk
@@ -1269,7 +1263,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bd517104cb00543c@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260115T180000
 DTEND:20260115T210000
 SUMMARY:Last Thursday on Alberta
@@ -1295,7 +1289,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a51c3018c49f316a@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Portland Tree Lighting Ceremony
@@ -1319,7 +1313,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:981e8d40cd3a420a@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20271215
 DTEND;VALUE=DATE:20280101
 SUMMARY:Peacock Lane Holiday Lights
@@ -1343,7 +1337,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d50d5cc747663bed@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T183000
 DTEND:20260114T203000
 SUMMARY:Gresham Wednesday Music in the Parks: Music in the Parks
@@ -1368,7 +1362,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f726cfa67160de1d@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:Wooden Shoe Tulip Festival
@@ -1391,26 +1385,28 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b18dd951df2feef7@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20260502
 DTEND;VALUE=DATE:20260504
 SUMMARY:Spring Garden Fair
 DESCRIPTION:Category: Events & Festivals\nCost: $7 one-day / $12 two-day\; 
  Kids under 16 FREE\nAddress: Clackamas County Fairgrounds\, 694 NE 4th Ave
- \, Canby\, OR
+ \, Canby\, OR\nWebsite: https://springgardenfair.org/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> $7 one-day / $12 two-day\; Kids under 16 FREE</p><
  p><strong>Address:</strong> Clackamas County Fairgrounds\, 694 NE 4th Ave\
- , Canby\, OR</p></BODY></HTML>
+ , Canby\, OR</p><p><strong>Website:</strong> <a href="https://springgarden
+ fair.org/">https://springgardenfair.org/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Clackamas County Fairgrounds\, 694 NE 4th Ave\, Canby\, OR
+URL:https://springgardenfair.org/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:396829af8d43697e@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20260718
 DTEND;VALUE=DATE:20260719
 SUMMARY:Gresham Arts Festival
@@ -1431,47 +1427,54 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4fbec19f3f135081@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:India Festival
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Pioneer Cour
- thouse Square\, 701 SW 6th Ave\, Portland\, OR\nDetails: 10\,000+ attendee
- s\, Indian dance\, music\, food
+ thouse Square\, 701 SW 6th Ave\, Portland\, OR\nWebsite: https://www.icapo
+ rtland.org/\nDetails: 10\,000+ attendees\, Indian dance\, music\, food
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> Pioneer Court
- house Square\, 701 SW 6th Ave\, Portland\, OR</p><p><strong>Details:</stro
- ng> 10\,000+ attendees\, Indian dance\, music\, food</p></BODY></HTML>
+ house Square\, 701 SW 6th Ave\, Portland\, OR</p><p><strong>Website:</stro
+ ng> <a href="https://www.icaportland.org/">https://www.icaportland.org/</a
+ ></p><p><strong>Details:</strong> 10\,000+ attendees\, Indian dance\, musi
+ c\, food</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland\, OR
+URL:https://www.icaportland.org/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e17302519b24aeeb@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:Obon Festival (Oregon Buddhist Temple)
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Oregon Buddh
- ist Temple\, 3720 SE 34th Ave\, Portland\, OR 97202\nDetails: Japanese Bud
- dhist festival\, all welcome. Free dance practices held beforehand\; no ex
- perience needed
+ ist Temple\, 3720 SE 34th Ave\, Portland\, OR 97202\nWebsite: https://www.
+ oregonbuddhisttemple.com/obon-festival\nDetails: Japanese Buddhist festiva
+ l\, all welcome. Free dance practices held beforehand\; no experience need
+ ed
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> Oregon Buddhi
- st Temple\, 3720 SE 34th Ave\, Portland\, OR 97202</p><p><strong>Details:<
+ st Temple\, 3720 SE 34th Ave\, Portland\, OR 97202</p><p><strong>Website:<
+ /strong> <a href="https://www.oregonbuddhisttemple.com/obon-festival">http
+ s://www.oregonbuddhisttemple.com/obon-festival</a></p><p><strong>Details:<
  /strong> Japanese Buddhist festival\, all welcome. Free dance practices he
  ld beforehand\; no experience needed</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Oregon Buddhist Temple\, 3720 SE 34th Ave\, Portland\, OR 97202
+URL:https://www.oregonbuddhisttemple.com/obon-festival
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:51f7331f0c5f34bd@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20270815
 DTEND;VALUE=DATE:20270816
 SUMMARY:Swan Island Dahlias
@@ -1492,7 +1495,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:299891133691a158@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260823
 SUMMARY:Clackamas County Fair
@@ -1515,44 +1518,51 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cf6b2748cda84a9c@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260921
 SUMMARY:Portland Polish Festival
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Polish Hall\
- , 3900 N Interstate Ave\, Portland\, OR 97227
+ , 3900 N Interstate Ave\, Portland\, OR 97227\nWebsite: https://www.polish
+ festivalpdx.org/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> Polish Hall\,
-  3900 N Interstate Ave\, Portland\, OR 97227</p></BODY></HTML>
+  3900 N Interstate Ave\, Portland\, OR 97227</p><p><strong>Website:</stron
+ g> <a href="https://www.polishfestivalpdx.org/">https://www.polishfestival
+ pdx.org/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Polish Hall\, 3900 N Interstate Ave\, Portland\, OR 97227
+URL:https://www.polishfestivalpdx.org/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1b5cf0280b32b4e2@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261005
 SUMMARY:Portland Greek Festival
 DESCRIPTION:Category: Events & Festivals\nCost: $5 (children under 12 FREE)
  \nAddress: Holy Trinity Greek Orthodox Cathedral\, 3131 NE Glisan St\, Por
- tland\, OR
+ tland\, OR\nWebsite: https://www.portlandgreekfestival.com/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> $5 (children under 12 FREE)</p><p><strong>Address:
  </strong> Holy Trinity Greek Orthodox Cathedral\, 3131 NE Glisan St\, Port
- land\, OR</p></BODY></HTML>
+ land\, OR</p><p><strong>Website:</strong> <a href="https://www.portlandgre
+ ekfestival.com/">https://www.portlandgreekfestival.com/</a></p></BODY></HT
+ ML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Holy Trinity Greek Orthodox Cathedral\, 3131 NE Glisan St\, Portla
  nd\, OR
+URL:https://www.portlandgreekfestival.com/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b297a771e14010c2@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Día de los Muertos (Gresham)
@@ -1572,76 +1582,94 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f74bcb91ff4bdb04@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20260705
 SUMMARY:Happy Valley Fourth of July Festival
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Happy Valley
-  Park\, Happy Valley\, OR
+  Park\, Happy Valley\, OR\nWebsite: https://www.happyvalleyor.gov/4th-of-j
+ uly-family-festival/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> Happy Valley 
- Park\, Happy Valley\, OR</p></BODY></HTML>
+ Park\, Happy Valley\, OR</p><p><strong>Website:</strong> <a href="https://
+ www.happyvalleyor.gov/4th-of-july-family-festival/">https://www.happyvalle
+ yor.gov/4th-of-july-family-festival/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Happy Valley Park\, Happy Valley\, OR
+URL:https://www.happyvalleyor.gov/4th-of-july-family-festival/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:afe46f3866470119@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260115T180000
 DTEND:20260115T200000
 SUMMARY:Concerts in the Valley (Happy Valley): Thursday Concert
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: July-August\nAd
- dress: Happy Valley Park\, Happy Valley\, OR
+ dress: Happy Valley Park\, Happy Valley\, OR\nWebsite: https://www.happyva
+ lleyor.gov/services/hv-community-events/summer-concerts/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> FREE</p><p>July-August</p><p><strong>Address:</str
- ong> Happy Valley Park\, Happy Valley\, OR</p></BODY></HTML>
+ ong> Happy Valley Park\, Happy Valley\, OR</p><p><strong>Website:</strong>
+  <a href="https://www.happyvalleyor.gov/services/hv-community-events/summe
+ r-concerts/">https://www.happyvalleyor.gov/services/hv-community-events/su
+ mmer-concerts/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Happy Valley Park\, Happy Valley\, OR
+URL:https://www.happyvalleyor.gov/services/hv-community-events/summer-concerts/
 RRULE:FREQ=WEEKLY;BYDAY=TH
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c84065f96fc8c6dd@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:Happy Valley Oktoberfest
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Happy Valley
-  Park\, Happy Valley\, OR
+  Park\, Happy Valley\, OR\nWebsite: https://www.happyvalleyor.gov/services
+ /hv-community-events/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> Happy Valley 
- Park\, Happy Valley\, OR</p></BODY></HTML>
+ Park\, Happy Valley\, OR</p><p><strong>Website:</strong> <a href="https://
+ www.happyvalleyor.gov/services/hv-community-events/">https://www.happyvall
+ eyor.gov/services/hv-community-events/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Happy Valley Park\, Happy Valley\, OR
+URL:https://www.happyvalleyor.gov/services/hv-community-events/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6307714643aeb4c8@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Happy Valley Tree Lighting
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: 16000 SE Mis
- ty Dr\, Happy Valley\, OR
+ ty Dr\, Happy Valley\, OR\nWebsite: https://www.happyvalleyor.gov/services
+ /hv-community-events/tree-lighting-ceremony/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 16000 SE Mist
- y Dr\, Happy Valley\, OR</p></BODY></HTML>
+ y Dr\, Happy Valley\, OR</p><p><strong>Website:</strong> <a href="https://
+ www.happyvalleyor.gov/services/hv-community-events/tree-lighting-ceremony/
+ ">https://www.happyvalleyor.gov/services/hv-community-events/tree-lighting
+ -ceremony/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:16000 SE Misty Dr\, Happy Valley\, OR
+URL:https://www.happyvalleyor.gov/services/hv-community-events/tree-lighting-ceremony/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aaa23b8964841ce2@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20260215
 DTEND;VALUE=DATE:20260217
 SUMMARY:Oregon Free Fishing Weekends
@@ -1662,7 +1690,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:77ae73c28b0f9ccd@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20260608
 SUMMARY:Oregon Free Fishing Weekends
@@ -1683,7 +1711,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aadf365d4c01dd72@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:Oregon Free Fishing Weekends
@@ -1704,7 +1732,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1a234bcce979e25f@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261219
 SUMMARY:Christmas Ships Parade
@@ -1727,7 +1755,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da583f55cb2a0059@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260116T183000
 DTEND:20260116T203000
 SUMMARY:Tualatin Concerts in the Parks
@@ -1752,7 +1780,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ca22b194d8222030@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:Cascade Festival of African Films
@@ -1780,7 +1808,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:435f2bc1450ffc3a@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260115T150000
 DTEND:20260115T190000
 SUMMARY:Rockwood Community Market
@@ -1804,7 +1832,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:22b230d60826a8b3@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T083000
 DTEND:20260114T113000
 SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
@@ -1833,7 +1861,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7cb8b8ed6e217a00@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260112T020000
 DTEND:20260112T030000
 SUMMARY:Oregon Food Bank Volunteer Program
@@ -1856,39 +1884,48 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8961f5d05e61f6ab@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260113T150000
 DTEND:20260113T170000
 SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
-DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nAddress: Portl
- and\, OR
+DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nAddress: 3524 
+ SW Troy St\, Portland\, OR 97219\nPhone: 503-244-5024\nWebsite: https://ww
+ w.northwestwools.com/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><stro
- ng>Cost:</strong> FREE drop-in</p><p><strong>Address:</strong> Portland\, 
- OR</p></BODY></HTML>
+ ng>Cost:</strong> FREE drop-in</p><p><strong>Address:</strong> 3524 SW Tro
+ y St\, Portland\, OR 97219</p><p><strong>Phone:</strong> <a href="tel:503-
+ 244-5024">503-244-5024</a></p><p><strong>Website:</strong> <a href="https:
+ //www.northwestwools.com/">https://www.northwestwools.com/</a></p></BODY><
+ /HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Portland\, OR
+LOCATION:3524 SW Troy St\, Portland\, OR 97219
+URL:https://www.northwestwools.com/
 RRULE:FREQ=WEEKLY;BYDAY=TU
 CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8569003d0f2e736e@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260115T190000
 DTEND:20260115T210000
 SUMMARY:Puddletown Knitters Guild: Monthly Meeting
 DESCRIPTION:Category: Social Activities\nCost: FREE for visitors\nInfo: Sep
  tember through May\nAddress: Rose City Park Presbyterian Church\, 1907 NE 
- 45th Ave\, Portland\, OR
+ 45th Ave\, Portland\, OR\nWebsite: https://www.puddletownknittersguild.com
+ /
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><stro
  ng>Cost:</strong> FREE for visitors</p><p>September through May</p><p><str
  ong>Address:</strong> Rose City Park Presbyterian Church\, 1907 NE 45th Av
- e\, Portland\, OR</p></BODY></HTML>
+ e\, Portland\, OR</p><p><strong>Website:</strong> <a href="https://www.pud
+ dletownknittersguild.com/">https://www.puddletownknittersguild.com/</a></p
+ ></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Rose City Park Presbyterian Church\, 1907 NE 45th Ave\, Portland\,
   OR
+URL:https://www.puddletownknittersguild.com/
 RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=2
 CATEGORIES:Social Activities
 TRANSP:TRANSPARENT

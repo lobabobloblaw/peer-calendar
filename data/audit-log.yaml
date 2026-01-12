@@ -3,6 +3,32 @@
 
 ---
 - date: 2026-01-12
+  type: calendar_audit
+  auditor: claude
+  summary: "2026 calendar audit - removed/corrected unverifiable schedules"
+  changes:
+    - "New Narrative Comfort Zone: Removed 5 programs with unverifiable 'Weekly' schedules (BIPOC, LGBTQ+, PeerZone, Hearing Voices, Wellbriety)"
+    - "Providence Grief Support: Removed 'Weekly meetings' program - website says groups meet at various times, no recurring schedule"
+    - "Rock Haven Climbing: Removed 'Wednesday Free Climb' program - not found on Gresham website. Updated pricing details for verified programs."
+    - "Artichoke Music: Removed Open Mic Night schedule - couldn't verify on website. Changed to 'check calendar for dates'"
+    - "Hollywood Theatre: Removed B-Movie Bingo schedule - couldn't verify current schedule. Changed to 'check calendar for dates'"
+    - "PPR Fitness in the Park: Removed schedule line - already marked seasonal, summer-only program"
+    - "PDX Board Games Meetup: Updated to correct schedule (Tue 5pm CORE Food Carts, Wed 5pm Board Bard Games) per Meetup.com"
+  verified_accurate:
+    - "NAMI Multnomah (6 programs) - all schedules verified"
+    - "CMHC Peer Groups (5 programs) - verified via PDF reference"
+    - "DBSA Portland (4 groups) - schedules match website"
+    - "Recovery Dharma PDX (9 meetings) - schedules match website"
+    - "November Project Portland - Wednesday 6:29am verified"
+    - "Portland Pride - July 18-19, 2026 confirmed"
+    - "First Thursday Art Walk - still active monthly"
+    - "Hoyt Arboretum - seasonal noted correctly (April-October)"
+  notes: |
+    Comprehensive audit of all calendar entries against source URLs.
+    Removed entries/programs where schedules could not be verified from official sources.
+    Updated practical_tips and next_audit dates for affected entries.
+
+- date: 2026-01-12
   type: data_quality
   auditor: claude
   summary: "Added official source URLs to 26 entries missing documentation"

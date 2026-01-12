@@ -783,25 +783,14 @@
   - Benefits connection
   - ID acquisition assistance
   - Snacks and activities
-  programs:
-  - name: BIPOC Support Group
-    schedule: Weekly
-  - name: LGBTQ+ Support Group
-    schedule: Weekly
-  - name: PeerZone
-    schedule: Weekly
-  - name: Hearing Voices
-    schedule: Weekly
-  - name: Wellbriety (White Bison Medicine Wheel)
-    schedule: Weekly
-  last_verified: 2025-12-02
-  next_audit: 2026-02-01
-  audit_frequency: monthly
+  last_verified: 2026-01-12
+  next_audit: 2026-04-01
+  audit_frequency: quarterly
   practical_tips:
     first_visit: "Just walk in during open hours - no appointment needed"
     registration: "No registration required, just drop in"
     what_to_bring: "Nothing required; snacks and activities provided"
-    good_to_know: "Tigard area location. Specialty groups for BIPOC, LGBTQ+, Hearing Voices. Job and housing support available."
+    good_to_know: "Tigard area location. Job and housing support available. Call for current group schedule."
   accessibility:
     - wheelchair_accessible
   social_intensity: drop_in
@@ -1273,23 +1262,18 @@
   - https://www.providence.org/locations/or/portland-medical-center/patients-and-visitors/grief-support-groups
   pricing:
     description: FREE
-  programs:
-  - name: Adult Grief Support Groups
-    schedule: Weekly meetings
-    cost: FREE
-    notes: No registration required. Professionally trained facilitators.
   services:
   - Individual bereavement support
   - Family support
-  - Group support
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  - Group support (various times throughout year - call for schedule)
+  last_verified: 2026-01-12
+  next_audit: 2026-06-01
   audit_frequency: quarterly
   practical_tips:
-    first_visit: "Just show up - no registration required"
-    registration: "Drop-in, no registration"
+    first_visit: "Call 503-215-4622 for current group schedule and registration"
+    registration: "Call for current schedule"
     what_to_bring: "Nothing required"
-    good_to_know: "Hospital-based but open to anyone grieving. Professional facilitators. Individual support also available."
+    good_to_know: "Hospital-based but open to anyone grieving. Professional facilitators. Groups meet at various times - call for schedule."
   accessibility:
     - wheelchair_accessible
   social_intensity: structured_group
@@ -2076,23 +2060,20 @@
   programs:
   - name: Free Friday Climbing
     schedule: 1st Friday 5-9pm
-    cost: FREE
+    cost: FREE for Gresham residents with SNAP/EBT, $5 for other Gresham residents
     notes: Includes rental shoes
   - name: Teen Nights
     schedule: 1st & 3rd Saturdays 6-9pm
     cost: FREE
-    eligibility: Ages 13-18
-  - name: Wednesday Free Climb
-    schedule: 1st & 3rd Wednesdays 9am-9pm
-    cost: FREE
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+    eligibility: Ages 13-18, Gresham residents
+  last_verified: 2026-01-12
+  next_audit: 2026-04-01
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Just show up during free climb times - no reservation needed
-    registration: None for free programs
-    what_to_bring: Comfortable clothes. Rental shoes included free on Free Friday Climbing.
-    good_to_know: Multiple free climbing days through Gresham partnership. Free Friday Climbing (1st Friday 5-9pm) includes shoes. Teen Nights (1st & 3rd Saturdays 6-9pm) for ages 13-18. Wednesday Free Climb (1st & 3rd Wednesdays 9am-9pm). Great way to try climbing without cost.
+    first_visit: Just show up during free climb times - no reservation needed. Complete waiver online or on-site.
+    registration: Waiver required (available online or on-site). Minors need guardian signature.
+    what_to_bring: Comfortable clothes. Rental shoes included free.
+    good_to_know: Free Friday Climbing (1st Friday 5-9pm) is free for SNAP/EBT holders, $5 for other Gresham residents. Teen Nights (1st & 3rd Saturdays 6-9pm) free for ages 13-18. May ask for ID to verify residency.
   accessibility:
     - wheelchair_accessible
   accessibility_notes: Rock Haven facility is ADA accessible. Climbing walls have routes of varying difficulty.
@@ -2607,7 +2588,6 @@
   pricing:
     description: FREE
   season: May-August (Summer Free For All)
-  schedule: Monday-Friday at various park locations
   locations:
     spring:
     - Irving Park
@@ -2919,17 +2899,16 @@
   pricing:
     description: Various - includes free screenings
   programs:
-  - name: B-Movie Bingo
-    schedule: 1st Tuesday 7:30pm
-  - name: Kung Fu Theater
-  - name: Hecklevision
+  - B-Movie Bingo (check calendar for dates)
+  - Kung Fu Theater
+  - Hecklevision
   - Various free screenings
   features:
   - Historic 1926 theater (National Register)
   - Only 70mm film projector in Oregon
   - Nonprofit organization
   - 1,491 seats
-  practical_tips: "Check calendar for free community screenings. The nonprofit theater shows independent, classic, and rare films. Special events like B-Movie Bingo (1st Tue) are interactive and fun. Less crowded on weekday afternoons. Historic 1926 landmark."
+  practical_tips: "Check calendar for free community screenings and special events. The nonprofit theater shows independent, classic, and rare films. Less crowded on weekday afternoons. Historic 1926 landmark."
   accessibility:
     - wheelchair_accessible
     - transit_nearby
@@ -3387,14 +3366,12 @@
   pricing:
     description: FREE (donations welcome)
   programs:
-  - name: Open Mic Night
-    schedule: Last Wednesday 7-10pm
-    cost: FREE
-    notes: Supportive listening-room environment, no alcohol
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  - Open mic nights (check calendar for dates)
+  - Affordable music lessons (sliding scale)
+  last_verified: 2026-01-12
+  next_audit: 2026-04-01
   audit_frequency: quarterly
-  practical_tips: "Community music school offering affordable lessons. Open Mic Night (last Wed 7-10pm) is supportive and alcohol-free. Sliding scale available for lessons. Instruments available to borrow. Welcoming to beginners."
+  practical_tips: "Community music school offering affordable lessons. Check their calendar for open mic nights. Sliding scale available for lessons. Instruments available to borrow. Welcoming to beginners."
   accessibility:
     - transit_nearby
   social_intensity: casual_group
@@ -6377,17 +6354,18 @@
   pricing:
     description: FREE - just buy food/drink from venue
   programs:
-  - name: Thursday Meetup
-    location: SE Lucky Lab
-    schedule: Every Thursday
-    notes: 20+ attendees
-  - name: Tuesday Meetup
-    location: CORE Food Carts (82nd Ave)
-    schedule: Every Tuesday
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  - name: Tuesday Board Games
+    location: CORE Food Carts (3612 SE 82nd Ave)
+    schedule: Every Tuesday 5pm
+    notes: 20-30 attendees typical
+  - name: Wednesday East Side Game Night
+    location: Board Bard Games (7960 SE Stark St)
+    schedule: Every Wednesday 5pm
+    notes: Free weekly social for all levels
+  last_verified: 2026-01-12
+  next_audit: 2026-04-01
   audit_frequency: quarterly
-  practical_tips: "FREE - just buy food/drink from venue. Thursdays at SE Lucky Lab (20+ attendees) and Tuesdays at CORE Food Carts (82nd Ave). Explicitly welcoming to newcomers. Games provided. All skill levels welcome."
+  practical_tips: "FREE - just buy food/drink from venue. Tuesdays at CORE Food Carts (82nd Ave, 5pm) and Wednesdays at Board Bard Games (5pm). Explicitly welcoming to newcomers. Games provided. All skill levels welcome. Check Meetup.com/pdxgames for full schedule and additional events."
   accessibility:
     - wheelchair_accessible
     - transit_nearby

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-12T09:32:58.166737",
+  "generated": "2026-01-12T10:18:22.166479",
   "count": 173,
   "categories": {
     "peer_support": "Peer Support",
@@ -608,28 +608,7 @@
       "pricing": {
         "description": "FREE"
       },
-      "programs": [
-        {
-          "name": "BIPOC Support Group",
-          "schedule": "Weekly"
-        },
-        {
-          "name": "LGBTQ+ Support Group",
-          "schedule": "Weekly"
-        },
-        {
-          "name": "PeerZone",
-          "schedule": "Weekly"
-        },
-        {
-          "name": "Hearing Voices",
-          "schedule": "Weekly"
-        },
-        {
-          "name": "Wellbriety (White Bison Medicine Wheel)",
-          "schedule": "Weekly"
-        }
-      ],
+      "programs": [],
       "dates": null,
       "schedule": null,
       "flags": [],
@@ -1044,14 +1023,7 @@
       "pricing": {
         "description": "FREE"
       },
-      "programs": [
-        {
-          "name": "Adult Grief Support Groups",
-          "schedule": "Weekly meetings",
-          "cost": "FREE",
-          "notes": "No registration required. Professionally trained facilitators."
-        }
-      ],
+      "programs": [],
       "dates": null,
       "schedule": null,
       "flags": [],
@@ -1734,19 +1706,14 @@
         {
           "name": "Free Friday Climbing",
           "schedule": "1st Friday 5-9pm",
-          "cost": "FREE",
+          "cost": "FREE for Gresham residents with SNAP/EBT, $5 for other Gresham residents",
           "notes": "Includes rental shoes"
         },
         {
           "name": "Teen Nights",
           "schedule": "1st & 3rd Saturdays 6-9pm",
           "cost": "FREE",
-          "eligibility": "Ages 13-18"
-        },
-        {
-          "name": "Wednesday Free Climb",
-          "schedule": "1st & 3rd Wednesdays 9am-9pm",
-          "cost": "FREE"
+          "eligibility": "Ages 13-18, Gresham residents"
         }
       ],
       "dates": null,
@@ -1769,8 +1736,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "12000 SE 82nd Ave, Happy Valley, OR 97086",
-      "phone": null,
-      "website": null,
+      "phone": "503-653-6913",
+      "website": "https://www.clackamastowncenter.com/en/",
       "pricing": {
         "description": "FREE"
       },
@@ -1796,8 +1763,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "9585 SW Washington Square Rd, Portland, OR 97223",
-      "phone": null,
-      "website": null,
+      "phone": "503-639-8860",
+      "website": "https://www.shopwashingtonsquare.com/",
       "pricing": {
         "description": "FREE"
       },
@@ -2202,7 +2169,7 @@
       },
       "programs": [],
       "dates": null,
-      "schedule": "Monday-Friday at various park locations",
+      "schedule": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -2442,16 +2409,9 @@
         "description": "Various - includes free screenings"
       },
       "programs": [
-        {
-          "name": "B-Movie Bingo",
-          "schedule": "1st Tuesday 7:30pm"
-        },
-        {
-          "name": "Kung Fu Theater"
-        },
-        {
-          "name": "Hecklevision"
-        },
+        "B-Movie Bingo (check calendar for dates)",
+        "Kung Fu Theater",
+        "Hecklevision",
         "Various free screenings"
       ],
       "dates": null,
@@ -2859,12 +2819,8 @@
         "description": "FREE (donations welcome)"
       },
       "programs": [
-        {
-          "name": "Open Mic Night",
-          "schedule": "Last Wednesday 7-10pm",
-          "cost": "FREE",
-          "notes": "Supportive listening-room environment, no alcohol"
-        }
+        "Open mic nights (check calendar for dates)",
+        "Affordable music lessons (sliding scale)"
       ],
       "dates": null,
       "schedule": null,
@@ -2887,7 +2843,7 @@
       "color": "#9370DB",
       "address": "1315 SW Park Ave, Portland, OR 97201",
       "phone": null,
-      "website": null,
+      "website": "https://stjamespdx.org/life/wm/bach/",
       "pricing": {
         "description": "FREE"
       },
@@ -2920,7 +2876,7 @@
       "color": "#9370DB",
       "address": "900 SE 35th Ave, Portland, OR",
       "phone": null,
-      "website": null,
+      "website": "https://www.portland.gov/fire/belmont-firehouse-museum",
       "pricing": {
         "description": "FREE"
       },
@@ -2957,8 +2913,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "8 NE Killingsworth St, Portland, OR",
-      "phone": null,
-      "website": null,
+      "phone": "503-284-6019",
+      "website": "https://turnturnturnpdx.com/",
       "pricing": {
         "description": "FREE events"
       },
@@ -2999,8 +2955,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "2958 NE Glisan St, Portland, OR 97232",
-      "phone": null,
-      "website": null,
+      "phone": "503-232-1504",
+      "website": "https://laurelthirst.com/",
       "pricing": {
         "description": "FREE happy hour shows"
       },
@@ -3031,9 +2987,9 @@
       "category": "arts_culture",
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
-      "address": "Gresham, OR",
-      "phone": null,
-      "website": null,
+      "address": "401 E Powell Blvd, Gresham, OR 97030",
+      "phone": "503-665-0604",
+      "website": "https://www.mthoodtheatre.com/",
       "pricing": {
         "description": "$5 Bargain Wednesdays"
       },
@@ -3755,7 +3711,7 @@
       "color": "#FF6347",
       "address": "Clackamas County Fairgrounds, 694 NE 4th Ave, Canby, OR",
       "phone": null,
-      "website": null,
+      "website": "https://springgardenfair.org/",
       "pricing": {
         "description": "$7 one-day / $12 two-day; Kids under 16 FREE"
       },
@@ -3811,7 +3767,7 @@
       "color": "#FF6347",
       "address": "Pioneer Courthouse Square, 701 SW 6th Ave, Portland, OR",
       "phone": null,
-      "website": null,
+      "website": "https://www.icaportland.org/",
       "pricing": {
         "description": "FREE"
       },
@@ -3839,7 +3795,7 @@
       "color": "#FF6347",
       "address": "Oregon Buddhist Temple, 3720 SE 34th Ave, Portland, OR 97202",
       "phone": null,
-      "website": null,
+      "website": "https://www.oregonbuddhisttemple.com/obon-festival",
       "pricing": {
         "description": "FREE"
       },
@@ -3922,7 +3878,7 @@
       "color": "#FF6347",
       "address": "Polish Hall, 3900 N Interstate Ave, Portland, OR 97227",
       "phone": null,
-      "website": null,
+      "website": "https://www.polishfestivalpdx.org/",
       "pricing": {
         "description": "FREE"
       },
@@ -3949,7 +3905,7 @@
       "color": "#FF6347",
       "address": "Holy Trinity Greek Orthodox Cathedral, 3131 NE Glisan St, Portland, OR",
       "phone": null,
-      "website": null,
+      "website": "https://www.portlandgreekfestival.com/",
       "pricing": {
         "description": "$5 (children under 12 FREE)"
       },
@@ -4007,7 +3963,7 @@
       "color": "#FF6347",
       "address": "Happy Valley Park, Happy Valley, OR",
       "phone": null,
-      "website": null,
+      "website": "https://www.happyvalleyor.gov/4th-of-july-family-festival/",
       "pricing": {
         "description": "FREE"
       },
@@ -4034,7 +3990,7 @@
       "color": "#FF6347",
       "address": "Happy Valley Park, Happy Valley, OR",
       "phone": null,
-      "website": null,
+      "website": "https://www.happyvalleyor.gov/services/hv-community-events/summer-concerts/",
       "pricing": {
         "description": "FREE"
       },
@@ -4070,7 +4026,7 @@
       "color": "#FF6347",
       "address": "Happy Valley Park, Happy Valley, OR",
       "phone": null,
-      "website": null,
+      "website": "https://www.happyvalleyor.gov/services/hv-community-events/",
       "pricing": {
         "description": "FREE"
       },
@@ -4097,7 +4053,7 @@
       "color": "#FF6347",
       "address": "16000 SE Misty Dr, Happy Valley, OR",
       "phone": null,
-      "website": null,
+      "website": "https://www.happyvalleyor.gov/services/hv-community-events/tree-lighting-ceremony/",
       "pricing": {
         "description": "FREE"
       },
@@ -4698,7 +4654,7 @@
       "color": "#228B22",
       "address": "21199 NE Blue Lake Rd, Fairview, OR 97024",
       "phone": null,
-      "website": null,
+      "website": "https://www.oregonmetro.gov/places/blue-lake-regional-park-disc-golf-course",
       "pricing": {
         "description": "Course FREE; parking $5 ($40 annual pass)"
       },
@@ -4767,7 +4723,7 @@
       "color": "#228B22",
       "address": "Wilsonville, OR",
       "phone": null,
-      "website": null,
+      "website": "https://www.oregonmetro.gov/parks/graham-oaks-nature-park",
       "pricing": {
         "description": "FREE"
       },
@@ -4793,7 +4749,7 @@
       "color": "#228B22",
       "address": "Happy Valley, OR",
       "phone": null,
-      "website": null,
+      "website": "https://www.oregonmetro.gov/parks/scouters-mountain-nature-park",
       "pricing": {
         "description": "FREE"
       },
@@ -4819,7 +4775,7 @@
       "color": "#228B22",
       "address": "Clackamas, OR",
       "phone": null,
-      "website": null,
+      "website": "https://www.oregonmetro.gov/places/mount-talbert-nature-park",
       "pricing": {
         "description": "FREE"
       },
@@ -5094,8 +5050,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "22255 SE Borges Road, Damascus, OR 97089",
-      "phone": null,
-      "website": null,
+      "phone": "503-658-2237",
+      "website": "http://www.olson-farms.com/",
       "pricing": {
         "description": "FREE entry; flat-rate pumpkins",
         "notes": "Free hayrides"
@@ -5122,8 +5078,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "16511 NW Gillihan Road, Sauvie Island, OR",
-      "phone": null,
-      "website": null,
+      "phone": "503-621-3874",
+      "website": "https://www.thepumpkinpatch.com/",
       "pricing": {
         "description": "FREE entry; Corn maze $8-10"
       },
@@ -5150,7 +5106,7 @@
       "color": "#DAA520",
       "address": "17805 SE Stark St, Portland, OR",
       "phone": "503-674-8785",
-      "website": null,
+      "website": "https://www.snowcap.org/",
       "pricing": {
         "description": "FREE plots for low-income residents east of 82nd Ave"
       },
@@ -5176,7 +5132,7 @@
       "color": "#DAA520",
       "address": "Rosewood Neighborhood Garden, 17200 SE Alder, Portland, OR",
       "phone": "971-231-4191",
-      "website": null,
+      "website": "https://outgrowinghunger.org/",
       "pricing": {
         "description": "FREE - drop in, farm 2 hours, leave with free produce"
       },
@@ -5343,15 +5299,16 @@
       },
       "programs": [
         {
-          "name": "Thursday Meetup",
-          "location": "SE Lucky Lab",
-          "schedule": "Every Thursday",
-          "notes": "20+ attendees"
+          "name": "Tuesday Board Games",
+          "location": "CORE Food Carts (3612 SE 82nd Ave)",
+          "schedule": "Every Tuesday 5pm",
+          "notes": "20-30 attendees typical"
         },
         {
-          "name": "Tuesday Meetup",
-          "location": "CORE Food Carts (82nd Ave)",
-          "schedule": "Every Tuesday"
+          "name": "Wednesday East Side Game Night",
+          "location": "Board Bard Games (7960 SE Stark St)",
+          "schedule": "Every Wednesday 5pm",
+          "notes": "Free weekly social for all levels"
         }
       ],
       "dates": null,
@@ -5585,9 +5542,9 @@
       "category": "social_activities",
       "categoryName": "Social Activities",
       "color": "#FF69B4",
-      "address": "Portland, OR",
-      "phone": null,
-      "website": null,
+      "address": "3524 SW Troy St, Portland, OR 97219",
+      "phone": "503-244-5024",
+      "website": "https://www.northwestwools.com/",
       "pricing": {
         "description": "FREE drop-in"
       },
@@ -5620,7 +5577,7 @@
       "color": "#FF69B4",
       "address": "Rose City Park Presbyterian Church, 1907 NE 45th Ave, Portland, OR",
       "phone": null,
-      "website": null,
+      "website": "https://www.puddletownknittersguild.com/",
       "pricing": {
         "description": "FREE for visitors"
       },

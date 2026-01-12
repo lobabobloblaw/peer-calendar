@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:c62bc17ff46d5148@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T180000
 DTEND:20260114T200000
 SUMMARY:NAYA (Native American Youth and Family Center): Culture Nights
@@ -50,7 +50,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7911bf9a58117f@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260115T183000
 DTEND:20260115T193000
 SUMMARY:MHCC Planetarium Sky Theatre: Early Planetarium Show
@@ -79,7 +79,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e02aa101489f47a@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260115T200000
 DTEND:20260115T210000
 SUMMARY:MHCC Planetarium Sky Theatre: Late Planetarium Show
@@ -108,7 +108,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f7bf9869ba2e83a@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T120000
 DTEND:20260114T130000
 SUMMARY:The Old Church Concert Hall: Lunchtime Concert Series
@@ -129,107 +129,100 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ff0fa1eb966895c2@portlandresources.org
-DTSTAMP:20260112T093258Z
-DTSTART:20260114T190000
-DTEND:20260114T220000
-SUMMARY:Artichoke Community Music: Open Mic Night
-DESCRIPTION:Category: Arts & Culture\nCost: FREE (donations welcome)\nInfo:
-  Supportive listening-room environment\, no alcohol\nAddress: 2007 SE Powe
- ll Blvd\, Portland\, OR 97202\nWebsite: https://artichokemusic.org/\nDetai
- ls: Nonprofit community music center since 1973
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE (donations welcome)</p><p>Supportive listening-ro
- om environment\, no alcohol</p><p><strong>Address:</strong> 2007 SE Powell
-  Blvd\, Portland\, OR 97202</p><p><strong>Website:</strong> <a href="https
- ://artichokemusic.org/">https://artichokemusic.org/</a></p><p><strong>Deta
- ils:</strong> Nonprofit community music center since 1973</p></BODY></HTML
- >
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:2007 SE Powell Blvd\, Portland\, OR 97202
-URL:https://artichokemusic.org/
-RRULE:FREQ=WEEKLY;BYDAY=WE
-CATEGORIES:Arts & Culture
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:0379c9729163580c@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260118T160000
 DTEND:20260118T170000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
  s
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Multiple Sundays th
- roughout the year\nAddress: 1315 SW Park Ave\, Portland\, OR 97201
+ roughout the year\nAddress: 1315 SW Park Ave\, Portland\, OR 97201\nWebsit
+ e: https://stjamespdx.org/life/wm/bach/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
  rong>Cost:</strong> FREE</p><p>Multiple Sundays throughout the year</p><p>
- <strong>Address:</strong> 1315 SW Park Ave\, Portland\, OR 97201</p></BODY
- ></HTML>
+ <strong>Address:</strong> 1315 SW Park Ave\, Portland\, OR 97201</p><p><st
+ rong>Website:</strong> <a href="https://stjamespdx.org/life/wm/bach/">http
+ s://stjamespdx.org/life/wm/bach/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:1315 SW Park Ave\, Portland\, OR 97201
+URL:https://stjamespdx.org/life/wm/bach/
 RRULE:FREQ=WEEKLY;BYDAY=SU
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:904f46f7f1ae22e0@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260116T170000
 DTEND:20260116T190000
 SUMMARY:Turn! Turn! Turn!: Comedy Open Mic
 DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
- ingsworth St\, Portland\, OR
+ ingsworth St\, Portland\, OR\nPhone: 503-284-6019\nWebsite: https://turntu
+ rnturnpdx.com/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
  rong>Cost:</strong> FREE events</p><p><strong>Address:</strong> 8 NE Killi
- ngsworth St\, Portland\, OR</p></BODY></HTML>
+ ngsworth St\, Portland\, OR</p><p><strong>Phone:</strong> <a href="tel:503
+ -284-6019">503-284-6019</a></p><p><strong>Website:</strong> <a href="https
+ ://turnturnturnpdx.com/">https://turnturnturnpdx.com/</a></p></BODY></HTML
+ >
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:8 NE Killingsworth St\, Portland\, OR
+URL:https://turnturnturnpdx.com/
 RRULE:FREQ=WEEKLY;BYDAY=FR
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d8fc3329cc6894ad@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260118T123000
 DTEND:20260118T153000
 SUMMARY:Turn! Turn! Turn!: Drawing Club
 DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
- ingsworth St\, Portland\, OR
+ ingsworth St\, Portland\, OR\nPhone: 503-284-6019\nWebsite: https://turntu
+ rnturnpdx.com/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
  rong>Cost:</strong> FREE events</p><p><strong>Address:</strong> 8 NE Killi
- ngsworth St\, Portland\, OR</p></BODY></HTML>
+ ngsworth St\, Portland\, OR</p><p><strong>Phone:</strong> <a href="tel:503
+ -284-6019">503-284-6019</a></p><p><strong>Website:</strong> <a href="https
+ ://turnturnturnpdx.com/">https://turnturnturnpdx.com/</a></p></BODY></HTML
+ >
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:8 NE Killingsworth St\, Portland\, OR
+URL:https://turnturnturnpdx.com/
 RRULE:FREQ=WEEKLY;BYDAY=SU
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d9e5489d6044ef66@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260112T200000
 DTEND:20260112T230000
 SUMMARY:Turn! Turn! Turn!: Karaoke Night
 DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
- ingsworth St\, Portland\, OR
+ ingsworth St\, Portland\, OR\nPhone: 503-284-6019\nWebsite: https://turntu
+ rnturnpdx.com/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
  rong>Cost:</strong> FREE events</p><p><strong>Address:</strong> 8 NE Killi
- ngsworth St\, Portland\, OR</p></BODY></HTML>
+ ngsworth St\, Portland\, OR</p><p><strong>Phone:</strong> <a href="tel:503
+ -284-6019">503-284-6019</a></p><p><strong>Website:</strong> <a href="https
+ ://turnturnturnpdx.com/">https://turnturnturnpdx.com/</a></p></BODY></HTML
+ >
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:8 NE Killingsworth St\, Portland\, OR
+URL:https://turnturnturnpdx.com/
 RRULE:FREQ=MONTHLY;BYDAY=MO;BYSETPOS=2,4
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:361be0cc45ef3e68@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART:20260114T180000
 DTEND:20260114T193000
 SUMMARY:Tigard Public Library: ESL Conversation Classes
@@ -259,7 +252,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:91fcae740514833e@portlandresources.org
-DTSTAMP:20260112T093258Z
+DTSTAMP:20260112T101822Z
 DTSTART;VALUE=DATE:20251120
 DTEND;VALUE=DATE:20251124
 SUMMARY:PCC Theatre: Much Ado About Nothing
