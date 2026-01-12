@@ -306,6 +306,18 @@
             z-index: 1;
         }
 
+        /* Today's header in list view */
+        .day-header.today {
+            background: var(--accent);
+            color: white;
+        }
+
+        .day-header.today::before {
+            content: '● ';
+            font-size: 0.7em;
+            vertical-align: middle;
+        }
+
         .event-item {
             display: flex;
             align-items: flex-start;
@@ -402,13 +414,34 @@
         }
 
         .grid-day.today {
-            background: rgba(90, 159, 233, 0.15);
+            background: rgba(224, 128, 80, 0.1);
         }
 
         .day-number {
             font-weight: 600;
             margin-bottom: 4px;
             color: var(--text-secondary);
+        }
+
+        /* Today's day number - circled accent color */
+        .grid-day.today .day-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            background: var(--accent);
+            color: white;
+            border-radius: 50%;
+            font-size: 0.85em;
+        }
+
+        @media (min-width: 768px) {
+            .grid-day.today .day-number {
+                width: 28px;
+                height: 28px;
+                font-size: 0.9em;
+            }
         }
 
         .grid-day.other-month .day-number { color: var(--text-muted); }
@@ -1277,15 +1310,19 @@
                 grouped[key].push(event);
             }
 
+            const today = new Date();
+            const todayStr = today.toDateString();
+
             let html = '';
             let eventIndex = 0;
             for (const [dateStr, dayEvents] of Object.entries(grouped)) {
                 const date = new Date(dateStr);
                 const dayName = dayNames[date.getDay()];
                 const monthDay = `${monthNames[date.getMonth()]} ${date.getDate()}`;
+                const isToday = dateStr === todayStr;
 
-                html += `<div class="event-day">
-                    <div class="day-header">${dayName}, ${monthDay}</div>`;
+                html += `<div class="event-day"${isToday ? ' id="today-events"' : ''}>
+                    <div class="day-header${isToday ? ' today' : ''}">${dayName}, ${monthDay}</div>`;
 
                 for (const event of dayEvents) {
                     const timeStr = event.startTime ?
@@ -1422,6 +1459,24 @@
             renderGridView();
         }
 
+        // Scroll to today in list view (if viewing current month and today has events)
+        function scrollToToday() {
+            const todaySection = document.getElementById('today-events');
+            if (todaySection) {
+                // Small delay to ensure layout is complete
+                setTimeout(() => {
+                    todaySection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 50);
+            }
+        }
+
+        // Check if we're viewing the current month
+        function isCurrentMonth() {
+            const today = new Date();
+            return currentMonth.getFullYear() === today.getFullYear() &&
+                   currentMonth.getMonth() === today.getMonth();
+        }
+
         // View tab switching
         document.querySelectorAll('.view-tab').forEach(tab => {
             tab.addEventListener('click', function() {
@@ -1431,6 +1486,11 @@
                 currentView = this.dataset.view;
                 document.getElementById('list-view').classList.toggle('active', currentView === 'list');
                 document.getElementById('grid-view').classList.toggle('active', currentView === 'grid');
+
+                // Auto-scroll to today when switching to list view
+                if (currentView === 'list' && isCurrentMonth()) {
+                    scrollToToday();
+                }
             });
         });
 
@@ -1455,6 +1515,10 @@
                 currentMonth.setMonth(currentMonth.getMonth() - 1);
                 updateCalendarDisplay();
                 updateNavButtons();
+                // Scroll to today if in list view and navigated to current month
+                if (currentView === 'list' && isCurrentMonth()) {
+                    scrollToToday();
+                }
             }
         });
 
@@ -1462,6 +1526,10 @@
             currentMonth.setMonth(currentMonth.getMonth() + 1);
             updateCalendarDisplay();
             updateNavButtons();
+            // Scroll to today if in list view and navigated to current month
+            if (currentView === 'list' && isCurrentMonth()) {
+                scrollToToday();
+            }
         });
 
         // Load events data
