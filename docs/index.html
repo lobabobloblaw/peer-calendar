@@ -81,6 +81,69 @@
             }
         }
 
+        /* Larger displays (1400px+) */
+        @media (min-width: 1400px) {
+            body {
+                max-width: 1400px;
+                padding: 16px 60px;
+            }
+
+            .main-content {
+                grid-template-columns: 450px 1fr;
+                gap: 32px;
+            }
+
+            .header-logo {
+                max-width: 550px;
+            }
+
+            .grid-day {
+                min-height: 80px;
+            }
+        }
+
+        /* Extra large displays (1700px+) */
+        @media (min-width: 1700px) {
+            body {
+                max-width: 1600px;
+                padding: 20px 80px;
+            }
+
+            .main-content {
+                grid-template-columns: 500px 1fr;
+                gap: 40px;
+            }
+
+            .header-logo {
+                max-width: 600px;
+            }
+
+            .calendar-section {
+                padding: 20px;
+            }
+
+            .section-header {
+                font-size: 1.05em;
+            }
+
+            .instructions {
+                font-size: 0.95em;
+            }
+
+            .grid-day {
+                min-height: 90px;
+                font-size: 0.85em;
+            }
+
+            .month-nav {
+                padding: 14px 16px;
+            }
+
+            .updates-list {
+                font-size: 0.9em;
+            }
+        }
+
         /* Tighter layout for 1080p displays (viewport up to ~980px after browser chrome) */
         @media (min-width: 768px) and (max-height: 1000px) {
             body {
