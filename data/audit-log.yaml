@@ -2,6 +2,32 @@
 # Records all verification activities and changes
 
 ---
+- date: 2026-01-15
+  type: additions
+  auditor: claude
+  summary: "Added 3 new community resource entries"
+  entries_added:
+    - id: repair-pdx
+      name: "Repair PDX"
+      category: social_activities
+      programs: "Repair Café (2nd Sat monthly), Soldering Workshop, Sashiko Mending"
+      source: "https://www.repairpdx.org"
+    - id: west-linn-repair-fair
+      name: "West Linn Repair Fair"
+      category: social_activities
+      organizer: "Clackamas County Sustainability & Solid Waste"
+      source: "https://www.repairpdx.org/repair-events"
+    - id: lone-fir-cemetery-tours
+      name: "Friends of Lone Fir Cemetery Tours"
+      category: arts_culture
+      programs: "Guided Historical Tour (2nd Sat), Stories in Stone (1st Sat odd months), Women's History Tour (4th Sat)"
+      source: "https://www.friendsoflonefircemetery.org"
+  notes: |
+    All 2026 dates populated where available.
+    Repair PDX set for monthly audit to catch new workshop dates.
+    Lone Fir tours run on predictable schedules through 2029.
+    Database now has 176 entries.
+
 - date: 2026-01-12
   type: calendar_audit
   auditor: claude
