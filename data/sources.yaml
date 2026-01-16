@@ -6996,3 +6996,212 @@
   notes: Active aging center with diverse programming from fitness to legal aid. Spanish-language
     support group available.
 
+- id: repair-pdx
+  name: Repair PDX
+  category: social_activities
+  location_type: physical
+  resource_type: organization
+  address: null
+  phone: null
+  website: https://www.repairpdx.org
+  source_urls:
+    - https://www.repairpdx.org
+    - https://www.repairpdx.org/repair-events
+  pricing:
+    description: FREE
+    notes: All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.
+  eligibility: Open to all - bring broken household items
+  programs:
+    - name: RPDX Repair Café @ Leaven Common House
+      schedule: 2nd Saturday monthly, 12-3pm
+      location: Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
+      cost: FREE
+      format: In-person
+      notes: Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.
+      dates_2026:
+        - January 10
+        - February 14
+        - March 14
+        - April 11
+        - May 9
+        - June 13
+        - July 11
+        - August 8
+        - September 12
+        - October 10
+        - November 14
+        - December 12
+    - name: Soldering for Home Electronics Repairs Workshop
+      schedule: Periodic evenings, 6-8pm
+      location: Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
+      cost: TBD
+      format: In-person
+      notes: Learn basics of soldering for electronics repair. Check website for dates.
+      dates_2026:
+        - January 14
+    - name: Sashiko Mending Workshop
+      schedule: Periodic, 10am-1pm
+      location: Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
+      cost: TBD
+      format: In-person
+      notes: Traditional Japanese embroidered mending technique. Check website for dates.
+      dates_2026:
+        - January 18
+  last_verified: 2026-01-15
+  next_audit: 2026-02-15
+  audit_frequency: monthly
+  practical_tips:
+    first_visit: Fill out the Google Form before arriving to let them know what you're bringing
+    registration: Registration form recommended but not required
+    what_to_bring: Broken items (small appliances, bikes, clothing with tears). Items should be portable.
+    good_to_know: Volunteer fixers donate their time and expertise. Not all items can be fixed but they'll try! Great way to learn repair skills yourself. Coffee and community atmosphere.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  accessibility_notes: Leaven Community Center is ADA accessible. TriMet bus 71 nearby.
+  social_intensity: casual_group
+  good_for:
+    - anxiety_friendly
+    - isolation
+    - creative
+    - indoor
+    - new_to_area
+  guide_location: activities-guide-2.md#community-workshops
+  notes: Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills.
+  flags:
+    - 📅 DATE-SENSITIVE
+
+- id: west-linn-repair-fair
+  name: West Linn Repair Fair
+  category: social_activities
+  location_type: physical
+  resource_type: event
+  address: Robinwood Station Community Center, 3706 Cedar Oak Dr, West Linn, OR 97068
+  phone: null
+  website: https://www.clackamas.us/recycling
+  source_urls:
+    - https://www.repairpdx.org/repair-events
+  pricing:
+    description: FREE
+  eligibility: Open to all - bring broken household items
+  schedule: Periodic Saturdays, 10am-1pm
+  dates_2026:
+    - February 28
+  organizer: Clackamas County Sustainability & Solid Waste
+  contact: cjohnston@clackamas.us
+  last_verified: 2026-01-15
+  next_audit: 2026-02-15
+  audit_frequency: monthly
+  practical_tips:
+    first_visit: Just show up with your broken items
+    what_to_bring: Broken household items that are portable
+    good_to_know: Run by Clackamas County - great option for Clackamas County residents
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: casual_group
+  good_for:
+    - anxiety_friendly
+    - isolation
+    - indoor
+  guide_location: activities-guide-2.md#community-workshops
+  notes: Clackamas County repair event. Check repairpdx.org/repair-events for additional dates.
+  flags:
+    - 📅 DATE-SENSITIVE
+
+- id: lone-fir-cemetery-tours
+  name: Friends of Lone Fir Cemetery Tours
+  category: arts_culture
+  location_type: physical
+  resource_type: organization
+  address: Lone Fir Cemetery, SE 26th Ave & SE Stark St, Portland, OR 97214
+  phone: null
+  website: https://www.friendsoflonefircemetery.org
+  source_urls:
+    - https://www.friendsoflonefircemetery.org/?page_id=117
+    - https://www.friendsoflonefircemetery.org/?page_id=911
+    - https://friends-of-lone-fir-cemetery-store.square.site/
+  pricing:
+    description: $10 per tour (FREE self-guided options available)
+    regular: $10
+    notes: Tickets via Square site. Self-guided smartphone tours and PDF downloads are free.
+  eligibility: Open to all ages
+  meeting_point: Soldiers Monument, Lone Fir Cemetery
+  programs:
+    - name: Guided Historical Tour
+      schedule: 2nd Saturday monthly, 10am-12pm
+      cost: $10
+      format: In-person
+      notes: Learn about Portland's founders and regionally-known pioneers. Meet at Soldiers Monument.
+      dates_2026:
+        - February 14
+        - March 14
+        - April 11
+        - May 9
+        - June 13
+        - July 11
+        - August 8
+        - September 12
+        - October 10
+        - November 14
+        - December 12
+    - name: Stories in Stone – South
+      schedule: 1st Saturday of odd months, 10am-12pm
+      cost: $10
+      format: In-person
+      notes: Explores southern section of cemetery. Meet at Soldiers Monument.
+      dates_2026:
+        - March 7
+        - May 2
+        - July 4
+        - September 5
+        - November 7
+    - name: Women's History Tour
+      schedule: 4th Saturday monthly, 10am-12pm
+      cost: $10
+      format: In-person
+      notes: Highlights notable women including Terwilliger, McLoughlin, Macleay families. Meet at Soldiers Monument.
+      dates_2026:
+        - January 24
+        - February 28
+        - March 28
+        - April 25
+        - May 23
+        - June 27
+        - July 25
+        - August 22
+        - September 26
+        - October 24
+        - November 28
+  self_guided_tours:
+    - Our Pioneer Beginnings
+    - Founders of Rose Festival
+    - Contemporary Monuments
+    - Children's Memorials
+    - Notorious
+    - Notable Women of Lone Fir
+    - Architecture in Portland
+    - Labor & Social Activists
+    - Curbside (accessible hard-surface tour)
+    - The Tree Tour
+  last_verified: 2026-01-15
+  next_audit: 2026-04-15
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Meet at the Soldiers Monument near SE 26th & Stark. Arrive 5-10 minutes early.
+    registration: Purchase tickets online via Square site before the tour
+    what_to_bring: Comfortable walking shoes, water, weather-appropriate clothing. Tours are outdoors.
+    good_to_know: Portland's oldest cemetery (1855). Beautiful grounds with mature trees. Tours run rain or shine. Free self-guided tours available via smartphone app or downloadable PDFs. Private group tours available for 6+ people.
+  accessibility:
+    - transit_nearby
+  accessibility_notes: Cemetery has paved and unpaved paths. "Curbside" self-guided tour designed for wheelchair/mobility device users on hard surfaces only. Main paths accessible.
+  social_intensity: structured_group
+  good_for:
+    - outdoor
+    - creative
+    - new_to_area
+    - low_energy
+  guide_location: activities-guide-1.md#historic-sites
+  notes: 501(c)(3) nonprofit preserving cemetery history since 2000. One of Portland's most beautiful and historic green spaces. Final resting place of many Portland pioneers.
+  flags:
+    - 📅 DATE-SENSITIVE
+

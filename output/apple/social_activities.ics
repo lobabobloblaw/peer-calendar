@@ -26,9 +26,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:22b230d60826a8b3@portlandresources.org
-DTSTAMP:20260112T101822Z
-DTSTART:20260114T083000
-DTEND:20260114T113000
+DTSTAMP:20260115T175704Z
+DTSTART:20260121T083000
+DTEND:20260121T113000
 SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
 DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
  some low-cost\nInfo: Novice to advanced\; guidance for starters\nAddress: 
@@ -44,9 +44,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7cb8b8ed6e217a00@portlandresources.org
-DTSTAMP:20260112T101822Z
-DTSTART:20260112T020000
-DTEND:20260112T030000
+DTSTAMP:20260115T175704Z
+DTSTART:20260119T020000
+DTEND:20260119T030000
 SUMMARY:Oregon Food Bank Volunteer Program
 DESCRIPTION:Category: Social Activities\nCost: FREE\nAddress: 7900 NE 33rd 
  Dr\, Portland\, OR 97211\nWebsite: https://oregonfoodbank.org/get-involved
@@ -59,9 +59,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8961f5d05e61f6ab@portlandresources.org
-DTSTAMP:20260112T101822Z
-DTSTART:20260113T150000
-DTEND:20260113T170000
+DTSTAMP:20260115T175704Z
+DTSTART:20260120T150000
+DTEND:20260120T170000
 SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
 DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nAddress: 3524 
  SW Troy St\, Portland\, OR 97219\nPhone: 503-244-5024\nWebsite: https://ww
@@ -74,7 +74,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8569003d0f2e736e@portlandresources.org
-DTSTAMP:20260112T101822Z
+DTSTAMP:20260115T175704Z
 DTSTART:20260115T190000
 DTEND:20260115T210000
 SUMMARY:Puddletown Knitters Guild: Monthly Meeting
@@ -86,6 +86,25 @@ LOCATION:Rose City Park Presbyterian Church\, 1907 NE 45th Ave\, Portland\,
   OR
 URL:https://www.puddletownknittersguild.com/
 RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=2
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ae8681a502d94534@portlandresources.org
+DTSTAMP:20260115T175704Z
+DTSTART:20260117T120000
+DTEND:20260117T150000
+SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
+ lothing. Tool/knife sharpening and Kintsugi repair available. Registration
+  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
+  since 2013. Part of global Repair Café movement promoting sustainability 
+ and community connection. Great for learning basic repair skills.
+LOCATION:Leaven Community Center\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+RRULE:FREQ=MONTHLY;BYDAY=SA;BYSETPOS=2
 CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT

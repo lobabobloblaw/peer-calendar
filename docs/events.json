@@ -1,6 +1,6 @@
 {
-  "generated": "2026-01-12T10:18:22.166479",
-  "count": 173,
+  "generated": "2026-01-15T17:57:04.466211",
+  "count": 176,
   "categories": {
     "peer_support": "Peer Support",
     "fitness_wellness": "Fitness & Wellness",
@@ -5894,6 +5894,197 @@
         "isolation",
         "low_energy",
         "active"
+      ]
+    },
+    {
+      "id": "repair-pdx",
+      "title": "Repair PDX",
+      "category": "social_activities",
+      "categoryName": "Social Activities",
+      "color": "#FF69B4",
+      "address": null,
+      "phone": null,
+      "website": "https://www.repairpdx.org",
+      "pricing": {
+        "description": "FREE",
+        "notes": "All Repair Caf\u00e9s and most workshops are free. Bring broken items to be repaired by volunteers."
+      },
+      "programs": [
+        {
+          "name": "RPDX Repair Caf\u00e9 @ Leaven Common House",
+          "schedule": "2nd Saturday monthly, 12-3pm",
+          "location": "Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211",
+          "cost": "FREE",
+          "format": "In-person",
+          "notes": "Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.",
+          "dates_2026": [
+            "January 10",
+            "February 14",
+            "March 14",
+            "April 11",
+            "May 9",
+            "June 13",
+            "July 11",
+            "August 8",
+            "September 12",
+            "October 10",
+            "November 14",
+            "December 12"
+          ]
+        },
+        {
+          "name": "Soldering for Home Electronics Repairs Workshop",
+          "schedule": "Periodic evenings, 6-8pm",
+          "location": "Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211",
+          "cost": "TBD",
+          "format": "In-person",
+          "notes": "Learn basics of soldering for electronics repair. Check website for dates.",
+          "dates_2026": [
+            "January 14"
+          ]
+        },
+        {
+          "name": "Sashiko Mending Workshop",
+          "schedule": "Periodic, 10am-1pm",
+          "location": "Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211",
+          "cost": "TBD",
+          "format": "In-person",
+          "notes": "Traditional Japanese embroidered mending technique. Check website for dates.",
+          "dates_2026": [
+            "January 18"
+          ]
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE"
+      ],
+      "accessibility": [
+        "wheelchair_accessible",
+        "transit_nearby"
+      ],
+      "social_intensity": "casual_group",
+      "good_for": [
+        "anxiety_friendly",
+        "isolation",
+        "creative",
+        "indoor",
+        "new_to_area"
+      ]
+    },
+    {
+      "id": "west-linn-repair-fair",
+      "title": "West Linn Repair Fair",
+      "category": "social_activities",
+      "categoryName": "Social Activities",
+      "color": "#FF69B4",
+      "address": "Robinwood Station Community Center, 3706 Cedar Oak Dr, West Linn, OR 97068",
+      "phone": null,
+      "website": "https://www.clackamas.us/recycling",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": "Periodic Saturdays, 10am-1pm",
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE"
+      ],
+      "accessibility": [
+        "wheelchair_accessible"
+      ],
+      "social_intensity": "casual_group",
+      "good_for": [
+        "anxiety_friendly",
+        "isolation",
+        "indoor"
+      ]
+    },
+    {
+      "id": "lone-fir-cemetery-tours",
+      "title": "Friends of Lone Fir Cemetery Tours",
+      "category": "arts_culture",
+      "categoryName": "Arts & Culture",
+      "color": "#9370DB",
+      "address": "Lone Fir Cemetery, SE 26th Ave & SE Stark St, Portland, OR 97214",
+      "phone": null,
+      "website": "https://www.friendsoflonefircemetery.org",
+      "pricing": {
+        "description": "$10 per tour (FREE self-guided options available)",
+        "regular": "$10",
+        "notes": "Tickets via Square site. Self-guided smartphone tours and PDF downloads are free."
+      },
+      "programs": [
+        {
+          "name": "Guided Historical Tour",
+          "schedule": "2nd Saturday monthly, 10am-12pm",
+          "cost": "$10",
+          "format": "In-person",
+          "notes": "Learn about Portland's founders and regionally-known pioneers. Meet at Soldiers Monument.",
+          "dates_2026": [
+            "February 14",
+            "March 14",
+            "April 11",
+            "May 9",
+            "June 13",
+            "July 11",
+            "August 8",
+            "September 12",
+            "October 10",
+            "November 14",
+            "December 12"
+          ]
+        },
+        {
+          "name": "Stories in Stone \u2013 South",
+          "schedule": "1st Saturday of odd months, 10am-12pm",
+          "cost": "$10",
+          "format": "In-person",
+          "notes": "Explores southern section of cemetery. Meet at Soldiers Monument.",
+          "dates_2026": [
+            "March 7",
+            "May 2",
+            "July 4",
+            "September 5",
+            "November 7"
+          ]
+        },
+        {
+          "name": "Women's History Tour",
+          "schedule": "4th Saturday monthly, 10am-12pm",
+          "cost": "$10",
+          "format": "In-person",
+          "notes": "Highlights notable women including Terwilliger, McLoughlin, Macleay families. Meet at Soldiers Monument.",
+          "dates_2026": [
+            "January 24",
+            "February 28",
+            "March 28",
+            "April 25",
+            "May 23",
+            "June 27",
+            "July 25",
+            "August 22",
+            "September 26",
+            "October 24",
+            "November 28"
+          ]
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE"
+      ],
+      "accessibility": [
+        "transit_nearby"
+      ],
+      "social_intensity": "structured_group",
+      "good_for": [
+        "outdoor",
+        "creative",
+        "new_to_area",
+        "low_energy"
       ]
     }
   ]
