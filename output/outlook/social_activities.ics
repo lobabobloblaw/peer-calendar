@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:22b230d60826a8b3@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260117T053537Z
 DTSTART:20260121T083000
 DTEND:20260121T113000
 SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
@@ -54,7 +54,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7cb8b8ed6e217a00@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260117T053537Z
 DTSTART:20260119T020000
 DTEND:20260119T030000
 SUMMARY:Oregon Food Bank Volunteer Program
@@ -77,20 +77,26 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8961f5d05e61f6ab@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260117T053537Z
 DTSTART:20260120T150000
 DTEND:20260120T170000
 SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
-DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nAddress: 3524 
- SW Troy St\, Portland\, OR 97219\nPhone: 503-244-5024\nWebsite: https://ww
- w.northwestwools.com/
+DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nInfo: Drop-in 
+ fiber arts session every Tuesday. Knit\, crochet\, or try other crafts whi
+ le chatting with fellow crafters. Projects are donated to charity. Supplie
+ s provided or bring your own. All skill levels welcome—beginners encourage
+ d!\nAddress: 3524 SW Troy St\, Portland\, OR 97219\nPhone: 503-244-5024\nW
+ ebsite: https://www.northwestwools.com/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><stro
- ng>Cost:</strong> FREE drop-in</p><p><strong>Address:</strong> 3524 SW Tro
- y St\, Portland\, OR 97219</p><p><strong>Phone:</strong> <a href="tel:503-
- 244-5024">503-244-5024</a></p><p><strong>Website:</strong> <a href="https:
- //www.northwestwools.com/">https://www.northwestwools.com/</a></p></BODY><
- /HTML>
+ ng>Cost:</strong> FREE drop-in</p><p>Drop-in fiber arts session every Tues
+ day. Knit\, crochet\, or try other crafts while chatting with fellow craft
+ ers. Projects are donated to charity. Supplies provided or bring your own.
+  All skill levels welcome—beginners encouraged!</p><p><strong>Address:</st
+ rong> 3524 SW Troy St\, Portland\, OR 97219</p><p><strong>Phone:</strong> 
+ <a href="tel:503-244-5024">503-244-5024</a></p><p><strong>Website:</strong
+ > <a href="https://www.northwestwools.com/">https://www.northwestwools.com
+ /</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:3524 SW Troy St\, Portland\, OR 97219
 URL:https://www.northwestwools.com/
@@ -100,7 +106,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8569003d0f2e736e@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260117T053537Z
 DTSTART:20260122T190000
 DTEND:20260122T210000
 SUMMARY:Puddletown Knitters Guild: Monthly Meeting
@@ -125,7 +131,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ae8681a502d94534@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260117T053537Z
 DTSTART:20260117T120000
 DTEND:20260117T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House

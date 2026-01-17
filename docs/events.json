@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-17T05:17:14.198849",
+  "generated": "2026-01-17T05:35:37.777911",
   "count": 197,
   "categories": {
     "peer_support": "Peer Support",
@@ -50,7 +50,14 @@
         "anxiety_friendly",
         "low_energy",
         "isolation"
-      ]
+      ],
+      "notes": "Flagship program - most impactful discount in the region",
+      "practical_tips": {
+        "first_visit": "Register online at portland.gov/parks - no office visit needed",
+        "registration": "Self-select your discount level (25-90%) based on your situation - no proof required",
+        "what_to_bring": "Just your account info to register",
+        "good_to_know": "This is the most flexible discount program in the region. You choose your own discount level with complete privacy - no income verification, no paperwork. Works for classes, pool passes, community center memberships, and more."
+      }
     },
     {
       "id": "arts-for-all",
@@ -81,7 +88,14 @@
         "creative",
         "indoor",
         "family_friendly"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Just show your Oregon Trail Card at the ticket window - no pre-registration needed",
+        "registration": "None required - just present your EBT card at participating venues",
+        "what_to_bring": "Oregon Trail Card (SNAP/EBT) and valid ID",
+        "good_to_know": "Works at 32+ venues including Portland Art Museum, OMSI, Oregon Zoo, Japanese Garden, and theaters. Most venues allow same-day walk-up. Check individual venue hours and any timed-entry requirements. Some venues may have blackout dates for special exhibitions."
+      }
     },
     {
       "id": "thprd-financial-aid",
@@ -113,7 +127,14 @@
         "active",
         "family_friendly",
         "creative"
-      ]
+      ],
+      "notes": "Winter 2026 session at capacity; reopens February 2, 2026 for Spring registration. One application per household yearly. Unused funds expire annually.",
+      "practical_tips": {
+        "first_visit": "Submit application online, by email, or in-person at any THPRD facility before registering for programs",
+        "registration": "Apply once per household per year. Wait for approval (10 business days) before signing up for classes. Funds can be split flexibly among family members.",
+        "what_to_bring": "One proof of income (tax returns, SNAP/TANF letters, pay stubs, SSA awards, or unemployment benefits)",
+        "good_to_know": "$300 per person annually covers general classes, community garden plots, facility rentals, birthday parties, childcare, and youth sports leagues. English and Spanish applications available. Unused funds expire after 12 months."
+      }
     },
     {
       "id": "pge-income-qualified",
@@ -141,7 +162,14 @@
       "good_for": [
         "anxiety_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Apply online at portlandgeneral.com - takes about 5 minutes",
+        "registration": "Self-certify your income online. No documentation required. Discount starts on next billing cycle.",
+        "what_to_bring": "Just your PGE account number",
+        "good_to_know": "This is one of the easiest assistance programs to apply for - completely online, no paperwork, no income verification. The discount (15-80%) is based on your self-reported income level. Can save hundreds of dollars annually."
+      }
     },
     {
       "id": "pacific-power-discount",
@@ -171,7 +199,14 @@
       "good_for": [
         "anxiety_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Apply online, by email, mail, or phone - choose whichever is easiest for you",
+        "registration": "No income documentation required at application. If you've received LIHEAP/OEAP, you may be auto-enrolled at 20% discount.",
+        "what_to_bring": "Your Pacific Power account number",
+        "good_to_know": "Discount lasts 2 years before needing to recertify. If you received LIHEAP/OEAP assistance, you're auto-renewed. The 40% discount tier is for households with income 0-20% of state median. Also waives late fees, reconnection fees, and deposits."
+      }
     },
     {
       "id": "nw-natural-discount",
@@ -200,7 +235,14 @@
       "good_for": [
         "anxiety_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Apply online, by email, mail, or phone - takes about 10 minutes",
+        "registration": "No proof of income required. Self-certify your household income. Discount lasts 2 years.",
+        "what_to_bring": "Your NW Natural account number and household size/income info",
+        "good_to_know": "Stackable with other energy assistance programs. Besides the 15-85% bill discount, you also get no late fees, no reconnection fees, and no deposits. Available in English, Spanish, Russian, Chinese, and Vietnamese."
+      }
     },
     {
       "id": "double-up-food-bucks",
@@ -227,7 +269,14 @@
         "anxiety_friendly",
         "outdoor",
         "low_energy"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Go to the market info booth first to get your Double Up tokens",
+        "registration": "No registration needed. Just use your SNAP/EBT card at participating farmers markets.",
+        "what_to_bring": "Oregon Trail Card (SNAP/EBT)",
+        "good_to_know": "Spend $1 on fruits and veggies with SNAP, get $1 match free (up to $20/day). Works at PSU, King, Beaverton, Hollywood, Montavilla, and Woodstock farmers markets. Look for vendors with the Double Up Food Bucks sign. Great way to stretch your food budget on fresh, local produce."
+      }
     },
     {
       "id": "ncprd-scholarship",
@@ -255,7 +304,14 @@
         "isolation",
         "active",
         "family_friendly"
-      ]
+      ],
+      "notes": "Limited scholarship funds available - aimed at maximizing number of participants served",
+      "practical_tips": {
+        "first_visit": "Contact Recreation Services at 503-794-8080 or email recreation@ncprd.com to request an application",
+        "registration": "Apply before registering for programs - scholarships must be pre-approved. Do not register for classes until you receive scholarship confirmation.",
+        "what_to_bring": "Proof of NCPRD district residency (address verification required)",
+        "good_to_know": "Partial scholarships only (25-75% off) - some financial contribution expected from all participants. Limited to 3 program areas per person per year. All applications kept confidential. Limited funds available, so apply early."
+      }
     },
     {
       "id": "lake-oswego-parks-scholarship",
@@ -283,7 +339,14 @@
         "active",
         "family_friendly",
         "creative"
-      ]
+      ],
+      "notes": "Financial assistance for Lake Oswego residents to access recreation programs.",
+      "practical_tips": {
+        "first_visit": "Call 503-675-2549 to request a scholarship application",
+        "registration": "Apply through Parks & Recreation office. Scholarship valid for fiscal year (July 1 - June 30). Only household members listed on application are eligible.",
+        "what_to_bring": "Proof of income and Lake Oswego residency",
+        "good_to_know": "Maximum $300 per person, $600 per family per fiscal year. Covers recreation classes, fitness activities, summer camps, and enrichment programs. Must be Lake Oswego resident with household income below Federal Free Meal Guidelines."
+      }
     },
     {
       "id": "tualatin-recreation-scholarship",
@@ -310,7 +373,14 @@
         "isolation",
         "active",
         "family_friendly"
-      ]
+      ],
+      "notes": "City scholarship program to ensure recreation access for all Tualatin children regardless of income.",
+      "practical_tips": {
+        "first_visit": "Email info@tualatintogether.org to request scholarship application and information",
+        "registration": "Email info@tualatintogether.org for scholarship application. Must demonstrate financial need and Tualatin residency.",
+        "what_to_bring": "Proof of Tualatin residency and financial need documentation",
+        "good_to_know": "City program focused on ensuring no child is denied recreational opportunities due to financial limitations. Covers recreation programs and summer camps. Contact Tualatin Together directly for current availability and application process."
+      }
     },
     {
       "id": "mhcc-senior-tuition",
@@ -339,7 +409,14 @@
         "isolation",
         "creative",
         "active"
-      ]
+      ],
+      "notes": "Oregon seniors 65+ can audit college classes free. Great for lifelong learners.",
+      "practical_tips": {
+        "first_visit": "Contact admissions to learn about enrollment process",
+        "registration": "Standard enrollment process; bring ID for age verification",
+        "what_to_bring": "ID, proof of residency",
+        "good_to_know": "Great way for seniors to take classes for personal enrichment"
+      }
     },
     {
       "id": "trimet-low-income",
@@ -368,7 +445,14 @@
       "good_for": [
         "anxiety_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Apply online at trimet.org/income or visit TriMet Ticket Office at Pioneer Courthouse Square",
+        "registration": "Online application takes 5-10 minutes. Auto-qualify if you receive OHP, SNAP, TANF, Section 8, or LIHEAP. Otherwise provide proof of income.",
+        "what_to_bring": "For in-person - proof of public benefits OR income verification, photo ID",
+        "good_to_know": "First month FREE plus a free Hop card when you enroll. Half-price fares ($1.40 vs $2.80) and monthly pass ($28 vs $100). Works on all TriMet buses, MAX, WES, and Portland Streetcar. Auto-renews annually if still on qualifying benefits."
+      }
     },
     {
       "id": "nami-multnomah",
@@ -431,7 +515,14 @@
         "anxiety_friendly",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "No diagnosis required for any groups. Groups are peer-led by trained volunteers with lived experience.",
+      "practical_tips": {
+        "first_visit": "Just show up to any meeting - no pre-registration needed for most groups",
+        "registration": "Some groups require registration via email/phone - check schedule",
+        "what_to_bring": "Nothing required; Zoom link sent after registration for virtual groups",
+        "good_to_know": "Peer-led by volunteers with lived experience. No diagnosis required. Safe to share or just listen."
+      }
     },
     {
       "id": "nami-clackamas",
@@ -490,7 +581,14 @@
         "isolation",
         "grief",
         "indoor"
-      ]
+      ],
+      "notes": "Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.",
+      "practical_tips": {
+        "first_visit": "Call or email to register for your first meeting",
+        "registration": "Registration required - call 503-344-5050 or check website",
+        "what_to_bring": "Nothing required; virtual groups send Zoom link after registration",
+        "good_to_know": "Spanish-speaking group available. Women's group meets in-person in Milwaukie. All peer-led."
+      }
     },
     {
       "id": "cmhc-peer-groups",
@@ -551,7 +649,14 @@
         "isolation",
         "creative",
         "indoor"
-      ]
+      ],
+      "notes": "Groups led by peers for individuals already connected with Clackamas County Peer Support services. Groups paused in January 2026, resuming February 2026.",
+      "practical_tips": {
+        "first_visit": "Stop by the clinic to get connected with a Peer Support Specialist if you don't already have one",
+        "registration": "Must be receiving Peer Support services in Clackamas County to attend",
+        "what_to_bring": "Nothing required - just yourself",
+        "good_to_know": "Groups are peer-led and focus on creative, mindful, and connection-focused activities. Great variety from art to meditation to karaoke."
+      }
     },
     {
       "id": "folktime",
@@ -585,7 +690,14 @@
         "creative",
         "indoor",
         "low_energy"
-      ]
+      ],
+      "notes": "Founded 1985, one of Oregon's oldest peer-run programs. Free membership. Orientation required for new members.",
+      "practical_tips": {
+        "first_visit": "Attend orientation on 2nd or 3rd Wednesday of any month",
+        "registration": "Email peerconnection@folktime.org or just show up to orientation",
+        "what_to_bring": "Nothing required; $1 donation suggested for collective lunch",
+        "good_to_know": "Oregon's oldest peer-run program (1985). Drop-in, no referral needed. Arrive by 11am to join collective lunch prep."
+      }
     },
     {
       "id": "northstar-clubhouse",
@@ -613,7 +725,14 @@
         "isolation",
         "indoor",
         "low_energy"
-      ]
+      ],
+      "notes": "Portland's first Clubhouse International Community. Program of New Narrative. Clubhouse model emphasizes strengths over symptoms.",
+      "practical_tips": {
+        "first_visit": "Contact to schedule an orientation first - referral from mental health professional required",
+        "registration": "Call 971-271-7273 to start the referral and orientation process",
+        "what_to_bring": "Just yourself; lunch is provided",
+        "good_to_know": "Clubhouse model: members work alongside staff on meaningful tasks. Focus on strengths, not symptoms. Employment and education support available."
+      }
     },
     {
       "id": "new-narrative-comfort-zone",
@@ -641,7 +760,14 @@
         "isolation",
         "indoor",
         "low_energy"
-      ]
+      ],
+      "notes": "Peer-run program for adults not ready for formal treatment. Staffed by peer support specialists with lived experience of mental health challenges. Contact: 503-726-3690",
+      "practical_tips": {
+        "first_visit": "Just walk in during open hours - no appointment needed",
+        "registration": "No registration required, just drop in",
+        "what_to_bring": "Nothing required; snacks and activities provided",
+        "good_to_know": "Tigard area location. Job and housing support available. Call for current group schedule."
+      }
     },
     {
       "id": "bhrc",
@@ -669,7 +795,14 @@
         "isolation",
         "indoor",
         "low_energy"
-      ]
+      ],
+      "notes": "Pets allowed; no ID, sobriety, or cleanliness required. Managed by The Peer Company (formerly MHAAO). Does NOT offer detox, safe-use spaces, or emergency services.",
+      "practical_tips": {
+        "first_visit": "Get a ticket from the outreach van at NW Broadway & Glisan (6am-1pm) to access day center",
+        "registration": "First-come first-served, 25 people per 3-hour block",
+        "what_to_bring": "Nothing required; showers, laundry, phone charging available",
+        "good_to_know": "No ID, sobriety, or cleanliness required. Pets allowed. Shelter and bridge housing also available (call waitlist)."
+      }
     },
     {
       "id": "dbsa-portland",
@@ -722,7 +855,14 @@
         "anxiety_friendly",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Peer-facilitated support groups since 2005. Typical attendance 10-25 people. Three chapters: Eastside, West Portland, and LGBTQ. All meetings free and drop-in.",
+      "practical_tips": {
+        "first_visit": "Just join any Zoom meeting - drop-in, no registration needed",
+        "registration": "Eastside group uses Meetup for registration; others just show up",
+        "what_to_bring": "Computer/phone for Zoom; first Monday LGBTQ+ meeting is hybrid",
+        "good_to_know": "Not just for depression/bipolar - open to ALL mental health conditions. Typical attendance 10-25 people. Running since 2005."
+      }
     },
     {
       "id": "oregon-warmline",
@@ -749,7 +889,14 @@
       "good_for": [
         "anxiety_friendly",
         "isolation"
-      ]
+      ],
+      "notes": "Non-crisis peer phone support using Intentional Peer Support (IPS) framework. Staffed by trained peers with lived experience of mental health challenges, moods, voices, visions, trauma, and addictions. No appointments needed.",
+      "practical_tips": {
+        "first_visit": "Just call anytime - 24/7, no appointment needed",
+        "registration": "No registration, just dial and talk",
+        "what_to_bring": "Nothing - just a phone",
+        "good_to_know": "NOT a crisis line - for connection and support. Spanish line available. Staffed by peers with lived experience."
+      }
     },
     {
       "id": "recovery-dharma",
@@ -829,7 +976,14 @@
         "anxiety_friendly",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "30+ weekly meetings across Portland. Buddhist-based recovery using mindfulness and loving-kindness - alternative to 12-step programs.",
+      "practical_tips": {
+        "first_visit": "Just show up to any meeting - all welcome beginners",
+        "registration": "No registration needed",
+        "what_to_bring": "Nothing required; cushions usually available",
+        "good_to_know": "Buddhist-based but non-religious. 30+ meetings weekly. Specialty groups for LGBTQIA+, women/trans/NB. Alternative to 12-step."
+      }
     },
     {
       "id": "peer-company",
@@ -855,7 +1009,14 @@
       "good_for": [
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Rebranded from MHAAO September 2025. Free peer support services throughout Portland metro. Walk-in locations available.",
+      "practical_tips": {
+        "first_visit": "Walk in to Recovery Campus (SE Powell) or CATT (Hillsboro) during business hours",
+        "registration": "No appointment needed for walk-in support",
+        "what_to_bring": "Nothing required",
+        "good_to_know": "Free peer support for both mental health AND substance use. Also offers peer specialist training programs."
+      }
     },
     {
       "id": "q-center-portland",
@@ -903,7 +1064,14 @@
         "isolation",
         "indoor",
         "new_to_area"
-      ]
+      ],
+      "notes": "Portland's LGBTQ+ community center. Safe space with multi-generational programs. Many support groups and weekly events.",
+      "practical_tips": {
+        "first_visit": "Check website for current group schedule and drop in",
+        "registration": "Most groups drop-in; some use Discord for virtual",
+        "what_to_bring": "Nothing required",
+        "good_to_know": "Portland's LGBTQ+ community hub. Trans support, mental health groups, QTIBIPOC space. Safe and welcoming."
+      }
     },
     {
       "id": "dda-oregon",
@@ -949,7 +1117,14 @@
         "anxiety_friendly",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings.",
+      "practical_tips": {
+        "first_visit": "Just show up to any meeting - daily noon meetings downtown most accessible",
+        "registration": "No registration needed",
+        "what_to_bring": "Nothing required",
+        "good_to_know": "17-step program designed for co-occurring mental health AND substance use. Daily meetings Mon-Fri plus Saturday."
+      }
     },
     {
       "id": "aa-portland-intergroup",
@@ -989,7 +1164,14 @@
         "anxiety_friendly",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "No dues or fees. No requirements - anyone who wants to stop drinking is welcome. Meeting Guide app available for iOS/Android.",
+      "practical_tips": {
+        "first_visit": "Use pdxaa.org or Meeting Guide app to find a meeting near you",
+        "registration": "No registration - just show up",
+        "what_to_bring": "Nothing required",
+        "good_to_know": "900+ meetings weekly in Portland area. 24-hour phone support. Open meetings welcome anyone; closed meetings for alcoholics only."
+      }
     },
     {
       "id": "dougy-center",
@@ -1038,7 +1220,14 @@
         "isolation",
         "indoor",
         "family_friendly"
-      ]
+      ],
+      "notes": "Pioneering peer grief support model since 1982. World-renowned programs. Also offers training and resources for professionals.",
+      "practical_tips": {
+        "first_visit": "Call to learn about intake process and current group availability",
+        "registration": "Intake required - call 503-775-5683",
+        "what_to_bring": "Nothing required for groups",
+        "good_to_know": "World-renowned pioneering grief program since 1982. Groups for all ages from 3 to 40+. Spanish-language groups available."
+      }
     },
     {
       "id": "providence-grief-support",
@@ -1065,7 +1254,14 @@
         "grief",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Open to anyone grieving the death of a significant person. Free and no registration required.",
+      "practical_tips": {
+        "first_visit": "Call 503-215-4622 for current group schedule and registration",
+        "registration": "Call for current schedule",
+        "what_to_bring": "Nothing required",
+        "good_to_know": "Hospital-based but open to anyone grieving. Professional facilitators. Groups meet at various times - call for schedule."
+      }
     },
     {
       "id": "matt-dishman-cc",
@@ -1096,7 +1292,14 @@
         "active",
         "indoor",
         "isolation"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Stop by the front desk to sign up for a day pass or ask about memberships",
+        "registration": "Drop-in welcome. North Portland residents get FREE access with proof of address.",
+        "what_to_bring": "Towel, lock for locker, swimsuit if using pool",
+        "good_to_know": "Historic center in North Portland's Eliot neighborhood. Has indoor pool, gym, and fitness center. The 90% PPR discount makes drop-in only ~$0.60. Shower-only option available for $0.50."
+      }
     },
     {
       "id": "pier-park-disc-golf",
@@ -1123,7 +1326,14 @@
         "outdoor",
         "active",
         "anxiety_friendly"
-      ]
+      ],
+      "notes": "Summer and winter layouts available",
+      "practical_tips": {
+        "first_visit": "Park near the N Lombard entrance and look for tee signs",
+        "registration": "None - just show up and play",
+        "what_to_bring": "Discs (or borrow from friends). Water bottle recommended.",
+        "good_to_know": "One of Portland's best courses - 18 holes winding through old-growth forest. Summer and winter layouts available. Intermediate to advanced, but welcoming to beginners. Can get crowded on weekends."
+      }
     },
     {
       "id": "rockwood-disc-golf",
@@ -1152,7 +1362,14 @@
         "active",
         "anxiety_friendly",
         "new_to_area"
-      ]
+      ],
+      "notes": "Oregon's first disc golf course (established 1980)",
+      "practical_tips": {
+        "first_visit": "Course is in the southwest corner of the park, near the skate park",
+        "registration": "None - just show up and play",
+        "what_to_bring": "Discs and water. Benches available for rest breaks.",
+        "good_to_know": "Oregon's first disc golf course, established 1980. Great for beginners with only 9 holes. Open layout is less intimidating than wooded courses. Part of a larger park with playground, sports courts, and splash pad."
+      }
     },
     {
       "id": "lunchtime-disc-golf",
@@ -1178,7 +1395,14 @@
       "good_for": [
         "outdoor",
         "active"
-      ]
+      ],
+      "notes": "Permanently closed as of July 2021",
+      "practical_tips": {
+        "first_visit": null,
+        "registration": null,
+        "what_to_bring": null,
+        "good_to_know": "PERMANENTLY CLOSED - See Pier Park or Rockwood for alternatives"
+      }
     },
     {
       "id": "yoga-on-yamhill",
@@ -1215,7 +1439,14 @@
         "anxiety_friendly",
         "indoor",
         "low_energy"
-      ]
+      ],
+      "notes": "Portland's oldest sliding-scale studio since 2010. Located in historic Franz building near MAX Blue Line.",
+      "practical_tips": {
+        "first_visit": "Just show up for any class - donation box on way out",
+        "registration": null,
+        "what_to_bring": "Mat if you have one",
+        "good_to_know": "Oldest sliding-scale studio in Portland. Truly pay what you can."
+      }
     },
     {
       "id": "bymc-portland",
@@ -1264,7 +1495,14 @@
         "indoor",
         "low_energy",
         "isolation"
-      ]
+      ],
+      "notes": "Replaced Portland Yoga Collective entry (which is in Maine). BYMC offers weekly by-donation classes in SE Portland.",
+      "practical_tips": {
+        "first_visit": "Check website for current schedule and locations - classes held at various SE Portland venues",
+        "registration": "Drop-in welcome at all classes. Pre-registration may be requested for some special events.",
+        "what_to_bring": "Mat if you have one (some provided), water, comfortable clothes",
+        "good_to_know": "Offers identity-affirming yoga including Queer and Trans Yoga, BIPOC-only Yoga, and general community classes. All by-donation with no one turned away. Great option if you've felt unwelcome in mainstream yoga spaces."
+      }
     },
     {
       "id": "dharma-rain",
@@ -1303,7 +1541,14 @@
         "indoor",
         "low_energy",
         "isolation"
-      ]
+      ],
+      "notes": "Oldest and largest Soto Zen Buddhist temple in Oregon, founded 1975. All welcome at Sunday program.",
+      "practical_tips": {
+        "first_visit": "Arrive 15-30 min early for orientation. Doors open 9am for Sunday program.",
+        "registration": "None required - just show up. Newcomers welcome any Sunday.",
+        "what_to_bring": "Comfortable clothes for sitting meditation. Cushions and chairs provided.",
+        "good_to_know": "Oregon's oldest and largest Soto Zen Buddhist temple, founded 1975. Sunday program includes zazen (seated meditation), kinhin (walking meditation), chanting, and Dharma talk. Wednesday evening is simpler double-sit format. All welcome regardless of background."
+      }
     },
     {
       "id": "diamond-way-buddhist",
@@ -1332,7 +1577,14 @@
         "low_energy",
         "isolation",
         "new_to_area"
-      ]
+      ],
+      "notes": "Karma Kagyu lineage of Tibetan Buddhism. Live-in center with guest room, near public transit. Founded 1997.",
+      "practical_tips": {
+        "first_visit": "Just show up at 7pm on Monday or Thursday. Newcomers especially welcome.",
+        "registration": "None required - drop-in welcome",
+        "what_to_bring": "Nothing - cushions provided. Wear comfortable clothes.",
+        "good_to_know": "Tibetan Buddhist center (Karma Kagyu lineage) offering guided meditation with explanation. Free always, no pressure. Live-in community center with guest room available. Near transit on NE 21st. Founded 1997."
+      }
     },
     {
       "id": "portland-insight-meditation",
@@ -1382,7 +1634,14 @@
         "indoor",
         "low_energy",
         "isolation"
-      ]
+      ],
+      "notes": "Vipassana (insight) tradition. Welcomes all faiths, orientations, genders, abilities, ages, and backgrounds.",
+      "practical_tips": {
+        "first_visit": "Arrive 15-20 min early on Sundays (doors open 9am for silent meditation). Tuesday evening is a simpler format.",
+        "registration": "None required for weekly groups - just show up",
+        "what_to_bring": "Comfortable clothes. Cushions and chairs provided. Online option available for some programs.",
+        "good_to_know": "Vipassana (insight meditation) tradition in SE Portland. Dana (donation-based) so truly accessible. Sunday program includes meditation, mindful movement, and Dharma talk. Explicitly welcomes all faiths, orientations, genders, abilities, ages, and backgrounds."
+      }
     },
     {
       "id": "east-portland-cc",
@@ -1427,7 +1686,14 @@
         "active",
         "indoor",
         "family_friendly"
-      ]
+      ],
+      "notes": "One of five PP&R community centers where TeenForce pass provides free access. Multi-visit passes work at all PP&R community centers.",
+      "practical_tips": {
+        "first_visit": "Register for Access Discount online before visiting to get reduced pricing",
+        "registration": "Online at portland.gov/parks, by phone 503-823-2525, or in person",
+        "what_to_bring": "Swimsuit and towel if using pool; lock for locker",
+        "good_to_know": "Daily admission good for entire day - swim morning, fitness class noon, spa evening"
+      }
     },
     {
       "id": "mt-scott-cc",
@@ -1478,7 +1744,14 @@
         "active",
         "indoor",
         "family_friendly"
-      ]
+      ],
+      "notes": "Completely renovated - expanded from 31,000 to 70,000 sq ft. Now includes roller rink. One of five PP&R TeenForce locations.",
+      "practical_tips": {
+        "first_visit": "Major renovation completed Sept 2025 - new facility with expanded amenities",
+        "registration": "Online at portland.gov/parks, by phone 503-823-2525, or in person",
+        "what_to_bring": "Swimsuit and towel; skates available for rent at roller rink",
+        "good_to_know": "Pool closes 30 min before building. Fully operational with registered classes starting January 2026."
+      }
     },
     {
       "id": "gresham-senior-center",
@@ -1526,7 +1799,14 @@
         "isolation",
         "indoor",
         "low_energy"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Stop by during open hours (Mon-Fri 8:30am-3pm) to see the facility and learn about programs",
+        "registration": "Some programs require RSVP (like Friday Speaker Series). Most are drop-in.",
+        "what_to_bring": "Nothing special for most programs. Comfortable shoes for dance nights.",
+        "good_to_know": "Gresham's hub for 55+ activities. Tuesday Night Dance with live band is popular ($6). Monday Movie Matinees and Friday Speaker Series are free. Alzheimer's Caregiver Support group meets twice monthly."
+      }
     },
     {
       "id": "portland-running-company",
@@ -1570,7 +1850,14 @@
         "outdoor",
         "isolation",
         "new_to_area"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Just show up at the designated location at run time. All paces welcome.",
+        "registration": "None - free and open to all",
+        "what_to_bring": "Running shoes, water, appropriate clothing for weather",
+        "good_to_know": "Three weekly options - Monday trail runs (NW Raleigh 6pm), Tuesday track workouts (Duniway Track 6:15pm), Saturday long runs (mornings, all paces). Hosted by local running specialty store. Great way to meet other runners."
+      }
     },
     {
       "id": "lloyd-center-walking",
@@ -1600,7 +1887,14 @@
         "isolation",
         "new_to_area",
         "anxiety_friendly"
-      ]
+      ],
+      "notes": "1980s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court.",
+      "practical_tips": {
+        "first_visit": "Meet at Lloyd Center mall entrance, Sundays at 11am. Look for the group in colorful 80s attire!",
+        "registration": "None - just show up",
+        "what_to_bring": "Comfortable walking shoes. 80s attire encouraged but not required (neon, leg warmers, etc.)",
+        "good_to_know": "1980s-themed indoor mall walking led by Vera Mysteria. 3.5 mile route (2 laps, ~90 minutes). Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks at food court. Groups of 70+ regular attendees. Very welcoming and fun community."
+      }
     },
     {
       "id": "neighborwalks",
@@ -1629,7 +1923,14 @@
         "outdoor",
         "active",
         "isolation"
-      ]
+      ],
+      "notes": "AARP Oregon partnership. Ran 11 seasons from 2012-2022. Consider Portland Running Company, Lloyd Center, or Parks Dept programs as alternatives.",
+      "practical_tips": {
+        "first_visit": null,
+        "registration": null,
+        "what_to_bring": null,
+        "good_to_know": "PROGRAM ENDED - Ran 11 seasons 2012-2022. Try Food Court 5000 (Lloyd Center), Portland Running Company, or Parks Dept walking programs instead."
+      }
     },
     {
       "id": "shift-to-bikes",
@@ -1666,7 +1967,14 @@
         "outdoor",
         "isolation",
         "new_to_area"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Check shift2bikes.org/calendar for current rides. Most list meeting location, time, and pace.",
+        "registration": "None - rides are free and open to all",
+        "what_to_bring": "Working bike, helmet recommended, lights for night rides, water",
+        "good_to_know": "Portland's community bike ride calendar. Year-round rides including Monday Mixer, Foster Night Ride, Friday Night Ride. Pedalpalooza (June-August) features hundreds of free themed rides. Very welcoming culture - \"bike fun\" for all abilities."
+      }
     },
     {
       "id": "portland-bicycling-club",
@@ -1700,7 +2008,14 @@
         "outdoor",
         "isolation",
         "new_to_area"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Join a BITS (Meet PBC) ride - very beginner-friendly, held twice monthly",
+        "registration": "Free to try - no membership required for first few rides",
+        "what_to_bring": "Working bike, helmet, water. E-bikes welcome on BITS rides.",
+        "good_to_know": "Oregon's oldest bicycle club (founded 1896). BITS rides are specifically designed for beginners. More advanced riders can join regular club rides. Membership optional but supports the club."
+      }
     },
     {
       "id": "ymca-columbia-willamette",
@@ -1735,7 +2050,14 @@
         "indoor",
         "family_friendly",
         "isolation"
-      ]
+      ],
+      "notes": "Financial assistance available - no one turned away for inability to pay. Also operates school-based programs throughout the region.",
+      "practical_tips": {
+        "first_visit": "Visit any location for a tour and to learn about membership options and financial assistance",
+        "registration": "Apply for financial assistance online or at any YMCA location",
+        "what_to_bring": "Workout clothes, swimsuit if using pool, lock for locker",
+        "good_to_know": "Income-based scholarships cover 10-100% of membership fees - no one turned away for inability to pay. Ask about Y Scholarship at signup. Locations in Beaverton, Sherwood, and Vancouver. Programs include fitness, swimming, youth activities, and childcare."
+      }
     },
     {
       "id": "rock-haven-climbing",
@@ -1776,7 +2098,14 @@
         "active",
         "indoor",
         "new_to_area"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Just show up during free climb times - no reservation needed. Complete waiver online or on-site.",
+        "registration": "Waiver required (available online or on-site). Minors need guardian signature.",
+        "what_to_bring": "Comfortable clothes. Rental shoes included free.",
+        "good_to_know": "Free Friday Climbing (1st Friday 5-9pm) is free for SNAP/EBT holders, $5 for other Gresham residents. Teen Nights (1st & 3rd Saturdays 6-9pm) free for ages 13-18. May ask for ID to verify residency."
+      }
     },
     {
       "id": "clackamas-town-center-walking",
@@ -1804,7 +2133,14 @@
         "indoor",
         "low_energy",
         "anxiety_friendly"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Enter through Macy's or JCPenney entrances which open early for walkers",
+        "registration": "None - just show up",
+        "what_to_bring": "Comfortable walking shoes",
+        "good_to_know": "Doors open 6am daily for walkers before stores open. Climate-controlled, flat surfaces, benches for rest breaks. One loop is approximately 0.5 miles. Restrooms available. Quiet early morning hours are great for those who prefer avoiding crowds."
+      }
     },
     {
       "id": "washington-square-walking",
@@ -1832,7 +2168,14 @@
         "indoor",
         "low_energy",
         "anxiety_friendly"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Enter through main entrances - mall opens 7am daily for walkers",
+        "registration": "None - just show up",
+        "what_to_bring": "Comfortable walking shoes",
+        "good_to_know": "Opens 7am daily for walkers before stores open. Climate-controlled, flat surfaces, benches throughout. Close to TriMet bus lines. Early morning hours are quiet and uncrowded - ideal for those with social anxiety."
+      }
     },
     {
       "id": "ppr-free-swim",
@@ -1886,7 +2229,14 @@
         "active",
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": "June 20 - August 31 season",
+      "practical_tips": {
+        "first_visit": "First come, first served - no registration",
+        "registration": null,
+        "what_to_bring": "Swimsuit, towel, sunscreen",
+        "good_to_know": "Access Discount Program provides up to 90% off for Portland residents"
+      }
     },
     {
       "id": "ncprd-aquatic-park",
@@ -1942,7 +2292,14 @@
         "family_friendly",
         "active",
         "indoor"
-      ]
+      ],
+      "notes": "Serving the community since 1994. Over 225,000 visitors annually. NCPRD scholarship available for eligible residents.",
+      "practical_tips": {
+        "first_visit": "Arrive early for Big Surf sessions as they can get crowded",
+        "registration": "Register online at ncprd.org or call 503-794-8080",
+        "what_to_bring": "Swimsuit, towel, $5 cash for locker deposit",
+        "good_to_know": "Indoor facility operates year-round regardless of weather"
+      }
     },
     {
       "id": "charles-jordan-cc",
@@ -1985,7 +2342,14 @@
       "good_for": [
         "active",
         "indoor"
-      ]
+      ],
+      "notes": "Largest gymnasium in PP&R system. No pool - use other community centers for swimming. One of five TeenForce locations.",
+      "practical_tips": {
+        "first_visit": "Note: No swimming pool at this location - use East Portland or Mt. Scott for aquatics",
+        "registration": "Online at portland.gov/parks, by phone, or in person",
+        "what_to_bring": "Athletic shoes for gym; workout clothes",
+        "good_to_know": "Named after Portland's first African American fire chief"
+      }
     },
     {
       "id": "ttad-pools",
@@ -2023,7 +2387,14 @@
       "good_for": [
         "active",
         "low_energy"
-      ]
+      ],
+      "notes": "Special district serving Tigard-Tualatin area. Medicare/insurance programs may provide free access - check eligibility.",
+      "practical_tips": {
+        "first_visit": "Check if your insurance includes SilverSneakers or Silver & Fit for free access",
+        "registration": "Create account via Active Communities for registration",
+        "what_to_bring": "Swimsuit, towel, lock for locker",
+        "good_to_know": "Both pools have Wibit inflatable obstacle courses for special events"
+      }
     },
     {
       "id": "lake-oswego-lorac",
@@ -2056,7 +2427,14 @@
       "good_for": [
         "active",
         "family_friendly"
-      ]
+      ],
+      "notes": "Brand new facility opened June 2025. Scholarship available for income-qualifying Lake Oswego residents.",
+      "practical_tips": {
+        "first_visit": "Opened June 2025 - brand new facility",
+        "registration": "Create account for class registration and day passes",
+        "what_to_bring": "Swimsuit, towel, lock for locker",
+        "good_to_know": "Non-residents welcome with higher pricing tier"
+      }
     },
     {
       "id": "november-project-portland",
@@ -2091,7 +2469,14 @@
         "outdoor",
         "active",
         "isolation"
-      ]
+      ],
+      "notes": "Free fitness movement in Portland since 2016. Mission: lowering intimidation of fitness, building human connections. 'All Ages, Faces, & Paces'",
+      "practical_tips": {
+        "first_visit": "Just show up at 6:29am - no registration needed",
+        "registration": null,
+        "what_to_bring": "Comfortable workout clothes, water",
+        "good_to_know": "Exercise alternatives always available; very welcoming community"
+      }
     },
     {
       "id": "foot-traffic-group-runs",
@@ -2144,7 +2529,14 @@
         "active",
         "isolation",
         "new_to_area"
-      ]
+      ],
+      "notes": "Local running store offering free group runs at multiple Portland locations throughout the week.",
+      "practical_tips": {
+        "first_visit": "Arrive 15 minutes early to meet the group",
+        "registration": null,
+        "what_to_bring": "Running shoes, weather-appropriate clothing",
+        "good_to_know": "Non-competitive, fun courses. ORRC partnered run Thursdays in Sellwood"
+      }
     },
     {
       "id": "portland-trail-runners",
@@ -2178,7 +2570,14 @@
         "active",
         "isolation",
         "new_to_area"
-      ]
+      ],
+      "notes": "Portland's original trail running group, exploring the city's best trails for over 15 years.",
+      "practical_tips": {
+        "first_visit": "Check Meetup for current meeting location",
+        "registration": "RSVP on Meetup",
+        "what_to_bring": "Trail running shoes, water, layers",
+        "good_to_know": "Original trail running group in Portland - 15+ years of community"
+      }
     },
     {
       "id": "trail-sisters-portland",
@@ -2213,7 +2612,14 @@
         "anxiety_friendly",
         "isolation",
         "new_to_area"
-      ]
+      ],
+      "notes": "Supportive trail running group for women. 'No one left behind' - will match your pace, walking welcome.",
+      "practical_tips": {
+        "first_visit": "Group will match your pace - no pressure",
+        "registration": null,
+        "what_to_bring": "Trail shoes, headlamp (for darker months)",
+        "good_to_know": "Focused on equitable outdoors and female representation"
+      }
     },
     {
       "id": "ppr-fitness-in-park",
@@ -2241,7 +2647,14 @@
       "good_for": [
         "outdoor",
         "active"
-      ]
+      ],
+      "notes": "Part of PP&R's Summer Free For All. Free outdoor fitness classes in parks across Portland.",
+      "practical_tips": {
+        "first_visit": "Check website for current schedule and locations",
+        "registration": null,
+        "what_to_bring": "Mat for yoga, water, comfortable clothes",
+        "good_to_know": "Call 503-505-0083 for urgent updates and cancellations"
+      }
     },
     {
       "id": "thprd-fitness-in-park",
@@ -2270,7 +2683,14 @@
         "outdoor",
         "active",
         "low_energy"
-      ]
+      ],
+      "notes": "Free fitness classes in Washington County parks. Focus on environmental justice areas to reduce barriers to access.",
+      "practical_tips": {
+        "first_visit": "Classes are drop-in, no registration needed",
+        "registration": null,
+        "what_to_bring": "Comfortable clothes, water",
+        "good_to_know": "Classes held in environmental justice areas to increase access"
+      }
     },
     {
       "id": "portland-art-museum",
@@ -2288,7 +2708,8 @@
         {
           "name": "Free First Thursday",
           "schedule": "1st Thursdays 10am-7pm",
-          "cost": "FREE"
+          "cost": "FREE",
+          "notes": "Explore the museum's diverse collections for free. Tickets can be reserved online one week in advance or at the door. Often includes live DJs, guided tours, and special programming. Part of Portland's First Thursday arts tradition."
         }
       ],
       "dates": null,
@@ -2306,7 +2727,9 @@
         "anxiety_friendly",
         "creative",
         "low_energy"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "Free First Thursday 10am-7pm. Arts for All program provides $5 admission with EBT card (up to 4 tickets). Quieter on weekday mornings. Downtown location near PSU. Multiple floors with diverse collections."
     },
     {
       "id": "omsi",
@@ -2325,7 +2748,8 @@
         {
           "name": "First Sunday",
           "schedule": "1st Sundays 9:30am-5:30pm",
-          "cost": "$5"
+          "cost": "$5",
+          "notes": "Discounted admission day - only $5 per person for all exhibits. Planetarium shows, submarine tours, and special exhibitions also $5 each. Purchase tickets online in advance to skip the line. Interactive science museum great for families and curious minds."
         }
       ],
       "dates": null,
@@ -2341,7 +2765,9 @@
         "indoor",
         "family_friendly",
         "active"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "First Sunday is only $5 admission. Arts for All with EBT provides up to 4 tickets at $5 each and 55% off memberships. Interactive exhibits good for all ages. Can be crowded on weekends - weekday visits are quieter."
     },
     {
       "id": "academy-theater",
@@ -2370,7 +2796,9 @@
         "anxiety_friendly",
         "low_energy",
         "indoor"
-      ]
+      ],
+      "notes": "Independent dinner theater in Montavilla neighborhood.",
+      "practical_tips": "Budget second-run theater with pizza and beer service. Three screens with reclining stadium seating. Less crowded than first-run theaters. Flying Pie Pizzeria on-site. Independent theater in Montavilla neighborhood."
     },
     {
       "id": "avalon-theatre",
@@ -2401,7 +2829,9 @@
         "anxiety_friendly",
         "low_energy",
         "indoor"
-      ]
+      ],
+      "notes": "Portland's oldest operating movie theater, in Sunnyside neighborhood.",
+      "practical_tips": "Arrive early on discount days ($1.50 Tue-Thu) as it gets busy. The arcade section is included with movie admission. Quieter afternoon showings are best for avoiding crowds. Portland's oldest operating movie theater."
     },
     {
       "id": "laurelhurst-theater",
@@ -2432,7 +2862,9 @@
         "anxiety_friendly",
         "low_energy",
         "indoor"
-      ]
+      ],
+      "notes": "Theater and pub in Laurelhurst neighborhood.",
+      "practical_tips": "Second-run films at low prices with full food and drink menu. Tuesday is $7 all day. Historic Art Deco theater with great atmosphere. Less crowded on weekday afternoons. 21+ only after 8pm."
     },
     {
       "id": "living-room-theaters",
@@ -2462,7 +2894,9 @@
         "anxiety_friendly",
         "low_energy",
         "indoor"
-      ]
+      ],
+      "notes": "Downtown near Powell's Books. Founded by filmmakers.",
+      "practical_tips": "Upscale theater with luxury seating and full restaurant service. Check for $7 weekly indie film special at 7pm. Mon/Tue discount days. Reserve seats online to avoid lines. Downtown location near Powell's Books."
     },
     {
       "id": "hollywood-theatre",
@@ -2496,7 +2930,9 @@
         "low_energy",
         "indoor",
         "creative"
-      ]
+      ],
+      "notes": "Film Action Oregon dba Hollywood Theatre. Historic landmark, namesake of Hollywood District.",
+      "practical_tips": "Check calendar for free community screenings and special events. The nonprofit theater shows independent, classic, and rare films. Less crowded on weekday afternoons. Historic 1926 landmark."
     },
     {
       "id": "ground-kontrol",
@@ -2525,7 +2961,9 @@
       "good_for": [
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Since 1999. Games from Golden Age of Video Arcade.",
+      "practical_tips": "All-ages until 5pm daily, then 21+ only. Weekday afternoons are quietest. The $6 all-ages free play (noon-5pm) is best value. Free Play events on 2nd Thursday and last Wednesday monthly. Can be loud and crowded on weekend nights."
     },
     {
       "id": "guardian-games",
@@ -2559,7 +2997,9 @@
         "isolation",
         "new_to_area",
         "indoor"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "Sunday Open Play (12-6pm) is free and welcoming to newcomers. Staff 'board game sommeliers' help find games and teach rules. Board games, card games, and tabletop RPGs available. Good place to meet people with similar interests."
     },
     {
       "id": "naya",
@@ -2602,7 +3042,9 @@
         "new_to_area",
         "creative",
         "indoor"
-      ]
+      ],
+      "notes": "40+ programs. Youth Centered, Family Driven, Elder Guided. Over 40 years serving Portland.",
+      "practical_tips": "Open to all community members, not just Native Americans. Culture Nights (1st & 3rd Wed 6-8pm) are welcoming to newcomers. Check calendar for community dinners and art workshops. Elder services and youth programs available."
     },
     {
       "id": "irco",
@@ -2628,7 +3070,9 @@
         "new_to_area",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Since 1976. Serves Oregon and SW Washington immigrant/refugee communities.",
+      "practical_tips": "Offers cultural events, ESL classes, and community programs. Open to everyone regardless of immigration status. Staff speak many languages. Multiple locations including Africa House and Pacific Islander & Asian Family Center."
     },
     {
       "id": "oregon-historical-society",
@@ -2660,7 +3104,9 @@
         "anxiety_friendly",
         "indoor",
         "low_energy"
-      ]
+      ],
+      "notes": "NOT part of Bank of America Museums on Us program.",
+      "practical_tips": "FREE for Multnomah County residents with proof of residency (Measure 26-221). Museums for All provides free admission for low-income families. Focuses on Oregon history. Usually not crowded. Downtown location near Portland Art Museum."
     },
     {
       "id": "oregon-jewish-museum",
@@ -2696,7 +3142,9 @@
         "anxiety_friendly",
         "indoor",
         "low_energy"
-      ]
+      ],
+      "notes": "Closed Mon-Tue and major holidays including Jewish holidays.",
+      "practical_tips": "Free admission with SNAP/WIC. Free for children under 12. Small museum - good for a 1-2 hour visit. Holocaust education exhibits are thoughtful and respectful. Open Wed-Sun 11am-4pm only. Old Town location."
     },
     {
       "id": "five-oaks-museum",
@@ -2724,7 +3172,9 @@
       "good_for": [
         "anxiety_friendly",
         "indoor"
-      ]
+      ],
+      "notes": "Named for historic gathering site of Kalapuyan Indians. Collection (40,000+ artifacts) transferred to Washington County.",
+      "practical_tips": "CLOSED as of December 2024 due to funding cuts. Collection transferred to Washington County."
     },
     {
       "id": "oregon-rail-heritage",
@@ -2753,7 +3203,9 @@
         "family_friendly",
         "indoor",
         "low_energy"
-      ]
+      ],
+      "notes": "Near OMSI by Tilikum Crossing. Since 2012. Locomotives owned by City of Portland.",
+      "practical_tips": "Currently free but admission fee starting January 2026. Small museum with historic steam locomotives. Usually not crowded. Volunteer-run so call ahead to verify hours. Near OMSI by Tilikum Crossing."
     },
     {
       "id": "clackamas-county-libraries",
@@ -2807,7 +3259,9 @@
         "low_energy",
         "indoor",
         "isolation"
-      ]
+      ],
+      "notes": "13 public libraries in Clackamas County. Oak Lodge and Gladstone operated by the county; others are independent LINCC members.",
+      "practical_tips": "Free library card for all Oregon residents. Cultural passes available for Pittock Mansion and Evergreen Aviation. Many locations offer free programs, computer access, and quiet spaces. Homebound delivery available for eligible patrons."
     },
     {
       "id": "mhcc-planetarium",
@@ -2849,7 +3303,14 @@
         "indoor",
         "family_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": "Affordable planetarium shows in East County. Different astronomy topic each month. Perfect for families.",
+      "practical_tips": {
+        "first_visit": "Arrive 15 min early - seats fill up",
+        "registration": "Tickets at door, no reservations",
+        "what_to_bring": null,
+        "good_to_know": "Established 1970. Kids under 15 free! Great affordable family outing."
+      }
     },
     {
       "id": "old-church-concerts",
@@ -2884,7 +3345,9 @@
         "anxiety_friendly",
         "indoor",
         "low_energy"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "Free lunchtime concerts on 1st and 3rd Wednesdays 12-1pm. Beautiful historic 1882 venue. No ticket needed - just show up. Peaceful midday break. Located downtown near PSU campus."
     },
     {
       "id": "artichoke-music",
@@ -2914,7 +3377,9 @@
         "creative",
         "indoor",
         "isolation"
-      ]
+      ],
+      "notes": "Nonprofit community music center since 1973",
+      "practical_tips": "Community music school offering affordable lessons. Check their calendar for open mic nights. Sliding scale available for lessons. Instruments available to borrow. Welcoming to beginners."
     },
     {
       "id": "st-james-bach",
@@ -2948,7 +3413,9 @@
         "anxiety_friendly",
         "indoor",
         "low_energy"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "Free concerts featuring Bach cantatas on select Sundays at 4pm. No tickets needed - just show up. Offerings accepted but not required. Beautiful church setting with excellent acoustics. Check schedule for upcoming dates."
     },
     {
       "id": "belmont-firehouse",
@@ -2966,12 +3433,14 @@
         {
           "name": "Wednesday Open Hours",
           "schedule": "Wednesdays 10am-2pm",
-          "cost": "FREE"
+          "cost": "FREE",
+          "notes": "Explore Portland Fire & Rescue history through interactive exhibits, an 1860 hose cart, fire pole, and emergency response simulator. Hands-on museum celebrating the heritage of firefighting in Portland."
         },
         {
           "name": "Second Saturday Open Hours",
           "schedule": "2nd Saturdays 10am-2pm",
-          "cost": "FREE"
+          "cost": "FREE",
+          "notes": "Explore Portland Fire & Rescue history through interactive exhibits, an 1860 hose cart, fire pole, and emergency response simulator. Hands-on museum celebrating the heritage of firefighting in Portland."
         }
       ],
       "dates": null,
@@ -2987,7 +3456,9 @@
         "family_friendly",
         "anxiety_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "Historic 1912 firehouse open for free on Wednesdays and 2nd Saturdays 10am-2pm. Small museum with local history exhibits. Usually quiet and uncrowded. Good for a quick visit."
     },
     {
       "id": "turn-turn-turn",
@@ -3005,17 +3476,20 @@
         {
           "name": "Comedy Open Mic",
           "schedule": "Fridays 5-7pm",
-          "cost": "FREE"
+          "cost": "FREE",
+          "notes": "Happy hour comedy open mic hosted by Logan Loughmiller. Low-pressure environment for performers and audience. Women-owned community venue since 2014."
         },
         {
           "name": "Drawing Club",
           "schedule": "Sundays 12:30-3:30pm",
-          "cost": "FREE"
+          "cost": "FREE",
+          "notes": "Casual drawing get-together - bring your own supplies or just hang out. All skill levels welcome. Women-owned community arts venue doubling as bar, record store, and vintage shop."
         },
         {
           "name": "Karaoke Night",
           "schedule": "2nd & 4th Mondays 8-11pm",
-          "cost": "FREE"
+          "cost": "FREE",
+          "notes": "K-Tel and Larry-okee supportive karaoke night. Low-pressure, encouraging atmosphere for singers of all abilities. 21+ after 8pm. Cash only at door, all payments at bar."
         }
       ],
       "dates": null,
@@ -3030,7 +3504,9 @@
         "creative",
         "indoor",
         "isolation"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Drawing Club (Sun 12:30-3:30pm), and karaoke (2nd & 4th Mon 8-11pm). All ages welcome for most daytime events. Casual atmosphere good for meeting people."
     },
     {
       "id": "laurelthirst-pub",
@@ -3064,7 +3540,9 @@
         "indoor",
         "low_energy",
         "isolation"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "Beloved neighborhood pub with free live acoustic and Americana music daily 6-8pm happy hour. No cover most nights. Gets crowded on weekends. Good food and local beer selection. Cozy historic space."
     },
     {
       "id": "mt-hood-theatre",
@@ -3092,7 +3570,9 @@
         "anxiety_friendly",
         "low_energy",
         "family_friendly"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "Small-town theater in Gresham with $5 Bargain Wednesdays. Second-run films at discount prices. Less crowded than Portland theaters. Good parking available. Family-friendly atmosphere."
     },
     {
       "id": "end-of-oregon-trail",
@@ -3127,7 +3607,14 @@
         "family_friendly",
         "indoor",
         "anxiety_friendly"
-      ]
+      ],
+      "notes": "Celebrating 30 years in 2025. Four free admission days annually plus library pass program.",
+      "practical_tips": {
+        "first_visit": "Allow several hours for full experience",
+        "registration": null,
+        "what_to_bring": null,
+        "good_to_know": "Check with local library for free cultural pass before visiting"
+      }
     },
     {
       "id": "rockwood-library",
@@ -3181,7 +3668,14 @@
         "anxiety_friendly",
         "indoor",
         "creative"
-      ]
+      ],
+      "notes": "Part of Multnomah County Library system. Recently renovated with makerspace featuring 3D printers and craft equipment.",
+      "practical_tips": {
+        "first_visit": "Recently renovated - updated space reopened October 2025",
+        "registration": "Free library card with proof of address",
+        "what_to_bring": "Library card or ID",
+        "good_to_know": "Makerspace returned to Rockwood after temporary relocation during construction"
+      }
     },
     {
       "id": "tigard-public-library",
@@ -3236,7 +3730,14 @@
         "anxiety_friendly",
         "indoor",
         "new_to_area"
-      ]
+      ],
+      "notes": "Part of Washington County Cooperative Library Services (WCCLS). Cultural Pass Express provides free/reduced admission to local venues.",
+      "practical_tips": {
+        "first_visit": "Get a free library card with proof of address",
+        "registration": "Part of WCCLS system - one card works at 20+ libraries",
+        "what_to_bring": "ID and proof of address for library card",
+        "good_to_know": "If parking lot is full, City Hall lot at 13125 SW Hall Blvd is available"
+      }
     },
     {
       "id": "lake-oswego-library",
@@ -3300,7 +3801,14 @@
         "anxiety_friendly",
         "indoor",
         "creative"
-      ]
+      ],
+      "notes": "Part of LINCC system. Strong community programming including book groups, film series, and Lake Oswego Reads.",
+      "practical_tips": {
+        "first_visit": "Kids Librarian available at 503-697-6580",
+        "registration": "Library card free for LO residents and LINCC members",
+        "what_to_bring": "Library card or ID",
+        "good_to_know": "Cultural Pass Express provides free museum admission - reserve online"
+      }
     },
     {
       "id": "tualatin-public-library",
@@ -3357,7 +3865,14 @@
         "anxiety_friendly",
         "indoor",
         "creative"
-      ]
+      ],
+      "notes": "Active programming including music series, teen programs, and Makerspace. Part of WCCLS.",
+      "practical_tips": {
+        "first_visit": "Reference Desk at 503-691-3072 for questions",
+        "registration": "Free library card with proof of address",
+        "what_to_bring": "Library card or ID",
+        "good_to_know": "Part of WCCLS system - one card works at 20+ libraries"
+      }
     },
     {
       "id": "tualatin-heritage-center",
@@ -3413,7 +3928,14 @@
       "good_for": [
         "family_friendly",
         "indoor"
-      ]
+      ],
+      "notes": "Free local history museum with excellent family events. Fossil Fest is a highlight - 400+ attendees.",
+      "practical_tips": {
+        "first_visit": "Check website for current exhibit information",
+        "registration": "Special events may require registration",
+        "what_to_bring": "Your own fossils for Fossil Fest identification",
+        "good_to_know": "Fossil Fest draws 400+ visitors - arrive early"
+      }
     },
     {
       "id": "pcc-art-galleries",
@@ -3442,7 +3964,14 @@
         "indoor",
         "low_energy",
         "creative"
-      ]
+      ],
+      "notes": "Three free campus galleries featuring regional and national artists. Student exhibitions in spring.",
+      "practical_tips": {
+        "first_visit": "Check hours online - galleries close between exhibits",
+        "registration": null,
+        "what_to_bring": null,
+        "good_to_know": "Parking permits required weekdays ($3-5); visit on Saturday for free parking"
+      }
     },
     {
       "id": "pcc-theatre-much-ado",
@@ -3470,7 +3999,14 @@
         "anxiety_friendly",
         "indoor",
         "creative"
-      ]
+      ],
+      "notes": "Community college theater with professional-quality productions. Drama, comedy, and musicals.",
+      "practical_tips": {
+        "first_visit": "Purchase tickets in advance online or at the door",
+        "registration": null,
+        "what_to_bring": null,
+        "good_to_know": "State-of-the-art theater; 70+ productions since 1979"
+      }
     },
     {
       "id": "mhcc-visual-arts-gallery",
@@ -3498,7 +4034,14 @@
         "indoor",
         "low_energy",
         "creative"
-      ]
+      ],
+      "notes": "Free gallery in East County featuring diverse contemporary and traditional art. Peaceful forest campus setting.",
+      "practical_tips": {
+        "first_visit": "Check website for current exhibit",
+        "registration": null,
+        "what_to_bring": null,
+        "good_to_know": "Beautiful cedar building in forest setting. Student show in May features ceramics, printmaking, sculpture, jewelry."
+      }
     },
     {
       "id": "cathedral-park-jazz",
@@ -3529,7 +4072,14 @@
         "family_friendly",
         "anxiety_friendly",
         "creative"
-      ]
+      ],
+      "notes": "Longest-running free jazz/blues festival west of the Mississippi. All-volunteer Jazz Society of Oregon. Alcohol restricted to beer garden; family-friendly.",
+      "practical_tips": {
+        "first_visit": "Arrive early for best lawn spots. Enter from N Edison St entrance.",
+        "registration": "None - just show up",
+        "what_to_bring": "Blanket or lawn chairs, picnic food (no outside alcohol), sunscreen, layers for evening",
+        "good_to_know": "Longest-running free jazz/blues festival west of the Mississippi (45 years). Stunning setting under St. Johns Bridge. Food vendors on site. Beer garden for 21+. Family-friendly with kids' area. Three full days of music."
+      }
     },
     {
       "id": "noon-tunes",
@@ -3560,7 +4110,14 @@
         "low_energy",
         "anxiety_friendly",
         "creative"
-      ]
+      ],
+      "notes": "33+ years of free lunchtime concerts. 17 concerts per season. Presented by 101.9 KINK. Food vendors on site. Art in The Park activities.",
+      "practical_tips": {
+        "first_visit": "Just show up at noon. Brick steps provide seating.",
+        "registration": "None - free and open to all",
+        "what_to_bring": "Lunch or buy from food vendors. Sunscreen for sunny days.",
+        "good_to_know": "33+ years of free lunchtime concerts. Perfect for downtown workers or visitors. Tuesdays and Thursdays noon-1pm, June-July. Food vendors on site. Art in The Park activities. Easy MAX access to Pioneer Courthouse Square."
+      }
     },
     {
       "id": "portland-rose-festival",
@@ -3590,7 +4147,14 @@
         "outdoor",
         "family_friendly",
         "new_to_area"
-      ]
+      ],
+      "notes": "60+ events over 3 weeks. 500,000+ attend Grand Floral Parade.",
+      "practical_tips": {
+        "first_visit": "Grand Floral Parade is free along the route - stake out a spot early on downtown streets",
+        "registration": "None for most events - some require tickets",
+        "what_to_bring": "Chair/blanket for parade viewing, sunscreen, water",
+        "good_to_know": "60+ events over 3 weeks. Grand Floral Parade (500,000+ attend) is free along the route. Free Navy Fleet Week ship tours at Waterfront Park. Dragon Boat Races free to watch from waterfront. Many events are family-friendly."
+      }
     },
     {
       "id": "portland-pride",
@@ -3621,7 +4185,14 @@
         "family_friendly",
         "isolation",
         "new_to_area"
-      ]
+      ],
+      "notes": "One of largest donation-based LGBTQIA2S+ Pride events on west coast. Moved from June to July in 2023 to avoid conflicts with Juneteenth and Delta Park Powwow. Run by Pride Northwest.",
+      "practical_tips": {
+        "first_visit": "Enter at any Waterfront Park entrance. Donation suggested but not required.",
+        "registration": "None - just show up",
+        "what_to_bring": "Sunscreen, water, cash for vendors. Rainbow attire welcome!",
+        "good_to_know": "One of largest donation-based Pride events on west coast - no one turned away. $10 suggested donation but truly pay what you can. Parade Sunday 11am. Festival Sat noon-8pm, Sun 11:30am-6pm. Live music, vendors, community organizations. Very welcoming and celebratory atmosphere."
+      }
     },
     {
       "id": "first-thursday",
@@ -3650,7 +4221,14 @@
         "creative",
         "anxiety_friendly",
         "new_to_area"
-      ]
+      ],
+      "notes": "Since 1986. Dozens of galleries with free receptions. Street Gallery runs April-October on NW 13th Ave (100+ artists, 4 blocks).",
+      "practical_tips": {
+        "first_visit": "Start at any Pearl District gallery - most along NW 12th-13th between Burnside and Lovejoy",
+        "registration": "None - just walk in",
+        "what_to_bring": "Nothing required. Comfortable walking shoes helpful.",
+        "good_to_know": "Since 1986 - Portland's original art walk. Dozens of galleries with free receptions, wine, and snacks. Street Gallery (April-October) adds 100+ artists on NW 13th Ave. Easy MAX access to Galleria/SW 10th. Great for experiencing Portland's art scene free."
+      }
     },
     {
       "id": "last-thursday-alberta",
@@ -3680,7 +4258,14 @@
         "creative",
         "isolation",
         "new_to_area"
-      ]
+      ],
+      "notes": "Since 1997. 27 years of community-driven arts. Year-round gallery openings indoors. Free vending for local artists (no permit needed).",
+      "practical_tips": {
+        "first_visit": "Start anywhere along Alberta between 15th and 30th Ave",
+        "registration": "None - just show up",
+        "what_to_bring": "Cash for street vendors and food carts. Comfortable shoes for walking.",
+        "good_to_know": "27 years of community-driven arts in NE Portland. Street closures June-August (6-9pm) create pedestrian festival atmosphere. Year-round gallery openings indoors. Local artists can vend free - no permit needed. Unique Portland experience."
+      }
     },
     {
       "id": "portland-tree-lighting",
@@ -3710,7 +4295,14 @@
         "outdoor",
         "family_friendly",
         "new_to_area"
-      ]
+      ],
+      "notes": "Since 1984. 75-foot tree donated by Stimson Lumber. Pink Martini sing-along, 10,000 lights. 2025 was 41st annual.",
+      "practical_tips": {
+        "first_visit": "Arrive early for best viewing spot on the square's brick steps",
+        "registration": "None - free and open to all",
+        "what_to_bring": "Warm clothes, hot drinks welcome",
+        "good_to_know": "Since 1984 - Portland's official holiday kickoff. 75-foot tree with 10,000 lights. Pink Martini sing-along tradition. Arrives day after Thanksgiving. Right at MAX lines - easy transit access."
+      }
     },
     {
       "id": "peacock-lane",
@@ -3739,7 +4331,14 @@
         "outdoor",
         "family_friendly",
         "anxiety_friendly"
-      ]
+      ],
+      "notes": "Since 1932 (93 years). Historic Tudor homes. 2032 will be 100th anniversary.",
+      "practical_tips": {
+        "first_visit": "Visit on pedestrian-only nights (Dec 19-20) for best experience - no car traffic",
+        "registration": "None - just show up",
+        "what_to_bring": "Warm clothes, walking shoes. Cash for cocoa booth donations.",
+        "good_to_know": "Since 1932 - 93 years of tradition. Historic Tudor homes decorated with classic lights. Free cocoa booth Dec 15-24. Pedestrian-only nights Dec 19-20 recommended. Take TriMet - no official parking. 2032 will be 100th anniversary."
+      }
     },
     {
       "id": "gresham-music-parks",
@@ -3776,7 +4375,14 @@
         "outdoor",
         "low_energy",
         "anxiety_friendly"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Check greshamoregon.gov/Recreation for current schedule and locations",
+        "registration": "None - free and open to all",
+        "what_to_bring": "Blanket or lawn chairs, picnic food, bug spray",
+        "good_to_know": "Free summer concerts at rotating Gresham parks July-August. Every other Wednesday 6:30-8:30pm. Great family-friendly neighborhood events. Check schedule for park locations."
+      }
     },
     {
       "id": "wooden-shoe-tulip",
@@ -3806,7 +4412,14 @@
       "good_for": [
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Buy tickets online only - no gate sales. Weekdays less crowded.",
+        "registration": "Online ticket purchase required at woodenshoe.com",
+        "what_to_bring": "Camera, comfortable walking shoes, sunscreen, cash for food vendors",
+        "good_to_know": "40 acres of tulips in Willamette Valley. Peak bloom typically mid-April (weather dependent). Children 12 and under free. Seniors 65+ get discount. Food vendors on site. About 45 min from Portland."
+      }
     },
     {
       "id": "spring-garden-fair",
@@ -3834,7 +4447,14 @@
       "good_for": [
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Arrive early for best plant selection",
+        "registration": "Pay at gate",
+        "what_to_bring": "Wagon or cart for purchases, cash, sunscreen",
+        "good_to_know": "Largest plant sale in the region. Kids under 16 free. Two-day pass available if you want to return. Master Gardener advice available. In Canby - about 30 min from Portland."
+      }
     },
     {
       "id": "gresham-arts-festival",
@@ -3864,7 +4484,14 @@
         "outdoor",
         "family_friendly",
         "creative"
-      ]
+      ],
+      "notes": "150+ artists, kids village, live music, food trucks",
+      "practical_tips": {
+        "first_visit": "Main stage area is in downtown Gresham near Main City Park",
+        "registration": "None - free admission",
+        "what_to_bring": "Cash for food/art purchases, sunscreen, water",
+        "good_to_know": "150+ artists, kids village, live music, food trucks. Free family-friendly event in downtown Gresham. One of the region's largest free arts festivals."
+      }
     },
     {
       "id": "india-festival",
@@ -3893,7 +4520,14 @@
       "good_for": [
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": "10,000+ attendees, Indian dance, music, food",
+      "practical_tips": {
+        "first_visit": "Enter from any side of Pioneer Courthouse Square",
+        "registration": "None - free admission",
+        "what_to_bring": "Cash for food vendors, appetite for Indian food!",
+        "good_to_know": "10,000+ attendees celebrate Indian culture through dance, music, and food. All-day free event 10am-8pm. Excellent authentic food vendors. Central downtown location with easy MAX access."
+      }
     },
     {
       "id": "obon-festival",
@@ -3922,7 +4556,14 @@
         "outdoor",
         "family_friendly",
         "new_to_area"
-      ]
+      ],
+      "notes": "Japanese Buddhist festival, all welcome. Free dance practices held beforehand; no experience needed",
+      "practical_tips": {
+        "first_visit": "Arrive by 7pm for Bon Odori dancing - no experience needed",
+        "registration": "None - free and open to all",
+        "what_to_bring": "Cash for food, comfortable shoes for dancing",
+        "good_to_know": "Japanese Buddhist festival honoring ancestors - all welcome regardless of faith. Free dance practices held beforehand. Bon Odori circle dancing starts 7pm - everyone can join! Traditional food, taiko drums, cultural exhibits. Warm, welcoming community event."
+      }
     },
     {
       "id": "swan-island-dahlias",
@@ -3951,7 +4592,14 @@
         "outdoor",
         "anxiety_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Drive to Canby - about 30 min from Portland. Open Wed-Sun + Labor Day.",
+        "registration": "None - free entry",
+        "what_to_bring": "Camera, cash for flower purchases, sunscreen, comfortable shoes",
+        "good_to_know": "40 acres of dahlias with 400+ varieties - one of world's largest growers. Free to walk through fields. Peak bloom late August-September. Buy cut flowers or tubers to grow at home. Peaceful, uncrowded experience."
+      }
     },
     {
       "id": "clackamas-county-fair",
@@ -3979,7 +4627,14 @@
       "good_for": [
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": "Carnival, PRCA rodeo, livestock, multiple entertainment stages",
+      "practical_tips": {
+        "first_visit": "Check for discount admission days early in the week",
+        "registration": "Buy tickets at gate or online",
+        "what_to_bring": "Cash for food/games, comfortable walking shoes, sunscreen",
+        "good_to_know": "Classic county fair with carnival rides, PRCA rodeo, livestock exhibits, multiple entertainment stages. Early-week discount days available. In Canby - about 30 min from Portland."
+      }
     },
     {
       "id": "portland-polish-festival",
@@ -4007,7 +4662,14 @@
       "good_for": [
         "indoor",
         "family_friendly"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Located at Polish Hall on N Interstate Ave",
+        "registration": "None - free admission",
+        "what_to_bring": "Cash for food and crafts, appetite for pierogies!",
+        "good_to_know": "Free Polish cultural festival with traditional food (pierogies, kielbasa), folk dancing, music, crafts. Indoor venue at historic Polish Hall. Welcoming community atmosphere."
+      }
     },
     {
       "id": "portland-greek-festival",
@@ -4037,7 +4699,14 @@
         "indoor",
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Located at Holy Trinity Greek Orthodox Cathedral on NE Glisan",
+        "registration": "Pay $5 at door (kids under 12 free)",
+        "what_to_bring": "Cash for food (gyros, baklava!), comfortable shoes for dancing",
+        "good_to_know": "3-day festival of Greek food, music, and dancing. Cathedral tours available. Amazing food - gyros, souvlaki, baklava. Watch or join traditional Greek dancing. Festive, welcoming atmosphere."
+      }
     },
     {
       "id": "dia-muertos-gresham",
@@ -4067,7 +4736,14 @@
         "outdoor",
         "family_friendly",
         "grief"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Located at Gresham Arts Plaza downtown",
+        "registration": "None - free admission",
+        "what_to_bring": "Photos of loved ones to add to community ofrenda if desired, cash for food",
+        "good_to_know": "Free celebration of Mexican tradition honoring departed loved ones. Community ofrenda (altar), traditional food, music, sugar skull decorating. All welcome to participate and learn about this meaningful cultural celebration."
+      }
     },
     {
       "id": "happy-valley-july4",
@@ -4095,7 +4771,14 @@
       "good_for": [
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Arrive early for parking at Happy Valley Park",
+        "registration": "None - free admission",
+        "what_to_bring": "Blankets, chairs, picnic food, sunscreen",
+        "good_to_know": "Free community Fourth of July celebration. Live music, food vendors, kids activities. Fireworks typically at dusk. Great neighborhood event in Happy Valley."
+      }
     },
     {
       "id": "happy-valley-concerts",
@@ -4132,7 +4815,14 @@
         "family_friendly",
         "low_energy",
         "anxiety_friendly"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Happy Valley Park location - arrive early for best lawn spots",
+        "registration": "None - free admission",
+        "what_to_bring": "Blankets, lawn chairs, picnic food",
+        "good_to_know": "Free Thursday evening concerts July-August, 6-8pm. Family-friendly community event. Great way to relax and enjoy live music outdoors."
+      }
     },
     {
       "id": "happy-valley-oktoberfest",
@@ -4160,7 +4850,14 @@
       "good_for": [
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Happy Valley Park location",
+        "registration": "None - free admission",
+        "what_to_bring": "Cash for food/beer vendors",
+        "good_to_know": "Free community Oktoberfest celebration with German food, beer garden, live music. Family-friendly with kids activities. Great fall neighborhood event."
+      }
     },
     {
       "id": "happy-valley-tree-lighting",
@@ -4188,7 +4885,14 @@
       "good_for": [
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Located at Happy Valley City Hall area",
+        "registration": "None - free admission",
+        "what_to_bring": "Warm clothes, hot drinks welcome",
+        "good_to_know": "Free community tree lighting ceremony to kick off the holiday season. Hot cocoa, caroling, Santa visit. Family-friendly neighborhood celebration."
+      }
     },
     {
       "id": "portland-saturday-market",
@@ -4232,7 +4936,14 @@
         "creative",
         "family_friendly",
         "new_to_area"
-      ]
+      ],
+      "notes": "Largest continuously operating outdoor arts market in the U.S., 250+ vendors",
+      "practical_tips": {
+        "first_visit": "Enter from Waterfront Park - market stretches under Burnside Bridge",
+        "registration": "None - free admission",
+        "what_to_bring": "Cash (some vendors cash-only), reusable bags for purchases",
+        "good_to_know": "Largest continuously operating outdoor arts market in the U.S. 250+ vendors selling handmade crafts, art, and food. Live music at 11am and 2pm. Free to browse - no pressure to buy. Great people-watching and local culture experience."
+      }
     },
     {
       "id": "free-fishing-weekends",
@@ -4266,7 +4977,14 @@
         "anxiety_friendly",
         "family_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": {
+        "first_visit": "Find a fishing spot - many stocked ponds in Portland metro area",
+        "registration": "None - no license required on free weekends",
+        "what_to_bring": "Fishing gear (rod, tackle, bait), bucket/cooler, sunscreen",
+        "good_to_know": "No fishing license required statewide on these weekends. Three times per year (February, June, November). All other fishing regulations still apply (size/bag limits). Great introduction to fishing without cost of license."
+      }
     },
     {
       "id": "christmas-ships-parade",
@@ -4296,7 +5014,14 @@
         "outdoor",
         "family_friendly",
         "anxiety_friendly"
-      ]
+      ],
+      "notes": "15 nights of decorated boats on the rivers",
+      "practical_tips": {
+        "first_visit": "Check christmasships.org for nightly schedule showing which river section the fleet will be on",
+        "registration": "None - free to watch from anywhere along the river",
+        "what_to_bring": "Warm clothes, hot drinks, blankets if sitting riverside",
+        "good_to_know": "15 nights of decorated boats parading on the Columbia and Willamette Rivers. Free to view from any riverfront location. Fleet visits different areas each night - check schedule. Restaurants along the river offer viewing with dinner. Magical Portland holiday tradition."
+      }
     },
     {
       "id": "gresham-movies-in-park",
@@ -4326,7 +5051,14 @@
         "outdoor",
         "family_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": "Free outdoor movie series since 2022. Coordinated with Troutdale's program for more options.",
+      "practical_tips": {
+        "first_visit": "Arrive early to secure good spot - events start at 6:30pm",
+        "registration": null,
+        "what_to_bring": "Blankets, lawn chairs, snacks",
+        "good_to_know": "New LED technology allows earlier start times and double features"
+      }
     },
     {
       "id": "lake-oswego-summer-concerts",
@@ -4356,7 +5088,14 @@
         "outdoor",
         "family_friendly",
         "anxiety_friendly"
-      ]
+      ],
+      "notes": "Free outdoor concert series with local musicians.",
+      "practical_tips": {
+        "first_visit": "Arrive early for good seating",
+        "registration": null,
+        "what_to_bring": "Picnic blankets, low-back chairs, food/drinks",
+        "good_to_know": "Local musicians; family-friendly atmosphere"
+      }
     },
     {
       "id": "tualatin-concerts-in-parks",
@@ -4385,7 +5124,14 @@
       "good_for": [
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": "Free outdoor summer concert series featuring diverse music genres.",
+      "practical_tips": {
+        "first_visit": "Arrive early for good spot on the lawn",
+        "registration": null,
+        "what_to_bring": "Blankets, low chairs, picnic food (no food sold at venue)",
+        "good_to_know": "ADA parking at Atfalati Park and Tualatin Community Park lots"
+      }
     },
     {
       "id": "cascade-festival-african-films",
@@ -4414,7 +5160,14 @@
         "anxiety_friendly",
         "indoor",
         "creative"
-      ]
+      ],
+      "notes": "Free 5-week celebration of African cinema during Black History Month. 36 years running. Community discussions after films.",
+      "practical_tips": {
+        "first_visit": "Check schedule online - different films each weekend",
+        "registration": null,
+        "what_to_bring": null,
+        "good_to_know": "Shows Africa through African filmmakers' eyes, not Western perspective. Volunteer-run."
+      }
     },
     {
       "id": "jade-night-market",
@@ -4442,7 +5195,14 @@
         "family_friendly",
         "outdoor",
         "new_to_area"
-      ]
+      ],
+      "notes": "Portland's largest multicultural night market celebrating Jade District's diverse Asian and immigrant communities. Founded 2014.",
+      "practical_tips": {
+        "first_visit": "Arrive early for parking; bring cash for vendors",
+        "registration": null,
+        "what_to_bring": "Cash, comfortable shoes",
+        "good_to_know": "Very crowded - plan for large crowds. Great food variety."
+      }
     },
     {
       "id": "forest-park",
@@ -4469,7 +5229,9 @@
         "outdoor",
         "anxiety_friendly",
         "active"
-      ]
+      ],
+      "notes": "5,200 acres, 80+ miles of trails",
+      "practical_tips": "5,200 acres with 80+ miles of trails. Lower Macleay has ADA-accessible 0.2-mile paved segment. Take bus 15/26/77 to Lower Macleay or MAX to Oregon Zoo for Wildwood Trail. Quieter on weekday mornings."
     },
     {
       "id": "smith-bybee-wetlands",
@@ -4497,7 +5259,9 @@
         "anxiety_friendly",
         "outdoor",
         "low_energy"
-      ]
+      ],
+      "notes": "Largest urban freshwater wetland in US (2,000 acres). Very few visitors - good for social anxiety.",
+      "practical_tips": "Largest urban freshwater wetland in US (2,000 acres). Very few visitors - excellent for social anxiety. Paved 0.9-mile Interlakes Trail is fully accessible with two viewing platforms. Bus #11 to N. Marine Drive. Dawn to dusk."
     },
     {
       "id": "tryon-creek",
@@ -4516,7 +5280,8 @@
         {
           "name": "Saturday Guided Nature Walks",
           "schedule": "Saturdays 10am",
-          "cost": "FREE"
+          "cost": "FREE",
+          "notes": "Join a park naturalist for a one-hour hike through the forest. Topics vary weekly - from fungi to wildlife to seasonal themes. All ages welcome, geared toward ages 5+. No registration required - meet at the Nature Center at 10am."
         }
       ],
       "dates": null,
@@ -4532,7 +5297,9 @@
         "outdoor",
         "anxiety_friendly",
         "active"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "Park FREE; parking $10/day starting Oct 2025 (free if arriving by foot, bike, or bus #35). Trillium Trail is 0.25 mile paved and fully accessible. Free Saturday guided nature walks at 10am. Nature Center 9am-4pm daily."
     },
     {
       "id": "powell-butte",
@@ -4559,7 +5326,9 @@
         "anxiety_friendly",
         "outdoor",
         "active"
-      ]
+      ],
+      "notes": "611 acres, 360-degree views from meadow summit. Weekday mornings quieter.",
+      "practical_tips": "FREE entry. 611 acres with 360-degree views from meadow summit. Visitor Center open Wed-Sun 9am-3pm. Bus #9 or #74. Weekday mornings are quieter. Mix of open meadow and forested trails."
     },
     {
       "id": "oaks-bottom",
@@ -4586,7 +5355,9 @@
         "anxiety_friendly",
         "outdoor",
         "low_energy"
-      ]
+      ],
+      "notes": "Portland's first wildlife refuge, 175+ bird species, very few visitors",
+      "practical_tips": "Portland's first wildlife refuge with 175+ bird species. Very few visitors - excellent for anxiety. FREE entry. Near Sellwood neighborhood. Good for birding and quiet walks. Mostly flat trails."
     },
     {
       "id": "cooper-mountain",
@@ -4613,7 +5384,9 @@
         "anxiety_friendly",
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": "Opened 2009. Owned by Metro, maintained by THPRD. Views of Chehalem Mountains and Tualatin Valley.",
+      "practical_tips": "FREE entry with 231 acres and 3+ miles of trails. 3/4-mile wheelchair-accessible loop. Nature-inspired playground. Nature House programs available. No dogs/pets allowed. Views of Chehalem Mountains. Usually quiet."
     },
     {
       "id": "oxbow-regional-park",
@@ -4646,7 +5419,9 @@
         "outdoor",
         "anxiety_friendly",
         "active"
-      ]
+      ],
+      "notes": "Old-growth forest with 700-year-old trees",
+      "practical_tips": "Old-growth forest with 700-year-old trees. $5/car or $40 annual pass. 16+ free days annually - check Metro website. Fee waivers available for programs (~$6/person). Guided hikes, campfire programs, mushroom walks offered."
     },
     {
       "id": "tualatin-river-nwr",
@@ -4681,7 +5456,9 @@
         "anxiety_friendly",
         "family_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": "Est. 1992. 900+ acres. 200+ bird species. Part of Tualatin River NWR Complex with Wapato Lake NWR. Flagship urban refuge.",
+      "practical_tips": "FREE entry and all programs free. Visitor Center Tue-Sun 10am-4pm. Trails dawn to dusk. Wetland Trail open May-Sept only. Programs include Puddle Stompers (ages 2-5), Owl Prowl, ranger-led hikes. 200+ bird species."
     },
     {
       "id": "hoyt-arboretum",
@@ -4721,7 +5498,9 @@
         "outdoor",
         "anxiety_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": "Living museum of trees. Trail maps in English and Spanish.",
+      "practical_tips": "Grounds FREE, parking $2/hour or $8/day. Free public tours Sundays 11am April-October. Free shuttle stops at Visitor Center. Trail maps in English and Spanish. Living museum of trees. Visitor Center open 10am-4pm daily."
     },
     {
       "id": "bird-alliance-oregon",
@@ -4751,7 +5530,9 @@
         "outdoor",
         "anxiety_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": "Name changed from Portland Audubon in Feb 2024. Upper Macleay in Forest Park (adjacent) is dog-friendly.",
+      "practical_tips": "FREE 172-acre Wildlife Sanctuary with 4+ miles of trails. Loaner binoculars and field guides available. Free bird walks year-round. No dogs allowed. Dawn to dusk. Adjacent to Forest Park. Great for birding beginners."
     },
     {
       "id": "gresham-splash-pads",
@@ -4781,7 +5562,9 @@
         "family_friendly",
         "outdoor",
         "active"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "FREE splash pads at Gresham Arts Plaza (10am-10pm) and Rockwood Plaza (8am-9pm). Seasonal May-September. Bring towels and sunscreen. Good for cooling off on hot days. Both locations have other amenities nearby."
     },
     {
       "id": "blue-lake-disc-golf",
@@ -4808,7 +5591,9 @@
         "outdoor",
         "active",
         "anxiety_friendly"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "FREE 18-hole championship-level disc golf course. Parking $5 or $40 annual Metro pass. Bring your own discs. Can be busy on weekends. Good exercise and can be done solo. Beautiful lakeside setting."
     },
     {
       "id": "main-city-park-gresham",
@@ -4852,7 +5637,14 @@
         "active",
         "anxiety_friendly",
         "family_friendly"
-      ]
+      ],
+      "notes": "Central Gresham park hosting festivals, concerts, and community events. Tsuru Island Japanese Garden maintained by volunteers since 1970s.",
+      "practical_tips": {
+        "first_visit": "Don't miss Tsuru Island Japanese Garden within the park",
+        "registration": null,
+        "what_to_bring": "Picnic supplies; leash for dogs outside off-leash area",
+        "good_to_know": "Hosts many free community events throughout the year"
+      }
     },
     {
       "id": "graham-oaks",
@@ -4879,7 +5671,9 @@
         "outdoor",
         "anxiety_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "FREE entry. Restored oak woodland and wetlands in Wilsonville. Metro nature park with quiet trails. Usually not crowded. Good for nature walks and birding."
     },
     {
       "id": "scouters-mountain",
@@ -4906,7 +5700,9 @@
         "outdoor",
         "anxiety_friendly",
         "active"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "FREE entry in Happy Valley. Shady trails with Mount Hood views. Metro nature park. Usually quiet. Good for hiking and nature observation."
     },
     {
       "id": "mount-talbert",
@@ -4933,7 +5729,9 @@
         "outdoor",
         "anxiety_friendly",
         "active"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "FREE entry in Clackamas. Forested trails through second-growth forest. Metro nature park. Usually quiet. Good for moderate hiking."
     },
     {
       "id": "cook-park-tigard",
@@ -4961,7 +5759,14 @@
         "family_friendly",
         "anxiety_friendly",
         "active"
-      ]
+      ],
+      "notes": "Largest and most popular park in Tigard, on the Tualatin River. Connects to Fanno Creek Greenway Trail system.",
+      "practical_tips": {
+        "first_visit": "Start at main parking lot for playground and butterfly garden access",
+        "registration": null,
+        "what_to_bring": "Picnic supplies; leash for dogs",
+        "good_to_know": "New inclusive playground has wheelchair-accessible features and soft surfaces"
+      }
     },
     {
       "id": "tualatin-community-park",
@@ -4988,7 +5793,14 @@
         "outdoor",
         "family_friendly",
         "active"
-      ]
+      ],
+      "notes": "Tualatin's main park with excellent facilities including award-winning skate park and river access.",
+      "practical_tips": {
+        "first_visit": "Skate park is a highlight - award-winning design",
+        "registration": "Reserve shelters through City of Tualatin",
+        "what_to_bring": "Picnic supplies, sports equipment",
+        "good_to_know": "Lit facilities stay open until 10:30pm"
+      }
     },
     {
       "id": "south-barlow-berries",
@@ -5022,7 +5834,9 @@
         "outdoor",
         "family_friendly",
         "active"
-      ]
+      ],
+      "notes": "Most accessible option for peer support programs - accepts EBT",
+      "practical_tips": "Accepts Oregon Trail Card (EBT/SNAP), Senior Farm Direct Vouchers, and WIC Vouchers. Seasonal June-August. Bring containers or buckets for berries. Cash or card accepted. Best to arrive early on hot days."
     },
     {
       "id": "columbia-farms",
@@ -5055,7 +5869,9 @@
         "outdoor",
         "anxiety_friendly",
         "active"
-      ]
+      ],
+      "notes": "Quiet, non-festival atmosphere - good for calmer environments",
+      "practical_tips": "Quiet, non-festival atmosphere ideal for those who prefer calmer environments. Accepts Farm Direct Vouchers. Free pint boxes provided. 15+ berry varieties. On Sauvie Island. Seasonal June-August."
     },
     {
       "id": "blanchet-house",
@@ -5082,7 +5898,9 @@
       "good_for": [
         "indoor",
         "low_energy"
-      ]
+      ],
+      "notes": "Serving since 1952. ~1,200 meals daily. Sit-down indoor dining, vegetarian options, dogs allowed if leashed. Wednesday is spaghetti night. No questions asked.",
+      "practical_tips": "No questions asked - just show up. Sit-down indoor dining with vegetarian options. Dogs allowed if leashed. Wednesday is spaghetti night. Serving since 1952. Downtown Old Town location."
     },
     {
       "id": "sisters-of-the-road",
@@ -5110,7 +5928,9 @@
       "good_for": [
         "indoor",
         "isolation"
-      ]
+      ],
+      "notes": "Welcoming community space emphasizing dignity and autonomy",
+      "practical_tips": "Pay-what-you-can or work 15 minutes for a meal through barter program. Welcoming community space emphasizing dignity and autonomy. Downtown Old Town location. A gathering place, not just a meal program."
     },
     {
       "id": "portland-rescue-mission",
@@ -5137,7 +5957,9 @@
       "good_for": [
         "indoor",
         "low_energy"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "Open 365 days per year. Breakfast at 7am, dinner at 6pm daily. Weekend lunch at 12:30pm. No questions asked. Downtown Old Town/Burnside location. Can be crowded during meal times."
     },
     {
       "id": "sikh-center-langar",
@@ -5164,7 +5986,9 @@
         "indoor",
         "new_to_area",
         "isolation"
-      ]
+      ],
+      "notes": "Free vegetarian meals based on 500-year-old Sikh tradition (Langar). 150-200 people served weekly. All welcome regardless of religion. Remove shoes, cover head (scarves provided). Food served in separate area - no need to attend religious service.",
+      "practical_tips": "Free vegetarian meals Sundays 11am-2:15pm. All welcome regardless of religion. Remove shoes and cover head (scarves provided). Food served in separate area - no need to attend religious service. Gurdwara open daily 7am-9pm."
     },
     {
       "id": "loaves-fishes",
@@ -5192,7 +6016,9 @@
         "indoor",
         "isolation",
         "low_energy"
-      ]
+      ],
+      "notes": "30+ dining centers operated by Meals on Wheels People",
+      "practical_tips": "For adults 60+ regardless of income. Suggested $10.50 donation but pay what you can afford. Lunches Mon-Thu at various locations throughout Portland metro. Social dining experience. Call ahead to confirm hours at specific location."
     },
     {
       "id": "pumpkin-patch-olson",
@@ -5221,7 +6047,9 @@
       "good_for": [
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": "Operating since 1906",
+      "practical_tips": "FREE entry with flat-rate pumpkins. Free hayrides included. Operating since 1906. Less commercialized than some pumpkin patches. Good for a simple, traditional fall experience. October only."
     },
     {
       "id": "pumpkin-patch-sauvie",
@@ -5249,7 +6077,9 @@
       "good_for": [
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "FREE entry on Sauvie Island. Corn maze is $8-10 extra. Popular destination - can be crowded on weekends. Good for families. October only. Sauvie Island parking pass may be required."
     },
     {
       "id": "snowcap-garden",
@@ -5276,7 +6106,9 @@
         "outdoor",
         "low_energy",
         "anxiety_friendly"
-      ]
+      ],
+      "notes": "Most plots are handicapped accessible",
+      "practical_tips": "FREE garden plots for low-income residents east of 82nd Ave. Most plots are handicapped accessible. Good therapeutic activity. East Portland location. Apply for a plot through SnowCap Community Charities."
     },
     {
       "id": "outgrowing-hunger",
@@ -5303,7 +6135,9 @@
         "outdoor",
         "active",
         "isolation"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "Drop in and farm for 2 hours, then leave with free produce. No registration needed. At Rosewood Neighborhood Garden in East Portland. Good way to combine exercise with food access. Tools provided."
     },
     {
       "id": "clackamas-service-center",
@@ -5329,7 +6163,14 @@
       "good_for": [
         "indoor",
         "low_energy"
-      ]
+      ],
+      "notes": "Largest food pantry in Clackamas County. Also offers pop-up sites at elementary schools.",
+      "practical_tips": {
+        "first_visit": "Bring current piece of mail (within 30 days) as proof of address",
+        "registration": null,
+        "what_to_bring": "ID and proof of Clackamas County address",
+        "good_to_know": "Largest food pantry in Clackamas County with 51-year history"
+      }
     },
     {
       "id": "gleaners-clackamas",
@@ -5355,7 +6196,14 @@
       "good_for": [
         "indoor",
         "low_energy"
-      ]
+      ],
+      "notes": "Member-based, all-volunteer food share organization serving Clackamas County since 1981.",
+      "practical_tips": {
+        "first_visit": "Contact to learn about membership and income guidelines",
+        "registration": "Membership required to access food assistance",
+        "what_to_bring": null,
+        "good_to_know": "All-volunteer organization established in 1981"
+      }
     },
     {
       "id": "lake-oswego-farmers-market",
@@ -5384,7 +6232,14 @@
       "good_for": [
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": "One of the best farmers' markets for SNAP users due to matching program.",
+      "practical_tips": {
+        "first_visit": "SNAP matching booth usually near entrance",
+        "registration": null,
+        "what_to_bring": "Oregon Trail Card/EBT for SNAP matching",
+        "good_to_know": "SNAP matching effectively doubles your food budget at the market"
+      }
     },
     {
       "id": "gresham-farmers-market",
@@ -5414,7 +6269,14 @@
       "good_for": [
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": "One of three markets in Gresham area. EBT purple tokens available at info booth.",
+      "practical_tips": {
+        "first_visit": "Info booth near entrance has EBT tokens, ATM, and market information",
+        "registration": null,
+        "what_to_bring": "EBT card, reusable bags, cash or card for tokens",
+        "good_to_know": "One of the longest-running farmers markets in the region"
+      }
     },
     {
       "id": "rockwood-community-market",
@@ -5443,7 +6305,14 @@
       "good_for": [
         "outdoor",
         "new_to_area"
-      ]
+      ],
+      "notes": "Evening market serving the diverse Rockwood community.",
+      "practical_tips": {
+        "first_visit": "Located in heart of Rockwood neighborhood",
+        "registration": null,
+        "what_to_bring": "Cash, reusable bags",
+        "good_to_know": "Evening market - good for after-work shopping"
+      }
     },
     {
       "id": "pdx-board-games-meetup",
@@ -5484,7 +6353,9 @@
         "isolation",
         "new_to_area",
         "indoor"
-      ]
+      ],
+      "notes": "Explicitly welcoming to newcomers",
+      "practical_tips": "FREE - just buy food/drink from venue. Tuesdays at CORE Food Carts (82nd Ave, 5pm) and Wednesdays at Board Bard Games (5pm). Explicitly welcoming to newcomers. Games provided. All skill levels welcome. Check Meetup.com/pdxgames for full schedule and additional events."
     },
     {
       "id": "milwaukie-community-center",
@@ -5530,7 +6401,14 @@
         "isolation",
         "low_energy",
         "indoor"
-      ]
+      ],
+      "notes": "Primary hub for older adults in North Clackamas. Meals on Wheels program delivers 300+ meals daily.",
+      "practical_tips": {
+        "first_visit": "Stop by during office hours to get oriented to services",
+        "registration": "Many programs available through ncprd.org or by calling 503-794-8092",
+        "what_to_bring": null,
+        "good_to_know": "Opened in 1980; comprehensive resource for older adults and families"
+      }
     },
     {
       "id": "write-around-portland",
@@ -5570,7 +6448,9 @@
         "creative",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "FREE 10-week writing workshops with trauma-informed approach. Serves marginalized populations at hospitals, shelters, senior centers, treatment facilities. Public readings at First United Methodist Church. No writing experience needed."
     },
     {
       "id": "friends-of-trees",
@@ -5598,7 +6478,9 @@
         "isolation",
         "active",
         "new_to_area"
-      ]
+      ],
+      "notes": "Highly social tree-planting events. No experience needed, all ages welcome.",
+      "practical_tips": "FREE tree-planting events on weekend mornings fall through spring. Gloves, tools, breakfast, coffee/tea provided. Potluck lunch afterward. No experience needed, all ages welcome. Highly social atmosphere."
     },
     {
       "id": "solve-oregon",
@@ -5615,15 +6497,18 @@
       "programs": [
         {
           "name": "Oregon Spring Cleanup",
-          "schedule": "April"
+          "schedule": "April",
+          "notes": "Statewide volunteer cleanup in April. Join thousands of volunteers removing litter from parks, trails, and waterways. Equipment and supplies provided. Register online for a site near you."
         },
         {
           "name": "Beach/Riverside Cleanup",
-          "schedule": "September"
+          "schedule": "September",
+          "notes": "Annual coastal and river cleanup in September. Help remove debris from Oregon's beaches and riverbanks. Equipment provided. Great way to enjoy the outdoors while giving back."
         },
         {
           "name": "Pick It Up, Portland!",
-          "schedule": "Year-round neighborhood cleanups"
+          "schedule": "Year-round neighborhood cleanups",
+          "notes": "Ongoing neighborhood cleanups throughout the year. Flexible scheduling lets you volunteer when it works for you. Equipment provided. Perfect for those wanting regular outdoor volunteer opportunities."
         }
       ],
       "dates": null,
@@ -5638,7 +6523,9 @@
         "outdoor",
         "active",
         "isolation"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "FREE environmental cleanups throughout the year. Oregon Spring Cleanup (April), Beach/Riverside Cleanup (September), Pick It Up Portland (year-round). Equipment provided. No experience needed. Good for giving back to community."
     },
     {
       "id": "oregon-food-bank-volunteer",
@@ -5666,7 +6553,9 @@
         "isolation",
         "active",
         "indoor"
-      ]
+      ],
+      "notes": "Team-oriented volunteer shifts",
+      "practical_tips": "FREE team-oriented volunteer shifts Monday-Saturday, 2-3 hours each. Book online at oregonfoodbank.org. Sorting food with other volunteers. Good for those wanting to help fight hunger. Indoor warehouse work."
     },
     {
       "id": "multnomah-arts-center",
@@ -5701,7 +6590,9 @@
         "creative",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Sliding-scale arts education",
+      "practical_tips": "Pay What You Can options with Access Discount Program available. Classes in drawing, painting, ceramics, textiles, photography, writing. In SW Portland. Register through Portland Parks. All skill levels welcome."
     },
     {
       "id": "northwest-wools",
@@ -5719,7 +6610,8 @@
         {
           "name": "Crafting Compassion",
           "schedule": "Tuesdays 3-5pm",
-          "cost": "FREE"
+          "cost": "FREE",
+          "notes": "Drop-in fiber arts session every Tuesday. Knit, crochet, or try other crafts while chatting with fellow crafters. Projects are donated to charity. Supplies provided or bring your own. All skill levels welcome\u2014beginners encouraged!"
         }
       ],
       "dates": null,
@@ -5735,7 +6627,9 @@
         "indoor",
         "low_energy",
         "isolation"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "FREE Crafting Compassion drop-in Tuesdays 3-5pm. Knitting, crocheting, and other fiber arts. Projects donated to charity. Supplies provided or bring your own. All skill levels welcome."
     },
     {
       "id": "puddletown-knitters",
@@ -5770,7 +6664,9 @@
         "creative",
         "indoor",
         "isolation"
-      ]
+      ],
+      "notes": null,
+      "practical_tips": "FREE monthly meetings 2nd Thursday 7-9pm, September through May. At Rose City Park Presbyterian Church. Guild membership available but visitors always welcome. Knitting-focused with programs and presentations."
     },
     {
       "id": "pioneer-community-center",
@@ -5820,7 +6716,14 @@
         "isolation",
         "low_energy",
         "indoor"
-      ]
+      ],
+      "notes": "Serves adults 21 and older. Mission to promote active, healthy, independent living.",
+      "practical_tips": {
+        "first_visit": "Multi-purpose center for adults 21+; welcoming atmosphere",
+        "registration": "Contact center or visit orcity.org for class registration",
+        "what_to_bring": null,
+        "good_to_know": "Has peace garden and park benches; near public transit"
+      }
     },
     {
       "id": "lake-oswego-acc",
@@ -5881,7 +6784,14 @@
         "isolation",
         "low_energy",
         "indoor"
-      ]
+      ],
+      "notes": "Nationally accredited senior center offering comprehensive services since 1970.",
+      "practical_tips": {
+        "first_visit": "First senior center in Clackamas County (est. 1970)",
+        "registration": null,
+        "what_to_bring": null,
+        "good_to_know": "Third senior center nationally to receive accreditation"
+      }
     },
     {
       "id": "clackamas-adrc",
@@ -5907,7 +6817,14 @@
       "good_for": [
         "anxiety_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": "Central hub connecting people to 10+ community adult centers throughout Clackamas County.",
+      "practical_tips": {
+        "first_visit": null,
+        "registration": null,
+        "what_to_bring": null,
+        "good_to_know": "Central resource for navigating services for older adults and people with disabilities in Clackamas County"
+      }
     },
     {
       "id": "tigard-senior-center",
@@ -5935,7 +6852,14 @@
       "good_for": [
         "isolation",
         "low_energy"
-      ]
+      ],
+      "notes": "Partnership between City of Tigard and Meals on Wheels People. Welcoming atmosphere with friendly staff and varied programming.",
+      "practical_tips": {
+        "first_visit": "Stop by to pick up monthly activity calendar",
+        "registration": "Most activities are drop-in; some classes may require signup",
+        "what_to_bring": "ID for meal program; comfortable clothes for exercise",
+        "good_to_know": "Pool table available 8:30am-5pm daily, plus Tue/Thu evenings"
+      }
     },
     {
       "id": "elsie-stuhr-center",
@@ -5989,7 +6913,14 @@
         "isolation",
         "low_energy",
         "active"
-      ]
+      ],
+      "notes": "THPRD's only recreation center dedicated to 55+ adults. Warm, welcoming community with diverse programming.",
+      "practical_tips": {
+        "first_visit": "Take a tour to see all the amenities",
+        "registration": "Create free THPRD account for class registration",
+        "what_to_bring": "Comfortable clothes for fitness activities",
+        "good_to_know": "Coffee bar is a great place to meet people and chat"
+      }
     },
     {
       "id": "juanita-pohl-center",
@@ -6069,7 +7000,14 @@
         "isolation",
         "low_energy",
         "active"
-      ]
+      ],
+      "notes": "Active aging center with diverse programming from fitness to legal aid. Spanish-language support group available.",
+      "practical_tips": {
+        "first_visit": "Stop by for JPC Prime Times calendar of activities",
+        "registration": "Some classes require registration; many are drop-in",
+        "what_to_bring": "Comfortable clothes for fitness classes",
+        "good_to_know": "Free legal consultations cover estate planning and elder law"
+      }
     },
     {
       "id": "repair-pdx",
@@ -6147,7 +7085,14 @@
         "creative",
         "indoor",
         "new_to_area"
-      ]
+      ],
+      "notes": "Operating since 2013. Part of global Repair Caf\u00e9 movement promoting sustainability and community connection. Great for learning basic repair skills.",
+      "practical_tips": {
+        "first_visit": "Fill out the Google Form before arriving to let them know what you're bringing",
+        "registration": "Registration form recommended but not required",
+        "what_to_bring": "Broken items (small appliances, bikes, clothing with tears). Items should be portable.",
+        "good_to_know": "Volunteer fixers donate their time and expertise. Not all items can be fixed but they'll try! Great way to learn repair skills yourself. Coffee and community atmosphere."
+      }
     },
     {
       "id": "west-linn-repair-fair",
@@ -6176,7 +7121,13 @@
         "anxiety_friendly",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Clackamas County repair event. Check repairpdx.org/repair-events for additional dates.",
+      "practical_tips": {
+        "first_visit": "Just show up with your broken items",
+        "what_to_bring": "Broken household items that are portable",
+        "good_to_know": "Run by Clackamas County - great option for Clackamas County residents"
+      }
     },
     {
       "id": "lone-fir-cemetery-tours",
@@ -6263,7 +7214,14 @@
         "creative",
         "new_to_area",
         "low_energy"
-      ]
+      ],
+      "notes": "501(c)(3) nonprofit preserving cemetery history since 2000. One of Portland's most beautiful and historic green spaces. Final resting place of many Portland pioneers.",
+      "practical_tips": {
+        "first_visit": "Meet at the Soldiers Monument near SE 26th & Stark. Arrive 5-10 minutes early.",
+        "registration": "Purchase tickets online via Square site before the tour",
+        "what_to_bring": "Comfortable walking shoes, water, weather-appropriate clothing. Tours are outdoors.",
+        "good_to_know": "Portland's oldest cemetery (1855). Beautiful grounds with mature trees. Tours run rain or shine. Free self-guided tours available via smartphone app or downloadable PDFs. Private group tours available for 6+ people."
+      }
     },
     {
       "id": "nami-washington-county",
@@ -6303,7 +7261,14 @@
         "anxiety_friendly",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Washington County chapter of NAMI. Provides education, support, and advocacy for people affected by mental illness.",
+      "practical_tips": {
+        "first_visit": "Check website or call for current meeting schedule",
+        "registration": "Registration may be required for some groups",
+        "what_to_bring": "Nothing required - just yourself",
+        "good_to_know": "Part of the national NAMI network. Partners with MHAAO for PeerZone workshops. Serves all of Washington County."
+      }
     },
     {
       "id": "alano-club-portland",
@@ -6373,7 +7338,14 @@
         "anxiety_friendly",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Portland's premier recovery community center with over 100 weekly meetings for various 12-step and secular recovery programs.",
+      "practical_tips": {
+        "first_visit": "Just walk in - no appointment needed. Check meeting schedule online first.",
+        "registration": "None required",
+        "what_to_bring": "Nothing required",
+        "good_to_know": "Over 100 weekly meetings including AA, NA, Al-Anon, SMART Recovery, and specialty groups. One of the largest recovery community centers in Portland. Coffee available at most meetings."
+      }
     },
     {
       "id": "bridges-to-change-club-hope",
@@ -6418,7 +7390,14 @@
         "anxiety_friendly",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Peer-run recovery center in Gresham. 98% of staff identify as in recovery. Also provides housing and mobile outreach services.",
+      "practical_tips": {
+        "first_visit": "Drop-in anytime during open hours - no appointment needed",
+        "registration": "None required",
+        "what_to_bring": "Nothing required",
+        "good_to_know": "Staff are peers in recovery themselves. Also operates housing programs and mobile outreach (Acute Care Team). Located in Gresham, serving East Portland and East County."
+      }
     },
     {
       "id": "community-positive-aging",
@@ -6466,7 +7445,14 @@
         "anxiety_friendly",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Multi-service senior center. Hosts NAMI Multnomah meetings. Focused on positive aging with social, wellness, and support programs.",
+      "practical_tips": {
+        "first_visit": "Call or email to learn about current support groups",
+        "registration": "Contact staff to register for groups",
+        "what_to_bring": "Nothing required",
+        "good_to_know": "Also hosts NAMI Multnomah in-person meetings on-site. Multi-purpose senior center with various programs including support groups, social activities, and wellness classes."
+      }
     },
     {
       "id": "winter-light-festival",
@@ -6497,7 +7483,14 @@
         "creative",
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": "Portland's annual winter light art festival. Free citywide event with installations at multiple locations.",
+      "practical_tips": {
+        "first_visit": "Check website for map of installations and anchor site locations",
+        "registration": "None required",
+        "what_to_bring": "Warm clothing - this is an outdoor winter event",
+        "good_to_know": "11th anniversary of the festival. Features large-scale interactive art installations, performances, and pop-ups across Portland. Best experienced after dark."
+      }
     },
     {
       "id": "good-in-the-hood",
@@ -6528,7 +7521,14 @@
         "family_friendly",
         "outdoor",
         "creative"
-      ]
+      ],
+      "notes": "Portland's longest-running multicultural festival celebrating diverse communities in North/Northeast Portland.",
+      "practical_tips": {
+        "first_visit": "Arrive early on Saturday/Sunday for best parking and seating",
+        "registration": "None required for general admission",
+        "what_to_bring": "Sunscreen, lawn chair or blanket, cash for vendors",
+        "good_to_know": "Portland's largest and longest-running multicultural music and food festival. 2026 theme \"Back in Stride Again\" with R&B legend Cherrelle and Surface as headliners. Features parade, live music, complimentary haircuts/braiding, puppet shows."
+      }
     },
     {
       "id": "washington-county-fair",
@@ -6557,7 +7557,14 @@
       "good_for": [
         "family_friendly",
         "outdoor"
-      ]
+      ],
+      "notes": "One of the few county fairs with completely free admission.",
+      "practical_tips": {
+        "first_visit": "Check website for entertainment schedule and map",
+        "registration": "None required",
+        "what_to_bring": "Cash for food and activities, sunscreen, comfortable walking shoes",
+        "good_to_know": "Free admission makes this one of the best fair values in the region. Features exhibits, entertainment, food vendors, and family activities. Over 100,000 attendees annually."
+      }
     },
     {
       "id": "pedalpalooza",
@@ -6588,7 +7595,14 @@
         "outdoor",
         "isolation",
         "family_friendly"
-      ]
+      ],
+      "notes": "Portland's famous summer bike festival. Most rides are free and open to all skill levels.",
+      "practical_tips": {
+        "first_visit": "Check the Shift to Bikes calendar for current rides",
+        "registration": "None required for most rides",
+        "what_to_bring": "Bike, helmet, lights, water, layers",
+        "good_to_know": "Portland's season-long cycling festival with 800+ events led by 600+ ride leaders. Includes family-friendly rides, Midnight Mystery Ride, Breakfast on the Bridges, World Naked Bike Ride, and Multnomah County Bike Fair."
+      }
     },
     {
       "id": "urban-gleaners",
@@ -6614,7 +7628,14 @@
       "good_for": [
         "anxiety_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": "Rescues food before it goes to waste and distributes through 21+ free public markets. Completely barrier-free access.",
+      "practical_tips": {
+        "first_visit": "Use the online Food Finder to locate your nearest market",
+        "registration": "None required (unless Oregon Food Bank affiliated site)",
+        "what_to_bring": "Bring your own bags, arrive 10-15 minutes early",
+        "good_to_know": "Markets offer fresh fruits, vegetables, baked goods, dairy, and prepared meals. Food is rescued before it goes to waste. Completely barrier-free - no income verification."
+      }
     },
     {
       "id": "pdx-free-fridge",
@@ -6640,7 +7661,14 @@
       "good_for": [
         "anxiety_friendly",
         "low_energy"
-      ]
+      ],
+      "notes": "Community mutual aid project. Take what you need, leave what you can. Fridges cleaned and stocked by volunteers.",
+      "practical_tips": {
+        "first_visit": "Check the website map for fridge locations near you",
+        "registration": "None required",
+        "what_to_bring": "Nothing - just take what you need",
+        "good_to_know": "Community-run mutual aid network of fridges and pantries. Fridges contain vegetables, fruit, protein, snacks, cooked meals (labeled with ingredients/date), and sometimes hygiene products. Volunteer-maintained and cleaned daily."
+      }
     },
     {
       "id": "hollywood-farmers-market",
@@ -6669,7 +7697,14 @@
         "anxiety_friendly",
         "outdoor",
         "family_friendly"
-      ]
+      ],
+      "notes": "One of Portland's best farmers markets with full SNAP/EBT support and Double Up Food Bucks matching.",
+      "practical_tips": {
+        "first_visit": "Find the info booth to exchange SNAP benefits for green tokens",
+        "registration": "None required",
+        "what_to_bring": "Reusable bags, SNAP/EBT card if using benefits",
+        "good_to_know": "Operating since 1997. Green tokens available for SNAP in $1 increments. Great for fresh, local produce with no surcharge on EBT. Double Up Food Bucks doubles your purchasing power on fruits and vegetables."
+      }
     },
     {
       "id": "meals-on-wheels-people",
@@ -6697,7 +7732,14 @@
       "good_for": [
         "isolation",
         "low_energy"
-      ]
+      ],
+      "notes": "More than a meal service - provides nutrition, connection, and wellness checks for seniors.",
+      "practical_tips": {
+        "first_visit": "Call to sign up for home delivery or find your nearest dining center",
+        "registration": "Required for home delivery",
+        "what_to_bring": "Nothing for dining centers",
+        "good_to_know": "Delivers 25,000+ healthy meals weekly. Over 35 dining centers with activities and social connection. Not just food - also provides connection and wellness checks."
+      }
     },
     {
       "id": "ppr-summer-free-for-all",
@@ -6747,7 +7789,14 @@
         "outdoor",
         "isolation",
         "low_energy"
-      ]
+      ],
+      "notes": "Portland's flagship summer program with free movies, concerts, and cultural events at parks citywide.",
+      "practical_tips": {
+        "first_visit": "Check website for schedule and park locations",
+        "registration": "None required",
+        "what_to_bring": "Blanket, picnic food, layers for evening",
+        "good_to_know": "Movies and concerts run all summer at various parks. Closed captioning, sign language interpreters, and FM loop amplifiers available for all events. Great for families."
+      }
     },
     {
       "id": "prism-moves",
@@ -6785,7 +7834,14 @@
         "active",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Inclusive nonprofit gym focused on serving underrepresented communities. Free weekly BIPOC class plus sliding scale memberships.",
+      "practical_tips": {
+        "first_visit": "Check website for class schedule and sign up online",
+        "registration": "Required - sign up via website",
+        "what_to_bring": "Comfortable workout clothes, water",
+        "good_to_know": "Nonprofit inclusive strength and conditioning gym intentionally serving women, BIPOC, LGBTQ+, and larger-bodied individuals. Sliding scale makes membership affordable."
+      }
     },
     {
       "id": "portland-strength-collective",
@@ -6812,7 +7868,14 @@
         "active",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Free weekly community workout open to all levels.",
+      "practical_tips": {
+        "first_visit": "Check website for location and time",
+        "registration": "None required",
+        "what_to_bring": "Comfortable workout clothes, water",
+        "good_to_know": "Free all-levels community workout with friendly coaches offering tips and modifications. Great way to try strength training in a supportive environment."
+      }
     },
     {
       "id": "peoples-yoga",
@@ -6840,7 +7903,14 @@
         "anxiety_friendly",
         "active",
         "indoor"
-      ]
+      ],
+      "notes": "Community-supported yoga studio with scholarship memberships funded by other members.",
+      "practical_tips": {
+        "first_visit": "Check website for scholarship application and class schedule",
+        "registration": "Required for scholarship membership",
+        "what_to_bring": "Yoga mat (mats available), comfortable clothes",
+        "good_to_know": "Community-focused yoga studio where members fund scholarship memberships for others. About 30 scholarship memberships funded monthly. Work/study positions also available in exchange for free membership."
+      }
     },
     {
       "id": "fat-girls-hiking-portland",
@@ -6868,7 +7938,14 @@
         "outdoor",
         "isolation",
         "new_to_area"
-      ]
+      ],
+      "notes": "Fat-positive, inclusive hiking group founded in Portland. Welcoming to all body types.",
+      "practical_tips": {
+        "first_visit": "Check website or social media for upcoming hike schedule",
+        "registration": "Check listing for each hike",
+        "what_to_bring": "Sturdy shoes, water, snacks, layers",
+        "good_to_know": "Founded in Portland. Offers fat-positive, inclusive, and accessible group hikes. All body types welcome. Focus on enjoyment, not pace."
+      }
     },
     {
       "id": "adaptive-sports-northwest",
@@ -6911,7 +7988,14 @@
       "good_for": [
         "active",
         "isolation"
-      ]
+      ],
+      "notes": "Premier adaptive sports organization in the region. Paralympic Sport Club recognized by Team USA.",
+      "practical_tips": {
+        "first_visit": "Contact via email or website to learn about programs",
+        "registration": "Membership required",
+        "what_to_bring": "Depends on activity",
+        "good_to_know": "Providing adaptive sports since 1982 for children and adults with physical disabilities in Oregon and SW Washington. Paralympic Sport Club recognized by Team USA."
+      }
     },
     {
       "id": "every-body-athletics",
@@ -6964,7 +8048,14 @@
         "active",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Specialized fitness programs for adults with intellectual and developmental disabilities. 1:1-2 support ratio with qualified staff.",
+      "practical_tips": {
+        "first_visit": "Contact through website to learn about programs and locations",
+        "registration": "Required",
+        "what_to_bring": "Comfortable workout clothes, water",
+        "good_to_know": "Specialized adaptive exercises with 1:1-2 teammate support ratio. Staff have Master's degrees in Special Education and doctoral degrees in Occupational Therapy. Scholarships available."
+      }
     },
     {
       "id": "friendly-house",
@@ -7019,7 +8110,14 @@
         "active",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Nonprofit neighborhood center with sliding scale. Multnomah County Senior Center partner. Free Community Nights on Fridays.",
+      "practical_tips": {
+        "first_visit": "Stop by or call for class schedule and pricing",
+        "registration": "Varies by program",
+        "what_to_bring": "Comfortable clothes for fitness classes",
+        "good_to_know": "Nonprofit neighborhood center and Multnomah County District Senior Center partner. Community Nights on Fridays offer free facility use. Offers senior case management and LGBTQ senior services."
+      }
     },
     {
       "id": "teenforce-portland",
@@ -7047,7 +8145,14 @@
         "active",
         "isolation",
         "indoor"
-      ]
+      ],
+      "notes": "Free fitness and recreation access for youth ages 10-20 at Portland Parks community centers.",
+      "practical_tips": {
+        "first_visit": "Visit any participating community center with ID",
+        "registration": "Sign up at community center; parental waiver required for ages 14-17 for fitness center",
+        "what_to_bring": "Photo ID or school ID",
+        "good_to_know": "Free access to drop-in activities, fitness center, open gym, and special programs at 6 community centers. Great resource for teens to stay active."
+      }
     }
   ]
 }

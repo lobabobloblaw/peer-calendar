@@ -2708,6 +2708,7 @@
   - name: Free First Thursday
     schedule: 1st Thursdays 10am-7pm
     cost: FREE
+    notes: Explore the museum's diverse collections for free. Tickets can be reserved online one week in advance or at the door. Often includes live DJs, guided tours, and special programming. Part of Portland's First Thursday arts tradition.
   last_verified: 2025-12-02
   next_audit: 2026-03-02
   audit_frequency: quarterly
@@ -2740,6 +2741,7 @@
   - name: First Sunday
     schedule: 1st Sundays 9:30am-5:30pm
     cost: $5
+    notes: Discounted admission day - only $5 per person for all exhibits. Planetarium shows, submarine tours, and special exhibitions also $5 each. Purchase tickets online in advance to skip the line. Interactive science museum great for families and curious minds.
   last_verified: 2025-12-02
   next_audit: 2026-03-02
   audit_frequency: quarterly
@@ -3429,9 +3431,11 @@
   - name: Wednesday Open Hours
     schedule: Wednesdays 10am-2pm
     cost: FREE
+    notes: Explore Portland Fire & Rescue history through interactive exhibits, an 1860 hose cart, fire pole, and emergency response simulator. Hands-on museum celebrating the heritage of firefighting in Portland.
   - name: Second Saturday Open Hours
     schedule: 2nd Saturdays 10am-2pm
     cost: FREE
+    notes: Explore Portland Fire & Rescue history through interactive exhibits, an 1860 hose cart, fire pole, and emergency response simulator. Hands-on museum celebrating the heritage of firefighting in Portland.
   last_verified: 2025-12-02
   next_audit: 2026-06-02
   audit_frequency: annually
@@ -3461,12 +3465,15 @@
   - name: Comedy Open Mic
     schedule: Fridays 5-7pm
     cost: FREE
+    notes: Happy hour comedy open mic hosted by Logan Loughmiller. Low-pressure environment for performers and audience. Women-owned community venue since 2014.
   - name: Drawing Club
     schedule: Sundays 12:30-3:30pm
     cost: FREE
+    notes: Casual drawing get-together - bring your own supplies or just hang out. All skill levels welcome. Women-owned community arts venue doubling as bar, record store, and vintage shop.
   - name: Karaoke Night
     schedule: 2nd & 4th Mondays 8-11pm
     cost: FREE
+    notes: K-Tel and Larry-okee supportive karaoke night. Low-pressure, encouraging atmosphere for singers of all abilities. 21+ after 8pm. Cash only at door, all payments at bar.
   last_verified: 2025-12-02
   next_audit: 2026-03-02
   audit_frequency: quarterly
@@ -5239,6 +5246,7 @@
   - name: Saturday Guided Nature Walks
     schedule: Saturdays 10am
     cost: FREE
+    notes: Join a park naturalist for a one-hour hike through the forest. Topics vary weekly - from fungi to wildlife to seasonal themes. All ages welcome, geared toward ages 5+. No registration required - meet at the Nature Center at 10am.
   last_verified: 2025-11-25
   next_audit: 2026-05-25
   audit_frequency: quarterly
@@ -6519,10 +6527,13 @@
   programs:
   - name: Oregon Spring Cleanup
     schedule: April
+    notes: "Statewide volunteer cleanup in April. Join thousands of volunteers removing litter from parks, trails, and waterways. Equipment and supplies provided. Register online for a site near you."
   - name: Beach/Riverside Cleanup
     schedule: September
+    notes: "Annual coastal and river cleanup in September. Help remove debris from Oregon's beaches and riverbanks. Equipment provided. Great way to enjoy the outdoors while giving back."
   - name: Pick It Up, Portland!
     schedule: Year-round neighborhood cleanups
+    notes: "Ongoing neighborhood cleanups throughout the year. Flexible scheduling lets you volunteer when it works for you. Equipment provided. Perfect for those wanting regular outdoor volunteer opportunities."
   last_verified: 2025-12-02
   next_audit: 2026-03-02
   audit_frequency: quarterly
@@ -6611,6 +6622,7 @@
   - name: Crafting Compassion
     schedule: Tuesdays 3-5pm
     cost: FREE
+    notes: "Drop-in fiber arts session every Tuesday. Knit, crochet, or try other crafts while chatting with fellow crafters. Projects are donated to charity. Supplies provided or bring your own. All skill levels welcome—beginners encouraged!"
   last_verified: 2025-12-02
   next_audit: 2026-06-02
   audit_frequency: quarterly

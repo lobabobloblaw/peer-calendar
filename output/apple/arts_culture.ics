@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:c62bc17ff46d5148@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260117T053537Z
 DTSTART:20260121T180000
 DTEND:20260121T200000
 SUMMARY:NAYA (Native American Youth and Family Center): Culture Nights
@@ -42,7 +42,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7911bf9a58117f@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260117T053537Z
 DTSTART:20260122T183000
 DTEND:20260122T193000
 SUMMARY:MHCC Planetarium Sky Theatre: Early Planetarium Show
@@ -60,7 +60,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e02aa101489f47a@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260117T053537Z
 DTSTART:20260122T200000
 DTEND:20260122T210000
 SUMMARY:MHCC Planetarium Sky Theatre: Late Planetarium Show
@@ -78,7 +78,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f7bf9869ba2e83a@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260117T053537Z
 DTSTART:20260121T120000
 DTEND:20260121T130000
 SUMMARY:The Old Church Concert Hall: Lunchtime Concert Series
@@ -93,7 +93,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0379c9729163580c@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260117T053537Z
 DTSTART:20260118T160000
 DTEND:20260118T170000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
@@ -109,13 +109,15 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:904f46f7f1ae22e0@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260117T053537Z
 DTSTART:20260123T170000
 DTEND:20260123T190000
 SUMMARY:Turn! Turn! Turn!: Comedy Open Mic
-DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
- ingsworth St\, Portland\, OR\nPhone: 503-284-6019\nWebsite: https://turntu
- rnturnpdx.com/
+DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: Happy hour c
+ omedy open mic hosted by Logan Loughmiller. Low-pressure environment for p
+ erformers and audience. Women-owned community venue since 2014.\nAddress: 
+ 8 NE Killingsworth St\, Portland\, OR\nPhone: 503-284-6019\nWebsite: https
+ ://turnturnturnpdx.com/
 LOCATION:8 NE Killingsworth St\, Portland\, OR
 URL:https://turnturnturnpdx.com/
 RRULE:FREQ=WEEKLY;BYDAY=FR
@@ -124,13 +126,15 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d8fc3329cc6894ad@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260117T053537Z
 DTSTART:20260118T123000
 DTEND:20260118T153000
 SUMMARY:Turn! Turn! Turn!: Drawing Club
-DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
- ingsworth St\, Portland\, OR\nPhone: 503-284-6019\nWebsite: https://turntu
- rnturnpdx.com/
+DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: Casual drawi
+ ng get-together - bring your own supplies or just hang out. All skill leve
+ ls welcome. Women-owned community arts venue doubling as bar\, record stor
+ e\, and vintage shop.\nAddress: 8 NE Killingsworth St\, Portland\, OR\nPho
+ ne: 503-284-6019\nWebsite: https://turnturnturnpdx.com/
 LOCATION:8 NE Killingsworth St\, Portland\, OR
 URL:https://turnturnturnpdx.com/
 RRULE:FREQ=WEEKLY;BYDAY=SU
@@ -139,13 +143,15 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d9e5489d6044ef66@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260117T053537Z
 DTSTART:20260119T200000
 DTEND:20260119T230000
 SUMMARY:Turn! Turn! Turn!: Karaoke Night
-DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
- ingsworth St\, Portland\, OR\nPhone: 503-284-6019\nWebsite: https://turntu
- rnturnpdx.com/
+DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: K-Tel and La
+ rry-okee supportive karaoke night. Low-pressure\, encouraging atmosphere f
+ or singers of all abilities. 21+ after 8pm. Cash only at door\, all paymen
+ ts at bar.\nAddress: 8 NE Killingsworth St\, Portland\, OR\nPhone: 503-284
+ -6019\nWebsite: https://turnturnturnpdx.com/
 LOCATION:8 NE Killingsworth St\, Portland\, OR
 URL:https://turnturnturnpdx.com/
 RRULE:FREQ=MONTHLY;BYDAY=MO;BYSETPOS=2,4
@@ -154,7 +160,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:361be0cc45ef3e68@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260117T053537Z
 DTSTART:20260121T180000
 DTEND:20260121T193000
 SUMMARY:Tigard Public Library: ESL Conversation Classes
@@ -172,7 +178,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:91fcae740514833e@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260117T053537Z
 DTSTART;VALUE=DATE:20251120
 DTEND;VALUE=DATE:20251124
 SUMMARY:PCC Theatre: Much Ado About Nothing

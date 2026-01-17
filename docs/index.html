@@ -1286,6 +1286,15 @@
                             const startDate = entry.schedule_start_date ? new Date(entry.schedule_start_date) : null;
                             for (const d of dates) {
                                 if (startDate && d.date < startDate) continue;
+                                // Build description: prefer program notes, fall back to entry context
+                                // practical_tips can be a string or an object with good_to_know
+                                const practicalTip = typeof entry.practical_tips === 'string'
+                                    ? entry.practical_tips
+                                    : entry.practical_tips?.good_to_know;
+                                const description = program.notes
+                                    || practicalTip
+                                    || entry.notes
+                                    || null;
                                 events.push({
                                     title: program.name || entry.title,
                                     org: entry.title,
@@ -1295,7 +1304,9 @@
                                     color: entry.color,
                                     category: entry.categoryName,
                                     location: program.location || entry.address,
-                                    format: program.format
+                                    format: program.format,
+                                    description: description,
+                                    website: entry.website
                                 });
                             }
                         }
@@ -1307,6 +1318,11 @@
                     const dates = getScheduleDates(entry.schedule, year, month);
                     // Filter out dates before schedule_start_date
                     const startDate = entry.schedule_start_date ? new Date(entry.schedule_start_date) : null;
+                    // practical_tips can be a string or an object with good_to_know
+                    const practicalTip = typeof entry.practical_tips === 'string'
+                        ? entry.practical_tips
+                        : entry.practical_tips?.good_to_know;
+                    const description = practicalTip || entry.notes || null;
                     for (const d of dates) {
                         if (startDate && d.date < startDate) continue;
                         events.push({
@@ -1317,7 +1333,9 @@
                             endTime: d.endTime,
                             color: entry.color,
                             category: entry.categoryName,
-                            location: entry.address
+                            location: entry.address,
+                            description: description,
+                            website: entry.website
                         });
                     }
                 }
@@ -1391,6 +1409,22 @@
                 bodyHtml += `<div class="event-modal-row">
                     <div class="event-modal-icon">🏷️</div>
                     <div class="event-modal-value">${event.category}</div>
+                </div>`;
+            }
+
+            // Description
+            if (event.description) {
+                bodyHtml += `<div class="event-modal-row">
+                    <div class="event-modal-icon">ℹ️</div>
+                    <div class="event-modal-value">${event.description}</div>
+                </div>`;
+            }
+
+            // Website link
+            if (event.website) {
+                bodyHtml += `<div class="event-modal-row">
+                    <div class="event-modal-icon">🔗</div>
+                    <div class="event-modal-value"><a href="${event.website}" target="_blank" rel="noopener">More info</a></div>
                 </div>`;
             }
 

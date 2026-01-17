@@ -658,6 +658,8 @@ def generate_json_feed(entries: list[dict]) -> dict:
             "accessibility": entry.get("accessibility", []),
             "social_intensity": entry.get("social_intensity"),
             "good_for": entry.get("good_for", []),
+            "notes": entry.get("notes"),
+            "practical_tips": entry.get("practical_tips"),
         }
         events.append(event_data)
 
