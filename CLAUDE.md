@@ -25,7 +25,7 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 4. Run `python scripts/generate_calendar.py` to update calendar feeds
 
 **Key files:**
-- `data/sources.yaml` - Master registry with 176 resources and audit metadata (multi-document YAML with `---` separators)
+- `data/sources.yaml` - Master registry with 197 resources and audit metadata (multi-document YAML with `---` separators)
 - `data/audit-log.yaml` - Verification history
 - `data/queue.yaml` - Pending resources to research
 - `guides/activities-guide-1.md` - Parks, arts, libraries, discount programs
@@ -383,6 +383,16 @@ Schedule strings are parsed with natural language patterns:
 - "Every Tuesday 6-7pm" → weekly recurring on Tuesdays
 - "1st and 3rd Wednesday 2-3:30pm" → monthly on specific week positions
 - The `parse_schedule()` function in `generate_calendar.py` handles this conversion
+
+**Delaying recurring events:**
+Use `schedule_start_date` to prevent a recurring event from appearing until a specific date:
+```yaml
+- id: example-group
+  name: Example Support Group
+  schedule: Every Friday 6-7pm
+  schedule_start_date: 2026-02-01  # Won't appear in calendars until February
+```
+This is useful when a program is on hiatus or hasn't started yet. The field is respected by both the ICS calendar generation and the web calendar preview.
 
 ## Ongoing Work
 

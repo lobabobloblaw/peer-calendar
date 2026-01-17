@@ -8,7 +8,7 @@ A carefully maintained list of **free and low-cost activities, services, and res
 
 ## What's In It?
 
-**About 90 resources** organized into these categories:
+**About 200 resources** organized into these categories:
 
 | Category | Examples |
 |----------|----------|
