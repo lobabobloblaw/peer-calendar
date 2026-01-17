@@ -1282,7 +1282,10 @@
                     for (const program of entry.programs) {
                         if (program.schedule) {
                             const dates = getScheduleDates(program.schedule, year, month);
+                            // Filter out dates before schedule_start_date
+                            const startDate = entry.schedule_start_date ? new Date(entry.schedule_start_date) : null;
                             for (const d of dates) {
+                                if (startDate && d.date < startDate) continue;
                                 events.push({
                                     title: program.name || entry.title,
                                     org: entry.title,
@@ -1302,7 +1305,10 @@
                 // Handle direct schedule on entry
                 if (entry.schedule && !entry.programs?.length) {
                     const dates = getScheduleDates(entry.schedule, year, month);
+                    // Filter out dates before schedule_start_date
+                    const startDate = entry.schedule_start_date ? new Date(entry.schedule_start_date) : null;
                     for (const d of dates) {
+                        if (startDate && d.date < startDate) continue;
                         events.push({
                             title: entry.title,
                             org: null,
