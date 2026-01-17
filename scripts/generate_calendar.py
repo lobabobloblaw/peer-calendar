@@ -453,13 +453,22 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
 
                     rrule = ";".join(rrule_parts)
 
-                    today = datetime.now()
+                    # Use schedule_start_date if specified, otherwise use today
+                    schedule_start = entry.get("schedule_start_date")
+                    if schedule_start:
+                        if isinstance(schedule_start, str):
+                            base_date = datetime.strptime(schedule_start, "%Y-%m-%d")
+                        else:
+                            base_date = datetime(schedule_start.year, schedule_start.month, schedule_start.day)
+                    else:
+                        base_date = datetime.now()
+
                     day_map = {"SU": 6, "MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5}
                     target_day = day_map.get(schedule["day"], 0)
-                    days_ahead = target_day - today.weekday()
+                    days_ahead = target_day - base_date.weekday()
                     if days_ahead < 0:
                         days_ahead += 7
-                    next_occurrence = today + timedelta(days=days_ahead)
+                    next_occurrence = base_date + timedelta(days=days_ahead)
 
                     start_time = schedule["start_time"].split(":")
                     end_time = schedule["end_time"].split(":") if schedule.get("end_time") else start_time
@@ -508,13 +517,22 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
 
             rrule = ";".join(rrule_parts)
 
-            today = datetime.now()
+            # Use schedule_start_date if specified, otherwise use today
+            schedule_start = entry.get("schedule_start_date")
+            if schedule_start:
+                if isinstance(schedule_start, str):
+                    base_date = datetime.strptime(schedule_start, "%Y-%m-%d")
+                else:
+                    base_date = datetime(schedule_start.year, schedule_start.month, schedule_start.day)
+            else:
+                base_date = datetime.now()
+
             day_map = {"SU": 6, "MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5}
             target_day = day_map.get(schedule["day"], 0)
-            days_ahead = target_day - today.weekday()
+            days_ahead = target_day - base_date.weekday()
             if days_ahead < 0:
                 days_ahead += 7
-            next_occurrence = today + timedelta(days=days_ahead)
+            next_occurrence = base_date + timedelta(days=days_ahead)
 
             start_time = schedule["start_time"].split(":")
             end_time = schedule["end_time"].split(":") if schedule.get("end_time") else start_time

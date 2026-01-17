@@ -1,6 +1,6 @@
 {
-  "generated": "2026-01-15T17:57:04.466211",
-  "count": 176,
+  "generated": "2026-01-17T04:34:49.070171",
+  "count": 197,
   "categories": {
     "peer_support": "Peer Support",
     "fitness_wellness": "Fitness & Wellness",
@@ -524,7 +524,9 @@
       ],
       "dates": null,
       "schedule": null,
-      "flags": [],
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE"
+      ],
       "accessibility": [
         "transit_nearby"
       ],
@@ -6085,6 +6087,769 @@
         "creative",
         "new_to_area",
         "low_energy"
+      ]
+    },
+    {
+      "id": "nami-washington-county",
+      "title": "NAMI Washington County",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#7B68EE",
+      "address": null,
+      "phone": "503-356-6835",
+      "website": "https://www.washconami.org",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [
+        {
+          "name": "NAMI Connection Recovery Support Group",
+          "schedule": "Contact for current schedule",
+          "format": "In-person and Virtual",
+          "notes": "Peer-led support groups for adults living with mental health conditions"
+        },
+        {
+          "name": "NAMI Family Support Group",
+          "schedule": "Contact for current schedule",
+          "format": "In-person and Virtual",
+          "notes": "Support groups for family members and caregivers"
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "flags": [],
+      "accessibility": [
+        "transit_nearby"
+      ],
+      "social_intensity": "structured_group",
+      "good_for": [
+        "anxiety_friendly",
+        "isolation",
+        "indoor"
+      ]
+    },
+    {
+      "id": "alano-club-portland",
+      "title": "Alano Club of Portland",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#7B68EE",
+      "address": "909 NW 24th Avenue, Portland, OR 97210",
+      "phone": null,
+      "website": "https://www.portlandalano.org",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [
+        {
+          "name": "Alcoholics Anonymous (AA)",
+          "schedule": "Multiple daily meetings",
+          "format": "In-person"
+        },
+        {
+          "name": "Narcotics Anonymous (NA)",
+          "schedule": "Multiple weekly meetings",
+          "format": "In-person"
+        },
+        {
+          "name": "Al-Anon",
+          "schedule": "Multiple weekly meetings",
+          "format": "In-person"
+        },
+        {
+          "name": "SMART Recovery",
+          "schedule": "Weekly meetings",
+          "format": "In-person"
+        },
+        {
+          "name": "Crystal Meth Anonymous (CMA)",
+          "schedule": "Weekly meetings",
+          "format": "In-person"
+        },
+        {
+          "name": "Adult Children of Alcoholics (ACA)",
+          "schedule": "Weekly meetings",
+          "format": "In-person"
+        },
+        {
+          "name": "Codependents Anonymous (CODA)",
+          "schedule": "Weekly meetings",
+          "format": "In-person"
+        },
+        {
+          "name": "Recovery Yoga",
+          "schedule": "Weekly",
+          "format": "In-person",
+          "notes": "Yoga classes designed for people in recovery"
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "flags": [],
+      "accessibility": [
+        "wheelchair_accessible",
+        "transit_nearby"
+      ],
+      "social_intensity": "structured_group",
+      "good_for": [
+        "anxiety_friendly",
+        "isolation",
+        "indoor"
+      ]
+    },
+    {
+      "id": "bridges-to-change-club-hope",
+      "title": "Bridges to Change - Club Hope",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#7B68EE",
+      "address": "21440 SE Stark St, Gresham, OR",
+      "phone": null,
+      "website": "https://www.bridgestochange.com",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [
+        {
+          "name": "Recovery Drop-In Center",
+          "schedule": "Open daily - check website for hours",
+          "format": "In-person",
+          "notes": "Safe space for peer connection and support"
+        },
+        {
+          "name": "Dual Diagnosis Anonymous (DDA) Meeting",
+          "schedule": "Every Tuesday, 5:30pm",
+          "format": "In-person",
+          "notes": "For people with co-occurring mental health and substance use conditions"
+        },
+        {
+          "name": "Peer Mentorship",
+          "format": "In-person",
+          "notes": "98% of staff identify as in recovery - peer-led support"
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "flags": [],
+      "accessibility": [
+        "transit_nearby"
+      ],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "anxiety_friendly",
+        "isolation",
+        "indoor"
+      ]
+    },
+    {
+      "id": "community-positive-aging",
+      "title": "Community for Positive Aging",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#7B68EE",
+      "address": "1820 NE 40th Avenue, Portland, OR 97212",
+      "phone": "503-288-8303",
+      "website": "https://www.communityfpa.org",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [
+        {
+          "name": "Connecting Through Loss (Grief Support)",
+          "schedule": "Contact for current schedule",
+          "format": "In-person",
+          "notes": "Grief support group for older adults processing loss"
+        },
+        {
+          "name": "Family Caregivers Group",
+          "schedule": "Contact for current schedule",
+          "format": "In-person",
+          "notes": "Support for adults 55+ caring for family members"
+        },
+        {
+          "name": "Memory Loss Support Group",
+          "schedule": "Contact for current schedule",
+          "format": "In-person",
+          "notes": "Support for those experiencing memory loss"
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "flags": [],
+      "accessibility": [
+        "wheelchair_accessible",
+        "transit_nearby"
+      ],
+      "social_intensity": "structured_group",
+      "good_for": [
+        "grief",
+        "anxiety_friendly",
+        "isolation",
+        "indoor"
+      ]
+    },
+    {
+      "id": "winter-light-festival",
+      "title": "Portland Winter Light Festival",
+      "category": "events",
+      "categoryName": "Events & Festivals",
+      "color": "#FF6347",
+      "address": "Multiple locations including Pioneer Courthouse Square and Electric Blocks (Central Eastside)",
+      "phone": null,
+      "website": "https://pdxwlf.com",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [],
+      "dates": "February 6-14, 2026",
+      "schedule": null,
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE"
+      ],
+      "accessibility": [
+        "wheelchair_accessible",
+        "transit_nearby"
+      ],
+      "social_intensity": "solo",
+      "good_for": [
+        "anxiety_friendly",
+        "creative",
+        "outdoor",
+        "family_friendly"
+      ]
+    },
+    {
+      "id": "good-in-the-hood",
+      "title": "Good in the Hood Multicultural Festival",
+      "category": "events",
+      "categoryName": "Events & Festivals",
+      "color": "#FF6347",
+      "address": "Lillis-Albina Park, North Portland",
+      "phone": null,
+      "website": "https://www.goodnthehood.org",
+      "pricing": {
+        "description": "FREE (some ticketed events like gospel brunch)"
+      },
+      "programs": [],
+      "dates": "June 27-29, 2026",
+      "schedule": null,
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE"
+      ],
+      "accessibility": [
+        "wheelchair_accessible",
+        "transit_nearby"
+      ],
+      "social_intensity": "casual_group",
+      "good_for": [
+        "isolation",
+        "family_friendly",
+        "outdoor",
+        "creative"
+      ]
+    },
+    {
+      "id": "washington-county-fair",
+      "title": "Washington County Fair",
+      "category": "events",
+      "categoryName": "Events & Festivals",
+      "color": "#FF6347",
+      "address": "Washington County Fairgrounds, 801 NE 34th Ave, Hillsboro, OR",
+      "phone": null,
+      "website": "https://www.bigfairfun.com",
+      "pricing": {
+        "description": "FREE admission for everyone"
+      },
+      "programs": [],
+      "dates": "July 24-26, 2026",
+      "schedule": null,
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE"
+      ],
+      "accessibility": [
+        "wheelchair_accessible",
+        "transit_nearby"
+      ],
+      "social_intensity": "casual_group",
+      "good_for": [
+        "family_friendly",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "pedalpalooza",
+      "title": "Pedalpalooza / Bike Summer",
+      "category": "events",
+      "categoryName": "Events & Festivals",
+      "color": "#FF6347",
+      "address": "Various locations throughout Portland metro",
+      "phone": null,
+      "website": "https://www.shift2bikes.org",
+      "pricing": {
+        "description": "FREE (most rides)"
+      },
+      "programs": [],
+      "dates": "June through August 2026",
+      "schedule": null,
+      "flags": [
+        "\ud83d\udd04 SEASONAL",
+        "\ud83d\udcc5 DATE-SENSITIVE"
+      ],
+      "accessibility": [
+        "varies"
+      ],
+      "social_intensity": "casual_group",
+      "good_for": [
+        "active",
+        "outdoor",
+        "isolation",
+        "family_friendly"
+      ]
+    },
+    {
+      "id": "urban-gleaners",
+      "title": "Urban Gleaners Free Food Markets",
+      "category": "food_farms",
+      "categoryName": "Food & Farms",
+      "color": "#DAA520",
+      "address": "21+ locations in Multnomah and Washington Counties",
+      "phone": "503-226-8061",
+      "website": "https://urbangleaners.org",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "flags": [],
+      "accessibility": [
+        "varies"
+      ],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "anxiety_friendly",
+        "low_energy"
+      ]
+    },
+    {
+      "id": "pdx-free-fridge",
+      "title": "PDX Free Fridge",
+      "category": "food_farms",
+      "categoryName": "Food & Farms",
+      "color": "#DAA520",
+      "address": "Multiple locations across Portland - see website for map",
+      "phone": null,
+      "website": "https://sites.google.com/view/pdx-free-fridge/home",
+      "pricing": {
+        "description": "FREE - Take what you need, leave what you can"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "flags": [],
+      "accessibility": [
+        "varies"
+      ],
+      "social_intensity": "solo",
+      "good_for": [
+        "anxiety_friendly",
+        "low_energy"
+      ]
+    },
+    {
+      "id": "hollywood-farmers-market",
+      "title": "Hollywood Farmers Market",
+      "category": "food_farms",
+      "categoryName": "Food & Farms",
+      "color": "#DAA520",
+      "address": "NE Hancock & NE 44th Ave, Portland, OR 97213",
+      "phone": null,
+      "website": "https://www.hollywoodfarmersmarket.org",
+      "pricing": {
+        "description": "SNAP/EBT accepted with Double Up Food Bucks match up to $20",
+        "notes": "No surcharge for SNAP/EBT transactions"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": "Every Saturday, 8am-1pm",
+      "flags": [],
+      "accessibility": [
+        "wheelchair_accessible",
+        "transit_nearby"
+      ],
+      "social_intensity": "solo",
+      "good_for": [
+        "anxiety_friendly",
+        "outdoor",
+        "family_friendly"
+      ]
+    },
+    {
+      "id": "meals-on-wheels-people",
+      "title": "Meals on Wheels People",
+      "category": "food_farms",
+      "categoryName": "Food & Farms",
+      "color": "#DAA520",
+      "address": "Various dining centers throughout Portland metro",
+      "phone": null,
+      "website": "https://www.mowp.org",
+      "pricing": {
+        "description": "Donation-based (meals provided regardless of ability to pay)",
+        "notes": "Each meal costs over $10 to prepare"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "flags": [],
+      "accessibility": [
+        "wheelchair_accessible",
+        "transit_nearby"
+      ],
+      "social_intensity": "varies",
+      "good_for": [
+        "isolation",
+        "low_energy"
+      ]
+    },
+    {
+      "id": "ppr-summer-free-for-all",
+      "title": "Portland Parks Summer Free For All",
+      "category": "events",
+      "categoryName": "Events & Festivals",
+      "color": "#FF6347",
+      "address": "Various city parks throughout Portland",
+      "phone": "503-823-2525",
+      "website": "https://www.portland.gov/parks/arts-culture/summer-free-all",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [
+        {
+          "name": "Free Outdoor Concerts",
+          "schedule": "6:30pm-8:30pm",
+          "format": "In-person"
+        },
+        {
+          "name": "Free Movies in the Park",
+          "schedule": "Starting at 7:30pm/dusk",
+          "format": "In-person",
+          "notes": "Pre-movie performances by local musicians and free popcorn"
+        },
+        {
+          "name": "Cultural Events",
+          "schedule": "Various",
+          "format": "In-person"
+        }
+      ],
+      "dates": "July 9 - September 5, 2026",
+      "schedule": "Thursdays, Fridays, and Saturdays",
+      "flags": [
+        "\ud83d\udd04 SEASONAL",
+        "\ud83d\udcc5 DATE-SENSITIVE"
+      ],
+      "accessibility": [
+        "wheelchair_accessible",
+        "asl_available",
+        "hearing_loop"
+      ],
+      "social_intensity": "casual_group",
+      "good_for": [
+        "family_friendly",
+        "outdoor",
+        "isolation",
+        "low_energy"
+      ]
+    },
+    {
+      "id": "prism-moves",
+      "title": "Prism Moves",
+      "category": "fitness_wellness",
+      "categoryName": "Fitness & Wellness",
+      "color": "#32CD32",
+      "address": "18 N Shaver St, Portland, OR 97227",
+      "phone": "503-298-5636",
+      "website": "https://prismmoves.org",
+      "pricing": {
+        "description": "FREE BIPOC class weekly; sliding scale memberships available"
+      },
+      "programs": [
+        {
+          "name": "BIPOC Community Class",
+          "schedule": "Once weekly (check website for current day/time)",
+          "format": "In-person",
+          "cost": "FREE",
+          "notes": "For BIPOC community only"
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "flags": [],
+      "accessibility": [
+        "wheelchair_accessible",
+        "transit_nearby",
+        "sliding_scale",
+        "gender_neutral_restroom"
+      ],
+      "social_intensity": "structured_group",
+      "good_for": [
+        "active",
+        "isolation",
+        "indoor"
+      ]
+    },
+    {
+      "id": "portland-strength-collective",
+      "title": "Portland Strength Collective",
+      "category": "fitness_wellness",
+      "categoryName": "Fitness & Wellness",
+      "color": "#32CD32",
+      "address": "Portland, OR",
+      "phone": null,
+      "website": "https://portlandstrengthcollective.com",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": "Every Saturday",
+      "flags": [],
+      "accessibility": [
+        "transit_nearby"
+      ],
+      "social_intensity": "casual_group",
+      "good_for": [
+        "active",
+        "isolation",
+        "indoor"
+      ]
+    },
+    {
+      "id": "peoples-yoga",
+      "title": "The People's Yoga",
+      "category": "fitness_wellness",
+      "categoryName": "Fitness & Wellness",
+      "color": "#32CD32",
+      "address": "3014 NE Killingsworth St, Portland (Northeast) and 4029 SE Hawthorne, Portland (Southeast)",
+      "phone": null,
+      "website": "https://thepeoplesyoga.org",
+      "pricing": {
+        "description": "Scholarship memberships available ($40 contribution with fund covering remainder); free/by-donation classes with teacher trainees"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "flags": [],
+      "accessibility": [
+        "transit_nearby",
+        "sliding_scale"
+      ],
+      "social_intensity": "casual_group",
+      "good_for": [
+        "anxiety_friendly",
+        "active",
+        "indoor"
+      ]
+    },
+    {
+      "id": "fat-girls-hiking-portland",
+      "title": "Fat Girls Hiking Portland",
+      "category": "fitness_wellness",
+      "categoryName": "Fitness & Wellness",
+      "color": "#32CD32",
+      "address": "Various hiking locations",
+      "phone": null,
+      "website": "https://fatgirlshiking.com/portland-or/",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "flags": [],
+      "accessibility": [
+        "varies"
+      ],
+      "social_intensity": "casual_group",
+      "good_for": [
+        "active",
+        "outdoor",
+        "isolation",
+        "new_to_area"
+      ]
+    },
+    {
+      "id": "adaptive-sports-northwest",
+      "title": "Adaptive Sports Northwest",
+      "category": "fitness_wellness",
+      "categoryName": "Fitness & Wellness",
+      "color": "#32CD32",
+      "address": "4840 SW Western Ave, Suite 500, Beaverton, OR 97005",
+      "phone": null,
+      "website": "https://adaptivesportsnw.org",
+      "pricing": {
+        "description": "Membership required"
+      },
+      "programs": [
+        {
+          "name": "Kayaking",
+          "format": "In-person"
+        },
+        {
+          "name": "Power Soccer",
+          "format": "In-person"
+        },
+        {
+          "name": "Swimming",
+          "format": "In-person"
+        },
+        {
+          "name": "Wheelchair Rugby",
+          "format": "In-person"
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "flags": [],
+      "accessibility": [
+        "wheelchair_accessible"
+      ],
+      "social_intensity": "structured_group",
+      "good_for": [
+        "active",
+        "isolation"
+      ]
+    },
+    {
+      "id": "every-body-athletics",
+      "title": "Every Body Athletics",
+      "category": "fitness_wellness",
+      "categoryName": "Fitness & Wellness",
+      "color": "#32CD32",
+      "address": "Multiple locations in Beaverton, Tigard, Portland, Hillsboro, Lake Oswego; also via Zoom",
+      "phone": null,
+      "website": "https://everybodyathletics.org",
+      "pricing": {
+        "description": "$30/month; scholarships available upon request"
+      },
+      "programs": [
+        {
+          "name": "Kickboxing",
+          "format": "In-person and Online"
+        },
+        {
+          "name": "Barre",
+          "format": "In-person and Online"
+        },
+        {
+          "name": "Bootcamp",
+          "format": "In-person and Online"
+        },
+        {
+          "name": "Dance",
+          "format": "In-person and Online"
+        },
+        {
+          "name": "Yoga",
+          "format": "In-person and Online"
+        },
+        {
+          "name": "Cardio Drumming",
+          "format": "In-person and Online"
+        }
+      ],
+      "dates": null,
+      "schedule": "Mon-Thu and Sat (check website for specific times/locations)",
+      "flags": [],
+      "accessibility": [
+        "wheelchair_accessible",
+        "sliding_scale"
+      ],
+      "social_intensity": "structured_group",
+      "good_for": [
+        "active",
+        "isolation",
+        "indoor"
+      ]
+    },
+    {
+      "id": "friendly-house",
+      "title": "Friendly House",
+      "category": "fitness_wellness",
+      "categoryName": "Fitness & Wellness",
+      "color": "#32CD32",
+      "address": "1737 NW 26th Ave, Portland, OR 97210",
+      "phone": "503-228-4391",
+      "website": "https://fhpdx.org",
+      "pricing": {
+        "description": "Low-cost/sliding scale available"
+      },
+      "programs": [
+        {
+          "name": "Tai Chi",
+          "format": "In-person"
+        },
+        {
+          "name": "Pickleball",
+          "format": "In-person"
+        },
+        {
+          "name": "Fitness Classes",
+          "format": "In-person"
+        },
+        {
+          "name": "Bone Health Exercise",
+          "format": "In-person"
+        },
+        {
+          "name": "LGBTQ Senior Services",
+          "format": "In-person"
+        },
+        {
+          "name": "Community Nights",
+          "schedule": "Friday nights",
+          "cost": "FREE facility use"
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "flags": [],
+      "accessibility": [
+        "wheelchair_accessible",
+        "transit_nearby",
+        "sliding_scale"
+      ],
+      "social_intensity": "varies",
+      "good_for": [
+        "active",
+        "isolation",
+        "indoor"
+      ]
+    },
+    {
+      "id": "teenforce-portland",
+      "title": "TeenForce Program",
+      "category": "fitness_wellness",
+      "categoryName": "Fitness & Wellness",
+      "color": "#32CD32",
+      "address": "Charles Jordan, East Portland, Matt Dishman, Montavilla, Mt. Scott, Southwest Community Centers",
+      "phone": "503-823-2525",
+      "website": "https://www.portland.gov/parks/recreation/teenforce",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "flags": [],
+      "accessibility": [
+        "wheelchair_accessible",
+        "transit_nearby"
+      ],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "active",
+        "isolation",
+        "indoor"
       ]
     }
   ]

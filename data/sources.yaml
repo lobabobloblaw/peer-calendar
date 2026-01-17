@@ -619,6 +619,7 @@
   pricing:
     description: FREE
   eligibility: Open to individuals receiving Peer Support in Clackamas County
+  schedule_start_date: 2026-02-01
   programs:
     - name: ColorFlow
       schedule: 1st & 3rd Wednesdays, 2-3:30pm
@@ -657,7 +658,9 @@
     - creative
     - indoor
   guide_location: activities-guide-2.md#mental-health-peer-support-groups
-  notes: Groups led by peers for individuals already connected with Clackamas County Peer Support services.
+  notes: Groups led by peers for individuals already connected with Clackamas County Peer Support services. Groups paused in January 2026, resuming February 2026.
+  flags:
+    - 📅 DATE-SENSITIVE
 - id: folktime
   name: FolkTime Peer Connection Centers
   category: peer_support
@@ -7204,4 +7207,818 @@
   notes: 501(c)(3) nonprofit preserving cemetery history since 2000. One of Portland's most beautiful and historic green spaces. Final resting place of many Portland pioneers.
   flags:
     - 📅 DATE-SENSITIVE
+
+---
+# NEW ENTRIES - Added 2026-01-17
+---
+
+- id: nami-washington-county
+  name: NAMI Washington County
+  category: peer_support
+  location_type: hybrid
+  resource_type: program
+  address: null
+  phone: 503-356-6835
+  website: https://www.washconami.org
+  source_urls:
+    - https://www.washconami.org
+  pricing:
+    description: FREE
+  eligibility: Adults with mental health conditions or family members
+  programs:
+    - name: NAMI Connection Recovery Support Group
+      schedule: Contact for current schedule
+      format: In-person and Virtual
+      notes: Peer-led support groups for adults living with mental health conditions
+    - name: NAMI Family Support Group
+      schedule: Contact for current schedule
+      format: In-person and Virtual
+      notes: Support groups for family members and caregivers
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Check website or call for current meeting schedule
+    registration: Registration may be required for some groups
+    what_to_bring: Nothing required - just yourself
+    good_to_know: Part of the national NAMI network. Partners with MHAAO for PeerZone workshops. Serves all of Washington County.
+  accessibility:
+    - transit_nearby
+  social_intensity: structured_group
+  good_for:
+    - anxiety_friendly
+    - isolation
+    - indoor
+  guide_location: activities-guide-2.md#mental-health-peer-support-groups
+  notes: Washington County chapter of NAMI. Provides education, support, and advocacy for people affected by mental illness.
+
+- id: alano-club-portland
+  name: Alano Club of Portland
+  category: peer_support
+  location_type: physical
+  resource_type: place
+  address: 909 NW 24th Avenue, Portland, OR 97210
+  phone: null
+  website: https://www.portlandalano.org
+  source_urls:
+    - https://www.portlandalano.org/meetings
+  pricing:
+    description: FREE
+  eligibility: Anyone seeking recovery
+  hours: Check website for meeting times - meetings run morning through evening, 7 days/week
+  programs:
+    - name: Alcoholics Anonymous (AA)
+      schedule: Multiple daily meetings
+      format: In-person
+    - name: Narcotics Anonymous (NA)
+      schedule: Multiple weekly meetings
+      format: In-person
+    - name: Al-Anon
+      schedule: Multiple weekly meetings
+      format: In-person
+    - name: SMART Recovery
+      schedule: Weekly meetings
+      format: In-person
+    - name: Crystal Meth Anonymous (CMA)
+      schedule: Weekly meetings
+      format: In-person
+    - name: Adult Children of Alcoholics (ACA)
+      schedule: Weekly meetings
+      format: In-person
+    - name: Codependents Anonymous (CODA)
+      schedule: Weekly meetings
+      format: In-person
+    - name: Recovery Yoga
+      schedule: Weekly
+      format: In-person
+      notes: Yoga classes designed for people in recovery
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Just walk in - no appointment needed. Check meeting schedule online first.
+    registration: None required
+    what_to_bring: Nothing required
+    good_to_know: Over 100 weekly meetings including AA, NA, Al-Anon, SMART Recovery, and specialty groups. One of the largest recovery community centers in Portland. Coffee available at most meetings.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: structured_group
+  good_for:
+    - anxiety_friendly
+    - isolation
+    - indoor
+  guide_location: activities-guide-2.md#recovery-support
+  notes: Portland's premier recovery community center with over 100 weekly meetings for various 12-step and secular recovery programs.
+
+- id: bridges-to-change-club-hope
+  name: Bridges to Change - Club Hope
+  category: peer_support
+  location_type: physical
+  resource_type: place
+  address: 21440 SE Stark St, Gresham, OR
+  phone: null
+  website: https://www.bridgestochange.com
+  source_urls:
+    - https://www.bridgestochange.com
+  pricing:
+    description: FREE
+  eligibility: Anyone seeking recovery support
+  programs:
+    - name: Recovery Drop-In Center
+      schedule: Open daily - check website for hours
+      format: In-person
+      notes: Safe space for peer connection and support
+    - name: Dual Diagnosis Anonymous (DDA) Meeting
+      schedule: Every Tuesday, 5:30pm
+      format: In-person
+      notes: For people with co-occurring mental health and substance use conditions
+    - name: Peer Mentorship
+      format: In-person
+      notes: 98% of staff identify as in recovery - peer-led support
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Drop-in anytime during open hours - no appointment needed
+    registration: None required
+    what_to_bring: Nothing required
+    good_to_know: Staff are peers in recovery themselves. Also operates housing programs and mobile outreach (Acute Care Team). Located in Gresham, serving East Portland and East County.
+  accessibility:
+    - transit_nearby
+  social_intensity: drop_in
+  good_for:
+    - anxiety_friendly
+    - isolation
+    - indoor
+  guide_location: activities-guide-2.md#recovery-support
+  notes: Peer-run recovery center in Gresham. 98% of staff identify as in recovery. Also provides housing and mobile outreach services.
+
+- id: community-positive-aging
+  name: Community for Positive Aging
+  category: peer_support
+  location_type: physical
+  resource_type: organization
+  address: 1820 NE 40th Avenue, Portland, OR 97212
+  phone: 503-288-8303
+  email: staff@communityfpa.org
+  website: https://www.communityfpa.org
+  source_urls:
+    - https://www.communityfpa.org/support-groups
+  pricing:
+    description: FREE
+  eligibility: Adults 55+
+  programs:
+    - name: Connecting Through Loss (Grief Support)
+      schedule: Contact for current schedule
+      format: In-person
+      notes: Grief support group for older adults processing loss
+    - name: Family Caregivers Group
+      schedule: Contact for current schedule
+      format: In-person
+      notes: Support for adults 55+ caring for family members
+    - name: Memory Loss Support Group
+      schedule: Contact for current schedule
+      format: In-person
+      notes: Support for those experiencing memory loss
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Call or email to learn about current support groups
+    registration: Contact staff to register for groups
+    what_to_bring: Nothing required
+    good_to_know: Also hosts NAMI Multnomah in-person meetings on-site. Multi-purpose senior center with various programs including support groups, social activities, and wellness classes.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: structured_group
+  good_for:
+    - grief
+    - anxiety_friendly
+    - isolation
+    - indoor
+  guide_location: activities-guide-2.md#senior-services
+  notes: Multi-service senior center. Hosts NAMI Multnomah meetings. Focused on positive aging with social, wellness, and support programs.
+
+- id: winter-light-festival
+  name: Portland Winter Light Festival
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Multiple locations including Pioneer Courthouse Square and Electric Blocks (Central Eastside)
+  phone: null
+  website: https://pdxwlf.com
+  source_urls:
+    - https://pdxwlf.com/plan-your-visit/
+  pricing:
+    description: FREE
+  dates: February 6-14, 2026
+  hours: Anchor sites activated Friday and Saturday nights during festival
+  last_verified: 2026-01-17
+  next_audit: 2026-02-15
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Check website for map of installations and anchor site locations
+    registration: None required
+    what_to_bring: Warm clothing - this is an outdoor winter event
+    good_to_know: 11th anniversary of the festival. Features large-scale interactive art installations, performances, and pop-ups across Portland. Best experienced after dark.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: solo
+  good_for:
+    - anxiety_friendly
+    - creative
+    - outdoor
+    - family_friendly
+  guide_location: activities-guide-1.md#festivals-and-events
+  notes: Portland's annual winter light art festival. Free citywide event with installations at multiple locations.
+  flags:
+    - 📅 DATE-SENSITIVE
+
+- id: good-in-the-hood
+  name: Good in the Hood Multicultural Festival
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Lillis-Albina Park, North Portland
+  phone: null
+  website: https://www.goodnthehood.org
+  source_urls:
+    - https://www.goodnthehood.org
+  pricing:
+    description: FREE (some ticketed events like gospel brunch)
+  dates: June 27-29, 2026
+  hours: Friday 6pm-10pm, Saturday & Sunday noon-10pm
+  last_verified: 2026-01-17
+  next_audit: 2026-06-01
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Arrive early on Saturday/Sunday for best parking and seating
+    registration: None required for general admission
+    what_to_bring: Sunscreen, lawn chair or blanket, cash for vendors
+    good_to_know: Portland's largest and longest-running multicultural music and food festival. 2026 theme "Back in Stride Again" with R&B legend Cherrelle and Surface as headliners. Features parade, live music, complimentary haircuts/braiding, puppet shows.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: casual_group
+  good_for:
+    - isolation
+    - family_friendly
+    - outdoor
+    - creative
+  guide_location: activities-guide-1.md#festivals-and-events
+  notes: Portland's longest-running multicultural festival celebrating diverse communities in North/Northeast Portland.
+  flags:
+    - 📅 DATE-SENSITIVE
+
+- id: washington-county-fair
+  name: Washington County Fair
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Washington County Fairgrounds, 801 NE 34th Ave, Hillsboro, OR
+  phone: null
+  website: https://www.bigfairfun.com
+  source_urls:
+    - https://www.bigfairfun.com
+  pricing:
+    description: FREE admission for everyone
+  dates: July 24-26, 2026
+  last_verified: 2026-01-17
+  next_audit: 2026-07-01
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Check website for entertainment schedule and map
+    registration: None required
+    what_to_bring: Cash for food and activities, sunscreen, comfortable walking shoes
+    good_to_know: Free admission makes this one of the best fair values in the region. Features exhibits, entertainment, food vendors, and family activities. Over 100,000 attendees annually.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: casual_group
+  good_for:
+    - family_friendly
+    - outdoor
+  guide_location: activities-guide-1.md#festivals-and-events
+  notes: One of the few county fairs with completely free admission.
+  flags:
+    - 📅 DATE-SENSITIVE
+
+- id: pedalpalooza
+  name: Pedalpalooza / Bike Summer
+  category: events
+  location_type: varies
+  resource_type: event
+  address: Various locations throughout Portland metro
+  phone: null
+  website: https://www.shift2bikes.org
+  source_urls:
+    - https://www.shift2bikes.org
+    - https://www.bike-summer.org
+  pricing:
+    description: FREE (most rides)
+  dates: June through August 2026
+  last_verified: 2026-01-17
+  next_audit: 2026-05-01
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Check the Shift to Bikes calendar for current rides
+    registration: None required for most rides
+    what_to_bring: Bike, helmet, lights, water, layers
+    good_to_know: Portland's season-long cycling festival with 800+ events led by 600+ ride leaders. Includes family-friendly rides, Midnight Mystery Ride, Breakfast on the Bridges, World Naked Bike Ride, and Multnomah County Bike Fair.
+  accessibility:
+    - varies
+  social_intensity: casual_group
+  good_for:
+    - active
+    - outdoor
+    - isolation
+    - family_friendly
+  guide_location: activities-guide-1.md#biking
+  notes: Portland's famous summer bike festival. Most rides are free and open to all skill levels.
+  flags:
+    - 🔄 SEASONAL
+    - 📅 DATE-SENSITIVE
+
+- id: urban-gleaners
+  name: Urban Gleaners Free Food Markets
+  category: food_farms
+  location_type: varies
+  resource_type: service
+  address: 21+ locations in Multnomah and Washington Counties
+  phone: 503-226-8061
+  website: https://urbangleaners.org
+  source_urls:
+    - https://urbangleaners.org
+    - https://urbangleaners.org/food-finder/
+  pricing:
+    description: FREE
+  eligibility: No income requirements or personal information required
+  hours: 42 weekly markets - check Food Finder for specific times and locations
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Use the online Food Finder to locate your nearest market
+    registration: None required (unless Oregon Food Bank affiliated site)
+    what_to_bring: Bring your own bags, arrive 10-15 minutes early
+    good_to_know: Markets offer fresh fruits, vegetables, baked goods, dairy, and prepared meals. Food is rescued before it goes to waste. Completely barrier-free - no income verification.
+  accessibility:
+    - varies
+  social_intensity: drop_in
+  good_for:
+    - anxiety_friendly
+    - low_energy
+  guide_location: activities-guide-2.md#food-resources
+  notes: Rescues food before it goes to waste and distributes through 21+ free public markets. Completely barrier-free access.
+
+- id: pdx-free-fridge
+  name: PDX Free Fridge
+  category: food_farms
+  location_type: varies
+  resource_type: service
+  address: Multiple locations across Portland - see website for map
+  phone: null
+  email: pdxfridge@gmail.com
+  website: https://sites.google.com/view/pdx-free-fridge/home
+  source_urls:
+    - https://sites.google.com/view/pdx-free-fridge/home
+  pricing:
+    description: FREE - Take what you need, leave what you can
+  eligibility: Open to everyone
+  hours: Available 24/7
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Check the website map for fridge locations near you
+    registration: None required
+    what_to_bring: Nothing - just take what you need
+    good_to_know: Community-run mutual aid network of fridges and pantries. Fridges contain vegetables, fruit, protein, snacks, cooked meals (labeled with ingredients/date), and sometimes hygiene products. Volunteer-maintained and cleaned daily.
+  accessibility:
+    - varies
+  social_intensity: solo
+  good_for:
+    - anxiety_friendly
+    - low_energy
+  guide_location: activities-guide-2.md#food-resources
+  notes: Community mutual aid project. Take what you need, leave what you can. Fridges cleaned and stocked by volunteers.
+
+- id: hollywood-farmers-market
+  name: Hollywood Farmers Market
+  category: food_farms
+  location_type: physical
+  resource_type: event
+  address: NE Hancock & NE 44th Ave, Portland, OR 97213
+  phone: null
+  website: https://www.hollywoodfarmersmarket.org
+  source_urls:
+    - https://www.hollywoodfarmersmarket.org
+  pricing:
+    description: SNAP/EBT accepted with Double Up Food Bucks match up to $20
+    notes: No surcharge for SNAP/EBT transactions
+  schedule: Every Saturday, 8am-1pm
+  hours: Year-round
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Find the info booth to exchange SNAP benefits for green tokens
+    registration: None required
+    what_to_bring: Reusable bags, SNAP/EBT card if using benefits
+    good_to_know: Operating since 1997. Green tokens available for SNAP in $1 increments. Great for fresh, local produce with no surcharge on EBT. Double Up Food Bucks doubles your purchasing power on fruits and vegetables.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: solo
+  good_for:
+    - anxiety_friendly
+    - outdoor
+    - family_friendly
+  guide_location: activities-guide-2.md#farmers-markets
+  notes: One of Portland's best farmers markets with full SNAP/EBT support and Double Up Food Bucks matching.
+
+- id: meals-on-wheels-people
+  name: Meals on Wheels People
+  category: food_farms
+  location_type: varies
+  resource_type: service
+  address: Various dining centers throughout Portland metro
+  phone: null
+  website: https://www.mowp.org
+  source_urls:
+    - https://www.mowp.org
+  pricing:
+    description: Donation-based (meals provided regardless of ability to pay)
+    notes: Each meal costs over $10 to prepare
+  eligibility: Adults 60 years and older in Multnomah, Washington, and Clark counties
+  hours: Meal delivery Mon-Thu 10am-2pm; Dining centers serve lunch at least one day weekly
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Call to sign up for home delivery or find your nearest dining center
+    registration: Required for home delivery
+    what_to_bring: Nothing for dining centers
+    good_to_know: Delivers 25,000+ healthy meals weekly. Over 35 dining centers with activities and social connection. Not just food - also provides connection and wellness checks.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: varies
+  good_for:
+    - isolation
+    - low_energy
+  guide_location: activities-guide-2.md#senior-services
+  notes: More than a meal service - provides nutrition, connection, and wellness checks for seniors.
+
+- id: ppr-summer-free-for-all
+  name: Portland Parks Summer Free For All
+  category: events
+  location_type: varies
+  resource_type: program
+  address: Various city parks throughout Portland
+  phone: 503-823-2525
+  website: https://www.portland.gov/parks/arts-culture/summer-free-all
+  source_urls:
+    - https://www.portland.gov/parks/arts-culture/summer-free-all/cultural-events
+  pricing:
+    description: FREE
+  dates: July 9 - September 5, 2026
+  schedule: Thursdays, Fridays, and Saturdays
+  programs:
+    - name: Free Outdoor Concerts
+      schedule: 6:30pm-8:30pm
+      format: In-person
+    - name: Free Movies in the Park
+      schedule: Starting at 7:30pm/dusk
+      format: In-person
+      notes: Pre-movie performances by local musicians and free popcorn
+    - name: Cultural Events
+      schedule: Various
+      format: In-person
+  last_verified: 2026-01-17
+  next_audit: 2026-06-01
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Check website for schedule and park locations
+    registration: None required
+    what_to_bring: Blanket, picnic food, layers for evening
+    good_to_know: Movies and concerts run all summer at various parks. Closed captioning, sign language interpreters, and FM loop amplifiers available for all events. Great for families.
+  accessibility:
+    - wheelchair_accessible
+    - asl_available
+    - hearing_loop
+  social_intensity: casual_group
+  good_for:
+    - family_friendly
+    - outdoor
+    - isolation
+    - low_energy
+  guide_location: activities-guide-1.md#summer-events
+  notes: Portland's flagship summer program with free movies, concerts, and cultural events at parks citywide.
+  flags:
+    - 🔄 SEASONAL
+    - 📅 DATE-SENSITIVE
+
+- id: prism-moves
+  name: Prism Moves
+  category: fitness_wellness
+  location_type: physical
+  resource_type: place
+  address: 18 N Shaver St, Portland, OR 97227
+  phone: 503-298-5636
+  website: https://prismmoves.org
+  source_urls:
+    - https://prismmoves.org
+  pricing:
+    description: FREE BIPOC class weekly; sliding scale memberships available
+  eligibility: BIPOC class is for BIPOC community only; general classes open to all
+  programs:
+    - name: BIPOC Community Class
+      schedule: Once weekly (check website for current day/time)
+      format: In-person
+      cost: FREE
+      notes: For BIPOC community only
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Check website for class schedule and sign up online
+    registration: Required - sign up via website
+    what_to_bring: Comfortable workout clothes, water
+    good_to_know: Nonprofit inclusive strength and conditioning gym intentionally serving women, BIPOC, LGBTQ+, and larger-bodied individuals. Sliding scale makes membership affordable.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+    - sliding_scale
+    - gender_neutral_restroom
+  social_intensity: structured_group
+  good_for:
+    - active
+    - isolation
+    - indoor
+  guide_location: activities-guide-1.md#fitness-centers
+  notes: Inclusive nonprofit gym focused on serving underrepresented communities. Free weekly BIPOC class plus sliding scale memberships.
+
+- id: portland-strength-collective
+  name: Portland Strength Collective
+  category: fitness_wellness
+  location_type: physical
+  resource_type: program
+  address: Portland, OR
+  phone: null
+  website: https://portlandstrengthcollective.com
+  source_urls:
+    - https://portlandstrengthcollective.com/classes/free-community-workout/
+  pricing:
+    description: FREE
+  schedule: Every Saturday
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Check website for location and time
+    registration: None required
+    what_to_bring: Comfortable workout clothes, water
+    good_to_know: Free all-levels community workout with friendly coaches offering tips and modifications. Great way to try strength training in a supportive environment.
+  accessibility:
+    - transit_nearby
+  social_intensity: casual_group
+  good_for:
+    - active
+    - isolation
+    - indoor
+  guide_location: activities-guide-1.md#fitness-classes
+  notes: Free weekly community workout open to all levels.
+
+- id: peoples-yoga
+  name: The People's Yoga
+  category: fitness_wellness
+  location_type: physical
+  resource_type: place
+  address: 3014 NE Killingsworth St, Portland (Northeast) and 4029 SE Hawthorne, Portland (Southeast)
+  phone: null
+  website: https://thepeoplesyoga.org
+  source_urls:
+    - https://thepeoplesyoga.org
+  pricing:
+    description: Scholarship memberships available ($40 contribution with fund covering remainder); free/by-donation classes with teacher trainees
+  eligibility: Income verification required for scholarship; renewed every 3 months
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Check website for scholarship application and class schedule
+    registration: Required for scholarship membership
+    what_to_bring: Yoga mat (mats available), comfortable clothes
+    good_to_know: Community-focused yoga studio where members fund scholarship memberships for others. About 30 scholarship memberships funded monthly. Work/study positions also available in exchange for free membership.
+  accessibility:
+    - transit_nearby
+    - sliding_scale
+  social_intensity: casual_group
+  good_for:
+    - anxiety_friendly
+    - active
+    - indoor
+  guide_location: activities-guide-1.md#yoga
+  notes: Community-supported yoga studio with scholarship memberships funded by other members.
+
+- id: fat-girls-hiking-portland
+  name: Fat Girls Hiking Portland
+  category: fitness_wellness
+  location_type: varies
+  resource_type: program
+  address: Various hiking locations
+  phone: null
+  website: https://fatgirlshiking.com/portland-or/
+  source_urls:
+    - https://fatgirlshiking.com/portland-or/
+  pricing:
+    description: FREE
+  eligibility: Open to all - fat-positive, inclusive community
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Check website or social media for upcoming hike schedule
+    registration: Check listing for each hike
+    what_to_bring: Sturdy shoes, water, snacks, layers
+    good_to_know: Founded in Portland. Offers fat-positive, inclusive, and accessible group hikes. All body types welcome. Focus on enjoyment, not pace.
+  accessibility:
+    - varies
+  social_intensity: casual_group
+  good_for:
+    - active
+    - outdoor
+    - isolation
+    - new_to_area
+  guide_location: activities-guide-1.md#hiking
+  notes: Fat-positive, inclusive hiking group founded in Portland. Welcoming to all body types.
+
+- id: adaptive-sports-northwest
+  name: Adaptive Sports Northwest
+  category: fitness_wellness
+  location_type: varies
+  resource_type: organization
+  address: 4840 SW Western Ave, Suite 500, Beaverton, OR 97005
+  phone: null
+  email: Programs@adaptivesportsnw.org
+  website: https://adaptivesportsnw.org
+  source_urls:
+    - https://adaptivesportsnw.org
+  pricing:
+    description: Membership required
+  eligibility: Anyone with physical or visual disabilities
+  programs:
+    - name: Kayaking
+      format: In-person
+    - name: Power Soccer
+      format: In-person
+    - name: Swimming
+      format: In-person
+    - name: Wheelchair Rugby
+      format: In-person
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Contact via email or website to learn about programs
+    registration: Membership required
+    what_to_bring: Depends on activity
+    good_to_know: Providing adaptive sports since 1982 for children and adults with physical disabilities in Oregon and SW Washington. Paralympic Sport Club recognized by Team USA.
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: structured_group
+  good_for:
+    - active
+    - isolation
+  guide_location: activities-guide-1.md#adaptive-recreation
+  notes: Premier adaptive sports organization in the region. Paralympic Sport Club recognized by Team USA.
+
+- id: every-body-athletics
+  name: Every Body Athletics
+  category: fitness_wellness
+  location_type: hybrid
+  resource_type: program
+  address: Multiple locations in Beaverton, Tigard, Portland, Hillsboro, Lake Oswego; also via Zoom
+  phone: null
+  website: https://everybodyathletics.org
+  source_urls:
+    - https://everybodyathletics.org
+  pricing:
+    description: $30/month; scholarships available upon request
+  eligibility: Adults 21+ with intellectual and developmental disabilities
+  schedule: Mon-Thu and Sat (check website for specific times/locations)
+  programs:
+    - name: Kickboxing
+      format: In-person and Online
+    - name: Barre
+      format: In-person and Online
+    - name: Bootcamp
+      format: In-person and Online
+    - name: Dance
+      format: In-person and Online
+    - name: Yoga
+      format: In-person and Online
+    - name: Cardio Drumming
+      format: In-person and Online
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Contact through website to learn about programs and locations
+    registration: Required
+    what_to_bring: Comfortable workout clothes, water
+    good_to_know: Specialized adaptive exercises with 1:1-2 teammate support ratio. Staff have Master's degrees in Special Education and doctoral degrees in Occupational Therapy. Scholarships available.
+  accessibility:
+    - wheelchair_accessible
+    - sliding_scale
+  social_intensity: structured_group
+  good_for:
+    - active
+    - isolation
+    - indoor
+  guide_location: activities-guide-1.md#adaptive-recreation
+  notes: Specialized fitness programs for adults with intellectual and developmental disabilities. 1:1-2 support ratio with qualified staff.
+
+- id: friendly-house
+  name: Friendly House
+  category: fitness_wellness
+  location_type: physical
+  resource_type: place
+  address: 1737 NW 26th Ave, Portland, OR 97210
+  phone: 503-228-4391
+  website: https://fhpdx.org
+  source_urls:
+    - https://fhpdx.org
+  pricing:
+    description: Low-cost/sliding scale available
+  hours: Mon-Thu 7am-7pm, Fri 7am-8pm, Sat 8:30am-4pm
+  programs:
+    - name: Tai Chi
+      format: In-person
+    - name: Pickleball
+      format: In-person
+    - name: Fitness Classes
+      format: In-person
+    - name: Bone Health Exercise
+      format: In-person
+    - name: LGBTQ Senior Services
+      format: In-person
+    - name: Community Nights
+      schedule: Friday nights
+      cost: FREE facility use
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Stop by or call for class schedule and pricing
+    registration: Varies by program
+    what_to_bring: Comfortable clothes for fitness classes
+    good_to_know: Nonprofit neighborhood center and Multnomah County District Senior Center partner. Community Nights on Fridays offer free facility use. Offers senior case management and LGBTQ senior services.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+    - sliding_scale
+  social_intensity: varies
+  good_for:
+    - active
+    - isolation
+    - indoor
+  guide_location: activities-guide-1.md#community-centers
+  notes: Nonprofit neighborhood center with sliding scale. Multnomah County Senior Center partner. Free Community Nights on Fridays.
+
+- id: teenforce-portland
+  name: TeenForce Program
+  category: fitness_wellness
+  location_type: varies
+  resource_type: program
+  address: Charles Jordan, East Portland, Matt Dishman, Montavilla, Mt. Scott, Southwest Community Centers
+  phone: 503-823-2525
+  website: https://www.portland.gov/parks/recreation/teenforce
+  source_urls:
+    - https://www.portland.gov/parks/recreation/teenforce
+  pricing:
+    description: FREE
+  eligibility: Ages 10-20
+  last_verified: 2026-01-17
+  next_audit: 2026-04-17
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Visit any participating community center with ID
+    registration: Sign up at community center; parental waiver required for ages 14-17 for fitness center
+    what_to_bring: Photo ID or school ID
+    good_to_know: Free access to drop-in activities, fitness center, open gym, and special programs at 6 community centers. Great resource for teens to stay active.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: drop_in
+  good_for:
+    - active
+    - isolation
+    - indoor
+  guide_location: activities-guide-1.md#youth-programs
+  notes: Free fitness and recreation access for youth ages 10-20 at Portland Parks community centers.
 
