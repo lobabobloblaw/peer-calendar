@@ -891,9 +891,10 @@
     format: Online
     registration: 'Via Meetup: Portland-Depression-Bipolar-Support-Alliance-Meetup-Group'
   - name: Mental Healthcare Professionals
-    schedule: Saturdays 10:00am PT
+    schedule: Saturdays 10-11:30am PT
     format: Online
     contact: dbsa.healthcare.professionals@gmail.com
+    notes: "For healthcare professionals living with mood disorders. Peer support in a confidential space."
   eligibility: Open to all adults with any mental health condition (depression, bipolar,
     anxiety, PTSD, ADHD, etc.)
   member_liaison: dbsaportlandmemberliaison@gmail.com
@@ -1655,7 +1656,13 @@
   - https://diamondway.org/portland/meditation
   pricing:
     description: FREE always
-  schedule: Mondays and Thursdays 7pm - guided meditation with explanation
+  programs:
+  - name: Guided Meditation
+    schedule: Mondays 7-8pm
+    notes: "Guided meditation with explanation. Newcomers especially welcome."
+  - name: Guided Meditation
+    schedule: Thursdays 7-8pm
+    notes: "Guided meditation with explanation. Newcomers especially welcome."
   practical_tips:
     first_visit: Just show up at 7pm on Monday or Thursday. Newcomers especially welcome.
     registration: None required - drop-in welcome
@@ -2639,8 +2646,9 @@
     description: FREE
   programs:
   - name: Monday Trail Run
-    schedule: Mondays, 6:30pm
+    schedule: Mondays 6:30-8pm
     location: Forest Park, Thurman Entrance
+    notes: "Women-only trail run. No one left behind philosophy - group matches your pace."
   eligibility: Female-identifying runners
   features:
   - No one left behind philosophy
@@ -3485,9 +3493,11 @@
     cost: FREE
     notes: All ages; prizes include OMSI, Oaks Park tickets
   - name: Teen Advisory Group (GOAT)
-    schedule: 1st Tuesday monthly 5:30pm at Oak Lodge
+    schedule: 1st Tuesday 5:30-6:30pm
+    location: Oak Lodge Library
     cost: FREE
     eligibility: Grades 6-12
+    notes: "Help shape library programs and services for teens. Meet other teens who love the library."
   - name: Craft Classes
     schedule: Various
     cost: FREE
@@ -4025,16 +4035,17 @@
     '
   programs:
   - name: Adult Book Discussion
-    schedule: First Wednesday, 8pm
+    schedule: 1st Wednesday 8-9pm
     cost: FREE
+    notes: "Monthly book club. Check library for current book selection."
   - name: Teen Book Chat (grades 8-12)
-    schedule: Second Wednesday, 4pm
+    schedule: 2nd Wednesday 4-5pm
     cost: FREE
-    notes: Free copy of book for participants
+    notes: "Free copy of book for participants."
   - name: Summer Sunday Music Series
-    schedule: Sundays at 2pm
+    schedule: Sundays 2-3pm
     cost: FREE
-    notes: Live music by the fireplace hearth
+    notes: "Live music by the fireplace hearth. Summer season only."
   - name: Teen Library Committee (TLC)
     schedule: September-August
     cost: FREE
@@ -5640,9 +5651,9 @@
   accessibility_notes: Trillium Trail 0.25 mile paved, fully accessible
   programs:
   - name: Saturday Guided Nature Walks
-    schedule: Saturdays 10am
+    schedule: Saturdays 10-11am
     cost: FREE
-    notes: Join a park naturalist for a one-hour hike through the forest. Topics vary weekly - from fungi to wildlife to seasonal themes. All ages welcome, geared toward ages 5+. No registration required - meet at the Nature Center at 10am.
+    notes: "One-hour guided hike with a park naturalist. Topics vary weekly - fungi, wildlife, seasonal themes. Ages 5+ (all ages welcome). No registration - meet at Nature Center."
   last_verified: 2025-11-25
   next_audit: 2026-05-25
   audit_frequency: quarterly
@@ -7839,9 +7850,9 @@
       format: In-person
       notes: Safe space for peer connection and support
     - name: Dual Diagnosis Anonymous (DDA) Meeting
-      schedule: Every Tuesday, 5:30pm
+      schedule: Every Tuesday 5:30-6:30pm
       format: In-person
-      notes: For people with co-occurring mental health and substance use conditions
+      notes: "For people with co-occurring mental health and substance use conditions. Peer-led 12-step style meeting."
     - name: Peer Mentorship
       format: In-person
       notes: 98% of staff identify as in recovery - peer-led support
@@ -8195,18 +8206,20 @@
   pricing:
     description: FREE
   dates: July 9 - September 5, 2026
-  schedule: Thursdays, Fridays, and Saturdays
+  schedule_start_date: 2026-07-09
   programs:
     - name: Free Outdoor Concerts
-      schedule: 6:30pm-8:30pm
+      schedule: Thursdays 6:30-8:30pm
       format: In-person
+      notes: "Various parks. Check website for locations."
+    - name: Free Outdoor Concerts
+      schedule: Fridays 6:30-8:30pm
+      format: In-person
+      notes: "Various parks. Check website for locations."
     - name: Free Movies in the Park
-      schedule: Starting at 7:30pm/dusk
+      schedule: Saturdays 7:30-10pm
       format: In-person
-      notes: Pre-movie performances by local musicians and free popcorn
-    - name: Cultural Events
-      schedule: Various
-      format: In-person
+      notes: "Pre-movie performances by local musicians and free popcorn. Movies start at dusk."
   last_verified: 2026-01-17
   next_audit: 2026-06-01
   audit_frequency: annually
@@ -8276,22 +8289,22 @@
   category: fitness_wellness
   location_type: physical
   resource_type: program
-  address: Portland, OR
+  address: 1225 SE Grand Ave, Portland, OR 97214
   phone: null
   website: https://portlandstrengthcollective.com
   source_urls:
     - https://portlandstrengthcollective.com/classes/free-community-workout/
   pricing:
     description: FREE
-  schedule: Every Saturday
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+  schedule: Every Saturday 9am-10am
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Check website for location and time
+    first_visit: Just show up at 9am Saturday - no registration needed
     registration: None required
-    what_to_bring: Comfortable workout clothes, water
-    good_to_know: Free all-levels community workout with friendly coaches offering tips and modifications. Great way to try strength training in a supportive environment.
+    what_to_bring: Comfortable workout clothes, water, towel
+    good_to_know: "Free all-levels community workout with friendly coaches. Dynamic warm-up, demo of movements, then workout. Coaches offer tips and modifications for all fitness levels."
   accessibility:
     - transit_nearby
   social_intensity: casual_group
@@ -8477,8 +8490,9 @@
     - name: LGBTQ Senior Services
       format: In-person
     - name: Community Nights
-      schedule: Friday nights
-      cost: FREE facility use
+      schedule: Fridays 6-8pm
+      cost: FREE
+      notes: "Free access to showers (sign up by 7pm), internet center, fitness room, and classes. Open to everyone."
   last_verified: 2026-01-17
   next_audit: 2026-04-17
   audit_frequency: quarterly

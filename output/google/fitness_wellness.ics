@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:3edaaea6cbe1c3ad@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260121T190000
 DTEND:20260121T202000
 SUMMARY:Dharma Rain Zen Center: Wednesday Evening Meditation
@@ -40,8 +40,44 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:75e1464598e366da@portlandresources.org
+DTSTAMP:20260119T174219Z
+DTSTART:20260119T190000
+DTEND:20260119T200000
+SUMMARY:Diamond Way Buddhist Center: Guided Meditation
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE always\nInfo: Guided m
+ editation with explanation. Newcomers especially welcome.\nAddress: 1532 N
+ E 21st Ave\, Apt 101\, Portland\, OR 97232\nPhone: 503-484-7187\nWebsite: 
+ https://diamondway.org/portland/\nDetails: Karma Kagyu lineage of Tibetan 
+ Buddhism. Live-in center with guest room\, near public transit. Founded 19
+ 97.
+LOCATION:1532 NE 21st Ave\, Apt 101\, Portland\, OR 97232
+URL:https://diamondway.org/portland/
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:75e1464598e366da@portlandresources.org
+DTSTAMP:20260119T174219Z
+DTSTART:20260122T190000
+DTEND:20260122T200000
+SUMMARY:Diamond Way Buddhist Center: Guided Meditation
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE always\nInfo: Guided m
+ editation with explanation. Newcomers especially welcome.\nAddress: 1532 N
+ E 21st Ave\, Apt 101\, Portland\, OR 97232\nPhone: 503-484-7187\nWebsite: 
+ https://diamondway.org/portland/\nDetails: Karma Kagyu lineage of Tibetan 
+ Buddhism. Live-in center with guest room\, near public transit. Founded 19
+ 97.
+LOCATION:1532 NE 21st Ave\, Apt 101\, Portland\, OR 97232
+URL:https://diamondway.org/portland/
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:85da36a11cd8de05@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260120T183000
 DTEND:20260120T200000
 SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Evening Group
@@ -58,7 +94,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:50283de6a02f284c@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260120T150000
 DTEND:20260120T163000
 SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Teatime
@@ -75,7 +111,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c4627ca915697040@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260121T190000
 DTEND:20260121T203000
 SUMMARY:Portland Insight Meditation Community (PIMC): Heart of Freedom
@@ -94,7 +130,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:69576450a4c8ec45@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260120T173000
 DTEND:20260120T193000
 SUMMARY:Gresham Senior Center: Tuesday Night Dance
@@ -109,7 +145,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fa2a6f7932e27924@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260119T130000
 DTEND:20260119T150000
 SUMMARY:Gresham Senior Center: Monday Movie Matinees
@@ -124,7 +160,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:79365ba3889a5027@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260123T130000
 DTEND:20260123T143000
 SUMMARY:Gresham Senior Center: Friday Speaker Series
@@ -139,7 +175,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2fc95dd415237f2f@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260121T130000
 DTEND:20260121T143000
 SUMMARY:Gresham Senior Center: Alzheimer's Caregiver Support
@@ -154,7 +190,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9d926352b7451d03@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260123T170000
 DTEND:20260123T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Free Friday Climbing
@@ -170,7 +206,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:120fe89373741af7@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260124T180000
 DTEND:20260124T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Teen Nights
@@ -186,7 +222,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2c4a1c226a516cbd@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260119T183000
 DTEND:20260119T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Creston Pool Free Swim
@@ -201,7 +237,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:19f37adeb9323fcb@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260120T130000
 DTEND:20260120T154500
 SUMMARY:Portland Parks Free Open Swim Sessions: Peninsula Pool Free Swim
@@ -216,7 +252,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b759cc72f6eb0b0f@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260121T130000
 DTEND:20260121T150000
 SUMMARY:Portland Parks Free Open Swim Sessions: Grant Pool Free Swim
@@ -231,7 +267,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4bb53254bccbec2d@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260121T183000
 DTEND:20260121T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Sellwood Pool Free Swim
@@ -246,7 +282,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5a723522bb7078a8@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260121T062900
 DTEND:20260121T071500
 SUMMARY:November Project Portland: Wednesday Workout
@@ -265,7 +301,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2d545c0884955257@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260124T090000
 DTEND:20260124T110000
 SUMMARY:Portland Trail Runners: Saturday Trail Run
@@ -282,8 +318,23 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:105d2f0b41322d3e@portlandresources.org
+DTSTAMP:20260119T174219Z
+DTSTART:20260119T183000
+DTEND:20260119T200000
+SUMMARY:Trail Sisters Portland: Monday Trail Run
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Women-only trai
+ l run. No one left behind philosophy - group matches your pace.\nAddress: 
+ Forest Park\, Thurman Entrance\nDetails: Supportive trail running group fo
+ r women. 'No one left behind' - will match your pace\, walking welcome.
+LOCATION:Forest Park\, Thurman Entrance
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0781b534fe7b3022@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260125T130000
 DTEND:20260125T150000
 SUMMARY:Tergar Meditation Community of Portland: Monthly In-Person Practice
@@ -300,7 +351,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:315cc74f5ce5bba3@portlandresources.org
-DTSTAMP:20260119T173537Z
+DTSTAMP:20260119T174219Z
 DTSTART:20260119T190000
 DTEND:20260119T203000
 SUMMARY:Path of Sincerity Meditation Group: In-Person Meditation
@@ -312,6 +363,24 @@ DESCRIPTION:Category: Fitness & Wellness\nCost: FREE (donation-based gift e
 LOCATION:Awakenings Wellness Studio\, 1016 SE 12th Ave\, Portland
 URL:https://www.pathofsincerity.com/events/
 RRULE:FREQ=MONTHLY;BYDAY=MO;BYSETPOS=2,4
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:77f97d44905fa910@portlandresources.org
+DTSTAMP:20260119T174219Z
+DTSTART:20260123T180000
+DTEND:20260123T200000
+SUMMARY:Friendly House: Community Nights
+DESCRIPTION:Category: Fitness & Wellness\nCost: Low-cost/sliding scale avai
+ lable\nInfo: Free access to showers (sign up by 7pm)\, internet center\, f
+ itness room\, and classes. Open to everyone.\nAddress: 1737 NW 26th Ave\, 
+ Portland\, OR 97210\nPhone: 503-228-4391\nWebsite: https://fhpdx.org\nDeta
+ ils: Nonprofit neighborhood center with sliding scale. Multnomah County Se
+ nior Center partner. Free Community Nights on Fridays.
+LOCATION:1737 NW 26th Ave\, Portland\, OR 97210
+URL:https://fhpdx.org
+RRULE:FREQ=WEEKLY;BYDAY=FR
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
