@@ -1854,7 +1854,7 @@
                 }
 
                 // Check programs for seasonal schedules
-                if (entry.programs) {
+                if (entry.programs && Array.isArray(entry.programs)) {
                     for (const prog of entry.programs) {
                         if (prog.schedule && isSeasonalSchedule(prog.schedule)) {
                             const practicalTip = typeof entry.practical_tips === 'string'
