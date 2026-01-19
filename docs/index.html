@@ -1799,7 +1799,7 @@
         }
 
         function getMonthFromDates(dates) {
-            if (!dates) return 13; // Unknown, sort last
+            if (!dates || typeof dates !== 'string') return 13; // Unknown, sort last
             const lower = dates.toLowerCase();
             const monthOrder = {
                 'january': 1, 'february': 2, 'march': 3, 'april': 4, 'may': 5, 'june': 6,
@@ -1821,9 +1821,12 @@
                     const practicalTip = typeof entry.practical_tips === 'string'
                         ? entry.practical_tips
                         : entry.practical_tips?.good_to_know;
+                    // Handle dates as array or string
+                    const datesValue = entry.dates || entry.date;
+                    const datesStr = Array.isArray(datesValue) ? datesValue.join(', ') : datesValue;
                     seasonalEvents.push({
                         title: entry.title,
-                        dates: entry.dates || entry.date,
+                        dates: datesStr,
                         category: entry.categoryName,
                         color: entry.color,
                         website: entry.website,
