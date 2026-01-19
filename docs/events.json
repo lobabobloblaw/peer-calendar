@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-19T17:30:07.280541",
+  "generated": "2026-01-19T17:35:37.816053",
   "count": 213,
   "categories": {
     "peer_support": "Peer Support",
@@ -1714,8 +1714,9 @@
         },
         {
           "name": "Heart of Freedom",
-          "schedule": "Wednesdays",
-          "details": "Mindfulness cultivation class"
+          "schedule": "Wednesdays 7-8:30pm",
+          "format": "Hybrid (in-person and Zoom)",
+          "notes": "Mindfulness cultivation class with Doug Pullin. Guided and silent meditation, teaching, and Q&A. Beginning and advanced students welcome."
         }
       ],
       "dates": null,
@@ -1971,7 +1972,7 @@
       },
       "programs": [],
       "dates": null,
-      "schedule": "Every Sunday 11am",
+      "schedule": "Every Sunday 11am-12:30pm",
       "schedule_start_date": null,
       "flags": [],
       "accessibility": [
@@ -2549,10 +2550,10 @@
       "programs": [
         {
           "name": "Wednesday Workout",
-          "schedule": "Every Wednesday, 6:29am",
+          "schedule": "Every Wednesday 6:29-7:15am",
           "location": "Salmon Street Fountain",
           "cost": "FREE",
-          "notes": "Bodyweight movements and running with alternatives for all levels"
+          "notes": "30-45 minute workout. Bodyweight movements and running with alternatives for all levels. Rain or shine - they're weatherproof!"
         }
       ],
       "dates": null,
@@ -2651,8 +2652,8 @@
       "programs": [
         {
           "name": "Saturday Trail Run",
-          "schedule": "Saturdays, morning",
-          "notes": "Explore Forest Park, Tryon Creek, and other trails"
+          "schedule": "Saturdays 9-11am",
+          "notes": "5-7 mile trail runs in Forest Park, Tryon Creek, and other Portland trails. All paces welcome. Post-run coffee and conversation at trailhead."
         }
       ],
       "dates": null,
@@ -3216,9 +3217,20 @@
         "free_play_21_plus": "$12 (after 5pm)",
         "weekend_cover": "Cover charge during peak weekend hours"
       },
-      "programs": [],
+      "programs": [
+        {
+          "name": "Free Play (2nd Thursday)",
+          "schedule": "2nd Thursday 12-12am",
+          "notes": "All-ages noon-5pm ($6), 21+ 5pm-midnight ($12). Unlimited play on 100+ games."
+        },
+        {
+          "name": "Free Play (Last Wednesday)",
+          "schedule": "Last Wednesday 12-12am",
+          "notes": "All-ages noon-5pm ($6), 21+ 5pm-midnight ($12). Unlimited play on 100+ games."
+        }
+      ],
       "dates": null,
-      "schedule": "Free Play: 2nd Thursday & last Wednesday monthly, noon-midnight",
+      "schedule": null,
       "schedule_start_date": null,
       "flags": [],
       "accessibility": [
@@ -6823,14 +6835,14 @@
         {
           "name": "Tuesday Board Games",
           "location": "CORE Food Carts (3612 SE 82nd Ave)",
-          "schedule": "Every Tuesday 5pm",
-          "notes": "20-30 attendees typical"
+          "schedule": "Every Tuesday 5-9pm",
+          "notes": "20-30 attendees typical. Games provided. All skill levels welcome."
         },
         {
           "name": "Wednesday East Side Game Night",
           "location": "Board Bard Games (7960 SE Stark St)",
-          "schedule": "Every Wednesday 5pm",
-          "notes": "Free weekly social for all levels"
+          "schedule": "Every Wednesday 5-9pm",
+          "notes": "Free weekly social for all levels. Games provided by the shop."
         }
       ],
       "dates": null,
@@ -7185,7 +7197,8 @@
         },
         {
           "name": "Bingo",
-          "schedule": "Every Thursday"
+          "schedule": "Every Thursday 12:30-2pm",
+          "notes": "Cards available for purchase starting at noon. Cards just 25 cents. Great prizes."
         },
         {
           "name": "Fitness Classes",

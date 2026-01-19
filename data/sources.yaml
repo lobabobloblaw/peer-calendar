@@ -1702,8 +1702,9 @@
     schedule: Tuesdays 3-4:30pm PT
     format: Online
   - name: Heart of Freedom
-    schedule: Wednesdays
-    details: Mindfulness cultivation class
+    schedule: Wednesdays 7-8:30pm
+    format: Hybrid (in-person and Zoom)
+    notes: "Mindfulness cultivation class with Doug Pullin. Guided and silent meditation, teaching, and Q&A. Beginning and advanced students welcome."
   practical_tips:
     first_visit: Arrive 15-20 min early on Sundays (doors open 9am for silent meditation). Tuesday evening is a simpler format.
     registration: None required for weekly groups - just show up
@@ -1942,7 +1943,7 @@
   - https://www.wweek.com/culture/2025/03/13/mall-walking-is-back-lloyd-center-style/
   pricing:
     description: FREE
-  schedule: Every Sunday 11am
+  schedule: Every Sunday 11am-12:30pm
   distance: 3.5 miles (two laps around mall, ~90 minutes)
   host: Vera Mysteria (Krista Catwood)
   rules:
@@ -2518,10 +2519,10 @@
     description: FREE
   programs:
   - name: Wednesday Workout
-    schedule: Every Wednesday, 6:29am
+    schedule: Every Wednesday 6:29-7:15am
     location: Salmon Street Fountain
     cost: FREE
-    notes: Bodyweight movements and running with alternatives for all levels
+    notes: "30-45 minute workout. Bodyweight movements and running with alternatives for all levels. Rain or shine - they're weatherproof!"
   eligibility: All ages, all fitness levels
   last_verified: 2025-12-02
   next_audit: 2026-06-02
@@ -2602,8 +2603,8 @@
     description: FREE
   programs:
   - name: Saturday Trail Run
-    schedule: Saturdays, morning
-    notes: Explore Forest Park, Tryon Creek, and other trails
+    schedule: Saturdays 9-11am
+    notes: "5-7 mile trail runs in Forest Park, Tryon Creek, and other Portland trails. All paces welcome. Post-run coffee and conversation at trailhead."
   eligibility: All levels welcome
   last_verified: 2025-12-02
   next_audit: 2026-06-02
@@ -3176,7 +3177,13 @@
     free_play_21_plus: $12 (after 5pm)
     weekend_cover: Cover charge during peak weekend hours
   hours: Daily noon-2:30am
-  schedule: 'Free Play: 2nd Thursday & last Wednesday monthly, noon-midnight'
+  programs:
+  - name: Free Play (2nd Thursday)
+    schedule: 2nd Thursday 12-12am
+    notes: "All-ages noon-5pm ($6), 21+ 5pm-midnight ($12). Unlimited play on 100+ games."
+  - name: Free Play (Last Wednesday)
+    schedule: Last Wednesday 12-12am
+    notes: "All-ages noon-5pm ($6), 21+ 5pm-midnight ($12). Unlimited play on 100+ games."
   features:
   - 100+ classic video games (70s-90s)
   - 40+ pinball machines
@@ -6788,12 +6795,12 @@
   programs:
   - name: Tuesday Board Games
     location: CORE Food Carts (3612 SE 82nd Ave)
-    schedule: Every Tuesday 5pm
-    notes: 20-30 attendees typical
+    schedule: Every Tuesday 5-9pm
+    notes: "20-30 attendees typical. Games provided. All skill levels welcome."
   - name: Wednesday East Side Game Night
     location: Board Bard Games (7960 SE Stark St)
-    schedule: Every Wednesday 5pm
-    notes: Free weekly social for all levels
+    schedule: Every Wednesday 5-9pm
+    notes: "Free weekly social for all levels. Games provided by the shop."
   last_verified: 2026-01-12
   next_audit: 2026-04-01
   audit_frequency: quarterly
@@ -7119,7 +7126,8 @@
   - name: Walk With Ease
     schedule: Tue/Wed/Thu 10am
   - name: Bingo
-    schedule: Every Thursday
+    schedule: Every Thursday 12:30-2pm
+    notes: "Cards available for purchase starting at noon. Cards just 25 cents. Great prizes."
   - name: Fitness Classes
     notes: Various classes available
   - name: Art Classes

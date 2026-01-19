@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:3edaaea6cbe1c3ad@portlandresources.org
-DTSTAMP:20260119T172516Z
+DTSTAMP:20260119T173537Z
 DTSTART:20260121T190000
 DTEND:20260121T202000
 SUMMARY:Dharma Rain Zen Center: Wednesday Evening Meditation
@@ -49,7 +49,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85da36a11cd8de05@portlandresources.org
-DTSTAMP:20260119T172516Z
+DTSTAMP:20260119T173537Z
 DTSTART:20260120T183000
 DTEND:20260120T200000
 SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Evening Group
@@ -76,7 +76,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:50283de6a02f284c@portlandresources.org
-DTSTAMP:20260119T172516Z
+DTSTAMP:20260119T173537Z
 DTSTART:20260120T150000
 DTEND:20260120T163000
 SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Teatime
@@ -102,8 +102,40 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:c4627ca915697040@portlandresources.org
+DTSTAMP:20260119T173537Z
+DTSTART:20260121T190000
+DTEND:20260121T203000
+SUMMARY:Portland Insight Meditation Community (PIMC): Heart of Freedom
+DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
+ at: Hybrid (in-person and Zoom)\nInfo: Mindfulness cultivation class with 
+ Doug Pullin. Guided and silent meditation\, teaching\, and Q&A. Beginning 
+ and advanced students welcome.\nAddress: 6536 SE Duke St\, Portland\, OR 9
+ 7206\nPhone: 503-519-9686\nWebsite: https://www.portlandinsight.org/\nDeta
+ ils: Vipassana (insight) tradition. Welcomes all faiths\, orientations\, g
+ enders\, abilities\, ages\, and backgrounds.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
+ ><strong>Cost:</strong> Dana (donation-based)</p><p><strong>Format:</stron
+ g> Hybrid (in-person and Zoom)</p><p>Mindfulness cultivation class with Do
+ ug Pullin. Guided and silent meditation\, teaching\, and Q&amp\;A. Beginni
+ ng and advanced students welcome.</p><p><strong>Address:</strong> 6536 SE 
+ Duke St\, Portland\, OR 97206</p><p><strong>Phone:</strong> <a href="tel:5
+ 03-519-9686">503-519-9686</a></p><p><strong>Website:</strong> <a href="htt
+ ps://www.portlandinsight.org/">https://www.portlandinsight.org/</a></p><p>
+ <strong>Details:</strong> Vipassana (insight) tradition. Welcomes all fait
+ hs\, orientations\, genders\, abilities\, ages\, and backgrounds.</p></BOD
+ Y></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:6536 SE Duke St\, Portland\, OR 97206
+URL:https://www.portlandinsight.org/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:69576450a4c8ec45@portlandresources.org
-DTSTAMP:20260119T172516Z
+DTSTAMP:20260119T173537Z
 DTSTART:20260120T173000
 DTEND:20260120T193000
 SUMMARY:Gresham Senior Center: Tuesday Night Dance
@@ -126,7 +158,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fa2a6f7932e27924@portlandresources.org
-DTSTAMP:20260119T172516Z
+DTSTAMP:20260119T173537Z
 DTSTART:20260119T130000
 DTEND:20260119T150000
 SUMMARY:Gresham Senior Center: Monday Movie Matinees
@@ -148,7 +180,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:79365ba3889a5027@portlandresources.org
-DTSTAMP:20260119T172516Z
+DTSTAMP:20260119T173537Z
 DTSTART:20260123T130000
 DTEND:20260123T143000
 SUMMARY:Gresham Senior Center: Friday Speaker Series
@@ -170,7 +202,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2fc95dd415237f2f@portlandresources.org
-DTSTAMP:20260119T172516Z
+DTSTAMP:20260119T173537Z
 DTSTART:20260121T130000
 DTEND:20260121T143000
 SUMMARY:Gresham Senior Center: Alzheimer's Caregiver Support
@@ -192,7 +224,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9d926352b7451d03@portlandresources.org
-DTSTAMP:20260119T172516Z
+DTSTAMP:20260119T173537Z
 DTSTART:20260123T170000
 DTEND:20260123T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Free Friday Climbing
@@ -216,7 +248,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:120fe89373741af7@portlandresources.org
-DTSTAMP:20260119T172516Z
+DTSTAMP:20260119T173537Z
 DTSTART:20260124T180000
 DTEND:20260124T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Teen Nights
@@ -241,7 +273,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2c4a1c226a516cbd@portlandresources.org
-DTSTAMP:20260119T172516Z
+DTSTAMP:20260119T173537Z
 DTSTART:20260119T183000
 DTEND:20260119T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Creston Pool Free Swim
@@ -264,7 +296,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:19f37adeb9323fcb@portlandresources.org
-DTSTAMP:20260119T172516Z
+DTSTAMP:20260119T173537Z
 DTSTART:20260120T130000
 DTEND:20260120T154500
 SUMMARY:Portland Parks Free Open Swim Sessions: Peninsula Pool Free Swim
@@ -287,7 +319,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b759cc72f6eb0b0f@portlandresources.org
-DTSTAMP:20260119T172516Z
+DTSTAMP:20260119T173537Z
 DTSTART:20260121T130000
 DTEND:20260121T150000
 SUMMARY:Portland Parks Free Open Swim Sessions: Grant Pool Free Swim
@@ -310,7 +342,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4bb53254bccbec2d@portlandresources.org
-DTSTAMP:20260119T172516Z
+DTSTAMP:20260119T173537Z
 DTSTART:20260121T183000
 DTEND:20260121T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Sellwood Pool Free Swim
@@ -332,8 +364,68 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:5a723522bb7078a8@portlandresources.org
+DTSTAMP:20260119T173537Z
+DTSTART:20260121T062900
+DTEND:20260121T071500
+SUMMARY:November Project Portland: Wednesday Workout
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: 30-45 minute wo
+ rkout. Bodyweight movements and running with alternatives for all levels. 
+ Rain or shine - they're weatherproof!\nAddress: Salmon Street Fountain\, 1
+ 000 SW Naito Pkwy\, Portland\, OR 97204\nWebsite: https://november-project
+ .com/portland-or/\nDetails: Free fitness movement in Portland since 2016. 
+ Mission: lowering intimidation of fitness\, building human connections. 'A
+ ll Ages\, Faces\, & Paces'
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
+ ><strong>Cost:</strong> FREE</p><p>30-45 minute workout. Bodyweight moveme
+ nts and running with alternatives for all levels. Rain or shine - they&#x2
+ 7\;re weatherproof!</p><p><strong>Address:</strong> Salmon Street Fountain
+ \, 1000 SW Naito Pkwy\, Portland\, OR 97204</p><p><strong>Website:</strong
+ > <a href="https://november-project.com/portland-or/">https://november-pro
+ ject.com/portland-or/</a></p><p><strong>Details:</strong> Free fitness mov
+ ement in Portland since 2016. Mission: lowering intimidation of fitness\, 
+ building human connections. &#x27\;All Ages\, Faces\, &amp\; Paces&#x27\;<
+ /p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Salmon Street Fountain
+URL:https://november-project.com/portland-or/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2d545c0884955257@portlandresources.org
+DTSTAMP:20260119T173537Z
+DTSTART:20260124T090000
+DTEND:20260124T110000
+SUMMARY:Portland Trail Runners: Saturday Trail Run
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: 5-7 mile trail 
+ runs in Forest Park\, Tryon Creek\, and other Portland trails. All paces w
+ elcome. Post-run coffee and conversation at trailhead.\nAddress: Forest Pa
+ rk (various trailheads)\nWebsite: https://www.meetup.com/portland-trail-ru
+ nners-group/\nDetails: Portland's original trail running group\, exploring
+  the city's best trails for over 15 years.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
+ ><strong>Cost:</strong> FREE</p><p>5-7 mile trail runs in Forest Park\, Tr
+ yon Creek\, and other Portland trails. All paces welcome. Post-run coffee 
+ and conversation at trailhead.</p><p><strong>Address:</strong> Forest Park
+  (various trailheads)</p><p><strong>Website:</strong> <a href="https://www
+ .meetup.com/portland-trail-runners-group/">https://www.meetup.com/portland
+ -trail-runners-group/</a></p><p><strong>Details:</strong> Portland&#x27\;s
+  original trail running group\, exploring the city&#x27\;s best trails for
+  over 15 years.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Forest Park (various trailheads)
+URL:https://www.meetup.com/portland-trail-runners-group/
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0781b534fe7b3022@portlandresources.org
-DTSTAMP:20260119T172516Z
+DTSTAMP:20260119T173537Z
 DTSTART:20260125T130000
 DTEND:20260125T150000
 SUMMARY:Tergar Meditation Community of Portland: Monthly In-Person Practice
@@ -360,7 +452,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:315cc74f5ce5bba3@portlandresources.org
-DTSTAMP:20260119T172516Z
+DTSTAMP:20260119T173537Z
 DTSTART:20260119T190000
 DTEND:20260119T203000
 SUMMARY:Path of Sincerity Meditation Group: In-Person Meditation
