@@ -337,6 +337,10 @@ Calendars are hosted via GitHub Pages for public subscription access.
   - **Calendar**: Monthly grid view with events on their dates
   - **List**: Chronological list of events for the month
   - **Seasonal Events**: Festivals, fairs, and date-ranged events (not recurring)
+- Weather-reactive animated background (Vanta.js clouds):
+  - Time of day: Dawn (pink/peach), Day (sky blue), Dusk (purple/orange), Night (navy)
+  - Weather conditions via Open-Meteo API: Clear skies show subtle clouds, overcast/rain darkens sky
+  - Gracefully falls back to time-based defaults if API unavailable
 - Updates section for announcing new content
 
 **Publishing workflow:**
