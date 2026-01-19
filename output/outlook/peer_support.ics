@@ -25,9 +25,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:b8b48cbe08f220fe@portlandresources.org
-DTSTAMP:20260117T053537Z
-DTSTART:20260118T150000
-DTEND:20260118T163000
+DTSTAMP:20260119T172516Z
+DTSTART:20260125T150000
+DTEND:20260125T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (In-Person)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
   464 SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\n
@@ -52,9 +52,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dba6711eb13da213@portlandresources.org
-DTSTAMP:20260117T053537Z
-DTSTART:20260118T150000
-DTEND:20260118T163000
+DTSTAMP:20260119T172516Z
+DTSTART:20260125T150000
+DTEND:20260125T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (Online)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nAddress: 464 
  SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsi
@@ -78,7 +78,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9777816b12080f9@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260119T190000
 DTEND:20260119T203000
 SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support
@@ -106,7 +106,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c8206c50171db713@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260121T180000
 DTEND:20260121T193000
 SUMMARY:NAMI Multnomah: Young Adult (18-35)
@@ -134,7 +134,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4b11c0aa298f2306@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260122T190000
 DTEND:20260122T203000
 SUMMARY:NAMI Multnomah: BIPOC Peer Support
@@ -163,7 +163,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c08dbed81b24d0f5@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260120T190000
 DTEND:20260120T203000
 SUMMARY:NAMI Multnomah: Complex Trauma & Dissociation Support
@@ -191,7 +191,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:531662b55bc0a9a7@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260120T190000
 DTEND:20260120T203000
 SUMMARY:NAMI Clackamas: NAMI Connection Support Group
@@ -220,7 +220,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:abda9c8971b1314b@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260121T170000
 DTEND:20260121T183000
 SUMMARY:NAMI Clackamas: Women (18+) Only Support Group
@@ -247,7 +247,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:80c98c702199b308@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260204T140000
 DTEND:20260204T153000
 SUMMARY:CMHC Peer Groups (Clackamas Mental Health Clinic): ColorFlow
@@ -277,7 +277,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e316600684ec1523@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260203T170000
 DTEND:20260203T180000
 SUMMARY:CMHC Peer Groups (Clackamas Mental Health Clinic): Intentional Sile
@@ -308,7 +308,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f234895ee256a32c@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260205T150000
 DTEND:20260205T160000
 SUMMARY:CMHC Peer Groups (Clackamas Mental Health Clinic): Cultivate & Conn
@@ -340,7 +340,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:31776a6d2df51554@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260204T143000
 DTEND:20260204T160000
 SUMMARY:CMHC Peer Groups (Clackamas Mental Health Clinic): Healing with Pho
@@ -371,7 +371,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9266fce812b6dd31@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260206T184500
 DTEND:20260206T200000
 SUMMARY:CMHC Peer Groups (Clackamas Mental Health Clinic): Karaoke Night
@@ -402,7 +402,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:651932636ba165c7@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260119T190000
 DTEND:20260119T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): LGBTQIA+ Suppo
@@ -428,7 +428,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:215024356d2538f2@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260120T183000
 DTEND:20260120T195000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (W
@@ -453,7 +453,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49d6b06cbd9d0a5b@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260122T190000
 DTEND:20260122T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (E
@@ -477,8 +477,174 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:19f42812d02d4c30@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260125T100000
+DTEND:20260125T110000
+SUMMARY:Recovery Dharma Portland (PDX): Queer Paths (LGBTQIA+)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nWebsite: http
+ s://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portland. 
+ Buddhist-based recovery using mindfulness and loving-kindness - alternativ
+ e to 12-step programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p><strong>Websit
+ e:</strong> <a href="https://recoverydharmapdx.org/">https://recoverydharm
+ apdx.org/</a></p><p><strong>Details:</strong> 30+ weekly meetings across P
+ ortland. Buddhist-based recovery using mindfulness and loving-kindness - a
+ lternative to 12-step programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+URL:https://recoverydharmapdx.org/
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d01907d4e561c48d@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260125T160000
+DTEND:20260125T170000
+SUMMARY:Recovery Dharma Portland (PDX): Middle Way on MLK
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
+  https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
+ and. Buddhist-based recovery using mindfulness and loving-kindness - alter
+ native to 12-step programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>W
+ ebsite:</strong> <a href="https://recoverydharmapdx.org/">https://recovery
+ dharmapdx.org/</a></p><p><strong>Details:</strong> 30+ weekly meetings acr
+ oss Portland. Buddhist-based recovery using mindfulness and loving-kindnes
+ s - alternative to 12-step programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:True Colors Recovery\, 3807 NE MLK Jr Blvd
+URL:https://recoverydharmapdx.org/
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a401de0df0a97d58@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260119T070000
+DTEND:20260119T080000
+SUMMARY:Recovery Dharma Portland (PDX): Dawn Metta
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nWebsite: http
+ s://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portland. 
+ Buddhist-based recovery using mindfulness and loving-kindness - alternativ
+ e to 12-step programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p><strong>Websit
+ e:</strong> <a href="https://recoverydharmapdx.org/">https://recoverydharm
+ apdx.org/</a></p><p><strong>Details:</strong> 30+ weekly meetings across P
+ ortland. Buddhist-based recovery using mindfulness and loving-kindness - a
+ lternative to 12-step programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+URL:https://recoverydharmapdx.org/
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8b74d636a24a9d3b@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260119T190000
+DTEND:20260119T200000
+SUMMARY:Recovery Dharma Portland (PDX): Dharma Rain Eightfold Path Study
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Hybrid\nWebsite: ht
+ tps://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portland
+ . Buddhist-based recovery using mindfulness and loving-kindness - alternat
+ ive to 12-step programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> Hybrid</p><p><strong>Webs
+ ite:</strong> <a href="https://recoverydharmapdx.org/">https://recoverydha
+ rmapdx.org/</a></p><p><strong>Details:</strong> 30+ weekly meetings across
+  Portland. Buddhist-based recovery using mindfulness and loving-kindness -
+  alternative to 12-step programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Dharma Rain Zen Center\, 8500 NE Siskiyou St
+URL:https://recoverydharmapdx.org/
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cf5b8c34d2c742aa@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260119T180000
+DTEND:20260119T190000
+SUMMARY:Recovery Dharma Portland (PDX): Hungry Ghosts
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
+  https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
+ and. Buddhist-based recovery using mindfulness and loving-kindness - alter
+ native to 12-step programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>W
+ ebsite:</strong> <a href="https://recoverydharmapdx.org/">https://recovery
+ dharmapdx.org/</a></p><p><strong>Details:</strong> 30+ weekly meetings acr
+ oss Portland. Buddhist-based recovery using mindfulness and loving-kindnes
+ s - alternative to 12-step programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:3442 SE Morrison St
+URL:https://recoverydharmapdx.org/
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:23dea98a4f0c56b7@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260120T193000
+DTEND:20260120T203000
+SUMMARY:Recovery Dharma Portland (PDX): Women's\, Trans\, and Non-Binary
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
+  https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
+ and. Buddhist-based recovery using mindfulness and loving-kindness - alter
+ native to 12-step programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>W
+ ebsite:</strong> <a href="https://recoverydharmapdx.org/">https://recovery
+ dharmapdx.org/</a></p><p><strong>Details:</strong> 30+ weekly meetings acr
+ oss Portland. Buddhist-based recovery using mindfulness and loving-kindnes
+ s - alternative to 12-step programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:True Colors Recovery
+URL:https://recoverydharmapdx.org/
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b9e264e45b420ecd@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260122T120000
+DTEND:20260122T130000
+SUMMARY:Recovery Dharma Portland (PDX): Thursday Portland Alano Club
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
+  https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
+ and. Buddhist-based recovery using mindfulness and loving-kindness - alter
+ native to 12-step programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>W
+ ebsite:</strong> <a href="https://recoverydharmapdx.org/">https://recovery
+ dharmapdx.org/</a></p><p><strong>Details:</strong> 30+ weekly meetings acr
+ oss Portland. Buddhist-based recovery using mindfulness and loving-kindnes
+ s - alternative to 12-step programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Ave\, SE Room
+URL:https://recoverydharmapdx.org/
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:568f2b14f76f137e@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260123T190000
 DTEND:20260123T203000
 SUMMARY:Recovery Dharma Portland (PDX): Sarpashana
@@ -501,8 +667,32 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:0a44eb8e53fca375@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260124T190000
+DTEND:20260124T200000
+SUMMARY:Recovery Dharma Portland (PDX): Meditation Sandwich
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
+  https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
+ and. Buddhist-based recovery using mindfulness and loving-kindness - alter
+ native to 12-step programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
+ st:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>W
+ ebsite:</strong> <a href="https://recoverydharmapdx.org/">https://recovery
+ dharmapdx.org/</a></p><p><strong>Details:</strong> 30+ weekly meetings acr
+ oss Portland. Buddhist-based recovery using mindfulness and loving-kindnes
+ s - alternative to 12-step programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Portland Alano Club (Loft)
+URL:https://recoverydharmapdx.org/
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:5dccfbb24ed3c3f2@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260119T190000
 DTEND:20260119T203000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): LGBTQIA2S+ Mental Heal
@@ -531,7 +721,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:65981a99ae5aad6e@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260121T190000
 DTEND:20260121T210000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): QTIBIPOC Community Spa
@@ -560,9 +750,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e3edc33c7c6abd02@portlandresources.org
-DTSTAMP:20260117T053537Z
-DTSTART:20260117T100000
-DTEND:20260117T110000
+DTSTAMP:20260119T172516Z
+DTSTART:20260124T100000
+DTEND:20260124T110000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Saturday Meeting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
  2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
@@ -585,9 +775,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fd5742a493e3fee2@portlandresources.org
-DTSTAMP:20260117T053537Z
-DTSTART:20260117T103000
-DTEND:20260117T113000
+DTSTAMP:20260119T172516Z
+DTSTART:20260124T103000
+DTEND:20260124T113000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Virtual Meeting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nAddress: 521 
  SW 11th Ave\, 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsit

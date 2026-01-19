@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:c62bc17ff46d5148@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260121T180000
 DTEND:20260121T200000
 SUMMARY:NAYA (Native American Youth and Family Center): Culture Nights
@@ -42,7 +42,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7911bf9a58117f@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260122T183000
 DTEND:20260122T193000
 SUMMARY:MHCC Planetarium Sky Theatre: Early Planetarium Show
@@ -60,7 +60,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e02aa101489f47a@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260122T200000
 DTEND:20260122T210000
 SUMMARY:MHCC Planetarium Sky Theatre: Late Planetarium Show
@@ -78,7 +78,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f7bf9869ba2e83a@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260121T120000
 DTEND:20260121T130000
 SUMMARY:The Old Church Concert Hall: Lunchtime Concert Series
@@ -93,9 +93,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0379c9729163580c@portlandresources.org
-DTSTAMP:20260117T053537Z
-DTSTART:20260118T160000
-DTEND:20260118T170000
+DTSTAMP:20260119T172516Z
+DTSTART:20260125T160000
+DTEND:20260125T170000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
  s
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Multiple Sundays th
@@ -109,7 +109,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:904f46f7f1ae22e0@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260123T170000
 DTEND:20260123T190000
 SUMMARY:Turn! Turn! Turn!: Comedy Open Mic
@@ -126,9 +126,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d8fc3329cc6894ad@portlandresources.org
-DTSTAMP:20260117T053537Z
-DTSTART:20260118T123000
-DTEND:20260118T153000
+DTSTAMP:20260119T172516Z
+DTSTART:20260125T123000
+DTEND:20260125T153000
 SUMMARY:Turn! Turn! Turn!: Drawing Club
 DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: Casual drawi
  ng get-together - bring your own supplies or just hang out. All skill leve
@@ -143,7 +143,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d9e5489d6044ef66@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260119T200000
 DTEND:20260119T230000
 SUMMARY:Turn! Turn! Turn!: Karaoke Night
@@ -160,7 +160,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:361be0cc45ef3e68@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260121T180000
 DTEND:20260121T193000
 SUMMARY:Tigard Public Library: ESL Conversation Classes
@@ -178,7 +178,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:91fcae740514833e@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART;VALUE=DATE:20251120
 DTEND;VALUE=DATE:20251124
 SUMMARY:PCC Theatre: Much Ado About Nothing
@@ -190,6 +190,108 @@ DESCRIPTION:Category: Arts & Culture\nCost: Ticket prices vary by section\n
  sicals.
 LOCATION:12000 SW 49th Ave\, Portland\, OR 97219
 URL:https://www.pcc.edu/theatre/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:47623ca66dc7ccac@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260125T140000
+DTEND:20260125T160000
+SUMMARY:SCRAP PDX Creative Reuse: Sunday Crafternoon
+DESCRIPTION:Category: Arts & Culture\nCost: FREE-$7 depending on event\nInf
+ o: Guided themed craft projects. Materials provided. All skill levels welc
+ ome.\nAddress: 619 SE 6th Ave\, Portland\, OR 97214\nPhone: 503-294-0769\n
+ Website: https://portland.scrapcreativereuse.org/\nDetails: Nonprofit crea
+ tive reuse center with free/low-cost craft events
+LOCATION:619 SE 6th Ave\, Portland\, OR 97214
+URL:https://portland.scrapcreativereuse.org/
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:69fa01134c907707@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260123T163000
+DTEND:20260123T190000
+SUMMARY:SCRAP PDX Creative Reuse: Free Teacher Craft Night
+DESCRIPTION:Category: Arts & Culture\nCost: FREE-$7 depending on event\nInf
+ o: Free craft time for teachers\, tutors\, and educators. Relax and create
+ .\nAddress: 619 SE 6th Ave\, Portland\, OR 97214\nPhone: 503-294-0769\nWeb
+ site: https://portland.scrapcreativereuse.org/\nDetails: Nonprofit creativ
+ e reuse center with free/low-cost craft events
+LOCATION:619 SE 6th Ave\, Portland\, OR 97214
+URL:https://portland.scrapcreativereuse.org/
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:018c2dbc4c1b6d6c@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260125T170000
+DTEND:20260125T190000
+SUMMARY:Independent Publishing Resource Center (IPRC): Collage Night
+DESCRIPTION:Category: Arts & Culture\nCost: Collage Night $5 suggested dona
+ tion\; workshops vary\; zine library FREE\nInfo: Free monthly collage sess
+ ion. All materials provided. Great for beginners.\nAddress: 318 SE Main St
+ reet\, Suites 155 & 145\, Portland\, OR 97214\nWebsite: https://www.iprc.o
+ rg/\nDetails: Zine and print resource center with free collage nights and 
+ workshops
+LOCATION:318 SE Main Street\, Suites 155 & 145\, Portland\, OR 97214
+URL:https://www.iprc.org/
+RRULE:FREQ=MONTHLY;BYDAY=SU;BYSETPOS=1
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a86510240984ddfd@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260122T190000
+DTEND:20260122T210000
+SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Guilder Cafe
+DESCRIPTION:Category: Arts & Culture\nCost: FREE ($5 suggested donation)\nI
+ nfo: Intimate cafe setting. Poets get 3 minutes. First-come\, first-served
+  signup.\nAddress: Various - Guilder Cafe and Literary Arts\, Portland\nWe
+ bsite: https://slamlandia.com/\nDetails: Supportive poetry open mic with b
+ oth intimate and larger venue options
+LOCATION:Various - Guilder Cafe and Literary Arts\, Portland
+URL:https://slamlandia.com/
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=1
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:74df6f3fc548fb54@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260122T190000
+DTEND:20260122T210000
+SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Literary Arts
+DESCRIPTION:Category: Arts & Culture\nCost: FREE ($5 suggested donation)\nI
+ nfo: Larger venue downtown. Features slam competition and featured readers
+ .\nAddress: Various - Guilder Cafe and Literary Arts\, Portland\nWebsite: 
+ https://slamlandia.com/\nDetails: Supportive poetry open mic with both int
+ imate and larger venue options
+LOCATION:Various - Guilder Cafe and Literary Arts\, Portland
+URL:https://slamlandia.com/
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=3
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4f5ddbd49f0a9039@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260125T160000
+DTEND:20260125T180000
+SUMMARY:The Humble Poets' Open Mic
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: The Stacks Coffe
+ ehouse\, 1831 N. Killingsworth\, Portland\nWebsite: https://www.thestacksc
+ offeehouse.com/events\nDetails: Very welcoming poetry open mic in cozy cof
+ feehouse - great for first-timers
+LOCATION:The Stacks Coffeehouse\, 1831 N. Killingsworth\, Portland
+URL:https://www.thestackscoffeehouse.com/events
+RRULE:FREQ=WEEKLY;BYDAY=SU
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT

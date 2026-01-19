@@ -971,29 +971,29 @@
     description: FREE
   programs:
   - name: Queer Paths (LGBTQIA+)
-    schedule: Sundays 10am
+    schedule: Sundays 10-11am
     format: Zoom
   - name: Middle Way on MLK
-    schedule: Sundays 4pm
+    schedule: Sundays 4-5pm
     location: True Colors Recovery, 3807 NE MLK Jr Blvd
     format: In-person
   - name: Dawn Metta
-    schedule: Mondays 7am
+    schedule: Mondays 7-8am
     format: Zoom
   - name: Dharma Rain Eightfold Path Study
-    schedule: Mondays 7pm
+    schedule: Mondays 7-8pm
     location: Dharma Rain Zen Center, 8500 NE Siskiyou St
     format: Hybrid
   - name: Hungry Ghosts
-    schedule: Mondays 6pm
+    schedule: Mondays 6-7pm
     location: 3442 SE Morrison St
     format: In-person
   - name: Women's, Trans, and Non-Binary
-    schedule: Tuesdays 7:30pm
+    schedule: Tuesdays 7:30-8:30pm
     location: True Colors Recovery
     format: In-person
   - name: Thursday Portland Alano Club
-    schedule: Thursdays 12pm
+    schedule: Thursdays 12-1pm
     location: 909 NW 24th Ave, SE Room
     format: In-person
   - name: Sarpashana
@@ -1001,7 +1001,7 @@
     location: Portland Insight Meditation Center, 6536 SE Duke St
     format: In-person
   - name: Meditation Sandwich
-    schedule: Saturdays 7pm
+    schedule: Saturdays 7-8pm
     location: Portland Alano Club (Loft)
     format: In-person
   practical_tips:
@@ -1287,6 +1287,92 @@
   guide_location: activities-guide-2.md#grief-support
   notes: Open to anyone grieving the death of a significant person. Free and no registration
     required.
+- id: 4d-recovery
+  name: 4D Recovery
+  category: peer_support
+  location_type: physical
+  resource_type: organization
+  address: 1206 SE 11th Ave, Portland, OR 97214
+  phone: 503-432-9783
+  website: https://4drecovery.org/
+  source_urls:
+  - https://4drecovery.org/
+  - https://4drecovery.org/portland/
+  pricing:
+    description: FREE
+  programs:
+  - name: Drop-In Center
+    schedule: Daily 2-10pm
+    notes: "Welcoming space with pool table, video games, TV, and peer connection. Come hang out, no pressure."
+  - name: Recovery Support Meetings
+    schedule: Various weekly meetings
+    notes: "12-step, dharma, yoga, and social recovery approaches available. Check website for current schedule."
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "Peer-led recovery community for young people ages 14-35. Drop-in centers with games, meetings, and social events. Certified peer mentors with lived experience. Accepts Medicaid/OHP. Also has Hillsboro location."
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: casual_group
+  good_for:
+    - isolation
+    - new_to_area
+    - indoor
+  guide_location: activities-guide-2.md#recovery-support
+  notes: Youth-focused (14-35) recovery community with peer mentors
+- id: peergalaxy
+  name: PeerGalaxy Online Wellness Portal
+  category: peer_support
+  location_type: online_service
+  resource_type: service
+  address: null
+  phone: null
+  website: https://www.peergalaxy.com/
+  source_urls:
+  - https://www.peergalaxy.com/
+  pricing:
+    description: FREE or pay-as-you-can
+  schedule: 24/7 online calendar
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "Searchable online calendar with 392,000+ peer support offerings statewide. Includes support groups, chair yoga, Tai-Chi, breathwork, guided art, grief support. Created by The Peer Company (formerly MHAAO)."
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: varies
+  good_for:
+    - anxiety_friendly
+    - low_energy
+    - isolation
+  guide_location: activities-guide-2.md#online-resources
+  notes: Comprehensive Oregon peer support portal - find virtual and in-person groups
+- id: smart-recovery-portland
+  name: SMART Recovery Portland
+  category: peer_support
+  location_type: physical
+  resource_type: program
+  address: null
+  phone: null
+  website: https://meetings.smartrecovery.org/
+  source_urls:
+  - https://meetings.smartrecovery.org/
+  - https://www.smartrecovery.org/
+  pricing:
+    description: FREE
+  schedule: Multiple weekly meetings across Portland metro
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "Evidence-based, non-spiritual alternative to 12-step programs. Uses cognitive behavioral techniques. Meetings in all Portland quadrants plus online. No lifetime commitment - attend as long as helpful."
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: structured_group
+  good_for:
+    - isolation
+    - indoor
+  guide_location: activities-guide-2.md#recovery-support
+  notes: Science-based addiction recovery meetings - good alternative for those seeking non-spiritual approach
 
 ---
 # FITNESS WELLNESS
@@ -2687,6 +2773,150 @@
     areas to reduce barriers to access.
   flags:
   - 📅 DATE-SENSITIVE
+- id: portland-bird-watching-meetup
+  name: Portland Bird Watching Meetup (Birding for the People)
+  category: fitness_wellness
+  location_type: varies
+  resource_type: program
+  address: Various parks - Whitaker Ponds, Smith & Bybee Wetlands, etc.
+  phone: null
+  website: https://www.meetup.com/portland-bird-watching-meetup-group/
+  source_urls:
+  - https://www.meetup.com/portland-bird-watching-meetup-group/
+  pricing:
+    description: FREE
+  schedule: Regular weekend bird walks (check Meetup for dates)
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "Inclusive, beginner-friendly birding walks. Relaxed pace focused on learning together. No experience or gear required - free loaner binoculars available. Great gentle outdoor activity for mental wellness."
+  accessibility:
+    - varies
+  social_intensity: casual_group
+  good_for:
+    - anxiety_friendly
+    - outdoor
+    - low_energy
+    - new_to_area
+  guide_location: activities-guide-1.md#nature-activities
+  notes: Beginner-friendly bird walks with loaner binoculars available
+- id: birdhers
+  name: Birdhers
+  category: fitness_wellness
+  location_type: varies
+  resource_type: program
+  address: Inner Portland parks (various locations)
+  phone: null
+  website: https://birdhers.com/
+  source_urls:
+  - https://birdhers.com/
+  pricing:
+    description: FREE
+  schedule: Regular walks (check website for dates)
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "Meditative, slow-paced bird walks (1-2 miles) on paved and dirt paths. No RSVP required. Extra binoculars available. Designed to be calming and accessible."
+  accessibility:
+    - varies
+  social_intensity: casual_group
+  good_for:
+    - anxiety_friendly
+    - outdoor
+    - low_energy
+  guide_location: activities-guide-1.md#nature-activities
+  notes: Meditative slow-paced bird walks perfect for those seeking calm outdoor connection
+- id: tergar-meditation-portland
+  name: Tergar Meditation Community of Portland
+  category: fitness_wellness
+  location_type: physical
+  resource_type: program
+  address: SomaSpace, 4050 NE Broadway, Portland, OR 97213
+  phone: null
+  website: https://tergar.org/portland/
+  source_urls:
+  - https://tergar.org/portland/
+  pricing:
+    description: FREE
+  programs:
+  - name: Monthly In-Person Practice
+    schedule: 3rd Sunday 1-3pm
+    notes: "Three 25-minute silent sitting sessions with walking meditation between, followed by tea, snacks, and social time."
+  - name: Weekly Online Meditation
+    schedule: Various times (check website)
+    notes: "Virtual meditation sessions for those who can't attend in person."
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "Free meditation practice in Hollywood District. Welcoming to beginners and experienced practitioners. Social time with tea and snacks after sitting. No registration needed."
+  accessibility:
+    - transit_nearby
+  social_intensity: casual_group
+  good_for:
+    - anxiety_friendly
+    - low_energy
+    - indoor
+  guide_location: activities-guide-1.md#meditation
+  notes: Free monthly meditation with social time afterward. Beginner-friendly.
+- id: path-of-sincerity
+  name: Path of Sincerity Meditation Group
+  category: fitness_wellness
+  location_type: hybrid
+  resource_type: program
+  address: Awakenings Wellness Studio, 1016 SE 12th Ave, Portland
+  phone: null
+  website: https://www.pathofsincerity.com/events/
+  source_urls:
+  - https://www.pathofsincerity.com/events/
+  pricing:
+    description: FREE (donation-based gift economy)
+  programs:
+  - name: In-Person Meditation
+    schedule: 2nd & 4th Mondays 7-8:30pm
+    notes: "Buddhist-inspired meditation with teaching and discussion. All traditions welcome."
+  - name: Daily Virtual Meditation
+    schedule: Daily 8-9am
+    notes: "Consistent morning practice opportunity. Great for building routine."
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "No registration needed. Gift economy means pay what you can or nothing at all. Daily virtual option helps build consistent practice. Welcoming to all traditions."
+  accessibility:
+    - transit_nearby
+  social_intensity: casual_group
+  good_for:
+    - anxiety_friendly
+    - low_energy
+    - indoor
+  guide_location: activities-guide-1.md#meditation
+  notes: Daily virtual + twice-monthly in-person meditation. Gift economy model.
+- id: decompress-connect-meditation
+  name: Decompress + Connect Meditation Group
+  category: fitness_wellness
+  location_type: physical
+  resource_type: program
+  address: Portland Shambhala Center (check Meetup for location)
+  phone: null
+  website: https://www.meetup.com/portlandyoungmeditators/
+  source_urls:
+  - https://www.meetup.com/portlandyoungmeditators/
+  pricing:
+    description: FREE
+  schedule: Regular meetings (check Meetup for dates)
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "Partnership between Portland Shambhala Center and Young Meditators Group. 20 minutes silent meditation followed by talking circle. All traditions welcome. Good for connecting with others."
+  accessibility:
+    - transit_nearby
+  social_intensity: casual_group
+  good_for:
+    - anxiety_friendly
+    - low_energy
+    - isolation
+    - new_to_area
+  guide_location: activities-guide-1.md#meditation
+  notes: Meditation plus talking circle - good for those wanting both practice and connection
 
 ---
 # ARTS CULTURE
@@ -4025,6 +4255,165 @@
   guide_location: activities-guide-1.md#arts-and-culture
   notes: Free gallery in East County featuring diverse contemporary and traditional
     art. Peaceful forest campus setting.
+- id: scrap-pdx
+  name: SCRAP PDX Creative Reuse
+  category: arts_culture
+  location_type: physical
+  resource_type: place
+  address: 619 SE 6th Ave, Portland, OR 97214
+  phone: 503-294-0769
+  website: https://portland.scrapcreativereuse.org/
+  source_urls:
+  - https://portland.scrapcreativereuse.org/
+  - https://portland.scrapcreativereuse.org/Events
+  pricing:
+    description: FREE-$7 depending on event
+  programs:
+  - name: Sunday Crafternoon
+    schedule: Sundays 2-4pm
+    cost: FREE
+    notes: "Guided themed craft projects. Materials provided. All skill levels welcome."
+  - name: Free Teacher Craft Night
+    schedule: Fridays 4:30-7pm
+    cost: FREE for educators
+    notes: "Free craft time for teachers, tutors, and educators. Relax and create."
+  - name: Sunday Night Stitchin'
+    schedule: Twice monthly (check website)
+    cost: FREE
+    notes: "Textile and fiber arts open studio. Bring your own project or start something new."
+  - name: Adult Craft Nights at Bars
+    schedule: Various (check website)
+    cost: $7
+    notes: "Social crafting at local bars. Fun evening activity with creative people."
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "Nonprofit creative reuse center with low-cost art supplies. Sunday Crafternoon is great for trying new crafts. Low-pressure environment perfect for creative expression without spending much. Materials provided for most events."
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: casual_group
+  good_for:
+    - creative
+    - isolation
+    - new_to_area
+    - indoor
+  guide_location: activities-guide-1.md#art-classes
+  notes: Nonprofit creative reuse center with free/low-cost craft events
+- id: iprc
+  name: Independent Publishing Resource Center (IPRC)
+  category: arts_culture
+  location_type: physical
+  resource_type: place
+  address: 318 SE Main Street, Suites 155 & 145, Portland, OR 97214
+  phone: null
+  website: https://www.iprc.org/
+  source_urls:
+  - https://www.iprc.org/
+  pricing:
+    description: Collage Night $5 suggested donation; workshops vary; zine library FREE
+  hours: Mon 12-9pm, Wed 6-9pm, Thu-Sat 12-6pm
+  programs:
+  - name: Collage Night
+    schedule: 1st Sunday 5-7pm
+    cost: $5 suggested donation (no one turned away)
+    notes: "Free monthly collage session. All materials provided. Great for beginners."
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "Resource center for zines, books, prints, and comics. Home to 9,000+ zine library. Offers letterpress, screen printing, risograph, and bookbinding workshops. Collage Night is beginner-friendly."
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: casual_group
+  good_for:
+    - creative
+    - indoor
+  guide_location: activities-guide-1.md#art-classes
+  notes: Zine and print resource center with free collage nights and workshops
+- id: slamlandia-poetry
+  name: Slamlandia Poetry Open Mic
+  category: arts_culture
+  location_type: physical
+  resource_type: program
+  address: Various - Guilder Cafe and Literary Arts, Portland
+  phone: null
+  website: https://slamlandia.com/
+  source_urls:
+  - https://slamlandia.com/
+  pricing:
+    description: FREE ($5 suggested donation)
+  programs:
+  - name: Open Mic at Guilder Cafe
+    schedule: 1st Thursday 7-9pm
+    notes: "Intimate cafe setting. Poets get 3 minutes. First-come, first-served signup."
+  - name: Open Mic at Literary Arts
+    schedule: 3rd Thursday 7-9pm
+    notes: "Larger venue downtown. Features slam competition and featured readers."
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "Poetry slam and open mic. Poets get 3 minutes on mic. Supportive environment for sharing creative work. Arrive early to sign up for open mic slots."
+  accessibility:
+    - transit_nearby
+  social_intensity: casual_group
+  good_for:
+    - creative
+    - indoor
+  guide_location: activities-guide-1.md#writing-groups
+  notes: Supportive poetry open mic with both intimate and larger venue options
+- id: humble-poets-open-mic
+  name: The Humble Poets' Open Mic
+  category: arts_culture
+  location_type: physical
+  resource_type: program
+  address: The Stacks Coffeehouse, 1831 N. Killingsworth, Portland
+  phone: null
+  website: https://www.thestackscoffeehouse.com/events
+  source_urls:
+  - https://www.thestackscoffeehouse.com/events
+  pricing:
+    description: FREE
+  schedule: Last Sunday of each month 4-6pm
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "Welcoming open mic for poets and storytellers. Musical accompaniments welcome. Cozy coffeehouse setting ideal for those nervous about sharing work for the first time. Very supportive community."
+  accessibility:
+    - transit_nearby
+  social_intensity: casual_group
+  good_for:
+    - creative
+    - anxiety_friendly
+    - indoor
+  guide_location: activities-guide-1.md#writing-groups
+  notes: Very welcoming poetry open mic in cozy coffeehouse - great for first-timers
+- id: willamette-writers
+  name: Willamette Writers
+  category: arts_culture
+  location_type: hybrid
+  resource_type: organization
+  address: Various locations and online
+  phone: null
+  website: https://willamettewriters.org/
+  source_urls:
+  - https://willamettewriters.org/
+  pricing:
+    description: Many free events; membership has benefits
+  schedule: Various workshops and critique groups throughout the month
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "Oregon's largest writers' organization. Free writing workshops and drop-in critiques available. Annual conference in August. Good for connecting with other writers at all levels."
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: casual_group
+  good_for:
+    - creative
+    - indoor
+    - new_to_area
+  guide_location: activities-guide-1.md#writing-groups
+  notes: Oregon's largest writers' organization with free workshops and critique groups
 
 ---
 # EVENTS
@@ -6347,6 +6736,38 @@
   notes: Evening market serving the diverse Rockwood community.
   flags:
     - 🔄 SEASONAL
+- id: lynwood-community-farm
+  name: Community Farm at Lynwood Friends Church
+  category: food_farms
+  location_type: physical
+  resource_type: program
+  address: 835 SE 162nd Ave, Portland, OR 97233
+  phone: null
+  website: null
+  source_urls:
+  - Contact church directly
+  pricing:
+    description: FREE
+  season: May-October
+  programs:
+  - name: Drop-In Farming
+    schedule: Wednesdays 9:30am-12:30pm and 3-6pm; Saturdays 2-5pm
+    notes: "Come farm for 2 hours, leave with a bag of fresh produce. No commitment required."
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "Drop-in model where anyone can come farm for 2 hours and leave with fresh produce. No commitment required - just show up during open hours. Combines gentle physical activity with tangible reward. Great for those wanting to try gardening."
+  accessibility:
+    - varies
+  social_intensity: casual_group
+  good_for:
+    - outdoor
+    - active
+    - low_energy
+  guide_location: activities-guide-2.md#community-gardens
+  notes: Farm for 2 hours, take home fresh produce. No ongoing commitment required.
+  flags:
+    - 🔄 SEASONAL
 
 ---
 # SOCIAL ACTIVITIES
@@ -7219,6 +7640,74 @@
   notes: 501(c)(3) nonprofit preserving cemetery history since 2000. One of Portland's most beautiful and historic green spaces. Final resting place of many Portland pioneers.
   flags:
     - 📅 DATE-SENSITIVE
+- id: hands-on-greater-portland
+  name: Hands On Greater Portland
+  category: social_activities
+  location_type: varies
+  resource_type: organization
+  address: Various locations across Portland metro
+  phone: null
+  website: https://www.handsonportland.org/
+  source_urls:
+  - https://www.handsonportland.org/
+  pricing:
+    description: FREE
+  schedule: Various "done-in-a-day" projects throughout the week
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "Done-in-a-day volunteer projects requiring no experience or ongoing commitment. 2-4 hour projects led by trained volunteer leaders. Sign up with two clicks online. Great low-pressure way to contribute and connect with others."
+  accessibility:
+    - varies
+  social_intensity: casual_group
+  good_for:
+    - isolation
+    - new_to_area
+    - outdoor
+    - active
+  guide_location: activities-guide-2.md#volunteer-opportunities
+  notes: Low-commitment volunteer projects - show up once, no ongoing obligation
+- id: community-positive-aging
+  name: The Community for Positive Aging
+  category: social_activities
+  location_type: physical
+  resource_type: organization
+  address: 1820 NE 40th Ave, Portland, OR 97212
+  phone: 503-288-8303
+  website: https://www.communityfpa.org/
+  source_urls:
+  - https://www.communityfpa.org/
+  pricing:
+    description: FREE-low cost
+  eligibility: Adults 55+
+  hours: Monday-Friday 8am-4:30pm
+  programs:
+  - name: Free Legal Aid
+    schedule: By appointment
+    notes: "Free legal consultations for seniors."
+  - name: Computer Workshops
+    schedule: Various (check website)
+    notes: "Learn technology skills in supportive environment."
+  - name: Tax Assistance
+    schedule: Seasonal (tax season)
+    notes: "Free tax preparation help for seniors."
+  - name: Energy Assistance
+    schedule: Ongoing
+    notes: "Help applying for utility assistance programs."
+  last_verified: 2026-01-19
+  next_audit: 2026-04-19
+  audit_frequency: quarterly
+  practical_tips: "For adults 55+. Offers free legal aid, computer workshops, tax assistance, and energy assistance programs. Social activity groups and wellness programs. Also hosts NAMI peer support groups on 2nd & 4th Sundays."
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: casual_group
+  good_for:
+    - low_energy
+    - indoor
+    - isolation
+  guide_location: activities-guide-2.md#senior-services
+  notes: Senior center with free services including legal aid, tax help, and social programs
 
 ---
 # NEW ENTRIES - Added 2026-01-17

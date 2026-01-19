@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:3edaaea6cbe1c3ad@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260121T190000
 DTEND:20260121T202000
 SUMMARY:Dharma Rain Zen Center: Wednesday Evening Meditation
@@ -49,7 +49,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85da36a11cd8de05@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260120T183000
 DTEND:20260120T200000
 SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Evening Group
@@ -76,7 +76,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:50283de6a02f284c@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260120T150000
 DTEND:20260120T163000
 SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Teatime
@@ -103,7 +103,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:69576450a4c8ec45@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260120T173000
 DTEND:20260120T193000
 SUMMARY:Gresham Senior Center: Tuesday Night Dance
@@ -126,7 +126,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fa2a6f7932e27924@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260119T130000
 DTEND:20260119T150000
 SUMMARY:Gresham Senior Center: Monday Movie Matinees
@@ -148,7 +148,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:79365ba3889a5027@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260123T130000
 DTEND:20260123T143000
 SUMMARY:Gresham Senior Center: Friday Speaker Series
@@ -170,7 +170,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2fc95dd415237f2f@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260121T130000
 DTEND:20260121T143000
 SUMMARY:Gresham Senior Center: Alzheimer's Caregiver Support
@@ -192,7 +192,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9d926352b7451d03@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260123T170000
 DTEND:20260123T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Free Friday Climbing
@@ -216,9 +216,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:120fe89373741af7@portlandresources.org
-DTSTAMP:20260117T053537Z
-DTSTART:20260117T180000
-DTEND:20260117T210000
+DTSTAMP:20260119T172516Z
+DTSTART:20260124T180000
+DTEND:20260124T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Teen Nights
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE for Gresham residents 
  on specific days\nNote: Includes rental shoes on Free Friday Climbing\nEli
@@ -241,7 +241,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2c4a1c226a516cbd@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260119T183000
 DTEND:20260119T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Creston Pool Free Swim
@@ -264,7 +264,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:19f37adeb9323fcb@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260120T130000
 DTEND:20260120T154500
 SUMMARY:Portland Parks Free Open Swim Sessions: Peninsula Pool Free Swim
@@ -287,7 +287,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b759cc72f6eb0b0f@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260121T130000
 DTEND:20260121T150000
 SUMMARY:Portland Parks Free Open Swim Sessions: Grant Pool Free Swim
@@ -310,7 +310,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4bb53254bccbec2d@portlandresources.org
-DTSTAMP:20260117T053537Z
+DTSTAMP:20260119T172516Z
 DTSTART:20260121T183000
 DTEND:20260121T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Sellwood Pool Free Swim
@@ -328,6 +328,60 @@ X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Sellwood Pool\, 7951 SE 7th Ave
 URL:https://portland.gov/parks/outdoor-pools
 RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0781b534fe7b3022@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260125T130000
+DTEND:20260125T150000
+SUMMARY:Tergar Meditation Community of Portland: Monthly In-Person Practice
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Three 25-minute
+  silent sitting sessions with walking meditation between\, followed by tea
+ \, snacks\, and social time.\nAddress: SomaSpace\, 4050 NE Broadway\, Port
+ land\, OR 97213\nWebsite: https://tergar.org/portland/\nDetails: Free mont
+ hly meditation with social time afterward. Beginner-friendly.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
+ ><strong>Cost:</strong> FREE</p><p>Three 25-minute silent sitting sessions
+  with walking meditation between\, followed by tea\, snacks\, and social t
+ ime.</p><p><strong>Address:</strong> SomaSpace\, 4050 NE Broadway\, Portla
+ nd\, OR 97213</p><p><strong>Website:</strong> <a href="https://tergar.org/
+ portland/">https://tergar.org/portland/</a></p><p><strong>Details:</strong
+ > Free monthly meditation with social time afterward. Beginner-friendly.</
+ p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:SomaSpace\, 4050 NE Broadway\, Portland\, OR 97213
+URL:https://tergar.org/portland/
+RRULE:FREQ=MONTHLY;BYDAY=SU;BYSETPOS=3
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:315cc74f5ce5bba3@portlandresources.org
+DTSTAMP:20260119T172516Z
+DTSTART:20260119T190000
+DTEND:20260119T203000
+SUMMARY:Path of Sincerity Meditation Group: In-Person Meditation
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE (donation-based gift e
+ conomy)\nInfo: Buddhist-inspired meditation with teaching and discussion. 
+ All traditions welcome.\nAddress: Awakenings Wellness Studio\, 1016 SE 12t
+ h Ave\, Portland\nWebsite: https://www.pathofsincerity.com/events/\nDetail
+ s: Daily virtual + twice-monthly in-person meditation. Gift economy model.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
+ ><strong>Cost:</strong> FREE (donation-based gift economy)</p><p>Buddhist-
+ inspired meditation with teaching and discussion. All traditions welcome.<
+ /p><p><strong>Address:</strong> Awakenings Wellness Studio\, 1016 SE 12th 
+ Ave\, Portland</p><p><strong>Website:</strong> <a href="https://www.pathof
+ sincerity.com/events/">https://www.pathofsincerity.com/events/</a></p><p><
+ strong>Details:</strong> Daily virtual + twice-monthly in-person meditatio
+ n. Gift economy model.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Awakenings Wellness Studio\, 1016 SE 12th Ave\, Portland
+URL:https://www.pathofsincerity.com/events/
+RRULE:FREQ=MONTHLY;BYDAY=MO;BYSETPOS=2,4
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
