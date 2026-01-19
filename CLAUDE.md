@@ -333,7 +333,10 @@ Calendars are hosted via GitHub Pages for public subscription access.
 **Landing page features:**
 - Responsive two-column layout on desktop (768px+), single-column on mobile
 - Platform selector (Apple/Google/Outlook) with subscribe buttons
-- Inline calendar preview with List and Calendar grid views
+- Inline calendar preview with three view tabs:
+  - **Calendar**: Monthly grid view with events on their dates
+  - **List**: Chronological list of events for the month
+  - **Seasonal Events**: Festivals, fairs, and date-ranged events (not recurring)
 - Updates section for announcing new content
 
 **Publishing workflow:**
