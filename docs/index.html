@@ -525,6 +525,56 @@
         .grid-view.active { display: block; }
         .list-view.active { display: block; }
         .list-view { display: none; }
+        .seasonal-view { display: none; }
+        .seasonal-view.active { display: block; }
+
+        /* Seasonal view styles */
+        .seasonal-event-card {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+
+        .seasonal-event-card:hover {
+            background: var(--hover-bg);
+        }
+
+        .seasonal-event-date {
+            font-weight: 600;
+            color: var(--accent);
+            font-size: 0.9em;
+            margin-bottom: 4px;
+        }
+
+        .seasonal-event-title {
+            font-weight: 500;
+            margin-bottom: 2px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .seasonal-event-org {
+            font-size: 0.85em;
+            color: var(--text-secondary);
+            margin-bottom: 2px;
+        }
+
+        .seasonal-event-category {
+            font-size: 0.8em;
+            color: var(--text-muted);
+        }
+
+        .seasonal-month-header {
+            position: sticky;
+            top: 0;
+            background: var(--bg-secondary);
+            padding: 8px 16px;
+            font-weight: 600;
+            border-bottom: 1px solid var(--border-color);
+            z-index: 5;
+        }
 
         .calendar-grid {
             display: grid;
@@ -1101,6 +1151,7 @@
                     <div class="view-tabs">
                         <button class="view-tab active" data-view="grid">Calendar</button>
                         <button class="view-tab" data-view="list">List</button>
+                        <button class="view-tab" data-view="seasonal">Seasonal</button>
                     </div>
                 </div>
                 <div class="list-view" id="list-view">
@@ -1108,6 +1159,9 @@
                 </div>
                 <div class="grid-view active" id="grid-view">
                     <div class="calendar-grid" id="calendar-grid"></div>
+                </div>
+                <div class="seasonal-view" id="seasonal-view">
+                    <div class="no-events">Loading seasonal events...</div>
                 </div>
             </div>
             </div>
@@ -1718,6 +1772,227 @@
                    currentMonth.getMonth() === today.getMonth();
         }
 
+        // Seasonal events functions
+        function isSeasonalSchedule(schedule) {
+            if (!schedule) return false;
+            const lower = schedule.toLowerCase();
+
+            // Month names
+            const months = ['january', 'february', 'march', 'april', 'may', 'june',
+                           'july', 'august', 'september', 'october', 'november', 'december'];
+            const hasMonth = months.some(m => lower.includes(m));
+
+            // Date range patterns
+            const hasDateRange = /\d{4}/.test(schedule) || // Has year
+                                /[a-z]+ \d+-\d+/.test(lower) || // "July 17-19"
+                                (/-/.test(schedule) && hasMonth); // "June-August"
+
+            // Exclude if has specific recurring time pattern
+            const hasRecurringTime = /\d{1,2}(:\d{2})?\s*-\s*\d{1,2}(:\d{2})?\s*(am|pm)/i.test(schedule) &&
+                                    /(every|monday|tuesday|wednesday|thursday|friday|saturday|sunday)/i.test(schedule);
+
+            // Include seasonal keywords
+            const seasonalKeywords = ['summer', 'winter', 'spring', 'fall', 'annual', 'seasonal', 'year-round'];
+            const hasSeasonalKeyword = seasonalKeywords.some(k => lower.includes(k));
+
+            return (hasMonth || hasDateRange || hasSeasonalKeyword) && !hasRecurringTime;
+        }
+
+        function getMonthFromDates(dates) {
+            if (!dates) return 13; // Unknown, sort last
+            const lower = dates.toLowerCase();
+            const monthOrder = {
+                'january': 1, 'february': 2, 'march': 3, 'april': 4, 'may': 5, 'june': 6,
+                'july': 7, 'august': 8, 'september': 9, 'october': 10, 'november': 11, 'december': 12
+            };
+            for (const [month, num] of Object.entries(monthOrder)) {
+                if (lower.includes(month)) return num;
+            }
+            return 13;
+        }
+
+        function getSeasonalEvents() {
+            if (!eventsData) return [];
+            const seasonalEvents = [];
+
+            for (const entry of eventsData.events) {
+                // Check for date/dates fields (one-time or ranged events)
+                if (entry.dates || entry.date) {
+                    const practicalTip = typeof entry.practical_tips === 'string'
+                        ? entry.practical_tips
+                        : entry.practical_tips?.good_to_know;
+                    seasonalEvents.push({
+                        title: entry.title,
+                        dates: entry.dates || entry.date,
+                        category: entry.categoryName,
+                        color: entry.color,
+                        website: entry.website,
+                        address: entry.address,
+                        description: practicalTip || entry.notes,
+                        flags: entry.flags
+                    });
+                    continue;
+                }
+
+                // Check for seasonal schedule patterns (months without specific times)
+                const schedule = entry.schedule;
+                if (schedule && isSeasonalSchedule(schedule)) {
+                    const practicalTip = typeof entry.practical_tips === 'string'
+                        ? entry.practical_tips
+                        : entry.practical_tips?.good_to_know;
+                    seasonalEvents.push({
+                        title: entry.title,
+                        dates: schedule,
+                        category: entry.categoryName,
+                        color: entry.color,
+                        website: entry.website,
+                        address: entry.address,
+                        description: practicalTip || entry.notes,
+                        flags: entry.flags
+                    });
+                    continue;
+                }
+
+                // Check programs for seasonal schedules
+                if (entry.programs) {
+                    for (const prog of entry.programs) {
+                        if (prog.schedule && isSeasonalSchedule(prog.schedule)) {
+                            const practicalTip = typeof entry.practical_tips === 'string'
+                                ? entry.practical_tips
+                                : entry.practical_tips?.good_to_know;
+                            seasonalEvents.push({
+                                title: prog.name,
+                                org: entry.title,
+                                dates: prog.schedule,
+                                category: entry.categoryName,
+                                color: entry.color,
+                                website: entry.website,
+                                address: prog.location || entry.address,
+                                description: prog.notes || practicalTip || entry.notes,
+                                flags: entry.flags
+                            });
+                        }
+                    }
+                }
+            }
+
+            // Sort by approximate date
+            return seasonalEvents.sort((a, b) => getMonthFromDates(a.dates) - getMonthFromDates(b.dates));
+        }
+
+        function renderSeasonalView() {
+            const container = document.getElementById('seasonal-view');
+            const events = getSeasonalEvents();
+
+            if (events.length === 0) {
+                container.innerHTML = '<div class="no-events">No seasonal events found</div>';
+                return;
+            }
+
+            // Group by approximate month/season
+            const grouped = {};
+            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+                               'July', 'August', 'September', 'October', 'November', 'December'];
+
+            for (const event of events) {
+                const monthNum = getMonthFromDates(event.dates);
+                const groupKey = monthNum <= 12 ? monthNames[monthNum - 1] : 'Year-Round / Various';
+                if (!grouped[groupKey]) grouped[groupKey] = [];
+                grouped[groupKey].push(event);
+            }
+
+            let html = '';
+            for (const [month, monthEvents] of Object.entries(grouped)) {
+                html += `<div class="seasonal-month-header">${month}</div>`;
+                for (const event of monthEvents) {
+                    const colorDot = event.color ? `<span class="color-dot" style="background:${event.color}"></span>` : '';
+                    html += `
+                        <div class="seasonal-event-card" data-event='${JSON.stringify(event).replace(/'/g, "&#39;")}'>
+                            <div class="seasonal-event-date">${event.dates || 'Various dates'}</div>
+                            <div class="seasonal-event-title">${colorDot}${event.title}</div>
+                            ${event.org ? `<div class="seasonal-event-org">${event.org}</div>` : ''}
+                            <div class="seasonal-event-category">${event.category || ''}</div>
+                        </div>
+                    `;
+                }
+            }
+
+            container.innerHTML = html;
+
+            // Add click handlers for event details
+            container.querySelectorAll('.seasonal-event-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    const eventData = JSON.parse(card.dataset.event);
+                    showSeasonalEventModal(eventData);
+                });
+            });
+        }
+
+        function showSeasonalEventModal(event) {
+            const modal = document.createElement('div');
+            modal.className = 'event-modal-overlay';
+
+            let bodyHtml = '';
+
+            // Dates
+            bodyHtml += `<div class="event-modal-row">
+                <div class="event-modal-icon">📅</div>
+                <div class="event-modal-value">${event.dates || 'Various dates'}</div>
+            </div>`;
+
+            // Location
+            if (event.address) {
+                bodyHtml += `<div class="event-modal-row">
+                    <div class="event-modal-icon">📍</div>
+                    <div class="event-modal-value">${event.address}</div>
+                </div>`;
+            }
+
+            // Category
+            if (event.category) {
+                bodyHtml += `<div class="event-modal-row">
+                    <div class="event-modal-icon">🏷️</div>
+                    <div class="event-modal-value">${event.category}</div>
+                </div>`;
+            }
+
+            // Description
+            if (event.description) {
+                bodyHtml += `<div class="event-modal-row">
+                    <div class="event-modal-icon">ℹ️</div>
+                    <div class="event-modal-value">${event.description}</div>
+                </div>`;
+            }
+
+            // Website
+            if (event.website) {
+                bodyHtml += `<div class="event-modal-row">
+                    <div class="event-modal-icon">🔗</div>
+                    <div class="event-modal-value"><a href="${event.website}" target="_blank" rel="noopener">More info</a></div>
+                </div>`;
+            }
+
+            const title = event.org ? `${event.title}<br><small style="font-weight:normal;opacity:0.8">${event.org}</small>` : event.title;
+
+            modal.innerHTML = `
+                <div class="event-modal">
+                    <div class="event-modal-header">
+                        <div class="event-modal-title">${title}</div>
+                        <button class="event-modal-close">&times;</button>
+                    </div>
+                    <div class="event-modal-body">${bodyHtml}</div>
+                </div>
+            `;
+
+            document.body.appendChild(modal);
+
+            // Close handlers
+            modal.querySelector('.event-modal-close').addEventListener('click', () => modal.remove());
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) modal.remove();
+            });
+        }
+
         // View tab switching
         document.querySelectorAll('.view-tab').forEach(tab => {
             tab.addEventListener('click', function() {
@@ -1727,10 +2002,16 @@
                 currentView = this.dataset.view;
                 document.getElementById('list-view').classList.toggle('active', currentView === 'list');
                 document.getElementById('grid-view').classList.toggle('active', currentView === 'grid');
+                document.getElementById('seasonal-view').classList.toggle('active', currentView === 'seasonal');
 
                 // Auto-scroll to today when switching to list view
                 if (currentView === 'list' && isCurrentMonth()) {
                     scrollToToday();
+                }
+
+                // Render seasonal view when switching to it
+                if (currentView === 'seasonal') {
+                    renderSeasonalView();
                 }
             });
         });
