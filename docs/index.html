@@ -1151,7 +1151,7 @@
                     <div class="view-tabs">
                         <button class="view-tab active" data-view="grid">Calendar</button>
                         <button class="view-tab" data-view="list">List</button>
-                        <button class="view-tab" data-view="seasonal">Seasonal</button>
+                        <button class="view-tab" data-view="seasonal">Seasonal Events</button>
                     </div>
                 </div>
                 <div class="list-view" id="list-view">
@@ -2077,6 +2077,9 @@
                     }
                     document.getElementById('stats-inline').textContent = `· ${totalEvents} events · ${categories.size} categories`;
                 }
+
+                // Pre-render seasonal view so it's ready when tab is clicked
+                renderSeasonalView();
             })
             .catch(err => {
                 document.getElementById('list-view').innerHTML =
