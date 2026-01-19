@@ -1241,7 +1241,8 @@
         // Get dates for a schedule in a given month
         function getScheduleDates(schedule, year, month) {
             const parsed = parseSchedule(schedule);
-            if (!parsed || parsed.day === null) return [];
+            // Require both a day AND a start time to generate calendar events
+            if (!parsed || parsed.day === null || !parsed.startTime) return [];
 
             const dates = [];
             const firstDay = new Date(year, month, 1);
