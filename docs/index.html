@@ -576,6 +576,45 @@
             z-index: 5;
         }
 
+        /* Mobile collapsible seasonal events */
+        .seasonal-collapse {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-top: 16px;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .seasonal-collapse summary {
+            padding: 12px 16px;
+            font-weight: 600;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .seasonal-collapse summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .seasonal-collapse summary::after {
+            content: '▸';
+            transition: transform 0.2s;
+        }
+
+        .seasonal-collapse[open] summary::after {
+            transform: rotate(90deg);
+        }
+
+        .seasonal-collapse-content {
+            max-height: 300px;
+            overflow-y: auto;
+            border-top: 1px solid var(--border-color);
+        }
+
         .calendar-grid {
             display: grid;
             grid-template-columns: repeat(7, minmax(0, 1fr));
@@ -1151,7 +1190,7 @@
                     <div class="view-tabs">
                         <button class="view-tab active" data-view="grid">Calendar</button>
                         <button class="view-tab" data-view="list">List</button>
-                        <button class="view-tab" data-view="seasonal">Seasonal Events</button>
+                        <button class="view-tab desktop-only" data-view="seasonal">Seasonal Events</button>
                     </div>
                 </div>
                 <div class="list-view" id="list-view">
@@ -1165,6 +1204,14 @@
                 </div>
             </div>
             </div>
+
+            <!-- Mobile-only collapsible seasonal events -->
+            <details class="seasonal-collapse mobile-only">
+                <summary>Seasonal Events & Festivals</summary>
+                <div class="seasonal-collapse-content" id="seasonal-collapse-content">
+                    <div class="no-events">Loading seasonal events...</div>
+                </div>
+            </details>
         </div>
 
         <a href="https://www.folktime.org" target="_blank" rel="noopener" class="folktime-link mobile-only"><img src="folktime.png" alt="FolkTime" class="folktime-logo"></a>
@@ -1885,10 +1932,13 @@
 
         function renderSeasonalView() {
             const container = document.getElementById('seasonal-view');
+            const mobileContainer = document.getElementById('seasonal-collapse-content');
             const events = getSeasonalEvents();
 
             if (events.length === 0) {
-                container.innerHTML = '<div class="no-events">No seasonal events found</div>';
+                const emptyMsg = '<div class="no-events">No seasonal events found</div>';
+                container.innerHTML = emptyMsg;
+                if (mobileContainer) mobileContainer.innerHTML = emptyMsg;
                 return;
             }
 
@@ -1920,13 +1970,18 @@
                 }
             }
 
+            // Populate both desktop and mobile containers
             container.innerHTML = html;
+            if (mobileContainer) mobileContainer.innerHTML = html;
 
-            // Add click handlers for event details
-            container.querySelectorAll('.seasonal-event-card').forEach(card => {
-                card.addEventListener('click', () => {
-                    const eventData = JSON.parse(card.dataset.event);
-                    showSeasonalEventModal(eventData);
+            // Add click handlers for event details (both containers)
+            [container, mobileContainer].forEach(cont => {
+                if (!cont) return;
+                cont.querySelectorAll('.seasonal-event-card').forEach(card => {
+                    card.addEventListener('click', () => {
+                        const eventData = JSON.parse(card.dataset.event);
+                        showSeasonalEventModal(eventData);
+                    });
                 });
             });
         }
