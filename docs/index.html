@@ -48,6 +48,24 @@
             transition: opacity 0.8s ease;
         }
 
+        /* Fog overlay - covers screen for fog/mist conditions */
+        #fog-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            background: linear-gradient(to bottom,
+                rgba(180, 180, 185, 0.95) 0%,
+                rgba(190, 190, 195, 0.9) 30%,
+                rgba(200, 200, 205, 0.85) 60%,
+                rgba(210, 210, 215, 0.8) 100%);
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.8s ease;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
@@ -1128,6 +1146,7 @@
 <body>
     <div id="sky-bg" aria-hidden="true"></div>
     <div id="vanta-bg" aria-hidden="true"></div>
+    <div id="fog-overlay" aria-hidden="true"></div>
     <div class="landscape-overlay" aria-hidden="true">
         <p>Please rotate your device to portrait mode</p>
     </div>
@@ -2486,8 +2505,18 @@
 
             // Fade in the background with appropriate cloud opacity
             const cloudOpacity = options.cloudOpacity !== undefined ? options.cloudOpacity : 1.0;
+            const fogOverlay = document.getElementById('fog-overlay');
+
             requestAnimationFrame(() => {
                 vantaBg.style.opacity = String(cloudOpacity);
+
+                // Show fog overlay for fog/mist conditions (codes 45-48)
+                if (weather && weather.weatherCode >= 45 && weather.weatherCode <= 48) {
+                    const fogIntensity = 0.7 + (weather.cloudCover / 100) * 0.25;
+                    fogOverlay.style.opacity = fogIntensity;
+                } else {
+                    fogOverlay.style.opacity = 0;
+                }
             });
 
             // Log details
