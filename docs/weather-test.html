@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Effect Tester</title>
+    <style>
+        * { box-sizing: border-box; }
+
+        #vanta-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            color: #fff;
+        }
+
+        .controls {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 12px;
+            max-width: 400px;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 1.4em;
+        }
+
+        .control-group {
+            margin-bottom: 16px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+
+        select, input[type="range"] {
+            width: 100%;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid rgba(255,255,255,0.3);
+            background: rgba(255,255,255,0.1);
+            color: #fff;
+            font-size: 0.9em;
+        }
+
+        select option {
+            background: #333;
+            color: #fff;
+        }
+
+        .value-display {
+            font-size: 0.85em;
+            color: rgba(255,255,255,0.7);
+            margin-top: 4px;
+        }
+
+        .status {
+            margin-top: 16px;
+            padding: 12px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            font-size: 0.85em;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+
+        button {
+            background: #e08050;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            margin-top: 12px;
+        }
+
+        button:hover {
+            background: #c06030;
+        }
+    </style>
+</head>
+<body>
+    <div id="vanta-bg"></div>
+
+    <div class="controls">
+        <h1>Weather Effect Tester</h1>
+
+        <div class="control-group">
+            <label>Time of Day</label>
+            <select id="timeOfDay">
+                <option value="night">Night</option>
+                <option value="dawn">Dawn</option>
+                <option value="day" selected>Day</option>
+                <option value="dusk">Dusk</option>
+            </select>
+        </div>
+
+        <div class="control-group">
+            <label>Weather Condition (WMO Code)</label>
+            <select id="weatherCode">
+                <option value="0">0 - Clear sky</option>
+                <option value="1">1 - Mainly clear</option>
+                <option value="2">2 - Partly cloudy</option>
+                <option value="3" selected>3 - Overcast</option>
+                <option value="45">45 - Fog</option>
+                <option value="48">48 - Depositing rime fog</option>
+                <option value="51">51 - Light drizzle</option>
+                <option value="53">53 - Moderate drizzle</option>
+                <option value="55">55 - Dense drizzle</option>
+                <option value="56">56 - Light freezing drizzle</option>
+                <option value="61">61 - Slight rain</option>
+                <option value="63">63 - Moderate rain</option>
+                <option value="65">65 - Heavy rain</option>
+                <option value="66">66 - Light freezing rain</option>
+                <option value="71">71 - Slight snow</option>
+                <option value="73">73 - Moderate snow</option>
+                <option value="75">75 - Heavy snow</option>
+                <option value="77">77 - Snow grains</option>
+                <option value="80">80 - Slight rain showers</option>
+                <option value="81">81 - Moderate rain showers</option>
+                <option value="82">82 - Violent rain showers</option>
+                <option value="85">85 - Slight snow showers</option>
+                <option value="95">95 - Thunderstorm</option>
+                <option value="99">99 - Thunderstorm with hail</option>
+            </select>
+        </div>
+
+        <div class="control-group">
+            <label>Cloud Cover: <span id="cloudCoverValue">50%</span></label>
+            <input type="range" id="cloudCover" min="0" max="100" value="50">
+        </div>
+
+        <button id="applyBtn">Apply Settings</button>
+        <button id="fetchRealBtn">Fetch Real Weather</button>
+
+        <div class="status" id="status">Ready</div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+    <script>
+    (function() {
+        const baseSpeed = 0.4;
+
+        // Time-of-day color palettes
+        const timePalettes = {
+            night: {
+                skyColor: 0x0a1628,
+                cloudColor: 0x1a2a4a,
+                cloudShadowColor: 0x050a14,
+                sunColor: 0x8899aa,
+                sunGlareColor: 0x334455,
+                sunlightColor: 0x6677aa
+            },
+            dawn: {
+                skyColor: 0x4a3a5c,
+                cloudColor: 0xd4a574,
+                cloudShadowColor: 0x2a1a3c,
+                sunColor: 0xffcc88,
+                sunGlareColor: 0xff8866,
+                sunlightColor: 0xffddaa
+            },
+            day: {
+                skyColor: 0x6eb5d9,
+                cloudColor: 0xa8c8d8,
+                cloudShadowColor: 0x5a8aa8,
+                sunColor: 0xf0e8d0,
+                sunGlareColor: 0xd0c4a8,
+                sunlightColor: 0xe8e0d0
+            },
+            dusk: {
+                skyColor: 0x5c4a6a,
+                cloudColor: 0xe8a060,
+                cloudShadowColor: 0x2a1a3c,
+                sunColor: 0xff9966,
+                sunGlareColor: 0xff6644,
+                sunlightColor: 0xffaa77
+            }
+        };
+
+        // Weather modifiers (same as main page)
+        function getWeatherModifiers(weatherCode, cloudCover) {
+            const mods = { speedMult: 1.0, skyDarken: 0, cloudDarken: 0, blendToSky: 0, dimSun: 0, softGlow: 0 };
+
+            if (weatherCode === 0) {
+                mods.speedMult = 0.4;
+                mods.blendToSky = 0.88;
+                mods.dimSun = 0.12;
+            } else if (weatherCode === 1) {
+                mods.speedMult = 0.5;
+                mods.blendToSky = 0.6;
+                mods.dimSun = 0.05;
+            } else if (weatherCode === 2) {
+                mods.speedMult = 0.7;
+                mods.blendToSky = 0.35;
+            } else if (weatherCode === 3) {
+                mods.speedMult = 0.8;
+                mods.softGlow = 0.1;
+                mods.skyDarken = 0.05;
+            } else if (weatherCode >= 45 && weatherCode <= 48) {
+                mods.speedMult = 0.3;
+                mods.blendToSky = -0.2;
+                mods.softGlow = 0.15;
+                mods.skyDarken = 0.08;
+            } else if (weatherCode >= 51 && weatherCode <= 55) {
+                mods.speedMult = 0.6;
+                mods.skyDarken = 0.1;
+                mods.softGlow = 0.08;
+            } else if (weatherCode >= 56 && weatherCode <= 57) {
+                mods.speedMult = 0.5;
+                mods.skyDarken = 0.12;
+                mods.cloudDarken = 0.05;
+            } else if (weatherCode >= 61 && weatherCode <= 63) {
+                mods.speedMult = 1.0;
+                mods.skyDarken = 0.15;
+                mods.cloudDarken = 0.1;
+            } else if (weatherCode >= 65 && weatherCode <= 67) {
+                mods.speedMult = 1.3;
+                mods.skyDarken = 0.25;
+                mods.cloudDarken = 0.18;
+            } else if (weatherCode >= 71 && weatherCode <= 75) {
+                mods.speedMult = 0.4;
+                mods.skyDarken = 0.05;
+                mods.softGlow = 0.12;
+                mods.blendToSky = 0.2;
+            } else if (weatherCode >= 77) {
+                mods.speedMult = 0.5;
+                mods.skyDarken = 0.1;
+            } else if (weatherCode >= 80 && weatherCode <= 82) {
+                mods.speedMult = 1.2;
+                mods.skyDarken = 0.18;
+                mods.cloudDarken = 0.12;
+            } else if (weatherCode >= 85 && weatherCode <= 86) {
+                mods.speedMult = 0.6;
+                mods.skyDarken = 0.08;
+                mods.softGlow = 0.1;
+            } else if (weatherCode >= 95) {
+                mods.speedMult = 1.5;
+                mods.skyDarken = 0.35;
+                mods.cloudDarken = 0.25;
+            }
+
+            if (cloudCover < 20) {
+                mods.blendToSky = Math.max(mods.blendToSky, 0.7);
+            } else if (cloudCover < 40) {
+                mods.blendToSky = Math.max(mods.blendToSky, 0.4);
+            } else if (cloudCover > 90) {
+                mods.skyDarken += 0.05;
+                mods.blendToSky = Math.min(mods.blendToSky, 0.1);
+            }
+
+            return mods;
+        }
+
+        function darkenColor(hex, amount) {
+            const r = Math.max(0, ((hex >> 16) & 0xff) * (1 - amount));
+            const g = Math.max(0, ((hex >> 8) & 0xff) * (1 - amount));
+            const b = Math.max(0, (hex & 0xff) * (1 - amount));
+            return (Math.round(r) << 16) | (Math.round(g) << 8) | Math.round(b);
+        }
+
+        function lightenColor(hex, amount) {
+            const r = Math.min(255, ((hex >> 16) & 0xff) + (255 - ((hex >> 16) & 0xff)) * amount);
+            const g = Math.min(255, ((hex >> 8) & 0xff) + (255 - ((hex >> 8) & 0xff)) * amount);
+            const b = Math.min(255, (hex & 0xff) + (255 - (hex & 0xff)) * amount);
+            return (Math.round(r) << 16) | (Math.round(g) << 8) | Math.round(b);
+        }
+
+        function blendColors(color1, color2, amount) {
+            const r1 = (color1 >> 16) & 0xff, g1 = (color1 >> 8) & 0xff, b1 = color1 & 0xff;
+            const r2 = (color2 >> 16) & 0xff, g2 = (color2 >> 8) & 0xff, b2 = color2 & 0xff;
+            const r = Math.round(r1 + (r2 - r1) * amount);
+            const g = Math.round(g1 + (g2 - g1) * amount);
+            const b = Math.round(b1 + (b2 - b1) * amount);
+            return (r << 16) | (g << 8) | b;
+        }
+
+        function calculateOptions(timeOfDay, weatherCode, cloudCover) {
+            const palette = timePalettes[timeOfDay];
+            let options = { ...palette };
+
+            const mods = getWeatherModifiers(weatherCode, cloudCover);
+
+            if (mods.skyDarken > 0) {
+                options.skyColor = darkenColor(options.skyColor, mods.skyDarken);
+            }
+            if (mods.cloudDarken > 0) {
+                options.cloudColor = darkenColor(options.cloudColor, mods.cloudDarken);
+                options.cloudShadowColor = darkenColor(options.cloudShadowColor, mods.cloudDarken);
+            }
+            if (mods.blendToSky > 0) {
+                options.cloudColor = blendColors(options.cloudColor, options.skyColor, mods.blendToSky);
+                options.cloudShadowColor = blendColors(options.cloudShadowColor, options.skyColor, mods.blendToSky * 0.5);
+            } else if (mods.blendToSky < 0) {
+                options.cloudColor = darkenColor(options.cloudColor, -mods.blendToSky * 0.3);
+            }
+            if (mods.dimSun > 0) {
+                options.sunColor = darkenColor(options.sunColor, mods.dimSun);
+                options.sunGlareColor = darkenColor(options.sunGlareColor, mods.dimSun * 1.5);
+                options.sunlightColor = darkenColor(options.sunlightColor, mods.dimSun);
+            }
+            if (mods.softGlow > 0) {
+                options.sunlightColor = lightenColor(options.sunlightColor, mods.softGlow);
+                options.cloudColor = lightenColor(options.cloudColor, mods.softGlow * 0.5);
+            }
+
+            options.speed = baseSpeed * mods.speedMult;
+
+            return { options, mods };
+        }
+
+        // Initialize Vanta
+        let vantaEffect = VANTA.CLOUDS({
+            el: "#vanta-bg",
+            mouseControls: false,
+            touchControls: false,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            ...timePalettes.day,
+            speed: baseSpeed
+        });
+
+        // UI elements
+        const timeSelect = document.getElementById('timeOfDay');
+        const weatherSelect = document.getElementById('weatherCode');
+        const cloudSlider = document.getElementById('cloudCover');
+        const cloudValue = document.getElementById('cloudCoverValue');
+        const applyBtn = document.getElementById('applyBtn');
+        const fetchRealBtn = document.getElementById('fetchRealBtn');
+        const status = document.getElementById('status');
+
+        cloudSlider.addEventListener('input', () => {
+            cloudValue.textContent = cloudSlider.value + '%';
+        });
+
+        applyBtn.addEventListener('click', () => {
+            const timeOfDay = timeSelect.value;
+            const weatherCode = parseInt(weatherSelect.value);
+            const cloudCover = parseInt(cloudSlider.value);
+
+            const { options, mods } = calculateOptions(timeOfDay, weatherCode, cloudCover);
+            vantaEffect.setOptions(options);
+
+            status.textContent = `Applied:
+Time: ${timeOfDay}
+Weather code: ${weatherCode}
+Cloud cover: ${cloudCover}%
+
+Modifiers:
+  speed: ${mods.speedMult.toFixed(2)}x
+  skyDarken: ${mods.skyDarken.toFixed(2)}
+  cloudDarken: ${mods.cloudDarken.toFixed(2)}
+  blendToSky: ${mods.blendToSky.toFixed(2)}
+  dimSun: ${mods.dimSun.toFixed(2)}
+  softGlow: ${mods.softGlow.toFixed(2)}`;
+        });
+
+        fetchRealBtn.addEventListener('click', async () => {
+            status.textContent = 'Fetching real weather...';
+            try {
+                const url = 'https://api.open-meteo.com/v1/forecast?latitude=45.52&longitude=-122.68&current=temperature_2m,weather_code,cloud_cover,is_day&daily=sunrise,sunset&timezone=America/Los_Angeles&forecast_days=1';
+                const response = await fetch(url);
+                const data = await response.json();
+
+                const weatherCode = data.current.weather_code;
+                const cloudCover = data.current.cloud_cover;
+                const isDay = data.current.is_day === 1;
+
+                // Determine time of day
+                const now = new Date();
+                const hour = now.getHours();
+                let timeOfDay = 'day';
+                if (!isDay) timeOfDay = 'night';
+                else if (hour >= 5 && hour < 8) timeOfDay = 'dawn';
+                else if (hour >= 18 && hour < 21) timeOfDay = 'dusk';
+
+                // Update UI
+                timeSelect.value = timeOfDay;
+                weatherSelect.value = weatherCode.toString();
+                cloudSlider.value = cloudCover;
+                cloudValue.textContent = cloudCover + '%';
+
+                // Apply
+                const { options, mods } = calculateOptions(timeOfDay, weatherCode, cloudCover);
+                vantaEffect.setOptions(options);
+
+                status.textContent = `Real Portland Weather:
+Time: ${timeOfDay} (${isDay ? 'day' : 'night'})
+Weather code: ${weatherCode}
+Cloud cover: ${cloudCover}%
+Temp: ${data.current.temperature_2m}°C
+
+Modifiers applied:
+  speed: ${mods.speedMult.toFixed(2)}x
+  skyDarken: ${mods.skyDarken.toFixed(2)}
+  cloudDarken: ${mods.cloudDarken.toFixed(2)}
+  blendToSky: ${mods.blendToSky.toFixed(2)}
+  dimSun: ${mods.dimSun.toFixed(2)}
+  softGlow: ${mods.softGlow.toFixed(2)}`;
+            } catch (e) {
+                status.textContent = 'Error fetching weather: ' + e.message;
+            }
+        });
+
+        // Apply initial settings
+        applyBtn.click();
+    })();
+    </script>
+</body>
+</html>

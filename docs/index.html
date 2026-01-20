@@ -2193,53 +2193,96 @@
             }
         };
 
-        // Weather condition modifiers (WMO codes)
-        // 0: Clear, 1-3: Partly cloudy, 45-48: Fog, 51-67: Drizzle/Rain, 71-77: Snow, 80-99: Showers/Thunder
+        // Weather condition modifiers (WMO codes) - tuned for Pacific Northwest
+        // 0: Clear, 1-2: Mostly clear, 3: Overcast, 45-48: Fog, 51-55: Drizzle,
+        // 56-57: Freezing drizzle, 61-65: Rain, 66-67: Freezing rain,
+        // 71-77: Snow, 80-82: Showers, 85-86: Snow showers, 95-99: Thunderstorm
         function getWeatherModifiers(weatherCode, cloudCover) {
-            // blendToSky: make clouds more transparent by blending toward sky color
-            // dimSun: reduce sun intensity (0 = normal, higher = more dimmed)
-            const mods = { speedMult: 1.0, skyDarken: 0, cloudDarken: 0, blendToSky: 0, dimSun: 0 };
+            // blendToSky: clouds blend toward sky (higher = more transparent)
+            // dimSun: reduce sun intensity
+            // softGlow: add diffused luminosity (for overcast/fog)
+            const mods = { speedMult: 1.0, skyDarken: 0, cloudDarken: 0, blendToSky: 0, dimSun: 0, softGlow: 0 };
 
             if (weatherCode === 0) {
-                // Clear sky - faint wisps only, very slow
+                // Clear sky - rare in Portland! Faint wisps, brilliant day
                 mods.speedMult = 0.4;
-                mods.blendToSky = 0.85; // Clouds nearly invisible, just faint wisps
-                mods.dimSun = 0.15;
-            } else if (weatherCode >= 1 && weatherCode <= 2) {
-                // Mostly clear / partly cloudy - subtle clouds
-                mods.speedMult = 0.6;
-                mods.blendToSky = 0.5;
-                mods.dimSun = 0.08;
-            } else if (weatherCode === 3) {
-                // Overcast - normal clouds
-                mods.speedMult = 1.0;
-            } else if (weatherCode >= 45 && weatherCode <= 48) {
-                // Fog - slower, muted
+                mods.blendToSky = 0.88;
+                mods.dimSun = 0.12;
+            } else if (weatherCode === 1) {
+                // Mainly clear - "sun breaks" through scattered clouds
                 mods.speedMult = 0.5;
-                mods.skyDarken = 0.15;
-                mods.cloudDarken = 0.1;
-            } else if (weatherCode >= 51 && weatherCode <= 67) {
-                // Drizzle/Rain - darker, faster
-                mods.speedMult = 1.3;
-                mods.skyDarken = 0.2;
-                mods.cloudDarken = 0.15;
-            } else if (weatherCode >= 71 && weatherCode <= 77) {
-                // Snow - slower, lighter
+                mods.blendToSky = 0.6;
+                mods.dimSun = 0.05;
+            } else if (weatherCode === 2) {
+                // Partly cloudy - classic PNW mix of sun and clouds
+                mods.speedMult = 0.7;
+                mods.blendToSky = 0.35;
+            } else if (weatherCode === 3) {
+                // Overcast - the famous Portland gray, but luminous not dark
+                mods.speedMult = 0.8;
+                mods.softGlow = 0.1;      // Soft diffused light through clouds
+                mods.skyDarken = 0.05;    // Only slightly darker
+            } else if (weatherCode >= 45 && weatherCode <= 48) {
+                // Fog/mist - marine layer, gorge fog, soft and ethereal
+                mods.speedMult = 0.3;     // Very slow, drifting
+                mods.blendToSky = -0.2;   // Clouds slightly MORE visible (negative blend)
+                mods.softGlow = 0.15;
+                mods.skyDarken = 0.08;
+            } else if (weatherCode >= 51 && weatherCode <= 55) {
+                // Drizzle - the Portland classic, misty and soft
                 mods.speedMult = 0.6;
                 mods.skyDarken = 0.1;
-            } else if (weatherCode >= 80) {
-                // Showers/Thunderstorm - darker, faster
-                mods.speedMult = 1.4;
-                mods.skyDarken = 0.3;
+                mods.softGlow = 0.08;
+            } else if (weatherCode >= 56 && weatherCode <= 57) {
+                // Freezing drizzle - rare but treacherous
+                mods.speedMult = 0.5;
+                mods.skyDarken = 0.12;
+                mods.cloudDarken = 0.05;
+            } else if (weatherCode >= 61 && weatherCode <= 63) {
+                // Light to moderate rain - steady Pacific rain
+                mods.speedMult = 1.0;
+                mods.skyDarken = 0.15;
+                mods.cloudDarken = 0.1;
+            } else if (weatherCode >= 65 && weatherCode <= 67) {
+                // Heavy/freezing rain - serious rain event
+                mods.speedMult = 1.3;
+                mods.skyDarken = 0.25;
+                mods.cloudDarken = 0.18;
+            } else if (weatherCode >= 71 && weatherCode <= 75) {
+                // Snow - rare in Portland, magical when it happens
+                mods.speedMult = 0.4;
+                mods.skyDarken = 0.05;
+                mods.softGlow = 0.12;     // Bright, diffused snow light
+                mods.blendToSky = 0.2;
+            } else if (weatherCode >= 77) {
+                // Snow grains/ice pellets
+                mods.speedMult = 0.5;
+                mods.skyDarken = 0.1;
+            } else if (weatherCode >= 80 && weatherCode <= 82) {
+                // Rain showers - more dynamic, passing cells
+                mods.speedMult = 1.2;
+                mods.skyDarken = 0.18;
+                mods.cloudDarken = 0.12;
+            } else if (weatherCode >= 85 && weatherCode <= 86) {
+                // Snow showers
+                mods.speedMult = 0.6;
+                mods.skyDarken = 0.08;
+                mods.softGlow = 0.1;
+            } else if (weatherCode >= 95) {
+                // Thunderstorm - rare in Portland, dramatic when it occurs
+                mods.speedMult = 1.5;
+                mods.skyDarken = 0.35;
                 mods.cloudDarken = 0.25;
             }
 
-            // Adjust for actual cloud cover percentage
-            if (cloudCover < 25) {
+            // Fine-tune based on actual cloud cover percentage
+            if (cloudCover < 20) {
+                mods.blendToSky = Math.max(mods.blendToSky, 0.7);
+            } else if (cloudCover < 40) {
                 mods.blendToSky = Math.max(mods.blendToSky, 0.4);
-            } else if (cloudCover > 80) {
-                mods.skyDarken += 0.08;
-                mods.blendToSky = 0;
+            } else if (cloudCover > 90) {
+                mods.skyDarken += 0.05;
+                mods.blendToSky = Math.min(mods.blendToSky, 0.1);
             }
 
             return mods;
@@ -2250,6 +2293,14 @@
             const r = Math.max(0, ((hex >> 16) & 0xff) * (1 - amount));
             const g = Math.max(0, ((hex >> 8) & 0xff) * (1 - amount));
             const b = Math.max(0, (hex & 0xff) * (1 - amount));
+            return (Math.round(r) << 16) | (Math.round(g) << 8) | Math.round(b);
+        }
+
+        // Lighten a hex color by a percentage (toward white)
+        function lightenColor(hex, amount) {
+            const r = Math.min(255, ((hex >> 16) & 0xff) + (255 - ((hex >> 16) & 0xff)) * amount);
+            const g = Math.min(255, ((hex >> 8) & 0xff) + (255 - ((hex >> 8) & 0xff)) * amount);
+            const b = Math.min(255, (hex & 0xff) + (255 - (hex & 0xff)) * amount);
             return (Math.round(r) << 16) | (Math.round(g) << 8) | Math.round(b);
         }
 
@@ -2348,12 +2399,20 @@
                 if (mods.blendToSky > 0) {
                     options.cloudColor = blendColors(options.cloudColor, options.skyColor, mods.blendToSky);
                     options.cloudShadowColor = blendColors(options.cloudShadowColor, options.skyColor, mods.blendToSky * 0.5);
+                } else if (mods.blendToSky < 0) {
+                    // Negative blend = make clouds MORE visible (for fog)
+                    options.cloudColor = darkenColor(options.cloudColor, -mods.blendToSky * 0.3);
                 }
                 // Dim sun colors for clear sky to reduce blown-out look
                 if (mods.dimSun > 0) {
                     options.sunColor = darkenColor(options.sunColor, mods.dimSun);
                     options.sunGlareColor = darkenColor(options.sunGlareColor, mods.dimSun * 1.5);
                     options.sunlightColor = darkenColor(options.sunlightColor, mods.dimSun);
+                }
+                // Soft glow for overcast/fog - brighten sun colors for diffused light
+                if (mods.softGlow > 0) {
+                    options.sunlightColor = lightenColor(options.sunlightColor, mods.softGlow);
+                    options.cloudColor = lightenColor(options.cloudColor, mods.softGlow * 0.5);
                 }
             }
 
