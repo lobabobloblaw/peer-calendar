@@ -7,6 +7,15 @@
     <style>
         * { box-sizing: border-box; }
 
+        /*
+         * Z-INDEX STACKING ORDER:
+         * -3: sky-bg (gradient background, furthest back)
+         * -2: weather-canvas (rain/snow particles fall behind clouds)
+         * -1: vanta-bg (clouds render on top of rain)
+         *  0: fog-overlay (covers everything when fog is active)
+         *  1+: page content
+         */
+
         /* Sky gradient background - shows through when clouds fade */
         #sky-bg {
             position: fixed;
@@ -14,11 +23,23 @@
             left: 0;
             width: 100%;
             height: 100%;
-            z-index: -2;
+            z-index: -3;
             background: linear-gradient(to bottom, #5a9fd4 0%, #87ceeb 50%, #b0e0e6 100%);
             transition: background 0.5s ease;
         }
 
+        /* Weather particles canvas (rain, snow) - between sky and clouds */
+        #weather-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            pointer-events: none;
+        }
+
+        /* Vanta clouds - on top of rain so rain appears to fall into clouds */
         #vanta-bg {
             position: fixed;
             top: 0;
@@ -46,22 +67,6 @@
             opacity: 0;
             pointer-events: none;
             transition: opacity 0.8s ease;
-        }
-
-        /* Weather particles canvas (rain, snow) - between sky and clouds */
-        #weather-canvas {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            pointer-events: none;
-        }
-
-        /* Vanta clouds need to be on top of rain */
-        #vanta-bg {
-            z-index: 0 !important;
         }
 
         body {
