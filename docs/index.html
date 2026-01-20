@@ -24,6 +24,18 @@
 
         * { box-sizing: border-box; }
 
+        /* Sky gradient background - shows through when clouds fade on clear days */
+        #sky-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            background: linear-gradient(to bottom, #4a90c2 0%, #6eb5d9 40%, #87ceeb 100%);
+            transition: background 0.8s ease;
+        }
+
         /* Vanta.js cloud background - flipped so clouds are at top */
         #vanta-bg {
             position: fixed;
@@ -33,6 +45,7 @@
             height: 100%;
             z-index: -1;
             transform: scaleY(-1); /* Flip vertically - clouds now at top */
+            transition: opacity 0.8s ease;
         }
 
         body {
@@ -1113,6 +1126,7 @@
     </style>
 </head>
 <body>
+    <div id="sky-bg" aria-hidden="true"></div>
     <div id="vanta-bg" aria-hidden="true"></div>
     <div class="landscape-overlay" aria-hidden="true">
         <p>Please rotate your device to portrait mode</p>
@@ -2286,6 +2300,17 @@
                 mods.blendToSky = Math.min(mods.blendToSky, 0.1);
             }
 
+            // Calculate cloud opacity - clear skies fade out the cloud layer
+            let cloudOpacity = 1.0;
+            if (weatherCode === 0 && cloudCover < 20) {
+                cloudOpacity = 0.15 + (cloudCover / 20) * 0.3; // 15-45% opacity for very clear
+            } else if (weatherCode === 0) {
+                cloudOpacity = 0.45 + (cloudCover / 100) * 0.55; // 45-100%
+            } else if (weatherCode === 1 && cloudCover < 30) {
+                cloudOpacity = 0.4 + (cloudCover / 30) * 0.4; // 40-80% for mainly clear
+            }
+            mods.cloudOpacity = cloudOpacity;
+
             return mods;
         }
 
@@ -2415,14 +2440,27 @@
                     options.sunlightColor = lightenColor(options.sunlightColor, mods.softGlow);
                     options.cloudColor = lightenColor(options.cloudColor, mods.softGlow * 0.5);
                 }
+
+                // Store cloud opacity for CSS application
+                options.cloudOpacity = mods.cloudOpacity;
             }
 
             options.speed = baseSpeed * speedMult;
+            options.timeOfDay = timeOfDay; // Store for sky gradient
             return options;
         }
 
+        // Sky gradients for different times of day (used behind Vanta)
+        const skyGradients = {
+            night: 'linear-gradient(to bottom, #0a1628 0%, #1a2a4a 50%, #2a3a5a 100%)',
+            dawn: 'linear-gradient(to bottom, #ff9966 0%, #cc7a5a 30%, #4a3a5c 70%, #2a1a3c 100%)',
+            day: 'linear-gradient(to bottom, #4a90c2 0%, #6eb5d9 40%, #87ceeb 100%)',
+            dusk: 'linear-gradient(to bottom, #ff7744 0%, #cc6644 30%, #5c4a6a 70%, #2a1a3c 100%)'
+        };
+
         // Hide background initially, fetch weather, then init with correct settings
         const vantaBg = document.getElementById('vanta-bg');
+        const skyBg = document.getElementById('sky-bg');
         vantaBg.style.opacity = '0';
         vantaBg.style.transition = 'opacity 0.8s ease-in';
 
@@ -2431,6 +2469,10 @@
         // Fetch weather first, then initialize Vanta with correct settings
         fetchPortlandWeather().then(weather => {
             const options = calculateVantaOptions(weather);
+
+            // Set sky gradient based on time of day
+            const timeOfDay = options.timeOfDay || 'day';
+            skyBg.style.background = skyGradients[timeOfDay];
 
             vantaEffect = VANTA.CLOUDS({
                 el: "#vanta-bg",
@@ -2442,17 +2484,17 @@
                 ...options
             });
 
-            // Fade in the background
+            // Fade in the background with appropriate cloud opacity
+            const cloudOpacity = options.cloudOpacity !== undefined ? options.cloudOpacity : 1.0;
             requestAnimationFrame(() => {
-                vantaBg.style.opacity = '1';
+                vantaBg.style.opacity = String(cloudOpacity);
             });
 
             // Log details
             if (weather) {
                 const sunriseTime = weather.sunrise ? `${Math.floor(weather.sunrise/60)}:${String(weather.sunrise%60).padStart(2,'0')}` : 'N/A';
                 const sunsetTime = weather.sunset ? `${Math.floor(weather.sunset/60)}:${String(weather.sunset%60).padStart(2,'0')}` : 'N/A';
-                const timeOfDay = getTimeOfDay(new Date(), weather.sunrise, weather.sunset);
-                console.log(`Weather: code ${weather.weatherCode}, ${weather.cloudCover}% clouds | Sun: ${sunriseTime}-${sunsetTime} | Mode: ${timeOfDay}`);
+                console.log(`Weather: code ${weather.weatherCode}, ${weather.cloudCover}% clouds | Sun: ${sunriseTime}-${sunsetTime} | Mode: ${timeOfDay} | Cloud opacity: ${cloudOpacity.toFixed(2)}`);
             } else {
                 console.log('Weather: using time-based defaults');
             }
