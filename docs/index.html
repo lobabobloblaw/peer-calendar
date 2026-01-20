@@ -2353,28 +2353,40 @@
             return options;
         }
 
-        // Initialize with default daytime look, then update with weather
-        let vantaEffect = VANTA.CLOUDS({
-            el: "#vanta-bg",
-            mouseControls: false,
-            touchControls: false,
-            gyroControls: false,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            ...calculateVantaOptions(null)
-        });
+        // Hide background initially, fetch weather, then init with correct settings
+        const vantaBg = document.getElementById('vanta-bg');
+        vantaBg.style.opacity = '0';
+        vantaBg.style.transition = 'opacity 0.8s ease-in';
 
-        // Fetch weather and update effect
+        let vantaEffect = null;
+
+        // Fetch weather first, then initialize Vanta with correct settings
         fetchPortlandWeather().then(weather => {
-            if (weather && vantaEffect) {
-                const options = calculateVantaOptions(weather);
-                vantaEffect.setOptions(options);
+            const options = calculateVantaOptions(weather);
 
-                // Log details including sun times
+            vantaEffect = VANTA.CLOUDS({
+                el: "#vanta-bg",
+                mouseControls: false,
+                touchControls: false,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                ...options
+            });
+
+            // Fade in the background
+            requestAnimationFrame(() => {
+                vantaBg.style.opacity = '1';
+            });
+
+            // Log details
+            if (weather) {
                 const sunriseTime = weather.sunrise ? `${Math.floor(weather.sunrise/60)}:${String(weather.sunrise%60).padStart(2,'0')}` : 'N/A';
                 const sunsetTime = weather.sunset ? `${Math.floor(weather.sunset/60)}:${String(weather.sunset%60).padStart(2,'0')}` : 'N/A';
                 const timeOfDay = getTimeOfDay(new Date(), weather.sunrise, weather.sunset);
                 console.log(`Weather: code ${weather.weatherCode}, ${weather.cloudCover}% clouds | Sun: ${sunriseTime}-${sunsetTime} | Mode: ${timeOfDay}`);
+            } else {
+                console.log('Weather: using time-based defaults');
             }
         });
 
