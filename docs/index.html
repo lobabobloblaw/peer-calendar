@@ -2201,14 +2201,14 @@
             const mods = { speedMult: 1.0, skyDarken: 0, cloudDarken: 0, blendToSky: 0, dimSun: 0 };
 
             if (weatherCode === 0) {
-                // Clear sky - very subtle clouds, slow, softer sun
-                mods.speedMult = 0.6;
-                mods.blendToSky = 0.6;  // Clouds fade significantly toward sky
-                mods.dimSun = 0.15;     // Reduce sun intensity to prevent blown-out look
+                // Clear sky - faint wisps only, very slow
+                mods.speedMult = 0.4;
+                mods.blendToSky = 0.85; // Clouds nearly invisible, just faint wisps
+                mods.dimSun = 0.15;
             } else if (weatherCode >= 1 && weatherCode <= 2) {
-                // Mostly clear / partly cloudy - light clouds
-                mods.speedMult = 0.8;
-                mods.blendToSky = 0.3;
+                // Mostly clear / partly cloudy - subtle clouds
+                mods.speedMult = 0.6;
+                mods.blendToSky = 0.5;
                 mods.dimSun = 0.08;
             } else if (weatherCode === 3) {
                 // Overcast - normal clouds
