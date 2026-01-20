@@ -2176,12 +2176,12 @@
                 sunlightColor: 0xffddaa
             },
             day: {
-                skyColor: 0x87ceeb,      // Sky blue (lighter)
-                cloudColor: 0xb8d4e8,    // Soft cloud (closer to sky)
-                cloudShadowColor: 0x6a9ab8,
-                sunColor: 0xfffde8,      // Warm white (less blown out)
-                sunGlareColor: 0xe8dcc0, // Muted glare
-                sunlightColor: 0xfff8e8  // Soft warm light
+                skyColor: 0x6eb5d9,      // Sky blue (deeper, less washed out)
+                cloudColor: 0xa8c8d8,    // Soft cloud (more contrast with sky)
+                cloudShadowColor: 0x5a8aa8,
+                sunColor: 0xf0e8d0,      // Muted warm (significantly less bright)
+                sunGlareColor: 0xd0c4a8, // Subtle glare
+                sunlightColor: 0xe8e0d0  // Soft diffuse light
             },
             dusk: {
                 skyColor: 0x5c4a6a,      // Dusky purple
@@ -2197,16 +2197,19 @@
         // 0: Clear, 1-3: Partly cloudy, 45-48: Fog, 51-67: Drizzle/Rain, 71-77: Snow, 80-99: Showers/Thunder
         function getWeatherModifiers(weatherCode, cloudCover) {
             // blendToSky: make clouds more transparent by blending toward sky color
-            const mods = { speedMult: 1.0, skyDarken: 0, cloudDarken: 0, blendToSky: 0 };
+            // dimSun: reduce sun intensity (0 = normal, higher = more dimmed)
+            const mods = { speedMult: 1.0, skyDarken: 0, cloudDarken: 0, blendToSky: 0, dimSun: 0 };
 
             if (weatherCode === 0) {
-                // Clear sky - very subtle clouds, slow
+                // Clear sky - very subtle clouds, slow, softer sun
                 mods.speedMult = 0.6;
-                mods.blendToSky = 0.5;  // Clouds fade toward sky color
+                mods.blendToSky = 0.6;  // Clouds fade significantly toward sky
+                mods.dimSun = 0.15;     // Reduce sun intensity to prevent blown-out look
             } else if (weatherCode >= 1 && weatherCode <= 2) {
                 // Mostly clear / partly cloudy - light clouds
                 mods.speedMult = 0.8;
-                mods.blendToSky = 0.25;
+                mods.blendToSky = 0.3;
+                mods.dimSun = 0.08;
             } else if (weatherCode === 3) {
                 // Overcast - normal clouds
                 mods.speedMult = 1.0;
@@ -2345,6 +2348,12 @@
                 if (mods.blendToSky > 0) {
                     options.cloudColor = blendColors(options.cloudColor, options.skyColor, mods.blendToSky);
                     options.cloudShadowColor = blendColors(options.cloudShadowColor, options.skyColor, mods.blendToSky * 0.5);
+                }
+                // Dim sun colors for clear sky to reduce blown-out look
+                if (mods.dimSun > 0) {
+                    options.sunColor = darkenColor(options.sunColor, mods.dimSun);
+                    options.sunGlareColor = darkenColor(options.sunGlareColor, mods.dimSun * 1.5);
+                    options.sunlightColor = darkenColor(options.sunlightColor, mods.dimSun);
                 }
             }
 
