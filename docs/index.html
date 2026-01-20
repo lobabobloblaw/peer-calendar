@@ -2255,8 +2255,8 @@
                 mods.skyDarken = 0.05;
                 mods.softGlow = 0.12;     // Bright, diffused snow light
                 mods.blendToSky = 0.2;
-            } else if (weatherCode >= 77) {
-                // Snow grains/ice pellets
+            } else if (weatherCode === 77) {
+                // Snow grains/ice pellets (specific code 77 only)
                 mods.speedMult = 0.5;
                 mods.skyDarken = 0.1;
             } else if (weatherCode >= 80 && weatherCode <= 82) {
