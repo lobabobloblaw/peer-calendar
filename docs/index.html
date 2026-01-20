@@ -2261,27 +2261,54 @@
             return (r << 16) | (g << 8) | b;
         }
 
-        // Determine time of day from hour and is_day flag
-        function getTimeOfDay(hour, isDay) {
-            if (!isDay) return 'night';
-            if (hour >= 5 && hour < 8) return 'dawn';
-            if (hour >= 8 && hour < 18) return 'day';
-            if (hour >= 18 && hour < 21) return 'dusk';
+        // Determine time of day using actual sunrise/sunset times
+        function getTimeOfDay(now, sunrise, sunset) {
+            const currentMins = now.getHours() * 60 + now.getMinutes();
+
+            // Default times if no sun data (Portland winter ~7:45am/4:45pm, summer ~5:30am/9pm)
+            const sunriseMins = sunrise || 7 * 60 + 30;  // 7:30am default
+            const sunsetMins = sunset || 17 * 60 + 30;   // 5:30pm default
+
+            // Dawn: 45 min before sunrise to 30 min after
+            const dawnStart = sunriseMins - 45;
+            const dawnEnd = sunriseMins + 30;
+
+            // Dusk: 30 min before sunset to 45 min after
+            const duskStart = sunsetMins - 30;
+            const duskEnd = sunsetMins + 45;
+
+            if (currentMins >= dawnStart && currentMins < dawnEnd) return 'dawn';
+            if (currentMins >= dawnEnd && currentMins < duskStart) return 'day';
+            if (currentMins >= duskStart && currentMins < duskEnd) return 'dusk';
             return 'night';
+        }
+
+        // Parse time string "HH:MM" to minutes since midnight
+        function parseTimeToMins(timeStr) {
+            if (!timeStr) return null;
+            const [h, m] = timeStr.split(':').map(Number);
+            return h * 60 + m;
         }
 
         // Fetch weather from Open-Meteo (free, no API key)
         async function fetchPortlandWeather() {
             try {
-                const url = `https://api.open-meteo.com/v1/forecast?latitude=${PORTLAND_LAT}&longitude=${PORTLAND_LON}&current=temperature_2m,weather_code,cloud_cover,is_day&timezone=America/Los_Angeles`;
+                const url = `https://api.open-meteo.com/v1/forecast?latitude=${PORTLAND_LAT}&longitude=${PORTLAND_LON}&current=temperature_2m,weather_code,cloud_cover,is_day&daily=sunrise,sunset&timezone=America/Los_Angeles&forecast_days=1`;
                 const response = await fetch(url);
                 if (!response.ok) throw new Error('Weather API error');
                 const data = await response.json();
+
+                // Extract sunrise/sunset times (format: "2026-01-20T07:45")
+                const sunriseStr = data.daily?.sunrise?.[0]?.split('T')[1];
+                const sunsetStr = data.daily?.sunset?.[0]?.split('T')[1];
+
                 return {
                     weatherCode: data.current.weather_code,
                     cloudCover: data.current.cloud_cover,
                     isDay: data.current.is_day === 1,
-                    temperature: data.current.temperature_2m
+                    temperature: data.current.temperature_2m,
+                    sunrise: parseTimeToMins(sunriseStr),
+                    sunset: parseTimeToMins(sunsetStr)
                 };
             } catch (e) {
                 console.log('Weather fetch failed, using defaults:', e.message);
@@ -2292,11 +2319,11 @@
         // Calculate Vanta options based on time and weather
         function calculateVantaOptions(weather) {
             const now = new Date();
-            const hour = now.getHours();
 
-            // Determine time of day
-            const isDay = weather ? weather.isDay : (hour >= 6 && hour < 20);
-            const timeOfDay = getTimeOfDay(hour, isDay);
+            // Determine time of day using actual sunrise/sunset if available
+            const sunrise = weather?.sunrise;
+            const sunset = weather?.sunset;
+            const timeOfDay = getTimeOfDay(now, sunrise, sunset);
             const palette = timePalettes[timeOfDay];
 
             // Start with base palette
@@ -2342,7 +2369,12 @@
             if (weather && vantaEffect) {
                 const options = calculateVantaOptions(weather);
                 vantaEffect.setOptions(options);
-                console.log('Weather effect applied:', weather.weatherCode, 'Cloud cover:', weather.cloudCover + '%');
+
+                // Log details including sun times
+                const sunriseTime = weather.sunrise ? `${Math.floor(weather.sunrise/60)}:${String(weather.sunrise%60).padStart(2,'0')}` : 'N/A';
+                const sunsetTime = weather.sunset ? `${Math.floor(weather.sunset/60)}:${String(weather.sunset%60).padStart(2,'0')}` : 'N/A';
+                const timeOfDay = getTimeOfDay(new Date(), weather.sunrise, weather.sunset);
+                console.log(`Weather: code ${weather.weatherCode}, ${weather.cloudCover}% clouds | Sun: ${sunriseTime}-${sunsetTime} | Mode: ${timeOfDay}`);
             }
         });
 
