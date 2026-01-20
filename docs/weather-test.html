@@ -437,10 +437,10 @@
 
                 if (this.type === 'rain') {
                     this.speed = 800 + Math.random() * 400; // pixels per second (faster for realism)
-                    this.length = 12 + Math.random() * 10; // Slightly shorter drops
-                    this.opacity = 0.12 + Math.random() * 0.18; // Much more subtle: 0.12-0.30
+                    this.length = 15 + Math.random() * 12; // Raindrop length
+                    this.opacity = 0.25 + Math.random() * 0.25; // Visible but not harsh: 0.25-0.50
                     this.wind = 1.5 + Math.random() * 1.5; // Slight diagonal
-                    this.lineWidth = 0.5 + Math.random() * 0.3; // Thinner: 0.5-0.8
+                    this.lineWidth = 0.75 + Math.random() * 0.5; // Thin but visible: 0.75-1.25
                 } else if (this.type === 'snow') {
                     this.speed = 40 + Math.random() * 60; // pixels per second
                     this.radius = 1 + Math.random() * 2.5; // Slightly smaller
