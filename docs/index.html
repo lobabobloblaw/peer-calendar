@@ -1911,10 +1911,15 @@
         // Scroll to today in list view (if viewing current month and today has events)
         function scrollToToday() {
             const todaySection = document.getElementById('today-events');
-            if (todaySection) {
+            const listView = document.getElementById('list-view');
+            if (todaySection && listView) {
                 // Small delay to ensure layout is complete
                 setTimeout(() => {
-                    todaySection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    // Scroll within the list-view container only, not the whole page
+                    const containerTop = listView.getBoundingClientRect().top;
+                    const elementTop = todaySection.getBoundingClientRect().top;
+                    const offset = elementTop - containerTop + listView.scrollTop;
+                    listView.scrollTo({ top: offset, behavior: 'smooth' });
                 }, 50);
             }
         }
