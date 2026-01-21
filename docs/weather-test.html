@@ -58,7 +58,7 @@
             transition: opacity 0.8s ease;
         }
 
-        /* Weather particles canvas (rain, snow) - on top but subtle */
+        /* Weather particles canvas (rain, snow) - blends with clouds */
         #weather-canvas {
             position: fixed;
             top: 0;
@@ -67,6 +67,7 @@
             height: 100%;
             z-index: 1;
             pointer-events: none;
+            mix-blend-mode: overlay; /* Blends rain with clouds instead of sitting on top */
         }
 
         body {
