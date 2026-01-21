@@ -66,6 +66,18 @@
             transition: opacity 0.8s ease;
         }
 
+        /* Weather particles canvas (rain, snow) - blends with clouds */
+        #weather-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            pointer-events: none;
+            mix-blend-mode: overlay;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
@@ -1147,6 +1159,7 @@
     <div id="sky-bg" aria-hidden="true"></div>
     <div id="vanta-bg" aria-hidden="true"></div>
     <div id="fog-overlay" aria-hidden="true"></div>
+    <canvas id="weather-canvas" aria-hidden="true"></canvas>
     <div class="landscape-overlay" aria-hidden="true">
         <p>Please rotate your device to portrait mode</p>
     </div>
@@ -2477,6 +2490,144 @@
             dusk: 'linear-gradient(to bottom, #ff7744 0%, #cc6644 30%, #5c4a6a 70%, #2a1a3c 100%)'
         };
 
+        // ============================================
+        // WEATHER PARTICLE SYSTEM (Rain, Snow)
+        // ============================================
+        const weatherCanvas = document.getElementById('weather-canvas');
+        const weatherCtx = weatherCanvas.getContext('2d');
+        let weatherParticles = [];
+        let weatherAnimationId = null;
+        let lastWeatherFrameTime = 0;
+        let currentWeatherTimeOfDay = 'day';
+
+        function resizeWeatherCanvas() {
+            weatherCanvas.width = window.innerWidth;
+            weatherCanvas.height = window.innerHeight;
+        }
+        resizeWeatherCanvas();
+        window.addEventListener('resize', resizeWeatherCanvas);
+
+        class WeatherParticle {
+            constructor(type, intensity) {
+                this.type = type;
+                this.intensity = intensity;
+                this.reset(true);
+            }
+
+            reset(initial = false) {
+                this.x = Math.random() * weatherCanvas.width;
+                this.y = initial ? Math.random() * weatherCanvas.height : -20;
+
+                if (this.type === 'rain') {
+                    this.speed = 800 + Math.random() * 400;
+                    this.length = 15 + Math.random() * 12;
+                    this.opacity = 0.25 + Math.random() * 0.25;
+                    this.wind = 1.5 + Math.random() * 1.5;
+                    this.lineWidth = 0.75 + Math.random() * 0.5;
+                } else if (this.type === 'snow') {
+                    this.speed = 40 + Math.random() * 60;
+                    this.radius = 1 + Math.random() * 2.5;
+                    this.opacity = 0.4 + Math.random() * 0.4;
+                    this.wobble = Math.random() * Math.PI * 2;
+                    this.wobbleSpeed = 1.5 + Math.random();
+                }
+            }
+
+            update(deltaTime) {
+                const dt = deltaTime / 1000;
+                if (this.type === 'rain') {
+                    this.y += this.speed * dt;
+                    this.x += this.wind * 60 * dt;
+                } else if (this.type === 'snow') {
+                    this.y += this.speed * dt;
+                    this.wobble += this.wobbleSpeed * dt;
+                    this.x += Math.sin(this.wobble) * 30 * dt;
+                }
+                if (this.y > weatherCanvas.height + 20 || this.x > weatherCanvas.width + 20 || this.x < -20) {
+                    this.reset();
+                }
+            }
+
+            draw(ctx, timeOfDay) {
+                if (this.type === 'rain') {
+                    let color = timeOfDay === 'night'
+                        ? `rgba(140, 160, 190, ${this.opacity})`
+                        : `rgba(170, 190, 210, ${this.opacity})`;
+                    ctx.strokeStyle = color;
+                    ctx.lineWidth = this.lineWidth;
+                    ctx.lineCap = 'round';
+                    ctx.beginPath();
+                    ctx.moveTo(this.x, this.y);
+                    ctx.lineTo(this.x + this.wind * 1.5, this.y + this.length);
+                    ctx.stroke();
+                } else if (this.type === 'snow') {
+                    ctx.fillStyle = `rgba(255, 255, 255, ${this.opacity})`;
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+            }
+        }
+
+        function getWeatherParticleType(weatherCode) {
+            if ((weatherCode >= 51 && weatherCode <= 67) ||
+                (weatherCode >= 80 && weatherCode <= 82) ||
+                (weatherCode >= 95 && weatherCode <= 99)) {
+                return 'rain';
+            }
+            if ((weatherCode >= 71 && weatherCode <= 77) ||
+                (weatherCode >= 85 && weatherCode <= 86)) {
+                return 'snow';
+            }
+            return null;
+        }
+
+        function getWeatherParticleIntensity(weatherCode) {
+            if ([51, 56, 61, 66, 71, 77, 80, 85].includes(weatherCode)) return 0.3;
+            if ([53, 63, 73, 81].includes(weatherCode)) return 0.6;
+            if ([55, 57, 65, 67, 75, 82, 86, 95, 96, 99].includes(weatherCode)) return 1.0;
+            return 0.5;
+        }
+
+        function startWeatherParticles(type, intensity, timeOfDay) {
+            stopWeatherParticles();
+            if (!type) return;
+
+            currentWeatherTimeOfDay = timeOfDay;
+            let count = type === 'rain'
+                ? Math.floor(150 + intensity * 350)
+                : Math.floor(60 + intensity * 140);
+
+            weatherParticles = [];
+            for (let i = 0; i < count; i++) {
+                weatherParticles.push(new WeatherParticle(type, intensity));
+            }
+
+            lastWeatherFrameTime = performance.now();
+
+            function animate(currentTime) {
+                const deltaTime = Math.min(currentTime - lastWeatherFrameTime, 50);
+                lastWeatherFrameTime = currentTime;
+
+                weatherCtx.clearRect(0, 0, weatherCanvas.width, weatherCanvas.height);
+                for (const p of weatherParticles) {
+                    p.update(deltaTime);
+                    p.draw(weatherCtx, currentWeatherTimeOfDay);
+                }
+                weatherAnimationId = requestAnimationFrame(animate);
+            }
+            weatherAnimationId = requestAnimationFrame(animate);
+        }
+
+        function stopWeatherParticles() {
+            if (weatherAnimationId) {
+                cancelAnimationFrame(weatherAnimationId);
+                weatherAnimationId = null;
+            }
+            weatherParticles = [];
+            weatherCtx.clearRect(0, 0, weatherCanvas.width, weatherCanvas.height);
+        }
+
         // Hide background initially, fetch weather, then init with correct settings
         const vantaBg = document.getElementById('vanta-bg');
         const skyBg = document.getElementById('sky-bg');
@@ -2517,13 +2668,21 @@
                 } else {
                     fogOverlay.style.opacity = 0;
                 }
+
+                // Start weather particles (rain/snow) if applicable
+                if (weather) {
+                    const particleType = getWeatherParticleType(weather.weatherCode);
+                    const particleIntensity = getWeatherParticleIntensity(weather.weatherCode);
+                    startWeatherParticles(particleType, particleIntensity, timeOfDay);
+                }
             });
 
             // Log details
             if (weather) {
+                const particleType = getWeatherParticleType(weather.weatherCode);
                 const sunriseTime = weather.sunrise ? `${Math.floor(weather.sunrise/60)}:${String(weather.sunrise%60).padStart(2,'0')}` : 'N/A';
                 const sunsetTime = weather.sunset ? `${Math.floor(weather.sunset/60)}:${String(weather.sunset%60).padStart(2,'0')}` : 'N/A';
-                console.log(`Weather: code ${weather.weatherCode}, ${weather.cloudCover}% clouds | Sun: ${sunriseTime}-${sunsetTime} | Mode: ${timeOfDay} | Cloud opacity: ${cloudOpacity.toFixed(2)}`);
+                console.log(`Weather: code ${weather.weatherCode}, ${weather.cloudCover}% clouds | Sun: ${sunriseTime}-${sunsetTime} | Mode: ${timeOfDay} | Cloud opacity: ${cloudOpacity.toFixed(2)} | Particles: ${particleType || 'none'}`);
             } else {
                 console.log('Weather: using time-based defaults');
             }
@@ -2531,12 +2690,32 @@
 
         // Cleanup on page hide for battery saving
         let currentSpeed = baseSpeed;
+        let particlesWereRunning = false;
         document.addEventListener('visibilitychange', () => {
-            if (vantaEffect) {
-                if (document.hidden) {
-                    vantaEffect.setOptions({ speed: 0 });
-                } else if (!prefersReducedMotion) {
-                    vantaEffect.setOptions({ speed: currentSpeed });
+            if (document.hidden) {
+                // Pause animations when page is hidden
+                if (vantaEffect) vantaEffect.setOptions({ speed: 0 });
+                if (weatherAnimationId) {
+                    particlesWereRunning = true;
+                    cancelAnimationFrame(weatherAnimationId);
+                    weatherAnimationId = null;
+                }
+            } else if (!prefersReducedMotion) {
+                // Resume animations when page is visible
+                if (vantaEffect) vantaEffect.setOptions({ speed: currentSpeed });
+                if (particlesWereRunning && weatherParticles.length > 0) {
+                    lastWeatherFrameTime = performance.now();
+                    function animate(currentTime) {
+                        const deltaTime = Math.min(currentTime - lastWeatherFrameTime, 50);
+                        lastWeatherFrameTime = currentTime;
+                        weatherCtx.clearRect(0, 0, weatherCanvas.width, weatherCanvas.height);
+                        for (const p of weatherParticles) {
+                            p.update(deltaTime);
+                            p.draw(weatherCtx, currentWeatherTimeOfDay);
+                        }
+                        weatherAnimationId = requestAnimationFrame(animate);
+                    }
+                    weatherAnimationId = requestAnimationFrame(animate);
                 }
             }
         });
