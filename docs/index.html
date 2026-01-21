@@ -366,6 +366,12 @@
             padding: 16px;
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
+            transition: background 0.5s ease;
+        }
+
+        /* Enhanced background for dark weather conditions */
+        body.dark-weather .calendar-section {
+            background: rgba(255, 255, 255, 0.88);
         }
 
         .copy-btn {
@@ -2723,6 +2729,20 @@
                 } else {
                     fogOverlay.style.opacity = 0;
                 }
+
+                // Apply dark-weather class for improved text readability during dark conditions
+                // Dark conditions: night/dusk, heavy rain (65-67), thunderstorms (95+), fog (45-48),
+                // moderate rain with high clouds, or generally dark sky
+                const isDarkWeather = weather && (
+                    timeOfDay === 'night' ||
+                    timeOfDay === 'dusk' ||
+                    weather.weatherCode >= 95 ||  // Thunderstorms
+                    (weather.weatherCode >= 65 && weather.weatherCode <= 67) ||  // Heavy rain
+                    (weather.weatherCode >= 45 && weather.weatherCode <= 48) ||  // Fog/mist
+                    (weather.weatherCode >= 61 && weather.cloudCover > 80) ||  // Rain with heavy clouds
+                    (weather.weatherCode === 3 && weather.cloudCover > 90)  // Overcast, very cloudy
+                );
+                document.body.classList.toggle('dark-weather', isDarkWeather);
 
                 // Start weather particles (rain/snow) if applicable
                 if (weather) {
