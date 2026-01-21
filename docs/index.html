@@ -1418,6 +1418,53 @@
             return dates;
         }
 
+        // Check if a month is within a seasonal date range mentioned in text
+        // Returns true if month is valid, false if text specifies a different season
+        function isMonthInSeasonalRange(text, month) {
+            if (!text) return true;
+            const lower = text.toLowerCase();
+
+            // Month name to number mapping
+            const monthNames = {
+                'january': 0, 'february': 1, 'march': 2, 'april': 3,
+                'may': 4, 'june': 5, 'july': 6, 'august': 7,
+                'september': 8, 'october': 9, 'november': 10, 'december': 11,
+                'jan': 0, 'feb': 1, 'mar': 2, 'apr': 3,
+                'jun': 5, 'jul': 6, 'aug': 7, 'sep': 8, 'sept': 8,
+                'oct': 9, 'nov': 10, 'dec': 11
+            };
+
+            // Look for month range patterns like "July-August", "June through September", "May-October"
+            const rangePatterns = [
+                /\b(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)\s*[-–—through]+\s*(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)\b/gi
+            ];
+
+            for (const pattern of rangePatterns) {
+                const match = lower.match(pattern);
+                if (match) {
+                    // Extract start and end months
+                    const parts = match[0].split(/[-–—]|through/i).map(s => s.trim());
+                    if (parts.length >= 2) {
+                        const startMonth = monthNames[parts[0]];
+                        const endMonth = monthNames[parts[1]];
+                        if (startMonth !== undefined && endMonth !== undefined) {
+                            // Check if current month is in range
+                            if (startMonth <= endMonth) {
+                                // Normal range (e.g., May-October)
+                                return month >= startMonth && month <= endMonth;
+                            } else {
+                                // Wrapping range (e.g., October-March)
+                                return month >= startMonth || month <= endMonth;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // No seasonal restriction found
+            return true;
+        }
+
         // Generate all events for a month
         function generateMonthEvents(year, month) {
             if (!eventsData) return [];
@@ -1429,6 +1476,10 @@
                 if (entry.programs && entry.programs.length > 0) {
                     for (const program of entry.programs) {
                         if (program.schedule) {
+                            // Check if this month is within the program's seasonal range
+                            const seasonalText = program.notes || program.schedule || '';
+                            if (!isMonthInSeasonalRange(seasonalText, month)) continue;
+
                             const dates = getScheduleDates(program.schedule, year, month);
                             // Filter out dates before schedule_start_date
                             const startDate = entry.schedule_start_date ? new Date(entry.schedule_start_date) : null;
@@ -1463,6 +1514,10 @@
 
                 // Handle direct schedule on entry
                 if (entry.schedule && !entry.programs?.length) {
+                    // Check if this month is within the entry's seasonal range
+                    const seasonalText = entry.notes || entry.schedule || '';
+                    if (!isMonthInSeasonalRange(seasonalText, month)) continue;
+
                     const dates = getScheduleDates(entry.schedule, year, month);
                     // Filter out dates before schedule_start_date
                     const startDate = entry.schedule_start_date ? new Date(entry.schedule_start_date) : null;
