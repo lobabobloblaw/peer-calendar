@@ -1104,14 +1104,26 @@
             background: var(--bg-card-hover);
         }
 
+        /* Print container - hidden on screen */
+        .print-container {
+            display: none;
+        }
+
         /* Print styles */
         @media print {
-            /* Hide weather effects and non-essential elements */
-            #sky-bg, #vanta-bg, #fog-overlay, #weather-canvas,
-            .left-panel, .folktime-link, .rotate-notice,
-            .month-nav button, .view-tabs, .print-btn,
-            .seasonal-collapse, footer {
+            /* Hide everything except print container */
+            body > *:not(.print-container) {
                 display: none !important;
+            }
+
+            /* Show and style print container */
+            .print-container {
+                display: block !important;
+                background: white !important;
+                color: black !important;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                font-size: 11pt;
+                line-height: 1.4;
             }
 
             /* Reset body for print */
@@ -1119,115 +1131,152 @@
                 background: white !important;
                 color: black !important;
                 max-width: none !important;
-                padding: 0.5in !important;
+                padding: 0 !important;
+                margin: 0 !important;
                 overflow: visible !important;
                 height: auto !important;
             }
 
-            /* Show header */
-            header {
+            /* Print header */
+            .print-header {
+                text-align: center;
                 margin-bottom: 20px;
+                padding-bottom: 15px;
+                border-bottom: 2px solid #333;
             }
 
-            .header-logo {
-                max-width: 400px;
-                filter: none;
+            .print-header h1 {
+                font-size: 18pt;
+                margin: 0 0 5px 0;
+                color: #333;
             }
 
-            /* Main content adjustments */
-            .main-content {
-                display: block !important;
-                height: auto !important;
+            .print-header .print-subtitle {
+                font-size: 11pt;
+                color: #666;
+                margin: 0;
             }
 
-            .right-panel {
-                order: 1;
+            /* Print day section */
+            .print-day {
+                margin-bottom: 12px;
+                page-break-inside: avoid;
             }
 
-            /* Calendar preview styling for print */
-            .calendar-preview {
-                background: white !important;
-                border: 1px solid #ccc !important;
-                box-shadow: none !important;
+            .print-day-header {
+                background: #f0f0f0 !important;
+                padding: 6px 10px;
+                font-weight: 600;
+                font-size: 11pt;
+                border-left: 4px solid #e08050;
+                margin-bottom: 4px;
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
             }
 
-            .month-nav {
-                background: #f5f5f5 !important;
-                border-bottom: 1px solid #ccc !important;
-            }
-
-            .month-label {
-                color: black !important;
-                font-size: 1.2em !important;
-            }
-
-            /* Grid view print styles */
-            .grid-view {
-                display: block !important;
-            }
-
-            .grid-day {
-                background: white !important;
-                border: 1px solid #ddd !important;
-                min-height: 60px !important;
-            }
-
-            .grid-day.today {
+            .print-day-header.today {
                 background: #fff3e0 !important;
+                border-left-color: #e08050;
             }
 
-            .grid-day .day-number {
-                color: black !important;
-            }
-
-            .grid-day .event {
-                font-size: 0.7em !important;
-                padding: 1px 3px !important;
-            }
-
-            /* List view print styles */
-            .list-view {
-                max-height: none !important;
-                overflow: visible !important;
-            }
-
-            .list-view.active {
-                display: block !important;
-            }
-
-            .day-header {
-                background: #f5f5f5 !important;
-                color: black !important;
-                -webkit-print-color-adjust: exact !important;
-                print-color-adjust: exact !important;
-            }
-
-            .day-header.today {
-                background: #e08050 !important;
-                color: white !important;
-                -webkit-print-color-adjust: exact !important;
-                print-color-adjust: exact !important;
-            }
-
-            .event-item {
-                border-bottom: 1px solid #eee !important;
+            /* Print event */
+            .print-event {
+                padding: 8px 10px 8px 14px;
+                border-bottom: 1px solid #eee;
                 page-break-inside: avoid;
             }
 
-            /* Event colors need to be preserved */
-            .color-dot {
+            .print-event:last-child {
+                border-bottom: none;
+            }
+
+            .print-event-title {
+                font-weight: 600;
+                font-size: 10.5pt;
+                margin-bottom: 2px;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+
+            .print-event-title .print-color-dot {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                flex-shrink: 0;
                 -webkit-print-color-adjust: exact !important;
                 print-color-adjust: exact !important;
             }
 
-            /* Hide seasonal view during print (show calendar or list only) */
-            .seasonal-view {
-                display: none !important;
+            .print-event-meta {
+                font-size: 9.5pt;
+                color: #555;
+                margin-left: 16px;
             }
 
-            /* Page break hints */
-            .event-day {
-                page-break-inside: avoid;
+            .print-event-meta span {
+                margin-right: 12px;
+            }
+
+            .print-event-meta .label {
+                font-weight: 500;
+                color: #333;
+            }
+
+            .print-event-description {
+                font-size: 9pt;
+                color: #666;
+                margin: 4px 0 0 16px;
+                font-style: italic;
+            }
+
+            /* Category legend */
+            .print-legend {
+                margin-top: 20px;
+                padding-top: 15px;
+                border-top: 1px solid #ccc;
+                font-size: 9pt;
+            }
+
+            .print-legend-title {
+                font-weight: 600;
+                margin-bottom: 8px;
+            }
+
+            .print-legend-items {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 12px;
+            }
+
+            .print-legend-item {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+            }
+
+            .print-legend-dot {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+
+            /* Footer */
+            .print-footer {
+                margin-top: 20px;
+                padding-top: 10px;
+                border-top: 1px solid #ccc;
+                font-size: 8pt;
+                color: #888;
+                text-align: center;
+            }
+
+            /* Page settings */
+            @page {
+                margin: 0.5in;
+                size: letter;
             }
         }
 
@@ -1401,7 +1450,7 @@
                         <button class="view-tab" data-view="list">List</button>
                         <button class="view-tab desktop-only" data-view="seasonal">Seasonal Events</button>
                     </div>
-                    <button class="print-btn" onclick="window.print()" title="Print calendar">🖨️ Print</button>
+                    <button class="print-btn" onclick="printCalendar()" title="Print calendar">🖨️ Print</button>
                 </div>
                 <div class="list-view" id="list-view">
                     <div class="no-events">Loading events...</div>
@@ -1426,6 +1475,9 @@
 
         <a href="https://www.folktime.org" target="_blank" rel="noopener" class="folktime-link mobile-only"><img src="folktime.png" alt="FolkTime" class="folktime-logo"></a>
     </main>
+
+    <!-- Print-specific container (hidden on screen, shown only during print) -->
+    <div id="print-container" class="print-container"></div>
 
     <footer>
         <p>Maintained by Alex V</p>
@@ -1967,6 +2019,123 @@
                     }
                 });
             });
+        }
+
+        // Print calendar - generates a formatted print view
+        function printCalendar() {
+            const printContainer = document.getElementById('print-container');
+            const year = currentMonth.getFullYear();
+            const month = currentMonth.getMonth();
+            const events = generateMonthEvents(year, month);
+
+            // Category colors for legend
+            const categoryColors = {
+                'Peer Support': '#7B68EE',
+                'Fitness & Movement': '#32CD32',
+                'Events & Activities': '#FF6347',
+                'Arts & Culture': '#9370DB',
+                'Food & Meals': '#DAA520',
+                'Social & Games': '#FF69B4'
+            };
+
+            // Group events by date
+            const grouped = {};
+            for (const event of events) {
+                const key = event.date.toDateString();
+                if (!grouped[key]) grouped[key] = [];
+                grouped[key].push(event);
+            }
+
+            const today = new Date();
+            const todayStr = today.toDateString();
+            const monthName = monthNames[month];
+
+            // Build print HTML
+            let html = `
+                <div class="print-header">
+                    <h1>FolkTime Peer Support Calendar</h1>
+                    <p class="print-subtitle">${monthName} ${year} · Portland, Oregon</p>
+                </div>
+            `;
+
+            if (events.length === 0) {
+                html += '<p style="text-align: center; color: #666;">No scheduled events this month</p>';
+            } else {
+                // Render each day
+                for (const [dateStr, dayEvents] of Object.entries(grouped)) {
+                    const date = new Date(dateStr);
+                    const dayName = dayNames[date.getDay()];
+                    const monthDay = `${monthNames[date.getMonth()]} ${date.getDate()}`;
+                    const isToday = dateStr === todayStr;
+
+                    html += `<div class="print-day">
+                        <div class="print-day-header${isToday ? ' today' : ''}">${dayName}, ${monthDay}${isToday ? ' (Today)' : ''}</div>`;
+
+                    for (const event of dayEvents) {
+                        const timeStr = event.startTime ?
+                            `${formatTime(event.startTime)}${event.endTime ? ' – ' + formatTime(event.endTime) : ''}` : '';
+                        const locationStr = event.format === 'Zoom' ? 'Online (Zoom)' : (event.location || event.address || '');
+
+                        html += `<div class="print-event">
+                            <div class="print-event-title">
+                                <span class="print-color-dot" style="background: ${event.color || '#888'}"></span>
+                                ${event.title}
+                            </div>
+                            <div class="print-event-meta">`;
+
+                        if (timeStr) {
+                            html += `<span><span class="label">Time:</span> ${timeStr}</span>`;
+                        }
+                        if (locationStr) {
+                            html += `<span><span class="label">Location:</span> ${locationStr}</span>`;
+                        }
+                        if (event.org) {
+                            html += `<span><span class="label">Org:</span> ${event.org}</span>`;
+                        }
+
+                        html += `</div>`;
+
+                        // Add description if available
+                        if (event.description || event.notes) {
+                            const desc = event.description || event.notes;
+                            // Truncate long descriptions for print
+                            const truncated = desc.length > 150 ? desc.substring(0, 150) + '...' : desc;
+                            html += `<div class="print-event-description">${truncated}</div>`;
+                        }
+
+                        html += `</div>`;
+                    }
+
+                    html += `</div>`;
+                }
+            }
+
+            // Add legend
+            html += `
+                <div class="print-legend">
+                    <div class="print-legend-title">Event Categories</div>
+                    <div class="print-legend-items">`;
+
+            for (const [category, color] of Object.entries(categoryColors)) {
+                html += `<div class="print-legend-item">
+                    <span class="print-legend-dot" style="background: ${color}"></span>
+                    ${category}
+                </div>`;
+            }
+
+            html += `</div></div>`;
+
+            // Add footer
+            html += `
+                <div class="print-footer">
+                    FolkTime Peer Support Calendar · folktime.org · Printed ${new Date().toLocaleDateString()}
+                </div>
+            `;
+
+            printContainer.innerHTML = html;
+
+            // Trigger print
+            window.print();
         }
 
         // Render grid view
