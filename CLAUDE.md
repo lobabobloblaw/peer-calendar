@@ -25,7 +25,8 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 4. Run `python scripts/generate_calendar.py` to update calendar feeds
 
 **Key files:**
-- `data/sources.yaml` - Master registry with 213 resources and audit metadata (multi-document YAML with `---` separators)
+- `data/sources.yaml` - Master registry with ~213 resources and audit metadata (multi-document YAML with `---` separators)
+- `docs/events.json` - JSON feed used by web calendar preview (generated from sources.yaml)
 - `data/audit-log.yaml` - Verification history
 - `data/queue.yaml` - Pending resources to research
 - `guides/activities-guide-1.md` - Parks, arts, libraries, discount programs
@@ -341,7 +342,12 @@ Calendars are hosted via GitHub Pages for public subscription access.
   - Time of day: Dawn (pink/peach), Day (sky blue), Dusk (purple/orange), Night (navy)
   - Weather conditions via Open-Meteo API: Clear skies show subtle clouds, overcast/rain darkens sky
   - Gracefully falls back to time-based defaults if API unavailable
+- Adaptive text styling for left panel (subscribe instructions, updates):
+  - Night/dark: White text with subtle dark shadow
+  - Day/light: Dark text with subtle light shadow for depth
+  - Body class `daytime` toggles based on time of day from weather API
 - Updates section for announcing new content
+- Print view button for calendar output
 
 **Publishing workflow:**
 ```bash
@@ -355,9 +361,15 @@ git push
 ```
 
 The `docs/` folder contains:
-- `index.html` - Landing page with subscription links
+- `index.html` - Landing page with subscription links and calendar preview (~2500 lines)
+  - Vanta.js for animated cloud background
+  - Open-Meteo API for weather-reactive theming
+  - Custom schedule parsing in JavaScript (parseSchedule function around line 1586)
+  - Event modal display system
+  - Print functionality
 - `apple/`, `google/`, `outlook/` - Platform-specific ICS files
-- `events.json` - JSON feed for programmatic access
+- `events.json` - JSON feed for programmatic access and web calendar preview
+- `folktime.png`, `2026-calendar-2.png` - Logo and header images
 
 ## Calendar Import Instructions
 
@@ -389,7 +401,12 @@ for doc in yaml.safe_load_all(content):
 Schedule strings are parsed with natural language patterns:
 - "Every Tuesday 6-7pm" → weekly recurring on Tuesdays
 - "1st and 3rd Wednesday 2-3:30pm" → monthly on specific week positions
-- The `parse_schedule()` function in `generate_calendar.py` handles this conversion
+- "Tue/Thu 8-9am" or "Tuesdays & Thursdays noon-1pm" → multiple days per week
+- "Last Sunday of each month 4-6pm" → last occurrence of day in month
+- "Daily 2-10pm" → every day
+- Time parsing handles: "2-10pm" (both PM), "10-7pm" (AM to PM), "noon-1pm", "10am"
+- The `parseSchedule()` function in `docs/index.html` handles the web calendar preview
+- The `parse_schedule()` function in `generate_calendar.py` handles ICS generation
 
 **Delaying recurring events:**
 Use `schedule_start_date` to prevent a recurring event from appearing until a specific date:
