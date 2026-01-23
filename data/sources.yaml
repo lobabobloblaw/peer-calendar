@@ -6997,7 +6997,7 @@
   - https://oregonfoodbank.org/get-involved/volunteer
   pricing:
     description: FREE
-  schedule: 2-3 hour shifts, Monday-Saturday
+  schedule: null  # Volunteer shifts are self-scheduled online, not a recurring event
   last_verified: 2025-12-02
   next_audit: 2026-03-02
   audit_frequency: quarterly

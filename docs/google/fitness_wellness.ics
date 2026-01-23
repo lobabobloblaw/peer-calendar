@@ -25,9 +25,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:3edaaea6cbe1c3ad@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260121T190000
-DTEND:20260121T202000
+DTSTAMP:20260123T102120Z
+DTSTART:20260128T190000
+DTEND:20260128T202000
 SUMMARY:Dharma Rain Zen Center: Wednesday Evening Meditation
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 8500 NE Sisk
  iyou St\, Portland\, OR 97220\nWebsite: https://dharma-rain.org/\nDetails:
@@ -40,10 +40,46 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:75e1464598e366da@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260126T190000
+DTEND:20260126T200000
+SUMMARY:Diamond Way Buddhist Center: Guided Meditation
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE always\nInfo: Guided m
+ editation with explanation. Newcomers especially welcome.\nAddress: 1532 N
+ E 21st Ave\, Apt 101\, Portland\, OR 97232\nPhone: 503-484-7187\nWebsite: 
+ https://diamondway.org/portland/\nDetails: Karma Kagyu lineage of Tibetan 
+ Buddhism. Live-in center with guest room\, near public transit. Founded 19
+ 97.
+LOCATION:1532 NE 21st Ave\, Apt 101\, Portland\, OR 97232
+URL:https://diamondway.org/portland/
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:75e1464598e366da@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260129T190000
+DTEND:20260129T200000
+SUMMARY:Diamond Way Buddhist Center: Guided Meditation
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE always\nInfo: Guided m
+ editation with explanation. Newcomers especially welcome.\nAddress: 1532 N
+ E 21st Ave\, Apt 101\, Portland\, OR 97232\nPhone: 503-484-7187\nWebsite: 
+ https://diamondway.org/portland/\nDetails: Karma Kagyu lineage of Tibetan 
+ Buddhism. Live-in center with guest room\, near public transit. Founded 19
+ 97.
+LOCATION:1532 NE 21st Ave\, Apt 101\, Portland\, OR 97232
+URL:https://diamondway.org/portland/
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:85da36a11cd8de05@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260120T183000
-DTEND:20260120T200000
+DTSTAMP:20260123T102120Z
+DTSTART:20260127T183000
+DTEND:20260127T200000
 SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Evening Group
 DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
  at: In-person\nAddress: 6536 SE Duke St\, Portland\, OR 97206\nPhone: 503-
@@ -58,9 +94,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:50283de6a02f284c@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260120T150000
-DTEND:20260120T163000
+DTSTAMP:20260123T102120Z
+DTSTART:20260127T150000
+DTEND:20260127T163000
 SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Teatime
 DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
  at: Online\nAddress: 6536 SE Duke St\, Portland\, OR 97206\nPhone: 503-519
@@ -74,10 +110,29 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:c4627ca915697040@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260128T190000
+DTEND:20260128T203000
+SUMMARY:Portland Insight Meditation Community (PIMC): Heart of Freedom
+DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
+ at: Hybrid (in-person and Zoom)\nInfo: Mindfulness cultivation class with 
+ Doug Pullin. Guided and silent meditation\, teaching\, and Q&A. Beginning 
+ and advanced students welcome.\nAddress: 6536 SE Duke St\, Portland\, OR 9
+ 7206\nPhone: 503-519-9686\nWebsite: https://www.portlandinsight.org/\nDeta
+ ils: Vipassana (insight) tradition. Welcomes all faiths\, orientations\, g
+ enders\, abilities\, ages\, and backgrounds.
+LOCATION:6536 SE Duke St\, Portland\, OR 97206
+URL:https://www.portlandinsight.org/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:69576450a4c8ec45@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260120T173000
-DTEND:20260120T193000
+DTSTAMP:20260123T102120Z
+DTSTART:20260127T173000
+DTEND:20260127T193000
 SUMMARY:Gresham Senior Center: Tuesday Night Dance
 DESCRIPTION:Category: Fitness & Wellness\nInfo: Live band\nAddress: 600 NE 
  8th Street\, Room 130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: 
@@ -90,9 +145,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fa2a6f7932e27924@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260119T130000
-DTEND:20260119T150000
+DTSTAMP:20260123T102120Z
+DTSTART:20260126T130000
+DTEND:20260126T150000
 SUMMARY:Gresham Senior Center: Monday Movie Matinees
 DESCRIPTION:Category: Fitness & Wellness\nAddress: 600 NE 8th Street\, Room
   130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: https://greshamor
@@ -105,7 +160,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:79365ba3889a5027@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260123T102120Z
 DTSTART:20260123T130000
 DTEND:20260123T143000
 SUMMARY:Gresham Senior Center: Friday Speaker Series
@@ -120,9 +175,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2fc95dd415237f2f@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260121T130000
-DTEND:20260121T143000
+DTSTAMP:20260123T102120Z
+DTSTART:20260128T130000
+DTEND:20260128T143000
 SUMMARY:Gresham Senior Center: Alzheimer's Caregiver Support
 DESCRIPTION:Category: Fitness & Wellness\nAddress: 600 NE 8th Street\, Room
   130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: https://greshamor
@@ -135,7 +190,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9d926352b7451d03@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260123T102120Z
 DTSTART:20260123T170000
 DTEND:20260123T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Free Friday Climbing
@@ -151,9 +206,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:120fe89373741af7@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260117T180000
-DTEND:20260117T210000
+DTSTAMP:20260123T102120Z
+DTSTART:20260124T180000
+DTEND:20260124T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Teen Nights
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE for Gresham residents 
  on specific days\nNote: Includes rental shoes on Free Friday Climbing\nEli
@@ -167,9 +222,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2c4a1c226a516cbd@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260119T183000
-DTEND:20260119T200000
+DTSTAMP:20260123T102120Z
+DTSTART:20260126T183000
+DTEND:20260126T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Creston Pool Free Swim
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: Various Port
  land pools\nPhone: 503-823-2525\nWebsite: https://portland.gov/parks/outdo
@@ -182,9 +237,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:19f37adeb9323fcb@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260120T130000
-DTEND:20260120T154500
+DTSTAMP:20260123T102120Z
+DTSTART:20260127T130000
+DTEND:20260127T154500
 SUMMARY:Portland Parks Free Open Swim Sessions: Peninsula Pool Free Swim
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: Various Port
  land pools\nPhone: 503-823-2525\nWebsite: https://portland.gov/parks/outdo
@@ -197,9 +252,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b759cc72f6eb0b0f@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260121T130000
-DTEND:20260121T150000
+DTSTAMP:20260123T102120Z
+DTSTART:20260128T130000
+DTEND:20260128T150000
 SUMMARY:Portland Parks Free Open Swim Sessions: Grant Pool Free Swim
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: Various Port
  land pools\nPhone: 503-823-2525\nWebsite: https://portland.gov/parks/outdo
@@ -212,9 +267,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4bb53254bccbec2d@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260121T183000
-DTEND:20260121T200000
+DTSTAMP:20260123T102120Z
+DTSTART:20260128T183000
+DTEND:20260128T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Sellwood Pool Free Swim
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: Various Port
  land pools\nPhone: 503-823-2525\nWebsite: https://portland.gov/parks/outdo
@@ -222,6 +277,110 @@ DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: Various Port
 LOCATION:Sellwood Pool\, 7951 SE 7th Ave
 URL:https://portland.gov/parks/outdoor-pools
 RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5a723522bb7078a8@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260128T062900
+DTEND:20260128T071500
+SUMMARY:November Project Portland: Wednesday Workout
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: 30-45 minute wo
+ rkout. Bodyweight movements and running with alternatives for all levels. 
+ Rain or shine - they're weatherproof!\nAddress: Salmon Street Fountain\, 1
+ 000 SW Naito Pkwy\, Portland\, OR 97204\nWebsite: https://november-project
+ .com/portland-or/\nDetails: Free fitness movement in Portland since 2016. 
+ Mission: lowering intimidation of fitness\, building human connections. 'A
+ ll Ages\, Faces\, & Paces'
+LOCATION:Salmon Street Fountain
+URL:https://november-project.com/portland-or/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2d545c0884955257@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260124T090000
+DTEND:20260124T110000
+SUMMARY:Portland Trail Runners: Saturday Trail Run
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: 5-7 mile trail 
+ runs in Forest Park\, Tryon Creek\, and other Portland trails. All paces w
+ elcome. Post-run coffee and conversation at trailhead.\nAddress: Forest Pa
+ rk (various trailheads)\nWebsite: https://www.meetup.com/portland-trail-ru
+ nners-group/\nDetails: Portland's original trail running group\, exploring
+  the city's best trails for over 15 years.
+LOCATION:Forest Park (various trailheads)
+URL:https://www.meetup.com/portland-trail-runners-group/
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:105d2f0b41322d3e@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260126T183000
+DTEND:20260126T200000
+SUMMARY:Trail Sisters Portland: Monday Trail Run
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Women-only trai
+ l run. No one left behind philosophy - group matches your pace.\nAddress: 
+ Forest Park\, Thurman Entrance\nDetails: Supportive trail running group fo
+ r women. 'No one left behind' - will match your pace\, walking welcome.
+LOCATION:Forest Park\, Thurman Entrance
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0781b534fe7b3022@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260125T130000
+DTEND:20260125T150000
+SUMMARY:Tergar Meditation Community of Portland: Monthly In-Person Practice
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Three 25-minute
+  silent sitting sessions with walking meditation between\, followed by tea
+ \, snacks\, and social time.\nAddress: SomaSpace\, 4050 NE Broadway\, Port
+ land\, OR 97213\nWebsite: https://tergar.org/portland/\nDetails: Free mont
+ hly meditation with social time afterward. Beginner-friendly.
+LOCATION:SomaSpace\, 4050 NE Broadway\, Portland\, OR 97213
+URL:https://tergar.org/portland/
+RRULE:FREQ=MONTHLY;BYDAY=SU;BYSETPOS=3
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:315cc74f5ce5bba3@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260126T190000
+DTEND:20260126T203000
+SUMMARY:Path of Sincerity Meditation Group: In-Person Meditation
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE (donation-based gift e
+ conomy)\nInfo: Buddhist-inspired meditation with teaching and discussion. 
+ All traditions welcome.\nAddress: Awakenings Wellness Studio\, 1016 SE 12t
+ h Ave\, Portland\nWebsite: https://www.pathofsincerity.com/events/\nDetail
+ s: Daily virtual + twice-monthly in-person meditation. Gift economy model.
+LOCATION:Awakenings Wellness Studio\, 1016 SE 12th Ave\, Portland
+URL:https://www.pathofsincerity.com/events/
+RRULE:FREQ=MONTHLY;BYDAY=MO;BYSETPOS=2,4
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:77f97d44905fa910@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260123T180000
+DTEND:20260123T200000
+SUMMARY:Friendly House: Community Nights
+DESCRIPTION:Category: Fitness & Wellness\nCost: Low-cost/sliding scale avai
+ lable\nInfo: Free access to showers (sign up by 7pm)\, internet center\, f
+ itness room\, and classes. Open to everyone.\nAddress: 1737 NW 26th Ave\, 
+ Portland\, OR 97210\nPhone: 503-228-4391\nWebsite: https://fhpdx.org\nDeta
+ ils: Nonprofit neighborhood center with sliding scale. Multnomah County Se
+ nior Center partner. Free Community Nights on Fridays.
+LOCATION:1737 NW 26th Ave\, Portland\, OR 97210
+URL:https://fhpdx.org
+RRULE:FREQ=WEEKLY;BYDAY=FR
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT

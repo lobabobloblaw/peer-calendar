@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-19T17:42:19.096729",
+  "generated": "2026-01-23T10:21:20.642120",
   "count": 213,
   "categories": {
     "peer_support": "Peer Support",
@@ -1266,7 +1266,7 @@
     },
     {
       "id": "4d-recovery",
-      "title": "4D Recovery (Ages 14-35)",
+      "title": "4D Recovery",
       "category": "peer_support",
       "categoryName": "Peer Support",
       "color": "#7B68EE",
@@ -1278,14 +1278,14 @@
       },
       "programs": [
         {
-          "name": "Drop-In Center (Ages 14-35)",
+          "name": "Drop-In Center",
           "schedule": "Daily 2-10pm",
-          "notes": "Welcoming space for young adults with pool table, video games, TV, and peer connection. Come hang out, no pressure."
+          "notes": "Welcoming space with pool table, video games, TV, and peer connection. Come hang out, no pressure."
         },
         {
           "name": "Recovery Support Meetings",
           "schedule": "Various weekly meetings",
-          "notes": "12-step, dharma, yoga, and social recovery approaches available. For ages 14-35. Check website for current schedule."
+          "notes": "12-step, dharma, yoga, and social recovery approaches available. Check website for current schedule."
         }
       ],
       "dates": null,
@@ -1302,8 +1302,8 @@
         "new_to_area",
         "indoor"
       ],
-      "notes": "Young adult recovery community (ages 14-35) with peer mentors",
-      "practical_tips": "Peer-led recovery community specifically for young people ages 14-35. Drop-in centers with games, meetings, and social events. Certified peer mentors with lived experience. Accepts Medicaid/OHP. Multiple locations in Portland metro area."
+      "notes": "Youth-focused (14-35) recovery community with peer mentors",
+      "practical_tips": "Peer-led recovery community for young people ages 14-35. Drop-in centers with games, meetings, and social events. Certified peer mentors with lived experience. Accepts Medicaid/OHP. Also has Hillsboro location."
     },
     {
       "id": "peergalaxy",
@@ -7062,7 +7062,7 @@
       },
       "programs": [],
       "dates": null,
-      "schedule": "2-3 hour shifts, Monday-Saturday",
+      "schedule": null,
       "schedule_start_date": null,
       "flags": [],
       "accessibility": [

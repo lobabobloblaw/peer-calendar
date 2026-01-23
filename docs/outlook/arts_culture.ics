@@ -24,10 +24,58 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:1cc8d79374188c66@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260129T000000
+DTEND:20260129T000000
+SUMMARY:Ground Kontrol Classic Arcade: Free Play (2nd Thursday)
+DESCRIPTION:Category: Arts & Culture\nInfo: All-ages noon-5pm ($6)\, 21+ 5p
+ m-midnight ($12). Unlimited play on 100+ games.\nAddress: 511 NW Couch St\
+ , Portland\, OR 97209\nWebsite: https://groundkontrol.com/\nDetails: Since
+  1999. Games from Golden Age of Video Arcade.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p>All
+ -ages noon-5pm ($6)\, 21+ 5pm-midnight ($12). Unlimited play on 100+ games
+ .</p><p><strong>Address:</strong> 511 NW Couch St\, Portland\, OR 97209</p
+ ><p><strong>Website:</strong> <a href="https://groundkontrol.com/">https:/
+ /groundkontrol.com/</a></p><p><strong>Details:</strong> Since 1999. Games 
+ from Golden Age of Video Arcade.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:511 NW Couch St\, Portland\, OR 97209
+URL:https://groundkontrol.com/
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=2
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:59746f5642178898@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260128T000000
+DTEND:20260128T000000
+SUMMARY:Ground Kontrol Classic Arcade: Free Play (Last Wednesday)
+DESCRIPTION:Category: Arts & Culture\nInfo: All-ages noon-5pm ($6)\, 21+ 5p
+ m-midnight ($12). Unlimited play on 100+ games.\nAddress: 511 NW Couch St\
+ , Portland\, OR 97209\nWebsite: https://groundkontrol.com/\nDetails: Since
+  1999. Games from Golden Age of Video Arcade.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p>All
+ -ages noon-5pm ($6)\, 21+ 5pm-midnight ($12). Unlimited play on 100+ games
+ .</p><p><strong>Address:</strong> 511 NW Couch St\, Portland\, OR 97209</p
+ ><p><strong>Website:</strong> <a href="https://groundkontrol.com/">https:/
+ /groundkontrol.com/</a></p><p><strong>Details:</strong> Since 1999. Games 
+ from Golden Age of Video Arcade.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:511 NW Couch St\, Portland\, OR 97209
+URL:https://groundkontrol.com/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:c62bc17ff46d5148@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260121T180000
-DTEND:20260121T200000
+DTSTAMP:20260123T102120Z
+DTSTART:20260128T180000
+DTEND:20260128T200000
 SUMMARY:NAYA (Native American Youth and Family Center): Culture Nights
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 5135 NE Columbia
   Blvd\, Portland\, OR\nPhone: 503-288-8177\nWebsite: https://nayapdx.org/\
@@ -49,10 +97,38 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:e73e21017e0799ee@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260127T173000
+DTEND:20260127T183000
+SUMMARY:Clackamas County Libraries (LINCC): Teen Advisory Group (GOAT)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE library cards for all Oreg
+ on residents\nEligibility: Grades 6-12\nInfo: Help shape library programs 
+ and services for teens. Meet other teens who love the library.\nWebsite: h
+ ttps://lincc.org\nDetails: 13 public libraries in Clackamas County. Oak Lo
+ dge and Gladstone operated by the county\; others are independent LINCC me
+ mbers.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
+ rong>Cost:</strong> FREE library cards for all Oregon residents</p><p><str
+ ong>Eligibility:</strong> Grades 6-12</p><p>Help shape library programs an
+ d services for teens. Meet other teens who love the library.</p><p><strong
+ >Website:</strong> <a href="https://lincc.org">https://lincc.org</a></p><p
+ ><strong>Details:</strong> 13 public libraries in Clackamas County. Oak Lo
+ dge and Gladstone operated by the county\; others are independent LINCC me
+ mbers.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Oak Lodge Library
+URL:https://lincc.org
+RRULE:FREQ=MONTHLY;BYDAY=TU;BYSETPOS=1
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:ef7911bf9a58117f@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260122T183000
-DTEND:20260122T193000
+DTSTAMP:20260123T102120Z
+DTSTART:20260129T183000
+DTEND:20260129T193000
 SUMMARY:MHCC Planetarium Sky Theatre: Early Planetarium Show
 DESCRIPTION:Category: Arts & Culture\nNote: Cash and card accepted at door\
  nAddress: 26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath li
@@ -79,9 +155,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e02aa101489f47a@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260122T200000
-DTEND:20260122T210000
+DTSTAMP:20260123T102120Z
+DTSTART:20260129T200000
+DTEND:20260129T210000
 SUMMARY:MHCC Planetarium Sky Theatre: Late Planetarium Show
 DESCRIPTION:Category: Arts & Culture\nNote: Cash and card accepted at door\
  nAddress: 26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath li
@@ -108,9 +184,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f7bf9869ba2e83a@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260121T120000
-DTEND:20260121T130000
+DTSTAMP:20260123T102120Z
+DTSTART:20260128T120000
+DTEND:20260128T130000
 SUMMARY:The Old Church Concert Hall: Lunchtime Concert Series
 DESCRIPTION:Category: Arts & Culture\nCost: FREE lunchtime concerts\nInfo: 
  Historic 1882 venue\, fully wheelchair accessible\nAddress: 1422 SW 11th A
@@ -130,9 +206,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0379c9729163580c@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260118T160000
-DTEND:20260118T170000
+DTSTAMP:20260123T102120Z
+DTSTART:20260125T160000
+DTEND:20260125T170000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
  s
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Multiple Sundays th
@@ -153,20 +229,24 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:904f46f7f1ae22e0@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260123T102120Z
 DTSTART:20260123T170000
 DTEND:20260123T190000
 SUMMARY:Turn! Turn! Turn!: Comedy Open Mic
-DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
- ingsworth St\, Portland\, OR\nPhone: 503-284-6019\nWebsite: https://turntu
- rnturnpdx.com/
+DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: Happy hour c
+ omedy open mic hosted by Logan Loughmiller. Low-pressure environment for p
+ erformers and audience. Women-owned community venue since 2014.\nAddress: 
+ 8 NE Killingsworth St\, Portland\, OR\nPhone: 503-284-6019\nWebsite: https
+ ://turnturnturnpdx.com/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE events</p><p><strong>Address:</strong> 8 NE Killi
- ngsworth St\, Portland\, OR</p><p><strong>Phone:</strong> <a href="tel:503
- -284-6019">503-284-6019</a></p><p><strong>Website:</strong> <a href="https
- ://turnturnturnpdx.com/">https://turnturnturnpdx.com/</a></p></BODY></HTML
- >
+ rong>Cost:</strong> FREE events</p><p>Happy hour comedy open mic hosted by
+  Logan Loughmiller. Low-pressure environment for performers and audience. 
+ Women-owned community venue since 2014.</p><p><strong>Address:</strong> 8 
+ NE Killingsworth St\, Portland\, OR</p><p><strong>Phone:</strong> <a href=
+ "tel:503-284-6019">503-284-6019</a></p><p><strong>Website:</strong> <a hre
+ f="https://turnturnturnpdx.com/">https://turnturnturnpdx.com/</a></p></BOD
+ Y></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:8 NE Killingsworth St\, Portland\, OR
 URL:https://turnturnturnpdx.com/
@@ -176,20 +256,24 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d8fc3329cc6894ad@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260118T123000
-DTEND:20260118T153000
+DTSTAMP:20260123T102120Z
+DTSTART:20260125T123000
+DTEND:20260125T153000
 SUMMARY:Turn! Turn! Turn!: Drawing Club
-DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
- ingsworth St\, Portland\, OR\nPhone: 503-284-6019\nWebsite: https://turntu
- rnturnpdx.com/
+DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: Casual drawi
+ ng get-together - bring your own supplies or just hang out. All skill leve
+ ls welcome. Women-owned community arts venue doubling as bar\, record stor
+ e\, and vintage shop.\nAddress: 8 NE Killingsworth St\, Portland\, OR\nPho
+ ne: 503-284-6019\nWebsite: https://turnturnturnpdx.com/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE events</p><p><strong>Address:</strong> 8 NE Killi
- ngsworth St\, Portland\, OR</p><p><strong>Phone:</strong> <a href="tel:503
- -284-6019">503-284-6019</a></p><p><strong>Website:</strong> <a href="https
- ://turnturnturnpdx.com/">https://turnturnturnpdx.com/</a></p></BODY></HTML
- >
+ rong>Cost:</strong> FREE events</p><p>Casual drawing get-together - bring 
+ your own supplies or just hang out. All skill levels welcome. Women-owned 
+ community arts venue doubling as bar\, record store\, and vintage shop.</p
+ ><p><strong>Address:</strong> 8 NE Killingsworth St\, Portland\, OR</p><p>
+ <strong>Phone:</strong> <a href="tel:503-284-6019">503-284-6019</a></p><p>
+ <strong>Website:</strong> <a href="https://turnturnturnpdx.com/">https://t
+ urnturnturnpdx.com/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:8 NE Killingsworth St\, Portland\, OR
 URL:https://turnturnturnpdx.com/
@@ -199,20 +283,24 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d9e5489d6044ef66@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260119T200000
-DTEND:20260119T230000
+DTSTAMP:20260123T102120Z
+DTSTART:20260126T200000
+DTEND:20260126T230000
 SUMMARY:Turn! Turn! Turn!: Karaoke Night
-DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nAddress: 8 NE Kill
- ingsworth St\, Portland\, OR\nPhone: 503-284-6019\nWebsite: https://turntu
- rnturnpdx.com/
+DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: K-Tel and La
+ rry-okee supportive karaoke night. Low-pressure\, encouraging atmosphere f
+ or singers of all abilities. 21+ after 8pm. Cash only at door\, all paymen
+ ts at bar.\nAddress: 8 NE Killingsworth St\, Portland\, OR\nPhone: 503-284
+ -6019\nWebsite: https://turnturnturnpdx.com/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE events</p><p><strong>Address:</strong> 8 NE Killi
- ngsworth St\, Portland\, OR</p><p><strong>Phone:</strong> <a href="tel:503
- -284-6019">503-284-6019</a></p><p><strong>Website:</strong> <a href="https
- ://turnturnturnpdx.com/">https://turnturnturnpdx.com/</a></p></BODY></HTML
- >
+ rong>Cost:</strong> FREE events</p><p>K-Tel and Larry-okee supportive kara
+ oke night. Low-pressure\, encouraging atmosphere for singers of all abilit
+ ies. 21+ after 8pm. Cash only at door\, all payments at bar.</p><p><strong
+ >Address:</strong> 8 NE Killingsworth St\, Portland\, OR</p><p><strong>Pho
+ ne:</strong> <a href="tel:503-284-6019">503-284-6019</a></p><p><strong>Web
+ site:</strong> <a href="https://turnturnturnpdx.com/">https://turnturnturn
+ pdx.com/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:8 NE Killingsworth St\, Portland\, OR
 URL:https://turnturnturnpdx.com/
@@ -222,9 +310,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:361be0cc45ef3e68@portlandresources.org
-DTSTAMP:20260117T043449Z
-DTSTART:20260121T180000
-DTEND:20260121T193000
+DTSTAMP:20260123T102120Z
+DTSTART:20260128T180000
+DTEND:20260128T193000
 SUMMARY:Tigard Public Library: ESL Conversation Classes
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nNote: Fine-free library s
  ystem\nInfo: All levels welcome\, no registration required\nAddress: 13500
@@ -251,8 +339,89 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:081b91eb97012860@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260128T200000
+DTEND:20260128T210000
+SUMMARY:Tualatin Public Library: Adult Book Discussion
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Monthly book club. 
+ Check library for current book selection.\nAddress: 18878 SW Martinazzi Av
+ e\, Tualatin\, OR 97062\nPhone: 503-691-3074\nWebsite: https://www.tualati
+ noregon.gov/library\nDetails: Active programming including music series\, 
+ teen programs\, and Makerspace. Part of WCCLS.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
+ rong>Cost:</strong> FREE</p><p>Monthly book club. Check library for curren
+ t book selection.</p><p><strong>Address:</strong> 18878 SW Martinazzi Ave\
+ , Tualatin\, OR 97062</p><p><strong>Phone:</strong> <a href="tel:503-691-3
+ 074">503-691-3074</a></p><p><strong>Website:</strong> <a href="https://www
+ .tualatinoregon.gov/library">https://www.tualatinoregon.gov/library</a></p
+ ><p><strong>Details:</strong> Active programming including music series\, 
+ teen programs\, and Makerspace. Part of WCCLS.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:18878 SW Martinazzi Ave\, Tualatin\, OR 97062
+URL:https://www.tualatinoregon.gov/library
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=1
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:33a5a02eaf722ff1@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260128T160000
+DTEND:20260128T170000
+SUMMARY:Tualatin Public Library: Teen Book Chat (grades 8-12)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Free copy of book f
+ or participants.\nAddress: 18878 SW Martinazzi Ave\, Tualatin\, OR 97062\n
+ Phone: 503-691-3074\nWebsite: https://www.tualatinoregon.gov/library\nDeta
+ ils: Active programming including music series\, teen programs\, and Maker
+ space. Part of WCCLS.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
+ rong>Cost:</strong> FREE</p><p>Free copy of book for participants.</p><p><
+ strong>Address:</strong> 18878 SW Martinazzi Ave\, Tualatin\, OR 97062</p>
+ <p><strong>Phone:</strong> <a href="tel:503-691-3074">503-691-3074</a></p>
+ <p><strong>Website:</strong> <a href="https://www.tualatinoregon.gov/libra
+ ry">https://www.tualatinoregon.gov/library</a></p><p><strong>Details:</str
+ ong> Active programming including music series\, teen programs\, and Maker
+ space. Part of WCCLS.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:18878 SW Martinazzi Ave\, Tualatin\, OR 97062
+URL:https://www.tualatinoregon.gov/library
+RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=2
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1237b588e2dc3b12@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260125T140000
+DTEND:20260125T150000
+SUMMARY:Tualatin Public Library: Summer Sunday Music Series
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Live music by the f
+ ireplace hearth. Summer season only.\nAddress: 18878 SW Martinazzi Ave\, T
+ ualatin\, OR 97062\nPhone: 503-691-3074\nWebsite: https://www.tualatinoreg
+ on.gov/library\nDetails: Active programming including music series\, teen 
+ programs\, and Makerspace. Part of WCCLS.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
+ rong>Cost:</strong> FREE</p><p>Live music by the fireplace hearth. Summer 
+ season only.</p><p><strong>Address:</strong> 18878 SW Martinazzi Ave\, Tua
+ latin\, OR 97062</p><p><strong>Phone:</strong> <a href="tel:503-691-3074">
+ 503-691-3074</a></p><p><strong>Website:</strong> <a href="https://www.tual
+ atinoregon.gov/library">https://www.tualatinoregon.gov/library</a></p><p><
+ strong>Details:</strong> Active programming including music series\, teen 
+ programs\, and Makerspace. Part of WCCLS.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:18878 SW Martinazzi Ave\, Tualatin\, OR 97062
+URL:https://www.tualatinoregon.gov/library
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:91fcae740514833e@portlandresources.org
-DTSTAMP:20260117T043449Z
+DTSTAMP:20260123T102120Z
 DTSTART;VALUE=DATE:20251120
 DTEND;VALUE=DATE:20251124
 SUMMARY:PCC Theatre: Much Ado About Nothing
@@ -275,6 +444,165 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:12000 SW 49th Ave\, Portland\, OR 97219
 URL:https://www.pcc.edu/theatre/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:47623ca66dc7ccac@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260125T140000
+DTEND:20260125T160000
+SUMMARY:SCRAP PDX Creative Reuse: Sunday Crafternoon
+DESCRIPTION:Category: Arts & Culture\nCost: FREE-$7 depending on event\nInf
+ o: Guided themed craft projects. Materials provided. All skill levels welc
+ ome.\nAddress: 619 SE 6th Ave\, Portland\, OR 97214\nPhone: 503-294-0769\n
+ Website: https://portland.scrapcreativereuse.org/\nDetails: Nonprofit crea
+ tive reuse center with free/low-cost craft events
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
+ rong>Cost:</strong> FREE-$7 depending on event</p><p>Guided themed craft p
+ rojects. Materials provided. All skill levels welcome.</p><p><strong>Addre
+ ss:</strong> 619 SE 6th Ave\, Portland\, OR 97214</p><p><strong>Phone:</st
+ rong> <a href="tel:503-294-0769">503-294-0769</a></p><p><strong>Website:</
+ strong> <a href="https://portland.scrapcreativereuse.org/">https://portlan
+ d.scrapcreativereuse.org/</a></p><p><strong>Details:</strong> Nonprofit cr
+ eative reuse center with free/low-cost craft events</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:619 SE 6th Ave\, Portland\, OR 97214
+URL:https://portland.scrapcreativereuse.org/
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:69fa01134c907707@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260123T163000
+DTEND:20260123T190000
+SUMMARY:SCRAP PDX Creative Reuse: Free Teacher Craft Night
+DESCRIPTION:Category: Arts & Culture\nCost: FREE-$7 depending on event\nInf
+ o: Free craft time for teachers\, tutors\, and educators. Relax and create
+ .\nAddress: 619 SE 6th Ave\, Portland\, OR 97214\nPhone: 503-294-0769\nWeb
+ site: https://portland.scrapcreativereuse.org/\nDetails: Nonprofit creativ
+ e reuse center with free/low-cost craft events
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
+ rong>Cost:</strong> FREE-$7 depending on event</p><p>Free craft time for t
+ eachers\, tutors\, and educators. Relax and create.</p><p><strong>Address:
+ </strong> 619 SE 6th Ave\, Portland\, OR 97214</p><p><strong>Phone:</stron
+ g> <a href="tel:503-294-0769">503-294-0769</a></p><p><strong>Website:</str
+ ong> <a href="https://portland.scrapcreativereuse.org/">https://portland.s
+ crapcreativereuse.org/</a></p><p><strong>Details:</strong> Nonprofit creat
+ ive reuse center with free/low-cost craft events</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:619 SE 6th Ave\, Portland\, OR 97214
+URL:https://portland.scrapcreativereuse.org/
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:018c2dbc4c1b6d6c@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260125T170000
+DTEND:20260125T190000
+SUMMARY:Independent Publishing Resource Center (IPRC): Collage Night
+DESCRIPTION:Category: Arts & Culture\nCost: Collage Night $5 suggested dona
+ tion\; workshops vary\; zine library FREE\nInfo: Free monthly collage sess
+ ion. All materials provided. Great for beginners.\nAddress: 318 SE Main St
+ reet\, Suites 155 & 145\, Portland\, OR 97214\nWebsite: https://www.iprc.o
+ rg/\nDetails: Zine and print resource center with free collage nights and 
+ workshops
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
+ rong>Cost:</strong> Collage Night $5 suggested donation\; workshops vary\;
+  zine library FREE</p><p>Free monthly collage session. All materials provi
+ ded. Great for beginners.</p><p><strong>Address:</strong> 318 SE Main Stre
+ et\, Suites 155 &amp\; 145\, Portland\, OR 97214</p><p><strong>Website:</s
+ trong> <a href="https://www.iprc.org/">https://www.iprc.org/</a></p><p><st
+ rong>Details:</strong> Zine and print resource center with free collage ni
+ ghts and workshops</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:318 SE Main Street\, Suites 155 & 145\, Portland\, OR 97214
+URL:https://www.iprc.org/
+RRULE:FREQ=MONTHLY;BYDAY=SU;BYSETPOS=1
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a86510240984ddfd@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260129T190000
+DTEND:20260129T210000
+SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Guilder Cafe
+DESCRIPTION:Category: Arts & Culture\nCost: FREE ($5 suggested donation)\nI
+ nfo: Intimate cafe setting. Poets get 3 minutes. First-come\, first-served
+  signup.\nAddress: Various - Guilder Cafe and Literary Arts\, Portland\nWe
+ bsite: https://slamlandia.com/\nDetails: Supportive poetry open mic with b
+ oth intimate and larger venue options
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
+ rong>Cost:</strong> FREE ($5 suggested donation)</p><p>Intimate cafe setti
+ ng. Poets get 3 minutes. First-come\, first-served signup.</p><p><strong>A
+ ddress:</strong> Various - Guilder Cafe and Literary Arts\, Portland</p><p
+ ><strong>Website:</strong> <a href="https://slamlandia.com/">https://slaml
+ andia.com/</a></p><p><strong>Details:</strong> Supportive poetry open mic 
+ with both intimate and larger venue options</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Various - Guilder Cafe and Literary Arts\, Portland
+URL:https://slamlandia.com/
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=1
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:74df6f3fc548fb54@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260129T190000
+DTEND:20260129T210000
+SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Literary Arts
+DESCRIPTION:Category: Arts & Culture\nCost: FREE ($5 suggested donation)\nI
+ nfo: Larger venue downtown. Features slam competition and featured readers
+ .\nAddress: Various - Guilder Cafe and Literary Arts\, Portland\nWebsite: 
+ https://slamlandia.com/\nDetails: Supportive poetry open mic with both int
+ imate and larger venue options
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
+ rong>Cost:</strong> FREE ($5 suggested donation)</p><p>Larger venue downto
+ wn. Features slam competition and featured readers.</p><p><strong>Address:
+ </strong> Various - Guilder Cafe and Literary Arts\, Portland</p><p><stron
+ g>Website:</strong> <a href="https://slamlandia.com/">https://slamlandia.c
+ om/</a></p><p><strong>Details:</strong> Supportive poetry open mic with bo
+ th intimate and larger venue options</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Various - Guilder Cafe and Literary Arts\, Portland
+URL:https://slamlandia.com/
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=3
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4f5ddbd49f0a9039@portlandresources.org
+DTSTAMP:20260123T102120Z
+DTSTART:20260125T160000
+DTEND:20260125T180000
+SUMMARY:The Humble Poets' Open Mic
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: The Stacks Coffe
+ ehouse\, 1831 N. Killingsworth\, Portland\nWebsite: https://www.thestacksc
+ offeehouse.com/events\nDetails: Very welcoming poetry open mic in cozy cof
+ feehouse - great for first-timers
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
+ rong>Cost:</strong> FREE</p><p><strong>Address:</strong> The Stacks Coffee
+ house\, 1831 N. Killingsworth\, Portland</p><p><strong>Website:</strong> <
+ a href="https://www.thestackscoffeehouse.com/events">https://www.thestacks
+ coffeehouse.com/events</a></p><p><strong>Details:</strong> Very welcoming 
+ poetry open mic in cozy coffeehouse - great for first-timers</p></BODY></H
+ TML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:The Stacks Coffeehouse\, 1831 N. Killingsworth\, Portland
+URL:https://www.thestackscoffeehouse.com/events
+RRULE:FREQ=WEEKLY;BYDAY=SU
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
