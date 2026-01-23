@@ -1589,16 +1589,24 @@
             const result = { ordinals: [], day: null, startTime: null, endTime: null, weekly: false };
             const lower = schedule.toLowerCase();
 
-            // Find day of week
+            // Find day of week (including abbreviations)
             const days = { 'sunday': 0, 'monday': 1, 'tuesday': 2, 'wednesday': 3,
                           'thursday': 4, 'friday': 5, 'saturday': 6,
                           'sundays': 0, 'mondays': 1, 'tuesdays': 2, 'wednesdays': 3,
-                          'thursdays': 4, 'fridays': 5, 'saturdays': 6 };
+                          'thursdays': 4, 'fridays': 5, 'saturdays': 6,
+                          'sun': 0, 'mon': 1, 'tue': 2, 'wed': 3, 'thu': 4, 'fri': 5, 'sat': 6 };
             for (const [name, num] of Object.entries(days)) {
-                if (lower.includes(name)) {
+                // Use word boundary to avoid matching "sun" in "sundays" before "sundays"
+                const regex = new RegExp('\\b' + name + '\\b', 'i');
+                if (regex.test(lower)) {
                     result.day = num;
                     break;
                 }
+            }
+
+            // Handle "Daily" schedules - return special marker
+            if (lower.includes('daily')) {
+                result.daily = true;
             }
 
             // Find ordinals (1st, 2nd, 3rd, 4th)
@@ -1607,8 +1615,12 @@
                 result.ordinals = ordinalMatch.map(o => parseInt(o));
             }
 
-            // Check for "every" (weekly)
+            // Check for "every" or bare day name (weekly)
+            // "Every Monday" or just "Mondays 9-11am" both mean weekly
             if (lower.includes('every')) {
+                result.weekly = true;
+            } else if (result.day !== null && result.ordinals.length === 0) {
+                // Has a day but no ordinals like "1st" - treat as weekly
                 result.weekly = true;
             }
 
@@ -1643,17 +1655,31 @@
         // Get dates for a schedule in a given month
         function getScheduleDates(schedule, year, month) {
             const parsed = parseSchedule(schedule);
-            // Require both a day AND a start time to generate calendar events
-            if (!parsed || parsed.day === null || !parsed.startTime) return [];
+            // Require a start time to generate calendar events
+            if (!parsed || !parsed.startTime) return [];
+            // Require either a day of week OR daily flag
+            if (parsed.day === null && !parsed.daily) return [];
 
             const dates = [];
             const firstDay = new Date(year, month, 1);
             const lastDay = new Date(year, month + 1, 0);
 
+            // Handle daily schedules
+            if (parsed.daily) {
+                let date = new Date(firstDay);
+                while (date <= lastDay) {
+                    dates.push({
+                        date: new Date(date),
+                        startTime: parsed.startTime,
+                        endTime: parsed.endTime
+                    });
+                    date.setDate(date.getDate() + 1);
+                }
+                return dates;
+            }
+
             // Find all occurrences of the day in this month
             let date = new Date(firstDay);
-            let weekOfMonth = 0;
-            let lastWeekNum = -1;
 
             while (date <= lastDay) {
                 if (date.getDay() === parsed.day) {
