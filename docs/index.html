@@ -2352,10 +2352,17 @@
         }
 
         // Print dialog functions
+        const printMinDate = new Date(2026, 0, 1); // January 1, 2026
+
         function openPrintDialog() {
             const overlay = document.getElementById('print-dialog-overlay');
             const startInput = document.getElementById('print-start-date');
             const endInput = document.getElementById('print-end-date');
+
+            // Set minimum date to January 1, 2026
+            const minDateStr = '2026-01-01';
+            startInput.min = minDateStr;
+            endInput.min = minDateStr;
 
             // Default to current month's first and last day
             const year = currentMonth.getFullYear();
@@ -2380,6 +2387,11 @@
 
             if (isNaN(startDate) || isNaN(endDate)) {
                 alert('Please select valid dates');
+                return;
+            }
+
+            if (startDate < printMinDate) {
+                alert('Start date cannot be before January 1, 2026');
                 return;
             }
 
