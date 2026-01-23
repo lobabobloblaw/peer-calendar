@@ -331,8 +331,10 @@ Calendars are hosted via GitHub Pages for public subscription access.
 - Replace `apple` with `google` or `outlook` for platform-specific versions
 
 **Landing page features:**
+- Title: "2026 Peer Support Calendar for the Multnomah Tri-County Region"
+- Contact: alex.voigt@folktime.org
 - Responsive two-column layout on desktop (768px+), single-column on mobile
-- Platform selector (Apple/Google/Outlook) with subscribe buttons
+- Platform selector (Apple/Google/Outlook) with inline "Subscribe:" label
 - Inline calendar preview with three view tabs:
   - **Calendar**: Monthly grid view with events on their dates
   - **List**: Chronological list of events for the month
@@ -346,7 +348,10 @@ Calendars are hosted via GitHub Pages for public subscription access.
   - Day/light: Dark text with subtle light shadow for depth
   - Body class `daytime` toggles based on time of day from weather API
 - Updates section for announcing new content
-- Print view button for calendar output
+- Print functionality with date range selection dialog:
+  - Users can select start/end dates (minimum: January 1, 2026)
+  - Disclaimer about event accuracy included in print output
+  - Compact layout optimized for paper
 
 **Publishing workflow:**
 ```bash
@@ -360,12 +365,16 @@ git push
 ```
 
 The `docs/` folder contains:
-- `index.html` - Landing page with subscription links and calendar preview (~2500 lines)
+- `index.html` - Landing page with subscription links and calendar preview (~3500 lines)
   - Vanta.js for animated cloud background
   - Open-Meteo API for weather-reactive theming
-  - Custom schedule parsing in JavaScript (parseSchedule function around line 1586)
+  - Key JavaScript functions:
+    - `parseSchedule()` - Parses schedule strings into day/time components
+    - `isMonthInSeasonalRange()` - Filters events by season keywords and month ranges
+    - `generateMonthEvents()` - Creates event list for calendar display
+    - `printCalendar()` - Generates print-optimized output with date range
   - Event modal display system
-  - Print functionality
+  - Print dialog with date range selection
 - `apple/`, `google/`, `outlook/` - Platform-specific ICS files
 - `events.json` - JSON feed for programmatic access and web calendar preview
 - `folktime.png`, `2026-calendar-2.png` - Logo and header images
@@ -416,6 +425,29 @@ Use `schedule_start_date` to prevent a recurring event from appearing until a sp
   schedule_start_date: 2026-02-01  # Won't appear in calendars until February
 ```
 This is useful when a program is on hiatus or hasn't started yet. The field is respected by both the ICS calendar generation and the web calendar preview.
+
+**One-time events vs recurring events:**
+Entries with a `dates` field (e.g., "July 18-19, 2026") are treated as one-time events:
+- They appear ONLY in the "Seasonal Events" tab
+- They do NOT generate recurring calendar entries
+- Use `dates` for festivals, fairs, and specific-date events
+
+```yaml
+- id: portland-pride
+  name: Portland Pride
+  dates: "July 18-19, 2026"  # One-time event - won't show as recurring
+  schedule: "Sat noon-8pm, Sun 11:30am-6pm"  # Schedule is for display only
+```
+
+**Seasonal filtering:**
+The web calendar automatically filters events based on seasonal keywords in schedule/notes:
+- `summer` → Only shows June-August
+- `winter` → Only shows December-February
+- `spring` → Only shows March-May
+- `fall`/`autumn` → Only shows September-November
+- Month ranges like "June-August" or "May-October" are also recognized
+
+Example: An entry with notes "Free outdoor summer concert series" will only appear in summer months.
 
 ## Ongoing Work
 
