@@ -2023,7 +2023,8 @@
                     for (const program of entry.programs) {
                         if (program.schedule) {
                             // Check if this month is within the program's seasonal range
-                            const seasonalText = program.notes || program.schedule || '';
+                            // Always check schedule (where month ranges are defined) plus notes
+                            const seasonalText = (program.schedule || '') + ' ' + (program.notes || '');
                             if (!isMonthInSeasonalRange(seasonalText, month)) continue;
 
                             const dates = getScheduleDates(program.schedule, year, month);
@@ -2061,7 +2062,8 @@
                 // Handle direct schedule on entry
                 if (entry.schedule && !entry.programs?.length) {
                     // Check if this month is within the entry's seasonal range
-                    const seasonalText = entry.notes || entry.schedule || '';
+                    // Always check schedule (where month ranges are defined) plus notes
+                    const seasonalText = (entry.schedule || '') + ' ' + (entry.notes || '');
                     if (!isMonthInSeasonalRange(seasonalText, month)) continue;
 
                     const dates = getScheduleDates(entry.schedule, year, month);
