@@ -1612,18 +1612,25 @@
                 result.weekly = true;
             }
 
-            // Parse time
-            const timeMatch = schedule.match(/(\d{1,2})(?::(\d{2}))?\s*-\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm)?/i);
+            // Parse time - handles formats like "10am-7pm", "2-3:30pm", "10:00am-7:00pm"
+            const timeMatch = schedule.match(/(\d{1,2})(?::(\d{2}))?\s*(am|pm)?\s*-\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm)?/i);
             if (timeMatch) {
                 let startHour = parseInt(timeMatch[1]);
                 const startMin = timeMatch[2] ? parseInt(timeMatch[2]) : 0;
-                let endHour = parseInt(timeMatch[3]);
-                const endMin = timeMatch[4] ? parseInt(timeMatch[4]) : 0;
-                const period = timeMatch[5]?.toLowerCase();
+                const startPeriod = timeMatch[3]?.toLowerCase();
+                let endHour = parseInt(timeMatch[4]);
+                const endMin = timeMatch[5] ? parseInt(timeMatch[5]) : 0;
+                const endPeriod = timeMatch[6]?.toLowerCase();
 
-                if (period === 'pm') {
-                    if (startHour < 12) startHour += 12;
-                    if (endHour < 12) endHour += 12;
+                // Apply am/pm - if only end has period, infer start period
+                if (startPeriod === 'pm' && startHour < 12) startHour += 12;
+                if (startPeriod === 'am' && startHour === 12) startHour = 0;
+                if (endPeriod === 'pm' && endHour < 12) endHour += 12;
+                if (endPeriod === 'am' && endHour === 12) endHour = 0;
+
+                // If no start period but end is pm, and start hour is small, assume am
+                if (!startPeriod && endPeriod === 'pm' && startHour <= 12 && startHour < endHour - 12) {
+                    // e.g., "10-7pm" means 10am-7pm
                 }
 
                 result.startTime = `${startHour}:${startMin.toString().padStart(2, '0')}`;
