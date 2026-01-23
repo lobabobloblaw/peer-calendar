@@ -1651,16 +1651,24 @@
                 const endMin = timeMatch[5] ? parseInt(timeMatch[5]) : 0;
                 const endPeriod = timeMatch[6]?.toLowerCase();
 
-                // Apply am/pm - if only end has period, infer start period
+                // Infer start period when only end has one (must do BEFORE converting end)
+                // Compare raw 12-hour values to determine if start should be same period or AM
+                const rawEndHour = parseInt(timeMatch[4]);
+                if (!startPeriod && endPeriod) {
+                    // "2-10pm" → both PM (2pm-10pm) because 2 < 10
+                    // "10-7pm" → AM to PM (10am-7pm) because 10 > 7
+                    if (startHour <= rawEndHour && endPeriod === 'pm' && startHour < 12) {
+                        // Same period: e.g., "2-10pm" means 2pm-10pm
+                        startHour += 12;
+                    }
+                    // else: different periods, start stays as AM (e.g., "10-7pm" = 10am-7pm)
+                }
+
+                // Apply am/pm conversion for explicit periods
                 if (startPeriod === 'pm' && startHour < 12) startHour += 12;
                 if (startPeriod === 'am' && startHour === 12) startHour = 0;
                 if (endPeriod === 'pm' && endHour < 12) endHour += 12;
                 if (endPeriod === 'am' && endHour === 12) endHour = 0;
-
-                // If no start period but end is pm, and start hour is small, assume am
-                if (!startPeriod && endPeriod === 'pm' && startHour <= 12 && startHour < endHour - 12) {
-                    // e.g., "10-7pm" means 10am-7pm
-                }
 
                 result.startTime = `${startHour}:${startMin.toString().padStart(2, '0')}`;
                 result.endTime = `${endHour}:${endMin.toString().padStart(2, '0')}`;

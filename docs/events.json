@@ -1266,7 +1266,7 @@
     },
     {
       "id": "4d-recovery",
-      "title": "4D Recovery",
+      "title": "4D Recovery (Ages 14-35)",
       "category": "peer_support",
       "categoryName": "Peer Support",
       "color": "#7B68EE",
@@ -1278,14 +1278,14 @@
       },
       "programs": [
         {
-          "name": "Drop-In Center",
+          "name": "Drop-In Center (Ages 14-35)",
           "schedule": "Daily 2-10pm",
-          "notes": "Welcoming space with pool table, video games, TV, and peer connection. Come hang out, no pressure."
+          "notes": "Welcoming space for young adults with pool table, video games, TV, and peer connection. Come hang out, no pressure."
         },
         {
           "name": "Recovery Support Meetings",
           "schedule": "Various weekly meetings",
-          "notes": "12-step, dharma, yoga, and social recovery approaches available. Check website for current schedule."
+          "notes": "12-step, dharma, yoga, and social recovery approaches available. For ages 14-35. Check website for current schedule."
         }
       ],
       "dates": null,
@@ -1302,8 +1302,8 @@
         "new_to_area",
         "indoor"
       ],
-      "notes": "Youth-focused (14-35) recovery community with peer mentors",
-      "practical_tips": "Peer-led recovery community for young people ages 14-35. Drop-in centers with games, meetings, and social events. Certified peer mentors with lived experience. Accepts Medicaid/OHP. Also has Hillsboro location."
+      "notes": "Young adult recovery community (ages 14-35) with peer mentors",
+      "practical_tips": "Peer-led recovery community specifically for young people ages 14-35. Drop-in centers with games, meetings, and social events. Certified peer mentors with lived experience. Accepts Medicaid/OHP. Multiple locations in Portland metro area."
     },
     {
       "id": "peergalaxy",
