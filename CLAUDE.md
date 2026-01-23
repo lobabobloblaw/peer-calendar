@@ -40,7 +40,6 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 - `scripts/audit_complete.py` - Mark entries as audited, auto-updates dates and logs
 - `scripts/deduplicate_entries.py` - Merge duplicate entries in sources.yaml
 - `scripts/add_type_fields.py` - Migration script for adding location_type/resource_type fields
-- `scripts/add_enrichment_fields.py` - Migration script for adding enrichment fields
 - `scripts/requirements.txt` - Python dependencies (pyyaml, python-dateutil)
 - `scripts/venv/` - Virtual environment
 

@@ -278,8 +278,13 @@
                 margin-top: 10px;
             }
 
-            .platform-tabs {
+            .subscribe-row {
+                gap: 8px;
                 margin-bottom: 8px;
+            }
+
+            .subscribe-label {
+                font-size: 0.9em;
             }
 
             .platform-tab {
@@ -337,11 +342,25 @@
             margin: 0 0 12px 0;
         }
 
+        /* Subscribe row - label + platform tabs inline */
+        .subscribe-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+
+        .subscribe-label {
+            font-weight: 600;
+            font-size: 0.95em;
+            white-space: nowrap;
+        }
+
         /* Platform tabs in calendar section */
         .calendar-section .platform-tabs {
             display: flex;
             gap: 6px;
-            margin-bottom: 12px;
         }
 
         .platform-tab {
@@ -1142,6 +1161,141 @@
             background: var(--bg-card-hover);
         }
 
+        /* Print dialog */
+        .print-dialog-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .print-dialog-overlay.active {
+            display: flex;
+        }
+
+        .print-dialog {
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .print-dialog-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .print-dialog-header h3 {
+            margin: 0;
+            font-size: 1.1em;
+            color: var(--text-primary);
+        }
+
+        .print-dialog-close {
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            color: var(--text-muted);
+            padding: 0;
+            line-height: 1;
+        }
+
+        .print-dialog-close:hover {
+            color: var(--text-primary);
+        }
+
+        .print-dialog-body {
+            padding: 16px;
+        }
+
+        .print-dialog-row {
+            margin-bottom: 16px;
+        }
+
+        .print-dialog-row label {
+            display: block;
+            font-size: 0.85em;
+            color: var(--text-secondary);
+            margin-bottom: 6px;
+        }
+
+        .print-dialog-row input[type="date"] {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 0.95em;
+            background: white;
+        }
+
+        .print-dialog-dates {
+            display: flex;
+            gap: 12px;
+        }
+
+        .print-dialog-dates .print-dialog-row {
+            flex: 1;
+        }
+
+        .print-dialog-disclaimer {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 6px;
+            padding: 10px 12px;
+            margin-bottom: 16px;
+            font-size: 0.85em;
+            color: #856404;
+        }
+
+        .print-dialog-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            padding-top: 8px;
+        }
+
+        .print-dialog-btn {
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 0.9em;
+            cursor: pointer;
+        }
+
+        .print-dialog-btn.cancel {
+            background: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+        }
+
+        .print-dialog-btn.cancel:hover {
+            background: var(--bg-card-hover);
+        }
+
+        .print-dialog-btn.print {
+            background: #4169E1;
+            border: none;
+            color: white;
+        }
+
+        .print-dialog-btn.print:hover {
+            background: #3457b8;
+        }
+
         /* Print container - hidden on screen */
         .print-container {
             display: none;
@@ -1301,6 +1455,20 @@
                 print-color-adjust: exact !important;
             }
 
+            /* Disclaimer */
+            .print-disclaimer {
+                background: #fffbeb;
+                border: 1px solid #d4a000;
+                border-radius: 4px;
+                padding: 10px 12px;
+                margin: 12px 0 16px;
+                font-size: 9pt;
+                color: #6b5900;
+                text-align: center;
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+
             /* Footer */
             .print-footer {
                 margin-top: 20px;
@@ -1422,12 +1590,13 @@
         <div class="main-content">
             <div class="left-panel">
         <div class="calendar-section">
-            <p class="section-header">How to subscribe using your own calendar app:</p>
-
-            <div class="platform-tabs">
-                <button class="platform-tab active" data-platform="apple">Apple Calendar</button>
-                <button class="platform-tab" data-platform="google">Google Calendar</button>
-                <button class="platform-tab" data-platform="outlook">Outlook</button>
+            <div class="subscribe-row">
+                <span class="subscribe-label">Subscribe:</span>
+                <div class="platform-tabs">
+                    <button class="platform-tab active" data-platform="apple">Apple Calendar</button>
+                    <button class="platform-tab" data-platform="google">Google Calendar</button>
+                    <button class="platform-tab" data-platform="outlook">Outlook</button>
+                </div>
             </div>
 
             <div class="instructions" id="instructions-apple">
@@ -1471,7 +1640,7 @@
                 </div>
 
                 <div class="contact-section">
-                    Something wrong? <a href="mailto:lobabobloblaw@icloud.com">Let us know</a> · <span style="opacity: 0.7;">Maintained by Alex V</span>
+                    Suggestions or Issues? <a href="mailto:lobabobloblaw@icloud.com">Feel free to reach out!</a> · <span style="opacity: 0.7;">Maintained by Alex V</span>
                 </div>
 
                 <a href="https://www.folktime.org" target="_blank" rel="noopener" class="folktime-link desktop-only"><img src="folktime.png" alt="FolkTime" class="folktime-logo"></a>
@@ -1488,7 +1657,7 @@
                         <button class="view-tab" data-view="list">List</button>
                         <button class="view-tab desktop-only" data-view="seasonal">Seasonal Events</button>
                     </div>
-                    <button class="print-btn" onclick="printCalendar()" title="Print calendar">🖨️ Print</button>
+                    <button class="print-btn" onclick="openPrintDialog()" title="Print calendar">🖨️ Print</button>
                 </div>
                 <div class="list-view" id="list-view">
                     <div class="no-events">Loading events...</div>
@@ -1513,6 +1682,35 @@
 
         <a href="https://www.folktime.org" target="_blank" rel="noopener" class="folktime-link mobile-only"><img src="folktime.png" alt="FolkTime" class="folktime-logo"></a>
     </main>
+
+    <!-- Print dialog -->
+    <div class="print-dialog-overlay" id="print-dialog-overlay">
+        <div class="print-dialog">
+            <div class="print-dialog-header">
+                <h3>🖨️ Print Calendar</h3>
+                <button class="print-dialog-close" onclick="closePrintDialog()">&times;</button>
+            </div>
+            <div class="print-dialog-body">
+                <div class="print-dialog-disclaimer">
+                    ⚠️ Events are not always accurate and are subject to change. Please verify with the source organization when possible.
+                </div>
+                <div class="print-dialog-dates">
+                    <div class="print-dialog-row">
+                        <label for="print-start-date">Start Date</label>
+                        <input type="date" id="print-start-date">
+                    </div>
+                    <div class="print-dialog-row">
+                        <label for="print-end-date">End Date</label>
+                        <input type="date" id="print-end-date">
+                    </div>
+                </div>
+                <div class="print-dialog-actions">
+                    <button class="print-dialog-btn cancel" onclick="closePrintDialog()">Cancel</button>
+                    <button class="print-dialog-btn print" onclick="executePrint()">Print</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Print-specific container (hidden on screen, shown only during print) -->
     <div id="print-container" class="print-container"></div>
@@ -2151,12 +2349,72 @@
             });
         }
 
-        // Print calendar - generates a formatted print view
-        function printCalendar() {
-            const printContainer = document.getElementById('print-container');
+        // Print dialog functions
+        function openPrintDialog() {
+            const overlay = document.getElementById('print-dialog-overlay');
+            const startInput = document.getElementById('print-start-date');
+            const endInput = document.getElementById('print-end-date');
+
+            // Default to current month's first and last day
             const year = currentMonth.getFullYear();
             const month = currentMonth.getMonth();
-            const events = generateMonthEvents(year, month);
+            const firstDay = new Date(year, month, 1);
+            const lastDay = new Date(year, month + 1, 0);
+
+            // Format as YYYY-MM-DD for date inputs
+            startInput.value = firstDay.toISOString().split('T')[0];
+            endInput.value = lastDay.toISOString().split('T')[0];
+
+            overlay.classList.add('active');
+        }
+
+        function closePrintDialog() {
+            document.getElementById('print-dialog-overlay').classList.remove('active');
+        }
+
+        function executePrint() {
+            const startDate = new Date(document.getElementById('print-start-date').value + 'T00:00:00');
+            const endDate = new Date(document.getElementById('print-end-date').value + 'T23:59:59');
+
+            if (isNaN(startDate) || isNaN(endDate)) {
+                alert('Please select valid dates');
+                return;
+            }
+
+            if (startDate > endDate) {
+                alert('Start date must be before end date');
+                return;
+            }
+
+            closePrintDialog();
+            printCalendar(startDate, endDate);
+        }
+
+        // Close print dialog on overlay click
+        document.getElementById('print-dialog-overlay').addEventListener('click', function(e) {
+            if (e.target === this) closePrintDialog();
+        });
+
+        // Print calendar - generates a formatted print view
+        function printCalendar(startDate, endDate) {
+            const printContainer = document.getElementById('print-container');
+
+            // Collect events across all months in range
+            let allEvents = [];
+            const current = new Date(startDate.getFullYear(), startDate.getMonth(), 1);
+            const endMonth = new Date(endDate.getFullYear(), endDate.getMonth(), 1);
+
+            while (current <= endMonth) {
+                const monthEvents = generateMonthEvents(current.getFullYear(), current.getMonth());
+                allEvents = allEvents.concat(monthEvents);
+                current.setMonth(current.getMonth() + 1);
+            }
+
+            // Filter events to date range
+            const events = allEvents.filter(event => {
+                const eventDate = new Date(event.date);
+                return eventDate >= startDate && eventDate <= endDate;
+            });
 
             // Category colors for legend
             const categoryColors = {
@@ -2176,23 +2434,36 @@
                 grouped[key].push(event);
             }
 
+            // Sort dates chronologically
+            const sortedDates = Object.keys(grouped).sort((a, b) => new Date(a) - new Date(b));
+
             const today = new Date();
             const todayStr = today.toDateString();
-            const monthName = monthNames[month];
+
+            // Format date range for subtitle
+            const formatDateRange = (start, end) => {
+                const startStr = `${monthNames[start.getMonth()]} ${start.getDate()}, ${start.getFullYear()}`;
+                const endStr = `${monthNames[end.getMonth()]} ${end.getDate()}, ${end.getFullYear()}`;
+                return `${startStr} – ${endStr}`;
+            };
 
             // Build print HTML
             let html = `
                 <div class="print-header">
                     <h1>FolkTime Peer Support Calendar</h1>
-                    <p class="print-subtitle">${monthName} ${year} · Portland, Oregon</p>
+                    <p class="print-subtitle">${formatDateRange(startDate, endDate)} · Portland, Oregon</p>
+                </div>
+                <div class="print-disclaimer">
+                    ⚠️ Events are not always accurate and are subject to change. Please check with the source organization when possible for additional confirmation.
                 </div>
             `;
 
             if (events.length === 0) {
-                html += '<p style="text-align: center; color: #666;">No scheduled events this month</p>';
+                html += '<p style="text-align: center; color: #666;">No scheduled events in this date range</p>';
             } else {
                 // Render each day
-                for (const [dateStr, dayEvents] of Object.entries(grouped)) {
+                for (const dateStr of sortedDates) {
+                    const dayEvents = grouped[dateStr];
                     const date = new Date(dateStr);
                     const dayName = dayNames[date.getDay()];
                     const monthDay = `${monthNames[date.getMonth()]} ${date.getDate()}`;
