@@ -1586,46 +1586,57 @@
         function parseSchedule(schedule) {
             if (!schedule) return null;
 
-            const result = { ordinals: [], day: null, startTime: null, endTime: null, weekly: false };
+            const result = { ordinals: [], days: [], startTime: null, endTime: null, weekly: false };
             const lower = schedule.toLowerCase();
 
-            // Find day of week (including abbreviations)
-            const days = { 'sunday': 0, 'monday': 1, 'tuesday': 2, 'wednesday': 3,
+            // Day name mappings (including abbreviations)
+            const dayMap = { 'sunday': 0, 'monday': 1, 'tuesday': 2, 'wednesday': 3,
                           'thursday': 4, 'friday': 5, 'saturday': 6,
                           'sundays': 0, 'mondays': 1, 'tuesdays': 2, 'wednesdays': 3,
                           'thursdays': 4, 'fridays': 5, 'saturdays': 6,
                           'sun': 0, 'mon': 1, 'tue': 2, 'wed': 3, 'thu': 4, 'fri': 5, 'sat': 6 };
-            for (const [name, num] of Object.entries(days)) {
-                // Use word boundary to avoid matching "sun" in "sundays" before "sundays"
+
+            // Find all days of week mentioned (supports "Tue/Thu", "Tue & Thu", "Tuesday and Thursday")
+            const foundDays = new Set();
+            for (const [name, num] of Object.entries(dayMap)) {
                 const regex = new RegExp('\\b' + name + '\\b', 'i');
                 if (regex.test(lower)) {
-                    result.day = num;
-                    break;
+                    foundDays.add(num);
                 }
             }
+            result.days = Array.from(foundDays).sort((a, b) => a - b);
 
             // Handle "Daily" schedules - return special marker
             if (lower.includes('daily')) {
                 result.daily = true;
             }
 
-            // Find ordinals (1st, 2nd, 3rd, 4th)
+            // Find ordinals (1st, 2nd, 3rd, 4th, Last)
             const ordinalMatch = lower.match(/(\d+)(?:st|nd|rd|th)/g);
             if (ordinalMatch) {
                 result.ordinals = ordinalMatch.map(o => parseInt(o));
+            }
+            // Check for "Last" (e.g., "Last Sunday of each month")
+            if (/\blast\b/i.test(lower)) {
+                result.lastOfMonth = true;
             }
 
             // Check for "every" or bare day name (weekly)
             // "Every Monday" or just "Mondays 9-11am" both mean weekly
             if (lower.includes('every')) {
                 result.weekly = true;
-            } else if (result.day !== null && result.ordinals.length === 0) {
-                // Has a day but no ordinals like "1st" - treat as weekly
+            } else if (result.days.length > 0 && result.ordinals.length === 0 && !result.lastOfMonth) {
+                // Has days but no ordinals like "1st" and not "Last" - treat as weekly
                 result.weekly = true;
             }
 
-            // Parse time - handles formats like "10am-7pm", "2-3:30pm", "10:00am-7:00pm"
-            const timeMatch = schedule.match(/(\d{1,2})(?::(\d{2}))?\s*(am|pm)?\s*-\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm)?/i);
+            // Parse time - handles formats like "10am-7pm", "2-3:30pm", "10:00am-7:00pm", "noon-1pm"
+            // First, normalize noon/midnight to 12pm/12am
+            let normalizedSchedule = schedule
+                .replace(/\bnoon\b/gi, '12pm')
+                .replace(/\bmidnight\b/gi, '12am');
+
+            const timeMatch = normalizedSchedule.match(/(\d{1,2})(?::(\d{2}))?\s*(am|pm)?\s*-\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm)?/i);
             if (timeMatch) {
                 let startHour = parseInt(timeMatch[1]);
                 const startMin = timeMatch[2] ? parseInt(timeMatch[2]) : 0;
@@ -1647,6 +1658,22 @@
 
                 result.startTime = `${startHour}:${startMin.toString().padStart(2, '0')}`;
                 result.endTime = `${endHour}:${endMin.toString().padStart(2, '0')}`;
+            } else {
+                // Try matching single time without range (e.g., "10am", "6pm", "6:15pm")
+                const singleTimeMatch = normalizedSchedule.match(/\b(\d{1,2})(?::(\d{2}))?\s*(am|pm)\b/i);
+                if (singleTimeMatch) {
+                    let hour = parseInt(singleTimeMatch[1]);
+                    const min = singleTimeMatch[2] ? parseInt(singleTimeMatch[2]) : 0;
+                    const period = singleTimeMatch[3]?.toLowerCase();
+
+                    if (period === 'pm' && hour < 12) hour += 12;
+                    if (period === 'am' && hour === 12) hour = 0;
+
+                    result.startTime = `${hour}:${min.toString().padStart(2, '0')}`;
+                    // Assume 1 hour duration for single time
+                    const endHour = hour + 1;
+                    result.endTime = `${endHour}:${min.toString().padStart(2, '0')}`;
+                }
             }
 
             return result;
@@ -1657,8 +1684,8 @@
             const parsed = parseSchedule(schedule);
             // Require a start time to generate calendar events
             if (!parsed || !parsed.startTime) return [];
-            // Require either a day of week OR daily flag
-            if (parsed.day === null && !parsed.daily) return [];
+            // Require either days of week OR daily flag
+            if (parsed.days.length === 0 && !parsed.daily) return [];
 
             const dates = [];
             const firstDay = new Date(year, month, 1);
@@ -1678,11 +1705,35 @@
                 return dates;
             }
 
-            // Find all occurrences of the day in this month
+            // For "Last X of month", find the last occurrence of each day
+            if (parsed.lastOfMonth) {
+                for (const dayNum of parsed.days) {
+                    // Find last occurrence of this day in the month
+                    let lastOccurrence = null;
+                    let date = new Date(firstDay);
+                    while (date <= lastDay) {
+                        if (date.getDay() === dayNum) {
+                            lastOccurrence = new Date(date);
+                        }
+                        date.setDate(date.getDate() + 1);
+                    }
+                    if (lastOccurrence) {
+                        dates.push({
+                            date: lastOccurrence,
+                            startTime: parsed.startTime,
+                            endTime: parsed.endTime
+                        });
+                    }
+                }
+                return dates;
+            }
+
+            // Find all occurrences of the specified days in this month
             let date = new Date(firstDay);
 
             while (date <= lastDay) {
-                if (date.getDay() === parsed.day) {
+                // Check if this day of week is in our list
+                if (parsed.days.includes(date.getDay())) {
                     const weekNum = Math.floor((date.getDate() - 1) / 7) + 1;
 
                     if (parsed.weekly || parsed.ordinals.includes(weekNum)) {
