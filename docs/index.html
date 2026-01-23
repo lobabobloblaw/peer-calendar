@@ -100,12 +100,13 @@
             order: 2;
             color: white;
             text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 0 8px rgba(0,0,0,0.3);
-            transition: filter 0.5s ease;
+            transition: color 0.5s ease, text-shadow 0.5s ease;
         }
 
-        /* Invert text colors during daytime for readability on light backgrounds */
+        /* Swap to dark text with light shadow during daytime */
         body.daytime .left-panel {
-            filter: invert(1);
+            color: #1a1a1a;
+            text-shadow: 0 1px 2px rgba(255,255,255,0.7), 0 0 8px rgba(255,255,255,0.4);
         }
 
         .right-panel {
@@ -352,12 +353,28 @@
             font-weight: 500;
             color: white;
             text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 0 8px rgba(0,0,0,0.3);
-            transition: all 0.2s;
+            transition: all 0.3s ease;
         }
 
         .platform-tab:hover {
             border-color: rgba(255, 255, 255, 0.7);
             background: rgba(255, 255, 255, 0.1);
+        }
+
+        body.daytime .platform-tab {
+            border-color: rgba(0, 0, 0, 0.3);
+            color: #1a1a1a;
+            text-shadow: 0 1px 2px rgba(255,255,255,0.7), 0 0 8px rgba(255,255,255,0.4);
+        }
+
+        body.daytime .platform-tab:hover {
+            border-color: rgba(0, 0, 0, 0.5);
+            background: rgba(0, 0, 0, 0.05);
+        }
+
+        body.daytime .platform-tab.active {
+            border-color: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.1);
         }
 
         .platform-tab.active {
@@ -404,6 +421,10 @@
         .instructions a {
             color: #ffddaa;
             text-decoration: underline;
+        }
+
+        body.daytime .instructions a {
+            color: #b35900;
         }
 
         .instruction-note {
@@ -1021,6 +1042,11 @@
             margin-top: 20px;
             padding-top: 16px;
             border-top: 1px solid rgba(255, 255, 255, 0.3);
+            transition: border-color 0.5s ease;
+        }
+
+        body.daytime .updates-section {
+            border-top-color: rgba(0, 0, 0, 0.2);
         }
 
         .updates-section h2 {
@@ -1038,6 +1064,11 @@
         .updates-list li {
             padding: 6px 0;
             border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            transition: border-color 0.5s ease;
+        }
+
+        body.daytime .updates-list li {
+            border-bottom-color: rgba(0, 0, 0, 0.1);
         }
 
         .updates-list li:last-child {
@@ -1055,11 +1086,20 @@
             padding-top: 12px;
             border-top: 1px solid rgba(255, 255, 255, 0.2);
             font-size: 0.8em;
+            transition: border-color 0.5s ease;
+        }
+
+        body.daytime .contact-section {
+            border-top-color: rgba(0, 0, 0, 0.1);
         }
 
         .contact-section a {
             color: #ffddaa;
             text-decoration: none;
+        }
+
+        body.daytime .contact-section a {
+            color: #b35900;
         }
 
         .contact-section a:hover {
