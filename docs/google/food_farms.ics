@@ -25,14 +25,14 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:435f2bc1450ffc3a@portlandresources.org
-DTSTAMP:20260123T102120Z
+DTSTAMP:20260123T103258Z
 DTSTART:20260129T150000
 DTEND:20260129T190000
 SUMMARY:Rockwood Community Market
 DESCRIPTION:Category: Food & Farms\nCost: FREE to attend\nAddress: Downtown
   Rockwood Plaza\, 458 SE 185th Ave\, Gresham\, OR\nWebsite: https://rockwo
- odcommunitymarket.com\nDetails: Evening market serving the diverse Rockwoo
- d community.
+ odcommunitymarket.com\nDetails: June-September season. Evening market serv
+ ing the diverse Rockwood community.
 LOCATION:Downtown Rockwood Plaza\, 458 SE 185th Ave\, Gresham\, OR
 URL:https://rockwoodcommunitymarket.com
 RRULE:FREQ=WEEKLY;BYDAY=TH
@@ -41,7 +41,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6e4cfdfcf86d5067@portlandresources.org
-DTSTAMP:20260123T102120Z
+DTSTAMP:20260123T103258Z
 DTSTART:20260128T150000
 DTEND:20260128T180000
 SUMMARY:Community Farm at Lynwood Friends Church: Drop-In Farming

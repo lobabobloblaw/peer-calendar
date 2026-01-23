@@ -6650,8 +6650,8 @@
   pricing:
     description: FREE entry
     notes: SNAP/EBT accepted with matching program
-  season: May 10 - October 25, 2025
-  schedule: Saturdays, 8:30am-1:30pm
+  season: May 10 - October 25, 2026
+  schedule: Saturdays 8:30am-1:30pm
   features:
   - Fresh local produce
   - SNAP/EBT accepted
@@ -6659,9 +6659,10 @@
   - Holiday Market (November)
   special_events:
   - name: Holiday Farmers' Market
-    date: November 22, 2025
+    date: November 21, 2026
     hours: 9am-2pm
     notes: Thanksgiving-themed market with fall harvest vendors
+  notes: May-October season. One of the best farmers' markets for SNAP users due to matching program.
   last_verified: 2025-12-02
   next_audit: 2026-04-01
   audit_frequency: annually
@@ -6677,7 +6678,6 @@
   - outdoor
   - family_friendly
   guide_location: activities-guide-2.md#farmers-markets
-  notes: One of the best farmers' markets for SNAP users due to matching program.
   flags:
   - 🔄 SEASONAL
 - id: gresham-farmers-market
@@ -6717,8 +6717,7 @@
   - outdoor
   - family_friendly
   guide_location: activities-guide-2.md#farmers-markets
-  notes: One of three markets in Gresham area. EBT purple tokens available at info
-    booth.
+  notes: May-October season. One of three markets in Gresham area. EBT purple tokens available at info booth.
   flags:
   - 🔄 SEASONAL
 - id: rockwood-community-market
@@ -6751,7 +6750,7 @@
     - outdoor
     - new_to_area
   guide_location: activities-guide-2.md#farmers-markets
-  notes: Evening market serving the diverse Rockwood community.
+  notes: June-September season. Evening market serving the diverse Rockwood community.
   flags:
     - 🔄 SEASONAL
 - id: lynwood-community-farm
