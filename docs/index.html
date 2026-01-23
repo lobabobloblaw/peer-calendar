@@ -99,14 +99,15 @@
         .left-panel {
             order: 2;
             color: white;
-            text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 0 8px rgba(0,0,0,0.3);
+            text-shadow: 0 1px 3px rgba(0,0,0,0.6);
             transition: color 0.5s ease, text-shadow 0.5s ease;
+            padding: 0 4px;
         }
 
-        /* Swap to dark text with light shadow during daytime */
+        /* Swap to dark text during daytime - subtle shadow for depth only */
         body.daytime .left-panel {
-            color: #1a1a1a;
-            text-shadow: 0 1px 2px rgba(255,255,255,0.7), 0 0 8px rgba(255,255,255,0.4);
+            color: #2a2a2a;
+            text-shadow: 0 1px 1px rgba(255,255,255,0.5);
         }
 
         .right-panel {
@@ -352,7 +353,7 @@
             font-size: 0.8em;
             font-weight: 500;
             color: white;
-            text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 0 8px rgba(0,0,0,0.3);
+            text-shadow: 0 1px 3px rgba(0,0,0,0.6);
             transition: all 0.3s ease;
         }
 
@@ -362,19 +363,19 @@
         }
 
         body.daytime .platform-tab {
-            border-color: rgba(0, 0, 0, 0.3);
-            color: #1a1a1a;
-            text-shadow: 0 1px 2px rgba(255,255,255,0.7), 0 0 8px rgba(255,255,255,0.4);
+            border-color: rgba(0, 0, 0, 0.25);
+            color: #2a2a2a;
+            text-shadow: 0 1px 1px rgba(255,255,255,0.5);
         }
 
         body.daytime .platform-tab:hover {
-            border-color: rgba(0, 0, 0, 0.5);
-            background: rgba(0, 0, 0, 0.05);
+            border-color: rgba(0, 0, 0, 0.4);
+            background: rgba(255, 255, 255, 0.3);
         }
 
         body.daytime .platform-tab.active {
-            border-color: rgba(0, 0, 0, 0.6);
-            background: rgba(0, 0, 0, 0.1);
+            border-color: rgba(0, 0, 0, 0.4);
+            background: rgba(255, 255, 255, 0.4);
         }
 
         .platform-tab.active {
@@ -382,9 +383,9 @@
             background: rgba(255, 255, 255, 0.2);
         }
 
-        /* Calendar list */
+        /* Calendar section */
         .calendar-section {
-            padding: 16px;
+            padding: 0;
         }
 
         .copy-btn {
@@ -1039,36 +1040,39 @@
 
         /* Updates section */
         .updates-section {
-            margin-top: 20px;
-            padding-top: 16px;
-            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            margin-top: 16px;
+            padding-top: 14px;
+            border-top: 1px solid rgba(255, 255, 255, 0.25);
             transition: border-color 0.5s ease;
         }
 
         body.daytime .updates-section {
-            border-top-color: rgba(0, 0, 0, 0.2);
+            border-top-color: rgba(0, 0, 0, 0.15);
         }
 
         .updates-section h2 {
-            font-size: 0.95em;
-            margin: 0 0 10px;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin: 0 0 8px;
+            letter-spacing: 0.02em;
         }
 
         .updates-list {
             list-style: none;
             padding: 0;
             margin: 0;
-            font-size: 0.85em;
+            font-size: 0.82em;
+            line-height: 1.5;
         }
 
         .updates-list li {
-            padding: 6px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
             transition: border-color 0.5s ease;
         }
 
         body.daytime .updates-list li {
-            border-bottom-color: rgba(0, 0, 0, 0.1);
+            border-bottom-color: rgba(0, 0, 0, 0.08);
         }
 
         .updates-list li:last-child {
@@ -1077,20 +1081,22 @@
 
         .update-date {
             font-weight: 600;
-            margin-right: 8px;
+            margin-right: 6px;
+            opacity: 0.9;
         }
 
         /* Contact section */
         .contact-section {
-            margin-top: 16px;
-            padding-top: 12px;
-            border-top: 1px solid rgba(255, 255, 255, 0.2);
-            font-size: 0.8em;
+            margin-top: 12px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            font-size: 0.78em;
+            opacity: 0.85;
             transition: border-color 0.5s ease;
         }
 
         body.daytime .contact-section {
-            border-top-color: rgba(0, 0, 0, 0.1);
+            border-top-color: rgba(0, 0, 0, 0.08);
         }
 
         .contact-section a {
