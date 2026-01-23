@@ -2060,9 +2060,14 @@
                                     || practicalTip
                                     || entry.notes
                                     || null;
+                                // Prepend org name to program title for context
+                                const programName = program.name || entry.title;
+                                const displayTitle = programName !== entry.title
+                                    ? `${entry.title}: ${programName}`
+                                    : programName;
                                 events.push({
-                                    title: program.name || entry.title,
-                                    org: entry.title,
+                                    title: displayTitle,
+                                    org: null,  // Org is now included in title
                                     date: d.date,
                                     startTime: d.startTime,
                                     endTime: d.endTime,
