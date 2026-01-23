@@ -1970,6 +1970,22 @@
             if (!text) return true;
             const lower = text.toLowerCase();
 
+            // Season keyword mapping (month ranges)
+            // Summer: June-August, Winter: December-February, Spring: March-May, Fall: September-November
+            if (/\bsummer\b/.test(lower)) {
+                return month >= 5 && month <= 7; // June (5) through August (7)
+            }
+            if (/\bwinter\b/.test(lower) && !/winter\s*\d{4}/.test(lower)) {
+                // Winter spans year boundary: December, January, February
+                return month === 11 || month <= 1; // December (11), January (0), February (1)
+            }
+            if (/\bspring\b/.test(lower) && !/spring\s*\d{4}/.test(lower)) {
+                return month >= 2 && month <= 4; // March (2) through May (4)
+            }
+            if (/\bfall\b|\bautumn\b/.test(lower)) {
+                return month >= 8 && month <= 10; // September (8) through November (10)
+            }
+
             // Month name to number mapping
             const monthNames = {
                 'january': 0, 'february': 1, 'march': 2, 'april': 3,
@@ -2018,6 +2034,9 @@
             const events = [];
 
             for (const entry of eventsData.events) {
+                // Skip entries with dates/date fields - these are one-time events shown in Seasonal Events only
+                if (entry.dates || entry.date) continue;
+
                 // Handle programs with schedules
                 if (entry.programs && entry.programs.length > 0) {
                     for (const program of entry.programs) {
