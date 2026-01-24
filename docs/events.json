@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-23T10:32:58.164265",
+  "generated": "2026-01-24T08:51:03.113508",
   "count": 213,
   "categories": {
     "peer_support": "Peer Support",
@@ -7629,8 +7629,8 @@
         "description": "FREE"
       },
       "programs": [],
-      "dates": null,
-      "schedule": "Periodic Saturdays, 10am-1pm",
+      "dates": "February 28, 2026",
+      "schedule": "10am-1pm",
       "schedule_start_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"

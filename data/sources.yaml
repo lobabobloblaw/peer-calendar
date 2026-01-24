@@ -7538,9 +7538,8 @@
   pricing:
     description: FREE
   eligibility: Open to all - bring broken household items
-  schedule: Periodic Saturdays, 10am-1pm
-  dates_2026:
-    - February 28
+  schedule: 10am-1pm
+  dates: February 28, 2026
   organizer: Clackamas County Sustainability & Solid Waste
   contact: cjohnston@clackamas.us
   last_verified: 2026-01-15
