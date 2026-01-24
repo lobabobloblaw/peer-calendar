@@ -427,6 +427,8 @@ Use `schedule_start_date` to prevent a recurring event from appearing until a sp
 This is useful when a program is on hiatus or hasn't started yet. The field is respected by both the ICS calendar generation and the web calendar preview.
 
 **One-time events vs recurring events:**
+**Important:** Use `dates` for specific event dates, not `dates_2026` or other year-suffixed variants. The calendar scripts only recognize the `dates` field.
+
 Entries with a `dates` field (e.g., "July 18-19, 2026") are treated as one-time events:
 - They appear ONLY in the "Seasonal Events" tab
 - They do NOT generate recurring calendar entries
@@ -448,6 +450,17 @@ The web calendar automatically filters events based on seasonal keywords in sche
 - Month ranges like "June-August" or "May-October" are also recognized
 
 Example: An entry with notes "Free outdoor summer concert series" will only appear in summer months.
+
+## Known Issues
+
+**iOS Safari safe area background mismatch:**
+On iOS Safari, the status bar (top) and home indicator (bottom) safe areas may show a different color than the animated sky background when scrolling. This is a known iOS limitation with fixed-position elements using negative z-index. Current mitigations in place:
+- `theme-color` meta tag (dynamically updated to match sky)
+- `viewport-fit=cover` meta tag
+- `apple-mobile-web-app-status-bar-style` meta tag
+- `background-color` on `#sky-bg` element
+
+A future iOS update (possibly iOS 26.2+) may resolve this, as the underlying WebKit bug has been marked resolved. See [Ben Frain's article](https://benfrain.com/ios26-safari-theme-color-tab-tinting-with-fixed-position-elements/) for details.
 
 ## Ongoing Work
 
