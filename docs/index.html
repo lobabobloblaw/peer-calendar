@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#1a2a4a" id="theme-color-meta">
     <title>FolkTime 2026 Peer Support Calendar</title>
     <style>
         :root {
@@ -24,25 +25,36 @@
 
         * { box-sizing: border-box; }
 
+        /* Fill iOS safe areas with sky color */
+        html {
+            background: #1a2a4a; /* Dark night sky default - matches most common viewing time */
+        }
+
         /* Sky gradient background - shows through when clouds fade on clear days */
+        /* Extended beyond viewport to cover iOS safe areas */
         #sky-bg {
             position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+            top: -50px;
+            left: -50px;
+            right: -50px;
+            bottom: -50px;
+            width: calc(100% + 100px);
+            height: calc(100% + 100px);
             z-index: -2;
             background: linear-gradient(to bottom, #4a90c2 0%, #6eb5d9 40%, #87ceeb 100%);
             transition: background 0.8s ease;
         }
 
         /* Vanta.js cloud background - flipped so clouds are at top */
+        /* Extended beyond viewport to cover iOS safe areas */
         #vanta-bg {
             position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+            top: -50px;
+            left: -50px;
+            right: -50px;
+            bottom: -50px;
+            width: calc(100% + 100px);
+            height: calc(100% + 100px);
             z-index: -1;
             transform: scaleY(-1); /* Flip vertically - clouds now at top */
             transition: opacity 0.8s ease;
@@ -51,10 +63,12 @@
         /* Fog overlay - covers screen for fog/mist conditions */
         #fog-overlay {
             position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+            top: -50px;
+            left: -50px;
+            right: -50px;
+            bottom: -50px;
+            width: calc(100% + 100px);
+            height: calc(100% + 100px);
             z-index: 0;
             background: linear-gradient(to bottom,
                 rgba(180, 180, 185, 0.95) 0%,
@@ -69,10 +83,12 @@
         /* Weather particles canvas (rain, snow) - blends with clouds */
         #weather-canvas {
             position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+            top: -50px;
+            left: -50px;
+            right: -50px;
+            bottom: -50px;
+            width: calc(100% + 100px);
+            height: calc(100% + 100px);
             z-index: 1;
             pointer-events: none;
             mix-blend-mode: overlay;
@@ -3368,6 +3384,14 @@
             dusk: 'linear-gradient(to bottom, #ff7744 0%, #cc6644 30%, #5c4a6a 70%, #2a1a3c 100%)'
         };
 
+        // Solid colors for iOS safe areas (top color of each gradient)
+        const safeAreaColors = {
+            night: '#0a1628',
+            dawn: '#ff9966',
+            day: '#4a90c2',
+            dusk: '#ff7744'
+        };
+
         // ============================================
         // WEATHER PARTICLE SYSTEM (Rain, Snow)
         // ============================================
@@ -3521,6 +3545,10 @@
             // Set sky gradient based on time of day
             const timeOfDay = options.timeOfDay || 'day';
             skyBg.style.background = skyGradients[timeOfDay];
+            // Sync html background and theme-color for iOS safe areas
+            document.documentElement.style.background = safeAreaColors[timeOfDay];
+            const themeColorMeta = document.getElementById('theme-color-meta');
+            if (themeColorMeta) themeColorMeta.content = safeAreaColors[timeOfDay];
 
             vantaEffect = VANTA.CLOUDS({
                 el: "#vanta-bg",
