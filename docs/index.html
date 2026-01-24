@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="theme-color" content="#1a2a4a" id="theme-color-meta">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>FolkTime 2026 Peer Support Calendar</title>
     <style>
         :root {
@@ -26,6 +28,7 @@
         * { box-sizing: border-box; }
 
         /* Sky gradient background - shows through when clouds fade on clear days */
+        /* background-color set for iOS safe area detection (uses fixed element bg) */
         #sky-bg {
             position: fixed;
             top: 0;
@@ -33,8 +36,9 @@
             width: 100%;
             height: 100%;
             z-index: -2;
-            background: linear-gradient(to bottom, #4a90c2 0%, #6eb5d9 40%, #87ceeb 100%);
-            transition: background 0.8s ease;
+            background-color: #4a90c2;
+            background-image: linear-gradient(to bottom, #4a90c2 0%, #6eb5d9 40%, #87ceeb 100%);
+            transition: background-color 0.8s ease, background-image 0.8s ease;
         }
 
         /* Vanta.js cloud background - flipped so clouds are at top */
@@ -3529,7 +3533,8 @@
 
             // Set sky gradient based on time of day
             const timeOfDay = options.timeOfDay || 'day';
-            skyBg.style.background = skyGradients[timeOfDay];
+            skyBg.style.backgroundImage = skyGradients[timeOfDay];
+            skyBg.style.backgroundColor = themeColors[timeOfDay]; // For iOS safe area detection
 
             // Update iOS theme-color meta tag to match sky
             const themeColorMeta = document.getElementById('theme-color-meta');
