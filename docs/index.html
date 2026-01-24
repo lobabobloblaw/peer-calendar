@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#1a2a4a" id="theme-color-meta">
     <title>FolkTime 2026 Peer Support Calendar</title>
     <style>
         :root {
@@ -83,7 +84,7 @@
             line-height: 1.6;
             max-width: 1200px;
             margin: 0 auto;
-            padding: 16px 40px;
+            padding: max(16px, env(safe-area-inset-top)) max(40px, env(safe-area-inset-right)) max(16px, env(safe-area-inset-bottom)) max(40px, env(safe-area-inset-left));
             background: var(--bg-dark);
             color: var(--text-primary);
             min-height: 100vh;
@@ -3368,6 +3369,14 @@
             dusk: 'linear-gradient(to bottom, #ff7744 0%, #cc6644 30%, #5c4a6a 70%, #2a1a3c 100%)'
         };
 
+        // Theme colors for iOS status bar (top color of each gradient)
+        const themeColors = {
+            night: '#0a1628',
+            dawn: '#ff9966',
+            day: '#4a90c2',
+            dusk: '#ff7744'
+        };
+
         // ============================================
         // WEATHER PARTICLE SYSTEM (Rain, Snow)
         // ============================================
@@ -3521,6 +3530,12 @@
             // Set sky gradient based on time of day
             const timeOfDay = options.timeOfDay || 'day';
             skyBg.style.background = skyGradients[timeOfDay];
+
+            // Update iOS theme-color meta tag to match sky
+            const themeColorMeta = document.getElementById('theme-color-meta');
+            if (themeColorMeta) {
+                themeColorMeta.content = themeColors[timeOfDay];
+            }
 
             vantaEffect = VANTA.CLOUDS({
                 el: "#vanta-bg",
