@@ -492,3 +492,1017 @@
     - id: cmhc-peer-groups
       status: verified
       changes: "Added Clackamas County source URL; updated audit dates"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - FolkTime Peer Connection Centers"
+  entries_audited: 1
+  entries:
+    - id: folktime
+      status: updated
+      changes: "Updated phone to 503-709-2450; corrected Free To Be Me hours from 10am-1pm to 10am-2pm"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - New Narrative Comfort Zone"
+  entries_audited: 1
+  entries:
+    - id: new-narrative-comfort-zone
+      status: updated
+      changes: "Corrected address: Suite D2 (not D1/D2), city is Tigard (not Portland)"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Behavioral Health Resource Center"
+  entries_audited: 1
+  entries:
+    - id: bhrc
+      status: updated
+      changes: "Corrected outreach van hours from 6am-1pm to 6am-2pm"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Q Center Portland (LGBTQ+ Community Center)"
+  entries_audited: 1
+  entries:
+    - id: q-center-portland
+      status: updated
+      changes: "Added hybrid option for Mental Health group (1st/3rd Mondays at Q Center)"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Alano Club of Portland"
+  entries_audited: 1
+  entries:
+    - id: alano-club-portland
+      status: updated
+      changes: "Added phone number 503-222-5756"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Oregon Free Fishing Weekends"
+  entries_audited: 1
+  entries:
+    - id: free-fishing-weekends
+      status: updated
+      changes: "Corrected February dates from 15-16 to 14-15 (President's Day Weekend)"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Oregon Rail Heritage Center"
+  entries_audited: 1
+  entries:
+    - id: oregon-rail-heritage
+      status: updated
+      changes: "Updated pricing to new 2026 fee structure (Adult , Senior , Child )"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Rockwood Library"
+  entries_audited: 1
+  entries:
+    - id: rockwood-library
+      status: updated
+      changes: "Added phone 503-988-5123; updated hours after renovation"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Artichoke Community Music"
+  entries_audited: 1
+  entries:
+    - id: artichoke-music
+      status: updated
+      changes: "Added phone 503-232-8845; corrected founding year to 1971"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Historic Belmont Firehouse"
+  entries_audited: 1
+  entries:
+    - id: belmont-firehouse
+      status: updated
+      changes: "Added phone 503-823-3741; ZIP 97214; hours now Wed 9am-3pm only"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Turn! Turn! Turn!"
+  entries_audited: 1
+  entries:
+    - id: turn-turn-turn
+      status: updated
+      changes: "Added ZIP 97211 to address"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - End of the Oregon Trail Interpretive Center"
+  entries_audited: 1
+  entries:
+    - id: end-of-oregon-trail
+      status: updated
+      changes: "Added Feb 14 Oregon Statehood Day as 4th free day"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tualatin Heritage Center"
+  entries_audited: 1
+  entries:
+    - id: tualatin-heritage-center
+      status: updated
+      changes: "Added phone 503-885-1926; hours Mon-Fri 10am-2pm"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Independent Publishing Resource Center (IPRC)"
+  entries_audited: 1
+  entries:
+    - id: iprc
+      status: updated
+      changes: "Added phone 503-827-0249"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - The Humble Poets' Open Mic"
+  entries_audited: 1
+  entries:
+    - id: humble-poets-open-mic
+      status: updated
+      changes: "Added phone 503-384-2834; improved address with ZIP"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Oregon Jewish Museum and Center for Holocaust Education"
+  entries_audited: 1
+  entries:
+    - id: oregon-jewish-museum
+      status: updated
+      changes: "Added first Sunday free admission"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Clackamas County Libraries (LINCC)"
+  entries_audited: 1
+  entries:
+    - id: clackamas-county-libraries
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - MHCC Planetarium Sky Theatre"
+  entries_audited: 1
+  entries:
+    - id: mhcc-planetarium
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Lake Oswego Public Library"
+  entries_audited: 1
+  entries:
+    - id: lake-oswego-library
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tualatin Public Library"
+  entries_audited: 1
+  entries:
+    - id: tualatin-public-library
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - PCC Art Galleries"
+  entries_audited: 1
+  entries:
+    - id: pcc-art-galleries
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Willamette Writers"
+  entries_audited: 1
+  entries:
+    - id: willamette-writers
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Five Oaks Museum (formerly Washington County Museum)"
+  entries_audited: 1
+  entries:
+    - id: five-oaks-museum
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tigard Public Library"
+  entries_audited: 1
+  entries:
+    - id: tigard-public-library
+      status: updated
+      changes: "Hours corrected: Thu 10am-8pm (was 6pm)"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Laurelthirst Public House"
+  entries_audited: 1
+  entries:
+    - id: laurelthirst-pub
+      status: updated
+      changes: "Added hours; happy hour shows 6-9pm (was 6-8pm)"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - St. James Lutheran Church Bach Cantata Vespers"
+  entries_audited: 1
+  entries:
+    - id: st-james-bach
+      status: updated
+      changes: "Added 2026 dates: Feb 22, Jun 14"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Slamlandia Poetry Open Mic"
+  entries_audited: 1
+  entries:
+    - id: slamlandia-poetry
+      status: updated
+      changes: "Added Flour Bloom venue; updated Guilder times"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Mt. Hood Theatre"
+  entries_audited: 1
+  entries:
+    - id: mt-hood-theatre
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - The Old Church Concert Hall"
+  entries_audited: 1
+  entries:
+    - id: old-church-concerts
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - MHCC Visual Arts Gallery"
+  entries_audited: 1
+  entries:
+    - id: mhcc-visual-arts-gallery
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Sisters of the Road Café"
+  entries_audited: 1
+  entries:
+    - id: sisters-of-the-road
+      status: updated
+      changes: "MOVED to 618 NW Davis St; added phone 503-222-5694"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Lake Oswego Farmers' Market"
+  entries_audited: 1
+  entries:
+    - id: lake-oswego-farmers-market
+      status: updated
+      changes: "2026 season starts May 9 (was May 10)"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Blanchet House of Hospitality"
+  entries_audited: 1
+  entries:
+    - id: blanchet-house
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Hollywood Farmers Market"
+  entries_audited: 1
+  entries:
+    - id: hollywood-farmers-market
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Food Hub (donations only)"
+  entries_audited: 1
+  entries:
+    - id: clackamas-service-center
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Rescue Mission"
+  entries_audited: 1
+  entries:
+    - id: portland-rescue-mission
+      status: updated
+      changes: "Added phone 503-647-7466"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Sikh Center of Oregon Langar"
+  entries_audited: 1
+  entries:
+    - id: sikh-center-langar
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Rockwood Community Market"
+  entries_audited: 1
+  entries:
+    - id: rockwood-community-market
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - SnowCap Community Garden"
+  entries_audited: 1
+  entries:
+    - id: snowcap-garden
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Outgrowing Hunger"
+  entries_audited: 1
+  entries:
+    - id: outgrowing-hunger
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Loaves & Fishes Senior Dining Centers"
+  entries_audited: 1
+  entries:
+    - id: loaves-fishes
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Olson Farms Pumpkin Patch"
+  entries_audited: 1
+  entries:
+    - id: pumpkin-patch-olson
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - The Pumpkin Patch on Sauvie Island"
+  entries_audited: 1
+  entries:
+    - id: pumpkin-patch-sauvie
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Gresham Farmers' Market"
+  entries_audited: 1
+  entries:
+    - id: gresham-farmers-market
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Gleaners of Clackamas County"
+  entries_audited: 1
+  entries:
+    - id: gleaners-clackamas
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - South Barlow Berries"
+  entries_audited: 1
+  entries:
+    - id: south-barlow-berries
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Columbia Farms U-Pick"
+  entries_audited: 1
+  entries:
+    - id: columbia-farms
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Community Farm at Lynwood Friends Church"
+  entries_audited: 1
+  entries:
+    - id: lynwood-community-farm
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Urban Gleaners Free Food Markets"
+  entries_audited: 1
+  entries:
+    - id: urban-gleaners
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - PDX Free Fridge"
+  entries_audited: 1
+  entries:
+    - id: pdx-free-fridge
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Meals on Wheels People"
+  entries_audited: 1
+  entries:
+    - id: meals-on-wheels-people
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Area Board Games Meetup"
+  entries_audited: 1
+  entries:
+    - id: pdx-board-games-meetup
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Milwaukie Community Center"
+  entries_audited: 1
+  entries:
+    - id: milwaukie-community-center
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Write Around Portland"
+  entries_audited: 1
+  entries:
+    - id: write-around-portland
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Friends of Trees"
+  entries_audited: 1
+  entries:
+    - id: friends-of-trees
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - SOLVE Oregon"
+  entries_audited: 1
+  entries:
+    - id: solve-oregon
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Oregon Food Bank Volunteer Program"
+  entries_audited: 1
+  entries:
+    - id: oregon-food-bank-volunteer
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Multnomah Arts Center"
+  entries_audited: 1
+  entries:
+    - id: multnomah-arts-center
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Northwest Wools Crafting Compassion"
+  entries_audited: 1
+  entries:
+    - id: northwest-wools
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Puddletown Knitters Guild"
+  entries_audited: 1
+  entries:
+    - id: puddletown-knitters
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Pioneer Community Center"
+  entries_audited: 1
+  entries:
+    - id: pioneer-community-center
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Lake Oswego Adult Community Center"
+  entries_audited: 1
+  entries:
+    - id: lake-oswego-acc
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Repair PDX"
+  entries_audited: 1
+  entries:
+    - id: repair-pdx
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - West Linn Repair Fair"
+  entries_audited: 1
+  entries:
+    - id: west-linn-repair-fair
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Clackamas County ADRC (Aging & Disability Resource Connection)"
+  entries_audited: 1
+  entries:
+    - id: clackamas-adrc
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tigard Senior Center"
+  entries_audited: 1
+  entries:
+    - id: tigard-senior-center
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Elsie Stuhr Center (THPRD)"
+  entries_audited: 1
+  entries:
+    - id: elsie-stuhr-center
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Hands On Greater Portland"
+  entries_audited: 1
+  entries:
+    - id: hands-on-greater-portland
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - The Community for Positive Aging"
+  entries_audited: 1
+  entries:
+    - id: community-positive-aging
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Forest Park"
+  entries_audited: 1
+  entries:
+    - id: forest-park
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Smith and Bybee Wetlands Natural Area"
+  entries_audited: 1
+  entries:
+    - id: smith-bybee-wetlands
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tryon Creek State Natural Area"
+  entries_audited: 1
+  entries:
+    - id: tryon-creek
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Powell Butte Nature Park"
+  entries_audited: 1
+  entries:
+    - id: powell-butte
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Oaks Bottom Wildlife Refuge"
+  entries_audited: 1
+  entries:
+    - id: oaks-bottom
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Cooper Mountain Nature Park"
+  entries_audited: 1
+  entries:
+    - id: cooper-mountain
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Oxbow Regional Park"
+  entries_audited: 1
+  entries:
+    - id: oxbow-regional-park
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tualatin River National Wildlife Refuge"
+  entries_audited: 1
+  entries:
+    - id: tualatin-river-nwr
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Hoyt Arboretum"
+  entries_audited: 1
+  entries:
+    - id: hoyt-arboretum
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Bird Alliance of Oregon (formerly Portland Audubon)"
+  entries_audited: 1
+  entries:
+    - id: bird-alliance-oregon
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Gresham Free Splash Pads"
+  entries_audited: 1
+  entries:
+    - id: gresham-splash-pads
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Blue Lake Regional Park Disc Golf Course"
+  entries_audited: 1
+  entries:
+    - id: blue-lake-disc-golf
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Main City Park (Gresham)"
+  entries_audited: 1
+  entries:
+    - id: main-city-park-gresham
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Graham Oaks Nature Park"
+  entries_audited: 1
+  entries:
+    - id: graham-oaks
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Scouters Mountain Nature Park"
+  entries_audited: 1
+  entries:
+    - id: scouters-mountain
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Mount Talbert Nature Park"
+  entries_audited: 1
+  entries:
+    - id: mount-talbert
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Cook Park"
+  entries_audited: 1
+  entries:
+    - id: cook-park-tigard
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tualatin Community Park"
+  entries_audited: 1
+  entries:
+    - id: tualatin-community-park
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Arts for All (EBT Cultural Access)"
+  entries_audited: 1
+  entries:
+    - id: arts-for-all
+      status: updated
+      changes: "Updated venue count from 32+ to 100+"
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Parks & Recreation Access Discount Program"
+  entries_audited: 1
+  entries:
+    - id: ppr-access-discount
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - THPRD Financial Aid Program"
+  entries_audited: 1
+  entries:
+    - id: thprd-financial-aid
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland General Electric Income-Qualified Bill Discount"
+  entries_audited: 1
+  entries:
+    - id: pge-income-qualified
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Pacific Power Oregon Low-Income Discount (LID)"
+  entries_audited: 1
+  entries:
+    - id: pacific-power-discount
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - NW Natural Bill Discount Program"
+  entries_audited: 1
+  entries:
+    - id: nw-natural-discount
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Double Up Food Bucks"
+  entries_audited: 1
+  entries:
+    - id: double-up-food-bucks
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - NCPRD Scholarship Program"
+  entries_audited: 1
+  entries:
+    - id: ncprd-scholarship
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Lake Oswego Parks & Recreation Scholarship"
+  entries_audited: 1
+  entries:
+    - id: lake-oswego-parks-scholarship
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tualatin Recreation Scholarship Program"
+  entries_audited: 1
+  entries:
+    - id: tualatin-recreation-scholarship
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - MHCC Senior Tuition Discount"
+  entries_audited: 1
+  entries:
+    - id: mhcc-senior-tuition
+      status: verified
+
+---
+- date: 2026-01-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - TriMet Low-Income Fare Program"
+  entries_audited: 1
+  entries:
+    - id: trimet-low-income
+      status: verified

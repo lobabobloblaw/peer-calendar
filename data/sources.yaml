@@ -23,8 +23,8 @@
     description: 25%, 50%, 75%, or 90% off all programs
     notes: No proof of income required - self-select discount level
   eligibility: Portland residents, any income level
-  last_verified: 2025-11-25
-  next_audit: 2026-02-25
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Register online at portland.gov/parks - no office visit needed
@@ -52,17 +52,17 @@
   source_urls:
   - https://racc.org/artsforall
   pricing:
-    description: $5 tickets at 32+ cultural organizations
+    description: $5 tickets at 100+ cultural organizations
     notes: Present Oregon Trail Card at venue
   eligibility: Oregon Trail Card (SNAP/EBT) holders
-  last_verified: 2025-11-25
-  next_audit: 2026-02-25
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just show your Oregon Trail Card at the ticket window - no pre-registration needed
     registration: None required - just present your EBT card at participating venues
     what_to_bring: Oregon Trail Card (SNAP/EBT) and valid ID
-    good_to_know: Works at 32+ venues including Portland Art Museum, OMSI, Oregon Zoo, Japanese Garden, and theaters. Most venues allow same-day walk-up. Check individual venue hours and any timed-entry requirements. Some venues may have blackout dates for special exhibitions.
+    good_to_know: Works at 100+ venues including Portland Art Museum, OMSI, Oregon Zoo, Japanese Garden, Oregon Symphony, Portland Opera, and theaters. Most venues allow same-day walk-up. Check individual venue hours and any timed-entry requirements. Some venues may have blackout dates for special exhibitions.
   accessibility:
     - wheelchair_accessible
     - transit_nearby
@@ -128,8 +128,8 @@
     submit_via: Email, mail, or in-person at any THPRD facility
     processing_time: 10 business days
     languages: English and Spanish applications available
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Submit application online, by email, or in-person at any THPRD facility before registering for programs
@@ -164,8 +164,8 @@
   pricing:
     description: 15-80% monthly discount
     notes: No proof of income required
-  last_verified: 2025-12-02
-  next_audit: 2026-12-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips:
     first_visit: Apply online at portlandgeneral.com - takes about 5 minutes
@@ -198,8 +198,8 @@
     notes: No income documentation required at application
   eligibility: Must be residential customer at permanent primary residence
   recertification: Every 2 years (auto-renewed if received LIHEAP/OEAP)
-  last_verified: 2025-12-02
-  next_audit: 2026-12-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips:
     first_visit: Apply online, by email, mail, or phone - choose whichever is easiest for you
@@ -238,8 +238,8 @@
   - No late fees
   - No reconnection fees
   - No deposits
-  last_verified: 2025-12-02
-  next_audit: 2026-12-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips:
     first_visit: Apply online, by email, mail, or phone - takes about 10 minutes
@@ -274,8 +274,8 @@
   - Hollywood
   - Montavilla
   - Woodstock
-  last_verified: 2025-12-02
-  next_audit: 2026-12-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips:
     first_visit: Go to the market info booth first to get your Double Up tokens
@@ -323,8 +323,8 @@
   - Aquatic Park programs
   - Youth programs
   - Fitness classes
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Contact Recreation Services at 503-794-8080 or email recreation@ncprd.com to request an application
@@ -366,8 +366,8 @@
   - Enrichment programs
   application:
     valid_period: July 1 - June 30 fiscal year
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Call 503-675-2549 to request a scholarship application
@@ -402,8 +402,8 @@
   covered_programs:
   - Recreation programs
   - Summer camps
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Email info@tualatintogether.org to request scholarship application and information
@@ -435,8 +435,8 @@
     age_65_plus: FREE tuition for up to 8 credits (audit) for Oregon residents 65+
     notes: Fees not included in discount
   eligibility: Oregon residents 62+ (discount) or 65+ (free audit)
-  last_verified: 2025-12-03
-  next_audit: 2026-06-03
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Contact admissions to learn about enrollment process
@@ -475,8 +475,8 @@
     notes: Free first month + free Hop card upon enrollment
   eligibility: Oregon residents 18-64 at/below 200% FPL, OR receiving OHP, SNAP, TANF,
     Free/Reduced Lunch, Section 8, LIHEAP
-  last_verified: 2025-11-25
-  next_audit: 2026-02-25
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Apply online at trimet.org/income or visit TriMet Ticket Office at Pioneer Courthouse Square
@@ -667,7 +667,7 @@
   location_type: physical
   resource_type: program
   address: null
-  phone: null
+  phone: 503-709-2450
   email: peerconnection@folktime.org
   website: https://folktime.org
   source_urls:
@@ -678,7 +678,7 @@
   locations:
   - name: Free To Be Me (Northeast Portland)
     address: 4837 NE Couch St, Portland
-    hours: Mon, Wed, Thu 10am-1pm
+    hours: Mon, Wed, Thu 10am-2pm
     notes: Collective meal prep - arrive by 11am to eat lunch
   - name: Oregon City Clinic
     address: 150 Beavercreek Rd, Ste 400, Oregon City, OR 97045
@@ -693,8 +693,8 @@
   - name: Peer Respite Center
     status: Opening 2025
     notes: 24-hour peer support, home-like environment, up to 2-week stays
-  last_verified: 2025-12-02
-  next_audit: 2026-02-01
+  last_verified: 2026-01-24
+  next_audit: 2026-02-24
   audit_frequency: monthly
   practical_tips:
     first_visit: "Attend orientation on 2nd or 3rd Wednesday of any month"
@@ -769,7 +769,7 @@
   category: peer_support
   location_type: physical
   resource_type: program
-  address: 10130 SW Nimbus Ave, Suite D1/D2, Portland, OR 97223
+  address: 10130 SW Nimbus Ave, Suite D2, Tigard, OR 97223
   phone: 503-597-3992
   website: https://www.comfortzonenn.org
   source_urls:
@@ -786,8 +786,8 @@
   - Benefits connection
   - ID acquisition assistance
   - Snacks and activities
-  last_verified: 2026-01-12
-  next_audit: 2026-04-01
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: "Just walk in during open hours - no appointment needed"
@@ -822,7 +822,7 @@
   hours: Daily 8am-8pm; Closed 4th Friday each month 11am-3pm
   eligibility: Anyone experiencing homelessness with mental health or addiction challenges
   access_notes: Day center requires ticket from outreach van at NW Broadway & Glisan
-    St (6am-1pm). Four 3-hour time blocks, 25 people per block, first-come first-served.
+    St (6am-2pm). Four 3-hour time blocks, 25 people per block, first-come first-served.
   services:
   - Peer support
   - Showers
@@ -843,11 +843,11 @@
   bridge_housing:
     beds: 19
     stay_length: 90 days average
-  last_verified: 2025-12-02
-  next_audit: 2026-02-01
+  last_verified: 2026-01-24
+  next_audit: 2026-02-24
   audit_frequency: monthly
   practical_tips:
-    first_visit: "Get a ticket from the outreach van at NW Broadway & Glisan (6am-1pm) to access day center"
+    first_visit: "Get a ticket from the outreach van at NW Broadway & Glisan (6am-2pm) to access day center"
     registration: "First-come first-served, 25 people per 3-hour block"
     what_to_bring: "Nothing required; showers, laundry, phone charging available"
     good_to_know: "No ID, sobriety, or cleanliness required. Pets allowed. Shelter and bridge housing also available (call waitlist)."
@@ -1089,7 +1089,7 @@
     cost: FREE
     notes: For trans, nonbinary, agender, gender-fabulous folks
   - name: LGBTQIA2S+ Mental Health Support
-    schedule: Mondays 7-8:30pm (virtual)
+    schedule: Mondays 7-8:30pm (virtual; 1st & 3rd Mondays hybrid at Q Center)
     cost: FREE
     notes: Peer-led for anxiety, depression, bipolar, PTSD
   - name: QTIBIPOC Community Space
@@ -1101,8 +1101,8 @@
   - Education & Training
   - Health & Wellness
   - Advocacy
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: "Check website for current group schedule and drop in"
@@ -1394,14 +1394,14 @@
     with_90_discount: ~$0.60
     north_portland_pass: FREE for North Portland residents
     shower_only: $0.50
-  hours: null
+  hours: Mon-Fri 5:30am-8pm, Sat 9am-5pm, Sun 8am-5pm (pool closes 30 min earlier)
   features:
   - Indoor pool
   - Fitness center
   - Gymnasium
   - Showers
-  last_verified: 2025-11-25
-  next_audit: 2026-02-25
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by the front desk to sign up for a day pass or ask about memberships
@@ -1449,9 +1449,9 @@
   - outdoor
   - active
   - anxiety_friendly
-  notes: Summer and winter layouts available
-  last_verified: 2025-11-25
-  next_audit: 2026-05-25
+  notes: Summer and winter layouts available. Park hours 5am-midnight. One of top disc golf courses in the country.
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   guide_location: activities-guide-2.md#disc-golf-courses
 - id: rockwood-disc-golf
@@ -1459,8 +1459,8 @@
   category: fitness_wellness
   location_type: physical
   resource_type: place
-  address: 17707 SE Main St, Gresham, OR 97233
-  phone: null
+  address: 17707 SE Main St, Gresham, OR 97030
+  phone: 503-618-2525
   website: null
   source_urls:
   - https://greshamoregon.gov/Rockwood-Central-Park/
@@ -1524,7 +1524,7 @@
   location_type: physical
   resource_type: program
   address: 124 SW Yamhill St, Portland, OR 97204
-  phone: null
+  phone: 503-662-2408
   website: https://www.yogaonyamhill.com/
   source_urls:
   - https://www.yogaonyamhill.com/
@@ -1554,38 +1554,44 @@
   - indoor
   - low_energy
   notes: Portland's oldest sliding-scale studio since 2010. Located in historic Franz
-    building near MAX Blue Line.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+    building near MAX Blue Line. Sound bath every 2nd Sunday 10-11:30am.
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
 - id: bymc-portland
-  name: BYMC (By-Donation Yoga)
+  name: BYMC (Bhakti Yoga Movement Center)
   category: fitness_wellness
-  location_type: physical
+  location_type: hybrid
   resource_type: program
-  address: SE Portland
+  address: 2500 SE 26th Ave, Portland, OR 97202
   phone: null
   website: https://www.thebymc.com
   source_urls:
   - https://www.thebymc.com
   pricing:
-    description: By-donation classes
+    description: By-donation with equity pricing
+    notes: South Asian, BIPOC, and queer-owned. No one turned away.
   programs:
-  - name: Community Yoga
-    schedule: Weekly
-    cost: By donation
   - name: Queer and Trans Yoga
-    schedule: Weekly
+    schedule: Tue 7pm, Thu 8:15pm
     cost: By donation
+    notes: Pre-registration suggested - often at capacity
   - name: BIPOC-only Yoga
+    schedule: Sun 5:30pm
+    cost: By donation
+    notes: Pre-registration suggested - often at capacity
+  - name: Community Yoga
     schedule: Weekly
     cost: By donation
   - name: Community Meditation & Pranayama
     schedule: Weekly
     cost: By donation
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  - name: Farm Yoga
+    schedule: Seasonal
+    cost: By donation
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check website for current schedule and locations - classes held at various SE Portland venues
@@ -1609,8 +1615,8 @@
   category: fitness_wellness
   location_type: hybrid
   resource_type: organization
-  address: 8500 NE Siskiyou St, Portland, OR 97220
-  phone: null
+  address: 8500 NE Siskiyou St, Portland, OR 97220-5287
+  phone: 503-239-4846
   website: https://dharma-rain.org/
   source_urls:
   - https://dharma-rain.org/
@@ -1618,11 +1624,14 @@
     description: FREE
   programs:
   - name: Sunday Morning Program
-    schedule: Sundays 8:30am-12pm
-    details: Zazen, kinhin, chanting service, Dharma talk. Doors open 9am.
-  - name: Wednesday Evening Meditation
-    schedule: Wednesdays 7-8:20pm
-    details: Double-sit with walking meditation
+    schedule: Sundays 8:25am-11:30am
+    details: 8:30 zazen, 9:00 kinhin, 9:40 chanting, 10:30 Dharma talk. All welcome.
+  - name: Weekday Morning Meditation
+    schedule: Mon-Fri 6:30-7:45am (summer/winter terms)
+    details: Open zazen followed by brief chanting service
+  - name: Wednesday Evening Classes
+    schedule: Wednesdays (see calendar)
+    details: Foundational teachings of Zen Buddhism
   practical_tips:
     first_visit: Arrive 15-30 min early for orientation. Doors open 9am for Sunday program.
     registration: None required - just show up. Newcomers welcome any Sunday.
@@ -1637,9 +1646,9 @@
     - indoor
     - low_energy
     - isolation
-  notes: Oldest and largest Soto Zen Buddhist temple in Oregon, founded 1975. All welcome at Sunday program.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  notes: Oldest and largest Soto Zen Buddhist temple in Oregon, founded 1975. All welcome at Sunday program. Practice advisors available for one-on-one guidance.
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
 - id: diamond-way-buddhist
@@ -1647,8 +1656,8 @@
   category: fitness_wellness
   location_type: physical
   resource_type: organization
-  address: 1532 NE 21st Ave, Apt 101, Portland, OR 97232
-  phone: 503-484-7187
+  address: Portland, OR 97232 (call for location)
+  phone: 360-773-3770
   email: portland@diamondway.org
   website: https://diamondway.org/portland/
   source_urls:
@@ -1664,7 +1673,7 @@
     schedule: Thursdays 7-8pm
     notes: "Guided meditation with explanation. Newcomers especially welcome."
   practical_tips:
-    first_visit: Just show up at 7pm on Monday or Thursday. Newcomers especially welcome.
+    first_visit: Call 360-773-3770 for current location, then show up at 7pm on Monday or Thursday. Newcomers especially welcome.
     registration: None required - drop-in welcome
     what_to_bring: Nothing - cushions provided. Wear comfortable clothes.
     good_to_know: Tibetan Buddhist center (Karma Kagyu lineage) offering guided meditation with explanation. Free always, no pressure. Live-in community center with guest room available. Near transit on NE 21st. Founded 1997.
@@ -1738,7 +1747,7 @@
   location_type: physical
   resource_type: place
   address: 740 SE 106th Ave, Portland, OR 97216
-  phone: 503-823-2525
+  phone: 503-823-3450
   website: https://www.portland.gov/parks/east-portland-community-center
   source_urls:
   - https://www.portland.gov/parks/east-portland-community-center
@@ -1746,12 +1755,12 @@
     daily_admission: $6 adults (Portland residents)
     with_access_discount: Up to 90% off (no proof of income required)
     notes: Non-residents pay higher rates. Children 0-2 FREE.
-  hours: Mon-Fri 5:30am-8pm or 9pm (varies); check website for current schedule
+  hours: Mon-Fri 5:30am-9pm, Sat 7am-5pm, Sun 8am-5pm (pool closes 30 min earlier)
   features:
-  - Fitness center
+  - Fitness center with selectorized strength, treadmills, wheelchair treadmill
   - Indoor pool with whirlpool spa
   - Water fitness classes
-  - Group fitness classes
+  - Group fitness classes daily
   - Open gym
   - Play swims
   programs:
@@ -1770,8 +1779,8 @@
   - Silver Sneakers
   - One Pass
   - Renew Active
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Register for Access Discount online before visiting to get reduced
@@ -1797,7 +1806,7 @@
   location_type: physical
   resource_type: place
   address: 5530 SE 72nd Ave, Portland, OR 97206
-  phone: 503-823-2525
+  phone: 503-823-3183
   website: https://www.portland.gov/parks/mt-scott-community-center
   source_urls:
   - https://www.portland.gov/parks/mt-scott-community-center
@@ -1806,7 +1815,7 @@
     daily_admission: $6 adults (Portland residents)
     with_access_discount: Up to 90% off (no proof of income required)
     notes: Non-residents pay higher rates. Children 0-2 FREE.
-  hours: Mon-Fri 7am-7pm; Sat-Sun 9am-5pm (pool opens 12pm weekends)
+  hours: Mon-Fri 5:30am-9pm, Sat 7am-5pm, Sun 8am-5pm (pool closes 30 min earlier)
   features:
   - Newly renovated 70,000 sq ft facility (reopened Sept 2025)
   - Indoor pool with slide and rope swing
@@ -1832,8 +1841,8 @@
   - Silver Sneakers
   - One Pass
   - Renew Active
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Major renovation completed Sept 2025 - new facility with expanded
@@ -1859,7 +1868,7 @@
   location_type: physical
   resource_type: place
   address: 600 NE 8th Street, Room 130, Gresham, OR 97030
-  phone: 503-988-4860
+  phone: 503-988-4870
   website: https://greshamoregon.gov/Recreation/
   source_urls:
   - https://greshamoregon.gov/Recreation/
@@ -1902,23 +1911,32 @@
   category: fitness_wellness
   location_type: physical
   resource_type: program
-  address: null
-  phone: null
+  address: 2258 NW Raleigh St, Portland, OR 97210
+  phone: 503-894-9341
   website: https://portlandrunning.com
   source_urls:
   - https://portlandrunning.com
+  - https://portlandrunning.com/pages/weekly-group-runs
   pricing:
     description: FREE
+    notes: Sign waiver before first run; no dogs
   programs:
   - name: Monday Trail Run
-    schedule: 6pm
-    location: NW Raleigh
+    schedule: Mondays 6pm
+    location: 2258 NW Raleigh St (PRC Northwest)
+    notes: 5-9 miles in Forest Park; refreshments at Run Pub after
   - name: Tuesday Track Workout
-    schedule: 6:15pm
+    schedule: Tuesdays 6:30pm (arrive 6:15pm)
     location: Duniway Track
-  - name: Saturday Long Run
-    schedule: Mornings
-    notes: All paces welcome
+    notes: 60-75 minute workout including warmup/cooldown
+  - name: Thursday Thirsty Thursdays
+    schedule: Thursdays 6pm
+    location: 2258 NW Raleigh St (PRC Northwest)
+    notes: 5-7 miles followed by refreshments at in-house bar
+  - name: Sunday Long Run
+    schedule: Sundays 8am
+    location: 2258 NW Raleigh St (PRC Northwest)
+    notes: 5-18 miles; all paces welcome
   last_verified: 2025-12-02
   next_audit: 2026-03-02
   audit_frequency: quarterly
@@ -1926,7 +1944,7 @@
     first_visit: Just show up at the designated location at run time. All paces welcome.
     registration: None - free and open to all
     what_to_bring: Running shoes, water, appropriate clothing for weather
-    good_to_know: Three weekly options - Monday trail runs (NW Raleigh 6pm), Tuesday track workouts (Duniway Track 6:15pm), Saturday long runs (mornings, all paces). Hosted by local running specialty store. Great way to meet other runners.
+    good_to_know: Four weekly runs - Monday trail (6pm), Tuesday track (6:30pm), Thursday social (6pm with bar after), Sunday long run (8am). All from NW Raleigh store except Tuesday. Sign waiver before first run, no dogs. Great way to meet other runners.
   accessibility:
     - transit_nearby
   accessibility_notes: Running groups not wheelchair accessible. Check Foot Traffic store for walking alternatives. All paces welcome - supportive of newer runners.
@@ -2057,8 +2075,8 @@
   category: fitness_wellness
   location_type: physical
   resource_type: organization
-  address: null
-  phone: null
+  address: P.O. Box 2972, Portland, OR 97208-2972
+  phone: 503-666-5796
   website: https://portlandbicyclingclub.com/scheduled_rides
   source_urls:
   - https://portlandbicyclingclub.com/scheduled_rides
@@ -2122,8 +2140,8 @@
   - Youth programs
   - Childcare
   - Personal training
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Visit any location for a tour and to learn about membership options and financial assistance
@@ -2146,24 +2164,26 @@
   category: fitness_wellness
   location_type: physical
   resource_type: program
-  address: Gresham, OR
-  phone: null
-  website: https://greshamoregon.gov/Recreation/
+  address: 355 NE 223rd Ave, Gresham, OR 97030
+  phone: 503-512-5511
+  website: https://www.rockhavenclimbing.com/
   source_urls:
-  - https://greshamoregon.gov/Recreation/
+  - https://www.rockhavenclimbing.com/
+  - https://www.greshamoregon.gov/events/2026/community-events/community-climbing-days-2026/
   pricing:
     description: FREE for Gresham residents on specific days
-    notes: Includes rental shoes on Free Friday Climbing
+    notes: Includes rental shoes; chalk sold separately
+  hours: Mon/Wed/Fri/Sat 9am-9pm; Tue/Thu 6am-10pm; Sun 9am-7pm
   programs:
-  - name: Free Friday Climbing
+  - name: Community Climbing Day
     schedule: 1st Friday 5-9pm
     cost: FREE for Gresham residents with SNAP/EBT, $5 for other Gresham residents
-    notes: Includes rental shoes
+    notes: Includes rental shoes; pre-register at rockhavenclimbing.com/first-visit
   - name: Teen Nights
     schedule: 1st & 3rd Saturdays 6-9pm
     cost: FREE
     eligibility: Ages 13-18, Gresham residents
-  last_verified: 2026-01-12
+  last_verified: 2026-01-24
   next_audit: 2026-04-01
   audit_frequency: quarterly
   practical_tips:
@@ -2186,13 +2206,13 @@
   location_type: physical
   resource_type: place
   address: 12000 SE 82nd Ave, Happy Valley, OR 97086
-  phone: 503-653-6913
+  phone: 503-653-6613
   website: https://www.clackamastowncenter.com/en/
   source_urls:
   - https://www.clackamastowncenter.com/en/visit/
   pricing:
     description: FREE
-  hours: Doors open 6am daily for walkers
+  hours: Doors open 7am daily for walkers
   last_verified: 2025-12-02
   next_audit: 2026-06-02
   audit_frequency: annually
@@ -2200,7 +2220,7 @@
     first_visit: Enter through Macy's or JCPenney entrances which open early for walkers
     registration: None - just show up
     what_to_bring: Comfortable walking shoes
-    good_to_know: Doors open 6am daily for walkers before stores open. Climate-controlled, flat surfaces, benches for rest breaks. One loop is approximately 0.5 miles. Restrooms available. Quiet early morning hours are great for those who prefer avoiding crowds.
+    good_to_know: Doors open 7am daily for walkers before stores open. Climate-controlled, flat surfaces, benches for rest breaks. One loop is approximately 0.5 miles. Restrooms available. Quiet early morning hours are great for those who prefer avoiding crowds.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
@@ -2362,11 +2382,13 @@
   source_urls:
   - https://www.portland.gov/parks/charles-jordan-community-center
   pricing:
-    daily_admission: $6 adults (Portland residents)
+    youth: $4 (ages 3-12)
+    adult: $5 (ages 18-59)
+    senior: $4 (ages 60+)
     with_access_discount: Up to 90% off (no proof of income required)
     20_visit_pass: $85
     notes: Non-residents pay higher rates. NO POOL at this location.
-  hours: Mon-Sat (varies); check website for current schedule
+  hours: Mon-Fri 6:30am-9pm, Sat 9am-5pm, Sun CLOSED
   features:
   - 43,000 sq ft facility
   - Largest PP&R gymnasium
@@ -2387,8 +2409,8 @@
   - Silver Sneakers
   - One Pass
   - Renew Active
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: 'Note: No swimming pool at this location - use East Portland or Mt.
@@ -2530,9 +2552,9 @@
     location: Salmon Street Fountain
     cost: FREE
     notes: "30-45 minute workout. Bodyweight movements and running with alternatives for all levels. Rain or shine - they're weatherproof!"
-  eligibility: All ages, all fitness levels
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  eligibility: All ages, all fitness levels - "All Ages, Faces, & Paces"
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just show up at 6:29am - no registration needed
@@ -2562,20 +2584,26 @@
   programs:
   - name: Monday Run
     day: Monday
-    time: 5:45pm
+    time: 6pm
     location: Foot Traffic Westside, 13306 NW Cornell Rd
+    phone: 503-350-0294
   - name: Tuesday Run
     day: Tuesday
-    time: 5:45pm
+    time: 5:30pm
     location: Foot Traffic Northeast, 4020 NE Fremont St
+    notes: Taco Tuesdays - post-run social at Tacovore
+    phone: 503-284-0345
   - name: Wednesday Run
     day: Wednesday
-    time: 6:00pm (arrive 5:45)
-    location: Various locations
+    time: 6pm (arrive 5:45)
+    location: NW 23rd store
+    phone: 503-525-1243
   - name: Thursday Run
     day: Thursday
-    time: 5:45pm
+    time: 6pm
     location: Foot Traffic Southeast (Sellwood), 1260 SE Lambert St
+    notes: Free pizza on final Thursday of each month
+    phone: 971-271-7264
   eligibility: All abilities welcome
   last_verified: 2025-12-02
   next_audit: 2026-06-02
@@ -2610,8 +2638,9 @@
     description: FREE
   programs:
   - name: Saturday Trail Run
-    schedule: Saturdays 9-11am
-    notes: "5-7 mile trail runs in Forest Park, Tryon Creek, and other Portland trails. All paces welcome. Post-run coffee and conversation at trailhead."
+    schedule: Saturdays 8:30am (2 hours)
+    notes: 5-7 miles (3-4 mi option). Forest Park, Tryon Creek, Wildwood Trail. Coffee at trailhead after.
+  members: 4291
   eligibility: All levels welcome
   last_verified: 2025-12-02
   next_audit: 2026-06-02
@@ -2639,9 +2668,10 @@
   resource_type: program
   address: Forest Park, Thurman Entrance
   phone: null
-  website: null
+  website: https://trailsisters.net/local-groups/portland-oregon/
   source_urls:
-  - https://www.runguides.com/portland/running-clubs
+  - https://trailsisters.net/local-groups/portland-oregon/
+  - https://communities.trailsisters.net
   pricing:
     description: FREE
   programs:
@@ -2728,8 +2758,8 @@
   - https://www.thprd.org/fitness-in-the-park
   pricing:
     description: FREE
-  season: 'Year-round (Fall 2025: September 15 - December 8)'
-  schedule_fall_2025:
+  season: 'Year-round (Winter/Spring 2026: January 12 - March 22)'
+  schedule_winter_2026:
   - day: Monday
     time: 4-5pm
     class: Tai Chi
@@ -2747,20 +2777,26 @@
     class: Zumba
     location: Virginia Garcia Wellness Center
   - day: Saturday
-    time: 10-11am
-    class: Kid's Fit & Fun
-    location: Melilah Park
-  - day: Sunday
-    time: 10-11am
+    time: 11am-noon
     class: Tai Chi
-    location: Melilah Park
-    notes: Begins October 12
+    location: Tallac Terrace
+  - day: Sunday
+    time: 11am-noon
+    class: Zumba
+    location: HMT Softball Concessions
   special_events:
-  - name: Harvest Hike
-    date: November 28, 2025
-    time: 10am-12pm
-    location: Jenkins Estate (lower parking lot)
-    notes: Scenic 2-mile family-friendly hike
+  - name: Sweetheart Stroll
+    date: February 8, 2026
+    time: 10am
+    location: Commonwealth Park
+    notes: 1.5-mile accessible walk
+  - name: Women's Wellness Fair
+    date: March 28, 2026
+    time: 11am
+    location: Cedar Hills Recreation Center
+  - name: National Senior Health & Fitness Day
+    date: May 27, 2026
+    location: Elsie Stuhr Center
   eligibility: All ages (varies by class)
   last_verified: 2025-12-02
   next_audit: 2026-03-02
@@ -2937,12 +2973,13 @@
   location_type: physical
   resource_type: place
   address: 1219 SW Park Ave, Portland, OR 97205
-  phone: null
+  phone: 503-226-2811
   website: https://portlandartmuseum.org/
   source_urls:
   - https://portlandartmuseum.org/
+  hours: Sun-Wed, Fri-Sat 10am-5pm; Thu 10am-7pm; Mon closed
   pricing:
-    description: $25 adults; FREE First Thursday; $5 Arts for All (EBT)
+    description: $27.50 adults; FREE First Thursday; $5 Arts for All (EBT)
   programs:
   - name: Free First Thursday
     schedule: 1st Thursdays 10am-7pm
@@ -3038,11 +3075,14 @@
   source_urls:
   - https://wunderlandgames.com/movies/avalon/
   pricing:
-    regular: $5
-    discount_days: $1.50 on Tue/Wed/Thu
+    matinee: $6 (before 6pm)
+    evening_adult: $9 (over 12)
+    evening_kids_seniors: $6 (12 & under, seniors, military)
+    tuesday: $5 all ages all day
+    discount_days: $1.50 on Tue/Wed/Thu (general admission)
     three_d: +$1
     notes: Movie admission includes free arcade general admission
-  hours: 1pm-9pm (may extend to 11am-11pm for movies)
+  hours: 11am-11pm
   features:
   - Two screens
   - Art Deco design (built 1912)
@@ -3067,7 +3107,7 @@
   location_type: physical
   resource_type: place
   address: 2735 E Burnside St, Portland, OR 97214
-  phone: 503-232-5511
+  phone: 503-238-4088
   website: https://www.laurelhursttheater.com/
   source_urls:
   - https://www.laurelhursttheater.com/
@@ -3173,8 +3213,8 @@
   category: arts_culture
   location_type: physical
   resource_type: place
-  address: 511 NW Couch St, Portland, OR 97209
-  phone: null
+  address: 115 NW 5th Ave, Portland, OR 97209
+  phone: 503-796-9364
   website: https://groundkontrol.com/
   source_urls:
   - https://groundkontrol.com/
@@ -3184,7 +3224,7 @@
     free_play_all_ages: $6 (noon-5pm)
     free_play_21_plus: $12 (after 5pm)
     weekend_cover: Cover charge during peak weekend hours
-  hours: Daily noon-2:30am
+  hours: Daily noon-midnight (all ages until 5pm, 21+ after)
   programs:
   - name: Free Play (2nd Thursday)
     schedule: 2nd Thursday 12-12am
@@ -3243,7 +3283,7 @@
   category: arts_culture
   location_type: physical
   resource_type: organization
-  address: 5135 NE Columbia Blvd, Portland, OR
+  address: 5135 NE Columbia Blvd, Portland, OR 97218
   phone: 503-288-8177
   website: https://nayapdx.org/
   source_urls:
@@ -3337,8 +3377,9 @@
   location_type: physical
   resource_type: place
   address: 1200 SW Park Ave, Portland, OR 97205
-  phone: null
+  phone: 503-222-1741
   website: https://www.ohs.org/
+  hours: Mon-Sat 10am-5pm; Sun noon-5pm
   source_urls:
   - https://www.ohs.org/museum/plan-your-visit.cfm
   pricing:
@@ -3382,7 +3423,8 @@
     aam_cajm: FREE
     blue_star: FREE (active military + families)
     press: FREE
-  practical_tips: "Free admission with SNAP/WIC. Free for children under 12. Small museum - good for a 1-2 hour visit. Holocaust education exhibits are thoughtful and respectful. Open Wed-Sun 11am-4pm only. Old Town location."
+    first_sunday: FREE (first Sunday of every month)
+  practical_tips: "Free first Sunday of every month. Also free with SNAP/WIC. Free for children under 12. Small museum - good for a 1-2 hour visit. Holocaust education exhibits are thoughtful and respectful. Open Wed-Sun 11am-4pm only. Old Town location."
   accessibility:
     - wheelchair_accessible
     - transit_nearby
@@ -3392,8 +3434,8 @@
     - indoor
     - low_energy
   notes: Closed Mon-Tue and major holidays including Jewish holidays.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   guide_location: activities-guide-2.md#museum-free-days
 - id: five-oaks-museum
@@ -3411,8 +3453,8 @@
   - https://fiveoaksmuseum.org/about/
   pricing:
     description: Was always FREE
-  last_verified: 2025-12-02
-  next_audit: null
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: null
   practical_tips: "CLOSED as of December 2024 due to funding cuts. Collection transferred to Washington County."
   accessibility:
@@ -3436,11 +3478,16 @@
   website: https://orhf.org/
   source_urls:
   - https://orhf.org/
-  - https://www.travelportland.com/culture/oregon-rail-heritage-center/
+  - https://orhf.org/visit-orhc/
   hours: Thu-Sun 1-5pm (volunteer-run, verify before visit)
   pricing:
-    description: FREE (admission fee starting January 2026)
-    notes: Train ride tickets sold separately
+    adult: $6 (age 14+)
+    senior: $5 (age 65+)
+    military: $5 (active & retired with ID)
+    child: $4 (age 3-13)
+    under_3: FREE
+    members: FREE
+    notes: Admission fee began January 2026 after 13 years of free entry. Train ride tickets sold separately.
   features:
   - Three vintage steam locomotives
   - SP 4449 (operable)
@@ -3457,8 +3504,8 @@
     - indoor
     - low_energy
   notes: Near OMSI by Tilikum Crossing. Since 2012. Locomotives owned by City of Portland.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   guide_location: activities-guide-2.md#always-free-museums
 - id: clackamas-county-libraries
@@ -3509,8 +3556,8 @@
   - Free WiFi
   - eBooks via Libby/Overdrive
   - Seeds for Sharing garden seed checkout
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Free library card for all Oregon residents. Cultural passes available for Pittock Mansion and Evergreen Aviation. Many locations offer free programs, computer access, and quiet spaces. Homebound delivery available for eligible patrons."
   accessibility:
@@ -3556,8 +3603,8 @@
   - Dome screen visuals
   eligibility: Open to the public
   parking: Lot J closest to planetarium
-  last_verified: 2025-12-03
-  next_audit: 2026-03-03
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Arrive 15 min early - seats fill up
@@ -3592,8 +3639,8 @@
     schedule: 1st & 3rd Wednesdays 12-1pm
     cost: FREE
     notes: Historic 1882 venue, fully wheelchair accessible
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Free lunchtime concerts on 1st and 3rd Wednesdays 12-1pm. Beautiful historic 1882 venue. No ticket needed - just show up. Peaceful midday break. Located downtown near PSU campus."
   accessibility:
@@ -3611,7 +3658,7 @@
   location_type: physical
   resource_type: place
   address: 2007 SE Powell Blvd, Portland, OR 97202
-  phone: null
+  phone: 503-232-8845
   website: https://artichokemusic.org/
   source_urls:
   - https://artichokemusic.org/
@@ -3620,8 +3667,8 @@
   programs:
   - Open mic nights (check calendar for dates)
   - Affordable music lessons (sliding scale)
-  last_verified: 2026-01-12
-  next_audit: 2026-04-01
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Community music school offering affordable lessons. Check their calendar for open mic nights. Sliding scale available for lessons. Instruments available to borrow. Welcoming to beginners."
   accessibility:
@@ -3632,7 +3679,7 @@
     - indoor
     - isolation
   guide_location: activities-guide-2.md#open-mic
-  notes: Nonprofit community music center since 1973
+  notes: Nonprofit community music center since 1971
 - id: st-james-bach
   name: St. James Lutheran Church Bach Cantata Vespers
   category: arts_culture
@@ -3647,13 +3694,14 @@
     description: FREE
   programs:
   - name: Bach Cantata Vespers
-    schedule: Sundays 4-5pm
+    schedule: Select Sundays 4-5pm (4 per season)
     cost: FREE
-    notes: Multiple Sundays throughout the year
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+    dates_2026: February 22, June 14 (more TBA)
+    notes: Four Bach cantatas per season presented within Evening Prayer liturgy with choir, soloists, and orchestra.
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
-  practical_tips: "Free concerts featuring Bach cantatas on select Sundays at 4pm. No tickets needed - just show up. Offerings accepted but not required. Beautiful church setting with excellent acoustics. Check schedule for upcoming dates."
+  practical_tips: "Free concerts featuring Bach cantatas on select Sundays at 4pm. Four cantatas per season. No tickets needed - just show up. Offerings accepted but not required. Beautiful church setting with excellent acoustics. 2026 dates: Feb 22, Jun 14."
   accessibility:
     - wheelchair_accessible
   social_intensity: drop_in
@@ -3667,8 +3715,8 @@
   category: arts_culture
   location_type: physical
   resource_type: place
-  address: 900 SE 35th Ave, Portland, OR
-  phone: null
+  address: 900 SE 35th Ave, Portland, OR 97214
+  phone: 503-823-3741
   website: https://www.portland.gov/fire/belmont-firehouse-museum
   source_urls:
   - https://www.portland.gov/fire/belmont-firehouse-museum
@@ -3676,15 +3724,11 @@
     description: FREE
   programs:
   - name: Wednesday Open Hours
-    schedule: Wednesdays 10am-2pm
+    schedule: Wednesdays 9am-3pm
     cost: FREE
-    notes: Explore Portland Fire & Rescue history through interactive exhibits, an 1860 hose cart, fire pole, and emergency response simulator. Hands-on museum celebrating the heritage of firefighting in Portland.
-  - name: Second Saturday Open Hours
-    schedule: 2nd Saturdays 10am-2pm
-    cost: FREE
-    notes: Explore Portland Fire & Rescue history through interactive exhibits, an 1860 hose cart, fire pole, and emergency response simulator. Hands-on museum celebrating the heritage of firefighting in Portland.
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+    notes: Explore Portland Fire & Rescue history through interactive exhibits, an 1860 hose cart, fire pole, and emergency response simulator. Group visits outside these times require 2 weeks advance notice.
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "Historic 1912 firehouse open for free on Wednesdays and 2nd Saturdays 10am-2pm. Small museum with local history exhibits. Usually quiet and uncrowded. Good for a quick visit."
   accessibility:
@@ -3701,7 +3745,7 @@
   category: arts_culture
   location_type: physical
   resource_type: place
-  address: 8 NE Killingsworth St, Portland, OR
+  address: 8 NE Killingsworth St, Portland, OR 97211
   phone: 503-284-6019
   website: https://turnturnturnpdx.com/
   source_urls:
@@ -3721,8 +3765,8 @@
     schedule: 2nd & 4th Mondays 8-11pm
     cost: FREE
     notes: K-Tel and Larry-okee supportive karaoke night. Low-pressure, encouraging atmosphere for singers of all abilities. 21+ after 8pm. Cash only at door, all payments at bar.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Drawing Club (Sun 12:30-3:30pm), and karaoke (2nd & 4th Mon 8-11pm). All ages welcome for most daytime events. Casual atmosphere good for meeting people."
   accessibility:
@@ -3745,15 +3789,16 @@
   - https://laurelthirst.com/
   pricing:
     description: FREE happy hour shows
+  hours: Mon-Wed 4pm-10pm, Thu 4pm-11pm, Fri 4pm-12am, Sat 12pm-12am, Sun 12pm-11pm
   programs:
   - name: Happy Hour Live Music
-    schedule: Daily 6-8pm
+    schedule: Daily 6-9pm
     cost: FREE
-    notes: Acoustic and Americana music
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+    notes: Acoustic, folk, and Americana music. All shows free unless otherwise noted. Tip the musicians.
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
-  practical_tips: "Beloved neighborhood pub with free live acoustic and Americana music daily 6-8pm happy hour. No cover most nights. Gets crowded on weekends. Good food and local beer selection. Cozy historic space."
+  practical_tips: "Beloved neighborhood pub with free live acoustic and Americana music during 6-9pm happy hour. All shows free unless listed. Gets crowded on weekends. Good food and local beer selection. Cozy historic space. 21+ venue."
   accessibility:
     - transit_nearby
   social_intensity: drop_in
@@ -3774,8 +3819,8 @@
   - https://www.mthoodtheatre.com/
   pricing:
     description: $5 Bargain Wednesdays
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "Small-town theater in Gresham with $5 Bargain Wednesdays. Second-run films at discount prices. Less crowded than Portland theaters. Good parking available. Family-friendly atmosphere."
   accessibility:
@@ -3802,11 +3847,11 @@
     regular: $17 adults, $15 youth (4-17), FREE under 3 and 100+
     library_pass: FREE with Clackamas County Library Cultural Pass
     free_days:
+    - February 14 (Oregon Statehood Day)
     - June 19 (Juneteenth)
     - September 21 (International Day of Peace)
     - December 10 (Human Rights Day)
-    - March TBA
-    anniversary_discount: 30% off during week of June 17, 2025
+    anniversary_discount: Age-based discounts during anniversary week (June)
   hours: Mon-Sat 9am-5pm, Sun 10am-5pm (last admission 3:30pm daily)
   features:
   - Oregon's First Peoples film
@@ -3816,8 +3861,8 @@
   - Pioneer Garden (free)
   - Interpretive displays
   - Abernathy Green
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips:
     first_visit: Allow several hours for full experience
@@ -3840,14 +3885,14 @@
   location_type: physical
   resource_type: place
   address: 17917 SE Stark St, Portland, OR 97233
-  phone: null
+  phone: 503-988-5123
   website: https://multcolib.org/hours-and-locations/rockwood-library
   source_urls:
   - https://multcolib.org/hours-and-locations/rockwood-library
   - https://multcolib.org/events-classes
   pricing:
     description: FREE
-  hours: Reopened October 24, 2025 after renovation
+  hours: Mon 10am-6pm, Tue-Wed 12pm-8pm, Thu-Sat 10am-6pm, Sun 12pm-6pm
   services:
   - Free library card and materials
   - Computer access and WiFi
@@ -3870,8 +3915,8 @@
     notes: Through Torus organization
   - name: Adult Maker Time
     notes: Art and craft projects, materials provided
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips:
     first_visit: Recently renovated - updated space reopened October 2025
@@ -3904,11 +3949,7 @@
   pricing:
     description: FREE
     notes: Fine-free library system
-  hours: 'Mon-Wed: 10am-8pm
-
-    Thu-Sun: 10am-6pm
-
-    '
+  hours: 'Mon-Thu: 10am-8pm, Fri-Sun: 10am-6pm'
   programs:
   - name: ESL Conversation Classes
     schedule: Wednesdays, 6-7:30pm
@@ -3933,8 +3974,8 @@
   - Public computers
   - Meeting rooms
   - Cultural Pass Express access
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Get a free library card with proof of address
@@ -3997,8 +4038,8 @@
     schedule: June 1 - August 31
     cost: FREE
     notes: All ages; readings, special events, prizes
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Kids Librarian available at 503-697-6580
@@ -4053,8 +4094,8 @@
   - name: Makerspace Open Lab
     schedule: Various times
     cost: FREE
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Reference Desk at 503-691-3072 for questions
@@ -4078,14 +4119,14 @@
   location_type: physical
   resource_type: place
   address: 8700 SW Sweek Drive, Tualatin, OR 97062
-  phone: null
+  phone: 503-885-1926
   website: https://www.tualatinhistory.org
   source_urls:
   - https://www.tualatinhistory.org
   - https://www.tualatinoregon.gov/recreation/tualatin-heritage-center
   pricing:
     description: FREE admission
-  hours: Check website for current hours
+  hours: Mon-Fri 10am-2pm (closed weekends)
   programs:
   - name: Fossil Fest 2025
     date: August 2, 2025
@@ -4110,8 +4151,8 @@
     date: September 5, 2025
     cost: $50
     notes: Fundraiser featuring Oregon Cowboy Poet Tom Swearingen
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips:
     first_visit: Check website for current exhibit information
@@ -4175,8 +4216,8 @@
     dates: May 6 - May 27, 2026
   eligibility: Open to the public
   parking: Weekday permits required at kiosks; free on weekends
-  last_verified: 2025-12-03
-  next_audit: 2026-03-03
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check hours online - galleries close between exhibits
@@ -4200,6 +4241,7 @@
   category: arts_culture
   location_type: physical
   resource_type: event
+  status: PAST
   address: 12000 SW 49th Ave, Portland, OR 97219
   phone: 971-722-4848
   website: https://www.pcc.edu/theatre/
@@ -4253,8 +4295,8 @@
   schedule: 4 exhibitions per year (October-May)
   eligibility: Open to the public
   parking: Lot J closest to gallery
-  last_verified: 2025-12-03
-  next_audit: 2026-03-03
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check website for current exhibit
@@ -4324,7 +4366,7 @@
   location_type: physical
   resource_type: place
   address: 318 SE Main Street, Suites 155 & 145, Portland, OR 97214
-  phone: null
+  phone: 503-827-0249
   website: https://www.iprc.org/
   source_urls:
   - https://www.iprc.org/
@@ -4336,8 +4378,8 @@
     schedule: 1st Sunday 5-7pm
     cost: $5 suggested donation (no one turned away)
     notes: "Free monthly collage session. All materials provided. Great for beginners."
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Resource center for zines, books, prints, and comics. Home to 9,000+ zine library. Offers letterpress, screen printing, risograph, and bookbinding workshops. Collage Night is beginner-friendly."
   accessibility:
@@ -4363,13 +4405,17 @@
     description: FREE ($5 suggested donation)
   programs:
   - name: Open Mic at Guilder Cafe
-    schedule: 1st Thursday 7-9pm
-    notes: "Intimate cafe setting. Poets get 3 minutes. First-come, first-served signup."
+    schedule: 1st Thursday, signups 6pm, show 6:30pm
+    notes: "Inside Powell's Books downtown. Poets get 3 minutes. First-come, first-served signup. $5 suggested donation."
   - name: Open Mic at Literary Arts
-    schedule: 3rd Thursday 7-9pm
+    schedule: 3rd Thursday 7pm
+    cost: FREE
     notes: "Larger venue downtown. Features slam competition and featured readers."
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  - name: Open Mic at Flour Bloom
+    schedule: Last Friday of month
+    notes: "Poetry open mic and slam. Check website for details."
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Poetry slam and open mic. Poets get 3 minutes on mic. Supportive environment for sharing creative work. Arrive early to sign up for open mic slots."
   accessibility:
@@ -4385,16 +4431,16 @@
   category: arts_culture
   location_type: physical
   resource_type: program
-  address: The Stacks Coffeehouse, 1831 N. Killingsworth, Portland
-  phone: null
+  address: The Stacks Coffeehouse, 1831 N Killingsworth St, Portland, OR 97217
+  phone: 503-384-2834
   website: https://www.thestackscoffeehouse.com/events
   source_urls:
   - https://www.thestackscoffeehouse.com/events
   pricing:
     description: FREE
   schedule: Last Sunday of each month 4-6pm
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Welcoming open mic for poets and storytellers. Musical accompaniments welcome. Cozy coffeehouse setting ideal for those nervous about sharing work for the first time. Very supportive community."
   accessibility:
@@ -4419,8 +4465,8 @@
   pricing:
     description: Many free events; membership has benefits
   schedule: Various workshops and critique groups throughout the month
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Oregon's largest writers' organization. Free writing workshops and drop-in critiques available. Annual conference in August. Good for connecting with other writers at all levels."
   accessibility:
@@ -4602,10 +4648,10 @@
   - https://urbanartnetwork.org/
   pricing:
     description: FREE
-  schedule: First Thursday monthly, 5-9pm
+  schedule: First Thursday monthly, 5-9pm (year-round)
   transit: MAX to Galleria/SW 10th
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Start at any Pearl District gallery - most along NW 12th-13th between Burnside and Lovejoy
@@ -4638,10 +4684,10 @@
   - https://www.travelportland.com/event/319442/
   pricing:
     description: FREE
-  schedule: Last Thursday monthly; street closures 6-9pm June-August
+  schedule: Last Thursday monthly (year-round); street closures 6-9pm June-August
   transit: Bus 72
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Start anywhere along Alberta between 15th and 30th Ave
@@ -4675,8 +4721,9 @@
   pricing:
     description: FREE
   dates: November 27, 2026 (day after Thanksgiving), 5:30-6:45pm
-  last_verified: 2025-12-02
+  last_verified: 2026-01-24
   next_audit: 2026-10-01
+  notes: 42nd annual in 2026. Features Pink Martini sing-along, Santa lights 10,000+ LEDs on 75-foot Douglas fir.
   audit_frequency: annually
   practical_tips:
     first_visit: Arrive early for best viewing spot on the square's brick steps
@@ -4750,9 +4797,8 @@
   - name: Music in the Parks
     schedule: Every other Wednesday 6:30-8:30pm
     cost: FREE
-    notes: July-August at Nadaka Nature Park, Bella Vista Park, Butler Creek Park,
-      Vance Park
-  last_verified: 2025-12-02
+    notes: July-August at Nadaka Nature Park, Bella Vista Park, Butler Creek Park, Vance Park; 2026 dates TBA
+  last_verified: 2026-01-24
   next_audit: 2026-06-01
   audit_frequency: quarterly
   practical_tips:
@@ -4818,8 +4864,10 @@
   pricing:
     description: $7 one-day / $12 two-day; Kids under 16 FREE
   dates: May 2-3, 2026
-  last_verified: 2025-12-02
+  hours: Sat 9am-5pm, Sun 9am-4pm
+  last_verified: 2026-01-24
   next_audit: 2026-04-01
+  notes: Free parking and free soil pH testing with admission.
   audit_frequency: annually
   practical_tips:
     first_visit: Arrive early for best plant selection
@@ -4849,8 +4897,9 @@
   pricing:
     description: FREE
   dates: July 18, 2026
-  last_verified: 2025-12-02
+  last_verified: 2026-01-24
   next_audit: 2026-06-01
+  notes: Date estimated based on typical mid-July schedule; confirm closer to event.
   audit_frequency: annually
   practical_tips:
     first_visit: Main stage area is in downtown Gresham near Main City Park
@@ -4884,8 +4933,9 @@
     description: FREE
   dates: August 23, 2026
   hours: 10am-8pm
-  last_verified: 2025-12-02
+  last_verified: 2026-01-24
   next_audit: 2026-07-01
+  notes: Date estimate based on typical mid-August schedule (near India Independence Day Aug 15); confirm closer to event
   audit_frequency: annually
   practical_tips:
     first_visit: Enter from any side of Pioneer Courthouse Square
@@ -4918,8 +4968,9 @@
     description: FREE
   dates: August 1, 2026
   hours: 2pm-9pm (Bon Odori dancing starts 7pm)
-  last_verified: 2025-12-02
+  last_verified: 2026-01-24
   next_audit: 2026-07-01
+  notes: Always first Saturday of August. Portland Taiko performs. Yakisoba, shave ice, mochi available.
   audit_frequency: annually
   practical_tips:
     first_visit: Arrive by 7pm for Bon Odori dancing - no experience needed
@@ -4950,10 +5001,11 @@
   - https://www.dahlias.com/
   pricing:
     description: FREE entry (flowers for purchase)
-  dates: August 15 - September 30, 2026
-  hours: Wed-Sun + Labor Day
-  last_verified: 2025-12-02
+  dates: August 1 - September 30, 2026
+  hours: Wed-Sun + Labor Day, 9am-5:30pm
+  last_verified: 2026-01-24
   next_audit: 2026-07-01
+  notes: Free parking. Festival includes classes, food carts, live music on Sat/Sun, Sunday Market. Over 50 years running.
   audit_frequency: annually
   practical_tips:
     first_visit: Drive to Canby - about 30 min from Portland. Open Wed-Sun + Labor Day.
@@ -5016,8 +5068,10 @@
   pricing:
     description: FREE
   dates: September 19-20, 2026
-  last_verified: 2025-12-02
+  hours: Sat 11am-10pm, Sun noon-6pm
+  last_verified: 2026-01-24
   next_audit: 2026-08-01
+  notes: Longest-running Polish festival on West Coast. Dates estimated based on typical mid-September weekend; confirm closer to event.
   audit_frequency: annually
   practical_tips:
     first_visit: Located at Polish Hall on N Interstate Ave
@@ -5048,8 +5102,9 @@
     description: $5 (children under 12 FREE)
   dates: October 2-4, 2026
   hours: Fri-Sat 10am-10pm, Sun 11am-7pm
-  last_verified: 2025-12-02
+  last_verified: 2026-01-24
   next_audit: 2026-09-01
+  notes: 72nd annual in 2025; 15,000+ guests annually
   audit_frequency: annually
   practical_tips:
     first_visit: Located at Holy Trinity Greek Orthodox Cathedral on NE Glisan
@@ -5082,7 +5137,7 @@
     description: FREE
   dates: November 1, 2026
   hours: 4-8pm
-  last_verified: 2025-12-02
+  last_verified: 2026-01-24
   next_audit: 2026-10-01
   audit_frequency: annually
   practical_tips:
@@ -5107,7 +5162,7 @@
   category: events
   location_type: physical
   resource_type: event
-  address: Happy Valley Park, Happy Valley, OR
+  address: Happy Valley Park, 13770 SE Ridgecrest Rd, Happy Valley, OR
   phone: null
   website: https://www.happyvalleyor.gov/4th-of-july-family-festival/
   source_urls:
@@ -5115,8 +5170,10 @@
   pricing:
     description: FREE
   dates: July 4, 2026
-  last_verified: 2025-12-02
+  hours: Noon-10pm (parade at noon, fireworks at dusk)
+  last_verified: 2026-01-24
   next_audit: 2026-06-01
+  notes: Independence Day hike at 9:30am, parade at noon. Beer garden, carnival rides (wristbands), food vendors.
   audit_frequency: annually
   practical_tips:
     first_visit: Arrive early for parking at Happy Valley Park
@@ -5138,7 +5195,7 @@
   category: events
   location_type: physical
   resource_type: event
-  address: Happy Valley Park, Happy Valley, OR
+  address: Happy Valley Park, 13770 SE Ridgecrest Rd, Happy Valley, OR
   phone: null
   website: https://www.happyvalleyor.gov/services/hv-community-events/summer-concerts/
   source_urls:
@@ -5147,17 +5204,17 @@
     description: FREE
   programs:
   - name: Thursday Concert
-    schedule: Thursdays 6-8pm
+    schedule: Thursdays 6:30-8:30pm
     cost: FREE
-    notes: July-August
-  last_verified: 2025-12-02
+    notes: July-August; 2026 dates TBA (check website in June)
+  last_verified: 2026-01-24
   next_audit: 2026-06-01
   audit_frequency: annually
   practical_tips:
     first_visit: Happy Valley Park location - arrive early for best lawn spots
     registration: None - free admission
     what_to_bring: Blankets, lawn chairs, picnic food
-    good_to_know: Free Thursday evening concerts July-August, 6-8pm. Family-friendly community event. Great way to relax and enjoy live music outdoors.
+    good_to_know: Free Thursday evening concerts July-August, 6:30-8:30pm. 27th season in 2025. "Happy Zone" kids activity area added. Family-friendly community event.
   accessibility:
     - wheelchair_accessible
   accessibility_notes: Happy Valley Park has accessible paths and facilities.
@@ -5183,8 +5240,9 @@
   pricing:
     description: FREE
   dates: October 4, 2026
-  last_verified: 2025-12-02
+  last_verified: 2026-01-24
   next_audit: 2026-09-01
+  notes: Date estimated based on typical first-Saturday-of-October pattern; confirm closer to event.
   audit_frequency: annually
   practical_tips:
     first_visit: Happy Valley Park location
@@ -5214,8 +5272,9 @@
   pricing:
     description: FREE
   dates: December 7, 2026
-  last_verified: 2025-12-02
+  last_verified: 2026-01-24
   next_audit: 2026-11-01
+  notes: Date estimated based on typical first-Monday-of-December pattern; confirm closer to event.
   audit_frequency: annually
   practical_tips:
     first_visit: Located at Happy Valley City Hall area
@@ -5288,11 +5347,11 @@
   pricing:
     description: FREE - no license required
   dates:
-  - February 15-16, 2026
+  - February 14-15, 2026
   - June 6-7, 2026
   - November 27-28, 2026
-  last_verified: 2025-12-02
-  next_audit: 2026-02-01
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips:
     first_visit: Find a fishing spot - many stocked ponds in Portland metro area
@@ -5324,8 +5383,9 @@
   pricing:
     description: FREE viewing from any riverfront
   dates: December 4-18, 2026
-  last_verified: 2025-12-02
+  last_verified: 2026-01-24
   next_audit: 2026-11-01
+  notes: 2026 dates estimated based on typical mid-December schedule; confirm in fall. 15 nights of decorated boats.
   audit_frequency: annually
   practical_tips:
     first_visit: Check christmasships.org for nightly schedule showing which river section the fleet will be on
@@ -5369,9 +5429,10 @@
   - Gresham Arts Plaza, 401 NE Second St
   - Red Sunset Park, 2403 NE Red Sunset Dr
   - Pat Pfiefer Park, 424 NE 172nd Ave
-  last_verified: 2025-12-02
+  last_verified: 2026-01-24
   next_audit: 2026-05-01
   audit_frequency: annually
+  notes: 2026 schedule TBA - check website in May. LED screen visible in daylight.
   practical_tips:
     first_visit: Arrive early to secure good spot - events start at 6:30pm
     registration: null
@@ -5396,15 +5457,15 @@
   location_type: physical
   resource_type: event
   address: Millennium Plaza Park, Lake Oswego, OR
-  phone: null
+  phone: 503-534-5422
   website: https://www.ci.oswego.or.us/parksrec/community-events
   source_urls:
   - https://www.ci.oswego.or.us/parksrec/community-events
   pricing:
     description: FREE
   season: Summer 2026
-  schedule: Various dates (typically Thursday evenings)
-  last_verified: 2025-12-02
+  schedule: Various dates (typically Thursday evenings); 2026 schedule TBA
+  last_verified: 2026-01-24
   next_audit: 2026-05-01
   audit_frequency: annually
   practical_tips:
@@ -5436,21 +5497,10 @@
   - https://www.tualatinoregon.gov/recreation/concerts-parks
   pricing:
     description: FREE
-  season: Summer 2025
-  schedule: Friday evenings, 6:30-8:30pm
-  events_2025:
-  - date: July 11, 2025
-    performer: Johnny Limbo and the Lugnuts
-    genre: Rock Classics
-  - date: July 12, 2025
-    performer: A Cara O Cruz
-    genre: Cumbia
-    notes: Special Saturday concert
-  - date: August 8, 2025
-    performer: CJ Mickens
-    genre: Pop/Urban 80s/90s R&B, Funk, Rock and Soul
-    notes: PRIDE celebration double header
-  last_verified: 2025-12-02
+  season: Summer 2026
+  schedule: Friday evenings, 6:30-8:30pm (plus lunchtime series 12-1pm)
+  notes: 2026 dates TBA - check website in June. Multiple locations including Tualatin Community Park, Atfalati Park, and Lake of the Commons.
+  last_verified: 2026-01-24
   next_audit: 2026-05-01
   audit_frequency: annually
   practical_tips:
@@ -5499,8 +5549,9 @@
   - name: PCC Cascade Campus
     address: 705 N Killingsworth St, Portland, OR 97217
   eligibility: Open to the public
-  last_verified: 2025-12-03
+  last_verified: 2026-01-24
   next_audit: 2026-02-01
+  notes: 37th annual in 2026. 5-week celebration of African cinema during Black History Month.
   audit_frequency: monthly
   practical_tips:
     first_visit: Check schedule online - different films each weekend
@@ -5549,8 +5600,9 @@
   - PCC Southeast Campus
   - Portland Art and Cultural Center
   eligibility: Open to the public, family-friendly
-  last_verified: 2025-12-03
+  last_verified: 2026-01-24
   next_audit: 2026-06-01
+  notes: Portland's OG night market since 2014. Vietnamese/Bollywood dance, taiko drumming. 10th annual in 2026.
   audit_frequency: quarterly
   practical_tips:
     first_visit: Arrive early for parking; bring cash for vendors
@@ -5589,8 +5641,8 @@
   transit: Bus 15, 26, or 77 to Lower Macleay; MAX Red/Blue to Oregon Zoo for Wildwood
     Trail
   accessibility_notes: ADA-accessible 0.2-mile paved segment at Lower Macleay
-  last_verified: 2025-11-25
-  next_audit: 2026-11-25
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "5,200 acres with 80+ miles of trails. Lower Macleay has ADA-accessible 0.2-mile paved segment. Take bus 15/26/77 to Lower Macleay or MAX to Oregon Zoo for Wildwood Trail. Quieter on weekday mornings."
   accessibility:
@@ -5618,8 +5670,8 @@
   transit: 'Bus #11 on N. Marine Drive'
   accessibility_notes: Paved 0.9-mile Interlakes Trail, fully accessible, two viewing
     platforms
-  last_verified: 2025-11-25
-  next_audit: 2026-11-25
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "Largest urban freshwater wetland in US (2,000 acres). Very few visitors - excellent for social anxiety. Paved 0.9-mile Interlakes Trail is fully accessible with two viewing platforms. Bus #11 to N. Marine Drive. Dawn to dusk."
   accessibility:
@@ -5654,8 +5706,8 @@
     schedule: Saturdays 10-11am
     cost: FREE
     notes: "One-hour guided hike with a park naturalist. Topics vary weekly - fungi, wildlife, seasonal themes. Ages 5+ (all ages welcome). No registration - meet at Nature Center."
-  last_verified: 2025-11-25
-  next_audit: 2026-05-25
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Park FREE; parking $10/day starting Oct 2025 (free if arriving by foot, bike, or bus #35). Trillium Trail is 0.25 mile paved and fully accessible. Free Saturday guided nature walks at 10am. Nature Center 9am-4pm daily."
   accessibility:
@@ -5683,8 +5735,8 @@
     description: FREE
   hours: Park 5am-10pm; Visitor Center Wed-Sun 9am-3pm
   transit: 'Bus #9 or #74'
-  last_verified: 2025-11-25
-  next_audit: 2026-11-25
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "FREE entry. 611 acres with 360-degree views from meadow summit. Visitor Center open Wed-Sun 9am-3pm. Bus #9 or #74. Weekday mornings are quieter. Mix of open meadow and forested trails."
   accessibility:
@@ -5708,8 +5760,8 @@
   - https://portland.gov/parks/oaks-bottom-wildlife-refuge
   pricing:
     description: FREE
-  last_verified: 2025-12-02
-  next_audit: 2026-12-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "Portland's first wildlife refuge with 175+ bird species. Very few visitors - excellent for anxiety. FREE entry. Near Sellwood neighborhood. Good for birding and quiet walks. Mostly flat trails."
   accessibility:
@@ -5755,8 +5807,8 @@
     - family_friendly
   notes: Opened 2009. Owned by Metro, maintained by THPRD. Views of Chehalem Mountains
     and Tualatin Valley.
-  last_verified: 2025-12-02
-  next_audit: 2026-12-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   guide_location: activities-guide-1.md#metro-regional-natural-areas
 - id: oxbow-regional-park
@@ -5778,8 +5830,8 @@
   - Campfire programs
   - Mushroom walks
   free_days: 16+ days annually
-  last_verified: 2025-12-02
-  next_audit: 2026-12-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "Old-growth forest with 700-year-old trees. $5/car or $40 annual pass. 16+ free days annually - check Metro website. Fee waivers available for programs (~$6/person). Guided hikes, campfire programs, mushroom walks offered."
   accessibility:
@@ -5822,8 +5874,8 @@
   - Owl Prowl (October-February)
   - Waterfowl Watch
   - Volunteer work parties
-  last_verified: 2025-12-02
-  next_audit: 2026-12-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "FREE entry and all programs free. Visitor Center Tue-Sun 10am-4pm. Trails dawn to dusk. Wetland Trail open May-Sept only. Programs include Puddle Stompers (ages 2-5), Owl Prowl, ranger-led hikes. 200+ bird species."
   accessibility:
@@ -5873,8 +5925,8 @@
     - anxiety_friendly
     - low_energy
   notes: Living museum of trees. Trail maps in English and Spanish.
-  last_verified: 2025-12-02
-  next_audit: 2026-12-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   guide_location: activities-guide-2.md#hoyt-arboretum
 - id: bird-alliance-oregon
@@ -5915,8 +5967,8 @@
     - low_energy
   notes: Name changed from Portland Audubon in Feb 2024. Upper Macleay in Forest Park
     (adjacent) is dog-friendly.
-  last_verified: 2025-12-02
-  next_audit: 2026-12-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   guide_location: activities-guide-2.md#bird-alliance-of-oregon
 - id: gresham-splash-pads
@@ -5938,8 +5990,8 @@
   - name: Rockwood Plaza Splash Pad
     address: 458 SE 185th Ave, Gresham, OR
     hours: 8am-9pm (May-September)
-  last_verified: 2025-12-02
-  next_audit: 2026-05-01
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "FREE splash pads at Gresham Arts Plaza (10am-10pm) and Rockwood Plaza (8am-9pm). Seasonal May-September. Bring towels and sunscreen. Good for cooling off on hot days. Both locations have other amenities nearby."
   accessibility:
@@ -5968,8 +6020,8 @@
   features:
   - 18 holes
   - Championship-level
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "FREE 18-hole championship-level disc golf course. Parking $5 or $40 annual Metro pass. Bring your own discs. Can be busy on weekends. Good exercise and can be done solo. Beautiful lakeside setting."
   accessibility:
@@ -6012,8 +6064,8 @@
     cost: FREE
   - name: Tsuru Island Garden Events
     notes: Performances, workshops, monthly bonsai classes
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips:
     first_visit: Don't miss Tsuru Island Japanese Garden within the park
@@ -6045,8 +6097,8 @@
     description: FREE
   features:
   - Restored oak woodland and wetlands
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "FREE entry. Restored oak woodland and wetlands in Wilsonville. Metro nature park with quiet trails. Usually not crowded. Good for nature walks and birding."
   accessibility:
@@ -6072,8 +6124,8 @@
   features:
   - Mount Hood views
   - Shady trails
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "FREE entry in Happy Valley. Shady trails with Mount Hood views. Metro nature park. Usually quiet. Good for hiking and nature observation."
   accessibility:
@@ -6098,8 +6150,8 @@
     description: FREE
   features:
   - Forested trails
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "FREE entry in Clackamas. Forested trails through second-growth forest. Metro nature park. Usually quiet. Good for moderate hiking."
   accessibility:
@@ -6142,8 +6194,8 @@
   - Paved trails through Butterfly Garden
   - Natural surface trails through wooded areas with river views
   - Connection to Fanno Creek Greenway Trail
-  last_verified: 2025-12-02
-  next_audit: 2026-12-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips:
     first_visit: Start at main parking lot for playground and butterfly garden access
@@ -6193,8 +6245,8 @@
     reservable: Main, Trestle, and Patio Shelters
     first_come: Rustic Shelter
     notes: Main Shelter has BBQ grill
-  last_verified: 2025-12-02
-  next_audit: 2026-12-02
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips:
     first_visit: Skate park is a highlight - award-winning design
@@ -6240,8 +6292,8 @@
   - Marionberries
   - Boysenberries
   - Thornless blackberries
-  last_verified: 2025-11-25
-  next_audit: 2026-04-01
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "Accepts Oregon Trail Card (EBT/SNAP), Senior Farm Direct Vouchers, and WIC Vouchers. Seasonal June-August. Bring containers or buckets for berries. Cash or card accepted. Best to arrive early on hot days."
   accessibility:
@@ -6273,8 +6325,8 @@
   hours: Tue-Sun 9am-5pm
   season: June-August
   crops: 15+ berry varieties
-  last_verified: 2025-11-25
-  next_audit: 2026-04-01
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "Quiet, non-festival atmosphere ideal for those who prefer calmer environments. Accepts Farm Direct Vouchers. Free pint boxes provided. 15+ berry varieties. On Sauvie Island. Seasonal June-August."
   accessibility:
@@ -6305,8 +6357,8 @@
     lunch: ~noon
     dinner: ~6pm
   schedule: Monday-Saturday
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "No questions asked - just show up. Sit-down indoor dining with vegetarian options. Dogs allowed if leashed. Wednesday is spaghetti night. Serving since 1952. Downtown Old Town location."
   accessibility:
@@ -6324,16 +6376,16 @@
   category: food_farms
   location_type: physical
   resource_type: service
-  address: 133 NW 6th Ave, Portland, OR
-  phone: null
+  address: 618 NW Davis St, Portland, OR 97209
+  phone: 503-222-5694
   website: https://sistersoftheroad.org
   source_urls:
   - https://sistersoftheroad.org
   pricing:
     description: Pay-what-you-can
     notes: Barter work program - work 15 minutes for a meal
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Pay-what-you-can or work 15 minutes for a meal through barter program. Welcoming community space emphasizing dignity and autonomy. Downtown Old Town location. A gathering place, not just a meal program."
   accessibility:
@@ -6351,7 +6403,7 @@
   location_type: physical
   resource_type: service
   address: 111 W Burnside St, Portland, OR 97209
-  phone: null
+  phone: 503-647-7466
   website: https://portlandrescuemission.org
   source_urls:
   - https://portlandrescuemission.org
@@ -6362,8 +6414,8 @@
     dinner: Daily 6pm
     weekend_lunch: 12:30pm
   schedule: 365 days per year
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Open 365 days per year. Breakfast at 7am, dinner at 6pm daily. Weekend lunch at 12:30pm. No questions asked. Downtown Old Town/Burnside location. Can be crowded during meal times."
   accessibility:
@@ -6390,8 +6442,8 @@
     description: FREE always
   hours: Gurdwara open 7 days 7am-9pm
   schedule: Sundays 11am-2:15pm (two meals served)
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Free vegetarian meals Sundays 11am-2:15pm. All welcome regardless of religion. Remove shoes and cover head (scarves provided). Food served in separate area - no need to attend religious service. Gurdwara open daily 7am-9pm."
   accessibility:
@@ -6436,8 +6488,8 @@
   - name: St. Johns
     address: 9009 N Foss Ave, Portland, OR 97203
     phone: 503-953-8210
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "For adults 60+ regardless of income. Suggested $10.50 donation but pay what you can afford. Lunches Mon-Thu at various locations throughout Portland metro. Social dining experience. Call ahead to confirm hours at specific location."
   accessibility:
@@ -6463,8 +6515,8 @@
   pricing:
     description: FREE entry; flat-rate pumpkins
     notes: Free hayrides
-  last_verified: 2025-12-02
-  next_audit: 2026-09-01
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "FREE entry with flat-rate pumpkins. Free hayrides included. Operating since 1906. Less commercialized than some pumpkin patches. Good for a simple, traditional fall experience. October only."
   accessibility:
@@ -6489,8 +6541,8 @@
   - https://www.thepumpkinpatch.com/
   pricing:
     description: FREE entry; Corn maze $8-10
-  last_verified: 2025-12-02
-  next_audit: 2026-09-01
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips: "FREE entry on Sauvie Island. Corn maze is $8-10 extra. Popular destination - can be crowded on weekends. Good for families. October only. Sauvie Island parking pass may be required."
   accessibility:
@@ -6515,8 +6567,8 @@
   pricing:
     description: FREE plots for low-income residents east of 82nd Ave
   eligibility: Low-income residents east of 82nd Avenue
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "FREE garden plots for low-income residents east of 82nd Ave. Most plots are handicapped accessible. Good therapeutic activity. East Portland location. Apply for a plot through SnowCap Community Charities."
   accessibility:
@@ -6540,8 +6592,8 @@
   - https://outgrowinghunger.org/
   pricing:
     description: FREE - drop in, farm 2 hours, leave with free produce
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Drop in and farm for 2 hours, then leave with free produce. No registration needed. At Rosewood Neighborhood Garden in East Portland. Good way to combine exercise with food access. Tools provided."
   accessibility:
@@ -6582,8 +6634,8 @@
   secondary_location:
     name: Food Hub (donations only)
     address: 8937 SE Jannsen Rd, Clackamas, OR 97015
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Bring current piece of mail (within 30 days) as proof of address
@@ -6619,8 +6671,8 @@
   - Resource center with clothing and household items
   mission: Reduce hunger and waste; aid social services by collecting and distributing
     food/non-food items to low-income, elderly, and disabled residents
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Contact to learn about membership and income guidelines
@@ -6650,7 +6702,7 @@
   pricing:
     description: FREE entry
     notes: SNAP/EBT accepted with matching program
-  season: May 10 - October 25, 2026
+  season: May 9 - October 2026
   schedule: Saturdays 8:30am-1:30pm
   features:
   - Fresh local produce
@@ -6663,8 +6715,8 @@
     hours: 9am-2pm
     notes: Thanksgiving-themed market with fall harvest vendors
   notes: May-October season. One of the best farmers' markets for SNAP users due to matching program.
-  last_verified: 2025-12-02
-  next_audit: 2026-04-01
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips:
     first_visit: SNAP matching booth usually near entrance
@@ -6702,8 +6754,8 @@
   - ATM available at info booth
   - Green $5 tokens available (credit/debit)
   - Established 1986 (39+ years)
-  last_verified: 2025-12-02
-  next_audit: 2026-04-01
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips:
     first_visit: Info booth near entrance has EBT tokens, ATM, and market information
@@ -6734,8 +6786,8 @@
     description: FREE to attend
   season: June to September
   schedule: Thursdays 3-7pm
-  last_verified: 2025-12-02
-  next_audit: 2026-05-01
+  last_verified: 2026-01-24
+  next_audit: 2027-01-24
   audit_frequency: annually
   practical_tips:
     first_visit: Located in heart of Rockwood neighborhood
@@ -6770,8 +6822,8 @@
   - name: Drop-In Farming
     schedule: Wednesdays 9:30am-12:30pm and 3-6pm; Saturdays 2-5pm
     notes: "Come farm for 2 hours, leave with a bag of fresh produce. No commitment required."
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Drop-in model where anyone can come farm for 2 hours and leave with fresh produce. No commitment required - just show up during open hours. Combines gentle physical activity with tangible reward. Great for those wanting to try gardening."
   accessibility:
@@ -6811,8 +6863,8 @@
     location: Board Bard Games (7960 SE Stark St)
     schedule: Every Wednesday 5-9pm
     notes: "Free weekly social for all levels. Games provided by the shop."
-  last_verified: 2026-01-12
-  next_audit: 2026-04-01
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "FREE - just buy food/drink from venue. Tuesdays at CORE Food Carts (82nd Ave, 5pm) and Wednesdays at Board Bard Games (5pm). Explicitly welcoming to newcomers. Games provided. All skill levels welcome. Check Meetup.com/pdxgames for full schedule and additional events."
   accessibility:
@@ -6865,8 +6917,8 @@
   - name: Congregate Lunch
     schedule: Weekdays in dining room
     notes: Social dining for older adults
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by during office hours to get oriented to services
@@ -6904,8 +6956,8 @@
   - name: Public Readings
     location: First United Methodist Church, 1838 SW Jefferson St
     cost: FREE
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "FREE 10-week writing workshops with trauma-informed approach. Serves marginalized populations at hospitals, shelters, senior centers, treatment facilities. Public readings at First United Methodist Church. No writing experience needed."
   accessibility:
@@ -6936,8 +6988,8 @@
   - Breakfast
   - Coffee/tea
   - Potluck lunch afterward
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "FREE tree-planting events on weekend mornings fall through spring. Gloves, tools, breakfast, coffee/tea provided. Potluck lunch afterward. No experience needed, all ages welcome. Highly social atmosphere."
   accessibility:
@@ -6972,8 +7024,8 @@
   - name: Pick It Up, Portland!
     schedule: Year-round neighborhood cleanups
     notes: "Ongoing neighborhood cleanups throughout the year. Flexible scheduling lets you volunteer when it works for you. Equipment provided. Perfect for those wanting regular outdoor volunteer opportunities."
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "FREE environmental cleanups throughout the year. Oregon Spring Cleanup (April), Beach/Riverside Cleanup (September), Pick It Up Portland (year-round). Equipment provided. No experience needed. Good for giving back to community."
   accessibility:
@@ -6997,8 +7049,8 @@
   pricing:
     description: FREE
   schedule: null  # Volunteer shifts are self-scheduled online, not a recurring event
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "FREE team-oriented volunteer shifts Monday-Saturday, 2-3 hours each. Book online at oregonfoodbank.org. Sorting food with other volunteers. Good for those wanting to help fight hunger. Indoor warehouse work."
   accessibility:
@@ -7030,8 +7082,8 @@
   - Textiles
   - Photography
   - Writing
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Pay What You Can options with Access Discount Program available. Classes in drawing, painting, ceramics, textiles, photography, writing. In SW Portland. Register through Portland Parks. All skill levels welcome."
   accessibility:
@@ -7061,8 +7113,8 @@
     schedule: Tuesdays 3-5pm
     cost: FREE
     notes: "Drop-in fiber arts session every Tuesday. Knit, crochet, or try other crafts while chatting with fellow crafters. Projects are donated to charity. Supplies provided or bring your own. All skill levels welcome—beginners encouraged!"
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "FREE Crafting Compassion drop-in Tuesdays 3-5pm. Knitting, crocheting, and other fiber arts. Projects donated to charity. Supplies provided or bring your own. All skill levels welcome."
   accessibility:
@@ -7091,8 +7143,8 @@
     schedule: 2nd Thursday 7-9pm
     cost: FREE
     notes: September through May
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "FREE monthly meetings 2nd Thursday 7-9pm, September through May. At Rose City Park Presbyterian Church. Guild membership available but visitors always welcome. Knitting-focused with programs and presentations."
   accessibility:
@@ -7142,8 +7194,8 @@
     notes: Various classes available
   - name: Art Classes
     notes: Creative programming
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Multi-purpose center for adults 21+; welcoming atmosphere
@@ -7202,8 +7254,8 @@
     notes: Tech help and classes
   - name: Trips
     notes: Group outings
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: First senior center in Clackamas County (est. 1970)
@@ -7243,8 +7295,8 @@
   - Referrals to community adult centers
   - Connection to social services
   eligibility: All ages, incomes, and disabilities welcome
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: null
@@ -7297,8 +7349,8 @@
     cost: Suggested donation $3
     eligibility: Adults 60+
     home_delivery: Available for homebound individuals
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by to pick up monthly activity calendar
@@ -7359,8 +7411,8 @@
     options: Holiday Bazaar, Elsie Stuhr Day, New Year's Dance, Valentine's Dance
   - name: Meals on Wheels Lunch
     schedule: Mon-Fri
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Take a tour to see all the amenities
@@ -7501,8 +7553,8 @@
       notes: Traditional Japanese embroidered mending technique. Check website for dates.
       dates_2026:
         - January 18
-  last_verified: 2026-01-15
-  next_audit: 2026-02-15
+  last_verified: 2026-01-24
+  next_audit: 2026-02-24
   audit_frequency: monthly
   practical_tips:
     first_visit: Fill out the Google Form before arriving to let them know what you're bringing
@@ -7542,8 +7594,8 @@
   dates: February 28, 2026
   organizer: Clackamas County Sustainability & Solid Waste
   contact: cjohnston@clackamas.us
-  last_verified: 2026-01-15
-  next_audit: 2026-02-15
+  last_verified: 2026-01-24
+  next_audit: 2026-02-24
   audit_frequency: monthly
   practical_tips:
     first_visit: Just show up with your broken items
@@ -7670,8 +7722,8 @@
   pricing:
     description: FREE
   schedule: Various "done-in-a-day" projects throughout the week
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "Done-in-a-day volunteer projects requiring no experience or ongoing commitment. 2-4 hour projects led by trained volunteer leaders. Sign up with two clicks online. Great low-pressure way to contribute and connect with others."
   accessibility:
@@ -7711,8 +7763,8 @@
   - name: Energy Assistance
     schedule: Ongoing
     notes: "Help applying for utility assistance programs."
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips: "For adults 55+. Offers free legal aid, computer workshops, tax assistance, and energy assistance programs. Social activity groups and wellness programs. Also hosts NAMI peer support groups on 2nd & 4th Sundays."
   accessibility:
@@ -7776,7 +7828,7 @@
   location_type: physical
   resource_type: place
   address: 909 NW 24th Avenue, Portland, OR 97210
-  phone: null
+  phone: 503-222-5756
   website: https://www.portlandalano.org
   source_urls:
     - https://www.portlandalano.org/meetings
@@ -7810,8 +7862,8 @@
       schedule: Weekly
       format: In-person
       notes: Yoga classes designed for people in recovery
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just walk in - no appointment needed. Check meeting schedule online first.
@@ -8075,8 +8127,8 @@
     description: FREE
   eligibility: No income requirements or personal information required
   hours: 42 weekly markets - check Food Finder for specific times and locations
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Use the online Food Finder to locate your nearest market
@@ -8107,8 +8159,8 @@
     description: FREE - Take what you need, leave what you can
   eligibility: Open to everyone
   hours: Available 24/7
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check the website map for fridge locations near you
@@ -8139,8 +8191,8 @@
     notes: No surcharge for SNAP/EBT transactions
   schedule: Every Saturday, 8am-1pm
   hours: Year-round
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Find the info booth to exchange SNAP benefits for green tokens
@@ -8173,8 +8225,8 @@
     notes: Each meal costs over $10 to prepare
   eligibility: Adults 60 years and older in Multnomah, Washington, and Clark counties
   hours: Meal delivery Mon-Thu 10am-2pm; Dining centers serve lunch at least one day weekly
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+  last_verified: 2026-01-24
+  next_audit: 2026-04-24
   audit_frequency: quarterly
   practical_tips:
     first_visit: Call to sign up for home delivery or find your nearest dining center
@@ -8247,7 +8299,7 @@
   category: fitness_wellness
   location_type: physical
   resource_type: place
-  address: 18 N Shaver St, Portland, OR 97227
+  address: 4515 NE Martin Luther King Jr Blvd, Portland, OR 97211
   phone: 503-298-5636
   website: https://prismmoves.org
   source_urls:
@@ -8319,7 +8371,7 @@
   location_type: physical
   resource_type: place
   address: 3014 NE Killingsworth St, Portland (Northeast) and 4029 SE Hawthorne, Portland (Southeast)
-  phone: null
+  phone: 503-877-YOGI
   website: https://thepeoplesyoga.org
   source_urls:
     - https://thepeoplesyoga.org
@@ -8382,8 +8434,8 @@
   category: fitness_wellness
   location_type: varies
   resource_type: organization
-  address: 4840 SW Western Ave, Suite 500, Beaverton, OR 97005
-  phone: null
+  address: 10541 SE Cherry Blossom Dr, Portland, OR 97216
+  phone: 503-241-0850
   email: Programs@adaptivesportsnw.org
   website: https://adaptivesportsnw.org
   source_urls:
