@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:008d34ae2bc45953@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260720
 SUMMARY:Cathedral Park Jazz Festival
@@ -51,7 +51,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:040809e6cdb0de1f@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:Portland Rose Festival
@@ -71,7 +71,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:34fcf208f3ca4a9b@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20260718
 DTEND;VALUE=DATE:20260720
 SUMMARY:Portland Pride
@@ -97,7 +97,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:71e919571174ce47@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART:20260129T170000
 DTEND:20260129T210000
 SUMMARY:First Thursday Art Walk
@@ -123,7 +123,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bd517104cb00543c@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART:20260129T180000
 DTEND:20260129T210000
 SUMMARY:Last Thursday on Alberta
@@ -149,7 +149,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a51c3018c49f316a@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Portland Tree Lighting Ceremony
@@ -173,7 +173,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:981e8d40cd3a420a@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20271215
 DTEND;VALUE=DATE:20280101
 SUMMARY:Peacock Lane Holiday Lights
@@ -197,22 +197,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d50d5cc747663bed@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART:20260128T183000
 DTEND:20260128T203000
 SUMMARY:Gresham Wednesday Music in the Parks: Music in the Parks
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: July-August at 
- Nadaka Nature Park\, Bella Vista Park\, Butler Creek Park\, Vance Park\nAd
- dress: Various Gresham parks\nPhone: 503-618-2300\nWebsite: https://gresha
- moregon.gov/Recreation/
+ Nadaka Nature Park\, Bella Vista Park\, Butler Creek Park\, Vance Park\; 2
+ 026 dates TBA\nAddress: Various Gresham parks\nPhone: 503-618-2300\nWebsit
+ e: https://greshamoregon.gov/Recreation/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> FREE</p><p>July-August at Nadaka Nature Park\, Bel
- la Vista Park\, Butler Creek Park\, Vance Park</p><p><strong>Address:</str
- ong> Various Gresham parks</p><p><strong>Phone:</strong> <a href="tel:503-
- 618-2300">503-618-2300</a></p><p><strong>Website:</strong> <a href="https:
- //greshamoregon.gov/Recreation/">https://greshamoregon.gov/Recreation/</a>
- </p></BODY></HTML>
+ la Vista Park\, Butler Creek Park\, Vance Park\; 2026 dates TBA</p><p><str
+ ong>Address:</strong> Various Gresham parks</p><p><strong>Phone:</strong> 
+ <a href="tel:503-618-2300">503-618-2300</a></p><p><strong>Website:</strong
+ > <a href="https://greshamoregon.gov/Recreation/">https://greshamoregon.go
+ v/Recreation/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Various Gresham parks
 URL:https://greshamoregon.gov/Recreation/
@@ -222,7 +222,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f726cfa67160de1d@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:Wooden Shoe Tulip Festival
@@ -245,19 +245,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b18dd951df2feef7@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20260502
 DTEND;VALUE=DATE:20260504
 SUMMARY:Spring Garden Fair
 DESCRIPTION:Category: Events & Festivals\nCost: $7 one-day / $12 two-day\; 
  Kids under 16 FREE\nAddress: Clackamas County Fairgrounds\, 694 NE 4th Ave
- \, Canby\, OR\nWebsite: https://springgardenfair.org/
+ \, Canby\, OR\nWebsite: https://springgardenfair.org/\nDetails: Free parki
+ ng and free soil pH testing with admission.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> $7 one-day / $12 two-day\; Kids under 16 FREE</p><
  p><strong>Address:</strong> Clackamas County Fairgrounds\, 694 NE 4th Ave\
  , Canby\, OR</p><p><strong>Website:</strong> <a href="https://springgarden
- fair.org/">https://springgardenfair.org/</a></p></BODY></HTML>
+ fair.org/">https://springgardenfair.org/</a></p><p><strong>Details:</stron
+ g> Free parking and free soil pH testing with admission.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Clackamas County Fairgrounds\, 694 NE 4th Ave\, Canby\, OR
 URL:https://springgardenfair.org/
@@ -266,7 +268,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:396829af8d43697e@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20260718
 DTEND;VALUE=DATE:20260719
 SUMMARY:Gresham Arts Festival
@@ -287,7 +289,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4fbec19f3f135081@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:India Festival
@@ -309,7 +311,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e17302519b24aeeb@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:Obon Festival (Oregon Buddhist Temple)
@@ -333,20 +335,23 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:51f7331f0c5f34bd@portlandresources.org
-DTSTAMP:20260124T085103Z
-DTSTART;VALUE=DATE:20270815
-DTEND;VALUE=DATE:20270816
+UID:574d4b0bebd0810a@portlandresources.org
+DTSTAMP:20260126T092314Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
 SUMMARY:Swan Island Dahlias
 DESCRIPTION:Category: Events & Festivals\nCost: FREE entry (flowers for pur
  chase)\nAddress: 995 NW 22nd Ave\, Canby\, OR\nWebsite: https://www.dahlia
- s.com/
+ s.com/\nDetails: Free parking. Festival includes classes\, food carts\, li
+ ve music on Sat/Sun\, Sunday Market. Over 50 years running.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> FREE entry (flowers for purchase)</p><p><strong>Ad
  dress:</strong> 995 NW 22nd Ave\, Canby\, OR</p><p><strong>Website:</stron
- g> <a href="https://www.dahlias.com/">https://www.dahlias.com/</a></p></BO
- DY></HTML>
+ g> <a href="https://www.dahlias.com/">https://www.dahlias.com/</a></p><p><
+ strong>Details:</strong> Free parking. Festival includes classes\, food ca
+ rts\, live music on Sat/Sun\, Sunday Market. Over 50 years running.</p></B
+ ODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:995 NW 22nd Ave\, Canby\, OR
 URL:https://www.dahlias.com/
@@ -355,7 +360,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:299891133691a158@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260823
 SUMMARY:Clackamas County Fair
@@ -378,19 +383,23 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cf6b2748cda84a9c@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260921
 SUMMARY:Portland Polish Festival
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Polish Hall\
  , 3900 N Interstate Ave\, Portland\, OR 97227\nWebsite: https://www.polish
- festivalpdx.org/
+ festivalpdx.org/\nDetails: Longest-running Polish festival on West Coast. 
+ Dates estimated based on typical mid-September weekend\; confirm closer to
+  event.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> Polish Hall\,
   3900 N Interstate Ave\, Portland\, OR 97227</p><p><strong>Website:</stron
  g> <a href="https://www.polishfestivalpdx.org/">https://www.polishfestival
- pdx.org/</a></p></BODY></HTML>
+ pdx.org/</a></p><p><strong>Details:</strong> Longest-running Polish festiv
+ al on West Coast. Dates estimated based on typical mid-September weekend\;
+  confirm closer to event.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Polish Hall\, 3900 N Interstate Ave\, Portland\, OR 97227
 URL:https://www.polishfestivalpdx.org/
@@ -399,20 +408,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1b5cf0280b32b4e2@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261005
 SUMMARY:Portland Greek Festival
 DESCRIPTION:Category: Events & Festivals\nCost: $5 (children under 12 FREE)
  \nAddress: Holy Trinity Greek Orthodox Cathedral\, 3131 NE Glisan St\, Por
- tland\, OR\nWebsite: https://www.portlandgreekfestival.com/
+ tland\, OR\nWebsite: https://www.portlandgreekfestival.com/\nDetails: 72nd
+  annual in 2025\; 15\,000+ guests annually
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> $5 (children under 12 FREE)</p><p><strong>Address:
  </strong> Holy Trinity Greek Orthodox Cathedral\, 3131 NE Glisan St\, Port
  land\, OR</p><p><strong>Website:</strong> <a href="https://www.portlandgre
- ekfestival.com/">https://www.portlandgreekfestival.com/</a></p></BODY></HT
- ML>
+ ekfestival.com/">https://www.portlandgreekfestival.com/</a></p><p><strong>
+ Details:</strong> 72nd annual in 2025\; 15\,000+ guests annually</p></BODY
+ ></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Holy Trinity Greek Orthodox Cathedral\, 3131 NE Glisan St\, Portla
  nd\, OR
@@ -422,7 +433,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b297a771e14010c2@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Día de los Muertos (Gresham)
@@ -442,43 +453,50 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f74bcb91ff4bdb04@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20260705
 SUMMARY:Happy Valley Fourth of July Festival
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Happy Valley
-  Park\, Happy Valley\, OR\nWebsite: https://www.happyvalleyor.gov/4th-of-j
- uly-family-festival/
+  Park\, 13770 SE Ridgecrest Rd\, Happy Valley\, OR\nWebsite: https://www.h
+ appyvalleyor.gov/4th-of-july-family-festival/\nDetails: Independence Day h
+ ike at 9:30am\, parade at noon. Beer garden\, carnival rides (wristbands)\
+ , food vendors.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> Happy Valley 
- Park\, Happy Valley\, OR</p><p><strong>Website:</strong> <a href="https://
- www.happyvalleyor.gov/4th-of-july-family-festival/">https://www.happyvalle
- yor.gov/4th-of-july-family-festival/</a></p></BODY></HTML>
+ Park\, 13770 SE Ridgecrest Rd\, Happy Valley\, OR</p><p><strong>Website:</
+ strong> <a href="https://www.happyvalleyor.gov/4th-of-july-family-festival
+ /">https://www.happyvalleyor.gov/4th-of-july-family-festival/</a></p><p><s
+ trong>Details:</strong> Independence Day hike at 9:30am\, parade at noon. 
+ Beer garden\, carnival rides (wristbands)\, food vendors.</p></BODY></HTML
+ >
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Happy Valley Park\, Happy Valley\, OR
+LOCATION:Happy Valley Park\, 13770 SE Ridgecrest Rd\, Happy Valley\, OR
 URL:https://www.happyvalleyor.gov/4th-of-july-family-festival/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:afe46f3866470119@portlandresources.org
-DTSTAMP:20260124T085103Z
-DTSTART:20260129T180000
-DTEND:20260129T200000
+DTSTAMP:20260126T092314Z
+DTSTART:20260129T183000
+DTEND:20260129T203000
 SUMMARY:Concerts in the Valley (Happy Valley): Thursday Concert
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: July-August\nAd
- dress: Happy Valley Park\, Happy Valley\, OR\nWebsite: https://www.happyva
- lleyor.gov/services/hv-community-events/summer-concerts/
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: July-August\; 2
+ 026 dates TBA (check website in June)\nAddress: Happy Valley Park\, 13770 
+ SE Ridgecrest Rd\, Happy Valley\, OR\nWebsite: https://www.happyvalleyor.g
+ ov/services/hv-community-events/summer-concerts/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
- ><strong>Cost:</strong> FREE</p><p>July-August</p><p><strong>Address:</str
- ong> Happy Valley Park\, Happy Valley\, OR</p><p><strong>Website:</strong>
-  <a href="https://www.happyvalleyor.gov/services/hv-community-events/summe
- r-concerts/">https://www.happyvalleyor.gov/services/hv-community-events/su
- mmer-concerts/</a></p></BODY></HTML>
+ ><strong>Cost:</strong> FREE</p><p>July-August\; 2026 dates TBA (check web
+ site in June)</p><p><strong>Address:</strong> Happy Valley Park\, 13770 SE
+  Ridgecrest Rd\, Happy Valley\, OR</p><p><strong>Website:</strong> <a href
+ ="https://www.happyvalleyor.gov/services/hv-community-events/summer-concer
+ ts/">https://www.happyvalleyor.gov/services/hv-community-events/summer-con
+ certs/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Happy Valley Park\, Happy Valley\, OR
+LOCATION:Happy Valley Park\, 13770 SE Ridgecrest Rd\, Happy Valley\, OR
 URL:https://www.happyvalleyor.gov/services/hv-community-events/summer-concerts/
 RRULE:FREQ=WEEKLY;BYDAY=TH
 CATEGORIES:Events & Festivals
@@ -486,19 +504,22 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c84065f96fc8c6dd@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:Happy Valley Oktoberfest
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Happy Valley
   Park\, Happy Valley\, OR\nWebsite: https://www.happyvalleyor.gov/services
- /hv-community-events/
+ /hv-community-events/\nDetails: Date estimated based on typical first-Satu
+ rday-of-October pattern\; confirm closer to event.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> Happy Valley 
  Park\, Happy Valley\, OR</p><p><strong>Website:</strong> <a href="https://
  www.happyvalleyor.gov/services/hv-community-events/">https://www.happyvall
- eyor.gov/services/hv-community-events/</a></p></BODY></HTML>
+ eyor.gov/services/hv-community-events/</a></p><p><strong>Details:</strong>
+  Date estimated based on typical first-Saturday-of-October pattern\; confi
+ rm closer to event.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Happy Valley Park\, Happy Valley\, OR
 URL:https://www.happyvalleyor.gov/services/hv-community-events/
@@ -507,20 +528,23 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6307714643aeb4c8@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Happy Valley Tree Lighting
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: 16000 SE Mis
  ty Dr\, Happy Valley\, OR\nWebsite: https://www.happyvalleyor.gov/services
- /hv-community-events/tree-lighting-ceremony/
+ /hv-community-events/tree-lighting-ceremony/\nDetails: Date estimated base
+ d on typical first-Monday-of-December pattern\; confirm closer to event.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Events &amp\; Festivals</p><p
  ><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 16000 SE Mist
  y Dr\, Happy Valley\, OR</p><p><strong>Website:</strong> <a href="https://
  www.happyvalleyor.gov/services/hv-community-events/tree-lighting-ceremony/
  ">https://www.happyvalleyor.gov/services/hv-community-events/tree-lighting
- -ceremony/</a></p></BODY></HTML>
+ -ceremony/</a></p><p><strong>Details:</strong> Date estimated based on typ
+ ical first-Monday-of-December pattern\; confirm closer to event.</p></BODY
+ ></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:16000 SE Misty Dr\, Happy Valley\, OR
 URL:https://www.happyvalleyor.gov/services/hv-community-events/tree-lighting-ceremony/
@@ -528,10 +552,10 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:aaa23b8964841ce2@portlandresources.org
-DTSTAMP:20260124T085103Z
-DTSTART;VALUE=DATE:20260215
-DTEND;VALUE=DATE:20260217
+UID:d278ca247411846b@portlandresources.org
+DTSTAMP:20260126T092314Z
+DTSTART;VALUE=DATE:20260214
+DTEND;VALUE=DATE:20260216
 SUMMARY:Oregon Free Fishing Weekends
 DESCRIPTION:Category: Events & Festivals\nCost: FREE - no license required\
  nAddress: Statewide - all Oregon waters\nWebsite: https://myodfw.com/artic
@@ -550,7 +574,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:77ae73c28b0f9ccd@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20260608
 SUMMARY:Oregon Free Fishing Weekends
@@ -571,7 +595,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aadf365d4c01dd72@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:Oregon Free Fishing Weekends
@@ -592,7 +616,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1a234bcce979e25f@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261219
 SUMMARY:Christmas Ships Parade
@@ -615,7 +639,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da583f55cb2a0059@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART:20260130T183000
 DTEND:20260130T203000
 SUMMARY:Tualatin Concerts in the Parks
@@ -640,7 +664,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ca22b194d8222030@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:Cascade Festival of African Films
@@ -668,7 +692,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:435c9e4f7bb3de0c@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20260206
 DTEND;VALUE=DATE:20260215
 SUMMARY:Portland Winter Light Festival
@@ -694,7 +718,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e1ce70ee351468d9@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20260627
 DTEND;VALUE=DATE:20260630
 SUMMARY:Good in the Hood Multicultural Festival
@@ -719,7 +743,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:74d99f732246769f@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260727
 SUMMARY:Washington County Fair
@@ -742,7 +766,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:64b48ede4ae731d8@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20270820
 DTEND;VALUE=DATE:20270821
 SUMMARY:Pedalpalooza / Bike Summer
@@ -765,7 +789,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f04644cd6c19de80@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270710
 SUMMARY:Portland Parks Summer Free For All
@@ -791,7 +815,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a6395a7c06cf0be0@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART:20260709T183000
 DTEND:20260709T203000
 SUMMARY:Portland Parks Summer Free For All: Free Outdoor Concerts
@@ -820,7 +844,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a6395a7c06cf0be0@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART:20260710T183000
 DTEND:20260710T203000
 SUMMARY:Portland Parks Summer Free For All: Free Outdoor Concerts
@@ -849,7 +873,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8132faf5c5356489@portlandresources.org
-DTSTAMP:20260124T085103Z
+DTSTAMP:20260126T092314Z
 DTSTART:20260711T193000
 DTEND:20260711T220000
 SUMMARY:Portland Parks Summer Free For All: Free Movies in the Park

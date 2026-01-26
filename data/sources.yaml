@@ -1301,6 +1301,10 @@
   - https://4drecovery.org/portland/
   pricing:
     description: FREE
+  audience:
+    - teens
+    - young_adults
+  audience_notes: Youth-focused recovery community for ages 14-35
   programs:
   - name: Drop-In Center
     schedule: Daily 2-10pm

@@ -69,6 +69,79 @@ CATEGORY_NAMES = {
     "transportation": "Transportation",
 }
 
+# Audience detection patterns
+AUDIENCE_PATTERNS = {
+    'children': [r'\bchildren\b', r'ages?\s*3[\s-]*12', r'kids?\b'],
+    'teens': [r'teens?\b', r'ages?\s*13[\s-]*1[78]', r'grades?\s*[6-9][\s-]*12', r'adolescent'],
+    'young_adults': [r'young\s*adults?', r'young\s*people', r'youth[\s-]*focused',
+                     r'ages?\s*1[4-8][\s-]*35', r'ages?\s*18[\s-]*35', r'\(18-35\)', r'\(14-35\)'],
+    'seniors': [r'seniors?\b', r'65\+', r'62\+', r'55\+', r'older\s*adults?'],
+    'women': [r'\bwomen\b', r"women's", r'female[\s-]*identif', r'women[\s-]*only'],
+    'lgbtq': [r'lgbtq', r'queer\b', r'lgbtqia', r'lgbtq2sia', r'pride\b'],
+    'trans_nonbinary': [r'\btrans\b', r'nonbinary', r'non-binary', r'gender[\s-]*diverse'],
+    'bipoc': [r'\bbipoc\b', r'black,?\s*indigenous', r'people\s*of\s*color'],
+    'spanish_speaking': [r'spanish[\s-]*speaking', r'en\s*espa[nñ]ol', r'esperanza'],
+}
+
+
+def detect_audience(text: str) -> list:
+    """Detect audience tags from text using pattern matching."""
+    if not text:
+        return []
+    text_lower = text.lower()
+    detected = set()
+    for tag, patterns in AUDIENCE_PATTERNS.items():
+        for pattern in patterns:
+            if re.search(pattern, text_lower, re.IGNORECASE):
+                # Filter out false positives
+                if tag == 'children' and 'adult children' in text_lower:
+                    continue  # "Adult Children of Alcoholics" is not for children
+                detected.add(tag)
+                break
+    return sorted(list(detected))
+
+
+def get_entry_audience(entry: dict) -> list:
+    """Get audience for an entry, either from field or by detection."""
+    # If audience is explicitly set, use it
+    if entry.get("audience"):
+        return entry.get("audience", [])
+
+    # Otherwise, detect from text fields
+    # Include practical_tips which often contains audience info
+    practical_tips = entry.get("practical_tips", "")
+    if isinstance(practical_tips, dict):
+        practical_tips = " ".join(str(v) for v in practical_tips.values() if v)
+
+    text_fields = [
+        entry.get("name", ""),
+        entry.get("eligibility", ""),
+        entry.get("notes", ""),
+        practical_tips,
+    ]
+    combined = " ".join(str(t) for t in text_fields if t)
+    return detect_audience(combined)
+
+
+def get_program_audience(program: dict, entry: dict) -> list:
+    """Get audience for a program, either from field or by detection."""
+    # If program has explicit audience, use it
+    if program.get("audience"):
+        return program.get("audience", [])
+
+    # Otherwise, detect from program text
+    text = " ".join([
+        program.get("name", ""),
+        str(program.get("eligibility", "")),
+        str(program.get("notes", "")),
+    ])
+    detected = detect_audience(text)
+    if detected:
+        return detected
+
+    # Fall back to entry-level audience
+    return get_entry_audience(entry)
+
 
 def load_sources(sources_path: str) -> list[dict]:
     """Load and parse the sources.yaml file."""
@@ -658,9 +731,23 @@ def generate_json_feed(entries: list[dict]) -> dict:
             "accessibility": entry.get("accessibility", []),
             "social_intensity": entry.get("social_intensity"),
             "good_for": entry.get("good_for", []),
+            "audience": get_entry_audience(entry),
+            "audience_notes": entry.get("audience_notes"),
             "notes": entry.get("notes"),
             "practical_tips": entry.get("practical_tips"),
         }
+        # Add detected audience to programs
+        if event_data["programs"]:
+            enriched_programs = []
+            for prog in event_data["programs"]:
+                if isinstance(prog, dict):
+                    prog_copy = dict(prog)
+                    prog_copy["audience"] = get_program_audience(prog, entry)
+                    enriched_programs.append(prog_copy)
+                else:
+                    # Program is just a string, skip enrichment
+                    enriched_programs.append(prog)
+            event_data["programs"] = enriched_programs
         events.append(event_data)
 
     return {

@@ -1169,6 +1169,111 @@
             background: var(--bg-card-hover);
         }
 
+        /* Audience filter - dropdown with pills */
+        .filter-btn {
+            background: transparent;
+            border: 1px solid var(--border-color);
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.8em;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .filter-btn:hover { background: var(--bg-card-hover); }
+        .filter-btn.active { border-color: var(--accent); color: var(--accent); }
+
+        .filter-badge {
+            background: var(--accent);
+            color: white;
+            border-radius: 8px;
+            padding: 0 5px;
+            font-size: 0.75em;
+            font-weight: 600;
+        }
+
+        .filter-panel {
+            display: none;
+            padding: 8px 12px;
+            background: rgba(255, 255, 255, 0.95);
+            border-bottom: 1px solid var(--border-color);
+            align-items: center;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .filter-panel.active { display: flex; }
+
+        .filter-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        .filter-pill {
+            display: inline-flex;
+            align-items: center;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: 500;
+            cursor: pointer;
+            border: 1px solid var(--border-color);
+            background: white;
+            color: var(--text-secondary);
+            transition: all 0.15s ease;
+        }
+
+        .filter-pill:hover { border-color: var(--text-muted); }
+        .filter-pill.active { border-color: transparent; }
+        .filter-pill input { display: none; }
+
+        /* Color-coded pills when active */
+        .filter-pill[data-tag="children"].active { background: #FFE4B5; color: #8B4513; }
+        .filter-pill[data-tag="teens"].active { background: #E6E6FA; color: #4B0082; }
+        .filter-pill[data-tag="young_adults"].active { background: #B0E0E6; color: #2F4F4F; }
+        .filter-pill[data-tag="seniors"].active { background: #D3D3D3; color: #2F4F4F; }
+        .filter-pill[data-tag="women"].active { background: #FFB6C1; color: #8B0A50; }
+        .filter-pill[data-tag="lgbtq"].active { background: linear-gradient(90deg, #FF6B6B, #FECA57, #48DBFB, #5352ED); color: white; }
+        .filter-pill[data-tag="trans_nonbinary"].active { background: #89CFF0; color: #1E3A5F; }
+        .filter-pill[data-tag="bipoc"].active { background: #8B4513; color: white; }
+        .filter-pill[data-tag="spanish_speaking"].active { background: #228B22; color: white; }
+
+        .filter-clear {
+            font-size: 0.7em;
+            color: var(--text-muted);
+            cursor: pointer;
+            padding: 2px 6px;
+            border: none;
+            background: none;
+        }
+
+        .filter-clear:hover { color: var(--accent); }
+
+        /* Badge style for event modals */
+        .audience-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: 500;
+            margin-right: 4px;
+            margin-bottom: 4px;
+        }
+
+        .audience-badge.children { background: #FFE4B5; color: #8B4513; }
+        .audience-badge.teens { background: #E6E6FA; color: #4B0082; }
+        .audience-badge.young_adults { background: #B0E0E6; color: #2F4F4F; }
+        .audience-badge.seniors { background: #D3D3D3; color: #2F4F4F; }
+        .audience-badge.women { background: #FFB6C1; color: #8B0A50; }
+        .audience-badge.lgbtq { background: linear-gradient(90deg, #FF6B6B, #FECA57, #48DBFB, #5352ED); color: white; }
+        .audience-badge.trans_nonbinary { background: #89CFF0; color: #1E3A5F; }
+        .audience-badge.bipoc { background: #8B4513; color: white; }
+        .audience-badge.spanish_speaking { background: #228B22; color: white; }
+
         /* Print dialog */
         .print-dialog-overlay {
             display: none;
@@ -1687,7 +1792,24 @@
                         <button class="view-tab" data-view="list">List</button>
                         <button class="view-tab desktop-only" data-view="seasonal">Seasonal Events</button>
                     </div>
+                    <button class="filter-btn" id="filter-btn" onclick="toggleFilterPanel()">
+                        Filter <span class="filter-badge" id="filter-badge" style="display:none;">0</span>
+                    </button>
                     <button class="print-btn" onclick="openPrintDialog()" title="Print calendar">🖨️ Print</button>
+                </div>
+                <div class="filter-panel" id="filter-panel">
+                    <div class="filter-pills">
+                        <label class="filter-pill" data-tag="seniors"><input type="checkbox" value="seniors" onchange="updateFilters()">Seniors</label>
+                        <label class="filter-pill" data-tag="young_adults"><input type="checkbox" value="young_adults" onchange="updateFilters()">Young Adults</label>
+                        <label class="filter-pill" data-tag="teens"><input type="checkbox" value="teens" onchange="updateFilters()">Teens</label>
+                        <label class="filter-pill" data-tag="children"><input type="checkbox" value="children" onchange="updateFilters()">Children</label>
+                        <label class="filter-pill" data-tag="lgbtq"><input type="checkbox" value="lgbtq" onchange="updateFilters()">LGBTQ+</label>
+                        <label class="filter-pill" data-tag="trans_nonbinary"><input type="checkbox" value="trans_nonbinary" onchange="updateFilters()">Trans/NB</label>
+                        <label class="filter-pill" data-tag="women"><input type="checkbox" value="women" onchange="updateFilters()">Women</label>
+                        <label class="filter-pill" data-tag="bipoc"><input type="checkbox" value="bipoc" onchange="updateFilters()">BIPOC</label>
+                        <label class="filter-pill" data-tag="spanish_speaking"><input type="checkbox" value="spanish_speaking" onchange="updateFilters()">Spanish</label>
+                    </div>
+                    <button class="filter-clear" id="filter-clear" onclick="clearFilters()" style="display:none;">Clear</button>
                 </div>
                 <div class="list-view" id="list-view">
                     <div class="no-events">Loading events...</div>
@@ -1833,6 +1955,102 @@
         let eventsData = null;
         let currentMonth = new Date();
         let currentView = 'grid';
+        let activeFilters = [];
+
+        // Audience label mappings
+        const AUDIENCE_LABELS = {
+            children: "Children (3-12)",
+            teens: "Teens (13-17)",
+            young_adults: "Young Adults (18-35)",
+            seniors: "Seniors (55+)",
+            women: "Women",
+            lgbtq: "LGBTQ+",
+            trans_nonbinary: "Trans & Nonbinary",
+            bipoc: "BIPOC",
+            spanish_speaking: "Spanish-Speaking"
+        };
+
+        // Filter functions
+        function toggleFilterPanel() {
+            const panel = document.getElementById('filter-panel');
+            const btn = document.getElementById('filter-btn');
+            panel.classList.toggle('active');
+            btn.classList.toggle('active', panel.classList.contains('active') || activeFilters.length > 0);
+        }
+
+        function updateFilters() {
+            const checkboxes = document.querySelectorAll('.filter-pill input:checked');
+            activeFilters = Array.from(checkboxes).map(cb => cb.value);
+
+            // Update pill active states
+            document.querySelectorAll('.filter-pill').forEach(pill => {
+                const input = pill.querySelector('input');
+                pill.classList.toggle('active', input.checked);
+            });
+
+            // Update badge and button state
+            const badge = document.getElementById('filter-badge');
+            const btn = document.getElementById('filter-btn');
+            const clearBtn = document.getElementById('filter-clear');
+            if (activeFilters.length > 0) {
+                badge.textContent = activeFilters.length;
+                badge.style.display = 'inline';
+                btn.classList.add('active');
+                clearBtn.style.display = 'inline';
+            } else {
+                badge.style.display = 'none';
+                clearBtn.style.display = 'none';
+                // Keep button active if panel is open
+                const panel = document.getElementById('filter-panel');
+                btn.classList.toggle('active', panel.classList.contains('active'));
+            }
+
+            // Re-render current view
+            renderCurrentView();
+        }
+
+        function clearFilters() {
+            document.querySelectorAll('.filter-pill input').forEach(cb => cb.checked = false);
+            document.querySelectorAll('.filter-pill').forEach(pill => pill.classList.remove('active'));
+            activeFilters = [];
+            document.getElementById('filter-badge').style.display = 'none';
+            document.getElementById('filter-clear').style.display = 'none';
+            // Keep button active if panel is open
+            const panel = document.getElementById('filter-panel');
+            const btn = document.getElementById('filter-btn');
+            btn.classList.toggle('active', panel.classList.contains('active'));
+            renderCurrentView();
+        }
+
+        function matchesAudienceFilter(event) {
+            // No filters = show all
+            if (activeFilters.length === 0) return true;
+
+            // Collect audience from entry level and all programs
+            const entryAudience = event.audience || [];
+            const programAudiences = (event.programs || [])
+                .flatMap(p => p.audience || []);
+            const allAudiences = [...new Set([...entryAudience, ...programAudiences])];
+
+            // No audience specified = open to all = always show
+            if (allAudiences.length === 0) return true;
+
+            // OR logic: show if any selected filter matches
+            return activeFilters.some(filter => allAudiences.includes(filter));
+        }
+
+        function getAudienceBadgesHtml(event) {
+            const entryAudience = event.audience || [];
+            const programAudiences = (event.programs || [])
+                .flatMap(p => p.audience || []);
+            const allAudiences = [...new Set([...entryAudience, ...programAudiences])];
+
+            if (allAudiences.length === 0) return '';
+
+            return allAudiences.map(tag =>
+                `<span class="audience-badge ${tag}">${AUDIENCE_LABELS[tag] || tag}</span>`
+            ).join('');
+        }
 
         const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
@@ -2087,6 +2305,9 @@
                 // Skip entries with dates/date fields - these are one-time events shown in Seasonal Events only
                 if (entry.dates || entry.date) continue;
 
+                // Apply audience filter
+                if (!matchesAudienceFilter(entry)) continue;
+
                 // Handle programs with schedules
                 if (entry.programs && entry.programs.length > 0) {
                     for (const program of entry.programs) {
@@ -2126,7 +2347,8 @@
                                     location: program.location || entry.address,
                                     format: program.format,
                                     description: description,
-                                    website: entry.website
+                                    website: entry.website,
+                                    sourceEvent: entry
                                 });
                             }
                         }
@@ -2160,7 +2382,8 @@
                             category: entry.categoryName,
                             location: entry.address,
                             description: description,
-                            website: entry.website
+                            website: entry.website,
+                            sourceEvent: entry
                         });
                     }
                 }
@@ -2243,6 +2466,17 @@
                     <div class="event-modal-icon">ℹ️</div>
                     <div class="event-modal-value">${event.description}</div>
                 </div>`;
+            }
+
+            // Audience badges
+            if (event.sourceEvent) {
+                const audienceHtml = getAudienceBadgesHtml(event.sourceEvent);
+                if (audienceHtml) {
+                    bodyHtml += `<div class="event-modal-row">
+                        <div class="event-modal-icon">👥</div>
+                        <div class="event-modal-value">${audienceHtml}</div>
+                    </div>`;
+                }
             }
 
             // Website link
@@ -2726,6 +2960,13 @@
             renderGridView();
         }
 
+        // Re-render current view (used by filters)
+        function renderCurrentView() {
+            renderListView();
+            renderGridView();
+            renderSeasonalView();
+        }
+
         // Scroll to today in list view (if viewing current month and today has events)
         function scrollToToday() {
             const todaySection = document.getElementById('today-events');
@@ -2793,6 +3034,9 @@
             const seasonalEvents = [];
 
             for (const entry of eventsData.events) {
+                // Apply audience filter
+                if (!matchesAudienceFilter(entry)) continue;
+
                 // Check for date/dates fields (one-time or ranged events)
                 if (entry.dates || entry.date) {
                     const practicalTip = typeof entry.practical_tips === 'string'
@@ -2809,7 +3053,8 @@
                         website: entry.website,
                         address: entry.address,
                         description: practicalTip || entry.notes,
-                        flags: entry.flags
+                        flags: entry.flags,
+                        sourceEvent: entry
                     });
                     continue;
                 }
@@ -2828,7 +3073,8 @@
                         website: entry.website,
                         address: entry.address,
                         description: practicalTip || entry.notes,
-                        flags: entry.flags
+                        flags: entry.flags,
+                        sourceEvent: entry
                     });
                     continue;
                 }
@@ -2849,7 +3095,8 @@
                                 website: entry.website,
                                 address: prog.location || entry.address,
                                 description: prog.notes || practicalTip || entry.notes,
-                                flags: entry.flags
+                                flags: entry.flags,
+                                sourceEvent: entry
                             });
                         }
                     }
@@ -2950,6 +3197,17 @@
                     <div class="event-modal-icon">ℹ️</div>
                     <div class="event-modal-value">${event.description}</div>
                 </div>`;
+            }
+
+            // Audience badges
+            if (event.sourceEvent) {
+                const audienceHtml = getAudienceBadgesHtml(event.sourceEvent);
+                if (audienceHtml) {
+                    bodyHtml += `<div class="event-modal-row">
+                        <div class="event-modal-icon">👥</div>
+                        <div class="event-modal-value">${audienceHtml}</div>
+                    </div>`;
+                }
             }
 
             // Website

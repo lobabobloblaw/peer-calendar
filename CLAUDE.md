@@ -40,6 +40,7 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 - `scripts/audit_complete.py` - Mark entries as audited, auto-updates dates and logs
 - `scripts/deduplicate_entries.py` - Merge duplicate entries in sources.yaml
 - `scripts/add_type_fields.py` - Migration script for adding location_type/resource_type fields
+- `scripts/add_audience_fields.py` - Migration script for adding audience tags
 - `scripts/requirements.txt` - Python dependencies (pyyaml, python-dateutil)
 - `scripts/venv/` - Virtual environment
 
@@ -171,6 +172,8 @@ When adding a new resource:
 - `accessibility_notes`: Free-text details about accessibility
 - `social_intensity`: `solo` | `drop_in` | `casual_group` | `structured_group` | `one_on_one`
 - `good_for`: Standardized tags (see list below)
+- `audience`: Standardized tags for who the resource targets (see list below)
+- `audience_notes`: Free-text details about audience/eligibility
 
 **Location types:**
 - `physical`: Has a specific address where people go in person
@@ -215,6 +218,19 @@ When adding a new resource:
 - `outdoor`: Takes place outdoors
 - `indoor`: Takes place indoors
 - `family_friendly`: Appropriate for families with children
+
+**Audience tags** (for resources targeting specific groups):
+- `children`: Ages 3-12
+- `teens`: Ages 13-17
+- `young_adults`: Ages 18-35
+- `seniors`: Ages 55+/62+/65+
+- `women`: Women-only spaces
+- `lgbtq`: LGBTQ+ community
+- `trans_nonbinary`: Trans, nonbinary, gender-diverse
+- `bipoc`: Black, Indigenous, People of Color
+- `spanish_speaking`: Spanish-language services
+
+Note: Resources without an `audience` field are open to all adults. Programs within an entry can have their own `audience` field to specify program-specific demographics.
 
 ### 3. Generate Updated Guides
 

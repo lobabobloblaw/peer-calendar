@@ -71,6 +71,19 @@
     - indoor
     - family_friendly
 
+  audience:  # Who this resource is specifically for (omit if open to all adults)
+    - children             # Ages 3-12
+    - teens                # Ages 13-17
+    - young_adults         # Ages 18-35
+    - seniors              # Ages 55+/62+/65+
+    - women                # Women-only spaces
+    - lgbtq                # LGBTQ+ community
+    - trans_nonbinary      # Trans, nonbinary, gender-diverse
+    - bipoc                # Black, Indigenous, People of Color
+    - spanish_speaking     # Spanish-language services
+
+  audience_notes: "Additional details about who this resource serves"
+
   # Programs (for resources with multiple offerings)
   programs:
     - name: "Program Name"
@@ -78,6 +91,8 @@
       location: "Where if different from main address"
       cost: "FREE or $X"
       format: "In-person | Online | Hybrid"
+      audience: []           # Optional: override entry-level audience for this program
+      audience_notes: ""     # Optional: program-specific audience details
   
   # Features/amenities
   features:
