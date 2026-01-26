@@ -355,6 +355,10 @@ Calendars are hosted via GitHub Pages for public subscription access.
   - **Calendar**: Monthly grid view with events on their dates
   - **List**: Chronological list of events for the month
   - **Seasonal Events**: Festivals, fairs, and date-ranged events (not recurring)
+- Audience filter dropdown with color-coded pills for demographic filtering:
+  - Seniors, Young Adults, Teens, Children, LGBTQ+, Trans/NB, Women, BIPOC, Spanish
+  - Uses OR logic (shows events matching ANY selected filter)
+  - Events without audience tags always appear (open to all)
 - Weather-reactive animated background (Vanta.js clouds):
   - Time of day: Dawn (pink/peach), Day (sky blue), Dusk (purple/orange), Night (navy)
   - Weather conditions via Open-Meteo API: Clear skies show subtle clouds, overcast/rain darkens sky
