@@ -1063,6 +1063,46 @@
                 border-radius: 50%;
                 margin-left: 4px;
             }
+
+            /* Mobile: wrap month-nav to two rows */
+            .month-nav {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 6px;
+                padding: 8px 10px;
+            }
+
+            /* First row: nav arrows and month label */
+            .month-nav > #prev-month,
+            .month-nav > #next-month,
+            .month-nav > .month-label {
+                order: 1;
+            }
+
+            /* Second row: view tabs, filter, print - full width */
+            .month-nav > .view-tabs {
+                order: 2;
+                width: 100%;
+                justify-content: center;
+                margin-left: 0;
+                margin-top: 4px;
+            }
+
+            .month-nav > .filter-btn,
+            .month-nav > .print-btn {
+                order: 2;
+                margin-top: 4px;
+            }
+
+            .view-tab {
+                padding: 6px 12px;
+                font-size: 0.8em;
+            }
+
+            /* Show Seasonal Events on mobile too since we have room now */
+            .view-tabs .view-tab.desktop-only {
+                display: inline-block;
+            }
         }
 
         /* Updates section */
