@@ -1506,3 +1506,14 @@
   entries:
     - id: trimet-low-income
       status: verified
+
+---
+- date: 2026-01-27
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Parks Free Open Swim Sessions"
+  entries_audited: 1
+  entries:
+    - id: ppr-free-swim
+      status: updated
+      changes: "Fixed broken source URL, added 3 missing pools (Montavilla, Pier, Ida B. Wells), updated addresses, added schedule date bounds, verified against official portland.gov sources"

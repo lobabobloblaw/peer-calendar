@@ -172,6 +172,9 @@ def parse_schedule(schedule_str: str) -> dict:
     result = {}
     schedule_lower = schedule_str.lower()
 
+    # Normalize "noon" to "12:00" for time parsing
+    schedule_normalized = re.sub(r'\bnoon\b', '12:00', schedule_lower)
+
     day_map = {
         "sunday": "SU", "sundays": "SU",
         "monday": "MO", "mondays": "MO",
@@ -182,10 +185,15 @@ def parse_schedule(schedule_str: str) -> dict:
         "saturday": "SA", "saturdays": "SA",
     }
 
+    # Collect all matching days (for schedules like "Tuesdays & Thursdays")
+    days_found = []
     for day_name, day_code in day_map.items():
-        if day_name in schedule_lower:
-            result["day"] = day_code
-            break
+        if day_name in schedule_lower and day_code not in days_found:
+            days_found.append(day_code)
+
+    if days_found:
+        # Use comma-separated format for multiple days (e.g., "TU,TH")
+        result["day"] = ",".join(days_found)
 
     ordinal_pattern = r"(\d+)(?:st|nd|rd|th)"
     ordinals = re.findall(ordinal_pattern, schedule_lower)
@@ -196,7 +204,7 @@ def parse_schedule(schedule_str: str) -> dict:
         result["weekly"] = True
 
     time_pattern = r"(\d{1,2})(?::(\d{2}))?\s*-\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm)?"
-    time_match = re.search(time_pattern, schedule_lower)
+    time_match = re.search(time_pattern, schedule_normalized)
     if time_match:
         start_hour = int(time_match.group(1))
         start_min = int(time_match.group(2) or 0)
@@ -524,6 +532,17 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
                         weeks = schedule["week_of_month"]
                         rrule_parts = [f"FREQ=MONTHLY;BYDAY={schedule['day']};BYSETPOS={','.join(map(str, weeks))}"]
 
+                    # Add UNTIL clause if schedule_end_date is specified
+                    schedule_end = entry.get("schedule_end_date")
+                    if schedule_end:
+                        if isinstance(schedule_end, str):
+                            end_date = datetime.strptime(schedule_end, "%Y-%m-%d")
+                        else:
+                            end_date = datetime(schedule_end.year, schedule_end.month, schedule_end.day)
+                        # UNTIL uses UTC, add end of day
+                        until_str = end_date.strftime("%Y%m%dT235959Z")
+                        rrule_parts.append(f"UNTIL={until_str}")
+
                     rrule = ";".join(rrule_parts)
 
                     # Use schedule_start_date if specified, otherwise use today
@@ -537,7 +556,9 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
                         base_date = datetime.now()
 
                     day_map = {"SU": 6, "MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5}
-                    target_day = day_map.get(schedule["day"], 0)
+                    # Handle multi-day schedules (e.g., "TU,TH") - use first day for initial occurrence
+                    first_day = schedule["day"].split(",")[0] if "," in schedule["day"] else schedule["day"]
+                    target_day = day_map.get(first_day, 0)
                     days_ahead = target_day - base_date.weekday()
                     if days_ahead < 0:
                         days_ahead += 7
@@ -588,6 +609,17 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
                 weeks = schedule["week_of_month"]
                 rrule_parts = [f"FREQ=MONTHLY;BYDAY={schedule['day']};BYSETPOS={','.join(map(str, weeks))}"]
 
+            # Add UNTIL clause if schedule_end_date is specified
+            schedule_end = entry.get("schedule_end_date")
+            if schedule_end:
+                if isinstance(schedule_end, str):
+                    end_date = datetime.strptime(schedule_end, "%Y-%m-%d")
+                else:
+                    end_date = datetime(schedule_end.year, schedule_end.month, schedule_end.day)
+                # UNTIL uses UTC, add end of day
+                until_str = end_date.strftime("%Y%m%dT235959Z")
+                rrule_parts.append(f"UNTIL={until_str}")
+
             rrule = ";".join(rrule_parts)
 
             # Use schedule_start_date if specified, otherwise use today
@@ -601,7 +633,9 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
                 base_date = datetime.now()
 
             day_map = {"SU": 6, "MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5}
-            target_day = day_map.get(schedule["day"], 0)
+            # Handle multi-day schedules (e.g., "TU,TH") - use first day for initial occurrence
+            first_day = schedule["day"].split(",")[0] if "," in schedule["day"] else schedule["day"]
+            target_day = day_map.get(first_day, 0)
             days_ahead = target_day - base_date.weekday()
             if days_ahead < 0:
                 days_ahead += 7
@@ -727,6 +761,7 @@ def generate_json_feed(entries: list[dict]) -> dict:
             "dates": entry.get("dates"),
             "schedule": entry.get("schedule"),
             "schedule_start_date": entry.get("schedule_start_date"),
+            "schedule_end_date": entry.get("schedule_end_date"),
             "flags": entry.get("flags", []),
             "accessibility": entry.get("accessibility", []),
             "social_intensity": entry.get("social_intensity"),

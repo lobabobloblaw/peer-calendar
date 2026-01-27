@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-26T09:23:14.267083",
+  "generated": "2026-01-27T14:28:36.356283",
   "count": 213,
   "categories": {
     "peer_support": "Peer Support",
@@ -41,6 +41,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -78,6 +79,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -118,6 +120,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -159,6 +162,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -198,6 +202,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -236,6 +241,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -272,6 +278,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -309,6 +316,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -345,6 +353,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -382,6 +391,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -422,6 +432,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -463,6 +474,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -546,6 +558,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -634,6 +647,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -710,6 +724,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": "2026-02-01",
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -754,6 +769,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -792,6 +808,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -829,6 +846,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -866,6 +884,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -941,6 +960,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -980,6 +1000,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -1111,6 +1132,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -1151,6 +1173,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -1216,6 +1239,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -1279,6 +1303,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -1329,6 +1354,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "asl_available",
@@ -1399,6 +1425,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -1438,6 +1465,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -1493,6 +1521,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -1528,6 +1557,7 @@
       "dates": null,
       "schedule": "24/7 online calendar",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -1559,6 +1589,7 @@
       "dates": null,
       "schedule": "Multiple weekly meetings across Portland metro",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -1592,6 +1623,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -1629,6 +1661,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -1665,6 +1698,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -1701,6 +1735,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\u274c CLOSED"
       ],
@@ -1748,6 +1783,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -1835,6 +1871,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -1895,6 +1932,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -1945,6 +1983,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -2009,6 +2048,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -2067,6 +2107,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -2134,6 +2175,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -2203,6 +2245,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -2272,6 +2315,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -2309,6 +2353,7 @@
       "dates": null,
       "schedule": "Every Sunday 11am-12:30pm",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -2348,6 +2393,7 @@
       "dates": null,
       "schedule": "May-October (was seasonal)",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\u274c CLOSED - Program ended after 2022 season"
       ],
@@ -2396,6 +2442,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -2440,6 +2487,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -2484,6 +2532,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -2541,6 +2590,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -2579,6 +2629,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -2616,6 +2667,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -2643,45 +2695,71 @@
       "category": "fitness_wellness",
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
-      "address": "Various Portland pools",
+      "address": "Various Portland outdoor pools",
       "phone": "503-823-2525",
-      "website": "https://portland.gov/parks/outdoor-pools",
+      "website": "https://www.portland.gov/parks/recreation/pools",
       "pricing": {
-        "description": "FREE"
+        "description": "FREE",
+        "notes": "Part of Summer Free For All program funded by Parks Local Option Levy"
       },
       "programs": [
         {
           "name": "Creston Pool Free Swim",
-          "schedule": "Mondays 6:30-8pm",
+          "schedule": "Mondays 6:30-8pm (summer)",
           "cost": "FREE",
-          "location": "Creston Pool, SE 44th & Powell",
+          "location": "Creston Pool, 4454 SE Powell Blvd",
+          "notes": "Extended season through early September",
           "audience": []
         },
         {
           "name": "Peninsula Pool Free Swim",
-          "schedule": "Tuesdays 1-3:45pm",
+          "schedule": "Tuesdays 1-3:45pm (summer)",
           "cost": "FREE",
           "location": "Peninsula Pool, 700 N Rosa Parks Way",
+          "notes": "Extended season through early September",
+          "audience": []
+        },
+        {
+          "name": "Montavilla Pool Free Swim",
+          "schedule": "Tuesdays 6:30-8pm (summer)",
+          "cost": "FREE",
+          "location": "Montavilla Pool, 8219 NE Glisan St",
           "audience": []
         },
         {
           "name": "Grant Pool Free Swim",
-          "schedule": "Wednesdays 1-3pm",
+          "schedule": "Wednesdays 1-3pm (summer)",
           "cost": "FREE",
           "location": "Grant Pool, 2300 NE 33rd Ave",
           "audience": []
         },
         {
           "name": "Sellwood Pool Free Swim",
-          "schedule": "Wednesdays 6:30-8pm",
+          "schedule": "Wednesdays 6:30-8pm (summer)",
           "cost": "FREE",
           "location": "Sellwood Pool, 7951 SE 7th Ave",
+          "audience": []
+        },
+        {
+          "name": "Pier Pool Free Swim",
+          "schedule": "Thursdays 1:30-3:30pm (summer)",
+          "cost": "FREE",
+          "location": "Pier Pool, 9341 N St Johns Ave",
+          "notes": "Extended season through early September",
+          "audience": []
+        },
+        {
+          "name": "Ida B. Wells Pool Free Swim",
+          "schedule": "Thursdays 6:30-8pm (summer)",
+          "cost": "FREE",
+          "location": "Ida B. Wells Pool, 5765 SW 45th Ave",
           "audience": []
         }
       ],
       "dates": null,
       "schedule": null,
-      "schedule_start_date": null,
+      "schedule_start_date": "2026-06-20",
+      "schedule_end_date": "2026-08-22",
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -2696,12 +2774,12 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "June 20 - August 31 season",
+      "notes": "Summer Free For All program. Season runs June 20 - August 22, with Pier, Creston, and Peninsula pools extended to early September. Schedules may vary year to year - verify at portland.gov/parks before visiting.",
       "practical_tips": {
-        "first_visit": "First come, first served - no registration",
+        "first_visit": "First come, first served - no registration required",
         "registration": null,
         "what_to_bring": "Swimsuit, towel, sunscreen",
-        "good_to_know": "Access Discount Program provides up to 90% off for Portland residents"
+        "good_to_know": "Part of Summer Free For All program. Seven outdoor pools offer one free swim session per week. Pier, Creston, and Peninsula pools have extended seasons through early September. Access Discount Program provides up to 90% off regular admission for Portland residents (no proof of income required)."
       }
     },
     {
@@ -2757,6 +2835,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -2814,6 +2893,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -2862,6 +2942,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -2904,6 +2985,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -2948,6 +3030,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -3019,6 +3102,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -3063,6 +3147,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -3110,6 +3195,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -3150,6 +3236,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -3187,6 +3274,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -3225,6 +3313,7 @@
       "dates": null,
       "schedule": "Regular weekend bird walks (check Meetup for dates)",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "varies"
@@ -3257,6 +3346,7 @@
       "dates": null,
       "schedule": "Regular walks (check website for dates)",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "varies"
@@ -3301,6 +3391,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -3345,6 +3436,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -3376,6 +3468,7 @@
       "dates": null,
       "schedule": "Regular meetings (check Meetup for dates)",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -3416,6 +3509,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -3459,6 +3553,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -3492,6 +3587,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -3530,6 +3626,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -3565,6 +3662,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -3598,6 +3696,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -3636,6 +3735,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -3685,6 +3785,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -3723,6 +3824,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -3769,6 +3871,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -3800,6 +3903,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -3835,6 +3939,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -3877,6 +3982,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -3911,6 +4017,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\u274c CLOSED - Museum closed December 2024 due to funding cuts"
       ],
@@ -3949,6 +4056,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -4014,6 +4122,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -4067,6 +4176,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -4114,6 +4224,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -4149,6 +4260,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -4189,6 +4301,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -4228,6 +4341,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -4286,6 +4400,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -4325,6 +4440,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -4356,6 +4472,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -4396,6 +4513,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -4466,6 +4584,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -4534,6 +4653,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -4626,6 +4746,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -4710,6 +4831,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -4781,6 +4903,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -4819,6 +4942,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -4857,6 +4981,7 @@
       "dates": "November 20-23, 2025",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -4893,6 +5018,7 @@
       "dates": null,
       "schedule": "4 exhibitions per year (October-May)",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -4959,6 +5085,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -5000,6 +5127,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -5051,6 +5179,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -5081,6 +5210,7 @@
       "dates": null,
       "schedule": "Last Sunday of each month 4-6pm",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -5112,6 +5242,7 @@
       "dates": null,
       "schedule": "Various workshops and critique groups throughout the month",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -5143,6 +5274,7 @@
       "dates": "July 17-19, 2026 (46th annual)",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5184,7 +5316,8 @@
       "programs": [],
       "dates": null,
       "schedule": "Tuesdays & Thursdays noon-1pm (June 3 - July 31)",
-      "schedule_start_date": null,
+      "schedule_start_date": "2026-06-03",
+      "schedule_end_date": "2026-07-31",
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5225,6 +5358,7 @@
       "dates": "May 23 - June 7, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5264,6 +5398,7 @@
       "dates": "July 18-19, 2026",
       "schedule": "Sat noon-8pm, Sun 11:30am-6pm; Parade Sun 11am",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5306,6 +5441,7 @@
       "dates": null,
       "schedule": "First Thursday monthly, 5-9pm (year-round)",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -5344,6 +5480,7 @@
       "dates": null,
       "schedule": "Last Thursday monthly (year-round); street closures 6-9pm June-August",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -5383,6 +5520,7 @@
       "dates": "November 27, 2026 (day after Thanksgiving), 5:30-6:45pm",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5422,6 +5560,7 @@
       "dates": "December 15-31, 6-11pm nightly",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5468,6 +5607,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -5509,6 +5649,7 @@
       "dates": "March 20 - April 26, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5549,6 +5690,7 @@
       "dates": "May 2-3, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5588,6 +5730,7 @@
       "dates": "July 18, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5629,6 +5772,7 @@
       "dates": "August 23, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5667,6 +5811,7 @@
       "dates": "August 1, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5705,6 +5850,7 @@
       "dates": "August 1 - September 30, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -5743,6 +5889,7 @@
       "dates": "August 18-22, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5780,6 +5927,7 @@
       "dates": "September 19-20, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5817,6 +5965,7 @@
       "dates": "October 2-4, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5858,6 +6007,7 @@
       "dates": "November 1, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5897,6 +6047,7 @@
       "dates": "July 4, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -5946,6 +6097,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -5987,6 +6139,7 @@
       "dates": "October 4, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -6026,6 +6179,7 @@
       "dates": "December 7, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -6078,6 +6232,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -6122,6 +6277,7 @@
       ],
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -6161,6 +6317,7 @@
       "dates": "December 4-18, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -6200,6 +6357,7 @@
       "dates": null,
       "schedule": "Various Friday/Saturday evenings",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL",
         "\ud83d\udcc5 DATE-SENSITIVE"
@@ -6239,6 +6397,7 @@
       "dates": null,
       "schedule": "Various dates (typically Thursday evenings); 2026 schedule TBA",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL",
         "\ud83d\udcc5 DATE-SENSITIVE"
@@ -6278,6 +6437,7 @@
       "dates": null,
       "schedule": "Friday evenings, 6:30-8:30pm (plus lunchtime series 12-1pm)",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL",
         "\ud83d\udcc5 DATE-SENSITIVE"
@@ -6317,6 +6477,7 @@
       "dates": "February 6 - March 7, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -6355,6 +6516,7 @@
       "dates": null,
       "schedule": "Annual event, mid-August",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -6391,6 +6553,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -6422,6 +6585,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -6463,6 +6627,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -6495,6 +6660,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -6526,6 +6692,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -6557,6 +6724,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -6594,6 +6762,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -6632,6 +6801,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -6678,6 +6848,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -6713,6 +6884,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -6744,6 +6916,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -6778,6 +6951,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -6830,6 +7004,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -6867,6 +7042,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -6898,6 +7074,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -6929,6 +7106,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -6960,6 +7138,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -6997,6 +7176,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -7038,6 +7218,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -7077,6 +7258,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -7110,6 +7292,7 @@
       "dates": null,
       "schedule": "Monday-Saturday",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -7142,6 +7325,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -7173,6 +7357,7 @@
       "dates": null,
       "schedule": "365 days per year",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -7204,6 +7389,7 @@
       "dates": null,
       "schedule": "Sundays 11am-2:15pm (two meals served)",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -7235,6 +7421,7 @@
       "dates": null,
       "schedule": "Lunches Monday-Thursday (varies by center)",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -7270,6 +7457,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -7302,6 +7490,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -7334,6 +7523,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -7365,6 +7555,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -7396,6 +7587,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -7431,6 +7623,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -7467,6 +7660,7 @@
       "dates": null,
       "schedule": "Saturdays 8:30am-1:30pm",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -7506,6 +7700,7 @@
       "dates": null,
       "schedule": "Saturdays 8:30am-2pm",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -7543,6 +7738,7 @@
       "dates": null,
       "schedule": "Thursdays 3-7pm",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -7588,6 +7784,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -7636,6 +7833,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -7695,6 +7893,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -7752,6 +7951,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -7786,6 +7986,7 @@
       "dates": null,
       "schedule": "Weekend mornings during planting season (fall through spring)",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -7837,6 +8038,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -7868,6 +8070,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -7907,6 +8110,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -7947,6 +8151,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -7987,6 +8192,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -8047,6 +8253,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -8142,6 +8349,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -8180,6 +8388,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -8218,6 +8427,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -8300,6 +8510,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -8347,6 +8558,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -8433,6 +8645,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -8474,6 +8687,7 @@
       "dates": "February 28, 2026",
       "schedule": "10am-1pm",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -8573,6 +8787,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -8612,6 +8827,7 @@
       "dates": null,
       "schedule": "Various \"done-in-a-day\" projects throughout the week",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "varies"
@@ -8677,6 +8893,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -8726,6 +8943,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -8812,6 +9030,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -8870,6 +9089,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -8934,6 +9154,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -8974,6 +9195,7 @@
       "dates": "February 6-14, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -9014,6 +9236,7 @@
       "dates": "June 27-29, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -9054,6 +9277,7 @@
       "dates": "July 24-26, 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
@@ -9092,6 +9316,7 @@
       "dates": "June through August 2026",
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL",
         "\ud83d\udcc5 DATE-SENSITIVE"
@@ -9132,6 +9357,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "varies"
@@ -9167,6 +9393,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "varies"
@@ -9203,6 +9430,7 @@
       "dates": null,
       "schedule": "Every Saturday, 8am-1pm",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -9241,6 +9469,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -9301,6 +9530,7 @@
       "dates": "July 9 - September 5, 2026",
       "schedule": null,
       "schedule_start_date": "2026-07-09",
+      "schedule_end_date": null,
       "flags": [
         "\ud83d\udd04 SEASONAL",
         "\ud83d\udcc5 DATE-SENSITIVE"
@@ -9354,6 +9584,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -9397,6 +9628,7 @@
       "dates": null,
       "schedule": "Every Saturday 9am-10am",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby"
@@ -9433,6 +9665,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "transit_nearby",
@@ -9470,6 +9703,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "varies"
@@ -9536,6 +9770,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible"
@@ -9604,6 +9839,7 @@
       "dates": null,
       "schedule": "Mon-Thu and Sat (check website for specific times/locations)",
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -9692,6 +9928,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -9733,6 +9970,7 @@
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
+      "schedule_end_date": null,
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",

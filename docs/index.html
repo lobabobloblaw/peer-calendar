@@ -2264,16 +2264,16 @@
                 'oct': 9, 'nov': 10, 'dec': 11
             };
 
-            // Look for month range patterns like "July-August", "June through September", "May-October"
+            // Look for month range patterns like "July-August", "June through September", "May-October", "June 3 - July 31"
             const rangePatterns = [
-                /\b(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)\s*[-–—through]+\s*(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)\b/gi
+                /\b(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)(?:\s+\d{1,2})?\s*[-–—through]+\s*(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)(?:\s+\d{1,2})?\b/gi
             ];
 
             for (const pattern of rangePatterns) {
                 const match = lower.match(pattern);
                 if (match) {
-                    // Extract start and end months
-                    const parts = match[0].split(/[-–—]|through/i).map(s => s.trim());
+                    // Extract start and end months, stripping any day numbers
+                    const parts = match[0].split(/[-–—]|through/i).map(s => s.trim().replace(/\s+\d+$/, ''));
                     if (parts.length >= 2) {
                         const startMonth = monthNames[parts[0]];
                         const endMonth = monthNames[parts[1]];
@@ -2318,10 +2318,12 @@
                             if (!isMonthInSeasonalRange(seasonalText, month)) continue;
 
                             const dates = getScheduleDates(program.schedule, year, month);
-                            // Filter out dates before schedule_start_date
+                            // Filter out dates before schedule_start_date or after schedule_end_date
                             const startDate = entry.schedule_start_date ? new Date(entry.schedule_start_date) : null;
+                            const endDate = entry.schedule_end_date ? new Date(entry.schedule_end_date) : null;
                             for (const d of dates) {
                                 if (startDate && d.date < startDate) continue;
+                                if (endDate && d.date > endDate) continue;
                                 // Build description: prefer program notes, fall back to entry context
                                 // practical_tips can be a string or an object with good_to_know
                                 const practicalTip = typeof entry.practical_tips === 'string'
@@ -2363,8 +2365,9 @@
                     if (!isMonthInSeasonalRange(seasonalText, month)) continue;
 
                     const dates = getScheduleDates(entry.schedule, year, month);
-                    // Filter out dates before schedule_start_date
+                    // Filter out dates before schedule_start_date or after schedule_end_date
                     const startDate = entry.schedule_start_date ? new Date(entry.schedule_start_date) : null;
+                    const endDate = entry.schedule_end_date ? new Date(entry.schedule_end_date) : null;
                     // practical_tips can be a string or an object with good_to_know
                     const practicalTip = typeof entry.practical_tips === 'string'
                         ? entry.practical_tips
@@ -2372,6 +2375,7 @@
                     const description = practicalTip || entry.notes || null;
                     for (const d of dates) {
                         if (startDate && d.date < startDate) continue;
+                        if (endDate && d.date > endDate) continue;
                         events.push({
                             title: entry.title,
                             org: null,

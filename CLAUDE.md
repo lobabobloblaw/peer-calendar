@@ -436,15 +436,16 @@ Schedule strings are parsed with natural language patterns:
 - The `parseSchedule()` function in `docs/index.html` handles the web calendar preview
 - The `parse_schedule()` function in `generate_calendar.py` handles ICS generation
 
-**Delaying recurring events:**
-Use `schedule_start_date` to prevent a recurring event from appearing until a specific date:
+**Bounding recurring events:**
+Use `schedule_start_date` and `schedule_end_date` to limit when a recurring event appears:
 ```yaml
 - id: example-group
   name: Example Support Group
   schedule: Every Friday 6-7pm
   schedule_start_date: 2026-02-01  # Won't appear in calendars until February
+  schedule_end_date: 2026-08-31    # Won't appear in calendars after August
 ```
-This is useful when a program is on hiatus or hasn't started yet. The field is respected by both the ICS calendar generation and the web calendar preview.
+This is useful for seasonal programs (summer concerts, winter classes) or programs on hiatus. Both fields are respected by the ICS calendar generation and the web calendar preview.
 
 **One-time events vs recurring events:**
 **Important:** Use `dates` for specific event dates, not `dates_2026` or other year-suffixed variants. The calendar scripts only recognize the `dates` field.
