@@ -368,6 +368,7 @@ Calendars are hosted via GitHub Pages for public subscription access.
   - Day/light: Dark text with subtle light shadow for depth
   - Body class `daytime` toggles based on time of day from weather API
 - Updates section for announcing new content
+- About modal with site description, purpose, and FolkTime attribution
 - Print functionality with date range selection dialog:
   - Users can select start/end dates (minimum: January 1, 2026)
   - Disclaimer about event accuracy included in print output
@@ -393,7 +394,7 @@ The `docs/` folder contains:
     - `isMonthInSeasonalRange()` - Filters events by season keywords and month ranges
     - `generateMonthEvents()` - Creates event list for calendar display
     - `printCalendar()` - Generates print-optimized output with date range
-  - Event modal display system
+  - Modal system (event details, About page)
   - Print dialog with date range selection
 - `apple/`, `google/`, `outlook/` - Platform-specific ICS files
 - `events.json` - JSON feed for programmatic access and web calendar preview
