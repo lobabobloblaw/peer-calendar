@@ -2178,8 +2178,8 @@
                 if (endPeriod === 'pm' && endHour < 12) endHour += 12;
                 if (endPeriod === 'am' && endHour === 12) endHour = 0;
 
-                result.startTime = `${startHour}:${startMin.toString().padStart(2, '0')}`;
-                result.endTime = `${endHour}:${endMin.toString().padStart(2, '0')}`;
+                result.startTime = `${startHour.toString().padStart(2, '0')}:${startMin.toString().padStart(2, '0')}`;
+                result.endTime = `${endHour.toString().padStart(2, '0')}:${endMin.toString().padStart(2, '0')}`;
             } else {
                 // Try matching single time without range (e.g., "10am", "6pm", "6:15pm")
                 const singleTimeMatch = normalizedSchedule.match(/\b(\d{1,2})(?::(\d{2}))?\s*(am|pm)\b/i);
@@ -2191,10 +2191,10 @@
                     if (period === 'pm' && hour < 12) hour += 12;
                     if (period === 'am' && hour === 12) hour = 0;
 
-                    result.startTime = `${hour}:${min.toString().padStart(2, '0')}`;
+                    result.startTime = `${hour.toString().padStart(2, '0')}:${min.toString().padStart(2, '0')}`;
                     // Assume 1 hour duration for single time
                     const endHour = hour + 1;
-                    result.endTime = `${endHour}:${min.toString().padStart(2, '0')}`;
+                    result.endTime = `${endHour.toString().padStart(2, '0')}:${min.toString().padStart(2, '0')}`;
                 }
             }
 
