@@ -7193,6 +7193,7 @@
   source_urls:
   - https://www.orcity.org/499/Pioneer-Community-Center
   - https://www.orcity.org/1490/About-the-Pioneer-Center
+  - https://www.orcity.org/568/Pioneer-Monthly-Newsletter
   pricing:
     membership: $10 annual donation requested
     description: Most services free or low-cost
@@ -7210,17 +7211,11 @@
   programs:
   - name: Zumba
     schedule: Tue/Thu 8-9am
-  - name: Walk With Ease
-    schedule: Tue/Wed/Thu 10am
   - name: Bingo
     schedule: Every Thursday 12:30-2pm
     notes: "Cards available for purchase starting at noon. Cards just 25 cents. Great prizes."
-  - name: Fitness Classes
-    notes: Various classes available
-  - name: Art Classes
-    notes: Creative programming
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-01-28
+  next_audit: 2026-04-28
   audit_frequency: quarterly
   practical_tips:
     first_visit: Multi-purpose center for adults 21+; welcoming atmosphere
@@ -7237,7 +7232,8 @@
   - indoor
   guide_location: activities-guide-2.md#clackamas-county-senior-centers
   notes: Serves adults 21 and older. Mission to promote active, healthy, independent
-    living.
+    living. Full class schedules (yoga, tai chi, line dancing, art, etc.) available
+    in monthly newsletter - schedules change frequently.
 - id: lake-oswego-acc
   name: Lake Oswego Adult Community Center
   category: social_activities

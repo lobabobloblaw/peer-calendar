@@ -1517,3 +1517,14 @@
     - id: ppr-free-swim
       status: updated
       changes: "Fixed broken source URL, added 3 missing pools (Montavilla, Pier, Ida B. Wells), updated addresses, added schedule date bounds, verified against official portland.gov sources"
+
+---
+- date: 2026-01-28
+  type: audit
+  auditor: user
+  summary: "Audit completed - Pioneer Community Center"
+  entries_audited: 1
+  entries:
+    - id: pioneer-community-center
+      status: updated
+      changes: "Removed unverified Walk With Ease program, removed vague Fitness/Art Classes entries, added newsletter URL to sources, noted that full class schedules are in monthly newsletter"

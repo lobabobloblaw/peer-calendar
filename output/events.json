@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-27T14:28:36.356283",
+  "generated": "2026-01-28T08:57:33.457428",
   "count": 213,
   "categories": {
     "peer_support": "Peer Support",
@@ -8229,24 +8229,9 @@
           "audience": []
         },
         {
-          "name": "Walk With Ease",
-          "schedule": "Tue/Wed/Thu 10am",
-          "audience": []
-        },
-        {
           "name": "Bingo",
           "schedule": "Every Thursday 12:30-2pm",
           "notes": "Cards available for purchase starting at noon. Cards just 25 cents. Great prizes.",
-          "audience": []
-        },
-        {
-          "name": "Fitness Classes",
-          "notes": "Various classes available",
-          "audience": []
-        },
-        {
-          "name": "Art Classes",
-          "notes": "Creative programming",
           "audience": []
         }
       ],
@@ -8267,7 +8252,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Serves adults 21 and older. Mission to promote active, healthy, independent living.",
+      "notes": "Serves adults 21 and older. Mission to promote active, healthy, independent living. Full class schedules (yoga, tai chi, line dancing, art, etc.) available in monthly newsletter - schedules change frequently.",
       "practical_tips": {
         "first_visit": "Multi-purpose center for adults 21+; welcoming atmosphere",
         "registration": "Contact center or visit orcity.org for class registration",
