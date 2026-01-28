@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-28T08:57:33.457428",
+  "generated": "2026-01-28T09:24:58.431404",
   "count": 213,
   "categories": {
     "peer_support": "Peer Support",
@@ -2232,14 +2232,6 @@
           "audience": [
             "seniors"
           ]
-        },
-        {
-          "name": "Alzheimer's Caregiver Support",
-          "schedule": "2nd & 4th Wednesdays 1-2:30pm",
-          "cost": "FREE",
-          "audience": [
-            "seniors"
-          ]
         }
       ],
       "dates": null,
@@ -2266,7 +2258,7 @@
         "first_visit": "Stop by during open hours (Mon-Fri 8:30am-3pm) to see the facility and learn about programs",
         "registration": "Some programs require RSVP (like Friday Speaker Series). Most are drop-in.",
         "what_to_bring": "Nothing special for most programs. Comfortable shoes for dance nights.",
-        "good_to_know": "Gresham's hub for 55+ activities. Tuesday Night Dance with live band is popular ($6). Monday Movie Matinees and Friday Speaker Series are free. Alzheimer's Caregiver Support group meets twice monthly."
+        "good_to_know": "Gresham's hub for 55+ activities. Tuesday Night Dance with live band is popular ($6). Monday Movie Matinees and Friday Speaker Series are free."
       }
     },
     {
@@ -4431,9 +4423,9 @@
       "programs": [
         {
           "name": "Happy Hour Live Music",
-          "schedule": "Daily 6-9pm",
+          "schedule": "Most evenings 6-9pm (check calendar)",
           "cost": "FREE",
-          "notes": "Acoustic, folk, and Americana music. All shows free unless otherwise noted. Tip the musicians.",
+          "notes": "Acoustic, folk, and Americana music. Schedule varies - check laurelthirst.com/music-calendar for listings. Most shows free. Tip the musicians.",
           "audience": []
         }
       ],
@@ -4571,8 +4563,8 @@
         },
         {
           "name": "ESL Classes",
-          "schedule": "Wed 2-3:30pm (Jan 8+); Mon 2-3:30pm (Jan 27+)",
-          "notes": "Through Torus organization",
+          "schedule": "Mon 2-3:30pm (Torus); Fri 4-5:30pm (Goodwill)",
+          "notes": "Free classes through Torus and Goodwill organizations. No registration required.",
           "audience": []
         },
         {
@@ -4621,11 +4613,11 @@
       },
       "programs": [
         {
-          "name": "ESL Conversation Classes",
-          "schedule": "Wednesdays, 6-7:30pm",
+          "name": "English Conversation Group",
+          "schedule": "Weekly (check library calendar for current day/time)",
           "location": "Technology Room (2nd floor)",
           "cost": "FREE",
-          "notes": "All levels welcome, no registration required",
+          "notes": "All levels welcome. Also see TIELLA (tiella.org) for ESL classes Mon/Thu.",
           "audience": []
         },
         {
@@ -7825,7 +7817,7 @@
         {
           "name": "Wednesday East Side Game Night",
           "location": "Board Bard Games (7960 SE Stark St)",
-          "schedule": "Every Wednesday 5-9pm",
+          "schedule": "Every Wednesday 5-9:30pm",
           "notes": "Free weekly social for all levels. Games provided by the shop.",
           "audience": []
         }

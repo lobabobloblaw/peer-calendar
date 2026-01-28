@@ -1889,17 +1889,14 @@
   - name: Friday Speaker Series
     schedule: Fridays 1-2:30pm
     cost: FREE (RSVP required)
-  - name: Alzheimer's Caregiver Support
-    schedule: 2nd & 4th Wednesdays 1-2:30pm
-    cost: FREE
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-28
+  next_audit: 2026-04-28
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by during open hours (Mon-Fri 8:30am-3pm) to see the facility and learn about programs
     registration: Some programs require RSVP (like Friday Speaker Series). Most are drop-in.
     what_to_bring: Nothing special for most programs. Comfortable shoes for dance nights.
-    good_to_know: Gresham's hub for 55+ activities. Tuesday Night Dance with live band is popular ($6). Monday Movie Matinees and Friday Speaker Series are free. Alzheimer's Caregiver Support group meets twice monthly.
+    good_to_know: Gresham's hub for 55+ activities. Tuesday Night Dance with live band is popular ($6). Monday Movie Matinees and Friday Speaker Series are free.
   accessibility:
     - wheelchair_accessible
     - transit_nearby
@@ -3815,11 +3812,11 @@
   hours: Mon-Wed 4pm-10pm, Thu 4pm-11pm, Fri 4pm-12am, Sat 12pm-12am, Sun 12pm-11pm
   programs:
   - name: Happy Hour Live Music
-    schedule: Daily 6-9pm
+    schedule: Most evenings 6-9pm (check calendar)
     cost: FREE
-    notes: Acoustic, folk, and Americana music. All shows free unless otherwise noted. Tip the musicians.
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+    notes: Acoustic, folk, and Americana music. Schedule varies - check laurelthirst.com/music-calendar for listings. Most shows free. Tip the musicians.
+  last_verified: 2026-01-28
+  next_audit: 2026-04-28
   audit_frequency: quarterly
   practical_tips: "Beloved neighborhood pub with free live acoustic and Americana music during 6-9pm happy hour. All shows free unless listed. Gets crowded on weekends. Good food and local beer selection. Cozy historic space. 21+ venue."
   accessibility:
@@ -3934,8 +3931,8 @@
   - name: Language Exchange
     notes: Practice English and Spanish in friendly atmosphere
   - name: ESL Classes
-    schedule: Wed 2-3:30pm (Jan 8+); Mon 2-3:30pm (Jan 27+)
-    notes: Through Torus organization
+    schedule: Mon 2-3:30pm (Torus); Fri 4-5:30pm (Goodwill)
+    notes: Free classes through Torus and Goodwill organizations. No registration required.
   - name: Adult Maker Time
     notes: Art and craft projects, materials provided
   last_verified: 2026-01-24
@@ -3974,11 +3971,11 @@
     notes: Fine-free library system
   hours: 'Mon-Thu: 10am-8pm, Fri-Sun: 10am-6pm'
   programs:
-  - name: ESL Conversation Classes
-    schedule: Wednesdays, 6-7:30pm
+  - name: English Conversation Group
+    schedule: Weekly (check library calendar for current day/time)
     location: Technology Room (2nd floor)
     cost: FREE
-    notes: All levels welcome, no registration required
+    notes: All levels welcome. Also see TIELLA (tiella.org) for ESL classes Mon/Thu.
   - name: Tech Help Sessions
     schedule: By appointment
     cost: FREE
@@ -3997,8 +3994,8 @@
   - Public computers
   - Meeting rooms
   - Cultural Pass Express access
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-01-28
+  next_audit: 2026-04-28
   audit_frequency: quarterly
   practical_tips:
     first_visit: Get a free library card with proof of address
@@ -6886,10 +6883,10 @@
     notes: "20-30 attendees typical. Games provided. All skill levels welcome."
   - name: Wednesday East Side Game Night
     location: Board Bard Games (7960 SE Stark St)
-    schedule: Every Wednesday 5-9pm
+    schedule: Every Wednesday 5-9:30pm
     notes: "Free weekly social for all levels. Games provided by the shop."
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-01-28
+  next_audit: 2026-04-28
   audit_frequency: quarterly
   practical_tips: "FREE - just buy food/drink from venue. Tuesdays at CORE Food Carts (82nd Ave, 5pm) and Wednesdays at Board Bard Games (5pm). Explicitly welcoming to newcomers. Games provided. All skill levels welcome. Check Meetup.com/pdxgames for full schedule and additional events."
   accessibility:
