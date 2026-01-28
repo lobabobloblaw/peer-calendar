@@ -939,6 +939,39 @@
             padding: 16px;
         }
 
+        /* About modal specific styles */
+        .about-modal {
+            max-width: 520px;
+        }
+
+        .about-modal-body h4 {
+            margin: 16px 0 8px;
+            font-size: 0.95em;
+            color: var(--text-primary);
+        }
+
+        .about-modal-body p {
+            margin: 0 0 12px;
+            font-size: 0.9em;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        .about-modal-body ul {
+            margin: 0 0 12px;
+            padding-left: 20px;
+            font-size: 0.9em;
+            color: var(--text-secondary);
+        }
+
+        .about-modal-body li {
+            margin-bottom: 4px;
+        }
+
+        .about-modal-body a {
+            color: var(--accent);
+        }
+
         .event-modal-row {
             display: flex;
             align-items: flex-start;
@@ -1815,7 +1848,7 @@
 
                 <div class="contact-section">
                     <div style="margin-bottom: 8px; opacity: 0.85;">Events are subject to change—check with the source if uncertain.</div>
-                    Suggestions or issues? <a href="mailto:alex.voigt@folktime.org">Feel free to reach out!</a> · <span style="opacity: 0.7;">Maintained by Alex V</span>
+                    <a href="#" onclick="showAboutModal(); return false;">About this site</a> · <a href="mailto:alex.voigt@folktime.org">Contact</a>
                 </div>
 
                 <a href="https://www.folktime.org" target="_blank" rel="noopener" class="folktime-link desktop-only"><img src="folktime.png" alt="FolkTime" class="folktime-logo"></a>
@@ -1923,6 +1956,43 @@
                 <button class="event-modal-close" id="modal-close">&times;</button>
             </div>
             <div class="event-modal-body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- About modal -->
+    <div class="event-modal-overlay" id="about-modal-overlay">
+        <div class="event-modal about-modal">
+            <div class="event-modal-header">
+                <div class="event-modal-title">
+                    <h3>About This Calendar</h3>
+                </div>
+                <button class="event-modal-close" onclick="closeAboutModal()">&times;</button>
+            </div>
+            <div class="event-modal-body about-modal-body">
+                <p><strong>A living guide to free and low-cost resources</strong> for adults in the Portland tri-county area (Multnomah, Clackamas, and Washington counties).</p>
+
+                <p>This calendar is designed with peer support programs and mental health communities in mind—but it's for anyone looking to stay active, connected, and engaged on a limited budget.</p>
+
+                <h4>What's included</h4>
+                <ul>
+                    <li>Support groups and peer-led programs</li>
+                    <li>Free fitness classes and wellness activities</li>
+                    <li>Arts, culture, and library events</li>
+                    <li>Community meals and food resources</li>
+                    <li>Discount programs (transit, utilities, recreation)</li>
+                    <li>Social activities and volunteer opportunities</li>
+                </ul>
+
+                <h4>How it works</h4>
+                <p>Subscribe to the calendar using your preferred platform (Apple, Google, or Outlook) and events will sync automatically. We verify each resource and update the calendar regularly.</p>
+
+                <h4>Maintained by</h4>
+                <p><a href="https://www.folktime.org" target="_blank" rel="noopener">FolkTime</a>, a peer-run nonprofit supporting mental health recovery in Multnomah County since 1980.</p>
+
+                <p style="margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--border-color); font-size: 0.9em; opacity: 0.8;">
+                    Questions or suggestions? <a href="mailto:alex.voigt@folktime.org">alex.voigt@folktime.org</a>
+                </p>
+            </div>
         </div>
     </div>
 
@@ -2545,7 +2615,24 @@
         });
         document.getElementById('modal-close').addEventListener('click', hideEventModal);
         document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape') hideEventModal();
+            if (e.key === 'Escape') {
+                hideEventModal();
+                closeAboutModal();
+            }
+        });
+
+        // About modal functions
+        function showAboutModal() {
+            document.getElementById('about-modal-overlay').classList.add('active');
+        }
+
+        function closeAboutModal() {
+            document.getElementById('about-modal-overlay').classList.remove('active');
+        }
+
+        // Close about modal on overlay click
+        document.getElementById('about-modal-overlay').addEventListener('click', function(e) {
+            if (e.target === this) closeAboutModal();
         });
 
         // Day popup for "+X more"
