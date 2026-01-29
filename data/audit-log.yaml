@@ -2,6 +2,19 @@
 # Records all verification activities and changes
 
 ---
+- date: 2026-01-29
+  type: corrections
+  auditor: claude
+  summary: "Corrected erroneous dates in seasonal events"
+  changes:
+    - id: happy-valley-oktoberfest
+      issue: "October 4, 2026 is a Sunday, not the first Saturday of October"
+      fix: "Changed to October 3, 2026 (first Saturday of October 2026)"
+    - id: good-in-the-hood
+      issue: "June 27-29, 2026 spans Sat-Sun-Mon, but hours describe Fri-Sat-Sun event"
+      fix: "Changed to June 26-28, 2026 to align with Friday 6pm-10pm, Saturday & Sunday noon-10pm schedule"
+  notes: Day-of-week verification revealed misalignment between stated patterns and calendar dates.
+
 - date: 2026-01-15
   type: additions
   auditor: claude
