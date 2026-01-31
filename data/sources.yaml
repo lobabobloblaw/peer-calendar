@@ -5326,6 +5326,8 @@
   - https://portlandsaturdaymarket.com/
   pricing:
     description: FREE admission
+  schedule_start_date: 2026-03-07
+  schedule_end_date: 2026-12-20
   programs:
   - name: Saturday Market
     schedule: Saturdays 10am-5pm
@@ -5335,8 +5337,8 @@
     schedule: Sundays 11am-4:30pm
     cost: FREE
     notes: March through December
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-01-31
+  next_audit: 2026-04-30
   audit_frequency: quarterly
   practical_tips:
     first_visit: Enter from Waterfront Park - market stretches under Burnside Bridge
@@ -6727,6 +6729,8 @@
     notes: SNAP/EBT accepted with matching program
   season: May 9 - October 2026
   schedule: Saturdays 8:30am-1:30pm
+  schedule_start_date: 2026-05-09
+  schedule_end_date: 2026-10-31
   features:
   - Fresh local produce
   - SNAP/EBT accepted
@@ -6738,8 +6742,8 @@
     hours: 9am-2pm
     notes: Thanksgiving-themed market with fall harvest vendors
   notes: May-October season. One of the best farmers' markets for SNAP users due to matching program.
-  last_verified: 2026-01-24
-  next_audit: 2027-01-24
+  last_verified: 2026-01-31
+  next_audit: 2027-01-31
   audit_frequency: annually
   practical_tips:
     first_visit: SNAP matching booth usually near entrance
@@ -6772,13 +6776,15 @@
     notes: Most produce vendors accept Senior/WIC checks
   season: May to October
   schedule: Saturdays 8:30am-2pm
+  schedule_start_date: 2026-05-01
+  schedule_end_date: 2026-10-31
   features:
   - Historic downtown Gresham location
   - ATM available at info booth
   - Green $5 tokens available (credit/debit)
   - Established 1986 (39+ years)
-  last_verified: 2026-01-24
-  next_audit: 2027-01-24
+  last_verified: 2026-01-31
+  next_audit: 2027-01-31
   audit_frequency: annually
   practical_tips:
     first_visit: Info booth near entrance has EBT tokens, ATM, and market information
@@ -8208,10 +8214,12 @@
   pricing:
     description: SNAP/EBT accepted with Double Up Food Bucks match up to $20
     notes: No surcharge for SNAP/EBT transactions
-  schedule: Every Saturday, 8am-1pm
-  hours: Year-round
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  schedule: Every Saturday, 8am-1pm (April-December)
+  schedule_start_date: 2026-04-01
+  schedule_end_date: 2026-12-19
+  hours: Year-round (winter hours differ - 1st & 3rd Saturdays only, 9am-1pm, January-March)
+  last_verified: 2026-01-31
+  next_audit: 2026-04-30
   audit_frequency: quarterly
   practical_tips:
     first_visit: Find the info booth to exchange SNAP benefits for green tokens

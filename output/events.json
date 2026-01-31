@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-29T14:48:41.612028",
+  "generated": "2026-01-31T10:10:09.743642",
   "count": 213,
   "categories": {
     "peer_support": "Peer Support",
@@ -2205,7 +2205,7 @@
       "color": "#32CD32",
       "address": "600 NE 8th Street, Room 130, Gresham, OR 97030",
       "phone": "503-988-4870",
-      "website": "https://greshamoregon.gov/Recreation/",
+      "website": "https://www.greshamseniorcenter.com/",
       "pricing": null,
       "programs": [
         {
@@ -6223,8 +6223,8 @@
       ],
       "dates": null,
       "schedule": null,
-      "schedule_start_date": null,
-      "schedule_end_date": null,
+      "schedule_start_date": "2026-03-07",
+      "schedule_end_date": "2026-12-20",
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -7651,8 +7651,8 @@
       "programs": [],
       "dates": null,
       "schedule": "Saturdays 8:30am-1:30pm",
-      "schedule_start_date": null,
-      "schedule_end_date": null,
+      "schedule_start_date": "2026-05-09",
+      "schedule_end_date": "2026-10-31",
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -7691,8 +7691,8 @@
       "programs": [],
       "dates": null,
       "schedule": "Saturdays 8:30am-2pm",
-      "schedule_start_date": null,
-      "schedule_end_date": null,
+      "schedule_start_date": "2026-05-01",
+      "schedule_end_date": "2026-10-31",
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -9405,9 +9405,9 @@
       },
       "programs": [],
       "dates": null,
-      "schedule": "Every Saturday, 8am-1pm",
-      "schedule_start_date": null,
-      "schedule_end_date": null,
+      "schedule": "Every Saturday, 8am-1pm (April-December)",
+      "schedule_start_date": "2026-04-01",
+      "schedule_end_date": "2026-12-19",
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",

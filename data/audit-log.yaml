@@ -1552,3 +1552,47 @@
     - id: gresham-senior-center
       status: updated
       changes: "Updated website and source URLs from greshamoregon.gov to greshamseniorcenter.com"
+
+---
+- date: 2026-01-31
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Saturday Market"
+  entries_audited: 1
+  entries:
+    - id: portland-saturday-market
+      status: updated
+      changes: "Added schedule_start_date/end_date (Mar 7 - Dec 20) to exclude from winter calendars"
+
+---
+- date: 2026-01-31
+  type: audit
+  auditor: user
+  summary: "Audit completed - Lake Oswego Farmers' Market"
+  entries_audited: 1
+  entries:
+    - id: lake-oswego-farmers-market
+      status: updated
+      changes: "Added schedule_start_date/end_date (May 9 - Oct 31) to exclude from winter calendars"
+
+---
+- date: 2026-01-31
+  type: audit
+  auditor: user
+  summary: "Audit completed - Gresham Farmers' Market"
+  entries_audited: 1
+  entries:
+    - id: gresham-farmers-market
+      status: updated
+      changes: "Added schedule_start_date/end_date (May 1 - Oct 31) to exclude from winter calendars"
+
+---
+- date: 2026-01-31
+  type: audit
+  auditor: user
+  summary: "Audit completed - Hollywood Farmers Market"
+  entries_audited: 1
+  entries:
+    - id: hollywood-farmers-market
+      status: updated
+      changes: "Updated schedule to April-December; noted winter is 1st/3rd Saturdays only"
