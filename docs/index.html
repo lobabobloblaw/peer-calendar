@@ -131,7 +131,7 @@
                 display: grid;
                 grid-template-columns: 400px 1fr;
                 gap: 20px;
-                align-items: start;
+                align-items: stretch;
                 height: calc(100vh - 50px);
             }
 
@@ -478,8 +478,8 @@
                 margin: 0;
                 margin-bottom: 0;
                 min-width: 0;
-                max-height: 100%;
-                overflow-y: auto;
+                min-height: 0;
+                overflow: hidden;
             }
         }
 
@@ -491,6 +491,22 @@
             overflow: hidden;
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
+        }
+
+        @media (min-width: 768px) {
+            .calendar-preview {
+                display: flex;
+                flex-direction: column;
+                max-height: 100%;
+            }
+
+            .grid-view,
+            .list-view,
+            .seasonal-view {
+                flex: 1;
+                overflow-y: auto;
+                min-height: 0;
+            }
         }
 
         /* Month navigation */
@@ -1112,10 +1128,9 @@
                 order: 1;
             }
 
-            /* Second row: view tabs, filter, print - full width */
+            /* Second row: view tabs, filter, print - all on same line */
             .month-nav > .view-tabs {
                 order: 2;
-                width: 100%;
                 justify-content: center;
                 margin-left: 0;
                 margin-top: 4px;
