@@ -1873,9 +1873,10 @@
   resource_type: place
   address: 600 NE 8th Street, Room 130, Gresham, OR 97030
   phone: 503-988-4870
-  website: https://greshamoregon.gov/Recreation/
+  website: https://www.greshamseniorcenter.com/
   source_urls:
-  - https://greshamoregon.gov/Recreation/
+  - https://www.greshamseniorcenter.com/
+  - https://www.greshamseniorcenter.com/activities---classes-calendar
   - https://volunteer.greshamoregon.gov/agency/detail/?agency_id=169304
   hours: Monday-Friday 8:30am-3pm
   programs:
@@ -1889,8 +1890,8 @@
   - name: Friday Speaker Series
     schedule: Fridays 1-2:30pm
     cost: FREE (RSVP required)
-  last_verified: 2026-01-28
-  next_audit: 2026-04-28
+  last_verified: 2026-01-31
+  next_audit: 2026-04-30
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by during open hours (Mon-Fri 8:30am-3pm) to see the facility and learn about programs

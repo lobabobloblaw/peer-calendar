@@ -1541,3 +1541,14 @@
     - id: pioneer-community-center
       status: updated
       changes: "Removed unverified Walk With Ease program, removed vague Fitness/Art Classes entries, added newsletter URL to sources, noted that full class schedules are in monthly newsletter"
+
+---
+- date: 2026-01-31
+  type: audit
+  auditor: user
+  summary: "Audit completed - Gresham Senior Center"
+  entries_audited: 1
+  entries:
+    - id: gresham-senior-center
+      status: updated
+      changes: "Updated website and source URLs from greshamoregon.gov to greshamseniorcenter.com"
