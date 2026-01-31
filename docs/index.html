@@ -3429,6 +3429,7 @@
             const atMin = currentMonth.getFullYear() === minMonth.getFullYear() &&
                           currentMonth.getMonth() === minMonth.getMonth();
             if (!atMin) {
+                currentMonth.setDate(1); // Prevent month rollover (e.g., Jan 31 -> Mar 3)
                 currentMonth.setMonth(currentMonth.getMonth() - 1);
                 updateCalendarDisplay();
                 updateNavButtons();
@@ -3440,6 +3441,7 @@
         });
 
         document.getElementById('next-month').addEventListener('click', () => {
+            currentMonth.setDate(1); // Prevent month rollover (e.g., Jan 31 -> Mar 3)
             currentMonth.setMonth(currentMonth.getMonth() + 1);
             updateCalendarDisplay();
             updateNavButtons();
