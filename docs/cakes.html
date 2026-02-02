@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#1a2a4a" id="theme-color-meta">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Cake Gallery</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        /* Sky gradient background */
+        #sky-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            background-color: #4a90c2;
+            background-image: linear-gradient(to bottom, #4a90c2 0%, #6eb5d9 40%, #87ceeb 100%);
+            transition: background-color 0.8s ease, background-image 0.8s ease;
+        }
+
+        /* Vanta.js cloud background */
+        #vanta-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            transform: scaleY(-1);
+            transition: opacity 0.8s ease;
+        }
+
+        /* Fog overlay */
+        #fog-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            background: linear-gradient(to bottom,
+                rgba(180, 180, 185, 0.95) 0%,
+                rgba(190, 190, 195, 0.9) 30%,
+                rgba(200, 200, 205, 0.85) 60%,
+                rgba(210, 210, 215, 0.8) 100%);
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.8s ease;
+        }
+
+        /* Weather particles canvas */
+        #weather-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            pointer-events: none;
+            mix-blend-mode: overlay;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            min-height: 100vh;
+            padding: max(20px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) max(20px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+        }
+
+        .container {
+            position: relative;
+            z-index: 2;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: white;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+            transition: color 0.5s ease, text-shadow 0.5s ease;
+        }
+
+        body.daytime h1 {
+            color: #2a2a2a;
+            text-shadow: 0 2px 4px rgba(255,255,255,0.5);
+        }
+
+        .cake-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 10px;
+        }
+
+        @media (min-width: 600px) {
+            .cake-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 25px;
+            }
+        }
+
+        @media (min-width: 900px) {
+            .cake-grid {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 30px;
+            }
+        }
+
+        .cake-card {
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        .cake-card:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+        }
+
+        .cake-card img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            /* Scale down larger images (10-19) to match smaller ones (0-9) */
+        }
+
+        /* Images 10-19 are larger and need scaling */
+        .cake-card img.large-cake {
+            max-width: 50%;
+            max-height: 50%;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+            transition: color 0.5s ease, text-shadow 0.5s ease;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        body.daytime .back-link {
+            color: #2a2a2a;
+            text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+        }
+    </style>
+</head>
+<body>
+    <!-- Background layers -->
+    <div id="sky-bg"></div>
+    <div id="vanta-bg"></div>
+    <div id="fog-overlay"></div>
+    <canvas id="weather-canvas"></canvas>
+
+    <div class="container">
+        <a href="index.html" class="back-link">&larr; Back to Calendar</a>
+        <h1>Cake Gallery</h1>
+        <div class="cake-grid">
+            <div class="cake-card"><img src="cakes/image0.png" alt="Cake 1"></div>
+            <div class="cake-card"><img src="cakes/image1.png" alt="Cake 2"></div>
+            <div class="cake-card"><img src="cakes/image2.png" alt="Cake 3"></div>
+            <div class="cake-card"><img src="cakes/image3.png" alt="Cake 4"></div>
+            <div class="cake-card"><img src="cakes/image4.png" alt="Cake 5"></div>
+            <div class="cake-card"><img src="cakes/image5.png" alt="Cake 6"></div>
+            <div class="cake-card"><img src="cakes/image6.png" alt="Cake 7"></div>
+            <div class="cake-card"><img src="cakes/image7.png" alt="Cake 8"></div>
+            <div class="cake-card"><img src="cakes/image8.png" alt="Cake 9"></div>
+            <div class="cake-card"><img src="cakes/image9.png" alt="Cake 10"></div>
+            <div class="cake-card"><img src="cakes/image10.png" alt="Cake 11" class="large-cake"></div>
+            <div class="cake-card"><img src="cakes/image11.png" alt="Cake 12" class="large-cake"></div>
+            <div class="cake-card"><img src="cakes/image12.png" alt="Cake 13" class="large-cake"></div>
+            <div class="cake-card"><img src="cakes/image13.png" alt="Cake 14" class="large-cake"></div>
+            <div class="cake-card"><img src="cakes/image14.png" alt="Cake 15" class="large-cake"></div>
+            <div class="cake-card"><img src="cakes/image15.png" alt="Cake 16" class="large-cake"></div>
+            <div class="cake-card"><img src="cakes/image16.png" alt="Cake 17" class="large-cake"></div>
+            <div class="cake-card"><img src="cakes/image17.png" alt="Cake 18" class="large-cake"></div>
+            <div class="cake-card"><img src="cakes/image18.png" alt="Cake 19" class="large-cake"></div>
+            <div class="cake-card"><img src="cakes/image19.png" alt="Cake 20" class="large-cake"></div>
+        </div>
+    </div>
+
+    <!-- Vanta.js CLOUDS background with weather/time effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+    <script>
+    (function() {
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const isMobile = window.innerWidth < 768;
+        const baseSpeed = prefersReducedMotion ? 0 : (isMobile ? 0.3 : 0.4);
+
+        // Portland coordinates
+        const PORTLAND_LAT = 45.52;
+        const PORTLAND_LON = -122.68;
+
+        // Time-of-day color palettes
+        const timePalettes = {
+            night: {
+                skyColor: 0x0a1628,
+                cloudColor: 0x1a2a4a,
+                cloudShadowColor: 0x050a14,
+                sunColor: 0x8899aa,
+                sunGlareColor: 0x334455,
+                sunlightColor: 0x6677aa
+            },
+            dawn: {
+                skyColor: 0x4a3a5c,
+                cloudColor: 0xc09068,
+                cloudShadowColor: 0x2a1a3c,
+                sunColor: 0xd4a870,
+                sunGlareColor: 0xc87858,
+                sunlightColor: 0xd0b888
+            },
+            day: {
+                skyColor: 0x5a9fc8,
+                cloudColor: 0x88aaba,
+                cloudShadowColor: 0x4a7a98,
+                sunColor: 0xc8c0a8,
+                sunGlareColor: 0xa89880,
+                sunlightColor: 0xb8b0a0
+            },
+            dusk: {
+                skyColor: 0x5c4a6a,
+                cloudColor: 0xc88850,
+                cloudShadowColor: 0x2a1a3c,
+                sunColor: 0xd08050,
+                sunGlareColor: 0xc05838,
+                sunlightColor: 0xd09060
+            }
+        };
+
+        function getWeatherModifiers(weatherCode, cloudCover) {
+            const mods = { speedMult: 1.0, skyDarken: 0, cloudDarken: 0, blendToSky: 0, dimSun: 0, softGlow: 0 };
+
+            if (weatherCode === 0) {
+                mods.speedMult = 0.4;
+                mods.blendToSky = 0.88;
+                mods.dimSun = 0.12;
+            } else if (weatherCode === 1) {
+                mods.speedMult = 0.5;
+                mods.blendToSky = 0.6;
+                mods.dimSun = 0.05;
+            } else if (weatherCode === 2) {
+                mods.speedMult = 0.7;
+                mods.blendToSky = 0.35;
+            } else if (weatherCode === 3) {
+                mods.speedMult = 0.8;
+                mods.softGlow = 0.1;
+                mods.skyDarken = 0.05;
+            } else if (weatherCode >= 45 && weatherCode <= 48) {
+                mods.speedMult = 0.3;
+                mods.blendToSky = -0.2;
+                mods.softGlow = 0.15;
+                mods.skyDarken = 0.08;
+            } else if (weatherCode >= 51 && weatherCode <= 55) {
+                mods.speedMult = 0.6;
+                mods.skyDarken = 0.1;
+                mods.softGlow = 0.08;
+            } else if (weatherCode >= 61 && weatherCode <= 65) {
+                mods.speedMult = 1.0;
+                mods.skyDarken = 0.15;
+                mods.cloudDarken = 0.1;
+            } else if (weatherCode >= 71 && weatherCode <= 77) {
+                mods.speedMult = 0.4;
+                mods.skyDarken = 0.05;
+                mods.softGlow = 0.12;
+                mods.blendToSky = 0.2;
+            } else if (weatherCode >= 80 && weatherCode <= 82) {
+                mods.speedMult = 1.2;
+                mods.skyDarken = 0.18;
+                mods.cloudDarken = 0.12;
+            } else if (weatherCode >= 95) {
+                mods.speedMult = 1.5;
+                mods.skyDarken = 0.35;
+                mods.cloudDarken = 0.25;
+            }
+
+            if (cloudCover < 20) {
+                mods.blendToSky = Math.max(mods.blendToSky, 0.7);
+            } else if (cloudCover < 40) {
+                mods.blendToSky = Math.max(mods.blendToSky, 0.4);
+            } else if (cloudCover > 90) {
+                mods.skyDarken += 0.05;
+                mods.blendToSky = Math.min(mods.blendToSky, 0.1);
+            }
+
+            let cloudOpacity = 1.0;
+            if (weatherCode === 0 && cloudCover < 20) {
+                cloudOpacity = 0.15 + (cloudCover / 20) * 0.3;
+            } else if (weatherCode === 0) {
+                cloudOpacity = 0.45 + (cloudCover / 100) * 0.55;
+            } else if (weatherCode === 1 && cloudCover < 30) {
+                cloudOpacity = 0.4 + (cloudCover / 30) * 0.4;
+            }
+            mods.cloudOpacity = cloudOpacity;
+
+            return mods;
+        }
+
+        function darkenColor(hex, amount) {
+            const r = Math.max(0, ((hex >> 16) & 0xff) * (1 - amount));
+            const g = Math.max(0, ((hex >> 8) & 0xff) * (1 - amount));
+            const b = Math.max(0, (hex & 0xff) * (1 - amount));
+            return (Math.round(r) << 16) | (Math.round(g) << 8) | Math.round(b);
+        }
+
+        function lightenColor(hex, amount) {
+            const r = Math.min(255, ((hex >> 16) & 0xff) + (255 - ((hex >> 16) & 0xff)) * amount);
+            const g = Math.min(255, ((hex >> 8) & 0xff) + (255 - ((hex >> 8) & 0xff)) * amount);
+            const b = Math.min(255, (hex & 0xff) + (255 - (hex & 0xff)) * amount);
+            return (Math.round(r) << 16) | (Math.round(g) << 8) | Math.round(b);
+        }
+
+        function blendColors(color1, color2, amount) {
+            const r1 = (color1 >> 16) & 0xff, g1 = (color1 >> 8) & 0xff, b1 = color1 & 0xff;
+            const r2 = (color2 >> 16) & 0xff, g2 = (color2 >> 8) & 0xff, b2 = color2 & 0xff;
+            const r = Math.round(r1 + (r2 - r1) * amount);
+            const g = Math.round(g1 + (g2 - g1) * amount);
+            const b = Math.round(b1 + (b2 - b1) * amount);
+            return (r << 16) | (g << 8) | b;
+        }
+
+        function getTimeOfDay(now, sunrise, sunset) {
+            const currentMins = now.getHours() * 60 + now.getMinutes();
+            const sunriseMins = sunrise || 7 * 60 + 30;
+            const sunsetMins = sunset || 17 * 60 + 30;
+            const dawnStart = sunriseMins - 45;
+            const dawnEnd = sunriseMins + 30;
+            const duskStart = sunsetMins - 30;
+            const duskEnd = sunsetMins + 45;
+
+            if (currentMins >= dawnStart && currentMins < dawnEnd) return 'dawn';
+            if (currentMins >= dawnEnd && currentMins < duskStart) return 'day';
+            if (currentMins >= duskStart && currentMins < duskEnd) return 'dusk';
+            return 'night';
+        }
+
+        function parseTimeToMins(timeStr) {
+            if (!timeStr) return null;
+            const [h, m] = timeStr.split(':').map(Number);
+            return h * 60 + m;
+        }
+
+        async function fetchPortlandWeather() {
+            try {
+                const url = `https://api.open-meteo.com/v1/forecast?latitude=${PORTLAND_LAT}&longitude=${PORTLAND_LON}&current=temperature_2m,weather_code,cloud_cover,is_day&daily=sunrise,sunset&timezone=America/Los_Angeles&forecast_days=1`;
+                const response = await fetch(url);
+                if (!response.ok) throw new Error('Weather API error');
+                const data = await response.json();
+                const sunriseStr = data.daily?.sunrise?.[0]?.split('T')[1];
+                const sunsetStr = data.daily?.sunset?.[0]?.split('T')[1];
+
+                return {
+                    weatherCode: data.current.weather_code,
+                    cloudCover: data.current.cloud_cover,
+                    isDay: data.current.is_day === 1,
+                    temperature: data.current.temperature_2m,
+                    sunrise: parseTimeToMins(sunriseStr),
+                    sunset: parseTimeToMins(sunsetStr)
+                };
+            } catch (e) {
+                console.log('Weather fetch failed, using defaults:', e.message);
+                return null;
+            }
+        }
+
+        function calculateVantaOptions(weather) {
+            const now = new Date();
+            const sunrise = weather?.sunrise;
+            const sunset = weather?.sunset;
+            const timeOfDay = getTimeOfDay(now, sunrise, sunset);
+            const palette = timePalettes[timeOfDay];
+            let options = { ...palette };
+            let speedMult = 1.0;
+
+            if (weather) {
+                const mods = getWeatherModifiers(weather.weatherCode, weather.cloudCover);
+                speedMult = mods.speedMult;
+
+                if (mods.skyDarken > 0) {
+                    options.skyColor = darkenColor(options.skyColor, mods.skyDarken);
+                }
+                if (mods.cloudDarken > 0) {
+                    options.cloudColor = darkenColor(options.cloudColor, mods.cloudDarken);
+                    options.cloudShadowColor = darkenColor(options.cloudShadowColor, mods.cloudDarken);
+                }
+                if (mods.blendToSky > 0) {
+                    options.cloudColor = blendColors(options.cloudColor, options.skyColor, mods.blendToSky);
+                    options.cloudShadowColor = blendColors(options.cloudShadowColor, options.skyColor, mods.blendToSky * 0.5);
+                } else if (mods.blendToSky < 0) {
+                    options.cloudColor = darkenColor(options.cloudColor, -mods.blendToSky * 0.3);
+                }
+                if (mods.dimSun > 0) {
+                    options.sunColor = darkenColor(options.sunColor, mods.dimSun);
+                    options.sunGlareColor = darkenColor(options.sunGlareColor, mods.dimSun * 1.5);
+                    options.sunlightColor = darkenColor(options.sunlightColor, mods.dimSun);
+                }
+                if (mods.softGlow > 0) {
+                    options.sunlightColor = lightenColor(options.sunlightColor, mods.softGlow);
+                    options.cloudColor = lightenColor(options.cloudColor, mods.softGlow * 0.5);
+                }
+                options.cloudOpacity = mods.cloudOpacity;
+            }
+
+            options.speed = baseSpeed * speedMult;
+            options.timeOfDay = timeOfDay;
+            return options;
+        }
+
+        const skyGradients = {
+            night: 'linear-gradient(to bottom, #0a1628 0%, #1a2a4a 50%, #2a3a5a 100%)',
+            dawn: 'linear-gradient(to bottom, #ff9966 0%, #cc7a5a 30%, #4a3a5c 70%, #2a1a3c 100%)',
+            day: 'linear-gradient(to bottom, #4a90c2 0%, #6eb5d9 40%, #87ceeb 100%)',
+            dusk: 'linear-gradient(to bottom, #ff7744 0%, #cc6644 30%, #5c4a6a 70%, #2a1a3c 100%)'
+        };
+
+        const themeColors = {
+            night: '#0a1628',
+            dawn: '#ff9966',
+            day: '#4a90c2',
+            dusk: '#ff7744'
+        };
+
+        // Weather particle system
+        const weatherCanvas = document.getElementById('weather-canvas');
+        const weatherCtx = weatherCanvas.getContext('2d');
+        let weatherParticles = [];
+        let weatherAnimationId = null;
+        let lastWeatherFrameTime = 0;
+        let currentWeatherTimeOfDay = 'day';
+
+        function resizeWeatherCanvas() {
+            weatherCanvas.width = window.innerWidth;
+            weatherCanvas.height = window.innerHeight;
+        }
+        resizeWeatherCanvas();
+        window.addEventListener('resize', resizeWeatherCanvas);
+
+        class WeatherParticle {
+            constructor(type, intensity) {
+                this.type = type;
+                this.intensity = intensity;
+                this.reset(true);
+            }
+
+            reset(initial = false) {
+                this.x = Math.random() * weatherCanvas.width;
+                this.y = initial ? Math.random() * weatherCanvas.height : -20;
+
+                if (this.type === 'rain') {
+                    this.speed = 800 + Math.random() * 400;
+                    this.length = 15 + Math.random() * 12;
+                    this.opacity = 0.25 + Math.random() * 0.25;
+                    this.wind = 1.5 + Math.random() * 1.5;
+                    this.lineWidth = 0.75 + Math.random() * 0.5;
+                } else if (this.type === 'snow') {
+                    this.speed = 40 + Math.random() * 60;
+                    this.radius = 1 + Math.random() * 2.5;
+                    this.opacity = 0.4 + Math.random() * 0.4;
+                    this.wobble = Math.random() * Math.PI * 2;
+                    this.wobbleSpeed = 1.5 + Math.random();
+                }
+            }
+
+            update(deltaTime) {
+                const dt = deltaTime / 1000;
+                if (this.type === 'rain') {
+                    this.y += this.speed * dt;
+                    this.x += this.wind * 60 * dt;
+                } else if (this.type === 'snow') {
+                    this.y += this.speed * dt;
+                    this.wobble += this.wobbleSpeed * dt;
+                    this.x += Math.sin(this.wobble) * 30 * dt;
+                }
+                if (this.y > weatherCanvas.height + 20 || this.x > weatherCanvas.width + 20 || this.x < -20) {
+                    this.reset();
+                }
+            }
+
+            draw(ctx, timeOfDay) {
+                if (this.type === 'rain') {
+                    let color = timeOfDay === 'night'
+                        ? `rgba(140, 160, 190, ${this.opacity})`
+                        : `rgba(170, 190, 210, ${this.opacity})`;
+                    ctx.strokeStyle = color;
+                    ctx.lineWidth = this.lineWidth;
+                    ctx.lineCap = 'round';
+                    ctx.beginPath();
+                    ctx.moveTo(this.x, this.y);
+                    ctx.lineTo(this.x + this.wind * 1.5, this.y + this.length);
+                    ctx.stroke();
+                } else if (this.type === 'snow') {
+                    ctx.fillStyle = `rgba(255, 255, 255, ${this.opacity})`;
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+            }
+        }
+
+        function getWeatherParticleType(weatherCode) {
+            if ((weatherCode >= 51 && weatherCode <= 67) ||
+                (weatherCode >= 80 && weatherCode <= 82) ||
+                (weatherCode >= 95 && weatherCode <= 99)) {
+                return 'rain';
+            }
+            if ((weatherCode >= 71 && weatherCode <= 77) ||
+                (weatherCode >= 85 && weatherCode <= 86)) {
+                return 'snow';
+            }
+            return null;
+        }
+
+        function getWeatherParticleIntensity(weatherCode) {
+            if ([51, 56, 61, 66, 71, 77, 80, 85].includes(weatherCode)) return 0.3;
+            if ([53, 63, 73, 81].includes(weatherCode)) return 0.6;
+            if ([55, 57, 65, 67, 75, 82, 86, 95, 96, 99].includes(weatherCode)) return 1.0;
+            return 0.5;
+        }
+
+        function startWeatherParticles(type, intensity, timeOfDay) {
+            stopWeatherParticles();
+            if (!type) return;
+
+            currentWeatherTimeOfDay = timeOfDay;
+            let count = type === 'rain'
+                ? Math.floor(150 + intensity * 350)
+                : Math.floor(60 + intensity * 140);
+
+            weatherParticles = [];
+            for (let i = 0; i < count; i++) {
+                weatherParticles.push(new WeatherParticle(type, intensity));
+            }
+
+            lastWeatherFrameTime = performance.now();
+
+            function animate(currentTime) {
+                const deltaTime = Math.min(currentTime - lastWeatherFrameTime, 50);
+                lastWeatherFrameTime = currentTime;
+
+                weatherCtx.clearRect(0, 0, weatherCanvas.width, weatherCanvas.height);
+                for (const p of weatherParticles) {
+                    p.update(deltaTime);
+                    p.draw(weatherCtx, currentWeatherTimeOfDay);
+                }
+                weatherAnimationId = requestAnimationFrame(animate);
+            }
+            weatherAnimationId = requestAnimationFrame(animate);
+        }
+
+        function stopWeatherParticles() {
+            if (weatherAnimationId) {
+                cancelAnimationFrame(weatherAnimationId);
+                weatherAnimationId = null;
+            }
+            weatherParticles = [];
+            weatherCtx.clearRect(0, 0, weatherCanvas.width, weatherCanvas.height);
+        }
+
+        const vantaBg = document.getElementById('vanta-bg');
+        const skyBg = document.getElementById('sky-bg');
+        vantaBg.style.opacity = '0';
+        vantaBg.style.transition = 'opacity 0.8s ease-in';
+
+        let vantaEffect = null;
+        let currentSpeed = baseSpeed;
+
+        fetchPortlandWeather().then(weather => {
+            const options = calculateVantaOptions(weather);
+            const timeOfDay = options.timeOfDay || 'day';
+            skyBg.style.backgroundImage = skyGradients[timeOfDay];
+            skyBg.style.backgroundColor = themeColors[timeOfDay];
+
+            const themeColorMeta = document.getElementById('theme-color-meta');
+            if (themeColorMeta) {
+                themeColorMeta.content = themeColors[timeOfDay];
+            }
+
+            vantaEffect = VANTA.CLOUDS({
+                el: "#vanta-bg",
+                mouseControls: false,
+                touchControls: false,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                ...options
+            });
+
+            currentSpeed = options.speed;
+            const cloudOpacity = options.cloudOpacity !== undefined ? options.cloudOpacity : 1.0;
+            const fogOverlay = document.getElementById('fog-overlay');
+
+            requestAnimationFrame(() => {
+                vantaBg.style.opacity = String(cloudOpacity);
+
+                if (weather && weather.weatherCode >= 45 && weather.weatherCode <= 48) {
+                    const fogIntensity = 0.7 + (weather.cloudCover / 100) * 0.25;
+                    fogOverlay.style.opacity = fogIntensity;
+                } else {
+                    fogOverlay.style.opacity = 0;
+                }
+
+                const isDaytime = timeOfDay === 'day' || timeOfDay === 'dawn';
+                document.body.classList.toggle('daytime', isDaytime);
+
+                if (weather) {
+                    const particleType = getWeatherParticleType(weather.weatherCode);
+                    const particleIntensity = getWeatherParticleIntensity(weather.weatherCode);
+                    startWeatherParticles(particleType, particleIntensity, timeOfDay);
+                }
+            });
+        });
+
+        // Pause animations when page hidden
+        let particlesWereRunning = false;
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden) {
+                if (vantaEffect) vantaEffect.setOptions({ speed: 0 });
+                if (weatherAnimationId) {
+                    particlesWereRunning = true;
+                    cancelAnimationFrame(weatherAnimationId);
+                    weatherAnimationId = null;
+                }
+            } else if (!prefersReducedMotion) {
+                if (vantaEffect) vantaEffect.setOptions({ speed: currentSpeed });
+                if (particlesWereRunning && weatherParticles.length > 0) {
+                    lastWeatherFrameTime = performance.now();
+                    function animate(currentTime) {
+                        const deltaTime = Math.min(currentTime - lastWeatherFrameTime, 50);
+                        lastWeatherFrameTime = currentTime;
+                        weatherCtx.clearRect(0, 0, weatherCanvas.width, weatherCanvas.height);
+                        for (const p of weatherParticles) {
+                            p.update(deltaTime);
+                            p.draw(weatherCtx, currentWeatherTimeOfDay);
+                        }
+                        weatherAnimationId = requestAnimationFrame(animate);
+                    }
+                    weatherAnimationId = requestAnimationFrame(animate);
+                }
+            }
+        });
+    })();
+    </script>
+</body>
+</html>
