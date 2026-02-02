@@ -2,6 +2,45 @@
 # Records all verification activities and changes
 
 ---
+- date: 2026-02-02
+  type: audit
+  auditor: claude
+  summary: "Monday events audit - verified 10 recurring events, updated 2 entries"
+  verified:
+    - id: nami-multnomah
+      program: "LGBTQ2SIA+ Support"
+      status: "Confirmed Every Monday 7-8:30pm Zoom"
+    - id: recovery-dharma
+      program: "Dawn Metta"
+      status: "Confirmed Mondays 7am Zoom"
+    - id: recovery-dharma
+      program: "Hungry Ghosts"
+      status: "Confirmed Mondays 6pm at 3442 SE Morrison"
+    - id: dda-oregon
+      program: "Daily Meetings"
+      status: "Confirmed Mon-Fri 12-1pm at Central Office"
+    - id: dbsa-portland
+      program: "LGBTQIA+ Support"
+      status: "Confirmed Mondays 7-8:30pm (hybrid on 1st Monday)"
+    - id: portland-running-company
+      program: "Monday Trail Run"
+      status: "Confirmed Mondays 6pm at 2258 NW Raleigh"
+    - id: thprd-fitness-park
+      program: "Tai Chi"
+      status: "Confirmed Mondays 4pm at The Opal (Jan 12 - Mar 22)"
+    - id: foot-traffic-runs
+      program: "Monday Run"
+      status: "Confirmed Mondays 6pm at Westside location"
+  changes:
+    - id: recovery-dharma
+      program: "Dharma Rain Eightfold Path Study"
+      change: "Format changed from Hybrid to Zoom-only; removed physical location"
+      source: "https://recoverydharmapdx.org/meetings/"
+    - id: dda-oregon
+      change: "Added 3 Monday meetings: Luke Dorf (12-1pm), Providence Medical Center (3:15-4:15pm), Taft Hotel (2-3pm)"
+      source: "http://ddaoregon.com/meeting.htm"
+  notes: All Monday events verified against source websites. Recovery Dharma Dharma Rain meeting now online-only.
+
 - date: 2026-01-29
   type: corrections
   auditor: claude

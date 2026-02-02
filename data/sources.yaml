@@ -983,8 +983,7 @@
     format: Zoom
   - name: Dharma Rain Eightfold Path Study
     schedule: Mondays 7-8pm
-    location: Dharma Rain Zen Center, 8500 NE Siskiyou St
-    format: Hybrid
+    format: Zoom
   - name: Hungry Ghosts
     schedule: Mondays 6-7pm
     location: 3442 SE Morrison St
@@ -1020,8 +1019,8 @@
     - indoor
   notes: 30+ weekly meetings across Portland. Buddhist-based recovery using mindfulness
     and loving-kindness - alternative to 12-step programs.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-02-02
+  next_audit: 2026-05-02
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
 - id: peer-company
@@ -1136,9 +1135,21 @@
   pricing:
     description: FREE
   programs:
-  - name: Daily Meetings
+  - name: Daily Meetings (Central Office)
     schedule: Mon-Fri 12-1pm
     location: 521 SW 11th Ave (2nd floor)
+    cost: FREE
+  - name: Luke Dorf Meeting
+    schedule: Mondays 12-1pm
+    location: Luke Dorf, Inc., 9225 NE Halsey St
+    cost: FREE
+  - name: Providence Medical Center Meeting
+    schedule: Mondays 3:15-4:15pm
+    location: Providence Medical Center, 5228 NE Hoyt St
+    cost: FREE
+  - name: Taft Hotel Meeting
+    schedule: Mondays 2-3pm
+    location: Taft Hotel, 1337 SW Washington St
     cost: FREE
   - name: Saturday Meeting
     schedule: Saturdays 10-11am
@@ -1166,7 +1177,10 @@
     - indoor
   guide_location: activities-guide-2.md#dual-diagnosis-support
   notes: 12-Step plus 5 additional steps for co-occurring mental illness and substance
-    use. Peer-led meetings.
+    use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm
+    for full schedule.
+  last_verified: 2026-02-02
+  next_audit: 2026-05-02
 - id: aa-portland-intergroup
   name: Portland Area Intergroup of Alcoholics Anonymous
   category: peer_support
