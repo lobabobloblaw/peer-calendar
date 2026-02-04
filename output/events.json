@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-31T10:10:09.743642",
+  "generated": "2026-02-04T20:03:34.812930",
   "count": 213,
   "categories": {
     "peer_support": "Peer Support",
@@ -1066,8 +1066,7 @@
         {
           "name": "Dharma Rain Eightfold Path Study",
           "schedule": "Mondays 7-8pm",
-          "location": "Dharma Rain Zen Center, 8500 NE Siskiyou St",
-          "format": "Hybrid",
+          "format": "Zoom",
           "audience": [
             "lgbtq",
             "trans_nonbinary",
@@ -1279,9 +1278,30 @@
       },
       "programs": [
         {
-          "name": "Daily Meetings",
+          "name": "Daily Meetings (Central Office)",
           "schedule": "Mon-Fri 12-1pm",
           "location": "521 SW 11th Ave (2nd floor)",
+          "cost": "FREE",
+          "audience": []
+        },
+        {
+          "name": "Luke Dorf Meeting",
+          "schedule": "Mondays 12-1pm",
+          "location": "Luke Dorf, Inc., 9225 NE Halsey St",
+          "cost": "FREE",
+          "audience": []
+        },
+        {
+          "name": "Providence Medical Center Meeting",
+          "schedule": "Mondays 3:15-4:15pm",
+          "location": "Providence Medical Center, 5228 NE Hoyt St",
+          "cost": "FREE",
+          "audience": []
+        },
+        {
+          "name": "Taft Hotel Meeting",
+          "schedule": "Mondays 2-3pm",
+          "location": "Taft Hotel, 1337 SW Washington St",
           "cost": "FREE",
           "audience": []
         },
@@ -1316,7 +1336,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings.",
+      "notes": "12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.",
       "practical_tips": {
         "first_visit": "Just show up to any meeting - daily noon meetings downtown most accessible",
         "registration": "No registration needed",
@@ -6466,7 +6486,7 @@
         "notes": "Oldest and longest-running African film festival in the US"
       },
       "programs": [],
-      "dates": "February 6 - March 7, 2026",
+      "dates": "February 8 - March 7, 2026",
       "schedule": null,
       "schedule_start_date": null,
       "schedule_end_date": null,

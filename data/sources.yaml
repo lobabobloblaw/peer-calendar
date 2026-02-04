@@ -5571,7 +5571,7 @@
   pricing:
     description: FREE - all screenings free to public
     notes: Oldest and longest-running African film festival in the US
-  dates: February 6 - March 7, 2026
+  dates: February 8 - March 7, 2026
   features:
   - 20-23 feature and documentary films
   - Visiting filmmakers and guest speakers
@@ -5588,9 +5588,9 @@
   - name: PCC Cascade Campus
     address: 705 N Killingsworth St, Portland, OR 97217
   eligibility: Open to the public
-  last_verified: 2026-01-24
-  next_audit: 2026-02-01
-  notes: 37th annual in 2026. 5-week celebration of African cinema during Black History Month.
+  last_verified: 2026-02-04
+  next_audit: 2026-03-01
+  notes: 36th annual in 2026. 5-week celebration of African cinema during Black History Month.
   audit_frequency: monthly
   practical_tips:
     first_visit: Check schedule online - different films each weekend
