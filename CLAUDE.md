@@ -352,7 +352,7 @@ Calendars are hosted via GitHub Pages for public subscription access.
 
 **Landing page features:**
 - Title: "2026 Peer Support Calendar for the Multnomah Tri-County Region"
-- Contact: alex.voigt@folktime.org
+- Contact: avoigt@folktime.org
 - Responsive two-column layout on desktop (768px+), single-column on mobile
 - Platform selector (Apple/Google/Outlook) with inline "Subscribe:" label
 - Inline calendar preview with three view tabs:
