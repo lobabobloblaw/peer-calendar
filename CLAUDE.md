@@ -34,6 +34,7 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 - `templates/resource-entry.yaml` - Template for new entries
 
 **Scripts (require Python 3.13+ with PyYAML, python-dateutil):**
+- `scripts/utils.py` - Shared utilities: `load_sources()`, `parse_date()`, `format_date()`, `validate_entry()`
 - `scripts/generate_calendar.py` - Generates iCal/ICS calendar feeds to `output/`
 - `scripts/generate_monthly_calendars.py` - Expands recurring events into month-specific calendars in `distribution/`
 - `scripts/audit_check.py` - Reports entries due for audit, unverified entries, statistics
@@ -50,7 +51,7 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 
 **Output files (platform-specific calendars):**
 ```
-output/                    # Raw generated calendars (recurring events)
+output/                    # Raw generated calendars (gitignored, regenerate with generate_calendar.py)
 ├── google/
 ├── apple/
 ├── outlook/
@@ -92,6 +93,7 @@ python scripts/audit_check.py --due-this-month  # Entries due now
 python scripts/audit_check.py --due-next-month  # Preview next month
 python scripts/audit_check.py --unverified      # Entries needing official sources
 python scripts/audit_check.py --quality         # Data quality issues
+python scripts/audit_check.py --validate        # Validate entry fields and types
 python scripts/audit_check.py --category peer_support  # Filter by category
 ```
 
@@ -140,6 +142,7 @@ python scripts/audit_check.py --category peer_support  # Filter by category
 - `--overdue`: Show only overdue entries
 - `--due-this-week`: Show entries due in next 7 days
 - `--due-this-month`: Show all entries due this month
+- `--validate`: Validate entry fields and types
 - `--category peer_support`: Filter by category
 
 ### 2. Add New Resources
@@ -301,6 +304,7 @@ python scripts/audit_check.py
 python scripts/audit_check.py --weekly-summary    # Start here for weekly check-ins
 python scripts/audit_check.py --overdue           # Show overdue entries
 python scripts/audit_check.py --due-this-week     # Show entries due in 7 days
+python scripts/audit_check.py --validate          # Validate entry fields and types
 
 # Mark an entry as audited (auto-updates dates and logs)
 python scripts/audit_complete.py --id entry-id                    # No changes found
@@ -386,7 +390,7 @@ git push
 ```
 
 The `docs/` folder contains:
-- `index.html` - Landing page with subscription links and calendar preview (~3500 lines)
+- `index.html` - Landing page with subscription links and calendar preview (~4000 lines)
   - Vanta.js for animated cloud background
   - Open-Meteo API for weather-reactive theming
   - Key JavaScript functions:
@@ -394,7 +398,9 @@ The `docs/` folder contains:
     - `isMonthInSeasonalRange()` - Filters events by season keywords and month ranges
     - `generateMonthEvents()` - Creates event list for calendar display
     - `printCalendar()` - Generates print-optimized output with date range
-  - Modal system (event details, About page)
+    - `escapeHtml()` - XSS prevention for innerHTML calls
+    - `trapFocus()`/`releaseFocusTrap()` - Accessible focus trapping for modals
+  - Modal system (event details, About page) with ARIA dialog attributes
   - Print dialog with date range selection
 - `apple/`, `google/`, `outlook/` - Platform-specific ICS files
 - `events.json` - JSON feed for programmatic access and web calendar preview
