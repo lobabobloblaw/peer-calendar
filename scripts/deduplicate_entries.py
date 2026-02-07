@@ -8,9 +8,11 @@ Strategy:
 - Output a cleaned YAML file
 """
 
+import copy
 import yaml
 import sys
 from collections import defaultdict
+from datetime import date
 from pathlib import Path
 
 
@@ -93,7 +95,7 @@ def merge_entries(entries_list):
     scored.sort(key=lambda x: -x[0])
 
     # Start with most complete base entry
-    merged = scored[0][2].copy()
+    merged = copy.deepcopy(scored[0][2])
 
     # Merge in enrichment from others
     for _, _, entry in scored[1:]:
@@ -200,7 +202,7 @@ def main():
     # Write with category headers
     with open(output_path, "w", encoding="utf-8") as f:
         f.write("# Portland Metro Resources - Source Registry\n")
-        f.write(f"# Last updated: 2025-12-03\n")
+        f.write(f"# Last updated: {date.today().isoformat()}\n")
         f.write("# Deduplicated and merged from sources.yaml\n")
         f.write("#\n")
         f.write("# This file is the source of truth for all resources in the guides.\n")

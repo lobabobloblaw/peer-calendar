@@ -23,6 +23,8 @@ import argparse
 from pathlib import Path
 import yaml
 
+from utils import load_sources as _load_sources_shared
+
 # Pattern definitions for each audience tag
 AUDIENCE_PATTERNS = {
     'children': [
@@ -210,15 +212,7 @@ def analyze_entry(entry: dict) -> dict:
 
 def load_sources(path: Path) -> list:
     """Load all entries from sources.yaml (multi-document YAML)."""
-    entries = []
-    with open(path, 'r', encoding='utf-8') as f:
-        content = f.read()
-
-    for doc in yaml.safe_load_all(content):
-        if doc and isinstance(doc, list):
-            entries.extend(doc)
-
-    return entries
+    return _load_sources_shared(path)
 
 
 def apply_audience_to_yaml(input_path: Path, results: list, output_path: Path = None) -> int:

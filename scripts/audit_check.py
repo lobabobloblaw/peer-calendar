@@ -23,22 +23,7 @@ from collections import Counter
 from datetime import datetime, date, timedelta
 from pathlib import Path
 
-import yaml
-
-
-def load_sources(sources_path: str) -> list[dict]:
-    """Load and parse the sources.yaml file."""
-    with open(sources_path, "r", encoding="utf-8") as f:
-        content = f.read()
-
-    documents = []
-    for doc in yaml.safe_load_all(content):
-        if doc and isinstance(doc, list):
-            documents.extend(doc)
-        elif doc and isinstance(doc, dict):
-            documents.append(doc)
-
-    return [d for d in documents if d and isinstance(d, dict) and "id" in d]
+from utils import load_sources, format_date, parse_date
 
 
 def check_data_quality(entry: dict) -> list[str]:
@@ -75,31 +60,6 @@ def check_data_quality(entry: dict) -> list[str]:
     return issues
 
 
-def format_date(date_val) -> str:
-    """Format a date value for display."""
-    if isinstance(date_val, datetime):
-        return date_val.strftime("%Y-%m-%d")
-    elif isinstance(date_val, date):
-        return date_val.strftime("%Y-%m-%d")
-    elif isinstance(date_val, str):
-        return date_val
-    return str(date_val) if date_val else "N/A"
-
-
-def parse_date(date_val) -> date | None:
-    """Parse a date value to a date object."""
-    if isinstance(date_val, date) and not isinstance(date_val, datetime):
-        return date_val
-    if isinstance(date_val, datetime):
-        return date_val.date()
-    if isinstance(date_val, str):
-        try:
-            return datetime.strptime(date_val, "%Y-%m-%d").date()
-        except ValueError:
-            return None
-    return None
-
-
 def print_entry_details(entry: dict, show_source_urls: bool = True):
     """Print formatted details for an entry."""
     print(f"  [{entry.get('category', 'N/A')}] {entry.get('name', 'Unknown')}")
@@ -132,6 +92,7 @@ def main():
     parser.add_argument("--unverified", action="store_true", help="Show only unverified entries")
     parser.add_argument("--category", help="Filter by category")
     parser.add_argument("--quality", action="store_true", help="Run data quality check")
+    parser.add_argument("--validate", action="store_true", help="Validate entry fields and types")
 
     args = parser.parse_args()
 
@@ -144,6 +105,21 @@ def main():
 
     entries = load_sources(sources_path)
     print(f"Loaded {len(entries)} entries from sources.yaml\n")
+
+    if args.validate:
+        from utils import validate_all_entries
+        warnings = validate_all_entries(entries, quiet=True)
+        print("=" * 60)
+        print("ENTRY VALIDATION")
+        print("=" * 60)
+        if warnings:
+            for w in warnings:
+                print(f"  WARNING: {w}")
+            print(f"\n{len(warnings)} validation warning(s) found.")
+        else:
+            print("  All entries passed validation.")
+        print()
+        return
 
     today_dt = datetime.now()
     today_date = today_dt.date()

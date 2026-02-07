@@ -42,6 +42,8 @@ from pathlib import Path
 
 import yaml
 
+from utils import load_sources
+
 
 # Category color scheme (hex colors)
 CATEGORY_COLORS = {
@@ -143,21 +145,6 @@ def get_program_audience(program: dict, entry: dict) -> list:
     return get_entry_audience(entry)
 
 
-def load_sources(sources_path: str) -> list[dict]:
-    """Load and parse the sources.yaml file."""
-    with open(sources_path, "r", encoding="utf-8") as f:
-        content = f.read()
-
-    documents = []
-    for doc in yaml.safe_load_all(content):
-        if doc and isinstance(doc, list):
-            documents.extend(doc)
-        elif doc and isinstance(doc, dict):
-            documents.append(doc)
-
-    return [d for d in documents if d and isinstance(d, dict) and "id" in d]
-
-
 def generate_uid(entry_id: str, date_str: str = "") -> str:
     """Generate a unique identifier for calendar events."""
     unique_string = f"{entry_id}-{date_str}"
@@ -203,25 +190,33 @@ def parse_schedule(schedule_str: str) -> dict:
     if "every" in schedule_lower:
         result["weekly"] = True
 
-    time_pattern = r"(\d{1,2})(?::(\d{2}))?\s*-\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm)?"
+    time_pattern = r"(\d{1,2})(?::(\d{2}))?\s*(am|pm)?\s*-\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm)?"
     time_match = re.search(time_pattern, schedule_normalized)
     if time_match:
         start_hour = int(time_match.group(1))
         start_min = int(time_match.group(2) or 0)
-        end_hour = int(time_match.group(3))
-        end_min = int(time_match.group(4) or 0)
-        period = time_match.group(5)
+        start_period = time_match.group(3)
+        end_hour = int(time_match.group(4))
+        end_min = int(time_match.group(5) or 0)
+        end_period = time_match.group(6)
 
-        if period == "pm":
-            if start_hour < 12:
-                start_hour += 12
-            if end_hour < 12:
-                end_hour += 12
-        elif period == "am":
-            if start_hour == 12:
-                start_hour = 0
-            if end_hour == 12:
-                end_hour = 0
+        # Infer start period when only end has one (matches JS parseSchedule logic)
+        if not start_period and end_period:
+            raw_end_hour = int(time_match.group(4))
+            if start_hour <= raw_end_hour and end_period == "pm" and start_hour < 12:
+                # Same period: "2-10pm" means 2pm-10pm
+                start_period = "pm"
+            # else: different periods, start stays as AM: "10-7pm" = 10am-7pm
+
+        if start_period == "pm" and start_hour < 12:
+            start_hour += 12
+        elif start_period == "am" and start_hour == 12:
+            start_hour = 0
+
+        if end_period == "pm" and end_hour < 12:
+            end_hour += 12
+        elif end_period == "am" and end_hour == 12:
+            end_hour = 0
 
         result["start_time"] = f"{start_hour:02d}:{start_min:02d}"
         result["end_time"] = f"{end_hour:02d}:{end_min:02d}"
@@ -461,6 +456,79 @@ def create_vevent(
     return "\r\n".join(lines)
 
 
+def build_recurring_event(
+    schedule: dict,
+    entry: dict,
+    summary: str,
+    description: str,
+    html_desc: str,
+    location: str,
+    uid: str,
+    website: str,
+    category: str,
+    platform: str,
+) -> str | None:
+    """Build a recurring VEVENT from parsed schedule data. Returns None if schedule is incomplete."""
+    if not (schedule.get("day") and schedule.get("start_time")):
+        return None
+
+    rrule_parts = [f"FREQ=WEEKLY;BYDAY={schedule['day']}"]
+    if schedule.get("week_of_month"):
+        weeks = schedule["week_of_month"]
+        rrule_parts = [f"FREQ=MONTHLY;BYDAY={schedule['day']};BYSETPOS={','.join(map(str, weeks))}"]
+
+    schedule_end = entry.get("schedule_end_date")
+    if schedule_end:
+        if isinstance(schedule_end, str):
+            end_date = datetime.strptime(schedule_end, "%Y-%m-%d")
+        else:
+            end_date = datetime(schedule_end.year, schedule_end.month, schedule_end.day)
+        rrule_parts.append(f"UNTIL={end_date.strftime('%Y%m%dT235959Z')}")
+
+    rrule = ";".join(rrule_parts)
+
+    schedule_start = entry.get("schedule_start_date")
+    if schedule_start:
+        if isinstance(schedule_start, str):
+            base_date = datetime.strptime(schedule_start, "%Y-%m-%d")
+        else:
+            base_date = datetime(schedule_start.year, schedule_start.month, schedule_start.day)
+    else:
+        base_date = datetime.now()
+
+    day_map = {"SU": 6, "MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5}
+    first_day = schedule["day"].split(",")[0] if "," in schedule["day"] else schedule["day"]
+    target_day = day_map.get(first_day, 0)
+    days_ahead = target_day - base_date.weekday()
+    if days_ahead < 0:
+        days_ahead += 7
+    next_occurrence = base_date + timedelta(days=days_ahead)
+
+    start_time = schedule["start_time"].split(":")
+    end_time = schedule["end_time"].split(":") if schedule.get("end_time") else start_time
+
+    dtstart = next_occurrence.replace(
+        hour=int(start_time[0]), minute=int(start_time[1]), second=0, microsecond=0
+    )
+    dtend = next_occurrence.replace(
+        hour=int(end_time[0]), minute=int(end_time[1]), second=0, microsecond=0
+    )
+
+    return create_vevent(
+        uid=uid,
+        summary=summary,
+        description=description,
+        location=location,
+        dtstart=format_ical_date(dtstart),
+        dtend=format_ical_date(dtend),
+        rrule=rrule,
+        url=website,
+        category=category,
+        platform=platform,
+        html_description=html_desc,
+    )
+
+
 def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
     """Convert a source entry to one or more VEVENT strings."""
     events = []
@@ -523,154 +591,43 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
                 program_name = program.get("name", name)
                 full_name = f"{name}: {program_name}" if program_name != name else name
                 schedule = parse_schedule(program.get("schedule", ""))
+                description, html_desc = generate_event_description(entry, program)
 
-                if schedule.get("day") and schedule.get("start_time"):
-                    description, html_desc = generate_event_description(entry, program)
-
-                    rrule_parts = [f"FREQ=WEEKLY;BYDAY={schedule['day']}"]
-                    if schedule.get("week_of_month"):
-                        weeks = schedule["week_of_month"]
-                        rrule_parts = [f"FREQ=MONTHLY;BYDAY={schedule['day']};BYSETPOS={','.join(map(str, weeks))}"]
-
-                    # Add UNTIL clause if schedule_end_date is specified
-                    schedule_end = entry.get("schedule_end_date")
-                    if schedule_end:
-                        if isinstance(schedule_end, str):
-                            end_date = datetime.strptime(schedule_end, "%Y-%m-%d")
-                        else:
-                            end_date = datetime(schedule_end.year, schedule_end.month, schedule_end.day)
-                        # UNTIL uses UTC, add end of day
-                        until_str = end_date.strftime("%Y%m%dT235959Z")
-                        rrule_parts.append(f"UNTIL={until_str}")
-
-                    rrule = ";".join(rrule_parts)
-
-                    # Use schedule_start_date if specified, otherwise use today
-                    schedule_start = entry.get("schedule_start_date")
-                    if schedule_start:
-                        if isinstance(schedule_start, str):
-                            base_date = datetime.strptime(schedule_start, "%Y-%m-%d")
-                        else:
-                            base_date = datetime(schedule_start.year, schedule_start.month, schedule_start.day)
-                    else:
-                        base_date = datetime.now()
-
-                    day_map = {"SU": 6, "MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5}
-                    # Handle multi-day schedules (e.g., "TU,TH") - use first day for initial occurrence
-                    first_day = schedule["day"].split(",")[0] if "," in schedule["day"] else schedule["day"]
-                    target_day = day_map.get(first_day, 0)
-                    days_ahead = target_day - base_date.weekday()
-                    if days_ahead < 0:
-                        days_ahead += 7
-                    next_occurrence = base_date + timedelta(days=days_ahead)
-
-                    start_time = schedule["start_time"].split(":")
-                    end_time = schedule["end_time"].split(":") if schedule.get("end_time") else start_time
-
-                    dtstart = next_occurrence.replace(
-                        hour=int(start_time[0]),
-                        minute=int(start_time[1]),
-                        second=0,
-                        microsecond=0
-                    )
-                    dtend = next_occurrence.replace(
-                        hour=int(end_time[0]),
-                        minute=int(end_time[1]),
-                        second=0,
-                        microsecond=0
-                    )
-
-                    program_location = program.get("location", address)
-
-                    uid = generate_uid(entry_id, program_name)
-                    events.append(create_vevent(
-                        uid=uid,
-                        summary=full_name,
-                        description=description,
-                        location=program_location,
-                        dtstart=format_ical_date(dtstart),
-                        dtend=format_ical_date(dtend),
-                        rrule=rrule,
-                        url=website,
-                        category=category,
-                        platform=platform,
-                        html_description=html_desc
-                    ))
+                vevent = build_recurring_event(
+                    schedule=schedule,
+                    entry=entry,
+                    summary=full_name,
+                    description=description,
+                    html_desc=html_desc,
+                    location=program.get("location", address),
+                    uid=generate_uid(entry_id, program_name),
+                    website=website,
+                    category=category,
+                    platform=platform,
+                )
+                if vevent:
+                    events.append(vevent)
 
     # Handle schedule field directly on entry
     schedule_str = entry.get("schedule")
     if schedule_str and not programs and not dates:
         schedule = parse_schedule(schedule_str)
-        if schedule.get("day") and schedule.get("start_time"):
-            description, html_desc = generate_event_description(entry)
+        description, html_desc = generate_event_description(entry)
 
-            rrule_parts = [f"FREQ=WEEKLY;BYDAY={schedule['day']}"]
-            if schedule.get("week_of_month"):
-                weeks = schedule["week_of_month"]
-                rrule_parts = [f"FREQ=MONTHLY;BYDAY={schedule['day']};BYSETPOS={','.join(map(str, weeks))}"]
-
-            # Add UNTIL clause if schedule_end_date is specified
-            schedule_end = entry.get("schedule_end_date")
-            if schedule_end:
-                if isinstance(schedule_end, str):
-                    end_date = datetime.strptime(schedule_end, "%Y-%m-%d")
-                else:
-                    end_date = datetime(schedule_end.year, schedule_end.month, schedule_end.day)
-                # UNTIL uses UTC, add end of day
-                until_str = end_date.strftime("%Y%m%dT235959Z")
-                rrule_parts.append(f"UNTIL={until_str}")
-
-            rrule = ";".join(rrule_parts)
-
-            # Use schedule_start_date if specified, otherwise use today
-            schedule_start = entry.get("schedule_start_date")
-            if schedule_start:
-                if isinstance(schedule_start, str):
-                    base_date = datetime.strptime(schedule_start, "%Y-%m-%d")
-                else:
-                    base_date = datetime(schedule_start.year, schedule_start.month, schedule_start.day)
-            else:
-                base_date = datetime.now()
-
-            day_map = {"SU": 6, "MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5}
-            # Handle multi-day schedules (e.g., "TU,TH") - use first day for initial occurrence
-            first_day = schedule["day"].split(",")[0] if "," in schedule["day"] else schedule["day"]
-            target_day = day_map.get(first_day, 0)
-            days_ahead = target_day - base_date.weekday()
-            if days_ahead < 0:
-                days_ahead += 7
-            next_occurrence = base_date + timedelta(days=days_ahead)
-
-            start_time = schedule["start_time"].split(":")
-            end_time = schedule["end_time"].split(":") if schedule.get("end_time") else start_time
-
-            dtstart = next_occurrence.replace(
-                hour=int(start_time[0]),
-                minute=int(start_time[1]),
-                second=0,
-                microsecond=0
-            )
-            dtend = next_occurrence.replace(
-                hour=int(end_time[0]),
-                minute=int(end_time[1]),
-                second=0,
-                microsecond=0
-            )
-
-            uid = generate_uid(entry_id, "recurring")
-            events.append(create_vevent(
-                uid=uid,
-                summary=name,
-                description=description,
-                location=address,
-                dtstart=format_ical_date(dtstart),
-                dtend=format_ical_date(dtend),
-                rrule=rrule,
-                url=website,
-                category=category,
-                platform=platform,
-                html_description=html_desc
-            ))
+        vevent = build_recurring_event(
+            schedule=schedule,
+            entry=entry,
+            summary=name,
+            description=description,
+            html_desc=html_desc,
+            location=address,
+            uid=generate_uid(entry_id, "recurring"),
+            website=website,
+            category=category,
+            platform=platform,
+        )
+        if vevent:
+            events.append(vevent)
 
     return events
 
