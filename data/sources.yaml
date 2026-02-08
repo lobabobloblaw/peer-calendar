@@ -535,8 +535,8 @@
     schedule: Every Tuesday, 7-8:30pm
     format: Zoom
     eligibility: Those experiencing complex trauma and/or dissociation
-  last_verified: 2025-12-02
-  next_audit: 2026-02-01
+  last_verified: 2026-02-08
+  next_audit: 2026-03-08
   audit_frequency: monthly
   practical_tips:
     first_visit: "Just show up to any meeting - no pre-registration needed for most groups"
@@ -576,18 +576,31 @@
     location: Milwaukie (in-person)
     notes: Bi-weekly peer-led recovery support
   - name: NAMI Family Support Group
-    schedule: Various
-    notes: For anyone who cares about someone with mental health condition. Call to
-      register.
-  - name: Spanish-Speaking Support Group
-    format: Virtual
-    notes: Peer-led for Spanish-speaking adults with mental health conditions
+    schedule: 1st & 3rd Mondays, 6:30-8pm
+    format: Virtual (Zoom)
+    notes: For anyone who cares about someone with mental health condition. ⚠️ VERIFY schedule by phone (sourced from NAMI Oregon directory)
+  - name: NAMI Clackamas Conexion (Spanish-Speaking Support Group)
+    schedule: Every Wednesday, 7-8:30pm
+    format: Virtual (Zoom)
+    audience:
+      - spanish_speaking
+    notes: Peer-led for Spanish-speaking adults with mental health conditions. ⚠️ VERIFY schedule by phone (NAMI Oregon page returned 404)
   - name: LGBTQ+ Support Group
-    notes: Joint program with NAMI Multnomah - weekly for adults 18+
+    schedule: Every Thursday, 7-8:30pm
+    format: Virtual (Zoom)
+    audience:
+      - lgbtq
+    notes: Joint program with NAMI Multnomah - weekly for adults 18+. ⚠️ VERIFY schedule by phone
+  - name: BIPOC Support Group
+    schedule: 1st & 3rd Thursdays, 7-8:30pm
+    format: Virtual (Zoom)
+    audience:
+      - bipoc
+    notes: Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIFY by phone before publishing
   - name: Suicide Bereavement Support Group
-    notes: Hosted by NAMI Clackamas for those bereaved by suicide
-  last_verified: 2025-12-02
-  next_audit: 2026-02-01
+    notes: Hosted by NAMI Clackamas for those bereaved by suicide. ⚠️ VERIFY schedule by phone (not found online)
+  last_verified: 2026-02-08
+  next_audit: 2026-03-08
   audit_frequency: monthly
   practical_tips:
     first_visit: "Call or email to register for your first meeting"
@@ -720,6 +733,7 @@
   resource_type: program
   address: 5600 NE Glisan St, Portland, OR 97213
   phone: 971-271-7273
+  email: info@northstaror.org
   website: https://northstarclubhouse.org
   source_urls:
   - https://northstarclubhouse.org
@@ -727,11 +741,12 @@
   pricing:
     description: FREE
   hours:
-    weekdays: Mon-Wed, Fri 9am-5pm; Thu 9am-7pm
+    weekdays: Mon-Fri 9am-5pm
     weekend: Closed Sat-Sun
+    notes: Thursday evening and some Saturday social events (karaoke, etc.) - call for schedule
   eligibility: '- Adults 18+ with mental health diagnosis
 
-    - Must reside in Portland Metro area (Multnomah County)
+    - Must reside in Portland Metro Tri-county area (Multnomah, Washington, or Clackamas County)
 
     - Referral from mental health professional required
 
@@ -745,12 +760,12 @@
   - Nutrition & food prep
   - Social activities
   - Individual goal setting
-  last_verified: 2025-12-02
-  next_audit: 2026-02-01
+  last_verified: 2026-02-08
+  next_audit: 2026-03-08
   audit_frequency: monthly
   practical_tips:
-    first_visit: "Contact to schedule an orientation first - referral from mental health professional required"
-    registration: "Call 971-271-7273 to start the referral and orientation process"
+    first_visit: "Orientations are every other Wednesday at 3pm (in-person and on Zoom). Referral from a mental health professional required first."
+    registration: "Submit referral by mail, email, online form, fax, or in-person, then call 971-271-7273 to schedule orientation"
     what_to_bring: "Just yourself; lunch is provided"
     good_to_know: "Clubhouse model: members work alongside staff on meaningful tasks. Focus on strengths, not symptoms. Employment and education support available."
   accessibility:
@@ -880,7 +895,7 @@
   programs:
   - name: LGBTQIA+ Support Group
     schedule: Mondays 7:00-8:30pm PT
-    format: Online (1st Monday hybrid)
+    format: Online (1st Monday in-person via Meetup for location)
     contact: dbsalgbtqiazoom@gmail.com
   - name: Open to All (West Portland)
     schedule: Tuesdays 6:30-7:50pm PT
@@ -894,12 +909,12 @@
     schedule: Saturdays 10-11:30am PT
     format: Online
     contact: dbsa.healthcare.professionals@gmail.com
-    notes: "For healthcare professionals living with mood disorders. Peer support in a confidential space."
+    notes: "For mental healthcare professionals or trainees. Peer support in a confidential space."
   eligibility: Open to all adults with any mental health condition (depression, bipolar,
     anxiety, PTSD, ADHD, etc.)
   member_liaison: dbsaportlandmemberliaison@gmail.com
-  last_verified: 2025-12-02
-  next_audit: 2026-02-01
+  last_verified: 2026-02-08
+  next_audit: 2026-03-08
   audit_frequency: monthly
   practical_tips:
     first_visit: "Just join any Zoom meeting - drop-in, no registration needed"
@@ -985,7 +1000,7 @@
     schedule: Mondays 7-8pm
     format: Zoom
   - name: Hungry Ghosts
-    schedule: Mondays 6-7pm
+    schedule: Mondays 6-7:15pm
     location: 3442 SE Morrison St
     format: In-person
   - name: Women's, Trans, and Non-Binary
@@ -1019,8 +1034,8 @@
     - indoor
   notes: 30+ weekly meetings across Portland. Buddhist-based recovery using mindfulness
     and loving-kindness - alternative to 12-step programs.
-  last_verified: 2026-02-02
-  next_audit: 2026-05-02
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
 - id: peer-company
@@ -1131,7 +1146,11 @@
   website: http://ddaoregon.com/
   source_urls:
   - http://ddaoregon.com/
+  - http://ddaoregon.com/meeting.htm
   - https://ddainc.org/
+  flags:
+  - "⚠️ VERIFY phone: website shows 503-737-4126, we have 503-222-6484"
+  - "⚠️ VERIFY: DDA meeting at FolkTime (4837 NE Couch, Tue 2-3pm) still active?"
   pricing:
     description: FREE
   programs:
@@ -1179,8 +1198,8 @@
   notes: 12-Step plus 5 additional steps for co-occurring mental illness and substance
     use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm
     for full schedule.
-  last_verified: 2026-02-02
-  next_audit: 2026-05-02
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
 - id: aa-portland-intergroup
   name: Portland Area Intergroup of Alcoholics Anonymous
   category: peer_support
@@ -1307,18 +1326,18 @@
   category: peer_support
   location_type: physical
   resource_type: organization
-  address: 1206 SE 11th Ave, Portland, OR 97214
-  phone: 503-432-9783
+  address: 324 NE 9th St., Gresham, OR 97030
+  phone: 971-384-7511
   website: https://4drecovery.org/
   source_urls:
   - https://4drecovery.org/
-  - https://4drecovery.org/portland/
+  - https://4drecovery.org/locations/
   pricing:
     description: FREE
   audience:
     - teens
     - young_adults
-  audience_notes: Youth-focused recovery community for ages 14-35
+  audience_notes: Youth-focused recovery community for ages 14-35. Community centers serve ages 18-35; adolescent services (14-17) are separate programs at separate locations.
   programs:
   - name: Drop-In Center
     schedule: Daily 2-10pm
@@ -1326,10 +1345,14 @@
   - name: Recovery Support Meetings
     schedule: Various weekly meetings
     notes: "12-step, dharma, yoga, and social recovery approaches available. Check website for current schedule."
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
-  practical_tips: "Peer-led recovery community for young people ages 14-35. Drop-in centers with games, meetings, and social events. Certified peer mentors with lived experience. Accepts Medicaid/OHP. Also has Hillsboro location."
+  practical_tips:
+    first_visit: Just drop in during open hours - no appointment needed
+    good_to_know: "Peer-led recovery community for young people ages 18-35. Multiple locations: Smit Center (Gresham), O'Rourke Center (Hillsboro), Clackamas County (Happy Valley). Accepts Medicaid/OHP for treatment services."
+    registration: None required for drop-in center
+    what_to_bring: Nothing required
   accessibility:
     - wheelchair_accessible
     - transit_nearby
@@ -1339,7 +1362,7 @@
     - new_to_area
     - indoor
   guide_location: activities-guide-2.md#recovery-support
-  notes: Youth-focused (14-35) recovery community with peer mentors
+  notes: Youth-focused (14-35) recovery community with peer mentors. Smit Center (Gresham) is the Multnomah County location. Previous SE 11th Ave Portland location is closed.
 - id: peergalaxy
   name: PeerGalaxy Online Wellness Portal
   category: peer_support
@@ -7873,7 +7896,7 @@
     - https://www.portlandalano.org/meetings
   pricing:
     description: FREE
-  eligibility: Anyone seeking recovery
+  eligibility: Anyone seeking recovery from substance use and mental health disorders
   hours: Check website for meeting times - meetings run morning through evening, 7 days/week
   programs:
     - name: Alcoholics Anonymous (AA)
@@ -7888,27 +7911,39 @@
     - name: SMART Recovery
       schedule: Weekly meetings
       format: In-person
-    - name: Crystal Meth Anonymous (CMA)
-      schedule: Weekly meetings
-      format: In-person
     - name: Adult Children of Alcoholics (ACA)
       schedule: Weekly meetings
       format: In-person
     - name: Codependents Anonymous (CODA)
       schedule: Weekly meetings
       format: In-person
-    - name: Recovery Yoga
-      schedule: Weekly
+    - name: RTS Recovery Yoga
+      schedule: Tuesdays and Sundays 2pm
       format: In-person
       notes: Yoga classes designed for people in recovery
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+    - name: Heroin Anonymous (HA)
+      schedule: Multiple weekly meetings
+      format: In-person
+    - name: Sex Addicts Anonymous (SAA)
+      schedule: Multiple weekly meetings
+      format: In-person
+    - name: Recovery Dharma
+      schedule: Thursdays and Saturdays
+      format: In-person
+    - name: Dual Diagnosis Anonymous (DDA)
+      schedule: Saturdays 10am
+      format: In-person
+    - name: Gamblers Anonymous (GA)
+      schedule: Saturdays 11am
+      format: In-person
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just walk in - no appointment needed. Check meeting schedule online first.
     registration: None required
     what_to_bring: Nothing required
-    good_to_know: Over 100 weekly meetings including AA, NA, Al-Anon, SMART Recovery, and specialty groups. One of the largest recovery community centers in Portland. Coffee available at most meetings.
+    good_to_know: Over 120 weekly meetings including AA, NA, Al-Anon, SMART Recovery, HA, SAA, Recovery Dharma, DDA, GA, and many more. One of the largest recovery community centers in Portland. Coffee available at most meetings.
   accessibility:
     - wheelchair_accessible
     - transit_nearby
@@ -7918,15 +7953,15 @@
     - isolation
     - indoor
   guide_location: activities-guide-2.md#recovery-support
-  notes: Portland's premier recovery community center with over 100 weekly meetings for various 12-step and secular recovery programs.
+  notes: Portland's premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.
 
 - id: bridges-to-change-club-hope
   name: Bridges to Change - Club Hope
   category: peer_support
   location_type: physical
   resource_type: place
-  address: 21440 SE Stark St, Gresham, OR
-  phone: null
+  address: 100 SE Cleveland Ave, Gresham, OR 97080
+  phone: 503-465-2749
   website: https://www.bridgestochange.com
   source_urls:
     - https://www.bridgestochange.com
@@ -7935,24 +7970,24 @@
   eligibility: Anyone seeking recovery support
   programs:
     - name: Recovery Drop-In Center
-      schedule: Open daily - check website for hours
+      schedule: Monday-Friday 8am-5pm
       format: In-person
-      notes: Safe space for peer connection and support
+      notes: Safe space for peer connection and support. Shower/laundry facilities available Mon-Fri 10am-3pm. Bus pass assistance and resource referrals available.
     - name: Dual Diagnosis Anonymous (DDA) Meeting
       schedule: Every Tuesday 5:30-6:30pm
       format: In-person
       notes: "For people with co-occurring mental health and substance use conditions. Peer-led 12-step style meeting."
     - name: Peer Mentorship
       format: In-person
-      notes: 98% of staff identify as in recovery - peer-led support
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+      notes: Peer-led support from staff with lived experience in recovery
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Drop-in anytime during open hours - no appointment needed
     registration: None required
     what_to_bring: Nothing required
-    good_to_know: Staff are peers in recovery themselves. Also operates housing programs and mobile outreach (Acute Care Team). Located in Gresham, serving East Portland and East County.
+    good_to_know: Staff have lived experience in recovery. Also operates housing programs and Mobile Behavioral Health Team (MBHT). Located in Gresham, serving East Portland and East County. DDA meeting Tuesdays — ⚠️ VERIFY schedule by phone at 503-465-2749.
   accessibility:
     - transit_nearby
   social_intensity: drop_in
@@ -7961,7 +7996,7 @@
     - isolation
     - indoor
   guide_location: activities-guide-2.md#recovery-support
-  notes: Peer-run recovery center in Gresham. 98% of staff identify as in recovery. Also provides housing and mobile outreach services.
+  notes: Peer-run recovery center in Gresham. Staff have lived experience in recovery. Also provides housing, mobile outreach (MBHT), and shower/laundry services.
 
 - id: community-positive-aging
   name: Community for Positive Aging

@@ -1635,3 +1635,101 @@
     - id: hollywood-farmers-market
       status: updated
       changes: "Updated schedule to April-December; noted winter is 1st/3rd Saturdays only"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAMI Multnomah"
+  entries_audited: 1
+  entries:
+    - id: nami-multnomah
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAMI Clackamas"
+  entries_audited: 1
+  entries:
+    - id: nami-clackamas
+      status: updated
+      changes: "Added schedules: Family Support (1st/3rd Mon 6:30-8pm Zoom), Spanish-Speaking Conexion (Wed 7-8:30pm Zoom), LGBTQ+ (Thu 7-8:30pm Zoom). Added new BIPOC Support Group program. All flagged for phone verification."
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - NorthStar Clubhouse"
+  entries_audited: 1
+  entries:
+    - id: northstar-clubhouse
+      status: updated
+      changes: "Fixed hours: Thu 9am-7pm → Mon-Fri 9am-5pm (Thu evening is social events). Expanded eligibility from Multnomah County to Tri-county area. Added email info@northstaror.org. Updated orientation details (every other Wed 3pm)."
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - DBSA Portland (Depression Bipolar Support Alliance)"
+  entries_audited: 1
+  entries:
+    - id: dbsa-portland
+      status: updated
+      changes: "Updated Healthcare Professionals eligibility to include trainees. Clarified LGBTQIA+ 1st Monday format (in-person via Meetup for location)."
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Recovery Dharma Portland (PDX)"
+  entries_audited: 1
+  entries:
+    - id: recovery-dharma
+      status: updated
+      changes: "Fixed Hungry Ghosts end time: 6-7pm → 6-7:15pm (75 min meeting)"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Alano Club of Portland"
+  entries_audited: 1
+  entries:
+    - id: alano-club-portland
+      status: updated
+      changes: "Removed CMA (not on current schedule). Added HA, SAA, Recovery Dharma, DDA, GA programs. Updated count to 120+. Updated Recovery Yoga name/schedule. Expanded eligibility to include mental health disorders."
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Dual Diagnosis Anonymous (DDA) Oregon"
+  entries_audited: 1
+  entries:
+    - id: dda-oregon
+      status: updated
+      changes: "Core meetings confirmed via ddaoregon.com/meeting.htm (HTTP only, site last updated 2010). Flagged phone discrepancy (503-222-6484 vs 503-737-4126) and FolkTime DDA meeting for verification."
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - 4D Recovery"
+  entries_audited: 1
+  entries:
+    - id: 4d-recovery
+      status: updated
+      changes: "Major update: address changed from 1206 SE 11th Ave Portland to 324 NE 9th St Gresham (Smit Center). Phone changed from 503-432-9783 to 971-384-7511. Updated source URLs, practical tips, audience notes. Old Portland location closed."
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Bridges to Change - Club Hope"
+  entries_audited: 1
+  entries:
+    - id: bridges-to-change-club-hope
+      status: updated
+      changes: "Major update: address changed from 21440 SE Stark to 100 SE Cleveland Ave, Gresham. Added phone 503-465-2749. Fixed hours: not daily, Mon-Fri 8am-5pm. Added shower/laundry hours (10am-3pm). Removed unverifiable 98% staff claim. DDA meeting flagged for phone verification."
