@@ -1733,3 +1733,164 @@
     - id: bridges-to-change-club-hope
       status: updated
       changes: "Major update: address changed from 21440 SE Stark to 100 SE Cleveland Ave, Gresham. Added phone 503-465-2749. Fixed hours: not daily, Mon-Fri 8am-5pm. Added shower/laundry hours (10am-3pm). Removed unverifiable 98% staff claim. DDA meeting flagged for phone verification."
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Dharma Rain Zen Center"
+  entries_audited: 1
+  entries:
+    - id: dharma-rain
+      status: updated
+      changes: "Fixed founding year 1975→1986, removed 'oldest/largest' claim. Sunday start 8:25→8:30. Weekday meditation days Mon-Fri→Wed-Sat, end time 7:45→7:30. Added Wed evening time 7-9pm."
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Diamond Way Buddhist Center"
+  entries_audited: 1
+  entries:
+    - id: diamond-way-buddhist
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Insight Meditation Community (PIMC)"
+  entries_audited: 1
+  entries:
+    - id: portland-insight-meditation
+      status: updated
+      changes: "Renamed 'Tuesday Evening Group' to 'Women's Sangha with Alexa Redner' and added women audience tag — this is a women-only group."
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - BYMC (Bhakti Yoga Movement Center)"
+  entries_audited: 1
+  entries:
+    - id: bymc-portland
+      status: updated
+      changes: "Added phone 503-244-0108 and email connect@thebymc.com. Added BIPOC-only Yoga end time (5:30-6:30pm)."
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Path of Sincerity Meditation Group"
+  entries_audited: 1
+  entries:
+    - id: path-of-sincerity
+      status: updated
+      changes: "Address moved from Awakenings Wellness Studio to Portland Friends of the Dhamma (1404 SE 25th Ave). Schedule changed from 2nd/4th Mondays 7-8:30pm to every Monday 7-8:45pm. Renamed to Monday Night Sangha."
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Q Center Portland (LGBTQ+ Community Center)"
+  entries_audited: 1
+  entries:
+    - id: q-center-portland
+      status: updated
+      changes: "Trans PDX Tuesday time updated 5pm to 6pm"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Turn! Turn! Turn!"
+  entries_audited: 1
+  entries:
+    - id: turn-turn-turn
+      status: updated
+      changes: "Comedy Open Mic renamed to Casual Friday"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - SCRAP PDX Creative Reuse"
+  entries_audited: 1
+  entries:
+    - id: scrap-pdx
+      status: updated
+      changes: "Removed Teacher Craft Night and Bar Crafts, Stitchin twice to once monthly, added Drop In Studio"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Area Board Games Meetup"
+  entries_audited: 1
+  entries:
+    - id: pdx-board-games-meetup
+      status: updated
+      changes: "Tuesday end time 9pm to 9:30pm"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Northwest Wools Crafting Compassion"
+  entries_audited: 1
+  entries:
+    - id: northwest-wools
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Puddletown Knitters Guild"
+  entries_audited: 1
+  entries:
+    - id: puddletown-knitters
+      status: updated
+      changes: "Hybrid format, schedule 6-8:30pm year-round, pricing updated"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Ground Kontrol Classic Arcade"
+  entries_audited: 1
+  entries:
+    - id: ground-kontrol
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Historic Belmont Firehouse"
+  entries_audited: 1
+  entries:
+    - id: belmont-firehouse
+      status: updated
+      changes: "Removed unverified 2nd Saturday hours from practical_tips"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Repair PDX"
+  entries_audited: 1
+  entries:
+    - id: repair-pdx
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Friends of Lone Fir Cemetery Tours"
+  entries_audited: 1
+  entries:
+    - id: lone-fir-cemetery-tours
+      status: updated
+      changes: "Added Stories in Stone North tour, renamed Women's History to Women's Tour, added Dec 26 date"

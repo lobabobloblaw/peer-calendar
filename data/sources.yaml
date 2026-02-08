@@ -1099,7 +1099,7 @@
     description: FREE (most programs)
   programs:
   - name: Trans PDX Support Group
-    schedule: 1st Saturday 10am-12pm in-person; Tuesdays 5pm virtual (Discord)
+    schedule: 1st Saturday 10am-12pm in-person; Tuesdays 6pm virtual (Discord)
     cost: FREE
     notes: For trans, nonbinary, agender, gender-fabulous folks
   - name: LGBTQIA2S+ Mental Health Support
@@ -1115,8 +1115,8 @@
   - Education & Training
   - Health & Wellness
   - Advocacy
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: "Check website for current group schedule and drop in"
@@ -1606,7 +1606,8 @@
   location_type: hybrid
   resource_type: program
   address: 2500 SE 26th Ave, Portland, OR 97202
-  phone: null
+  phone: 503-244-0108
+  email: connect@thebymc.com
   website: https://www.thebymc.com
   source_urls:
   - https://www.thebymc.com
@@ -1619,7 +1620,7 @@
     cost: By donation
     notes: Pre-registration suggested - often at capacity
   - name: BIPOC-only Yoga
-    schedule: Sun 5:30pm
+    schedule: Sun 5:30-6:30pm
     cost: By donation
     notes: Pre-registration suggested - often at capacity
   - name: Community Yoga
@@ -1631,8 +1632,8 @@
   - name: Farm Yoga
     schedule: Seasonal
     cost: By donation
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check website for current schedule and locations - classes held at various SE Portland venues
@@ -1665,19 +1666,19 @@
     description: FREE
   programs:
   - name: Sunday Morning Program
-    schedule: Sundays 8:25am-11:30am
+    schedule: Sundays 8:30am-11:30am
     details: 8:30 zazen, 9:00 kinhin, 9:40 chanting, 10:30 Dharma talk. All welcome.
   - name: Weekday Morning Meditation
-    schedule: Mon-Fri 6:30-7:45am (summer/winter terms)
-    details: Open zazen followed by brief chanting service
+    schedule: Wed-Sat 6:30-7:30am (summer/winter terms)
+    details: Open zazen followed by brief chanting service. During Ango (fall/spring) starts at 5:30am.
   - name: Wednesday Evening Classes
-    schedule: Wednesdays (see calendar)
-    details: Foundational teachings of Zen Buddhism
+    schedule: Wednesdays 7-9pm
+    details: Zazen 7:10-7:40pm, class begins ~7:45pm. Foundational teachings of Zen Buddhism.
   practical_tips:
     first_visit: Arrive 15-30 min early for orientation. Doors open 9am for Sunday program.
     registration: None required - just show up. Newcomers welcome any Sunday.
     what_to_bring: Comfortable clothes for sitting meditation. Cushions and chairs provided.
-    good_to_know: Oregon's oldest and largest Soto Zen Buddhist temple, founded 1975. Sunday program includes zazen (seated meditation), kinhin (walking meditation), chanting, and Dharma talk. Wednesday evening is simpler double-sit format. All welcome regardless of background.
+    good_to_know: Soto Zen Buddhist community founded in 1986, with approximately 220 members. Sunday program includes zazen (seated meditation), kinhin (walking meditation), chanting, and Dharma talk. Wednesday evening includes zazen and class. All welcome regardless of background.
   accessibility:
     - wheelchair_accessible
   accessibility_notes: Main temple and meditation hall accessible. Chairs available for those who cannot sit on floor cushions.
@@ -1687,9 +1688,9 @@
     - indoor
     - low_energy
     - isolation
-  notes: Oldest and largest Soto Zen Buddhist temple in Oregon, founded 1975. All welcome at Sunday program. Practice advisors available for one-on-one guidance.
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  notes: Soto Zen Buddhist community founded in 1986, approximately 220 members. All welcome at Sunday program. Practice advisors available for one-on-one guidance.
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
 - id: diamond-way-buddhist
@@ -1729,8 +1730,8 @@
     - isolation
     - new_to_area
   notes: Karma Kagyu lineage of Tibetan Buddhism. Live-in center with guest room, near public transit. Founded 1997.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
 - id: portland-insight-meditation
@@ -1752,9 +1753,11 @@
     schedule: Sundays 10am-12pm
     details: Meditation, mindful movement, Dharma Talk. Doors open 9am for silent
       meditation.
-  - name: Tuesday Evening Group
+  - name: Women's Sangha with Alexa Redner
     schedule: Tuesdays 6:30-8pm
     format: In-person
+    audience:
+      - women
   - name: Tuesday Teatime
     schedule: Tuesdays 3-4:30pm PT
     format: Online
@@ -1778,8 +1781,8 @@
     - low_energy
     - isolation
   notes: Vipassana (insight) tradition. Welcomes all faiths, orientations, genders, abilities, ages, and backgrounds.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
 - id: east-portland-cc
@@ -2966,7 +2969,7 @@
   category: fitness_wellness
   location_type: hybrid
   resource_type: program
-  address: Awakenings Wellness Studio, 1016 SE 12th Ave, Portland
+  address: Portland Friends of the Dhamma, 1404 SE 25th Ave, Portland, OR 97214
   phone: null
   website: https://www.pathofsincerity.com/events/
   source_urls:
@@ -2974,14 +2977,14 @@
   pricing:
     description: FREE (donation-based gift economy)
   programs:
-  - name: In-Person Meditation
-    schedule: 2nd & 4th Mondays 7-8:30pm
+  - name: Monday Night Sangha
+    schedule: Every Monday 7-8:45pm
     notes: "Buddhist-inspired meditation with teaching and discussion. All traditions welcome."
   - name: Daily Virtual Meditation
     schedule: Daily 8-9am
     notes: "Consistent morning practice opportunity. Great for building routine."
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "No registration needed. Gift economy means pay what you can or nothing at all. Daily virtual option helps build consistent practice. Welcoming to all traditions."
   accessibility:
@@ -2992,7 +2995,7 @@
     - low_energy
     - indoor
   guide_location: activities-guide-1.md#meditation
-  notes: Daily virtual + twice-monthly in-person meditation. Gift economy model.
+  notes: Daily virtual + weekly in-person meditation. Gift economy model.
 - id: decompress-connect-meditation
   name: Decompress + Connect Meditation Group
   category: fitness_wellness
@@ -3303,8 +3306,8 @@
     - isolation
     - indoor
   notes: Since 1999. Games from Golden Age of Video Arcade.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#gaming-and-social-activities
 - id: guardian-games
@@ -3785,10 +3788,10 @@
     schedule: Wednesdays 9am-3pm
     cost: FREE
     notes: Explore Portland Fire & Rescue history through interactive exhibits, an 1860 hose cart, fire pole, and emergency response simulator. Group visits outside these times require 2 weeks advance notice.
-  last_verified: 2026-01-24
-  next_audit: 2027-01-24
+  last_verified: 2026-02-08
+  next_audit: 2027-02-08
   audit_frequency: annually
-  practical_tips: "Historic 1912 firehouse open for free on Wednesdays and 2nd Saturdays 10am-2pm. Small museum with local history exhibits. Usually quiet and uncrowded. Good for a quick visit."
+  practical_tips: "Historic 1912 firehouse open for free on Wednesdays 9am-3pm. Small museum with local history exhibits. Usually quiet and uncrowded. Good for a quick visit. Group tours available by request with 2 weeks notice."
   accessibility:
     - transit_nearby
   social_intensity: solo
@@ -3811,7 +3814,7 @@
   pricing:
     description: FREE events
   programs:
-  - name: Comedy Open Mic
+  - name: Casual Friday (Comedy Open Mic)
     schedule: Fridays 5-7pm
     cost: FREE
     notes: Happy hour comedy open mic hosted by Logan Loughmiller. Low-pressure environment for performers and audience. Women-owned community venue since 2014.
@@ -3823,8 +3826,8 @@
     schedule: 2nd & 4th Mondays 8-11pm
     cost: FREE
     notes: K-Tel and Larry-okee supportive karaoke night. Low-pressure, encouraging atmosphere for singers of all abilities. 21+ after 8pm. Cash only at door, all payments at bar.
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Drawing Club (Sun 12:30-3:30pm), and karaoke (2nd & 4th Mon 8-11pm). All ages welcome for most daytime events. Casual atmosphere good for meeting people."
   accessibility:
@@ -4391,20 +4394,16 @@
     schedule: Sundays 2-4pm
     cost: FREE
     notes: "Guided themed craft projects. Materials provided. All skill levels welcome."
-  - name: Free Teacher Craft Night
-    schedule: Fridays 4:30-7pm
-    cost: FREE for educators
-    notes: "Free craft time for teachers, tutors, and educators. Relax and create."
   - name: Sunday Night Stitchin'
-    schedule: Twice monthly (check website)
+    schedule: Once monthly (check website)
     cost: FREE
     notes: "Textile and fiber arts open studio. Bring your own project or start something new."
-  - name: Adult Craft Nights at Bars
-    schedule: Various (check website)
-    cost: $7
-    notes: "Social crafting at local bars. Fun evening activity with creative people."
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  - name: Drop In Studio
+    schedule: 3rd Thursday 4-6pm
+    cost: FREE
+    notes: "Bring a project or start a new one."
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "Nonprofit creative reuse center with low-cost art supplies. Sunday Crafternoon is great for trying new crafts. Low-pressure environment perfect for creative expression without spending much. Materials provided for most events."
   accessibility:
@@ -6923,14 +6922,14 @@
   programs:
   - name: Tuesday Board Games
     location: CORE Food Carts (3612 SE 82nd Ave)
-    schedule: Every Tuesday 5-9pm
+    schedule: Every Tuesday 5-9:30pm
     notes: "20-30 attendees typical. Games provided. All skill levels welcome."
   - name: Wednesday East Side Game Night
     location: Board Bard Games (7960 SE Stark St)
     schedule: Every Wednesday 5-9:30pm
     notes: "Free weekly social for all levels. Games provided by the shop."
-  last_verified: 2026-01-28
-  next_audit: 2026-04-28
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "FREE - just buy food/drink from venue. Tuesdays at CORE Food Carts (82nd Ave, 5pm) and Wednesdays at Board Bard Games (5pm). Explicitly welcoming to newcomers. Games provided. All skill levels welcome. Check Meetup.com/pdxgames for full schedule and additional events."
   accessibility:
@@ -7179,8 +7178,8 @@
     schedule: Tuesdays 3-5pm
     cost: FREE
     notes: "Drop-in fiber arts session every Tuesday. Knit, crochet, or try other crafts while chatting with fellow crafters. Projects are donated to charity. Supplies provided or bring your own. All skill levels welcome—beginners encouraged!"
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "FREE Crafting Compassion drop-in Tuesdays 3-5pm. Knitting, crocheting, and other fiber arts. Projects donated to charity. Supplies provided or bring your own. All skill levels welcome."
   accessibility:
@@ -7195,24 +7194,24 @@
 - id: puddletown-knitters
   name: Puddletown Knitters Guild
   category: social_activities
-  location_type: physical
+  location_type: hybrid
   resource_type: program
-  address: Rose City Park Presbyterian Church, 1907 NE 45th Ave, Portland, OR
+  address: Rose City Park Presbyterian Church (Fellowship Hall), 1907 NE 45th Ave, Portland, OR 97213
   phone: null
   website: https://www.puddletownknittersguild.com/
   source_urls:
   - https://www.puddletownknittersguild.com/
   pricing:
-    description: FREE for visitors
+    description: FREE for first 2 visits; membership $35/year
   programs:
   - name: Monthly Meeting
-    schedule: 2nd Thursday 7-9pm
-    cost: FREE
-    notes: September through May
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+    schedule: 2nd Thursday 6-8:30pm
+    cost: FREE for visitors
+    notes: Year-round. Doors open 6pm for social knitting; programming begins 7pm. Hybrid (in-person + Zoom).
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
-  practical_tips: "FREE monthly meetings 2nd Thursday 7-9pm, September through May. At Rose City Park Presbyterian Church. Guild membership available but visitors always welcome. Knitting-focused with programs and presentations."
+  practical_tips: "FREE monthly meetings 2nd Thursday year-round (doors 6pm, program 7pm). At Rose City Park Presbyterian Church Fellowship Hall. Also on Zoom. First 2 visits free, then $35/year membership. Knitting-focused with programs and presentations."
   accessibility:
     - wheelchair_accessible
     - transit_nearby
@@ -7615,8 +7614,8 @@
       notes: Traditional Japanese embroidered mending technique. Check website for dates.
       dates_2026:
         - January 18
-  last_verified: 2026-01-24
-  next_audit: 2026-02-24
+  last_verified: 2026-02-08
+  next_audit: 2026-03-08
   audit_frequency: monthly
   practical_tips:
     first_visit: Fill out the Google Form before arriving to let them know what you're bringing
@@ -7711,6 +7710,18 @@
         - October 10
         - November 14
         - December 12
+    - name: Stories in Stone – North
+      schedule: 1st Saturday of even months, 10am-12pm
+      cost: $10
+      format: In-person
+      notes: Explores northern cemetery sections, structures, symbolism, and granite types. Meet at Soldiers Monument.
+      dates_2026:
+        - February 7
+        - April 4
+        - June 6
+        - August 1
+        - October 3
+        - December 5
     - name: Stories in Stone – South
       schedule: 1st Saturday of odd months, 10am-12pm
       cost: $10
@@ -7722,7 +7733,7 @@
         - July 4
         - September 5
         - November 7
-    - name: Women's History Tour
+    - name: Women's Tour
       schedule: 4th Saturday monthly, 10am-12pm
       cost: $10
       format: In-person
@@ -7739,6 +7750,7 @@
         - September 26
         - October 24
         - November 28
+        - December 26
   self_guided_tours:
     - Our Pioneer Beginnings
     - Founders of Rose Festival
@@ -7750,8 +7762,8 @@
     - Labor & Social Activists
     - Curbside (accessible hard-surface tour)
     - The Tree Tour
-  last_verified: 2026-01-15
-  next_audit: 2026-04-15
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Meet at the Soldiers Monument near SE 26th & Stark. Arrive 5-10 minutes early.
