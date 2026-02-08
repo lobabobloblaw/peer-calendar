@@ -1206,6 +1206,7 @@
   location_type: hybrid
   resource_type: organization
   phone: 503-223-8569
+  email: office@pdxaa.org
   website: https://www.pdxaa.org/
   source_urls:
   - https://www.pdxaa.org/
@@ -1216,15 +1217,18 @@
     schedule: 900+ meetings per week in Portland area
     cost: FREE
     notes: Open, closed, speaker, and specialized meetings
-  - name: 24-Hour Support Line
+  - name: Support Hotline
     phone: 503-223-8569
+    cost: FREE
+  - name: Spanish-Language Support
+    phone: 503-395-7188
     cost: FREE
   services:
   - Meeting finder (website and Meeting Guide app)
   - 24-hour phone support
   - Literature and resources
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: "Use pdxaa.org or Meeting Guide app to find a meeting near you"
@@ -1966,7 +1970,7 @@
   - name: Monday Trail Run
     schedule: Mondays 6pm
     location: 2258 NW Raleigh St (PRC Northwest)
-    notes: 5-9 miles in Forest Park; refreshments at Run Pub after
+    notes: 5-9 miles in Forest Park with No Name Trail Club; refreshments at Run Pub after
   - name: Tuesday Track Workout
     schedule: Tuesdays 6:30pm (arrive 6:15pm)
     location: Duniway Track
@@ -1974,13 +1978,13 @@
   - name: Thursday Thirsty Thursdays
     schedule: Thursdays 6pm
     location: 2258 NW Raleigh St (PRC Northwest)
-    notes: 5-7 miles followed by refreshments at in-house bar
+    notes: 5-7 miles followed by discounted first beverage at Run Pub bar
   - name: Sunday Long Run
     schedule: Sundays 8am
     location: 2258 NW Raleigh St (PRC Northwest)
-    notes: 5-18 miles; all paces welcome
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+    notes: 5-18 miles; all paces welcome. Post-run coffee gathering.
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just show up at the designated location at run time. All paces welcome.
@@ -2004,8 +2008,9 @@
   resource_type: program
   address: 2201 Lloyd Center, Portland, OR 97232
   phone: null
-  website: null
+  website: https://foodcourt5k.com/
   source_urls:
+  - https://foodcourt5k.com/
   - https://www.pdxmonthly.com/news-and-city-life/2025/11/food-court-5000-mall-walk-lloyd-center
   - https://www.wweek.com/culture/2025/03/13/mall-walking-is-back-lloyd-center-style/
   pricing:
@@ -2034,10 +2039,12 @@
     - isolation
     - new_to_area
     - anxiety_friendly
-  notes: '1980s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court.'
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
-  audit_frequency: quarterly
+  notes: "1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court."
+  flags:
+  - "⚠️ VERIFY - Lloyd Center mall announced for closure by winter 2026 for redevelopment. Program future uncertain."
+  last_verified: 2026-02-08
+  next_audit: 2026-03-08
+  audit_frequency: monthly
   guide_location: activities-guide-2.md#mall-walking-programs
 - id: neighborwalks
   name: NeighborWalks
@@ -2088,20 +2095,28 @@
   pricing:
     description: FREE
   programs:
-  - Monday Mixer
-  - Foster Night Ride
+  - name: Mellow Mondays
+    schedule: Every Monday
+    location: Irving Park
+    notes: Casual social ride, welcoming to newcomers
+  - name: Foster Night Ride
+    schedule: Every other Tuesday
+    location: Foster Food Carts (SE Foster Rd & SE 52nd Ave)
   - Friday Night Ride
-  - name: Pedalpalooza
+  - name: Midnight Mystery Ride
+    schedule: 2nd Friday of each month
+    notes: Late-night ride departing ~11pm to a secret location
+  - name: Bike Summer (Pedalpalooza)
     schedule: June-August
     notes: Hundreds of free community rides
-  last_verified: 2025-12-02
-  next_audit: 2026-05-01
+  last_verified: 2026-02-08
+  next_audit: 2026-03-08
   audit_frequency: monthly
   practical_tips:
     first_visit: Check shift2bikes.org/calendar for current rides. Most list meeting location, time, and pace.
     registration: None - rides are free and open to all
     what_to_bring: Working bike, helmet recommended, lights for night rides, water
-    good_to_know: Portland's community bike ride calendar. Year-round rides including Monday Mixer, Foster Night Ride, Friday Night Ride. Pedalpalooza (June-August) features hundreds of free themed rides. Very welcoming culture - "bike fun" for all abilities.
+    good_to_know: Portland's community bike ride calendar. Year-round rides including Mellow Mondays, Foster Night Ride, Friday Night Ride, and Midnight Mystery Ride (2nd Fri). Bike Summer/Pedalpalooza (June-August) features hundreds of free themed rides. Very welcoming culture - "bike fun" for all abilities.
   accessibility:
     - transit_nearby
   accessibility_notes: Cycling ability required. Some rides are slower-paced and beginner-friendly - check individual ride descriptions. Community-led calendar emphasizes "bike fun safe for all."
@@ -2699,12 +2714,15 @@
     description: FREE
   programs:
   - name: Saturday Trail Run
-    schedule: Saturdays 8:30am (2 hours)
+    schedule: Saturdays 8:35am (2 hours)
     notes: 5-7 miles (3-4 mi option). Forest Park, Tryon Creek, Wildwood Trail. Coffee at trailhead after.
-  members: 4291
+  - name: Weeknight Trail Run
+    schedule: Wednesdays 6:35pm
+    notes: Night trails run - headlamp and reflective gear required.
+  members: 4302
   eligibility: All levels welcome
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check Meetup for current meeting location
@@ -2739,14 +2757,21 @@
   - name: Monday Trail Run
     schedule: Mondays 6:30-8pm
     location: Forest Park, Thurman Entrance
-    notes: "Women-only trail run. No one left behind philosophy - group matches your pace."
-  eligibility: Female-identifying runners
+    notes: "No one left behind philosophy - group matches your pace."
+  - name: Thursday Trail Run
+    schedule: Thursdays 6:30-8pm
+    location: Forest Park
+    notes: "No one left behind philosophy - group matches your pace."
+  eligibility: Women-identifying, trans, and nonbinary trail runners and hikers
+  audience:
+    - women
+    - trans_nonbinary
   features:
   - No one left behind philosophy
   - Group matches your pace
   - Walking welcomed
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Group will match your pace - no pressure
@@ -2764,7 +2789,7 @@
   - isolation
   - new_to_area
   guide_location: activities-guide-1.md#free-fitness
-  notes: Supportive trail running group for women. 'No one left behind' - will match your pace, walking welcome.
+  notes: Supportive trail running group for women-identifying, trans, and nonbinary runners. 'No one left behind' - will match your pace, walking welcome. Also offers self-defense classes and injury avoidance workshops.
 - id: ppr-fitness-in-park
   name: Portland Parks Fitness in the Park
   category: fitness_wellness
@@ -3038,22 +3063,26 @@
   website: https://portlandartmuseum.org/
   source_urls:
   - https://portlandartmuseum.org/
-  hours: Sun-Wed, Fri-Sat 10am-5pm; Thu 10am-7pm; Mon closed
+  hours: Tue-Sun 10am-5pm; Mon closed
   pricing:
-    description: $27.50 adults; FREE First Thursday; $5 Arts for All (EBT)
+    description: $27.50 adults; FREE First Thursday; $5 Oregon Trail Card (up to 2 tickets)
   programs:
   - name: Free First Thursday
     schedule: 1st Thursdays 10am-7pm
     cost: FREE
     notes: Explore the museum's diverse collections for free. Tickets can be reserved online one week in advance or at the door. Often includes live DJs, guided tours, and special programming. Part of Portland's First Thursday arts tradition.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
-  practical_tips: "Free First Thursday 10am-7pm. Arts for All program provides $5 admission with EBT card (up to 4 tickets). Quieter on weekday mornings. Downtown location near PSU. Multiple floors with diverse collections."
+  practical_tips: "Free First Thursday 10am-7pm. Oregon Trail Card provides $5 admission (up to 2 tickets). Quieter on weekday mornings. Downtown location near PSU. Multiple floors with diverse collections."
   accessibility:
     - wheelchair_accessible
     - transit_nearby
     - elevator
+    - asl_available
+    - gender_neutral_restroom
+    - low_vision_friendly
+  accessibility_notes: "Free wheelchairs available (8 sizes). FM assistive listening devices free. EnChroma glasses for colorblindness. All-gender restrooms. Accessibility line: 503-276-4284. Videophone for Deaf visitors: 503-420-3169."
   social_intensity: solo
   good_for:
     - indoor
@@ -3067,22 +3096,24 @@
   location_type: physical
   resource_type: place
   address: 1945 SE Water Ave, Portland, OR 97214
-  phone: null
+  phone: 503-797-4000
   website: https://omsi.edu/
   source_urls:
   - https://omsi.edu/
+  - https://omsi.edu/visit-omsi/admission-discounts/
+  hours: Tue-Fri 9:30am-5:30pm; Sat 9:30am-7pm; Sun 9:30am-5:30pm; Mon closed
   pricing:
-    description: $20 adults regular; $5 First Sunday; $5 Arts for All (EBT)
-    notes: Arts for All provides up to 4 tickets at $5 each; 55% off memberships
+    description: $20 adults; $17 seniors (63+); $15 youth (3-13); free under 3; $5 First Sunday; $5 Arts for All (EBT/SNAP/WIC/TANF/Medicaid/OHP)
+    notes: Arts for All provides up to 4 tickets at $5 each for EBT/SNAP/WIC/TANF/Medicaid/OHP recipients (any state); up to 55% off memberships
   programs:
   - name: First Sunday
     schedule: 1st Sundays 9:30am-5:30pm
     cost: $5
     notes: Discounted admission day - only $5 per person for all exhibits. Planetarium shows, submarine tours, and special exhibitions also $5 each. Purchase tickets online in advance to skip the line. Interactive science museum great for families and curious minds.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
-  practical_tips: "First Sunday is only $5 admission. Arts for All with EBT provides up to 4 tickets at $5 each and 55% off memberships. Interactive exhibits good for all ages. Can be crowded on weekends - weekday visits are quieter."
+  practical_tips: "First Sunday is only $5 admission. Arts for All accepts EBT/SNAP/WIC/TANF/Medicaid/OHP - up to 4 tickets at $5 each, plus up to 55% off memberships. Free companion ticket for aide accompanying visitors with disabilities. Interactive exhibits good for all ages. Can be crowded on weekends - weekday visits are quieter."
   accessibility:
     - wheelchair_accessible
     - transit_nearby
@@ -3321,16 +3352,16 @@
   source_urls:
   - https://ggportland.com
   pricing:
-    description: FREE Sunday Open Play
+    description: FREE Board Game Open Play
   programs:
-  - name: Sunday Open Play
-    schedule: 12-6pm
+  - name: "Might I Suggest a Game? - Board Game Open Play"
+    schedule: Sundays 12-6pm
     cost: FREE
-    notes: Demo library, game instruction, 'board game sommelier' host
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+    notes: Game library with bartender-hosted game instruction in the Bar area
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
-  practical_tips: "Sunday Open Play (12-6pm) is free and welcoming to newcomers. Staff 'board game sommeliers' help find games and teach rules. Board games, card games, and tabletop RPGs available. Good place to meet people with similar interests."
+  practical_tips: "Sunday Board Game Open Play (12-6pm) is free and welcoming to newcomers. Bartender hosts help find games and teach rules in the Bar area. Board games, card games, and tabletop RPGs available. Good place to meet people with similar interests."
   accessibility:
     - wheelchair_accessible
   social_intensity: casual_group
@@ -3371,7 +3402,7 @@
   - Microenterprise program
   eligibility: Serves region's 90,000+ Native people. Self-identified Native Americans
     and families welcome.
-  practical_tips: "Open to all community members, not just Native Americans. Culture Nights (1st & 3rd Wed 6-8pm) are welcoming to newcomers. Check calendar for community dinners and art workshops. Elder services and youth programs available."
+  practical_tips: "Open to all community members, not just Native Americans. Culture Nights (1st & 3rd Wed 6-8pm, school year only) require pre-registration - join NAYA's Culture Nights Facebook Group for updates. Dinner 6-6:30pm, sessions 6:30-8pm. Check calendar for community dinners and art workshops. Elder services and youth programs available."
   accessibility:
     - wheelchair_accessible
     - transit_nearby
@@ -3381,10 +3412,12 @@
     - new_to_area
     - creative
     - indoor
-  notes: 40+ programs. Youth Centered, Family Driven, Elder Guided. Over 40 years
-    serving Portland.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  email: Info@nayapdx.org
+  hours: Monday-Friday 9am-4:30pm
+  notes: 40+ programs. Youth Centered, Family Driven, Elder Guided. Over 50 years
+    serving Portland (founded 1974).
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#cultural-community-centers
 - id: irco

@@ -1894,3 +1894,113 @@
     - id: lone-fir-cemetery-tours
       status: updated
       changes: "Added Stories in Stone North tour, renamed Women's History to Women's Tour, added Dec 26 date"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Area Intergroup of Alcoholics Anonymous"
+  entries_audited: 1
+  entries:
+    - id: aa-portland-intergroup
+      status: updated
+      changes: "Added email, Spanish-language phone, renamed 24-Hour Support Line to Support Hotline"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Art Museum"
+  entries_audited: 1
+  entries:
+    - id: portland-art-museum
+      status: updated
+      changes: "Fixed hours (Thu 7pm is First Thu only), EBT tickets 4→2, Oregon Trail Card terminology, added accessibility tags and notes"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - OMSI (Oregon Museum of Science and Industry)"
+  entries_audited: 1
+  entries:
+    - id: omsi
+      status: updated
+      changes: "Added phone 503-797-4000, hours, expanded Arts for All eligibility to include WIC/TANF/Medicaid/OHP, added companion ticket info"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Guardian Games"
+  entries_audited: 1
+  entries:
+    - id: guardian-games
+      status: updated
+      changes: "Sunday Open Play renamed to Might I Suggest a Game, board game sommelier replaced by bartender host"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAYA (Native American Youth and Family Center)"
+  entries_audited: 1
+  entries:
+    - id: naya
+      status: updated
+      changes: "Added email/hours, Over 40→50 years, Culture Nights now requires pre-registration"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Running Company Group Runs"
+  entries_audited: 1
+  entries:
+    - id: portland-running-company
+      status: updated
+      changes: "Thursday notes updated (discounted beverage), Monday trail club partnership, Sunday coffee detail"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Food Court 5000 (Lloyd Center Mall Walking)"
+  entries_audited: 1
+  entries:
+    - id: lloyd-center-walking
+      status: updated
+      changes: "Added website foodcourt5k.com, Lloyd Center closure warning (winter 2026), frequency changed to monthly"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Trail Runners"
+  entries_audited: 1
+  entries:
+    - id: portland-trail-runners
+      status: updated
+      changes: "Saturday start 8:30→8:35am, added Wednesday night run, members 4291→4302"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Trail Sisters Portland"
+  entries_audited: 1
+  entries:
+    - id: trail-sisters-portland
+      status: updated
+      changes: "Added Thursday run, eligibility expanded to women/trans/nonbinary, added audience tags"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Shift to Bikes"
+  entries_audited: 1
+  entries:
+    - id: shift-to-bikes
+      status: updated
+      changes: "Monday Mixer→Mellow Mondays, Pedalpalooza→Bike Summer, Foster Night Ride biweekly, added Midnight Mystery Ride"
