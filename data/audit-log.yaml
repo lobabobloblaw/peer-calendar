@@ -2004,3 +2004,111 @@
     - id: shift-to-bikes
       status: updated
       changes: "Monday Mixer→Mellow Mondays, Pedalpalooza→Bike Summer, Foster Night Ride biweekly, added Midnight Mystery Ride"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Blanchet House of Hospitality"
+  entries_audited: 1
+  entries:
+    - id: blanchet-house
+      status: updated
+      changes: "Fixed meal times: breakfast 6:30am, lunch 11:30am, dinner 5pm (was ~7am/noon/6pm)"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Sikh Center of Oregon Langar"
+  entries_audited: 1
+  entries:
+    - id: sikh-center-langar
+      status: updated
+      changes: "Added Friday evening Langar (8pm), removed unverified two meals claim"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Loaves & Fishes Senior Dining Centers"
+  entries_audited: 1
+  entries:
+    - id: loaves-fishes
+      status: updated
+      changes: "Removed closed Brooklyn Center (since 2018), Belmont zip 97214→97215, Belmont phone updated"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Gresham Senior Center"
+  entries_audited: 1
+  entries:
+    - id: gresham-senior-center
+      status: updated
+      changes: "Phone 4870→4860, Tue Dance 5:30→4:30pm start, band name Desert Dogs added"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Pioneer Community Center"
+  entries_audited: 1
+  entries:
+    - id: pioneer-community-center
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Elsie Stuhr Center (THPRD)"
+  entries_audited: 1
+  entries:
+    - id: elsie-stuhr-center
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Milwaukie Community Center"
+  entries_audited: 1
+  entries:
+    - id: milwaukie-community-center
+      status: updated
+      changes: "Fixed redirect source URL, added congregate lunch pricing"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - November Project Portland"
+  entries_audited: 1
+  entries:
+    - id: november-project-portland
+      status: updated
+      changes: "Added waiver info to practical_tips"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Strength Collective"
+  entries_audited: 1
+  entries:
+    - id: portland-strength-collective
+      status: updated
+      changes: "Registration updated to recommended, added email, schedule time flagged for verification"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Every Body Athletics"
+  entries_audited: 1
+  entries:
+    - id: every-body-athletics
+      status: updated
+      changes: "Added phone/email, HQ address, removed Beaverton, updated programs to current EBA class structure"

@@ -1916,7 +1916,7 @@
   location_type: physical
   resource_type: place
   address: 600 NE 8th Street, Room 130, Gresham, OR 97030
-  phone: 503-988-4870
+  phone: 503-988-4860
   website: https://www.greshamseniorcenter.com/
   source_urls:
   - https://www.greshamseniorcenter.com/
@@ -1925,17 +1925,17 @@
   hours: Monday-Friday 8:30am-3pm
   programs:
   - name: Tuesday Night Dance
-    schedule: Tuesdays 5:30-7:30pm
+    schedule: Tuesdays 4:30-7pm
     cost: $6/person
-    notes: Live band
+    notes: Live band (Desert Dogs); country and more; not on holidays
   - name: Monday Movie Matinees
     schedule: Every other Monday 1-3pm
     cost: FREE
   - name: Friday Speaker Series
     schedule: Fridays 1-2:30pm
     cost: FREE (RSVP required)
-  last_verified: 2026-01-31
-  next_audit: 2026-04-30
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by during open hours (Mon-Fri 8:30am-3pm) to see the facility and learn about programs
@@ -2629,12 +2629,12 @@
     cost: FREE
     notes: "30-45 minute workout. Bodyweight movements and running with alternatives for all levels. Rain or shine - they're weatherproof!"
   eligibility: All ages, all fitness levels - "All Ages, Faces, & Paces"
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Just show up at 6:29am - no registration needed
-    registration: null
+    first_visit: Just show up at 6:29am. A waiver form is available on their website (recommended before first workout).
+    registration: None required (online waiver recommended)
     what_to_bring: Comfortable workout clothes, water
     good_to_know: Exercise alternatives always available; very welcoming community
   accessibility:
@@ -6447,12 +6447,12 @@
   pricing:
     description: FREE
   hours:
-    breakfast: ~7am
-    lunch: ~noon
-    dinner: ~6pm
+    breakfast: 6:30-7:25am
+    lunch: 11:30am-12:25pm
+    dinner: 5:00-5:55pm
   schedule: Monday-Saturday
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "No questions asked - just show up. Sit-down indoor dining with vegetarian options. Dogs allowed if leashed. Wednesday is spaghetti night. Serving since 1952. Downtown Old Town location."
   accessibility:
@@ -6535,9 +6535,9 @@
   pricing:
     description: FREE always
   hours: Gurdwara open 7 days 7am-9pm
-  schedule: Sundays 11am-2:15pm (two meals served)
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  schedule: Sundays 11am-2:15pm; Fridays 8pm (after evening service)
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "Free vegetarian meals Sundays 11am-2:15pm. All welcome regardless of religion. Remove shoes and cover head (scarves provided). Food served in separate area - no need to attend religious service. Gurdwara open daily 7am-9pm."
   accessibility:
@@ -6571,19 +6571,16 @@
     address: '600 NE 8th St #155, Gresham, OR 97030'
     phone: 503-953-8201
   - name: Belmont Center
-    address: 4610 SE Belmont St, Portland, OR 97214
-    phone: 503-953-8202
+    address: 4610 SE Belmont St, Portland, OR 97215
+    phone: 503-953-8146
   - name: MLK Center
     address: 5325 NE MLK Blvd, Portland, OR 97211
     phone: 503-953-8207
-  - name: Brooklyn Center
-    address: 3925 SE Milwaukie Ave, Portland, OR 97202
-    phone: 503-953-8209
   - name: St. Johns
     address: 9009 N Foss Ave, Portland, OR 97203
     phone: 503-953-8210
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "For adults 60+ regardless of income. Suggested $10.50 donation but pay what you can afford. Lunches Mon-Thu at various locations throughout Portland metro. Social dining experience. Call ahead to confirm hours at specific location."
   accessibility:
@@ -6985,7 +6982,7 @@
   website: https://ncprd.org/milwaukie-community-center
   source_urls:
   - https://ncprd.org/milwaukie-community-center
-  - https://ncprd.com/milwaukie-center
+  - https://ncprd.org/milwaukie-community-center
   pricing:
     description: Programs vary; some free, some low-cost
     drop_in_activities: $1-2/session for NCPRD residents
@@ -7013,10 +7010,11 @@
     schedule: Mon/Wed 4-5pm
     notes: Gentle exercise for balance and wellness
   - name: Congregate Lunch
-    schedule: Weekdays in dining room
+    schedule: Weekdays noon-12:30pm in dining room
+    cost: $3 suggested donation (60+); $5 under 60
     notes: Social dining for older adults
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by during office hours to get oriented to services
@@ -7287,8 +7285,8 @@
   - name: Bingo
     schedule: Every Thursday 12:30-2pm
     notes: "Cards available for purchase starting at noon. Cards just 25 cents. Great prizes."
-  last_verified: 2026-01-28
-  next_audit: 2026-04-28
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Multi-purpose center for adults 21+; welcoming atmosphere
@@ -7505,8 +7503,8 @@
     options: Holiday Bazaar, Elsie Stuhr Day, New Year's Dance, Valentine's Dance
   - name: Meals on Wheels Lunch
     schedule: Mon-Fri
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Take a tour to see all the amenities
@@ -8468,12 +8466,13 @@
   pricing:
     description: FREE
   schedule: Every Saturday 9am-10am
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Just show up at 9am Saturday - no registration needed
-    registration: None required
+    first_visit: Pre-registration recommended via PushPress on their website (walk-ins usually welcome). Waiver signature required.
+    registration: Recommended but not required
+  email: contact@portlandstrengthcollective.com
     what_to_bring: Comfortable workout clothes, water, towel
     good_to_know: "Free all-levels community workout with friendly coaches. Dynamic warm-up, demo of movements, then workout. Coaches offer tips and modifications for all fitness levels."
   accessibility:
@@ -8595,8 +8594,9 @@
   category: fitness_wellness
   location_type: hybrid
   resource_type: program
-  address: Multiple locations in Beaverton, Tigard, Portland, Hillsboro, Lake Oswego; also via Zoom
-  phone: null
+  address: 10170 SW Nimbus Ave, Suite H7, Portland, OR 97223 (HQ); also Tigard, Portland, Hillsboro, Lake Oswego; and via Zoom
+  phone: 971-645-6776
+  email: info@everybodyathletics.org
   website: https://everybodyathletics.org
   source_urls:
     - https://everybodyathletics.org
@@ -8605,20 +8605,21 @@
   eligibility: Adults 21+ with intellectual and developmental disabilities
   schedule: Mon-Thu and Sat (check website for specific times/locations)
   programs:
-    - name: Kickboxing
+    - name: EBA Class (flagship weekly)
       format: In-person and Online
-    - name: Barre
-      format: In-person and Online
-    - name: Bootcamp
-      format: In-person and Online
-    - name: Dance
-      format: In-person and Online
-    - name: Yoga
-      format: In-person and Online
-    - name: Cardio Drumming
-      format: In-person and Online
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+      notes: Weekly adaptive fitness class at multiple locations
+    - name: EBA+ Specialty Classes
+      format: In-person (HQ) and live-streamed
+      schedule: Saturdays
+      notes: Rotating classes including pilates, step aerobics, self defense, dance, yoga, cardio drumming, groove fit, and cooking
+    - name: EBA Focused Training
+      format: In-person (HQ)
+      notes: One-on-one personal training
+    - name: EBA Functional Fitness
+      format: In-person
+      notes: Eight-week sessions for athletes and caregivers together
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Contact through website to learn about programs and locations
