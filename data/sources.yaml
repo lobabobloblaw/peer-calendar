@@ -654,8 +654,8 @@
       schedule: 3rd Friday, 6:45-8pm
       format: In-person
       notes: An open space for joy, laughter, and self-expression through song. Come as you are — sing solo, join in with others, or cheer from the crowd as we build confidence, connection, and community through music.
-  last_verified: 2026-01-12
-  next_audit: 2026-04-12
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by the clinic to get connected with a Peer Support Specialist if you don't already have one
@@ -2238,8 +2238,8 @@
     schedule: 1st & 3rd Saturdays 6-9pm
     cost: FREE
     eligibility: Ages 13-18, Gresham residents
-  last_verified: 2026-01-24
-  next_audit: 2026-04-01
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just show up during free climb times - no reservation needed. Complete waiver online or on-site.
@@ -3698,8 +3698,8 @@
   - Dome screen visuals
   eligibility: Open to the public
   parking: Lot J closest to planetarium
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Arrive 15 min early - seats fill up
@@ -4531,8 +4531,8 @@
   pricing:
     description: FREE
   schedule: Last Sunday of each month 4-6pm
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "Welcoming open mic for poets and storytellers. Musical accompaniments welcome. Cozy coffeehouse setting ideal for those nervous about sharing work for the first time. Very supportive community."
   accessibility:
@@ -4627,8 +4627,8 @@
   schedule: Tuesdays & Thursdays noon-1pm (June 3 - July 31)
   schedule_start_date: 2026-06-03
   schedule_end_date: 2026-07-31
-  last_verified: 2025-12-02
-  next_audit: 2026-05-01
+  last_verified: 2026-02-08
+  next_audit: 2027-02-08
   audit_frequency: annually
   practical_tips:
     first_visit: Just show up at noon. Brick steps provide seating.
@@ -4743,10 +4743,12 @@
   - https://urbanartnetwork.org/
   pricing:
     description: FREE
-  schedule: First Thursday monthly, 5-9pm (year-round)
+  schedule: First Thursday monthly, 5-9pm (April-October)
+  schedule_start_date: 2026-04-02
+  schedule_end_date: 2026-10-01
   transit: MAX to Galleria/SW 10th
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Start at any Pearl District gallery - most along NW 12th-13th between Burnside and Lovejoy
@@ -4781,8 +4783,8 @@
     description: FREE
   schedule: Last Thursday monthly (year-round); street closures 6-9pm June-August
   transit: Bus 72
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Start anywhere along Alberta between 15th and 30th Ave
@@ -5399,18 +5401,14 @@
   pricing:
     description: FREE admission
   schedule_start_date: 2026-03-07
-  schedule_end_date: 2026-12-20
+  schedule_end_date: 2026-12-24
   programs:
   - name: Saturday Market
     schedule: Saturdays 10am-5pm
     cost: FREE
     notes: March through December; live music at 11am and 2pm
-  - name: Sunday Market
-    schedule: Sundays 11am-4:30pm
-    cost: FREE
-    notes: March through December
-  last_verified: 2026-01-31
-  next_audit: 2026-04-30
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Enter from Waterfront Park - market stretches under Burnside Bridge
@@ -5991,14 +5989,14 @@
   location_type: physical
   resource_type: place
   address: 4000 SW Fairview Blvd, Portland, OR 97221
-  phone: null
+  phone: 503-865-8733
   website: https://www.hoytarboretum.org/
   source_urls:
   - https://www.hoytarboretum.org/visit/plan-your-visit/
   - https://www.hoytarboretum.org/visit/tours/
   pricing:
     grounds: FREE
-    parking: $2/hour or $8/day
+    parking: $2.40/hour or $9.60/day
   hours:
     grounds: 5am-10pm daily
     visitor_center: 10am-4pm daily
@@ -6011,7 +6009,7 @@
     notes: Up to 4 miles, mixed terrain
   transit: Washington Park Free Shuttle stops at Visitor Center (every 15-30 min,
     9:30am-7pm)
-  practical_tips: "Grounds FREE, parking $2/hour or $8/day. Free public tours Sundays 11am April-October. Free shuttle stops at Visitor Center. Trail maps in English and Spanish. Living museum of trees. Visitor Center open 10am-4pm daily."
+  practical_tips: "Grounds FREE, parking $2.40/hour or $9.60/day (9:30am-8pm, credit/coins/Parking Kitty app). Free public tours Sundays 11am April-October. Free shuttle stops at Visitor Center. Trail maps in English and Spanish. Living museum of trees. Visitor Center open 10am-4pm daily."
   accessibility:
     - wheelchair_accessible
     - transit_nearby
@@ -6021,8 +6019,8 @@
     - anxiety_friendly
     - low_energy
   notes: Living museum of trees. Trail maps in English and Spanish.
-  last_verified: 2026-01-24
-  next_audit: 2027-01-24
+  last_verified: 2026-02-08
+  next_audit: 2027-02-08
   audit_frequency: annually
   guide_location: activities-guide-2.md#hoyt-arboretum
 - id: bird-alliance-oregon
@@ -6908,19 +6906,22 @@
   location_type: physical
   resource_type: program
   address: 835 SE 162nd Ave, Portland, OR 97233
-  phone: null
-  website: null
+  phone: 503-252-8415
+  website: https://www.lynwoodfriends.org
   source_urls:
-  - Contact church directly
+  - https://www.lynwoodfriends.org
+  - https://www.growportland.org/community-gardens
   pricing:
     description: FREE
   season: May-October
+  schedule_start_date: 2026-05-01
+  schedule_end_date: 2026-10-31
   programs:
   - name: Drop-In Farming
     schedule: Wednesdays 9:30am-12:30pm and 3-6pm; Saturdays 2-5pm
     notes: "Come farm for 2 hours, leave with a bag of fresh produce. No commitment required."
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "Drop-in model where anyone can come farm for 2 hours and leave with fresh produce. No commitment required - just show up during open hours. Combines gentle physical activity with tangible reward. Great for those wanting to try gardening."
   accessibility:

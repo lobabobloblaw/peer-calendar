@@ -2324,3 +2324,107 @@
   entries:
     - id: st-james-bach
       status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - First Thursday Art Walk"
+  entries_audited: 1
+  entries:
+    - id: first-thursday
+      status: updated
+      changes: "Schedule: year-round to April-October; added schedule bounding dates"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Saturday Market"
+  entries_audited: 1
+  entries:
+    - id: portland-saturday-market
+      status: updated
+      changes: "Removed non-existent Sunday Market; end date Dec 20 to Dec 24"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Hoyt Arboretum"
+  entries_audited: 1
+  entries:
+    - id: hoyt-arboretum
+      status: updated
+      changes: "Added phone 503-865-8733; parking $2/hr to $2.40/hr, $8/day to $9.60/day"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Community Farm at Lynwood Friends Church"
+  entries_audited: 1
+  entries:
+    - id: lynwood-community-farm
+      status: updated
+      changes: "Added phone, website, source URLs, schedule bounding dates"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - CMHC Peer Groups (Clackamas Mental Health Clinic)"
+  entries_audited: 1
+  entries:
+    - id: cmhc-peer-groups
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Rock Haven Climbing (Gresham Partnership)"
+  entries_audited: 1
+  entries:
+    - id: rock-haven-climbing
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - MHCC Planetarium Sky Theatre"
+  entries_audited: 1
+  entries:
+    - id: mhcc-planetarium
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Noon Tunes at Pioneer Courthouse Square"
+  entries_audited: 1
+  entries:
+    - id: noon-tunes
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - The Humble Poets' Open Mic"
+  entries_audited: 1
+  entries:
+    - id: humble-poets-open-mic
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Last Thursday on Alberta"
+  entries_audited: 1
+  entries:
+    - id: last-thursday-alberta
+      status: verified
