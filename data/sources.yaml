@@ -3651,8 +3651,8 @@
   - Free WiFi
   - eBooks via Libby/Overdrive
   - Seeds for Sharing garden seed checkout
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "Free library card for all Oregon residents. Cultural passes available for Pittock Mansion and Evergreen Aviation. Many locations offer free programs, computer access, and quiet spaces. Homebound delivery available for eligible patrons."
   accessibility:
@@ -3723,7 +3723,7 @@
   location_type: physical
   resource_type: place
   address: 1422 SW 11th Ave, Portland, OR 97201
-  phone: null
+  phone: 503-222-2031
   website: https://theoldchurch.org/
   source_urls:
   - https://theoldchurch.org/
@@ -3734,8 +3734,8 @@
     schedule: 1st & 3rd Wednesdays 12-1pm
     cost: FREE
     notes: Historic 1882 venue, fully wheelchair accessible
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "Free lunchtime concerts on 1st and 3rd Wednesdays 12-1pm. Beautiful historic 1882 venue. No ticket needed - just show up. Peaceful midday break. Located downtown near PSU campus."
   accessibility:
@@ -3793,8 +3793,8 @@
     cost: FREE
     dates_2026: February 22, June 14 (more TBA)
     notes: Four Bach cantatas per season presented within Evening Prayer liturgy with choir, soloists, and orchestra.
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "Free concerts featuring Bach cantatas on select Sundays at 4pm. Four cantatas per season. No tickets needed - just show up. Offerings accepted but not required. Beautiful church setting with excellent acoustics. 2026 dates: Feb 22, Jun 14."
   accessibility:
@@ -4010,8 +4010,8 @@
     notes: Free classes through Torus and Goodwill organizations. No registration required.
   - name: Adult Maker Time
     notes: Art and craft projects, materials provided
-  last_verified: 2026-01-24
-  next_audit: 2027-01-24
+  last_verified: 2026-02-08
+  next_audit: 2027-02-08
   audit_frequency: annually
   practical_tips:
     first_visit: Recently renovated - updated space reopened October 2025
@@ -4069,8 +4069,8 @@
   - Public computers
   - Meeting rooms
   - Cultural Pass Express access
-  last_verified: 2026-01-28
-  next_audit: 2026-04-28
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Get a free library card with proof of address
@@ -4109,7 +4109,7 @@
 
     '
   programs:
-  - name: Lake Oswego Reads 2025
+  - name: Lake Oswego Reads
     schedule: Various events throughout year
     cost: FREE
     notes: Community reading program with author talks, discussions, book swaps
@@ -4133,8 +4133,8 @@
     schedule: June 1 - August 31
     cost: FREE
     notes: All ages; readings, special events, prizes
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Kids Librarian available at 503-697-6580
@@ -4189,8 +4189,8 @@
   - name: Makerspace Open Lab
     schedule: Various times
     cost: FREE
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Reference Desk at 503-691-3072 for questions
@@ -4462,15 +4462,15 @@
   source_urls:
   - https://www.iprc.org/
   pricing:
-    description: Collage Night $5 suggested donation; workshops vary; zine library FREE
+    description: Collage Night FREE; workshops vary; zine library FREE
   hours: Mon 12-9pm, Wed 6-9pm, Thu-Sat 12-6pm
   programs:
   - name: Collage Night
     schedule: 1st Sunday 5-7pm
-    cost: $5 suggested donation (no one turned away)
-    notes: "Free monthly collage session. All materials provided. Great for beginners."
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+    cost: FREE
+    notes: "Free monthly collage session. All materials provided. Great for beginners. Open to the public."
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "Resource center for zines, books, prints, and comics. Home to 9,000+ zine library. Offers letterpress, screen printing, risograph, and bookbinding workshops. Collage Night is beginner-friendly."
   accessibility:
@@ -4496,19 +4496,20 @@
     description: FREE ($5 suggested donation)
   programs:
   - name: Open Mic at Guilder Cafe
-    schedule: 1st Thursday, signups 6pm, show 6:30pm
-    notes: "Inside Powell's Books downtown. Poets get 3 minutes. First-come, first-served signup. $5 suggested donation."
+    schedule: 1st Thursday, signups 6:30pm, show 7pm
+    notes: "Inside Powell's Books downtown. Poets get 3 minutes. 10 slots via lottery. $5 suggested donation."
   - name: Open Mic at Literary Arts
-    schedule: 3rd Thursday 7pm
+    schedule: 3rd Thursday, signups 6:30pm, show 7pm
     cost: FREE
-    notes: "Larger venue downtown. Features slam competition and featured readers."
+    notes: "Larger venue downtown. Features slam competition and featured readers. 10 slots via lottery."
   - name: Open Mic at Flour Bloom
-    schedule: Last Friday of month
-    notes: "Poetry open mic and slam. Check website for details."
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+    schedule: Last Friday of month, signups 6:30pm, show 7pm
+    cost: $5 suggested donation
+    notes: "Poetry open mic and slam. 10 slots via lottery."
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
-  practical_tips: "Poetry slam and open mic. Poets get 3 minutes on mic. Supportive environment for sharing creative work. Arrive early to sign up for open mic slots."
+  practical_tips: "Poetry slam and open mic. Poets get 3 minutes on mic. Supportive environment for sharing creative work. Slots determined by lottery (10 slots per show). All ages, ADA accessible. Safer space policy in place."
   accessibility:
     - transit_nearby
   social_intensity: casual_group
@@ -4548,16 +4549,17 @@
   category: arts_culture
   location_type: hybrid
   resource_type: organization
-  address: Various locations and online
-  phone: null
+  address: 5331 S. Macadam Ave. Suite 258, PMB 215, Portland, OR 97239
+  phone: 971-200-5368
+  email: wilwrite@willamettewriters.org
   website: https://willamettewriters.org/
   source_urls:
   - https://willamettewriters.org/
   pricing:
-    description: Many free events; membership has benefits
+    description: Many free events; membership $57/year (student $30/year)
   schedule: Various workshops and critique groups throughout the month
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "Oregon's largest writers' organization. Free writing workshops and drop-in critiques available. Annual conference in August. Good for connecting with other writers at all levels."
   accessibility:

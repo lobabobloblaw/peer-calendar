@@ -2219,3 +2219,108 @@
     - id: friendly-house
       status: updated
       changes: "Fri hours 8pm→7pm, Community Nights 6-8→5:30-8pm, Bone Health→Better Bones, LGBTQ Senior→Elder Pride Services"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Independent Publishing Resource Center (IPRC)"
+  entries_audited: 1
+  entries:
+    - id: iprc
+      status: updated
+      changes: "Collage Night pricing: $5 suggested donation to FREE"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Slamlandia Poetry Open Mic"
+  entries_audited: 1
+  entries:
+    - id: slamlandia-poetry
+      status: updated
+      changes: "Fixed all show times: signups 6:30pm, show 7pm; slots via lottery"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - The Old Church Concert Hall"
+  entries_audited: 1
+  entries:
+    - id: old-church-concerts
+      status: updated
+      changes: "Added phone 503-222-2031"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Willamette Writers"
+  entries_audited: 1
+  entries:
+    - id: willamette-writers
+      status: updated
+      changes: "Added phone, email, mailing address, membership pricing"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Lake Oswego Public Library"
+  entries_audited: 1
+  entries:
+    - id: lake-oswego-library
+      status: updated
+      changes: "Updated Lake Oswego Reads 2025 to annual program name"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Clackamas County Libraries (LINCC)"
+  entries_audited: 1
+  entries:
+    - id: clackamas-county-libraries
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Rockwood Library"
+  entries_audited: 1
+  entries:
+    - id: rockwood-library
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tualatin Public Library"
+  entries_audited: 1
+  entries:
+    - id: tualatin-public-library
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tigard Public Library"
+  entries_audited: 1
+  entries:
+    - id: tigard-public-library
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - St. James Lutheran Church Bach Cantata Vespers"
+  entries_audited: 1
+  entries:
+    - id: st-james-bach
+      status: verified
