@@ -1378,14 +1378,12 @@
   source_urls:
   - https://www.peergalaxy.com/
   pricing:
-    description: FREE or pay-as-you-can
+    description: FREE or scholarshipped
   schedule: 24/7 online calendar
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "Searchable online calendar with 392,000+ peer support offerings statewide. Includes support groups, chair yoga, Tai-Chi, breathwork, guided art, grief support. Created by The Peer Company (formerly MHAAO)."
-  accessibility:
-    - wheelchair_accessible
   social_intensity: varies
   good_for:
     - anxiety_friendly
@@ -1396,7 +1394,7 @@
 - id: smart-recovery-portland
   name: SMART Recovery Portland
   category: peer_support
-  location_type: physical
+  location_type: hybrid
   resource_type: program
   address: null
   phone: null
@@ -1407,8 +1405,8 @@
   pricing:
     description: FREE
   schedule: Multiple weekly meetings across Portland metro
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "Evidence-based, non-spiritual alternative to 12-step programs. Uses cognitive behavioral techniques. Meetings in all Portland quadrants plus online. No lifetime commitment - attend as long as helpful."
   accessibility:
@@ -1827,8 +1825,8 @@
   - Silver Sneakers
   - One Pass
   - Renew Active
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Register for Access Discount online before visiting to get reduced
@@ -1889,8 +1887,8 @@
   - Silver Sneakers
   - One Pass
   - Renew Active
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Major renovation completed Sept 2025 - new facility with expanded
@@ -2143,14 +2141,14 @@
   - name: 'Meet PBC: BITS rides'
     schedule: Twice monthly
     notes: Very beginner-friendly, E-bikes welcome
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Join a BITS (Meet PBC) ride - very beginner-friendly, held twice monthly
     registration: Free to try - no membership required for first few rides
     what_to_bring: Working bike, helmet, water. E-bikes welcome on BITS rides.
-    good_to_know: Oregon's oldest bicycle club (founded 1896). BITS rides are specifically designed for beginners. More advanced riders can join regular club rides. Membership optional but supports the club.
+    good_to_know: Active since 1971 with nearly 500 members. BITS rides are specifically designed for beginners. More advanced riders can join regular club rides. Membership optional but supports the club. E-bikes welcome on all club rides.
   accessibility:
     - transit_nearby
   accessibility_notes: Cycling ability required. BITS (Meet PBC) rides are slower-paced and suitable for less experienced riders. E-bikes welcome on BITS rides. Multiple pace and distance options available.
@@ -2962,7 +2960,7 @@
   category: fitness_wellness
   location_type: physical
   resource_type: program
-  address: SomaSpace, 4050 NE Broadway, Portland, OR 97213
+  address: SomaSpace, 4050 NE Broadway, Portland, OR 97232
   phone: null
   website: https://tergar.org/portland/
   source_urls:
@@ -2973,11 +2971,14 @@
   - name: Monthly In-Person Practice
     schedule: 3rd Sunday 1-3pm
     notes: "Three 25-minute silent sitting sessions with walking meditation between, followed by tea, snacks, and social time."
-  - name: Weekly Online Meditation
-    schedule: Various times (check website)
-    notes: "Virtual meditation sessions for those who can't attend in person."
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  - name: Tuesday Evening Online Practice
+    schedule: 1st & 3rd Tuesdays 7-8:30pm (teaching + guided meditation); 2nd & 4th Tuesdays 7-8:30pm (meditation + book club)
+    notes: "Virtual meditation sessions via Zoom."
+  - name: Wednesday Morning Online Practice
+    schedule: Wednesdays 9:30-10:30am
+    notes: "Nectar of the Path practice sessions via Zoom."
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "Free meditation practice in Hollywood District. Welcoming to beginners and experienced practitioners. Social time with tea and snacks after sitting. No registration needed."
   accessibility:
@@ -5784,8 +5785,8 @@
   category: parks_nature
   location_type: physical
   resource_type: place
-  address: 11321 SW Terwilliger Blvd, Portland, OR 97219
-  phone: null
+  address: 11321 S Terwilliger Blvd, Portland, OR 97219
+  phone: 503-636-9886
   website: https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=103
   source_urls:
   - https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=103
@@ -5794,16 +5795,16 @@
     notes: Free if arriving by foot, bike, or bus
   hours: Nature Center 9am-4pm daily
   transit: 'Bus #35'
-  accessibility_notes: Trillium Trail 0.25 mile paved, fully accessible
+  accessibility_notes: Trillium Trail 0.3 mile paved, fully accessible
   programs:
   - name: Saturday Guided Nature Walks
     schedule: Saturdays 10-11am
     cost: FREE
     notes: "One-hour guided hike with a park naturalist. Topics vary weekly - fungi, wildlife, seasonal themes. Ages 5+ (all ages welcome). No registration - meet at Nature Center."
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
-  practical_tips: "Park FREE; parking $10/day starting Oct 2025 (free if arriving by foot, bike, or bus #35). Trillium Trail is 0.25 mile paved and fully accessible. Free Saturday guided nature walks at 10am. Nature Center 9am-4pm daily."
+  practical_tips: "Park FREE; parking $10/day (free if arriving by foot, bike, or bus #35). Trillium Trail is 0.3 mile paved and fully accessible. Free Saturday guided nature walks at 10am. Nature Center 9am-4pm daily."
   accessibility:
     - wheelchair_accessible
     - transit_nearby
@@ -5813,8 +5814,7 @@
     - anxiety_friendly
     - active
   guide_location: activities-guide-1.md#parks-and-nature
-  alerts:
-    - ⚠️ VERIFY parking fee implementation date
+  notes_extra: Parking fee confirmed in effect since Oct 1, 2025.
 - id: powell-butte
   name: Powell Butte Nature Park
   category: parks_nature
@@ -6508,8 +6508,8 @@
     dinner: Daily 6pm
     weekend_lunch: 12:30pm
   schedule: 365 days per year
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips: "Open 365 days per year. Breakfast at 7am, dinner at 6pm daily. Weekend lunch at 12:30pm. No questions asked. Downtown Old Town/Burnside location. Can be crowded during meal times."
   accessibility:
@@ -7892,9 +7892,10 @@
   category: peer_support
   location_type: hybrid
   resource_type: program
-  address: null
+  address: 18680 SW Shaw St, Aloha, OR 97007
   phone: 503-356-6835
   website: https://www.washconami.org
+  hours: Mon-Thu 10am-6pm, Fri 10am-4pm
   source_urls:
     - https://www.washconami.org
   pricing:
@@ -7909,8 +7910,8 @@
       schedule: Contact for current schedule
       format: In-person and Virtual
       notes: Support groups for family members and caregivers
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check website or call for current meeting schedule
@@ -8460,6 +8461,7 @@
   resource_type: program
   address: 1225 SE Grand Ave, Portland, OR 97214
   phone: null
+  email: contact@portlandstrengthcollective.com
   website: https://portlandstrengthcollective.com
   source_urls:
     - https://portlandstrengthcollective.com/classes/free-community-workout/
@@ -8472,7 +8474,6 @@
   practical_tips:
     first_visit: Pre-registration recommended via PushPress on their website (walk-ins usually welcome). Waiver signature required.
     registration: Recommended but not required
-  email: contact@portlandstrengthcollective.com
     what_to_bring: Comfortable workout clothes, water, towel
     good_to_know: "Free all-levels community workout with friendly coaches. Dynamic warm-up, demo of movements, then workout. Coaches offer tips and modifications for all fitness levels."
   accessibility:
@@ -8649,7 +8650,7 @@
     - https://fhpdx.org
   pricing:
     description: Low-cost/sliding scale available
-  hours: Mon-Thu 7am-7pm, Fri 7am-8pm, Sat 8:30am-4pm
+  hours: Mon-Fri 7am-7pm, Sat 8:30am-4pm
   programs:
     - name: Tai Chi
       format: In-person
@@ -8657,16 +8658,17 @@
       format: In-person
     - name: Fitness Classes
       format: In-person
-    - name: Bone Health Exercise
+    - name: Better Bones
       format: In-person
-    - name: LGBTQ Senior Services
+    - name: Elder Pride Services
       format: In-person
+      notes: LGBTQ+ senior services in partnership with SAGE. Dedicated line 503-224-2640.
     - name: Community Nights
-      schedule: Fridays 6-8pm
+      schedule: Fridays 5:30-8pm (last entry 7pm)
       cost: FREE
-      notes: "Free access to showers (sign up by 7pm), internet center, fitness room, and classes. Open to everyone."
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+      notes: "Free access to showers (5:30-7pm), internet center, fitness room, and classes. Open to everyone."
+  last_verified: 2026-02-08
+  next_audit: 2026-05-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by or call for class schedule and pricing

@@ -2112,3 +2112,110 @@
     - id: every-body-athletics
       status: updated
       changes: "Added phone/email, HQ address, removed Beaverton, updated programs to current EBA class structure"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAMI Washington County"
+  entries_audited: 1
+  entries:
+    - id: nami-washington-county
+      status: updated
+      changes: "Added address (18680 SW Shaw St, Aloha), hours, office location confirmed"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - SMART Recovery Portland"
+  entries_audited: 1
+  entries:
+    - id: smart-recovery-portland
+      status: updated
+      changes: "location_type physical→hybrid (online meetings exist)"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - PeerGalaxy Online Wellness Portal"
+  entries_audited: 1
+  entries:
+    - id: peergalaxy
+      status: updated
+      changes: "Pricing 'pay-as-you-can'→'scholarshipped', removed wheelchair_accessible (online service)"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Bicycling Club"
+  entries_audited: 1
+  entries:
+    - id: portland-bicycling-club
+      status: updated
+      changes: "Founding year 1896→1971, e-bikes welcome on all rides not just BITS"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - East Portland Community Center"
+  entries_audited: 1
+  entries:
+    - id: east-portland-cc
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Mt. Scott Community Center"
+  entries_audited: 1
+  entries:
+    - id: mt-scott-cc
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tergar Meditation Community of Portland"
+  entries_audited: 1
+  entries:
+    - id: tergar-meditation-portland
+      status: updated
+      changes: "ZIP 97213→97232, updated online programs with specific Tue/Wed schedules"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Rescue Mission"
+  entries_audited: 1
+  entries:
+    - id: portland-rescue-mission
+      status: verified
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tryon Creek State Natural Area"
+  entries_audited: 1
+  entries:
+    - id: tryon-creek
+      status: updated
+      changes: "Added phone, address SW→S Terwilliger, trail 0.25→0.3 miles, cleared parking fee alert"
+
+---
+- date: 2026-02-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Friendly House"
+  entries_audited: 1
+  entries:
+    - id: friendly-house
+      status: updated
+      changes: "Fri hours 8pm→7pm, Community Nights 6-8→5:30-8pm, Bone Health→Better Bones, LGBTQ Senior→Elder Pride Services"
