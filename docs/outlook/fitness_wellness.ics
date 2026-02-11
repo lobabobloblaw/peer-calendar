@@ -24,10 +24,64 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:0338193000ae048d@portlandresources.org
+DTSTAMP:20260211T080517Z
+DTSTART:20260215T083000
+DTEND:20260215T113000
+SUMMARY:Dharma Rain Zen Center: Sunday Morning Program
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 8500 NE Sisk
+ iyou St\, Portland\, OR 97220-5287\nPhone: 503-239-4846\nWebsite: https://
+ dharma-rain.org/\nDetails: Soto Zen Buddhist community founded in 1986\, a
+ pproximately 220 members. All welcome at Sunday program. Practice advisors
+  available for one-on-one guidance.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
+ ><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 8500 NE Siski
+ you St\, Portland\, OR 97220-5287</p><p><strong>Phone:</strong> <a href="t
+ el:503-239-4846">503-239-4846</a></p><p><strong>Website:</strong> <a href=
+ "https://dharma-rain.org/">https://dharma-rain.org/</a></p><p><strong>Deta
+ ils:</strong> Soto Zen Buddhist community founded in 1986\, approximately 
+ 220 members. All welcome at Sunday program. Practice advisors available fo
+ r one-on-one guidance.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:8500 NE Siskiyou St\, Portland\, OR 97220-5287
+URL:https://dharma-rain.org/
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d1ffac331809a7fc@portlandresources.org
+DTSTAMP:20260211T080517Z
+DTSTART:20260211T190000
+DTEND:20260211T210000
+SUMMARY:Dharma Rain Zen Center: Wednesday Evening Classes
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 8500 NE Sisk
+ iyou St\, Portland\, OR 97220-5287\nPhone: 503-239-4846\nWebsite: https://
+ dharma-rain.org/\nDetails: Soto Zen Buddhist community founded in 1986\, a
+ pproximately 220 members. All welcome at Sunday program. Practice advisors
+  available for one-on-one guidance.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
+ ><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 8500 NE Siski
+ you St\, Portland\, OR 97220-5287</p><p><strong>Phone:</strong> <a href="t
+ el:503-239-4846">503-239-4846</a></p><p><strong>Website:</strong> <a href=
+ "https://dharma-rain.org/">https://dharma-rain.org/</a></p><p><strong>Deta
+ ils:</strong> Soto Zen Buddhist community founded in 1986\, approximately 
+ 220 members. All welcome at Sunday program. Practice advisors available fo
+ r one-on-one guidance.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:8500 NE Siskiyou St\, Portland\, OR 97220-5287
+URL:https://dharma-rain.org/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:75e1464598e366da@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260202T190000
-DTEND:20260202T200000
+DTSTAMP:20260211T080517Z
+DTSTART:20260216T190000
+DTEND:20260216T200000
 SUMMARY:Diamond Way Buddhist Center: Guided Meditation
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE always\nInfo: Guided m
  editation with explanation. Newcomers especially welcome.\nAddress: Portla
@@ -53,9 +107,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75e1464598e366da@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260205T190000
-DTEND:20260205T200000
+DTSTAMP:20260211T080517Z
+DTSTART:20260212T190000
+DTEND:20260212T200000
 SUMMARY:Diamond Way Buddhist Center: Guided Meditation
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE always\nInfo: Guided m
  editation with explanation. Newcomers especially welcome.\nAddress: Portla
@@ -80,11 +134,39 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:85da36a11cd8de05@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260203T183000
-DTEND:20260203T200000
-SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Evening Group
+UID:600bad985806d05a@portlandresources.org
+DTSTAMP:20260211T080517Z
+DTSTART:20260215T100000
+DTEND:20260215T120000
+SUMMARY:Portland Insight Meditation Community (PIMC): Sunday Program
+DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nAddr
+ ess: 6536 SE Duke St\, Portland\, OR 97206\nPhone: 503-519-9686\nWebsite: 
+ https://www.portlandinsight.org/\nDetails: Vipassana (insight) tradition. 
+ Welcomes all faiths\, orientations\, genders\, abilities\, ages\, and back
+ grounds.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
+ ><strong>Cost:</strong> Dana (donation-based)</p><p><strong>Address:</stro
+ ng> 6536 SE Duke St\, Portland\, OR 97206</p><p><strong>Phone:</strong> <a
+  href="tel:503-519-9686">503-519-9686</a></p><p><strong>Website:</strong> 
+ <a href="https://www.portlandinsight.org/">https://www.portlandinsight.org
+ /</a></p><p><strong>Details:</strong> Vipassana (insight) tradition. Welco
+ mes all faiths\, orientations\, genders\, abilities\, ages\, and backgroun
+ ds.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:6536 SE Duke St\, Portland\, OR 97206
+URL:https://www.portlandinsight.org/
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:06dba37e7b380c72@portlandresources.org
+DTSTAMP:20260211T080517Z
+DTSTART:20260217T183000
+DTEND:20260217T200000
+SUMMARY:Portland Insight Meditation Community (PIMC): Women's Sangha with A
+ lexa Redner
 DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
  at: In-person\nAddress: 6536 SE Duke St\, Portland\, OR 97206\nPhone: 503-
  519-9686\nWebsite: https://www.portlandinsight.org/\nDetails: Vipassana (i
@@ -108,9 +190,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:50283de6a02f284c@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260203T150000
-DTEND:20260203T163000
+DTSTAMP:20260211T080517Z
+DTSTART:20260217T150000
+DTEND:20260217T163000
 SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Teatime
 DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
  at: Online\nAddress: 6536 SE Duke St\, Portland\, OR 97206\nPhone: 503-519
@@ -135,9 +217,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c4627ca915697040@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260204T190000
-DTEND:20260204T203000
+DTSTAMP:20260211T080517Z
+DTSTART:20260211T190000
+DTEND:20260211T203000
 SUMMARY:Portland Insight Meditation Community (PIMC): Heart of Freedom
 DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
  at: Hybrid (in-person and Zoom)\nInfo: Mindfulness cultivation class with 
@@ -167,20 +249,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:69576450a4c8ec45@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260203T173000
-DTEND:20260203T193000
+DTSTAMP:20260211T080517Z
+DTSTART:20260217T163000
+DTEND:20260217T190000
 SUMMARY:Gresham Senior Center: Tuesday Night Dance
-DESCRIPTION:Category: Fitness & Wellness\nInfo: Live band\nAddress: 600 NE 
- 8th Street\, Room 130\, Gresham\, OR 97030\nPhone: 503-988-4870\nWebsite: 
- https://www.greshamseniorcenter.com/
+DESCRIPTION:Category: Fitness & Wellness\nInfo: Live band (Desert Dogs)\; c
+ ountry and more\; not on holidays\nAddress: 600 NE 8th Street\, Room 130\,
+  Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: https://www.greshamseni
+ orcenter.com/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
- >Live band</p><p><strong>Address:</strong> 600 NE 8th Street\, Room 130\, 
- Gresham\, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4870
- ">503-988-4870</a></p><p><strong>Website:</strong> <a href="https://www.gr
- eshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY
- ></HTML>
+ >Live band (Desert Dogs)\; country and more\; not on holidays</p><p><stron
+ g>Address:</strong> 600 NE 8th Street\, Room 130\, Gresham\, OR 97030</p><
+ p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><
+ p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/"
+ >https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
 URL:https://www.greshamseniorcenter.com/
@@ -190,17 +273,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fa2a6f7932e27924@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260202T130000
-DTEND:20260202T150000
+DTSTAMP:20260211T080517Z
+DTSTART:20260216T130000
+DTEND:20260216T150000
 SUMMARY:Gresham Senior Center: Monday Movie Matinees
 DESCRIPTION:Category: Fitness & Wellness\nAddress: 600 NE 8th Street\, Room
-  130\, Gresham\, OR 97030\nPhone: 503-988-4870\nWebsite: https://www.gresh
+  130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: https://www.gresh
  amseniorcenter.com/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
  ><strong>Address:</strong> 600 NE 8th Street\, Room 130\, Gresham\, OR 970
- 30</p><p><strong>Phone:</strong> <a href="tel:503-988-4870">503-988-4870</
+ 30</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</
  a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcente
  r.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -212,17 +295,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:79365ba3889a5027@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260206T130000
-DTEND:20260206T143000
+DTSTAMP:20260211T080517Z
+DTSTART:20260213T130000
+DTEND:20260213T143000
 SUMMARY:Gresham Senior Center: Friday Speaker Series
 DESCRIPTION:Category: Fitness & Wellness\nAddress: 600 NE 8th Street\, Room
-  130\, Gresham\, OR 97030\nPhone: 503-988-4870\nWebsite: https://www.gresh
+  130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: https://www.gresh
  amseniorcenter.com/
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
  ><strong>Address:</strong> 600 NE 8th Street\, Room 130\, Gresham\, OR 970
- 30</p><p><strong>Phone:</strong> <a href="tel:503-988-4870">503-988-4870</
+ 30</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</
  a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcente
  r.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
@@ -233,10 +316,36 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:eb1faca9bd5fba8c@portlandresources.org
+DTSTAMP:20260211T080517Z
+DTSTART:20260215T110000
+DTEND:20260215T123000
+SUMMARY:Food Court 5000 (Lloyd Center Mall Walking)
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 2201 Lloyd C
+ enter\, Portland\, OR 97232\nWebsite: https://foodcourt5k.com/\nDetails: 1
+ 980s/90s-themed indoor mall walking. Dress code: neon leggings\, acid-wash
+ ed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at 
+ food court.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
+ ><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 2201 Lloyd Ce
+ nter\, Portland\, OR 97232</p><p><strong>Website:</strong> <a href="https:
+ //foodcourt5k.com/">https://foodcourt5k.com/</a></p><p><strong>Details:</s
+ trong> 1980s/90s-themed indoor mall walking. Dress code: neon leggings\, a
+ cid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk sn
+ acks at food court.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:2201 Lloyd Center\, Portland\, OR 97232
+URL:https://foodcourt5k.com/
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0153a2619abbf2be@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260206T170000
-DTEND:20260206T210000
+DTSTAMP:20260211T080517Z
+DTSTART:20260213T170000
+DTEND:20260213T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Community Climbing Day
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE for Gresham residents 
  on specific days\nNote: Includes rental shoes\; chalk sold separately\nInf
@@ -261,9 +370,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:120fe89373741af7@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260131T180000
-DTEND:20260131T210000
+DTSTAMP:20260211T080517Z
+DTSTART:20260214T180000
+DTEND:20260214T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Teen Nights
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE for Gresham residents 
  on specific days\nNote: Includes rental shoes\; chalk sold separately\nEli
@@ -288,7 +397,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2c4a1c226a516cbd@portlandresources.org
-DTSTAMP:20260131T101009Z
+DTSTAMP:20260211T080517Z
 DTSTART:20260622T183000
 DTEND:20260622T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Creston Pool Free Swim
@@ -321,7 +430,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:19f37adeb9323fcb@portlandresources.org
-DTSTAMP:20260131T101009Z
+DTSTAMP:20260211T080517Z
 DTSTART:20260623T130000
 DTEND:20260623T154500
 SUMMARY:Portland Parks Free Open Swim Sessions: Peninsula Pool Free Swim
@@ -354,7 +463,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49b9f431cb693d00@portlandresources.org
-DTSTAMP:20260131T101009Z
+DTSTAMP:20260211T080517Z
 DTSTART:20260623T183000
 DTEND:20260623T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Montavilla Pool Free Swim
@@ -385,7 +494,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b759cc72f6eb0b0f@portlandresources.org
-DTSTAMP:20260131T101009Z
+DTSTAMP:20260211T080517Z
 DTSTART:20260624T130000
 DTEND:20260624T150000
 SUMMARY:Portland Parks Free Open Swim Sessions: Grant Pool Free Swim
@@ -416,7 +525,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4bb53254bccbec2d@portlandresources.org
-DTSTAMP:20260131T101009Z
+DTSTAMP:20260211T080517Z
 DTSTART:20260624T183000
 DTEND:20260624T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Sellwood Pool Free Swim
@@ -447,7 +556,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8bca75fd2199640c@portlandresources.org
-DTSTAMP:20260131T101009Z
+DTSTAMP:20260211T080517Z
 DTSTART:20260625T133000
 DTEND:20260625T153000
 SUMMARY:Portland Parks Free Open Swim Sessions: Pier Pool Free Swim
@@ -480,7 +589,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a150923005de6562@portlandresources.org
-DTSTAMP:20260131T101009Z
+DTSTAMP:20260211T080517Z
 DTSTART:20260625T183000
 DTEND:20260625T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Ida B. Wells Pool Free Swim
@@ -511,9 +620,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5a723522bb7078a8@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260204T062900
-DTEND:20260204T071500
+DTSTAMP:20260211T080517Z
+DTSTART:20260211T062900
+DTEND:20260211T071500
 SUMMARY:November Project Portland: Wednesday Workout
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: 30-45 minute wo
  rkout. Bodyweight movements and running with alternatives for all levels. 
@@ -542,24 +651,27 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:105d2f0b41322d3e@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260202T183000
-DTEND:20260202T200000
+DTSTAMP:20260211T080517Z
+DTSTART:20260216T183000
+DTEND:20260216T200000
 SUMMARY:Trail Sisters Portland: Monday Trail Run
-DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Women-only trai
- l run. No one left behind philosophy - group matches your pace.\nAddress: 
- Forest Park\, Thurman Entrance\nWebsite: https://trailsisters.net/local-gr
- oups/portland-oregon/\nDetails: Supportive trail running group for women. 
- 'No one left behind' - will match your pace\, walking welcome.
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: No one left beh
+ ind philosophy - group matches your pace.\nAddress: Forest Park\, Thurman 
+ Entrance\nWebsite: https://trailsisters.net/local-groups/portland-oregon/\
+ nDetails: Supportive trail running group for women-identifying\, trans\, a
+ nd nonbinary runners. 'No one left behind' - will match your pace\, walkin
+ g welcome. Also offers self-defense classes and injury avoidance workshops
+ .
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
- ><strong>Cost:</strong> FREE</p><p>Women-only trail run. No one left behin
- d philosophy - group matches your pace.</p><p><strong>Address:</strong> Fo
- rest Park\, Thurman Entrance</p><p><strong>Website:</strong> <a href="http
- s://trailsisters.net/local-groups/portland-oregon/">https://trailsisters.n
- et/local-groups/portland-oregon/</a></p><p><strong>Details:</strong> Suppo
- rtive trail running group for women. &#x27\;No one left behind&#x27\; - wi
- ll match your pace\, walking welcome.</p></BODY></HTML>
+ ><strong>Cost:</strong> FREE</p><p>No one left behind philosophy - group m
+ atches your pace.</p><p><strong>Address:</strong> Forest Park\, Thurman En
+ trance</p><p><strong>Website:</strong> <a href="https://trailsisters.net/l
+ ocal-groups/portland-oregon/">https://trailsisters.net/local-groups/portla
+ nd-oregon/</a></p><p><strong>Details:</strong> Supportive trail running gr
+ oup for women-identifying\, trans\, and nonbinary runners. &#x27\;No one l
+ eft behind&#x27\; - will match your pace\, walking welcome. Also offers se
+ lf-defense classes and injury avoidance workshops.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Forest Park\, Thurman Entrance
 URL:https://trailsisters.net/local-groups/portland-oregon/
@@ -568,81 +680,189 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:6c4cd51bb25fc508@portlandresources.org
+DTSTAMP:20260211T080517Z
+DTSTART:20260212T183000
+DTEND:20260212T200000
+SUMMARY:Trail Sisters Portland: Thursday Trail Run
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: No one left beh
+ ind philosophy - group matches your pace.\nAddress: Forest Park\, Thurman 
+ Entrance\nWebsite: https://trailsisters.net/local-groups/portland-oregon/\
+ nDetails: Supportive trail running group for women-identifying\, trans\, a
+ nd nonbinary runners. 'No one left behind' - will match your pace\, walkin
+ g welcome. Also offers self-defense classes and injury avoidance workshops
+ .
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
+ ><strong>Cost:</strong> FREE</p><p>No one left behind philosophy - group m
+ atches your pace.</p><p><strong>Address:</strong> Forest Park\, Thurman En
+ trance</p><p><strong>Website:</strong> <a href="https://trailsisters.net/l
+ ocal-groups/portland-oregon/">https://trailsisters.net/local-groups/portla
+ nd-oregon/</a></p><p><strong>Details:</strong> Supportive trail running gr
+ oup for women-identifying\, trans\, and nonbinary runners. &#x27\;No one l
+ eft behind&#x27\; - will match your pace\, walking welcome. Also offers se
+ lf-defense classes and injury avoidance workshops.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Forest Park
+URL:https://trailsisters.net/local-groups/portland-oregon/
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0781b534fe7b3022@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260201T130000
-DTEND:20260201T150000
+DTSTAMP:20260211T080517Z
+DTSTART:20260215T130000
+DTEND:20260215T150000
 SUMMARY:Tergar Meditation Community of Portland: Monthly In-Person Practice
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Three 25-minute
   silent sitting sessions with walking meditation between\, followed by tea
  \, snacks\, and social time.\nAddress: SomaSpace\, 4050 NE Broadway\, Port
- land\, OR 97213\nWebsite: https://tergar.org/portland/\nDetails: Free mont
+ land\, OR 97232\nWebsite: https://tergar.org/portland/\nDetails: Free mont
  hly meditation with social time afterward. Beginner-friendly.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
  ><strong>Cost:</strong> FREE</p><p>Three 25-minute silent sitting sessions
   with walking meditation between\, followed by tea\, snacks\, and social t
  ime.</p><p><strong>Address:</strong> SomaSpace\, 4050 NE Broadway\, Portla
- nd\, OR 97213</p><p><strong>Website:</strong> <a href="https://tergar.org/
+ nd\, OR 97232</p><p><strong>Website:</strong> <a href="https://tergar.org/
  portland/">https://tergar.org/portland/</a></p><p><strong>Details:</strong
  > Free monthly meditation with social time afterward. Beginner-friendly.</
  p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:SomaSpace\, 4050 NE Broadway\, Portland\, OR 97213
+LOCATION:SomaSpace\, 4050 NE Broadway\, Portland\, OR 97232
 URL:https://tergar.org/portland/
 RRULE:FREQ=MONTHLY;BYDAY=SU;BYSETPOS=3
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:315cc74f5ce5bba3@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260202T190000
-DTEND:20260202T203000
-SUMMARY:Path of Sincerity Meditation Group: In-Person Meditation
+UID:9b052c1131dba353@portlandresources.org
+DTSTAMP:20260211T080517Z
+DTSTART:20260217T190000
+DTEND:20260217T203000
+SUMMARY:Tergar Meditation Community of Portland: Tuesday Evening Online Pra
+ ctice
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Virtual meditat
+ ion sessions via Zoom.\nAddress: SomaSpace\, 4050 NE Broadway\, Portland\,
+  OR 97232\nWebsite: https://tergar.org/portland/\nDetails: Free monthly me
+ ditation with social time afterward. Beginner-friendly.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
+ ><strong>Cost:</strong> FREE</p><p>Virtual meditation sessions via Zoom.</
+ p><p><strong>Address:</strong> SomaSpace\, 4050 NE Broadway\, Portland\, O
+ R 97232</p><p><strong>Website:</strong> <a href="https://tergar.org/portla
+ nd/">https://tergar.org/portland/</a></p><p><strong>Details:</strong> Free
+  monthly meditation with social time afterward. Beginner-friendly.</p></BO
+ DY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:SomaSpace\, 4050 NE Broadway\, Portland\, OR 97232
+URL:https://tergar.org/portland/
+RRULE:FREQ=MONTHLY;BYDAY=TU;BYSETPOS=1,3,2,4
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bac4853c7338ed55@portlandresources.org
+DTSTAMP:20260211T080517Z
+DTSTART:20260211T093000
+DTEND:20260211T103000
+SUMMARY:Tergar Meditation Community of Portland: Wednesday Morning Online P
+ ractice
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Nectar of the P
+ ath practice sessions via Zoom.\nAddress: SomaSpace\, 4050 NE Broadway\, P
+ ortland\, OR 97232\nWebsite: https://tergar.org/portland/\nDetails: Free m
+ onthly meditation with social time afterward. Beginner-friendly.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
+ ><strong>Cost:</strong> FREE</p><p>Nectar of the Path practice sessions vi
+ a Zoom.</p><p><strong>Address:</strong> SomaSpace\, 4050 NE Broadway\, Por
+ tland\, OR 97232</p><p><strong>Website:</strong> <a href="https://tergar.o
+ rg/portland/">https://tergar.org/portland/</a></p><p><strong>Details:</str
+ ong> Free monthly meditation with social time afterward. Beginner-friendly
+ .</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:SomaSpace\, 4050 NE Broadway\, Portland\, OR 97232
+URL:https://tergar.org/portland/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6fe3cfdc57198d96@portlandresources.org
+DTSTAMP:20260211T080517Z
+DTSTART:20260216T190000
+DTEND:20260216T204500
+SUMMARY:Path of Sincerity Meditation Group: Monday Night Sangha
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE (donation-based gift e
  conomy)\nInfo: Buddhist-inspired meditation with teaching and discussion. 
- All traditions welcome.\nAddress: Awakenings Wellness Studio\, 1016 SE 12t
- h Ave\, Portland\nWebsite: https://www.pathofsincerity.com/events/\nDetail
- s: Daily virtual + twice-monthly in-person meditation. Gift economy model.
+ All traditions welcome. On hiatus until March 30\, 2026.\nAddress: Portlan
+ d Friends of the Dhamma\, 1404 SE 25th Ave\, Portland\, OR 97214\nWebsite:
+  https://www.pathofsincerity.com/events/\nDetails: Daily virtual + weekly 
+ in-person meditation. Gift economy model.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
  ><strong>Cost:</strong> FREE (donation-based gift economy)</p><p>Buddhist-
- inspired meditation with teaching and discussion. All traditions welcome.<
- /p><p><strong>Address:</strong> Awakenings Wellness Studio\, 1016 SE 12th 
- Ave\, Portland</p><p><strong>Website:</strong> <a href="https://www.pathof
- sincerity.com/events/">https://www.pathofsincerity.com/events/</a></p><p><
- strong>Details:</strong> Daily virtual + twice-monthly in-person meditatio
- n. Gift economy model.</p></BODY></HTML>
+ inspired meditation with teaching and discussion. All traditions welcome. 
+ On hiatus until March 30\, 2026.</p><p><strong>Address:</strong> Portland 
+ Friends of the Dhamma\, 1404 SE 25th Ave\, Portland\, OR 97214</p><p><stro
+ ng>Website:</strong> <a href="https://www.pathofsincerity.com/events/">htt
+ ps://www.pathofsincerity.com/events/</a></p><p><strong>Details:</strong> D
+ aily virtual + weekly in-person meditation. Gift economy model.</p></BODY>
+ </HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Awakenings Wellness Studio\, 1016 SE 12th Ave\, Portland
+LOCATION:Portland Friends of the Dhamma\, 1404 SE 25th Ave\, Portland\, OR 
+ 97214
 URL:https://www.pathofsincerity.com/events/
-RRULE:FREQ=MONTHLY;BYDAY=MO;BYSETPOS=2,4
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:13929b2306504174@portlandresources.org
+DTSTAMP:20260211T080517Z
+DTSTART:20260214T090000
+DTEND:20260214T100000
+SUMMARY:Portland Strength Collective
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 1225 SE Gran
+ d Ave\, Portland\, OR 97214\nWebsite: https://portlandstrengthcollective.c
+ om\nDetails: Free weekly community workout open to all levels.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+ N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
+ ><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 1225 SE Grand
+  Ave\, Portland\, OR 97214</p><p><strong>Website:</strong> <a href="https:
+ //portlandstrengthcollective.com">https://portlandstrengthcollective.com</
+ a></p><p><strong>Details:</strong> Free weekly community workout open to a
+ ll levels.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:1225 SE Grand Ave\, Portland\, OR 97214
+URL:https://portlandstrengthcollective.com
+RRULE:FREQ=WEEKLY;BYDAY=SA
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:77f97d44905fa910@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260206T180000
-DTEND:20260206T200000
+DTSTAMP:20260211T080517Z
+DTSTART:20260213T173000
+DTEND:20260213T200000
 SUMMARY:Friendly House: Community Nights
 DESCRIPTION:Category: Fitness & Wellness\nCost: Low-cost/sliding scale avai
- lable\nInfo: Free access to showers (sign up by 7pm)\, internet center\, f
- itness room\, and classes. Open to everyone.\nAddress: 1737 NW 26th Ave\, 
- Portland\, OR 97210\nPhone: 503-228-4391\nWebsite: https://fhpdx.org\nDeta
- ils: Nonprofit neighborhood center with sliding scale. Multnomah County Se
- nior Center partner. Free Community Nights on Fridays.
+ lable\nInfo: Free access to showers (5:30-7pm)\, internet center\, fitness
+  room\, and classes. Open to everyone.\nAddress: 1737 NW 26th Ave\, Portla
+ nd\, OR 97210\nPhone: 503-228-4391\nWebsite: https://fhpdx.org\nDetails: N
+ onprofit neighborhood center with sliding scale. Multnomah County Senior C
+ enter partner. Free Community Nights on Fridays.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Fitness &amp\; Wellness</p><p
  ><strong>Cost:</strong> Low-cost/sliding scale available</p><p>Free access
-  to showers (sign up by 7pm)\, internet center\, fitness room\, and classe
- s. Open to everyone.</p><p><strong>Address:</strong> 1737 NW 26th Ave\, Po
- rtland\, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-228-4391"
- >503-228-4391</a></p><p><strong>Website:</strong> <a href="https://fhpdx.o
- rg">https://fhpdx.org</a></p><p><strong>Details:</strong> Nonprofit neighb
- orhood center with sliding scale. Multnomah County Senior Center partner. 
- Free Community Nights on Fridays.</p></BODY></HTML>
+  to showers (5:30-7pm)\, internet center\, fitness room\, and classes. Ope
+ n to everyone.</p><p><strong>Address:</strong> 1737 NW 26th Ave\, Portland
+ \, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-228-4391">503-2
+ 28-4391</a></p><p><strong>Website:</strong> <a href="https://fhpdx.org">ht
+ tps://fhpdx.org</a></p><p><strong>Details:</strong> Nonprofit neighborhood
+  center with sliding scale. Multnomah County Senior Center partner. Free C
+ ommunity Nights on Fridays.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:1737 NW 26th Ave\, Portland\, OR 97210
 URL:https://fhpdx.org

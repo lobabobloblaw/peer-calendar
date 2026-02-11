@@ -25,29 +25,30 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:697356c9eaa7b5bb@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260131T100000
-DTEND:20260131T110000
+DTSTAMP:20260211T080517Z
+DTSTART:20260214T100000
+DTEND:20260214T110000
 SUMMARY:Tryon Creek State Natural Area: Saturday Guided Nature Walks
 DESCRIPTION:Category: Parks & Nature\nCost: Park FREE\; Parking $10/day sta
  rting Oct 1\, 2025\nNote: Free if arriving by foot\, bike\, or bus\nInfo: 
  One-hour guided hike with a park naturalist. Topics vary weekly - fungi\, 
  wildlife\, seasonal themes. Ages 5+ (all ages welcome). No registration - 
- meet at Nature Center.\nAddress: 11321 SW Terwilliger Blvd\, Portland\, OR
-  97219\nWebsite: https://stateparks.oregon.gov/index.cfm?do=park.profile&p
- arkId=103
+ meet at Nature Center.\nAddress: 11321 S Terwilliger Blvd\, Portland\, OR 
+ 97219\nPhone: 503-636-9886\nWebsite: https://stateparks.oregon.gov/index.c
+ fm?do=park.profile&parkId=103
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Parks &amp\; Nature</p><p><st
  rong>Cost:</strong> Park FREE\; Parking $10/day starting Oct 1\, 2025</p><
  p><em>Free if arriving by foot\, bike\, or bus</em></p><p>One-hour guided 
  hike with a park naturalist. Topics vary weekly - fungi\, wildlife\, seaso
  nal themes. Ages 5+ (all ages welcome). No registration - meet at Nature C
- enter.</p><p><strong>Address:</strong> 11321 SW Terwilliger Blvd\, Portlan
- d\, OR 97219</p><p><strong>Website:</strong> <a href="https://stateparks.o
- regon.gov/index.cfm?do=park.profile&parkId=103">https://stateparks.oregon.
- gov/index.cfm?do=park.profile&amp\;parkId=103</a></p></BODY></HTML>
+ enter.</p><p><strong>Address:</strong> 11321 S Terwilliger Blvd\, Portland
+ \, OR 97219</p><p><strong>Phone:</strong> <a href="tel:503-636-9886">503-6
+ 36-9886</a></p><p><strong>Website:</strong> <a href="https://stateparks.or
+ egon.gov/index.cfm?do=park.profile&parkId=103">https://stateparks.oregon.g
+ ov/index.cfm?do=park.profile&amp\;parkId=103</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:11321 SW Terwilliger Blvd\, Portland\, OR 97219
+LOCATION:11321 S Terwilliger Blvd\, Portland\, OR 97219
 URL:https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=103
 RRULE:FREQ=WEEKLY;BYDAY=SA
 CATEGORIES:Parks & Nature

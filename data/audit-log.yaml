@@ -2428,3 +2428,519 @@
   entries:
     - id: last-thursday-alberta
       status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Cascade Festival of African Films"
+  entries_audited: 1
+  entries:
+    - id: cascade-festival-african-films
+      status: updated
+      changes: "Updated dates to Feb 6 - Mar 7 (opening night was Feb 6 at Hollywood Theatre, not Feb 8). Updated film count to 18 films from 16 countries."
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAMI Clackamas"
+  entries_audited: 1
+  entries:
+    - id: nami-clackamas
+      status: updated
+      changes: "LGBTQ+ Support Group changed from Thursday to Monday (joint program with NAMI Multnomah, confirmed across multiple sources)"
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAMI Multnomah"
+  entries_audited: 1
+  entries:
+    - id: nami-multnomah
+      status: updated
+      changes: "Complex Trauma group changed from every Tuesday to 1st & 3rd Tuesdays per website"
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Path of Sincerity Meditation Group"
+  entries_audited: 1
+  entries:
+    - id: path-of-sincerity
+      status: updated
+      changes: "Monday Night Sangha on hiatus until March 30, 2026. Added schedule_end_date."
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - The Old Church Concert Hall"
+  entries_audited: 1
+  entries:
+    - id: old-church-concerts
+      status: updated
+      changes: "Updated website URL from theoldchurch.org to tocportland.org"
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Dharma Rain Zen Center"
+  entries_audited: 1
+  entries:
+    - id: dharma-rain
+      status: updated
+      changes: "Weekday meditation schedule updated: Wed-Fri only (not Wed-Sat)"
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Winter Light Festival"
+  entries_audited: 1
+  entries:
+    - id: winter-light-festival
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Oregon Free Fishing Weekends"
+  entries_audited: 1
+  entries:
+    - id: free-fishing-weekends
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - CMHC Peer Groups (Clackamas Mental Health Clinic)"
+  entries_audited: 1
+  entries:
+    - id: cmhc-peer-groups
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Recovery Dharma Portland (PDX)"
+  entries_audited: 1
+  entries:
+    - id: recovery-dharma
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Area Intergroup of Alcoholics Anonymous"
+  entries_audited: 1
+  entries:
+    - id: aa-portland-intergroup
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - PeerGalaxy Online Wellness Portal"
+  entries_audited: 1
+  entries:
+    - id: peergalaxy
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - SMART Recovery Portland"
+  entries_audited: 1
+  entries:
+    - id: smart-recovery-portland
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAMI Washington County"
+  entries_audited: 1
+  entries:
+    - id: nami-washington-county
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Alano Club of Portland"
+  entries_audited: 1
+  entries:
+    - id: alano-club-portland
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Blanchet House of Hospitality"
+  entries_audited: 1
+  entries:
+    - id: blanchet-house
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Rescue Mission"
+  entries_audited: 1
+  entries:
+    - id: portland-rescue-mission
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Loaves & Fishes Senior Dining Centers"
+  entries_audited: 1
+  entries:
+    - id: loaves-fishes
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - BYMC (Bhakti Yoga Movement Center)"
+  entries_audited: 1
+  entries:
+    - id: bymc-portland
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Diamond Way Buddhist Center"
+  entries_audited: 1
+  entries:
+    - id: diamond-way-buddhist
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Insight Meditation Community (PIMC)"
+  entries_audited: 1
+  entries:
+    - id: portland-insight-meditation
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Running Company Group Runs"
+  entries_audited: 1
+  entries:
+    - id: portland-running-company
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - November Project Portland"
+  entries_audited: 1
+  entries:
+    - id: november-project-portland
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Trail Runners"
+  entries_audited: 1
+  entries:
+    - id: portland-trail-runners
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Trail Sisters Portland"
+  entries_audited: 1
+  entries:
+    - id: trail-sisters-portland
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Shift to Bikes"
+  entries_audited: 1
+  entries:
+    - id: shift-to-bikes
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Strength Collective"
+  entries_audited: 1
+  entries:
+    - id: portland-strength-collective
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Every Body Athletics"
+  entries_audited: 1
+  entries:
+    - id: every-body-athletics
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Friendly House"
+  entries_audited: 1
+  entries:
+    - id: friendly-house
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Food Court 5000 (Lloyd Center Mall Walking)"
+  entries_audited: 1
+  entries:
+    - id: lloyd-center-walking
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Gresham Senior Center"
+  entries_audited: 1
+  entries:
+    - id: gresham-senior-center
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tergar Meditation Community of Portland"
+  entries_audited: 1
+  entries:
+    - id: tergar-meditation-portland
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Ground Kontrol Classic Arcade"
+  entries_audited: 1
+  entries:
+    - id: ground-kontrol
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Turn! Turn! Turn!"
+  entries_audited: 1
+  entries:
+    - id: turn-turn-turn
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - SCRAP PDX Creative Reuse"
+  entries_audited: 1
+  entries:
+    - id: scrap-pdx
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - MHCC Planetarium Sky Theatre"
+  entries_audited: 1
+  entries:
+    - id: mhcc-planetarium
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Slamlandia Poetry Open Mic"
+  entries_audited: 1
+  entries:
+    - id: slamlandia-poetry
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAYA (Native American Youth and Family Center)"
+  entries_audited: 1
+  entries:
+    - id: naya
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Historic Belmont Firehouse"
+  entries_audited: 1
+  entries:
+    - id: belmont-firehouse
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Area Board Games Meetup"
+  entries_audited: 1
+  entries:
+    - id: pdx-board-games-meetup
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Northwest Wools Crafting Compassion"
+  entries_audited: 1
+  entries:
+    - id: northwest-wools
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Pioneer Community Center"
+  entries_audited: 1
+  entries:
+    - id: pioneer-community-center
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Milwaukie Community Center"
+  entries_audited: 1
+  entries:
+    - id: milwaukie-community-center
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Repair PDX"
+  entries_audited: 1
+  entries:
+    - id: repair-pdx
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Puddletown Knitters Guild"
+  entries_audited: 1
+  entries:
+    - id: puddletown-knitters
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Saturday Market"
+  entries_audited: 1
+  entries:
+    - id: portland-saturday-market
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Guardian Games"
+  entries_audited: 1
+  entries:
+    - id: guardian-games
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Friends of Lone Fir Cemetery Tours"
+  entries_audited: 1
+  entries:
+    - id: lone-fir-cemetery-tours
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Rockwood Community Market"
+  entries_audited: 1
+  entries:
+    - id: rockwood-community-market
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - Community Farm at Lynwood Friends Church"
+  entries_audited: 1
+  entries:
+    - id: lynwood-community-farm
+      status: verified
+
+---
+- date: 2026-02-11
+  type: audit
+  auditor: user
+  summary: "Audit completed - DBSA Portland (Depression Bipolar Support Alliance)"
+  entries_audited: 1
+  entries:
+    - id: dbsa-portland
+      status: verified

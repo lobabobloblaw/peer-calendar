@@ -25,9 +25,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:d749c957e9a0991a@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260203T170000
-DTEND:20260203T210000
+DTSTAMP:20260211T080517Z
+DTSTART:20260217T170000
+DTEND:20260217T213000
 SUMMARY:Portland Area Board Games Meetup: Tuesday Board Games
 DESCRIPTION:Category: Social Activities\nCost: FREE - just buy food/drink f
  rom venue\nInfo: 20-30 attendees typical. Games provided. All skill levels
@@ -41,9 +41,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c536863dc98ad10a@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260204T170000
-DTEND:20260204T213000
+DTSTAMP:20260211T080517Z
+DTSTART:20260211T170000
+DTEND:20260211T213000
 SUMMARY:Portland Area Board Games Meetup: Wednesday East Side Game Night
 DESCRIPTION:Category: Social Activities\nCost: FREE - just buy food/drink f
  rom venue\nInfo: Free weekly social for all levels. Games provided by the 
@@ -57,9 +57,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:22b230d60826a8b3@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260204T083000
-DTEND:20260204T113000
+DTSTAMP:20260211T080517Z
+DTSTART:20260211T083000
+DTEND:20260211T113000
 SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
 DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
  some low-cost\nInfo: Novice to advanced\; guidance for starters\nAddress: 
@@ -75,9 +75,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8961f5d05e61f6ab@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260203T150000
-DTEND:20260203T170000
+DTSTAMP:20260211T080517Z
+DTSTART:20260217T150000
+DTEND:20260217T170000
 SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
 DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nInfo: Drop-in 
  fiber arts session every Tuesday. Knit\, crochet\, or try other crafts whi
@@ -93,16 +93,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8569003d0f2e736e@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260205T190000
-DTEND:20260205T210000
+DTSTAMP:20260211T080517Z
+DTSTART:20260212T180000
+DTEND:20260212T203000
 SUMMARY:Puddletown Knitters Guild: Monthly Meeting
-DESCRIPTION:Category: Social Activities\nCost: FREE for visitors\nInfo: Sep
- tember through May\nAddress: Rose City Park Presbyterian Church\, 1907 NE 
- 45th Ave\, Portland\, OR\nWebsite: https://www.puddletownknittersguild.com
- /
-LOCATION:Rose City Park Presbyterian Church\, 1907 NE 45th Ave\, Portland\,
-  OR
+DESCRIPTION:Category: Social Activities\nCost: FREE for first 2 visits\; me
+ mbership $35/year\nInfo: Year-round. Doors open 6pm for social knitting\; 
+ programming begins 7pm. Hybrid (in-person + Zoom).\nAddress: Rose City Par
+ k Presbyterian Church (Fellowship Hall)\, 1907 NE 45th Ave\, Portland\, OR
+  97213\nWebsite: https://www.puddletownknittersguild.com/
+LOCATION:Rose City Park Presbyterian Church (Fellowship Hall)\, 1907 NE 45t
+ h Ave\, Portland\, OR 97213
 URL:https://www.puddletownknittersguild.com/
 RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=2
 CATEGORIES:Social Activities
@@ -110,9 +111,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8e93e04951e560a1@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260205T123000
-DTEND:20260205T140000
+DTSTAMP:20260211T080517Z
+DTSTART:20260212T123000
+DTEND:20260212T140000
 SUMMARY:Pioneer Community Center: Bingo
 DESCRIPTION:Category: Social Activities\nCost: Most services free or low-co
  st\nInfo: Cards available for purchase starting at noon. Cards just 25 cen
@@ -129,9 +130,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ae8681a502d94534@portlandresources.org
-DTSTAMP:20260131T101009Z
-DTSTART:20260131T120000
-DTEND:20260131T150000
+DTSTAMP:20260211T080517Z
+DTSTART:20260214T120000
+DTEND:20260214T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
 DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
   and most workshops are free. Bring broken items to be repaired by volunte
@@ -148,7 +149,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:196b3f3d76b47a4c@portlandresources.org
-DTSTAMP:20260131T101009Z
+DTSTAMP:20260211T080517Z
 DTSTART;VALUE=DATE:20260228
 DTEND;VALUE=DATE:20260301
 SUMMARY:West Linn Repair Fair

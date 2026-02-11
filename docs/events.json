@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-04T20:03:34.812930",
+  "generated": "2026-02-11T08:05:17.906538",
   "count": 213,
   "categories": {
     "peer_support": "Peer Support",
@@ -549,7 +549,7 @@
         },
         {
           "name": "Complex Trauma & Dissociation Support",
-          "schedule": "Every Tuesday, 7-8:30pm",
+          "schedule": "1st & 3rd Tuesdays, 7-8:30pm",
           "format": "Zoom",
           "eligibility": "Those experiencing complex trauma and/or dissociation",
           "audience": []
@@ -613,31 +613,44 @@
         },
         {
           "name": "NAMI Family Support Group",
-          "schedule": "Various",
-          "notes": "For anyone who cares about someone with mental health condition. Call to register.",
+          "schedule": "1st & 3rd Mondays, 6:30-8pm",
+          "format": "Virtual (Zoom)",
+          "notes": "For anyone who cares about someone with mental health condition. \u26a0\ufe0f VERIFY schedule by phone (sourced from NAMI Oregon directory)",
           "audience": [
             "spanish_speaking",
             "women"
           ]
         },
         {
-          "name": "Spanish-Speaking Support Group",
-          "format": "Virtual",
-          "notes": "Peer-led for Spanish-speaking adults with mental health conditions",
+          "name": "NAMI Clackamas Conexion (Spanish-Speaking Support Group)",
+          "schedule": "Every Wednesday, 7-8:30pm",
+          "format": "Virtual (Zoom)",
           "audience": [
             "spanish_speaking"
-          ]
+          ],
+          "notes": "Peer-led for Spanish-speaking adults with mental health conditions. \u26a0\ufe0f VERIFY schedule by phone (NAMI Oregon page returned 404)"
         },
         {
           "name": "LGBTQ+ Support Group",
-          "notes": "Joint program with NAMI Multnomah - weekly for adults 18+",
+          "schedule": "Every Monday, 7-8:30pm",
+          "format": "Virtual (Zoom)",
           "audience": [
             "lgbtq"
-          ]
+          ],
+          "notes": "Joint program with NAMI Multnomah - weekly for adults 18+. \u26a0\ufe0f VERIFY schedule by phone"
+        },
+        {
+          "name": "BIPOC Support Group",
+          "schedule": "1st & 3rd Thursdays, 7-8:30pm",
+          "format": "Virtual (Zoom)",
+          "audience": [
+            "bipoc"
+          ],
+          "notes": "Peer-led support group for BIPOC adults. Multi-county program. \u26a0\ufe0f VERIFY by phone before publishing"
         },
         {
           "name": "Suicide Bereavement Support Group",
-          "notes": "Hosted by NAMI Clackamas for those bereaved by suicide",
+          "notes": "Hosted by NAMI Clackamas for those bereaved by suicide. \u26a0\ufe0f VERIFY schedule by phone (not found online)",
           "audience": [
             "spanish_speaking",
             "women"
@@ -824,8 +837,8 @@
       "audience_notes": null,
       "notes": "Portland's first Clubhouse International Community. Program of New Narrative. Clubhouse model emphasizes strengths over symptoms.",
       "practical_tips": {
-        "first_visit": "Contact to schedule an orientation first - referral from mental health professional required",
-        "registration": "Call 971-271-7273 to start the referral and orientation process",
+        "first_visit": "Orientations are every other Wednesday at 3pm (in-person and on Zoom). Referral from a mental health professional required first.",
+        "registration": "Submit referral by mail, email, online form, fax, or in-person, then call 971-271-7273 to schedule orientation",
         "what_to_bring": "Just yourself; lunch is provided",
         "good_to_know": "Clubhouse model: members work alongside staff on meaningful tasks. Focus on strengths, not symptoms. Employment and education support available."
       }
@@ -922,7 +935,7 @@
         {
           "name": "LGBTQIA+ Support Group",
           "schedule": "Mondays 7:00-8:30pm PT",
-          "format": "Online (1st Monday hybrid)",
+          "format": "Online (1st Monday in-person via Meetup for location)",
           "contact": "dbsalgbtqiazoom@gmail.com",
           "audience": [
             "lgbtq"
@@ -951,7 +964,7 @@
           "schedule": "Saturdays 10-11:30am PT",
           "format": "Online",
           "contact": "dbsa.healthcare.professionals@gmail.com",
-          "notes": "For healthcare professionals living with mood disorders. Peer support in a confidential space.",
+          "notes": "For mental healthcare professionals or trainees. Peer support in a confidential space.",
           "audience": [
             "lgbtq"
           ]
@@ -1075,7 +1088,7 @@
         },
         {
           "name": "Hungry Ghosts",
-          "schedule": "Mondays 6-7pm",
+          "schedule": "Mondays 6-7:15pm",
           "location": "3442 SE Morrison St",
           "format": "In-person",
           "audience": [
@@ -1207,7 +1220,7 @@
       "programs": [
         {
           "name": "Trans PDX Support Group",
-          "schedule": "1st Saturday 10am-12pm in-person; Tuesdays 5pm virtual (Discord)",
+          "schedule": "1st Saturday 10am-12pm in-person; Tuesdays 6pm virtual (Discord)",
           "cost": "FREE",
           "notes": "For trans, nonbinary, agender, gender-fabulous folks",
           "audience": [
@@ -1324,7 +1337,11 @@
       "schedule": null,
       "schedule_start_date": null,
       "schedule_end_date": null,
-      "flags": [],
+      "flags": [
+        "\u26a0\ufe0f VERIFY phone: website shows 503-737-4126, we have 503-222-6484",
+        "\u26a0\ufe0f VERIFY: DDA meeting at FolkTime (4837 NE Couch, Tue 2-3pm) still active?",
+        "\u26a0\ufe0f VERIFY: ddainc.org national directory shows different meetings (Fora Health Mon 3pm, Oregon Change Clinic Tue/Thu 12pm) than our stored schedule. Central office may have moved to 4141 SE Division St. Call 503-737-4126 to confirm."
+      ],
       "accessibility": [
         "transit_nearby"
       ],
@@ -1365,8 +1382,14 @@
           "audience": []
         },
         {
-          "name": "24-Hour Support Line",
+          "name": "Support Hotline",
           "phone": "503-223-8569",
+          "cost": "FREE",
+          "audience": []
+        },
+        {
+          "name": "Spanish-Language Support",
+          "phone": "503-395-7188",
           "cost": "FREE",
           "audience": []
         }
@@ -1512,8 +1535,8 @@
       "category": "peer_support",
       "categoryName": "Peer Support",
       "color": "#7B68EE",
-      "address": "1206 SE 11th Ave, Portland, OR 97214",
-      "phone": "503-432-9783",
+      "address": "324 NE 9th St., Gresham, OR 97030",
+      "phone": "971-384-7511",
       "website": "https://4drecovery.org/",
       "pricing": {
         "description": "FREE"
@@ -1557,9 +1580,14 @@
         "teens",
         "young_adults"
       ],
-      "audience_notes": "Youth-focused recovery community for ages 14-35",
-      "notes": "Youth-focused (14-35) recovery community with peer mentors",
-      "practical_tips": "Peer-led recovery community for young people ages 14-35. Drop-in centers with games, meetings, and social events. Certified peer mentors with lived experience. Accepts Medicaid/OHP. Also has Hillsboro location."
+      "audience_notes": "Youth-focused recovery community for ages 14-35. Community centers serve ages 18-35; adolescent services (14-17) are separate programs at separate locations.",
+      "notes": "Youth-focused (14-35) recovery community with peer mentors. Smit Center (Gresham) is the Multnomah County location. Previous SE 11th Ave Portland location is closed.",
+      "practical_tips": {
+        "first_visit": "Just drop in during open hours - no appointment needed",
+        "good_to_know": "Peer-led recovery community for young people ages 18-35. Multiple locations: Smit Center (Gresham), O'Rourke Center (Hillsboro), Clackamas County (Happy Valley). Accepts Medicaid/OHP for treatment services.",
+        "registration": "None required for drop-in center",
+        "what_to_bring": "Nothing required"
+      }
     },
     {
       "id": "peergalaxy",
@@ -1571,7 +1599,7 @@
       "phone": null,
       "website": "https://www.peergalaxy.com/",
       "pricing": {
-        "description": "FREE or pay-as-you-can"
+        "description": "FREE or scholarshipped"
       },
       "programs": [],
       "dates": null,
@@ -1579,9 +1607,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
-      "accessibility": [
-        "wheelchair_accessible"
-      ],
+      "accessibility": [],
       "social_intensity": "varies",
       "good_for": [
         "anxiety_friendly",
@@ -1831,7 +1857,7 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "2500 SE 26th Ave, Portland, OR 97202",
-      "phone": null,
+      "phone": "503-244-0108",
       "website": "https://www.thebymc.com",
       "pricing": {
         "description": "By-donation with equity pricing",
@@ -1850,7 +1876,7 @@
         },
         {
           "name": "BIPOC-only Yoga",
-          "schedule": "Sun 5:30pm",
+          "schedule": "Sun 5:30-6:30pm",
           "cost": "By donation",
           "notes": "Pre-registration suggested - often at capacity",
           "audience": [
@@ -1932,20 +1958,20 @@
       "programs": [
         {
           "name": "Sunday Morning Program",
-          "schedule": "Sundays 8:25am-11:30am",
+          "schedule": "Sundays 8:30am-11:30am",
           "details": "8:30 zazen, 9:00 kinhin, 9:40 chanting, 10:30 Dharma talk. All welcome.",
           "audience": []
         },
         {
           "name": "Weekday Morning Meditation",
-          "schedule": "Mon-Fri 6:30-7:45am (summer/winter terms)",
-          "details": "Open zazen followed by brief chanting service",
+          "schedule": "Wed-Fri 6:30-7:30am (summer/winter terms)",
+          "details": "Open zazen followed by brief chanting service. During Ango (fall/spring) starts at 5:30am.",
           "audience": []
         },
         {
           "name": "Wednesday Evening Classes",
-          "schedule": "Wednesdays (see calendar)",
-          "details": "Foundational teachings of Zen Buddhism",
+          "schedule": "Wednesdays 7-9pm",
+          "details": "Zazen 7:10-7:40pm, class begins ~7:45pm. Foundational teachings of Zen Buddhism.",
           "audience": []
         }
       ],
@@ -1966,12 +1992,12 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Oldest and largest Soto Zen Buddhist temple in Oregon, founded 1975. All welcome at Sunday program. Practice advisors available for one-on-one guidance.",
+      "notes": "Soto Zen Buddhist community founded in 1986, approximately 220 members. All welcome at Sunday program. Practice advisors available for one-on-one guidance.",
       "practical_tips": {
         "first_visit": "Arrive 15-30 min early for orientation. Doors open 9am for Sunday program.",
         "registration": "None required - just show up. Newcomers welcome any Sunday.",
         "what_to_bring": "Comfortable clothes for sitting meditation. Cushions and chairs provided.",
-        "good_to_know": "Oregon's oldest and largest Soto Zen Buddhist temple, founded 1975. Sunday program includes zazen (seated meditation), kinhin (walking meditation), chanting, and Dharma talk. Wednesday evening is simpler double-sit format. All welcome regardless of background."
+        "good_to_know": "Soto Zen Buddhist community founded in 1986, with approximately 220 members. Sunday program includes zazen (seated meditation), kinhin (walking meditation), chanting, and Dharma talk. Wednesday evening includes zazen and class. All welcome regardless of background."
       }
     },
     {
@@ -2046,10 +2072,12 @@
           "audience": []
         },
         {
-          "name": "Tuesday Evening Group",
+          "name": "Women's Sangha with Alexa Redner",
           "schedule": "Tuesdays 6:30-8pm",
           "format": "In-person",
-          "audience": []
+          "audience": [
+            "women"
+          ]
         },
         {
           "name": "Tuesday Teatime",
@@ -2224,15 +2252,15 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "600 NE 8th Street, Room 130, Gresham, OR 97030",
-      "phone": "503-988-4870",
+      "phone": "503-988-4860",
       "website": "https://www.greshamseniorcenter.com/",
       "pricing": null,
       "programs": [
         {
           "name": "Tuesday Night Dance",
-          "schedule": "Tuesdays 5:30-7:30pm",
+          "schedule": "Tuesdays 4:30-7pm",
           "cost": "$6/person",
-          "notes": "Live band",
+          "notes": "Live band (Desert Dogs); country and more; not on holidays",
           "audience": [
             "seniors"
           ]
@@ -2299,7 +2327,7 @@
           "name": "Monday Trail Run",
           "schedule": "Mondays 6pm",
           "location": "2258 NW Raleigh St (PRC Northwest)",
-          "notes": "5-9 miles in Forest Park; refreshments at Run Pub after",
+          "notes": "5-9 miles in Forest Park with No Name Trail Club; refreshments at Run Pub after",
           "audience": []
         },
         {
@@ -2313,14 +2341,14 @@
           "name": "Thursday Thirsty Thursdays",
           "schedule": "Thursdays 6pm",
           "location": "2258 NW Raleigh St (PRC Northwest)",
-          "notes": "5-7 miles followed by refreshments at in-house bar",
+          "notes": "5-7 miles followed by discounted first beverage at Run Pub bar",
           "audience": []
         },
         {
           "name": "Sunday Long Run",
           "schedule": "Sundays 8am",
           "location": "2258 NW Raleigh St (PRC Northwest)",
-          "notes": "5-18 miles; all paces welcome",
+          "notes": "5-18 miles; all paces welcome. Post-run coffee gathering.",
           "audience": []
         }
       ],
@@ -2357,7 +2385,7 @@
       "color": "#32CD32",
       "address": "2201 Lloyd Center, Portland, OR 97232",
       "phone": null,
-      "website": null,
+      "website": "https://foodcourt5k.com/",
       "pricing": {
         "description": "FREE"
       },
@@ -2366,7 +2394,9 @@
       "schedule": "Every Sunday 11am-12:30pm",
       "schedule_start_date": null,
       "schedule_end_date": null,
-      "flags": [],
+      "flags": [
+        "\u26a0\ufe0f VERIFY - Lloyd Center mall announced for closure by winter 2026 for redevelopment. Program future uncertain."
+      ],
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -2381,7 +2411,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "1980s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court.",
+      "notes": "1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court.",
       "practical_tips": {
         "first_visit": "Meet at Lloyd Center mall entrance, Sundays at 11am. Look for the group in colorful 80s attire!",
         "registration": "None - just show up",
@@ -2441,11 +2471,28 @@
         "description": "FREE"
       },
       "programs": [
-        "Monday Mixer",
-        "Foster Night Ride",
+        {
+          "name": "Mellow Mondays",
+          "schedule": "Every Monday",
+          "location": "Irving Park",
+          "notes": "Casual social ride, welcoming to newcomers",
+          "audience": []
+        },
+        {
+          "name": "Foster Night Ride",
+          "schedule": "Every other Tuesday",
+          "location": "Foster Food Carts (SE Foster Rd & SE 52nd Ave)",
+          "audience": []
+        },
         "Friday Night Ride",
         {
-          "name": "Pedalpalooza",
+          "name": "Midnight Mystery Ride",
+          "schedule": "2nd Friday of each month",
+          "notes": "Late-night ride departing ~11pm to a secret location",
+          "audience": []
+        },
+        {
+          "name": "Bike Summer (Pedalpalooza)",
           "schedule": "June-August",
           "notes": "Hundreds of free community rides",
           "audience": []
@@ -2473,7 +2520,7 @@
         "first_visit": "Check shift2bikes.org/calendar for current rides. Most list meeting location, time, and pace.",
         "registration": "None - rides are free and open to all",
         "what_to_bring": "Working bike, helmet recommended, lights for night rides, water",
-        "good_to_know": "Portland's community bike ride calendar. Year-round rides including Monday Mixer, Foster Night Ride, Friday Night Ride. Pedalpalooza (June-August) features hundreds of free themed rides. Very welcoming culture - \"bike fun\" for all abilities."
+        "good_to_know": "Portland's community bike ride calendar. Year-round rides including Mellow Mondays, Foster Night Ride, Friday Night Ride, and Midnight Mystery Ride (2nd Fri). Bike Summer/Pedalpalooza (June-August) features hundreds of free themed rides. Very welcoming culture - \"bike fun\" for all abilities."
       }
     },
     {
@@ -2518,7 +2565,7 @@
         "first_visit": "Join a BITS (Meet PBC) ride - very beginner-friendly, held twice monthly",
         "registration": "Free to try - no membership required for first few rides",
         "what_to_bring": "Working bike, helmet, water. E-bikes welcome on BITS rides.",
-        "good_to_know": "Oregon's oldest bicycle club (founded 1896). BITS rides are specifically designed for beginners. More advanced riders can join regular club rides. Membership optional but supports the club."
+        "good_to_know": "Active since 1971 with nearly 500 members. BITS rides are specifically designed for beginners. More advanced riders can join regular club rides. Membership optional but supports the club. E-bikes welcome on all club rides."
       }
     },
     {
@@ -3057,8 +3104,8 @@
       "audience_notes": null,
       "notes": "Free fitness movement in Portland since 2016. Mission: lowering intimidation of fitness, building human connections. 'All Ages, Faces, & Paces'",
       "practical_tips": {
-        "first_visit": "Just show up at 6:29am - no registration needed",
-        "registration": null,
+        "first_visit": "Just show up at 6:29am. A waiver form is available on their website (recommended before first workout).",
+        "registration": "None required (online waiver recommended)",
         "what_to_bring": "Comfortable workout clothes, water",
         "good_to_know": "Exercise alternatives always available; very welcoming community"
       }
@@ -3151,8 +3198,14 @@
       "programs": [
         {
           "name": "Saturday Trail Run",
-          "schedule": "Saturdays 8:30am (2 hours)",
+          "schedule": "Saturdays 8:35am (2 hours)",
           "notes": "5-7 miles (3-4 mi option). Forest Park, Tryon Creek, Wildwood Trail. Coffee at trailhead after.",
+          "audience": []
+        },
+        {
+          "name": "Weeknight Trail Run",
+          "schedule": "Wednesdays 6:35pm",
+          "notes": "Night trails run - headlamp and reflective gear required.",
           "audience": []
         }
       ],
@@ -3198,9 +3251,20 @@
           "name": "Monday Trail Run",
           "schedule": "Mondays 6:30-8pm",
           "location": "Forest Park, Thurman Entrance",
-          "notes": "Women-only trail run. No one left behind philosophy - group matches your pace.",
+          "notes": "No one left behind philosophy - group matches your pace.",
           "audience": [
-            "women"
+            "women",
+            "trans_nonbinary"
+          ]
+        },
+        {
+          "name": "Thursday Trail Run",
+          "schedule": "Thursdays 6:30-8pm",
+          "location": "Forest Park",
+          "notes": "No one left behind philosophy - group matches your pace.",
+          "audience": [
+            "women",
+            "trans_nonbinary"
           ]
         }
       ],
@@ -3221,10 +3285,11 @@
         "new_to_area"
       ],
       "audience": [
-        "women"
+        "women",
+        "trans_nonbinary"
       ],
       "audience_notes": null,
-      "notes": "Supportive trail running group for women. 'No one left behind' - will match your pace, walking welcome.",
+      "notes": "Supportive trail running group for women-identifying, trans, and nonbinary runners. 'No one left behind' - will match your pace, walking welcome. Also offers self-defense classes and injury avoidance workshops.",
       "practical_tips": {
         "first_visit": "Group will match your pace - no pressure",
         "registration": null,
@@ -3380,7 +3445,7 @@
       "category": "fitness_wellness",
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
-      "address": "SomaSpace, 4050 NE Broadway, Portland, OR 97213",
+      "address": "SomaSpace, 4050 NE Broadway, Portland, OR 97232",
       "phone": null,
       "website": "https://tergar.org/portland/",
       "pricing": {
@@ -3394,9 +3459,15 @@
           "audience": []
         },
         {
-          "name": "Weekly Online Meditation",
-          "schedule": "Various times (check website)",
-          "notes": "Virtual meditation sessions for those who can't attend in person.",
+          "name": "Tuesday Evening Online Practice",
+          "schedule": "1st & 3rd Tuesdays 7-8:30pm (teaching + guided meditation); 2nd & 4th Tuesdays 7-8:30pm (meditation + book club)",
+          "notes": "Virtual meditation sessions via Zoom.",
+          "audience": []
+        },
+        {
+          "name": "Wednesday Morning Online Practice",
+          "schedule": "Wednesdays 9:30-10:30am",
+          "notes": "Nectar of the Path practice sessions via Zoom.",
           "audience": []
         }
       ],
@@ -3425,7 +3496,7 @@
       "category": "fitness_wellness",
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
-      "address": "Awakenings Wellness Studio, 1016 SE 12th Ave, Portland",
+      "address": "Portland Friends of the Dhamma, 1404 SE 25th Ave, Portland, OR 97214",
       "phone": null,
       "website": "https://www.pathofsincerity.com/events/",
       "pricing": {
@@ -3433,9 +3504,10 @@
       },
       "programs": [
         {
-          "name": "In-Person Meditation",
-          "schedule": "2nd & 4th Mondays 7-8:30pm",
-          "notes": "Buddhist-inspired meditation with teaching and discussion. All traditions welcome.",
+          "name": "Monday Night Sangha",
+          "schedule": "Every Monday 7-8:45pm",
+          "schedule_end_date": "2026-03-30",
+          "notes": "Buddhist-inspired meditation with teaching and discussion. All traditions welcome. On hiatus until March 30, 2026.",
           "audience": []
         },
         {
@@ -3461,7 +3533,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Daily virtual + twice-monthly in-person meditation. Gift economy model.",
+      "notes": "Daily virtual + weekly in-person meditation. Gift economy model.",
       "practical_tips": "No registration needed. Gift economy means pay what you can or nothing at all. Daily virtual option helps build consistent practice. Welcoming to all traditions."
     },
     {
@@ -3507,7 +3579,7 @@
       "phone": "503-226-2811",
       "website": "https://portlandartmuseum.org/",
       "pricing": {
-        "description": "$27.50 adults; FREE First Thursday; $5 Arts for All (EBT)"
+        "description": "$27.50 adults; FREE First Thursday; $5 Oregon Trail Card (up to 2 tickets)"
       },
       "programs": [
         {
@@ -3526,7 +3598,10 @@
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby",
-        "elevator"
+        "elevator",
+        "asl_available",
+        "gender_neutral_restroom",
+        "low_vision_friendly"
       ],
       "social_intensity": "solo",
       "good_for": [
@@ -3538,7 +3613,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": null,
-      "practical_tips": "Free First Thursday 10am-7pm. Arts for All program provides $5 admission with EBT card (up to 4 tickets). Quieter on weekday mornings. Downtown location near PSU. Multiple floors with diverse collections."
+      "practical_tips": "Free First Thursday 10am-7pm. Oregon Trail Card provides $5 admission (up to 2 tickets). Quieter on weekday mornings. Downtown location near PSU. Multiple floors with diverse collections."
     },
     {
       "id": "omsi",
@@ -3547,11 +3622,11 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "1945 SE Water Ave, Portland, OR 97214",
-      "phone": null,
+      "phone": "503-797-4000",
       "website": "https://omsi.edu/",
       "pricing": {
-        "description": "$20 adults regular; $5 First Sunday; $5 Arts for All (EBT)",
-        "notes": "Arts for All provides up to 4 tickets at $5 each; 55% off memberships"
+        "description": "$20 adults; $17 seniors (63+); $15 youth (3-13); free under 3; $5 First Sunday; $5 Arts for All (EBT/SNAP/WIC/TANF/Medicaid/OHP)",
+        "notes": "Arts for All provides up to 4 tickets at $5 each for EBT/SNAP/WIC/TANF/Medicaid/OHP recipients (any state); up to 55% off memberships"
       },
       "programs": [
         {
@@ -3580,7 +3655,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": null,
-      "practical_tips": "First Sunday is only $5 admission. Arts for All with EBT provides up to 4 tickets at $5 each and 55% off memberships. Interactive exhibits good for all ages. Can be crowded on weekends - weekday visits are quieter."
+      "practical_tips": "First Sunday is only $5 admission. Arts for All accepts EBT/SNAP/WIC/TANF/Medicaid/OHP - up to 4 tickets at $5 each, plus up to 55% off memberships. Free companion ticket for aide accompanying visitors with disabilities. Interactive exhibits good for all ages. Can be crowded on weekends - weekday visits are quieter."
     },
     {
       "id": "academy-theater",
@@ -3822,14 +3897,14 @@
       "phone": "503-238-4000",
       "website": "https://ggportland.com",
       "pricing": {
-        "description": "FREE Sunday Open Play"
+        "description": "FREE Board Game Open Play"
       },
       "programs": [
         {
-          "name": "Sunday Open Play",
-          "schedule": "12-6pm",
+          "name": "Might I Suggest a Game? - Board Game Open Play",
+          "schedule": "Sundays 12-6pm",
           "cost": "FREE",
-          "notes": "Demo library, game instruction, 'board game sommelier' host",
+          "notes": "Game library with bartender-hosted game instruction in the Bar area",
           "audience": []
         }
       ],
@@ -3850,7 +3925,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": null,
-      "practical_tips": "Sunday Open Play (12-6pm) is free and welcoming to newcomers. Staff 'board game sommeliers' help find games and teach rules. Board games, card games, and tabletop RPGs available. Good place to meet people with similar interests."
+      "practical_tips": "Sunday Board Game Open Play (12-6pm) is free and welcoming to newcomers. Bartender hosts help find games and teach rules in the Bar area. Board games, card games, and tabletop RPGs available. Good place to meet people with similar interests."
     },
     {
       "id": "naya",
@@ -3898,8 +3973,8 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "40+ programs. Youth Centered, Family Driven, Elder Guided. Over 40 years serving Portland.",
-      "practical_tips": "Open to all community members, not just Native Americans. Culture Nights (1st & 3rd Wed 6-8pm) are welcoming to newcomers. Check calendar for community dinners and art workshops. Elder services and youth programs available."
+      "notes": "40+ programs. Youth Centered, Family Driven, Elder Guided. Over 50 years serving Portland (founded 1974).",
+      "practical_tips": "Open to all community members, not just Native Americans. Culture Nights (1st & 3rd Wed 6-8pm, school year only) require pre-registration - join NAYA's Culture Nights Facebook Group for updates. Dinner 6-6:30pm, sessions 6:30-8pm. Check calendar for community dinners and art workshops. Elder services and youth programs available."
     },
     {
       "id": "irco",
@@ -4219,8 +4294,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "1422 SW 11th Ave, Portland, OR 97201",
-      "phone": null,
-      "website": "https://theoldchurch.org/",
+      "phone": "503-222-2031",
+      "website": "https://www.tocportland.org/",
       "pricing": {
         "description": "FREE lunchtime concerts"
       },
@@ -4368,7 +4443,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": null,
-      "practical_tips": "Historic 1912 firehouse open for free on Wednesdays and 2nd Saturdays 10am-2pm. Small museum with local history exhibits. Usually quiet and uncrowded. Good for a quick visit."
+      "practical_tips": "Historic 1912 firehouse open for free on Wednesdays 9am-3pm. Small museum with local history exhibits. Usually quiet and uncrowded. Good for a quick visit. Group tours available by request with 2 weeks notice."
     },
     {
       "id": "turn-turn-turn",
@@ -4384,7 +4459,7 @@
       },
       "programs": [
         {
-          "name": "Comedy Open Mic",
+          "name": "Casual Friday (Comedy Open Mic)",
           "schedule": "Fridays 5-7pm",
           "cost": "FREE",
           "notes": "Happy hour comedy open mic hosted by Logan Loughmiller. Low-pressure environment for performers and audience. Women-owned community venue since 2014.",
@@ -4701,7 +4776,7 @@
       },
       "programs": [
         {
-          "name": "Lake Oswego Reads 2025",
+          "name": "Lake Oswego Reads",
           "schedule": "Various events throughout year",
           "cost": "FREE",
           "notes": "Community reading program with author talks, discussions, book swaps",
@@ -5073,24 +5148,17 @@
           "audience": []
         },
         {
-          "name": "Free Teacher Craft Night",
-          "schedule": "Fridays 4:30-7pm",
-          "cost": "FREE for educators",
-          "notes": "Free craft time for teachers, tutors, and educators. Relax and create.",
-          "audience": []
-        },
-        {
           "name": "Sunday Night Stitchin'",
-          "schedule": "Twice monthly (check website)",
+          "schedule": "Once monthly (check website)",
           "cost": "FREE",
           "notes": "Textile and fiber arts open studio. Bring your own project or start something new.",
           "audience": []
         },
         {
-          "name": "Adult Craft Nights at Bars",
-          "schedule": "Various (check website)",
-          "cost": "$7",
-          "notes": "Social crafting at local bars. Fun evening activity with creative people.",
+          "name": "Drop In Studio",
+          "schedule": "3rd Thursday 4-6pm",
+          "cost": "FREE",
+          "notes": "Bring a project or start a new one.",
           "audience": []
         }
       ],
@@ -5125,14 +5193,14 @@
       "phone": "503-827-0249",
       "website": "https://www.iprc.org/",
       "pricing": {
-        "description": "Collage Night $5 suggested donation; workshops vary; zine library FREE"
+        "description": "Collage Night FREE; workshops vary; zine library FREE"
       },
       "programs": [
         {
           "name": "Collage Night",
           "schedule": "1st Sunday 5-7pm",
-          "cost": "$5 suggested donation (no one turned away)",
-          "notes": "Free monthly collage session. All materials provided. Great for beginners.",
+          "cost": "FREE",
+          "notes": "Free monthly collage session. All materials provided. Great for beginners. Open to the public.",
           "audience": []
         }
       ],
@@ -5170,21 +5238,22 @@
       "programs": [
         {
           "name": "Open Mic at Guilder Cafe",
-          "schedule": "1st Thursday, signups 6pm, show 6:30pm",
-          "notes": "Inside Powell's Books downtown. Poets get 3 minutes. First-come, first-served signup. $5 suggested donation.",
+          "schedule": "1st Thursday, signups 6:30pm, show 7pm",
+          "notes": "Inside Powell's Books downtown. Poets get 3 minutes. 10 slots via lottery. $5 suggested donation.",
           "audience": []
         },
         {
           "name": "Open Mic at Literary Arts",
-          "schedule": "3rd Thursday 7pm",
+          "schedule": "3rd Thursday, signups 6:30pm, show 7pm",
           "cost": "FREE",
-          "notes": "Larger venue downtown. Features slam competition and featured readers.",
+          "notes": "Larger venue downtown. Features slam competition and featured readers. 10 slots via lottery.",
           "audience": []
         },
         {
           "name": "Open Mic at Flour Bloom",
-          "schedule": "Last Friday of month",
-          "notes": "Poetry open mic and slam. Check website for details.",
+          "schedule": "Last Friday of month, signups 6:30pm, show 7pm",
+          "cost": "$5 suggested donation",
+          "notes": "Poetry open mic and slam. 10 slots via lottery.",
           "audience": []
         }
       ],
@@ -5204,7 +5273,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": "Supportive poetry open mic with both intimate and larger venue options",
-      "practical_tips": "Poetry slam and open mic. Poets get 3 minutes on mic. Supportive environment for sharing creative work. Arrive early to sign up for open mic slots."
+      "practical_tips": "Poetry slam and open mic. Poets get 3 minutes on mic. Supportive environment for sharing creative work. Slots determined by lottery (10 slots per show). All ages, ADA accessible. Safer space policy in place."
     },
     {
       "id": "humble-poets-open-mic",
@@ -5244,11 +5313,11 @@
       "category": "arts_culture",
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
-      "address": "Various locations and online",
-      "phone": null,
+      "address": "5331 S. Macadam Ave. Suite 258, PMB 215, Portland, OR 97239",
+      "phone": "971-200-5368",
       "website": "https://willamettewriters.org/",
       "pricing": {
-        "description": "Many free events; membership has benefits"
+        "description": "Many free events; membership $57/year (student $30/year)"
       },
       "programs": [],
       "dates": null,
@@ -5451,9 +5520,9 @@
       },
       "programs": [],
       "dates": null,
-      "schedule": "First Thursday monthly, 5-9pm (year-round)",
-      "schedule_start_date": null,
-      "schedule_end_date": null,
+      "schedule": "First Thursday monthly, 5-9pm (April-October)",
+      "schedule_start_date": "2026-04-02",
+      "schedule_end_date": "2026-10-01",
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
@@ -6232,19 +6301,12 @@
           "cost": "FREE",
           "notes": "March through December; live music at 11am and 2pm",
           "audience": []
-        },
-        {
-          "name": "Sunday Market",
-          "schedule": "Sundays 11am-4:30pm",
-          "cost": "FREE",
-          "notes": "March through December",
-          "audience": []
         }
       ],
       "dates": null,
       "schedule": null,
       "schedule_start_date": "2026-03-07",
-      "schedule_end_date": "2026-12-20",
+      "schedule_end_date": "2026-12-24",
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -6486,7 +6548,7 @@
         "notes": "Oldest and longest-running African film festival in the US"
       },
       "programs": [],
-      "dates": "February 8 - March 7, 2026",
+      "dates": "February 6 - March 7, 2026",
       "schedule": null,
       "schedule_start_date": null,
       "schedule_end_date": null,
@@ -6620,8 +6682,8 @@
       "category": "parks_nature",
       "categoryName": "Parks & Nature",
       "color": "#228B22",
-      "address": "11321 SW Terwilliger Blvd, Portland, OR 97219",
-      "phone": null,
+      "address": "11321 S Terwilliger Blvd, Portland, OR 97219",
+      "phone": "503-636-9886",
       "website": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=103",
       "pricing": {
         "description": "Park FREE; Parking $10/day starting Oct 1, 2025",
@@ -6654,7 +6716,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": null,
-      "practical_tips": "Park FREE; parking $10/day starting Oct 2025 (free if arriving by foot, bike, or bus #35). Trillium Trail is 0.25 mile paved and fully accessible. Free Saturday guided nature walks at 10am. Nature Center 9am-4pm daily."
+      "practical_tips": "Park FREE; parking $10/day (free if arriving by foot, bike, or bus #35). Trillium Trail is 0.3 mile paved and fully accessible. Free Saturday guided nature walks at 10am. Nature Center 9am-4pm daily."
     },
     {
       "id": "powell-butte",
@@ -6837,11 +6899,11 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "4000 SW Fairview Blvd, Portland, OR 97221",
-      "phone": null,
+      "phone": "503-865-8733",
       "website": "https://www.hoytarboretum.org/",
       "pricing": {
         "grounds": "FREE",
-        "parking": "$2/hour or $8/day"
+        "parking": "$2.40/hour or $9.60/day"
       },
       "programs": [
         {
@@ -6875,7 +6937,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": "Living museum of trees. Trail maps in English and Spanish.",
-      "practical_tips": "Grounds FREE, parking $2/hour or $8/day. Free public tours Sundays 11am April-October. Free shuttle stops at Visitor Center. Trail maps in English and Spanish. Living museum of trees. Visitor Center open 10am-4pm daily."
+      "practical_tips": "Grounds FREE, parking $2.40/hour or $9.60/day (9:30am-8pm, credit/coins/Parking Kitty app). Free public tours Sundays 11am April-October. Free shuttle stops at Visitor Center. Trail maps in English and Spanish. Living museum of trees. Visitor Center open 10am-4pm daily."
     },
     {
       "id": "bird-alliance-oregon",
@@ -7399,10 +7461,12 @@
       },
       "programs": [],
       "dates": null,
-      "schedule": "Sundays 11am-2:15pm (two meals served)",
+      "schedule": "Sundays 11am-2:15pm; Fridays 8pm (after evening service)",
       "schedule_start_date": null,
       "schedule_end_date": null,
-      "flags": [],
+      "flags": [
+        "\u26a0\ufe0f VERIFY: Friday 8pm Langar not listed on website schedule page. Call 971-217-8577 to confirm."
+      ],
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -7780,8 +7844,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "835 SE 162nd Ave, Portland, OR 97233",
-      "phone": null,
-      "website": null,
+      "phone": "503-252-8415",
+      "website": "https://www.lynwoodfriends.org",
       "pricing": {
         "description": "FREE"
       },
@@ -7795,8 +7859,8 @@
       ],
       "dates": null,
       "schedule": null,
-      "schedule_start_date": null,
-      "schedule_end_date": null,
+      "schedule_start_date": "2026-05-01",
+      "schedule_end_date": "2026-10-31",
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -7830,7 +7894,7 @@
         {
           "name": "Tuesday Board Games",
           "location": "CORE Food Carts (3612 SE 82nd Ave)",
-          "schedule": "Every Tuesday 5-9pm",
+          "schedule": "Every Tuesday 5-9:30pm",
           "notes": "20-30 attendees typical. Games provided. All skill levels welcome.",
           "audience": []
         },
@@ -7895,7 +7959,8 @@
         },
         {
           "name": "Congregate Lunch",
-          "schedule": "Weekdays in dining room",
+          "schedule": "Weekdays noon-12:30pm in dining room",
+          "cost": "$3 suggested donation (60+); $5 under 60",
           "notes": "Social dining for older adults",
           "audience": [
             "seniors"
@@ -8186,18 +8251,18 @@
       "category": "social_activities",
       "categoryName": "Social Activities",
       "color": "#FF69B4",
-      "address": "Rose City Park Presbyterian Church, 1907 NE 45th Ave, Portland, OR",
+      "address": "Rose City Park Presbyterian Church (Fellowship Hall), 1907 NE 45th Ave, Portland, OR 97213",
       "phone": null,
       "website": "https://www.puddletownknittersguild.com/",
       "pricing": {
-        "description": "FREE for visitors"
+        "description": "FREE for first 2 visits; membership $35/year"
       },
       "programs": [
         {
           "name": "Monthly Meeting",
-          "schedule": "2nd Thursday 7-9pm",
-          "cost": "FREE",
-          "notes": "September through May",
+          "schedule": "2nd Thursday 6-8:30pm",
+          "cost": "FREE for visitors",
+          "notes": "Year-round. Doors open 6pm for social knitting; programming begins 7pm. Hybrid (in-person + Zoom).",
           "audience": []
         }
       ],
@@ -8219,7 +8284,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": null,
-      "practical_tips": "FREE monthly meetings 2nd Thursday 7-9pm, September through May. At Rose City Park Presbyterian Church. Guild membership available but visitors always welcome. Knitting-focused with programs and presentations."
+      "practical_tips": "FREE monthly meetings 2nd Thursday year-round (doors 6pm, program 7pm). At Rose City Park Presbyterian Church Fellowship Hall. Also on Zoom. First 2 visits free, then $35/year membership. Knitting-focused with programs and presentations."
     },
     {
       "id": "pioneer-community-center",
@@ -8743,6 +8808,22 @@
           "audience": []
         },
         {
+          "name": "Stories in Stone \u2013 North",
+          "schedule": "1st Saturday of even months, 10am-12pm",
+          "cost": "$10",
+          "format": "In-person",
+          "notes": "Explores northern cemetery sections, structures, symbolism, and granite types. Meet at Soldiers Monument.",
+          "dates_2026": [
+            "February 7",
+            "April 4",
+            "June 6",
+            "August 1",
+            "October 3",
+            "December 5"
+          ],
+          "audience": []
+        },
+        {
           "name": "Stories in Stone \u2013 South",
           "schedule": "1st Saturday of odd months, 10am-12pm",
           "cost": "$10",
@@ -8758,7 +8839,7 @@
           "audience": []
         },
         {
-          "name": "Women's History Tour",
+          "name": "Women's Tour",
           "schedule": "4th Saturday monthly, 10am-12pm",
           "cost": "$10",
           "format": "In-person",
@@ -8774,7 +8855,8 @@
             "August 22",
             "September 26",
             "October 24",
-            "November 28"
+            "November 28",
+            "December 26"
           ],
           "audience": [
             "women"
@@ -8915,7 +8997,7 @@
       "category": "peer_support",
       "categoryName": "Peer Support",
       "color": "#7B68EE",
-      "address": null,
+      "address": "18680 SW Shaw St, Aloha, OR 97007",
       "phone": "503-356-6835",
       "website": "https://www.washconami.org",
       "pricing": {
@@ -8999,12 +9081,6 @@
           "audience": []
         },
         {
-          "name": "Crystal Meth Anonymous (CMA)",
-          "schedule": "Weekly meetings",
-          "format": "In-person",
-          "audience": []
-        },
-        {
           "name": "Adult Children of Alcoholics (ACA)",
           "schedule": "Weekly meetings",
           "format": "In-person",
@@ -9017,10 +9093,40 @@
           "audience": []
         },
         {
-          "name": "Recovery Yoga",
-          "schedule": "Weekly",
+          "name": "RTS Recovery Yoga",
+          "schedule": "Tuesdays and Sundays 2pm",
           "format": "In-person",
           "notes": "Yoga classes designed for people in recovery",
+          "audience": []
+        },
+        {
+          "name": "Heroin Anonymous (HA)",
+          "schedule": "Multiple weekly meetings",
+          "format": "In-person",
+          "audience": []
+        },
+        {
+          "name": "Sex Addicts Anonymous (SAA)",
+          "schedule": "Multiple weekly meetings",
+          "format": "In-person",
+          "audience": []
+        },
+        {
+          "name": "Recovery Dharma",
+          "schedule": "Thursdays and Saturdays",
+          "format": "In-person",
+          "audience": []
+        },
+        {
+          "name": "Dual Diagnosis Anonymous (DDA)",
+          "schedule": "Saturdays 10am",
+          "format": "In-person",
+          "audience": []
+        },
+        {
+          "name": "Gamblers Anonymous (GA)",
+          "schedule": "Saturdays 11am",
+          "format": "In-person",
           "audience": []
         }
       ],
@@ -9041,12 +9147,12 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Portland's premier recovery community center with over 100 weekly meetings for various 12-step and secular recovery programs.",
+      "notes": "Portland's premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.",
       "practical_tips": {
         "first_visit": "Just walk in - no appointment needed. Check meeting schedule online first.",
         "registration": "None required",
         "what_to_bring": "Nothing required",
-        "good_to_know": "Over 100 weekly meetings including AA, NA, Al-Anon, SMART Recovery, and specialty groups. One of the largest recovery community centers in Portland. Coffee available at most meetings."
+        "good_to_know": "Over 120 weekly meetings including AA, NA, Al-Anon, SMART Recovery, HA, SAA, Recovery Dharma, DDA, GA, and many more. One of the largest recovery community centers in Portland. Coffee available at most meetings."
       }
     },
     {
@@ -9055,8 +9161,8 @@
       "category": "peer_support",
       "categoryName": "Peer Support",
       "color": "#7B68EE",
-      "address": "21440 SE Stark St, Gresham, OR",
-      "phone": null,
+      "address": "100 SE Cleveland Ave, Gresham, OR 97080",
+      "phone": "503-465-2749",
       "website": "https://www.bridgestochange.com",
       "pricing": {
         "description": "FREE"
@@ -9064,9 +9170,9 @@
       "programs": [
         {
           "name": "Recovery Drop-In Center",
-          "schedule": "Open daily - check website for hours",
+          "schedule": "Monday-Friday 8am-5pm",
           "format": "In-person",
-          "notes": "Safe space for peer connection and support",
+          "notes": "Safe space for peer connection and support. Shower/laundry facilities available Mon-Fri 10am-3pm. Bus pass assistance and resource referrals available.",
           "audience": []
         },
         {
@@ -9079,7 +9185,7 @@
         {
           "name": "Peer Mentorship",
           "format": "In-person",
-          "notes": "98% of staff identify as in recovery - peer-led support",
+          "notes": "Peer-led support from staff with lived experience in recovery",
           "audience": []
         }
       ],
@@ -9099,12 +9205,12 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Peer-run recovery center in Gresham. 98% of staff identify as in recovery. Also provides housing and mobile outreach services.",
+      "notes": "Peer-run recovery center in Gresham. Staff have lived experience in recovery. Also provides housing, mobile outreach (MBHT), and shower/laundry services.",
       "practical_tips": {
         "first_visit": "Drop-in anytime during open hours - no appointment needed",
         "registration": "None required",
         "what_to_bring": "Nothing required",
-        "good_to_know": "Staff are peers in recovery themselves. Also operates housing programs and mobile outreach (Acute Care Team). Located in Gresham, serving East Portland and East County."
+        "good_to_know": "Staff have lived experience in recovery. Also operates housing programs and Mobile Behavioral Health Team (MBHT). Located in Gresham, serving East Portland and East County. DDA meeting Tuesdays \u2014 \u26a0\ufe0f VERIFY schedule by phone at 503-465-2749."
       }
     },
     {
@@ -9640,8 +9746,8 @@
       "audience_notes": null,
       "notes": "Free weekly community workout open to all levels.",
       "practical_tips": {
-        "first_visit": "Just show up at 9am Saturday - no registration needed",
-        "registration": "None required",
+        "first_visit": "Pre-registration recommended via PushPress on their website (walk-ins usually welcome). Waiver signature required.",
+        "registration": "Recommended but not required",
         "what_to_bring": "Comfortable workout clothes, water, towel",
         "good_to_know": "Free all-levels community workout with friendly coaches. Dynamic warm-up, demo of movements, then workout. Coaches offer tips and modifications for all fitness levels."
       }
@@ -9795,41 +9901,36 @@
       "category": "fitness_wellness",
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
-      "address": "Multiple locations in Beaverton, Tigard, Portland, Hillsboro, Lake Oswego; also via Zoom",
-      "phone": null,
+      "address": "10170 SW Nimbus Ave, Suite H7, Portland, OR 97223 (HQ); also Tigard, Portland, Hillsboro, Lake Oswego; and via Zoom",
+      "phone": "971-645-6776",
       "website": "https://everybodyathletics.org",
       "pricing": {
         "description": "$30/month; scholarships available upon request"
       },
       "programs": [
         {
-          "name": "Kickboxing",
+          "name": "EBA Class (flagship weekly)",
           "format": "In-person and Online",
+          "notes": "Weekly adaptive fitness class at multiple locations",
           "audience": []
         },
         {
-          "name": "Barre",
-          "format": "In-person and Online",
+          "name": "EBA+ Specialty Classes",
+          "format": "In-person (HQ) and live-streamed",
+          "schedule": "Saturdays",
+          "notes": "Rotating classes including pilates, step aerobics, self defense, dance, yoga, cardio drumming, groove fit, and cooking",
           "audience": []
         },
         {
-          "name": "Bootcamp",
-          "format": "In-person and Online",
+          "name": "EBA Focused Training",
+          "format": "In-person (HQ)",
+          "notes": "One-on-one personal training",
           "audience": []
         },
         {
-          "name": "Dance",
-          "format": "In-person and Online",
-          "audience": []
-        },
-        {
-          "name": "Yoga",
-          "format": "In-person and Online",
-          "audience": []
-        },
-        {
-          "name": "Cardio Drumming",
-          "format": "In-person and Online",
+          "name": "EBA Functional Fitness",
+          "format": "In-person",
+          "notes": "Eight-week sessions for athletes and caregivers together",
           "audience": []
         }
       ],
@@ -9896,7 +9997,7 @@
           ]
         },
         {
-          "name": "Bone Health Exercise",
+          "name": "Better Bones",
           "format": "In-person",
           "audience": [
             "lgbtq",
@@ -9904,8 +10005,9 @@
           ]
         },
         {
-          "name": "LGBTQ Senior Services",
+          "name": "Elder Pride Services",
           "format": "In-person",
+          "notes": "LGBTQ+ senior services in partnership with SAGE. Dedicated line 503-224-2640.",
           "audience": [
             "lgbtq",
             "seniors"
@@ -9913,9 +10015,9 @@
         },
         {
           "name": "Community Nights",
-          "schedule": "Fridays 6-8pm",
+          "schedule": "Fridays 5:30-8pm (last entry 7pm)",
           "cost": "FREE",
-          "notes": "Free access to showers (sign up by 7pm), internet center, fitness room, and classes. Open to everyone.",
+          "notes": "Free access to showers (5:30-7pm), internet center, fitness room, and classes. Open to everyone.",
           "audience": [
             "lgbtq",
             "seniors"
