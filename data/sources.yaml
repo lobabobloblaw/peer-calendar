@@ -532,11 +532,11 @@
     eligibility: Black, Indigenous, and/or People of Color adults with mental health
       conditions
   - name: Complex Trauma & Dissociation Support
-    schedule: 1st & 3rd Tuesdays, 7-8:30pm
+    schedule: Every Tuesday, 7-8:30pm
     format: Zoom
     eligibility: Those experiencing complex trauma and/or dissociation
-  last_verified: 2026-02-11
-  next_audit: 2026-03-11
+  last_verified: 2026-02-13
+  next_audit: 2026-03-13
   audit_frequency: monthly
   practical_tips:
     first_visit: "Just show up to any meeting - no pre-registration needed for most groups"
@@ -857,8 +857,8 @@
   eligibility: Open to all adults with any mental health condition (depression, bipolar,
     anxiety, PTSD, ADHD, etc.)
   member_liaison: dbsaportlandmemberliaison@gmail.com
-  last_verified: 2026-02-11
-  next_audit: 2026-03-11
+  last_verified: 2026-02-13
+  next_audit: 2026-03-13
   audit_frequency: monthly
   practical_tips:
     first_visit: "Just join any Zoom meeting - drop-in, no registration needed"
@@ -976,10 +976,12 @@
     - anxiety_friendly
     - isolation
     - indoor
+  flags:
+  - "⚠️ VERIFY: recoverydharmapdx.org was unreachable as of Feb 13, 2026 (connection refused). May be temporary outage. Meetings confirmed via Alano Club schedule (Thu 12-1pm SE Room, Sat 7-8:15pm Loft). Contact pdxintersangha@gmail.com to verify."
   notes: 30+ weekly meetings across Portland. Buddhist-based recovery using mindfulness
     and loving-kindness - alternative to 12-step programs.
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
 - id: peer-company
@@ -1093,9 +1095,10 @@
   - http://ddaoregon.com/meeting.htm
   - https://ddainc.org/
   flags:
-  - "⚠️ VERIFY phone: website shows 503-737-4126, we have 503-222-6484"
+  - "⚠️ VERIFY phone: website consistently shows 503-737-4126 (confirmed Feb 2026), we have 503-222-6484. Update phone after calling to confirm."
   - "⚠️ VERIFY: DDA meeting at FolkTime (4837 NE Couch, Tue 2-3pm) still active?"
   - "⚠️ VERIFY: ddainc.org national directory shows different meetings (Fora Health Mon 3pm, Oregon Change Clinic Tue/Thu 12pm) than our stored schedule. Central office may have moved to 4141 SE Division St. Call 503-737-4126 to confirm."
+  - "⚠️ VERIFY: Virtual Sat 10:30-11:30am meeting not listed on ddaoregon.com. Sat 10-11am at Alano Club confirmed via portlandalano.org. Website is very outdated (copyright 2008)."
   pricing:
     description: FREE
   programs:
@@ -1143,8 +1146,8 @@
   notes: 12-Step plus 5 additional steps for co-occurring mental illness and substance
     use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm
     for full schedule.
-  last_verified: 2026-02-08
-  next_audit: 2026-05-08
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
 - id: aa-portland-intergroup
   name: Portland Area Intergroup of Alcoholics Anonymous
   category: peer_support
@@ -1294,8 +1297,8 @@
   - name: Recovery Support Meetings
     schedule: Various weekly meetings
     notes: "12-step, dharma, yoga, and social recovery approaches available. Check website for current schedule."
-  last_verified: 2026-02-08
-  next_audit: 2026-05-08
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just drop in during open hours - no appointment needed
@@ -1616,7 +1619,7 @@
     schedule: Sundays 8:30am-11:30am
     details: 8:30 zazen, 9:00 kinhin, 9:40 chanting, 10:30 Dharma talk. All welcome.
   - name: Weekday Morning Meditation
-    schedule: Wed-Fri 6:30-7:30am (summer/winter terms)
+    schedule: Wed-Sat 6:30-7:45am (summer/winter terms)
     details: Open zazen followed by brief chanting service. During Ango (fall/spring) starts at 5:30am.
   - name: Wednesday Evening Classes
     schedule: Wednesdays 7-9pm
@@ -1636,8 +1639,8 @@
     - low_energy
     - isolation
   notes: Soto Zen Buddhist community founded in 1986, approximately 220 members. All welcome at Sunday program. Practice advisors available for one-on-one guidance.
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
 - id: diamond-way-buddhist
@@ -1728,8 +1731,8 @@
     - low_energy
     - isolation
   notes: Vipassana (insight) tradition. Welcomes all faiths, orientations, genders, abilities, ages, and backgrounds.
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
 - id: east-portland-cc
@@ -1832,8 +1835,8 @@
   - Silver Sneakers
   - One Pass
   - Renew Active
-  last_verified: 2026-02-08
-  next_audit: 2026-05-08
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Major renovation completed Sept 2025 - new facility with expanded
@@ -1877,8 +1880,8 @@
   - name: Friday Speaker Series
     schedule: Fridays 1-2:30pm
     cost: FREE (RSVP required)
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by during open hours (Mon-Fri 8:30am-3pm) to see the facility and learn about programs
@@ -1926,8 +1929,8 @@
     schedule: Sundays 8am
     location: 2258 NW Raleigh St (PRC Northwest)
     notes: 5-18 miles; all paces welcome. Post-run coffee gathering.
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just show up at the designated location at run time. All paces welcome.
@@ -1959,7 +1962,7 @@
   pricing:
     description: FREE
   schedule: Every Sunday 11am-12:30pm
-  distance: 3.5 miles (two laps around mall, ~90 minutes)
+  distance: 3.1 miles / 5K (two laps around mall, ~90 minutes)
   host: Vera Mysteria (Krista Catwood)
   rules:
   - Pump your arms
@@ -1984,9 +1987,9 @@
     - anxiety_friendly
   notes: "1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court."
   flags:
-  - "⚠️ VERIFY - Lloyd Center mall announced for closure by winter 2026 for redevelopment. Program future uncertain."
-  last_verified: 2026-02-11
-  next_audit: 2026-03-11
+  - "⚠️ VERIFY - Lloyd Center mall confirmed closing in 2026 for demolition and redevelopment. Tenants will receive 90 days notice. Food Court 5000 still running as of Feb 2026 but future location uncertain. Consider adding schedule_end_date when closure date is announced."
+  last_verified: 2026-02-13
+  next_audit: 2026-03-13
   audit_frequency: monthly
   guide_location: activities-guide-2.md#mall-walking-programs
 - id: neighborwalks
@@ -2048,12 +2051,12 @@
   - Friday Night Ride
   - name: Midnight Mystery Ride
     schedule: 2nd Friday of each month
-    notes: Late-night ride departing ~11pm to a secret location
+    notes: Meet ~11pm, depart at midnight to a secret location. Meeting point kept secret until day of event.
   - name: Bike Summer (Pedalpalooza)
     schedule: June-August
     notes: Hundreds of free community rides
-  last_verified: 2026-02-11
-  next_audit: 2026-03-11
+  last_verified: 2026-02-13
+  next_audit: 2026-03-13
   audit_frequency: monthly
   practical_tips:
     first_visit: Check shift2bikes.org/calendar for current rides. Most list meeting location, time, and pace.
@@ -2664,8 +2667,8 @@
     notes: Night trails run - headlamp and reflective gear required.
   members: 4302
   eligibility: All levels welcome
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check Meetup for current meeting location
@@ -2922,8 +2925,8 @@
   - name: Wednesday Morning Online Practice
     schedule: Wednesdays 9:30-10:30am
     notes: "Nectar of the Path practice sessions via Zoom."
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips: "Free meditation practice in Hollywood District. Welcoming to beginners and experienced practitioners. Social time with tea and snacks after sitting. No registration needed."
   accessibility:
@@ -2955,8 +2958,8 @@
   - name: Daily Virtual Meditation
     schedule: Daily 8-9am
     notes: "Consistent morning practice opportunity. Great for building routine."
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips: "No registration needed. Gift economy means pay what you can or nothing at all. Daily virtual option helps build consistent practice. Welcoming to all traditions."
   accessibility:
@@ -3305,8 +3308,8 @@
     schedule: Sundays 12-6pm
     cost: FREE
     notes: Game library with bartender-hosted game instruction in the Bar area
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips: "Sunday Board Game Open Play (12-6pm) is free and welcoming to newcomers. Bartender hosts help find games and teach rules in the Bar area. Board games, card games, and tabletop RPGs available. Good place to meet people with similar interests."
   accessibility:
@@ -3806,8 +3809,8 @@
     schedule: 2nd & 4th Mondays 8-11pm
     cost: FREE
     notes: K-Tel and Larry-okee supportive karaoke night. Low-pressure, encouraging atmosphere for singers of all abilities. 21+ after 8pm. Cash only at door, all payments at bar.
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips: "Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Drawing Club (Sun 12:30-3:30pm), and karaoke (2nd & 4th Mon 8-11pm). All ages welcome for most daytime events. Casual atmosphere good for meeting people."
   accessibility:
@@ -3933,7 +3936,7 @@
   - https://multcolib.org/events-classes
   pricing:
     description: FREE
-  hours: Mon 10am-6pm, Tue-Wed 12pm-8pm, Thu-Sat 10am-6pm, Sun 12pm-6pm
+  hours: Mon CLOSED, Tue-Wed 12pm-8pm, Thu-Sat 10am-6pm, Sun 12pm-6pm
   services:
   - Free library card and materials
   - Computer access and WiFi
@@ -3956,8 +3959,8 @@
     notes: Free classes through Torus and Goodwill organizations. No registration required.
   - name: Adult Maker Time
     notes: Art and craft projects, materials provided
-  last_verified: 2026-02-08
-  next_audit: 2027-02-08
+  last_verified: 2026-02-13
+  next_audit: 2027-02-13
   audit_frequency: annually
   practical_tips:
     first_visit: Recently renovated - updated space reopened October 2025
@@ -4382,8 +4385,8 @@
     schedule: 3rd Thursday 4-6pm
     cost: FREE
     notes: "Bring a project or start a new one."
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips: "Nonprofit creative reuse center with low-cost art supplies. Sunday Crafternoon is great for trying new crafts. Low-pressure environment perfect for creative expression without spending much. Materials provided for most events."
   accessibility:
@@ -5737,8 +5740,8 @@
   source_urls:
   - https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=103
   pricing:
-    description: Park FREE; Parking $10/day starting Oct 1, 2025
-    notes: Free if arriving by foot, bike, or bus
+    description: Park FREE; Parking $10/day residents, $12/day non-residents (since Oct 1, 2025)
+    notes: Free if arriving by foot, bike, or bus. Annual permits $60 resident/$75 non-resident.
   hours: Nature Center 9am-4pm daily
   transit: 'Bus #35'
   accessibility_notes: Trillium Trail 0.3 mile paved, fully accessible
@@ -5747,8 +5750,8 @@
     schedule: Saturdays 10-11am
     cost: FREE
     notes: "One-hour guided hike with a park naturalist. Topics vary weekly - fungi, wildlife, seasonal themes. Ages 5+ (all ages welcome). No registration - meet at Nature Center."
-  last_verified: 2026-02-08
-  next_audit: 2026-05-08
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips: "Park FREE; parking $10/day (free if arriving by foot, bike, or bus #35). Trillium Trail is 0.3 mile paved and fully accessible. Free Saturday guided nature walks at 10am. Nature Center 9am-4pm daily."
   accessibility:
@@ -6397,8 +6400,8 @@
     lunch: 11:30am-12:25pm
     dinner: 5:00-5:55pm
   schedule: Monday-Saturday
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips: "No questions asked - just show up. Sit-down indoor dining with vegetarian options. Dogs allowed if leashed. Wednesday is spaghetti night. Serving since 1952. Downtown Old Town location."
   accessibility:
@@ -6484,8 +6487,8 @@
   schedule: Sundays 11am-2:15pm; Fridays 8pm (after evening service)
   flags:
   - "⚠️ VERIFY: Friday 8pm Langar not listed on website schedule page. Call 971-217-8577 to confirm."
-  last_verified: 2026-02-08
-  next_audit: 2026-05-08
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips: "Free vegetarian meals Sundays 11am-2:15pm. All welcome regardless of religion. Remove shoes and cover head (scarves provided). Food served in separate area - no need to attend religious service. Gurdwara open daily 7am-9pm."
   accessibility:
@@ -7454,8 +7457,8 @@
     options: Holiday Bazaar, Elsie Stuhr Day, New Year's Dance, Valentine's Dance
   - name: Meals on Wheels Lunch
     schedule: Mon-Fri
-  last_verified: 2026-02-08
-  next_audit: 2026-05-08
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Take a tour to see all the amenities
@@ -7563,7 +7566,7 @@
   programs:
     - name: RPDX Repair Café @ Leaven Common House
       schedule: 2nd Saturday monthly, 12-3pm
-      location: Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
+      location: Leaven Common House, 5431 NE 20th Ave, Portland, OR 97211
       cost: FREE
       format: In-person
       notes: Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.
@@ -7596,8 +7599,8 @@
       notes: Traditional Japanese embroidered mending technique. Check website for dates.
       dates_2026:
         - January 18
-  last_verified: 2026-02-11
-  next_audit: 2026-03-11
+  last_verified: 2026-02-13
+  next_audit: 2026-03-13
   audit_frequency: monthly
   practical_tips:
     first_visit: Fill out the Google Form before arriving to let them know what you're bringing
@@ -7669,9 +7672,9 @@
     - https://www.friendsoflonefircemetery.org/?page_id=911
     - https://friends-of-lone-fir-cemetery-store.square.site/
   pricing:
-    description: $10 per tour (FREE self-guided options available)
-    regular: $10
-    notes: Tickets via Square site. Self-guided smartphone tours and PDF downloads are free.
+    description: $10 suggested donation per tour (FREE self-guided options available)
+    regular: $10 suggested donation
+    notes: Reservations or donations not required but appreciated. Self-guided smartphone tours and PDF downloads are free.
   eligibility: Open to all ages
   meeting_point: Soldiers Monument, Lone Fir Cemetery
   programs:
@@ -7744,8 +7747,8 @@
     - Labor & Social Activists
     - Curbside (accessible hard-surface tour)
     - The Tree Tour
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Meet at the Soldiers Monument near SE 26th & Stark. Arrive 5-10 minutes early.
@@ -7931,8 +7934,8 @@
     - name: Gamblers Anonymous (GA)
       schedule: Saturdays 11am
       format: In-person
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just walk in - no appointment needed. Check meeting schedule online first.
@@ -7955,7 +7958,7 @@
   category: peer_support
   location_type: physical
   resource_type: place
-  address: 100 SE Cleveland Ave, Gresham, OR 97080
+  address: 100 SE Cleveland Ave, Gresham, OR 97030
   phone: 503-465-2749
   website: https://www.bridgestochange.com
   source_urls:
@@ -7975,14 +7978,14 @@
     - name: Peer Mentorship
       format: In-person
       notes: Peer-led support from staff with lived experience in recovery
-  last_verified: 2026-02-08
-  next_audit: 2026-05-08
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Drop-in anytime during open hours - no appointment needed
     registration: None required
     what_to_bring: Nothing required
-    good_to_know: Staff have lived experience in recovery. Also operates housing programs and Mobile Behavioral Health Team (MBHT). Located in Gresham, serving East Portland and East County. DDA meeting Tuesdays — ⚠️ VERIFY schedule by phone at 503-465-2749.
+    good_to_know: Staff have lived experience in recovery. Also operates housing programs and Mobile Behavioral Health Team (MBHT). Located in Gresham, serving East Portland and East County. DDA meeting Tuesdays — ⚠️ VERIFY schedule by phone. ⚠️ Phone may have changed to 503-933-2440 (per 211info); stored 503-465-2749 not found on website. Also opened Rockwood Drop-in Resource Center (Sept 2025).
   accessibility:
     - transit_nearby
   social_intensity: drop_in
@@ -8419,8 +8422,8 @@
   pricing:
     description: FREE
   schedule: Every Saturday 9am-10am
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Pre-registration recommended via PushPress on their website (walk-ins usually welcome). Waiver signature required.
@@ -8570,8 +8573,8 @@
     - name: EBA Functional Fitness
       format: In-person
       notes: Eight-week sessions for athletes and caregivers together
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Contact through website to learn about programs and locations
@@ -8615,11 +8618,11 @@
       format: In-person
       notes: LGBTQ+ senior services in partnership with SAGE. Dedicated line 503-224-2640.
     - name: Community Nights
-      schedule: Fridays 5:30-8pm (last entry 7pm)
+      schedule: Fridays 5:00-7:00pm
       cost: FREE
-      notes: "Free access to showers (5:30-7pm), internet center, fitness room, and classes. Open to everyone."
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+      notes: "Free access to showers (6-8pm, last signup 7pm), internet center, fitness room, and classes. Open to everyone."
+  last_verified: 2026-02-13
+  next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by or call for class schedule and pricing

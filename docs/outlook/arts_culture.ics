@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:65bcfcc6591abf66@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260219T100000
 DTEND:20260219T190000
 SUMMARY:Portland Art Museum: Free First Thursday
@@ -56,7 +56,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4d15400e41f273e0@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260215T093000
 DTEND:20260215T173000
 SUMMARY:OMSI (Oregon Museum of Science and Industry): First Sunday
@@ -92,7 +92,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1cc8d79374188c66@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260219T120000
 DTEND:20260219T000000
 SUMMARY:Ground Kontrol Classic Arcade: Free Play (2nd Thursday)
@@ -117,7 +117,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:59746f5642178898@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260218T120000
 DTEND:20260218T000000
 SUMMARY:Ground Kontrol Classic Arcade: Free Play (Last Wednesday)
@@ -142,7 +142,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75b2a7dcae90038e@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260215T120000
 DTEND:20260215T180000
 SUMMARY:Guardian Games: Might I Suggest a Game? - Board Game Open Play
@@ -167,7 +167,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c62bc17ff46d5148@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260218T180000
 DTEND:20260218T200000
 SUMMARY:NAYA (Native American Youth and Family Center): Culture Nights
@@ -192,7 +192,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e73e21017e0799ee@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260217T173000
 DTEND:20260217T183000
 SUMMARY:Clackamas County Libraries (LINCC): Teen Advisory Group (GOAT)
@@ -220,7 +220,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7911bf9a58117f@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260219T183000
 DTEND:20260219T193000
 SUMMARY:MHCC Planetarium Sky Theatre: Early Planetarium Show
@@ -249,7 +249,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e02aa101489f47a@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260219T200000
 DTEND:20260219T210000
 SUMMARY:MHCC Planetarium Sky Theatre: Late Planetarium Show
@@ -278,7 +278,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f7bf9869ba2e83a@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260218T120000
 DTEND:20260218T130000
 SUMMARY:The Old Church Concert Hall: Lunchtime Concert Series
@@ -302,7 +302,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0379c9729163580c@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260215T160000
 DTEND:20260215T170000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
@@ -327,7 +327,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c1294058eda55cac@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260218T090000
 DTEND:20260218T150000
 SUMMARY:Historic Belmont Firehouse: Wednesday Open Hours
@@ -356,7 +356,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d008ef21f7f8aa0a@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260213T170000
 DTEND:20260213T190000
 SUMMARY:Turn! Turn! Turn!: Casual Friday (Comedy Open Mic)
@@ -383,7 +383,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d8fc3329cc6894ad@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260215T123000
 DTEND:20260215T153000
 SUMMARY:Turn! Turn! Turn!: Drawing Club
@@ -410,7 +410,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d9e5489d6044ef66@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260216T200000
 DTEND:20260216T230000
 SUMMARY:Turn! Turn! Turn!: Karaoke Night
@@ -437,7 +437,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:081b91eb97012860@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260218T200000
 DTEND:20260218T210000
 SUMMARY:Tualatin Public Library: Adult Book Discussion
@@ -464,7 +464,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:33a5a02eaf722ff1@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260218T160000
 DTEND:20260218T170000
 SUMMARY:Tualatin Public Library: Teen Book Chat (grades 8-12)
@@ -491,7 +491,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1237b588e2dc3b12@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260215T140000
 DTEND:20260215T150000
 SUMMARY:Tualatin Public Library: Summer Sunday Music Series
@@ -518,7 +518,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:91fcae740514833e@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART;VALUE=DATE:20251120
 DTEND;VALUE=DATE:20251124
 SUMMARY:PCC Theatre: Much Ado About Nothing
@@ -546,7 +546,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:47623ca66dc7ccac@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260215T140000
 DTEND:20260215T160000
 SUMMARY:SCRAP PDX Creative Reuse: Sunday Crafternoon
@@ -573,7 +573,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d1c182da302ffe9c@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260219T160000
 DTEND:20260219T180000
 SUMMARY:SCRAP PDX Creative Reuse: Drop In Studio
@@ -600,7 +600,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:018c2dbc4c1b6d6c@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260215T170000
 DTEND:20260215T190000
 SUMMARY:Independent Publishing Resource Center (IPRC): Collage Night
@@ -629,7 +629,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4f5ddbd49f0a9039@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260215T160000
 DTEND:20260215T180000
 SUMMARY:The Humble Poets' Open Mic
@@ -656,32 +656,33 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c0cf360c4a2f442c@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260214T100000
 DTEND:20260214T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
-DESCRIPTION:Category: Arts & Culture\nCost: $10 per tour (FREE self-guided 
- options available)\nNote: Tickets via Square site. Self-guided smartphone 
- tours and PDF downloads are free.\nFormat: In-person\nInfo: Learn about Po
- rtland's founders and regionally-known pioneers. Meet at Soldiers Monument
- .\nAddress: Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 
- 97214\nWebsite: https://www.friendsoflonefircemetery.org\nDetails: 501(c)(
- 3) nonprofit preserving cemetery history since 2000. One of Portland's mos
- t beautiful and historic green spaces. Final resting place of many Portlan
- d pioneers.
+DESCRIPTION:Category: Arts & Culture\nCost: $10 suggested donation per tour
+  (FREE self-guided options available)\nNote: Reservations or donations not
+  required but appreciated. Self-guided smartphone tours and PDF downloads 
+ are free.\nFormat: In-person\nInfo: Learn about Portland's founders and re
+ gionally-known pioneers. Meet at Soldiers Monument.\nAddress: Lone Fir Cem
+ etery\, SE 26th Ave & SE Stark St\, Portland\, OR 97214\nWebsite: https://
+ www.friendsoflonefircemetery.org\nDetails: 501(c)(3) nonprofit preserving 
+ cemetery history since 2000. One of Portland's most beautiful and historic
+  green spaces. Final resting place of many Portland pioneers.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> $10 per tour (FREE self-guided options available)</p><
- p><em>Tickets via Square site. Self-guided smartphone tours and PDF downlo
- ads are free.</em></p><p><strong>Format:</strong> In-person</p><p>Learn ab
- out Portland&#x27\;s founders and regionally-known pioneers. Meet at Soldi
- ers Monument.</p><p><strong>Address:</strong> Lone Fir Cemetery\, SE 26th 
- Ave &amp\; SE Stark St\, Portland\, OR 97214</p><p><strong>Website:</stron
- g> <a href="https://www.friendsoflonefircemetery.org">https://www.friendso
- flonefircemetery.org</a></p><p><strong>Details:</strong> 501(c)(3) nonprof
- it preserving cemetery history since 2000. One of Portland&#x27\;s most be
- autiful and historic green spaces. Final resting place of many Portland pi
- oneers.</p></BODY></HTML>
+ rong>Cost:</strong> $10 suggested donation per tour (FREE self-guided opti
+ ons available)</p><p><em>Reservations or donations not required but apprec
+ iated. Self-guided smartphone tours and PDF downloads are free.</em></p><p
+ ><strong>Format:</strong> In-person</p><p>Learn about Portland&#x27\;s fou
+ nders and regionally-known pioneers. Meet at Soldiers Monument.</p><p><str
+ ong>Address:</strong> Lone Fir Cemetery\, SE 26th Ave &amp\; SE Stark St\,
+  Portland\, OR 97214</p><p><strong>Website:</strong> <a href="https://www.
+ friendsoflonefircemetery.org">https://www.friendsoflonefircemetery.org</a>
+ </p><p><strong>Details:</strong> 501(c)(3) nonprofit preserving cemetery h
+ istory since 2000. One of Portland&#x27\;s most beautiful and historic gre
+ en spaces. Final resting place of many Portland pioneers.</p></BODY></HTML
+ >
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
  4
@@ -692,32 +693,34 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6521fc4b6bde906a@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260214T100000
 DTEND:20260214T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
-DESCRIPTION:Category: Arts & Culture\nCost: $10 per tour (FREE self-guided 
- options available)\nNote: Tickets via Square site. Self-guided smartphone 
- tours and PDF downloads are free.\nFormat: In-person\nInfo: Explores north
- ern cemetery sections\, structures\, symbolism\, and granite types. Meet a
- t Soldiers Monument.\nAddress: Lone Fir Cemetery\, SE 26th Ave & SE Stark 
- St\, Portland\, OR 97214\nWebsite: https://www.friendsoflonefircemetery.or
- g\nDetails: 501(c)(3) nonprofit preserving cemetery history since 2000. On
- e of Portland's most beautiful and historic green spaces. Final resting pl
- ace of many Portland pioneers.
+DESCRIPTION:Category: Arts & Culture\nCost: $10 suggested donation per tour
+  (FREE self-guided options available)\nNote: Reservations or donations not
+  required but appreciated. Self-guided smartphone tours and PDF downloads 
+ are free.\nFormat: In-person\nInfo: Explores northern cemetery sections\, 
+ structures\, symbolism\, and granite types. Meet at Soldiers Monument.\nAd
+ dress: Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 97214
+ \nWebsite: https://www.friendsoflonefircemetery.org\nDetails: 501(c)(3) no
+ nprofit preserving cemetery history since 2000. One of Portland's most bea
+ utiful and historic green spaces. Final resting place of many Portland pio
+ neers.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> $10 per tour (FREE self-guided options available)</p><
- p><em>Tickets via Square site. Self-guided smartphone tours and PDF downlo
- ads are free.</em></p><p><strong>Format:</strong> In-person</p><p>Explores
-  northern cemetery sections\, structures\, symbolism\, and granite types. 
- Meet at Soldiers Monument.</p><p><strong>Address:</strong> Lone Fir Cemete
- ry\, SE 26th Ave &amp\; SE Stark St\, Portland\, OR 97214</p><p><strong>We
- bsite:</strong> <a href="https://www.friendsoflonefircemetery.org">https:/
- /www.friendsoflonefircemetery.org</a></p><p><strong>Details:</strong> 501(
- c)(3) nonprofit preserving cemetery history since 2000. One of Portland&#x
- 27\;s most beautiful and historic green spaces. Final resting place of man
- y Portland pioneers.</p></BODY></HTML>
+ rong>Cost:</strong> $10 suggested donation per tour (FREE self-guided opti
+ ons available)</p><p><em>Reservations or donations not required but apprec
+ iated. Self-guided smartphone tours and PDF downloads are free.</em></p><p
+ ><strong>Format:</strong> In-person</p><p>Explores northern cemetery secti
+ ons\, structures\, symbolism\, and granite types. Meet at Soldiers Monumen
+ t.</p><p><strong>Address:</strong> Lone Fir Cemetery\, SE 26th Ave &amp\; 
+ SE Stark St\, Portland\, OR 97214</p><p><strong>Website:</strong> <a href=
+ "https://www.friendsoflonefircemetery.org">https://www.friendsoflonefircem
+ etery.org</a></p><p><strong>Details:</strong> 501(c)(3) nonprofit preservi
+ ng cemetery history since 2000. One of Portland&#x27\;s most beautiful and
+  historic green spaces. Final resting place of many Portland pioneers.</p>
+ </BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
  4
@@ -728,30 +731,32 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:359b4e00639aefa2@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260214T100000
 DTEND:20260214T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
-DESCRIPTION:Category: Arts & Culture\nCost: $10 per tour (FREE self-guided 
- options available)\nNote: Tickets via Square site. Self-guided smartphone 
- tours and PDF downloads are free.\nFormat: In-person\nInfo: Explores south
- ern section of cemetery. Meet at Soldiers Monument.\nAddress: Lone Fir Cem
- etery\, SE 26th Ave & SE Stark St\, Portland\, OR 97214\nWebsite: https://
- www.friendsoflonefircemetery.org\nDetails: 501(c)(3) nonprofit preserving 
- cemetery history since 2000. One of Portland's most beautiful and historic
-  green spaces. Final resting place of many Portland pioneers.
+DESCRIPTION:Category: Arts & Culture\nCost: $10 suggested donation per tour
+  (FREE self-guided options available)\nNote: Reservations or donations not
+  required but appreciated. Self-guided smartphone tours and PDF downloads 
+ are free.\nFormat: In-person\nInfo: Explores southern section of cemetery.
+  Meet at Soldiers Monument.\nAddress: Lone Fir Cemetery\, SE 26th Ave & SE
+  Stark St\, Portland\, OR 97214\nWebsite: https://www.friendsoflonefirceme
+ tery.org\nDetails: 501(c)(3) nonprofit preserving cemetery history since 2
+ 000. One of Portland's most beautiful and historic green spaces. Final res
+ ting place of many Portland pioneers.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> $10 per tour (FREE self-guided options available)</p><
- p><em>Tickets via Square site. Self-guided smartphone tours and PDF downlo
- ads are free.</em></p><p><strong>Format:</strong> In-person</p><p>Explores
-  southern section of cemetery. Meet at Soldiers Monument.</p><p><strong>Ad
- dress:</strong> Lone Fir Cemetery\, SE 26th Ave &amp\; SE Stark St\, Portl
- and\, OR 97214</p><p><strong>Website:</strong> <a href="https://www.friend
- soflonefircemetery.org">https://www.friendsoflonefircemetery.org</a></p><p
- ><strong>Details:</strong> 501(c)(3) nonprofit preserving cemetery history
-  since 2000. One of Portland&#x27\;s most beautiful and historic green spa
- ces. Final resting place of many Portland pioneers.</p></BODY></HTML>
+ rong>Cost:</strong> $10 suggested donation per tour (FREE self-guided opti
+ ons available)</p><p><em>Reservations or donations not required but apprec
+ iated. Self-guided smartphone tours and PDF downloads are free.</em></p><p
+ ><strong>Format:</strong> In-person</p><p>Explores southern section of cem
+ etery. Meet at Soldiers Monument.</p><p><strong>Address:</strong> Lone Fir
+  Cemetery\, SE 26th Ave &amp\; SE Stark St\, Portland\, OR 97214</p><p><st
+ rong>Website:</strong> <a href="https://www.friendsoflonefircemetery.org">
+ https://www.friendsoflonefircemetery.org</a></p><p><strong>Details:</stron
+ g> 501(c)(3) nonprofit preserving cemetery history since 2000. One of Port
+ land&#x27\;s most beautiful and historic green spaces. Final resting place
+  of many Portland pioneers.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
  4
@@ -762,32 +767,34 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7053af3e4013d499@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260214T100000
 DTEND:20260214T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
-DESCRIPTION:Category: Arts & Culture\nCost: $10 per tour (FREE self-guided 
- options available)\nNote: Tickets via Square site. Self-guided smartphone 
- tours and PDF downloads are free.\nFormat: In-person\nInfo: Highlights not
- able women including Terwilliger\, McLoughlin\, Macleay families. Meet at 
- Soldiers Monument.\nAddress: Lone Fir Cemetery\, SE 26th Ave & SE Stark St
- \, Portland\, OR 97214\nWebsite: https://www.friendsoflonefircemetery.org\
- nDetails: 501(c)(3) nonprofit preserving cemetery history since 2000. One 
- of Portland's most beautiful and historic green spaces. Final resting plac
- e of many Portland pioneers.
+DESCRIPTION:Category: Arts & Culture\nCost: $10 suggested donation per tour
+  (FREE self-guided options available)\nNote: Reservations or donations not
+  required but appreciated. Self-guided smartphone tours and PDF downloads 
+ are free.\nFormat: In-person\nInfo: Highlights notable women including Ter
+ williger\, McLoughlin\, Macleay families. Meet at Soldiers Monument.\nAddr
+ ess: Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 97214\n
+ Website: https://www.friendsoflonefircemetery.org\nDetails: 501(c)(3) nonp
+ rofit preserving cemetery history since 2000. One of Portland's most beaut
+ iful and historic green spaces. Final resting place of many Portland pione
+ ers.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> $10 per tour (FREE self-guided options available)</p><
- p><em>Tickets via Square site. Self-guided smartphone tours and PDF downlo
- ads are free.</em></p><p><strong>Format:</strong> In-person</p><p>Highligh
- ts notable women including Terwilliger\, McLoughlin\, Macleay families. Me
- et at Soldiers Monument.</p><p><strong>Address:</strong> Lone Fir Cemetery
- \, SE 26th Ave &amp\; SE Stark St\, Portland\, OR 97214</p><p><strong>Webs
- ite:</strong> <a href="https://www.friendsoflonefircemetery.org">https://w
- ww.friendsoflonefircemetery.org</a></p><p><strong>Details:</strong> 501(c)
- (3) nonprofit preserving cemetery history since 2000. One of Portland&#x27
- \;s most beautiful and historic green spaces. Final resting place of many 
- Portland pioneers.</p></BODY></HTML>
+ rong>Cost:</strong> $10 suggested donation per tour (FREE self-guided opti
+ ons available)</p><p><em>Reservations or donations not required but apprec
+ iated. Self-guided smartphone tours and PDF downloads are free.</em></p><p
+ ><strong>Format:</strong> In-person</p><p>Highlights notable women includi
+ ng Terwilliger\, McLoughlin\, Macleay families. Meet at Soldiers Monument.
+ </p><p><strong>Address:</strong> Lone Fir Cemetery\, SE 26th Ave &amp\; SE
+  Stark St\, Portland\, OR 97214</p><p><strong>Website:</strong> <a href="h
+ ttps://www.friendsoflonefircemetery.org">https://www.friendsoflonefircemet
+ ery.org</a></p><p><strong>Details:</strong> 501(c)(3) nonprofit preserving
+  cemetery history since 2000. One of Portland&#x27\;s most beautiful and h
+ istoric green spaces. Final resting place of many Portland pioneers.</p></
+ BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
  4

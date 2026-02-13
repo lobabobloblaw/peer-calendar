@@ -25,17 +25,18 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:697356c9eaa7b5bb@portlandresources.org
-DTSTAMP:20260213T100424Z
+DTSTAMP:20260213T105608Z
 DTSTART:20260214T100000
 DTEND:20260214T110000
 SUMMARY:Tryon Creek State Natural Area: Saturday Guided Nature Walks
-DESCRIPTION:Category: Parks & Nature\nCost: Park FREE\; Parking $10/day sta
- rting Oct 1\, 2025\nNote: Free if arriving by foot\, bike\, or bus\nInfo: 
- One-hour guided hike with a park naturalist. Topics vary weekly - fungi\, 
- wildlife\, seasonal themes. Ages 5+ (all ages welcome). No registration - 
- meet at Nature Center.\nAddress: 11321 S Terwilliger Blvd\, Portland\, OR 
- 97219\nPhone: 503-636-9886\nWebsite: https://stateparks.oregon.gov/index.c
- fm?do=park.profile&parkId=103
+DESCRIPTION:Category: Parks & Nature\nCost: Park FREE\; Parking $10/day res
+ idents\, $12/day non-residents (since Oct 1\, 2025)\nNote: Free if arrivin
+ g by foot\, bike\, or bus. Annual permits $60 resident/$75 non-resident.\n
+ Info: One-hour guided hike with a park naturalist. Topics vary weekly - fu
+ ngi\, wildlife\, seasonal themes. Ages 5+ (all ages welcome). No registrat
+ ion - meet at Nature Center.\nAddress: 11321 S Terwilliger Blvd\, Portland
+ \, OR 97219\nPhone: 503-636-9886\nWebsite: https://stateparks.oregon.gov/i
+ ndex.cfm?do=park.profile&parkId=103
 LOCATION:11321 S Terwilliger Blvd\, Portland\, OR 97219
 URL:https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=103
 RRULE:FREQ=WEEKLY;BYDAY=SA

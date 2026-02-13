@@ -2958,3 +2958,314 @@
   entries:
     - id: dbsa-portland
       status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAMI Multnomah"
+  entries_audited: 1
+  entries:
+    - id: nami-multnomah
+      status: updated
+      changes: "Complex Trauma schedule updated: 1st & 3rd Tuesdays -> Every Tuesday"
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Friendly House"
+  entries_audited: 1
+  entries:
+    - id: friendly-house
+      status: updated
+      changes: "Community Nights schedule corrected: 5:30-8pm -> 5:00-7:00pm. Shower access 6-8pm is separate from main event."
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Rockwood Library"
+  entries_audited: 1
+  entries:
+    - id: rockwood-library
+      status: updated
+      changes: "Monday hours changed to CLOSED (was 10am-6pm)"
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Dharma Rain Zen Center"
+  entries_audited: 1
+  entries:
+    - id: dharma-rain
+      status: updated
+      changes: "Weekday Morning Meditation expanded: Wed-Fri -> Wed-Sat, end time 7:30am -> 7:45am"
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Food Court 5000 (Lloyd Center Mall Walking)"
+  entries_audited: 1
+  entries:
+    - id: lloyd-center-walking
+      status: updated
+      changes: "Distance corrected 3.5mi -> 3.1mi (5K). Lloyd Center closure confirmed for 2026. Flag strengthened."
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Shift to Bikes"
+  entries_audited: 1
+  entries:
+    - id: shift-to-bikes
+      status: updated
+      changes: "Midnight Mystery Ride timing clarified: meet 11pm, depart midnight"
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Friends of Lone Fir Cemetery Tours"
+  entries_audited: 1
+  entries:
+    - id: lone-fir-cemetery-tours
+      status: updated
+      changes: "Clarified  as suggested donation, not required fee"
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tryon Creek State Natural Area"
+  entries_audited: 1
+  entries:
+    - id: tryon-creek
+      status: updated
+      changes: "Added non-resident parking rate (/day) and annual permit pricing"
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Recovery Dharma Portland (PDX)"
+  entries_audited: 1
+  entries:
+    - id: recovery-dharma
+      status: updated
+      changes: "Added flag: recoverydharmapdx.org unreachable as of Feb 13. Meetings confirmed via Alano Club schedule."
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Repair PDX"
+  entries_audited: 1
+  entries:
+    - id: repair-pdx
+      status: updated
+      changes: "Venue name corrected: Leaven Community Center -> Leaven Common House"
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Bridges to Change - Club Hope"
+  entries_audited: 1
+  entries:
+    - id: bridges-to-change-club-hope
+      status: updated
+      changes: "Zip code corrected 97080 -> 97030. Flagged possible phone change to 503-933-2440 (per 211info). Noted new Rockwood Drop-in Resource Center."
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - 4D Recovery"
+  entries_audited: 1
+  entries:
+    - id: 4d-recovery
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Alano Club of Portland"
+  entries_audited: 1
+  entries:
+    - id: alano-club-portland
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - DBSA Portland (Depression Bipolar Support Alliance)"
+  entries_audited: 1
+  entries:
+    - id: dbsa-portland
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Dual Diagnosis Anonymous (DDA) Oregon"
+  entries_audited: 1
+  entries:
+    - id: dda-oregon
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Blanchet House of Hospitality"
+  entries_audited: 1
+  entries:
+    - id: blanchet-house
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Sikh Center of Oregon Langar"
+  entries_audited: 1
+  entries:
+    - id: sikh-center-langar
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Turn! Turn! Turn!"
+  entries_audited: 1
+  entries:
+    - id: turn-turn-turn
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Guardian Games"
+  entries_audited: 1
+  entries:
+    - id: guardian-games
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - SCRAP PDX Creative Reuse"
+  entries_audited: 1
+  entries:
+    - id: scrap-pdx
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Gresham Senior Center"
+  entries_audited: 1
+  entries:
+    - id: gresham-senior-center
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Strength Collective"
+  entries_audited: 1
+  entries:
+    - id: portland-strength-collective
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Trail Runners"
+  entries_audited: 1
+  entries:
+    - id: portland-trail-runners
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Running Company Group Runs"
+  entries_audited: 1
+  entries:
+    - id: portland-running-company
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Every Body Athletics"
+  entries_audited: 1
+  entries:
+    - id: every-body-athletics
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Path of Sincerity Meditation Group"
+  entries_audited: 1
+  entries:
+    - id: path-of-sincerity
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Insight Meditation Community (PIMC)"
+  entries_audited: 1
+  entries:
+    - id: portland-insight-meditation
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tergar Meditation Community of Portland"
+  entries_audited: 1
+  entries:
+    - id: tergar-meditation-portland
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Elsie Stuhr Center (THPRD)"
+  entries_audited: 1
+  entries:
+    - id: elsie-stuhr-center
+      status: verified
+
+---
+- date: 2026-02-13
+  type: audit
+  auditor: user
+  summary: "Audit completed - Mt. Scott Community Center"
+  entries_audited: 1
+  entries:
+    - id: mt-scott-cc
+      status: verified
