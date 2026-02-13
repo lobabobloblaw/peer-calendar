@@ -2,6 +2,20 @@
 # Records all verification activities and changes
 
 ---
+- date: 2026-02-13
+  type: removal
+  auditor: claude
+  summary: "Removed CMHC Peer Groups (Clackamas Mental Health Clinic) entry from sources.yaml"
+  removed:
+    - id: cmhc-peer-groups
+      reason: "Entry removed from calendar per user request"
+      programs_removed:
+        - ColorFlow
+        - Intentional Silence & Meditation
+        - Cultivate & Connect
+        - Healing with Photography
+        - Karaoke Night
+
 - date: 2026-02-02
   type: audit
   auditor: claude

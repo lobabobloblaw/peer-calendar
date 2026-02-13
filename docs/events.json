@@ -1,6 +1,6 @@
 {
-  "generated": "2026-02-11T08:05:17.906538",
-  "count": 213,
+  "generated": "2026-02-13T10:04:24.692886",
+  "count": 212,
   "categories": {
     "peer_support": "Peer Support",
     "fitness_wellness": "Fitness & Wellness",
@@ -683,82 +683,6 @@
         "registration": "Registration required - call 503-344-5050 or check website",
         "what_to_bring": "Nothing required; virtual groups send Zoom link after registration",
         "good_to_know": "Spanish-speaking group available. Women's group meets in-person in Milwaukie. All peer-led."
-      }
-    },
-    {
-      "id": "cmhc-peer-groups",
-      "title": "CMHC Peer Groups (Clackamas Mental Health Clinic)",
-      "category": "peer_support",
-      "categoryName": "Peer Support",
-      "color": "#7B68EE",
-      "address": "11211 SE 82nd Ave Suite O, Portland, OR 97086",
-      "phone": "503-722-6200",
-      "website": null,
-      "pricing": {
-        "description": "FREE"
-      },
-      "programs": [
-        {
-          "name": "ColorFlow",
-          "schedule": "1st & 3rd Wednesdays, 2-3:30pm",
-          "format": "In-person",
-          "notes": "A welcoming art group for creative self-expression and mindfulness through paint. Explore emotions, connect with others, and find calm through color. No art experience needed.",
-          "audience": []
-        },
-        {
-          "name": "Intentional Silence & Meditation",
-          "schedule": "2nd Tuesday, 5-6pm",
-          "format": "In-person",
-          "notes": "A peaceful, grounding space to slow down, breathe, and reconnect with yourself. Explore stillness, mindfulness, and the power of silence as a way to rest, reflect, and find calm in community.",
-          "audience": []
-        },
-        {
-          "name": "Cultivate & Connect",
-          "schedule": "2nd Thursday, 3-4pm",
-          "format": "In-person",
-          "notes": "A grounding art group exploring creativity, connection, and mindfulness through nature. Inspired by natural materials and the senses, celebrating growth, self-expression, and community through hands-on creation.",
-          "audience": []
-        },
-        {
-          "name": "Healing with Photography",
-          "schedule": "2nd & 4th Wednesdays, 2:30-4pm",
-          "format": "In-person",
-          "notes": "A creative group for exploring healing, identity, and self-expression. Using photography as a mindful practice to reflect on experiences, notice moments of beauty, and connect.",
-          "audience": []
-        },
-        {
-          "name": "Karaoke Night",
-          "schedule": "3rd Friday, 6:45-8pm",
-          "format": "In-person",
-          "notes": "An open space for joy, laughter, and self-expression through song. Come as you are \u2014 sing solo, join in with others, or cheer from the crowd as we build confidence, connection, and community through music.",
-          "audience": []
-        }
-      ],
-      "dates": null,
-      "schedule": null,
-      "schedule_start_date": "2026-02-01",
-      "schedule_end_date": null,
-      "flags": [
-        "\ud83d\udcc5 DATE-SENSITIVE"
-      ],
-      "accessibility": [
-        "transit_nearby"
-      ],
-      "social_intensity": "structured_group",
-      "good_for": [
-        "anxiety_friendly",
-        "isolation",
-        "creative",
-        "indoor"
-      ],
-      "audience": [],
-      "audience_notes": null,
-      "notes": "Groups led by peers for individuals already connected with Clackamas County Peer Support services. Groups paused in January 2026, resuming February 2026.",
-      "practical_tips": {
-        "first_visit": "Stop by the clinic to get connected with a Peer Support Specialist if you don't already have one",
-        "registration": "Must be receiving Peer Support services in Clackamas County to attend",
-        "what_to_bring": "Nothing required - just yourself",
-        "good_to_know": "Groups are peer-led and focus on creative, mindful, and connection-focused activities. Great variety from art to meditation to karaoke."
       }
     },
     {
