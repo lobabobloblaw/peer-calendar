@@ -593,9 +593,18 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
                 schedule = parse_schedule(program.get("schedule", ""))
                 description, html_desc = generate_event_description(entry, program)
 
+                # Merge program-level schedule bounds into entry for build_recurring_event
+                effective_entry = entry
+                if program.get("schedule_start_date") or program.get("schedule_end_date"):
+                    effective_entry = dict(entry)
+                    if program.get("schedule_start_date"):
+                        effective_entry["schedule_start_date"] = program["schedule_start_date"]
+                    if program.get("schedule_end_date"):
+                        effective_entry["schedule_end_date"] = program["schedule_end_date"]
+
                 vevent = build_recurring_event(
                     schedule=schedule,
-                    entry=entry,
+                    entry=effective_entry,
                     summary=full_name,
                     description=description,
                     html_desc=html_desc,

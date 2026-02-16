@@ -942,7 +942,8 @@
     format: Zoom
   - name: Dharma Rain Eightfold Path Study
     schedule: Mondays 7-8pm
-    format: Zoom
+    location: Dharma Rain Zen Center, 8500 NE Siskiyou St
+    format: Hybrid
   - name: Hungry Ghosts
     schedule: Mondays 6-7:15pm
     location: 3442 SE Morrison St
@@ -976,12 +977,10 @@
     - anxiety_friendly
     - isolation
     - indoor
-  flags:
-  - "⚠️ VERIFY: recoverydharmapdx.org was unreachable as of Feb 13, 2026 (connection refused). May be temporary outage. Meetings confirmed via Alano Club schedule (Thu 12-1pm SE Room, Sat 7-8:15pm Loft). Contact pdxintersangha@gmail.com to verify."
   notes: 30+ weekly meetings across Portland. Buddhist-based recovery using mindfulness
     and loving-kindness - alternative to 12-step programs.
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-02-16
+  next_audit: 2026-05-16
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
 - id: peer-company
@@ -1040,7 +1039,6 @@
   website: https://www.pdxqcenter.org/
   source_urls:
   - https://www.pdxqcenter.org/
-  - https://www.pdxqcenter.org/groups
   pricing:
     description: FREE (most programs)
   programs:
@@ -1061,8 +1059,8 @@
   - Education & Training
   - Health & Wellness
   - Advocacy
-  last_verified: 2026-02-08
-  next_audit: 2026-05-08
+  last_verified: 2026-02-16
+  next_audit: 2026-05-16
   audit_frequency: quarterly
   practical_tips:
     first_visit: "Check website for current group schedule and drop in"
@@ -1616,8 +1614,8 @@
     description: FREE
   programs:
   - name: Sunday Morning Program
-    schedule: Sundays 8:30am-11:30am
-    details: 8:30 zazen, 9:00 kinhin, 9:40 chanting, 10:30 Dharma talk. All welcome.
+    schedule: Sundays 8:25am-11:30am
+    details: 8:25 zazen, 9:00 kinhin, 9:40 chanting, 10:30 Dharma talk. All welcome.
   - name: Weekday Morning Meditation
     schedule: Wed-Sat 6:30-7:45am (summer/winter terms)
     details: Open zazen followed by brief chanting service. During Ango (fall/spring) starts at 5:30am.
@@ -1639,8 +1637,8 @@
     - low_energy
     - isolation
   notes: Soto Zen Buddhist community founded in 1986, approximately 220 members. All welcome at Sunday program. Practice advisors available for one-on-one guidance.
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-02-16
+  next_audit: 2026-05-16
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
 - id: diamond-way-buddhist
@@ -2953,13 +2951,13 @@
   programs:
   - name: Monday Night Sangha
     schedule: Every Monday 7-8:45pm
-    schedule_end_date: 2026-03-30
+    schedule_start_date: 2026-03-30
     notes: "Buddhist-inspired meditation with teaching and discussion. All traditions welcome. On hiatus until March 30, 2026."
   - name: Daily Virtual Meditation
     schedule: Daily 8-9am
     notes: "Consistent morning practice opportunity. Great for building routine."
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-02-16
+  next_audit: 2026-05-16
   audit_frequency: quarterly
   practical_tips: "No registration needed. Gift economy means pay what you can or nothing at all. Daily virtual option helps build consistent practice. Welcoming to all traditions."
   accessibility:
@@ -3740,10 +3738,10 @@
   - name: Bach Cantata Vespers
     schedule: Select Sundays 4-5pm (4 per season)
     cost: FREE
-    dates_2026: February 22, June 14 (more TBA)
+    dates: February 22, June 14, 2026 (more TBA)
     notes: Four Bach cantatas per season presented within Evening Prayer liturgy with choir, soloists, and orchestra.
-  last_verified: 2026-02-08
-  next_audit: 2026-05-08
+  last_verified: 2026-02-16
+  next_audit: 2026-05-16
   audit_frequency: quarterly
   practical_tips: "Free concerts featuring Bach cantatas on select Sundays at 4pm. Four cantatas per season. No tickets needed - just show up. Offerings accepted but not required. Beautiful church setting with excellent acoustics. 2026 dates: Feb 22, Jun 14."
   accessibility:
@@ -4385,8 +4383,9 @@
     schedule: 3rd Thursday 4-6pm
     cost: FREE
     notes: "Bring a project or start a new one."
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  hours: 7 days a week 11am-6pm
+  last_verified: 2026-02-16
+  next_audit: 2026-05-16
   audit_frequency: quarterly
   practical_tips: "Nonprofit creative reuse center with low-cost art supplies. Sunday Crafternoon is great for trying new crafts. Low-pressure environment perfect for creative expression without spending much. Materials provided for most events."
   accessibility:

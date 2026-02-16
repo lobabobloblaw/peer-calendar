@@ -1,5 +1,5 @@
 {
-  "generated": "2026-02-13T10:56:08.596683",
+  "generated": "2026-02-16T13:15:32.869441",
   "count": 212,
   "categories": {
     "peer_support": "Peer Support",
@@ -1003,7 +1003,8 @@
         {
           "name": "Dharma Rain Eightfold Path Study",
           "schedule": "Mondays 7-8pm",
-          "format": "Zoom",
+          "location": "Dharma Rain Zen Center, 8500 NE Siskiyou St",
+          "format": "Hybrid",
           "audience": [
             "lgbtq",
             "trans_nonbinary",
@@ -1069,9 +1070,7 @@
       "schedule": null,
       "schedule_start_date": null,
       "schedule_end_date": null,
-      "flags": [
-        "\u26a0\ufe0f VERIFY: recoverydharmapdx.org was unreachable as of Feb 13, 2026 (connection refused). May be temporary outage. Meetings confirmed via Alano Club schedule (Thu 12-1pm SE Room, Sat 7-8:15pm Loft). Contact pdxintersangha@gmail.com to verify."
-      ],
+      "flags": [],
       "accessibility": [
         "transit_nearby"
       ],
@@ -1885,8 +1884,8 @@
       "programs": [
         {
           "name": "Sunday Morning Program",
-          "schedule": "Sundays 8:30am-11:30am",
-          "details": "8:30 zazen, 9:00 kinhin, 9:40 chanting, 10:30 Dharma talk. All welcome.",
+          "schedule": "Sundays 8:25am-11:30am",
+          "details": "8:25 zazen, 9:00 kinhin, 9:40 chanting, 10:30 Dharma talk. All welcome.",
           "audience": []
         },
         {
@@ -3433,7 +3432,7 @@
         {
           "name": "Monday Night Sangha",
           "schedule": "Every Monday 7-8:45pm",
-          "schedule_end_date": "2026-03-30",
+          "schedule_start_date": "2026-03-30",
           "notes": "Buddhist-inspired meditation with teaching and discussion. All traditions welcome. On hiatus until March 30, 2026.",
           "audience": []
         },
@@ -4307,7 +4306,7 @@
           "name": "Bach Cantata Vespers",
           "schedule": "Select Sundays 4-5pm (4 per season)",
           "cost": "FREE",
-          "dates_2026": "February 22, June 14 (more TBA)",
+          "dates": "February 22, June 14, 2026 (more TBA)",
           "notes": "Four Bach cantatas per season presented within Evening Prayer liturgy with choir, soloists, and orchestra.",
           "audience": []
         }

@@ -3269,3 +3269,69 @@
   entries:
     - id: mt-scott-cc
       status: verified
+
+---
+- date: 2026-02-16
+  type: audit
+  auditor: user
+  summary: "Audit completed - Path of Sincerity Meditation Group"
+  entries_audited: 1
+  entries:
+    - id: path-of-sincerity
+      status: updated
+      changes: "Fixed schedule_end_date to schedule_start_date for Monday Night Sangha hiatus (was incorrectly showing during hiatus period)"
+
+---
+- date: 2026-02-16
+  type: audit
+  auditor: user
+  summary: "Audit completed - Dharma Rain Zen Center"
+  entries_audited: 1
+  entries:
+    - id: dharma-rain
+      status: updated
+      changes: "Updated Sunday program start time from 8:30am to 8:25am per website"
+
+---
+- date: 2026-02-16
+  type: audit
+  auditor: user
+  summary: "Audit completed - SCRAP PDX Creative Reuse"
+  entries_audited: 1
+  entries:
+    - id: scrap-pdx
+      status: updated
+      changes: "Added store hours (7 days a week 11am-6pm)"
+
+---
+- date: 2026-02-16
+  type: audit
+  auditor: user
+  summary: "Audit completed - St. James Lutheran Church Bach Cantata Vespers"
+  entries_audited: 1
+  entries:
+    - id: st-james-bach
+      status: updated
+      changes: "Renamed dates_2026 to dates field for calendar script compatibility; Feb 22 performance confirmed"
+
+---
+- date: 2026-02-16
+  type: audit
+  auditor: user
+  summary: "Audit completed - Q Center Portland (LGBTQ+ Community Center)"
+  entries_audited: 1
+  entries:
+    - id: q-center-portland
+      status: updated
+      changes: "Removed broken /groups source URL (404)"
+
+---
+- date: 2026-02-16
+  type: audit
+  auditor: user
+  summary: "Audit completed - Recovery Dharma Portland (PDX)"
+  entries_audited: 1
+  entries:
+    - id: recovery-dharma
+      status: updated
+      changes: "Removed unreachable website flag (site back up); updated Dharma Rain Eightfold Path Study from Zoom to Hybrid with location"
