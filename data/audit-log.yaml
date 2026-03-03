@@ -2,6 +2,32 @@
 # Records all verification activities and changes
 
 ---
+- date: 2026-03-03
+  type: addition
+  auditor: claude
+  summary: "Added 5 new tri-county community resources from research"
+  added:
+    - id: mazamas-street-rambles
+      name: Mazamas Street Rambles
+      category: fitness_wellness
+      reason: "Free year-round group walks Tue/Thu evenings, multiple pace groups, no registration"
+    - id: sunshine-division
+      name: Sunshine Division Food Pantry
+      category: food_farms
+      reason: "Free food pantry with walk-in, precinct food boxes, and home delivery options"
+    - id: free-geek
+      name: Free Geek
+      category: social_activities
+      reason: "Volunteer electronics refurbishing with tech education and free computers for those in need"
+    - id: youthline
+      name: YouthLine
+      category: peer_support
+      reason: "Peer-to-peer crisis support for youth up to 24; call, text, or chat"
+    - id: plates-for-the-people
+      name: Plates for the People (at Alano Club)
+      category: peer_support
+      reason: "Free recovery-focused cooking classes with award-winning chefs"
+
 - date: 2026-02-13
   type: removal
   auditor: claude
@@ -3335,3 +3361,173 @@
     - id: recovery-dharma
       status: updated
       changes: "Removed unreachable website flag (site back up); updated Dharma Rain Eightfold Path Study from Zoom to Hybrid with location"
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAMI Multnomah"
+  entries_audited: 1
+  entries:
+    - id: nami-multnomah
+      status: updated
+      changes: "Young Adult group changed: now 2nd & 4th Sundays 3-4:30pm in-person at Community for Positive Aging (was 1st & 3rd Wednesdays 6-7:30pm Zoom)"
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - Sikh Center of Oregon Langar"
+  entries_audited: 1
+  entries:
+    - id: sikh-center-langar
+      status: updated
+      changes: "Sunday Langar starts at 10:30am (was 11am); updated schedule and practical_tips"
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - Rockwood Community Market"
+  entries_audited: 1
+  entries:
+    - id: rockwood-community-market
+      status: updated
+      changes: "Added schedule_start_date 2026-06-04 and schedule_end_date 2026-09-30; market is seasonal June-September"
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - Gresham Movies in the Park"
+  entries_audited: 1
+  entries:
+    - id: gresham-movies-in-park
+      status: updated
+      changes: "Added schedule_start_date/schedule_end_date to prevent appearing in winter months"
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - Lake Oswego Summer Concerts"
+  entries_audited: 1
+  entries:
+    - id: lake-oswego-summer-concerts
+      status: updated
+      changes: "Added schedule_start_date/schedule_end_date to prevent appearing in winter months"
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tualatin Concerts in the Parks"
+  entries_audited: 1
+  entries:
+    - id: tualatin-concerts-in-parks
+      status: updated
+      changes: "Added schedule_start_date/schedule_end_date to prevent appearing in winter months"
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - Concerts in the Valley (Happy Valley)"
+  entries_audited: 1
+  entries:
+    - id: happy-valley-concerts
+      status: updated
+      changes: "Added schedule_start_date/schedule_end_date on seasonal programs to prevent off-season calendar appearances"
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - Gresham Wednesday Music in the Parks"
+  entries_audited: 1
+  entries:
+    - id: gresham-music-parks
+      status: updated
+      changes: "Added schedule_start_date/schedule_end_date on seasonal programs to prevent off-season calendar appearances"
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - Hoyt Arboretum"
+  entries_audited: 1
+  entries:
+    - id: hoyt-arboretum
+      status: updated
+      changes: "Added schedule_start_date/schedule_end_date on seasonal programs to prevent off-season calendar appearances"
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tualatin Public Library"
+  entries_audited: 1
+  entries:
+    - id: tualatin-public-library
+      status: updated
+      changes: "Added schedule_start_date/schedule_end_date on seasonal programs to prevent off-season calendar appearances"
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - Recovery Dharma Portland (PDX)"
+  entries_audited: 1
+  entries:
+    - id: recovery-dharma
+      status: verified
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Art Museum"
+  entries_audited: 1
+  entries:
+    - id: portland-art-museum
+      status: verified
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - Blanchet House of Hospitality"
+  entries_audited: 1
+  entries:
+    - id: blanchet-house
+      status: verified
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - SCRAP PDX Creative Reuse"
+  entries_audited: 1
+  entries:
+    - id: scrap-pdx
+      status: verified
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - DBSA Portland (Depression Bipolar Support Alliance)"
+  entries_audited: 1
+  entries:
+    - id: dbsa-portland
+      status: verified
+
+---
+- date: 2026-03-03
+  type: audit
+  auditor: user
+  summary: "Audit completed - Friends of Lone Fir Cemetery Tours"
+  entries_audited: 1
+  entries:
+    - id: lone-fir-cemetery-tours
+      status: verified

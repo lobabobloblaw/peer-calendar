@@ -1,6 +1,6 @@
 {
-  "generated": "2026-02-16T13:15:32.869441",
-  "count": 212,
+  "generated": "2026-03-03T07:33:37.299093",
+  "count": 217,
   "categories": {
     "peer_support": "Peer Support",
     "fitness_wellness": "Fitness & Wellness",
@@ -531,8 +531,9 @@
         },
         {
           "name": "Young Adult (18-35)",
-          "schedule": "1st & 3rd Wednesdays, 6-7:30pm",
-          "format": "Zoom",
+          "schedule": "2nd & 4th Sundays, 3-4:30pm",
+          "format": "In-person",
+          "location": "Community for Positive Aging, 1820 NE 40th Ave, Portland OR 97212",
           "eligibility": "Ages 18-35 with mental health symptoms",
           "audience": [
             "young_adults"
@@ -1575,6 +1576,71 @@
       "audience_notes": null,
       "notes": "Science-based addiction recovery meetings - good alternative for those seeking non-spiritual approach",
       "practical_tips": "Evidence-based, non-spiritual alternative to 12-step programs. Uses cognitive behavioral techniques. Meetings in all Portland quadrants plus online. No lifetime commitment - attend as long as helpful."
+    },
+    {
+      "id": "youthline",
+      "title": "YouthLine",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#7B68EE",
+      "address": null,
+      "phone": "(877) 968-8491",
+      "website": "https://www.theyouthline.org/",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [],
+      "social_intensity": "one_on_one",
+      "good_for": [
+        "anxiety_friendly",
+        "isolation"
+      ],
+      "audience": [
+        "teens",
+        "young_adults"
+      ],
+      "audience_notes": "For youth up to age 24",
+      "notes": "Peer-to-peer crisis support for young people. Call, text 'teen2teen' to 839863, or chat online. Similar to Oregon Warmline but specifically for youth up to age 24.",
+      "practical_tips": null
+    },
+    {
+      "id": "plates-for-the-people",
+      "title": "Plates for the People (at Alano Club)",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#7B68EE",
+      "address": "909 NW 24th Ave, Portland, OR 97210 (Alano Club)",
+      "phone": "(503) 222-5756",
+      "website": "https://www.portlandalano.org/plates-for-the-people",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": "Monthly (dates vary, check Eventbrite for registration)",
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [
+        "transit_nearby"
+      ],
+      "social_intensity": "structured_group",
+      "good_for": [
+        "isolation",
+        "new_to_area",
+        "indoor",
+        "creative"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Free cooking classes for people in or seeking recovery. Led by award-winning chefs who share their own recovery stories. Learn budgeting, meal planning, and cooking. Each class ends with a shared meal. Partnership between Alano Club and Ben's Friends.",
+      "practical_tips": null
     },
     {
       "id": "matt-dishman-cc",
@@ -3496,6 +3562,39 @@
       "practical_tips": "Partnership between Portland Shambhala Center and Young Meditators Group. 20 minutes silent meditation followed by talking circle. All traditions welcome. Good for connecting with others."
     },
     {
+      "id": "mazamas-street-rambles",
+      "title": "Mazamas Street Rambles",
+      "category": "fitness_wellness",
+      "categoryName": "Fitness & Wellness",
+      "color": "#32CD32",
+      "address": "Keen Garage, 505 NW 13th Ave, Portland, OR",
+      "phone": null,
+      "website": "https://mazamas.org/streetrambles/",
+      "pricing": {
+        "description": "FREE, no registration required"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": "Every Tuesday & Thursday 6-8pm",
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [
+        "transit_nearby"
+      ],
+      "social_intensity": "casual_group",
+      "good_for": [
+        "active",
+        "outdoor",
+        "new_to_area",
+        "isolation"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Free year-round group walks from the Pearl District. Multiple pace groups accommodate all fitness levels. No membership or registration required.",
+      "practical_tips": "Arrive by 5:45pm. Multiple pace groups from leisurely to fast. Cancelled when Portland Public Schools closed for weather, forecast >95F, or AQI 151+."
+    },
+    {
       "id": "portland-art-museum",
       "title": "Portland Art Museum",
       "category": "arts_culture",
@@ -4816,6 +4915,8 @@
         {
           "name": "Summer Sunday Music Series",
           "schedule": "Sundays 2-3pm",
+          "schedule_start_date": "2026-06-01",
+          "schedule_end_date": "2026-08-31",
           "cost": "FREE",
           "notes": "Live music by the fireplace hearth. Summer season only.",
           "audience": [
@@ -5606,6 +5707,8 @@
         {
           "name": "Music in the Parks",
           "schedule": "Every other Wednesday 6:30-8:30pm",
+          "schedule_start_date": "2026-07-01",
+          "schedule_end_date": "2026-08-31",
           "cost": "FREE",
           "notes": "July-August at Nadaka Nature Park, Bella Vista Park, Butler Creek Park, Vance Park; 2026 dates TBA",
           "audience": []
@@ -6094,6 +6197,8 @@
         {
           "name": "Thursday Concert",
           "schedule": "Thursdays 6:30-8:30pm",
+          "schedule_start_date": "2026-07-01",
+          "schedule_end_date": "2026-08-31",
           "cost": "FREE",
           "notes": "July-August; 2026 dates TBA (check website in June)",
           "audience": [
@@ -6356,8 +6461,8 @@
       "programs": [],
       "dates": null,
       "schedule": "Various Friday/Saturday evenings",
-      "schedule_start_date": null,
-      "schedule_end_date": null,
+      "schedule_start_date": "2026-06-01",
+      "schedule_end_date": "2026-08-31",
       "flags": [
         "\ud83d\udd04 SEASONAL",
         "\ud83d\udcc5 DATE-SENSITIVE"
@@ -6396,8 +6501,8 @@
       "programs": [],
       "dates": null,
       "schedule": "Various dates (typically Thursday evenings); 2026 schedule TBA",
-      "schedule_start_date": null,
-      "schedule_end_date": null,
+      "schedule_start_date": "2026-06-01",
+      "schedule_end_date": "2026-08-31",
       "flags": [
         "\ud83d\udd04 SEASONAL",
         "\ud83d\udcc5 DATE-SENSITIVE"
@@ -6436,8 +6541,8 @@
       "programs": [],
       "dates": null,
       "schedule": "Friday evenings, 6:30-8:30pm (plus lunchtime series 12-1pm)",
-      "schedule_start_date": null,
-      "schedule_end_date": null,
+      "schedule_start_date": "2026-06-01",
+      "schedule_end_date": "2026-08-31",
       "flags": [
         "\ud83d\udd04 SEASONAL",
         "\ud83d\udcc5 DATE-SENSITIVE"
@@ -6835,12 +6940,16 @@
         {
           "name": "Free Public Tours",
           "schedule": "Sundays 11am, April-October",
+          "schedule_start_date": "2026-04-01",
+          "schedule_end_date": "2026-10-31",
           "notes": "Sign up day-of at Visitor Center",
           "audience": []
         },
         {
           "name": "Free Volunteer-Led Hikes",
           "schedule": "June-October",
+          "schedule_start_date": "2026-06-01",
+          "schedule_end_date": "2026-10-31",
           "notes": "Up to 4 miles, mixed terrain",
           "audience": []
         }
@@ -7387,7 +7496,7 @@
       },
       "programs": [],
       "dates": null,
-      "schedule": "Sundays 11am-2:15pm; Fridays 8pm (after evening service)",
+      "schedule": "Sundays 10:30am-2:15pm; Fridays 8pm (after evening service)",
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [
@@ -7405,7 +7514,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": "Free vegetarian meals based on 500-year-old Sikh tradition (Langar). 150-200 people served weekly. All welcome regardless of religion. Remove shoes, cover head (scarves provided). Food served in separate area - no need to attend religious service.",
-      "practical_tips": "Free vegetarian meals Sundays 11am-2:15pm. All welcome regardless of religion. Remove shoes and cover head (scarves provided). Food served in separate area - no need to attend religious service. Gurdwara open daily 7am-9pm."
+      "practical_tips": "Free vegetarian meals Sundays 10:30am-2:15pm. All welcome regardless of religion. Remove shoes and cover head (scarves provided). Food served in separate area - no need to attend religious service. Gurdwara open daily 7am-9pm."
     },
     {
       "id": "loaves-fishes",
@@ -7739,8 +7848,8 @@
       "programs": [],
       "dates": null,
       "schedule": "Thursdays 3-7pm",
-      "schedule_start_date": null,
-      "schedule_end_date": null,
+      "schedule_start_date": "2026-06-04",
+      "schedule_end_date": "2026-09-30",
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -7803,6 +7912,36 @@
       "audience_notes": null,
       "notes": "Farm for 2 hours, take home fresh produce. No ongoing commitment required.",
       "practical_tips": "Drop-in model where anyone can come farm for 2 hours and leave with fresh produce. No commitment required - just show up during open hours. Combines gentle physical activity with tangible reward. Great for those wanting to try gardening."
+    },
+    {
+      "id": "sunshine-division",
+      "title": "Sunshine Division Food Pantry",
+      "category": "food_farms",
+      "categoryName": "Food & Farms",
+      "color": "#DAA520",
+      "address": "12436 SE Stark St, Portland, OR 97233",
+      "phone": "503-823-2102",
+      "website": "https://sunshinedivision.org/",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [
+        "transit_nearby"
+      ],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "low_energy"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Portland Police Bureau partner providing free food assistance since 1923. Walk-in food pantry plus precinct food boxes and home delivery options.",
+      "practical_tips": "Free food boxes also available 24/7 at every Portland Police precinct. Home delivery Mon/Wed via DoorDash (register at sunshinedivision.org). New headquarters at 2121 NW Front Ave expected spring 2026."
     },
     {
       "id": "pdx-board-games-meetup",
@@ -8916,6 +9055,38 @@
       "audience_notes": null,
       "notes": "Senior center with free services including legal aid, tax help, and social programs",
       "practical_tips": "For adults 55+. Offers free legal aid, computer workshops, tax assistance, and energy assistance programs. Social activity groups and wellness programs. Also hosts NAMI peer support groups on 2nd & 4th Sundays."
+    },
+    {
+      "id": "free-geek",
+      "title": "Free Geek",
+      "category": "social_activities",
+      "categoryName": "Social Activities",
+      "color": "#FF69B4",
+      "address": "1731 SE 10th Ave, Portland, OR 97214",
+      "phone": null,
+      "website": "https://www.freegeek.org/",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [
+        "transit_nearby"
+      ],
+      "social_intensity": "casual_group",
+      "good_for": [
+        "isolation",
+        "new_to_area",
+        "indoor"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Nonprofit electronics recycler and refurbisher. Volunteer shifts teach tech skills while building community. Provides free/low-cost computers to those in need.",
+      "practical_tips": "Volunteer to help refurbish donated electronics. Tech education classes in development. Free/low-cost refurbished computers available for community members in need."
     },
     {
       "id": "nami-washington-county",
