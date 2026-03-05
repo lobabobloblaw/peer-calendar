@@ -224,6 +224,14 @@ Meals on Wheels People operates **30+ dining centers** offering sit-down communi
 - **Cost:** **FREE always**
 - **Note:** All welcome regardless of religion; remove shoes, cover head (scarves provided), sit on floor together
 
+**Sunshine Division Food Pantry** provides free food assistance since 1923 (Portland Police Bureau partner).
+- **Address:** 12436 SE Stark St, Portland, OR 97233
+- **Phone:** 503-823-2102
+- **Schedule:** **Tuesday–Saturday 9am–12pm & 1–4pm**
+- **Cost:** **FREE**
+- **Also:** Free food boxes available 24/7 at every Portland Police precinct; home delivery Mon/Wed via DoorDash (register at sunshinedivision.org)
+- **Website:** sunshinedivision.org
+
 ---
 
 ## Free Live Music and Film Events
@@ -617,6 +625,13 @@ All programs are **FREE** and open to the public. Library cards are free for res
 - **Portland:** 10445 SE Cherry Blossom, Portland, OR 97216
 - **Gresham:** 610 NE 181st Ave, Gresham, OR 97230
 
+**Free Geek** — volunteer to refurbish donated electronics while learning tech skills.
+- **Address:** 1731 SE 10th Ave, Portland, OR 97214
+- **Hours:** **Wednesday–Saturday 11am–4pm**
+- **Cost:** **FREE**
+- **Details:** Help refurbish computers and electronics; free/low-cost refurbished computers available for community members in need
+- **Website:** freegeek.org
+
 ### Mental Health Peer Support Groups (FREE)
 
 **NAMI Multnomah**
@@ -636,6 +651,21 @@ All programs are **FREE** and open to the public. Library cards are free for res
 - **Office:** 10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222
 - **Phone:** 503-344-5050
 - **Women (18+) Only:** 1st & 3rd Wednesdays, 5–6:30pm — In-Person in Milwaukie
+
+**YouthLine** — peer-to-peer crisis support specifically for young people (up to age 24).
+- **Phone:** (877) 968-8491
+- **Text:** "teen2teen" to 839863
+- **Chat:** theyouthline.org
+- **Hours:** Daily **4–10pm** (teen peer volunteers); adult counselors all other hours
+- **Cost:** **FREE**
+
+**Plates for the People** — free cooking classes for people in or seeking recovery.
+- **Location:** Alano Club, 909 NW 24th Ave, Portland, OR 97210
+- **Phone:** (503) 222-5756
+- **Schedule:** **Monthly** (dates vary — check Eventbrite for registration)
+- **Cost:** **FREE**
+- **Details:** Led by award-winning chefs sharing their own recovery stories. Learn budgeting, meal planning, and cooking. Each class ends with a shared meal. Partnership between Alano Club and Ben's Friends.
+- **Website:** portlandalano.org/plates-for-the-people
 
 ---
 

@@ -2,6 +2,45 @@
 # Records all verification activities and changes
 
 ---
+- date: 2026-03-04
+  type: addition
+  auditor: claude
+  summary: "Research sweep: Added 8 new entries across peer support, arts/culture, and discount programs"
+  added:
+    - id: portland-hearing-voices
+      name: Portland Hearing Voices
+      category: peer_support
+      reason: "Peer-led support groups for people who hear voices/visions. In-person Mondays 10-11am at BHRC. Part of HVN USA."
+    - id: hopewell-house-grief
+      name: Hopewell House Grief Support
+      category: peer_support
+      reason: "Free grief support - monthly drop-in Community Grief Ritual (3rd Monday) and 6-session grief group series. Spring 2026 sessions verified."
+    - id: pflag-portland
+      name: PFLAG Portland
+      category: peer_support
+      reason: "Free LGBTQ+ family support since 1982. In-person meetings (walk-in), online circles, helpline. Active scholarship program for 2026."
+    - id: community-jams-beaverton
+      name: Community Jams
+      category: arts_culture
+      reason: "Free music jam sessions 5-6 times weekly in Beaverton. 5,000+ member community. Newcomer jams Tue/Sat. Verified active March 2026 on Meetup."
+    - id: multnomah-discovery-pass
+      name: Multnomah County My Discovery Pass
+      category: discount_programs
+      reason: "Free cultural passes for library cardholders to 15 venues including Portland Art Museum, Japanese Garden, Portland Opera, Artists Rep."
+    - id: wccls-adventure-pass
+      name: WCCLS Adventure Pass
+      category: discount_programs
+      reason: "Free cultural passes for Washington County library cardholders. Portland Art Museum, Lan Su Chinese Garden, Oregon Garden, and more."
+    - id: clackamas-cultural-pass
+      name: Clackamas County Cultural Pass Express
+      category: discount_programs
+      reason: "Free cultural passes for LINCC cardholders. Evergreen Aviation Museum, Crystal Springs, Pittock Mansion, and more. Completes tri-county set."
+    - id: returning-veterans-project
+      name: Returning Veterans Project
+      category: peer_support
+      reason: "Free comprehensive health services (counseling, acupuncture, massage, art therapy, etc.) for post-9/11 veterans through ~200 volunteer providers. No VA referral needed."
+
+---
 - date: 2026-03-03
   type: addition
   auditor: claude

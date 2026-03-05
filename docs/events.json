@@ -1,6 +1,6 @@
 {
-  "generated": "2026-03-03T07:33:37.299093",
-  "count": 217,
+  "generated": "2026-03-04T23:54:01.830252",
+  "count": 225,
   "categories": {
     "peer_support": "Peer Support",
     "fitness_wellness": "Fitness & Wellness",
@@ -10188,6 +10188,557 @@
         "registration": "Sign up at community center; parental waiver required for ages 14-17 for fitness center",
         "what_to_bring": "Photo ID or school ID",
         "good_to_know": "Free access to drop-in activities, fitness center, open gym, and special programs at 6 community centers. Great resource for teens to stay active."
+      }
+    },
+    {
+      "id": "portland-hearing-voices",
+      "title": "Portland Hearing Voices",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#7B68EE",
+      "address": "333 SW Park Ave, Portland, OR 97205",
+      "phone": null,
+      "website": "https://www.portlandhearingvoices.net",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [
+        {
+          "name": "In-Person Hearing Voices Group",
+          "schedule": "Every Monday 10-11am",
+          "location": "Behavioral Health Resource Center, 333 SW Park Ave, Portland",
+          "format": "In-person, drop-in",
+          "audience": []
+        },
+        {
+          "name": "Hearing Voices Online",
+          "schedule": "(Possibly) Mondays 12:30-1:30pm PST; (Possibly) Wednesdays 12:30-2pm PST",
+          "format": "Virtual (Zoom)",
+          "notes": "Online groups marked as '(Possibly)' on website - may be intermittent. Check website for current status.",
+          "audience": []
+        }
+      ],
+      "dates": null,
+      "schedule": "Every Monday 10-11am (in-person at BHRC)",
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [
+        "transit_nearby",
+        "wheelchair_accessible"
+      ],
+      "social_intensity": "structured_group",
+      "good_for": [
+        "anxiety_friendly",
+        "isolation",
+        "indoor"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Peer-led support groups for people who hear voices, see visions, or have unusual beliefs/sensory experiences. In-person group confirmed active at BHRC. Online groups may be intermittent - website lists them as '(Possibly)'. Part of Hearing Voices Network USA.",
+      "practical_tips": {
+        "first_visit": "In-person group is at the Behavioral Health Resource Center downtown. Just show up - no registration needed.",
+        "good_to_know": "Part of the Hearing Voices Network USA. For people who hear voices, see visions, or have unusual sensory experiences. Peer-led, non-clinical approach. FolkTime also hosts a Hearing Voices group at their NE Portland location."
+      }
+    },
+    {
+      "id": "hopewell-house-grief",
+      "title": "Hopewell House Grief Support",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#7B68EE",
+      "address": "6171 SW Capitol Highway, Portland, OR 97239",
+      "phone": "503-894-7560",
+      "website": "https://hopewellhousepdx.org/grief-support/",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [
+        {
+          "name": "Community Grief Ritual",
+          "schedule": "3rd Monday of each month 6:30-8pm",
+          "format": "In-person, drop-in, no RSVP needed",
+          "notes": "A practice of transforming individual and collective grief within a supportive community. All grief is welcome.",
+          "audience": []
+        },
+        {
+          "name": "Grief Support Groups (Spring 2026)",
+          "format": "In-person, 6-session series, every other week over 12 weeks. RSVP required.",
+          "notes": "Spring sessions: Tuesdays 2-3:30pm (Apr 7-Jun 16) register by Mar 31; Thursdays 6:30-8pm (Apr 2-Jun 11) register by Mar 26. Email stephanie.brown@fhhpdx.org to register.",
+          "audience": []
+        }
+      ],
+      "dates": null,
+      "schedule": "3rd Monday 6:30-8pm (Grief Ritual); Grief groups run in series throughout the year",
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [
+        "wheelchair_accessible"
+      ],
+      "social_intensity": "structured_group",
+      "good_for": [
+        "grief",
+        "anxiety_friendly",
+        "indoor"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Free grief support in a beautiful, peaceful setting. The monthly Community Grief Ritual is the most accessible entry point - drop-in, no RSVP. Grief groups run in 6-session series with registration. Hopewell House is primarily a residential end-of-life care facility that also offers community grief services.",
+      "practical_tips": {
+        "first_visit": "The monthly Community Grief Ritual is drop-in - just show up. For the 6-session grief groups, you must register in advance by email.",
+        "registration": "Email stephanie.brown@fhhpdx.org to register for grief support groups",
+        "good_to_know": "Historic 12,000 sq ft Tudor home on 4.5 wooded acres in the Hillsdale neighborhood. Peaceful, welcoming setting. Led by professionally trained volunteers. Grief groups close to new members once they begin."
+      }
+    },
+    {
+      "id": "pflag-portland",
+      "title": "PFLAG Portland",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#7B68EE",
+      "address": null,
+      "phone": "503-232-7676",
+      "website": "https://pflagpdx.org",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [
+        {
+          "name": "In-Person Chapter Meetings",
+          "format": "Walk-in, no registration needed",
+          "notes": "Held every other month (~6 per year). Includes announcements, guest speakers, socializing, and support groups. Meeting at a faith community center (free of religious iconography).",
+          "audience": [
+            "lgbtq"
+          ]
+        },
+        {
+          "name": "Online Support Circles",
+          "format": "Virtual, registration required",
+          "notes": "Visit the Online Support Circle Guide on the PFLAG website to register.",
+          "audience": [
+            "lgbtq"
+          ]
+        },
+        {
+          "name": "Helpline",
+          "phone": "503-232-7676",
+          "notes": "For non-urgent information and private requests. A volunteer will respond within 24-48 hours.",
+          "audience": [
+            "lgbtq"
+          ]
+        },
+        {
+          "name": "Transgender Student Scholarship",
+          "notes": "$1,000 scholarship for transgender students headed to college. Apply by 3/31/26.",
+          "audience": [
+            "lgbtq"
+          ]
+        }
+      ],
+      "dates": null,
+      "schedule": "Twice monthly (contact for current dates)",
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [],
+      "social_intensity": "structured_group",
+      "good_for": [
+        "isolation",
+        "new_to_area",
+        "indoor"
+      ],
+      "audience": [
+        "lgbtq"
+      ],
+      "audience_notes": null,
+      "notes": "Peer-to-peer support for LGBTQ+ people, their parents, families, and allies. In-person meetings are walk-in; online circles require registration. Helpline available. Does not publish a fixed recurring schedule - contact them for current meeting dates. Active 501(c)(3), EIN 93-0848543.",
+      "practical_tips": {
+        "first_visit": "In-person meetings are walk-in. If entering a place of worship is uncomfortable, call or email first - they can help.",
+        "good_to_know": "One of the oldest PFLAG chapters in the country (since 1982). Support for LGBTQ+ people AND their parents, families, and allies. Also offers private one-on-one support circles on request."
+      }
+    },
+    {
+      "id": "community-jams-beaverton",
+      "title": "Community Jams",
+      "category": "arts_culture",
+      "categoryName": "Arts & Culture",
+      "color": "#9370DB",
+      "address": "2365 SW Cedar Hills Blvd, Beaverton, OR",
+      "phone": null,
+      "website": "https://communityjams.org",
+      "pricing": {
+        "description": "FREE"
+      },
+      "programs": [
+        {
+          "name": "EZ-Lead Slow Jam (Blues, Folk, Americana)",
+          "schedule": "Every Sunday 1-3pm",
+          "audience": []
+        },
+        {
+          "name": "CJ Anything Goes Jam",
+          "schedule": "Every Monday 6-8pm",
+          "audience": []
+        },
+        {
+          "name": "CJ Improv Jam",
+          "schedule": "Every Monday 8-10pm",
+          "audience": []
+        },
+        {
+          "name": "CJ Newcomers and Explorers Jam",
+          "schedule": "Every Tuesday 7-9:30pm",
+          "notes": "Best for first-timers. Welcoming environment for all skill levels.",
+          "audience": []
+        },
+        {
+          "name": "Themed Jam (varies weekly)",
+          "schedule": "Thursdays 7pm",
+          "audience": []
+        },
+        {
+          "name": "CJ Newcomers and Explorers Jam (Saturday)",
+          "schedule": "Every Saturday 1-3pm",
+          "audience": []
+        },
+        {
+          "name": "Build a Song Workshop",
+          "schedule": "Select Saturdays 4:30pm",
+          "notes": "Check Meetup calendar for dates.",
+          "audience": []
+        }
+      ],
+      "dates": null,
+      "schedule": "Sun 1pm, Mon 6pm & 8pm, Tue 7pm, Thu 7pm, Sat 1pm",
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [
+        "transit_nearby"
+      ],
+      "social_intensity": "casual_group",
+      "good_for": [
+        "creative",
+        "isolation",
+        "new_to_area",
+        "indoor"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Nonprofit connecting musicians of all abilities through free studio jams. Grew from Portland Casual Jams Meetup (5,000+ members, 4,300+ events, 4.8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jams are especially welcoming for beginners.",
+      "practical_tips": {
+        "first_visit": "Start with a Tuesday or Saturday 'Newcomers and Explorers' jam. RSVP via Meetup.com (search Portland Casual Jams). Bring your instrument or just your voice.",
+        "registration": "RSVP through Meetup.com - search 'Portland Casual Jams'",
+        "good_to_know": "5,000+ member community. Studio is near Highways 26 and 217. TriMet Bus Line 20 stops across the street. Nonprofit supported by Oregon Arts Commission and Oregon Community Foundation. All skill levels truly welcome."
+      }
+    },
+    {
+      "id": "multnomah-discovery-pass",
+      "title": "Multnomah County My Discovery Pass",
+      "category": "discount_programs",
+      "categoryName": "Discount Programs",
+      "color": "#4169E1",
+      "address": null,
+      "phone": null,
+      "website": "https://multcolib.org/my-discovery-pass",
+      "pricing": {
+        "description": "FREE with Multnomah County Library card"
+      },
+      "programs": [
+        {
+          "name": "Artists Repertory Theatre",
+          "notes": "Pass admits 2 adults",
+          "audience": []
+        },
+        {
+          "name": "Boom Arts",
+          "notes": "Pass admits 2 people",
+          "audience": []
+        },
+        {
+          "name": "Five Oaks Museum",
+          "notes": "Pass admits 2 adults; youth 17 and under always free",
+          "audience": []
+        },
+        {
+          "name": "Friends of Chamber Music",
+          "notes": "Pass admits 2 adults; call 503.224.9842 one week prior",
+          "audience": []
+        },
+        {
+          "name": "Japanese American Museum of Oregon",
+          "notes": "Pass admits 2 people; children 11 and under free",
+          "audience": [
+            "children"
+          ]
+        },
+        {
+          "name": "Literary Arts",
+          "notes": "Pass admits 2 adults",
+          "audience": []
+        },
+        {
+          "name": "Northwest Children's Theater and School",
+          "notes": "Pass admits 2 people; call box office 503.222.2190",
+          "audience": [
+            "children"
+          ]
+        },
+        {
+          "name": "Oregon Jewish Museum and Center for Holocaust Education",
+          "notes": "Pass admits 4 people; children 12 and under free",
+          "audience": [
+            "children"
+          ]
+        },
+        {
+          "name": "Oregon Koto-Kai",
+          "notes": "Pass admits 2 people",
+          "audience": []
+        },
+        {
+          "name": "Portland Art Museum",
+          "notes": "Pass admits 2 adults; children 17 and under always free",
+          "audience": [
+            "children"
+          ]
+        },
+        {
+          "name": "Portland Center Stage at The Armory",
+          "notes": "Pass admits 2 people",
+          "audience": []
+        },
+        {
+          "name": "Portland Columbia Symphony",
+          "notes": "Pass admits 2 people; call 503.234.4077 one week prior",
+          "audience": []
+        },
+        {
+          "name": "Portland Japanese Garden",
+          "notes": "Pass admits 2 adults and 8 children; children 5 and under always free; call 503.223.1321",
+          "audience": [
+            "children"
+          ]
+        },
+        {
+          "name": "Portland Opera",
+          "notes": "Pass admits 2 adults",
+          "audience": []
+        },
+        {
+          "name": "Rose City Comic Con",
+          "notes": "Single day and 3-day badges",
+          "audience": []
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [],
+      "social_intensity": null,
+      "good_for": [
+        "low_energy",
+        "indoor",
+        "creative"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Free cultural passes for Multnomah County Library cardholders. Provides online access to free tickets for 15 local cultural attractions including Portland Art Museum, Portland Japanese Garden, Artists Repertory Theatre, Portland Opera, and more. Outstanding value for anyone with a library card.",
+      "practical_tips": {
+        "first_visit": "Log in at multcolib.org/my-discovery-pass with your library card number and password.",
+        "registration": "Free Multnomah County Library card required. Get one at any branch with proof of address.",
+        "good_to_know": "One pass per attraction per calendar year. Up to 2 reservations at a time. Once you print or download a pass, you cannot cancel. Passes are limited - book as soon as dates open."
+      }
+    },
+    {
+      "id": "wccls-adventure-pass",
+      "title": "WCCLS Adventure Pass",
+      "category": "discount_programs",
+      "categoryName": "Discount Programs",
+      "color": "#4169E1",
+      "address": null,
+      "phone": null,
+      "website": "https://www.wccls.org/events-activities/wccls-adventure-pass",
+      "pricing": {
+        "description": "FREE with Washington County library card (WCCLS)"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [],
+      "social_intensity": null,
+      "good_for": [
+        "low_energy",
+        "indoor",
+        "creative"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Free cultural admission passes for Washington County library cardholders. Participating venues include Portland Art Museum, Lan Su Chinese Garden, The Oregon Garden, and more. Complements Arts for All (EBT) program for those who may not qualify for EBT but have a library card.",
+      "practical_tips": {
+        "first_visit": "Visit wccls.org/events-activities/wccls-adventure-pass and log in with your library card number and password.",
+        "registration": "Free WCCLS library card required. Get one at any Washington County library.",
+        "good_to_know": "Passes release on a rolling 4-week cycle - book as soon as a date opens. One pass per destination per year, up to 2 active reservations at a time. Cannot cancel or reschedule once reserved. Passes can be sent via email and added to your phone wallet."
+      }
+    },
+    {
+      "id": "clackamas-cultural-pass",
+      "title": "Clackamas County Cultural Pass Express",
+      "category": "discount_programs",
+      "categoryName": "Discount Programs",
+      "color": "#4169E1",
+      "address": null,
+      "phone": null,
+      "website": "https://culturalpassexpress.quipugroup.net/",
+      "pricing": {
+        "description": "FREE with Clackamas County library card (LINCC)"
+      },
+      "programs": [
+        {
+          "name": "Clackamas County Parks",
+          "notes": "Admits 1 vehicle to participating county parks; 1 pass per day",
+          "audience": []
+        },
+        {
+          "name": "Crystal Springs Rhododendron Garden",
+          "notes": "Pass admits 2 people ages 6+; 1 pass per month",
+          "audience": []
+        },
+        {
+          "name": "End of the Oregon Trail Interpretive Center",
+          "notes": "Admits 2 people; 1 pass per year",
+          "audience": []
+        },
+        {
+          "name": "Evergreen Aviation & Space Museum",
+          "notes": "Pass for 2 people to museum; water park and special attractions not included",
+          "audience": []
+        },
+        {
+          "name": "Portland Art Museum",
+          "notes": "General admission pass",
+          "audience": []
+        },
+        {
+          "name": "Portland Japanese Garden",
+          "notes": "General admission pass",
+          "audience": []
+        },
+        {
+          "name": "Pittock Mansion",
+          "notes": "General admission pass",
+          "audience": []
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [],
+      "social_intensity": null,
+      "good_for": [
+        "low_energy",
+        "indoor",
+        "outdoor"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Free cultural admission passes for Clackamas County library cardholders. Includes venues like Evergreen Aviation Museum, Crystal Springs Rhododendron Garden, Clackamas County Parks, Portland Art Museum, Pittock Mansion, and more. Verify full venue list at culturalpassexpress.quipugroup.net.",
+      "practical_tips": {
+        "first_visit": "Visit culturalpassexpress.quipugroup.net and log in with your LINCC library card number and password.",
+        "registration": "Free LINCC library card required. Get one at any Clackamas County library.",
+        "good_to_know": "Must be 18+ to reserve passes. Completes the tri-county set of library cultural pass programs alongside Multnomah County's My Discovery Pass and Washington County's WCCLS Adventure Pass."
+      }
+    },
+    {
+      "id": "returning-veterans-project",
+      "title": "Returning Veterans Project",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#7B68EE",
+      "address": null,
+      "phone": "503-954-2094",
+      "website": "https://returningveterans.org",
+      "pricing": {
+        "description": "FREE - no fees, no insurance verification, no VA referral needed"
+      },
+      "programs": [
+        {
+          "name": "Mental Health Counseling",
+          "audience": []
+        },
+        {
+          "name": "Acupuncture",
+          "audience": []
+        },
+        {
+          "name": "Art Therapy",
+          "audience": []
+        },
+        {
+          "name": "Chiropractic Care",
+          "audience": []
+        },
+        {
+          "name": "Drug and Alcohol Counseling",
+          "audience": []
+        },
+        {
+          "name": "Equine Assisted Services",
+          "audience": []
+        },
+        {
+          "name": "Float Therapy",
+          "audience": []
+        },
+        {
+          "name": "Forest Therapy",
+          "audience": []
+        },
+        {
+          "name": "Hypnotherapy",
+          "audience": []
+        },
+        {
+          "name": "Marriage and Family Counseling",
+          "audience": []
+        },
+        {
+          "name": "Massage Therapy",
+          "audience": []
+        },
+        {
+          "name": "Naturopathic Medicine",
+          "audience": []
+        },
+        {
+          "name": "Physical Therapy",
+          "audience": []
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [],
+      "social_intensity": "one_on_one",
+      "good_for": [
+        "anxiety_friendly"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Comprehensive free health services for post-9/11 veterans, service members, and families through ~200 volunteer providers. Services include counseling, acupuncture, chiropractic, massage, art therapy, equine therapy, float therapy, forest therapy, and more. Distinct from VA services - no enrollment or referral needed.",
+      "practical_tips": {
+        "first_visit": "Visit returningveterans.org and use the Provider Directory to find a provider near you. No referral or VA registration needed.",
+        "good_to_know": "Nearly 200 volunteer health providers across Oregon and SW Washington. Completely free and confidential. No insurance needed. Serves post-9/11 veterans, service members, AND their families."
       }
     }
   ]

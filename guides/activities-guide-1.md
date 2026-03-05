@@ -155,6 +155,14 @@ All classes available on mat or chair. Website: theportlandyogaproject.com
 
 **SilverSneakers** offers **free gym membership** for adults 65+ with qualifying Medicare Advantage plans, including access to YMCAs and community centers plus live and on-demand classes. Check eligibility: 888-423-4632.
 
+**Mazamas Street Rambles** offers free group walks every Tuesday and Thursday evening, year-round.
+- **Meeting Point:** Keen Garage, 505 NW 13th Ave, Portland (Pearl District)
+- **Schedule:** Every **Tuesday & Thursday 6–8pm** (arrive by 5:45pm)
+- **Cost:** **FREE**, no registration or membership required
+- **Pace:** Multiple groups from leisurely to fast — all fitness levels welcome
+- **Cancellations:** When Portland Public Schools closed for weather, forecast >95°F, or AQI 151+
+- **Website:** mazamas.org/streetrambles/
+
 ---
 
 ## Social and community: Connection and peer support

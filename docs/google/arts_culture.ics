@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:65bcfcc6591abf66@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260305T100000
 DTEND:20260305T190000
 SUMMARY:Portland Art Museum: Free First Thursday
@@ -44,7 +44,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4d15400e41f273e0@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260308T093000
 DTEND:20260308T173000
 SUMMARY:OMSI (Oregon Museum of Science and Industry): First Sunday
@@ -66,7 +66,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1cc8d79374188c66@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260305T120000
 DTEND:20260305T000000
 SUMMARY:Ground Kontrol Classic Arcade: Free Play (2nd Thursday)
@@ -82,7 +82,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:59746f5642178898@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260304T120000
 DTEND:20260304T000000
 SUMMARY:Ground Kontrol Classic Arcade: Free Play (Last Wednesday)
@@ -98,7 +98,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75b2a7dcae90038e@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260308T120000
 DTEND:20260308T180000
 SUMMARY:Guardian Games: Might I Suggest a Game? - Board Game Open Play
@@ -114,7 +114,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c62bc17ff46d5148@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260304T180000
 DTEND:20260304T200000
 SUMMARY:NAYA (Native American Youth and Family Center): Culture Nights
@@ -130,9 +130,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e73e21017e0799ee@portlandresources.org
-DTSTAMP:20260303T073337Z
-DTSTART:20260303T173000
-DTEND:20260303T183000
+DTSTAMP:20260304T235401Z
+DTSTART:20260310T173000
+DTEND:20260310T183000
 SUMMARY:Clackamas County Libraries (LINCC): Teen Advisory Group (GOAT)
 DESCRIPTION:Category: Arts & Culture\nCost: FREE library cards for all Oreg
  on residents\nEligibility: Grades 6-12\nInfo: Help shape library programs 
@@ -148,7 +148,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7911bf9a58117f@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260305T183000
 DTEND:20260305T193000
 SUMMARY:MHCC Planetarium Sky Theatre: Early Planetarium Show
@@ -166,7 +166,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e02aa101489f47a@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260305T200000
 DTEND:20260305T210000
 SUMMARY:MHCC Planetarium Sky Theatre: Late Planetarium Show
@@ -184,7 +184,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f7bf9869ba2e83a@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260304T120000
 DTEND:20260304T130000
 SUMMARY:The Old Church Concert Hall: Lunchtime Concert Series
@@ -200,7 +200,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0379c9729163580c@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260308T160000
 DTEND:20260308T170000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
@@ -217,7 +217,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c1294058eda55cac@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260304T090000
 DTEND:20260304T150000
 SUMMARY:Historic Belmont Firehouse: Wednesday Open Hours
@@ -235,7 +235,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d008ef21f7f8aa0a@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260306T170000
 DTEND:20260306T190000
 SUMMARY:Turn! Turn! Turn!: Casual Friday (Comedy Open Mic)
@@ -252,7 +252,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d8fc3329cc6894ad@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260308T123000
 DTEND:20260308T153000
 SUMMARY:Turn! Turn! Turn!: Drawing Club
@@ -269,7 +269,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d9e5489d6044ef66@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260309T200000
 DTEND:20260309T230000
 SUMMARY:Turn! Turn! Turn!: Karaoke Night
@@ -286,7 +286,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:081b91eb97012860@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260304T200000
 DTEND:20260304T210000
 SUMMARY:Tualatin Public Library: Adult Book Discussion
@@ -303,7 +303,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:33a5a02eaf722ff1@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260304T160000
 DTEND:20260304T170000
 SUMMARY:Tualatin Public Library: Teen Book Chat (grades 8-12)
@@ -320,7 +320,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1237b588e2dc3b12@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260607T140000
 DTEND:20260607T150000
 SUMMARY:Tualatin Public Library: Summer Sunday Music Series
@@ -337,7 +337,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:91fcae740514833e@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART;VALUE=DATE:20251120
 DTEND;VALUE=DATE:20251124
 SUMMARY:PCC Theatre: Much Ado About Nothing
@@ -354,7 +354,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:47623ca66dc7ccac@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260308T140000
 DTEND:20260308T160000
 SUMMARY:SCRAP PDX Creative Reuse: Sunday Crafternoon
@@ -371,7 +371,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d1c182da302ffe9c@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260305T160000
 DTEND:20260305T180000
 SUMMARY:SCRAP PDX Creative Reuse: Drop In Studio
@@ -388,7 +388,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:018c2dbc4c1b6d6c@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260308T170000
 DTEND:20260308T190000
 SUMMARY:Independent Publishing Resource Center (IPRC): Collage Night
@@ -406,7 +406,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4f5ddbd49f0a9039@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260308T160000
 DTEND:20260308T180000
 SUMMARY:The Humble Poets' Open Mic
@@ -423,7 +423,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c0cf360c4a2f442c@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260307T100000
 DTEND:20260307T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -445,7 +445,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6521fc4b6bde906a@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260307T100000
 DTEND:20260307T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -468,7 +468,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:359b4e00639aefa2@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260307T100000
 DTEND:20260307T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -490,7 +490,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7053af3e4013d499@portlandresources.org
-DTSTAMP:20260303T073337Z
+DTSTAMP:20260304T235401Z
 DTSTART:20260307T100000
 DTEND:20260307T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -508,6 +508,97 @@ LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
  4
 URL:https://www.friendsoflonefircemetery.org
 RRULE:FREQ=MONTHLY;BYDAY=SA;BYSETPOS=4
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eb2584d8ad685306@portlandresources.org
+DTSTAMP:20260304T235401Z
+DTSTART:20260308T130000
+DTEND:20260308T150000
+SUMMARY:Community Jams: EZ-Lead Slow Jam (Blues\, Folk\, Americana)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
+ lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
+ nprofit connecting musicians of all abilities through free studio jams. Gr
+ ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
+ 8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
+ s are especially welcoming for beginners.
+LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
+URL:https://communityjams.org
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:352aca1aa2ae288f@portlandresources.org
+DTSTAMP:20260304T235401Z
+DTSTART:20260309T180000
+DTEND:20260309T200000
+SUMMARY:Community Jams: CJ Anything Goes Jam
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
+ lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
+ nprofit connecting musicians of all abilities through free studio jams. Gr
+ ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
+ 8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
+ s are especially welcoming for beginners.
+LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
+URL:https://communityjams.org
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:36b525d206d3d5af@portlandresources.org
+DTSTAMP:20260304T235401Z
+DTSTART:20260309T200000
+DTEND:20260309T220000
+SUMMARY:Community Jams: CJ Improv Jam
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
+ lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
+ nprofit connecting musicians of all abilities through free studio jams. Gr
+ ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
+ 8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
+ s are especially welcoming for beginners.
+LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
+URL:https://communityjams.org
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:83b0bc41193a745a@portlandresources.org
+DTSTAMP:20260304T235401Z
+DTSTART:20260310T190000
+DTEND:20260310T213000
+SUMMARY:Community Jams: CJ Newcomers and Explorers Jam
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Best for first-time
+ rs. Welcoming environment for all skill levels.\nAddress: 2365 SW Cedar Hi
+ lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
+ nprofit connecting musicians of all abilities through free studio jams. Gr
+ ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
+ 8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
+ s are especially welcoming for beginners.
+LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
+URL:https://communityjams.org
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0f4493dcc6b71ae5@portlandresources.org
+DTSTAMP:20260304T235401Z
+DTSTART:20260307T130000
+DTEND:20260307T150000
+SUMMARY:Community Jams: CJ Newcomers and Explorers Jam (Saturday)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
+ lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
+ nprofit connecting musicians of all abilities through free studio jams. Gr
+ ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
+ 8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
+ s are especially welcoming for beginners.
+LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
+URL:https://communityjams.org
+RRULE:FREQ=WEEKLY;BYDAY=SA
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
