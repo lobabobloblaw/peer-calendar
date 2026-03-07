@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-04T23:54:01.830252",
+  "generated": "2026-03-07T08:20:21.702325",
   "count": 225,
   "categories": {
     "peer_support": "Peer Support",
@@ -2975,7 +2975,7 @@
       "phone": null,
       "website": "https://www.ttadpools.com",
       "pricing": {
-        "drop_in": "$6 in-district, $7 out-of-district",
+        "drop_in": "$5-$6 in-district, $6-$7 out-of-district (students/seniors/military lower tier)",
         "passes": "12-visit passes and memberships available",
         "lessons": "$75 in-district/$100 out-of-district (10-class session)",
         "private_lessons": "$40 in-district/$55 out-of-district (30 min)",
@@ -3692,8 +3692,11 @@
       "phone": "503-252-0500",
       "website": "https://www.academytheaterpdx.com/",
       "pricing": {
-        "description": "Budget second-run theater",
-        "notes": "Exact prices vary - call or check website"
+        "standard": "$9 adult / $6.50 discount",
+        "before_230pm": "$6.50",
+        "wednesday": "$6.50 all day",
+        "double_feature_monday": "$6 adults, $4 children/seniors (two consecutive movies)",
+        "two_for_tuesday": "Buy one, get one free"
       },
       "programs": [],
       "dates": null,
@@ -3766,7 +3769,7 @@
       "website": "https://www.laurelhursttheater.com/",
       "pricing": {
         "general": "$10",
-        "seniors_students_kids": "$7",
+        "seniors_students_kids": "$7 (seniors 64+, students, kids under 12)",
         "before_5pm": "$7",
         "tuesday": "$7 all day"
       },
@@ -3801,8 +3804,9 @@
       "phone": "971-222-2010",
       "website": "https://pdx.livingroomtheaters.com/",
       "pricing": {
-        "weekly_special": "$7 at 7pm (weekly indie film)",
-        "discount_days": "Discounted Mon/Tue"
+        "standard": "$13+",
+        "discount_days": "$8.50 Mon/Tue",
+        "notes": "$7 weekly indie film special may be discontinued - call to verify"
       },
       "programs": [],
       "dates": null,
@@ -3824,7 +3828,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": "Downtown near Powell's Books. Founded by filmmakers.",
-      "practical_tips": "Upscale theater with luxury seating and full restaurant service. Check for $7 weekly indie film special at 7pm. Mon/Tue discount days. Reserve seats online to avoid lines. Downtown location near Powell's Books."
+      "practical_tips": "Upscale theater with luxury seating and full restaurant service. Mon/Tue discount at $8.50. Reserve seats online to avoid lines. Downtown location near Powell's Books."
     },
     {
       "id": "hollywood-theatre",
@@ -3833,7 +3837,7 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "4122 NE Sandy Blvd, Portland, OR 97212",
-      "phone": null,
+      "phone": "503-281-4215",
       "website": "https://hollywoodtheatre.org/",
       "pricing": {
         "description": "Various - includes free screenings"
@@ -4042,10 +4046,13 @@
       "phone": "503-222-1741",
       "website": "https://www.ohs.org/",
       "pricing": {
+        "adult": "$14",
+        "students_seniors": "$12 (students/teachers with ID, seniors 60+)",
+        "youth": "FREE (17 and under)",
         "multnomah_residents": "FREE with proof of residency (Measure 26-221)",
-        "under_5": "FREE",
-        "museums_for_all": "FREE (low-income families)",
-        "blue_star": "FREE (active military + families, Memorial Day-Labor Day)"
+        "museums_for_all": "FREE (SNAP/WIC EBT card, up to 4 people)",
+        "blue_star": "FREE (active military + families, Memorial Day-Labor Day)",
+        "group_rate": "$11 per person (pre-booked, no minimum size)"
       },
       "programs": [],
       "dates": null,
@@ -5079,8 +5086,8 @@
       }
     },
     {
-      "id": "pcc-theatre-much-ado",
-      "title": "PCC Theatre: Much Ado About Nothing",
+      "id": "pcc-theatre",
+      "title": "PCC Theatre",
       "category": "arts_culture",
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
@@ -5088,11 +5095,11 @@
       "phone": "971-722-4848",
       "website": "https://www.pcc.edu/theatre/",
       "pricing": {
-        "description": "Ticket prices vary by section",
-        "notes": "Student and senior discounts typically available"
+        "description": "Ticket prices vary by section (Sections A, B, C)",
+        "notes": "Student and senior discounts typically available. Tickets online or at box office (opens 1hr before curtain, cash/check only)."
       },
       "programs": [],
-      "dates": "November 20-23, 2025",
+      "dates": null,
       "schedule": null,
       "schedule_start_date": null,
       "schedule_end_date": null,
@@ -5113,7 +5120,7 @@
         "first_visit": "Purchase tickets in advance online or at the door",
         "registration": null,
         "what_to_bring": null,
-        "good_to_know": "State-of-the-art theater; 70+ productions since 1979"
+        "good_to_know": "State-of-the-art theater at PCC Sylvania; 70+ productions since 1979. Three productions per academic year (one per term)."
       }
     },
     {
@@ -8668,7 +8675,7 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "8513 SW Tualatin Rd, Tualatin, OR 97062",
-      "phone": null,
+      "phone": "503-691-3061",
       "website": "https://www.tualatinoregon.gov/recreation/adult-programs-and-services",
       "pricing": {
         "description": "Many activities free or low-cost",

@@ -3570,3 +3570,191 @@
   entries:
     - id: lone-fir-cemetery-tours
       status: verified
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - Behavioral Health Resource Center"
+  entries_audited: 1
+  entries:
+    - id: bhrc
+      status: verified
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - David Romprey Oregon Warmline"
+  entries_audited: 1
+  entries:
+    - id: oregon-warmline
+      status: verified
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - The Peer Company (formerly MHAAO)"
+  entries_audited: 1
+  entries:
+    - id: peer-company
+      status: verified
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - Cascade Festival of African Films"
+  entries_audited: 1
+  entries:
+    - id: cascade-festival-african-films
+      status: verified
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - North Clackamas Aquatic Park"
+  entries_audited: 1
+  entries:
+    - id: ncprd-aquatic-park
+      status: verified
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - Lake Oswego Recreation & Aquatics Center (LORAC)"
+  entries_audited: 1
+  entries:
+    - id: lake-oswego-lorac
+      status: verified
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - THPRD Fitness in the Park"
+  entries_audited: 1
+  entries:
+    - id: thprd-fitness-in-park
+      status: verified
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - IRCO (Immigrant & Refugee Community Organization)"
+  entries_audited: 1
+  entries:
+    - id: irco
+      status: verified
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - Avalon Theatre & Wunderland"
+  entries_audited: 1
+  entries:
+    - id: avalon-theatre
+      status: verified
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - Shift to Bikes"
+  entries_audited: 1
+  entries:
+    - id: shift-to-bikes
+      status: verified
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - Academy Theater"
+  entries_audited: 1
+  entries:
+    - id: academy-theater
+      status: updated
+      changes: "Added specific pricing: $9/$6.50 standard, before 2:30pm $6.50, Wed $6.50 all day, Double Feature Mon $6/$4, Two-for-Tue BOGO"
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - Living Room Theaters"
+  entries_audited: 1
+  entries:
+    - id: living-room-theaters
+      status: updated
+      changes: "Updated pricing: standard $13+, Mon/Tue $8.50. $7 weekly special may be discontinued."
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - Hollywood Theatre"
+  entries_audited: 1
+  entries:
+    - id: hollywood-theatre
+      status: updated
+      changes: "Added phone number 503-281-4215 (was null)"
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - Oregon Historical Society"
+  entries_audited: 1
+  entries:
+    - id: oregon-historical-society
+      status: updated
+      changes: "Added full pricing: $14 adult, $12 students/seniors 60+, youth 17 and under FREE (was under 5), added group rate $11, expanded Museums for All details"
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - Laurelhurst Theater"
+  entries_audited: 1
+  entries:
+    - id: laurelhurst-theater
+      status: updated
+      changes: "Clarified seniors as 64+, noted open caption screenings available"
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tigard Tualatin Aquatic District (TTAD)"
+  entries_audited: 1
+  entries:
+    - id: ttad-pools
+      status: updated
+      changes: "Clarified drop-in pricing: student/senior/military tier $5/$6, adult tier $6/$7 (in-district/out)"
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - Juanita Pohl Center (Tualatin Active Aging Center)"
+  entries_audited: 1
+  entries:
+    - id: juanita-pohl-center
+      status: updated
+      changes: "Added phone 503-691-3061, added hours Mon-Fri 8am-5pm, Sat 9am-12pm, 4th Tue 6-8pm"
+
+---
+- date: 2026-03-07
+  type: audit
+  auditor: user
+  summary: "Audit completed - Magic Theatre"
+  entries_audited: 1
+  entries:
+    - id: pcc-theatre
+      status: updated
+      changes: "Renamed from pcc-theatre-much-ado to pcc-theatre (organization, not single event). Updated to current production Magic Theatre (Mar 4-8, 2026). Changed resource_type to organization."

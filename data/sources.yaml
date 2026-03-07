@@ -803,8 +803,8 @@
   bridge_housing:
     beds: 19
     stay_length: 90 days average
-  last_verified: 2026-01-24
-  next_audit: 2026-02-24
+  last_verified: 2026-03-07
+  next_audit: 2026-04-07
   audit_frequency: monthly
   practical_tips:
     first_visit: "Get a ticket from the outreach van at NW Broadway & Glisan (6am-2pm) to access day center"
@@ -896,8 +896,8 @@
   languages:
   - English
   - Spanish (Linea de Esperanza)
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-03-07
+  next_audit: 2026-06-07
   audit_frequency: quarterly
   practical_tips:
     first_visit: "Just call anytime - 24/7, no appointment needed"
@@ -1013,8 +1013,8 @@
   - Help accessing treatment, housing, employment
   - Recovery advocacy
   - Peer support specialist training (OPTIC, PWS)
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-03-07
+  next_audit: 2026-06-07
   audit_frequency: quarterly
   practical_tips:
     first_visit: "Walk in to Recovery Campus (SE Powell) or CATT (Hillsboro) during business hours"
@@ -2108,8 +2108,8 @@
   - name: Bike Summer (Pedalpalooza)
     schedule: June-August
     notes: Hundreds of free community rides
-  last_verified: 2026-02-13
-  next_audit: 2026-03-13
+  last_verified: 2026-03-07
+  next_audit: 2026-04-07
   audit_frequency: monthly
   practical_tips:
     first_visit: Check shift2bikes.org/calendar for current rides. Most list meeting location, time, and pace.
@@ -2428,8 +2428,8 @@
     notes: Adult competitive/fitness swim team
   - name: Parent Preschool Swim
     notes: Discounted times for parents with young children
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-03-07
+  next_audit: 2026-06-07
   audit_frequency: quarterly
   practical_tips:
     first_visit: Arrive early for Big Surf sessions as they can get crowded
@@ -2513,7 +2513,7 @@
   source_urls:
   - https://www.ttadpools.com
   pricing:
-    drop_in: $6 in-district, $7 out-of-district
+    drop_in: $5-$6 in-district, $6-$7 out-of-district (students/seniors/military lower tier)
     passes: 12-visit passes and memberships available
     lessons: $75 in-district/$100 out-of-district (10-class session)
     private_lessons: $40 in-district/$55 out-of-district (30 min)
@@ -2539,8 +2539,8 @@
   - Renew Active (FREE with participating Medicare)
   - One Pass / One Pass Select
   - Aaptive Programs
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-03-07
+  next_audit: 2026-06-07
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check if your insurance includes SilverSneakers or Silver & Fit for
@@ -2592,8 +2592,8 @@
   - Youth sports leagues
   - Adult leagues
   - Open swim
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-03-07
+  next_audit: 2026-06-07
   audit_frequency: quarterly
   practical_tips:
     first_visit: Opened June 2025 - brand new facility
@@ -2883,8 +2883,8 @@
     date: May 27, 2026
     location: Elsie Stuhr Center
   eligibility: All ages (varies by class)
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-03-07
+  next_audit: 2026-06-07
   audit_frequency: quarterly
   practical_tips:
     first_visit: Classes are drop-in, no registration needed
@@ -3165,8 +3165,11 @@
   source_urls:
   - https://www.academytheaterpdx.com/
   pricing:
-    description: Budget second-run theater
-    notes: Exact prices vary - call or check website
+    standard: $9 adult / $6.50 discount
+    before_230pm: $6.50
+    wednesday: $6.50 all day
+    double_feature_monday: $6 adults, $4 children/seniors (two consecutive movies)
+    two_for_tuesday: Buy one, get one free
   features:
   - Three climate-controlled theaters
   - Dolby sound
@@ -3183,8 +3186,8 @@
     - low_energy
     - indoor
   notes: Independent dinner theater in Montavilla neighborhood.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-03-07
+  next_audit: 2026-06-07
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#movie-theaters
 - id: avalon-theatre
@@ -3220,8 +3223,8 @@
     - low_energy
     - indoor
   notes: Portland's oldest operating movie theater, in Sunnyside neighborhood.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-03-07
+  next_audit: 2026-06-07
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#movie-theaters
 - id: laurelhurst-theater
@@ -3236,7 +3239,7 @@
   - https://www.laurelhursttheater.com/
   pricing:
     general: $10
-    seniors_students_kids: $7
+    seniors_students_kids: $7 (seniors 64+, students, kids under 12)
     before_5pm: $7
     tuesday: $7 all day
   features:
@@ -3254,8 +3257,8 @@
     - low_energy
     - indoor
   notes: Theater and pub in Laurelhurst neighborhood.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-03-07
+  next_audit: 2026-06-07
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#movie-theaters
 - id: living-room-theaters
@@ -3269,15 +3272,16 @@
   source_urls:
   - https://pdx.livingroomtheaters.com/
   pricing:
-    weekly_special: $7 at 7pm (weekly indie film)
-    discount_days: Discounted Mon/Tue
+    standard: $13+
+    discount_days: $8.50 Mon/Tue
+    notes: $7 weekly indie film special may be discontinued - call to verify
   hours: Mon-Thu 1-9pm, Fri 11am-10:30pm, Sat 11am+
   features:
   - Independent, foreign, and classic films
   - Full restaurant and bar
   - In-theater dining with attached tables
   - Reclining loveseat seating
-  practical_tips: "Upscale theater with luxury seating and full restaurant service. Check for $7 weekly indie film special at 7pm. Mon/Tue discount days. Reserve seats online to avoid lines. Downtown location near Powell's Books."
+  practical_tips: "Upscale theater with luxury seating and full restaurant service. Mon/Tue discount at $8.50. Reserve seats online to avoid lines. Downtown location near Powell's Books."
   accessibility:
     - wheelchair_accessible
     - transit_nearby
@@ -3288,8 +3292,8 @@
     - low_energy
     - indoor
   notes: Downtown near Powell's Books. Founded by filmmakers.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-03-07
+  next_audit: 2026-06-07
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#movie-theaters
 - id: hollywood-theatre
@@ -3298,7 +3302,7 @@
   location_type: physical
   resource_type: place
   address: 4122 NE Sandy Blvd, Portland, OR 97212
-  phone: null
+  phone: 503-281-4215
   website: https://hollywoodtheatre.org/
   source_urls:
   - https://en.wikipedia.org/wiki/Hollywood_Theatre_(Portland,_Oregon)
@@ -3327,8 +3331,8 @@
     - creative
   notes: Film Action Oregon dba Hollywood Theatre. Historic landmark, namesake of
     Hollywood District.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-03-07
+  next_audit: 2026-06-07
   audit_frequency: quarterly
   guide_location: activities-guide-2.md#free-and-low-cost-film-events
 - id: ground-kontrol
@@ -3492,8 +3496,8 @@
     - isolation
     - indoor
   notes: Since 1976. Serves Oregon and SW Washington immigrant/refugee communities.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-03-07
+  next_audit: 2026-06-07
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#cultural-community-centers
 - id: oregon-historical-society
@@ -3508,10 +3512,13 @@
   source_urls:
   - https://www.ohs.org/museum/plan-your-visit.cfm
   pricing:
+    adult: $14
+    students_seniors: $12 (students/teachers with ID, seniors 60+)
+    youth: FREE (17 and under)
     multnomah_residents: FREE with proof of residency (Measure 26-221)
-    under_5: FREE
-    museums_for_all: FREE (low-income families)
+    museums_for_all: FREE (SNAP/WIC EBT card, up to 4 people)
     blue_star: FREE (active military + families, Memorial Day-Labor Day)
+    group_rate: $11 per person (pre-booked, no minimum size)
   practical_tips: "FREE for Multnomah County residents with proof of residency (Measure 26-221). Museums for All provides free admission for low-income families. Focuses on Oregon history. Usually not crowded. Downtown location near Portland Art Museum."
   accessibility:
     - wheelchair_accessible
@@ -3523,8 +3530,8 @@
     - indoor
     - low_energy
   notes: NOT part of Bank of America Museums on Us program.
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-03-07
+  next_audit: 2026-06-07
   audit_frequency: quarterly
   guide_location: activities-guide-2.md#museum-free-days
 - id: oregon-jewish-museum
@@ -4363,12 +4370,11 @@
   guide_location: activities-guide-1.md#arts-and-culture
   notes: Three free campus galleries featuring regional and national artists. Student
     exhibitions in spring.
-- id: pcc-theatre-much-ado
-  name: 'PCC Theatre: Much Ado About Nothing'
+- id: pcc-theatre
+  name: PCC Theatre
   category: arts_culture
   location_type: physical
-  resource_type: event
-  status: PAST
+  resource_type: organization
   address: 12000 SW 49th Ave, Portland, OR 97219
   phone: 971-722-4848
   website: https://www.pcc.edu/theatre/
@@ -4376,19 +4382,24 @@
   - https://www.pcc.edu/theatre/
   - https://www.pcc.edu/facility-rental/performing-arts-center/
   pricing:
-    description: Ticket prices vary by section
-    notes: Student and senior discounts typically available
-  dates: November 20-23, 2025
-  eligibility: Open to the public
-  parking: Weekday permits required; available at kiosks and bookstore
-  last_verified: 2025-12-03
-  next_audit: 2026-03-03
+    description: Ticket prices vary by section (Sections A, B, C)
+    notes: Student and senior discounts typically available. Tickets online or at box office (opens 1hr before curtain, cash/check only).
+  current_production:
+    name: Magic Theatre
+    dates: March 4-8, 2026
+    schedule: 10-11am daily; Sat-Sun additional show 12-1pm
+    director: Julianne Johnson Weiss
+    producer: Dan Hays
+    season: Winter 2026
+  parking: Weekday permits required; weekends free
+  last_verified: 2026-03-07
+  next_audit: 2026-06-07
   audit_frequency: quarterly
   practical_tips:
     first_visit: Purchase tickets in advance online or at the door
     registration: null
     what_to_bring: null
-    good_to_know: State-of-the-art theater; 70+ productions since 1979
+    good_to_know: State-of-the-art theater at PCC Sylvania; 70+ productions since 1979. Three productions per academic year (one per term).
   accessibility:
   - wheelchair_accessible
   social_intensity: solo
@@ -5687,8 +5698,8 @@
   - name: PCC Cascade Campus
     address: 705 N Killingsworth St, Portland, OR 97217
   eligibility: Open to the public
-  last_verified: 2026-02-11
-  next_audit: 2026-03-11
+  last_verified: 2026-03-07
+  next_audit: 2026-04-07
   notes: 36th annual in 2026. 5-week celebration of African cinema during Black History Month.
   audit_frequency: monthly
   practical_tips:
@@ -7607,7 +7618,8 @@
   location_type: physical
   resource_type: place
   address: 8513 SW Tualatin Rd, Tualatin, OR 97062
-  phone: null
+  phone: 503-691-3061
+  hours: Mon-Fri 8am-5pm; Sat 9am-12pm; 4th Tue 6-8pm
   website: https://www.tualatinoregon.gov/recreation/adult-programs-and-services
   source_urls:
   - https://www.tualatinoregon.gov/recreation/adult-programs-and-services
@@ -7653,8 +7665,8 @@
       notes: 30-minute consultations with volunteer attorney
     trips:
     - Trips & Travel program
-  last_verified: 2025-12-02
-  next_audit: 2026-03-02
+  last_verified: 2026-03-07
+  next_audit: 2026-06-07
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by for JPC Prime Times calendar of activities
