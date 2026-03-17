@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-17T07:37:16.452670",
+  "generated": "2026-03-17T15:07:17.885151",
   "count": 225,
   "categories": {
     "peer_support": "Peer Support",
@@ -4139,7 +4139,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [
-        "\u274c CLOSED - Museum closed December 2024 due to funding cuts"
+        "\u274c CLOSED - Museum closed April 2025 due to funding cuts"
       ],
       "accessibility": [
         "wheelchair_accessible"
@@ -4152,7 +4152,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": "Named for historic gathering site of Kalapuyan Indians. Collection (40,000+ artifacts) transferred to Washington County.",
-      "practical_tips": "CLOSED as of December 2024 due to funding cuts. Collection transferred to Washington County."
+      "practical_tips": "CLOSED as of end of April 2025 due to funding cuts. Collection transferred to Washington County."
     },
     {
       "id": "oregon-rail-heritage",
@@ -4188,10 +4188,12 @@
         "indoor",
         "low_energy"
       ],
-      "audience": [],
+      "audience": [
+        "seniors"
+      ],
       "audience_notes": null,
       "notes": "Near OMSI by Tilikum Crossing. Since 2012. Locomotives owned by City of Portland.",
-      "practical_tips": "Currently free but admission fee starting January 2026. Small museum with historic steam locomotives. Usually not crowded. Volunteer-run so call ahead to verify hours. Near OMSI by Tilikum Crossing."
+      "practical_tips": "Admission fee began January 2026 ($6 adult, $5 senior/military, $4 child). Small museum with historic steam locomotives. Usually not crowded. Volunteer-run so call ahead to verify hours. Near OMSI by Tilikum Crossing."
     },
     {
       "id": "clackamas-county-libraries",
