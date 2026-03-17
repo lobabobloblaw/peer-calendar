@@ -1098,6 +1098,7 @@
   - "⚠️ VERIFY: DDA meeting at FolkTime (4837 NE Couch, Tue 2-3pm) still active?"
   - "⚠️ VERIFY: ddainc.org national directory shows different meetings (Fora Health Mon 3pm, Oregon Change Clinic Tue/Thu 12pm) than our stored schedule. Central office may have moved to 4141 SE Division St. Call 503-737-4126 to confirm."
   - "⚠️ VERIFY: Virtual Sat 10:30-11:30am meeting not listed on ddaoregon.com. Sat 10-11am at Alano Club confirmed via portlandalano.org. Website is very outdated (copyright 2008)."
+  - "⚠️ VERIFY: ddaoregon.com is DOWN (connection refused) as of Mar 17, 2026. Call 503-222-6484 and 503-737-4126 to confirm if DDA Oregon is still operating."
   pricing:
     description: FREE
   programs:
@@ -1278,7 +1279,7 @@
   location_type: physical
   resource_type: organization
   address: 324 NE 9th St., Gresham, OR 97030
-  phone: 971-384-7511
+  phone: 971-703-4623
   website: https://4drecovery.org/
   source_urls:
   - https://4drecovery.org/
@@ -1805,7 +1806,7 @@
   hours: Mon-Fri 5:30am-9pm, Sat 7am-5pm, Sun 8am-5pm (pool closes 30 min earlier)
   features:
   - Fitness center with selectorized strength, treadmills, wheelchair treadmill
-  - Indoor pool with whirlpool spa
+  - Indoor pool with whirlpool spa (⚠️ TEMPORARILY CLOSED - mechanical issues as of Mar 2026)
   - Water fitness classes
   - Group fitness classes daily
   - Open gym
@@ -2451,7 +2452,7 @@
   category: fitness_wellness
   location_type: physical
   resource_type: place
-  address: 9009 N Foss Ave, Portland, OR 97203
+  address: 9009 N Foss Ave, Portland, OR 97217
   phone: 503-823-3631
   website: https://www.portland.gov/parks/charles-jordan-community-center
   source_urls:
@@ -4705,7 +4706,7 @@
   - https://www.rosefestival.org/
   pricing:
     description: Multiple free events
-  dates: May 23 - June 7, 2026
+  dates: May 22 - June 28, 2026
   events:
   - name: Grand Floral Parade
     notes: Free along parade route; 2nd largest all-floral parade in US
@@ -4834,7 +4835,7 @@
     first_visit: Start anywhere along Alberta between 15th and 30th Ave
     registration: None - just show up
     what_to_bring: Cash for street vendors and food carts. Comfortable shoes for walking.
-    good_to_know: 27 years of community-driven arts in NE Portland. Street closures June-August (6-9pm) create pedestrian festival atmosphere. Year-round gallery openings indoors. Local artists can vend free - no permit needed. Unique Portland experience.
+    good_to_know: 29 years of community-driven arts in NE Portland. Street closures June-August (6-9pm) create pedestrian festival atmosphere. Year-round gallery openings indoors. Local artists can vend free - no permit needed. Unique Portland experience.
   accessibility:
     - transit_nearby
   accessibility_notes: Alberta St is flat and walkable. Bus 72 serves the area. Summer street closures improve pedestrian accessibility.
@@ -4845,7 +4846,7 @@
     - isolation
     - new_to_area
   guide_location: activities-guide-1.md#free-galleries-and-art-walks
-  notes: Since 1997. 27 years of community-driven arts. Year-round gallery openings indoors. Free vending for local artists (no permit needed).
+  notes: Since 1997. 29 years of community-driven arts. Year-round gallery openings indoors. Free vending for local artists (no permit needed).
   flags:
   - 🔄 SEASONAL
 - id: portland-tree-lighting
@@ -5416,10 +5417,10 @@
   - https://www.happyvalleyor.gov/services/hv-community-events/tree-lighting-ceremony/
   pricing:
     description: FREE
-  dates: December 7, 2026
+  dates: December 6, 2026
   last_verified: 2026-01-24
   next_audit: 2026-11-01
-  notes: Date estimated based on typical first-Monday-of-December pattern; confirm closer to event.
+  notes: Date estimated based on typical first-Sunday-of-December pattern; confirm closer to event.
   audit_frequency: annually
   practical_tips:
     first_visit: Located at Happy Valley City Hall area
@@ -5525,7 +5526,7 @@
   - https://christmasships.org/
   pricing:
     description: FREE viewing from any riverfront
-  dates: December 4-18, 2026
+  dates: November 27 - December 21, 2026
   last_verified: 2026-01-24
   next_audit: 2026-11-01
   notes: 2026 dates estimated based on typical mid-December schedule; confirm in fall. 15 nights of decorated boats.
@@ -7195,9 +7196,9 @@
   resource_type: organization
   address: null
   phone: null
-  website: https://solveoregon.org
+  website: https://www.solve.org
   source_urls:
-  - https://solveoregon.org
+  - https://www.solve.org
   pricing:
     description: FREE
   programs:
@@ -7468,7 +7469,7 @@
   - https://www.clackamas.us/socialservices/seniorresources.html
   pricing:
     description: FREE information and referral services
-  hours: Monday-Thursday 7am-6pm
+  hours: Monday-Thursday 8:30am-5:30pm
   services:
   - Information and assistance
   - Long-term care options counseling
