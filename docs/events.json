@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-17T15:07:17.885151",
+  "generated": "2026-03-17T15:20:34.751286",
   "count": 225,
   "categories": {
     "peer_support": "Peer Support",
@@ -1268,7 +1268,7 @@
         "\u26a0\ufe0f VERIFY: DDA meeting at FolkTime (4837 NE Couch, Tue 2-3pm) still active?",
         "\u26a0\ufe0f VERIFY: ddainc.org national directory shows different meetings (Fora Health Mon 3pm, Oregon Change Clinic Tue/Thu 12pm) than our stored schedule. Central office may have moved to 4141 SE Division St. Call 503-737-4126 to confirm.",
         "\u26a0\ufe0f VERIFY: Virtual Sat 10:30-11:30am meeting not listed on ddaoregon.com. Sat 10-11am at Alano Club confirmed via portlandalano.org. Website is very outdated (copyright 2008).",
-        "\u26a0\ufe0f VERIFY: ddaoregon.com is DOWN (connection refused) as of Mar 17, 2026. Call 503-222-6484 and 503-737-4126 to confirm if DDA Oregon is still operating."
+        "\u26a0\ufe0f VERIFY: ddaoregon.com blocks automated access but loads in browser (Mar 17, 2026). Content may be outdated (copyright 2008). Call 503-222-6484 and 503-737-4126 to verify current meeting schedule."
       ],
       "accessibility": [
         "transit_nearby"
@@ -7185,7 +7185,7 @@
       "color": "#228B22",
       "address": "Happy Valley, OR",
       "phone": null,
-      "website": "https://www.oregonmetro.gov/parks/scouters-mountain-nature-park",
+      "website": "https://www.oregonmetro.gov/places/scouters-mountain-nature-park",
       "pricing": {
         "description": "FREE"
       },
