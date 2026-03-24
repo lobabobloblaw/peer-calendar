@@ -25,9 +25,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:b8b48cbe08f220fe@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260322T150000
-DTEND:20260322T163000
+DTSTAMP:20260324T074025Z
+DTSTART:20260329T150000
+DTEND:20260329T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (In-Person)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
   464 SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\n
@@ -52,9 +52,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dba6711eb13da213@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260322T150000
-DTEND:20260322T163000
+DTSTAMP:20260324T074025Z
+DTSTART:20260329T150000
+DTEND:20260329T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (Online)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nAddress: 464 
  SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsi
@@ -78,9 +78,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9777816b12080f9@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260323T190000
-DTEND:20260323T203000
+DTSTAMP:20260324T074025Z
+DTSTART:20260330T190000
+DTEND:20260330T203000
 SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
  LGBTQ2SIA+ adults 18+ with mental health symptoms\nAddress: 464 SE 185th A
@@ -106,9 +106,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c8206c50171db713@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260322T150000
-DTEND:20260322T163000
+DTSTAMP:20260324T074025Z
+DTSTART:20260329T150000
+DTEND:20260329T163000
 SUMMARY:NAMI Multnomah: Young Adult (18-35)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nEligibil
  ity: Ages 18-35 with mental health symptoms\nAddress: 464 SE 185th Ave\, S
@@ -135,9 +135,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4b11c0aa298f2306@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260319T190000
-DTEND:20260319T203000
+DTSTAMP:20260324T074025Z
+DTSTART:20260326T190000
+DTEND:20260326T203000
 SUMMARY:NAMI Multnomah: BIPOC Peer Support
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
  Black\, Indigenous\, and/or People of Color adults with mental health cond
@@ -164,9 +164,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c08dbed81b24d0f5@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260317T190000
-DTEND:20260317T203000
+DTSTAMP:20260324T074025Z
+DTSTART:20260324T190000
+DTEND:20260324T203000
 SUMMARY:NAMI Multnomah: Complex Trauma & Dissociation Support
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
  Those experiencing complex trauma and/or dissociation\nAddress: 464 SE 185
@@ -192,9 +192,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:531662b55bc0a9a7@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260317T190000
-DTEND:20260317T203000
+DTSTAMP:20260324T074025Z
+DTSTART:20260324T190000
+DTEND:20260324T203000
 SUMMARY:NAMI Clackamas: NAMI Connection Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: For adults living with mental health conditions. Registration required.
@@ -221,9 +221,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:abda9c8971b1314b@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260318T170000
-DTEND:20260318T183000
+DTSTAMP:20260324T074025Z
+DTSTART:20260325T170000
+DTEND:20260325T183000
 SUMMARY:NAMI Clackamas: Women (18+) Only Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Bi-weekly peer-led re
  covery support\nAddress: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97
@@ -248,9 +248,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:620a559fb7ab08a0@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260323T183000
-DTEND:20260323T200000
+DTSTAMP:20260324T074025Z
+DTSTART:20260330T183000
+DTEND:20260330T200000
 SUMMARY:NAMI Clackamas: NAMI Family Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: For anyone who cares about someone with mental health condition. ⚠️ VER
@@ -278,28 +278,27 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d8997f26797c801@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260318T190000
-DTEND:20260318T203000
+DTSTAMP:20260324T074025Z
+DTSTART:20260325T190000
+DTEND:20260325T203000
 SUMMARY:NAMI Clackamas: NAMI Clackamas Conexion (Spanish-Speaking Support G
  roup)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
- o: Peer-led for Spanish-speaking adults with mental health conditions. ⚠️ 
- VERIFY schedule by phone (NAMI Oregon page returned 404)\nAddress: 10202 S
- E 32nd Ave\, Suite 501\, Milwaukie\, OR 97222\nPhone: 503-344-5050\nWebsit
- e: https://namicc.org\nDetails: Registration required for most groups. All
-  groups free and peer-led by trained volunteers with lived experience.
+ o: Peer-led for Spanish-speaking adults with mental health conditions. Con
+ firmed via NAMI Oregon directory.\nAddress: 10202 SE 32nd Ave\, Suite 501\
+ , Milwaukie\, OR 97222\nPhone: 503-344-5050\nWebsite: https://namicc.org\n
+ Details: Registration required for most groups. All groups free and peer-l
+ ed by trained volunteers with lived experience.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
  N"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Co
  st:</strong> FREE</p><p><strong>Format:</strong> Virtual (Zoom)</p><p>Peer
- -led for Spanish-speaking adults with mental health conditions. ⚠️ VERIFY 
- schedule by phone (NAMI Oregon page returned 404)</p><p><strong>Address:</
- strong> 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222</p><p><strong
- >Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p><p><strong
- >Website:</strong> <a href="https://namicc.org">https://namicc.org</a></p>
- <p><strong>Details:</strong> Registration required for most groups. All gr
- oups free and peer-led by trained volunteers with lived experience.</p></B
- ODY></HTML>
+ -led for Spanish-speaking adults with mental health conditions. Confirmed 
+ via NAMI Oregon directory.</p><p><strong>Address:</strong> 10202 SE 32nd A
+ ve\, Suite 501\, Milwaukie\, OR 97222</p><p><strong>Phone:</strong> <a hre
+ f="tel:503-344-5050">503-344-5050</a></p><p><strong>Website:</strong> <a h
+ ref="https://namicc.org">https://namicc.org</a></p><p><strong>Details:</st
+ rong> Registration required for most groups. All groups free and peer-led 
+ by trained volunteers with lived experience.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222
 URL:https://namicc.org
@@ -309,9 +308,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ea6aaafa1987c3ab@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260323T190000
-DTEND:20260323T203000
+DTSTAMP:20260324T074025Z
+DTSTART:20260330T190000
+DTEND:20260330T203000
 SUMMARY:NAMI Clackamas: LGBTQ+ Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: Joint program with NAMI Multnomah - weekly for adults 18+. ⚠️ VERIFY sc
@@ -338,9 +337,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0f499a48fa4b50aa@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260319T190000
-DTEND:20260319T203000
+DTSTAMP:20260324T074025Z
+DTSTART:20260326T190000
+DTEND:20260326T203000
 SUMMARY:NAMI Clackamas: BIPOC Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIF
@@ -367,9 +366,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:651932636ba165c7@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260323T190000
-DTEND:20260323T203000
+DTSTAMP:20260324T074025Z
+DTSTART:20260330T190000
+DTEND:20260330T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): LGBTQIA+ Suppo
  rt Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online (1st Monday 
@@ -393,9 +392,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:215024356d2538f2@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260317T183000
-DTEND:20260317T195000
+DTSTAMP:20260324T074025Z
+DTSTART:20260324T183000
+DTEND:20260324T195000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (W
  est Portland)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nWebsite: ht
@@ -418,9 +417,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49d6b06cbd9d0a5b@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260319T190000
-DTEND:20260319T203000
+DTSTAMP:20260324T074025Z
+DTSTART:20260326T190000
+DTEND:20260326T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (E
  astside)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nWebsite: ht
@@ -443,9 +442,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a8aee7696d751ae1@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260321T100000
-DTEND:20260321T113000
+DTSTAMP:20260324T074025Z
+DTSTART:20260328T100000
+DTEND:20260328T113000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Mental Healthc
  are Professionals
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nInfo: For m
@@ -471,9 +470,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:19f42812d02d4c30@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260322T100000
-DTEND:20260322T110000
+DTSTAMP:20260324T074025Z
+DTSTART:20260329T100000
+DTEND:20260329T110000
 SUMMARY:Recovery Dharma Portland (PDX): Queer Paths (LGBTQIA+)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nWebsite: http
  s://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portland. 
@@ -494,9 +493,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d01907d4e561c48d@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260322T160000
-DTEND:20260322T170000
+DTSTAMP:20260324T074025Z
+DTSTART:20260329T160000
+DTEND:20260329T170000
 SUMMARY:Recovery Dharma Portland (PDX): Middle Way on MLK
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -518,9 +517,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a401de0df0a97d58@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260323T070000
-DTEND:20260323T080000
+DTSTAMP:20260324T074025Z
+DTSTART:20260330T070000
+DTEND:20260330T080000
 SUMMARY:Recovery Dharma Portland (PDX): Dawn Metta
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nWebsite: http
  s://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portland. 
@@ -541,9 +540,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8b74d636a24a9d3b@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260323T190000
-DTEND:20260323T200000
+DTSTAMP:20260324T074025Z
+DTSTART:20260330T190000
+DTEND:20260330T200000
 SUMMARY:Recovery Dharma Portland (PDX): Dharma Rain Eightfold Path Study
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Hybrid\nWebsite: ht
  tps://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portland
@@ -565,9 +564,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cf5b8c34d2c742aa@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260323T180000
-DTEND:20260323T191500
+DTSTAMP:20260324T074025Z
+DTSTART:20260330T180000
+DTEND:20260330T191500
 SUMMARY:Recovery Dharma Portland (PDX): Hungry Ghosts
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -589,9 +588,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:23dea98a4f0c56b7@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260317T193000
-DTEND:20260317T203000
+DTSTAMP:20260324T074025Z
+DTSTART:20260324T193000
+DTEND:20260324T203000
 SUMMARY:Recovery Dharma Portland (PDX): Women's\, Trans\, and Non-Binary
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -613,9 +612,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b9e264e45b420ecd@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260319T120000
-DTEND:20260319T130000
+DTSTAMP:20260324T074025Z
+DTSTART:20260326T120000
+DTEND:20260326T130000
 SUMMARY:Recovery Dharma Portland (PDX): Thursday Portland Alano Club
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -637,9 +636,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:568f2b14f76f137e@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260320T190000
-DTEND:20260320T203000
+DTSTAMP:20260324T074025Z
+DTSTART:20260327T190000
+DTEND:20260327T203000
 SUMMARY:Recovery Dharma Portland (PDX): Sarpashana
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -661,9 +660,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0a44eb8e53fca375@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260321T190000
-DTEND:20260321T200000
+DTSTAMP:20260324T074025Z
+DTSTART:20260328T190000
+DTEND:20260328T200000
 SUMMARY:Recovery Dharma Portland (PDX): Meditation Sandwich
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -685,9 +684,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d6de414531d54a8c@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260317T100000
-DTEND:20260317T120000
+DTSTAMP:20260324T074025Z
+DTSTART:20260324T100000
+DTEND:20260324T120000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): Trans PDX Support Grou
  p
 DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: For t
@@ -714,9 +713,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5dccfbb24ed3c3f2@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260323T190000
-DTEND:20260323T203000
+DTSTAMP:20260324T074025Z
+DTSTART:20260330T190000
+DTEND:20260330T203000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): LGBTQIA2S+ Mental Heal
  th Support
 DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: Peer-
@@ -743,9 +742,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:65981a99ae5aad6e@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260318T190000
-DTEND:20260318T210000
+DTSTAMP:20260324T074025Z
+DTSTART:20260325T190000
+DTEND:20260325T210000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): QTIBIPOC Community Spa
  ce
 DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: For q
@@ -772,9 +771,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a21b6c155557d1bd@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260323T120000
-DTEND:20260323T130000
+DTSTAMP:20260324T074025Z
+DTSTART:20260330T120000
+DTEND:20260330T130000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Luke Dorf Meeting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
  2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
@@ -799,9 +798,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6705b1bab8158dc0@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260323T151500
-DTEND:20260323T161500
+DTSTAMP:20260324T074025Z
+DTSTART:20260330T151500
+DTEND:20260330T161500
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Providence Medical Center Me
  eting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
@@ -827,9 +826,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7eee8f348d64220f@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260323T140000
-DTEND:20260323T150000
+DTSTAMP:20260324T074025Z
+DTSTART:20260330T140000
+DTEND:20260330T150000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Taft Hotel Meeting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
  2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
@@ -854,9 +853,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e3edc33c7c6abd02@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260321T100000
-DTEND:20260321T110000
+DTSTAMP:20260324T074025Z
+DTSTART:20260328T100000
+DTEND:20260328T110000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Saturday Meeting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
  2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
@@ -881,9 +880,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fd5742a493e3fee2@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260321T103000
-DTEND:20260321T113000
+DTSTAMP:20260324T074025Z
+DTSTART:20260328T103000
+DTEND:20260328T113000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Virtual Meeting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nAddress: 521 
  SW 11th Ave\, 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsit
@@ -910,9 +909,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b744c3545429bb98@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260323T080000
-DTEND:20260323T170000
+DTSTAMP:20260324T074025Z
+DTSTART:20260330T080000
+DTEND:20260330T170000
 SUMMARY:Bridges to Change - Club Hope: Recovery Drop-In Center
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Sa
  fe space for peer connection and support. Shower/laundry facilities availa
@@ -942,9 +941,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3f2be9a46ade2d95@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260317T173000
-DTEND:20260317T183000
+DTSTAMP:20260324T074025Z
+DTSTART:20260324T173000
+DTEND:20260324T183000
 SUMMARY:Bridges to Change - Club Hope: Dual Diagnosis Anonymous (DDA) Meeti
  ng
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Fo
@@ -974,9 +973,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b2c9ee508316dbb0@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260323T100000
-DTEND:20260323T110000
+DTSTAMP:20260324T074025Z
+DTSTART:20260330T100000
+DTEND:20260330T110000
 SUMMARY:Portland Hearing Voices: In-Person Hearing Voices Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\, drop-in
  \nAddress: 333 SW Park Ave\, Portland\, OR 97205\nWebsite: https://www.por
@@ -1003,9 +1002,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9b4a6cb18a941d5e@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260323T123000
-DTEND:20260323T133000
+DTSTAMP:20260324T074025Z
+DTSTART:20260330T123000
+DTEND:20260330T133000
 SUMMARY:Portland Hearing Voices: Hearing Voices Online
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: Online groups marked as '(Possibly)' on website - may be intermittent. 
@@ -1036,9 +1035,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:90892bb9e6fa288c@portlandresources.org
-DTSTAMP:20260317T153103Z
-DTSTART:20260323T183000
-DTEND:20260323T200000
+DTSTAMP:20260324T074025Z
+DTSTART:20260330T183000
+DTEND:20260330T200000
 SUMMARY:Hopewell House Grief Support: Community Grief Ritual
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\, drop-in
  \, no RSVP needed\nInfo: A practice of transforming individual and collect

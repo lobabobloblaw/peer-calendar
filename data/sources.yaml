@@ -255,6 +255,132 @@
     - anxiety_friendly
     - low_energy
   guide_location: activities-guide-1.md#utility-bill-discounts
+
+- id: pge-bill-discount
+  name: PGE Income-Qualified Bill Discount
+  category: discount_programs
+  location_type: online_service
+  resource_type: service
+  address: null
+  phone: 800-542-8818
+  website: https://portlandgeneral.com/help/help-topics/energy-assistance-programs-residential
+  source_urls:
+    - https://portlandgeneral.com/help/help-topics/energy-assistance-programs-residential
+  pricing:
+    description: 15-80% monthly discount on PGE electric bills
+    notes: Stackable with other energy assistance programs (LIHEAP, Oregon Energy Fund)
+  eligibility: Income-qualified PGE customers (income thresholds vary by household size)
+  apply: Online or by phone
+  last_verified: 2026-03-24
+  next_audit: 2027-03-24
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Apply online through your PGE account or call 800-542-8818
+    registration: Online application; income verification required
+    good_to_know: Ongoing monthly discount of 15-80% depending on income and household size. Can be combined with LIHEAP and Oregon Energy Fund assistance for maximum savings.
+  social_intensity: solo
+  good_for:
+    - anxiety_friendly
+    - low_energy
+  guide_location: activities-guide-1.md#utility-bill-discounts
+  notes: PGE electric bill discount program. 15-80% off monthly bills for qualifying customers.
+
+- id: portland-water-smart-discount
+  name: Portland Water Bureau Smart Discount
+  category: discount_programs
+  location_type: online_service
+  resource_type: service
+  address: null
+  phone: 503-823-7770
+  website: https://www.portland.gov/water/financial-assistance
+  source_urls:
+    - https://www.portland.gov/water/financial-assistance
+  pricing:
+    description: 5-80% discount on water and sewer bills
+    notes: Discount based on financial vulnerability assessment
+  eligibility: Portland Water Bureau customers experiencing financial hardship
+  apply: Online, by mail, or in person
+  last_verified: 2026-03-24
+  next_audit: 2027-03-24
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Apply online at portland.gov/water or call 503-823-7770
+    good_to_know: Sliding scale discount from 5% to 80% based on financial need. Covers both water and sewer charges. Can be combined with other utility discount programs.
+  social_intensity: solo
+  good_for:
+    - anxiety_friendly
+    - low_energy
+  guide_location: activities-guide-1.md#utility-bill-discounts
+  notes: Portland water/sewer bill discount. 5-80% off based on financial need.
+
+- id: oregon-lifeline
+  name: Oregon Lifeline (Phone & Internet Discount)
+  category: discount_programs
+  location_type: online_service
+  resource_type: service
+  address: null
+  phone: 800-848-4442
+  website: https://www.oregon.gov/puc/pages/oregon-lifeline.aspx
+  source_urls:
+    - https://www.oregon.gov/puc/pages/oregon-lifeline.aspx
+    - https://www.oregon.gov/puc/pages/rspf.aspx
+  pricing:
+    description: "Up to $19.25/month off internet OR $15.25/month off phone"
+    notes: Can also receive free wireless voice minutes and data through some providers
+  eligibility: "Oregon residents 18+, household income at or below 135% FPL, OR receiving OHP, SNAP, TANF, Medicaid, Section 8, LIHEAP, SSI, VA Pension, BIA General Assistance"
+  apply: Online through USAC National Verifier, or through participating phone/internet provider
+  last_verified: 2026-03-24
+  next_audit: 2027-03-24
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Check if your phone or internet provider participates, then apply through them or through the National Verifier at nv.fcc.gov
+    good_to_know: One discount per household. Choose either phone ($15.25/month off) or internet ($19.25/month off). Auto-qualify if you receive OHP, SNAP, TANF, Medicaid, SSI, or other public benefits. Some providers offer free wireless service.
+  social_intensity: solo
+  good_for:
+    - anxiety_friendly
+    - low_energy
+  guide_location: activities-guide-1.md#essential-access-programs
+  notes: Oregon PUC program reducing phone or internet costs for low-income households.
+
+- id: free-legal-aid-portland
+  name: Free Legal Aid Services (Portland Metro)
+  category: discount_programs
+  location_type: hybrid
+  resource_type: service
+  address: null
+  phone: null
+  website: https://www.pdxlrg.org/general
+  source_urls:
+    - https://lasoregon.org/
+    - https://oregonlawcenter.org/
+  pricing:
+    description: FREE
+  programs:
+    - name: Legal Aid Services of Oregon (LASO)
+      phone: 503-224-4086
+      toll_free: 800-228-6958
+      website: https://lasoregon.org/
+      notes: Free legal representation in housing, family law, public benefits, employment. Portland office at 921 SW Washington St, Suite 500.
+    - name: Oregon Law Center (OLC)
+      phone: 503-295-2760
+      toll_free: 800-520-5292
+      website: https://oregonlawcenter.org/
+      notes: Free legal help for housing, livelihoods, medical care, domestic violence protection. Public Benefits Hotline 800-520-5292.
+    - name: PCC CLEAR Clinic
+      notes: Free criminal record expungements, eviction record expungements, eviction defense. Through Portland Community College.
+  last_verified: 2026-03-24
+  next_audit: 2027-03-24
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Call LASO (503-224-4086) or OLC (503-295-2760) to see if you qualify
+    good_to_know: Free legal help for low-income residents. LASO and OLC cover housing, family law, public benefits, employment. OLC has a Public Benefits Hotline (800-520-5292) for help with OHP, SNAP, SSI/SSDI denials. PCC CLEAR Clinic helps with criminal record and eviction expungements — critical for housing access.
+  social_intensity: one_on_one
+  good_for:
+    - anxiety_friendly
+    - low_energy
+  guide_location: activities-guide-1.md#essential-access-programs
+  notes: Free legal services for low-income Portland metro residents. Covers housing, benefits, family law, record expungement.
+
 - id: double-up-food-bucks
   name: Double Up Food Bucks
   category: discount_programs
@@ -457,6 +583,109 @@
 # TRANSPORTATION
 ---
 
+- id: ride-connection
+  name: Ride Connection
+  category: transportation
+  location_type: varies
+  resource_type: service
+  address: null
+  phone: 503-226-0700
+  website: https://rideconnection.org/
+  source_urls:
+    - https://rideconnection.org/
+    - https://rideconnection.org/services/door-to-door-rides/
+  pricing:
+    description: FREE or low-cost (varies by program)
+    notes: Many rides free for seniors 60+ and people with disabilities. General public rides available in some areas.
+  eligibility: "Seniors 60+, people with disabilities, and general public in select areas. Rural general public limited to 10 one-way trips/month."
+  services:
+    - Door-to-door rides for any purpose (medical, meals, shopping, recreation, work)
+    - Volunteer driver programs
+    - Shuttle services
+    - Travel training
+  service_area: Portland metro tri-county area and surrounding communities
+  hours: "Service Center: Mon-Fri (call for hours). TTY: 7-1-1"
+  last_verified: 2026-03-24
+  next_audit: 2026-06-24
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Call 503-226-0700 to schedule a ride or learn about available services in your area
+    registration: Call Service Center; eligibility varies by program
+    good_to_know: Door-to-door rides for ANY purpose — not just medical. Covers medical, meals, shopping, recreation, and work trips. Especially valuable for seniors and people with disabilities in areas with limited transit. TTY available at 7-1-1.
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: solo
+  good_for:
+    - anxiety_friendly
+    - low_energy
+  guide_location: activities-guide-1.md#essential-access-programs
+  notes: Door-to-door ride service for seniors, people with disabilities, and underserved communities. Rides for any purpose including recreation.
+
+- id: biketown-for-all
+  name: BIKETOWN for All
+  category: transportation
+  location_type: varies
+  resource_type: service
+  address: null
+  phone: null
+  website: https://biketownpdx.com/pricing/biketown-for-all
+  source_urls:
+    - https://biketownpdx.com/pricing/biketown-for-all
+  pricing:
+    description: "$5/month for unlimited 60-minute rides"
+    notes: Regular membership is $20/month. BIKETOWN for All is 75% off.
+  eligibility: "Portland-area residents enrolled in SNAP, OHP, TANF, Section 8, LIHEAP, WIC, or with income ≤200% FPL"
+  last_verified: 2026-03-24
+  next_audit: 2027-03-24
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Apply at biketownpdx.com with proof of qualifying benefits
+    good_to_know: $5/month for unlimited 60-minute bike rides across Portland. E-bikes available. 75% discount off regular pricing. Great supplement to transit.
+  social_intensity: solo
+  good_for:
+    - active
+    - outdoor
+  guide_location: activities-guide-1.md#essential-access-programs
+  notes: Discounted bike share membership for low-income Portland residents. $5/month.
+
+- id: spot-southwest
+  name: SPOT Southwest (Free On-Demand Transit)
+  category: transportation
+  location_type: physical
+  resource_type: service
+  address: null
+  phone: null
+  website: https://catchthespot.org/
+  source_urls:
+    - https://catchthespot.org/
+    - https://www.washingtoncountyor.gov/lut/planning/microtransit
+  pricing:
+    description: FREE
+  schedule: Mon-Fri 6:30am-9:30pm
+  service_area:
+    - South Cooper Mountain (Beaverton)
+    - Murrayhill (Beaverton)
+    - Sexton Mountain (Beaverton)
+    - Progress Ridge (Beaverton)
+    - River Terrace (Tigard)
+  connections: Washington Square Transit Center (TriMet bus connections)
+  funding_through: 2027 school year
+  last_verified: 2026-03-24
+  next_audit: 2026-06-24
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Download the SPOT app (Google Play/App Store) to request a ride
+    registration: App-based; request rides in real time
+    good_to_know: Free door-to-door shared rides in SW Beaverton and NW Tigard. Connects to Washington Square Transit Center for TriMet bus transfers. Launched January 2026, funded through 2027. Fills a critical transit gap in an underserved area.
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: solo
+  good_for:
+    - anxiety_friendly
+    - low_energy
+  guide_location: activities-guide-1.md#essential-access-programs
+  notes: Washington County free on-demand microtransit pilot. Serves SW Beaverton and NW Tigard neighborhoods with no fixed-route transit. Funded through 2027.
+
 - id: trimet-low-income
   name: TriMet Low-Income Fare Program
   category: transportation
@@ -580,12 +809,16 @@
     schedule: 1st & 3rd Mondays, 6:30-8pm
     format: Virtual (Zoom)
     notes: For anyone who cares about someone with mental health condition. ⚠️ VERIFY schedule by phone (sourced from NAMI Oregon directory)
+  - name: Creative Support Group
+    schedule: 2nd & 4th Thursdays
+    location: Oregon City (in-person, address provided upon registration)
+    notes: Creative arts peer support group. Started January 2026.
   - name: NAMI Clackamas Conexion (Spanish-Speaking Support Group)
     schedule: Every Wednesday, 7-8:30pm
     format: Virtual (Zoom)
     audience:
       - spanish_speaking
-    notes: Peer-led for Spanish-speaking adults with mental health conditions. ⚠️ VERIFY schedule by phone (NAMI Oregon page returned 404)
+    notes: Peer-led for Spanish-speaking adults with mental health conditions. Confirmed via NAMI Oregon directory.
   - name: LGBTQ+ Support Group
     schedule: Every Monday, 7-8:30pm
     format: Virtual (Zoom)
@@ -600,14 +833,14 @@
     notes: Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIFY by phone before publishing
   - name: Suicide Bereavement Support Group
     notes: Hosted by NAMI Clackamas for those bereaved by suicide. ⚠️ VERIFY schedule by phone (not found online)
-  last_verified: 2026-02-11
-  next_audit: 2026-03-11
+  last_verified: 2026-03-24
+  next_audit: 2026-04-24
   audit_frequency: monthly
   practical_tips:
     first_visit: "Call or email to register for your first meeting"
     registration: "Registration required - call 503-344-5050 or check website"
     what_to_bring: "Nothing required; virtual groups send Zoom link after registration"
-    good_to_know: "Spanish-speaking group available. Women's group meets in-person in Milwaukie. All peer-led."
+    good_to_know: "Spanish-speaking group available. Women's group meets in-person in Milwaukie. New creative support group in Oregon City. All peer-led."
   accessibility:
     - transit_nearby
   social_intensity: structured_group
@@ -619,6 +852,48 @@
   guide_location: activities-guide-2.md#mental-health-peer-support-groups
   notes: Registration required for most groups. All groups free and peer-led by trained
     volunteers with lived experience.
+
+- id: clackamas-crisis-center
+  name: Clackamas County Crisis & Walk-In Mental Health Center
+  category: peer_support
+  location_type: hybrid
+  resource_type: service
+  address: 11211 SE 82nd Ave, Suite O, Happy Valley, OR 97086
+  phone: 503-655-8585
+  website: https://www.clackamas.us/behavioralhealth/urgentmentalhealth
+  source_urls:
+    - https://www.clackamas.us/behavioralhealth/urgentmentalhealth
+  pricing:
+    description: FREE (regardless of insurance or ability to pay)
+  hours:
+    crisis_line: 24/7, every day of the year
+    walk_in: Mon-Fri 9am-7pm
+  services:
+    - 24/7 Crisis & Support Line (503-655-8585)
+    - Walk-in urgent mental health care
+    - Brief counseling and safety screenings
+    - Peer-delivered support services
+    - Referrals to ongoing resources
+    - Mobile Crisis Response Team (anytime, day or night)
+    - Telehealth option available
+  eligibility: Anyone living in Clackamas County, regardless of ability to pay
+  last_verified: 2026-03-24
+  next_audit: 2026-06-24
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Call 503-655-8585 anytime, or walk in Mon-Fri 9am-7pm. You don't have to be in crisis — any time you need help is the right time.
+    good_to_know: "Not just for crisis — call anytime you need mental health support. Peer-delivered services from people with lived experience. Walk-in center in Happy Valley. Mobile crisis team can come to you. Telehealth available. Free for all Clackamas County residents."
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: one_on_one
+  good_for:
+    - anxiety_friendly
+    - isolation
+    - grief
+    - indoor
+  guide_location: activities-guide-2.md#crisis-resources
+  notes: Free 24/7 crisis line and walk-in mental health center for Clackamas County. Peer-delivered services. Mobile crisis response available.
+
 - id: folktime
   name: FolkTime Peer Connection Centers
   category: peer_support
@@ -647,18 +922,21 @@
   - Collective meal preparation
   - Hearing Voices Network support groups
   orientation: 2nd and 3rd Wednesdays of the month
-  upcoming:
-  - name: Peer Respite Center
-    status: Opening 2025
-    notes: 24-hour peer support, home-like environment, up to 2-week stays
-  last_verified: 2026-01-24
-  next_audit: 2026-02-24
+  peer_respite:
+    name: FolkTime Peer Respite
+    status: Open (since March 2025)
+    hours: 24/7, 365 days/year
+    capacity: 5 beds
+    email: respite@folktime.org
+    notes: Non-clinical, peer-led. Guests in self-defined crises stay up to 2 weeks in a home-like environment. Voluntary participation; guests may continue working and accessing natural supports.
+  last_verified: 2026-03-24
+  next_audit: 2026-04-24
   audit_frequency: monthly
   practical_tips:
     first_visit: "Attend orientation on 2nd or 3rd Wednesday of any month"
     registration: "Email peerconnection@folktime.org or just show up to orientation"
     what_to_bring: "Nothing required; $1 donation suggested for collective lunch"
-    good_to_know: "Oregon's oldest peer-run program (1985). Drop-in, no referral needed. Arrive by 11am to join collective lunch prep."
+    good_to_know: "Oregon's oldest peer-run program (1985). Drop-in, no referral needed. Arrive by 11am to join collective lunch prep. Peer Respite Center now open 24/7 — contact respite@folktime.org."
   accessibility:
     - transit_nearby
   social_intensity: casual_group
@@ -705,8 +983,8 @@
   - Nutrition & food prep
   - Social activities
   - Individual goal setting
-  last_verified: 2026-02-08
-  next_audit: 2026-03-08
+  last_verified: 2026-03-24
+  next_audit: 2026-04-24
   audit_frequency: monthly
   practical_tips:
     first_visit: "Orientations are every other Wednesday at 3pm (in-person and on Zoom). Referral from a mental health professional required first."
@@ -1080,6 +1358,49 @@
   guide_location: activities-guide-2.md#lgbtq-support
   notes: Portland's LGBTQ+ community center. Safe space with multi-generational programs.
     Many support groups and weekly events.
+
+- id: smyrc
+  name: SMYRC (Sexual & Gender Minority Youth Resource Center)
+  category: peer_support
+  location_type: physical
+  resource_type: organization
+  address: 1220 SW Columbia St, Suite 130, Portland, OR 97201
+  phone: 503-872-9664
+  website: https://newavenues.org/smyrc/
+  source_urls:
+    - https://newavenues.org/smyrc/
+  pricing:
+    description: FREE
+  eligibility: LGBTQIA2S+ youth ages 13-24
+  audience:
+    - lgbtq
+    - teens
+    - young_adults
+  services:
+    - Safe drop-in space
+    - Free food, clothing, hygiene supplies
+    - Safer sex supplies and gender-affirming garments
+    - Community events and field trips
+    - Affinity groups
+    - Counseling
+  last_verified: 2026-03-24
+  next_audit: 2026-06-24
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Just drop in during open hours. Safe, harassment-free space.
+    good_to_know: Since 1998 — one of the longest-running LGBTQ+ youth centers in the US. Free food, clothing, hygiene supplies, gender-affirming garments. No judgment, no questions.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: drop_in
+  good_for:
+    - anxiety_friendly
+    - isolation
+    - indoor
+    - new_to_area
+  guide_location: activities-guide-2.md#lgbtq-support
+  notes: LGBTQ+ youth drop-in center (ages 13-24). Free resources including food, clothing, and gender-affirming supplies. Run by New Avenues for Youth.
+
 - id: dda-oregon
   name: Dual Diagnosis Anonymous (DDA) Oregon
   category: peer_support
@@ -2041,9 +2362,9 @@
     - anxiety_friendly
   notes: "1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court."
   flags:
-  - "⚠️ VERIFY - Lloyd Center mall confirmed closing in 2026 for demolition and redevelopment. Tenants will receive 90 days notice. Food Court 5000 still running as of Feb 2026 but future location uncertain. Consider adding schedule_end_date when closure date is announced."
-  last_verified: 2026-02-13
-  next_audit: 2026-03-13
+  - "⚠️ VERIFY - Lloyd Center closing by end of 2026; Portland Design Commission approved demolition/redevelopment master plan. Food Court 5000 still running Sundays as of March 2026 but no relocation plans announced. Add schedule_end_date when closure date is confirmed."
+  last_verified: 2026-03-24
+  next_audit: 2026-04-24
   audit_frequency: monthly
   guide_location: activities-guide-2.md#mall-walking-programs
 - id: neighborwalks
@@ -3705,6 +4026,117 @@
   guide_location: activities-guide-1.md#libraries
   notes: 13 public libraries in Clackamas County. Oak Lodge and Gladstone operated
     by the county; others are independent LINCC members.
+
+- id: oregon-city-library
+  name: Oregon City Public Library
+  category: arts_culture
+  location_type: physical
+  resource_type: place
+  address: 362 Warner Milne Rd, Oregon City, OR 97045
+  phone: 503-657-8269
+  website: https://www.orcity.org/library
+  source_urls:
+    - https://www.orcity.org/library
+    - https://orcity-library.libcal.com/
+  pricing:
+    description: FREE (all programs)
+  programs:
+    - name: Art Gym
+      schedule: Check library calendar
+      cost: FREE
+      notes: Open studio arts & crafts with local artist Melissa. Materials supplied. Adults of all abilities.
+    - name: Oregon City Chess Club
+      schedule: Last Sunday of each month
+      cost: FREE
+      notes: Drop-in. All ages, abilities, and skill levels welcome.
+    - name: Book Club
+      schedule: Last Tuesday of each month
+      cost: FREE
+      notes: Participants choose the topic and book
+    - name: LEGO Building Challenge
+      schedule: Monthly at 10:30am
+      cost: FREE
+      notes: Pre-registration encouraged
+  services:
+    - Free WiFi and computer access
+    - Community room events
+    - Cultural and educational seminars
+  last_verified: 2026-03-24
+  next_audit: 2026-06-24
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Check the event calendar at orcity-library.libcal.com for current programs
+    good_to_know: Art Gym provides all materials — just show up and create. Chess Club is very welcoming to beginners. Good free adult programming in Oregon City.
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: casual_group
+  good_for:
+    - creative
+    - anxiety_friendly
+    - indoor
+    - isolation
+  guide_location: activities-guide-1.md#libraries
+  notes: Oregon City library with strong free adult programming including Art Gym, chess, and book clubs.
+
+- id: hillsboro-public-library
+  name: Hillsboro Public Library
+  category: arts_culture
+  location_type: physical
+  resource_type: place
+  address: null
+  phone: 503-615-6500
+  website: https://www.hillsboro-oregon.gov/library
+  source_urls:
+    - https://www.hillsboro-oregon.gov/our-city/departments/library
+    - https://www.hillsboro-oregon.gov/our-city/departments/library/events-and-programs
+  pricing:
+    description: FREE (all programs and events)
+  locations:
+    - name: Brookwood Library
+      address: 2850 NE Brookwood Pkwy, Hillsboro, OR 97124
+      hours: Mon-Thu 10am-8pm, Fri-Sun 10am-6pm
+    - name: Shute Park Library
+      address: 775 SE 10th Ave, Hillsboro, OR 97123
+      hours: Mon-Thu 10am-8pm, Fri-Sun 10am-6pm
+  programs:
+    - name: Free Storytimes
+      schedule: Weekly, drop-in
+      cost: FREE
+    - name: Teen Game Night
+      schedule: 2nd & 4th Thursdays 4pm
+      cost: FREE
+      notes: Board and video games, refreshments
+    - name: Craft Programs
+      schedule: 2nd Tuesdays 4-6pm (kids)
+      cost: FREE
+    - name: StoryWalk®
+      cost: FREE
+      notes: Picture book pages along walking paths in 4 Hillsboro parks
+    - name: Hillsboro Reads (annual)
+      cost: FREE
+      notes: Community reading program with author events
+  services:
+    - Free WiFi and computers
+    - Part of WCCLS (Washington County Cooperative Library Services)
+    - eBooks and digital resources
+  last_verified: 2026-03-24
+  next_audit: 2026-06-24
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Two locations — Brookwood (NE) and Shute Park (downtown). Both open 7 days.
+    good_to_know: Part of WCCLS system — your card works at all Washington County libraries. Free programs daily at both locations. StoryWalk® in 4 parks for outdoor reading.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: casual_group
+  good_for:
+    - anxiety_friendly
+    - indoor
+    - low_energy
+    - family_friendly
+  guide_location: activities-guide-1.md#libraries
+  notes: Two library locations in Hillsboro with daily free programming. Part of WCCLS.
+
 - id: mhcc-planetarium
   name: MHCC Planetarium Sky Theatre
   category: arts_culture
@@ -4738,6 +5170,208 @@
   notes: 60+ events over 3 weeks. 500,000+ attend Grand Floral Parade.
   flags:
   - 📅 DATE-SENSITIVE
+
+- id: delta-park-powwow
+  name: Delta Park Powwow and Encampment
+  category: events
+  location_type: physical
+  resource_type: event
+  address: East Delta Park, N Denver Ave & Martin Luther King Jr Blvd, Portland, OR
+  phone: null
+  website: https://www.facebook.com/DeltaParkPowwow/
+  source_urls:
+    - https://www.travelportland.com/event/6839b1546db9061d7eb9cc7c/
+    - https://everout.com/portland/events/delta-park-powwow/e178968/
+  pricing:
+    description: FREE
+  dates: June 19-21, 2026
+  schedule: Fri-Sun (check Facebook for daily schedule)
+  organizer: Bow & Arrow Culture Club
+  features:
+    - Intertribal dancing
+    - Arts and crafts vendors
+    - Native foods (fry bread and more)
+    - Cultural exhibitions
+  last_verified: 2026-03-24
+  next_audit: 2026-06-01
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Just show up — open to everyone, Native and non-Native alike
+    what_to_bring: Chairs, blankets, cash for food and craft vendors, sunscreen
+    good_to_know: Longest-running powwow west of the Mississippi, held at Delta Park since 1970. Intertribal — all welcome to watch and participate in designated dances. Free admission.
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: drop_in
+  good_for:
+    - outdoor
+    - family_friendly
+    - new_to_area
+    - anxiety_friendly
+  guide_location: activities-guide-1.md#cultural-festivals
+  notes: Annual intertribal powwow since 1970. Free admission. Draws participants from across the Pacific Northwest.
+  flags:
+    - 📅 DATE-SENSITIVE
+
+- id: oregon-midsummer-festival
+  name: Oregon Midsummer Festival
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Nordic Northwest Campus, 8800 SW Oleson Rd, Portland, OR
+  phone: null
+  website: https://www.oregonmidsummer.com/
+  source_urls:
+    - https://www.oregonmidsummer.com/
+    - https://www.travelportland.com/event/6839b21482a3881357d894f6/
+  pricing:
+    description: "$25 adults, $15 youth, free for small children"
+    notes: Cheaper online; member discounts available online only
+  dates: June 28-29, 2026
+  schedule: "Fri 5-9pm, Sat 10am-5pm"
+  organizer: Nordic Northwest
+  features:
+    - Maypole decorating and dancing
+    - Scandinavian traditional dances
+    - Viking history and games (Viking chess, tug-of-war)
+    - Flower crown making
+    - Nordic food vendors (Broder Söder, Carina's Bakery)
+    - Nordic brews (Ridgewalker Brewing)
+    - Gnome-themed scavenger hunt
+  last_verified: 2026-03-24
+  next_audit: 2027-03-24
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Buy tickets online for discount. Ticket covers both Friday evening and Saturday.
+    what_to_bring: Cash for food and vendors
+    good_to_know: Celebrates cultures of Denmark, Iceland, Finland, Norway, and Sweden. Fun family-friendly activities. Two-day ticket.
+  social_intensity: drop_in
+  good_for:
+    - outdoor
+    - family_friendly
+    - creative
+  guide_location: activities-guide-1.md#cultural-festivals
+  notes: Annual Nordic solstice celebration at Nordic Northwest Campus.
+  flags:
+    - 📅 DATE-SENSITIVE
+
+- id: portland-highland-games
+  name: Portland Highland Games
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Westside Commons (Washington County Fairgrounds), Hillsboro, OR
+  phone: null
+  website: https://www.phga.org/
+  source_urls:
+    - https://www.phga.org/
+    - https://www.phga.org/tickets/
+  pricing:
+    description: Tickets required (see phga.org/tickets for current pricing)
+    notes: "Adult, youth (5-17), senior, military, and family packages available. Children 4 and under free. Parking $10."
+  dates: June 6, 2026
+  schedule: Saturday (check website for times)
+  features:
+    - Scottish highland athletics
+    - Pipe bands and Celtic music
+    - Highland dancing
+    - Clan tents and Scottish heritage
+    - Food and drink vendors
+  last_verified: 2026-03-24
+  next_audit: 2027-03-24
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Buy tickets online early for earlybird discount (25% off March 1 - April 1)
+    what_to_bring: Cash for food, sunscreen, comfortable shoes
+    good_to_know: Earlybird tickets 25% off through April 1. Parking $10 on site.
+  social_intensity: drop_in
+  good_for:
+    - outdoor
+    - family_friendly
+  guide_location: activities-guide-1.md#cultural-festivals
+  notes: Annual Scottish cultural festival at Washington County Fairgrounds.
+  flags:
+    - 📅 DATE-SENSITIVE
+
+- id: west-linn-old-time-fair
+  name: West Linn Old Time Fair
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Willamette Park, 12th St, West Linn, OR
+  phone: 503-557-4700
+  website: https://westlinnoregon.gov/oldtimefair
+  source_urls:
+    - https://westlinnoregon.gov/oldtimefair
+    - https://westlinnoregon.gov/oldtimefair/fair-schedule-0
+  pricing:
+    description: FREE admission and parking
+  dates: July 10-12, 2026
+  schedule: "Fri 5-10:30pm (carnival), Sat 11am-10:30pm, Sun 11am-6pm. Parade Sat 10am."
+  features:
+    - Community parade (theme - Celebrating Hometown Heroes)
+    - Amusement rides
+    - Olde Time Baseball Game
+    - Food vendors and exhibitor booths
+    - Live music from local bands
+    - Car show
+  last_verified: 2026-03-24
+  next_audit: 2027-03-24
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Arrive early Saturday for the parade at 10am
+    what_to_bring: Cash for food and carnival rides
+    good_to_know: 70th annual fair in 2026. Free admission and parking. Good Clackamas County option for families.
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: drop_in
+  good_for:
+    - outdoor
+    - family_friendly
+    - new_to_area
+  guide_location: activities-guide-1.md#community-events
+  notes: 70th annual community fair. Free admission and parking. Clackamas County.
+  flags:
+    - 📅 DATE-SENSITIVE
+
+- id: marianas-festival
+  name: Marianas Festival
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Blue Lake Regional Park, 21224 NE Blue Lake Rd, Fairview, OR
+  phone: null
+  website: https://www.marianasfestival.com/
+  source_urls:
+    - https://www.marianasfestival.com/
+  pricing:
+    description: "$5 parking"
+    notes: Festival admission details TBD — check website closer to event
+  dates: August 28-30, 2026
+  schedule: "Fri workshops (location TBD), Sat-Sun at Blue Lake Park"
+  organizer: Marianas Alliance for Growth of Islanders (MAGI)
+  features:
+    - Chamorro cultural dances
+    - Live music
+    - Food and flavors of the Marianas Islands
+    - Beer garden
+    - Friday pre-festival workshops
+  last_verified: 2026-03-24
+  next_audit: 2026-08-01
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Check website for updated schedule closer to event
+    what_to_bring: Cash for food, chairs/blankets
+    good_to_know: Celebrates Chamorro and Refaluwasch culture of the Mariana Islands. Community celebration of Pacific Island heritage in Oregon.
+  social_intensity: drop_in
+  good_for:
+    - outdoor
+    - family_friendly
+    - new_to_area
+  guide_location: activities-guide-1.md#cultural-festivals
+  notes: Chamorro cultural celebration at Blue Lake Regional Park. Organized by MAGI.
+  flags:
+    - 📅 DATE-SENSITIVE
+
 - id: portland-pride
   name: Portland Pride
   category: events
@@ -5870,6 +6504,46 @@
     - active
   guide_location: activities-guide-1.md#parks-and-nature
   notes_extra: Parking fee confirmed in effect since Oct 1, 2025.
+
+- id: disabled-hikers-portland
+  name: Disabled Hikers (Portland Group Hikes)
+  category: parks_nature
+  location_type: physical
+  resource_type: program
+  address: null
+  phone: null
+  website: https://www.disabledhikers.com/
+  source_urls:
+    - https://www.disabledhikers.com/
+  pricing:
+    description: FREE
+  eligibility: People with disabilities and allies. Cross-disability led.
+  programs:
+    - name: Portland Group Hikes
+      schedule: Periodic (check website for dates)
+      cost: FREE
+      notes: Accessible trail hikes with community focus. All disability types welcome.
+  services:
+    - Group hikes at accessible trails
+    - Online trail accessibility guides
+    - Disability community building
+  last_verified: 2026-03-24
+  next_audit: 2026-06-24
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Check disabledhikers.com for upcoming Portland group hike dates and RSVP
+    good_to_know: Cross-disability led organization. Group hikes focus on accessible trails. Community and justice in the outdoors. Great for people who want to hike but need accessibility accommodations or companionship.
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: casual_group
+  good_for:
+    - outdoor
+    - active
+    - anxiety_friendly
+    - isolation
+  guide_location: activities-guide-1.md#parks-and-nature
+  notes: Free accessible group hikes for people with disabilities. Cross-disability led community.
+
 - id: powell-butte
   name: Powell Butte Nature Park
   category: parks_nature
@@ -6493,6 +7167,108 @@
   notes: Quiet, non-festival atmosphere - good for calmer environments
   flags:
     - 🔄 SEASONAL
+
+- id: pobc-community-pantry
+  name: POBC Community Pantry (Nourish Oregon)
+  category: food_farms
+  location_type: physical
+  resource_type: service
+  address: 3223 SE 92nd Ave, Portland, OR 97266
+  phone: 503-442-8228
+  email: pantry@pobcpantry.com
+  website: https://www.pobcpantry.com/
+  source_urls:
+    - https://www.pobcpantry.com/
+  pricing:
+    description: FREE
+  hours: "Tue 5-8pm, Thu 10am-2pm"
+  eligibility: Open to anyone in the state of Oregon. No ID required.
+  features:
+    - Fruits and vegetables
+    - Canned goods and dairy
+    - Fresh and frozen meats
+    - In-person shopping or scheduled pickup
+  last_verified: 2026-03-24
+  next_audit: 2026-06-24
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Just show up during hours. No ID or proof of income required.
+    what_to_bring: Bags to carry groceries
+    good_to_know: Inclusive pantry — no questions asked, no ID needed. Can shop in-person or schedule a pickup. Good evening hours on Tuesdays for those who work during the day.
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: solo
+  good_for:
+    - anxiety_friendly
+    - indoor
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: Inclusive free food pantry in SE Portland. No ID required. Open to anyone in Oregon. Evening hours available.
+
+- id: neighborhood-house-barbur
+  name: Neighborhood House (SW Portland)
+  category: food_farms
+  location_type: physical
+  resource_type: organization
+  address: 8959 SW Barbur Blvd, Portland, OR
+  phone: 503-246-1663
+  website: https://nhpdx.org/
+  source_urls:
+    - https://nhpdx.org/
+    - https://nhpdx.org/food-security/
+  pricing:
+    description: FREE
+  programs:
+    - name: Free Food Market
+      notes: Full grocery shopping experience. Serves 850+ households/month. Nearly 1 million lbs of food distributed annually. Personal shoppers available for those who need assistance.
+    - name: Senior Center
+      notes: Programs and services for older adults
+    - name: Community Services
+      notes: Shared community spaces, social services
+  last_verified: 2026-03-24
+  next_audit: 2026-06-24
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Check nhpdx.org for current hours at the new Barbur Blvd location
+    good_to_know: New 16,000 sq ft facility on Barbur Blvd (3-4x larger than previous location). Indoor waiting area. Free food market, senior center, and community services under one roof. Serves SW Portland.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: solo
+  good_for:
+    - anxiety_friendly
+    - indoor
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: 40+ year food access organization in SW Portland. New expanded Barbur Blvd location opened early 2026.
+
+- id: faith-cafe-beaverton
+  name: Faith Café at Bethel UCC (Beaverton Free Meal)
+  category: food_farms
+  location_type: physical
+  resource_type: service
+  address: 5150 SW Watson Ave, Beaverton, OR 97005
+  phone: null
+  website: https://www.bethelbeaverton.org/hunger
+  source_urls:
+    - https://www.bethelbeaverton.org/hunger
+  pricing:
+    description: FREE
+  schedule: "Sundays 4:15pm; last Thursday of each month 4:15pm"
+  last_verified: 2026-03-24
+  next_audit: 2026-06-24
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Just show up at 4:15pm on Sundays. Open to all.
+    good_to_know: One of the few free community meals in Washington County/Beaverton. Welcoming atmosphere. Sunday weekly + last Thursday monthly.
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: drop_in
+  good_for:
+    - indoor
+    - low_energy
+    - isolation
+  guide_location: activities-guide-2.md#free-sit-down-dining-for-all-ages
+  notes: Free community meal in Beaverton. Sundays at 4:15pm weekly, plus last Thursday monthly. Rare Washington County free meal option.
+
 - id: blanchet-house
   name: Blanchet House of Hospitality
   category: food_farms
@@ -6579,6 +7355,42 @@
     - indoor
     - low_energy
   guide_location: activities-guide-2.md#free-sit-down-dining-for-all-ages
+
+- id: potluck-in-the-park
+  name: Potluck in the Park
+  category: food_farms
+  location_type: physical
+  resource_type: service
+  address: North Park Blocks, NW Glisan St between 8th Ave & Park Ave, Portland, OR
+  phone: 503-255-7611
+  website: https://potluckinthepark.org/
+  source_urls:
+    - https://potluckinthepark.org/
+  pricing:
+    description: FREE
+  schedule: Every Sunday 3pm (ticketing begins at noon)
+  features:
+    - Hot, healthy meal every Sunday
+    - Rain or shine, 52 weeks a year
+    - 400-600 people served weekly
+    - Sense of community and dignity
+  last_verified: 2026-03-24
+  next_audit: 2026-06-24
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Arrive at North Park Blocks on NW Glisan. Ticketing starts at noon, meal served at 3pm.
+    good_to_know: 34+ years running. Free hot meal every Sunday, rain or shine, all year. 400-600 people served weekly. Open to everyone — offers not just food but community and dignity. Great volunteer opportunity too.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: drop_in
+  good_for:
+    - indoor
+    - low_energy
+    - isolation
+  guide_location: activities-guide-2.md#free-sit-down-dining-for-all-ages
+  notes: Free Sunday hot meal at North Park Blocks. 34+ years serving 400-600 people weekly, rain or shine.
+
 - id: sikh-center-langar
   name: Sikh Center of Oregon Langar
   category: food_farms
@@ -6706,6 +7518,45 @@
   guide_location: activities-guide-2.md#pumpkin-patches
   flags:
     - 🔄 SEASONAL
+
+- id: ppr-community-gardens
+  name: Portland Parks Community Gardens
+  category: parks_nature
+  location_type: physical
+  resource_type: program
+  address: null
+  phone: 503-823-1612
+  email: pkcomgard@portlandoregon.gov
+  website: https://www.portland.gov/parks/community-gardens
+  source_urls:
+    - https://www.portland.gov/parks/community-gardens
+    - https://www.portland.gov/parks/community-gardens/request
+  pricing:
+    description: "$15/year for low-income gardeners"
+    notes: Scholarship assistance available. Regular pricing varies by plot size.
+  eligibility: Portland residents. Low-income residents qualify for $15 plots.
+  programs:
+    - 60 community gardens across Portland
+    - Plots assigned February through June
+    - Waitlists for popular gardens
+  last_verified: 2026-03-24
+  next_audit: 2026-06-24
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Submit a plot request at portland.gov/parks/community-gardens/request to join the waitlist
+    registration: Online waitlist form; plots assigned Feb-Jun as space opens
+    good_to_know: 60 gardens across Portland. Low-income plots only $15/year with scholarship assistance. Good therapeutic activity and community connection. Waitlists can be long for popular locations — apply to multiple gardens.
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: solo
+  good_for:
+    - outdoor
+    - anxiety_friendly
+    - creative
+    - isolation
+  guide_location: activities-guide-1.md#community-gardens
+  notes: 60 community gardens across Portland. Low-income plots $15/year. Apply Feb-Jun.
+
 - id: snowcap-garden
   name: SnowCap Community Garden
   category: food_farms
@@ -6928,6 +7779,51 @@
   notes: May-October season. One of three markets in Gresham area. EBT purple tokens available at info booth.
   flags:
   - 🔄 SEASONAL
+
+- id: milwaukie-farmers-market
+  name: Milwaukie Farmers Market
+  category: food_farms
+  location_type: physical
+  resource_type: event
+  address: SE Main St & Harrison St, Milwaukie, OR 97222
+  phone: null
+  email: info.firstfridaymilwaukie@gmail.com
+  website: https://milwaukiefarmersmarket.com/
+  source_urls:
+    - https://milwaukiefarmersmarket.com/
+    - https://doubleuporegon.org/markets/
+  pricing:
+    description: FREE to attend
+    ebt: SNAP/EBT accepted - red $1 tokens at Information booth
+    notes: Participates in Double Up Food Bucks Oregon (SNAP matching)
+  season: May to October
+  schedule: Sundays 9:30am-2pm
+  schedule_start_date: 2026-05-01
+  schedule_end_date: 2026-10-31
+  features:
+    - 75+ vendors
+    - SNAP tokens at info booth
+    - Double Up Food Bucks matching
+  last_verified: 2026-03-24
+  next_audit: 2027-03-24
+  audit_frequency: annually
+  practical_tips:
+    first_visit: SNAP/EBT users go to Information booth for red tokens
+    what_to_bring: EBT card, reusable bags
+    good_to_know: SNAP purchases matched through Double Up Food Bucks. 75+ vendors. Great Clackamas County option for fresh produce on a budget.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  social_intensity: casual_group
+  good_for:
+    - outdoor
+    - family_friendly
+    - anxiety_friendly
+  guide_location: activities-guide-2.md#farmers-markets
+  notes: Sundays May-October in downtown Milwaukie. SNAP/EBT accepted with Double Up Food Bucks matching.
+  flags:
+    - 🔄 SEASONAL
+
 - id: rockwood-community-market
   name: Rockwood Community Market
   category: food_farms
@@ -7283,6 +8179,42 @@
     - indoor
   guide_location: activities-guide-2.md#free-art-and-craft-programs
   notes: Sliding-scale arts education
+
+- id: portland-art-guild
+  name: Portland Art Guild
+  category: social_activities
+  location_type: hybrid
+  resource_type: program
+  address: 3201 NE 148th Ave, Portland, OR
+  phone: null
+  website: https://portlandartguild.org/
+  source_urls:
+    - https://portlandartguild.org/
+    - https://portlandartguild.org/courses/
+  pricing:
+    description: "$25-50 members, $45-90 nonmembers per class"
+    notes: Mission is to provide low-cost art classes accessible to all. Member discounts available.
+  schedule: "Mondays in-person, Thursday evenings online"
+  programs:
+    - Drawing and painting classes
+    - All skill levels welcome
+    - In-person (Mondays) and online (Thursdays)
+  last_verified: 2026-03-24
+  next_audit: 2026-06-24
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Browse classes at portlandartguild.org/courses. No membership required to take classes.
+    registration: Online via website
+    good_to_know: Inclusive group for all skill levels. Member discounts bring costs down to $25-50 per class. Monday in-person classes in East Portland, Thursday online option for those who can't travel.
+  social_intensity: structured_group
+  good_for:
+    - creative
+    - isolation
+    - indoor
+    - new_to_area
+  guide_location: activities-guide-2.md#free-art-and-craft-programs
+  notes: Low-cost art classes for all skill levels. In-person Mondays, online Thursdays.
+
 - id: northwest-wools
   name: Northwest Wools Crafting Compassion
   category: social_activities
@@ -7613,6 +8545,47 @@
   guide_location: activities-guide-2.md#senior-centers
   notes: THPRD's only recreation center dedicated to 55+ adults. Warm, welcoming community
     with diverse programming.
+
+- id: hidden-creek-community-center
+  name: Hidden Creek Community Center (Hillsboro)
+  category: fitness_wellness
+  location_type: physical
+  resource_type: place
+  address: 5100 NE Hidden Creek Dr, Hillsboro, OR 97124
+  phone: 503-681-6120
+  website: https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/hidden-creek
+  source_urls:
+    - https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/hidden-creek
+    - https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/classes-programs/registration/financial-assistance
+  pricing:
+    description: Varies by program; financial assistance available
+    notes: Hillsboro residents with qualifying income eligible for 50% off programs. Youth art scholarships cover 100%.
+  financial_assistance:
+    description: Up to 50% off program costs for qualifying Hillsboro residents
+    application: Apply anytime; allow 2 weeks for processing; notified by email
+    youth_art_scholarship: 100% of registration for youth/teen classes at Walters Cultural Arts Center
+  programs:
+    - Fitness classes
+    - Aquatics
+    - Youth and teen programs
+    - Community events
+  last_verified: 2026-03-24
+  next_audit: 2026-06-24
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Check the class catalog at hillsboro-oregon.gov/parks-recreation
+    registration: Online or in-person; financial assistance application available year-round
+    good_to_know: 51,000 sq ft facility. Financial assistance covers 50% for qualifying residents. Good Washington County option outside THPRD district.
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: casual_group
+  good_for:
+    - active
+    - indoor
+    - family_friendly
+  guide_location: activities-guide-1.md#community-centers
+  notes: Hillsboro Parks & Recreation community center. Financial assistance (50% off) available for qualifying residents.
+
 - id: juanita-pohl-center
   name: Juanita Pohl Center (Tualatin Active Aging Center)
   category: social_activities
@@ -7737,14 +8710,23 @@
       notes: Traditional Japanese embroidered mending technique. Check website for dates.
       dates_2026:
         - January 18
-  last_verified: 2026-02-13
-  next_audit: 2026-03-13
+        - March 22
+    - name: Mend With Embroidery Workshop
+      schedule: Periodic evenings, 6-8pm
+      location: Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
+      cost: TBD
+      format: In-person
+      notes: Learn embroidery techniques for mending clothing. Check website/Eventbrite for dates.
+      dates_2026:
+        - March 30
+  last_verified: 2026-03-24
+  next_audit: 2026-04-24
   audit_frequency: monthly
   practical_tips:
     first_visit: Fill out the Google Form before arriving to let them know what you're bringing
     registration: Registration form recommended but not required
     what_to_bring: Broken items (small appliances, bikes, clothing with tears). Items should be portable.
-    good_to_know: Volunteer fixers donate their time and expertise. Not all items can be fixed but they'll try! Great way to learn repair skills yourself. Coffee and community atmosphere.
+    good_to_know: Volunteer fixers donate their time and expertise. Not all items can be fixed but they'll try! Great way to learn repair skills yourself. Coffee and community atmosphere. Also offers periodic mending and repair skill workshops (Sashiko, embroidery, soldering) — check Eventbrite for dates.
   accessibility:
     - wheelchair_accessible
     - transit_nearby
@@ -7761,30 +8743,75 @@
   flags:
     - 📅 DATE-SENSITIVE
 
-- id: west-linn-repair-fair
-  name: West Linn Repair Fair
+- id: clackamas-county-repair-fairs
+  name: Clackamas County Repair Fairs
   category: social_activities
   location_type: physical
   resource_type: event
-  address: Robinwood Station Community Center, 3706 Cedar Oak Dr, West Linn, OR 97068
+  address: null
   phone: null
-  website: https://www.clackamas.us/recycling
+  website: https://www.clackamas.us/recycling/repairfair
   source_urls:
+    - https://www.clackamas.us/recycling/repairfair
     - https://www.repairpdx.org/repair-events
   pricing:
     description: FREE
-  eligibility: Open to all - bring broken household items
-  schedule: 10am-1pm
-  dates: February 28, 2026
+  eligibility: Open to all - bring broken household items (clothing, bikes, small electronics, small appliances, jewelry, knives/tools)
   organizer: Clackamas County Sustainability & Solid Waste
-  contact: cjohnston@clackamas.us
-  last_verified: 2026-01-24
-  next_audit: 2026-02-24
+  dates_2026:
+    - name: West Linn
+      date: February 28, 2026
+      time: 10am-1pm
+      location: Robinwood Station Community Center, 3706 Cedar Oak Dr, West Linn, OR 97068
+      status: past
+    - name: Oak Grove/Milwaukie
+      date: March 14, 2026
+      time: 10am-1pm
+      location: Oak Lodge Library, 3783 SE Concord Rd
+      status: past
+    - name: Gladstone
+      date: April 4, 2026
+      time: 1-4pm
+      location: Gladstone Library, 525 Portland Ave, Gladstone
+    - name: Happy Valley
+      date: April 18, 2026
+      time: 10am-1pm
+      location: Happy Valley Library, 13793 SE Sieben Park Way
+    - name: Lake Oswego
+      date: May 16, 2026
+      time: 10am-1pm
+      location: Lake Oswego Adult Community Center, 505 G Ave, Lake Oswego
+    - name: Wilsonville
+      date: May 30, 2026
+      time: 10am-1pm
+      location: Wilsonville Public Library, 8200 SW Wilsonville Rd
+    - name: Canby
+      date: July 18, 2026
+      time: 10am-1pm
+      location: Canby Public Library, 220 NE 2nd Ave, Canby
+    - name: Estacada
+      date: August 8, 2026
+      time: 11am-2pm
+      location: Estacada Library, 825 NW Wade St
+    - name: Milwaukie Sustainability Fair
+      date: September 19, 2026
+      time: 10am-2pm
+      location: 10723 SE Main St, Milwaukie
+    - name: Oregon City
+      date: October 24, 2026
+      time: 10am-1pm
+      location: Oregon City Public Library
+    - name: Clackamas Community College
+      date: November 7, 2026
+      time: 10am-1pm
+      location: Clackamas Community College, Oregon City
+  last_verified: 2026-03-24
+  next_audit: 2026-04-24
   audit_frequency: monthly
   practical_tips:
     first_visit: Just show up with your broken items
     what_to_bring: Broken household items that are portable
-    good_to_know: Run by Clackamas County - great option for Clackamas County residents
+    good_to_know: Free repair fairs rotating through Clackamas County libraries and community centers all year. Volunteers fix clothing, bikes, small electronics, appliances, jewelry, and sharpen knives/tools.
   accessibility:
     - wheelchair_accessible
   social_intensity: casual_group
@@ -7792,8 +8819,9 @@
     - anxiety_friendly
     - isolation
     - indoor
+    - new_to_area
   guide_location: activities-guide-2.md#community-workshops
-  notes: Clackamas County repair event. Check repairpdx.org/repair-events for additional dates.
+  notes: Clackamas County repair fair series rotating through libraries and community centers. Check clackamas.us/recycling/repairfair for latest schedule.
   flags:
     - 📅 DATE-SENSITIVE
 
@@ -8532,6 +9560,107 @@
   flags:
     - 🔄 SEASONAL
     - 📅 DATE-SENSITIVE
+
+- id: milwaukie-first-friday
+  name: Milwaukie First Friday
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Historic Milwaukie Main Street, Milwaukie, OR 97222
+  phone: null
+  email: info.firstfridaymilwaukie@gmail.com
+  website: https://www.firstfridaymilwaukie.com/
+  source_urls:
+    - https://www.firstfridaymilwaukie.com/
+    - https://www.milwaukieoregon.gov/generalpage/first-friday
+  pricing:
+    description: FREE
+  season: June to October
+  schedule: 1st Fridays 5-8pm
+  schedule_start_date: 2026-06-01
+  schedule_end_date: 2026-10-31
+  features:
+    - Artist installations
+    - Food trucks
+    - Craft beer
+    - Local vendors
+    - Live music
+  last_verified: 2026-03-24
+  next_audit: 2027-03-24
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Walk along Historic Main Street from 5-8pm on the first Friday of the month
+    what_to_bring: Cash for food trucks and vendors
+    good_to_know: Monthly arts, music, and food event in downtown Milwaukie. Free to attend, great low-pressure way to explore the neighborhood.
+  accessibility:
+    - wheelchair_accessible
+    - transit_nearby
+  accessibility_notes: Downtown Milwaukie near Orange Line MAX station
+  social_intensity: drop_in
+  good_for:
+    - outdoor
+    - creative
+    - anxiety_friendly
+    - isolation
+    - new_to_area
+  guide_location: activities-guide-1.md#community-art-events
+  notes: Monthly arts and community event June-October on Historic Milwaukie Main Street. Free to attend.
+  flags:
+    - 🔄 SEASONAL
+
+- id: portland-sunday-parkways
+  name: Portland Sunday Parkways
+  category: events
+  location_type: physical
+  resource_type: event
+  address: null
+  phone: 503-823-4000
+  email: PortlandSundayParkways@portlandoregon.gov
+  website: https://www.portland.gov/sunday-parkways
+  source_urls:
+    - https://www.portland.gov/sunday-parkways
+    - https://www.portland.gov/transportation/news/2026/3/20/news-release-portland-sunday-parkways-announces-2026-season-new-route
+  pricing:
+    description: FREE
+  dates_2026:
+    - name: Southwest Portland
+      date: May 17, 2026
+      time: 11am-4pm
+      route: Gabriel Park to Spring Garden Park (2 miles bike, 2.6 miles walking)
+    - name: East Portland
+      date: June 28, 2026
+      time: 11am-4pm
+      route: Ventura Park to Verdell Burdine Rutherford Park (4 miles through Centennial neighborhood)
+    - name: North Portland (NEW)
+      date: August 2, 2026
+      time: 11am-4pm
+      route: Downtown St Johns, McCoy Park, Columbia Park, McKenna Park (6.7 miles along N Willamette Blvd)
+    - name: Downtown Portland
+      date: September 13, 2026
+      time: 11am-4pm
+      route: Cart Blocks to Pioneer Courthouse Square to PSU Park Blocks (2.3 miles)
+  sponsor: Kaiser Permanente
+  last_verified: 2026-03-24
+  next_audit: 2026-06-24
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Just show up on event day. Streets are closed to cars and open for walking, biking, and rolling.
+    what_to_bring: Bike, comfortable shoes, sunscreen, water
+    good_to_know: 19th season. Car-free streets for walking, biking, skating. Free bike fairs in April-May offer lessons, helmets, and minor repairs. New North Portland route in 2026 celebrates walking/biking upgrades on N Willamette Blvd. Downtown route includes Darcelle XV Plaza celebrating LGBTQ+ legacy.
+  accessibility:
+    - wheelchair_accessible
+  social_intensity: drop_in
+  good_for:
+    - outdoor
+    - active
+    - family_friendly
+    - isolation
+    - new_to_area
+  guide_location: activities-guide-1.md#community-events
+  notes: Free car-free street events for biking, walking, and rolling. Four events May-September across Portland neighborhoods. Presented by Kaiser Permanente.
+  flags:
+    - 📅 DATE-SENSITIVE
+    - 🔄 SEASONAL
 
 - id: prism-moves
   name: Prism Moves

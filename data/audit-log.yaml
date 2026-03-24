@@ -3758,3 +3758,69 @@
     - id: pcc-theatre
       status: updated
       changes: "Renamed from pcc-theatre-much-ado to pcc-theatre (organization, not single event). Updated to current production Magic Theatre (Mar 4-8, 2026). Changed resource_type to organization."
+
+---
+- date: 2026-03-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - FolkTime Peer Respite"
+  entries_audited: 1
+  entries:
+    - id: folktime
+      status: updated
+      changes: "Updated Peer Respite Center status: opened March 2025, now operational 24/7 with 5 beds. Added respite@folktime.org contact."
+
+---
+- date: 2026-03-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - NorthStar Clubhouse"
+  entries_audited: 1
+  entries:
+    - id: northstar-clubhouse
+      status: updated
+      changes: "No changes — all info confirmed (hours, address, phone, orientation schedule)."
+
+---
+- date: 2026-03-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAMI Clackamas"
+  entries_audited: 1
+  entries:
+    - id: nami-clackamas
+      status: updated
+      changes: "Added new Creative Support Group (2nd/4th Thursdays, Oregon City). Confirmed Spanish group schedule via NAMI Oregon. Updated good_to_know tip."
+
+---
+- date: 2026-03-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Food Court 5000 (Lloyd Center Mall Walking)"
+  entries_audited: 1
+  entries:
+    - id: lloyd-center-walking
+      status: updated
+      changes: "Still running Sundays. Updated flag: Design Commission approved demolition master plan, closure by end of 2026, no relocation plans."
+
+---
+- date: 2026-03-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Repair PDX"
+  entries_audited: 1
+  entries:
+    - id: repair-pdx
+      status: updated
+      changes: "Added Sashiko March 22 date, new Mend With Embroidery workshop (March 30). Regular café 2nd Saturdays confirmed."
+
+---
+- date: 2026-03-24
+  type: audit
+  auditor: user
+  summary: "Audit completed - Clackamas County Repair Fairs"
+  entries_audited: 1
+  entries:
+    - id: clackamas-county-repair-fairs
+      status: updated
+      changes: "Expanded from single West Linn event to full Clackamas County repair fair series (9 events across county through Sep 2026). Updated ID, name, website, and all dates."

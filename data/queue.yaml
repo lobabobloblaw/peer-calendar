@@ -8,56 +8,19 @@
 # - low: Nice to have
 
 pending:
-  # From research sweep 2026-03-04 - needs further verification
-  - name: "Delta Park Powwow"
-    category: events
-    priority: medium
-    notes: "June 19-21, 2026. Intertribal dancing, arts/crafts, Native foods. Need to verify organizer, exact location, pricing, and official website."
+  # From research sweep 2026-03-04 - COMPLETED 2026-03-24
+  # Delta Park Powwow - added as delta-park-powwow
+  # Oregon Midsummer Festival - added as oregon-midsummer-festival
+  # Portland Highland Games - added as portland-highland-games
+  # Marianas Festival - added as marianas-festival
+  # West Linn Old Time Fair - added as west-linn-old-time-fair
 
-  - name: "Oregon Midsummer Festival"
-    category: events
-    priority: medium
-    notes: "June 26-27, 2026. Nordic cultural celebration. Need to verify location, organizer, pricing."
+  # COMPLETED 2026-03-24: Milwaukie First Friday - added as milwaukie-first-friday
+  # COMPLETED 2026-03-24: Milwaukie Farmers Market - added as milwaukie-farmers-market
+  # COMPLETED 2026-03-24: Hidden Creek Community Center - added as hidden-creek-community-center
 
-  - name: "Portland Highland Games"
-    category: events
-    priority: medium
-    notes: "June 6, 2026 at Washington County Fairgrounds. Scottish cultural festival. Need to verify pricing and official website."
-
-  - name: "Marianas Festival"
-    category: events
-    priority: low
-    notes: "Aug 28-30, 2026. Chamorro cultural celebration. Need to verify location and pricing."
-
-  - name: "West Linn Old Time Fair"
-    category: events
-    priority: medium
-    notes: "July 10-12, 2026. 70th annual fair at Willamette Park. Need to verify pricing. westlinnoregon.gov"
-
-  - name: "Milwaukie First Friday"
-    category: events
-    priority: medium
-    notes: "Monthly recurring arts event in downtown Milwaukie. Need to verify schedule, times, and specific locations."
-
-  - name: "Milwaukie Farmers Market"
-    category: food_farms
-    priority: medium
-    notes: "Every Sunday, May-October. 75+ vendors. Need to verify SNAP/EBT acceptance, exact address, hours."
-
-  - name: "Hidden Creek Community Center (Hillsboro)"
-    category: fitness_wellness
-    priority: medium
-    notes: "New 51,000 sq ft facility. Need to verify financial assistance/scholarship programs and single visit pricing."
-
-  - name: "Neighborhood House Food Programs (new Barbur location)"
-    category: food_farms
-    priority: low
-    notes: "New larger location opening early 2026 on Barbur Blvd. Need to verify exact address, hours, services."
-
-  - name: "POBC Community Pantry"
-    category: food_farms
-    priority: low
-    notes: "Inclusive free food pantry in SE Portland. No ID required. Need to verify address and hours. pobcpantry.com"
+  # COMPLETED 2026-03-24: Neighborhood House - added as neighborhood-house-barbur
+  # COMPLETED 2026-03-24: POBC Community Pantry - added as pobc-community-pantry
 
 ---
 # Completed additions moved here with date:
