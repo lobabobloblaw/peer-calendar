@@ -25,7 +25,7 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 4. Run `python scripts/generate_calendar.py` to update calendar feeds
 
 **Key files:**
-- `data/sources.yaml` - Master registry with ~213 resources and audit metadata (multi-document YAML with `---` separators)
+- `data/sources.yaml` - Master registry with ~252 resources and audit metadata (multi-document YAML with `---` separators)
 - `docs/events.json` - JSON feed used by web calendar preview (generated from sources.yaml)
 - `data/audit-log.yaml` - Verification history
 - `data/queue.yaml` - Pending resources to research
