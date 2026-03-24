@@ -183,7 +183,11 @@ def create_vevent_from_occurrence(original_event, occurrence_dt, uid_suffix, all
 
     # Generate unique UID for this occurrence
     base_uid = original_event.get('UID', 'unknown')
-    lines.append(f"UID:{base_uid.replace('@', f'-{uid_suffix}@')}")
+    if '@' in base_uid:
+        local, domain = base_uid.rsplit('@', 1)
+        lines.append(f"UID:{local}-{uid_suffix}@{domain}")
+    else:
+        lines.append(f"UID:{base_uid}-{uid_suffix}")
 
     lines.append(f"DTSTAMP:{format_ical_date(datetime.now())}Z")
 

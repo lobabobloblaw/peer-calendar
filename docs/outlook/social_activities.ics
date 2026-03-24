@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:d749c957e9a0991a@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260324T170000
 DTEND:20260324T213000
 SUMMARY:Portland Area Board Games Meetup: Tuesday Board Games
@@ -33,13 +33,7 @@ DESCRIPTION:Category: Social Activities\nCost: FREE - just buy food/drink f
  rom venue\nInfo: 20-30 attendees typical. Games provided. All skill levels
   welcome.\nWebsite: https://meetup.com/pdxgames\nDetails: Explicitly welco
  ming to newcomers
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><stro
- ng>Cost:</strong> FREE - just buy food/drink from venue</p><p>20-30 attend
- ees typical. Games provided. All skill levels welcome.</p><p><strong>Websi
- te:</strong> <a href="https://meetup.com/pdxgames">https://meetup.com/pdxg
- ames</a></p><p><strong>Details:</strong> Explicitly welcoming to newcomers
- </p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE - just buy food/drink from venue</p><p>20-30 attendees typical. Games provided. All skill levels welcome.</p><p><strong>Website:</strong> <a href="https://meetup.com/pdxgames">https://meetup.com/pdxgames</a></p><p><strong>Details:</strong> Explicitly welcoming to newcomers</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:CORE Food Carts (3612 SE 82nd Ave)
 URL:https://meetup.com/pdxgames
@@ -49,7 +43,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c536863dc98ad10a@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260325T170000
 DTEND:20260325T213000
 SUMMARY:Portland Area Board Games Meetup: Wednesday East Side Game Night
@@ -57,13 +51,7 @@ DESCRIPTION:Category: Social Activities\nCost: FREE - just buy food/drink f
  rom venue\nInfo: Free weekly social for all levels. Games provided by the 
  shop.\nWebsite: https://meetup.com/pdxgames\nDetails: Explicitly welcoming
   to newcomers
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><stro
- ng>Cost:</strong> FREE - just buy food/drink from venue</p><p>Free weekly 
- social for all levels. Games provided by the shop.</p><p><strong>Website:<
- /strong> <a href="https://meetup.com/pdxgames">https://meetup.com/pdxgames
- </a></p><p><strong>Details:</strong> Explicitly welcoming to newcomers</p>
- </BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE - just buy food/drink from venue</p><p>Free weekly social for all levels. Games provided by the shop.</p><p><strong>Website:</strong> <a href="https://meetup.com/pdxgames">https://meetup.com/pdxgames</a></p><p><strong>Details:</strong> Explicitly welcoming to newcomers</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Board Bard Games (7960 SE Stark St)
 URL:https://meetup.com/pdxgames
@@ -73,7 +61,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:22b230d60826a8b3@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260325T083000
 DTEND:20260325T113000
 SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
@@ -83,16 +71,7 @@ DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\,
  ite: https://ncprd.org/milwaukie-community-center\nDetails: Primary hub fo
  r older adults in North Clackamas. Meals on Wheels program delivers 300+ m
  eals daily.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><stro
- ng>Cost:</strong> Programs vary\; some free\, some low-cost</p><p>Novice t
- o advanced\; guidance for starters</p><p><strong>Address:</strong> 5440 SE
-  Kellogg Creek Dr\, Milwaukie\, OR 97222</p><p><strong>Phone:</strong> <a 
- href="tel:503-653-8100">503-653-8100</a></p><p><strong>Website:</strong> <
- a href="https://ncprd.org/milwaukie-community-center">https://ncprd.org/mi
- lwaukie-community-center</a></p><p><strong>Details:</strong> Primary hub f
- or older adults in North Clackamas. Meals on Wheels program delivers 300+ 
- meals daily.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> Programs vary; some free, some low-cost</p><p>Novice to advanced; guidance for starters</p><p><strong>Address:</strong> 5440 SE Kellogg Creek Dr, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-653-8100">503-653-8100</a></p><p><strong>Website:</strong> <a href="https://ncprd.org/milwaukie-community-center">https://ncprd.org/milwaukie-community-center</a></p><p><strong>Details:</strong> Primary hub for older adults in North Clackamas. Meals on Wheels program delivers 300+ meals daily.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222
 URL:https://ncprd.org/milwaukie-community-center
@@ -102,7 +81,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8961f5d05e61f6ab@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260324T150000
 DTEND:20260324T170000
 SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
@@ -112,16 +91,7 @@ DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nInfo: Drop-in
  s provided or bring your own. All skill levels welcome—beginners encourage
  d!\nAddress: 3524 SW Troy St\, Portland\, OR 97219\nPhone: 503-244-5024\nW
  ebsite: https://www.northwestwools.com/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><stro
- ng>Cost:</strong> FREE drop-in</p><p>Drop-in fiber arts session every Tues
- day. Knit\, crochet\, or try other crafts while chatting with fellow craft
- ers. Projects are donated to charity. Supplies provided or bring your own.
-  All skill levels welcome—beginners encouraged!</p><p><strong>Address:</st
- rong> 3524 SW Troy St\, Portland\, OR 97219</p><p><strong>Phone:</strong> 
- <a href="tel:503-244-5024">503-244-5024</a></p><p><strong>Website:</strong
- > <a href="https://www.northwestwools.com/">https://www.northwestwools.com
- /</a></p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE drop-in</p><p>Drop-in fiber arts session every Tuesday. Knit, crochet, or try other crafts while chatting with fellow crafters. Projects are donated to charity. Supplies provided or bring your own. All skill levels welcome—beginners encouraged!</p><p><strong>Address:</strong> 3524 SW Troy St, Portland, OR 97219</p><p><strong>Phone:</strong> <a href="tel:503-244-5024">503-244-5024</a></p><p><strong>Website:</strong> <a href="https://www.northwestwools.com/">https://www.northwestwools.com/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:3524 SW Troy St\, Portland\, OR 97219
 URL:https://www.northwestwools.com/
@@ -131,7 +101,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8569003d0f2e736e@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260326T180000
 DTEND:20260326T203000
 SUMMARY:Puddletown Knitters Guild: Monthly Meeting
@@ -140,14 +110,7 @@ DESCRIPTION:Category: Social Activities\nCost: FREE for first 2 visits\; me
  programming begins 7pm. Hybrid (in-person + Zoom).\nAddress: Rose City Par
  k Presbyterian Church (Fellowship Hall)\, 1907 NE 45th Ave\, Portland\, OR
   97213\nWebsite: https://www.puddletownknittersguild.com/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><stro
- ng>Cost:</strong> FREE for first 2 visits\; membership $35/year</p><p>Year
- -round. Doors open 6pm for social knitting\; programming begins 7pm. Hybri
- d (in-person + Zoom).</p><p><strong>Address:</strong> Rose City Park Presb
- yterian Church (Fellowship Hall)\, 1907 NE 45th Ave\, Portland\, OR 97213<
- /p><p><strong>Website:</strong> <a href="https://www.puddletownknittersgui
- ld.com/">https://www.puddletownknittersguild.com/</a></p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE for first 2 visits; membership $35/year</p><p>Year-round. Doors open 6pm for social knitting; programming begins 7pm. Hybrid (in-person + Zoom).</p><p><strong>Address:</strong> Rose City Park Presbyterian Church (Fellowship Hall), 1907 NE 45th Ave, Portland, OR 97213</p><p><strong>Website:</strong> <a href="https://www.puddletownknittersguild.com/">https://www.puddletownknittersguild.com/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Rose City Park Presbyterian Church (Fellowship Hall)\, 1907 NE 45t
  h Ave\, Portland\, OR 97213
@@ -158,7 +121,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8e93e04951e560a1@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260326T123000
 DTEND:20260326T140000
 SUMMARY:Pioneer Community Center: Bingo
@@ -169,18 +132,7 @@ DESCRIPTION:Category: Social Activities\nCost: Most services free or low-co
  rves adults 21 and older. Mission to promote active\, healthy\, independen
  t living. Full class schedules (yoga\, tai chi\, line dancing\, art\, etc.
  ) available in monthly newsletter - schedules change frequently.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><stro
- ng>Cost:</strong> Most services free or low-cost</p><p>Cards available for
-  purchase starting at noon. Cards just 25 cents. Great prizes.</p><p><stro
- ng>Address:</strong> 615 5th Street\, Oregon City\, OR 97045</p><p><strong
- >Phone:</strong> <a href="tel:503-657-8287">503-657-8287</a></p><p><strong
- >Website:</strong> <a href="https://www.orcity.org/pioneercenter">https://
- www.orcity.org/pioneercenter</a></p><p><strong>Details:</strong> Serves ad
- ults 21 and older. Mission to promote active\, healthy\, independent livin
- g. Full class schedules (yoga\, tai chi\, line dancing\, art\, etc.) avail
- able in monthly newsletter - schedules change frequently.</p></BODY></HTML
- >
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> Most services free or low-cost</p><p>Cards available for purchase starting at noon. Cards just 25 cents. Great prizes.</p><p><strong>Address:</strong> 615 5th Street, Oregon City, OR 97045</p><p><strong>Phone:</strong> <a href="tel:503-657-8287">503-657-8287</a></p><p><strong>Website:</strong> <a href="https://www.orcity.org/pioneercenter">https://www.orcity.org/pioneercenter</a></p><p><strong>Details:</strong> Serves adults 21 and older. Mission to promote active, healthy, independent living. Full class schedules (yoga, tai chi, line dancing, art, etc.) available in monthly newsletter - schedules change frequently.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:615 5th Street\, Oregon City\, OR 97045
 URL:https://www.orcity.org/pioneercenter
@@ -190,7 +142,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ae8681a502d94534@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260328T120000
 DTEND:20260328T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -201,17 +153,7 @@ DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
   form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
   since 2013. Part of global Repair Café movement promoting sustainability 
  and community connection. Great for learning basic repair skills.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><stro
- ng>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are f
- ree. Bring broken items to be repaired by volunteers.</em></p><p><strong>F
- ormat:</strong> In-person</p><p>Volunteers fix small appliances\, bikes\, 
- clothing. Tool/knife sharpening and Kintsugi repair available. Registratio
- n form recommended.</p><p><strong>Website:</strong> <a href="https://www.r
- epairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong
- > Operating since 2013. Part of global Repair Café movement promoting sust
- ainability and community connection. Great for learning basic repair skill
- s.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org

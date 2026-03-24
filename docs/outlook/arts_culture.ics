@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:65bcfcc6591abf66@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260326T100000
 DTEND:20260326T190000
 SUMMARY:Portland Art Museum: Free First Thursday
@@ -36,17 +36,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: $27.50 adults\; FREE First Thur
  l programming. Part of Portland's First Thursday arts tradition.\nAddress:
   1219 SW Park Ave\, Portland\, OR 97205\nPhone: 503-226-2811\nWebsite: htt
  ps://portlandartmuseum.org/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> $27.50 adults\; FREE First Thursday\; $5 Oregon Trail 
- Card (up to 2 tickets)</p><p>Explore the museum&#x27\;s diverse collection
- s for free. Tickets can be reserved online one week in advance or at the d
- oor. Often includes live DJs\, guided tours\, and special programming. Par
- t of Portland&#x27\;s First Thursday arts tradition.</p><p><strong>Address
- :</strong> 1219 SW Park Ave\, Portland\, OR 97205</p><p><strong>Phone:</st
- rong> <a href="tel:503-226-2811">503-226-2811</a></p><p><strong>Website:</
- strong> <a href="https://portlandartmuseum.org/">https://portlandartmuseum
- .org/</a></p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> $27.50 adults; FREE First Thursday; $5 Oregon Trail Card (up to 2 tickets)</p><p>Explore the museum&#x27;s diverse collections for free. Tickets can be reserved online one week in advance or at the door. Often includes live DJs, guided tours, and special programming. Part of Portland&#x27;s First Thursday arts tradition.</p><p><strong>Address:</strong> 1219 SW Park Ave, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-226-2811">503-226-2811</a></p><p><strong>Website:</strong> <a href="https://portlandartmuseum.org/">https://portlandartmuseum.org/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:1219 SW Park Ave\, Portland\, OR 97205
 URL:https://portlandartmuseum.org/
@@ -56,7 +46,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4d15400e41f273e0@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260329T093000
 DTEND:20260329T173000
 SUMMARY:OMSI (Oregon Museum of Science and Industry): First Sunday
@@ -70,19 +60,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: $20 adults\; $17 seniors (63+)\
   Interactive science museum great for families and curious minds.\nAddress
  : 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: h
  ttps://omsi.edu/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> $20 adults\; $17 seniors (63+)\; $15 youth (3-13)\; fr
- ee under 3\; $5 First Sunday\; $5 Arts for All (EBT/SNAP/WIC/TANF/Medicaid
- /OHP)</p><p><em>Arts for All provides up to 4 tickets at $5 each for EBT/S
- NAP/WIC/TANF/Medicaid/OHP recipients (any state)\; up to 55% off membershi
- ps</em></p><p>Discounted admission day - only $5 per person for all exhibi
- ts. Planetarium shows\, submarine tours\, and special exhibitions also $5 
- each. Purchase tickets online in advance to skip the line. Interactive sci
- ence museum great for families and curious minds.</p><p><strong>Address:</
- strong> 1945 SE Water Ave\, Portland\, OR 97214</p><p><strong>Phone:</stro
- ng> <a href="tel:503-797-4000">503-797-4000</a></p><p><strong>Website:</st
- rong> <a href="https://omsi.edu/">https://omsi.edu/</a></p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> $20 adults; $17 seniors (63+); $15 youth (3-13); free under 3; $5 First Sunday; $5 Arts for All (EBT/SNAP/WIC/TANF/Medicaid/OHP)</p><p><em>Arts for All provides up to 4 tickets at $5 each for EBT/SNAP/WIC/TANF/Medicaid/OHP recipients (any state); up to 55% off memberships</em></p><p>Discounted admission day - only $5 per person for all exhibits. Planetarium shows, submarine tours, and special exhibitions also $5 each. Purchase tickets online in advance to skip the line. Interactive science museum great for families and curious minds.</p><p><strong>Address:</strong> 1945 SE Water Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-797-4000">503-797-4000</a></p><p><strong>Website:</strong> <a href="https://omsi.edu/">https://omsi.edu/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:1945 SE Water Ave\, Portland\, OR 97214
 URL:https://omsi.edu/
@@ -92,7 +70,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1cc8d79374188c66@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260326T120000
 DTEND:20260326T000000
 SUMMARY:Ground Kontrol Classic Arcade: Free Play (2nd Thursday)
@@ -100,14 +78,7 @@ DESCRIPTION:Category: Arts & Culture\nInfo: All-ages noon-5pm ($6)\, 21+ 5p
  m-midnight ($12). Unlimited play on 100+ games.\nAddress: 115 NW 5th Ave\,
   Portland\, OR 97209\nPhone: 503-796-9364\nWebsite: https://groundkontrol.
  com/\nDetails: Since 1999. Games from Golden Age of Video Arcade.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p>All
- -ages noon-5pm ($6)\, 21+ 5pm-midnight ($12). Unlimited play on 100+ games
- .</p><p><strong>Address:</strong> 115 NW 5th Ave\, Portland\, OR 97209</p>
- <p><strong>Phone:</strong> <a href="tel:503-796-9364">503-796-9364</a></p>
- <p><strong>Website:</strong> <a href="https://groundkontrol.com/">https://
- groundkontrol.com/</a></p><p><strong>Details:</strong> Since 1999. Games f
- rom Golden Age of Video Arcade.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p>All-ages noon-5pm ($6), 21+ 5pm-midnight ($12). Unlimited play on 100+ games.</p><p><strong>Address:</strong> 115 NW 5th Ave, Portland, OR 97209</p><p><strong>Phone:</strong> <a href="tel:503-796-9364">503-796-9364</a></p><p><strong>Website:</strong> <a href="https://groundkontrol.com/">https://groundkontrol.com/</a></p><p><strong>Details:</strong> Since 1999. Games from Golden Age of Video Arcade.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:115 NW 5th Ave\, Portland\, OR 97209
 URL:https://groundkontrol.com/
@@ -117,7 +88,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:59746f5642178898@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260325T120000
 DTEND:20260325T000000
 SUMMARY:Ground Kontrol Classic Arcade: Free Play (Last Wednesday)
@@ -125,14 +96,7 @@ DESCRIPTION:Category: Arts & Culture\nInfo: All-ages noon-5pm ($6)\, 21+ 5p
  m-midnight ($12). Unlimited play on 100+ games.\nAddress: 115 NW 5th Ave\,
   Portland\, OR 97209\nPhone: 503-796-9364\nWebsite: https://groundkontrol.
  com/\nDetails: Since 1999. Games from Golden Age of Video Arcade.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p>All
- -ages noon-5pm ($6)\, 21+ 5pm-midnight ($12). Unlimited play on 100+ games
- .</p><p><strong>Address:</strong> 115 NW 5th Ave\, Portland\, OR 97209</p>
- <p><strong>Phone:</strong> <a href="tel:503-796-9364">503-796-9364</a></p>
- <p><strong>Website:</strong> <a href="https://groundkontrol.com/">https://
- groundkontrol.com/</a></p><p><strong>Details:</strong> Since 1999. Games f
- rom Golden Age of Video Arcade.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p>All-ages noon-5pm ($6), 21+ 5pm-midnight ($12). Unlimited play on 100+ games.</p><p><strong>Address:</strong> 115 NW 5th Ave, Portland, OR 97209</p><p><strong>Phone:</strong> <a href="tel:503-796-9364">503-796-9364</a></p><p><strong>Website:</strong> <a href="https://groundkontrol.com/">https://groundkontrol.com/</a></p><p><strong>Details:</strong> Since 1999. Games from Golden Age of Video Arcade.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:115 NW 5th Ave\, Portland\, OR 97209
 URL:https://groundkontrol.com/
@@ -142,7 +106,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75b2a7dcae90038e@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260329T120000
 DTEND:20260329T180000
 SUMMARY:Guardian Games: Might I Suggest a Game? - Board Game Open Play
@@ -150,14 +114,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE Board Game Open Play\nInfo
  : Game library with bartender-hosted game instruction in the Bar area\nAdd
  ress: 345 SE Taylor St\, Portland\, OR 97214\nPhone: 503-238-4000\nWebsite
  : https://ggportland.com
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE Board Game Open Play</p><p>Game library with bart
- ender-hosted game instruction in the Bar area</p><p><strong>Address:</stro
- ng> 345 SE Taylor St\, Portland\, OR 97214</p><p><strong>Phone:</strong> <
- a href="tel:503-238-4000">503-238-4000</a></p><p><strong>Website:</strong>
-  <a href="https://ggportland.com">https://ggportland.com</a></p></BODY></H
- TML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE Board Game Open Play</p><p>Game library with bartender-hosted game instruction in the Bar area</p><p><strong>Address:</strong> 345 SE Taylor St, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-238-4000">503-238-4000</a></p><p><strong>Website:</strong> <a href="https://ggportland.com">https://ggportland.com</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:345 SE Taylor St\, Portland\, OR 97214
 URL:https://ggportland.com
@@ -167,7 +124,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c62bc17ff46d5148@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260325T180000
 DTEND:20260325T200000
 SUMMARY:NAYA (Native American Youth and Family Center): Culture Nights
@@ -175,14 +132,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 5135 NE Columbia
   Blvd\, Portland\, OR 97218\nPhone: 503-288-8177\nWebsite: https://nayapdx
  .org/\nDetails: 40+ programs. Youth Centered\, Family Driven\, Elder Guide
  d. Over 50 years serving Portland (founded 1974).
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE</p><p><strong>Address:</strong> 5135 NE Columbia 
- Blvd\, Portland\, OR 97218</p><p><strong>Phone:</strong> <a href="tel:503-
- 288-8177">503-288-8177</a></p><p><strong>Website:</strong> <a href="https:
- //nayapdx.org/">https://nayapdx.org/</a></p><p><strong>Details:</strong> 4
- 0+ programs. Youth Centered\, Family Driven\, Elder Guided. Over 50 years 
- serving Portland (founded 1974).</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 5135 NE Columbia Blvd, Portland, OR 97218</p><p><strong>Phone:</strong> <a href="tel:503-288-8177">503-288-8177</a></p><p><strong>Website:</strong> <a href="https://nayapdx.org/">https://nayapdx.org/</a></p><p><strong>Details:</strong> 40+ programs. Youth Centered, Family Driven, Elder Guided. Over 50 years serving Portland (founded 1974).</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:5135 NE Columbia Blvd\, Portland\, OR 97218
 URL:https://nayapdx.org/
@@ -192,7 +142,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e73e21017e0799ee@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260324T173000
 DTEND:20260324T183000
 SUMMARY:Clackamas County Libraries (LINCC): Teen Advisory Group (GOAT)
@@ -202,15 +152,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE library cards for all Oreg
  ttps://lincc.org\nDetails: 13 public libraries in Clackamas County. Oak Lo
  dge and Gladstone operated by the county\; others are independent LINCC me
  mbers.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE library cards for all Oregon residents</p><p><str
- ong>Eligibility:</strong> Grades 6-12</p><p>Help shape library programs an
- d services for teens. Meet other teens who love the library.</p><p><strong
- >Website:</strong> <a href="https://lincc.org">https://lincc.org</a></p><p
- ><strong>Details:</strong> 13 public libraries in Clackamas County. Oak Lo
- dge and Gladstone operated by the county\; others are independent LINCC me
- mbers.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE library cards for all Oregon residents</p><p><strong>Eligibility:</strong> Grades 6-12</p><p>Help shape library programs and services for teens. Meet other teens who love the library.</p><p><strong>Website:</strong> <a href="https://lincc.org">https://lincc.org</a></p><p><strong>Details:</strong> 13 public libraries in Clackamas County. Oak Lodge and Gladstone operated by the county; others are independent LINCC members.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Oak Lodge Library
 URL:https://lincc.org
@@ -220,7 +162,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3658fc1d7f9fa642@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260324T160000
 DTEND:20260324T180000
 SUMMARY:Hillsboro Public Library: Craft Programs
@@ -228,14 +170,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE (all programs and events)\
  nPhone: 503-615-6500\nWebsite: https://www.hillsboro-oregon.gov/library\nD
  etails: Two library locations in Hillsboro with daily free programming. Pa
  rt of WCCLS.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE (all programs and events)</p><p><strong>Phone:</s
- trong> <a href="tel:503-615-6500">503-615-6500</a></p><p><strong>Website:<
- /strong> <a href="https://www.hillsboro-oregon.gov/library">https://www.hi
- llsboro-oregon.gov/library</a></p><p><strong>Details:</strong> Two library
-  locations in Hillsboro with daily free programming. Part of WCCLS.</p></B
- ODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE (all programs and events)</p><p><strong>Phone:</strong> <a href="tel:503-615-6500">503-615-6500</a></p><p><strong>Website:</strong> <a href="https://www.hillsboro-oregon.gov/library">https://www.hillsboro-oregon.gov/library</a></p><p><strong>Details:</strong> Two library locations in Hillsboro with daily free programming. Part of WCCLS.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 URL:https://www.hillsboro-oregon.gov/library
 RRULE:FREQ=MONTHLY;BYDAY=TU;BYSETPOS=2
@@ -244,7 +179,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7911bf9a58117f@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260326T183000
 DTEND:20260326T193000
 SUMMARY:MHCC Planetarium Sky Theatre: Early Planetarium Show
@@ -253,16 +188,7 @@ DESCRIPTION:Category: Arts & Culture\nNote: Cash and card accepted at door\
  brary)\nPhone: 503-491-7309\nWebsite: https://www.mhcc.edu/community-resou
  rces/planetarium-sky-theatre\nDetails: Affordable planetarium shows in Eas
  t County. Different astronomy topic each month. Perfect for families.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><em
- >Cash and card accepted at door</em></p><p><strong>Address:</strong> 26000
-  SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath library)</p><p><s
- trong>Phone:</strong> <a href="tel:503-491-7309">503-491-7309</a></p><p><s
- trong>Website:</strong> <a href="https://www.mhcc.edu/community-resources/
- planetarium-sky-theatre">https://www.mhcc.edu/community-resources/planetar
- ium-sky-theatre</a></p><p><strong>Details:</strong> Affordable planetarium
-  shows in East County. Different astronomy topic each month. Perfect for f
- amilies.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><em>Cash and card accepted at door</em></p><p><strong>Address:</strong> 26000 SE Stark St, Gresham, OR 97030 (Room AC1305, beneath library)</p><p><strong>Phone:</strong> <a href="tel:503-491-7309">503-491-7309</a></p><p><strong>Website:</strong> <a href="https://www.mhcc.edu/community-resources/planetarium-sky-theatre">https://www.mhcc.edu/community-resources/planetarium-sky-theatre</a></p><p><strong>Details:</strong> Affordable planetarium shows in East County. Different astronomy topic each month. Perfect for families.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath libr
  ary)
@@ -273,7 +199,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e02aa101489f47a@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260326T200000
 DTEND:20260326T210000
 SUMMARY:MHCC Planetarium Sky Theatre: Late Planetarium Show
@@ -282,16 +208,7 @@ DESCRIPTION:Category: Arts & Culture\nNote: Cash and card accepted at door\
  brary)\nPhone: 503-491-7309\nWebsite: https://www.mhcc.edu/community-resou
  rces/planetarium-sky-theatre\nDetails: Affordable planetarium shows in Eas
  t County. Different astronomy topic each month. Perfect for families.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><em
- >Cash and card accepted at door</em></p><p><strong>Address:</strong> 26000
-  SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath library)</p><p><s
- trong>Phone:</strong> <a href="tel:503-491-7309">503-491-7309</a></p><p><s
- trong>Website:</strong> <a href="https://www.mhcc.edu/community-resources/
- planetarium-sky-theatre">https://www.mhcc.edu/community-resources/planetar
- ium-sky-theatre</a></p><p><strong>Details:</strong> Affordable planetarium
-  shows in East County. Different astronomy topic each month. Perfect for f
- amilies.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><em>Cash and card accepted at door</em></p><p><strong>Address:</strong> 26000 SE Stark St, Gresham, OR 97030 (Room AC1305, beneath library)</p><p><strong>Phone:</strong> <a href="tel:503-491-7309">503-491-7309</a></p><p><strong>Website:</strong> <a href="https://www.mhcc.edu/community-resources/planetarium-sky-theatre">https://www.mhcc.edu/community-resources/planetarium-sky-theatre</a></p><p><strong>Details:</strong> Affordable planetarium shows in East County. Different astronomy topic each month. Perfect for families.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath libr
  ary)
@@ -302,7 +219,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f7bf9869ba2e83a@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260325T120000
 DTEND:20260325T130000
 SUMMARY:The Old Church Concert Hall: Lunchtime Concert Series
@@ -310,13 +227,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE lunchtime concerts\nInfo:
  Historic 1882 venue\, fully wheelchair accessible\nAddress: 1422 SW 11th A
  ve\, Portland\, OR 97201\nPhone: 503-222-2031\nWebsite: https://www.tocpor
  tland.org/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE lunchtime concerts</p><p>Historic 1882 venue\, fu
- lly wheelchair accessible</p><p><strong>Address:</strong> 1422 SW 11th Ave
- \, Portland\, OR 97201</p><p><strong>Phone:</strong> <a href="tel:503-222-
- 2031">503-222-2031</a></p><p><strong>Website:</strong> <a href="https://ww
- w.tocportland.org/">https://www.tocportland.org/</a></p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE lunchtime concerts</p><p>Historic 1882 venue, fully wheelchair accessible</p><p><strong>Address:</strong> 1422 SW 11th Ave, Portland, OR 97201</p><p><strong>Phone:</strong> <a href="tel:503-222-2031">503-222-2031</a></p><p><strong>Website:</strong> <a href="https://www.tocportland.org/">https://www.tocportland.org/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:1422 SW 11th Ave\, Portland\, OR 97201
 URL:https://www.tocportland.org/
@@ -326,7 +237,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0379c9729163580c@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260329T160000
 DTEND:20260329T170000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
@@ -335,13 +246,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Four Bach cantatas
  per season presented within Evening Prayer liturgy with choir\, soloists\,
   and orchestra.\nAddress: 1315 SW Park Ave\, Portland\, OR 97201\nWebsite:
   https://stjamespdx.org/life/wm/bach/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE</p><p>Four Bach cantatas per season presented wit
- hin Evening Prayer liturgy with choir\, soloists\, and orchestra.</p><p><s
- trong>Address:</strong> 1315 SW Park Ave\, Portland\, OR 97201</p><p><stro
- ng>Website:</strong> <a href="https://stjamespdx.org/life/wm/bach/">https:
- //stjamespdx.org/life/wm/bach/</a></p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE</p><p>Four Bach cantatas per season presented within Evening Prayer liturgy with choir, soloists, and orchestra.</p><p><strong>Address:</strong> 1315 SW Park Ave, Portland, OR 97201</p><p><strong>Website:</strong> <a href="https://stjamespdx.org/life/wm/bach/">https://stjamespdx.org/life/wm/bach/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:1315 SW Park Ave\, Portland\, OR 97201
 URL:https://stjamespdx.org/life/wm/bach/
@@ -351,7 +256,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c1294058eda55cac@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260325T090000
 DTEND:20260325T150000
 SUMMARY:Historic Belmont Firehouse: Wednesday Open Hours
@@ -361,16 +266,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Explore Portland Fi
  s require 2 weeks advance notice.\nAddress: 900 SE 35th Ave\, Portland\, O
  R 97214\nPhone: 503-823-3741\nWebsite: https://www.portland.gov/fire/belmo
  nt-firehouse-museum
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE</p><p>Explore Portland Fire &amp\; Rescue history
-  through interactive exhibits\, an 1860 hose cart\, fire pole\, and emerge
- ncy response simulator. Group visits outside these times require 2 weeks a
- dvance notice.</p><p><strong>Address:</strong> 900 SE 35th Ave\, Portland\
- , OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-823-3741">503-82
- 3-3741</a></p><p><strong>Website:</strong> <a href="https://www.portland.g
- ov/fire/belmont-firehouse-museum">https://www.portland.gov/fire/belmont-fi
- rehouse-museum</a></p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE</p><p>Explore Portland Fire &amp; Rescue history through interactive exhibits, an 1860 hose cart, fire pole, and emergency response simulator. Group visits outside these times require 2 weeks advance notice.</p><p><strong>Address:</strong> 900 SE 35th Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-823-3741">503-823-3741</a></p><p><strong>Website:</strong> <a href="https://www.portland.gov/fire/belmont-firehouse-museum">https://www.portland.gov/fire/belmont-firehouse-museum</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:900 SE 35th Ave\, Portland\, OR 97214
 URL:https://www.portland.gov/fire/belmont-firehouse-museum
@@ -380,7 +276,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d008ef21f7f8aa0a@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260327T170000
 DTEND:20260327T190000
 SUMMARY:Turn! Turn! Turn!: Casual Friday (Comedy Open Mic)
@@ -389,15 +285,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: Happy hour c
  erformers and audience. Women-owned community venue since 2014.\nAddress: 
  8 NE Killingsworth St\, Portland\, OR 97211\nPhone: 503-284-6019\nWebsite:
   https://turnturnturnpdx.com/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE events</p><p>Happy hour comedy open mic hosted by
-  Logan Loughmiller. Low-pressure environment for performers and audience. 
- Women-owned community venue since 2014.</p><p><strong>Address:</strong> 8 
- NE Killingsworth St\, Portland\, OR 97211</p><p><strong>Phone:</strong> <a
-  href="tel:503-284-6019">503-284-6019</a></p><p><strong>Website:</strong> 
- <a href="https://turnturnturnpdx.com/">https://turnturnturnpdx.com/</a></p
- ></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE events</p><p>Happy hour comedy open mic hosted by Logan Loughmiller. Low-pressure environment for performers and audience. Women-owned community venue since 2014.</p><p><strong>Address:</strong> 8 NE Killingsworth St, Portland, OR 97211</p><p><strong>Phone:</strong> <a href="tel:503-284-6019">503-284-6019</a></p><p><strong>Website:</strong> <a href="https://turnturnturnpdx.com/">https://turnturnturnpdx.com/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:8 NE Killingsworth St\, Portland\, OR 97211
 URL:https://turnturnturnpdx.com/
@@ -407,7 +295,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d8fc3329cc6894ad@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260329T123000
 DTEND:20260329T153000
 SUMMARY:Turn! Turn! Turn!: Drawing Club
@@ -416,15 +304,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: Casual drawi
  ls welcome. Women-owned community arts venue doubling as bar\, record stor
  e\, and vintage shop.\nAddress: 8 NE Killingsworth St\, Portland\, OR 9721
  1\nPhone: 503-284-6019\nWebsite: https://turnturnturnpdx.com/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE events</p><p>Casual drawing get-together - bring 
- your own supplies or just hang out. All skill levels welcome. Women-owned 
- community arts venue doubling as bar\, record store\, and vintage shop.</p
- ><p><strong>Address:</strong> 8 NE Killingsworth St\, Portland\, OR 97211<
- /p><p><strong>Phone:</strong> <a href="tel:503-284-6019">503-284-6019</a><
- /p><p><strong>Website:</strong> <a href="https://turnturnturnpdx.com/">htt
- ps://turnturnturnpdx.com/</a></p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE events</p><p>Casual drawing get-together - bring your own supplies or just hang out. All skill levels welcome. Women-owned community arts venue doubling as bar, record store, and vintage shop.</p><p><strong>Address:</strong> 8 NE Killingsworth St, Portland, OR 97211</p><p><strong>Phone:</strong> <a href="tel:503-284-6019">503-284-6019</a></p><p><strong>Website:</strong> <a href="https://turnturnturnpdx.com/">https://turnturnturnpdx.com/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:8 NE Killingsworth St\, Portland\, OR 97211
 URL:https://turnturnturnpdx.com/
@@ -434,7 +314,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d9e5489d6044ef66@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260330T200000
 DTEND:20260330T230000
 SUMMARY:Turn! Turn! Turn!: Karaoke Night
@@ -443,15 +323,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: K-Tel and La
  or singers of all abilities. 21+ after 8pm. Cash only at door\, all paymen
  ts at bar.\nAddress: 8 NE Killingsworth St\, Portland\, OR 97211\nPhone: 5
  03-284-6019\nWebsite: https://turnturnturnpdx.com/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE events</p><p>K-Tel and Larry-okee supportive kara
- oke night. Low-pressure\, encouraging atmosphere for singers of all abilit
- ies. 21+ after 8pm. Cash only at door\, all payments at bar.</p><p><strong
- >Address:</strong> 8 NE Killingsworth St\, Portland\, OR 97211</p><p><stro
- ng>Phone:</strong> <a href="tel:503-284-6019">503-284-6019</a></p><p><stro
- ng>Website:</strong> <a href="https://turnturnturnpdx.com/">https://turntu
- rnturnpdx.com/</a></p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE events</p><p>K-Tel and Larry-okee supportive karaoke night. Low-pressure, encouraging atmosphere for singers of all abilities. 21+ after 8pm. Cash only at door, all payments at bar.</p><p><strong>Address:</strong> 8 NE Killingsworth St, Portland, OR 97211</p><p><strong>Phone:</strong> <a href="tel:503-284-6019">503-284-6019</a></p><p><strong>Website:</strong> <a href="https://turnturnturnpdx.com/">https://turnturnturnpdx.com/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:8 NE Killingsworth St\, Portland\, OR 97211
 URL:https://turnturnturnpdx.com/
@@ -461,7 +333,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:081b91eb97012860@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260325T200000
 DTEND:20260325T210000
 SUMMARY:Tualatin Public Library: Adult Book Discussion
@@ -470,15 +342,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Monthly book club.
  e\, Tualatin\, OR 97062\nPhone: 503-691-3074\nWebsite: https://www.tualati
  noregon.gov/library\nDetails: Active programming including music series\, 
  teen programs\, and Makerspace. Part of WCCLS.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE</p><p>Monthly book club. Check library for curren
- t book selection.</p><p><strong>Address:</strong> 18878 SW Martinazzi Ave\
- , Tualatin\, OR 97062</p><p><strong>Phone:</strong> <a href="tel:503-691-3
- 074">503-691-3074</a></p><p><strong>Website:</strong> <a href="https://www
- .tualatinoregon.gov/library">https://www.tualatinoregon.gov/library</a></p
- ><p><strong>Details:</strong> Active programming including music series\, 
- teen programs\, and Makerspace. Part of WCCLS.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE</p><p>Monthly book club. Check library for current book selection.</p><p><strong>Address:</strong> 18878 SW Martinazzi Ave, Tualatin, OR 97062</p><p><strong>Phone:</strong> <a href="tel:503-691-3074">503-691-3074</a></p><p><strong>Website:</strong> <a href="https://www.tualatinoregon.gov/library">https://www.tualatinoregon.gov/library</a></p><p><strong>Details:</strong> Active programming including music series, teen programs, and Makerspace. Part of WCCLS.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:18878 SW Martinazzi Ave\, Tualatin\, OR 97062
 URL:https://www.tualatinoregon.gov/library
@@ -488,7 +352,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:33a5a02eaf722ff1@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260325T160000
 DTEND:20260325T170000
 SUMMARY:Tualatin Public Library: Teen Book Chat (grades 8-12)
@@ -497,15 +361,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Free copy of book f
  Phone: 503-691-3074\nWebsite: https://www.tualatinoregon.gov/library\nDeta
  ils: Active programming including music series\, teen programs\, and Maker
  space. Part of WCCLS.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE</p><p>Free copy of book for participants.</p><p><
- strong>Address:</strong> 18878 SW Martinazzi Ave\, Tualatin\, OR 97062</p>
- <p><strong>Phone:</strong> <a href="tel:503-691-3074">503-691-3074</a></p>
- <p><strong>Website:</strong> <a href="https://www.tualatinoregon.gov/libra
- ry">https://www.tualatinoregon.gov/library</a></p><p><strong>Details:</str
- ong> Active programming including music series\, teen programs\, and Maker
- space. Part of WCCLS.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE</p><p>Free copy of book for participants.</p><p><strong>Address:</strong> 18878 SW Martinazzi Ave, Tualatin, OR 97062</p><p><strong>Phone:</strong> <a href="tel:503-691-3074">503-691-3074</a></p><p><strong>Website:</strong> <a href="https://www.tualatinoregon.gov/library">https://www.tualatinoregon.gov/library</a></p><p><strong>Details:</strong> Active programming including music series, teen programs, and Makerspace. Part of WCCLS.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:18878 SW Martinazzi Ave\, Tualatin\, OR 97062
 URL:https://www.tualatinoregon.gov/library
@@ -515,7 +371,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1237b588e2dc3b12@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260607T140000
 DTEND:20260607T150000
 SUMMARY:Tualatin Public Library: Summer Sunday Music Series
@@ -524,15 +380,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Live music by the f
  ualatin\, OR 97062\nPhone: 503-691-3074\nWebsite: https://www.tualatinoreg
  on.gov/library\nDetails: Active programming including music series\, teen 
  programs\, and Makerspace. Part of WCCLS.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE</p><p>Live music by the fireplace hearth. Summer 
- season only.</p><p><strong>Address:</strong> 18878 SW Martinazzi Ave\, Tua
- latin\, OR 97062</p><p><strong>Phone:</strong> <a href="tel:503-691-3074">
- 503-691-3074</a></p><p><strong>Website:</strong> <a href="https://www.tual
- atinoregon.gov/library">https://www.tualatinoregon.gov/library</a></p><p><
- strong>Details:</strong> Active programming including music series\, teen 
- programs\, and Makerspace. Part of WCCLS.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE</p><p>Live music by the fireplace hearth. Summer season only.</p><p><strong>Address:</strong> 18878 SW Martinazzi Ave, Tualatin, OR 97062</p><p><strong>Phone:</strong> <a href="tel:503-691-3074">503-691-3074</a></p><p><strong>Website:</strong> <a href="https://www.tualatinoregon.gov/library">https://www.tualatinoregon.gov/library</a></p><p><strong>Details:</strong> Active programming including music series, teen programs, and Makerspace. Part of WCCLS.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:18878 SW Martinazzi Ave\, Tualatin\, OR 97062
 URL:https://www.tualatinoregon.gov/library
@@ -542,7 +390,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:47623ca66dc7ccac@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260329T140000
 DTEND:20260329T160000
 SUMMARY:SCRAP PDX Creative Reuse: Sunday Crafternoon
@@ -551,15 +399,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE-$7 depending on event\nInf
  ome.\nAddress: 619 SE 6th Ave\, Portland\, OR 97214\nPhone: 503-294-0769\n
  Website: https://portland.scrapcreativereuse.org/\nDetails: Nonprofit crea
  tive reuse center with free/low-cost craft events
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE-$7 depending on event</p><p>Guided themed craft p
- rojects. Materials provided. All skill levels welcome.</p><p><strong>Addre
- ss:</strong> 619 SE 6th Ave\, Portland\, OR 97214</p><p><strong>Phone:</st
- rong> <a href="tel:503-294-0769">503-294-0769</a></p><p><strong>Website:</
- strong> <a href="https://portland.scrapcreativereuse.org/">https://portlan
- d.scrapcreativereuse.org/</a></p><p><strong>Details:</strong> Nonprofit cr
- eative reuse center with free/low-cost craft events</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE-$7 depending on event</p><p>Guided themed craft projects. Materials provided. All skill levels welcome.</p><p><strong>Address:</strong> 619 SE 6th Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-294-0769">503-294-0769</a></p><p><strong>Website:</strong> <a href="https://portland.scrapcreativereuse.org/">https://portland.scrapcreativereuse.org/</a></p><p><strong>Details:</strong> Nonprofit creative reuse center with free/low-cost craft events</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:619 SE 6th Ave\, Portland\, OR 97214
 URL:https://portland.scrapcreativereuse.org/
@@ -569,7 +409,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d1c182da302ffe9c@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260326T160000
 DTEND:20260326T180000
 SUMMARY:SCRAP PDX Creative Reuse: Drop In Studio
@@ -578,15 +418,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE-$7 depending on event\nInf
  \, OR 97214\nPhone: 503-294-0769\nWebsite: https://portland.scrapcreativer
  euse.org/\nDetails: Nonprofit creative reuse center with free/low-cost cra
  ft events
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE-$7 depending on event</p><p>Bring a project or st
- art a new one.</p><p><strong>Address:</strong> 619 SE 6th Ave\, Portland\,
-  OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-294-0769">503-294
- -0769</a></p><p><strong>Website:</strong> <a href="https://portland.scrapc
- reativereuse.org/">https://portland.scrapcreativereuse.org/</a></p><p><str
- ong>Details:</strong> Nonprofit creative reuse center with free/low-cost c
- raft events</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE-$7 depending on event</p><p>Bring a project or start a new one.</p><p><strong>Address:</strong> 619 SE 6th Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-294-0769">503-294-0769</a></p><p><strong>Website:</strong> <a href="https://portland.scrapcreativereuse.org/">https://portland.scrapcreativereuse.org/</a></p><p><strong>Details:</strong> Nonprofit creative reuse center with free/low-cost craft events</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:619 SE 6th Ave\, Portland\, OR 97214
 URL:https://portland.scrapcreativereuse.org/
@@ -596,7 +428,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:018c2dbc4c1b6d6c@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260329T170000
 DTEND:20260329T190000
 SUMMARY:Independent Publishing Resource Center (IPRC): Collage Night
@@ -606,16 +438,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: Collage Night FREE\; workshops
   Street\, Suites 155 & 145\, Portland\, OR 97214\nPhone: 503-827-0249\nWeb
  site: https://www.iprc.org/\nDetails: Zine and print resource center with 
  free collage nights and workshops
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> Collage Night FREE\; workshops vary\; zine library FRE
- E</p><p>Free monthly collage session. All materials provided. Great for be
- ginners. Open to the public.</p><p><strong>Address:</strong> 318 SE Main S
- treet\, Suites 155 &amp\; 145\, Portland\, OR 97214</p><p><strong>Phone:</
- strong> <a href="tel:503-827-0249">503-827-0249</a></p><p><strong>Website:
- </strong> <a href="https://www.iprc.org/">https://www.iprc.org/</a></p><p>
- <strong>Details:</strong> Zine and print resource center with free collage
-  nights and workshops</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> Collage Night FREE; workshops vary; zine library FREE</p><p>Free monthly collage session. All materials provided. Great for beginners. Open to the public.</p><p><strong>Address:</strong> 318 SE Main Street, Suites 155 &amp; 145, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-827-0249">503-827-0249</a></p><p><strong>Website:</strong> <a href="https://www.iprc.org/">https://www.iprc.org/</a></p><p><strong>Details:</strong> Zine and print resource center with free collage nights and workshops</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:318 SE Main Street\, Suites 155 & 145\, Portland\, OR 97214
 URL:https://www.iprc.org/
@@ -625,7 +448,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4f5ddbd49f0a9039@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260329T160000
 DTEND:20260329T180000
 SUMMARY:The Humble Poets' Open Mic
@@ -633,15 +456,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: The Stacks Coffe
  ehouse\, 1831 N Killingsworth St\, Portland\, OR 97217\nPhone: 503-384-283
  4\nWebsite: https://www.thestackscoffeehouse.com/events\nDetails: Very wel
  coming poetry open mic in cozy coffeehouse - great for first-timers
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE</p><p><strong>Address:</strong> The Stacks Coffee
- house\, 1831 N Killingsworth St\, Portland\, OR 97217</p><p><strong>Phone:
- </strong> <a href="tel:503-384-2834">503-384-2834</a></p><p><strong>Websit
- e:</strong> <a href="https://www.thestackscoffeehouse.com/events">https://
- www.thestackscoffeehouse.com/events</a></p><p><strong>Details:</strong> Ve
- ry welcoming poetry open mic in cozy coffeehouse - great for first-timers<
- /p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> The Stacks Coffeehouse, 1831 N Killingsworth St, Portland, OR 97217</p><p><strong>Phone:</strong> <a href="tel:503-384-2834">503-384-2834</a></p><p><strong>Website:</strong> <a href="https://www.thestackscoffeehouse.com/events">https://www.thestackscoffeehouse.com/events</a></p><p><strong>Details:</strong> Very welcoming poetry open mic in cozy coffeehouse - great for first-timers</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:The Stacks Coffeehouse\, 1831 N Killingsworth St\, Portland\, OR 9
  7217
@@ -652,7 +467,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c0cf360c4a2f442c@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260328T100000
 DTEND:20260328T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -665,20 +480,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: $10 suggested donation per tour
  www.friendsoflonefircemetery.org\nDetails: 501(c)(3) nonprofit preserving 
  cemetery history since 2000. One of Portland's most beautiful and historic
   green spaces. Final resting place of many Portland pioneers.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> $10 suggested donation per tour (FREE self-guided opti
- ons available)</p><p><em>Reservations or donations not required but apprec
- iated. Self-guided smartphone tours and PDF downloads are free.</em></p><p
- ><strong>Format:</strong> In-person</p><p>Learn about Portland&#x27\;s fou
- nders and regionally-known pioneers. Meet at Soldiers Monument.</p><p><str
- ong>Address:</strong> Lone Fir Cemetery\, SE 26th Ave &amp\; SE Stark St\,
-  Portland\, OR 97214</p><p><strong>Website:</strong> <a href="https://www.
- friendsoflonefircemetery.org">https://www.friendsoflonefircemetery.org</a>
- </p><p><strong>Details:</strong> 501(c)(3) nonprofit preserving cemetery h
- istory since 2000. One of Portland&#x27\;s most beautiful and historic gre
- en spaces. Final resting place of many Portland pioneers.</p></BODY></HTML
- >
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> $10 suggested donation per tour (FREE self-guided options available)</p><p><em>Reservations or donations not required but appreciated. Self-guided smartphone tours and PDF downloads are free.</em></p><p><strong>Format:</strong> In-person</p><p>Learn about Portland&#x27;s founders and regionally-known pioneers. Meet at Soldiers Monument.</p><p><strong>Address:</strong> Lone Fir Cemetery, SE 26th Ave &amp; SE Stark St, Portland, OR 97214</p><p><strong>Website:</strong> <a href="https://www.friendsoflonefircemetery.org">https://www.friendsoflonefircemetery.org</a></p><p><strong>Details:</strong> 501(c)(3) nonprofit preserving cemetery history since 2000. One of Portland&#x27;s most beautiful and historic green spaces. Final resting place of many Portland pioneers.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
  4
@@ -689,7 +491,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6521fc4b6bde906a@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260328T100000
 DTEND:20260328T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -703,20 +505,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: $10 suggested donation per tour
  nprofit preserving cemetery history since 2000. One of Portland's most bea
  utiful and historic green spaces. Final resting place of many Portland pio
  neers.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> $10 suggested donation per tour (FREE self-guided opti
- ons available)</p><p><em>Reservations or donations not required but apprec
- iated. Self-guided smartphone tours and PDF downloads are free.</em></p><p
- ><strong>Format:</strong> In-person</p><p>Explores northern cemetery secti
- ons\, structures\, symbolism\, and granite types. Meet at Soldiers Monumen
- t.</p><p><strong>Address:</strong> Lone Fir Cemetery\, SE 26th Ave &amp\; 
- SE Stark St\, Portland\, OR 97214</p><p><strong>Website:</strong> <a href=
- "https://www.friendsoflonefircemetery.org">https://www.friendsoflonefircem
- etery.org</a></p><p><strong>Details:</strong> 501(c)(3) nonprofit preservi
- ng cemetery history since 2000. One of Portland&#x27\;s most beautiful and
-  historic green spaces. Final resting place of many Portland pioneers.</p>
- </BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> $10 suggested donation per tour (FREE self-guided options available)</p><p><em>Reservations or donations not required but appreciated. Self-guided smartphone tours and PDF downloads are free.</em></p><p><strong>Format:</strong> In-person</p><p>Explores northern cemetery sections, structures, symbolism, and granite types. Meet at Soldiers Monument.</p><p><strong>Address:</strong> Lone Fir Cemetery, SE 26th Ave &amp; SE Stark St, Portland, OR 97214</p><p><strong>Website:</strong> <a href="https://www.friendsoflonefircemetery.org">https://www.friendsoflonefircemetery.org</a></p><p><strong>Details:</strong> 501(c)(3) nonprofit preserving cemetery history since 2000. One of Portland&#x27;s most beautiful and historic green spaces. Final resting place of many Portland pioneers.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
  4
@@ -727,7 +516,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:359b4e00639aefa2@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260328T100000
 DTEND:20260328T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -740,19 +529,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: $10 suggested donation per tour
  tery.org\nDetails: 501(c)(3) nonprofit preserving cemetery history since 2
  000. One of Portland's most beautiful and historic green spaces. Final res
  ting place of many Portland pioneers.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> $10 suggested donation per tour (FREE self-guided opti
- ons available)</p><p><em>Reservations or donations not required but apprec
- iated. Self-guided smartphone tours and PDF downloads are free.</em></p><p
- ><strong>Format:</strong> In-person</p><p>Explores southern section of cem
- etery. Meet at Soldiers Monument.</p><p><strong>Address:</strong> Lone Fir
-  Cemetery\, SE 26th Ave &amp\; SE Stark St\, Portland\, OR 97214</p><p><st
- rong>Website:</strong> <a href="https://www.friendsoflonefircemetery.org">
- https://www.friendsoflonefircemetery.org</a></p><p><strong>Details:</stron
- g> 501(c)(3) nonprofit preserving cemetery history since 2000. One of Port
- land&#x27\;s most beautiful and historic green spaces. Final resting place
-  of many Portland pioneers.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> $10 suggested donation per tour (FREE self-guided options available)</p><p><em>Reservations or donations not required but appreciated. Self-guided smartphone tours and PDF downloads are free.</em></p><p><strong>Format:</strong> In-person</p><p>Explores southern section of cemetery. Meet at Soldiers Monument.</p><p><strong>Address:</strong> Lone Fir Cemetery, SE 26th Ave &amp; SE Stark St, Portland, OR 97214</p><p><strong>Website:</strong> <a href="https://www.friendsoflonefircemetery.org">https://www.friendsoflonefircemetery.org</a></p><p><strong>Details:</strong> 501(c)(3) nonprofit preserving cemetery history since 2000. One of Portland&#x27;s most beautiful and historic green spaces. Final resting place of many Portland pioneers.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
  4
@@ -763,7 +540,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7053af3e4013d499@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260328T100000
 DTEND:20260328T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -777,20 +554,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: $10 suggested donation per tour
  rofit preserving cemetery history since 2000. One of Portland's most beaut
  iful and historic green spaces. Final resting place of many Portland pione
  ers.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> $10 suggested donation per tour (FREE self-guided opti
- ons available)</p><p><em>Reservations or donations not required but apprec
- iated. Self-guided smartphone tours and PDF downloads are free.</em></p><p
- ><strong>Format:</strong> In-person</p><p>Highlights notable women includi
- ng Terwilliger\, McLoughlin\, Macleay families. Meet at Soldiers Monument.
- </p><p><strong>Address:</strong> Lone Fir Cemetery\, SE 26th Ave &amp\; SE
-  Stark St\, Portland\, OR 97214</p><p><strong>Website:</strong> <a href="h
- ttps://www.friendsoflonefircemetery.org">https://www.friendsoflonefircemet
- ery.org</a></p><p><strong>Details:</strong> 501(c)(3) nonprofit preserving
-  cemetery history since 2000. One of Portland&#x27\;s most beautiful and h
- istoric green spaces. Final resting place of many Portland pioneers.</p></
- BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> $10 suggested donation per tour (FREE self-guided options available)</p><p><em>Reservations or donations not required but appreciated. Self-guided smartphone tours and PDF downloads are free.</em></p><p><strong>Format:</strong> In-person</p><p>Highlights notable women including Terwilliger, McLoughlin, Macleay families. Meet at Soldiers Monument.</p><p><strong>Address:</strong> Lone Fir Cemetery, SE 26th Ave &amp; SE Stark St, Portland, OR 97214</p><p><strong>Website:</strong> <a href="https://www.friendsoflonefircemetery.org">https://www.friendsoflonefircemetery.org</a></p><p><strong>Details:</strong> 501(c)(3) nonprofit preserving cemetery history since 2000. One of Portland&#x27;s most beautiful and historic green spaces. Final resting place of many Portland pioneers.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
  4
@@ -801,7 +565,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb2584d8ad685306@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260329T130000
 DTEND:20260329T150000
 SUMMARY:Community Jams: EZ-Lead Slow Jam (Blues\, Folk\, Americana)
@@ -811,15 +575,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
  ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
  8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
  s are especially welcoming for beginners.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE</p><p><strong>Address:</strong> 2365 SW Cedar Hil
- ls Blvd\, Beaverton\, OR</p><p><strong>Website:</strong> <a href="https://
- communityjams.org">https://communityjams.org</a></p><p><strong>Details:</s
- trong> Nonprofit connecting musicians of all abilities through free studio
-  jams. Grew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ ev
- ents\, 4.8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday new
- comer jams are especially welcoming for beginners.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 2365 SW Cedar Hills Blvd, Beaverton, OR</p><p><strong>Website:</strong> <a href="https://communityjams.org">https://communityjams.org</a></p><p><strong>Details:</strong> Nonprofit connecting musicians of all abilities through free studio jams. Grew from Portland Casual Jams Meetup (5,000+ members, 4,300+ events, 4.8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jams are especially welcoming for beginners.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
 URL:https://communityjams.org
@@ -829,7 +585,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:352aca1aa2ae288f@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260330T180000
 DTEND:20260330T200000
 SUMMARY:Community Jams: CJ Anything Goes Jam
@@ -839,15 +595,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
  ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
  8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
  s are especially welcoming for beginners.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE</p><p><strong>Address:</strong> 2365 SW Cedar Hil
- ls Blvd\, Beaverton\, OR</p><p><strong>Website:</strong> <a href="https://
- communityjams.org">https://communityjams.org</a></p><p><strong>Details:</s
- trong> Nonprofit connecting musicians of all abilities through free studio
-  jams. Grew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ ev
- ents\, 4.8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday new
- comer jams are especially welcoming for beginners.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 2365 SW Cedar Hills Blvd, Beaverton, OR</p><p><strong>Website:</strong> <a href="https://communityjams.org">https://communityjams.org</a></p><p><strong>Details:</strong> Nonprofit connecting musicians of all abilities through free studio jams. Grew from Portland Casual Jams Meetup (5,000+ members, 4,300+ events, 4.8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jams are especially welcoming for beginners.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
 URL:https://communityjams.org
@@ -857,7 +605,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:36b525d206d3d5af@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260330T200000
 DTEND:20260330T220000
 SUMMARY:Community Jams: CJ Improv Jam
@@ -867,15 +615,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
  ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
  8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
  s are especially welcoming for beginners.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE</p><p><strong>Address:</strong> 2365 SW Cedar Hil
- ls Blvd\, Beaverton\, OR</p><p><strong>Website:</strong> <a href="https://
- communityjams.org">https://communityjams.org</a></p><p><strong>Details:</s
- trong> Nonprofit connecting musicians of all abilities through free studio
-  jams. Grew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ ev
- ents\, 4.8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday new
- comer jams are especially welcoming for beginners.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 2365 SW Cedar Hills Blvd, Beaverton, OR</p><p><strong>Website:</strong> <a href="https://communityjams.org">https://communityjams.org</a></p><p><strong>Details:</strong> Nonprofit connecting musicians of all abilities through free studio jams. Grew from Portland Casual Jams Meetup (5,000+ members, 4,300+ events, 4.8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jams are especially welcoming for beginners.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
 URL:https://communityjams.org
@@ -885,7 +625,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:83b0bc41193a745a@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260324T190000
 DTEND:20260324T213000
 SUMMARY:Community Jams: CJ Newcomers and Explorers Jam
@@ -896,16 +636,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Best for first-time
  ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
  8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
  s are especially welcoming for beginners.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE</p><p>Best for first-timers. Welcoming environmen
- t for all skill levels.</p><p><strong>Address:</strong> 2365 SW Cedar Hill
- s Blvd\, Beaverton\, OR</p><p><strong>Website:</strong> <a href="https://c
- ommunityjams.org">https://communityjams.org</a></p><p><strong>Details:</st
- rong> Nonprofit connecting musicians of all abilities through free studio 
- jams. Grew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ eve
- nts\, 4.8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newc
- omer jams are especially welcoming for beginners.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE</p><p>Best for first-timers. Welcoming environment for all skill levels.</p><p><strong>Address:</strong> 2365 SW Cedar Hills Blvd, Beaverton, OR</p><p><strong>Website:</strong> <a href="https://communityjams.org">https://communityjams.org</a></p><p><strong>Details:</strong> Nonprofit connecting musicians of all abilities through free studio jams. Grew from Portland Casual Jams Meetup (5,000+ members, 4,300+ events, 4.8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jams are especially welcoming for beginners.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
 URL:https://communityjams.org
@@ -915,7 +646,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0f4493dcc6b71ae5@portlandresources.org
-DTSTAMP:20260324T074025Z
+DTSTAMP:20260324T152414Z
 DTSTART:20260328T130000
 DTEND:20260328T150000
 SUMMARY:Community Jams: CJ Newcomers and Explorers Jam (Saturday)
@@ -925,15 +656,7 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
  ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
  8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
  s are especially welcoming for beginners.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
- N"><HTML><BODY><p><strong>Category:</strong> Arts &amp\; Culture</p><p><st
- rong>Cost:</strong> FREE</p><p><strong>Address:</strong> 2365 SW Cedar Hil
- ls Blvd\, Beaverton\, OR</p><p><strong>Website:</strong> <a href="https://
- communityjams.org">https://communityjams.org</a></p><p><strong>Details:</s
- trong> Nonprofit connecting musicians of all abilities through free studio
-  jams. Grew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ ev
- ents\, 4.8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday new
- comer jams are especially welcoming for beginners.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 2365 SW Cedar Hills Blvd, Beaverton, OR</p><p><strong>Website:</strong> <a href="https://communityjams.org">https://communityjams.org</a></p><p><strong>Details:</strong> Nonprofit connecting musicians of all abilities through free studio jams. Grew from Portland Casual Jams Meetup (5,000+ members, 4,300+ events, 4.8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jams are especially welcoming for beginners.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
 URL:https://communityjams.org

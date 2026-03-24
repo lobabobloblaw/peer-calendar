@@ -423,11 +423,10 @@ def create_vevent(
     if description:
         lines.append(fold_ical_line(f"DESCRIPTION:{escape_ical_text(description)}"))
 
-    # Outlook: Add HTML description
+    # Outlook: Add HTML description (no iCal escaping — HTML uses its own encoding;
+    # no line folding — splitting mid-tag corrupts HTML and Outlook handles long lines)
     if platform == "outlook" and html_description:
-        # X-ALT-DESC must be properly escaped and folded
-        escaped_html = escape_ical_text(html_description)
-        lines.append(fold_ical_line(f"X-ALT-DESC;FMTTYPE=text/html:{escaped_html}"))
+        lines.append(f"X-ALT-DESC;FMTTYPE=text/html:{html_description}")
         # Set as busy by default
         lines.append("X-MICROSOFT-CDO-BUSYSTATUS:FREE")
 

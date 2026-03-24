@@ -2661,7 +2661,7 @@
 
             let html = `<div class="day-popup-header">
                 <span>${dateLabel}</span>
-                <button class="day-popup-close">&times;</button>
+                <button class="day-popup-close" aria-label="Close">&times;</button>
             </div>
             <div class="day-popup-events">`;
 
@@ -2717,6 +2717,15 @@
             setTimeout(() => {
                 document.addEventListener('click', handleOutsideClick);
             }, 10);
+
+            // Close on Escape key
+            document.addEventListener('keydown', handlePopupEscape);
+        }
+
+        function handlePopupEscape(e) {
+            if (e.key === 'Escape' && currentDayPopup) {
+                hideDayPopup();
+            }
         }
 
         function hideDayPopup() {
@@ -2724,6 +2733,7 @@
                 currentDayPopup.remove();
                 currentDayPopup = null;
                 document.removeEventListener('click', handleOutsideClick);
+                document.removeEventListener('keydown', handlePopupEscape);
             }
         }
 
