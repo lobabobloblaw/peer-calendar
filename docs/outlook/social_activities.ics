@@ -25,9 +25,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:d749c957e9a0991a@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T170000
-DTEND:20260324T213000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T170000
+DTEND:20260331T213000
 SUMMARY:Portland Area Board Games Meetup: Tuesday Board Games
 DESCRIPTION:Category: Social Activities\nCost: FREE - just buy food/drink f
  rom venue\nInfo: 20-30 attendees typical. Games provided. All skill levels
@@ -43,7 +43,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c536863dc98ad10a@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T170000
 DTEND:20260325T213000
 SUMMARY:Portland Area Board Games Meetup: Wednesday East Side Game Night
@@ -61,7 +61,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:22b230d60826a8b3@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T083000
 DTEND:20260325T113000
 SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
@@ -80,10 +80,30 @@ CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:85f82cd177356b11@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260330T160000
+DTEND:20260330T170000
+SUMMARY:Milwaukie Community Center: Tai Chi for Seniors
+DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
+ some low-cost\nInfo: Gentle exercise for balance and wellness\nAddress: 54
+ 40 SE Kellogg Creek Dr\, Milwaukie\, OR 97222\nPhone: 503-653-8100\nWebsit
+ e: https://ncprd.org/milwaukie-community-center\nDetails: Primary hub for 
+ older adults in North Clackamas. Meals on Wheels program delivers 300+ mea
+ ls daily.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> Programs vary; some free, some low-cost</p><p>Gentle exercise for balance and wellness</p><p><strong>Address:</strong> 5440 SE Kellogg Creek Dr, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-653-8100">503-653-8100</a></p><p><strong>Website:</strong> <a href="https://ncprd.org/milwaukie-community-center">https://ncprd.org/milwaukie-community-center</a></p><p><strong>Details:</strong> Primary hub for older adults in North Clackamas. Meals on Wheels program delivers 300+ meals daily.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222
+URL:https://ncprd.org/milwaukie-community-center
+RRULE:FREQ=WEEKLY;BYDAY=MO,WE
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:8961f5d05e61f6ab@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T150000
-DTEND:20260324T170000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T150000
+DTEND:20260331T170000
 SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
 DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nInfo: Drop-in 
  fiber arts session every Tuesday. Knit\, crochet\, or try other crafts whi
@@ -101,7 +121,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8569003d0f2e736e@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T180000
 DTEND:20260326T203000
 SUMMARY:Puddletown Knitters Guild: Monthly Meeting
@@ -120,8 +140,28 @@ CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:a46e449e668cab99@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T080000
+DTEND:20260331T090000
+SUMMARY:Pioneer Community Center: Zumba
+DESCRIPTION:Category: Social Activities\nCost: Most services free or low-co
+ st\nAddress: 615 5th Street\, Oregon City\, OR 97045\nPhone: 503-657-8287\
+ nWebsite: https://www.orcity.org/pioneercenter\nDetails: Serves adults 21 
+ and older. Mission to promote active\, healthy\, independent living. Full 
+ class schedules (yoga\, tai chi\, line dancing\, art\, etc.) available in 
+ monthly newsletter - schedules change frequently.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> Most services free or low-cost</p><p><strong>Address:</strong> 615 5th Street, Oregon City, OR 97045</p><p><strong>Phone:</strong> <a href="tel:503-657-8287">503-657-8287</a></p><p><strong>Website:</strong> <a href="https://www.orcity.org/pioneercenter">https://www.orcity.org/pioneercenter</a></p><p><strong>Details:</strong> Serves adults 21 and older. Mission to promote active, healthy, independent living. Full class schedules (yoga, tai chi, line dancing, art, etc.) available in monthly newsletter - schedules change frequently.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:615 5th Street\, Oregon City\, OR 97045
+URL:https://www.orcity.org/pioneercenter
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:8e93e04951e560a1@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T123000
 DTEND:20260326T140000
 SUMMARY:Pioneer Community Center: Bingo
@@ -142,7 +182,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ae8681a502d94534@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T120000
 DTEND:20260328T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House

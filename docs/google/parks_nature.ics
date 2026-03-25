@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:697356c9eaa7b5bb@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T100000
 DTEND:20260328T110000
 SUMMARY:Tryon Creek State Natural Area: Saturday Guided Nature Walks
@@ -40,6 +40,39 @@ DESCRIPTION:Category: Parks & Nature\nCost: Park FREE\; Parking $10/day res
 LOCATION:11321 S Terwilliger Blvd\, Portland\, OR 97219
 URL:https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=103
 RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b1cd3f91d0b7fc50@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260405T110000
+DTEND:20260405T120000
+SUMMARY:Hoyt Arboretum: Free Public Tours
+DESCRIPTION:Category: Parks & Nature\nInfo: Sign up day-of at Visitor Cente
+ r\nAddress: 4000 SW Fairview Blvd\, Portland\, OR 97221\nPhone: 503-865-87
+ 33\nWebsite: https://www.hoytarboretum.org/\nDetails: Living museum of tre
+ es. Trail maps in English and Spanish.
+LOCATION:4000 SW Fairview Blvd\, Portland\, OR 97221
+URL:https://www.hoytarboretum.org/
+RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20261031T235959Z
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:26b379a33a5f1049@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260330T130000
+DTEND:20260330T150000
+SUMMARY:Main City Park (Gresham): Summer Kids in the Park (SKIP)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free lunch and recr
+ eation for youth\nAddress: 219 S Main Ave\, Gresham\, OR\nWebsite: https:/
+ /www.greshamoregon.gov\nDetails: Central Gresham park hosting festivals\, 
+ concerts\, and community events. Tsuru Island Japanese Garden maintained b
+ y volunteers since 1970s.
+LOCATION:219 S Main Ave\, Gresham\, OR
+URL:https://www.greshamoregon.gov
+RRULE:FREQ=WEEKLY;BYDAY=MO,TH
 CATEGORIES:Parks & Nature
 TRANSP:TRANSPARENT
 END:VEVENT

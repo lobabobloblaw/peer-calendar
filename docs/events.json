@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-24T15:24:14.769111",
+  "generated": "2026-03-25T15:33:25.034603",
   "count": 252,
   "categories": {
     "peer_support": "Peer Support",
@@ -132,8 +132,8 @@
       "good_for": [
         "isolation",
         "active",
-        "family_friendly",
-        "creative"
+        "creative",
+        "family_friendly"
       ],
       "audience": [],
       "audience_notes": null,
@@ -2265,8 +2265,8 @@
       "social_intensity": "casual_group",
       "good_for": [
         "anxiety_friendly",
-        "indoor",
         "low_energy",
+        "indoor",
         "isolation"
       ],
       "audience": [
@@ -10947,13 +10947,10 @@
       "social_intensity": "structured_group",
       "good_for": [
         "active",
-        "isolation",
-        "indoor"
+        "isolation"
       ],
       "audience": [
-        "bipoc",
-        "lgbtq",
-        "women"
+        "teens"
       ],
       "audience_notes": null,
       "notes": "Inclusive nonprofit gym focused on serving underrepresented communities. Free weekly BIPOC class plus sliding scale memberships.",
@@ -10991,7 +10988,10 @@
         "isolation",
         "indoor"
       ],
-      "audience": [],
+      "audience": [
+        "lgbtq",
+        "seniors"
+      ],
       "audience_notes": null,
       "notes": "Free weekly community workout open to all levels.",
       "practical_tips": {

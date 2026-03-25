@@ -39,6 +39,8 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 - `scripts/generate_monthly_calendars.py` - Expands recurring events into month-specific calendars in `distribution/`
 - `scripts/audit_check.py` - Reports entries due for audit, unverified entries, statistics
 - `scripts/audit_complete.py` - Mark entries as audited, auto-updates dates and logs
+- `scripts/validate_schedules.py` - Validates all schedule strings parse correctly (run before calendar generation)
+- `scripts/test_schedule_parsing.py` - 46-test suite for schedule parsing and audience detection
 - `scripts/deduplicate_entries.py` - Merge duplicate entries in sources.yaml
 - `scripts/add_type_fields.py` - Migration script for adding location_type/resource_type fields
 - `scripts/add_audience_fields.py` - Migration script for adding audience tags
@@ -329,6 +331,12 @@ python scripts/generate_calendar.py --category peer_support
 python scripts/generate_calendar.py --sources /path/to/sources.yaml --output ./my-calendars
 python scripts/audit_check.py --sources /path/to/sources.yaml
 
+# Validate schedule strings before calendar generation
+python scripts/validate_schedules.py
+
+# Run test suite for schedule parsing and audience detection
+python scripts/test_schedule_parsing.py
+
 # Deduplicate entries (preview mode - no changes)
 python scripts/deduplicate_entries.py --preview
 
@@ -359,10 +367,15 @@ Calendars are hosted via GitHub Pages for public subscription access.
   - **Calendar**: Monthly grid view with events on their dates
   - **List**: Chronological list of events for the month
   - **Seasonal Events**: Festivals, fairs, and date-ranged events (not recurring)
-- Audience filter dropdown with color-coded pills for demographic filtering:
-  - Seniors, Young Adults, Teens, Children, LGBTQ+, Trans/NB, Women, BIPOC, Spanish
-  - Uses OR logic (shows events matching ANY selected filter)
+- Filter panel with keyword search, category/vibe/social/audience filters:
+  - **Search**: Full-text search across titles, locations, categories, descriptions, program names
+  - **Category**: Color-coded pills (Peer Support, Fitness, Arts, Events, Parks, Food, Social, Discounts, Transit)
+  - **Vibe (good_for)**: Low-Pressure, Low-Energy, Creative, Active, Outdoor, Indoor, Family
+  - **Social Level**: Solo, Drop-In, Casual Group, Structured, 1-on-1
+  - **Audience**: Seniors, Young Adults, Teens, Children, LGBTQ+, Trans/NB, Women, BIPOC, Spanish
+  - OR logic within each group, AND between groups
   - Events without audience tags always appear (open to all)
+  - Screen reader announcements via aria-live region
 - Weather-reactive animated background (Vanta.js clouds):
   - Time of day: Dawn (pink/peach), Day (sky blue), Dusk (purple/orange), Night (navy)
   - Weather conditions via Open-Meteo API: Clear skies show subtle clouds, overcast/rain darkens sky
@@ -397,14 +410,22 @@ The `docs/` folder contains:
     - `parseSchedule()` - Parses schedule strings into day/time components
     - `isMonthInSeasonalRange()` - Filters events by season keywords and month ranges
     - `generateMonthEvents()` - Creates event list for calendar display
+    - `matchesAllFilters()` - Composes search, category, good_for, social, and audience filters
     - `printCalendar()` - Generates print-optimized output with date range
     - `escapeHtml()` - XSS prevention for innerHTML calls
     - `trapFocus()`/`releaseFocusTrap()` - Accessible focus trapping for modals
-  - Modal system (event details, About page) with ARIA dialog attributes
+    - `announce()` - Screen reader announcements via aria-live region
+  - Modal system (event details, About page) with ARIA dialog attributes, focus restoration on close
   - Print dialog with date range selection
 - `apple/`, `google/`, `outlook/` - Platform-specific ICS files
 - `events.json` - JSON feed for programmatic access and web calendar preview
 - `folktime.png`, `2026-calendar-2.png` - Logo and header images
+
+**CI/CD (GitHub Actions):**
+- `.github/workflows/generate-calendars.yml` - Auto-generates calendars on push to main
+- Triggered when `data/sources.yaml`, `scripts/generate_calendar.py`, or `scripts/utils.py` change
+- Steps: validate sources → validate schedules → run tests → generate calendars → commit docs/
+- Can also be triggered manually via `workflow_dispatch`
 
 ## Calendar Import Instructions
 
@@ -440,6 +461,9 @@ Schedule strings are parsed with natural language patterns:
 - "Last Sunday of each month 4-6pm" → last occurrence of day in month
 - "Daily 2-10pm" → every day
 - Time parsing handles: "2-10pm" (both PM), "10-7pm" (AM to PM), "noon-1pm", "10am"
+- Single time parsing: "6pm" → assumes 1-hour duration (6pm-7pm)
+- Day abbreviations: "Tue/Thu", "Mon/Wed/Fri" supported alongside full names
+- "Daily 2-10pm" → expands to all 7 days
 - The `parseSchedule()` function in `docs/index.html` handles the web calendar preview
 - The `parse_schedule()` function in `generate_calendar.py` handles ICS generation
 
@@ -496,4 +520,6 @@ Check `data/queue.yaml` for pending research items and `data/audit-log.yaml` for
 
 Future improvements:
 - Guide regeneration from sources.yaml (guides are currently manually maintained)
-- Enrichment data population (practical_tips, accessibility, social_intensity, good_for)
+- Map view for physical locations
+- Offline/PWA support
+- Multi-language support (Spanish UI option)

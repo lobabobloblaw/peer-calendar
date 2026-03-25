@@ -13,6 +13,7 @@ Usage:
 
 import argparse
 import re
+import shutil
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
@@ -104,6 +105,11 @@ def update_sources_yaml(sources_path: Path, entry_id: str, new_last_verified: st
         print(f"Error: Entry '{entry_id}' not found in sources.yaml")
         return False
 
+    if 'last_verified_line' not in entry_info:
+        print(f"Warning: No last_verified field found for '{entry_id}'")
+    if 'next_audit_line' not in entry_info:
+        print(f"Warning: No next_audit field found for '{entry_id}'")
+
     # Update last_verified line
     if 'last_verified_line' in entry_info:
         old_line = lines[entry_info['last_verified_line']]
@@ -124,6 +130,10 @@ def update_sources_yaml(sources_path: Path, entry_id: str, new_last_verified: st
         print(f"  last_verified: {entry_info.get('last_verified', 'N/A')} -> {new_last_verified}")
         print(f"  next_audit: {entry_info.get('next_audit', 'N/A')} -> {new_next_audit}")
         return True
+
+    # Create backup before writing
+    backup_path = sources_path.with_suffix('.yaml.bak')
+    shutil.copy2(sources_path, backup_path)
 
     with open(sources_path, 'w', encoding='utf-8') as f:
         f.write(new_content)

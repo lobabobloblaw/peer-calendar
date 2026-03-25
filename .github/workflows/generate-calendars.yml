@@ -1,0 +1,59 @@
+name: Generate Calendars
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/sources.yaml'
+      - 'scripts/generate_calendar.py'
+      - 'scripts/utils.py'
+
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install pyyaml python-dateutil
+
+      - name: Validate sources
+        working-directory: scripts
+        run: python audit_check.py --validate
+
+      - name: Validate schedules
+        working-directory: scripts
+        run: |
+          python validate_schedules.py || true
+
+      - name: Run tests
+        working-directory: scripts
+        run: python test_schedule_parsing.py
+
+      - name: Generate calendars and JSON
+        working-directory: scripts
+        run: python generate_calendar.py --json --publish
+
+      - name: Check for changes
+        id: check
+        run: |
+          git diff --quiet docs/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git commit -m "Auto-generate calendar feeds from sources.yaml"
+          git push

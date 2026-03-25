@@ -1297,6 +1297,63 @@
 
         .filter-clear:hover { color: var(--accent); }
 
+        .filter-search {
+            width: 100%;
+            padding: 6px 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 0.8em;
+            background: white;
+            color: var(--text-primary);
+            outline: none;
+        }
+        .filter-search:focus { border-color: var(--accent); }
+        .filter-search::placeholder { color: var(--text-muted); }
+
+        .filter-group-label {
+            font-size: 0.65em;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            width: 100%;
+            margin-top: 2px;
+        }
+
+        .goodfor-pill.active { background: #2d8a6e; color: white; }
+        .social-pill.active { background: #6b5b95; color: white; }
+
+        .cat-pill[data-tag="peer_support"].active { background: var(--peer-support); color: white; }
+        .cat-pill[data-tag="fitness_wellness"].active { background: var(--fitness); color: white; }
+        .cat-pill[data-tag="events"].active { background: var(--events); color: white; }
+        .cat-pill[data-tag="arts_culture"].active { background: var(--arts); color: white; }
+        .cat-pill[data-tag="parks_nature"].active { background: #228B22; color: white; }
+        .cat-pill[data-tag="food_farms"].active { background: var(--food); color: white; }
+        .cat-pill[data-tag="social_activities"].active { background: var(--social); color: white; }
+        .cat-pill[data-tag="discount_programs"].active { background: #4169E1; color: white; }
+        .cat-pill[data-tag="transportation"].active { background: #708090; color: white; }
+
+        .loading-indicator {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+            color: var(--text-muted);
+            font-size: 0.9em;
+        }
+        .loading-spinner {
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--border-color);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-right: 10px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .sr-live { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+
         /* Badge style for event modals */
         .audience-badge {
             display: inline-block;
@@ -1843,6 +1900,38 @@
                     <button class="print-btn" onclick="openPrintDialog()" title="Print calendar">🖨️ Print</button>
                 </div>
                 <div class="filter-panel" id="filter-panel">
+                    <input type="search" class="filter-search" id="filter-search" placeholder="Search events, locations, categories..." oninput="updateFilters()" aria-label="Search events">
+                    <span class="filter-group-label">Category</span>
+                    <div class="filter-pills">
+                        <label class="filter-pill cat-pill" data-tag="peer_support"><input type="checkbox" value="peer_support" onchange="updateFilters()">Peer Support</label>
+                        <label class="filter-pill cat-pill" data-tag="fitness_wellness"><input type="checkbox" value="fitness_wellness" onchange="updateFilters()">Fitness</label>
+                        <label class="filter-pill cat-pill" data-tag="arts_culture"><input type="checkbox" value="arts_culture" onchange="updateFilters()">Arts</label>
+                        <label class="filter-pill cat-pill" data-tag="events"><input type="checkbox" value="events" onchange="updateFilters()">Events</label>
+                        <label class="filter-pill cat-pill" data-tag="parks_nature"><input type="checkbox" value="parks_nature" onchange="updateFilters()">Parks</label>
+                        <label class="filter-pill cat-pill" data-tag="food_farms"><input type="checkbox" value="food_farms" onchange="updateFilters()">Food</label>
+                        <label class="filter-pill cat-pill" data-tag="social_activities"><input type="checkbox" value="social_activities" onchange="updateFilters()">Social</label>
+                        <label class="filter-pill cat-pill" data-tag="discount_programs"><input type="checkbox" value="discount_programs" onchange="updateFilters()">Discounts</label>
+                        <label class="filter-pill cat-pill" data-tag="transportation"><input type="checkbox" value="transportation" onchange="updateFilters()">Transit</label>
+                    </div>
+                    <span class="filter-group-label">Vibe</span>
+                    <div class="filter-pills">
+                        <label class="filter-pill goodfor-pill" data-tag="anxiety_friendly"><input type="checkbox" value="anxiety_friendly" onchange="updateFilters()">Low-Pressure</label>
+                        <label class="filter-pill goodfor-pill" data-tag="low_energy"><input type="checkbox" value="low_energy" onchange="updateFilters()">Low-Energy</label>
+                        <label class="filter-pill goodfor-pill" data-tag="creative"><input type="checkbox" value="creative" onchange="updateFilters()">Creative</label>
+                        <label class="filter-pill goodfor-pill" data-tag="active"><input type="checkbox" value="active" onchange="updateFilters()">Active</label>
+                        <label class="filter-pill goodfor-pill" data-tag="outdoor"><input type="checkbox" value="outdoor" onchange="updateFilters()">Outdoor</label>
+                        <label class="filter-pill goodfor-pill" data-tag="indoor"><input type="checkbox" value="indoor" onchange="updateFilters()">Indoor</label>
+                        <label class="filter-pill goodfor-pill" data-tag="family_friendly"><input type="checkbox" value="family_friendly" onchange="updateFilters()">Family</label>
+                    </div>
+                    <span class="filter-group-label">Social Level</span>
+                    <div class="filter-pills">
+                        <label class="filter-pill social-pill" data-tag="solo"><input type="checkbox" value="solo" onchange="updateFilters()">Solo</label>
+                        <label class="filter-pill social-pill" data-tag="drop_in"><input type="checkbox" value="drop_in" onchange="updateFilters()">Drop-In</label>
+                        <label class="filter-pill social-pill" data-tag="casual_group"><input type="checkbox" value="casual_group" onchange="updateFilters()">Casual Group</label>
+                        <label class="filter-pill social-pill" data-tag="structured_group"><input type="checkbox" value="structured_group" onchange="updateFilters()">Structured</label>
+                        <label class="filter-pill social-pill" data-tag="one_on_one"><input type="checkbox" value="one_on_one" onchange="updateFilters()">1-on-1</label>
+                    </div>
+                    <span class="filter-group-label">Audience</span>
                     <div class="filter-pills">
                         <label class="filter-pill" data-tag="seniors"><input type="checkbox" value="seniors" onchange="updateFilters()">Seniors</label>
                         <label class="filter-pill" data-tag="young_adults"><input type="checkbox" value="young_adults" onchange="updateFilters()">Young Adults</label>
@@ -1856,14 +1945,16 @@
                     </div>
                     <button class="filter-clear" id="filter-clear" onclick="clearFilters()" style="display:none;">Clear</button>
                 </div>
+                <div id="sr-announcer" class="sr-live" aria-live="polite" aria-atomic="true"></div>
                 <div class="list-view" id="list-view" role="tabpanel" aria-labelledby="list-tab">
-                    <div class="no-events">Loading events...</div>
+                    <div class="loading-indicator" id="list-loading"><div class="loading-spinner"></div>Loading events...</div>
                 </div>
                 <div class="grid-view active" id="grid-view" role="tabpanel" aria-labelledby="grid-tab">
-                    <div class="calendar-grid" id="calendar-grid"></div>
+                    <div class="loading-indicator" id="grid-loading"><div class="loading-spinner"></div>Loading calendar...</div>
+                    <div class="calendar-grid" id="calendar-grid" role="grid" aria-label="Monthly calendar"></div>
                 </div>
                 <div class="seasonal-view" id="seasonal-view" role="tabpanel" aria-labelledby="seasonal-tab">
-                    <div class="no-events">Loading seasonal events...</div>
+                    <div class="loading-indicator" id="seasonal-loading"><div class="loading-spinner"></div>Loading seasonal events...</div>
                 </div>
             </div>
 
@@ -2040,6 +2131,11 @@
         let currentMonth = new Date();
         let currentView = 'grid';
         let activeFilters = [];
+        let activeCategoryFilters = [];
+        let activeGoodForFilters = [];
+        let activeSocialFilters = [];
+        let searchQuery = '';
+        let lastFocusedElement = null;
 
         // Audience label mappings
         const AUDIENCE_LABELS = {
@@ -2063,8 +2159,24 @@
         }
 
         function updateFilters() {
-            const checkboxes = document.querySelectorAll('.filter-pill input:checked');
-            activeFilters = Array.from(checkboxes).map(cb => cb.value);
+            // Audience filters (pills without special classes)
+            const audienceCheckboxes = document.querySelectorAll('.filter-pill:not(.cat-pill):not(.goodfor-pill):not(.social-pill) input:checked');
+            activeFilters = Array.from(audienceCheckboxes).map(cb => cb.value);
+
+            // Category filters
+            const catCheckboxes = document.querySelectorAll('.cat-pill input:checked');
+            activeCategoryFilters = Array.from(catCheckboxes).map(cb => cb.value);
+
+            // Good-for filters
+            const goodforCheckboxes = document.querySelectorAll('.goodfor-pill input:checked');
+            activeGoodForFilters = Array.from(goodforCheckboxes).map(cb => cb.value);
+
+            // Social intensity filters
+            const socialCheckboxes = document.querySelectorAll('.social-pill input:checked');
+            activeSocialFilters = Array.from(socialCheckboxes).map(cb => cb.value);
+
+            // Search query
+            searchQuery = (document.getElementById('filter-search').value || '').trim().toLowerCase();
 
             // Update pill active states
             document.querySelectorAll('.filter-pill').forEach(pill => {
@@ -2073,54 +2185,102 @@
             });
 
             // Update badge and button state
+            const totalActive = activeFilters.length + activeCategoryFilters.length + activeGoodForFilters.length + activeSocialFilters.length + (searchQuery ? 1 : 0);
             const badge = document.getElementById('filter-badge');
             const btn = document.getElementById('filter-btn');
             const clearBtn = document.getElementById('filter-clear');
-            if (activeFilters.length > 0) {
-                badge.textContent = activeFilters.length;
+            if (totalActive > 0) {
+                badge.textContent = totalActive;
                 badge.style.display = 'inline';
                 btn.classList.add('active');
                 clearBtn.style.display = 'inline';
             } else {
                 badge.style.display = 'none';
                 clearBtn.style.display = 'none';
-                // Keep button active if panel is open
                 const panel = document.getElementById('filter-panel');
                 btn.classList.toggle('active', panel.classList.contains('active'));
             }
 
-            // Re-render current view
             renderCurrentView();
+            announceFilterResults();
         }
 
         function clearFilters() {
             document.querySelectorAll('.filter-pill input').forEach(cb => cb.checked = false);
             document.querySelectorAll('.filter-pill').forEach(pill => pill.classList.remove('active'));
+            document.getElementById('filter-search').value = '';
             activeFilters = [];
+            activeCategoryFilters = [];
+            activeGoodForFilters = [];
+            activeSocialFilters = [];
+            searchQuery = '';
             document.getElementById('filter-badge').style.display = 'none';
             document.getElementById('filter-clear').style.display = 'none';
-            // Keep button active if panel is open
             const panel = document.getElementById('filter-panel');
             const btn = document.getElementById('filter-btn');
             btn.classList.toggle('active', panel.classList.contains('active'));
             renderCurrentView();
+            announce('Filters cleared');
         }
 
         function matchesAudienceFilter(event) {
-            // No filters = show all
             if (activeFilters.length === 0) return true;
-
-            // Collect audience from entry level and all programs
             const entryAudience = event.audience || [];
             const programAudiences = (event.programs || [])
                 .flatMap(p => p.audience || []);
             const allAudiences = [...new Set([...entryAudience, ...programAudiences])];
-
-            // No audience specified = open to all = always show
             if (allAudiences.length === 0) return true;
-
-            // OR logic: show if any selected filter matches
             return activeFilters.some(filter => allAudiences.includes(filter));
+        }
+
+        function matchesCategoryFilter(event) {
+            if (activeCategoryFilters.length === 0) return true;
+            return activeCategoryFilters.includes(event.category);
+        }
+
+        function matchesGoodForFilter(event) {
+            if (activeGoodForFilters.length === 0) return true;
+            const goodFor = event.good_for || [];
+            if (goodFor.length === 0) return false;
+            return activeGoodForFilters.some(f => goodFor.includes(f));
+        }
+
+        function matchesSocialFilter(event) {
+            if (activeSocialFilters.length === 0) return true;
+            const intensity = event.social_intensity;
+            if (!intensity) return false;
+            // Handle "varies" by always showing
+            if (intensity === 'varies') return true;
+            return activeSocialFilters.includes(intensity);
+        }
+
+        function matchesSearchFilter(event) {
+            if (!searchQuery) return true;
+            const fields = [
+                event.title,
+                event.address,
+                event.categoryName,
+                event.notes,
+                typeof event.practical_tips === 'string' ? event.practical_tips : event.practical_tips?.good_to_know,
+                ...(event.programs || []).map(p => p.name)
+            ];
+            const haystack = fields.filter(Boolean).join(' ').toLowerCase();
+            return searchQuery.split(/\s+/).every(term => haystack.includes(term));
+        }
+
+        function matchesAllFilters(event) {
+            return matchesAudienceFilter(event) && matchesCategoryFilter(event) && matchesGoodForFilter(event) && matchesSocialFilter(event) && matchesSearchFilter(event);
+        }
+
+        function announce(msg) {
+            const el = document.getElementById('sr-announcer');
+            if (el) { el.textContent = ''; requestAnimationFrame(() => { el.textContent = msg; }); }
+        }
+
+        function announceFilterResults() {
+            const events = generateMonthEvents(currentMonth.getFullYear(), currentMonth.getMonth());
+            const seasonal = getSeasonalEvents();
+            announce(`${events.length} events this month, ${seasonal.length} seasonal events`);
         }
 
         function getAudienceBadgesHtml(event) {
@@ -2396,8 +2556,8 @@
                 // Skip entries with dates/date fields - these are one-time events shown in Seasonal Events only
                 if (entry.dates || entry.date) continue;
 
-                // Apply audience filter
-                if (!matchesAudienceFilter(entry)) continue;
+                // Apply all filters
+                if (!matchesAllFilters(entry)) continue;
 
                 // Handle programs with schedules
                 if (entry.programs && entry.programs.length > 0) {
@@ -2508,6 +2668,7 @@
 
         // Modal functions
         function showEventModal(event) {
+            lastFocusedElement = document.activeElement;
             const overlay = document.getElementById('event-modal-overlay');
             document.getElementById('modal-title').textContent = event.title;
             document.getElementById('modal-org').textContent = event.org || '';
@@ -2616,6 +2777,10 @@
             const overlay = document.getElementById('event-modal-overlay');
             releaseFocusTrap(overlay.querySelector('.event-modal'));
             overlay.classList.remove('active');
+            if (lastFocusedElement && lastFocusedElement.focus) {
+                lastFocusedElement.focus();
+                lastFocusedElement = null;
+            }
         }
 
         // Close modal on overlay click or close button
@@ -2633,6 +2798,7 @@
 
         // About modal functions
         function showAboutModal() {
+            lastFocusedElement = document.activeElement;
             const overlay = document.getElementById('about-modal-overlay');
             overlay.classList.add('active');
             trapFocus(overlay.querySelector('.event-modal'));
@@ -2642,6 +2808,10 @@
             const overlay = document.getElementById('about-modal-overlay');
             releaseFocusTrap(overlay.querySelector('.event-modal'));
             overlay.classList.remove('active');
+            if (lastFocusedElement && lastFocusedElement.focus) {
+                lastFocusedElement.focus();
+                lastFocusedElement = null;
+            }
         }
 
         // Close about modal on overlay click
@@ -2653,8 +2823,9 @@
         let currentDayPopup = null;
 
         function showDayPopup(dayElement, dayEvents, dateLabel) {
-            // Remove any existing popup
+            // Remove any existing popup and clean up listeners
             hideDayPopup();
+            lastFocusedElement = document.activeElement;
 
             const popup = document.createElement('div');
             popup.className = 'day-popup';
@@ -2734,6 +2905,10 @@
                 currentDayPopup = null;
                 document.removeEventListener('click', handleOutsideClick);
                 document.removeEventListener('keydown', handlePopupEscape);
+                if (lastFocusedElement && lastFocusedElement.focus) {
+                    lastFocusedElement.focus();
+                    lastFocusedElement = null;
+                }
             }
         }
 
@@ -2820,6 +2995,7 @@
         const printMinDate = new Date(2026, 0, 1); // January 1, 2026
 
         function openPrintDialog() {
+            lastFocusedElement = document.activeElement;
             const overlay = document.getElementById('print-dialog-overlay');
             const startInput = document.getElementById('print-start-date');
             const endInput = document.getElementById('print-end-date');
@@ -2847,6 +3023,10 @@
             const overlay = document.getElementById('print-dialog-overlay');
             releaseFocusTrap(overlay.querySelector('.print-dialog'));
             overlay.classList.remove('active');
+            if (lastFocusedElement && lastFocusedElement.focus) {
+                lastFocusedElement.focus();
+                lastFocusedElement = null;
+            }
         }
 
         function executePrint() {
@@ -3044,31 +3224,34 @@
             const today = new Date();
             const isCurrentMonth = today.getFullYear() === year && today.getMonth() === month;
 
-            let html = dayNames.map(d => `<div class="grid-header">${d}</div>`).join('');
+            let html = dayNames.map(d => `<div class="grid-header" role="columnheader">${d}</div>`).join('');
 
             // Previous month days
             const prevMonth = new Date(year, month, 0);
             for (let i = startOffset - 1; i >= 0; i--) {
-                html += `<div class="grid-day other-month"><div class="day-number">${prevMonth.getDate() - i}</div></div>`;
+                const d = prevMonth.getDate() - i;
+                html += `<div class="grid-day other-month" role="gridcell" aria-disabled="true"><div class="day-number">${d}</div></div>`;
             }
 
             // Current month days
+            const monthLabel = monthNames[month];
             for (let day = 1; day <= lastDay.getDate(); day++) {
                 const isToday = isCurrentMonth && today.getDate() === day;
                 const dayEvents = eventsByDateKey[day] || [];
                 const hasEvents = dayEvents.length > 0;
+                const ariaLabel = `${monthLabel} ${day}${hasEvents ? ', ' + dayEvents.length + ' event' + (dayEvents.length > 1 ? 's' : '') : ''}`;
 
-                html += `<div class="grid-day${isToday ? ' today' : ''}" data-day="${day}">
+                html += `<div class="grid-day${isToday ? ' today' : ''}" data-day="${day}" role="gridcell" aria-label="${ariaLabel}">
                     <div class="day-number${hasEvents ? ' has-events' : ''}">${day}</div>`;
 
                 const maxShow = window.innerWidth >= 768 ? 3 : 2;
                 for (let i = 0; i < Math.min(dayEvents.length, maxShow); i++) {
                     const evt = dayEvents[i];
-                    html += `<div class="grid-event" title="${escapeHtml(evt.title)}" data-day="${day}" data-index="${i}">${escapeHtml(evt.title)}</div>`;
+                    html += `<div class="grid-event" title="${escapeHtml(evt.title)}" data-day="${day}" data-index="${i}" role="button" tabindex="0">${escapeHtml(evt.title)}</div>`;
                 }
 
                 if (dayEvents.length > maxShow) {
-                    html += `<div class="more-events" data-day="${day}">+${dayEvents.length - maxShow} more</div>`;
+                    html += `<div class="more-events" data-day="${day}" role="button" tabindex="0">+${dayEvents.length - maxShow} more</div>`;
                 }
 
                 html += '</div>';
@@ -3078,7 +3261,7 @@
             const totalCells = startOffset + lastDay.getDate();
             const remaining = (7 - (totalCells % 7)) % 7;
             for (let i = 1; i <= remaining; i++) {
-                html += `<div class="grid-day other-month"><div class="day-number">${i}</div></div>`;
+                html += `<div class="grid-day other-month" role="gridcell" aria-disabled="true"><div class="day-number">${i}</div></div>`;
             }
 
             container.innerHTML = html;
@@ -3107,15 +3290,28 @@
                     showDayPopup(dayCell, dayEvents, dateLabel);
                 });
             });
+
+            // Keyboard support for grid events and "+X more" buttons
+            container.querySelectorAll('.grid-event, .more-events').forEach(el => {
+                el.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        this.click();
+                    }
+                });
+            });
         }
 
         // Update display
         function updateCalendarDisplay() {
-            document.getElementById('month-label').textContent =
-                `${monthNames[currentMonth.getMonth()]} ${currentMonth.getFullYear()}`;
+            const label = `${monthNames[currentMonth.getMonth()]} ${currentMonth.getFullYear()}`;
+            document.getElementById('month-label').textContent = label;
 
             renderListView();
             renderGridView();
+
+            const events = generateMonthEvents(currentMonth.getFullYear(), currentMonth.getMonth());
+            announce(`${label}, ${events.length} events`);
         }
 
         // Re-render current view (used by filters)
@@ -3192,8 +3388,8 @@
             const seasonalEvents = [];
 
             for (const entry of eventsData.events) {
-                // Apply audience filter
-                if (!matchesAudienceFilter(entry)) continue;
+                // Apply all filters
+                if (!matchesAllFilters(entry)) continue;
 
                 // Check for date/dates fields (one-time or ranged events)
                 if (entry.dates || entry.date) {
@@ -3322,6 +3518,7 @@
         }
 
         function showSeasonalEventModal(event) {
+            lastFocusedElement = document.activeElement;
             const modal = document.createElement('div');
             modal.className = 'event-modal-overlay active';
 
@@ -3392,7 +3589,12 @@
             trapFocus(modal.querySelector('.event-modal'));
 
             // Close handlers
-            const removeModal = () => { releaseFocusTrap(modal.querySelector('.event-modal')); modal.remove(); };
+            const savedFocus = lastFocusedElement;
+            const removeModal = () => {
+                releaseFocusTrap(modal.querySelector('.event-modal'));
+                modal.remove();
+                if (savedFocus && savedFocus.focus) savedFocus.focus();
+            };
             modal.querySelector('.event-modal-close').addEventListener('click', removeModal);
             modal.addEventListener('click', (e) => {
                 if (e.target === modal) removeModal();
@@ -3471,6 +3673,8 @@
             .then(res => res.json())
             .then(data => {
                 eventsData = data;
+                // Remove loading indicators
+                document.querySelectorAll('.loading-indicator').forEach(el => el.remove());
                 updateCalendarDisplay();
                 updateNavButtons();
 
@@ -3494,6 +3698,7 @@
                 renderSeasonalView();
             })
             .catch(err => {
+                document.querySelectorAll('.loading-indicator').forEach(el => el.remove());
                 document.getElementById('list-view').innerHTML =
                     '<div class="no-events">Could not load events</div>';
             });

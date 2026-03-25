@@ -25,8 +25,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:eef9922f03c2cfbe@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260330T063000
+DTEND:20260330T213000
+SUMMARY:SPOT Southwest (Free On-Demand Transit)
+DESCRIPTION:Category: Transportation\nCost: FREE\nWebsite: https://catchthe
+ spot.org/\nDetails: Washington County free on-demand microtransit pilot. S
+ erves SW Beaverton and NW Tigard neighborhoods with no fixed-route transit
+ . Funded through 2027.
+URL:https://catchthespot.org/
+RRULE:FREQ=WEEKLY;BYDAY=MO,FR
+CATEGORIES:Transportation
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:b8b48cbe08f220fe@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T150000
 DTEND:20260329T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (In-Person)
@@ -43,7 +58,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dba6711eb13da213@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T150000
 DTEND:20260329T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (Online)
@@ -59,7 +74,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9777816b12080f9@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T190000
 DTEND:20260330T203000
 SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support
@@ -76,7 +91,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c8206c50171db713@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T150000
 DTEND:20260329T163000
 SUMMARY:NAMI Multnomah: Young Adult (18-35)
@@ -94,7 +109,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4b11c0aa298f2306@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T190000
 DTEND:20260326T203000
 SUMMARY:NAMI Multnomah: BIPOC Peer Support
@@ -112,9 +127,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c08dbed81b24d0f5@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T190000
-DTEND:20260324T203000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T190000
+DTEND:20260331T203000
 SUMMARY:NAMI Multnomah: Complex Trauma & Dissociation Support
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
  Those experiencing complex trauma and/or dissociation\nAddress: 464 SE 185
@@ -129,9 +144,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:531662b55bc0a9a7@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T190000
-DTEND:20260324T203000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T190000
+DTEND:20260331T203000
 SUMMARY:NAMI Clackamas: NAMI Connection Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: For adults living with mental health conditions. Registration required.
@@ -147,7 +162,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:abda9c8971b1314b@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T170000
 DTEND:20260325T183000
 SUMMARY:NAMI Clackamas: Women (18+) Only Support Group
@@ -164,7 +179,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:620a559fb7ab08a0@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T183000
 DTEND:20260330T200000
 SUMMARY:NAMI Clackamas: NAMI Family Support Group
@@ -182,7 +197,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d8997f26797c801@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T190000
 DTEND:20260325T203000
 SUMMARY:NAMI Clackamas: NAMI Clackamas Conexion (Spanish-Speaking Support G
@@ -201,7 +216,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ea6aaafa1987c3ab@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T190000
 DTEND:20260330T203000
 SUMMARY:NAMI Clackamas: LGBTQ+ Support Group
@@ -219,7 +234,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0f499a48fa4b50aa@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T190000
 DTEND:20260326T203000
 SUMMARY:NAMI Clackamas: BIPOC Support Group
@@ -237,7 +252,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:651932636ba165c7@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T190000
 DTEND:20260330T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): LGBTQIA+ Suppo
@@ -254,9 +269,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:215024356d2538f2@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T183000
-DTEND:20260324T195000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T183000
+DTEND:20260331T195000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (W
  est Portland)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nWebsite: ht
@@ -270,7 +285,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49d6b06cbd9d0a5b@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T190000
 DTEND:20260326T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (E
@@ -286,7 +301,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a8aee7696d751ae1@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T100000
 DTEND:20260328T113000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Mental Healthc
@@ -304,7 +319,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:19f42812d02d4c30@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T100000
 DTEND:20260329T110000
 SUMMARY:Recovery Dharma Portland (PDX): Queer Paths (LGBTQIA+)
@@ -319,7 +334,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d01907d4e561c48d@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T160000
 DTEND:20260329T170000
 SUMMARY:Recovery Dharma Portland (PDX): Middle Way on MLK
@@ -335,7 +350,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a401de0df0a97d58@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T070000
 DTEND:20260330T080000
 SUMMARY:Recovery Dharma Portland (PDX): Dawn Metta
@@ -350,7 +365,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8b74d636a24a9d3b@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T190000
 DTEND:20260330T200000
 SUMMARY:Recovery Dharma Portland (PDX): Dharma Rain Eightfold Path Study
@@ -366,7 +381,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cf5b8c34d2c742aa@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T180000
 DTEND:20260330T191500
 SUMMARY:Recovery Dharma Portland (PDX): Hungry Ghosts
@@ -382,9 +397,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:23dea98a4f0c56b7@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T193000
-DTEND:20260324T203000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T193000
+DTEND:20260331T203000
 SUMMARY:Recovery Dharma Portland (PDX): Women's\, Trans\, and Non-Binary
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -398,7 +413,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b9e264e45b420ecd@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T120000
 DTEND:20260326T130000
 SUMMARY:Recovery Dharma Portland (PDX): Thursday Portland Alano Club
@@ -414,7 +429,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:568f2b14f76f137e@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260327T190000
 DTEND:20260327T203000
 SUMMARY:Recovery Dharma Portland (PDX): Sarpashana
@@ -430,7 +445,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0a44eb8e53fca375@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T190000
 DTEND:20260328T200000
 SUMMARY:Recovery Dharma Portland (PDX): Meditation Sandwich
@@ -446,9 +461,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d6de414531d54a8c@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T100000
-DTEND:20260324T120000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T100000
+DTEND:20260331T120000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): Trans PDX Support Grou
  p
 DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: For t
@@ -464,7 +479,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5dccfbb24ed3c3f2@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T190000
 DTEND:20260330T203000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): LGBTQIA2S+ Mental Heal
@@ -482,7 +497,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:65981a99ae5aad6e@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T190000
 DTEND:20260325T210000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): QTIBIPOC Community Spa
@@ -499,8 +514,26 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:443269c9da047a73@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260330T120000
+DTEND:20260330T130000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Daily Meetings (Central Offi
+ ce)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
+ 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
+ regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
+ al illness and substance use. Peer-led meetings. Many additional meetings 
+ throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
+LOCATION:521 SW 11th Ave (2nd floor)
+URL:http://ddaoregon.com/
+RRULE:FREQ=WEEKLY;BYDAY=MO,FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:a21b6c155557d1bd@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T120000
 DTEND:20260330T130000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Luke Dorf Meeting
@@ -517,7 +550,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6705b1bab8158dc0@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T151500
 DTEND:20260330T161500
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Providence Medical Center Me
@@ -535,7 +568,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7eee8f348d64220f@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T140000
 DTEND:20260330T150000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Taft Hotel Meeting
@@ -552,7 +585,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e3edc33c7c6abd02@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T100000
 DTEND:20260328T110000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Saturday Meeting
@@ -569,7 +602,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fd5742a493e3fee2@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T103000
 DTEND:20260328T113000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Virtual Meeting
@@ -586,8 +619,77 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:0870cb364bf69dbd@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260330T140000
+DTEND:20260330T220000
+SUMMARY:4D Recovery: Drop-In Center
+DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Welcoming space with 
+ pool table\, video games\, TV\, and peer connection. Come hang out\, no pr
+ essure.\nAddress: 324 NE 9th St.\, Gresham\, OR 97030\nPhone: 971-703-4623
+ \nWebsite: https://4drecovery.org/\nDetails: Youth-focused (14-35) recover
+ y community with peer mentors. Smit Center (Gresham) is the Multnomah Coun
+ ty location. Previous SE 11th Ave Portland location is closed.
+LOCATION:324 NE 9th St.\, Gresham\, OR 97030
+URL:https://4drecovery.org/
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR,SA,SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:445c92b4ea533d65@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T140000
+DTEND:20260331T150000
+SUMMARY:Alano Club of Portland: RTS Recovery Yoga
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Yo
+ ga classes designed for people in recovery\nAddress: 909 NW 24th Avenue\, 
+ Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: https://www.portlandala
+ no.org\nDetails: Portland's premier recovery community center with over 12
+ 0 weekly meetings for various 12-step and secular recovery programs.
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=TU,SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b3126ba680d24f93@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260328T100000
+DTEND:20260328T110000
+SUMMARY:Alano Club of Portland: Dual Diagnosis Anonymous (DDA)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e9fbeb09cf612c48@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260328T110000
+DTEND:20260328T120000
+SUMMARY:Alano Club of Portland: Gamblers Anonymous (GA)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:b744c3545429bb98@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T080000
 DTEND:20260330T170000
 SUMMARY:Bridges to Change - Club Hope: Recovery Drop-In Center
@@ -606,9 +708,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3f2be9a46ade2d95@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T173000
-DTEND:20260324T183000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T173000
+DTEND:20260331T183000
 SUMMARY:Bridges to Change - Club Hope: Dual Diagnosis Anonymous (DDA) Meeti
  ng
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Fo
@@ -626,7 +728,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b2c9ee508316dbb0@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T100000
 DTEND:20260330T110000
 SUMMARY:Portland Hearing Voices: In-Person Hearing Voices Group
@@ -644,9 +746,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9b4a6cb18a941d5e@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260330T123000
-DTEND:20260330T133000
+DTSTAMP:20260325T153324Z
+DTSTART:20260325T123000
+DTEND:20260325T133000
 SUMMARY:Portland Hearing Voices: Hearing Voices Online
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: Online groups marked as '(Possibly)' on website - may be intermittent. 
@@ -658,13 +760,13 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
   of Hearing Voices Network USA.
 LOCATION:333 SW Park Ave\, Portland\, OR 97205
 URL:https://www.portlandhearingvoices.net
-RRULE:FREQ=WEEKLY;BYDAY=MO,WE
+RRULE:FREQ=WEEKLY;BYDAY=WE,MO
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:90892bb9e6fa288c@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T183000
 DTEND:20260330T200000
 SUMMARY:Hopewell House Grief Support: Community Grief Ritual
@@ -684,8 +786,44 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:320e6e4a7b1b2328@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T190000
+DTEND:20260331T200000
+SUMMARY:BYMC (Bhakti Yoga Movement Center): Queer and Trans Yoga
+DESCRIPTION:Category: Fitness & Wellness\nCost: By-donation with equity pri
+ cing\nNote: South Asian\, BIPOC\, and queer-owned. No one turned away.\nIn
+ fo: Pre-registration suggested - often at capacity\nAddress: 2500 SE 26th 
+ Ave\, Portland\, OR 97202\nPhone: 503-244-0108\nWebsite: https://www.theby
+ mc.com\nDetails: Replaced Portland Yoga Collective entry (which is in Main
+ e). BYMC offers weekly by-donation classes in SE Portland.
+LOCATION:2500 SE 26th Ave\, Portland\, OR 97202
+URL:https://www.thebymc.com
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da691286eec27342@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260329T173000
+DTEND:20260329T183000
+SUMMARY:BYMC (Bhakti Yoga Movement Center): BIPOC-only Yoga
+DESCRIPTION:Category: Fitness & Wellness\nCost: By-donation with equity pri
+ cing\nNote: South Asian\, BIPOC\, and queer-owned. No one turned away.\nIn
+ fo: Pre-registration suggested - often at capacity\nAddress: 2500 SE 26th 
+ Ave\, Portland\, OR 97202\nPhone: 503-244-0108\nWebsite: https://www.theby
+ mc.com\nDetails: Replaced Portland Yoga Collective entry (which is in Main
+ e). BYMC offers weekly by-donation classes in SE Portland.
+LOCATION:2500 SE 26th Ave\, Portland\, OR 97202
+URL:https://www.thebymc.com
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0338193000ae048d@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T082500
 DTEND:20260329T113000
 SUMMARY:Dharma Rain Zen Center: Sunday Morning Program
@@ -701,8 +839,25 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:1843d5accdd3fbb0@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260325T063000
+DTEND:20260325T074500
+SUMMARY:Dharma Rain Zen Center: Weekday Morning Meditation
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 8500 NE Sisk
+ iyou St\, Portland\, OR 97220-5287\nPhone: 503-239-4846\nWebsite: https://
+ dharma-rain.org/\nDetails: Soto Zen Buddhist community founded in 1986\, a
+ pproximately 220 members. All welcome at Sunday program. Practice advisors
+  available for one-on-one guidance.
+LOCATION:8500 NE Siskiyou St\, Portland\, OR 97220-5287
+URL:https://dharma-rain.org/
+RRULE:FREQ=WEEKLY;BYDAY=WE,SA
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d1ffac331809a7fc@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T190000
 DTEND:20260325T210000
 SUMMARY:Dharma Rain Zen Center: Wednesday Evening Classes
@@ -719,7 +874,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75e1464598e366da@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T190000
 DTEND:20260330T200000
 SUMMARY:Diamond Way Buddhist Center: Guided Meditation
@@ -736,7 +891,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75e1464598e366da@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T190000
 DTEND:20260326T200000
 SUMMARY:Diamond Way Buddhist Center: Guided Meditation
@@ -753,7 +908,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:600bad985806d05a@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T100000
 DTEND:20260329T120000
 SUMMARY:Portland Insight Meditation Community (PIMC): Sunday Program
@@ -770,9 +925,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:06dba37e7b380c72@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T183000
-DTEND:20260324T200000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T183000
+DTEND:20260331T200000
 SUMMARY:Portland Insight Meditation Community (PIMC): Women's Sangha with A
  lexa Redner
 DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
@@ -788,9 +943,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:50283de6a02f284c@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T150000
-DTEND:20260324T163000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T150000
+DTEND:20260331T163000
 SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Teatime
 DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
  at: Online\nAddress: 6536 SE Duke St\, Portland\, OR 97206\nPhone: 503-519
@@ -805,7 +960,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c4627ca915697040@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T190000
 DTEND:20260325T203000
 SUMMARY:Portland Insight Meditation Community (PIMC): Heart of Freedom
@@ -823,10 +978,46 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:94e0cd0418c97e74@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260329T110000
+DTEND:20260329T130000
+SUMMARY:Mt. Scott Community Center: Slide Hours
+DESCRIPTION:Category: Fitness & Wellness\nNote: Non-residents pay higher ra
+ tes. Children 0-2 FREE.\nAddress: 5530 SE 72nd Ave\, Portland\, OR 97206\n
+ Phone: 503-823-3183\nWebsite: https://www.portland.gov/parks/mt-scott-comm
+ unity-center\nDetails: Completely renovated - expanded from 31\,000 to 70\
+ ,000 sq ft. Now includes roller rink. One of five PP&R TeenForce locations
+ .
+LOCATION:5530 SE 72nd Ave\, Portland\, OR 97206
+URL:https://www.portland.gov/parks/mt-scott-community-center
+RRULE:FREQ=WEEKLY;BYDAY=SU,FR,SA
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a9f34038f6565caa@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260329T143000
+DTEND:20260329T162000
+SUMMARY:Mt. Scott Community Center: Rope Swing
+DESCRIPTION:Category: Fitness & Wellness\nNote: Non-residents pay higher ra
+ tes. Children 0-2 FREE.\nAddress: 5530 SE 72nd Ave\, Portland\, OR 97206\n
+ Phone: 503-823-3183\nWebsite: https://www.portland.gov/parks/mt-scott-comm
+ unity-center\nDetails: Completely renovated - expanded from 31\,000 to 70\
+ ,000 sq ft. Now includes roller rink. One of five PP&R TeenForce locations
+ .
+LOCATION:5530 SE 72nd Ave\, Portland\, OR 97206
+URL:https://www.portland.gov/parks/mt-scott-community-center
+RRULE:FREQ=WEEKLY;BYDAY=SU,SA
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:69576450a4c8ec45@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T163000
-DTEND:20260324T190000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T163000
+DTEND:20260331T190000
 SUMMARY:Gresham Senior Center: Tuesday Night Dance
 DESCRIPTION:Category: Fitness & Wellness\nInfo: Live band (Desert Dogs)\; c
  ountry and more\; not on holidays\nAddress: 600 NE 8th Street\, Room 130\,
@@ -840,7 +1031,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fa2a6f7932e27924@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T130000
 DTEND:20260330T150000
 SUMMARY:Gresham Senior Center: Monday Movie Matinees
@@ -855,7 +1046,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:79365ba3889a5027@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260327T130000
 DTEND:20260327T143000
 SUMMARY:Gresham Senior Center: Friday Speaker Series
@@ -869,8 +1060,72 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:2899c7be9dbe89ab@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260330T180000
+DTEND:20260330T190000
+SUMMARY:Portland Running Company Group Runs: Monday Trail Run
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nNote: Sign waiver bef
+ ore first run\; no dogs\nInfo: 5-9 miles in Forest Park with No Name Trail
+  Club\; refreshments at Run Pub after\nAddress: 2258 NW Raleigh St\, Portl
+ and\, OR 97210\nPhone: 503-894-9341\nWebsite: https://portlandrunning.com
+LOCATION:2258 NW Raleigh St (PRC Northwest)
+URL:https://portlandrunning.com
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b00298890913c7a3@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T183000
+DTEND:20260331T193000
+SUMMARY:Portland Running Company Group Runs: Tuesday Track Workout
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nNote: Sign waiver bef
+ ore first run\; no dogs\nInfo: 60-75 minute workout including warmup/coold
+ own\nAddress: 2258 NW Raleigh St\, Portland\, OR 97210\nPhone: 503-894-934
+ 1\nWebsite: https://portlandrunning.com
+LOCATION:Duniway Track
+URL:https://portlandrunning.com
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3c383fb403018a6c@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260326T180000
+DTEND:20260326T190000
+SUMMARY:Portland Running Company Group Runs: Thursday Thirsty Thursdays
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nNote: Sign waiver bef
+ ore first run\; no dogs\nInfo: 5-7 miles followed by discounted first beve
+ rage at Run Pub bar\nAddress: 2258 NW Raleigh St\, Portland\, OR 97210\nPh
+ one: 503-894-9341\nWebsite: https://portlandrunning.com
+LOCATION:2258 NW Raleigh St (PRC Northwest)
+URL:https://portlandrunning.com
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:91c2138892ca5291@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260329T080000
+DTEND:20260329T090000
+SUMMARY:Portland Running Company Group Runs: Sunday Long Run
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nNote: Sign waiver bef
+ ore first run\; no dogs\nInfo: 5-18 miles\; all paces welcome. Post-run co
+ ffee gathering.\nAddress: 2258 NW Raleigh St\, Portland\, OR 97210\nPhone:
+  503-894-9341\nWebsite: https://portlandrunning.com
+LOCATION:2258 NW Raleigh St (PRC Northwest)
+URL:https://portlandrunning.com
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:eb1faca9bd5fba8c@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T110000
 DTEND:20260329T123000
 SUMMARY:Food Court 5000 (Lloyd Center Mall Walking)
@@ -887,7 +1142,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0153a2619abbf2be@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260327T170000
 DTEND:20260327T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Community Climbing Day
@@ -904,7 +1159,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:120fe89373741af7@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T180000
 DTEND:20260328T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Teen Nights
@@ -921,7 +1176,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2c4a1c226a516cbd@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260622T183000
 DTEND:20260622T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Creston Pool Free Swim
@@ -941,7 +1196,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:19f37adeb9323fcb@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260623T130000
 DTEND:20260623T154500
 SUMMARY:Portland Parks Free Open Swim Sessions: Peninsula Pool Free Swim
@@ -961,7 +1216,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49b9f431cb693d00@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260623T183000
 DTEND:20260623T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Montavilla Pool Free Swim
@@ -980,7 +1235,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b759cc72f6eb0b0f@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260624T130000
 DTEND:20260624T150000
 SUMMARY:Portland Parks Free Open Swim Sessions: Grant Pool Free Swim
@@ -999,7 +1254,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4bb53254bccbec2d@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260624T183000
 DTEND:20260624T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Sellwood Pool Free Swim
@@ -1018,7 +1273,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8bca75fd2199640c@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260625T133000
 DTEND:20260625T153000
 SUMMARY:Portland Parks Free Open Swim Sessions: Pier Pool Free Swim
@@ -1038,7 +1293,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a150923005de6562@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260625T183000
 DTEND:20260625T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Ida B. Wells Pool Free Swim
@@ -1057,7 +1312,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5a723522bb7078a8@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T062900
 DTEND:20260325T071500
 SUMMARY:November Project Portland: Wednesday Workout
@@ -1075,8 +1330,42 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:2d545c0884955257@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260328T083500
+DTEND:20260328T093500
+SUMMARY:Portland Trail Runners: Saturday Trail Run
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: 5-7 miles (3-4 
+ mi option). Forest Park\, Tryon Creek\, Wildwood Trail. Coffee at trailhea
+ d after.\nAddress: Forest Park (various trailheads)\nWebsite: https://www.
+ meetup.com/portland-trail-runners-group/\nDetails: Portland's original tra
+ il running group\, exploring the city's best trails for over 15 years.
+LOCATION:Forest Park (various trailheads)
+URL:https://www.meetup.com/portland-trail-runners-group/
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2a89d50c13cc476b@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260325T183500
+DTEND:20260325T193500
+SUMMARY:Portland Trail Runners: Weeknight Trail Run
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Night trails ru
+ n - headlamp and reflective gear required.\nAddress: Forest Park (various 
+ trailheads)\nWebsite: https://www.meetup.com/portland-trail-runners-group/
+ \nDetails: Portland's original trail running group\, exploring the city's 
+ best trails for over 15 years.
+LOCATION:Forest Park (various trailheads)
+URL:https://www.meetup.com/portland-trail-runners-group/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:105d2f0b41322d3e@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T183000
 DTEND:20260330T200000
 SUMMARY:Trail Sisters Portland: Monday Trail Run
@@ -1095,7 +1384,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6c4cd51bb25fc508@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T183000
 DTEND:20260326T200000
 SUMMARY:Trail Sisters Portland: Thursday Trail Run
@@ -1114,7 +1403,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0781b534fe7b3022@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T130000
 DTEND:20260329T150000
 SUMMARY:Tergar Meditation Community of Portland: Monthly In-Person Practice
@@ -1131,9 +1420,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9b052c1131dba353@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T190000
-DTEND:20260324T203000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T190000
+DTEND:20260331T203000
 SUMMARY:Tergar Meditation Community of Portland: Tuesday Evening Online Pra
  ctice
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Virtual meditat
@@ -1148,7 +1437,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bac4853c7338ed55@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T093000
 DTEND:20260325T103000
 SUMMARY:Tergar Meditation Community of Portland: Wednesday Morning Online P
@@ -1165,7 +1454,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6fe3cfdc57198d96@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T190000
 DTEND:20260330T204500
 SUMMARY:Path of Sincerity Meditation Group: Monday Night Sangha
@@ -1183,10 +1472,28 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:eb99f91f8bb65d72@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260330T080000
+DTEND:20260330T090000
+SUMMARY:Path of Sincerity Meditation Group: Daily Virtual Meditation
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE (donation-based gift e
+ conomy)\nInfo: Consistent morning practice opportunity. Great for building
+  routine.\nAddress: Portland Friends of the Dhamma\, 1404 SE 25th Ave\, Po
+ rtland\, OR 97214\nWebsite: https://www.pathofsincerity.com/events/\nDetai
+ ls: Daily virtual + weekly in-person meditation. Gift economy model.
+LOCATION:Portland Friends of the Dhamma\, 1404 SE 25th Ave\, Portland\, OR 
+ 97214
+URL:https://www.pathofsincerity.com/events/
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR,SA,SU
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:fe0360e58ccaa78e@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T180000
-DTEND:20260324T200000
+DTSTAMP:20260325T153324Z
+DTSTART:20260326T180000
+DTEND:20260326T200000
 SUMMARY:Mazamas Street Rambles
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\, no registration requ
  ired\nAddress: Keen Garage\, 505 NW 13th Ave\, Portland\, OR\nWebsite: htt
@@ -1195,13 +1502,13 @@ DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\, no registration requ
  No membership or registration required.
 LOCATION:Keen Garage\, 505 NW 13th Ave\, Portland\, OR
 URL:https://mazamas.org/streetrambles/
-RRULE:FREQ=WEEKLY;BYDAY=TU,TH
+RRULE:FREQ=WEEKLY;BYDAY=TH,TU
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13929b2306504174@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T090000
 DTEND:20260328T100000
 SUMMARY:Portland Strength Collective
@@ -1216,7 +1523,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:77f97d44905fa910@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260327T170000
 DTEND:20260327T190000
 SUMMARY:Friendly House: Community Nights
@@ -1234,7 +1541,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:65bcfcc6591abf66@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T100000
 DTEND:20260326T190000
 SUMMARY:Portland Art Museum: Free First Thursday
@@ -1253,7 +1560,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4d15400e41f273e0@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T093000
 DTEND:20260329T173000
 SUMMARY:OMSI (Oregon Museum of Science and Industry): First Sunday
@@ -1275,7 +1582,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1cc8d79374188c66@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T120000
 DTEND:20260326T000000
 SUMMARY:Ground Kontrol Classic Arcade: Free Play (2nd Thursday)
@@ -1291,7 +1598,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:59746f5642178898@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T120000
 DTEND:20260325T000000
 SUMMARY:Ground Kontrol Classic Arcade: Free Play (Last Wednesday)
@@ -1307,7 +1614,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75b2a7dcae90038e@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T120000
 DTEND:20260329T180000
 SUMMARY:Guardian Games: Might I Suggest a Game? - Board Game Open Play
@@ -1323,7 +1630,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c62bc17ff46d5148@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T180000
 DTEND:20260325T200000
 SUMMARY:NAYA (Native American Youth and Family Center): Culture Nights
@@ -1339,9 +1646,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e73e21017e0799ee@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T173000
-DTEND:20260324T183000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T173000
+DTEND:20260331T183000
 SUMMARY:Clackamas County Libraries (LINCC): Teen Advisory Group (GOAT)
 DESCRIPTION:Category: Arts & Culture\nCost: FREE library cards for all Oreg
  on residents\nEligibility: Grades 6-12\nInfo: Help shape library programs 
@@ -1356,10 +1663,25 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:b442af6056d4144d@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260326T160000
+DTEND:20260326T170000
+SUMMARY:Hillsboro Public Library: Teen Game Night
+DESCRIPTION:Category: Arts & Culture\nCost: FREE (all programs and events)\
+ nInfo: Board and video games\, refreshments\nPhone: 503-615-6500\nWebsite:
+  https://www.hillsboro-oregon.gov/library\nDetails: Two library locations 
+ in Hillsboro with daily free programming. Part of WCCLS.
+URL:https://www.hillsboro-oregon.gov/library
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=2,4
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:3658fc1d7f9fa642@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T160000
-DTEND:20260324T180000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T160000
+DTEND:20260331T180000
 SUMMARY:Hillsboro Public Library: Craft Programs
 DESCRIPTION:Category: Arts & Culture\nCost: FREE (all programs and events)\
  nPhone: 503-615-6500\nWebsite: https://www.hillsboro-oregon.gov/library\nD
@@ -1372,7 +1694,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7911bf9a58117f@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T183000
 DTEND:20260326T193000
 SUMMARY:MHCC Planetarium Sky Theatre: Early Planetarium Show
@@ -1390,7 +1712,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e02aa101489f47a@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T200000
 DTEND:20260326T210000
 SUMMARY:MHCC Planetarium Sky Theatre: Late Planetarium Show
@@ -1408,7 +1730,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f7bf9869ba2e83a@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T120000
 DTEND:20260325T130000
 SUMMARY:The Old Church Concert Hall: Lunchtime Concert Series
@@ -1424,7 +1746,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0379c9729163580c@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T160000
 DTEND:20260329T170000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
@@ -1441,7 +1763,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c1294058eda55cac@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T090000
 DTEND:20260325T150000
 SUMMARY:Historic Belmont Firehouse: Wednesday Open Hours
@@ -1459,7 +1781,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d008ef21f7f8aa0a@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260327T170000
 DTEND:20260327T190000
 SUMMARY:Turn! Turn! Turn!: Casual Friday (Comedy Open Mic)
@@ -1476,7 +1798,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d8fc3329cc6894ad@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T123000
 DTEND:20260329T153000
 SUMMARY:Turn! Turn! Turn!: Drawing Club
@@ -1493,7 +1815,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d9e5489d6044ef66@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T200000
 DTEND:20260330T230000
 SUMMARY:Turn! Turn! Turn!: Karaoke Night
@@ -1509,8 +1831,26 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:a58e95f61ca649e6@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260330T140000
+DTEND:20260330T153000
+SUMMARY:Rockwood Library: ESL Classes
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Free classes throug
+ h Torus and Goodwill organizations. No registration required.\nAddress: 17
+ 917 SE Stark St\, Portland\, OR 97233\nPhone: 503-988-5123\nWebsite: https
+ ://multcolib.org/hours-and-locations/rockwood-library\nDetails: Part of Mu
+ ltnomah County Library system. Recently renovated with makerspace featurin
+ g 3D printers and craft equipment.
+LOCATION:17917 SE Stark St\, Portland\, OR 97233
+URL:https://multcolib.org/hours-and-locations/rockwood-library
+RRULE:FREQ=WEEKLY;BYDAY=MO,FR
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:081b91eb97012860@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T200000
 DTEND:20260325T210000
 SUMMARY:Tualatin Public Library: Adult Book Discussion
@@ -1527,7 +1867,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:33a5a02eaf722ff1@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T160000
 DTEND:20260325T170000
 SUMMARY:Tualatin Public Library: Teen Book Chat (grades 8-12)
@@ -1544,7 +1884,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1237b588e2dc3b12@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260607T140000
 DTEND:20260607T150000
 SUMMARY:Tualatin Public Library: Summer Sunday Music Series
@@ -1561,7 +1901,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:47623ca66dc7ccac@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T140000
 DTEND:20260329T160000
 SUMMARY:SCRAP PDX Creative Reuse: Sunday Crafternoon
@@ -1578,7 +1918,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d1c182da302ffe9c@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T160000
 DTEND:20260326T180000
 SUMMARY:SCRAP PDX Creative Reuse: Drop In Studio
@@ -1595,7 +1935,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:018c2dbc4c1b6d6c@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T170000
 DTEND:20260329T190000
 SUMMARY:Independent Publishing Resource Center (IPRC): Collage Night
@@ -1612,8 +1952,59 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:a86510240984ddfd@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260326T183000
+DTEND:20260326T193000
+SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Guilder Cafe
+DESCRIPTION:Category: Arts & Culture\nCost: FREE ($5 suggested donation)\nI
+ nfo: Inside Powell's Books downtown. Poets get 3 minutes. 10 slots via lot
+ tery. $5 suggested donation.\nAddress: Various - Guilder Cafe and Literary
+  Arts\, Portland\nWebsite: https://slamlandia.com/\nDetails: Supportive po
+ etry open mic with both intimate and larger venue options
+LOCATION:Various - Guilder Cafe and Literary Arts\, Portland
+URL:https://slamlandia.com/
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=1
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:74df6f3fc548fb54@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260326T183000
+DTEND:20260326T193000
+SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Literary Arts
+DESCRIPTION:Category: Arts & Culture\nCost: FREE ($5 suggested donation)\nI
+ nfo: Larger venue downtown. Features slam competition and featured readers
+ . 10 slots via lottery.\nAddress: Various - Guilder Cafe and Literary Arts
+ \, Portland\nWebsite: https://slamlandia.com/\nDetails: Supportive poetry 
+ open mic with both intimate and larger venue options
+LOCATION:Various - Guilder Cafe and Literary Arts\, Portland
+URL:https://slamlandia.com/
+RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=3
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3283440e28606290@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260327T183000
+DTEND:20260327T193000
+SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Flour Bloom
+DESCRIPTION:Category: Arts & Culture\nCost: FREE ($5 suggested donation)\nI
+ nfo: Poetry open mic and slam. 10 slots via lottery.\nAddress: Various - G
+ uilder Cafe and Literary Arts\, Portland\nWebsite: https://slamlandia.com/
+ \nDetails: Supportive poetry open mic with both intimate and larger venue 
+ options
+LOCATION:Various - Guilder Cafe and Literary Arts\, Portland
+URL:https://slamlandia.com/
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:4f5ddbd49f0a9039@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T160000
 DTEND:20260329T180000
 SUMMARY:The Humble Poets' Open Mic
@@ -1630,7 +2021,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c0cf360c4a2f442c@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T100000
 DTEND:20260328T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -1652,7 +2043,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6521fc4b6bde906a@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T100000
 DTEND:20260328T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -1675,7 +2066,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:359b4e00639aefa2@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T100000
 DTEND:20260328T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -1697,7 +2088,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7053af3e4013d499@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T100000
 DTEND:20260328T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1720,7 +2111,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb2584d8ad685306@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T130000
 DTEND:20260329T150000
 SUMMARY:Community Jams: EZ-Lead Slow Jam (Blues\, Folk\, Americana)
@@ -1738,7 +2129,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:352aca1aa2ae288f@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T180000
 DTEND:20260330T200000
 SUMMARY:Community Jams: CJ Anything Goes Jam
@@ -1756,7 +2147,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:36b525d206d3d5af@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260330T200000
 DTEND:20260330T220000
 SUMMARY:Community Jams: CJ Improv Jam
@@ -1774,9 +2165,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:83b0bc41193a745a@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T190000
-DTEND:20260324T213000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T190000
+DTEND:20260331T213000
 SUMMARY:Community Jams: CJ Newcomers and Explorers Jam
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Best for first-time
  rs. Welcoming environment for all skill levels.\nAddress: 2365 SW Cedar Hi
@@ -1792,8 +2183,26 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:a756560fd263fb59@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260326T190000
+DTEND:20260326T200000
+SUMMARY:Community Jams: Themed Jam (varies weekly)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
+ lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
+ nprofit connecting musicians of all abilities through free studio jams. Gr
+ ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
+ 8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
+ s are especially welcoming for beginners.
+LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
+URL:https://communityjams.org
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:0f4493dcc6b71ae5@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T130000
 DTEND:20260328T150000
 SUMMARY:Community Jams: CJ Newcomers and Explorers Jam (Saturday)
@@ -1810,8 +2219,27 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:aa470ea8adfb8f4f@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260328T163000
+DTEND:20260328T173000
+SUMMARY:Community Jams: Build a Song Workshop
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Check Meetup calend
+ ar for dates.\nAddress: 2365 SW Cedar Hills Blvd\, Beaverton\, OR\nWebsite
+ : https://communityjams.org\nDetails: Nonprofit connecting musicians of al
+ l abilities through free studio jams. Grew from Portland Casual Jams Meetu
+ p (5\,000+ members\, 4\,300+ events\, 4.8 rating). 5-6 free jam sessions w
+ eekly. Tuesday and Saturday newcomer jams are especially welcoming for beg
+ inners.
+LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
+URL:https://communityjams.org
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:008d34ae2bc45953@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260720
 SUMMARY:Cathedral Park Jazz Festival
@@ -1827,9 +2255,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:18a13a731b750ba1@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260609T120000
-DTEND:20260609T130000
+DTSTAMP:20260325T153324Z
+DTSTART:20260604T120000
+DTEND:20260604T130000
 SUMMARY:Noon Tunes at Pioneer Courthouse Square
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: 701 SW 6th A
  ve\, Portland\, OR 97204\nWebsite: https://www.thesquarepdx.org/\nDetails:
@@ -1837,13 +2265,13 @@ DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: 701 SW 6th A
  y 101.9 KINK. Food vendors on site. Art in The Park activities.
 LOCATION:701 SW 6th Ave\, Portland\, OR 97204
 URL:https://www.thesquarepdx.org/
-RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20260731T235959Z
+RRULE:FREQ=WEEKLY;BYDAY=TH,TU;UNTIL=20260731T235959Z
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:84736e4634a0743b@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270523
 SUMMARY:Portland Rose Festival
@@ -1856,7 +2284,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:32a79cc8e332acc9@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260622
 SUMMARY:Delta Park Powwow and Encampment
@@ -1873,7 +2301,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:360f573893319101@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260628
 DTEND;VALUE=DATE:20260630
 SUMMARY:Oregon Midsummer Festival
@@ -1889,7 +2317,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8c76f5fab273940b@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20260607
 SUMMARY:Portland Highland Games
@@ -1906,7 +2334,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:369fa2d7e26a8e4b@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260713
 SUMMARY:West Linn Old Time Fair
@@ -1921,7 +2349,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f8b00c5e188ddc80@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260831
 SUMMARY:Marianas Festival
@@ -1937,7 +2365,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:34fcf208f3ca4a9b@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260718
 DTEND;VALUE=DATE:20260720
 SUMMARY:Portland Pride
@@ -1953,7 +2381,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:71e919571174ce47@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260402T170000
 DTEND:20260402T210000
 SUMMARY:First Thursday Art Walk
@@ -1970,7 +2398,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bd517104cb00543c@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T180000
 DTEND:20260326T210000
 SUMMARY:Last Thursday on Alberta
@@ -1987,7 +2415,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a51c3018c49f316a@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Portland Tree Lighting Ceremony
@@ -2002,7 +2430,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:981e8d40cd3a420a@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20271215
 DTEND;VALUE=DATE:20280101
 SUMMARY:Peacock Lane Holiday Lights
@@ -2017,7 +2445,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d50d5cc747663bed@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260701T183000
 DTEND:20260701T203000
 SUMMARY:Gresham Wednesday Music in the Parks: Music in the Parks
@@ -2033,7 +2461,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f726cfa67160de1d@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:Wooden Shoe Tulip Festival
@@ -2049,7 +2477,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b18dd951df2feef7@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260502
 DTEND;VALUE=DATE:20260504
 SUMMARY:Spring Garden Fair
@@ -2064,7 +2492,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:396829af8d43697e@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260718
 DTEND;VALUE=DATE:20260719
 SUMMARY:Gresham Arts Festival
@@ -2078,7 +2506,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4fbec19f3f135081@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:India Festival
@@ -2092,7 +2520,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e17302519b24aeeb@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:Obon Festival (Oregon Buddhist Temple)
@@ -2108,7 +2536,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:574d4b0bebd0810a@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20270801
 DTEND;VALUE=DATE:20270802
 SUMMARY:Swan Island Dahlias
@@ -2123,7 +2551,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:299891133691a158@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260823
 SUMMARY:Clackamas County Fair
@@ -2138,7 +2566,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cf6b2748cda84a9c@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260921
 SUMMARY:Portland Polish Festival
@@ -2154,7 +2582,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1b5cf0280b32b4e2@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261005
 SUMMARY:Portland Greek Festival
@@ -2170,7 +2598,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b297a771e14010c2@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Día de los Muertos (Gresham)
@@ -2183,7 +2611,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f74bcb91ff4bdb04@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20260705
 SUMMARY:Happy Valley Fourth of July Festival
@@ -2199,7 +2627,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:afe46f3866470119@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260702T183000
 DTEND:20260702T203000
 SUMMARY:Concerts in the Valley (Happy Valley): Thursday Concert
@@ -2215,7 +2643,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6e8ff25f5ed72298@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:Happy Valley Oktoberfest
@@ -2230,7 +2658,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:28c7937075bc38a8@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Happy Valley Tree Lighting
@@ -2245,7 +2673,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6c03d30cb8f57738@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260307T100000
 DTEND:20260307T170000
 SUMMARY:Portland Saturday Market: Saturday Market
@@ -2261,7 +2689,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d278ca247411846b@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260214
 DTEND;VALUE=DATE:20260216
 SUMMARY:Oregon Free Fishing Weekends
@@ -2275,7 +2703,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:77ae73c28b0f9ccd@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20260608
 SUMMARY:Oregon Free Fishing Weekends
@@ -2289,7 +2717,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aadf365d4c01dd72@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:Oregon Free Fishing Weekends
@@ -2303,7 +2731,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13faef448b14b448@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20271127
 DTEND;VALUE=DATE:20271128
 SUMMARY:Christmas Ships Parade
@@ -2318,7 +2746,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da583f55cb2a0059@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260605T183000
 DTEND:20260605T203000
 SUMMARY:Tualatin Concerts in the Parks
@@ -2334,7 +2762,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ca22b194d8222030@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:Cascade Festival of African Films
@@ -2351,7 +2779,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:435c9e4f7bb3de0c@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260206
 DTEND;VALUE=DATE:20260215
 SUMMARY:Portland Winter Light Festival
@@ -2368,7 +2796,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e675cfc3e5b4613@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260629
 SUMMARY:Good in the Hood Multicultural Festival
@@ -2384,7 +2812,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:74d99f732246769f@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260727
 SUMMARY:Washington County Fair
@@ -2399,7 +2827,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:64b48ede4ae731d8@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20270820
 DTEND;VALUE=DATE:20270821
 SUMMARY:Pedalpalooza / Bike Summer
@@ -2414,7 +2842,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f04644cd6c19de80@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270710
 SUMMARY:Portland Parks Summer Free For All
@@ -2430,7 +2858,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a6395a7c06cf0be0@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260709T183000
 DTEND:20260709T203000
 SUMMARY:Portland Parks Summer Free For All: Free Outdoor Concerts
@@ -2448,7 +2876,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a6395a7c06cf0be0@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260710T183000
 DTEND:20260710T203000
 SUMMARY:Portland Parks Summer Free For All: Free Outdoor Concerts
@@ -2466,7 +2894,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8132faf5c5356489@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260711T193000
 DTEND:20260711T220000
 SUMMARY:Portland Parks Summer Free For All: Free Movies in the Park
@@ -2484,7 +2912,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9f592c53be720466@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260605T170000
 DTEND:20260605T200000
 SUMMARY:Milwaukie First Friday
@@ -2500,7 +2928,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:697356c9eaa7b5bb@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T100000
 DTEND:20260328T110000
 SUMMARY:Tryon Creek State Natural Area: Saturday Guided Nature Walks
@@ -2519,8 +2947,75 @@ CATEGORIES:Parks & Nature
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:b1cd3f91d0b7fc50@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260405T110000
+DTEND:20260405T120000
+SUMMARY:Hoyt Arboretum: Free Public Tours
+DESCRIPTION:Category: Parks & Nature\nInfo: Sign up day-of at Visitor Cente
+ r\nAddress: 4000 SW Fairview Blvd\, Portland\, OR 97221\nPhone: 503-865-87
+ 33\nWebsite: https://www.hoytarboretum.org/\nDetails: Living museum of tre
+ es. Trail maps in English and Spanish.
+LOCATION:4000 SW Fairview Blvd\, Portland\, OR 97221
+URL:https://www.hoytarboretum.org/
+RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20261031T235959Z
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:26b379a33a5f1049@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260330T130000
+DTEND:20260330T150000
+SUMMARY:Main City Park (Gresham): Summer Kids in the Park (SKIP)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free lunch and recr
+ eation for youth\nAddress: 219 S Main Ave\, Gresham\, OR\nWebsite: https:/
+ /www.greshamoregon.gov\nDetails: Central Gresham park hosting festivals\, 
+ concerts\, and community events. Tsuru Island Japanese Garden maintained b
+ y volunteers since 1970s.
+LOCATION:219 S Main Ave\, Gresham\, OR
+URL:https://www.greshamoregon.gov
+RRULE:FREQ=WEEKLY;BYDAY=MO,TH
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d35320a7715fec80@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260326T161500
+DTEND:20260326T171500
+SUMMARY:Faith Café at Bethel UCC (Beaverton Free Meal)
+DESCRIPTION:Category: Food & Farms\nCost: FREE\nAddress: 5150 SW Watson Ave
+ \, Beaverton\, OR 97005\nWebsite: https://www.bethelbeaverton.org/hunger\n
+ Details: Free community meal in Beaverton. Sundays at 4:15pm weekly\, plus
+  last Thursday monthly. Rare Washington County free meal option.
+LOCATION:5150 SW Watson Ave\, Beaverton\, OR 97005
+URL:https://www.bethelbeaverton.org/hunger
+RRULE:FREQ=WEEKLY;BYDAY=TH,SU
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:63ba5f7f93d4a09e@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260329T150000
+DTEND:20260329T160000
+SUMMARY:Potluck in the Park
+DESCRIPTION:Category: Food & Farms\nCost: FREE\nAddress: North Park Blocks\
+ , NW Glisan St between 8th Ave & Park Ave\, Portland\, OR\nPhone: 503-255-
+ 7611\nWebsite: https://potluckinthepark.org/\nDetails: Free Sunday hot mea
+ l at North Park Blocks. 34+ years serving 400-600 people weekly\, rain or 
+ shine.
+LOCATION:North Park Blocks\, NW Glisan St between 8th Ave & Park Ave\, Port
+ land\, OR
+URL:https://potluckinthepark.org/
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:62415854f662a1e5@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260329T103000
 DTEND:20260329T141500
 SUMMARY:Sikh Center of Oregon Langar
@@ -2538,7 +3033,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:997f8b927cde4848@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260509T083000
 DTEND:20260509T133000
 SUMMARY:Lake Oswego Farmers' Market
@@ -2554,7 +3049,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6517fa2bcf3ed8b4@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260502T083000
 DTEND:20260502T140000
 SUMMARY:Gresham Farmers' Market
@@ -2571,7 +3066,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:67340f12a09b5cd7@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260503T093000
 DTEND:20260503T140000
 SUMMARY:Milwaukie Farmers Market
@@ -2588,7 +3083,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:435f2bc1450ffc3a@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260604T150000
 DTEND:20260604T190000
 SUMMARY:Rockwood Community Market
@@ -2604,7 +3099,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6e4cfdfcf86d5067@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260506T093000
 DTEND:20260506T123000
 SUMMARY:Community Farm at Lynwood Friends Church: Drop-In Farming
@@ -2621,7 +3116,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e5557256b5233151@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260404T080000
 DTEND:20260404T130000
 SUMMARY:Hollywood Farmers Market
@@ -2638,9 +3133,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d749c957e9a0991a@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T170000
-DTEND:20260324T213000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T170000
+DTEND:20260331T213000
 SUMMARY:Portland Area Board Games Meetup: Tuesday Board Games
 DESCRIPTION:Category: Social Activities\nCost: FREE - just buy food/drink f
  rom venue\nInfo: 20-30 attendees typical. Games provided. All skill levels
@@ -2654,7 +3149,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c536863dc98ad10a@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T170000
 DTEND:20260325T213000
 SUMMARY:Portland Area Board Games Meetup: Wednesday East Side Game Night
@@ -2670,7 +3165,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:22b230d60826a8b3@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260325T083000
 DTEND:20260325T113000
 SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
@@ -2687,10 +3182,28 @@ CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:85f82cd177356b11@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260330T160000
+DTEND:20260330T170000
+SUMMARY:Milwaukie Community Center: Tai Chi for Seniors
+DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
+ some low-cost\nInfo: Gentle exercise for balance and wellness\nAddress: 54
+ 40 SE Kellogg Creek Dr\, Milwaukie\, OR 97222\nPhone: 503-653-8100\nWebsit
+ e: https://ncprd.org/milwaukie-community-center\nDetails: Primary hub for 
+ older adults in North Clackamas. Meals on Wheels program delivers 300+ mea
+ ls daily.
+LOCATION:5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222
+URL:https://ncprd.org/milwaukie-community-center
+RRULE:FREQ=WEEKLY;BYDAY=MO,WE
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:8961f5d05e61f6ab@portlandresources.org
-DTSTAMP:20260324T152414Z
-DTSTART:20260324T150000
-DTEND:20260324T170000
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T150000
+DTEND:20260331T170000
 SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
 DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nInfo: Drop-in 
  fiber arts session every Tuesday. Knit\, crochet\, or try other crafts whi
@@ -2706,7 +3219,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8569003d0f2e736e@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T180000
 DTEND:20260326T203000
 SUMMARY:Puddletown Knitters Guild: Monthly Meeting
@@ -2723,8 +3236,26 @@ CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:a46e449e668cab99@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260331T080000
+DTEND:20260331T090000
+SUMMARY:Pioneer Community Center: Zumba
+DESCRIPTION:Category: Social Activities\nCost: Most services free or low-co
+ st\nAddress: 615 5th Street\, Oregon City\, OR 97045\nPhone: 503-657-8287\
+ nWebsite: https://www.orcity.org/pioneercenter\nDetails: Serves adults 21 
+ and older. Mission to promote active\, healthy\, independent living. Full 
+ class schedules (yoga\, tai chi\, line dancing\, art\, etc.) available in 
+ monthly newsletter - schedules change frequently.
+LOCATION:615 5th Street\, Oregon City\, OR 97045
+URL:https://www.orcity.org/pioneercenter
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:8e93e04951e560a1@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260326T123000
 DTEND:20260326T140000
 SUMMARY:Pioneer Community Center: Bingo
@@ -2743,7 +3274,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ae8681a502d94534@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T120000
 DTEND:20260328T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House

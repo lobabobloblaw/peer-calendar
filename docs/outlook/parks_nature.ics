@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:697356c9eaa7b5bb@portlandresources.org
-DTSTAMP:20260324T152414Z
+DTSTAMP:20260325T153324Z
 DTSTART:20260328T100000
 DTEND:20260328T110000
 SUMMARY:Tryon Creek State Natural Area: Saturday Guided Nature Walks
@@ -42,6 +42,43 @@ X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:11321 S Terwilliger Blvd\, Portland\, OR 97219
 URL:https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=103
 RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b1cd3f91d0b7fc50@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260405T110000
+DTEND:20260405T120000
+SUMMARY:Hoyt Arboretum: Free Public Tours
+DESCRIPTION:Category: Parks & Nature\nInfo: Sign up day-of at Visitor Cente
+ r\nAddress: 4000 SW Fairview Blvd\, Portland\, OR 97221\nPhone: 503-865-87
+ 33\nWebsite: https://www.hoytarboretum.org/\nDetails: Living museum of tre
+ es. Trail maps in English and Spanish.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Parks &amp; Nature</p><p>Sign up day-of at Visitor Center</p><p><strong>Address:</strong> 4000 SW Fairview Blvd, Portland, OR 97221</p><p><strong>Phone:</strong> <a href="tel:503-865-8733">503-865-8733</a></p><p><strong>Website:</strong> <a href="https://www.hoytarboretum.org/">https://www.hoytarboretum.org/</a></p><p><strong>Details:</strong> Living museum of trees. Trail maps in English and Spanish.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:4000 SW Fairview Blvd\, Portland\, OR 97221
+URL:https://www.hoytarboretum.org/
+RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20261031T235959Z
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:26b379a33a5f1049@portlandresources.org
+DTSTAMP:20260325T153324Z
+DTSTART:20260330T130000
+DTEND:20260330T150000
+SUMMARY:Main City Park (Gresham): Summer Kids in the Park (SKIP)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free lunch and recr
+ eation for youth\nAddress: 219 S Main Ave\, Gresham\, OR\nWebsite: https:/
+ /www.greshamoregon.gov\nDetails: Central Gresham park hosting festivals\, 
+ concerts\, and community events. Tsuru Island Japanese Garden maintained b
+ y volunteers since 1970s.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Parks &amp; Nature</p><p><strong>Cost:</strong> FREE</p><p>Free lunch and recreation for youth</p><p><strong>Address:</strong> 219 S Main Ave, Gresham, OR</p><p><strong>Website:</strong> <a href="https://www.greshamoregon.gov">https://www.greshamoregon.gov</a></p><p><strong>Details:</strong> Central Gresham park hosting festivals, concerts, and community events. Tsuru Island Japanese Garden maintained by volunteers since 1970s.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:219 S Main Ave\, Gresham\, OR
+URL:https://www.greshamoregon.gov
+RRULE:FREQ=WEEKLY;BYDAY=MO,TH
 CATEGORIES:Parks & Nature
 TRANSP:TRANSPARENT
 END:VEVENT

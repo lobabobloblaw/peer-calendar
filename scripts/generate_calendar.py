@@ -163,19 +163,20 @@ def parse_schedule(schedule_str: str) -> dict:
     schedule_normalized = re.sub(r'\bnoon\b', '12:00', schedule_lower)
 
     day_map = {
-        "sunday": "SU", "sundays": "SU",
-        "monday": "MO", "mondays": "MO",
-        "tuesday": "TU", "tuesdays": "TU",
-        "wednesday": "WE", "wednesdays": "WE",
-        "thursday": "TH", "thursdays": "TH",
-        "friday": "FR", "fridays": "FR",
-        "saturday": "SA", "saturdays": "SA",
+        "sunday": "SU", "sundays": "SU", "sun": "SU",
+        "monday": "MO", "mondays": "MO", "mon": "MO",
+        "tuesday": "TU", "tuesdays": "TU", "tue": "TU",
+        "wednesday": "WE", "wednesdays": "WE", "wed": "WE",
+        "thursday": "TH", "thursdays": "TH", "thu": "TH",
+        "friday": "FR", "fridays": "FR", "fri": "FR",
+        "saturday": "SA", "saturdays": "SA", "sat": "SA",
     }
 
-    # Collect all matching days (for schedules like "Tuesdays & Thursdays")
+    # Collect all matching days (for schedules like "Tuesdays & Thursdays", "Tue/Thu")
+    # Sort by length descending so full names match before abbreviations
     days_found = []
-    for day_name, day_code in day_map.items():
-        if day_name in schedule_lower and day_code not in days_found:
+    for day_name, day_code in sorted(day_map.items(), key=lambda x: -len(x[0])):
+        if re.search(r'\b' + re.escape(day_name) + r'\b', schedule_lower) and day_code not in days_found:
             days_found.append(day_code)
 
     if days_found:
@@ -189,6 +190,10 @@ def parse_schedule(schedule_str: str) -> dict:
 
     if "every" in schedule_lower:
         result["weekly"] = True
+
+    if "daily" in schedule_lower:
+        result["daily"] = True
+        result["day"] = "MO,TU,WE,TH,FR,SA,SU"
 
     time_pattern = r"(\d{1,2})(?::(\d{2}))?\s*(am|pm)?\s*-\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm)?"
     time_match = re.search(time_pattern, schedule_normalized)
@@ -220,6 +225,20 @@ def parse_schedule(schedule_str: str) -> dict:
 
         result["start_time"] = f"{start_hour:02d}:{start_min:02d}"
         result["end_time"] = f"{end_hour:02d}:{end_min:02d}"
+    else:
+        # Try single time (e.g., "6pm", "10am") — assume 1-hour duration
+        single_time = re.search(r'(\d{1,2})(?::(\d{2}))?\s*(am|pm)', schedule_normalized)
+        if single_time:
+            hour = int(single_time.group(1))
+            minute = int(single_time.group(2) or 0)
+            period = single_time.group(3)
+            if period == "pm" and hour < 12:
+                hour += 12
+            elif period == "am" and hour == 12:
+                hour = 0
+            result["start_time"] = f"{hour:02d}:{minute:02d}"
+            end_hour = hour + 1
+            result["end_time"] = f"{end_hour:02d}:{minute:02d}"
 
     return result
 

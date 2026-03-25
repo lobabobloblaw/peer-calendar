@@ -144,8 +144,8 @@
   good_for:
     - isolation
     - active
-    - family_friendly
     - creative
+    - family_friendly
   guide_location: activities-guide-1.md#community-centers-with-sliding-scale-fees
   notes: Winter 2026 session at capacity; reopens February 2, 2026 for Spring registration.
     One application per household yearly. Unused funds expire annually.
@@ -545,6 +545,8 @@
     - active
     - family_friendly
   guide_location: activities-guide-1.md#discount-programs
+  audience:
+    - children
   notes: City scholarship program to ensure recreation access for all Tualatin children regardless of income.
 - id: mhcc-senior-tuition
   name: MHCC Senior Tuition Discount
@@ -577,6 +579,8 @@
   - creative
   - active
   guide_location: activities-guide-1.md#education
+  audience:
+    - seniors
   notes: Oregon seniors 65+ can audit college classes free. Great for lifelong learners.
 
 ---
@@ -619,6 +623,8 @@
     - anxiety_friendly
     - low_energy
   guide_location: activities-guide-1.md#essential-access-programs
+  audience:
+    - seniors
   notes: Door-to-door ride service for seniors, people with disabilities, and underserved communities. Rides for any purpose including recreation.
 
 - id: biketown-for-all
@@ -1355,6 +1361,9 @@
     - isolation
     - indoor
     - new_to_area
+  audience:
+    - lgbtq
+    - trans_nonbinary
   guide_location: activities-guide-2.md#lgbtq-support
   notes: Portland's LGBTQ+ community center. Safe space with multi-generational programs.
     Many support groups and weekly events.
@@ -1558,6 +1567,8 @@
     - isolation
     - indoor
     - family_friendly
+  audience:
+    - children
   guide_location: activities-guide-2.md#grief-support
   notes: Pioneering peer grief support model since 1982. World-renowned programs.
     Also offers training and resources for professionals.
@@ -1971,9 +1982,13 @@
   social_intensity: casual_group
   good_for:
     - anxiety_friendly
-    - indoor
     - low_energy
+    - indoor
     - isolation
+  audience:
+    - bipoc
+    - lgbtq
+    - trans_nonbinary
   guide_location: activities-guide-1.md#free-yoga-and-meditation
   notes: Replaced Portland Yoga Collective entry (which is in Maine). BYMC offers
     weekly by-donation classes in SE Portland.
@@ -2273,6 +2288,8 @@
     - indoor
     - low_energy
   guide_location: activities-guide-2.md#gresham-senior-center
+  audience:
+    - seniors
 - id: portland-running-company
   name: Portland Running Company Group Runs
   category: fitness_wellness
@@ -2578,6 +2595,8 @@
   - indoor
   - new_to_area
   guide_location: activities-guide-2.md#gresham-programs
+  audience:
+    - teens
 - id: clackamas-town-center-walking
   name: Clackamas Town Center Mall Walking
   category: fitness_wellness
@@ -5404,6 +5423,8 @@
     - family_friendly
     - isolation
     - new_to_area
+  audience:
+    - lgbtq
   guide_location: activities-guide-1.md#free-festivals
   notes: One of largest donation-based LGBTQIA2S+ Pride events on west coast. Moved from June to July in 2023 to avoid conflicts with Juneteenth and Delta Park Powwow. Run by Pride Northwest.
   flags:
@@ -7238,6 +7259,8 @@
     - anxiety_friendly
     - indoor
   guide_location: activities-guide-2.md#free-food-resources
+  audience:
+    - seniors
   notes: 40+ year food access organization in SW Portland. New expanded Barbur Blvd location opened early 2026.
 
 - id: faith-cafe-beaverton
@@ -7464,6 +7487,8 @@
     - indoor
     - isolation
     - low_energy
+  audience:
+    - seniors
   guide_location: activities-guide-2.md#loaves-and-fishes-senior-dining
   notes: 30+ dining centers operated by Meals on Wheels People
 - id: pumpkin-patch-olson
@@ -8017,6 +8042,8 @@
   - low_energy
   - indoor
   guide_location: activities-guide-2.md#clackamas-county-senior-centers
+  audience:
+    - seniors
   notes: Primary hub for older adults in North Clackamas. Meals on Wheels program
     delivers 300+ meals daily.
 - id: write-around-portland
@@ -8385,6 +8412,8 @@
   - low_energy
   - indoor
   guide_location: activities-guide-2.md#clackamas-county-senior-centers
+  audience:
+    - seniors
   notes: Nationally accredited senior center offering comprehensive services since
     1970.
 - id: clackamas-adrc
@@ -8426,6 +8455,8 @@
     - anxiety_friendly
     - low_energy
   guide_location: activities-guide-2.md#clackamas-county-resources
+  audience:
+    - seniors
   notes: Central hub connecting people to 10+ community adult centers throughout Clackamas
     County.
 - id: tigard-senior-center
@@ -8443,6 +8474,8 @@
     description: FREE activities; lunch $3 suggested donation for 60+
     notes: Meals on Wheels People provides dining program
   eligibility: Adults, with dining program for 60+
+  audience:
+    - seniors
   hours: 'Mon-Thu: 8am-4pm
 
     Dining: Mon-Wed noon-1pm
@@ -8497,6 +8530,8 @@
     description: Drop-in fees vary; many activities free or low-cost
     notes: THPRD Financial Aid available for qualifying residents
   eligibility: Adults 55+
+  audience:
+    - seniors
   hours: 'Mon-Thu: 8am-5pm
 
     Fri: 8am-2pm
@@ -9000,6 +9035,8 @@
     - low_energy
     - indoor
     - isolation
+  audience:
+    - seniors
   guide_location: activities-guide-2.md#senior-services
   notes: Senior center with free services including legal aid, tax help, and social programs
 
@@ -9233,6 +9270,8 @@
     - anxiety_friendly
     - isolation
     - indoor
+  audience:
+    - seniors
   guide_location: activities-guide-2.md#senior-services
   notes: Multi-service senior center. Hosts NAMI Multnomah meetings. Focused on positive aging with social, wellness, and support programs.
 
@@ -9507,6 +9546,8 @@
   good_for:
     - isolation
     - low_energy
+  audience:
+    - seniors
   guide_location: activities-guide-2.md#senior-services
   notes: More than a meal service - provides nutrition, connection, and wellness checks for seniors.
 
@@ -9698,7 +9739,11 @@
   good_for:
     - active
     - isolation
+  audience:
+    - children
     - indoor
+  audience:
+    - teens
   guide_location: activities-guide-1.md#fitness-centers
   notes: Inclusive nonprofit gym focused on serving underrepresented communities. Free weekly BIPOC class plus sliding scale memberships.
 
@@ -9731,6 +9776,9 @@
     - active
     - isolation
     - indoor
+  audience:
+    - lgbtq
+    - seniors
   guide_location: activities-guide-1.md#fitness-classes
   notes: Free weekly community workout open to all levels.
 
@@ -9836,6 +9884,8 @@
     - active
     - isolation
   guide_location: activities-guide-1.md#adaptive-recreation
+  audience:
+    - children
   notes: Premier adaptive sports organization in the region. Paralympic Sport Club recognized by Team USA.
 
 - id: every-body-athletics
@@ -9933,6 +9983,9 @@
     - isolation
     - indoor
   guide_location: activities-guide-1.md#community-centers
+  audience:
+    - lgbtq
+    - seniors
   notes: Nonprofit neighborhood center with sliding scale. Multnomah County Senior Center partner. Free Community Nights on Fridays.
 
 - id: teenforce-portland
@@ -9965,6 +10018,8 @@
     - isolation
     - indoor
   guide_location: activities-guide-1.md#youth-programs
+  audience:
+    - teens
   notes: Free fitness and recreation access for youth ages 10-20 at Portland Parks community centers.
 
 ---
