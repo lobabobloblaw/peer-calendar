@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:d749c957e9a0991a@portlandresources.org
-DTSTAMP:20260325T225208Z
+DTSTAMP:20260325T172932Z
 DTSTART:20260331T170000
 DTEND:20260331T213000
 SUMMARY:Portland Area Board Games Meetup: Tuesday Board Games
@@ -43,7 +43,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c536863dc98ad10a@portlandresources.org
-DTSTAMP:20260325T225208Z
+DTSTAMP:20260325T172932Z
 DTSTART:20260325T170000
 DTEND:20260325T213000
 SUMMARY:Portland Area Board Games Meetup: Wednesday East Side Game Night
@@ -61,7 +61,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:22b230d60826a8b3@portlandresources.org
-DTSTAMP:20260325T225208Z
+DTSTAMP:20260325T172932Z
 DTSTART:20260325T083000
 DTEND:20260325T113000
 SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
@@ -81,7 +81,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85f82cd177356b11@portlandresources.org
-DTSTAMP:20260325T225208Z
+DTSTAMP:20260325T172932Z
 DTSTART:20260330T160000
 DTEND:20260330T170000
 SUMMARY:Milwaukie Community Center: Tai Chi for Seniors
@@ -100,8 +100,27 @@ CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:89444dc8c3fb77ee@portlandresources.org
+DTSTAMP:20260325T172932Z
+DTSTART:20260330T120000
+DTEND:20260330T123000
+SUMMARY:Milwaukie Community Center: Congregate Lunch
+DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
+ some low-cost\nInfo: Social dining for older adults\nAddress: 5440 SE Kell
+ ogg Creek Dr\, Milwaukie\, OR 97222\nPhone: 503-653-8100\nWebsite: https:/
+ /ncprd.org/milwaukie-community-center\nDetails: Primary hub for older adul
+ ts in North Clackamas. Meals on Wheels program delivers 300+ meals daily.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> Programs vary; some free, some low-cost</p><p>Social dining for older adults</p><p><strong>Address:</strong> 5440 SE Kellogg Creek Dr, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-653-8100">503-653-8100</a></p><p><strong>Website:</strong> <a href="https://ncprd.org/milwaukie-community-center">https://ncprd.org/milwaukie-community-center</a></p><p><strong>Details:</strong> Primary hub for older adults in North Clackamas. Meals on Wheels program delivers 300+ meals daily.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222
+URL:https://ncprd.org/milwaukie-community-center
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:8961f5d05e61f6ab@portlandresources.org
-DTSTAMP:20260325T225208Z
+DTSTAMP:20260325T172932Z
 DTSTART:20260331T150000
 DTEND:20260331T170000
 SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
@@ -121,7 +140,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8569003d0f2e736e@portlandresources.org
-DTSTAMP:20260325T225208Z
+DTSTAMP:20260325T172932Z
 DTSTART:20260326T180000
 DTEND:20260326T203000
 SUMMARY:Puddletown Knitters Guild: Monthly Meeting
@@ -141,7 +160,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a46e449e668cab99@portlandresources.org
-DTSTAMP:20260325T225208Z
+DTSTAMP:20260325T172932Z
 DTSTART:20260331T080000
 DTEND:20260331T090000
 SUMMARY:Pioneer Community Center: Zumba
@@ -161,7 +180,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8e93e04951e560a1@portlandresources.org
-DTSTAMP:20260325T225208Z
+DTSTAMP:20260325T172932Z
 DTSTART:20260326T123000
 DTEND:20260326T140000
 SUMMARY:Pioneer Community Center: Bingo
@@ -182,7 +201,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ae8681a502d94534@portlandresources.org
-DTSTAMP:20260325T225208Z
+DTSTAMP:20260325T172932Z
 DTSTART:20260328T120000
 DTEND:20260328T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
