@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:eef9922f03c2cfbe@portlandresources.org
-DTSTAMP:20260325T172932Z
+DTSTAMP:20260325T181648Z
 DTSTART:20260330T063000
 DTEND:20260330T213000
 SUMMARY:SPOT Southwest (Free On-Demand Transit)
@@ -34,7 +34,7 @@ DESCRIPTION:Category: Transportation\nCost: FREE\nWebsite: https://catchthe
  erves SW Beaverton and NW Tigard neighborhoods with no fixed-route transit
  . Funded through 2027.
 URL:https://catchthespot.org/
-RRULE:FREQ=WEEKLY;BYDAY=MO,FR
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
 CATEGORIES:Transportation
 TRANSP:TRANSPARENT
 END:VEVENT

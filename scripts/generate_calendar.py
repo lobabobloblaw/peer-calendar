@@ -172,24 +172,41 @@ def parse_schedule(schedule_str: str) -> dict:
         "saturday": "SA", "saturdays": "SA", "sat": "SA",
     }
 
-    # Collect all matching days (for schedules like "Tuesdays & Thursdays", "Tue/Thu")
-    # Sort by length descending so full names match before abbreviations
+    # Day ranges first: "Mon-Fri", "Sat-Sun", "Wed-Sat" (check before individual days)
+    day_codes_ordered = ["MO", "TU", "WE", "TH", "FR", "SA", "SU"]
+    abbrev_to_idx = {"mon": 0, "tue": 1, "wed": 2, "thu": 3, "fri": 4, "sat": 5, "sun": 6}
+    range_match = re.search(r'\b(mon|tue|wed|thu|fri|sat|sun)\s*-\s*(mon|tue|wed|thu|fri|sat|sun)\b', schedule_lower)
     days_found = []
-    for day_name, day_code in sorted(day_map.items(), key=lambda x: -len(x[0])):
-        if re.search(r'\b' + re.escape(day_name) + r'\b', schedule_lower) and day_code not in days_found:
-            days_found.append(day_code)
+    if range_match:
+        start_idx = abbrev_to_idx[range_match.group(1)]
+        end_idx = abbrev_to_idx[range_match.group(2)]
+        if start_idx <= end_idx:
+            days_found = [day_codes_ordered[i] for i in range(start_idx, end_idx + 1)]
+            result["day"] = ",".join(days_found)
 
-    if days_found:
-        # Use comma-separated format for multiple days (e.g., "TU,TH")
-        result["day"] = ",".join(days_found)
+    # Individual day matching (for "Tuesdays & Thursdays", "Tue/Thu")
+    if not days_found:
+        for day_name, day_code in sorted(day_map.items(), key=lambda x: -len(x[0])):
+            if re.search(r'\b' + re.escape(day_name) + r'\b', schedule_lower) and day_code not in days_found:
+                days_found.append(day_code)
+        if days_found:
+            result["day"] = ",".join(days_found)
 
     ordinal_pattern = r"(\d+)(?:st|nd|rd|th)"
     ordinals = re.findall(ordinal_pattern, schedule_lower)
     if ordinals:
         result["week_of_month"] = [int(o) for o in ordinals]
 
+    # "Last Sunday of each month", "Last Wednesday"
+    if re.search(r'\blast\b', schedule_lower) and not ordinals:
+        result["last_of_month"] = True
+
     if "every" in schedule_lower:
         result["weekly"] = True
+
+    # "Every other Monday", "bi-weekly", "alternate Tuesdays"
+    if re.search(r'every\s+other|bi-?weekly|alternate', schedule_lower):
+        result["interval"] = 2
 
     if "daily" in schedule_lower:
         result["daily"] = True
@@ -495,9 +512,14 @@ def build_recurring_event(
         return None
 
     rrule_parts = [f"FREQ=WEEKLY;BYDAY={schedule['day']}"]
-    if schedule.get("week_of_month"):
+    if schedule.get("last_of_month"):
+        rrule_parts = [f"FREQ=MONTHLY;BYDAY={schedule['day']};BYSETPOS=-1"]
+    elif schedule.get("week_of_month"):
         weeks = schedule["week_of_month"]
         rrule_parts = [f"FREQ=MONTHLY;BYDAY={schedule['day']};BYSETPOS={','.join(map(str, weeks))}"]
+
+    if schedule.get("interval") and schedule["interval"] > 1:
+        rrule_parts.append(f"INTERVAL={schedule['interval']}")
 
     schedule_end = entry.get("schedule_end_date")
     if schedule_end:
@@ -553,6 +575,37 @@ def build_recurring_event(
 
 _warned_schedules = set()
 
+def _make_date_event(
+    date_str: str, entry_id: str, name: str, description: str,
+    html_desc: str, address: str, website: str, category: str, platform: str,
+) -> str | None:
+    """Create an all-day VEVENT from a date string. Returns None if unparseable."""
+    start_date, end_date = parse_date_string(date_str)
+    if not start_date:
+        return None
+    end = end_date if end_date else start_date
+    return create_vevent(
+        uid=generate_uid(entry_id, start_date.strftime("%Y%m%d")),
+        summary=name,
+        description=description,
+        location=address,
+        dtstart=format_ical_date(start_date, all_day=True),
+        dtend=format_ical_date(end + timedelta(days=1), all_day=True),
+        all_day=True,
+        url=website,
+        category=category,
+        platform=platform,
+        html_description=html_desc,
+    )
+
+
+def _warn_unparseable(key: str, schedule_str: str, label: str) -> None:
+    """Print a deduplicated warning for an unparseable schedule."""
+    if key not in _warned_schedules:
+        _warned_schedules.add(key)
+        print(f"  WARNING: unparseable schedule for {label}: \"{schedule_str}\"", file=sys.stderr)
+
+
 def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
     """Convert a source entry to one or more VEVENT strings."""
     events = []
@@ -562,109 +615,66 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
     address = entry.get("address", "")
     website = entry.get("website", "")
 
-    # Handle entries with specific dates (events)
+    # Date-based events (festivals, one-time occurrences)
     dates = entry.get("dates")
     if dates:
         description, html_desc = generate_event_description(entry)
-        if isinstance(dates, str):
-            start_date, end_date = parse_date_string(dates)
-            if start_date:
-                uid = generate_uid(entry_id, start_date.strftime("%Y%m%d"))
-                dtstart = format_ical_date(start_date, all_day=True)
-                dtend = format_ical_date(end_date + timedelta(days=1), all_day=True) if end_date else format_ical_date(start_date + timedelta(days=1), all_day=True)
-                events.append(create_vevent(
-                    uid=uid,
-                    summary=name,
-                    description=description,
-                    location=address,
-                    dtstart=dtstart,
-                    dtend=dtend,
-                    all_day=True,
-                    url=website,
-                    category=category,
-                    platform=platform,
-                    html_description=html_desc
-                ))
-        elif isinstance(dates, list):
-            for date_item in dates:
-                if isinstance(date_item, str):
-                    start_date, end_date = parse_date_string(date_item)
-                    if start_date:
-                        uid = generate_uid(entry_id, start_date.strftime("%Y%m%d"))
-                        dtstart = format_ical_date(start_date, all_day=True)
-                        dtend = format_ical_date(end_date + timedelta(days=1), all_day=True) if end_date else format_ical_date(start_date + timedelta(days=1), all_day=True)
-                        events.append(create_vevent(
-                            uid=uid,
-                            summary=name,
-                            description=description,
-                            location=address,
-                            dtstart=dtstart,
-                            dtend=dtend,
-                            all_day=True,
-                            url=website,
-                            category=category,
-                            platform=platform,
-                            html_description=html_desc
-                        ))
-
-    # Handle recurring programs
-    programs = entry.get("programs", [])
-    if isinstance(programs, list):
-        for program in programs:
-            if isinstance(program, dict) and "schedule" in program:
-                program_name = program.get("name", name)
-                full_name = f"{name}: {program_name}" if program_name != name else name
-                schedule = parse_schedule(program.get("schedule", ""))
-                warn_key = f"{entry_id}>{program_name}"
-                if program.get("schedule") and not schedule.get("day") and warn_key not in _warned_schedules:
-                    _warned_schedules.add(warn_key)
-                    print(f"  WARNING: unparseable schedule for {entry_id} > {program_name}: \"{program.get('schedule')}\"", file=sys.stderr)
-                description, html_desc = generate_event_description(entry, program)
-
-                # Merge program-level schedule bounds into entry for build_recurring_event
-                effective_entry = entry
-                if program.get("schedule_start_date") or program.get("schedule_end_date"):
-                    effective_entry = dict(entry)
-                    if program.get("schedule_start_date"):
-                        effective_entry["schedule_start_date"] = program["schedule_start_date"]
-                    if program.get("schedule_end_date"):
-                        effective_entry["schedule_end_date"] = program["schedule_end_date"]
-
-                vevent = build_recurring_event(
-                    schedule=schedule,
-                    entry=effective_entry,
-                    summary=full_name,
-                    description=description,
-                    html_desc=html_desc,
-                    location=program.get("location", address),
-                    uid=generate_uid(entry_id, program_name),
-                    website=website,
-                    category=category,
-                    platform=platform,
+        date_items = [dates] if isinstance(dates, str) else (dates if isinstance(dates, list) else [])
+        for date_item in date_items:
+            if isinstance(date_item, str):
+                vevent = _make_date_event(
+                    date_item, entry_id, name, description, html_desc,
+                    address, website, category, platform,
                 )
                 if vevent:
                     events.append(vevent)
 
-    # Handle schedule field directly on entry
+    # Recurring programs (sub-entries with their own schedules)
+    programs = entry.get("programs", [])
+    if isinstance(programs, list):
+        for program in programs:
+            if not isinstance(program, dict) or "schedule" not in program:
+                continue
+            program_name = program.get("name", name)
+            full_name = f"{name}: {program_name}" if program_name != name else name
+            schedule = parse_schedule(program.get("schedule", ""))
+
+            if program.get("schedule") and not schedule.get("day"):
+                _warn_unparseable(f"{entry_id}>{program_name}", program["schedule"], f"{entry_id} > {program_name}")
+
+            description, html_desc = generate_event_description(entry, program)
+
+            # Merge program-level schedule bounds
+            effective_entry = entry
+            if program.get("schedule_start_date") or program.get("schedule_end_date"):
+                effective_entry = dict(entry)
+                for key in ("schedule_start_date", "schedule_end_date"):
+                    if program.get(key):
+                        effective_entry[key] = program[key]
+
+            vevent = build_recurring_event(
+                schedule=schedule, entry=effective_entry, summary=full_name,
+                description=description, html_desc=html_desc,
+                location=program.get("location", address),
+                uid=generate_uid(entry_id, program_name),
+                website=website, category=category, platform=platform,
+            )
+            if vevent:
+                events.append(vevent)
+
+    # Entry-level schedule (no sub-programs, no dates)
     schedule_str = entry.get("schedule")
     if schedule_str and not programs and not dates:
         schedule = parse_schedule(schedule_str)
-        if not schedule.get("day") and entry_id not in _warned_schedules:
-            _warned_schedules.add(entry_id)
-            print(f"  WARNING: unparseable schedule for {entry_id}: \"{schedule_str}\"", file=sys.stderr)
+        if not schedule.get("day"):
+            _warn_unparseable(entry_id, schedule_str, entry_id)
         description, html_desc = generate_event_description(entry)
 
         vevent = build_recurring_event(
-            schedule=schedule,
-            entry=entry,
-            summary=name,
-            description=description,
-            html_desc=html_desc,
-            location=address,
-            uid=generate_uid(entry_id, "recurring"),
-            website=website,
-            category=category,
-            platform=platform,
+            schedule=schedule, entry=entry, summary=name,
+            description=description, html_desc=html_desc,
+            location=address, uid=generate_uid(entry_id, "recurring"),
+            website=website, category=category, platform=platform,
         )
         if vevent:
             events.append(vevent)

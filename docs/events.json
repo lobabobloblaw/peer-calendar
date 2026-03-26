@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-25T17:29:32.506108",
+  "generated": "2026-03-25T18:16:48.459372",
   "count": 252,
   "categories": {
     "peer_support": "Peer Support",
@@ -1335,8 +1335,8 @@
           "location": "True Colors Recovery",
           "format": "In-person",
           "audience": [
-            "trans_nonbinary",
-            "women"
+            "women",
+            "trans_nonbinary"
           ]
         },
         {

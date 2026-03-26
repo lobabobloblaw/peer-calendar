@@ -811,6 +811,8 @@
     schedule: 1st & 3rd Wednesdays, 5-6:30pm
     location: Milwaukie (in-person)
     notes: Bi-weekly peer-led recovery support
+    audience:
+    - women
   - name: NAMI Family Support Group
     schedule: 1st & 3rd Mondays, 6:30-8pm
     format: Virtual (Zoom)
@@ -1126,6 +1128,8 @@
     schedule: Mondays 7:00-8:30pm PT
     format: Online (1st Monday in-person via Meetup for location)
     contact: dbsalgbtqiazoom@gmail.com
+    audience:
+    - lgbtq
   - name: Open to All (West Portland)
     schedule: Tuesdays 6:30-7:50pm PT
     format: Online
@@ -1218,6 +1222,8 @@
   - name: Queer Paths (LGBTQIA+)
     schedule: Sundays 10-11am
     format: Zoom
+    audience:
+    - lgbtq
   - name: Middle Way on MLK
     schedule: Sundays 4-5pm
     location: True Colors Recovery, 3807 NE MLK Jr Blvd
@@ -1237,6 +1243,9 @@
     schedule: Tuesdays 7:30-8:30pm
     location: True Colors Recovery
     format: In-person
+    audience:
+    - women
+    - trans_nonbinary
   - name: Thursday Portland Alano Club
     schedule: Thursdays 12-1pm
     location: 909 NW 24th Ave, SE Room

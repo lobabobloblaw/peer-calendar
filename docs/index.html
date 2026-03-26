@@ -2438,6 +2438,27 @@
             }
             result.days = Array.from(foundDays).sort((a, b) => a - b);
 
+            // Day ranges: "Mon-Fri", "Sat-Sun", "Wed-Sat"
+            if (result.days.length === 0) {
+                const dayCodesOrdered = [1, 2, 3, 4, 5, 6, 0]; // Mon=1 through Sun=0
+                const abbrevMap = {'mon': 0, 'tue': 1, 'wed': 2, 'thu': 3, 'fri': 4, 'sat': 5, 'sun': 6};
+                const rangeMatch = lower.match(/\b(mon|tue|wed|thu|fri|sat|sun)\s*-\s*(mon|tue|wed|thu|fri|sat|sun)\b/);
+                if (rangeMatch) {
+                    const startIdx = abbrevMap[rangeMatch[1]];
+                    const endIdx = abbrevMap[rangeMatch[2]];
+                    if (startIdx <= endIdx) {
+                        for (let i = startIdx; i <= endIdx; i++) {
+                            result.days.push(dayCodesOrdered[i]);
+                        }
+                    }
+                }
+            }
+
+            // Handle "Weekdays" → Mon-Fri
+            if (lower.includes('weekdays') && result.days.length === 0) {
+                result.days = [1, 2, 3, 4, 5]; // Mon-Fri
+            }
+
             // Handle "Daily" schedules - return special marker
             if (lower.includes('daily')) {
                 result.daily = true;

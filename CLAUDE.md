@@ -37,6 +37,7 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 - `scripts/utils.py` - Shared utilities: `load_sources()`, `parse_date()`, `format_date()`, `validate_entry()`
 - `scripts/generate_calendar.py` - Generates iCal/ICS calendar feeds to `output/`
 - `scripts/generate_monthly_calendars.py` - Expands recurring events into month-specific calendars in `distribution/`
+- `scripts/generate_guides.py` - Generates `guides/resources-guide.md` from sources.yaml (replaces manual guide maintenance)
 - `scripts/audit_check.py` - Reports entries due for audit, unverified entries, statistics
 - `scripts/audit_complete.py` - Mark entries as audited, auto-updates dates and logs
 - `scripts/validate_schedules.py` - Validates all schedule strings parse correctly (run before calendar generation)
@@ -345,6 +346,12 @@ python scripts/deduplicate_entries.py
 
 # Generate monthly calendars (expands recurring events for distribution)
 python scripts/generate_monthly_calendars.py
+
+# Generate resource guide from sources.yaml
+python scripts/generate_guides.py
+
+# Generate guide for a single category
+python scripts/generate_guides.py --category peer_support
 ```
 
 ## GitHub Pages Hosting
@@ -528,7 +535,6 @@ A future iOS update (possibly iOS 26.2+) may resolve this, as the underlying Web
 Check `data/queue.yaml` for pending research items and `data/audit-log.yaml` for recent changes.
 
 Future improvements:
-- Guide regeneration from sources.yaml (guides are currently manually maintained)
 - Map view for physical locations
 - Offline/PWA support
 - Multi-language support (Spanish UI option)

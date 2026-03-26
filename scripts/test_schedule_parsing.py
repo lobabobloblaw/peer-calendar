@@ -164,6 +164,74 @@ class TestParseSchedule(unittest.TestCase):
         self.assertEqual(result["end_time"], "12:30")
 
 
+    # --- Day ranges ---
+
+    def test_mon_fri_range(self):
+        """'Mon-Fri 6:30am-9:30pm' should expand to all weekdays."""
+        result = parse_schedule("Mon-Fri 6:30am-9:30pm")
+        self.assertEqual(result["day"], "MO,TU,WE,TH,FR")
+        self.assertEqual(result["start_time"], "06:30")
+        self.assertEqual(result["end_time"], "21:30")
+
+    def test_sat_sun_range(self):
+        """'Sat-Sun 2:30-4:30pm' should expand to SA,SU."""
+        result = parse_schedule("Sat-Sun 2:30-4:30pm")
+        self.assertEqual(result["day"], "SA,SU")
+        self.assertEqual(result["start_time"], "14:30")
+        self.assertEqual(result["end_time"], "16:30")
+
+    def test_wed_sat_range(self):
+        """'Wed-Sat 6:30-7:45am' should expand to WE,TH,FR,SA."""
+        result = parse_schedule("Wed-Sat 6:30-7:45am")
+        self.assertEqual(result["day"], "WE,TH,FR,SA")
+        self.assertEqual(result["start_time"], "06:30")
+        self.assertEqual(result["end_time"], "07:45")
+
+    def test_explicit_days_override_range(self):
+        """When full day names are present, they should take priority over range."""
+        result = parse_schedule("Tuesdays and Thursdays 5-6pm")
+        self.assertIn("TU", result["day"])
+        self.assertIn("TH", result["day"])
+
+    # --- Last of month ---
+
+    def test_last_sunday(self):
+        """'Last Sunday of each month 4-6pm' should set last_of_month."""
+        result = parse_schedule("Last Sunday of each month 4-6pm")
+        self.assertTrue(result.get("last_of_month"))
+        self.assertEqual(result["day"], "SU")
+        self.assertEqual(result["start_time"], "16:00")
+        self.assertEqual(result["end_time"], "18:00")
+
+    def test_last_wednesday(self):
+        """'Last Wednesday 12-12am' should set last_of_month."""
+        result = parse_schedule("Last Wednesday 12-12am")
+        self.assertTrue(result.get("last_of_month"))
+        self.assertIn("WE", result["day"])
+
+    def test_last_friday_of_month(self):
+        """'Last Friday of month, signups 6:30pm, show 7pm' should detect last + day."""
+        result = parse_schedule("Last Friday of month, signups 6:30pm, show 7pm")
+        self.assertTrue(result.get("last_of_month"))
+        self.assertEqual(result["day"], "FR")
+
+    # --- Every other / bi-weekly ---
+
+    def test_every_other_monday(self):
+        """'Every other Monday 1-3pm' should set interval=2."""
+        result = parse_schedule("Every other Monday 1-3pm")
+        self.assertEqual(result.get("interval"), 2)
+        self.assertEqual(result["day"], "MO")
+        self.assertEqual(result["start_time"], "13:00")
+        self.assertEqual(result["end_time"], "15:00")
+
+    def test_every_other_wednesday(self):
+        """'Every other Wednesday 6:30-8:30pm' should set interval=2."""
+        result = parse_schedule("Every other Wednesday 6:30-8:30pm")
+        self.assertEqual(result.get("interval"), 2)
+        self.assertIn("WE", result["day"])
+
+
 class TestDetectAudience(unittest.TestCase):
     """Test the audience detection pattern matching."""
 
