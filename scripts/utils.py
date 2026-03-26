@@ -64,6 +64,9 @@ VALID_RESOURCE_TYPES = {"place", "event", "service", "program", "organization"}
 REQUIRED_FIELDS = ["id", "name", "category"]
 
 
+VALID_AUDIT_FREQUENCIES = {"weekly", "monthly", "quarterly", "annually"}
+
+
 def validate_entry(entry: dict) -> list[str]:
     """Validate a single entry and return a list of warnings."""
     warnings = []
@@ -80,10 +83,29 @@ def validate_entry(entry: dict) -> list[str]:
     loc_type = entry.get("location_type")
     if loc_type and loc_type not in VALID_LOCATION_TYPES:
         warnings.append(f"{entry_id}: unknown location_type '{loc_type}'")
+    elif not loc_type:
+        warnings.append(f"{entry_id}: missing location_type")
 
     res_type = entry.get("resource_type")
     if res_type and res_type not in VALID_RESOURCE_TYPES:
         warnings.append(f"{entry_id}: unknown resource_type '{res_type}'")
+
+    audit_freq = entry.get("audit_frequency")
+    if audit_freq and audit_freq not in VALID_AUDIT_FREQUENCIES:
+        warnings.append(f"{entry_id}: unknown audit_frequency '{audit_freq}'")
+    elif not audit_freq:
+        warnings.append(f"{entry_id}: missing audit_frequency")
+
+    if not entry.get("source_urls"):
+        warnings.append(f"{entry_id}: missing source_urls")
+
+    start = entry.get("schedule_start_date")
+    end = entry.get("schedule_end_date")
+    if start and end:
+        s = parse_date(start)
+        e = parse_date(end)
+        if s and e and e < s:
+            warnings.append(f"{entry_id}: schedule_end_date is before schedule_start_date")
 
     return warnings
 

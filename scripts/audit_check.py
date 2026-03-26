@@ -19,6 +19,7 @@ Usage:
 """
 
 import argparse
+import sys
 from collections import Counter
 from datetime import datetime, date, timedelta
 from pathlib import Path
@@ -116,6 +117,7 @@ def main():
             for w in warnings:
                 print(f"  WARNING: {w}")
             print(f"\n{len(warnings)} validation warning(s) found.")
+            sys.exit(1)
         else:
             print("  All entries passed validation.")
         print()

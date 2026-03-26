@@ -276,19 +276,20 @@
 
         .view-tab {
             padding: 5px 10px;
-            border: 1px solid var(--border-color);
-            background: transparent;
-            border-radius: 4px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.4);
+            border-radius: 6px;
             cursor: pointer;
             font-size: 0.8em;
             font-weight: 500;
             color: var(--text-secondary);
-            transition: all 0.2s;
+            transition: all 0.15s ease;
         }
 
         .view-tab:hover {
-            border-color: var(--accent);
+            border-color: rgba(224, 128, 80, 0.4);
             color: var(--text-primary);
+            background: rgba(255, 255, 255, 0.7);
         }
 
         .view-tab.active {
@@ -469,27 +470,48 @@
             align-items: center;
             gap: 8px;
             padding: 10px 12px;
-            background: rgba(0, 0, 0, 0.03);
+            background: linear-gradient(180deg, rgba(245, 242, 238, 0.6) 0%, rgba(255, 255, 255, 0.4) 100%);
             border-bottom: 1px solid var(--border-color);
         }
 
         .month-nav > button {
-            background: rgba(0, 0, 0, 0.05);
-            border: 1px solid var(--border-color);
+            background: rgba(255, 255, 255, 0.5);
+            border: 1px solid rgba(0, 0, 0, 0.1);
             padding: 5px 10px;
-            border-radius: 4px;
+            border-radius: 6px;
             cursor: pointer;
             font-size: 0.85em;
             color: var(--text-primary);
+            transition: all 0.15s ease;
         }
 
-        .month-nav > button:hover { background: rgba(0, 0, 0, 0.1); }
+        .month-nav > button:hover {
+            background: rgba(255, 255, 255, 0.8);
+            border-color: rgba(0, 0, 0, 0.15);
+        }
 
         .month-nav .month-label {
             font-weight: 600;
             color: var(--text-primary);
             min-width: 120px;
             text-align: center;
+        }
+
+        .today-btn {
+            font-size: 0.75em;
+            padding: 3px 8px;
+            border-radius: 6px;
+            border: 1px solid rgba(224, 128, 80, 0.3);
+            background: rgba(224, 128, 80, 0.08);
+            color: var(--accent);
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.15s ease;
+        }
+
+        .today-btn:hover {
+            background: rgba(224, 128, 80, 0.15);
+            border-color: var(--accent);
         }
 
         /* List view */
@@ -556,7 +578,11 @@
         .event-item:last-child { border-bottom: none; }
 
         .event-color {
-            display: none;
+            width: 3px;
+            min-height: 100%;
+            border-radius: 2px;
+            flex-shrink: 0;
+            align-self: stretch;
         }
 
         .event-details {
@@ -1028,7 +1054,11 @@
         }
 
         .day-popup-event-color {
-            display: none;
+            width: 3px;
+            min-height: 100%;
+            border-radius: 2px;
+            flex-shrink: 0;
+            align-self: stretch;
         }
 
         .day-popup-event-details {
@@ -1078,7 +1108,8 @@
             /* First row: nav arrows and month label */
             .month-nav > #prev-month,
             .month-nav > #next-month,
-            .month-nav > .month-label {
+            .month-nav > .month-label,
+            .month-nav > .today-btn {
                 order: 1;
             }
 
@@ -1105,6 +1136,11 @@
             .view-tabs .view-tab.desktop-only {
                 display: inline-block;
             }
+
+            .filter-panel { padding: 10px 10px 8px; }
+            .filter-group { padding: 4px 0 4px 8px; border-left-width: 2px; }
+            .filter-group-label { width: 100%; margin-bottom: 3px; margin-right: 0; }
+            .filter-pill { padding: 6px 14px; font-size: 0.82em; }
         }
 
         /* Updates section */
@@ -1207,6 +1243,13 @@
                 padding: 4px 8px;
                 font-size: 0.75em;
             }
+
+            .filter-panel { padding: 6px 10px 5px; }
+            .filter-group { padding: 3px 0 3px 8px; }
+            .filter-group + .filter-group { margin-top: 1px; padding-top: 4px; }
+            .filter-pill { padding: 3px 10px; font-size: 0.72em; }
+            .filter-group-label { font-size: 0.65em; }
+            .filter-search { padding: 5px 10px; font-size: 0.78em; }
         }
 
         .print-btn:hover {
@@ -1241,39 +1284,81 @@
 
         .filter-panel {
             display: none;
-            padding: 8px 12px;
-            background: rgba(255, 255, 255, 0.95);
+            padding: 10px 14px 8px;
+            background: linear-gradient(180deg, rgba(255, 248, 240, 0.92) 0%, rgba(255, 255, 255, 0.95) 100%);
+            border-top: 2px solid rgba(224, 128, 80, 0.25);
             border-bottom: 1px solid var(--border-color);
-            align-items: center;
             gap: 6px;
             flex-wrap: wrap;
         }
 
         .filter-panel.active { display: flex; }
 
+        .filter-group {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 5px;
+            width: 100%;
+            padding: 5px 0 5px 10px;
+            border-left: 3px solid transparent;
+        }
+
+        .filter-group + .filter-group {
+            border-top: 1px solid rgba(0, 0, 0, 0.06);
+            margin-top: 2px;
+            padding-top: 7px;
+        }
+
+        .filter-group[data-group="category"] { border-left-color: var(--accent); }
+        .filter-group[data-group="vibe"]     { border-left-color: #2d8a6e; }
+        .filter-group[data-group="social"]   { border-left-color: #6b5b95; }
+        .filter-group[data-group="audience"] { border-left-color: #b08040; }
+
         .filter-pills {
             display: flex;
             flex-wrap: wrap;
-            gap: 5px;
+            gap: 6px;
         }
 
         .filter-pill {
             display: inline-flex;
             align-items: center;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75em;
+            padding: 5px 12px;
+            border-radius: 14px;
+            font-size: 0.78em;
             font-weight: 500;
             cursor: pointer;
-            border: 1px solid var(--border-color);
-            background: white;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            background: rgba(255, 255, 255, 0.7);
             color: var(--text-secondary);
-            transition: all 0.15s ease;
+            transition: all 0.2s ease;
+            -webkit-tap-highlight-color: transparent;
         }
 
-        .filter-pill:hover { border-color: var(--text-muted); }
+        .filter-pill:hover {
+            border-color: rgba(0, 0, 0, 0.2);
+            background: rgba(255, 255, 255, 0.9);
+            transform: translateY(-1px);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+        }
+
+        .filter-pill:active { transform: translateY(0); }
         .filter-pill.active { border-color: transparent; }
         .filter-pill input { display: none; }
+
+        /* Group-specific inactive tints */
+        .cat-pill              { background: rgba(255, 245, 235, 0.7); border-color: rgba(224, 128, 80, 0.15); }
+        .cat-pill:hover        { border-color: rgba(224, 128, 80, 0.35); background: rgba(255, 245, 235, 0.95); }
+
+        .goodfor-pill          { background: rgba(235, 250, 245, 0.7); border-color: rgba(45, 138, 110, 0.15); }
+        .goodfor-pill:hover    { border-color: rgba(45, 138, 110, 0.35); background: rgba(235, 250, 245, 0.95); }
+
+        .social-pill           { background: rgba(243, 238, 250, 0.7); border-color: rgba(107, 91, 149, 0.15); }
+        .social-pill:hover     { border-color: rgba(107, 91, 149, 0.35); background: rgba(243, 238, 250, 0.95); }
+
+        .filter-group[data-group="audience"] .filter-pill       { background: rgba(250, 245, 235, 0.7); border-color: rgba(176, 128, 64, 0.15); }
+        .filter-group[data-group="audience"] .filter-pill:hover { border-color: rgba(176, 128, 64, 0.35); background: rgba(250, 245, 235, 0.95); }
 
         /* Color-coded pills when active */
         .filter-pill[data-tag="children"].active { background: #FFE4B5; color: #8B4513; }
@@ -1287,37 +1372,50 @@
         .filter-pill[data-tag="spanish_speaking"].active { background: #228B22; color: white; }
 
         .filter-clear {
-            font-size: 0.7em;
+            font-size: 0.75em;
             color: var(--text-muted);
             cursor: pointer;
-            padding: 2px 6px;
-            border: none;
-            background: none;
+            padding: 4px 10px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.5);
+            margin-left: auto;
+            transition: all 0.15s ease;
         }
 
-        .filter-clear:hover { color: var(--accent); }
+        .filter-clear:hover {
+            color: var(--accent);
+            border-color: rgba(224, 128, 80, 0.3);
+            background: rgba(255, 245, 235, 0.8);
+        }
 
         .filter-search {
             width: 100%;
-            padding: 6px 10px;
-            border: 1px solid var(--border-color);
-            border-radius: 6px;
-            font-size: 0.8em;
-            background: white;
+            padding: 7px 12px;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            border-radius: 8px;
+            font-size: 0.82em;
+            background: rgba(255, 255, 255, 0.8);
             color: var(--text-primary);
             outline: none;
         }
-        .filter-search:focus { border-color: var(--accent); }
+        .filter-search:focus {
+            border-color: var(--accent);
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 0 0 2px rgba(224, 128, 80, 0.15);
+        }
         .filter-search::placeholder { color: var(--text-muted); }
 
         .filter-group-label {
-            font-size: 0.65em;
-            font-weight: 600;
-            color: var(--text-muted);
+            font-size: 0.72em;
+            font-weight: 700;
+            color: var(--text-secondary);
             text-transform: uppercase;
-            letter-spacing: 0.5px;
-            width: 100%;
-            margin-top: 2px;
+            letter-spacing: 0.8px;
+            width: auto;
+            margin-right: 8px;
+            white-space: nowrap;
+            flex-shrink: 0;
         }
 
         .goodfor-pill.active { background: #2d8a6e; color: white; }
@@ -1889,6 +1987,7 @@
                     <button id="prev-month" aria-label="Previous month">&larr;</button>
                     <span class="month-label" id="month-label">January 2025</span>
                     <button id="next-month" aria-label="Next month">&rarr;</button>
+                    <button class="today-btn" id="today-btn" onclick="goToToday()" aria-label="Go to today">Today</button>
                     <div class="view-tabs" role="tablist" aria-label="Calendar views">
                         <button class="view-tab active" data-view="grid" role="tab" aria-selected="true" aria-controls="grid-view">Calendar</button>
                         <button class="view-tab" data-view="list" role="tab" aria-selected="false" aria-controls="list-view">List</button>
@@ -1901,47 +2000,55 @@
                 </div>
                 <div class="filter-panel" id="filter-panel">
                     <input type="search" class="filter-search" id="filter-search" placeholder="Search events, locations, categories..." oninput="updateFilters()" aria-label="Search events">
-                    <span class="filter-group-label">Category</span>
-                    <div class="filter-pills">
-                        <label class="filter-pill cat-pill" data-tag="peer_support"><input type="checkbox" value="peer_support" onchange="updateFilters()">Peer Support</label>
-                        <label class="filter-pill cat-pill" data-tag="fitness_wellness"><input type="checkbox" value="fitness_wellness" onchange="updateFilters()">Fitness</label>
-                        <label class="filter-pill cat-pill" data-tag="arts_culture"><input type="checkbox" value="arts_culture" onchange="updateFilters()">Arts</label>
-                        <label class="filter-pill cat-pill" data-tag="events"><input type="checkbox" value="events" onchange="updateFilters()">Events</label>
-                        <label class="filter-pill cat-pill" data-tag="parks_nature"><input type="checkbox" value="parks_nature" onchange="updateFilters()">Parks</label>
-                        <label class="filter-pill cat-pill" data-tag="food_farms"><input type="checkbox" value="food_farms" onchange="updateFilters()">Food</label>
-                        <label class="filter-pill cat-pill" data-tag="social_activities"><input type="checkbox" value="social_activities" onchange="updateFilters()">Social</label>
-                        <label class="filter-pill cat-pill" data-tag="discount_programs"><input type="checkbox" value="discount_programs" onchange="updateFilters()">Discounts</label>
-                        <label class="filter-pill cat-pill" data-tag="transportation"><input type="checkbox" value="transportation" onchange="updateFilters()">Transit</label>
+                    <div class="filter-group" data-group="category">
+                        <span class="filter-group-label">Category</span>
+                        <div class="filter-pills">
+                            <label class="filter-pill cat-pill" data-tag="peer_support"><input type="checkbox" value="peer_support" onchange="updateFilters()">Peer Support</label>
+                            <label class="filter-pill cat-pill" data-tag="fitness_wellness"><input type="checkbox" value="fitness_wellness" onchange="updateFilters()">Fitness</label>
+                            <label class="filter-pill cat-pill" data-tag="arts_culture"><input type="checkbox" value="arts_culture" onchange="updateFilters()">Arts</label>
+                            <label class="filter-pill cat-pill" data-tag="events"><input type="checkbox" value="events" onchange="updateFilters()">Events</label>
+                            <label class="filter-pill cat-pill" data-tag="parks_nature"><input type="checkbox" value="parks_nature" onchange="updateFilters()">Parks</label>
+                            <label class="filter-pill cat-pill" data-tag="food_farms"><input type="checkbox" value="food_farms" onchange="updateFilters()">Food</label>
+                            <label class="filter-pill cat-pill" data-tag="social_activities"><input type="checkbox" value="social_activities" onchange="updateFilters()">Social</label>
+                            <label class="filter-pill cat-pill" data-tag="discount_programs"><input type="checkbox" value="discount_programs" onchange="updateFilters()">Discounts</label>
+                            <label class="filter-pill cat-pill" data-tag="transportation"><input type="checkbox" value="transportation" onchange="updateFilters()">Transit</label>
+                        </div>
                     </div>
-                    <span class="filter-group-label">Vibe</span>
-                    <div class="filter-pills">
-                        <label class="filter-pill goodfor-pill" data-tag="anxiety_friendly"><input type="checkbox" value="anxiety_friendly" onchange="updateFilters()">Low-Pressure</label>
-                        <label class="filter-pill goodfor-pill" data-tag="low_energy"><input type="checkbox" value="low_energy" onchange="updateFilters()">Low-Energy</label>
-                        <label class="filter-pill goodfor-pill" data-tag="creative"><input type="checkbox" value="creative" onchange="updateFilters()">Creative</label>
-                        <label class="filter-pill goodfor-pill" data-tag="active"><input type="checkbox" value="active" onchange="updateFilters()">Active</label>
-                        <label class="filter-pill goodfor-pill" data-tag="outdoor"><input type="checkbox" value="outdoor" onchange="updateFilters()">Outdoor</label>
-                        <label class="filter-pill goodfor-pill" data-tag="indoor"><input type="checkbox" value="indoor" onchange="updateFilters()">Indoor</label>
-                        <label class="filter-pill goodfor-pill" data-tag="family_friendly"><input type="checkbox" value="family_friendly" onchange="updateFilters()">Family</label>
+                    <div class="filter-group" data-group="vibe">
+                        <span class="filter-group-label">Vibe</span>
+                        <div class="filter-pills">
+                            <label class="filter-pill goodfor-pill" data-tag="anxiety_friendly"><input type="checkbox" value="anxiety_friendly" onchange="updateFilters()">Low-Pressure</label>
+                            <label class="filter-pill goodfor-pill" data-tag="low_energy"><input type="checkbox" value="low_energy" onchange="updateFilters()">Low-Energy</label>
+                            <label class="filter-pill goodfor-pill" data-tag="creative"><input type="checkbox" value="creative" onchange="updateFilters()">Creative</label>
+                            <label class="filter-pill goodfor-pill" data-tag="active"><input type="checkbox" value="active" onchange="updateFilters()">Active</label>
+                            <label class="filter-pill goodfor-pill" data-tag="outdoor"><input type="checkbox" value="outdoor" onchange="updateFilters()">Outdoor</label>
+                            <label class="filter-pill goodfor-pill" data-tag="indoor"><input type="checkbox" value="indoor" onchange="updateFilters()">Indoor</label>
+                            <label class="filter-pill goodfor-pill" data-tag="family_friendly"><input type="checkbox" value="family_friendly" onchange="updateFilters()">Family</label>
+                        </div>
                     </div>
-                    <span class="filter-group-label">Social Level</span>
-                    <div class="filter-pills">
-                        <label class="filter-pill social-pill" data-tag="solo"><input type="checkbox" value="solo" onchange="updateFilters()">Solo</label>
-                        <label class="filter-pill social-pill" data-tag="drop_in"><input type="checkbox" value="drop_in" onchange="updateFilters()">Drop-In</label>
-                        <label class="filter-pill social-pill" data-tag="casual_group"><input type="checkbox" value="casual_group" onchange="updateFilters()">Casual Group</label>
-                        <label class="filter-pill social-pill" data-tag="structured_group"><input type="checkbox" value="structured_group" onchange="updateFilters()">Structured</label>
-                        <label class="filter-pill social-pill" data-tag="one_on_one"><input type="checkbox" value="one_on_one" onchange="updateFilters()">1-on-1</label>
+                    <div class="filter-group" data-group="social">
+                        <span class="filter-group-label">Social Level</span>
+                        <div class="filter-pills">
+                            <label class="filter-pill social-pill" data-tag="solo"><input type="checkbox" value="solo" onchange="updateFilters()">Solo</label>
+                            <label class="filter-pill social-pill" data-tag="drop_in"><input type="checkbox" value="drop_in" onchange="updateFilters()">Drop-In</label>
+                            <label class="filter-pill social-pill" data-tag="casual_group"><input type="checkbox" value="casual_group" onchange="updateFilters()">Casual Group</label>
+                            <label class="filter-pill social-pill" data-tag="structured_group"><input type="checkbox" value="structured_group" onchange="updateFilters()">Structured</label>
+                            <label class="filter-pill social-pill" data-tag="one_on_one"><input type="checkbox" value="one_on_one" onchange="updateFilters()">1-on-1</label>
+                        </div>
                     </div>
-                    <span class="filter-group-label">Audience</span>
-                    <div class="filter-pills">
-                        <label class="filter-pill" data-tag="seniors"><input type="checkbox" value="seniors" onchange="updateFilters()">Seniors</label>
-                        <label class="filter-pill" data-tag="young_adults"><input type="checkbox" value="young_adults" onchange="updateFilters()">Young Adults</label>
-                        <label class="filter-pill" data-tag="teens"><input type="checkbox" value="teens" onchange="updateFilters()">Teens</label>
-                        <label class="filter-pill" data-tag="children"><input type="checkbox" value="children" onchange="updateFilters()">Children</label>
-                        <label class="filter-pill" data-tag="lgbtq"><input type="checkbox" value="lgbtq" onchange="updateFilters()">LGBTQ+</label>
-                        <label class="filter-pill" data-tag="trans_nonbinary"><input type="checkbox" value="trans_nonbinary" onchange="updateFilters()">Trans/NB</label>
-                        <label class="filter-pill" data-tag="women"><input type="checkbox" value="women" onchange="updateFilters()">Women</label>
-                        <label class="filter-pill" data-tag="bipoc"><input type="checkbox" value="bipoc" onchange="updateFilters()">BIPOC</label>
-                        <label class="filter-pill" data-tag="spanish_speaking"><input type="checkbox" value="spanish_speaking" onchange="updateFilters()">Spanish</label>
+                    <div class="filter-group" data-group="audience">
+                        <span class="filter-group-label">Audience</span>
+                        <div class="filter-pills">
+                            <label class="filter-pill" data-tag="seniors"><input type="checkbox" value="seniors" onchange="updateFilters()">Seniors</label>
+                            <label class="filter-pill" data-tag="young_adults"><input type="checkbox" value="young_adults" onchange="updateFilters()">Young Adults</label>
+                            <label class="filter-pill" data-tag="teens"><input type="checkbox" value="teens" onchange="updateFilters()">Teens</label>
+                            <label class="filter-pill" data-tag="children"><input type="checkbox" value="children" onchange="updateFilters()">Children</label>
+                            <label class="filter-pill" data-tag="lgbtq"><input type="checkbox" value="lgbtq" onchange="updateFilters()">LGBTQ+</label>
+                            <label class="filter-pill" data-tag="trans_nonbinary"><input type="checkbox" value="trans_nonbinary" onchange="updateFilters()">Trans/NB</label>
+                            <label class="filter-pill" data-tag="women"><input type="checkbox" value="women" onchange="updateFilters()">Women</label>
+                            <label class="filter-pill" data-tag="bipoc"><input type="checkbox" value="bipoc" onchange="updateFilters()">BIPOC</label>
+                            <label class="filter-pill" data-tag="spanish_speaking"><input type="checkbox" value="spanish_speaking" onchange="updateFilters()">Spanish</label>
+                        </div>
                     </div>
                     <button class="filter-clear" id="filter-clear" onclick="clearFilters()" style="display:none;">Clear</button>
                 </div>
@@ -2840,7 +2947,7 @@
                 const evt = dayEvents[i];
                 const timeStr = evt.startTime ? formatTime(evt.startTime) : '';
                 html += `<div class="day-popup-event" data-event-index="${i}">
-                    <div class="day-popup-event-color"></div>
+                    <div class="day-popup-event-color" style="background:${evt.color}"></div>
                     <div class="day-popup-event-details">
                         <div class="day-popup-event-title">${escapeHtml(evt.title)}</div>
                         ${timeStr ? `<div class="day-popup-event-time">${timeStr}</div>` : ''}
@@ -3640,6 +3747,21 @@
             prevBtn.disabled = atMin;
             prevBtn.style.opacity = atMin ? '0.4' : '1';
             prevBtn.style.cursor = atMin ? 'not-allowed' : 'pointer';
+
+            const todayBtn = document.getElementById('today-btn');
+            if (todayBtn) {
+                todayBtn.style.display = isCurrentMonth() ? 'none' : '';
+            }
+        }
+
+        function goToToday() {
+            const now = new Date();
+            currentMonth = new Date(now.getFullYear(), now.getMonth(), 1);
+            updateCalendarDisplay();
+            updateNavButtons();
+            if (currentView === 'list') {
+                scrollToToday();
+            }
         }
 
         document.getElementById('prev-month').addEventListener('click', () => {

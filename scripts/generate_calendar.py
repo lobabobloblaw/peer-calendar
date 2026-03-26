@@ -609,6 +609,8 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
                 program_name = program.get("name", name)
                 full_name = f"{name}: {program_name}" if program_name != name else name
                 schedule = parse_schedule(program.get("schedule", ""))
+                if program.get("schedule") and not schedule.get("day"):
+                    print(f"  WARNING: unparseable schedule for {entry_id} > {program_name}: \"{program.get('schedule')}\"", file=sys.stderr)
                 description, html_desc = generate_event_description(entry, program)
 
                 # Merge program-level schedule bounds into entry for build_recurring_event
@@ -639,6 +641,8 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
     schedule_str = entry.get("schedule")
     if schedule_str and not programs and not dates:
         schedule = parse_schedule(schedule_str)
+        if not schedule.get("day"):
+            print(f"  WARNING: unparseable schedule for {entry_id}: \"{schedule_str}\"", file=sys.stderr)
         description, html_desc = generate_event_description(entry)
 
         vevent = build_recurring_event(

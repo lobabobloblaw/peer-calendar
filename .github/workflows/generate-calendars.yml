@@ -33,8 +33,7 @@ jobs:
 
       - name: Validate schedules
         working-directory: scripts
-        run: |
-          python validate_schedules.py || true
+        run: python validate_schedules.py
 
       - name: Run tests
         working-directory: scripts

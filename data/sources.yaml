@@ -1890,8 +1890,8 @@
     - active
   notes: Permanently closed as of July 2021
   last_verified: 2025-11-25
-  next_audit: null
-  audit_frequency: null
+  next_audit: 2026-11-25
+  audit_frequency: annually
   guide_location: activities-guide-2.md#disc-golf-courses
   flags:
   - ❌ CLOSED
@@ -2401,8 +2401,8 @@
   schedule: May-October (was seasonal)
   duration: 2-hour guided group walks
   last_verified: 2025-12-02
-  next_audit: null
-  audit_frequency: null
+  next_audit: 2026-12-02
+  audit_frequency: annually
   practical_tips:
     first_visit: null
     registration: null
@@ -3928,7 +3928,7 @@
     description: Was always FREE
   last_verified: 2026-01-24
   next_audit: 2026-04-24
-  audit_frequency: null
+  audit_frequency: annually
   practical_tips: "CLOSED as of end of April 2025 due to funding cuts. Collection transferred to Washington County."
   accessibility:
     - wheelchair_accessible
