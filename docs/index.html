@@ -3748,7 +3748,7 @@
                 setTimeout(() => mapInstance.invalidateSize(), 100);
                 return;
             }
-            if (!allEvents || allEvents.length === 0) return;
+            if (!eventsData || !eventsData.events) return;
 
             // Delay creation until the container is visible and has dimensions
             setTimeout(() => {
@@ -3763,13 +3763,13 @@
         }
 
         function renderMapMarkers() {
-            if (!mapInstance) return;
+            if (!mapInstance || !eventsData) return;
 
             // Clear existing markers
             mapMarkers.forEach(m => mapInstance.removeLayer(m));
             mapMarkers = [];
 
-            const events = allEvents.filter(e => e.latitude && e.longitude && matchesAllFilters(e));
+            const events = eventsData.events.filter(e => e.latitude && e.longitude && matchesAllFilters(e));
 
             events.forEach(ev => {
                 const color = ev.color || '#808080';
