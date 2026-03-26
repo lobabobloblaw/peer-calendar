@@ -1,6 +1,6 @@
 {
-  "generated": "2026-03-25T20:10:11.287164",
-  "count": 252,
+  "generated": "2026-03-25T20:47:03.085928",
+  "count": 255,
   "categories": {
     "peer_support": "Peer Support",
     "fitness_wellness": "Fitness & Wellness",
@@ -685,14 +685,16 @@
       "category": "transportation",
       "categoryName": "Transportation",
       "color": "#708090",
-      "address": null,
-      "latitude": null,
-      "longitude": null,
-      "phone": null,
+      "address": "1120 SW 5th Ave, Portland, OR 97204",
+      "latitude": 45.515185,
+      "longitude": -122.679066,
+      "phone": "503-823-4000",
       "website": "https://biketownpdx.com/pricing/biketown-for-all",
       "pricing": {
-        "description": "$5/month for unlimited 60-minute rides",
-        "notes": "Regular membership is $20/month. BIKETOWN for All is 75% off."
+        "description": "FREE membership ($0/month)",
+        "ride_credit": "$10/month ebike credit included",
+        "per_minute": "$0.05/min (deducted from monthly credit first)",
+        "notes": "Previously $5/month, now completely free. Free unlocks (usually $1). Scooters not included."
       },
       "programs": [],
       "dates": null,
@@ -700,7 +702,9 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
-      "accessibility": [],
+      "accessibility": [
+        "transit_nearby"
+      ],
       "social_intensity": "solo",
       "good_for": [
         "active",
@@ -708,10 +712,11 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Discounted bike share membership for low-income Portland residents. $5/month.",
+      "notes": "Free bike share membership for income-qualifying Portland residents. $0/month with $10 ebike credit.",
       "practical_tips": {
-        "first_visit": "Apply at biketownpdx.com with proof of qualifying benefits",
-        "good_to_know": "$5/month for unlimited 60-minute bike rides across Portland. E-bikes available. 75% discount off regular pricing. Great supplement to transit."
+        "first_visit": "Apply online at biketownpdx.com with a credit/debit/prepaid card and proof of qualifying benefits. Or visit the Portland Building (1120 SW 5th Ave, 1st floor) for in-person help from PDX 311 staff.",
+        "registration": "Need active phone number for verification code, eligibility documentation, and a payment method (for overages beyond $10 monthly credit). PDX 311 staff can provide temporary payment method for those without bank access.",
+        "good_to_know": "Completely FREE membership with $10/month ebike ride credit. E-bikes available across Portland. Available in multiple languages (Spanish, Russian, Vietnamese, Chinese, Arabic). Key cards available for riders without smartphones."
       }
     },
     {
@@ -723,7 +728,7 @@
       "address": null,
       "latitude": null,
       "longitude": null,
-      "phone": null,
+      "phone": "503-907-7768",
       "website": "https://catchthespot.org/",
       "pricing": {
         "description": "FREE"
@@ -746,9 +751,9 @@
       "audience_notes": null,
       "notes": "Washington County free on-demand microtransit pilot. Serves SW Beaverton and NW Tigard neighborhoods with no fixed-route transit. Funded through 2027.",
       "practical_tips": {
-        "first_visit": "Download the SPOT app (Google Play/App Store) to request a ride",
-        "registration": "App-based; request rides in real time",
-        "good_to_know": "Free door-to-door shared rides in SW Beaverton and NW Tigard. Connects to Washington Square Transit Center for TriMet bus transfers. Launched January 2026, funded through 2027. Fills a critical transit gap in an underserved area."
+        "first_visit": "Download the SPOT Ride app or call 503-907-7768 to request a same-day ride",
+        "registration": "App-based or phone-based; same-day rides only (on-demand, leave-at, or arrive-by scheduling)",
+        "good_to_know": "Free door-to-door shared rides in SW Beaverton and NW Tigard. Connects to Washington Square Transit Center for TriMet bus transfers. Funded through 2027 via STIF grant. Partnership between Washington County and Ride Connection. Bike racks available. Accessible seating options. Child seats not provided (bring your own). Service animals welcome."
       }
     },
     {
@@ -786,10 +791,170 @@
       "audience_notes": null,
       "notes": null,
       "practical_tips": {
-        "first_visit": "Apply online at trimet.org/income or visit TriMet Ticket Office at Pioneer Courthouse Square",
-        "registration": "Online application takes 5-10 minutes. Auto-qualify if you receive OHP, SNAP, TANF, Section 8, or LIHEAP. Otherwise provide proof of income.",
-        "what_to_bring": "For in-person - proof of public benefits OR income verification, photo ID",
-        "good_to_know": "First month FREE plus a free Hop card when you enroll. Half-price fares ($1.40 vs $2.80) and monthly pass ($28 vs $100). Works on all TriMet buses, MAX, WES, and Portland Streetcar. Auto-renews annually if still on qualifying benefits."
+        "first_visit": "Apply online at trimet.org/income or visit TriMet Customer Support at Pioneer Courthouse Square (701 SW 6th Ave)",
+        "registration": "Online application takes 5-10 minutes. Auto-qualify if you receive OHP, SNAP, TANF, Section 8, LIHEAP, WIC, Free/Reduced Lunch, HUD Housing Choice Voucher, or Employment Related Daycare. Otherwise provide proof of income (paystubs, tax return, or unemployment letter).",
+        "what_to_bring": "For in-person - proof of public benefits OR income verification, photo ID. In-person applicants get personalized photo ID Hop card on the spot.",
+        "good_to_know": "First month FREE plus a free Hop card when you enroll. Half-price fares ($1.40 vs $2.80) and monthly pass ($28 vs $100). Works on all TriMet buses, MAX, WES, and Portland Streetcar. Auto-renews annually if still on qualifying benefits. Multiple enrollment locations including WorkSource centers with multilingual support (English, Russian, Spanish, Vietnamese)."
+      }
+    },
+    {
+      "id": "trimet-lift",
+      "title": "TriMet LIFT Paratransit",
+      "category": "transportation",
+      "categoryName": "Transportation",
+      "color": "#708090",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "phone": "503-962-8000",
+      "website": "https://trimet.org/lift/",
+      "pricing": {
+        "fare": "$2.80 per ride",
+        "monthly_cap": "Ride free after spending $74 in a calendar month",
+        "transfer": "Free transfer to bus/MAX/streetcar within 2.5 hours",
+        "notes": "Personal Care Attendants ride free. Children 6 and under ride free with fare-paying adult."
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [
+        "wheelchair_accessible"
+      ],
+      "social_intensity": "solo",
+      "good_for": [
+        "anxiety_friendly",
+        "low_energy"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Door-to-door shared-ride paratransit for people with disabilities who cannot use regular transit. $2.80/ride with monthly cap.",
+      "practical_tips": {
+        "first_visit": "Call 503-962-8000 option 2 to start the eligibility process",
+        "registration": "Must apply and be determined eligible based on disability. Once approved, receive a personalized LIFT Hop card.",
+        "good_to_know": "Shared-ride door-to-door service. Book rides up to 3 days in advance or by 5pm the day before. Can book online via CARES system or by phone. 30-minute pick-up windows. LIFT Hop card also works on regular TriMet buses and MAX at the reduced Honored Citizen fare ($1.40). Also offers LIFT+, a flexible alternative."
+      }
+    },
+    {
+      "id": "trimet-honored-citizen",
+      "title": "TriMet Honored Citizen Fare (Seniors, Disability, Veterans)",
+      "category": "transportation",
+      "categoryName": "Transportation",
+      "color": "#708090",
+      "address": "701 SW 6th Ave, Portland, OR",
+      "latitude": 45.518941,
+      "longitude": -122.679529,
+      "phone": "503-238-7433",
+      "website": "https://trimet.org/fares/reduced.htm",
+      "pricing": {
+        "discounted_fare": "$1.40 (2.5 hours)",
+        "day_pass": "$2.80",
+        "monthly_pass": "$28 (vs $100 regular, 72% discount)"
+      },
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [
+        "wheelchair_accessible"
+      ],
+      "social_intensity": "solo",
+      "good_for": [
+        "anxiety_friendly",
+        "low_energy"
+      ],
+      "audience": [
+        "seniors"
+      ],
+      "audience_notes": null,
+      "notes": "Reduced fare program for seniors 65+, people with disabilities, and veterans. 72% discount on all TriMet services.",
+      "practical_tips": {
+        "first_visit": "Seniors 65+ can use reduced fare immediately with photo ID showing age. People with disabilities and veterans must apply for a personalized Hop card first.",
+        "what_to_bring": "Photo ID (driver's license, passport, tribal ID, military ID). Accepted IDs: any state/country driver's license, passport, armed services ID, tribal ID, US citizenship certificate.",
+        "good_to_know": "72% discount on transit. Seniors 65+ don't need to apply \u2014 just show ID when boarding. Monthly pass unlocked automatically at $28 spend. Works on all TriMet buses, MAX, WES, Portland Streetcar, and C-TRAN."
+      }
+    },
+    {
+      "id": "community-cycling-center",
+      "title": "Community Cycling Center",
+      "category": "transportation",
+      "categoryName": "Transportation",
+      "color": "#708090",
+      "address": "1700 NE Alberta St, Portland, OR 97211",
+      "latitude": 45.559068,
+      "longitude": -122.645968,
+      "phone": "503-287-8786",
+      "website": "https://communitycyclingcenter.org/",
+      "pricing": {
+        "description": "Affordable used bikes, parts, and repair services. DIY workspace membership available.",
+        "notes": "Revenue supports free community bike programs across Portland."
+      },
+      "programs": [
+        {
+          "name": "Bike Clubs & Camps",
+          "description": "Youth bike programs across Portland",
+          "audience": [
+            "bipoc",
+            "lgbtq",
+            "women"
+          ]
+        },
+        {
+          "name": "The Repair Hub",
+          "description": "Community bike repair resources",
+          "audience": [
+            "bipoc",
+            "lgbtq",
+            "women"
+          ]
+        },
+        {
+          "name": "Earn a Bike",
+          "description": "Program where participants earn a bicycle",
+          "audience": [
+            "bipoc",
+            "lgbtq",
+            "women"
+          ]
+        },
+        {
+          "name": "Holiday Bike Drive",
+          "description": "Annual bike donation event",
+          "audience": [
+            "bipoc",
+            "lgbtq",
+            "women"
+          ]
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [],
+      "accessibility": [
+        "transit_nearby"
+      ],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "active",
+        "outdoor",
+        "new_to_area"
+      ],
+      "audience": [
+        "bipoc",
+        "lgbtq",
+        "women"
+      ],
+      "audience_notes": null,
+      "notes": "Nonprofit bike shop on Alberta St. Affordable bikes, repairs, DIY workspace, and classes. Revenue supports free community bike programs.",
+      "practical_tips": {
+        "first_visit": "Walk in during shop hours. No appointment needed for browsing bikes or buying parts. Repairs may have a wait depending on season.",
+        "good_to_know": "Welcoming, inclusive space with diverse staff. DIY Workspace lets you work on your own bike with professional tools. Great selection of affordable used bikes. They also accept bike donations. Explicitly welcoming to people of color, women, LGBTQIA+, neurodivergent, and gender non-conforming folks."
       }
     },
     {
@@ -2124,7 +2289,7 @@
       "address": "N Bruce Ave & N James St (near N Lombard), Portland, OR 97203",
       "latitude": null,
       "longitude": null,
-      "phone": null,
+      "phone": "503-823-7529",
       "website": "https://www.pdga.com/course-directory/course/pier-park",
       "pricing": {
         "description": "FREE"
@@ -3452,7 +3617,7 @@
       "address": null,
       "latitude": null,
       "longitude": null,
-      "phone": null,
+      "phone": "503-431-5455",
       "website": "https://www.ttadpools.com",
       "pricing": {
         "drop_in": "$5-$6 in-district, $6-$7 out-of-district (students/seniors/military lower tier)",
@@ -3595,7 +3760,7 @@
       "address": null,
       "latitude": null,
       "longitude": null,
-      "phone": null,
+      "phone": "503-284-0345",
       "website": "https://foottraffic.us/train/group-run/",
       "pricing": {
         "description": "FREE"
@@ -3828,7 +3993,7 @@
       "address": null,
       "latitude": null,
       "longitude": null,
-      "phone": null,
+      "phone": "503-645-6433",
       "website": "https://www.thprd.org/fitness-in-the-park",
       "pricing": {
         "description": "FREE"
@@ -4074,7 +4239,7 @@
       "address": "Keen Garage, 505 NW 13th Ave, Portland, OR",
       "latitude": 45.526673,
       "longitude": -122.684467,
-      "phone": null,
+      "phone": "503-227-2345",
       "website": "https://mazamas.org/streetrambles/",
       "pricing": {
         "description": "FREE, no registration required"

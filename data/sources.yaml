@@ -650,35 +650,47 @@
   category: transportation
   location_type: varies
   resource_type: service
-  address: null
-  phone: null
+  address: 1120 SW 5th Ave, Portland, OR 97204
+  phone: 503-823-4000
+  email: biketownforall@lyft.com
   website: https://biketownpdx.com/pricing/biketown-for-all
   source_urls:
   - https://biketownpdx.com/pricing/biketown-for-all
   pricing:
-    description: $5/month for unlimited 60-minute rides
-    notes: Regular membership is $20/month. BIKETOWN for All is 75% off.
-  eligibility: Portland-area residents enrolled in SNAP, OHP, TANF, Section 8, LIHEAP, WIC, or with income ≤200% FPL
-  last_verified: 2026-03-24
-  next_audit: 2027-03-24
-  audit_frequency: annually
+    description: FREE membership ($0/month)
+    ride_credit: $10/month ebike credit included
+    per_minute: $0.05/min (deducted from monthly credit first)
+    notes: Previously $5/month, now completely free. Free unlocks (usually $1). Scooters not included.
+  eligibility: Portland-area residents 16+ receiving SNAP, OHP, TANF, affordable housing assistance, LIHEAP, unemployment
+    insurance, Pell Grant, or TriMet Honored Citizens with qualifying incomes
+  hours: 'In-person help at Portland Building: Mon-Fri 8am-5pm. Lyft office (Central Eastside): Mon-Thu 9am-4pm'
+  last_verified: 2026-03-25
+  next_audit: 2026-09-25
+  audit_frequency: quarterly
   practical_tips:
-    first_visit: Apply at biketownpdx.com with proof of qualifying benefits
-    good_to_know: $5/month for unlimited 60-minute bike rides across Portland. E-bikes available. 75% discount off regular
-      pricing. Great supplement to transit.
+    first_visit: Apply online at biketownpdx.com with a credit/debit/prepaid card and proof of qualifying benefits. Or visit
+      the Portland Building (1120 SW 5th Ave, 1st floor) for in-person help from PDX 311 staff.
+    registration: Need active phone number for verification code, eligibility documentation, and a payment method (for overages
+      beyond $10 monthly credit). PDX 311 staff can provide temporary payment method for those without bank access.
+    good_to_know: Completely FREE membership with $10/month ebike ride credit. E-bikes available across Portland. Available
+      in multiple languages (Spanish, Russian, Vietnamese, Chinese, Arabic). Key cards available for riders without smartphones.
+  accessibility:
+  - transit_nearby
   social_intensity: solo
   good_for:
   - active
   - outdoor
   guide_location: activities-guide-1.md#essential-access-programs
-  notes: Discounted bike share membership for low-income Portland residents. $5/month.
+  latitude: 45.515185
+  longitude: -122.679066
+  notes: Free bike share membership for income-qualifying Portland residents. $0/month with $10 ebike credit.
 - id: spot-southwest
   name: SPOT Southwest (Free On-Demand Transit)
   category: transportation
   location_type: physical
   resource_type: service
   address: null
-  phone: null
+  phone: 503-907-7768
   website: https://catchthespot.org/
   source_urls:
   - https://catchthespot.org/
@@ -686,6 +698,7 @@
   pricing:
     description: FREE
   schedule: Mon-Fri 6:30am-9:30pm
+  hours: 'Phone booking: Mon-Fri 7:30am-5pm. App booking: anytime during service hours'
   service_area:
   - South Cooper Mountain (Beaverton)
   - Murrayhill (Beaverton)
@@ -694,15 +707,15 @@
   - River Terrace (Tigard)
   connections: Washington Square Transit Center (TriMet bus connections)
   funding_through: 2027 school year
-  last_verified: 2026-03-24
-  next_audit: 2026-06-24
+  last_verified: 2026-03-25
+  next_audit: 2026-06-25
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Download the SPOT app (Google Play/App Store) to request a ride
-    registration: App-based; request rides in real time
+    first_visit: Download the SPOT Ride app or call 503-907-7768 to request a same-day ride
+    registration: App-based or phone-based; same-day rides only (on-demand, leave-at, or arrive-by scheduling)
     good_to_know: Free door-to-door shared rides in SW Beaverton and NW Tigard. Connects to Washington Square Transit Center
-      for TriMet bus transfers. Launched January 2026, funded through 2027. Fills a critical transit gap in an underserved
-      area.
+      for TriMet bus transfers. Funded through 2027 via STIF grant. Partnership between Washington County and Ride Connection.
+      Bike racks available. Accessible seating options. Child seats not provided (bring your own). Service animals welcome.
   accessibility:
   - wheelchair_accessible
   social_intensity: solo
@@ -729,17 +742,22 @@
     monthly_pass: $28 (vs $100 regular)
     notes: Free first month + free Hop card upon enrollment
   eligibility: Oregon residents 18-64 at/below 200% FPL, OR receiving OHP, SNAP, TANF, Free/Reduced Lunch, Section 8, LIHEAP
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  hours: 'TriMet Customer Support (Pioneer Courthouse Square): Mon-Fri 8:30am-5:30pm. Also available at WorkSource locations
+    and partner enrollment sites across the metro area.'
+  last_verified: 2026-03-25
+  next_audit: 2026-06-25
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Apply online at trimet.org/income or visit TriMet Ticket Office at Pioneer Courthouse Square
-    registration: Online application takes 5-10 minutes. Auto-qualify if you receive OHP, SNAP, TANF, Section 8, or LIHEAP.
-      Otherwise provide proof of income.
-    what_to_bring: For in-person - proof of public benefits OR income verification, photo ID
+    first_visit: Apply online at trimet.org/income or visit TriMet Customer Support at Pioneer Courthouse Square (701 SW 6th Ave)
+    registration: Online application takes 5-10 minutes. Auto-qualify if you receive OHP, SNAP, TANF, Section 8, LIHEAP, WIC,
+      Free/Reduced Lunch, HUD Housing Choice Voucher, or Employment Related Daycare. Otherwise provide proof of income (paystubs,
+      tax return, or unemployment letter).
+    what_to_bring: For in-person - proof of public benefits OR income verification, photo ID. In-person applicants get personalized
+      photo ID Hop card on the spot.
     good_to_know: First month FREE plus a free Hop card when you enroll. Half-price fares ($1.40 vs $2.80) and monthly pass
       ($28 vs $100). Works on all TriMet buses, MAX, WES, and Portland Streetcar. Auto-renews annually if still on qualifying
-      benefits.
+      benefits. Multiple enrollment locations including WorkSource centers with multilingual support (English, Russian, Spanish,
+      Vietnamese).
   accessibility:
   - wheelchair_accessible
   accessibility_notes: TriMet system is fully ADA accessible. All buses have ramps/lifts, MAX stations have elevators. Reduced
@@ -751,6 +769,137 @@
   guide_location: activities-guide-1.md#essential-access-programs
   latitude: 45.518941
   longitude: -122.679529
+- id: trimet-lift
+  name: TriMet LIFT Paratransit
+  category: transportation
+  location_type: varies
+  resource_type: service
+  address: null
+  phone: 503-962-8000
+  website: https://trimet.org/lift/
+  source_urls:
+  - https://trimet.org/lift/
+  - https://trimet.org/lift/about.htm
+  - https://trimet.org/lift/fares.htm
+  pricing:
+    fare: $2.80 per ride
+    monthly_cap: Ride free after spending $74 in a calendar month
+    transfer: Free transfer to bus/MAX/streetcar within 2.5 hours
+    notes: Personal Care Attendants ride free. Children 6 and under ride free with fare-paying adult.
+  eligibility: People unable to use regular TriMet buses and trains due to a disability or disabling health condition. Must
+    apply and be determined eligible.
+  hours: 'Generally 3:30am-2:30am, 7 days a week (varies by area based on local bus/MAX service hours)'
+  service_area: Within 3/4 mile of any TriMet bus line or MAX station in the TriMet service district
+  last_verified: 2026-03-25
+  next_audit: 2026-06-25
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Call 503-962-8000 option 2 to start the eligibility process
+    registration: Must apply and be determined eligible based on disability. Once approved, receive a personalized LIFT Hop card.
+    good_to_know: Shared-ride door-to-door service. Book rides up to 3 days in advance or by 5pm the day before. Can book
+      online via CARES system or by phone. 30-minute pick-up windows. LIFT Hop card also works on regular TriMet buses and
+      MAX at the reduced Honored Citizen fare ($1.40). Also offers LIFT+, a flexible alternative.
+  accessibility:
+  - wheelchair_accessible
+  social_intensity: solo
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  guide_location: activities-guide-1.md#essential-access-programs
+  notes: Door-to-door shared-ride paratransit for people with disabilities who cannot use regular transit. $2.80/ride with
+    monthly cap.
+- id: trimet-honored-citizen
+  name: TriMet Honored Citizen Fare (Seniors, Disability, Veterans)
+  category: transportation
+  location_type: varies
+  resource_type: service
+  address: 701 SW 6th Ave, Portland, OR
+  phone: 503-238-7433
+  website: https://trimet.org/fares/reduced.htm
+  source_urls:
+  - https://trimet.org/fares/reduced.htm
+  - https://trimet.org/reducedfare/
+  pricing:
+    discounted_fare: $1.40 (2.5 hours)
+    day_pass: $2.80
+    monthly_pass: $28 (vs $100 regular, 72% discount)
+  eligibility: 'Seniors 65+ or Medicare (no application needed, just photo ID); people with disabilities (must apply for Hop
+    card); veterans and active-duty military (must apply for Hop card)'
+  hours: 'TriMet Customer Support (Pioneer Courthouse Square): Mon-Fri 8:30am-5:30pm'
+  last_verified: 2026-03-25
+  next_audit: 2026-06-25
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Seniors 65+ can use reduced fare immediately with photo ID showing age. People with disabilities and veterans
+      must apply for a personalized Hop card first.
+    what_to_bring: 'Photo ID (driver''s license, passport, tribal ID, military ID). Accepted IDs: any state/country driver''s
+      license, passport, armed services ID, tribal ID, US citizenship certificate.'
+    good_to_know: 72% discount on transit. Seniors 65+ don't need to apply — just show ID when boarding. Monthly pass unlocked
+      automatically at $28 spend. Works on all TriMet buses, MAX, WES, Portland Streetcar, and C-TRAN.
+  accessibility:
+  - wheelchair_accessible
+  social_intensity: solo
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  guide_location: activities-guide-1.md#essential-access-programs
+  audience:
+  - seniors
+  latitude: 45.518941
+  longitude: -122.679529
+  notes: Reduced fare program for seniors 65+, people with disabilities, and veterans. 72% discount on all TriMet services.
+- id: community-cycling-center
+  name: Community Cycling Center
+  category: transportation
+  location_type: physical
+  resource_type: organization
+  address: 1700 NE Alberta St, Portland, OR 97211
+  phone: 503-287-8786
+  website: https://communitycyclingcenter.org/
+  source_urls:
+  - https://communitycyclingcenter.org/
+  - https://communitycyclingcenter.org/bike-shop/
+  pricing:
+    description: Affordable used bikes, parts, and repair services. DIY workspace membership available.
+    notes: Revenue supports free community bike programs across Portland.
+  hours: 'Wed-Sat 11am-6pm, Sun 12pm-5pm'
+  last_verified: 2026-03-25
+  next_audit: 2026-09-25
+  audit_frequency: quarterly
+  services:
+  - Affordable refurbished bikes for sale
+  - Full-service bike repairs
+  - DIY Workspace (bring your own project, tools provided)
+  - Beginner and advanced mechanic classes
+  - Used parts and accessories
+  - Bike donation drop-off
+  programs:
+  - name: Bike Clubs & Camps
+    description: Youth bike programs across Portland
+  - name: The Repair Hub
+    description: Community bike repair resources
+  - name: Earn a Bike
+    description: Program where participants earn a bicycle
+  - name: Holiday Bike Drive
+    description: Annual bike donation event
+  practical_tips:
+    first_visit: Walk in during shop hours. No appointment needed for browsing bikes or buying parts. Repairs may have a wait
+      depending on season.
+    good_to_know: Welcoming, inclusive space with diverse staff. DIY Workspace lets you work on your own bike with professional
+      tools. Great selection of affordable used bikes. They also accept bike donations. Explicitly welcoming to people of color,
+      women, LGBTQIA+, neurodivergent, and gender non-conforming folks.
+  accessibility:
+  - transit_nearby
+  social_intensity: drop_in
+  good_for:
+  - active
+  - outdoor
+  - new_to_area
+  guide_location: activities-guide-1.md#essential-access-programs
+  latitude: 45.559068
+  longitude: -122.645968
+  notes: Nonprofit bike shop on Alberta St. Affordable bikes, repairs, DIY workspace, and classes. Revenue supports free community
+    bike programs.
 ---
 ---
 - id: nami-multnomah
@@ -1370,6 +1519,7 @@
   address: 4115 N Mississippi Ave, Portland, OR 97217
   phone: 503-234-7837
   website: https://www.pdxqcenter.org/
+  hours: 'Wed-Fri 10am-5pm, Sat 12pm-8pm, Sun-Tue closed. Hand Up Pantry: Mon-Tue 12pm-4pm.'
   source_urls:
   - https://www.pdxqcenter.org/
   pricing:
@@ -1424,6 +1574,7 @@
   address: 1220 SW Columbia St, Suite 130, Portland, OR 97201
   phone: 503-872-9664
   website: https://newavenues.org/smyrc/
+  hours: 'See calendar for open hours (varies). Contact: smyrcinfo@newavenues.org or 503-872-9664'
   source_urls:
   - https://newavenues.org/smyrc/
   pricing:
@@ -1538,6 +1689,7 @@
   phone: 503-223-8569
   email: office@pdxaa.org
   website: https://www.pdxaa.org/
+  hours: 'Mon-Fri 9am-5pm'
   source_urls:
   - https://www.pdxaa.org/
   pricing:
@@ -1588,6 +1740,7 @@
   address: 3909 SE 52nd Ave, Portland, OR 97206
   phone: 503-775-5683
   website: https://www.dougy.org/
+  hours: 'Mon-Fri 9am-5pm'
   source_urls:
   - https://www.dougy.org/
   - https://www.dougy.org/grief-support-resources/portland-area-support-groups-resources
@@ -1670,6 +1823,7 @@
   address: 324 NE 9th St., Gresham, OR 97030
   phone: 971-703-4623
   website: https://4drecovery.org/
+  hours: 'Mon-Fri 9am-5pm'
   source_urls:
   - https://4drecovery.org/
   - https://4drecovery.org/locations/
@@ -1868,7 +2022,7 @@
   location_type: physical
   resource_type: place
   address: N Bruce Ave & N James St (near N Lombard), Portland, OR 97203
-  phone: null
+  phone: 503-823-7529
   website: https://www.pdga.com/course-directory/course/pier-park
   source_urls:
   - https://portland.gov/parks/pier-park
@@ -2077,6 +2231,7 @@
   address: 8500 NE Siskiyou St, Portland, OR 97220-5287
   phone: 503-239-4846
   website: https://dharma-rain.org/
+  hours: 'Tue 11:30am-9pm, Wed-Thu 5:30am-9pm, Fri-Sat 5:30am-6pm, Sun 8:30am-12pm, Mon closed'
   source_urls:
   - https://dharma-rain.org/
   pricing:
@@ -2124,6 +2279,7 @@
   phone: 360-773-3770
   email: portland@diamondway.org
   website: https://diamondway.org/portland/
+  hours: 'Meditation Mon & Thu 7pm; contact 503-484-7187 for full schedule'
   source_urls:
   - https://diamondway.org/portland/
   - https://diamondway.org/portland/meditation
@@ -2444,6 +2600,7 @@
   resource_type: program
   address: 2201 Lloyd Center, Portland, OR 97232
   phone: null
+  email: foodcourt5000@gmail.com
   website: https://foodcourt5k.com/
   source_urls:
   - https://foodcourt5k.com/
@@ -2973,7 +3130,7 @@
   category: fitness_wellness
   location_type: physical
   resource_type: organization
-  phone: null
+  phone: 503-431-5455
   website: https://www.ttadpools.com
   source_urls:
   - https://www.ttadpools.com
@@ -3118,6 +3275,7 @@
   category: fitness_wellness
   location_type: physical
   resource_type: program
+  phone: 503-284-0345
   website: https://foottraffic.us/train/group-run/
   source_urls:
   - https://foottraffic.us/train/group-run/
@@ -3307,7 +3465,7 @@
   category: fitness_wellness
   location_type: physical
   resource_type: program
-  phone: null
+  phone: 503-645-6433
   website: https://www.thprd.org/fitness-in-the-park
   source_urls:
   - https://www.thprd.org/fitness-in-the-park
@@ -3407,6 +3565,7 @@
   resource_type: program
   address: Inner Portland parks (various locations)
   phone: null
+  email: birdhers@gmail.com
   website: https://birdhers.com/
   source_urls:
   - https://birdhers.com/
@@ -3430,10 +3589,11 @@
 - id: tergar-meditation-portland
   name: Tergar Meditation Community of Portland
   category: fitness_wellness
-  location_type: physical
+  location_type: hybrid
   resource_type: program
   address: SomaSpace, 4050 NE Broadway, Portland, OR 97232
   phone: null
+  email: portland@tergar.org
   website: https://tergar.org/portland/
   source_urls:
   - https://tergar.org/portland/
@@ -3535,7 +3695,7 @@
   location_type: physical
   resource_type: program
   address: Keen Garage, 505 NW 13th Ave, Portland, OR
-  phone: null
+  phone: 503-227-2345
   website: https://mazamas.org/streetrambles/
   source_urls:
   - https://mazamas.org/streetrambles/
@@ -3652,6 +3812,7 @@
   address: 7818 SE Stark St, Portland, OR 97215
   phone: 503-252-0500
   website: https://www.academytheaterpdx.com/
+  hours: 'Showtimes vary; typically first showing around 3pm. Check academytheaterpdx.com for current schedule.'
   source_urls:
   - https://www.academytheaterpdx.com/
   pricing:
@@ -3731,6 +3892,7 @@
   address: 2735 E Burnside St, Portland, OR 97214
   phone: 503-238-4088
   website: https://www.laurelhursttheater.com/
+  hours: 'Showtimes vary daily; typically 12pm-10pm. All shows 21+ with ID, minors with parent before 8pm. Check laurelhursttheater.com.'
   source_urls:
   - https://www.laurelhursttheater.com/
   pricing:
@@ -3806,6 +3968,7 @@
   address: 4122 NE Sandy Blvd, Portland, OR 97212
   phone: 503-281-4215
   website: https://hollywoodtheatre.org/
+  hours: 'Tue-Sat 6pm-10pm. Check hollywoodtheatre.org for full schedule.'
   source_urls:
   - https://en.wikipedia.org/wiki/Hollywood_Theatre_(Portland,_Oregon)
   - https://hollywoodtheatre.org/
@@ -3891,6 +4054,7 @@
   address: 345 SE Taylor St, Portland, OR 97214
   phone: 503-238-4000
   website: https://ggportland.com
+  hours: 'Mon-Sat 10am-10pm, Sun 11am-7pm'
   source_urls:
   - https://ggportland.com
   pricing:
@@ -3977,6 +4141,7 @@
   phone: 503-234-1541
   email: info@irco.org
   website: https://irco.org/
+  hours: 'Mon-Fri 8:30am-5pm'
   source_urls:
   - https://irco.org/
   - https://irco.org/what-we-do/
@@ -4241,6 +4406,7 @@
   address: 362 Warner Milne Rd, Oregon City, OR 97045
   phone: 503-657-8269
   website: https://www.orcity.org/library
+  hours: 'Mon-Fri 10am-6:30pm, Sat 10am-6pm, Sun 10am-5pm'
   source_urls:
   - https://www.orcity.org/library
   - https://orcity-library.libcal.com/
@@ -4404,6 +4570,7 @@
   address: 1422 SW 11th Ave, Portland, OR 97201
   phone: 503-222-2031
   website: https://www.tocportland.org/
+  hours: 'Tue-Fri 11am-3pm, plus scheduled events'
   source_urls:
   - https://www.tocportland.org/
   pricing:
@@ -4437,6 +4604,7 @@
   address: 2007 SE Powell Blvd, Portland, OR 97202
   phone: 503-232-8845
   website: https://artichokemusic.org/
+  hours: 'Wed-Sat 12pm-5pm (store hours); event hours vary'
   source_urls:
   - https://artichokemusic.org/
   pricing:
@@ -4502,6 +4670,7 @@
   address: 900 SE 35th Ave, Portland, OR 97214
   phone: 503-823-3741
   website: https://www.portland.gov/fire/belmont-firehouse-museum
+  hours: 'Wed 9am-3pm'
   source_urls:
   - https://www.portland.gov/fire/belmont-firehouse-museum
   pricing:
@@ -4536,6 +4705,7 @@
   address: 8 NE Killingsworth St, Portland, OR 97211
   phone: 503-284-6019
   website: https://turnturnturnpdx.com/
+  hours: 'Wed-Fri 4pm-11pm, Sat 4pm-11pm, Sun 12:30pm-11pm, Mon 7pm-11pm, Tue closed'
   source_urls:
   - https://turnturnturnpdx.com/
   pricing:
@@ -5050,6 +5220,7 @@
   address: 12000 SW 49th Ave, Portland, OR 97219
   phone: 971-722-4848
   website: https://www.pcc.edu/theatre/
+  hours: 'Performance schedule varies by season; check pcc.edu for showtimes'
   source_urls:
   - https://www.pcc.edu/theatre/
   - https://www.pcc.edu/facility-rental/performing-arts-center/
@@ -6917,6 +7088,7 @@
   address: SE 7th & Sellwood, Portland
   phone: null
   website: null
+  hours: 'Daily 5am-midnight (Portland Parks standard)'
   source_urls:
   - https://portland.gov/parks/oaks-bottom-wildlife-refuge
   pricing:
@@ -6985,6 +7157,7 @@
   address: 3010 SE Oxbow Parkway, Gresham, OR 97080
   phone: null
   website: null
+  hours: 'Seasonal gate hours: May-Sep 6:30am-8pm, Oct 6:30am-6pm, Nov-Mar 6:30am-5pm, Mar-Apr 6:30am-7pm. Park office: daily 9am-4:30pm (closed noon-1pm, Wed noon-2pm). Entry fee $5/vehicle.'
   source_urls:
   - https://oregonmetro.gov/parks/oxbow-regional-park
   pricing:
@@ -7192,6 +7365,7 @@
   address: 21199 NE Blue Lake Rd, Fairview, OR 97024
   phone: null
   website: https://www.oregonmetro.gov/places/blue-lake-regional-park-disc-golf-course
+  hours: 'Park hours vary seasonally, typically 7am-sunset. Check oregonmetro.gov for current hours.'
   source_urls:
   - https://www.oregonmetro.gov/places/blue-lake-regional-park-disc-golf-course
   pricing:
@@ -7275,6 +7449,7 @@
   address: Wilsonville, OR
   phone: null
   website: https://www.oregonmetro.gov/parks/graham-oaks-nature-park
+  hours: 'Daily sunrise to sunset'
   source_urls:
   - https://www.oregonmetro.gov/parks/graham-oaks-nature-park
   pricing:
@@ -7304,6 +7479,7 @@
   address: Happy Valley, OR
   phone: null
   website: https://www.oregonmetro.gov/places/scouters-mountain-nature-park
+  hours: 'Daily sunrise to sunset'
   source_urls:
   - https://www.oregonmetro.gov/places/scouters-mountain-nature-park
   pricing:
@@ -7334,6 +7510,7 @@
   address: 10945 SE Mather Rd, Clackamas, OR 97015
   phone: null
   website: https://www.oregonmetro.gov/places/mount-talbert-nature-park
+  hours: 'Daily sunrise to sunset'
   source_urls:
   - https://www.oregonmetro.gov/places/mount-talbert-nature-park
   pricing:
@@ -7581,6 +7758,7 @@
   address: 8959 SW Barbur Blvd, Portland, OR
   phone: 503-246-1663
   website: https://nhpdx.org/
+  hours: 'Mon-Fri 10am-5pm (Capitol Hwy location). Food pantry hours vary by location.'
   source_urls:
   - https://nhpdx.org/
   - https://nhpdx.org/food-security/
@@ -8439,6 +8617,7 @@
   address: 133 SW 2nd Ave, Suite 304, Portland
   phone: 503-796-9224
   website: https://writearound.org
+  hours: 'Mon-Sat 9am-5pm'
   source_urls:
   - https://writearound.org
   pricing:
@@ -8578,6 +8757,7 @@
   address: 7688 SW Capitol Highway, Portland, OR 97219
   phone: 503-823-2787
   website: null
+  hours: 'Mon-Thu 9am-9:30pm, Fri-Sat 9am-5pm, Sun closed'
   source_urls:
   - https://portland.gov/parks/multnomah-arts-center
   pricing:
@@ -9619,6 +9799,7 @@
   address: 100 SE Cleveland Ave, Gresham, OR 97030
   phone: 503-465-2749
   website: https://www.bridgestochange.com
+  hours: 'Mon-Fri 9am-9pm, Sat 12pm-8pm'
   source_urls:
   - https://www.bridgestochange.com
   pricing:
@@ -9669,6 +9850,7 @@
   phone: 503-288-8303
   email: staff@communityfpa.org
   website: https://www.communityfpa.org
+  hours: 'Mon-Fri 8:30am-4:30pm'
   source_urls:
   - https://www.communityfpa.org/support-groups
   pricing:
@@ -10153,6 +10335,7 @@
   address: 4515 NE Martin Luther King Jr Blvd, Portland, OR 97211
   phone: 503-298-5636
   website: https://prismmoves.org
+  hours: 'Open gym 5am-11pm; class schedule varies (6am-7pm most days)'
   source_urls:
   - https://prismmoves.org
   pricing:
