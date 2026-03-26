@@ -195,6 +195,10 @@ def parse_schedule(schedule_str: str) -> dict:
         result["daily"] = True
         result["day"] = "MO,TU,WE,TH,FR,SA,SU"
 
+    if "weekdays" in schedule_lower and not result.get("day"):
+        result["day"] = "MO,TU,WE,TH,FR"
+        result["weekly"] = True
+
     time_pattern = r"(\d{1,2})(?::(\d{2}))?\s*(am|pm)?\s*-\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm)?"
     time_match = re.search(time_pattern, schedule_normalized)
     if time_match:
@@ -547,6 +551,8 @@ def build_recurring_event(
     )
 
 
+_warned_schedules = set()
+
 def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
     """Convert a source entry to one or more VEVENT strings."""
     events = []
@@ -609,7 +615,9 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
                 program_name = program.get("name", name)
                 full_name = f"{name}: {program_name}" if program_name != name else name
                 schedule = parse_schedule(program.get("schedule", ""))
-                if program.get("schedule") and not schedule.get("day"):
+                warn_key = f"{entry_id}>{program_name}"
+                if program.get("schedule") and not schedule.get("day") and warn_key not in _warned_schedules:
+                    _warned_schedules.add(warn_key)
                     print(f"  WARNING: unparseable schedule for {entry_id} > {program_name}: \"{program.get('schedule')}\"", file=sys.stderr)
                 description, html_desc = generate_event_description(entry, program)
 
@@ -641,7 +649,8 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
     schedule_str = entry.get("schedule")
     if schedule_str and not programs and not dates:
         schedule = parse_schedule(schedule_str)
-        if not schedule.get("day"):
+        if not schedule.get("day") and entry_id not in _warned_schedules:
+            _warned_schedules.add(entry_id)
             print(f"  WARNING: unparseable schedule for {entry_id}: \"{schedule_str}\"", file=sys.stderr)
         description, html_desc = generate_event_description(entry)
 

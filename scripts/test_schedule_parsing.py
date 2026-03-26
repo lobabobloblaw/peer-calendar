@@ -156,6 +156,13 @@ class TestParseSchedule(unittest.TestCase):
         self.assertEqual(result["start_time"], "00:00")
         self.assertEqual(result["end_time"], "02:00")
 
+    def test_weekdays(self):
+        """'Weekdays' should expand to Monday-Friday."""
+        result = parse_schedule("Weekdays noon-12:30pm")
+        self.assertEqual(result["day"], "MO,TU,WE,TH,FR")
+        self.assertEqual(result["start_time"], "12:00")
+        self.assertEqual(result["end_time"], "12:30")
+
 
 class TestDetectAudience(unittest.TestCase):
     """Test the audience detection pattern matching."""
