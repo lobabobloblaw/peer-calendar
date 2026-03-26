@@ -3744,19 +3744,22 @@
 
         function initMap() {
             if (mapInstance) {
-                mapInstance.invalidateSize();
+                // Container was hidden; recalculate size after it becomes visible
+                setTimeout(() => mapInstance.invalidateSize(), 100);
                 return;
             }
             if (!allEvents || allEvents.length === 0) return;
 
-            // Portland center
-            mapInstance = L.map('map-container').setView([45.52, -122.68], 11);
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>',
-                maxZoom: 18,
-            }).addTo(mapInstance);
+            // Delay creation until the container is visible and has dimensions
+            setTimeout(() => {
+                mapInstance = L.map('map-container').setView([45.52, -122.68], 11);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>',
+                    maxZoom: 18,
+                }).addTo(mapInstance);
 
-            renderMapMarkers();
+                renderMapMarkers();
+            }, 50);
         }
 
         function renderMapMarkers() {
