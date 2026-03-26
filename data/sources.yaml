@@ -7331,7 +7331,7 @@
   category: parks_nature
   location_type: physical
   resource_type: place
-  address: Clackamas, OR
+  address: 10945 SE Mather Rd, Clackamas, OR 97015
   phone: null
   website: https://www.oregonmetro.gov/places/mount-talbert-nature-park
   source_urls:
@@ -7353,8 +7353,8 @@
   - anxiety_friendly
   - active
   guide_location: activities-guide-1.md#metro-natural-areas
-  latitude: 45.160882
-  longitude: -122.230504
+  latitude: 45.4023
+  longitude: -122.5647
 - id: cook-park-tigard
   name: Cook Park
   category: parks_nature

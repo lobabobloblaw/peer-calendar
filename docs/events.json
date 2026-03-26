@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-26T02:56:00.879884",
+  "generated": "2026-03-25T20:10:11.287164",
   "count": 252,
   "categories": {
     "peer_support": "Peer Support",
@@ -8271,9 +8271,9 @@
       "category": "parks_nature",
       "categoryName": "Parks & Nature",
       "color": "#228B22",
-      "address": "Clackamas, OR",
-      "latitude": 45.160882,
-      "longitude": -122.230504,
+      "address": "10945 SE Mather Rd, Clackamas, OR 97015",
+      "latitude": 45.4023,
+      "longitude": -122.5647,
       "phone": null,
       "website": "https://www.oregonmetro.gov/places/mount-talbert-nature-park",
       "pricing": {
