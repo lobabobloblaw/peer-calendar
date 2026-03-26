@@ -40,7 +40,7 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 - `scripts/audit_check.py` - Reports entries due for audit, unverified entries, statistics
 - `scripts/audit_complete.py` - Mark entries as audited, auto-updates dates and logs
 - `scripts/validate_schedules.py` - Validates all schedule strings parse correctly (run before calendar generation)
-- `scripts/test_schedule_parsing.py` - 46-test suite for schedule parsing and audience detection
+- `scripts/test_schedule_parsing.py` - 47-test suite for schedule parsing and audience detection
 - `scripts/deduplicate_entries.py` - Merge duplicate entries in sources.yaml
 - `scripts/add_type_fields.py` - Migration script for adding location_type/resource_type fields
 - `scripts/add_audience_fields.py` - Migration script for adding audience tags
@@ -367,7 +367,11 @@ Calendars are hosted via GitHub Pages for public subscription access.
   - **Calendar**: Monthly grid view with events on their dates
   - **List**: Chronological list of events for the month
   - **Seasonal Events**: Festivals, fairs, and date-ranged events (not recurring)
+- "Today" button in month nav (auto-hides when viewing current month)
 - Filter panel with keyword search, category/vibe/social/audience filters:
+  - Warm peach-to-white gradient background, colored left accent bars per group
+  - Group-specific pill tints (warm/teal/purple/brown) with hover micro-interactions
+  - HTML uses `<div class="filter-group" data-group="...">` wrappers per group
   - **Search**: Full-text search across titles, locations, categories, descriptions, program names
   - **Category**: Color-coded pills (Peer Support, Fitness, Arts, Events, Parks, Food, Social, Discounts, Transit)
   - **Vibe (good_for)**: Low-Pressure, Low-Energy, Creative, Active, Outdoor, Indoor, Family
@@ -376,6 +380,7 @@ Calendars are hosted via GitHub Pages for public subscription access.
   - OR logic within each group, AND between groups
   - Events without audience tags always appear (open to all)
   - Screen reader announcements via aria-live region
+- List view and day popup show 3px category color bars on event rows
 - Weather-reactive animated background (Vanta.js clouds):
   - Time of day: Dawn (pink/peach), Day (sky blue), Dusk (purple/orange), Night (navy)
   - Weather conditions via Open-Meteo API: Clear skies show subtle clouds, overcast/rain darkens sky
@@ -415,6 +420,7 @@ The `docs/` folder contains:
     - `escapeHtml()` - XSS prevention for innerHTML calls
     - `trapFocus()`/`releaseFocusTrap()` - Accessible focus trapping for modals
     - `announce()` - Screen reader announcements via aria-live region
+    - `goToToday()` - Navigates calendar back to current month
   - Modal system (event details, About page) with ARIA dialog attributes, focus restoration on close
   - Print dialog with date range selection
 - `apple/`, `google/`, `outlook/` - Platform-specific ICS files
@@ -424,7 +430,8 @@ The `docs/` folder contains:
 **CI/CD (GitHub Actions):**
 - `.github/workflows/generate-calendars.yml` - Auto-generates calendars on push to main
 - Triggered when `data/sources.yaml`, `scripts/generate_calendar.py`, or `scripts/utils.py` change
-- Steps: validate sources → validate schedules → run tests → generate calendars → commit docs/
+- Steps: validate sources → validate schedules (blocks on failure) → run tests → generate calendars → commit docs/
+- `audit_check.py --validate` exits non-zero on warnings (checks required fields, valid enums, audit_frequency, source_urls, date ranges)
 - Can also be triggered manually via `workflow_dispatch`
 
 ## Calendar Import Instructions
@@ -460,10 +467,12 @@ Schedule strings are parsed with natural language patterns:
 - "Tue/Thu 8-9am" or "Tuesdays & Thursdays noon-1pm" → multiple days per week
 - "Last Sunday of each month 4-6pm" → last occurrence of day in month
 - "Daily 2-10pm" → every day
+- "Weekdays noon-12:30pm" → Monday through Friday
 - Time parsing handles: "2-10pm" (both PM), "10-7pm" (AM to PM), "noon-1pm", "10am"
 - Single time parsing: "6pm" → assumes 1-hour duration (6pm-7pm)
 - Day abbreviations: "Tue/Thu", "Mon/Wed/Fri" supported alongside full names
 - "Daily 2-10pm" → expands to all 7 days
+- "Weekdays" → expands to MO,TU,WE,TH,FR
 - The `parseSchedule()` function in `docs/index.html` handles the web calendar preview
 - The `parse_schedule()` function in `generate_calendar.py` handles ICS generation
 
