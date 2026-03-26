@@ -38,6 +38,7 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 - `scripts/generate_calendar.py` - Generates iCal/ICS calendar feeds to `output/`
 - `scripts/generate_monthly_calendars.py` - Expands recurring events into month-specific calendars in `distribution/`
 - `scripts/generate_guides.py` - Generates `guides/resources-guide.md` from sources.yaml (replaces manual guide maintenance)
+- `scripts/geocode_addresses.py` - Geocodes addresses via Nominatim, stores lat/lng in sources.yaml
 - `scripts/audit_check.py` - Reports entries due for audit, unverified entries, statistics
 - `scripts/audit_complete.py` - Mark entries as audited, auto-updates dates and logs
 - `scripts/validate_schedules.py` - Validates all schedule strings parse correctly (run before calendar generation)
@@ -352,6 +353,10 @@ python scripts/generate_guides.py
 
 # Generate guide for a single category
 python scripts/generate_guides.py --category peer_support
+
+# Geocode addresses (adds lat/lng to sources.yaml, ~1 sec per address)
+python scripts/geocode_addresses.py              # Geocode entries missing coordinates
+python scripts/geocode_addresses.py --preview    # Preview what would be geocoded
 ```
 
 ## GitHub Pages Hosting
@@ -387,6 +392,12 @@ Calendars are hosted via GitHub Pages for public subscription access.
   - OR logic within each group, AND between groups
   - Events without audience tags always appear (open to all)
   - Screen reader announcements via aria-live region
+- Interactive map view (Leaflet.js + OpenStreetMap):
+  - Fourth tab alongside Calendar/List/Seasonal
+  - Category-colored circle markers for 151 geocoded locations
+  - Popups with name, category, address, pricing, website link
+  - Respects all active filters (category, vibe, social, audience, search)
+  - Auto-fits bounds to visible markers
 - List view and day popup show 3px category color bars on event rows
 - Weather-reactive animated background (Vanta.js clouds):
   - Time of day: Dawn (pink/peach), Day (sky blue), Dusk (purple/orange), Night (navy)
@@ -535,6 +546,5 @@ A future iOS update (possibly iOS 26.2+) may resolve this, as the underlying Web
 Check `data/queue.yaml` for pending research items and `data/audit-log.yaml` for recent changes.
 
 Future improvements:
-- Map view for physical locations
 - Offline/PWA support
 - Multi-language support (Spanish UI option)

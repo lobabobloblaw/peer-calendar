@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-25T18:16:48.459372",
+  "generated": "2026-03-25T19:31:06.006098",
   "count": 252,
   "categories": {
     "peer_support": "Peer Support",
@@ -31,6 +31,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-823-2525",
       "website": "https://portland.gov/parks/discount",
       "pricing": {
@@ -69,6 +71,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://racc.org/artsforall",
       "pricing": {
@@ -110,6 +114,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-645-6433",
       "website": "https://www.thprd.org/activities/financial-aid",
       "pricing": {
@@ -152,6 +158,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-228-6322",
       "website": "https://portlandgeneral.com/income-qualified-bill-discount",
       "pricing": {
@@ -190,6 +198,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "888-221-7070",
       "website": "https://www.pacificpower.net/my-account/payments/bill-payment-assistance/oregon-low-income-discount-program.html",
       "pricing": {
@@ -230,6 +240,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "800-422-4012",
       "website": "https://www.nwnatural.com/account/bill-discount-program",
       "pricing": {
@@ -269,6 +281,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "800-542-8818",
       "website": "https://portlandgeneral.com/help/help-topics/energy-assistance-programs-residential",
       "pricing": {
@@ -303,6 +317,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-823-7770",
       "website": "https://www.portland.gov/water/financial-assistance",
       "pricing": {
@@ -336,6 +352,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "800-848-4442",
       "website": "https://www.oregon.gov/puc/pages/oregon-lifeline.aspx",
       "pricing": {
@@ -369,6 +387,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.pdxlrg.org/general",
       "pricing": {
@@ -423,6 +443,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://doubleuporegon.org",
       "pricing": {
@@ -460,6 +482,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-794-8080",
       "website": "https://ncprd.org/scholarships",
       "pricing": {
@@ -498,6 +522,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-675-2549",
       "website": "https://www.ci.oswego.or.us/parksrec/scholarship-program",
       "pricing": {
@@ -536,6 +562,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.tualatinoregon.gov/recreation/webforms/scholarship-policy-and-application-2025",
       "pricing": {
@@ -575,6 +603,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": "26000 SE Stark St, Gresham, OR 97030",
+      "latitude": 45.514266,
+      "longitude": -122.395848,
       "phone": "503-491-6422",
       "website": "https://www.mhcc.edu/",
       "pricing": {
@@ -616,6 +646,8 @@
       "categoryName": "Transportation",
       "color": "#708090",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-226-0700",
       "website": "https://rideconnection.org/",
       "pricing": {
@@ -654,6 +686,8 @@
       "categoryName": "Transportation",
       "color": "#708090",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://biketownpdx.com/pricing/biketown-for-all",
       "pricing": {
@@ -687,6 +721,8 @@
       "categoryName": "Transportation",
       "color": "#708090",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://catchthespot.org/",
       "pricing": {
@@ -722,6 +758,8 @@
       "categoryName": "Transportation",
       "color": "#708090",
       "address": "701 SW 6th Ave, Portland, OR",
+      "latitude": 45.518941,
+      "longitude": -122.679529,
       "phone": "503-238-7433",
       "website": "https://trimet.org/income",
       "pricing": {
@@ -761,6 +799,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "464 SE 185th Ave, Suite 315, Portland, OR 97233",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-228-5692",
       "website": "https://namimultnomah.org",
       "pricing": {
@@ -847,6 +887,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222",
+      "latitude": 45.449629,
+      "longitude": -122.629098,
       "phone": "503-344-5050",
       "website": "https://namicc.org",
       "pricing": {
@@ -963,6 +1005,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "11211 SE 82nd Ave, Suite O, Happy Valley, OR 97086",
+      "latitude": 45.443229,
+      "longitude": -122.580028,
       "phone": "503-655-8585",
       "website": "https://www.clackamas.us/behavioralhealth/urgentmentalhealth",
       "pricing": {
@@ -999,6 +1043,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-709-2450",
       "website": "https://folktime.org",
       "pricing": {
@@ -1043,6 +1089,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "5600 NE Glisan St, Portland, OR 97213",
+      "latitude": 45.526336,
+      "longitude": -122.606064,
       "phone": "971-271-7273",
       "website": "https://northstarclubhouse.org",
       "pricing": {
@@ -1081,6 +1129,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "10130 SW Nimbus Ave, Suite D2, Tigard, OR 97223",
+      "latitude": 45.44764,
+      "longitude": -122.787501,
       "phone": "503-597-3992",
       "website": "https://www.comfortzonenn.org",
       "pricing": {
@@ -1119,6 +1169,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "333 SW Park Ave (at SW Oak St), Portland, OR",
+      "latitude": 45.521959,
+      "longitude": -122.679643,
       "phone": "503-988-4100",
       "website": "https://multco.us/info/behavioral-health-resource-center",
       "pricing": {
@@ -1157,6 +1209,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://mentalhealthisforeveryone.com/",
       "pricing": {
@@ -1235,6 +1289,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "1-800-698-2392",
       "website": "https://ccswebsite.org/warmline/",
       "pricing": {
@@ -1272,6 +1328,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://recoverydharmapdx.org/",
       "pricing": {
@@ -1408,6 +1466,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "2740 SE Powell Blvd Suite 3, Portland, OR 97202",
+      "latitude": 45.497482,
+      "longitude": -122.637927,
       "phone": "503-922-2377",
       "website": "https://www.mhaoforegon.org/",
       "pricing": {
@@ -1444,6 +1504,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "4115 N Mississippi Ave, Portland, OR 97217",
+      "latitude": 45.553656,
+      "longitude": -122.675855,
       "phone": "503-234-7837",
       "website": "https://www.pdxqcenter.org/",
       "pricing": {
@@ -1516,6 +1578,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "1220 SW Columbia St, Suite 130, Portland, OR 97201",
+      "latitude": 45.51585,
+      "longitude": -122.687127,
       "phone": "503-872-9664",
       "website": "https://newavenues.org/smyrc/",
       "pricing": {
@@ -1557,6 +1621,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "521 SW 11th Ave, 2nd Floor, Portland, OR 97205",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-222-6484",
       "website": "http://ddaoregon.com/",
       "pricing": {
@@ -1643,6 +1709,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-223-8569",
       "website": "https://www.pdxaa.org/",
       "pricing": {
@@ -1701,6 +1769,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "3909 SE 52nd Ave, Portland, OR 97206",
+      "latitude": 45.4946,
+      "longitude": -122.609417,
       "phone": "503-775-5683",
       "website": "https://www.dougy.org/",
       "pricing": {
@@ -1774,6 +1844,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-215-4622",
       "website": "https://www.providence.org/locations/or/portland-medical-center/patients-and-visitors/grief-support-groups",
       "pricing": {
@@ -1811,6 +1883,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "324 NE 9th St., Gresham, OR 97030",
+      "latitude": 45.503271,
+      "longitude": -122.42733,
       "phone": "971-703-4623",
       "website": "https://4drecovery.org/",
       "pricing": {
@@ -1871,6 +1945,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.peergalaxy.com/",
       "pricing": {
@@ -1901,6 +1977,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://meetings.smartrecovery.org/",
       "pricing": {
@@ -1932,6 +2010,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "(877) 968-8491",
       "website": "https://www.theyouthline.org/",
       "pricing": {
@@ -1964,6 +2044,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "909 NW 24th Ave, Portland, OR 97210 (Alano Club)",
+      "latitude": 45.529256,
+      "longitude": -122.700932,
       "phone": "(503) 222-5756",
       "website": "https://www.portlandalano.org/plates-for-the-people",
       "pricing": {
@@ -1997,6 +2079,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "77 NE Knott St, Portland, OR 97212",
+      "latitude": 45.542155,
+      "longitude": -122.664668,
       "phone": "503-823-3673",
       "website": "https://portland.gov/parks/matt-dishman-community-center",
       "pricing": {
@@ -2038,6 +2122,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "N Bruce Ave & N James St (near N Lombard), Portland, OR 97203",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.pdga.com/course-directory/course/pier-park",
       "pricing": {
@@ -2075,6 +2161,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "17707 SE Main St, Gresham, OR 97030",
+      "latitude": 45.513815,
+      "longitude": -122.480928,
       "phone": "503-618-2525",
       "website": null,
       "pricing": {
@@ -2114,6 +2202,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": null,
       "pricing": null,
@@ -2150,6 +2240,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "124 SW Yamhill St, Portland, OR 97204",
+      "latitude": 45.517071,
+      "longitude": -122.674578,
       "phone": "503-662-2408",
       "website": "https://www.yogaonyamhill.com/",
       "pricing": {
@@ -2197,6 +2289,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "2500 SE 26th Ave, Portland, OR 97202",
+      "latitude": 45.504583,
+      "longitude": -122.639483,
       "phone": "503-244-0108",
       "website": "https://www.thebymc.com",
       "pricing": {
@@ -2290,6 +2384,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "8500 NE Siskiyou St, Portland, OR 97220-5287",
+      "latitude": 45.544422,
+      "longitude": -122.575656,
       "phone": "503-239-4846",
       "website": "https://dharma-rain.org/",
       "pricing": {
@@ -2347,6 +2443,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "Portland, OR 97232 (call for location)",
+      "latitude": 45.520247,
+      "longitude": -122.674194,
       "phone": "360-773-3770",
       "website": "https://diamondway.org/portland/",
       "pricing": {
@@ -2399,6 +2497,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "6536 SE Duke St, Portland, OR 97206",
+      "latitude": 45.475593,
+      "longitude": -122.595415,
       "phone": "503-519-9686",
       "website": "https://www.portlandinsight.org/",
       "pricing": {
@@ -2466,6 +2566,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "740 SE 106th Ave, Portland, OR 97216",
+      "latitude": 45.515792,
+      "longitude": -122.553414,
       "phone": "503-823-3450",
       "website": "https://www.portland.gov/parks/east-portland-community-center",
       "pricing": {
@@ -2524,6 +2626,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "5530 SE 72nd Ave, Portland, OR 97206",
+      "latitude": 45.482537,
+      "longitude": -122.588676,
       "phone": "503-823-3183",
       "website": "https://www.portland.gov/parks/mt-scott-community-center",
       "pricing": {
@@ -2592,6 +2696,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "600 NE 8th Street, Room 130, Gresham, OR 97030",
+      "latitude": 45.50265,
+      "longitude": -122.425283,
       "phone": "503-988-4860",
       "website": "https://www.greshamseniorcenter.com/",
       "pricing": null,
@@ -2656,6 +2762,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "2258 NW Raleigh St, Portland, OR 97210",
+      "latitude": 45.533868,
+      "longitude": -122.697963,
       "phone": "503-894-9341",
       "website": "https://portlandrunning.com",
       "pricing": {
@@ -2724,6 +2832,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "2201 Lloyd Center, Portland, OR 97232",
+      "latitude": 45.532573,
+      "longitude": -122.653136,
       "phone": null,
       "website": "https://foodcourt5k.com/",
       "pricing": {
@@ -2766,6 +2876,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": null,
       "pricing": {
@@ -2805,6 +2917,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://shift2bikes.org/calendar",
       "pricing": {
@@ -2870,6 +2984,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "P.O. Box 2972, Portland, OR 97208-2972",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-666-5796",
       "website": "https://portlandbicyclingclub.com/scheduled_rides",
       "pricing": {
@@ -2915,6 +3031,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-223-9622",
       "website": "https://ymcacw.org",
       "pricing": {
@@ -2960,6 +3078,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "355 NE 223rd Ave, Gresham, OR 97030",
+      "latitude": 45.526216,
+      "longitude": -122.433758,
       "phone": "503-512-5511",
       "website": "https://www.rockhavenclimbing.com/",
       "pricing": {
@@ -3019,6 +3139,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "12000 SE 82nd Ave, Happy Valley, OR 97086",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-653-6613",
       "website": "https://www.clackamastowncenter.com/en/",
       "pricing": {
@@ -3057,6 +3179,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "9585 SW Washington Square Rd, Portland, OR 97223",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-639-8860",
       "website": "https://www.shopwashingtonsquare.com/",
       "pricing": {
@@ -3095,6 +3219,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "Various Portland outdoor pools",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-823-2525",
       "website": "https://www.portland.gov/parks/recreation/pools",
       "pricing": {
@@ -3188,6 +3314,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "7300 SE Harmony Rd, Milwaukie, OR 97222",
+      "latitude": 45.431118,
+      "longitude": -122.582198,
       "phone": "503-557-7873",
       "website": "https://ncprd.org/aquatic-park",
       "pricing": {
@@ -3262,6 +3390,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "9009 N Foss Ave, Portland, OR 97217",
+      "latitude": 45.587749,
+      "longitude": -122.711433,
       "phone": "503-823-3631",
       "website": "https://www.portland.gov/parks/charles-jordan-community-center",
       "pricing": {
@@ -3320,6 +3450,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.ttadpools.com",
       "pricing": {
@@ -3368,6 +3500,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "17525 Stafford Road, Lake Oswego, OR 97034",
+      "latitude": 45.399205,
+      "longitude": -122.688057,
       "phone": "503-675-2549",
       "website": "https://www.ci.oswego.or.us/LORAC",
       "pricing": {
@@ -3411,6 +3545,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "Salmon Street Fountain, 1000 SW Naito Pkwy, Portland, OR 97204",
+      "latitude": 45.515756,
+      "longitude": -122.673362,
       "phone": null,
       "website": "https://november-project.com/portland-or/",
       "pricing": {
@@ -3457,6 +3593,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://foottraffic.us/train/group-run/",
       "pricing": {
@@ -3530,6 +3668,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "Forest Park (various trailheads)",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.meetup.com/portland-trail-runners-group/",
       "pricing": {
@@ -3581,6 +3721,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "Forest Park, Thurman Entrance",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://trailsisters.net/local-groups/portland-oregon/",
       "pricing": {
@@ -3644,6 +3786,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-505-0083",
       "website": "https://www.portland.gov/parks/recreation/fitness-park",
       "pricing": {
@@ -3682,6 +3826,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.thprd.org/fitness-in-the-park",
       "pricing": {
@@ -3721,6 +3867,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "Various parks - Whitaker Ponds, Smith & Bybee Wetlands, etc.",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.meetup.com/portland-bird-watching-meetup-group/",
       "pricing": {
@@ -3754,6 +3902,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "Inner Portland parks (various locations)",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://birdhers.com/",
       "pricing": {
@@ -3786,6 +3936,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "SomaSpace, 4050 NE Broadway, Portland, OR 97232",
+      "latitude": 45.535015,
+      "longitude": -122.621485,
       "phone": null,
       "website": "https://tergar.org/portland/",
       "pricing": {
@@ -3837,6 +3989,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "Portland Friends of the Dhamma, 1404 SE 25th Ave, Portland, OR 97214",
+      "latitude": 45.51273,
+      "longitude": -122.640013,
       "phone": null,
       "website": "https://www.pathofsincerity.com/events/",
       "pricing": {
@@ -3883,6 +4037,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "Portland Shambhala Center (check Meetup for location)",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.meetup.com/portlandyoungmeditators/",
       "pricing": {
@@ -3916,6 +4072,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "Keen Garage, 505 NW 13th Ave, Portland, OR",
+      "latitude": 45.526673,
+      "longitude": -122.684467,
       "phone": null,
       "website": "https://mazamas.org/streetrambles/",
       "pricing": {
@@ -3949,6 +4107,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "1219 SW Park Ave, Portland, OR 97205",
+      "latitude": 45.516548,
+      "longitude": -122.683411,
       "phone": "503-226-2811",
       "website": "https://portlandartmuseum.org/",
       "pricing": {
@@ -3995,6 +4155,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "1945 SE Water Ave, Portland, OR 97214",
+      "latitude": 45.507974,
+      "longitude": -122.663738,
       "phone": "503-797-4000",
       "website": "https://omsi.edu/",
       "pricing": {
@@ -4037,6 +4199,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "7818 SE Stark St, Portland, OR 97215",
+      "latitude": 45.518885,
+      "longitude": -122.582923,
       "phone": "503-252-0500",
       "website": "https://www.academytheaterpdx.com/",
       "pricing": {
@@ -4074,6 +4238,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "3451 SE Belmont St, Portland, OR 97214",
+      "latitude": 45.51656,
+      "longitude": -122.628478,
       "phone": "503-238-1617",
       "website": "https://wunderlandgames.com/movies/avalon/",
       "pricing": {
@@ -4113,6 +4279,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "2735 E Burnside St, Portland, OR 97214",
+      "latitude": 45.523238,
+      "longitude": -122.637514,
       "phone": "503-238-4088",
       "website": "https://www.laurelhursttheater.com/",
       "pricing": {
@@ -4149,6 +4317,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "341 SW 10th Ave, Portland, OR 97205",
+      "latitude": 45.522372,
+      "longitude": -122.681408,
       "phone": "971-222-2010",
       "website": "https://pdx.livingroomtheaters.com/",
       "pricing": {
@@ -4185,6 +4355,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "4122 NE Sandy Blvd, Portland, OR 97212",
+      "latitude": 45.535443,
+      "longitude": -122.620609,
       "phone": "503-281-4215",
       "website": "https://hollywoodtheatre.org/",
       "pricing": {
@@ -4224,6 +4396,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "115 NW 5th Ave, Portland, OR 97209",
+      "latitude": 45.524053,
+      "longitude": -122.675623,
       "phone": "503-796-9364",
       "website": "https://groundkontrol.com/",
       "pricing": {
@@ -4271,6 +4445,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "345 SE Taylor St, Portland, OR 97214",
+      "latitude": 45.515439,
+      "longitude": -122.662065,
       "phone": "503-238-4000",
       "website": "https://ggportland.com",
       "pricing": {
@@ -4311,6 +4487,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "5135 NE Columbia Blvd, Portland, OR 97218",
+      "latitude": 45.57075,
+      "longitude": -122.609925,
       "phone": "503-288-8177",
       "website": "https://nayapdx.org/",
       "pricing": {
@@ -4360,6 +4538,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "10301 NE Glisan St, Portland, OR 97220",
+      "latitude": 45.526515,
+      "longitude": -122.556437,
       "phone": "503-234-1541",
       "website": "https://irco.org/",
       "pricing": null,
@@ -4391,6 +4571,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "1200 SW Park Ave, Portland, OR 97205",
+      "latitude": 45.515859,
+      "longitude": -122.682184,
       "phone": "503-222-1741",
       "website": "https://www.ohs.org/",
       "pricing": {
@@ -4431,6 +4613,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "724 NW Davis St, Portland, OR 97209",
+      "latitude": 45.524334,
+      "longitude": -122.678206,
       "phone": "503-226-3600",
       "website": "https://www.ojmche.org/",
       "pricing": {
@@ -4475,6 +4659,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "17677 NW Springville Rd, Portland (PCC Rock Creek campus)",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://fiveoaksmuseum.org/",
       "pricing": {
@@ -4508,6 +4694,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "2250 SE Water Ave, Portland, OR 97214",
+      "latitude": 45.507222,
+      "longitude": -122.661543,
       "phone": null,
       "website": "https://orhf.org/",
       "pricing": {
@@ -4549,6 +4737,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://lincc.org",
       "pricing": {
@@ -4616,6 +4806,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "362 Warner Milne Rd, Oregon City, OR 97045",
+      "latitude": 45.336449,
+      "longitude": -122.592067,
       "phone": "503-657-8269",
       "website": "https://www.orcity.org/library",
       "pricing": {
@@ -4681,6 +4873,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-615-6500",
       "website": "https://www.hillsboro-oregon.gov/library",
       "pricing": {
@@ -4752,6 +4946,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "26000 SE Stark St, Gresham, OR 97030 (Room AC1305, beneath library)",
+      "latitude": 45.514266,
+      "longitude": -122.395848,
       "phone": "503-491-7309",
       "website": "https://www.mhcc.edu/community-resources/planetarium-sky-theatre",
       "pricing": {
@@ -4812,6 +5008,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "1422 SW 11th Ave, Portland, OR 97201",
+      "latitude": 45.515143,
+      "longitude": -122.685609,
       "phone": "503-222-2031",
       "website": "https://www.tocportland.org/",
       "pricing": {
@@ -4853,6 +5051,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "2007 SE Powell Blvd, Portland, OR 97202",
+      "latitude": 45.499618,
+      "longitude": -122.645407,
       "phone": "503-232-8845",
       "website": "https://artichokemusic.org/",
       "pricing": {
@@ -4888,6 +5088,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "1315 SW Park Ave, Portland, OR 97201",
+      "latitude": 45.515592,
+      "longitude": -122.683715,
       "phone": null,
       "website": "https://stjamespdx.org/life/wm/bach/",
       "pricing": {
@@ -4929,6 +5131,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "900 SE 35th Ave, Portland, OR 97214",
+      "latitude": 45.516325,
+      "longitude": -122.627898,
       "phone": "503-823-3741",
       "website": "https://www.portland.gov/fire/belmont-firehouse-museum",
       "pricing": {
@@ -4970,6 +5174,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "8 NE Killingsworth St, Portland, OR 97211",
+      "latitude": 45.562554,
+      "longitude": -122.666715,
       "phone": "503-284-6019",
       "website": "https://turnturnturnpdx.com/",
       "pricing": {
@@ -5028,6 +5234,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "2958 NE Glisan St, Portland, OR 97232",
+      "latitude": 45.526292,
+      "longitude": -122.634719,
       "phone": "503-232-1504",
       "website": "https://laurelthirst.com/",
       "pricing": {
@@ -5068,6 +5276,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "401 E Powell Blvd, Gresham, OR 97030",
+      "latitude": 45.498074,
+      "longitude": -122.42715,
       "phone": "503-665-0604",
       "website": "https://www.mthoodtheatre.com/",
       "pricing": {
@@ -5101,6 +5311,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "1726 Washington St, Oregon City, OR 97045",
+      "latitude": 45.364343,
+      "longitude": -122.595143,
       "phone": null,
       "website": "https://historicoregoncity.org",
       "pricing": {
@@ -5146,6 +5358,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "17917 SE Stark St, Portland, OR 97233",
+      "latitude": 45.519557,
+      "longitude": -122.479076,
       "phone": "503-988-5123",
       "website": "https://multcolib.org/hours-and-locations/rockwood-library",
       "pricing": {
@@ -5218,6 +5432,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "13500 SW Hall Blvd, Tigard, OR 97223",
+      "latitude": 45.4226,
+      "longitude": -122.764888,
       "phone": "503-684-6537",
       "website": "https://www.tigard-or.gov/your-government/departments/library",
       "pricing": {
@@ -5287,6 +5503,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "706 Fourth St, Lake Oswego, OR 97034",
+      "latitude": 45.423944,
+      "longitude": -122.667392,
       "phone": "503-636-7628",
       "website": "https://www.ci.oswego.or.us/library",
       "pricing": {
@@ -5381,6 +5599,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "18878 SW Martinazzi Ave, Tualatin, OR 97062",
+      "latitude": 45.384375,
+      "longitude": -122.758528,
       "phone": "503-691-3074",
       "website": "https://www.tualatinoregon.gov/library",
       "pricing": {
@@ -5469,6 +5689,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "8700 SW Sweek Drive, Tualatin, OR 97062",
+      "latitude": 45.386282,
+      "longitude": -122.767021,
       "phone": "503-885-1926",
       "website": "https://www.tualatinhistory.org",
       "pricing": {
@@ -5539,6 +5761,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.pcc.edu/galleries/",
       "pricing": {
@@ -5578,6 +5802,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "12000 SW 49th Ave, Portland, OR 97219",
+      "latitude": 45.441398,
+      "longitude": -122.733741,
       "phone": "971-722-4848",
       "website": "https://www.pcc.edu/theatre/",
       "pricing": {
@@ -5616,6 +5842,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "26000 SE Stark St, Gresham, OR 97030 (Building 19, Room VA20)",
+      "latitude": 45.514266,
+      "longitude": -122.395848,
       "phone": "503-491-7309",
       "website": "https://www.mhcc.edu/community-resources/visual-arts-gallery",
       "pricing": {
@@ -5654,6 +5882,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "619 SE 6th Ave, Portland, OR 97214",
+      "latitude": 45.518516,
+      "longitude": -122.659909,
       "phone": "503-294-0769",
       "website": "https://portland.scrapcreativereuse.org/",
       "pricing": {
@@ -5710,6 +5940,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "318 SE Main Street, Suites 155 & 145, Portland, OR 97214",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-827-0249",
       "website": "https://www.iprc.org/",
       "pricing": {
@@ -5750,6 +5982,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "Various - Guilder Cafe and Literary Arts, Portland",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://slamlandia.com/",
       "pricing": {
@@ -5802,6 +6036,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "The Stacks Coffeehouse, 1831 N Killingsworth St, Portland, OR 97217",
+      "latitude": 45.562923,
+      "longitude": -122.686181,
       "phone": "503-384-2834",
       "website": "https://www.thestackscoffeehouse.com/events",
       "pricing": {
@@ -5834,6 +6070,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "5331 S. Macadam Ave. Suite 258, PMB 215, Portland, OR 97239",
+      "latitude": 45.484471,
+      "longitude": -122.675816,
       "phone": "971-200-5368",
       "website": "https://willamettewriters.org/",
       "pricing": {
@@ -5866,6 +6104,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Cathedral Park, N Edison St & Pittsburg Ave, Portland, OR 97203",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://jazzoregon.org/",
       "pricing": {
@@ -5909,6 +6149,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "701 SW 6th Ave, Portland, OR 97204",
+      "latitude": 45.518941,
+      "longitude": -122.679529,
       "phone": null,
       "website": "https://www.thesquarepdx.org/",
       "pricing": {
@@ -5950,6 +6192,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.rosefestival.org/",
       "pricing": {
@@ -5990,6 +6234,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "East Delta Park, N Denver Ave & Martin Luther King Jr Blvd, Portland, OR",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.facebook.com/DeltaParkPowwow/",
       "pricing": {
@@ -6029,6 +6275,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Nordic Northwest Campus, 8800 SW Oleson Rd, Portland, OR",
+      "latitude": 45.456129,
+      "longitude": -122.76743,
       "phone": null,
       "website": "https://www.oregonmidsummer.com/",
       "pricing": {
@@ -6066,6 +6314,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Westside Commons (Washington County Fairgrounds), Hillsboro, OR",
+      "latitude": 45.52995,
+      "longitude": -122.95036,
       "phone": null,
       "website": "https://www.phga.org/",
       "pricing": {
@@ -6102,6 +6352,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Willamette Park, 12th St, West Linn, OR",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-557-4700",
       "website": "https://westlinnoregon.gov/oldtimefair",
       "pricing": {
@@ -6140,6 +6392,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Blue Lake Regional Park, 21224 NE Blue Lake Rd, Fairview, OR",
+      "latitude": 45.555492,
+      "longitude": -122.44496,
       "phone": null,
       "website": "https://www.marianasfestival.com/",
       "pricing": {
@@ -6177,6 +6431,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Tom McCall Waterfront Park, Portland",
+      "latitude": 45.520124,
+      "longitude": -122.670539,
       "phone": null,
       "website": "https://portlandpride.org/",
       "pricing": {
@@ -6220,6 +6476,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Pearl District, Portland",
+      "latitude": 45.529044,
+      "longitude": -122.681598,
       "phone": null,
       "website": "https://www.pearldistrict.org/article/first-thursday-is-back",
       "pricing": {
@@ -6259,6 +6517,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "NE Alberta Street, 15th-30th Ave, Portland",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.lastthursdayalberta.org/",
       "pricing": {
@@ -6299,6 +6559,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Pioneer Courthouse Square, 701 SW 6th Ave, Portland",
+      "latitude": 45.518941,
+      "longitude": -122.679529,
       "phone": null,
       "website": "https://www.thesquarepdx.org/",
       "pricing": {
@@ -6339,6 +6601,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "SE 39th Ave between Belmont & Stark, Portland",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.peacocklane.org/",
       "pricing": {
@@ -6378,6 +6642,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Various Gresham parks",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-618-2300",
       "website": "https://greshamoregon.gov/Recreation/",
       "pricing": {
@@ -6428,6 +6694,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "33814 S Meridian Rd, Woodburn, OR 97071",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.woodenshoe.com/",
       "pricing": {
@@ -6471,6 +6739,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Clackamas County Fairgrounds, 694 NE 4th Ave, Canby, OR",
+      "latitude": 45.267044,
+      "longitude": -122.68538,
       "phone": null,
       "website": "https://springgardenfair.org/",
       "pricing": {
@@ -6511,6 +6781,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "401 NE 2nd St, Gresham, OR",
+      "latitude": 45.498689,
+      "longitude": -122.393768,
       "phone": null,
       "website": "https://greshamoregon.gov/",
       "pricing": {
@@ -6553,6 +6825,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Pioneer Courthouse Square, 701 SW 6th Ave, Portland, OR",
+      "latitude": 45.518941,
+      "longitude": -122.679529,
       "phone": null,
       "website": "https://www.icaportland.org/",
       "pricing": {
@@ -6592,6 +6866,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Oregon Buddhist Temple, 3720 SE 34th Ave, Portland, OR 97202",
+      "latitude": 45.49573,
+      "longitude": -122.628841,
       "phone": null,
       "website": "https://www.oregonbuddhisttemple.com/obon-festival",
       "pricing": {
@@ -6631,6 +6907,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "995 NW 22nd Ave, Canby, OR",
+      "latitude": 45.279263,
+      "longitude": -122.708123,
       "phone": null,
       "website": "https://www.dahlias.com/",
       "pricing": {
@@ -6670,6 +6948,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "694 NE 4th Ave, Canby, OR 97013",
+      "latitude": 45.267044,
+      "longitude": -122.68538,
       "phone": null,
       "website": "https://clackamascountyfair.com/",
       "pricing": {
@@ -6708,6 +6988,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Polish Hall, 3900 N Interstate Ave, Portland, OR 97227",
+      "latitude": 45.550979,
+      "longitude": -122.680485,
       "phone": null,
       "website": "https://www.polishfestivalpdx.org/",
       "pricing": {
@@ -6746,6 +7028,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Holy Trinity Greek Orthodox Cathedral, 3131 NE Glisan St, Portland, OR",
+      "latitude": 45.526869,
+      "longitude": -122.631957,
       "phone": null,
       "website": "https://www.portlandgreekfestival.com/",
       "pricing": {
@@ -6788,6 +7072,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Gresham Arts Plaza, 401 NE 2nd St, Gresham, OR",
+      "latitude": 45.498689,
+      "longitude": -122.393768,
       "phone": null,
       "website": "https://greshamoregon.gov/",
       "pricing": {
@@ -6828,6 +7114,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Happy Valley Park, 13770 SE Ridgecrest Rd, Happy Valley, OR",
+      "latitude": 45.453297,
+      "longitude": -122.521286,
       "phone": null,
       "website": "https://www.happyvalleyor.gov/4th-of-july-family-festival/",
       "pricing": {
@@ -6868,6 +7156,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Happy Valley Park, 13770 SE Ridgecrest Rd, Happy Valley, OR",
+      "latitude": 45.453297,
+      "longitude": -122.521286,
       "phone": null,
       "website": "https://www.happyvalleyor.gov/services/hv-community-events/summer-concerts/",
       "pricing": {
@@ -6922,6 +7212,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Happy Valley Park, Happy Valley, OR",
+      "latitude": 45.451988,
+      "longitude": -122.521144,
       "phone": null,
       "website": "https://www.happyvalleyor.gov/services/hv-community-events/",
       "pricing": {
@@ -6962,6 +7254,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "16000 SE Misty Dr, Happy Valley, OR",
+      "latitude": 45.429414,
+      "longitude": -122.497482,
       "phone": null,
       "website": "https://www.happyvalleyor.gov/services/hv-community-events/tree-lighting-ceremony/",
       "pricing": {
@@ -7000,6 +7294,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Waterfront Park, Portland, OR",
+      "latitude": 45.520124,
+      "longitude": -122.670539,
       "phone": null,
       "website": "https://portlandsaturdaymarket.com/",
       "pricing": {
@@ -7049,6 +7345,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Statewide - all Oregon waters",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://myodfw.com/articles/free-fishing-days-and-events",
       "pricing": {
@@ -7093,6 +7391,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Columbia and Willamette Rivers, Portland, OR",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://christmasships.org/",
       "pricing": {
@@ -7133,6 +7433,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.greshamoregon.gov/events",
       "pricing": {
@@ -7173,6 +7475,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Millennium Plaza Park, Lake Oswego, OR",
+      "latitude": 45.417767,
+      "longitude": -122.664918,
       "phone": "503-534-5422",
       "website": "https://www.ci.oswego.or.us/parksrec/community-events",
       "pricing": {
@@ -7213,6 +7517,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Tualatin Community Park, 8515 SW Tualatin Rd",
+      "latitude": 45.385732,
+      "longitude": -122.764039,
       "phone": null,
       "website": "https://www.tualatinoregon.gov/recreation/concerts-parks",
       "pricing": {
@@ -7252,6 +7558,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Hollywood Theatre, 4122 NE Sandy Blvd, Portland, OR 97212",
+      "latitude": 45.535443,
+      "longitude": -122.620609,
       "phone": null,
       "website": "https://www.africanfilmfestival.org/",
       "pricing": {
@@ -7291,6 +7599,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://jadedistrict.org/jade-international-night-market-2025",
       "pricing": {
@@ -7329,6 +7639,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "2960 NW Upshur St (Lower Macleay trailhead)",
+      "latitude": 45.535863,
+      "longitude": -122.712754,
       "phone": null,
       "website": "https://forestparkconservancy.org",
       "pricing": {
@@ -7361,6 +7673,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "5300 N Marine Drive, Portland, OR 97203",
+      "latitude": 45.615778,
+      "longitude": -122.716196,
       "phone": null,
       "website": "https://oregonmetro.gov/parks/smith-and-bybee-wetlands-natural-area",
       "pricing": {
@@ -7394,6 +7708,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "11321 S Terwilliger Blvd, Portland, OR 97219",
+      "latitude": 45.441282,
+      "longitude": -122.676195,
       "phone": "503-636-9886",
       "website": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=103",
       "pricing": {
@@ -7436,6 +7752,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.disabledhikers.com/",
       "pricing": {
@@ -7480,6 +7798,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "16160 SE Powell Blvd, Portland, OR",
+      "latitude": 45.494767,
+      "longitude": -122.49704,
       "phone": null,
       "website": "https://portland.gov/parks/powell-butte-nature-park",
       "pricing": {
@@ -7512,6 +7832,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "SE 7th & Sellwood, Portland",
+      "latitude": 45.46403,
+      "longitude": -122.649025,
       "phone": null,
       "website": null,
       "pricing": {
@@ -7544,6 +7866,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "18892 SW Kemmer Rd, Beaverton, OR 97007",
+      "latitude": 45.452776,
+      "longitude": -122.869601,
       "phone": null,
       "website": "https://www.oregonmetro.gov/parks/cooper-mountain-nature-park",
       "pricing": {
@@ -7576,6 +7900,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "3010 SE Oxbow Parkway, Gresham, OR 97080",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": null,
       "pricing": {
@@ -7614,6 +7940,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "19255 SW Pacific Hwy, Sherwood, OR 97140",
+      "latitude": 45.382164,
+      "longitude": -122.832228,
       "phone": "503-625-5944",
       "website": "https://www.fws.gov/refuge/tualatin-river",
       "pricing": {
@@ -7654,6 +7982,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "4000 SW Fairview Blvd, Portland, OR 97221",
+      "latitude": 45.515671,
+      "longitude": -122.715664,
       "phone": "503-865-8733",
       "website": "https://www.hoytarboretum.org/",
       "pricing": {
@@ -7705,6 +8035,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "5151 NW Cornell Rd, Portland, OR 97210",
+      "latitude": 45.526789,
+      "longitude": -122.730504,
       "phone": "503-292-6855",
       "website": "https://birdallianceoregon.org/",
       "pricing": {
@@ -7740,6 +8072,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "Multiple locations in Gresham",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-618-2300",
       "website": "https://greshamoregon.gov/Parks/",
       "pricing": {
@@ -7775,6 +8109,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "21199 NE Blue Lake Rd, Fairview, OR 97024",
+      "latitude": 45.555935,
+      "longitude": -122.445195,
       "phone": null,
       "website": "https://www.oregonmetro.gov/places/blue-lake-regional-park-disc-golf-course",
       "pricing": {
@@ -7807,6 +8143,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "219 S Main Ave, Gresham, OR",
+      "latitude": 45.495626,
+      "longitude": -122.430965,
       "phone": null,
       "website": "https://www.greshamoregon.gov",
       "pricing": {
@@ -7866,6 +8204,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "Wilsonville, OR",
+      "latitude": 45.309922,
+      "longitude": -122.76816,
       "phone": null,
       "website": "https://www.oregonmetro.gov/parks/graham-oaks-nature-park",
       "pricing": {
@@ -7898,6 +8238,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "Happy Valley, OR",
+      "latitude": 45.428679,
+      "longitude": -122.497174,
       "phone": null,
       "website": "https://www.oregonmetro.gov/places/scouters-mountain-nature-park",
       "pricing": {
@@ -7930,6 +8272,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "Clackamas, OR",
+      "latitude": 45.160882,
+      "longitude": -122.230504,
       "phone": null,
       "website": "https://www.oregonmetro.gov/places/mount-talbert-nature-park",
       "pricing": {
@@ -7962,6 +8306,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "Cook Park, Tigard, OR 97224",
+      "latitude": 45.401284,
+      "longitude": -122.774094,
       "phone": null,
       "website": "https://www.tigard-or.gov/explore-tigard",
       "pricing": {
@@ -8000,6 +8346,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": "8515 SW Tualatin Rd, Tualatin, OR 97062",
+      "latitude": 45.385732,
+      "longitude": -122.764039,
       "phone": null,
       "website": "https://www.tualatinoregon.gov/recreation/tualatin-community-park",
       "pricing": {
@@ -8037,6 +8385,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "29190 S Barlow Road, Canby, OR 97013",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-266-3193",
       "website": null,
       "pricing": {
@@ -8078,6 +8428,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "21024 NW Gillihan Road, Portland, OR 97231",
+      "latitude": 45.677419,
+      "longitude": -122.778631,
       "phone": "503-621-3909",
       "website": null,
       "pricing": {
@@ -8116,6 +8468,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "3223 SE 92nd Ave, Portland, OR 97266",
+      "latitude": 45.49885,
+      "longitude": -122.568905,
       "phone": "503-442-8228",
       "website": "https://www.pobcpantry.com/",
       "pricing": {
@@ -8151,6 +8505,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "8959 SW Barbur Blvd, Portland, OR",
+      "latitude": 45.460942,
+      "longitude": -122.707078,
       "phone": "503-246-1663",
       "website": "https://nhpdx.org/",
       "pricing": {
@@ -8210,6 +8566,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "5150 SW Watson Ave, Beaverton, OR 97005",
+      "latitude": 45.48248,
+      "longitude": -122.806706,
       "phone": null,
       "website": "https://www.bethelbeaverton.org/hunger",
       "pricing": {
@@ -8245,6 +8603,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "310 NW Glisan St, Portland, OR 97209",
+      "latitude": 45.526389,
+      "longitude": -122.673826,
       "phone": "503-241-4340",
       "website": "https://blanchethouse.org",
       "pricing": {
@@ -8277,6 +8637,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "618 NW Davis St, Portland, OR 97209",
+      "latitude": 45.524375,
+      "longitude": -122.676939,
       "phone": "503-222-5694",
       "website": "https://sistersoftheroad.org",
       "pricing": {
@@ -8310,6 +8672,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "111 W Burnside St, Portland, OR 97209",
+      "latitude": 45.52338,
+      "longitude": -122.671699,
       "phone": "503-647-7466",
       "website": "https://portlandrescuemission.org",
       "pricing": {
@@ -8342,6 +8706,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "North Park Blocks, NW Glisan St between 8th Ave & Park Ave, Portland, OR",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-255-7611",
       "website": "https://potluckinthepark.org/",
       "pricing": {
@@ -8378,6 +8744,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "17514 SW Scholls Ferry Rd, Beaverton, OR 97007",
+      "latitude": 45.423997,
+      "longitude": -122.857241,
       "phone": "971-217-8577",
       "website": "https://sikhcenteroforegon.com/",
       "pricing": {
@@ -8412,6 +8780,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-736-6325",
       "website": "https://mowp.org",
       "pricing": {
@@ -8447,6 +8817,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "22255 SE Borges Road, Damascus, OR 97089",
+      "latitude": 45.447053,
+      "longitude": -122.434093,
       "phone": "503-658-2237",
       "website": "http://www.olson-farms.com/",
       "pricing": {
@@ -8481,6 +8853,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "16511 NW Gillihan Road, Sauvie Island, OR",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-621-3874",
       "website": "https://www.thepumpkinpatch.com/",
       "pricing": {
@@ -8514,6 +8888,8 @@
       "categoryName": "Parks & Nature",
       "color": "#228B22",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-823-1612",
       "website": "https://www.portland.gov/parks/community-gardens",
       "pricing": {
@@ -8556,6 +8932,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "17805 SE Stark St, Portland, OR",
+      "latitude": 45.519888,
+      "longitude": -122.479827,
       "phone": "503-674-8785",
       "website": "https://www.snowcap.org/",
       "pricing": {
@@ -8588,6 +8966,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "Rosewood Neighborhood Garden, 17200 SE Alder, Portland, OR",
+      "latitude": 45.516102,
+      "longitude": -122.486268,
       "phone": "971-231-4191",
       "website": "https://outgrowinghunger.org/",
       "pricing": {
@@ -8620,6 +9000,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "8800 SE 80th Ave, Portland, OR 97206",
+      "latitude": 45.460202,
+      "longitude": -122.581345,
       "phone": "503-771-7914",
       "website": "https://www.cscoregon.org",
       "pricing": {
@@ -8656,6 +9038,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "13821 Fir St, Oregon City, OR 97045",
+      "latitude": 45.329391,
+      "longitude": -122.583239,
       "phone": null,
       "website": "https://www.gleanerscc.org",
       "pricing": {
@@ -8692,6 +9076,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "Millennium Plaza Park, Lake Oswego, OR",
+      "latitude": 45.417767,
+      "longitude": -122.664918,
       "phone": null,
       "website": "https://www.ci.oswego.or.us/lofm",
       "pricing": {
@@ -8731,6 +9117,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "Arts Plaza, NE 3rd St and NE Hood Ave, Gresham, OR",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.greshamfarmersmarket.com",
       "pricing": {
@@ -8771,6 +9159,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "SE Main St & Harrison St, Milwaukie, OR 97222",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://milwaukiefarmersmarket.com/",
       "pricing": {
@@ -8812,6 +9202,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "Downtown Rockwood Plaza, 458 SE 185th Ave, Gresham, OR",
+      "latitude": 45.519787,
+      "longitude": -122.47219,
       "phone": null,
       "website": "https://rockwoodcommunitymarket.com",
       "pricing": {
@@ -8851,6 +9243,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "835 SE 162nd Ave, Portland, OR 97233",
+      "latitude": 45.516151,
+      "longitude": -122.497378,
       "phone": "503-252-8415",
       "website": "https://www.lynwoodfriends.org",
       "pricing": {
@@ -8892,6 +9286,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "12436 SE Stark St, Portland, OR 97233",
+      "latitude": 45.518749,
+      "longitude": -122.535025,
       "phone": "503-823-2102",
       "website": "https://sunshinedivision.org/",
       "pricing": {
@@ -8922,6 +9318,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://meetup.com/pdxgames",
       "pricing": {
@@ -8970,6 +9368,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "5440 SE Kellogg Creek Dr, Milwaukie, OR 97222",
+      "latitude": 45.426456,
+      "longitude": -122.606167,
       "phone": "503-653-8100",
       "website": "https://ncprd.org/milwaukie-community-center",
       "pricing": {
@@ -9038,6 +9438,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "133 SW 2nd Ave, Suite 304, Portland",
+      "latitude": 45.521613,
+      "longitude": -122.672524,
       "phone": "503-796-9224",
       "website": "https://writearound.org",
       "pricing": {
@@ -9091,6 +9493,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://friendsoftrees.org",
       "pricing": {
@@ -9124,6 +9528,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.solve.org",
       "pricing": {
@@ -9175,6 +9581,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "7900 NE 33rd Dr, Portland, OR 97211",
+      "latitude": 45.57976,
+      "longitude": -122.631954,
       "phone": null,
       "website": "https://oregonfoodbank.org/get-involved/volunteer",
       "pricing": {
@@ -9208,6 +9616,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "7688 SW Capitol Highway, Portland, OR 97219",
+      "latitude": 45.468285,
+      "longitude": -122.709854,
       "phone": "503-823-2787",
       "website": null,
       "pricing": {
@@ -9248,6 +9658,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "3201 NE 148th Ave, Portland, OR",
+      "latitude": 45.546314,
+      "longitude": -122.510614,
       "phone": null,
       "website": "https://portlandartguild.org/",
       "pricing": {
@@ -9288,6 +9700,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "3524 SW Troy St, Portland, OR 97219",
+      "latitude": 45.468116,
+      "longitude": -122.713466,
       "phone": "503-244-5024",
       "website": "https://www.northwestwools.com/",
       "pricing": {
@@ -9329,6 +9743,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "Rose City Park Presbyterian Church (Fellowship Hall), 1907 NE 45th Ave, Portland, OR 97213",
+      "latitude": 45.536717,
+      "longitude": -122.617492,
       "phone": null,
       "website": "https://www.puddletownknittersguild.com/",
       "pricing": {
@@ -9370,6 +9786,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "615 5th Street, Oregon City, OR 97045",
+      "latitude": 45.355022,
+      "longitude": -122.605761,
       "phone": "503-657-8287",
       "website": "https://www.orcity.org/pioneercenter",
       "pricing": {
@@ -9421,6 +9839,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "505 G Ave, Lake Oswego, OR 97034",
+      "latitude": 45.426262,
+      "longitude": -122.66787,
       "phone": "503-635-3758",
       "website": "https://www.ci.oswego.or.us/acc",
       "pricing": {
@@ -9518,6 +9938,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-650-5622",
       "website": "https://www.clackamas.us/socialservices/crc.html",
       "pricing": {
@@ -9556,6 +9978,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "8815 SW O'Mara St, Tigard, OR 97223",
+      "latitude": 45.423364,
+      "longitude": -122.768298,
       "phone": "503-620-4613",
       "website": "https://www.tigard-or.gov/explore-tigard/tigard-senior-center",
       "pricing": {
@@ -9596,6 +10020,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "5550 SW Hall Blvd, Beaverton, OR 97005",
+      "latitude": 45.479742,
+      "longitude": -122.804137,
       "phone": "503-629-6342",
       "website": "https://www.thprd.org/facilities/recreation/elsie-stuhr-center",
       "pricing": {
@@ -9680,6 +10106,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "5100 NE Hidden Creek Dr, Hillsboro, OR 97124",
+      "latitude": 45.52445,
+      "longitude": -122.928112,
       "phone": "503-681-6120",
       "website": "https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/hidden-creek",
       "pricing": {
@@ -9722,6 +10150,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "8513 SW Tualatin Rd, Tualatin, OR 97062",
+      "latitude": 45.385583,
+      "longitude": -122.760451,
       "phone": "503-691-3061",
       "website": "https://www.tualatinoregon.gov/recreation/adult-programs-and-services",
       "pricing": {
@@ -9768,6 +10198,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.repairpdx.org",
       "pricing": {
@@ -9872,6 +10304,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.clackamas.us/recycling/repairfair",
       "pricing": {
@@ -9911,6 +10345,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "Lone Fir Cemetery, SE 26th Ave & SE Stark St, Portland, OR 97214",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.friendsoflonefircemetery.org",
       "pricing": {
@@ -10030,6 +10466,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "Various locations across Portland metro",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.handsonportland.org/",
       "pricing": {
@@ -10063,6 +10501,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "1820 NE 40th Ave, Portland, OR 97212",
+      "latitude": 45.536048,
+      "longitude": -122.621824,
       "phone": "503-288-8303",
       "website": "https://www.communityfpa.org/",
       "pricing": {
@@ -10131,6 +10571,8 @@
       "categoryName": "Social Activities",
       "color": "#FF69B4",
       "address": "1731 SE 10th Ave, Portland, OR 97214",
+      "latitude": 45.510308,
+      "longitude": -122.656038,
       "phone": null,
       "website": "https://www.freegeek.org/",
       "pricing": {
@@ -10163,6 +10605,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "18680 SW Shaw St, Aloha, OR 97007",
+      "latitude": 45.493419,
+      "longitude": -122.869937,
       "phone": "503-356-6835",
       "website": "https://www.washconami.org",
       "pricing": {
@@ -10215,6 +10659,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "909 NW 24th Avenue, Portland, OR 97210",
+      "latitude": 45.529256,
+      "longitude": -122.700932,
       "phone": "503-222-5756",
       "website": "https://www.portlandalano.org",
       "pricing": {
@@ -10327,6 +10773,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "100 SE Cleveland Ave, Gresham, OR 97030",
+      "latitude": 45.497484,
+      "longitude": -122.42077,
       "phone": "503-465-2749",
       "website": "https://www.bridgestochange.com",
       "pricing": {
@@ -10385,6 +10833,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "1820 NE 40th Avenue, Portland, OR 97212",
+      "latitude": 45.536048,
+      "longitude": -122.621824,
       "phone": "503-288-8303",
       "website": "https://www.communityfpa.org",
       "pricing": {
@@ -10454,6 +10904,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Multiple locations including Pioneer Courthouse Square and Electric Blocks (Central Eastside)",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://pdxwlf.com",
       "pricing": {
@@ -10495,6 +10947,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Lillis-Albina Park, North Portland",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.goodnthehood.org",
       "pricing": {
@@ -10536,6 +10990,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Washington County Fairgrounds, 801 NE 34th Ave, Hillsboro, OR",
+      "latitude": 45.529276,
+      "longitude": -122.947809,
       "phone": null,
       "website": "https://www.bigfairfun.com",
       "pricing": {
@@ -10575,6 +11031,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Various locations throughout Portland metro",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.shift2bikes.org",
       "pricing": {
@@ -10616,6 +11074,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "21+ locations in Multnomah and Washington Counties",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-226-8061",
       "website": "https://urbangleaners.org",
       "pricing": {
@@ -10652,6 +11112,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "Multiple locations across Portland - see website for map",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://sites.google.com/view/pdx-free-fridge/home",
       "pricing": {
@@ -10688,6 +11150,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "NE Hancock & NE 44th Ave, Portland, OR 97213",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.hollywoodfarmersmarket.org",
       "pricing": {
@@ -10727,6 +11191,8 @@
       "categoryName": "Food & Farms",
       "color": "#DAA520",
       "address": "Various dining centers throughout Portland metro",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.mowp.org",
       "pricing": {
@@ -10767,6 +11233,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Various city parks throughout Portland",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-823-2525",
       "website": "https://www.portland.gov/parks/arts-culture/summer-free-all",
       "pricing": {
@@ -10832,6 +11300,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": "Historic Milwaukie Main Street, Milwaukie, OR 97222",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.firstfridaymilwaukie.com/",
       "pricing": {
@@ -10873,6 +11343,8 @@
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-823-4000",
       "website": "https://www.portland.gov/sunday-parkways",
       "pricing": {
@@ -10916,6 +11388,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "4515 NE Martin Luther King Jr Blvd, Portland, OR 97211",
+      "latitude": 45.555714,
+      "longitude": -122.661657,
       "phone": "503-298-5636",
       "website": "https://prismmoves.org",
       "pricing": {
@@ -10968,6 +11442,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "1225 SE Grand Ave, Portland, OR 97214",
+      "latitude": 45.514133,
+      "longitude": -122.660881,
       "phone": null,
       "website": "https://portlandstrengthcollective.com",
       "pricing": {
@@ -11008,6 +11484,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "3014 NE Killingsworth St, Portland (Northeast) and 4029 SE Hawthorne, Portland (Southeast)",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-877-YOGI",
       "website": "https://thepeoplesyoga.org",
       "pricing": {
@@ -11046,6 +11524,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "Various hiking locations",
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://fatgirlshiking.com/portland-or/",
       "pricing": {
@@ -11084,6 +11564,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "10541 SE Cherry Blossom Dr, Portland, OR 97216",
+      "latitude": 45.515372,
+      "longitude": -122.554483,
       "phone": "503-241-0850",
       "website": "https://adaptivesportsnw.org",
       "pricing": {
@@ -11151,6 +11633,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "10170 SW Nimbus Ave, Suite H7, Portland, OR 97223 (HQ); also Tigard, Portland, Hillsboro, Lake Oswego; and via Zoom",
+      "latitude": null,
+      "longitude": null,
       "phone": "971-645-6776",
       "website": "https://everybodyathletics.org",
       "pricing": {
@@ -11215,6 +11699,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "1737 NW 26th Ave, Portland, OR 97210",
+      "latitude": 45.535196,
+      "longitude": -122.705254,
       "phone": "503-228-4391",
       "website": "https://fhpdx.org",
       "pricing": {
@@ -11309,6 +11795,8 @@
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
       "address": "Charles Jordan, East Portland, Matt Dishman, Montavilla, Mt. Scott, Southwest Community Centers",
+      "latitude": null,
+      "longitude": null,
       "phone": "503-823-2525",
       "website": "https://www.portland.gov/parks/recreation/teenforce",
       "pricing": {
@@ -11349,6 +11837,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "333 SW Park Ave, Portland, OR 97205",
+      "latitude": 45.521959,
+      "longitude": -122.679643,
       "phone": null,
       "website": "https://www.portlandhearingvoices.net",
       "pricing": {
@@ -11400,6 +11890,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": "6171 SW Capitol Highway, Portland, OR 97239",
+      "latitude": 45.480052,
+      "longitude": -122.691292,
       "phone": "503-894-7560",
       "website": "https://hopewellhousepdx.org/grief-support/",
       "pricing": {
@@ -11450,6 +11942,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-232-7676",
       "website": "https://pflagpdx.org",
       "pricing": {
@@ -11517,6 +12011,8 @@
       "categoryName": "Arts & Culture",
       "color": "#9370DB",
       "address": "2365 SW Cedar Hills Blvd, Beaverton, OR",
+      "latitude": 45.503018,
+      "longitude": -122.804096,
       "phone": null,
       "website": "https://communityjams.org",
       "pricing": {
@@ -11592,6 +12088,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://multcolib.org/my-discovery-pass",
       "pricing": {
@@ -11712,6 +12210,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://www.wccls.org/events-activities/wccls-adventure-pass",
       "pricing": {
@@ -11746,6 +12246,8 @@
       "categoryName": "Discount Programs",
       "color": "#4169E1",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": null,
       "website": "https://culturalpassexpress.quipugroup.net/",
       "pricing": {
@@ -11816,6 +12318,8 @@
       "categoryName": "Peer Support",
       "color": "#7B68EE",
       "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-954-2094",
       "website": "https://returningveterans.org",
       "pricing": {

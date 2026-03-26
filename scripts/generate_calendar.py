@@ -761,6 +761,8 @@ def generate_json_feed(entries: list[dict]) -> dict:
             "categoryName": CATEGORY_NAMES.get(entry.get("category", ""), entry.get("category", "")),
             "color": CATEGORY_COLORS.get(entry.get("category", ""), "#808080"),
             "address": entry.get("address"),
+            "latitude": entry.get("latitude"),
+            "longitude": entry.get("longitude"),
             "phone": entry.get("phone"),
             "website": entry.get("website"),
             "pricing": entry.get("pricing"),

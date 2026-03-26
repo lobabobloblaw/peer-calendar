@@ -618,6 +618,8 @@
         .list-view { display: none; }
         .seasonal-view { display: none; }
         .seasonal-view.active { display: block; }
+        .map-view { display: none; }
+        .map-view.active { display: block; }
 
         /* Seasonal view styles */
         .seasonal-event-card {
@@ -1902,6 +1904,8 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 <body>
     <div id="sky-bg" aria-hidden="true"></div>
@@ -1992,6 +1996,7 @@
                         <button class="view-tab active" data-view="grid" role="tab" aria-selected="true" aria-controls="grid-view">Calendar</button>
                         <button class="view-tab" data-view="list" role="tab" aria-selected="false" aria-controls="list-view">List</button>
                         <button class="view-tab desktop-only" data-view="seasonal" role="tab" aria-selected="false" aria-controls="seasonal-view">Seasonal</button>
+                        <button class="view-tab" data-view="map" role="tab" aria-selected="false" aria-controls="map-view">Map</button>
                     </div>
                     <button class="filter-btn" id="filter-btn" onclick="toggleFilterPanel()">
                         Filter <span class="filter-badge" id="filter-badge" style="display:none;">0</span>
@@ -2062,6 +2067,9 @@
                 </div>
                 <div class="seasonal-view" id="seasonal-view" role="tabpanel" aria-labelledby="seasonal-tab">
                     <div class="loading-indicator" id="seasonal-loading"><div class="loading-spinner"></div>Loading seasonal events...</div>
+                </div>
+                <div class="map-view" id="map-view" role="tabpanel" aria-labelledby="map-tab">
+                    <div id="map-container" style="width:100%;height:500px;border-radius:8px;"></div>
                 </div>
             </div>
 
@@ -3447,6 +3455,7 @@
             renderListView();
             renderGridView();
             renderSeasonalView();
+            if (currentView === 'map') renderMapMarkers();
         }
 
         // Scroll to today in list view (if viewing current month and today has events)
@@ -3729,6 +3738,71 @@
             });
         }
 
+        // ========== MAP VIEW ==========
+        let mapInstance = null;
+        let mapMarkers = [];
+
+        function initMap() {
+            if (mapInstance) {
+                mapInstance.invalidateSize();
+                return;
+            }
+            if (!allEvents || allEvents.length === 0) return;
+
+            // Portland center
+            mapInstance = L.map('map-container').setView([45.52, -122.68], 11);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>',
+                maxZoom: 18,
+            }).addTo(mapInstance);
+
+            renderMapMarkers();
+        }
+
+        function renderMapMarkers() {
+            if (!mapInstance) return;
+
+            // Clear existing markers
+            mapMarkers.forEach(m => mapInstance.removeLayer(m));
+            mapMarkers = [];
+
+            const events = allEvents.filter(e => e.latitude && e.longitude && matchesAllFilters(e));
+
+            events.forEach(ev => {
+                const color = ev.color || '#808080';
+                const icon = L.divIcon({
+                    className: 'map-marker-icon',
+                    html: `<div style="background:${color};width:12px;height:12px;border-radius:50%;border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,0.4);"></div>`,
+                    iconSize: [16, 16],
+                    iconAnchor: [8, 8],
+                });
+
+                const marker = L.marker([ev.latitude, ev.longitude], { icon })
+                    .addTo(mapInstance);
+
+                // Build popup content
+                let popup = `<strong>${escapeHtml(ev.title)}</strong><br>`;
+                popup += `<span style="color:${color};font-size:0.85em;">${escapeHtml(ev.categoryName)}</span><br>`;
+                if (ev.address) popup += `<span style="font-size:0.85em;">${escapeHtml(ev.address)}</span><br>`;
+                if (ev.pricing) {
+                    const price = typeof ev.pricing === 'object' ? ev.pricing.description : ev.pricing;
+                    if (price) popup += `<span style="font-size:0.85em;"><strong>Cost:</strong> ${escapeHtml(String(price))}</span><br>`;
+                }
+                if (ev.website) popup += `<a href="${escapeHtml(ev.website)}" target="_blank" rel="noopener" style="font-size:0.85em;">Website</a>`;
+
+                marker.bindPopup(popup, { maxWidth: 280 });
+                mapMarkers.push(marker);
+            });
+
+            // Fit bounds if we have markers
+            if (mapMarkers.length > 0) {
+                const group = L.featureGroup(mapMarkers);
+                mapInstance.fitBounds(group.getBounds().pad(0.1));
+            }
+
+            announce(`Map showing ${mapMarkers.length} locations`);
+        }
+
         // View tab switching
         document.querySelectorAll('.view-tab').forEach(tab => {
             tab.addEventListener('click', function() {
@@ -3743,6 +3817,7 @@
                 document.getElementById('list-view').classList.toggle('active', currentView === 'list');
                 document.getElementById('grid-view').classList.toggle('active', currentView === 'grid');
                 document.getElementById('seasonal-view').classList.toggle('active', currentView === 'seasonal');
+                document.getElementById('map-view').classList.toggle('active', currentView === 'map');
 
                 // Auto-scroll to today when switching to list view
                 if (currentView === 'list' && isCurrentMonth()) {
@@ -3752,6 +3827,11 @@
                 // Render seasonal view when switching to it
                 if (currentView === 'seasonal') {
                     renderSeasonalView();
+                }
+
+                // Initialize map when switching to map view
+                if (currentView === 'map') {
+                    initMap();
                 }
             });
         });
