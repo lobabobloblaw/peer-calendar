@@ -38,11 +38,11 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 - `scripts/generate_calendar.py` - Generates iCal/ICS calendar feeds to `output/`
 - `scripts/generate_monthly_calendars.py` - Expands recurring events into month-specific calendars in `distribution/`
 - `scripts/generate_guides.py` - Generates `guides/resources-guide.md` from sources.yaml (replaces manual guide maintenance)
-- `scripts/geocode_addresses.py` - Geocodes addresses via Nominatim, stores lat/lng in sources.yaml
+- `scripts/geocode_addresses.py` - Geocodes addresses via Nominatim, stores lat/lng in sources.yaml, validates Portland metro bounds
 - `scripts/audit_check.py` - Reports entries due for audit, unverified entries, statistics
 - `scripts/audit_complete.py` - Mark entries as audited, auto-updates dates and logs
 - `scripts/validate_schedules.py` - Validates all schedule strings parse correctly (run before calendar generation)
-- `scripts/test_schedule_parsing.py` - 47-test suite for schedule parsing and audience detection
+- `scripts/test_schedule_parsing.py` - 56-test suite for schedule parsing and audience detection
 - `scripts/deduplicate_entries.py` - Merge duplicate entries in sources.yaml
 - `scripts/add_type_fields.py` - Migration script for adding location_type/resource_type fields
 - `scripts/add_audience_fields.py` - Migration script for adding audience tags
@@ -357,6 +357,8 @@ python scripts/generate_guides.py --category peer_support
 # Geocode addresses (adds lat/lng to sources.yaml, ~1 sec per address)
 python scripts/geocode_addresses.py              # Geocode entries missing coordinates
 python scripts/geocode_addresses.py --preview    # Preview what would be geocoded
+python scripts/geocode_addresses.py --force      # Re-geocode all entries (bypasses cache)
+python scripts/geocode_addresses.py --check-bounds  # Audit all coordinates are in Portland metro
 ```
 
 ## GitHub Pages Hosting
