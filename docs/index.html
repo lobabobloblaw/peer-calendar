@@ -629,6 +629,20 @@
         .seasonal-view.active { display: block; }
         .map-view { display: none; }
         .map-view.active { display: block; }
+        #map-container {
+            height: 65vh;
+            min-height: 350px;
+            max-height: 700px;
+            position: relative;
+        }
+        #map-legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 8px 4px;
+            font-size: 0.8em;
+            color: var(--text-secondary);
+        }
 
         /* Seasonal view styles */
         .seasonal-event-card {
@@ -1096,6 +1110,10 @@
         }
 
         @media (max-width: 600px) {
+            #map-container {
+                height: 55vh;
+                min-height: 300px;
+            }
             .grid-day { min-height: 60px; }
             .grid-event { display: none; }
             .day-number.has-events::after {
@@ -1912,6 +1930,28 @@
                 display: flex;
             }
         }
+
+        /* Reduced motion support */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        /* Focus-visible styles for keyboard navigation */
+        :focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+        .view-tab:focus-visible {
+            box-shadow: 0 0 0 4px rgba(224, 128, 80, 0.25);
+        }
+        .filter-pill:focus-within {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
@@ -2013,7 +2053,7 @@
                     <button class="print-btn" onclick="openPrintDialog()" title="Print calendar">🖨️ Print</button>
                 </div>
                 <div class="filter-panel" id="filter-panel">
-                    <input type="search" class="filter-search" id="filter-search" placeholder="Search events, locations, categories..." oninput="updateFilters()" aria-label="Search events">
+                    <input type="search" class="filter-search" id="filter-search" placeholder="Search events, locations, categories..." oninput="debouncedUpdateFilters()" aria-label="Search events">
                     <div class="filter-group" data-group="category">
                         <span class="filter-group-label">Category</span>
                         <div class="filter-pills">
@@ -2078,7 +2118,8 @@
                     <div class="loading-indicator" id="seasonal-loading"><div class="loading-spinner"></div>Loading seasonal events...</div>
                 </div>
                 <div class="map-view" id="map-view" role="tabpanel" aria-labelledby="map-tab">
-                    <div id="map-container" style="width:100%;height:500px;border-radius:8px;"></div>
+                    <div id="map-container" style="width:100%;border-radius:8px;" aria-label="Interactive map of resource locations" role="application"></div>
+                    <div id="map-legend"></div>
                 </div>
             </div>
 
@@ -2261,6 +2302,15 @@
         let searchQuery = '';
         let lastFocusedElement = null;
 
+        function debounce(fn, delay) {
+            let timer;
+            return function(...args) {
+                clearTimeout(timer);
+                timer = setTimeout(() => fn.apply(this, args), delay);
+            };
+        }
+        const debouncedUpdateFilters = debounce(function() { updateFilters(); }, 250);
+
         // Audience label mappings
         const AUDIENCE_LABELS = {
             children: "Children (3-12)",
@@ -2326,7 +2376,7 @@
             }
 
             renderCurrentView();
-            announceFilterResults();
+            if (currentView !== 'map') announceFilterResults();
         }
 
         function clearFilters() {
@@ -3764,15 +3814,24 @@
         let mapMarkers = [];
 
         function initMap() {
+            if (typeof L === 'undefined') {
+                const container = document.getElementById('map-container');
+                if (container) container.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--text-secondary);"><p>Map could not load. Please check your internet connection and refresh.</p></div>';
+                return;
+            }
             if (mapInstance) {
-                // Container was hidden; recalculate size after it becomes visible
-                setTimeout(() => mapInstance.invalidateSize(), 100);
+                // Container was hidden; recalculate size and re-render markers
+                setTimeout(() => {
+                    mapInstance.invalidateSize();
+                    renderMapMarkers();
+                }, 100);
                 return;
             }
             if (!eventsData || !eventsData.events) return;
 
             // Delay creation until the container is visible and has dimensions
             setTimeout(() => {
+                if (currentView !== 'map') return;  // User navigated away
                 mapInstance = L.map('map-container').setView([45.52, -122.68], 11);
                 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -3784,13 +3843,13 @@
         }
 
         function renderMapMarkers() {
-            if (!mapInstance || !eventsData) return;
+            if (typeof L === 'undefined' || !mapInstance || !eventsData) return;
 
             // Clear existing markers
             mapMarkers.forEach(m => mapInstance.removeLayer(m));
             mapMarkers = [];
 
-            const events = eventsData.events.filter(e => e.latitude && e.longitude && matchesAllFilters(e));
+            const events = eventsData.events.filter(e => e.latitude != null && e.longitude != null && matchesAllFilters(e));
 
             events.forEach(ev => {
                 const color = ev.color || '#808080';
@@ -3804,6 +3863,22 @@
                 const marker = L.marker([ev.latitude, ev.longitude], { icon })
                     .addTo(mapInstance);
 
+                // Make marker keyboard-accessible
+                marker.on('add', function() {
+                    const el = this.getElement();
+                    if (el) {
+                        el.setAttribute('tabindex', '0');
+                        el.setAttribute('role', 'button');
+                        el.setAttribute('aria-label', `${ev.title} - ${ev.categoryName}${ev.address ? ', ' + ev.address : ''}`);
+                        el.addEventListener('keydown', (e) => {
+                            if (e.key === 'Enter' || e.key === ' ') {
+                                e.preventDefault();
+                                marker.openPopup();
+                            }
+                        });
+                    }
+                });
+
                 // Build popup content
                 let popup = `<strong>${escapeHtml(ev.title)}</strong><br>`;
                 popup += `<span style="color:${color};font-size:0.85em;">${escapeHtml(ev.categoryName)}</span><br>`;
@@ -3813,15 +3888,42 @@
                     if (price) popup += `<span style="font-size:0.85em;"><strong>Cost:</strong> ${escapeHtml(String(price))}</span><br>`;
                 }
                 if (ev.website) popup += `<a href="${escapeHtml(ev.website)}" target="_blank" rel="noopener" style="font-size:0.85em;">Website</a>`;
+                if (ev.latitude && ev.longitude) popup += ` <a href="https://www.google.com/maps/dir/?api=1&destination=${ev.latitude},${ev.longitude}" target="_blank" rel="noopener" style="font-size:0.85em;">Directions</a>`;
 
-                marker.bindPopup(popup, { maxWidth: 280 });
+                marker.bindPopup(popup, { maxWidth: Math.min(280, window.innerWidth - 60) });
                 mapMarkers.push(marker);
             });
 
+            // Empty state overlay
+            const emptyMsg = document.getElementById('map-empty-msg');
+            if (mapMarkers.length === 0) {
+                if (!emptyMsg) {
+                    const msg = document.createElement('div');
+                    msg.id = 'map-empty-msg';
+                    msg.style.cssText = 'position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:1000;background:rgba(255,255,255,0.95);padding:16px 24px;border-radius:8px;text-align:center;color:var(--text-secondary);box-shadow:0 2px 8px rgba(0,0,0,0.15);';
+                    msg.textContent = 'No locations match your current filters.';
+                    document.getElementById('map-container').appendChild(msg);
+                }
+            } else if (emptyMsg) {
+                emptyMsg.remove();
+            }
+
             // Fit bounds if we have markers
-            if (mapMarkers.length > 0) {
+            if (mapMarkers.length === 1) {
+                mapInstance.setView(mapMarkers[0].getLatLng(), 14);
+            } else if (mapMarkers.length > 1) {
                 const group = L.featureGroup(mapMarkers);
                 mapInstance.fitBounds(group.getBounds().pad(0.1));
+            }
+
+            // Update legend with visible categories
+            const legendEl = document.getElementById('map-legend');
+            if (legendEl) {
+                const cats = [...new Set(events.map(e => e.category))];
+                legendEl.innerHTML = cats.map(cat => {
+                    const ev = events.find(e => e.category === cat);
+                    return `<span style="display:inline-flex;align-items:center;gap:4px;"><span style="background:${ev.color};width:10px;height:10px;border-radius:50%;display:inline-block;border:1px solid rgba(0,0,0,0.15);"></span>${escapeHtml(ev.categoryName)}</span>`;
+                }).join('');
             }
 
             announce(`Map showing ${mapMarkers.length} locations`);

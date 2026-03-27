@@ -26,6 +26,14 @@ NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 USER_AGENT = "PeerSupportCalendar/1.0 (avoigt@folktime.org)"
 CACHE_FILE = Path(__file__).parent / "geocode_cache.json"
 
+# Portland metro area bounding box (extended to include Woodburn, Hillsboro)
+PORTLAND_BOUNDS = {
+    "lat_min": 45.10,
+    "lat_max": 45.70,
+    "lng_min": -123.00,
+    "lng_max": -122.20,
+}
+
 
 def load_cache() -> dict:
     """Load geocoding cache from disk."""
@@ -62,6 +70,12 @@ def clean_address(address: str) -> str:
     return addr.strip().strip(',').strip()
 
 
+def _in_portland_metro(lat: float, lng: float) -> bool:
+    """Check if coordinates fall within the Portland metro area."""
+    return (PORTLAND_BOUNDS["lat_min"] <= lat <= PORTLAND_BOUNDS["lat_max"] and
+            PORTLAND_BOUNDS["lng_min"] <= lng <= PORTLAND_BOUNDS["lng_max"])
+
+
 def _query_nominatim(query: str) -> tuple[float, float] | None:
     """Send a single query to Nominatim. Returns (lat, lng) or None."""
     params = urllib.parse.urlencode({
@@ -86,9 +100,9 @@ def _query_nominatim(query: str) -> tuple[float, float] | None:
     return None
 
 
-def geocode_address(address: str, cache: dict) -> tuple[float, float] | None:
+def geocode_address(address: str, cache: dict, force: bool = False) -> tuple[float, float] | None:
     """Geocode a single address. Tries cleaned version if original fails."""
-    if address in cache:
+    if not force and address in cache:
         result = cache[address]
         if result:
             return (result["lat"], result["lng"])
@@ -101,16 +115,24 @@ def geocode_address(address: str, cache: dict) -> tuple[float, float] | None:
     # Try original address
     result = _query_nominatim(address)
     if result:
-        cache[address] = {"lat": result[0], "lng": result[1]}
-        return result
+        if not _in_portland_metro(result[0], result[1]):
+            print(f"    WARNING: ({result[0]:.4f}, {result[1]:.4f}) outside Portland metro, discarding", file=sys.stderr)
+            result = None
+        else:
+            cache[address] = {"lat": result[0], "lng": result[1]}
+            return result
 
     # Try cleaned address
     cleaned = clean_address(address)
     if cleaned != address:
         result = _query_nominatim(cleaned)
         if result:
-            cache[address] = {"lat": result[0], "lng": result[1]}
-            return result
+            if not _in_portland_metro(result[0], result[1]):
+                print(f"    WARNING: ({result[0]:.4f}, {result[1]:.4f}) outside Portland metro, discarding", file=sys.stderr)
+                result = None
+            else:
+                cache[address] = {"lat": result[0], "lng": result[1]}
+                return result
 
     cache[address] = None
     return None
@@ -121,11 +143,27 @@ def main():
     parser.add_argument("--sources", type=Path, default=get_default_sources_path())
     parser.add_argument("--force", action="store_true", help="Re-geocode all entries")
     parser.add_argument("--preview", action="store_true", help="Preview only, no writes")
+    parser.add_argument("--check-bounds", action="store_true",
+                        help="Check all existing coordinates are within Portland metro bounds")
     args = parser.parse_args()
 
     entries = load_sources(args.sources)
     cache = load_cache()
     print(f"Loaded {len(entries)} entries, {len(cache)} cached geocodes", file=sys.stderr)
+
+    if args.check_bounds:
+        bad = [(e["id"], e.get("latitude"), e.get("longitude"), e.get("address", ""))
+               for e in entries
+               if e.get("latitude") is not None and e.get("longitude") is not None
+               and not _in_portland_metro(e["latitude"], e["longitude"])]
+        if bad:
+            for eid, lat, lng, addr in bad:
+                print(f"  OUT OF BOUNDS: {eid} ({lat}, {lng}) — {addr}", file=sys.stderr)
+            print(f"\n{len(bad)} entries out of bounds", file=sys.stderr)
+            sys.exit(1)
+        else:
+            print("All coordinates within Portland metro bounds", file=sys.stderr)
+        return
 
     to_geocode = []
     for entry in entries:
@@ -151,7 +189,7 @@ def main():
         addr = entry["address"]
         print(f"  [{i+1}/{len(to_geocode)}] {entry['id']}: {addr}", file=sys.stderr, end="")
 
-        result = geocode_address(addr, cache)
+        result = geocode_address(addr, cache, force=args.force)
         if result:
             entry["latitude"] = round(result[0], 6)
             entry["longitude"] = round(result[1], 6)
