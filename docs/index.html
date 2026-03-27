@@ -6,11 +6,18 @@
     <meta name="theme-color" content="#1a2a4a" id="theme-color-meta">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Free calendar of peer support groups, fitness classes, arts events, and community resources for adults in the Portland metro area.">
+    <link rel="canonical" href="https://lobabobloblaw.github.io/peer-calendar/">
+    <meta property="og:title" content="2026 Peer Support Calendar - Portland Metro">
+    <meta property="og:description" content="Free calendar of peer support groups, fitness classes, arts events, and community resources for adults in the Portland metro area. Subscribe to stay updated.">
+    <meta property="og:url" content="https://lobabobloblaw.github.io/peer-calendar/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lobabobloblaw.github.io/peer-calendar/2026-calendar-2.png">
     <title>FolkTime 2026 Peer Support Calendar</title>
     <style>
         :root {
             --peer-support: #7B68EE;
-            --fitness: #32CD32;
+            --fitness: #1B8A1B;
             --events: #FF6347;
             --arts: #9370DB;
             --food: #DAA520;
@@ -19,6 +26,8 @@
             --bg-dark: #0a0a0a;
             --bg-card: rgba(255, 255, 255, 0.6);
             --bg-card-hover: rgba(255, 255, 255, 0.7);
+            --hover-bg: rgba(255, 255, 255, 0.7);
+            --bg-secondary: rgba(240, 240, 240, 0.95);
             --border-color: rgba(0, 0, 0, 0.1);
             --text-primary: #1a1a1a;
             --text-secondary: #333;
@@ -1944,7 +1953,7 @@
             <div class="instructions" id="instructions-google" style="display: none;">
                 <ol>
                     <li>Click "Copy Calendar Link" below</li>
-                    <li>Go to <a href="https://calendar.google.com" target="_blank">calendar.google.com</a> (desktop only)</li>
+                    <li>Go to <a href="https://calendar.google.com" target="_blank" rel="noopener noreferrer">calendar.google.com</a> (desktop only)</li>
                     <li>Click <strong>+</strong> next to "Other calendars" in the left sidebar</li>
                     <li>Select "From URL" and paste the link</li>
                 </ol>
@@ -1979,7 +1988,7 @@
 
                 <div class="contact-section">
                     <div style="margin-bottom: 8px; opacity: 0.85;">Events are subject to change—check with the source if uncertain.</div>
-                    <a href="#" onclick="showAboutModal(); return false;">About this site</a> · <a href="mailto:avoigt@folktime.org">Contact</a>
+                    <button type="button" onclick="showAboutModal()" style="background:none;border:none;color:inherit;font:inherit;cursor:pointer;padding:0;text-decoration:underline;">About this site</button> · <a href="mailto:avoigt@folktime.org">Contact</a>
                 </div>
 
                 <a href="https://www.folktime.org" target="_blank" rel="noopener" class="folktime-link desktop-only"><img src="folktime.png" alt="FolkTime" class="folktime-logo"></a>
@@ -1993,10 +2002,10 @@
                     <button id="next-month" aria-label="Next month">&rarr;</button>
                     <button class="today-btn" id="today-btn" onclick="goToToday()" aria-label="Go to today">Today</button>
                     <div class="view-tabs" role="tablist" aria-label="Calendar views">
-                        <button class="view-tab active" data-view="grid" role="tab" aria-selected="true" aria-controls="grid-view">Calendar</button>
-                        <button class="view-tab" data-view="list" role="tab" aria-selected="false" aria-controls="list-view">List</button>
-                        <button class="view-tab desktop-only" data-view="seasonal" role="tab" aria-selected="false" aria-controls="seasonal-view">Seasonal</button>
-                        <button class="view-tab" data-view="map" role="tab" aria-selected="false" aria-controls="map-view">Map</button>
+                        <button class="view-tab active" id="grid-tab" data-view="grid" role="tab" aria-selected="true" aria-controls="grid-view">Calendar</button>
+                        <button class="view-tab" id="list-tab" data-view="list" role="tab" aria-selected="false" aria-controls="list-view">List</button>
+                        <button class="view-tab desktop-only" id="seasonal-tab" data-view="seasonal" role="tab" aria-selected="false" aria-controls="seasonal-view">Seasonal</button>
+                        <button class="view-tab" id="map-tab" data-view="map" role="tab" aria-selected="false" aria-controls="map-view">Map</button>
                     </div>
                     <button class="filter-btn" id="filter-btn" onclick="toggleFilterPanel()">
                         Filter <span class="filter-badge" id="filter-badge" style="display:none;">0</span>
@@ -3055,9 +3064,9 @@
         }
 
         // Render list view
-        function renderListView() {
+        function renderListView(cachedEvents) {
             const container = document.getElementById('list-view');
-            const events = generateMonthEvents(currentMonth.getFullYear(), currentMonth.getMonth());
+            const events = cachedEvents || generateMonthEvents(currentMonth.getFullYear(), currentMonth.getMonth());
 
             if (events.length === 0) {
                 container.innerHTML = '<div class="no-events">No scheduled events this month</div>';
@@ -3338,7 +3347,7 @@
         }
 
         // Render grid view
-        function renderGridView() {
+        function renderGridView(cachedEvents) {
             const container = document.getElementById('calendar-grid');
             const year = currentMonth.getFullYear();
             const month = currentMonth.getMonth();
@@ -3347,7 +3356,7 @@
             const lastDay = new Date(year, month + 1, 0);
             const startOffset = firstDay.getDay();
 
-            const events = generateMonthEvents(year, month);
+            const events = cachedEvents || generateMonthEvents(year, month);
 
             // Store events by date for click handlers
             eventsByDateKey = {};
@@ -3443,19 +3452,23 @@
             const label = `${monthNames[currentMonth.getMonth()]} ${currentMonth.getFullYear()}`;
             document.getElementById('month-label').textContent = label;
 
-            renderListView();
-            renderGridView();
-
+            // Generate events once and pass to renderers
             const events = generateMonthEvents(currentMonth.getFullYear(), currentMonth.getMonth());
+            renderListView(events);
+            renderGridView(events);
+
             announce(`${label}, ${events.length} events`);
         }
 
         // Re-render current view (used by filters)
         function renderCurrentView() {
-            renderListView();
-            renderGridView();
-            renderSeasonalView();
-            if (currentView === 'map') renderMapMarkers();
+            if (currentView === 'list') renderListView();
+            else if (currentView === 'grid') renderGridView();
+            else if (currentView === 'seasonal') renderSeasonalView();
+            else if (currentView === 'map') renderMapMarkers();
+            // Also update the inactive grid/list since month nav needs them current
+            if (currentView !== 'list') renderListView();
+            if (currentView !== 'grid') renderGridView();
         }
 
         // Scroll to today in list view (if viewing current month and today has events)
@@ -3545,7 +3558,7 @@
                         address: entry.address,
                         description: practicalTip || entry.notes,
                         flags: entry.flags,
-                        sourceEvent: entry
+                        entryId: entry.id
                     });
                     continue;
                 }
@@ -3565,7 +3578,7 @@
                         address: entry.address,
                         description: practicalTip || entry.notes,
                         flags: entry.flags,
-                        sourceEvent: entry
+                        entryId: entry.id
                     });
                     continue;
                 }
@@ -3587,7 +3600,7 @@
                                 address: prog.location || entry.address,
                                 description: prog.notes || practicalTip || entry.notes,
                                 flags: entry.flags,
-                                sourceEvent: entry
+                                entryId: entry.id
                             });
                         }
                     }
@@ -3691,14 +3704,17 @@
                 </div>`;
             }
 
-            // Audience badges
-            if (event.sourceEvent) {
-                const audienceHtml = getAudienceBadgesHtml(event.sourceEvent);
-                if (audienceHtml) {
-                    bodyHtml += `<div class="event-modal-row">
-                        <div class="event-modal-icon">👥</div>
-                        <div class="event-modal-value">${audienceHtml}</div>
-                    </div>`;
+            // Audience badges — look up source entry by ID
+            if (event.entryId && eventsData) {
+                const sourceEntry = eventsData.events.find(e => e.id === event.entryId);
+                if (sourceEntry) {
+                    const audienceHtml = getAudienceBadgesHtml(sourceEntry);
+                    if (audienceHtml) {
+                        bodyHtml += `<div class="event-modal-row">
+                            <div class="event-modal-icon">👥</div>
+                            <div class="event-modal-value">${audienceHtml}</div>
+                        </div>`;
+                    }
                 }
             }
 
@@ -3713,9 +3729,9 @@
             const title = event.org ? `${escapeHtml(event.title)}<br><small style="font-weight:normal;opacity:0.8">${escapeHtml(event.org)}</small>` : escapeHtml(event.title);
 
             modal.innerHTML = `
-                <div class="event-modal" role="dialog" aria-modal="true">
+                <div class="event-modal" role="dialog" aria-modal="true" aria-labelledby="seasonal-modal-title">
                     <div class="event-modal-header">
-                        <div class="event-modal-title">${title}</div>
+                        <div class="event-modal-title" id="seasonal-modal-title">${title}</div>
                         <button class="event-modal-close" aria-label="Close">&times;</button>
                     </div>
                     <div class="event-modal-body">${bodyHtml}</div>
@@ -3729,9 +3745,14 @@
             const savedFocus = lastFocusedElement;
             const removeModal = () => {
                 releaseFocusTrap(modal.querySelector('.event-modal'));
+                document.removeEventListener('keydown', handleSeasonalEscape);
                 modal.remove();
                 if (savedFocus && savedFocus.focus) savedFocus.focus();
             };
+            const handleSeasonalEscape = (e) => {
+                if (e.key === 'Escape') removeModal();
+            };
+            document.addEventListener('keydown', handleSeasonalEscape);
             modal.querySelector('.event-modal-close').addEventListener('click', removeModal);
             modal.addEventListener('click', (e) => {
                 if (e.target === modal) removeModal();

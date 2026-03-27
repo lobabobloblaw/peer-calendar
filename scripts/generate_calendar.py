@@ -192,7 +192,7 @@ def parse_schedule(schedule_str: str) -> dict:
         if days_found:
             result["day"] = ",".join(days_found)
 
-    ordinal_pattern = r"(\d+)(?:st|nd|rd|th)"
+    ordinal_pattern = r"\b([1-5])(?:st|nd|rd|th)\b"
     ordinals = re.findall(ordinal_pattern, schedule_lower)
     if ordinals:
         result["week_of_month"] = [int(o) for o in ordinals]
@@ -258,8 +258,9 @@ def parse_schedule(schedule_str: str) -> dict:
             elif period == "am" and hour == 12:
                 hour = 0
             result["start_time"] = f"{hour:02d}:{minute:02d}"
-            end_hour = hour + 1
-            result["end_time"] = f"{end_hour:02d}:{minute:02d}"
+            end_hour = hour + 1 if hour < 23 else 23
+            end_minute = minute if hour < 23 else 59
+            result["end_time"] = f"{end_hour:02d}:{end_minute:02d}"
 
     return result
 
@@ -452,9 +453,9 @@ def create_vevent(
         if dtend:
             lines.append(f"DTEND;VALUE=DATE:{dtend}")
     else:
-        lines.append(f"DTSTART:{dtstart}")
+        lines.append(f"DTSTART;TZID=America/Los_Angeles:{dtstart}")
         if dtend:
-            lines.append(f"DTEND:{dtend}")
+            lines.append(f"DTEND;TZID=America/Los_Angeles:{dtend}")
 
     # Summary with category prefix for combined calendars
     lines.append(fold_ical_line(f"SUMMARY:{escape_ical_text(summary)}"))
@@ -527,7 +528,7 @@ def build_recurring_event(
             end_date = datetime.strptime(schedule_end, "%Y-%m-%d")
         else:
             end_date = datetime(schedule_end.year, schedule_end.month, schedule_end.day)
-        rrule_parts.append(f"UNTIL={end_date.strftime('%Y%m%dT235959Z')}")
+        rrule_parts.append(f"UNTIL={end_date.strftime('%Y%m%dT235959')}")
 
     rrule = ";".join(rrule_parts)
 

@@ -86,15 +86,22 @@ def expand_weekly_rrule(start_dt, rrule, start_month, end_month):
 
     byday = parts.get('BYDAY', '')
     day_map = {'SU': 6, 'MO': 0, 'TU': 1, 'WE': 2, 'TH': 3, 'FR': 4, 'SA': 5}
-    target_weekday = day_map.get(byday, start_dt.weekday())
 
-    # Start from the beginning of start_month
-    current = datetime(start_month.year, start_month.month, 1,
-                       start_dt.hour, start_dt.minute, start_dt.second)
+    # Support multi-day BYDAY values like "TU,TH" or "MO,TU,WE,TH,FR"
+    target_weekdays = [day_map[d] for d in byday.split(',') if d in day_map]
+    if not target_weekdays:
+        target_weekdays = [start_dt.weekday()]
 
-    # Find the first occurrence of the target weekday
-    while current.weekday() != target_weekday:
-        current += timedelta(days=1)
+    # Parse UNTIL bound if present
+    until_str = parts.get('UNTIL', '')
+    until_dt = None
+    if until_str:
+        try:
+            until_dt = datetime.strptime(until_str.rstrip('Z'), '%Y%m%dT%H%M%S')
+        except ValueError:
+            pass
+
+    interval = int(parts.get('INTERVAL', 1))
 
     # Calculate the last day of end_month
     if end_month.month == 12:
@@ -102,10 +109,28 @@ def expand_weekly_rrule(start_dt, rrule, start_month, end_month):
     else:
         last_day_of_end_month = datetime(end_month.year, end_month.month + 1, 1) - timedelta(seconds=1)
 
-    # Generate occurrences until end of end_month
+    # Clamp end to UNTIL if present
+    if until_dt and until_dt < last_day_of_end_month:
+        last_day_of_end_month = until_dt
+
+    # Iterate day by day through the range, collecting matching weekdays
+    current = datetime(start_month.year, start_month.month, 1,
+                       start_dt.hour, start_dt.minute, start_dt.second)
+
+    # For interval > 1, track weeks from DTSTART to apply correct interval
+    if interval > 1:
+        ref_date = start_dt - timedelta(days=start_dt.weekday())  # Start of DTSTART's week
+
     while current <= last_day_of_end_month:
-        occurrences.append(current)
-        current += timedelta(weeks=1)
+        if current.weekday() in target_weekdays:
+            if interval > 1:
+                week_start = current - timedelta(days=current.weekday())
+                weeks_diff = (week_start - ref_date).days // 7
+                if weeks_diff % interval == 0:
+                    occurrences.append(current)
+            else:
+                occurrences.append(current)
+        current += timedelta(days=1)
 
     return occurrences
 
@@ -118,10 +143,25 @@ def expand_monthly_rrule(start_dt, rrule, start_month, end_month):
     byday = parts.get('BYDAY', '')
     bysetpos = parts.get('BYSETPOS', '')
 
+    # Parse UNTIL bound if present
+    until_str = parts.get('UNTIL', '')
+    until_dt = None
+    if until_str:
+        try:
+            until_dt = datetime.strptime(until_str.rstrip('Z'), '%Y%m%dT%H%M%S')
+        except ValueError:
+            pass
+
     day_map = {'SU': 6, 'MO': 0, 'TU': 1, 'WE': 2, 'TH': 3, 'FR': 4, 'SA': 5}
     target_weekday = day_map.get(byday, 0)
 
     positions = [int(p) for p in bysetpos.split(',')] if bysetpos else [1]
+
+    # Clamp end_month to UNTIL if present
+    if until_dt:
+        until_month = datetime(until_dt.year, until_dt.month, 1)
+        if until_month < end_month:
+            end_month = until_month
 
     # Iterate through months
     current_month = start_month

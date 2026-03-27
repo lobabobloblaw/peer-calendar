@@ -537,7 +537,7 @@
         vantaOptions: {},
         autoLoadDeps: true,
         threejsUrl: 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js',
-        vantaUrl: 'https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js',
+        vantaUrl: 'https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.clouds.min.js',
 
         // Weather-adaptive sky gradients per category + time of day
         weatherGradients: {
@@ -1547,7 +1547,11 @@
     };
 
     SkyEffect.prototype._onResize = function () {
-        this._resizeCanvas();
+        var self = this;
+        clearTimeout(self._resizeTimer);
+        self._resizeTimer = setTimeout(function () {
+            self._resizeCanvas();
+        }, 150);
     };
 
     return SkyEffect;
