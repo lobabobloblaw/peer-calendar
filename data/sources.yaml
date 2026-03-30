@@ -8533,6 +8533,510 @@
     boxes and home delivery options.
   latitude: 45.518749
   longitude: -122.535025
+- id: snowcap-community-charities
+  name: SnowCap Community Charities
+  category: food_farms
+  location_type: physical
+  resource_type: organization
+  address: 17805 SE Stark St, Portland, OR 97233
+  phone: 503-674-8785
+  website: https://www.snowcap.org
+  source_urls:
+  - https://www.snowcap.org
+  - https://www.snowcap.org/food-assistance
+  pricing:
+    description: FREE
+  hours: Mon-Fri 10am-2pm, Mon & Wed 6-8pm
+  eligibility: East of 82nd Ave, Multnomah County (East Portland & Gresham). Up to 2 visits per month.
+  features:
+  - Pre-packed food boxes
+  - Fresh and frozen food
+  - Diapers (ages 0-2) and infant formula (12 months & under)
+  - Clothing by appointment
+  - Blankets in winter
+  programs:
+  - name: Mobile Food Pantry
+    notes: Brings food to underserved neighborhoods in East Portland and Gresham
+  - name: SnowCap Community Garden
+    notes: Free gardening plots for low-income residents east of 82nd Ave
+  - name: Senior Home Delivery
+    notes: Food delivery for homebound seniors
+  last_verified: 2026-03-30
+  next_audit: 2026-06-30
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Just show up during hours. Pre-packed boxes so the process is quick. Evening hours Mon & Wed are great for
+      people who work during the day.
+    what_to_bring: Bags or boxes to carry food home
+    good_to_know: Small staff with 1,000+ volunteers. Serves the area east of 82nd Ave — one of Portland's most underserved
+      neighborhoods. Also provides diapers, formula, and clothing.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  social_intensity: drop_in
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  - indoor
+  - family_friendly
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: Major East Portland food pantry serving area east of 82nd Ave. Evening hours Mon/Wed 6-8pm. Also operates mobile
+    pantry, community garden, and senior delivery. Founded as an all-volunteer charity.
+  latitude: 45.519888
+  longitude: -122.479827
+- id: birch-community-services
+  name: Birch Community Services
+  category: food_farms
+  location_type: physical
+  resource_type: organization
+  address: 17780 NE San Rafael St, Portland, OR 97230
+  phone: 503-251-5431
+  website: https://birchcommunityservices.org
+  source_urls:
+  - https://birchcommunityservices.org
+  pricing:
+    description: FREE
+  hours: Mon, Wed, Fri 10am-5pm
+  features:
+  - Shelf-stable food
+  - Fresh produce
+  - Cold storage items
+  - Financial literacy education (re$tart course)
+  - Family Vision workshops
+  last_verified: 2026-03-30
+  next_audit: 2026-06-30
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Open Mon/Wed/Fri. Walk in during hours — no appointment needed.
+    what_to_bring: Bags for groceries
+    good_to_know: Serves 975+ families weekly. Also redistributes 1.2 million lbs of donated products monthly to 70+ partner
+      agencies across the region. Founded 1992.
+  accessibility:
+  - wheelchair_accessible
+  social_intensity: drop_in
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  - indoor
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: Major NE Portland food hub serving 975+ families weekly. Also operates as a food redistribution center for 70+ partner
+    agencies (1.2M lbs/month). Offers financial literacy and family programs.
+  latitude: 45.537226
+  longitude: -122.525933
+- id: lift-urban-portland
+  name: Lift Urban Portland (Preston's Pantry)
+  category: food_farms
+  location_type: physical
+  resource_type: organization
+  address: 1838 SW Jefferson St, Portland, OR 97201
+  phone: 503-221-1224
+  website: https://www.lifturbanportland.org
+  source_urls:
+  - https://www.lifturbanportland.org
+  - https://www.lifturbanportland.org/prestons-pantry-and-free-food-market
+  pricing:
+    description: FREE
+  hours: Tue, Thu, Fri 3-6pm (Tue 3-5:30pm by appointment for mobility/health needs)
+  eligibility: NW and Downtown Portland residents. Visit up to 2x per month.
+  features:
+  - Shopping-style pantry (choose your own items)
+  - Fresh produce, yogurt, dairy
+  - Dry and canned goods
+  - Meat and eggs
+  programs:
+  - name: Preston's Pantry
+    notes: Shopping-style food pantry at First United Methodist Church. Visit 2x/month. Tuesday afternoon by appointment for
+      people with mobility or health challenges.
+  - name: Adopted Buildings Program
+    notes: Onsite food boxes and pantries placed in 50+ affordable housing buildings throughout Portland
+  last_verified: 2026-03-30
+  next_audit: 2026-06-30
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Located at First United Methodist Church near Goose Hollow MAX stop — use the rear entrance. Shopping-style
+      so you choose what you need.
+    what_to_bring: Bags for groceries
+    good_to_know: Tuesday 3-5:30pm is by appointment specifically for people with mobility or health challenges — call ahead.
+      Founded 1980 as Northwest Portland Ministries. Also places food boxes in 50+ affordable housing buildings.
+  accessibility:
+  - transit_nearby
+  accessibility_notes: Tuesday 3-5:30pm by appointment for people with mobility or health challenges. Near Goose Hollow MAX
+    station.
+  social_intensity: drop_in
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  - indoor
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: Shopping-style food pantry in NW/Downtown Portland near Goose Hollow MAX. Dignity model — choose your own items.
+    Tuesday appointments for mobility/health needs. Also stocks pantries in 50+ affordable housing buildings. Founded 1980.
+  latitude: 45.517536
+  longitude: -122.693516
+- id: salvation-army-hillsboro
+  name: Salvation Army Hope Center (Hillsboro)
+  category: food_farms
+  location_type: physical
+  resource_type: service
+  address: 1440 SE 21st Ave, Hillsboro, OR 97123
+  phone: 503-640-4311
+  website: https://hillsboro.salvationarmy.org
+  source_urls:
+  - https://hillsboro.salvationarmy.org/hillsboro/cure-hunger/
+  pricing:
+    description: FREE
+  hours: Mon-Fri 1-3:45pm (food boxes). Daily sack lunch available.
+  features:
+  - Food boxes
+  - Bread and baked goods
+  - Hygiene products
+  - Daily sack lunch
+  programs:
+  - name: Mobile Pantry
+    notes: Wednesday stops in Banks and West Union with fresh produce, proteins, dry and canned goods
+  last_verified: 2026-03-30
+  next_audit: 2026-06-30
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Walk in during afternoon hours for food boxes. Daily sack lunches also available.
+    what_to_bring: Bags or boxes for food
+    good_to_know: Also runs a mobile pantry on Wednesdays reaching Banks and West Union — good option for rural Washington
+      County residents. Part of the Salvation Army's Cure Hunger program.
+  accessibility:
+  - wheelchair_accessible
+  social_intensity: drop_in
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  - indoor
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: Washington County food pantry in Hillsboro. Food boxes Mon-Fri afternoons plus daily sack lunch. Mobile pantry on
+    Wednesdays serves rural Banks and West Union areas.
+  latitude: 45.508887
+  longitude: -122.960188
+- id: hunger-fighters-lake-oswego
+  name: Hunger Fighters Food Bank
+  category: food_farms
+  location_type: physical
+  resource_type: service
+  address: 4 Monroe Pkwy, Lake Oswego, OR 97034
+  phone: 503-635-3401
+  website: https://www.hungerfighters.org
+  source_urls:
+  - https://www.hungerfighters.org
+  pricing:
+    description: FREE
+  hours: Mon 4-6pm, Wed 5-7pm, Fri 10am-1pm
+  eligibility: ZIP codes 97034 and 97035. No income verification needed.
+  last_verified: 2026-03-30
+  next_audit: 2026-06-30
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Walk in during hours. No income verification needed — just need to live in ZIP 97034 or 97035.
+    what_to_bring: Bags for groceries
+    good_to_know: Evening hours Mon and Wed are great for people who work during the day. Serves the Lake Oswego area specifically.
+  accessibility:
+  - wheelchair_accessible
+  social_intensity: drop_in
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  - indoor
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: Lake Oswego area food bank. No income verification. Evening hours Mon/Wed. Serves ZIP codes 97034 and 97035.
+  latitude: 45.431834
+  longitude: -122.703402
+- id: gladstone-food-pantry
+  name: Gladstone Food Pantry
+  category: food_farms
+  location_type: physical
+  resource_type: service
+  address: 6460 Glen Echo Ave, Gladstone, OR 97027
+  phone: 503-496-3947
+  website: https://nwfs.org/basic-needs/food-matters
+  source_urls:
+  - https://nwfs.org/basic-needs/food-matters
+  pricing:
+    description: FREE
+  hours: Thu 3-5pm
+  last_verified: 2026-03-30
+  next_audit: 2026-06-30
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Open Thursday afternoons only. Walk in during hours.
+    what_to_bring: Bags for groceries
+    good_to_know: Connected to Northwest Family Services FoodMatters program which serves families and seniors across multiple
+      counties.
+  accessibility:
+  - wheelchair_accessible
+  social_intensity: drop_in
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  - indoor
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: Gladstone area food pantry, part of NW Family Services FoodMatters program. Thursday afternoons only.
+  latitude: 45.390438
+  longitude: -122.596899
+- id: tualatin-food-pantry
+  name: Tualatin Food Pantry
+  category: food_farms
+  location_type: physical
+  resource_type: service
+  address: 3550 SW Borland Rd, Tualatin, OR 97062
+  phone: 503-783-0721
+  source_urls:
+  - https://www.tualatinoregon.gov/community-services
+  pricing:
+    description: FREE
+  hours: null
+  eligibility: Tualatin, Lake Oswego, West Linn, and North Wilsonville residents
+  last_verified: 2026-03-30
+  next_audit: 2026-06-30
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Call ahead at 503-783-0721 for current hours and availability.
+    good_to_know: Serves a wide south metro area including Tualatin, Lake Oswego, West Linn, and North Wilsonville.
+  accessibility:
+  - wheelchair_accessible
+  social_intensity: drop_in
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  - indoor
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: South metro food pantry serving Tualatin, Lake Oswego, West Linn, and North Wilsonville. Call for current hours.
+  latitude: 45.373558
+  longitude: -122.712036
+- id: wilsonville-community-sharing
+  name: Wilsonville Community Sharing
+  category: food_farms
+  location_type: physical
+  resource_type: service
+  address: 29796 SW Town Center Loop E, Wilsonville, OR 97070
+  phone: 503-682-6939
+  website: https://www.wilsonvillecommunitysharing.org
+  source_urls:
+  - https://www.wilsonvillecommunitysharing.org
+  pricing:
+    description: FREE
+  hours: Tue 12:30-2:30pm & 6-7:30pm
+  last_verified: 2026-03-30
+  next_audit: 2026-06-30
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Walk in during hours. Tuesday has both afternoon and evening slots.
+    what_to_bring: Bags for groceries
+    good_to_know: Evening hours on Tuesdays (6-7:30pm) are great for people who work during the day.
+  accessibility:
+  - wheelchair_accessible
+  social_intensity: drop_in
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  - indoor
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: Wilsonville food pantry with both afternoon and evening hours on Tuesdays.
+  latitude: 45.304231
+  longitude: -122.758729
+- id: estacada-food-bank
+  name: Estacada Area Food Bank
+  category: food_farms
+  location_type: physical
+  resource_type: service
+  address: 272 S Broadway St, Estacada, OR 97023
+  phone: 503-630-2888
+  source_urls:
+  - https://www.estacadafoodbank.org
+  pricing:
+    description: FREE
+  hours: 2nd & 4th Tue 10am-2pm, Wed 10am-2pm, Thu 1-5pm
+  last_verified: 2026-03-30
+  next_audit: 2026-06-30
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Walk in during hours. Tuesdays are 2nd and 4th week of the month only.
+    what_to_bring: Bags or boxes for food
+    good_to_know: Serves the rural Estacada and eastern Clackamas County area. Limited Tuesday hours — Wednesdays and Thursdays
+      are more consistently open.
+  social_intensity: drop_in
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  - indoor
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: Rural Clackamas County food bank serving Estacada and surrounding communities. Limited hours — check schedule before
+    visiting.
+  latitude: 45.288028
+  longitude: -122.335041
+- id: sandy-community-action
+  name: Sandy Community Action Center
+  category: food_farms
+  location_type: physical
+  resource_type: service
+  address: 38982 Pioneer Blvd, Sandy, OR 97055
+  phone: 503-668-4746
+  source_urls:
+  - https://www.sandycac.org
+  pricing:
+    description: FREE
+  hours: Wed & Fri 10am-4pm
+  last_verified: 2026-03-30
+  next_audit: 2026-06-30
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Walk in during hours on Wednesday or Friday.
+    what_to_bring: Bags or boxes for food
+    good_to_know: Serves the Sandy area and Mt. Hood corridor communities. Only open two days per week.
+  social_intensity: drop_in
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  - indoor
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: Mt. Hood corridor food pantry serving Sandy and surrounding communities. Open Wed and Fri only.
+  latitude: 45.396117
+  longitude: -122.262076
+- id: svdp-portland
+  name: St. Vincent de Paul Portland
+  category: food_farms
+  location_type: varies
+  resource_type: organization
+  address: Various (40+ locations across Multnomah, Washington, and Clackamas counties)
+  phone: 503-235-8431
+  website: https://www.svdppdx.org
+  source_urls:
+  - https://www.svdppdx.org
+  - https://www.svdppdx.org/pantries-list
+  pricing:
+    description: FREE
+  hours: Varies by location — call Food Hotline at 503-235-8431 to find nearest pantry and hours
+  features:
+  - 40+ food pantries across the tri-county area
+  - Emergency food boxes
+  - Food delivery available at some locations
+  - Delivery for people with disabilities at select drop-in pantries
+  last_verified: 2026-03-30
+  next_audit: 2026-06-30
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Call the Food Hotline at 503-235-8431 to find the nearest pantry to you. They will tell you the location,
+      hours, and what to expect.
+    good_to_know: Largest food pantry network in the region with 40+ locations. Some locations offer food delivery, especially
+      for people with disabilities. Pantries are mostly hosted at Catholic parishes but serve everyone regardless of religion.
+  social_intensity: drop_in
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  - indoor
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: Largest food pantry network in the Portland metro area — 40+ locations across all three counties. Food Hotline (503-235-8431)
+    connects callers to their nearest pantry. Some locations offer delivery.
+- id: community-action-washington-county
+  name: Community Action of Washington County
+  category: food_farms
+  location_type: varies
+  resource_type: organization
+  address: Various locations in Washington County
+  phone: 503-615-0771
+  website: https://caowash.org
+  source_urls:
+  - https://caowash.org
+  pricing:
+    description: FREE
+  hours: Varies by program and location
+  features:
+  - Emergency food boxes
+  - Energy assistance
+  - Housing support
+  - Head Start programs
+  last_verified: 2026-03-30
+  next_audit: 2026-06-30
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Call 503-615-0771 to find the right program for your needs. They serve all of Washington County.
+    good_to_know: Has been serving Washington County for 60+ years. Provides food assistance along with energy assistance,
+      housing support, and other services. Good single point of contact for multiple needs.
+  social_intensity: drop_in
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: Washington County's community action organization — 60+ years of service. Provides emergency food boxes plus energy
+    assistance, housing support, and Head Start programs.
+- id: oregon-food-bank
+  name: Oregon Food Bank
+  category: food_farms
+  location_type: varies
+  resource_type: organization
+  address: 7900 NE 33rd Dr, Portland, OR 97211
+  phone: 503-282-0555
+  website: https://www.oregonfoodbank.org
+  source_urls:
+  - https://www.oregonfoodbank.org
+  - https://foodfinder.oregonfoodbank.org
+  pricing:
+    description: FREE
+  hours: Varies by partner location — use Food Finder at foodfinder.oregonfoodbank.org to search by ZIP code
+  features:
+  - Network of 1,200+ food assistance sites statewide
+  - Food Finder search tool (foodfinder.oregonfoodbank.org)
+  - 100+ partner pantries in the Portland metro area
+  - Free groceries, fresh produce, and hot meals through partners
+  - No proof of income or documentation required at partner sites
+  last_verified: 2026-03-30
+  next_audit: 2026-06-30
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Use the Food Finder at foodfinder.oregonfoodbank.org to search for pantries near you by ZIP code. No proof
+      of income or documentation required.
+    good_to_know: The Food Finder is the most comprehensive tool for locating food pantries in Oregon — covers 100+ locations
+      in the Portland metro area alone. Partner pantries offer free groceries, produce, and hot meals. Oregon Food Bank supplies
+      food to most pantries in the region.
+  social_intensity: drop_in
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: Central hub organization supplying food to 1,200+ sites statewide. The Food Finder (foodfinder.oregonfoodbank.org)
+    is the single best tool for locating free food near any address. No ID or income verification required at partner sites.
+  latitude: 45.57976
+  longitude: -122.631954
+- id: 211info-oregon
+  name: 211info Oregon
+  category: food_farms
+  location_type: online_service
+  resource_type: service
+  phone: 866-698-6155
+  website: https://www.211info.org
+  source_urls:
+  - https://www.211info.org
+  - https://www.211info.org/get-help/food/
+  pricing:
+    description: FREE
+  hours: 24/7
+  features:
+  - Connects to 1,500+ food resources statewide
+  - SNAP enrollment assistance with dedicated SNAP Access Advocate
+  - Phone, text, email, and web access
+  - Multilingual support
+  - Covers food pantries, farmers markets, community meals, and more
+  last_verified: 2026-03-30
+  next_audit: 2026-06-30
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Call 2-1-1 from any phone, text your ZIP code to 898-211, email help@211info.org, or visit 211info.org. Available
+      24/7.
+    good_to_know: 211info covers ALL social services in Oregon, not just food — housing, utilities, healthcare, and more.
+      Has a dedicated SNAP Access Advocate who can help with food stamp applications and case issues. Great starting point
+      if you are not sure where to begin.
+  social_intensity: one_on_one
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  guide_location: activities-guide-2.md#free-food-resources
+  notes: Universal resource directory for Oregon. Call 2-1-1, text ZIP to 898-211, or visit 211info.org. 24/7 access to 1,500+
+    food resources plus housing, utilities, healthcare. SNAP enrollment help available. Covers far more than food but listed
+    here as a key food access entry point.
 ---
 ---
 - id: pdx-board-games-meetup

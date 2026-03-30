@@ -2,6 +2,69 @@
 # Records all verification activities and changes
 
 ---
+- date: 2026-03-30
+  type: addition
+  auditor: claude
+  summary: "Food pantry expansion: Added 14 food pantry and food access entries across all three counties (Multnomah, Washington, Clackamas)"
+  added:
+    - id: snowcap-community-charities
+      name: SnowCap Community Charities
+      category: food_farms
+      reason: "Major East Portland pantry serving area east of 82nd Ave. Evening hours Mon/Wed 6-8pm. Also operates mobile pantry, community garden, and senior delivery."
+    - id: birch-community-services
+      name: Birch Community Services
+      category: food_farms
+      reason: "Major NE Portland food hub. 975+ families weekly. Also redistributes 1.2M lbs/month to 70+ partner agencies."
+    - id: lift-urban-portland
+      name: Lift Urban Portland (Preston's Pantry)
+      category: food_farms
+      reason: "Shopping-style pantry in NW/Downtown Portland near Goose Hollow MAX. Mobility accommodations Tue. Stocks pantries in 50+ affordable housing buildings."
+    - id: salvation-army-hillsboro
+      name: Salvation Army Hope Center (Hillsboro)
+      category: food_farms
+      reason: "Washington County food pantry. Food boxes Mon-Fri afternoons. Mobile pantry Wed in Banks/West Union."
+    - id: hunger-fighters-lake-oswego
+      name: Hunger Fighters Food Bank
+      category: food_farms
+      reason: "Lake Oswego area food bank. No income verification. Evening hours Mon/Wed."
+    - id: gladstone-food-pantry
+      name: Gladstone Food Pantry
+      category: food_farms
+      reason: "Gladstone area pantry, NW Family Services FoodMatters partner."
+    - id: tualatin-food-pantry
+      name: Tualatin Food Pantry
+      category: food_farms
+      reason: "South metro coverage — Tualatin, Lake Oswego, West Linn, North Wilsonville."
+    - id: wilsonville-community-sharing
+      name: Wilsonville Community Sharing
+      category: food_farms
+      reason: "Wilsonville food pantry with afternoon and evening hours on Tuesdays."
+    - id: estacada-food-bank
+      name: Estacada Area Food Bank
+      category: food_farms
+      reason: "Rural Clackamas County food bank serving Estacada and eastern communities."
+    - id: sandy-community-action
+      name: Sandy Community Action Center
+      category: food_farms
+      reason: "Mt. Hood corridor food pantry serving Sandy and surrounding communities."
+    - id: svdp-portland
+      name: St. Vincent de Paul Portland
+      category: food_farms
+      reason: "Largest food pantry network in region — 40+ locations across tri-county area. Food Hotline 503-235-8431."
+    - id: community-action-washington-county
+      name: Community Action of Washington County
+      category: food_farms
+      reason: "Washington County community action org — 60+ years of emergency food, energy assistance, housing support."
+    - id: oregon-food-bank
+      name: Oregon Food Bank
+      category: food_farms
+      reason: "Central hub org supplying 1,200+ food sites statewide. Food Finder (foodfinder.oregonfoodbank.org) is the best tool for locating free food."
+    - id: 211info-oregon
+      name: 211info Oregon
+      category: food_farms
+      reason: "Universal 24/7 resource directory — call 2-1-1, text ZIP to 898-211, or visit 211info.org. SNAP enrollment help. Covers all social services."
+
+---
 - date: 2026-03-04
   type: addition
   auditor: claude
