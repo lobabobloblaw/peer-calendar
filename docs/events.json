@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-30T16:51:06.768170",
+  "generated": "2026-03-30T17:11:52.389296",
   "count": 269,
   "categories": {
     "peer_support": "Peer Support",
@@ -34,11 +34,17 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-823-2525",
+      "email": null,
       "website": "https://portland.gov/parks/discount",
       "pricing": {
         "description": "25%, 50%, 75%, or 90% off all programs",
         "notes": "No proof of income required - self-select discount level"
       },
+      "hours": null,
+      "eligibility": "Portland residents, any income level",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -74,11 +80,17 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://racc.org/artsforall",
       "pricing": {
         "description": "$5 tickets at 100+ cultural organizations",
         "notes": "Present Oregon Trail Card at venue"
       },
+      "hours": null,
+      "eligibility": "Oregon Trail Card (SNAP/EBT) holders",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -117,11 +129,17 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-645-6433",
+      "email": null,
       "website": "https://www.thprd.org/activities/financial-aid",
       "pricing": {
         "description": "$300 per person annually in fee waivers",
         "notes": "Funds valid for 12 months from approval. Can be allocated flexibly across family members."
       },
+      "hours": null,
+      "eligibility": "Household must reside within THPRD district boundaries.\nIncome must fall below Federal Free Meal Guidelines:\n- 1 person: $1,696/month max\n- 2 people: $2,292/month max\n- 3 people: $2,888/month max\n- 4 people: $3,483/month max\n- Each additional person: add $596/month\n",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -161,11 +179,17 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-228-6322",
+      "email": null,
       "website": "https://portlandgeneral.com/income-qualified-bill-discount",
       "pricing": {
         "description": "15-80% monthly discount",
         "notes": "No proof of income required"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "online_service",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -201,6 +225,7 @@
       "latitude": null,
       "longitude": null,
       "phone": "888-221-7070",
+      "email": null,
       "website": "https://www.pacificpower.net/my-account/payments/bill-payment-assistance/oregon-low-income-discount-program.html",
       "pricing": {
         "description": "20-40% discount based on income",
@@ -208,6 +233,11 @@
         "discount_40": "Income 0-20% of state median",
         "notes": "No income documentation required at application"
       },
+      "hours": null,
+      "eligibility": "Must be residential customer at permanent primary residence",
+      "features": [],
+      "location_type": "online_service",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -243,12 +273,18 @@
       "latitude": null,
       "longitude": null,
       "phone": "800-422-4012",
+      "email": null,
       "website": "https://www.nwnatural.com/account/bill-discount-program",
       "pricing": {
         "description": "15-85% monthly discount (Oregon)",
         "example": "Household of 4, income <$17,697: 85% discount = $644 annual savings on avg $758 bill",
         "notes": "No proof of income required, lasts 2 years, stackable with other assistance"
       },
+      "hours": null,
+      "eligibility": "Household income <60% of state median",
+      "features": [],
+      "location_type": "online_service",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -284,11 +320,17 @@
       "latitude": null,
       "longitude": null,
       "phone": "800-542-8818",
+      "email": null,
       "website": "https://portlandgeneral.com/help/help-topics/energy-assistance-programs-residential",
       "pricing": {
         "description": "15-80% monthly discount on PGE electric bills",
         "notes": "Stackable with other energy assistance programs (LIHEAP, Oregon Energy Fund)"
       },
+      "hours": null,
+      "eligibility": "Income-qualified PGE customers (income thresholds vary by household size)",
+      "features": [],
+      "location_type": "online_service",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -320,11 +362,17 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-823-7770",
+      "email": null,
       "website": "https://www.portland.gov/water/financial-assistance",
       "pricing": {
         "description": "5-80% discount on water and sewer bills",
         "notes": "Discount based on financial vulnerability assessment"
       },
+      "hours": null,
+      "eligibility": "Portland Water Bureau customers experiencing financial hardship",
+      "features": [],
+      "location_type": "online_service",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -355,11 +403,17 @@
       "latitude": null,
       "longitude": null,
       "phone": "800-848-4442",
+      "email": null,
       "website": "https://www.oregon.gov/puc/pages/oregon-lifeline.aspx",
       "pricing": {
         "description": "Up to $19.25/month off internet OR $15.25/month off phone",
         "notes": "Can also receive free wireless voice minutes and data through some providers"
       },
+      "hours": null,
+      "eligibility": "Oregon residents 18+, household income at or below 135% FPL, OR receiving OHP, SNAP, TANF, Medicaid, Section 8, LIHEAP, SSI, VA Pension, BIA General Assistance",
+      "features": [],
+      "location_type": "online_service",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -390,10 +444,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.pdxlrg.org/general",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "service",
       "programs": [
         {
           "name": "Legal Aid Services of Oregon (LASO)",
@@ -446,10 +506,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://doubleuporegon.org",
       "pricing": {
         "description": "Spend $1 SNAP on produce, get $1 match (up to $20/day)"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -485,11 +551,17 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-794-8080",
+      "email": "recreation@ncprd.com",
       "website": "https://ncprd.org/scholarships",
       "pricing": {
         "description": "25-75% off registration fees",
         "notes": "Percentage based on income and household size"
       },
+      "hours": null,
+      "eligibility": "Must reside within NCPRD district boundaries (addresses verified).\nScholarship amount (25-75%) determined by income and household size.\nUp to three program areas per person per year.\n",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -525,10 +597,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-675-2549",
+      "email": null,
       "website": "https://www.ci.oswego.or.us/parksrec/scholarship-program",
       "pricing": {
         "description": "Up to $300/person, $600/family annually"
       },
+      "hours": null,
+      "eligibility": "Lake Oswego residents whose household income falls below Federal Free Meal Guidelines.\nOnly members listed on application are eligible.\n",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -565,10 +643,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": "info@tualatintogether.org",
       "website": "https://www.tualatinoregon.gov/recreation/webforms/scholarship-policy-and-application-2025",
       "pricing": {
         "description": "Fee assistance for qualifying families"
       },
+      "hours": null,
+      "eligibility": "Tualatin residents who demonstrate financial need",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -606,12 +690,18 @@
       "latitude": 45.514266,
       "longitude": -122.395848,
       "phone": "503-491-6422",
+      "email": null,
       "website": "https://www.mhcc.edu/",
       "pricing": {
         "age_62_plus": "Discounted tuition for in-district residents 62+",
         "age_65_plus": "FREE tuition for up to 8 credits (audit) for Oregon residents 65+",
         "notes": "Fees not included in discount"
       },
+      "hours": null,
+      "eligibility": "Oregon residents 62+ (discount) or 65+ (free audit)",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -649,11 +739,17 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-226-0700",
+      "email": null,
       "website": "https://rideconnection.org/",
       "pricing": {
         "description": "FREE or low-cost (varies by program)",
         "notes": "Many rides free for seniors 60+ and people with disabilities. General public rides available in some areas."
       },
+      "hours": "Service Center: Mon-Fri (call for hours). TTY: 7-1-1",
+      "eligibility": "Seniors 60+, people with disabilities, and general public in select areas. Rural general public limited to 10 one-way trips/month.",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -689,6 +785,7 @@
       "latitude": 45.515185,
       "longitude": -122.679066,
       "phone": "503-823-4000",
+      "email": "biketownforall@lyft.com",
       "website": "https://biketownpdx.com/pricing/biketown-for-all",
       "pricing": {
         "description": "FREE membership ($0/month)",
@@ -696,6 +793,11 @@
         "per_minute": "$0.05/min (deducted from monthly credit first)",
         "notes": "Previously $5/month, now completely free. Free unlocks (usually $1). Scooters not included."
       },
+      "hours": "In-person help at Portland Building: Mon-Fri 8am-5pm. Lyft office (Central Eastside): Mon-Thu 9am-4pm",
+      "eligibility": "Portland-area residents 16+ receiving SNAP, OHP, TANF, affordable housing assistance, LIHEAP, unemployment insurance, Pell Grant, or TriMet Honored Citizens with qualifying incomes",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -729,10 +831,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-907-7768",
+      "email": null,
       "website": "https://catchthespot.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Phone booking: Mon-Fri 7:30am-5pm. App booking: anytime during service hours",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": "Mon-Fri 6:30am-9:30pm",
@@ -766,6 +874,7 @@
       "latitude": 45.518941,
       "longitude": -122.679529,
       "phone": "503-238-7433",
+      "email": null,
       "website": "https://trimet.org/income",
       "pricing": {
         "regular_fare": "$2.80",
@@ -773,6 +882,11 @@
         "monthly_pass": "$28 (vs $100 regular)",
         "notes": "Free first month + free Hop card upon enrollment"
       },
+      "hours": "TriMet Customer Support (Pioneer Courthouse Square): Mon-Fri 8:30am-5:30pm. Also available at WorkSource locations and partner enrollment sites across the metro area.",
+      "eligibility": "Oregon residents 18-64 at/below 200% FPL, OR receiving OHP, SNAP, TANF, Free/Reduced Lunch, Section 8, LIHEAP",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -807,6 +921,7 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-962-8000",
+      "email": null,
       "website": "https://trimet.org/lift/",
       "pricing": {
         "fare": "$2.80 per ride",
@@ -814,6 +929,11 @@
         "transfer": "Free transfer to bus/MAX/streetcar within 2.5 hours",
         "notes": "Personal Care Attendants ride free. Children 6 and under ride free with fare-paying adult."
       },
+      "hours": "Generally 3:30am-2:30am, 7 days a week (varies by area based on local bus/MAX service hours)",
+      "eligibility": "People unable to use regular TriMet buses and trains due to a disability or disabling health condition. Must apply and be determined eligible.",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -847,12 +967,18 @@
       "latitude": 45.518941,
       "longitude": -122.679529,
       "phone": "503-238-7433",
+      "email": null,
       "website": "https://trimet.org/fares/reduced.htm",
       "pricing": {
         "discounted_fare": "$1.40 (2.5 hours)",
         "day_pass": "$2.80",
         "monthly_pass": "$28 (vs $100 regular, 72% discount)"
       },
+      "hours": "TriMet Customer Support (Pioneer Courthouse Square): Mon-Fri 8:30am-5:30pm",
+      "eligibility": "Seniors 65+ or Medicare (no application needed, just photo ID); people with disabilities (must apply for Hop card); veterans and active-duty military (must apply for Hop card)",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -888,11 +1014,17 @@
       "latitude": 45.559068,
       "longitude": -122.645968,
       "phone": "503-287-8786",
+      "email": null,
       "website": "https://communitycyclingcenter.org/",
       "pricing": {
         "description": "Affordable used bikes, parts, and repair services. DIY workspace membership available.",
         "notes": "Revenue supports free community bike programs across Portland."
       },
+      "hours": "Wed-Sat 11am-6pm, Sun 12pm-5pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Bike Clubs & Camps",
@@ -967,10 +1099,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-228-5692",
+      "email": "info@namimultnomah.org",
       "website": "https://namimultnomah.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Connection Peer Support (In-Person)",
@@ -1055,10 +1193,16 @@
       "latitude": 45.449629,
       "longitude": -122.629098,
       "phone": "503-344-5050",
+      "email": null,
       "website": "https://namicc.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "program",
       "programs": [
         {
           "name": "NAMI Connection Support Group",
@@ -1173,10 +1317,19 @@
       "latitude": 45.443229,
       "longitude": -122.580028,
       "phone": "503-655-8585",
+      "email": null,
       "website": "https://www.clackamas.us/behavioralhealth/urgentmentalhealth",
       "pricing": {
         "description": "FREE (regardless of insurance or ability to pay)"
       },
+      "hours": {
+        "crisis_line": "24/7, every day of the year",
+        "walk_in": "Mon-Fri 9am-7pm"
+      },
+      "eligibility": "Anyone living in Clackamas County, regardless of ability to pay",
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -1211,10 +1364,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-709-2450",
+      "email": "peerconnection@folktime.org",
       "website": "https://folktime.org",
       "pricing": {
         "description": "FREE ($1 suggested donation for lunch)"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         "Drop-in peer support (no referral needed)",
         "Yoga, hiking, art classes, gardening",
@@ -1257,10 +1416,20 @@
       "latitude": 45.526336,
       "longitude": -122.606064,
       "phone": "971-271-7273",
+      "email": "info@northstaror.org",
       "website": "https://northstarclubhouse.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": {
+        "weekdays": "Mon-Fri 9am-5pm",
+        "weekend": "Closed Sat-Sun",
+        "notes": "Thursday evening and some Saturday social events (karaoke, etc.) - call for schedule"
+      },
+      "eligibility": "- Adults 18+ with mental health diagnosis\n- Must reside in Portland Metro Tri-county area (Multnomah, Washington, or Clackamas County)\n- Referral from mental health professional required\n- Must attend NorthStar orientation\n",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -1297,10 +1466,16 @@
       "latitude": 45.44764,
       "longitude": -122.787501,
       "phone": "503-597-3992",
+      "email": null,
       "website": "https://www.comfortzonenn.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Monday-Friday 11am-4pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -1337,10 +1512,16 @@
       "latitude": 45.521959,
       "longitude": -122.679643,
       "phone": "503-988-4100",
+      "email": "bhrc-info@multco.us",
       "website": "https://multco.us/info/behavioral-health-resource-center",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Daily 8am-8pm; Closed 4th Friday each month 11am-3pm",
+      "eligibility": "Anyone experiencing homelessness with mental health or addiction challenges",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -1377,10 +1558,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": "dbsaportlandeastside@gmail.com",
       "website": "https://mentalhealthisforeveryone.com/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": "Open to all adults with any mental health condition (depression, bipolar, anxiety, PTSD, ADHD, etc.)",
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "program",
       "programs": [
         {
           "name": "LGBTQIA+ Support Group",
@@ -1457,10 +1644,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "1-800-698-2392",
+      "email": "warmlinefeedback@ccsemail.org",
       "website": "https://ccswebsite.org/warmline/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "24/7",
+      "eligibility": null,
+      "features": [],
+      "location_type": "online_service",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -1496,10 +1689,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": "pdxintersangha@gmail.com",
       "website": "https://recoverydharmapdx.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Queer Paths (LGBTQIA+)",
@@ -1634,10 +1833,16 @@
       "latitude": 45.497482,
       "longitude": -122.637927,
       "phone": "503-922-2377",
+      "email": "info@mhaoforegon.org",
       "website": "https://www.mhaoforegon.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -1672,10 +1877,16 @@
       "latitude": 45.553656,
       "longitude": -122.675855,
       "phone": "503-234-7837",
+      "email": null,
       "website": "https://www.pdxqcenter.org/",
       "pricing": {
         "description": "FREE (most programs)"
       },
+      "hours": "Wed-Fri 10am-5pm, Sat 12pm-8pm, Sun-Tue closed. Hand Up Pantry: Mon-Tue 12pm-4pm.",
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Trans PDX Support Group",
@@ -1746,10 +1957,16 @@
       "latitude": 45.51585,
       "longitude": -122.687127,
       "phone": "503-872-9664",
+      "email": null,
       "website": "https://newavenues.org/smyrc/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "See calendar for open hours (varies). Contact: smyrcinfo@newavenues.org or 503-872-9664",
+      "eligibility": "LGBTQIA2S+ youth ages 13-24",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -1789,10 +2006,16 @@
       "latitude": 45.521551,
       "longitude": -122.683033,
       "phone": "503-222-6484",
+      "email": null,
       "website": "http://ddaoregon.com/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Daily Meetings (Central Office)",
@@ -1877,10 +2100,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-223-8569",
+      "email": "office@pdxaa.org",
       "website": "https://www.pdxaa.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Mon-Fri 9am-5pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "In-Person Meetings",
@@ -1937,10 +2166,16 @@
       "latitude": 45.4946,
       "longitude": -122.609417,
       "phone": "503-775-5683",
+      "email": null,
       "website": "https://www.dougy.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Mon-Fri 9am-5pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Children's Grief Support (ages 3-12)",
@@ -2012,10 +2247,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-215-4622",
+      "email": null,
       "website": "https://www.providence.org/locations/or/portland-medical-center/patients-and-visitors/grief-support-groups",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -2051,10 +2292,16 @@
       "latitude": 45.503271,
       "longitude": -122.42733,
       "phone": "971-703-4623",
+      "email": null,
       "website": "https://4drecovery.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Mon-Fri 9am-5pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Drop-In Center",
@@ -2113,10 +2360,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.peergalaxy.com/",
       "pricing": {
         "description": "FREE or scholarshipped"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "online_service",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": "24/7 online calendar",
@@ -2145,10 +2398,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://meetings.smartrecovery.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": "Multiple weekly meetings across Portland metro",
@@ -2178,10 +2437,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "(877) 968-8491",
+      "email": null,
       "website": "https://www.theyouthline.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Daily 4-10pm (teen peer volunteers); adult counselors all other hours",
+      "eligibility": null,
+      "features": [],
+      "location_type": "online_service",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -2212,10 +2477,16 @@
       "latitude": 45.529256,
       "longitude": -122.700932,
       "phone": "(503) 222-5756",
+      "email": null,
       "website": "https://www.portlandalano.org/plates-for-the-people",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": "Monthly (dates vary, check Eventbrite for registration)",
@@ -2247,6 +2518,7 @@
       "latitude": 45.542155,
       "longitude": -122.664668,
       "phone": "503-823-3673",
+      "email": null,
       "website": "https://portland.gov/parks/matt-dishman-community-center",
       "pricing": {
         "regular_drop_in": "$6 adult",
@@ -2254,6 +2526,16 @@
         "north_portland_pass": "FREE for North Portland residents",
         "shower_only": "$0.50"
       },
+      "hours": "Mon-Fri 5:30am-8pm, Sat 9am-5pm, Sun 8am-5pm (pool closes 30 min earlier)",
+      "eligibility": null,
+      "features": [
+        "Indoor pool",
+        "Fitness center",
+        "Gymnasium",
+        "Showers"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -2290,10 +2572,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-823-7529",
+      "email": null,
       "website": "https://www.pdga.com/course-directory/course/pier-park",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -2329,10 +2617,16 @@
       "latitude": 45.513815,
       "longitude": -122.480928,
       "phone": "503-618-2525",
+      "email": null,
       "website": null,
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Apr-Sept: 5am-10pm; Oct-March: 6am-8pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -2370,8 +2664,14 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": null,
       "pricing": null,
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -2408,11 +2708,17 @@
       "latitude": 45.517071,
       "longitude": -122.674578,
       "phone": "503-662-2408",
+      "email": null,
       "website": "https://www.yogaonyamhill.com/",
       "pricing": {
         "description": "Donation-based, suggested $8-12",
         "notes": "No one turned away for lack of funds"
       },
+      "hours": "Mon/Wed/Fri 7am-7:30pm, Tue/Thu 6:30am-7:30pm, Sat 10am-12pm, Sun 10am-4pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         "Power yoga",
         "Vinyasa",
@@ -2457,11 +2763,17 @@
       "latitude": 45.504583,
       "longitude": -122.639483,
       "phone": "503-244-0108",
+      "email": "connect@thebymc.com",
       "website": "https://www.thebymc.com",
       "pricing": {
         "description": "By-donation with equity pricing",
         "notes": "South Asian, BIPOC, and queer-owned. No one turned away."
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Queer and Trans Yoga",
@@ -2552,10 +2864,16 @@
       "latitude": 45.544422,
       "longitude": -122.575656,
       "phone": "503-239-4846",
+      "email": null,
       "website": "https://dharma-rain.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Tue 11:30am-9pm, Wed-Thu 5:30am-9pm, Fri-Sat 5:30am-6pm, Sun 8:30am-12pm, Mon closed",
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Sunday Morning Program",
@@ -2611,10 +2929,16 @@
       "latitude": 45.520247,
       "longitude": -122.674194,
       "phone": "360-773-3770",
+      "email": "portland@diamondway.org",
       "website": "https://diamondway.org/portland/",
       "pricing": {
         "description": "FREE always"
       },
+      "hours": "Meditation Mon & Thu 7pm; contact 503-484-7187 for full schedule",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Guided Meditation",
@@ -2665,10 +2989,16 @@
       "latitude": 45.475593,
       "longitude": -122.595415,
       "phone": "503-519-9686",
+      "email": "office@portlandinsight.org",
       "website": "https://www.portlandinsight.org/",
       "pricing": {
         "description": "Dana (donation-based)"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Sunday Program",
@@ -2734,12 +3064,25 @@
       "latitude": 45.515792,
       "longitude": -122.553414,
       "phone": "503-823-3450",
+      "email": null,
       "website": "https://www.portland.gov/parks/east-portland-community-center",
       "pricing": {
         "daily_admission": "$6 adults (Portland residents)",
         "with_access_discount": "Up to 90% off (no proof of income required)",
         "notes": "Non-residents pay higher rates. Children 0-2 FREE."
       },
+      "hours": "Mon-Fri 5:30am-9pm, Sat 7am-5pm, Sun 8am-5pm (pool closes 30 min earlier)",
+      "eligibility": null,
+      "features": [
+        "Fitness center with selectorized strength, treadmills, wheelchair treadmill",
+        "Indoor pool with whirlpool spa (\u26a0\ufe0f TEMPORARILY CLOSED - mechanical issues as of Mar 2026)",
+        "Water fitness classes",
+        "Group fitness classes daily",
+        "Open gym",
+        "Play swims"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "TeenForce",
@@ -2794,12 +3137,25 @@
       "latitude": 45.482537,
       "longitude": -122.588676,
       "phone": "503-823-3183",
+      "email": null,
       "website": "https://www.portland.gov/parks/mt-scott-community-center",
       "pricing": {
         "daily_admission": "$6 adults (Portland residents)",
         "with_access_discount": "Up to 90% off (no proof of income required)",
         "notes": "Non-residents pay higher rates. Children 0-2 FREE."
       },
+      "hours": "Mon-Fri 5:30am-9pm, Sat 7am-5pm, Sun 8am-5pm (pool closes 30 min earlier)",
+      "eligibility": null,
+      "features": [
+        "Newly renovated 70,000 sq ft facility (reopened Sept 2025)",
+        "Indoor pool with slide and rope swing",
+        "Fitness center",
+        "Roller rink",
+        "Open gym",
+        "Event/rental spaces"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Family Swim",
@@ -2864,8 +3220,14 @@
       "latitude": 45.50265,
       "longitude": -122.425283,
       "phone": "503-988-4860",
+      "email": null,
       "website": "https://www.greshamseniorcenter.com/",
       "pricing": null,
+      "hours": "Monday-Friday 8:30am-3pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Tuesday Night Dance",
@@ -2930,11 +3292,17 @@
       "latitude": 45.533868,
       "longitude": -122.697963,
       "phone": "503-894-9341",
+      "email": null,
       "website": "https://portlandrunning.com",
       "pricing": {
         "description": "FREE",
         "notes": "Sign waiver before first run; no dogs"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Monday Trail Run",
@@ -3000,10 +3368,16 @@
       "latitude": 45.532573,
       "longitude": -122.653136,
       "phone": null,
+      "email": "foodcourt5000@gmail.com",
       "website": "https://foodcourt5k.com/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": "Every Sunday 11am-12:30pm",
@@ -3044,10 +3418,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": null,
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": "May-October (was seasonal)",
@@ -3085,10 +3465,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://shift2bikes.org/calendar",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Mellow Mondays",
@@ -3152,10 +3538,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-666-5796",
+      "email": null,
       "website": "https://portlandbicyclingclub.com/scheduled_rides",
       "pricing": {
         "description": "FREE to try (no membership required initially)"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Meet PBC: BITS rides",
@@ -3199,11 +3591,17 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-223-9622",
+      "email": null,
       "website": "https://ymcacw.org",
       "pricing": {
         "description": "Membership-based; financial assistance available",
         "notes": "Income-based scholarships cover 10-100% of membership fees"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         "Group fitness classes",
         "Swim lessons",
@@ -3246,11 +3644,17 @@
       "latitude": 45.526216,
       "longitude": -122.433758,
       "phone": "503-512-5511",
+      "email": null,
       "website": "https://www.rockhavenclimbing.com/",
       "pricing": {
         "description": "FREE for Gresham residents on specific days",
         "notes": "Includes rental shoes; chalk sold separately"
       },
+      "hours": "Mon/Wed/Fri/Sat 9am-9pm; Tue/Thu 6am-10pm; Sun 9am-7pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Community Climbing Day",
@@ -3307,10 +3711,16 @@
       "latitude": 45.440417,
       "longitude": -122.570833,
       "phone": "503-653-6613",
+      "email": null,
       "website": "https://www.clackamastowncenter.com/en/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Doors open 7am daily for walkers",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -3347,10 +3757,16 @@
       "latitude": 45.4525,
       "longitude": -122.781389,
       "phone": "503-639-8860",
+      "email": null,
       "website": "https://www.shopwashingtonsquare.com/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Opens 7am daily for walkers",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -3387,11 +3803,17 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-823-2525",
+      "email": null,
       "website": "https://www.portland.gov/parks/recreation/pools",
       "pricing": {
         "description": "FREE",
         "notes": "Part of Summer Free For All program funded by Parks Local Option Levy"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Creston Pool Free Swim",
@@ -3482,6 +3904,7 @@
       "latitude": 45.431118,
       "longitude": -122.582198,
       "phone": "503-557-7873",
+      "email": null,
       "website": "https://ncprd.org/aquatic-park",
       "pricing": {
         "regular": "$8.25 NCPRD resident / $13 non-resident (ages 3+)",
@@ -3490,6 +3913,20 @@
         "punch_card": "10-visit Parent Preschool: $42.50/$32.50 (NCPRD) or $60/$50 (non-resident)",
         "notes": "Locker rentals free with $5 cash deposit or photo ID"
       },
+      "hours": {
+        "office": "Mon/Wed 6am-12:30pm & 3-8pm; Tue/Thu 9am-12:30pm & 3-8pm; Fri 6am-12:30pm; Sat 8:30am-3:30pm; Sun 10:45am-3:30pm",
+        "notes": "See website for Big Surf recreation swim schedule"
+      },
+      "eligibility": null,
+      "features": [
+        "Indoor waterpark - always 86 degrees",
+        "Six pools: lap pool, dive well, splash down, kiddie pool",
+        "Water slides (must be 4ft+ tall, 250lbs or less)",
+        "Rock wall",
+        "Party room rentals"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Big Surf Recreation Swim",
@@ -3558,6 +3995,7 @@
       "latitude": 45.587749,
       "longitude": -122.711433,
       "phone": "503-823-3631",
+      "email": null,
       "website": "https://www.portland.gov/parks/charles-jordan-community-center",
       "pricing": {
         "youth": "$4 (ages 3-12)",
@@ -3567,6 +4005,17 @@
         "20_visit_pass": "$85",
         "notes": "Non-residents pay higher rates. NO POOL at this location."
       },
+      "hours": "Mon-Fri 6:30am-9pm, Sat 9am-5pm, Sun CLOSED",
+      "eligibility": null,
+      "features": [
+        "43,000 sq ft facility",
+        "Largest PP&R gymnasium",
+        "Fitness center",
+        "Multipurpose classrooms",
+        "Youth games"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Group Fitness Classes",
@@ -3618,6 +4067,7 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-431-5455",
+      "email": null,
       "website": "https://www.ttadpools.com",
       "pricing": {
         "drop_in": "$5-$6 in-district, $6-$7 out-of-district (students/seniors/military lower tier)",
@@ -3626,6 +4076,11 @@
         "private_lessons": "$40 in-district/$55 out-of-district (30 min)",
         "notes": "FREE with SilverSneakers, Silver & Fit, Renew Active, One Pass"
       },
+      "hours": "Tigard: Mon-Fri 5:30am-3:45pm & 8pm-9pm, Sat-Sun 11am-4pm. Tualatin: Mon-Fri 5:30am-4pm, Sat 10:30am-3:45pm, Sun 11am-3:45pm. Check ttadpools.com for current schedule.",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         "Swim lessons (all ages)",
         "Private lessons",
@@ -3668,11 +4123,17 @@
       "latitude": 45.399205,
       "longitude": -122.688057,
       "phone": "503-675-2549",
+      "email": null,
       "website": "https://www.ci.oswego.or.us/LORAC",
       "pricing": {
         "description": "Day passes and memberships available",
         "notes": "Scholarship program available for qualifying residents"
       },
+      "hours": "Sun: 8am-5:30pm\nMon-Fri: 5:30am-8:30pm\nSat: 7am-5:30pm\n",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         "Swim lessons",
         "Adult fitness classes",
@@ -3713,10 +4174,16 @@
       "latitude": 45.515756,
       "longitude": -122.673362,
       "phone": null,
+      "email": null,
       "website": "https://november-project.com/portland-or/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": "All ages, all fitness levels - \"All Ages, Faces, & Paces\"",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Wednesday Workout",
@@ -3761,10 +4228,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-284-0345",
+      "email": null,
       "website": "https://foottraffic.us/train/group-run/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": "All abilities welcome",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Monday Run",
@@ -3836,10 +4309,16 @@
       "latitude": 45.535888,
       "longitude": -122.762146,
       "phone": null,
+      "email": null,
       "website": "https://www.meetup.com/portland-trail-runners-group/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": "All levels welcome",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Saturday Trail Run",
@@ -3889,10 +4368,20 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://trailsisters.net/local-groups/portland-oregon/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": "Women-identifying, trans, and nonbinary trail runners and hikers",
+      "features": [
+        "No one left behind philosophy",
+        "Group matches your pace",
+        "Walking welcomed"
+      ],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Monday Trail Run",
@@ -3954,10 +4443,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-505-0083",
+      "email": null,
       "website": "https://www.portland.gov/parks/recreation/fitness-park",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": "Ages 14+",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -3994,10 +4489,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-645-6433",
+      "email": null,
       "website": "https://www.thprd.org/fitness-in-the-park",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": "All ages (varies by class)",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -4035,10 +4536,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.meetup.com/portland-bird-watching-meetup-group/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": "Regular weekend bird walks (check Meetup for dates)",
@@ -4070,10 +4577,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": "birdhers@gmail.com",
       "website": "https://birdhers.com/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": "Regular walks (check website for dates)",
@@ -4104,10 +4617,16 @@
       "latitude": 45.535015,
       "longitude": -122.621485,
       "phone": null,
+      "email": "portland@tergar.org",
       "website": "https://tergar.org/portland/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Monthly In-Person Practice",
@@ -4157,10 +4676,16 @@
       "latitude": 45.51273,
       "longitude": -122.640013,
       "phone": null,
+      "email": null,
       "website": "https://www.pathofsincerity.com/events/",
       "pricing": {
         "description": "FREE (donation-based gift economy)"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Monday Night Sangha",
@@ -4205,10 +4730,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.meetup.com/portlandyoungmeditators/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": "Regular meetings (check Meetup for dates)",
@@ -4240,10 +4771,16 @@
       "latitude": 45.526673,
       "longitude": -122.684467,
       "phone": "503-227-2345",
+      "email": null,
       "website": "https://mazamas.org/streetrambles/",
       "pricing": {
         "description": "FREE, no registration required"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": "Every Tuesday & Thursday 6-8pm",
@@ -4275,10 +4812,16 @@
       "latitude": 45.516548,
       "longitude": -122.683411,
       "phone": "503-226-2811",
+      "email": null,
       "website": "https://portlandartmuseum.org/",
       "pricing": {
         "description": "$27.50 adults; FREE First Thursday; $5 Oregon Trail Card (up to 2 tickets)"
       },
+      "hours": "Tue-Sun 10am-5pm; Mon closed",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Free First Thursday",
@@ -4323,11 +4866,17 @@
       "latitude": 45.507974,
       "longitude": -122.663738,
       "phone": "503-797-4000",
+      "email": null,
       "website": "https://omsi.edu/",
       "pricing": {
         "description": "$20 adults; $17 seniors (63+); $15 youth (3-13); free under 3; $5 First Sunday; $5 Arts for All (EBT/SNAP/WIC/TANF/Medicaid/OHP)",
         "notes": "Arts for All provides up to 4 tickets at $5 each for EBT/SNAP/WIC/TANF/Medicaid/OHP recipients (any state); up to 55% off memberships"
       },
+      "hours": "Tue-Fri 9:30am-5:30pm; Sat 9:30am-7pm; Sun 9:30am-5:30pm; Mon closed",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "First Sunday",
@@ -4367,6 +4916,7 @@
       "latitude": 45.518885,
       "longitude": -122.582923,
       "phone": "503-252-0500",
+      "email": null,
       "website": "https://www.academytheaterpdx.com/",
       "pricing": {
         "standard": "$9 adult / $6.50 discount",
@@ -4375,6 +4925,17 @@
         "double_feature_monday": "$6 adults, $4 children/seniors (two consecutive movies)",
         "two_for_tuesday": "Buy one, get one free"
       },
+      "hours": "Showtimes vary; typically first showing around 3pm. Check academytheaterpdx.com for current schedule.",
+      "eligibility": null,
+      "features": [
+        "Three climate-controlled theaters",
+        "Dolby sound",
+        "Reclining stadium seating",
+        "Flying Pie Pizzeria food service",
+        "Beer and concessions"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -4406,6 +4967,7 @@
       "latitude": 45.51656,
       "longitude": -122.628478,
       "phone": "503-238-1617",
+      "email": null,
       "website": "https://wunderlandgames.com/movies/avalon/",
       "pricing": {
         "matinee": "$6 (before 6pm)",
@@ -4416,6 +4978,15 @@
         "three_d": "+$1",
         "notes": "Movie admission includes free arcade general admission"
       },
+      "hours": "11am-11pm",
+      "eligibility": null,
+      "features": [
+        "Two screens",
+        "Art Deco design (built 1912)",
+        "Classic nickel arcade (since 1925)"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -4447,6 +5018,7 @@
       "latitude": 45.523238,
       "longitude": -122.637514,
       "phone": "503-238-4088",
+      "email": null,
       "website": "https://www.laurelhursttheater.com/",
       "pricing": {
         "general": "$10",
@@ -4454,6 +5026,15 @@
         "before_5pm": "$7",
         "tuesday": "$7 all day"
       },
+      "hours": "Showtimes vary daily; typically 12pm-10pm. All shows 21+ with ID, minors with parent before 8pm. Check laurelhursttheater.com.",
+      "eligibility": null,
+      "features": [
+        "Art Deco design (built 1923)",
+        "First and second-run films",
+        "Wine, beer, pizza available"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -4485,12 +5066,23 @@
       "latitude": 45.522372,
       "longitude": -122.681408,
       "phone": "971-222-2010",
+      "email": null,
       "website": "https://pdx.livingroomtheaters.com/",
       "pricing": {
         "standard": "$13+",
         "discount_days": "$8.50 Mon/Tue",
         "notes": "$7 weekly indie film special may be discontinued - call to verify"
       },
+      "hours": "Mon-Thu 1-9pm, Fri 11am-10:30pm, Sat 11am+",
+      "eligibility": null,
+      "features": [
+        "Independent, foreign, and classic films",
+        "Full restaurant and bar",
+        "In-theater dining with attached tables",
+        "Reclining loveseat seating"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -4523,10 +5115,21 @@
       "latitude": 45.535443,
       "longitude": -122.620609,
       "phone": "503-281-4215",
+      "email": null,
       "website": "https://hollywoodtheatre.org/",
       "pricing": {
         "description": "Various - includes free screenings"
       },
+      "hours": "Tue-Sat 6pm-10pm. Check hollywoodtheatre.org for full schedule.",
+      "eligibility": null,
+      "features": [
+        "Historic 1926 theater (National Register)",
+        "Only 70mm film projector in Oregon",
+        "Nonprofit organization",
+        "1,491 seats"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         "B-Movie Bingo (check calendar for dates)",
         "Kung Fu Theater",
@@ -4564,6 +5167,7 @@
       "latitude": 45.524053,
       "longitude": -122.675623,
       "phone": "503-796-9364",
+      "email": null,
       "website": "https://groundkontrol.com/",
       "pricing": {
         "regular": "FREE admission (pay per game)",
@@ -4571,6 +5175,15 @@
         "free_play_21_plus": "$12 (after 5pm)",
         "weekend_cover": "Cover charge during peak weekend hours"
       },
+      "hours": "Daily noon-midnight (all ages until 5pm, 21+ after)",
+      "eligibility": null,
+      "features": [
+        "100+ classic video games (70s-90s)",
+        "40+ pinball machines",
+        "Full bar and food after 5pm"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Free Play (2nd Thursday)",
@@ -4613,10 +5226,16 @@
       "latitude": 45.515439,
       "longitude": -122.662065,
       "phone": "503-238-4000",
+      "email": null,
       "website": "https://ggportland.com",
       "pricing": {
         "description": "FREE Board Game Open Play"
       },
+      "hours": "Mon-Sat 10am-10pm, Sun 11am-7pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Might I Suggest a Game? - Board Game Open Play",
@@ -4655,10 +5274,16 @@
       "latitude": 45.57075,
       "longitude": -122.609925,
       "phone": "503-288-8177",
+      "email": "Info@nayapdx.org",
       "website": "https://nayapdx.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Monday-Friday 9am-4:30pm",
+      "eligibility": "Serves region's 90,000+ Native people. Self-identified Native Americans and families welcome.",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Culture Nights",
@@ -4706,8 +5331,14 @@
       "latitude": 45.526515,
       "longitude": -122.556437,
       "phone": "503-234-1541",
+      "email": "info@irco.org",
       "website": "https://irco.org/",
       "pricing": null,
+      "hours": "Mon-Fri 8:30am-5pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -4739,6 +5370,7 @@
       "latitude": 45.515859,
       "longitude": -122.682184,
       "phone": "503-222-1741",
+      "email": null,
       "website": "https://www.ohs.org/",
       "pricing": {
         "adult": "$14",
@@ -4749,6 +5381,11 @@
         "blue_star": "FREE (active military + families, Memorial Day-Labor Day)",
         "group_rate": "$11 per person (pre-booked, no minimum size)"
       },
+      "hours": "Mon-Sat 10am-5pm; Sun noon-5pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -4781,6 +5418,7 @@
       "latitude": 45.524334,
       "longitude": -122.678206,
       "phone": "503-226-3600",
+      "email": null,
       "website": "https://www.ojmche.org/",
       "pricing": {
         "adults": "$10",
@@ -4794,6 +5432,11 @@
         "press": "FREE",
         "first_sunday": "FREE (first Sunday of every month)"
       },
+      "hours": "Wed-Sun 11am-4pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -4827,10 +5470,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://fiveoaksmuseum.org/",
       "pricing": {
         "description": "Was always FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -4862,6 +5511,7 @@
       "latitude": 45.507222,
       "longitude": -122.661543,
       "phone": null,
+      "email": null,
       "website": "https://orhf.org/",
       "pricing": {
         "adult": "$6 (age 14+)",
@@ -4872,6 +5522,17 @@
         "members": "FREE",
         "notes": "Admission fee began January 2026 after 13 years of free entry. Train ride tickets sold separately."
       },
+      "hours": "Thu-Sun 1-5pm (volunteer-run, verify before visit)",
+      "eligibility": null,
+      "features": [
+        "Three vintage steam locomotives",
+        "SP 4449 (operable)",
+        "SP&S 700 (operable)",
+        "OR&N 197",
+        "Brooklyn Turntable (1924)"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -4905,10 +5566,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://lincc.org",
       "pricing": {
         "description": "FREE library cards for all Oregon residents"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Storytimes",
@@ -4974,10 +5641,16 @@
       "latitude": 45.336449,
       "longitude": -122.592067,
       "phone": "503-657-8269",
+      "email": null,
       "website": "https://www.orcity.org/library",
       "pricing": {
         "description": "FREE (all programs)"
       },
+      "hours": "Mon-Fri 10am-6:30pm, Sat 10am-6pm, Sun 10am-5pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Art Gym",
@@ -5041,10 +5714,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-615-6500",
+      "email": null,
       "website": "https://www.hillsboro-oregon.gov/library",
       "pricing": {
         "description": "FREE (all programs and events)"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Free Storytimes",
@@ -5114,6 +5793,7 @@
       "latitude": 45.514266,
       "longitude": -122.395848,
       "phone": "503-491-7309",
+      "email": null,
       "website": "https://www.mhcc.edu/community-resources/planetarium-sky-theatre",
       "pricing": {
         "adult": "$5",
@@ -5121,6 +5801,16 @@
         "child": "FREE (15 and under with adult)",
         "notes": "Cash and card accepted at door"
       },
+      "hours": "Doors open 15 minutes before showtime",
+      "eligibility": "Open to the public",
+      "features": [
+        "Educational astronomy presentations",
+        "MHCC instructor-led discussions",
+        "Plush theater seating",
+        "Dome screen visuals"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Early Planetarium Show",
@@ -5176,10 +5866,16 @@
       "latitude": 45.515143,
       "longitude": -122.685609,
       "phone": "503-222-2031",
+      "email": null,
       "website": "https://www.tocportland.org/",
       "pricing": {
         "description": "FREE lunchtime concerts"
       },
+      "hours": "Tue-Fri 11am-3pm, plus scheduled events",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Lunchtime Concert Series",
@@ -5219,10 +5915,16 @@
       "latitude": 45.499618,
       "longitude": -122.645407,
       "phone": "503-232-8845",
+      "email": null,
       "website": "https://artichokemusic.org/",
       "pricing": {
         "description": "FREE (donations welcome)"
       },
+      "hours": "Wed-Sat 12pm-5pm (store hours); event hours vary",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         "Open mic nights (check calendar for dates)",
         "Affordable music lessons (sliding scale)"
@@ -5256,10 +5958,16 @@
       "latitude": 45.515592,
       "longitude": -122.683715,
       "phone": null,
+      "email": null,
       "website": "https://stjamespdx.org/life/wm/bach/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Bach Cantata Vespers",
@@ -5299,10 +6007,16 @@
       "latitude": 45.516325,
       "longitude": -122.627898,
       "phone": "503-823-3741",
+      "email": null,
       "website": "https://www.portland.gov/fire/belmont-firehouse-museum",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Wed 9am-3pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Wednesday Open Hours",
@@ -5342,10 +6056,16 @@
       "latitude": 45.562554,
       "longitude": -122.666715,
       "phone": "503-284-6019",
+      "email": null,
       "website": "https://turnturnturnpdx.com/",
       "pricing": {
         "description": "FREE events"
       },
+      "hours": "Wed-Fri 4pm-11pm, Sat 4pm-11pm, Sun 12:30pm-11pm, Mon 7pm-11pm, Tue closed",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Casual Friday (Comedy Open Mic)",
@@ -5402,10 +6122,16 @@
       "latitude": 45.526292,
       "longitude": -122.634719,
       "phone": "503-232-1504",
+      "email": null,
       "website": "https://laurelthirst.com/",
       "pricing": {
         "description": "FREE happy hour shows"
       },
+      "hours": "Mon-Wed 4pm-10pm, Thu 4pm-11pm, Fri 4pm-12am, Sat 12pm-12am, Sun 12pm-11pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Happy Hour Live Music",
@@ -5444,10 +6170,16 @@
       "latitude": 45.498074,
       "longitude": -122.42715,
       "phone": "503-665-0604",
+      "email": null,
       "website": "https://www.mthoodtheatre.com/",
       "pricing": {
         "description": "$5 Bargain Wednesdays"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -5479,6 +6211,7 @@
       "latitude": 45.364343,
       "longitude": -122.595143,
       "phone": null,
+      "email": null,
       "website": "https://historicoregoncity.org",
       "pricing": {
         "regular": "$17 adults, $15 youth (4-17), FREE under 3 and 100+",
@@ -5491,6 +6224,19 @@
         ],
         "anniversary_discount": "Age-based discounts during anniversary week (June)"
       },
+      "hours": "Mon-Sat 9am-5pm, Sun 10am-5pm (last admission 3:30pm daily)",
+      "eligibility": null,
+      "features": [
+        "Oregon's First Peoples film",
+        "Bound for Oregon film",
+        "Interactive Oregon Trail exhibits",
+        "Miniature Overland Trail (free)",
+        "Pioneer Garden (free)",
+        "Interpretive displays",
+        "Abernathy Green"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -5526,10 +6272,16 @@
       "latitude": 45.519557,
       "longitude": -122.479076,
       "phone": "503-988-5123",
+      "email": null,
       "website": "https://multcolib.org/hours-and-locations/rockwood-library",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Mon 10am-6pm, Tue-Wed 12pm-8pm, Thu-Sat 10am-6pm, Sun 12pm-6pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Makerspace",
@@ -5600,11 +6352,23 @@
       "latitude": 45.4226,
       "longitude": -122.764888,
       "phone": "503-684-6537",
+      "email": null,
       "website": "https://www.tigard-or.gov/your-government/departments/library",
       "pricing": {
         "description": "FREE",
         "notes": "Fine-free library system"
       },
+      "hours": "Mon-Thu: 10am-8pm, Fri-Sun: 10am-6pm",
+      "eligibility": null,
+      "features": [
+        "24/7 drive-up and walk-up book returns",
+        "Free WiFi",
+        "Public computers",
+        "Meeting rooms",
+        "Cultural Pass Express access"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "English Conversation Group",
@@ -5671,10 +6435,16 @@
       "latitude": 45.423944,
       "longitude": -122.667392,
       "phone": "503-636-7628",
+      "email": null,
       "website": "https://www.ci.oswego.or.us/library",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Mon-Thu: 10am-7pm\nFri-Sat: 10am-5pm\nSun: 1pm-5pm\n",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Lake Oswego Reads",
@@ -5767,10 +6537,16 @@
       "latitude": 45.384375,
       "longitude": -122.758528,
       "phone": "503-691-3074",
+      "email": null,
       "website": "https://www.tualatinoregon.gov/library",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Mon-Thu: 10am-8pm\nFri-Sun: 10am-6pm\n",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Adult Book Discussion",
@@ -5857,10 +6633,16 @@
       "latitude": 45.386282,
       "longitude": -122.767021,
       "phone": "503-885-1926",
+      "email": null,
       "website": "https://www.tualatinhistory.org",
       "pricing": {
         "description": "FREE admission"
       },
+      "hours": "Mon-Fri 10am-2pm (closed weekends)",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Fossil Fest 2025",
@@ -5929,11 +6711,17 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.pcc.edu/galleries/",
       "pricing": {
         "description": "FREE admission",
         "notes": "All galleries free and open to the public"
       },
+      "hours": null,
+      "eligibility": "Open to the public",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -5970,11 +6758,17 @@
       "latitude": 45.441398,
       "longitude": -122.733741,
       "phone": "971-722-4848",
+      "email": null,
       "website": "https://www.pcc.edu/theatre/",
       "pricing": {
         "description": "Ticket prices vary by section (Sections A, B, C)",
         "notes": "Student and senior discounts typically available. Tickets online or at box office (opens 1hr before curtain, cash/check only)."
       },
+      "hours": "Performance schedule varies by season; check pcc.edu for showtimes",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -6010,10 +6804,22 @@
       "latitude": 45.514266,
       "longitude": -122.395848,
       "phone": "503-491-7309",
+      "email": null,
       "website": "https://www.mhcc.edu/community-resources/visual-arts-gallery",
       "pricing": {
         "description": "FREE admission"
       },
+      "hours": "Mon-Fri 10am-4pm; weekends by appointment (call 503-491-7309 ext 5)",
+      "eligibility": "Open to the public",
+      "features": [
+        "2,000 sq ft gallery space",
+        "20-foot ceilings with natural lighting",
+        "Regional, national, and international artists",
+        "Annual student exhibition (spring)",
+        "Works for sale (25% gallery commission)"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": "4 exhibitions per year (October-May)",
@@ -6050,10 +6856,16 @@
       "latitude": 45.518516,
       "longitude": -122.659909,
       "phone": "503-294-0769",
+      "email": null,
       "website": "https://portland.scrapcreativereuse.org/",
       "pricing": {
         "description": "FREE-$7 depending on event"
       },
+      "hours": "7 days a week 11am-7pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Sunday Crafternoon",
@@ -6108,10 +6920,16 @@
       "latitude": 45.51354,
       "longitude": -122.662339,
       "phone": "503-827-0249",
+      "email": null,
       "website": "https://www.iprc.org/",
       "pricing": {
         "description": "Collage Night FREE; workshops vary; zine library FREE"
       },
+      "hours": "Mon 12-9pm, Wed 6-9pm, Thu-Sat 12-6pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Collage Night",
@@ -6150,10 +6968,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://slamlandia.com/",
       "pricing": {
         "description": "FREE ($5 suggested donation)"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Open Mic at Guilder Cafe",
@@ -6204,10 +7028,16 @@
       "latitude": 45.562923,
       "longitude": -122.686181,
       "phone": "503-384-2834",
+      "email": null,
       "website": "https://www.thestackscoffeehouse.com/events",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": "Last Sunday of each month 4-6pm",
@@ -6238,10 +7068,16 @@
       "latitude": 45.484471,
       "longitude": -122.675816,
       "phone": "971-200-5368",
+      "email": "wilwrite@willamettewriters.org",
       "website": "https://willamettewriters.org/",
       "pricing": {
         "description": "Many free events; membership $57/year (student $30/year)"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "organization",
       "programs": [],
       "dates": null,
       "schedule": "Various workshops and critique groups throughout the month",
@@ -6272,10 +7108,16 @@
       "latitude": 45.584722,
       "longitude": -122.752778,
       "phone": null,
+      "email": null,
       "website": "https://jazzoregon.org/",
       "pricing": {
         "description": "FREE (donations accepted)"
       },
+      "hours": "Fri 4:30-10pm, Sat 1-9:30pm, Sun 1-8pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "July 17-19, 2026 (46th annual)",
       "schedule": null,
@@ -6317,10 +7159,16 @@
       "latitude": 45.518941,
       "longitude": -122.679529,
       "phone": null,
+      "email": null,
       "website": "https://www.thesquarepdx.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": null,
       "schedule": "Tuesdays & Thursdays noon-1pm (June 3 - July 31)",
@@ -6360,10 +7208,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.rosefestival.org/",
       "pricing": {
         "description": "Multiple free events"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "May 22 - June 28, 2026",
       "schedule": null,
@@ -6402,10 +7256,21 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.facebook.com/DeltaParkPowwow/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [
+        "Intertribal dancing",
+        "Arts and crafts vendors",
+        "Native foods (fry bread and more)",
+        "Cultural exhibitions"
+      ],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "June 19-21, 2026",
       "schedule": "Fri-Sun (check Facebook for daily schedule)",
@@ -6443,11 +7308,25 @@
       "latitude": 45.456129,
       "longitude": -122.76743,
       "phone": null,
+      "email": null,
       "website": "https://www.oregonmidsummer.com/",
       "pricing": {
         "description": "$25 adults, $15 youth, free for small children",
         "notes": "Cheaper online; member discounts available online only"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [
+        "Maypole decorating and dancing",
+        "Scandinavian traditional dances",
+        "Viking history and games (Viking chess, tug-of-war)",
+        "Flower crown making",
+        "Nordic food vendors (Broder S\u00f6der, Carina's Bakery)",
+        "Nordic brews (Ridgewalker Brewing)",
+        "Gnome-themed scavenger hunt"
+      ],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "June 28-29, 2026",
       "schedule": "Fri 5-9pm, Sat 10am-5pm",
@@ -6482,11 +7361,23 @@
       "latitude": 45.52995,
       "longitude": -122.95036,
       "phone": null,
+      "email": null,
       "website": "https://www.phga.org/",
       "pricing": {
         "description": "Tickets required (see phga.org/tickets for current pricing)",
         "notes": "Adult, youth (5-17), senior, military, and family packages available. Children 4 and under free. Parking $10."
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [
+        "Scottish highland athletics",
+        "Pipe bands and Celtic music",
+        "Highland dancing",
+        "Clan tents and Scottish heritage",
+        "Food and drink vendors"
+      ],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "June 6, 2026",
       "schedule": "Saturday (check website for times)",
@@ -6520,10 +7411,23 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-557-4700",
+      "email": null,
       "website": "https://westlinnoregon.gov/oldtimefair",
       "pricing": {
         "description": "FREE admission and parking"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [
+        "Community parade (theme - Celebrating Hometown Heroes)",
+        "Amusement rides",
+        "Olde Time Baseball Game",
+        "Food vendors and exhibitor booths",
+        "Live music from local bands",
+        "Car show"
+      ],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "July 10-12, 2026",
       "schedule": "Fri 5-10:30pm (carnival), Sat 11am-10:30pm, Sun 11am-6pm. Parade Sat 10am.",
@@ -6560,11 +7464,23 @@
       "latitude": 45.555492,
       "longitude": -122.44496,
       "phone": null,
+      "email": null,
       "website": "https://www.marianasfestival.com/",
       "pricing": {
         "description": "$5 parking",
         "notes": "Festival admission details TBD \u2014 check website closer to event"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [
+        "Chamorro cultural dances",
+        "Live music",
+        "Food and flavors of the Marianas Islands",
+        "Beer garden",
+        "Friday pre-festival workshops"
+      ],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "August 28-30, 2026",
       "schedule": "Fri workshops (location TBD), Sat-Sun at Blue Lake Park",
@@ -6599,10 +7515,16 @@
       "latitude": 45.520124,
       "longitude": -122.670539,
       "phone": null,
+      "email": null,
       "website": "https://portlandpride.org/",
       "pricing": {
         "description": "Suggested $10 donation - no one turned away"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "July 18-19, 2026",
       "schedule": "Sat noon-8pm, Sun 11:30am-6pm; Parade Sun 11am",
@@ -6644,10 +7566,16 @@
       "latitude": 45.529044,
       "longitude": -122.681598,
       "phone": null,
+      "email": null,
       "website": "https://www.pearldistrict.org/article/first-thursday-is-back",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": null,
       "schedule": "First Thursday monthly, 5-9pm (April-October)",
@@ -6685,10 +7613,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.lastthursdayalberta.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": null,
       "schedule": "Last Thursday monthly (year-round); street closures 6-9pm June-August",
@@ -6727,10 +7661,16 @@
       "latitude": 45.518941,
       "longitude": -122.679529,
       "phone": null,
+      "email": null,
       "website": "https://www.thesquarepdx.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "November 27, 2026 (day after Thanksgiving), 5:30-6:45pm",
       "schedule": null,
@@ -6769,10 +7709,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.peacocklane.org/",
       "pricing": {
         "description": "FREE (donations accepted at cocoa booth)"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "December 15-31, 6-11pm nightly",
       "schedule": null,
@@ -6810,10 +7756,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-618-2300",
+      "email": null,
       "website": "https://greshamoregon.gov/Recreation/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [
         {
           "name": "Music in the Parks",
@@ -6862,12 +7814,18 @@
       "latitude": 45.141667,
       "longitude": -122.819444,
       "phone": null,
+      "email": null,
       "website": "https://www.woodenshoe.com/",
       "pricing": {
         "description": "$19 weekday / $24 weekend adults (ages 13-64); Children 12 and under FREE",
         "seniors": "$14 weekday / $19 weekend (65+)",
         "notes": "Online tickets only; timed entry; best bloom mid-April. 10% off 4+ tickets with code 4TICKETS."
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "March 20 - April 26, 2026",
       "schedule": null,
@@ -6907,10 +7865,16 @@
       "latitude": 45.267044,
       "longitude": -122.68538,
       "phone": null,
+      "email": null,
       "website": "https://springgardenfair.org/",
       "pricing": {
         "description": "$7 one-day / $12 two-day; Kids under 16 FREE"
       },
+      "hours": "Sat 9am-5pm, Sun 9am-4pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "May 2-3, 2026",
       "schedule": null,
@@ -6949,10 +7913,16 @@
       "latitude": 45.498689,
       "longitude": -122.393768,
       "phone": null,
+      "email": null,
       "website": "https://greshamoregon.gov/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "July 18, 2026",
       "schedule": null,
@@ -6993,10 +7963,16 @@
       "latitude": 45.518941,
       "longitude": -122.679529,
       "phone": null,
+      "email": null,
       "website": "https://www.icaportland.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "10am-8pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "August 23, 2026",
       "schedule": null,
@@ -7034,10 +8010,16 @@
       "latitude": 45.49573,
       "longitude": -122.628841,
       "phone": null,
+      "email": null,
       "website": "https://www.oregonbuddhisttemple.com/obon-festival",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "2pm-9pm (Bon Odori dancing starts 7pm)",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "August 1, 2026",
       "schedule": null,
@@ -7075,10 +8057,16 @@
       "latitude": 45.279263,
       "longitude": -122.708123,
       "phone": null,
+      "email": null,
       "website": "https://www.dahlias.com/",
       "pricing": {
         "description": "FREE entry (flowers for purchase)"
       },
+      "hours": "Wed-Sun + Labor Day, 9am-5:30pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "August 1 - September 30, 2026",
       "schedule": null,
@@ -7116,10 +8104,16 @@
       "latitude": 45.267044,
       "longitude": -122.68538,
       "phone": null,
+      "email": null,
       "website": "https://clackamascountyfair.com/",
       "pricing": {
         "description": "$8-12 adults (look for early-week discount days)"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "August 18-22, 2026",
       "schedule": null,
@@ -7156,10 +8150,16 @@
       "latitude": 45.550979,
       "longitude": -122.680485,
       "phone": null,
+      "email": null,
       "website": "https://www.polishfestivalpdx.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Sat 11am-10pm, Sun noon-6pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "September 19-20, 2026",
       "schedule": null,
@@ -7196,10 +8196,16 @@
       "latitude": 45.526869,
       "longitude": -122.631957,
       "phone": null,
+      "email": null,
       "website": "https://www.portlandgreekfestival.com/",
       "pricing": {
         "description": "$5 (children under 12 FREE)"
       },
+      "hours": "Fri-Sat 10am-10pm, Sun 11am-7pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "October 2-4, 2026",
       "schedule": null,
@@ -7240,10 +8246,16 @@
       "latitude": 45.498689,
       "longitude": -122.393768,
       "phone": null,
+      "email": null,
       "website": "https://greshamoregon.gov/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "4-8pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "November 1, 2026",
       "schedule": null,
@@ -7282,10 +8294,16 @@
       "latitude": 45.453297,
       "longitude": -122.521286,
       "phone": null,
+      "email": null,
       "website": "https://www.happyvalleyor.gov/4th-of-july-family-festival/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Noon-10pm (parade at noon, fireworks at dusk)",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "July 4, 2026",
       "schedule": null,
@@ -7324,10 +8342,16 @@
       "latitude": 45.453297,
       "longitude": -122.521286,
       "phone": null,
+      "email": null,
       "website": "https://www.happyvalleyor.gov/services/hv-community-events/summer-concerts/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [
         {
           "name": "Thursday Concert",
@@ -7380,10 +8404,16 @@
       "latitude": 45.451988,
       "longitude": -122.521144,
       "phone": null,
+      "email": null,
       "website": "https://www.happyvalleyor.gov/services/hv-community-events/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "October 3, 2026",
       "schedule": null,
@@ -7422,10 +8452,16 @@
       "latitude": 45.429414,
       "longitude": -122.497482,
       "phone": null,
+      "email": null,
       "website": "https://www.happyvalleyor.gov/services/hv-community-events/tree-lighting-ceremony/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "December 6, 2026",
       "schedule": null,
@@ -7462,10 +8498,16 @@
       "latitude": 45.520124,
       "longitude": -122.670539,
       "phone": null,
+      "email": null,
       "website": "https://portlandsaturdaymarket.com/",
       "pricing": {
         "description": "FREE admission"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [
         {
           "name": "Saturday Market",
@@ -7513,10 +8555,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://myodfw.com/articles/free-fishing-days-and-events",
       "pricing": {
         "description": "FREE - no license required"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "event",
       "programs": [],
       "dates": [
         "February 14-15, 2026",
@@ -7559,10 +8607,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://christmasships.org/",
       "pricing": {
         "description": "FREE viewing from any riverfront"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "November 27 - December 21, 2026",
       "schedule": null,
@@ -7601,10 +8655,21 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": "CommunityEngagement@GreshamOregon.gov",
       "website": "https://www.greshamoregon.gov/events",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [
+        "Double feature format (2025)",
+        "LED panel screen - visible in daylight",
+        "Multiple park locations rotate",
+        "Family-friendly films"
+      ],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": null,
       "schedule": "Various Friday/Saturday evenings",
@@ -7643,10 +8708,16 @@
       "latitude": 45.417767,
       "longitude": -122.664918,
       "phone": "503-534-5422",
+      "email": null,
       "website": "https://www.ci.oswego.or.us/parksrec/community-events",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": null,
       "schedule": "Various dates (typically Thursday evenings); 2026 schedule TBA",
@@ -7685,10 +8756,16 @@
       "latitude": 45.385732,
       "longitude": -122.764039,
       "phone": null,
+      "email": null,
       "website": "https://www.tualatinoregon.gov/recreation/concerts-parks",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": null,
       "schedule": "Friday evenings, 6:30-8:30pm (plus lunchtime series 12-1pm)",
@@ -7726,11 +8803,27 @@
       "latitude": 45.535443,
       "longitude": -122.620609,
       "phone": null,
+      "email": null,
       "website": "https://www.africanfilmfestival.org/",
       "pricing": {
         "description": "FREE - all screenings free to public",
         "notes": "Oldest and longest-running African film festival in the US"
       },
+      "hours": null,
+      "eligibility": "Open to the public",
+      "features": [
+        "18 films from 16 countries",
+        "Visiting filmmakers and guest speakers",
+        "After-film discussions",
+        "Women Filmmakers Week",
+        "Family Film Day",
+        "Diaspora Film Night",
+        "Visual arts exhibit",
+        "Live performances",
+        "Marketplace"
+      ],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "February 6 - March 7, 2026",
       "schedule": null,
@@ -7767,11 +8860,22 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://jadedistrict.org/jade-international-night-market-2025",
       "pricing": {
         "description": "FREE admission",
         "notes": "Food and vendor purchases separate"
       },
+      "hours": null,
+      "eligibility": "Open to the public, family-friendly",
+      "features": [
+        "100+ vendors with heritage foods and crafts",
+        "Live cultural performances",
+        "Local small business support",
+        "Multicultural celebration"
+      ],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": null,
       "schedule": "Annual event, mid-August",
@@ -7807,10 +8911,16 @@
       "latitude": 45.535863,
       "longitude": -122.712754,
       "phone": null,
+      "email": null,
       "website": "https://forestparkconservancy.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "5am-10pm daily",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -7841,10 +8951,16 @@
       "latitude": 45.615778,
       "longitude": -122.716196,
       "phone": null,
+      "email": null,
       "website": "https://oregonmetro.gov/parks/smith-and-bybee-wetlands-natural-area",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Dawn to dusk",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -7876,11 +8992,17 @@
       "latitude": 45.441282,
       "longitude": -122.676195,
       "phone": "503-636-9886",
+      "email": null,
       "website": "https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=103",
       "pricing": {
         "description": "Park FREE; Parking $10/day residents, $12/day non-residents (since Oct 1, 2025)",
         "notes": "Free if arriving by foot, bike, or bus. Annual permits $60 resident/$75 non-resident."
       },
+      "hours": "Nature Center 9am-4pm daily",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Saturday Guided Nature Walks",
@@ -7920,10 +9042,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.disabledhikers.com/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": "People with disabilities and allies. Cross-disability led.",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Portland Group Hikes",
@@ -7966,10 +9094,16 @@
       "latitude": 45.494767,
       "longitude": -122.49704,
       "phone": null,
+      "email": null,
       "website": "https://portland.gov/parks/powell-butte-nature-park",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Park 5am-10pm; Visitor Center Wed-Sun 9am-3pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -8000,10 +9134,16 @@
       "latitude": 45.46403,
       "longitude": -122.649025,
       "phone": null,
+      "email": null,
       "website": null,
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Daily 5am-midnight (Portland Parks standard)",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -8034,10 +9174,22 @@
       "latitude": 45.452776,
       "longitude": -122.869601,
       "phone": null,
+      "email": null,
       "website": "https://www.oregonmetro.gov/parks/cooper-mountain-nature-park",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Sunrise to sunset",
+      "eligibility": null,
+      "features": [
+        "231 acres",
+        "3+ miles of trails",
+        "Nature-inspired playground",
+        "3/4-mile wheelchair-accessible loop",
+        "Nature House programs"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -8068,12 +9220,18 @@
       "latitude": 45.493333,
       "longitude": -122.286111,
       "phone": null,
+      "email": null,
       "website": null,
       "pricing": {
         "parking": "$5/car",
         "annual_pass": "$40",
         "programs": "~$6/person with fee waivers available"
       },
+      "hours": "Seasonal gate hours: May-Sep 6:30am-8pm, Oct 6:30am-6pm, Nov-Mar 6:30am-5pm, Mar-Apr 6:30am-7pm. Park office: daily 9am-4:30pm (closed noon-1pm, Wed noon-2pm). Entry fee $5/vehicle.",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         "Guided forest hikes",
         "Campfire programs",
@@ -8108,10 +9266,19 @@
       "latitude": 45.382164,
       "longitude": -122.832228,
       "phone": "503-625-5944",
+      "email": "tualatinriver@fws.gov",
       "website": "https://www.fws.gov/refuge/tualatin-river",
       "pricing": {
         "description": "FREE (all programs free)"
       },
+      "hours": {
+        "visitor_center": "Tuesday-Sunday 10am-4pm",
+        "trails": "Daily dawn to dusk"
+      },
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         "Puddle Stompers (ages 2-5)",
         "Ranger-Led Hikes",
@@ -8150,11 +9317,20 @@
       "latitude": 45.515671,
       "longitude": -122.715664,
       "phone": "503-865-8733",
+      "email": null,
       "website": "https://www.hoytarboretum.org/",
       "pricing": {
         "grounds": "FREE",
         "parking": "$2.40/hour or $9.60/day"
       },
+      "hours": {
+        "grounds": "5am-10pm daily",
+        "visitor_center": "10am-4pm daily"
+      },
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Free Public Tours",
@@ -8203,10 +9379,21 @@
       "latitude": 45.526789,
       "longitude": -122.730504,
       "phone": "503-292-6855",
+      "email": null,
       "website": "https://birdallianceoregon.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Dawn to dusk daily (trails); Interpretive center and Nature Store open for visits",
+      "eligibility": null,
+      "features": [
+        "172-acre Wildlife Sanctuary",
+        "4+ miles of forested hiking trails",
+        "40+ bird varieties",
+        "60 species of mammals"
+      ],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         "Free Bird Walks (volunteer-led, year-round)",
         "Bird Song Walks (spring)"
@@ -8240,10 +9427,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-618-2300",
+      "email": null,
       "website": "https://greshamoregon.gov/Parks/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -8277,10 +9470,19 @@
       "latitude": 45.555935,
       "longitude": -122.445195,
       "phone": null,
+      "email": null,
       "website": "https://www.oregonmetro.gov/places/blue-lake-regional-park-disc-golf-course",
       "pricing": {
         "description": "Course FREE; parking $5 ($40 annual pass)"
       },
+      "hours": "Park hours vary seasonally, typically 7am-sunset. Check oregonmetro.gov for current hours.",
+      "eligibility": null,
+      "features": [
+        "18 holes",
+        "Championship-level"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -8311,10 +9513,25 @@
       "latitude": 45.495626,
       "longitude": -122.430965,
       "phone": null,
+      "email": null,
       "website": "https://www.greshamoregon.gov",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Dawn to dusk",
+      "eligibility": null,
+      "features": [
+        "Baseball field",
+        "Off-leash dog area",
+        "Playground",
+        "Picnic shelter (Coho Shelter)",
+        "Tsuru Island Japanese Garden",
+        "Jogging paths",
+        "Free parking",
+        "Seasonal restrooms"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Summer Kids in the Park (SKIP)",
@@ -8372,10 +9589,18 @@
       "latitude": 45.309922,
       "longitude": -122.76816,
       "phone": null,
+      "email": null,
       "website": "https://www.oregonmetro.gov/parks/graham-oaks-nature-park",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Daily sunrise to sunset",
+      "eligibility": null,
+      "features": [
+        "Restored oak woodland and wetlands"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -8406,10 +9631,19 @@
       "latitude": 45.428679,
       "longitude": -122.497174,
       "phone": null,
+      "email": null,
       "website": "https://www.oregonmetro.gov/places/scouters-mountain-nature-park",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Daily sunrise to sunset",
+      "eligibility": null,
+      "features": [
+        "Mount Hood views",
+        "Shady trails"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -8440,10 +9674,18 @@
       "latitude": 45.4023,
       "longitude": -122.5647,
       "phone": null,
+      "email": null,
       "website": "https://www.oregonmetro.gov/places/mount-talbert-nature-park",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Daily sunrise to sunset",
+      "eligibility": null,
+      "features": [
+        "Forested trails"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -8474,10 +9716,30 @@
       "latitude": 45.401284,
       "longitude": -122.774094,
       "phone": null,
+      "email": null,
       "website": "https://www.tigard-or.gov/explore-tigard",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Dawn to dusk",
+      "eligibility": null,
+      "features": [
+        "79 acres - largest park in Tigard",
+        "2.5 miles of trails (paved and natural surface)",
+        "Inclusive Playground (opened May 2024) - wheelchair accessible",
+        "Tupling Butterfly Garden",
+        "4 baseball fields",
+        "Soccer field",
+        "Basketball courts",
+        "Sand volleyball court",
+        "Boat ramp (Tualatin River access)",
+        "5 picnic shelters",
+        "Horseshoe pit",
+        "Restrooms",
+        "4 parking lots with accessible parking"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -8514,10 +9776,25 @@
       "latitude": 45.385732,
       "longitude": -122.764039,
       "phone": null,
+      "email": null,
       "website": "https://www.tualatinoregon.gov/recreation/tualatin-community-park",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Park: Sunrise to sunset\nSkate park, basketball, tennis: Until 10:30pm (lit)\n",
+      "eligibility": null,
+      "features": [
+        "27.11 acres on Tualatin River",
+        "Award-winning skate park",
+        "3 sports fields",
+        "Tennis and basketball courts",
+        "Playground",
+        "Dog park",
+        "5 picnic shelters",
+        "Boat ramp (Tualatin River access)"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -8553,6 +9830,7 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-266-3193",
+      "email": null,
       "website": null,
       "pricing": {
         "description": "U-pick berries $3-6/lb",
@@ -8562,6 +9840,11 @@
           "WIC Vouchers"
         ]
       },
+      "hours": "Mon-Fri 9am-6pm, Sat 9am-5pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -8596,6 +9879,7 @@
       "latitude": 45.677419,
       "longitude": -122.778631,
       "phone": "503-621-3909",
+      "email": null,
       "website": null,
       "pricing": {
         "description": "Market rate",
@@ -8604,6 +9888,11 @@
         ],
         "notes": "Free pint boxes provided"
       },
+      "hours": "Tue-Sun 9am-5pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -8636,10 +9925,21 @@
       "latitude": 45.49885,
       "longitude": -122.568905,
       "phone": "503-442-8228",
+      "email": "pantry@pobcpantry.com",
       "website": "https://www.pobcpantry.com/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Tue 5-8pm, Thu 10am-2pm",
+      "eligibility": "Open to anyone in the state of Oregon. No ID required.",
+      "features": [
+        "Fruits and vegetables",
+        "Canned goods and dairy",
+        "Fresh and frozen meats",
+        "In-person shopping or scheduled pickup"
+      ],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -8673,10 +9973,16 @@
       "latitude": 45.460942,
       "longitude": -122.707078,
       "phone": "503-246-1663",
+      "email": null,
       "website": "https://nhpdx.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Mon-Fri 10am-5pm (Capitol Hwy location). Food pantry hours vary by location.",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Free Food Market",
@@ -8734,10 +10040,16 @@
       "latitude": 45.48248,
       "longitude": -122.806706,
       "phone": null,
+      "email": null,
       "website": "https://www.bethelbeaverton.org/hunger",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": "Sundays 4:15pm; last Thursday of each month 4:15pm",
@@ -8771,10 +10083,20 @@
       "latitude": 45.526389,
       "longitude": -122.673826,
       "phone": "503-241-4340",
+      "email": null,
       "website": "https://blanchethouse.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": {
+        "breakfast": "6:30-7:25am",
+        "lunch": "11:30am-12:25pm",
+        "dinner": "5:00-5:55pm"
+      },
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": "Monday-Saturday",
@@ -8805,11 +10127,17 @@
       "latitude": 45.524375,
       "longitude": -122.676939,
       "phone": "503-222-5694",
+      "email": null,
       "website": "https://sistersoftheroad.org",
       "pricing": {
         "description": "Pay-what-you-can",
         "notes": "Barter work program - work 15 minutes for a meal"
       },
+      "hours": "Tue-Sat, sign up for meals after 9am, serving 10am-2pm. Note: cafe transitioning to new location.",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -8840,10 +10168,20 @@
       "latitude": 45.52338,
       "longitude": -122.671699,
       "phone": "503-647-7466",
+      "email": null,
       "website": "https://portlandrescuemission.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": {
+        "breakfast": "Daily 7am",
+        "dinner": "Daily 6pm",
+        "weekend_lunch": "12:30pm"
+      },
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": "365 days per year",
@@ -8874,10 +10212,21 @@
       "latitude": 45.524167,
       "longitude": -122.681944,
       "phone": "503-255-7611",
+      "email": null,
       "website": "https://potluckinthepark.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [
+        "Hot, healthy meal every Sunday",
+        "Rain or shine, 52 weeks a year",
+        "400-600 people served weekly",
+        "Sense of community and dignity"
+      ],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": "Every Sunday 3pm (ticketing begins at noon)",
@@ -8912,10 +10261,16 @@
       "latitude": 45.423997,
       "longitude": -122.857241,
       "phone": "971-217-8577",
+      "email": "info@sikhcenteroforegon.com",
       "website": "https://sikhcenteroforegon.com/",
       "pricing": {
         "description": "FREE always"
       },
+      "hours": "Gurdwara open 7 days 7am-9pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": "Sundays 10:30am-2:15pm; Fridays 8pm (after evening service)",
@@ -8948,10 +10303,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-736-6325",
+      "email": null,
       "website": "https://mowp.org",
       "pricing": {
         "description": "$10.50 suggested donation - pay what you can afford"
       },
+      "hours": null,
+      "eligibility": "Adults 60+ regardless of income",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": "Lunches Monday-Thursday (varies by center)",
@@ -8985,11 +10346,17 @@
       "latitude": 45.447053,
       "longitude": -122.434093,
       "phone": "503-658-2237",
+      "email": null,
       "website": "http://www.olson-farms.com/",
       "pricing": {
         "description": "FREE entry; flat-rate pumpkins",
         "notes": "Free hayrides"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9021,10 +10388,16 @@
       "latitude": 45.642193,
       "longitude": -122.789606,
       "phone": "503-621-3874",
+      "email": null,
       "website": "https://www.thepumpkinpatch.com/",
       "pricing": {
         "description": "FREE entry; Corn maze $8-10"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9056,11 +10429,17 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-823-1612",
+      "email": "pkcomgard@portlandoregon.gov",
       "website": "https://www.portland.gov/parks/community-gardens",
       "pricing": {
         "description": "$15/year for low-income gardeners",
         "notes": "Scholarship assistance available. Regular pricing varies by plot size."
       },
+      "hours": null,
+      "eligibility": "Portland residents. Low-income residents qualify for $15 plots.",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         "60 community gardens across Portland",
         "Plots assigned February through June",
@@ -9100,10 +10479,16 @@
       "latitude": 45.519888,
       "longitude": -122.479827,
       "phone": "503-674-8785",
+      "email": null,
       "website": "https://www.snowcap.org/",
       "pricing": {
         "description": "FREE plots for low-income residents east of 82nd Ave"
       },
+      "hours": null,
+      "eligibility": "Low-income residents east of 82nd Avenue",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9134,10 +10519,16 @@
       "latitude": 45.516102,
       "longitude": -122.486268,
       "phone": "971-231-4191",
+      "email": null,
       "website": "https://outgrowinghunger.org/",
       "pricing": {
         "description": "FREE - drop in, farm 2 hours, leave with free produce"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9168,10 +10559,19 @@
       "latitude": 45.460202,
       "longitude": -122.581345,
       "phone": "503-771-7914",
+      "email": "info@cscoregon.org",
       "website": "https://www.cscoregon.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": {
+        "office": "Monday-Thursday 8am-4pm, Friday 10am-3pm",
+        "food_distribution": "Monday-Thursday 1-3:30pm, Friday 2-5pm"
+      },
+      "eligibility": "Clackamas County residents; current mail within 30 days required",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9206,10 +10606,16 @@
       "latitude": 45.329391,
       "longitude": -122.583239,
       "phone": null,
+      "email": "vp@gleanerscc.org",
       "website": "https://www.gleanerscc.org",
       "pricing": {
         "description": "FREE emergency food; minimal charges for resource center items"
       },
+      "hours": null,
+      "eligibility": "Must meet household income guidelines; membership required",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9244,11 +10650,22 @@
       "latitude": 45.417767,
       "longitude": -122.664918,
       "phone": null,
+      "email": null,
       "website": "https://www.ci.oswego.or.us/lofm",
       "pricing": {
         "description": "FREE entry",
         "notes": "SNAP/EBT accepted with matching program"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [
+        "Fresh local produce",
+        "SNAP/EBT accepted",
+        "SNAP matching - doubles your EBT dollars",
+        "Holiday Market (November)"
+      ],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": null,
       "schedule": "Saturdays 8:30am-1:30pm",
@@ -9285,12 +10702,23 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.greshamfarmersmarket.com",
       "pricing": {
         "description": "FREE to attend",
         "ebt": "EBT accepted - purple $1 tokens at info booth",
         "notes": "Most produce vendors accept Senior/WIC checks"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [
+        "Historic downtown Gresham location",
+        "ATM available at info booth",
+        "Green $5 tokens available (credit/debit)",
+        "Established 1986 (39+ years)"
+      ],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": null,
       "schedule": "Saturdays 8:30am-2pm",
@@ -9327,12 +10755,22 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": "info.firstfridaymilwaukie@gmail.com",
       "website": "https://milwaukiefarmersmarket.com/",
       "pricing": {
         "description": "FREE to attend",
         "ebt": "SNAP/EBT accepted - red $1 tokens at Information booth",
         "notes": "Participates in Double Up Food Bucks Oregon (SNAP matching)"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [
+        "75+ vendors",
+        "SNAP tokens at info booth",
+        "Double Up Food Bucks matching"
+      ],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": null,
       "schedule": "Sundays 9:30am-2pm",
@@ -9370,10 +10808,16 @@
       "latitude": 45.519787,
       "longitude": -122.47219,
       "phone": null,
+      "email": null,
       "website": "https://rockwoodcommunitymarket.com",
       "pricing": {
         "description": "FREE to attend"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": null,
       "schedule": "Thursdays 3-7pm",
@@ -9411,10 +10855,16 @@
       "latitude": 45.516151,
       "longitude": -122.497378,
       "phone": "503-252-8415",
+      "email": null,
       "website": "https://www.lynwoodfriends.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Drop-In Farming",
@@ -9454,10 +10904,16 @@
       "latitude": 45.518749,
       "longitude": -122.535025,
       "phone": "503-823-2102",
+      "email": null,
       "website": "https://sunshinedivision.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Tuesday-Saturday 9am-12pm & 1-4pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9486,10 +10942,22 @@
       "latitude": 45.519888,
       "longitude": -122.479827,
       "phone": "503-674-8785",
+      "email": null,
       "website": "https://www.snowcap.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Mon-Fri 10am-2pm, Mon & Wed 6-8pm",
+      "eligibility": "East of 82nd Ave, Multnomah County (East Portland & Gresham). Up to 2 visits per month.",
+      "features": [
+        "Pre-packed food boxes",
+        "Fresh and frozen food",
+        "Diapers (ages 0-2) and infant formula (12 months & under)",
+        "Clothing by appointment",
+        "Blankets in winter"
+      ],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Mobile Food Pantry",
@@ -9550,10 +11018,22 @@
       "latitude": 45.537226,
       "longitude": -122.525933,
       "phone": "503-251-5431",
+      "email": null,
       "website": "https://birchcommunityservices.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Mon, Wed, Fri 10am-5pm",
+      "eligibility": null,
+      "features": [
+        "Shelf-stable food",
+        "Fresh produce",
+        "Cold storage items",
+        "Financial literacy education (re$tart course)",
+        "Family Vision workshops"
+      ],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9588,10 +11068,21 @@
       "latitude": 45.517536,
       "longitude": -122.693516,
       "phone": "503-221-1224",
+      "email": null,
       "website": "https://www.lifturbanportland.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Tue, Thu, Fri 3-6pm (Tue 3-5:30pm by appointment for mobility/health needs)",
+      "eligibility": "NW and Downtown Portland residents. Visit up to 2x per month.",
+      "features": [
+        "Shopping-style pantry (choose your own items)",
+        "Fresh produce, yogurt, dairy",
+        "Dry and canned goods",
+        "Meat and eggs"
+      ],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Preston's Pantry",
@@ -9637,10 +11128,21 @@
       "latitude": 45.508887,
       "longitude": -122.960188,
       "phone": "503-640-4311",
+      "email": null,
       "website": "https://hillsboro.salvationarmy.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Mon-Fri 1-3:45pm (food boxes). Daily sack lunch available.",
+      "eligibility": null,
+      "features": [
+        "Food boxes",
+        "Bread and baked goods",
+        "Hygiene products",
+        "Daily sack lunch"
+      ],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [
         {
           "name": "Mobile Pantry",
@@ -9681,10 +11183,16 @@
       "latitude": 45.431834,
       "longitude": -122.703402,
       "phone": "503-635-3401",
+      "email": null,
       "website": "https://www.hungerfighters.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Mon 4-6pm, Wed 5-7pm, Fri 10am-1pm",
+      "eligibility": "ZIP codes 97034 and 97035. No income verification needed.",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9719,10 +11227,16 @@
       "latitude": 45.390438,
       "longitude": -122.596899,
       "phone": "503-496-3947",
+      "email": null,
       "website": "https://nwfs.org/basic-needs/food-matters",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Thu 3-5pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9759,10 +11273,16 @@
       "latitude": 45.373558,
       "longitude": -122.712036,
       "phone": "503-783-0721",
+      "email": null,
       "website": null,
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": "Tualatin, Lake Oswego, West Linn, and North Wilsonville residents",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9796,10 +11316,16 @@
       "latitude": 45.304231,
       "longitude": -122.758729,
       "phone": "503-682-6939",
+      "email": null,
       "website": "https://www.wilsonvillecommunitysharing.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Tue 12:30-2:30pm & 6-7:30pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9834,10 +11360,16 @@
       "latitude": 45.288028,
       "longitude": -122.335041,
       "phone": "503-630-2888",
+      "email": null,
       "website": null,
       "pricing": {
         "description": "FREE"
       },
+      "hours": "2nd & 4th Tue 10am-2pm, Wed 10am-2pm, Thu 1-5pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9870,10 +11402,16 @@
       "latitude": 45.396117,
       "longitude": -122.262076,
       "phone": "503-668-4746",
+      "email": null,
       "website": null,
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Wed & Fri 10am-4pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9906,10 +11444,21 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-235-8431",
+      "email": null,
       "website": "https://www.svdppdx.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Varies by location \u2014 call Food Hotline at 503-235-8431 to find nearest pantry and hours",
+      "eligibility": null,
+      "features": [
+        "40+ food pantries across the tri-county area",
+        "Emergency food boxes",
+        "Food delivery available at some locations",
+        "Delivery for people with disabilities at select drop-in pantries"
+      ],
+      "location_type": "varies",
+      "resource_type": "organization",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9941,10 +11490,21 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-615-0771",
+      "email": null,
       "website": "https://caowash.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Varies by program and location",
+      "eligibility": null,
+      "features": [
+        "Emergency food boxes",
+        "Energy assistance",
+        "Housing support",
+        "Head Start programs"
+      ],
+      "location_type": "varies",
+      "resource_type": "organization",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -9975,10 +11535,22 @@
       "latitude": 45.57976,
       "longitude": -122.631954,
       "phone": "503-282-0555",
+      "email": null,
       "website": "https://www.oregonfoodbank.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Varies by partner location \u2014 use Food Finder at foodfinder.oregonfoodbank.org to search by ZIP code",
+      "eligibility": null,
+      "features": [
+        "Network of 1,200+ food assistance sites statewide",
+        "Food Finder search tool (foodfinder.oregonfoodbank.org)",
+        "100+ partner pantries in the Portland metro area",
+        "Free groceries, fresh produce, and hot meals through partners",
+        "No proof of income or documentation required at partner sites"
+      ],
+      "location_type": "varies",
+      "resource_type": "organization",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -10009,10 +11581,22 @@
       "latitude": null,
       "longitude": null,
       "phone": "866-698-6155",
+      "email": null,
       "website": "https://www.211info.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "24/7",
+      "eligibility": null,
+      "features": [
+        "Connects to 1,500+ food resources statewide",
+        "SNAP enrollment assistance with dedicated SNAP Access Advocate",
+        "Phone, text, email, and web access",
+        "Multilingual support",
+        "Covers food pantries, farmers markets, community meals, and more"
+      ],
+      "location_type": "online_service",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -10043,10 +11627,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://meetup.com/pdxgames",
       "pricing": {
         "description": "FREE - just buy food/drink from venue"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Tuesday Board Games",
@@ -10093,11 +11683,17 @@
       "latitude": 45.426456,
       "longitude": -122.606167,
       "phone": "503-653-8100",
+      "email": null,
       "website": "https://ncprd.org/milwaukie-community-center",
       "pricing": {
         "description": "Programs vary; some free, some low-cost",
         "drop_in_activities": "$1-2/session for NCPRD residents"
       },
+      "hours": "Monday-Friday 8am-4pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Woodcarvers Drop-In",
@@ -10163,10 +11759,16 @@
       "latitude": 45.521613,
       "longitude": -122.672524,
       "phone": "503-796-9224",
+      "email": null,
       "website": "https://writearound.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Mon-Sat 9am-5pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "10-week workshops",
@@ -10218,10 +11820,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://friendsoftrees.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [],
       "dates": null,
       "schedule": "Weekend mornings during planting season (fall through spring)",
@@ -10253,10 +11861,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.solve.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Oregon Spring Cleanup",
@@ -10306,10 +11920,16 @@
       "latitude": 45.57976,
       "longitude": -122.631954,
       "phone": null,
+      "email": null,
       "website": "https://oregonfoodbank.org/get-involved/volunteer",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -10341,10 +11961,16 @@
       "latitude": 45.468285,
       "longitude": -122.709854,
       "phone": "503-823-2787",
+      "email": null,
       "website": null,
       "pricing": {
         "description": "Pay What You Can options; Access Discount Program applies"
       },
+      "hours": "Mon-Thu 9am-9:30pm, Fri-Sat 9am-5pm, Sun closed",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         "Drawing",
         "Painting",
@@ -10383,11 +12009,17 @@
       "latitude": 45.546314,
       "longitude": -122.510614,
       "phone": null,
+      "email": null,
       "website": "https://portlandartguild.org/",
       "pricing": {
         "description": "$25-50 members, $45-90 nonmembers per class",
         "notes": "Mission is to provide low-cost art classes accessible to all. Member discounts available."
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "program",
       "programs": [
         "Drawing and painting classes",
         "All skill levels welcome",
@@ -10425,10 +12057,16 @@
       "latitude": 45.468116,
       "longitude": -122.713466,
       "phone": "503-244-5024",
+      "email": null,
       "website": "https://www.northwestwools.com/",
       "pricing": {
         "description": "FREE drop-in"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Crafting Compassion",
@@ -10468,10 +12106,16 @@
       "latitude": 45.536717,
       "longitude": -122.617492,
       "phone": null,
+      "email": null,
       "website": "https://www.puddletownknittersguild.com/",
       "pricing": {
         "description": "FREE for first 2 visits; membership $35/year"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Monthly Meeting",
@@ -10511,11 +12155,17 @@
       "latitude": 45.355022,
       "longitude": -122.605761,
       "phone": "503-657-8287",
+      "email": "pioneercc@orcity.org",
       "website": "https://www.orcity.org/pioneercenter",
       "pricing": {
         "membership": "$10 annual donation requested",
         "description": "Most services free or low-cost"
       },
+      "hours": "Monday-Friday 9am-4pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Zumba",
@@ -10564,11 +12214,17 @@
       "latitude": 45.426262,
       "longitude": -122.66787,
       "phone": "503-635-3758",
+      "email": null,
       "website": "https://www.ci.oswego.or.us/acc",
       "pricing": {
         "lunch": "$4 suggested donation",
         "description": "Programs vary; many free or low-cost"
       },
+      "hours": "Monday-Friday 8am-4:30pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Creative Hands",
@@ -10663,10 +12319,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-650-5622",
+      "email": "clackamasadrc@clackamas.us",
       "website": "https://www.clackamas.us/socialservices/crc.html",
       "pricing": {
         "description": "FREE information and referral services"
       },
+      "hours": "Monday-Thursday 8:30am-5:30pm",
+      "eligibility": "All ages, incomes, and disabilities welcome",
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -10703,11 +12365,25 @@
       "latitude": 45.423364,
       "longitude": -122.768298,
       "phone": "503-620-4613",
+      "email": null,
       "website": "https://www.tigard-or.gov/explore-tigard/tigard-senior-center",
       "pricing": {
         "description": "FREE activities; lunch $3 suggested donation for 60+",
         "notes": "Meals on Wheels People provides dining program"
       },
+      "hours": "Mon-Thu: 8am-4pm\nDining: Mon-Wed noon-1pm\n",
+      "eligibility": "Adults, with dining program for 60+",
+      "features": [
+        "Exercise classes",
+        "Craft groups",
+        "Game groups (Bingo, billiards)",
+        "Educational presentations",
+        "Special events",
+        "9-foot Diamond pool table",
+        "Monthly activity calendar"
+      ],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -10745,11 +12421,17 @@
       "latitude": 45.479742,
       "longitude": -122.804137,
       "phone": "503-629-6342",
+      "email": null,
       "website": "https://www.thprd.org/facilities/recreation/elsie-stuhr-center",
       "pricing": {
         "description": "Drop-in fees vary; many activities free or low-cost",
         "notes": "THPRD Financial Aid available for qualifying residents"
       },
+      "hours": "Mon-Thu: 8am-5pm\nFri: 8am-2pm\nSat: 8am-4pm\nClosed Sunday and major holidays\n",
+      "eligibility": "Adults 55+",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Fitness Classes",
@@ -10831,11 +12513,17 @@
       "latitude": 45.52445,
       "longitude": -122.928112,
       "phone": "503-681-6120",
+      "email": null,
       "website": "https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/hidden-creek",
       "pricing": {
         "description": "Varies by program; financial assistance available",
         "notes": "Hillsboro residents with qualifying income eligible for 50% off programs. Youth art scholarships cover 100%."
       },
+      "hours": "Mon-Thu 5:30am-9pm, Fri 5:30am-6pm, Sat 8am-4pm, Sun 10am-4pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         "Fitness classes",
         "Aquatics",
@@ -10875,11 +12563,17 @@
       "latitude": 45.385583,
       "longitude": -122.760451,
       "phone": "503-691-3061",
+      "email": null,
       "website": "https://www.tualatinoregon.gov/recreation/adult-programs-and-services",
       "pricing": {
         "description": "Many activities free or low-cost",
         "notes": "Some fitness classes free with SilverSneakers/Silver&Fit"
       },
+      "hours": "Mon-Fri 8am-5pm; Sat 9am-12pm; 4th Tue 6-8pm",
+      "eligibility": "All adults welcome; programs focus on active aging",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         "fitness",
         "social",
@@ -10923,11 +12617,17 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.repairpdx.org",
       "pricing": {
         "description": "FREE",
         "notes": "All Repair Caf\u00e9s and most workshops are free. Bring broken items to be repaired by volunteers."
       },
+      "hours": null,
+      "eligibility": "Open to all - bring broken household items",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "RPDX Repair Caf\u00e9 @ Leaven Common House",
@@ -11029,10 +12729,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.clackamas.us/recycling/repairfair",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": "Open to all - bring broken household items (clothing, bikes, small electronics, small appliances, jewelry, knives/tools)",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -11070,12 +12776,18 @@
       "latitude": 45.519444,
       "longitude": -122.641667,
       "phone": null,
+      "email": null,
       "website": "https://www.friendsoflonefircemetery.org",
       "pricing": {
         "description": "$10 suggested donation per tour (FREE self-guided options available)",
         "regular": "$10 suggested donation",
         "notes": "Reservations or donations not required but appreciated. Self-guided smartphone tours and PDF downloads are free."
       },
+      "hours": null,
+      "eligibility": "Open to all ages",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Guided Historical Tour",
@@ -11191,10 +12903,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.handsonportland.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "organization",
       "programs": [],
       "dates": null,
       "schedule": "Various \"done-in-a-day\" projects throughout the week",
@@ -11226,10 +12944,16 @@
       "latitude": 45.536048,
       "longitude": -122.621824,
       "phone": "503-288-8303",
+      "email": null,
       "website": "https://www.communityfpa.org/",
       "pricing": {
         "description": "FREE-low cost"
       },
+      "hours": "Monday-Friday 8am-4:30pm",
+      "eligibility": "Adults 55+",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Free Legal Aid",
@@ -11296,10 +13020,16 @@
       "latitude": 45.510308,
       "longitude": -122.656038,
       "phone": null,
+      "email": null,
       "website": "https://www.freegeek.org/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Wednesday-Saturday 11am-4pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -11330,10 +13060,16 @@
       "latitude": 45.493419,
       "longitude": -122.869937,
       "phone": "503-356-6835",
+      "email": null,
       "website": "https://www.washconami.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Mon-Thu 10am-6pm, Fri 10am-4pm",
+      "eligibility": "Adults with mental health conditions or family members",
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "program",
       "programs": [
         {
           "name": "NAMI Connection Recovery Support Group",
@@ -11384,10 +13120,16 @@
       "latitude": 45.529256,
       "longitude": -122.700932,
       "phone": "503-222-5756",
+      "email": null,
       "website": "https://www.portlandalano.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Check website for meeting times - meetings run morning through evening, 7 days/week",
+      "eligibility": "Anyone seeking recovery from substance use and mental health disorders",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Alcoholics Anonymous (AA)",
@@ -11498,10 +13240,16 @@
       "latitude": 45.497484,
       "longitude": -122.42077,
       "phone": "503-465-2749",
+      "email": null,
       "website": "https://www.bridgestochange.com",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Mon-Fri 9am-9pm, Sat 12pm-8pm",
+      "eligibility": "Anyone seeking recovery support",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Recovery Drop-In Center",
@@ -11558,10 +13306,16 @@
       "latitude": 45.536048,
       "longitude": -122.621824,
       "phone": "503-288-8303",
+      "email": "staff@communityfpa.org",
       "website": "https://www.communityfpa.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Mon-Fri 8:30am-4:30pm",
+      "eligibility": "Adults 55+",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Connecting Through Loss (Grief Support)",
@@ -11629,10 +13383,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://pdxwlf.com",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "Anchor sites activated Friday and Saturday nights during festival",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "February 6-14, 2026",
       "schedule": null,
@@ -11672,10 +13432,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.goodnthehood.org",
       "pricing": {
         "description": "FREE (some ticketed events like gospel brunch)"
       },
+      "hours": "Friday 6pm-10pm, Saturday & Sunday noon-10pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "June 26-28, 2026",
       "schedule": null,
@@ -11715,10 +13481,16 @@
       "latitude": 45.529276,
       "longitude": -122.947809,
       "phone": null,
+      "email": null,
       "website": "https://www.bigfairfun.com",
       "pricing": {
         "description": "FREE admission for everyone"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": "July 24-26, 2026",
       "schedule": null,
@@ -11756,10 +13528,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.shift2bikes.org",
       "pricing": {
         "description": "FREE (most rides)"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "event",
       "programs": [],
       "dates": "June through August 2026",
       "schedule": null,
@@ -11799,10 +13577,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-226-8061",
+      "email": null,
       "website": "https://urbangleaners.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": "42 weekly markets - check Food Finder for specific times and locations",
+      "eligibility": "No income requirements or personal information required",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -11837,10 +13621,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": "pdxfridge@gmail.com",
       "website": "https://sites.google.com/view/pdx-free-fridge/home",
       "pricing": {
         "description": "FREE - Take what you need, leave what you can"
       },
+      "hours": "Available 24/7",
+      "eligibility": "Open to everyone",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -11875,11 +13665,17 @@
       "latitude": 45.534167,
       "longitude": -122.621389,
       "phone": null,
+      "email": null,
       "website": "https://www.hollywoodfarmersmarket.org",
       "pricing": {
         "description": "SNAP/EBT accepted with Double Up Food Bucks match up to $20",
         "notes": "No surcharge for SNAP/EBT transactions"
       },
+      "hours": "Year-round (winter hours differ - 1st & 3rd Saturdays only, 9am-1pm, January-March)",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": null,
       "schedule": "Every Saturday, 8am-1pm (April-December)",
@@ -11916,11 +13712,17 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.mowp.org",
       "pricing": {
         "description": "Donation-based (meals provided regardless of ability to pay)",
         "notes": "Each meal costs over $10 to prepare"
       },
+      "hours": "Meal delivery Mon-Thu 10am-2pm; Dining centers serve lunch at least one day weekly",
+      "eligibility": "Adults 60 years and older in Multnomah, Washington, and Clark counties",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -11958,10 +13760,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-823-2525",
+      "email": null,
       "website": "https://www.portland.gov/parks/arts-culture/summer-free-all",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Free Outdoor Concerts",
@@ -12025,10 +13833,22 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": "info.firstfridaymilwaukie@gmail.com",
       "website": "https://www.firstfridaymilwaukie.com/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [
+        "Artist installations",
+        "Food trucks",
+        "Craft beer",
+        "Local vendors",
+        "Live music"
+      ],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": null,
       "schedule": "1st Fridays 5-8pm",
@@ -12068,10 +13888,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-823-4000",
+      "email": "PortlandSundayParkways@portlandoregon.gov",
       "website": "https://www.portland.gov/sunday-parkways",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -12113,10 +13939,16 @@
       "latitude": 45.555714,
       "longitude": -122.661657,
       "phone": "503-298-5636",
+      "email": null,
       "website": "https://prismmoves.org",
       "pricing": {
         "description": "FREE BIPOC class weekly; sliding scale memberships available"
       },
+      "hours": "Open gym 5am-11pm; class schedule varies (6am-7pm most days)",
+      "eligibility": "BIPOC class is for BIPOC community only; general classes open to all",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "BIPOC Community Class",
@@ -12167,10 +13999,16 @@
       "latitude": 45.514133,
       "longitude": -122.660881,
       "phone": null,
+      "email": "contact@portlandstrengthcollective.com",
       "website": "https://portlandstrengthcollective.com",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": "Every Saturday 9am-10am",
@@ -12209,10 +14047,16 @@
       "latitude": 45.562498,
       "longitude": -122.634555,
       "phone": "503-877-YOGI",
+      "email": null,
       "website": "https://thepeoplesyoga.org",
       "pricing": {
         "description": "Scholarship memberships available ($40 contribution with fund covering remainder); free/by-donation classes with teacher trainees"
       },
+      "hours": "Two locations: NE (3014 NE Killingsworth) and SE (4029 SE Hawthorne). 90+ classes/week. Check thepeoplesyoga.org/schedule for times.",
+      "eligibility": "Income verification required for scholarship; renewed every 3 months",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -12249,10 +14093,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://fatgirlshiking.com/portland-or/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": "Open to all - fat-positive, inclusive community",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -12289,10 +14139,16 @@
       "latitude": 45.515372,
       "longitude": -122.554483,
       "phone": "503-241-0850",
+      "email": "Programs@adaptivesportsnw.org",
       "website": "https://adaptivesportsnw.org",
       "pricing": {
         "description": "Membership required"
       },
+      "hours": null,
+      "eligibility": "Anyone with physical or visual disabilities",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "Kayaking",
@@ -12358,10 +14214,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "971-645-6776",
+      "email": "info@everybodyathletics.org",
       "website": "https://everybodyathletics.org",
       "pricing": {
         "description": "$30/month; scholarships available upon request"
       },
+      "hours": null,
+      "eligibility": "Adults 21+ with intellectual and developmental disabilities",
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "program",
       "programs": [
         {
           "name": "EBA Class (flagship weekly)",
@@ -12424,10 +14286,16 @@
       "latitude": 45.535196,
       "longitude": -122.705254,
       "phone": "503-228-4391",
+      "email": null,
       "website": "https://fhpdx.org",
       "pricing": {
         "description": "Low-cost/sliding scale available"
       },
+      "hours": "Mon-Fri 7am-7pm, Sat 8:30am-4pm",
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
       "programs": [
         {
           "name": "Tai Chi",
@@ -12520,10 +14388,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-823-2525",
+      "email": null,
       "website": "https://www.portland.gov/parks/recreation/teenforce",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": "Ages 10-20",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "program",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -12562,10 +14436,16 @@
       "latitude": 45.521959,
       "longitude": -122.679643,
       "phone": null,
+      "email": null,
       "website": "https://www.portlandhearingvoices.net",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "program",
       "programs": [
         {
           "name": "In-Person Hearing Voices Group",
@@ -12615,10 +14495,16 @@
       "latitude": 45.480052,
       "longitude": -122.691292,
       "phone": "503-894-7560",
+      "email": null,
       "website": "https://hopewellhousepdx.org/grief-support/",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         {
           "name": "Community Grief Ritual",
@@ -12667,10 +14553,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-232-7676",
+      "email": null,
       "website": "https://pflagpdx.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "organization",
       "programs": [
         {
           "name": "In-Person Chapter Meetings",
@@ -12736,10 +14628,16 @@
       "latitude": 45.503018,
       "longitude": -122.804096,
       "phone": null,
+      "email": null,
       "website": "https://communityjams.org",
       "pricing": {
         "description": "FREE"
       },
+      "hours": null,
+      "eligibility": null,
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
       "programs": [
         {
           "name": "EZ-Lead Slow Jam (Blues, Folk, Americana)",
@@ -12813,10 +14711,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://multcolib.org/my-discovery-pass",
       "pricing": {
         "description": "FREE with Multnomah County Library card"
       },
+      "hours": null,
+      "eligibility": "Multnomah County Library cardholder",
+      "features": [],
+      "location_type": "online_service",
+      "resource_type": "service",
       "programs": [
         {
           "name": "Artists Repertory Theatre",
@@ -12935,10 +14839,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://www.wccls.org/events-activities/wccls-adventure-pass",
       "pricing": {
         "description": "FREE with Washington County library card (WCCLS)"
       },
+      "hours": null,
+      "eligibility": "WCCLS (Washington County Cooperative Library Services) cardholder",
+      "features": [],
+      "location_type": "online_service",
+      "resource_type": "service",
       "programs": [],
       "dates": null,
       "schedule": null,
@@ -12971,10 +14881,16 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
+      "email": null,
       "website": "https://culturalpassexpress.quipugroup.net/",
       "pricing": {
         "description": "FREE with Clackamas County library card (LINCC)"
       },
+      "hours": null,
+      "eligibility": "LINCC (Libraries in Clackamas County) cardholder age 18+",
+      "features": [],
+      "location_type": "online_service",
+      "resource_type": "service",
       "programs": [
         {
           "name": "Clackamas County Parks",
@@ -13043,10 +14959,16 @@
       "latitude": null,
       "longitude": null,
       "phone": "503-954-2094",
+      "email": null,
       "website": "https://returningveterans.org",
       "pricing": {
         "description": "FREE - no fees, no insurance verification, no VA referral needed"
       },
+      "hours": null,
+      "eligibility": "Post-9/11 veterans, active duty service members, and their families in Oregon and SW Washington",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "service",
       "programs": [
         {
           "name": "Mental Health Counseling",

@@ -629,6 +629,105 @@
         .seasonal-view.active { display: block; }
         .map-view { display: none; }
         .map-view.active { display: block; }
+        .resources-view { display: none; overflow-y: auto; max-height: 75vh; }
+        .resources-view.active { display: block; }
+        .resources-category-header {
+            position: sticky;
+            top: 0;
+            background: var(--bg-secondary);
+            padding: 8px 16px;
+            font-weight: 600;
+            border-bottom: 1px solid var(--border-color);
+            z-index: 5;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .resources-category-count {
+            font-weight: 400;
+            font-size: 0.85em;
+            color: var(--text-muted);
+        }
+        .resources-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1px;
+            background: var(--border-color);
+        }
+        .resource-card {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 12px 16px;
+            background: var(--bg-card);
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        .resource-card:hover {
+            background: var(--bg-card-hover);
+        }
+        .resource-color {
+            width: 3px;
+            min-height: 100%;
+            border-radius: 2px;
+            flex-shrink: 0;
+            align-self: stretch;
+        }
+        .resource-info {
+            flex: 1;
+            min-width: 0;
+        }
+        .resource-name {
+            font-weight: 600;
+            font-size: 0.95em;
+            margin-bottom: 2px;
+        }
+        .resource-meta {
+            font-size: 0.82em;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+        .resource-meta span {
+            display: block;
+        }
+        .resource-price {
+            display: inline-block;
+            font-size: 0.78em;
+            font-weight: 600;
+            color: #228B22;
+            background: rgba(34,139,34,0.08);
+            padding: 1px 6px;
+            border-radius: 4px;
+            margin-top: 2px;
+        }
+        .resource-modal-section {
+            margin-bottom: 12px;
+        }
+        .resource-modal-section h4 {
+            font-size: 0.85em;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin: 0 0 4px 0;
+        }
+        .resource-modal-section p,
+        .resource-modal-section ul {
+            margin: 0;
+            font-size: 0.92em;
+            line-height: 1.5;
+        }
+        .resource-modal-section ul {
+            padding-left: 18px;
+        }
+        .resource-tag {
+            display: inline-block;
+            font-size: 0.78em;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: rgba(0,0,0,0.06);
+            color: var(--text-secondary);
+            margin: 2px 2px 2px 0;
+        }
         #map-container {
             height: 65vh;
             min-height: 350px;
@@ -2046,6 +2145,7 @@
                         <button class="view-tab" id="list-tab" data-view="list" role="tab" aria-selected="false" aria-controls="list-view">List</button>
                         <button class="view-tab desktop-only" id="seasonal-tab" data-view="seasonal" role="tab" aria-selected="false" aria-controls="seasonal-view">Seasonal</button>
                         <button class="view-tab" id="map-tab" data-view="map" role="tab" aria-selected="false" aria-controls="map-view">Map</button>
+                        <button class="view-tab" id="resources-tab" data-view="resources" role="tab" aria-selected="false" aria-controls="resources-view">Resources</button>
                     </div>
                     <button class="filter-btn" id="filter-btn" onclick="toggleFilterPanel()">
                         Filter <span class="filter-badge" id="filter-badge" style="display:none;">0</span>
@@ -2120,6 +2220,8 @@
                 <div class="map-view" id="map-view" role="tabpanel" aria-labelledby="map-tab">
                     <div id="map-container" style="width:100%;border-radius:8px;" aria-label="Interactive map of resource locations" role="application"></div>
                     <div id="map-legend"></div>
+                </div>
+                <div class="resources-view" id="resources-view" role="tabpanel" aria-labelledby="resources-tab">
                 </div>
             </div>
 
@@ -3510,12 +3612,240 @@
             announce(`${label}, ${events.length} events`);
         }
 
+        // Category display order for Resources view
+        const CATEGORY_ORDER = [
+            'peer_support', 'fitness_wellness', 'arts_culture', 'events',
+            'parks_nature', 'food_farms', 'social_activities', 'discount_programs', 'transportation'
+        ];
+
+        const ACCESSIBILITY_LABELS = {
+            wheelchair_accessible: 'Wheelchair Accessible',
+            transit_nearby: 'Transit Nearby',
+            elevator: 'Elevator',
+            asl_available: 'ASL Available',
+            hearing_loop: 'Hearing Loop',
+            scent_free: 'Scent-Free',
+            low_vision_friendly: 'Low Vision Friendly',
+            gender_neutral_restroom: 'Gender-Neutral Restroom',
+            sliding_scale: 'Sliding Scale'
+        };
+
+        const SOCIAL_LABELS = {
+            solo: 'Solo Activity',
+            drop_in: 'Drop-In',
+            casual_group: 'Casual Group',
+            structured_group: 'Structured Group',
+            one_on_one: 'One-on-One'
+        };
+
+        const GOOD_FOR_LABELS = {
+            anxiety_friendly: 'Anxiety-Friendly',
+            grief: 'Grief Support',
+            isolation: 'Good for Isolation',
+            new_to_area: 'Newcomer-Friendly',
+            low_energy: 'Low Energy',
+            active: 'Active',
+            creative: 'Creative',
+            outdoor: 'Outdoor',
+            indoor: 'Indoor',
+            family_friendly: 'Family-Friendly'
+        };
+
+        // Resources directory view
+        function renderResourcesView() {
+            const container = document.getElementById('resources-view');
+            if (!eventsData) {
+                container.innerHTML = '<div class="no-events">Loading resources...</div>';
+                return;
+            }
+
+            const resources = eventsData.events.filter(e => matchesAllFilters(e));
+
+            if (resources.length === 0) {
+                container.innerHTML = '<div class="no-events">No resources match your filters</div>';
+                announce('No resources match your filters');
+                return;
+            }
+
+            // Group by category in standard order
+            const grouped = {};
+            resources.forEach(r => {
+                const cat = r.category || 'other';
+                if (!grouped[cat]) grouped[cat] = [];
+                grouped[cat].push(r);
+            });
+
+            // Sort entries alphabetically within each category
+            Object.values(grouped).forEach(arr => arr.sort((a, b) => a.title.localeCompare(b.title)));
+
+            let html = '';
+            for (const cat of CATEGORY_ORDER) {
+                const entries = grouped[cat];
+                if (!entries || entries.length === 0) continue;
+
+                const catName = eventsData.categories[cat] || cat.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+                const color = eventsData.colors[cat] || '#808080';
+
+                html += `<div class="resources-category-header">
+                    <span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:${color};flex-shrink:0;"></span>
+                    ${escapeHtml(catName)}
+                    <span class="resources-category-count">(${entries.length})</span>
+                </div>`;
+                html += '<div class="resources-grid">';
+
+                for (const r of entries) {
+                    const price = r.pricing ? (typeof r.pricing === 'object' ? r.pricing.description : r.pricing) : null;
+                    html += `<div class="resource-card" tabindex="0" role="button"
+                                 aria-label="${escapeHtml(r.title)}"
+                                 onclick="showResourceModal('${r.id}')"
+                                 onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showResourceModal('${r.id}');}">
+                        <div class="resource-color" style="background:${color};"></div>
+                        <div class="resource-info">
+                            <div class="resource-name">${escapeHtml(r.title)}</div>
+                            <div class="resource-meta">`;
+
+                    if (r.address && !r.address.startsWith('Various'))
+                        html += `<span>${escapeHtml(r.address)}</span>`;
+                    if (r.phone)
+                        html += `<span>${escapeHtml(String(r.phone))}</span>`;
+                    if (r.hours)
+                        html += `<span>${escapeHtml(typeof r.hours === 'object' ? JSON.stringify(r.hours) : String(r.hours))}</span>`;
+                    else if (r.schedule)
+                        html += `<span>${escapeHtml(r.schedule)}</span>`;
+
+                    html += `</div>`;
+                    if (price) html += `<span class="resource-price">${escapeHtml(price)}</span>`;
+                    html += `</div></div>`;
+                }
+                html += '</div>';
+            }
+
+            container.innerHTML = html;
+            announce(`Resources view: ${resources.length} resources`);
+        }
+
+        // Resource detail modal
+        function showResourceModal(id) {
+            if (!eventsData) return;
+            const r = eventsData.events.find(e => e.id === id);
+            if (!r) return;
+
+            lastFocusedElement = document.activeElement;
+            const color = eventsData.colors[r.category] || '#808080';
+            const catName = r.categoryName || r.category;
+            const price = r.pricing ? (typeof r.pricing === 'object' ? r.pricing.description : r.pricing) : null;
+
+            let body = '';
+
+            // Address with directions
+            if (r.address) {
+                body += `<div class="resource-modal-section"><h4>Address</h4><p>${escapeHtml(r.address)}`;
+                if (r.latitude && r.longitude) {
+                    body += ` <a href="https://www.google.com/maps/dir/?api=1&destination=${r.latitude},${r.longitude}" target="_blank" rel="noopener" style="font-size:0.85em;">(Directions)</a>`;
+                }
+                body += `</p></div>`;
+            }
+
+            // Contact
+            const contacts = [];
+            if (r.phone) contacts.push(`Phone: <a href="tel:${String(r.phone).replace(/[^0-9+]/g, '')}">${escapeHtml(String(r.phone))}</a>`);
+            if (r.email) contacts.push(`Email: <a href="mailto:${escapeHtml(r.email)}">${escapeHtml(r.email)}</a>`);
+            if (r.website) contacts.push(`Website: <a href="${escapeHtml(r.website)}" target="_blank" rel="noopener">${escapeHtml(r.website.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, ''))}</a>`);
+            if (contacts.length > 0) {
+                body += `<div class="resource-modal-section"><h4>Contact</h4><p>${contacts.join('<br>')}</p></div>`;
+            }
+
+            // Hours/Schedule
+            if (r.hours) {
+                const hrs = typeof r.hours === 'object' ? Object.entries(r.hours).map(([k, v]) => `${k}: ${v}`).join('<br>') : escapeHtml(String(r.hours));
+                body += `<div class="resource-modal-section"><h4>Hours</h4><p>${hrs}</p></div>`;
+            } else if (r.schedule) {
+                body += `<div class="resource-modal-section"><h4>Schedule</h4><p>${escapeHtml(r.schedule)}</p></div>`;
+            }
+
+            // Pricing
+            if (price) {
+                let priceHtml = escapeHtml(price);
+                if (r.pricing?.notes) priceHtml += `<br><span style="font-size:0.9em;color:var(--text-secondary);">${escapeHtml(r.pricing.notes)}</span>`;
+                body += `<div class="resource-modal-section"><h4>Cost</h4><p>${priceHtml}</p></div>`;
+            }
+
+            // Eligibility
+            if (r.eligibility) {
+                body += `<div class="resource-modal-section"><h4>Eligibility</h4><p>${escapeHtml(r.eligibility)}</p></div>`;
+            }
+
+            // Features
+            if (r.features && r.features.length > 0) {
+                body += `<div class="resource-modal-section"><h4>What's Available</h4><ul>${r.features.map(f => `<li>${escapeHtml(f)}</li>`).join('')}</ul></div>`;
+            }
+
+            // Programs
+            if (r.programs && r.programs.length > 0) {
+                let progHtml = '<ul>';
+                for (const p of r.programs) {
+                    if (typeof p === 'string') { progHtml += `<li>${escapeHtml(p)}</li>`; continue; }
+                    let line = `<strong>${escapeHtml(p.name)}</strong>`;
+                    if (p.schedule) line += ` — ${escapeHtml(p.schedule)}`;
+                    if (p.notes) line += `<br><span style="font-size:0.9em;color:var(--text-secondary);">${escapeHtml(p.notes)}</span>`;
+                    progHtml += `<li>${line}</li>`;
+                }
+                progHtml += '</ul>';
+                body += `<div class="resource-modal-section"><h4>Programs</h4>${progHtml}</div>`;
+            }
+
+            // Practical tips
+            if (r.practical_tips) {
+                const tips = typeof r.practical_tips === 'string' ? { info: r.practical_tips } : r.practical_tips;
+                let tipHtml = '';
+                if (tips.first_visit) tipHtml += `<p><strong>First visit:</strong> ${escapeHtml(tips.first_visit)}</p>`;
+                if (tips.what_to_bring) tipHtml += `<p><strong>What to bring:</strong> ${escapeHtml(tips.what_to_bring)}</p>`;
+                if (tips.good_to_know) tipHtml += `<p><strong>Good to know:</strong> ${escapeHtml(tips.good_to_know)}</p>`;
+                if (tips.registration) tipHtml += `<p><strong>Registration:</strong> ${escapeHtml(tips.registration)}</p>`;
+                if (tipHtml) body += `<div class="resource-modal-section"><h4>Tips</h4>${tipHtml}</div>`;
+            }
+
+            // Tags (accessibility, social, good_for, audience)
+            let tags = '';
+            if (r.accessibility && r.accessibility.length > 0) {
+                tags += r.accessibility.map(a => `<span class="resource-tag">${escapeHtml(ACCESSIBILITY_LABELS[a] || a)}</span>`).join('');
+            }
+            if (r.social_intensity) {
+                tags += `<span class="resource-tag">${escapeHtml(SOCIAL_LABELS[r.social_intensity] || r.social_intensity)}</span>`;
+            }
+            if (r.good_for && r.good_for.length > 0) {
+                tags += r.good_for.map(g => `<span class="resource-tag">${escapeHtml(GOOD_FOR_LABELS[g] || g)}</span>`).join('');
+            }
+            if (r.audience && r.audience.length > 0) {
+                const audienceLabels = { children: 'Children', teens: 'Teens', young_adults: 'Young Adults', seniors: 'Seniors', women: 'Women', lgbtq: 'LGBTQ+', trans_nonbinary: 'Trans/NB', bipoc: 'BIPOC', spanish_speaking: 'Spanish' };
+                tags += r.audience.map(a => `<span class="resource-tag">${escapeHtml(audienceLabels[a] || a)}</span>`).join('');
+            }
+            if (tags) body += `<div class="resource-modal-section"><h4>Tags</h4><div>${tags}</div></div>`;
+
+            // Notes
+            if (r.notes) {
+                body += `<div class="resource-modal-section" style="color:var(--text-secondary);font-size:0.88em;font-style:italic;">${escapeHtml(r.notes)}</div>`;
+            }
+
+            // Use existing modal
+            document.getElementById('modal-title').textContent = r.title;
+            document.getElementById('modal-org').textContent = catName;
+            document.getElementById('modal-color').style.background = color;
+            document.getElementById('modal-body').innerHTML = body;
+            const overlay = document.getElementById('event-modal-overlay');
+            overlay.classList.add('active');
+            const modal = overlay.querySelector('.event-modal');
+            trapFocus(modal);
+            announce(`${r.title} details`);
+        }
+
         // Re-render current view (used by filters)
         function renderCurrentView() {
             if (currentView === 'list') renderListView();
             else if (currentView === 'grid') renderGridView();
             else if (currentView === 'seasonal') renderSeasonalView();
             else if (currentView === 'map') renderMapMarkers();
+            else if (currentView === 'resources') renderResourcesView();
             // Also update the inactive grid/list since month nav needs them current
             if (currentView !== 'list') renderListView();
             if (currentView !== 'grid') renderGridView();
@@ -3944,6 +4274,7 @@
                 document.getElementById('grid-view').classList.toggle('active', currentView === 'grid');
                 document.getElementById('seasonal-view').classList.toggle('active', currentView === 'seasonal');
                 document.getElementById('map-view').classList.toggle('active', currentView === 'map');
+                document.getElementById('resources-view').classList.toggle('active', currentView === 'resources');
 
                 // Auto-scroll to today when switching to list view
                 if (currentView === 'list' && isCurrentMonth()) {
@@ -3958,6 +4289,11 @@
                 // Initialize map when switching to map view
                 if (currentView === 'map') {
                     initMap();
+                }
+
+                // Render resources view when switching to it
+                if (currentView === 'resources') {
+                    renderResourcesView();
                 }
             });
         });
