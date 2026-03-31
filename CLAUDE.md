@@ -25,7 +25,7 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 4. Run `python scripts/generate_calendar.py` to update calendar feeds
 
 **Key files:**
-- `data/sources.yaml` - Master registry with ~255 resources and audit metadata (multi-document YAML with `---` separators)
+- `data/sources.yaml` - Master registry with ~269 resources and audit metadata (multi-document YAML with `---` separators)
 - `docs/events.json` - JSON feed used by web calendar preview (generated from sources.yaml)
 - `data/audit-log.yaml` - Verification history
 - `data/queue.yaml` - Pending resources to research
@@ -377,10 +377,12 @@ Calendars are hosted via GitHub Pages for public subscription access.
 - Contact: avoigt@folktime.org
 - Responsive two-column layout on desktop (768px+), single-column on mobile
 - Platform selector (Apple/Google/Outlook) with inline "Subscribe:" label
-- Inline calendar preview with three view tabs:
+- Inline calendar preview with five view tabs:
   - **Calendar**: Monthly grid view with events on their dates
   - **List**: Chronological list of events for the month
   - **Seasonal Events**: Festivals, fairs, and date-ranged events (not recurring)
+  - **Map**: Interactive map with category-colored markers (see below)
+  - **Resources**: Browsable directory of ALL entries grouped by category — makes service-type entries (food pantries, community centers, parks, discount programs) discoverable even without `schedule:` fields
 - "Today" button in month nav (auto-hides when viewing current month)
 - Filter panel with keyword search, category/vibe/social/audience filters:
   - Warm peach-to-white gradient background, colored left accent bars per group
@@ -395,8 +397,7 @@ Calendars are hosted via GitHub Pages for public subscription access.
   - Events without audience tags always appear (open to all)
   - Screen reader announcements via aria-live region
 - Interactive map view (Leaflet.js + OpenStreetMap):
-  - Fourth tab alongside Calendar/List/Seasonal
-  - Category-colored circle markers for 167 geocoded locations
+  - Category-colored circle markers for 178 geocoded locations
   - Popups with name, category, address, pricing, website link
   - Respects all active filters (category, vibe, social, audience, search)
   - Auto-fits bounds to visible markers
@@ -428,7 +429,7 @@ git push
 ```
 
 The `docs/` folder contains:
-- `index.html` - Landing page with subscription links and calendar preview (~4000 lines)
+- `index.html` - Landing page with subscription links and calendar preview (~4400 lines)
   - Vanta.js for animated cloud background
   - Open-Meteo API for weather-reactive theming
   - Key JavaScript functions:
@@ -436,15 +437,17 @@ The `docs/` folder contains:
     - `isMonthInSeasonalRange()` - Filters events by season keywords and month ranges
     - `generateMonthEvents()` - Creates event list for calendar display
     - `matchesAllFilters()` - Composes search, category, good_for, social, and audience filters
+    - `renderResourcesView()` - Renders all entries as browsable directory cards grouped by category
+    - `showResourceModal()` - Opens detail modal for a resource (contact, hours, features, tips, tags)
     - `printCalendar()` - Generates print-optimized output with date range
     - `escapeHtml()` - XSS prevention for innerHTML calls
     - `trapFocus()`/`releaseFocusTrap()` - Accessible focus trapping for modals
     - `announce()` - Screen reader announcements via aria-live region
     - `goToToday()` - Navigates calendar back to current month
-  - Modal system (event details, About page) with ARIA dialog attributes, focus restoration on close
+  - Modal system (event details, resource details, About page) with ARIA dialog attributes, focus restoration on close
   - Print dialog with date range selection
 - `apple/`, `google/`, `outlook/` - Platform-specific ICS files
-- `events.json` - JSON feed for programmatic access and web calendar preview
+- `events.json` - JSON feed for programmatic access and web calendar preview (includes hours, eligibility, features, email, location_type, resource_type fields for the Resources directory view)
 - `folktime.png`, `2026-calendar-2.png` - Logo and header images
 
 **CI/CD (GitHub Actions):**
