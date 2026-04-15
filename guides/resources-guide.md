@@ -2,7 +2,7 @@
 
 A comprehensive guide to free and affordable activities, services, and resources in the Portland metro area, with special attention to accessibility and mental health support.
 
-*Generated from verified data on March 25, 2026. 249 active resources across 9 categories.*
+*Generated from verified data on April 15, 2026. 266 active resources across 9 categories.*
 
 ## Contents
 
@@ -10,11 +10,11 @@ A comprehensive guide to free and affordable activities, services, and resources
 - [Fitness & Wellness: Accessible Programs for All Abilities](#fitness-wellness-accessible-programs-for-all-abilities) (45 resources)
 - [Parks & Nature: Free Outdoor Spaces](#parks-nature-free-outdoor-spaces) (20 resources)
 - [Arts & Culture: Museums, Galleries, and Performances](#arts-culture-museums-galleries-and-performances) (41 resources)
-- [Food & Farms: Community Meals, U-Pick, and Markets](#food-farms-community-meals-u-pick-and-markets) (27 resources)
+- [Food & Farms: Community Meals, U-Pick, and Markets](#food-farms-community-meals-u-pick-and-markets) (41 resources)
 - [Events & Festivals: Free Community Celebrations](#events-festivals-free-community-celebrations) (43 resources)
 - [Social Activities: Connection and Community](#social-activities-connection-and-community) (21 resources)
 - [Discount Programs: Maximize Your Access](#discount-programs-maximize-your-access) (18 resources)
-- [Transportation: Getting Around Portland](#transportation-getting-around-portland) (4 resources)
+- [Transportation: Getting Around Portland](#transportation-getting-around-portland) (7 resources)
 
 ---
 
@@ -36,6 +36,7 @@ Free peer-led support groups, drop-in centers, and warmlines for adults living w
 - **Phone:** 971-703-4623
 - **Website:** https://4drecovery.org/
 - **Cost:** FREE
+- **Hours:** Mon-Fri 9am-5pm
 
 Youth-focused (14-35) recovery community with peer mentors. Smit Center (Gresham) is the Multnomah County location. Previous SE 11th Ave Portland location is closed.
 
@@ -122,6 +123,7 @@ Pets allowed; no ID, sobriety, or cleanliness required. Managed by The Peer Comp
 - **Phone:** 503-465-2749
 - **Website:** https://www.bridgestochange.com
 - **Cost:** FREE
+- **Hours:** Mon-Fri 9am-9pm, Sat 12pm-8pm
 - **Eligibility:** Anyone seeking recovery support
 
 Peer-run recovery center in Gresham. Staff have lived experience in recovery. Also provides housing, mobile outreach (MBHT), and shower/laundry services.
@@ -168,6 +170,7 @@ Free 24/7 crisis line and walk-in mental health center for Clackamas County. Pee
 - **Phone:** 503-288-8303
 - **Website:** https://www.communityfpa.org
 - **Cost:** FREE
+- **Hours:** Mon-Fri 8:30am-4:30pm
 - **Eligibility:** Adults 55+
 
 Multi-service senior center. Hosts NAMI Multnomah meetings. Focused on positive aging with social, wellness, and support programs.
@@ -182,12 +185,12 @@ Multi-service senior center. Hosts NAMI Multnomah meetings. Focused on positive 
 
 **Programs:**
 
-- **Connecting Through Loss (Grief Support):** Contact for current schedule | In-person
-  Grief support group for older adults processing loss
-- **Family Caregivers Group:** Contact for current schedule | In-person
-  Support for adults 55+ caring for family members
-- **Memory Loss Support Group:** Contact for current schedule | In-person
-  Support for those experiencing memory loss
+- **Conversations on Aging:** Last Wednesday of each month, 12:30-2pm | In-person
+  Support group for older adults navigating challenges of aging. Registration required; donations appreciated.
+- **Family Caregivers Support Group:** 2nd Monday of each month, 1-2pm | In-person
+  Support for family caregivers, including grandparents or older relatives raising children. Learn resources and coping techniques for self-care while caregiving.
+- **Memory Cafe:** 4th Thursday of each month, 11am-12:30pm | In-person
+  Free social gathering with music and refreshments for those with dementia, Alzheimer's, or memory loss, and their families. RSVP requested but drop-ins welcome.
 
 *Structured group · Grief support, Anxiety-friendly, Good for isolation, Indoor · For: Seniors (55+) · Wheelchair accessible, Near transit*
 
@@ -517,6 +520,7 @@ Free cooking classes for people in or seeking recovery. Led by award-winning che
 - **Phone:** 503-223-8569
 - **Website:** https://www.pdxaa.org/
 - **Cost:** FREE
+- **Hours:** Mon-Fri 9am-5pm
 
 No dues or fees. No requirements - anyone who wants to stop drinking is welcome. Meeting Guide app available for iOS/Android.
 
@@ -584,6 +588,7 @@ Open to anyone grieving the death of a significant person. Free and no registrat
 - **Phone:** 503-234-7837
 - **Website:** https://www.pdxqcenter.org/
 - **Cost:** FREE (most programs)
+- **Hours:** Wed-Fri 10am-5pm, Sat 12pm-8pm, Sun-Tue closed. Hand Up Pantry: Mon-Tue 12pm-4pm.
 
 Portland's LGBTQ+ community center. Safe space with multi-generational programs. Many support groups and weekly events.
 
@@ -688,6 +693,7 @@ Science-based addiction recovery meetings - good alternative for those seeking n
 - **Phone:** 503-872-9664
 - **Website:** https://newavenues.org/smyrc/
 - **Cost:** FREE
+- **Hours:** See calendar for open hours (varies). Contact: smyrcinfo@newavenues.org or 503-872-9664
 - **Eligibility:** LGBTQIA2S+ youth ages 13-24
 
 LGBTQ+ youth drop-in center (ages 13-24). Free resources including food, clothing, and gender-affirming supplies. Run by New Avenues for Youth.
@@ -704,6 +710,7 @@ LGBTQ+ youth drop-in center (ages 13-24). Free resources including food, clothin
 - **Phone:** 503-775-5683
 - **Website:** https://www.dougy.org/
 - **Cost:** FREE
+- **Hours:** Mon-Fri 9am-5pm
 
 Pioneering peer grief support model since 1982. World-renowned programs. Also offers training and resources for professionals.
 
@@ -774,7 +781,7 @@ Community centers with sliding-scale fees, free yoga and meditation, running gro
 - **Cost:** Membership required
 - **Eligibility:** Anyone with physical or visual disabilities
 
-Premier adaptive sports organization in the region. Paralympic Sport Club recognized by Team USA.
+Premier adaptive sports organization in the region. Serves children and adults with physical disabilities or visual impairments across Oregon and SW Washington since 1982. Paralympic Sport Club recognized by Team USA.
 
 **What to know:** Providing adaptive sports since 1982 for children and adults with physical disabilities in Oregon and SW Washington. Paralympic Sport Club recognized by Team USA.
 
@@ -786,25 +793,32 @@ Premier adaptive sports organization in the region. Paralympic Sport Club recogn
 
 **Programs:**
 
-- **Kayaking:** In-person
+- **Wheelchair Basketball:** In-person
+- **Wheelchair Rugby:** In-person
+- **Wheelchair Racing:** In-person
 - **Power Soccer:** In-person
 - **Swimming:** In-person
-- **Wheelchair Rugby:** In-person
+- **Kayaking:** In-person
+- **Goalball:** In-person
+  Sport designed for athletes with visual impairments
+- **Archery:** In-person
 
-*Structured group · Active/physical, Good for isolation · For: Children (3-12) · Wheelchair accessible*
+*Structured group · Active/physical, Good for isolation · Wheelchair accessible*
 
 ### Birdhers
 
 - **Address:** Inner Portland parks (various locations)
 - **Website:** https://birdhers.com/
 - **Cost:** FREE
-- **Schedule:** Regular walks (check website for dates)
+- **Schedule:** Every Saturday 9:30am-noon (10am-noon in winter months)
 
-Meditative slow-paced bird walks perfect for those seeking calm outdoor connection
+Meditative slow-paced bird walks perfect for those seeking calm outdoor connection. Welcoming space for women, trans, and non-binary people.
 
 **Tips:** Meditative, slow-paced bird walks (1-2 miles) on paved and dirt paths. No RSVP required. Extra binoculars available. Designed to be calming and accessible.
 
-*Casual group · Anxiety-friendly, Outdoor, Low energy · Varies*
+*Casual group · Anxiety-friendly, Outdoor, Low energy · For: Women, Trans/nonbinary · Varies*
+
+**Who it's for:** Welcoming space specifically for women, trans, and non-binary people
 
 ### BYMC (Bhakti Yoga Movement Center)
 
@@ -889,14 +903,14 @@ Largest gymnasium in PP&R system. No pool - use other community centers for swim
 
 ### Decompress + Connect Meditation Group
 
-- **Address:** Portland Shambhala Center (check Meetup for location)
+- **Address:** TaborSpace, 5441 SE Belmont St, Portland, OR 97215
 - **Website:** https://www.meetup.com/portlandyoungmeditators/
 - **Cost:** FREE
-- **Schedule:** Regular meetings (check Meetup for dates)
+- **Schedule:** Mondays & Fridays 6:30-7:25pm
 
 Meditation plus talking circle - good for those wanting both practice and connection
 
-**Tips:** Partnership between Portland Shambhala Center and Young Meditators Group. 20 minutes silent meditation followed by talking circle. All traditions welcome. Good for connecting with others.
+**Tips:** Meetings now held at TaborSpace in SE Portland (moved from Portland Shambhala Center). 30 minutes silent meditation followed by meditative talking circle and social time. All traditions welcome. Good for connecting with others.
 
 *Casual group · Anxiety-friendly, Low energy, Good for isolation, Newcomer-friendly · Near transit*
 
@@ -906,6 +920,7 @@ Meditation plus talking circle - good for those wanting both practice and connec
 - **Phone:** 503-239-4846
 - **Website:** https://dharma-rain.org/
 - **Cost:** FREE
+- **Hours:** Tue 11:30am-9pm, Wed-Thu 5:30am-9pm, Fri-Sat 5:30am-6pm, Sun 8:30am-12pm, Mon closed
 
 Soto Zen Buddhist community founded in 1986, approximately 220 members. All welcome at Sunday program. Practice advisors available for one-on-one guidance.
 
@@ -933,6 +948,7 @@ Soto Zen Buddhist community founded in 1986, approximately 220 members. All welc
 - **Phone:** 360-773-3770
 - **Website:** https://diamondway.org/portland/
 - **Cost:** FREE always
+- **Hours:** Meditation Mon & Thu 7pm; contact 503-484-7187 for full schedule
 
 Karma Kagyu lineage of Tibetan Buddhism. Live-in center with guest room, near public transit. Founded 1997.
 
@@ -1060,6 +1076,7 @@ Fat-positive, inclusive hiking group founded in Portland. Welcoming to all body 
 
 ### Foot Traffic Group Runs
 
+- **Phone:** 503-284-0345
 - **Website:** https://foottraffic.us/train/group-run/
 - **Cost:** FREE
 - **Eligibility:** All abilities welcome
@@ -1148,6 +1165,7 @@ Nonprofit neighborhood center with sliding scale. Multnomah County Senior Center
 - **Phone:** 503-681-6120
 - **Website:** https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/hidden-creek
 - **Cost:** Varies by program; financial assistance available. Hillsboro residents with qualifying income eligible for 50% off programs. Youth art scholarships cover 100%.
+- **Hours:** Mon-Thu 5:30am-9pm, Fri 5:30am-6pm, Sat 8am-4pm, Sun 10am-4pm
 
 Hillsboro Parks & Recreation community center. Financial assistance (50% off) available for qualifying residents.
 
@@ -1221,6 +1239,7 @@ Brand new facility opened June 2025. Scholarship available for income-qualifying
 ### Mazamas Street Rambles
 
 - **Address:** Keen Garage, 505 NW 13th Ave, Portland, OR
+- **Phone:** 503-227-2345
 - **Website:** https://mazamas.org/streetrambles/
 - **Cost:** FREE, no registration required
 - **Schedule:** Every Tuesday & Thursday 6-8pm
@@ -1346,6 +1365,7 @@ Daily virtual + weekly in-person meditation. Gift economy model.
 ### Pier Park Disc Golf Course
 
 - **Address:** N Bruce Ave & N James St (near N Lombard), Portland, OR 97203
+- **Phone:** 503-823-7529
 - **Website:** https://www.pdga.com/course-directory/course/pier-park
 - **Cost:** FREE
 
@@ -1392,7 +1412,7 @@ Summer and winter layouts available. Park hours 5am-midnight. One of top disc go
 - **Address:** Various parks - Whitaker Ponds, Smith & Bybee Wetlands, etc.
 - **Website:** https://www.meetup.com/portland-bird-watching-meetup-group/
 - **Cost:** FREE
-- **Schedule:** Regular weekend bird walks (check Meetup for dates)
+- **Schedule:** Multiple walks per week (check Meetup for dates)
 
 Beginner-friendly bird walks with loaner binoculars available
 
@@ -1435,7 +1455,7 @@ Vipassana (insight) tradition. Welcomes all faiths, orientations, genders, abili
 - **Phone:** 503-505-0083
 - **Website:** https://www.portland.gov/parks/recreation/fitness-park
 - **Cost:** FREE
-- **Season:** May-August (Summer Free For All)
+- **Season:** May-September 2026 (Spring phase starts May 4; Summer Free For All runs June 22 - September 27)
 - **Eligibility:** Ages 14+
 
 Part of PP&R's Summer Free For All. Free outdoor fitness classes in parks across Portland.
@@ -1561,9 +1581,10 @@ Portland's original trail running group, exploring the city's best trails for ov
 - **Phone:** 503-298-5636
 - **Website:** https://prismmoves.org
 - **Cost:** FREE BIPOC class weekly; sliding scale memberships available
+- **Hours:** Open gym 5am-11pm; class schedule varies (6am-7pm most days)
 - **Eligibility:** BIPOC class is for BIPOC community only; general classes open to all
 
-Inclusive nonprofit gym focused on serving underrepresented communities. Free weekly BIPOC class plus sliding scale memberships.
+Inclusive nonprofit gym focused on serving women, BIPOC, LGBTQ+, trans/nonbinary, and larger-bodied individuals. Free weekly BIPOC class plus sliding scale memberships.
 
 **What to know:** Nonprofit inclusive strength and conditioning gym intentionally serving women, BIPOC, LGBTQ+, and larger-bodied individuals. Sliding scale makes membership affordable.
 
@@ -1578,7 +1599,7 @@ Inclusive nonprofit gym focused on serving underrepresented communities. Free we
 - **BIPOC Community Class:** Once weekly (check website for current day/time) | FREE | In-person
   For BIPOC community only
 
-*Structured group · Active/physical, Good for isolation · For: Teens (13-17) · Wheelchair accessible, Near transit, Sliding scale, Gender-neutral restroom*
+*Structured group · Active/physical, Good for isolation · For: LGBTQ+, BIPOC, Trans/nonbinary · Wheelchair accessible, Near transit, Sliding scale, Gender-neutral restroom*
 
 ### Rock Haven Climbing (Gresham Partnership)
 
@@ -1645,7 +1666,7 @@ Oregon's first disc golf course (established 1980)
 - **Mellow Mondays:** Every Monday | Irving Park
   Casual social ride, welcoming to newcomers
 - **Foster Night Ride:** Every other Tuesday | Foster Food Carts (SE Foster Rd & SE 52nd Ave)
-- Friday Night Ride
+- **Friday Night Ride:** Every Friday (check shift2bikes.org/calendar for meeting point)
 - **Midnight Mystery Ride:** 2nd Friday of each month
   Meet ~11pm, depart at midnight to a secret location. Meeting point kept secret until day of event.
 - **Bike Summer (Pedalpalooza):** June-August
@@ -1701,7 +1722,8 @@ Free monthly meditation with social time afterward. Beginner-friendly.
 - **Address:** 3014 NE Killingsworth St, Portland (Northeast) and 4029 SE Hawthorne, Portland (Southeast)
 - **Phone:** 503-877-YOGI
 - **Website:** https://thepeoplesyoga.org
-- **Cost:** Scholarship memberships available ($40 contribution with fund covering remainder); free/by-donation classes with teacher trainees
+- **Cost:** Scholarship memberships available (income-based, renewed every 3 months); regular memberships $65-85/month ($65 digital, $75 for 5 classes/month, $85 unlimited); $45 new student 30-day unlimited; drop-in $18 / livestream $12. $5 of each monthly fee supports community scholarship fund. Free/by-donation classes with teacher trainees also available.
+- **Hours:** Two locations: NE (3014 NE Killingsworth) and SE (4029 SE Hawthorne). 90+ classes/week. Check thepeoplesyoga.org/schedule for times.
 - **Eligibility:** Income verification required for scholarship; renewed every 3 months
 
 Community-supported yoga studio with scholarship memberships funded by other members.
@@ -1718,6 +1740,7 @@ Community-supported yoga studio with scholarship memberships funded by other mem
 
 ### THPRD Fitness in the Park
 
+- **Phone:** 503-645-6433
 - **Website:** https://www.thprd.org/fitness-in-the-park
 - **Cost:** FREE
 - **Season:** Year-round (Winter/Spring 2026: January 12 - March 22)
@@ -1735,8 +1758,10 @@ Free fitness classes in Washington County parks. Focus on environmental justice 
 
 ### Tigard Tualatin Aquatic District (TTAD)
 
+- **Phone:** 503-431-5455
 - **Website:** https://www.ttadpools.com
 - **Cost:** FREE with SilverSneakers, Silver & Fit, Renew Active, One Pass
+- **Hours:** Tigard: Mon-Fri 5:30am-3:45pm & 8pm-9pm, Sat-Sun 11am-4pm. Tualatin: Mon-Fri 5:30am-4pm, Sat 10:30am-3:45pm, Sun 11am-3:45pm. Check ttadpools.com for current schedule.
 
 Special district serving Tigard-Tualatin area. Medicare/insurance programs may provide free access - check eligibility.
 
@@ -1902,6 +1927,7 @@ Name changed from Portland Audubon in Feb 2024. Upper Macleay in Forest Park (ad
 - **Address:** 21199 NE Blue Lake Rd, Fairview, OR 97024
 - **Website:** https://www.oregonmetro.gov/places/blue-lake-regional-park-disc-golf-course
 - **Cost:** Course FREE; parking $5 ($40 annual pass)
+- **Hours:** Park hours vary seasonally, typically 7am-sunset. Check oregonmetro.gov for current hours.
 
 **Tips:** FREE 18-hole championship-level disc golf course. Parking $5 or $40 annual Metro pass. Bring your own discs. Can be busy on weekends. Good exercise and can be done solo. Beautiful lakeside setting.
 
@@ -1983,6 +2009,7 @@ Free accessible group hikes for people with disabilities. Cross-disability led c
 - **Address:** Wilsonville, OR
 - **Website:** https://www.oregonmetro.gov/parks/graham-oaks-nature-park
 - **Cost:** FREE
+- **Hours:** Daily sunrise to sunset
 
 **Tips:** FREE entry. Restored oak woodland and wetlands in Wilsonville. Metro nature park with quiet trails. Usually not crowded. Good for nature walks and birding.
 
@@ -2051,9 +2078,10 @@ Central Gresham park hosting festivals, concerts, and community events. Tsuru Is
 
 ### Mount Talbert Nature Park
 
-- **Address:** Clackamas, OR
+- **Address:** 10945 SE Mather Rd, Clackamas, OR 97015
 - **Website:** https://www.oregonmetro.gov/places/mount-talbert-nature-park
 - **Cost:** FREE
+- **Hours:** Daily sunrise to sunset
 
 **Tips:** FREE entry in Clackamas. Forested trails through second-growth forest. Metro nature park. Usually quiet. Good for moderate hiking.
 
@@ -2065,6 +2093,7 @@ Central Gresham park hosting festivals, concerts, and community events. Tsuru Is
 
 - **Address:** SE 7th & Sellwood, Portland
 - **Cost:** FREE
+- **Hours:** Daily 5am-midnight (Portland Parks standard)
 
 Portland's first wildlife refuge, 175+ bird species, very few visitors
 
@@ -2075,6 +2104,7 @@ Portland's first wildlife refuge, 175+ bird species, very few visitors
 ### Oxbow Regional Park
 
 - **Address:** 3010 SE Oxbow Parkway, Gresham, OR 97080
+- **Hours:** Seasonal gate hours: May-Sep 6:30am-8pm, Oct 6:30am-6pm, Nov-Mar 6:30am-5pm, Mar-Apr 6:30am-7pm. Park office: daily 9am-4:30pm (closed noon-1pm, Wed noon-2pm). Entry fee $5/vehicle.
 
 Old-growth forest with 700-year-old trees
 
@@ -2130,6 +2160,7 @@ Old-growth forest with 700-year-old trees
 - **Address:** Happy Valley, OR
 - **Website:** https://www.oregonmetro.gov/places/scouters-mountain-nature-park
 - **Cost:** FREE
+- **Hours:** Daily sunrise to sunset
 
 **Tips:** FREE entry in Happy Valley. Shady trails with Mount Hood views. Metro nature park. Usually quiet. Good for hiking and nature observation.
 
@@ -2230,6 +2261,7 @@ Discounted museum admission through Arts for All ($5 with Oregon Trail Card), fr
 - **Address:** 7818 SE Stark St, Portland, OR 97215
 - **Phone:** 503-252-0500
 - **Website:** https://www.academytheaterpdx.com/
+- **Hours:** Showtimes vary; typically first showing around 3pm. Check academytheaterpdx.com for current schedule.
 
 Independent dinner theater in Montavilla neighborhood.
 
@@ -2245,6 +2277,7 @@ Independent dinner theater in Montavilla neighborhood.
 - **Phone:** 503-232-8845
 - **Website:** https://artichokemusic.org/
 - **Cost:** FREE (donations welcome)
+- **Hours:** Wed-Sat 12pm-5pm (store hours); event hours vary
 
 Nonprofit community music center since 1971
 
@@ -2400,6 +2433,7 @@ Since 1999. Games from Golden Age of Video Arcade.
 - **Phone:** 503-238-4000
 - **Website:** https://ggportland.com
 - **Cost:** FREE Board Game Open Play
+- **Hours:** Mon-Sat 10am-10pm, Sun 11am-7pm
 
 **Tips:** Sunday Board Game Open Play (12-6pm) is free and welcoming to newcomers. Bartender hosts help find games and teach rules in the Bar area. Board games, card games, and tabletop RPGs available. Good place to meet people with similar interests.
 
@@ -2441,6 +2475,7 @@ Two library locations in Hillsboro with daily free programming. Part of WCCLS.
 - **Phone:** 503-823-3741
 - **Website:** https://www.portland.gov/fire/belmont-firehouse-museum
 - **Cost:** FREE
+- **Hours:** Wed 9am-3pm
 
 **Tips:** Historic 1912 firehouse open for free on Wednesdays 9am-3pm. Small museum with local history exhibits. Usually quiet and uncrowded. Good for a quick visit. Group tours available by request with 2 weeks notice.
 
@@ -2457,6 +2492,7 @@ Two library locations in Hillsboro with daily free programming. Part of WCCLS.
 - **Phone:** 503-281-4215
 - **Website:** https://hollywoodtheatre.org/
 - **Cost:** Various - includes free screenings
+- **Hours:** Tue-Sat 6pm-10pm. Check hollywoodtheatre.org for full schedule.
 
 Film Action Oregon dba Hollywood Theatre. Historic landmark, namesake of Hollywood District.
 
@@ -2497,6 +2533,7 @@ Zine and print resource center with free collage nights and workshops
 - **Address:** 10301 NE Glisan St, Portland, OR 97220
 - **Phone:** 503-234-1541
 - **Website:** https://irco.org/
+- **Hours:** Mon-Fri 8:30am-5pm
 
 Since 1976. Serves Oregon and SW Washington immigrant/refugee communities.
 
@@ -2547,6 +2584,7 @@ Part of LINCC system. Strong community programming including book groups, film s
 - **Address:** 2735 E Burnside St, Portland, OR 97214
 - **Phone:** 503-238-4088
 - **Website:** https://www.laurelhursttheater.com/
+- **Hours:** Showtimes vary daily; typically 12pm-10pm. All shows 21+ with ID, minors with parent before 8pm. Check laurelhursttheater.com.
 
 Theater and pub in Laurelhurst neighborhood.
 
@@ -2697,6 +2735,7 @@ Free gallery in East County featuring diverse contemporary and traditional art. 
 - **Phone:** 503-657-8269
 - **Website:** https://www.orcity.org/library
 - **Cost:** FREE (all programs)
+- **Hours:** Mon-Fri 10am-6:30pm, Sat 10am-6pm, Sun 10am-5pm
 
 Oregon City library with strong free adult programming including Art Gym, chess, and book clubs.
 
@@ -2778,6 +2817,7 @@ Three free campus galleries featuring regional and national artists. Student exh
 - **Phone:** 971-722-4848
 - **Website:** https://www.pcc.edu/theatre/
 - **Cost:** Ticket prices vary by section (Sections A, B, C). Student and senior discounts typically available. Tickets online or at box office (opens 1hr before curtain, cash/check only).
+- **Hours:** Performance schedule varies by season; check pcc.edu for showtimes
 
 Community college theater with professional-quality productions. Drama, comedy, and musicals.
 
@@ -2920,6 +2960,7 @@ Very welcoming poetry open mic in cozy coffeehouse - great for first-timers
 - **Phone:** 503-222-2031
 - **Website:** https://www.tocportland.org/
 - **Cost:** FREE lunchtime concerts
+- **Hours:** Tue-Fri 11am-3pm, plus scheduled events
 
 **Tips:** Free lunchtime concerts on 1st and 3rd Wednesdays 12-1pm. Beautiful historic 1882 venue. No ticket needed - just show up. Peaceful midday break. Located downtown near PSU campus.
 
@@ -3031,6 +3072,7 @@ Active programming including music series, teen programs, and Makerspace. Part o
 - **Phone:** 503-284-6019
 - **Website:** https://turnturnturnpdx.com/
 - **Cost:** FREE events
+- **Hours:** Wed-Fri 4pm-11pm, Sat 4pm-11pm, Sun 12:30pm-11pm, Mon 7pm-11pm, Tue closed
 
 **Tips:** Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Drawing Club (Sun 12:30-3:30pm), and karaoke (2nd & 4th Mon 8-11pm). All ages welcome for most daytime events. Casual atmosphere good for meeting people.
 
@@ -3068,6 +3110,43 @@ Oregon's largest writers' organization with free workshops and critique groups
 ## Food & Farms: Community Meals, U-Pick, and Markets
 
 Free community meals served with dignity, u-pick farms accepting SNAP/EBT, farmers markets, and food assistance programs.
+
+### 211info Oregon
+
+- **Phone:** 866-698-6155
+- **Website:** https://www.211info.org
+- **Cost:** FREE
+- **Hours:** 24/7
+
+Universal resource directory for Oregon. Call 2-1-1, text ZIP to 898-211, or visit 211info.org. 24/7 access to 1,500+ food resources plus housing, utilities, healthcare. SNAP enrollment help available. Covers far more than food but listed here as a key food access entry point.
+
+**What to know:** 211info covers ALL social services in Oregon, not just food — housing, utilities, healthcare, and more. Has a dedicated SNAP Access Advocate who can help with food stamp applications and case issues. Great starting point if you are not sure where to begin.
+
+**First visit:** Call 2-1-1 from any phone, text your ZIP code to 898-211, email help@211info.org, or visit 211info.org. Available 24/7.
+
+**Features:** Connects to 1,500+ food resources statewide, SNAP enrollment assistance with dedicated SNAP Access Advocate, Phone, text, email, and web access, Multilingual support, Covers food pantries, farmers markets, community meals, and more
+
+*One-on-one · Anxiety-friendly, Low energy*
+
+### Birch Community Services
+
+- **Address:** 17780 NE San Rafael St, Portland, OR 97230
+- **Phone:** 503-251-5431
+- **Website:** https://birchcommunityservices.org
+- **Cost:** FREE
+- **Hours:** Mon, Wed, Fri 10am-5pm
+
+Major NE Portland food hub serving 975+ families weekly. Also operates as a food redistribution center for 70+ partner agencies (1.2M lbs/month). Offers financial literacy and family programs.
+
+**What to know:** Serves 975+ families weekly. Also redistributes 1.2 million lbs of donated products monthly to 70+ partner agencies across the region. Founded 1992.
+
+**First visit:** Open Mon/Wed/Fri. Walk in during hours — no appointment needed.
+
+**What to bring:** Bags for groceries
+
+**Features:** Shelf-stable food, Fresh produce, Cold storage items, Financial literacy education (re$tart course), Family Vision workshops
+
+*Drop-in (come and go freely) · Anxiety-friendly, Low energy, Indoor · Wheelchair accessible*
 
 ### Blanchet House of Hospitality
 
@@ -3117,6 +3196,24 @@ Quiet, non-festival atmosphere - good for calmer environments
 
 *Do alone · Outdoor, Anxiety-friendly, Active/physical · Wheelchair accessible*
 
+### Community Action of Washington County
+
+- **Address:** Various locations in Washington County
+- **Phone:** 503-615-0771
+- **Website:** https://caowash.org
+- **Cost:** FREE
+- **Hours:** Varies by program and location
+
+Washington County's community action organization — 60+ years of service. Provides emergency food boxes plus energy assistance, housing support, and Head Start programs.
+
+**What to know:** Has been serving Washington County for 60+ years. Provides food assistance along with energy assistance, housing support, and other services. Good single point of contact for multiple needs.
+
+**First visit:** Call 503-615-0771 to find the right program for your needs. They serve all of Washington County.
+
+**Features:** Emergency food boxes, Energy assistance, Housing support, Head Start programs
+
+*Drop-in (come and go freely) · Anxiety-friendly, Low energy*
+
 ### Community Farm at Lynwood Friends Church
 
 - **Address:** 835 SE 162nd Ave, Portland, OR 97233
@@ -3136,6 +3233,23 @@ Farm for 2 hours, take home fresh produce. No ongoing commitment required.
 
 *Casual group · Outdoor, Active/physical, Low energy · Varies*
 
+### Estacada Area Food Bank
+
+- **Address:** 272 S Broadway St, Estacada, OR 97023
+- **Phone:** 503-630-2888
+- **Cost:** FREE
+- **Hours:** 2nd & 4th Tue 10am-2pm, Wed 10am-2pm, Thu 1-5pm
+
+Rural Clackamas County food bank serving Estacada and surrounding communities. Limited hours — check schedule before visiting.
+
+**What to know:** Serves the rural Estacada and eastern Clackamas County area. Limited Tuesday hours — Wednesdays and Thursdays are more consistently open.
+
+**First visit:** Walk in during hours. Tuesdays are 2nd and 4th week of the month only.
+
+**What to bring:** Bags or boxes for food
+
+*Drop-in (come and go freely) · Anxiety-friendly, Low energy, Indoor*
+
 ### Faith Café at Bethel UCC (Beaverton Free Meal)
 
 - **Address:** 5150 SW Watson Ave, Beaverton, OR 97005
@@ -3150,6 +3264,24 @@ Free community meal in Beaverton. Sundays at 4:15pm weekly, plus last Thursday m
 **First visit:** Just show up at 4:15pm on Sundays. Open to all.
 
 *Drop-in (come and go freely) · Indoor, Low energy, Good for isolation · Wheelchair accessible*
+
+### Gladstone Food Pantry
+
+- **Address:** 6460 Glen Echo Ave, Gladstone, OR 97027
+- **Phone:** 503-496-3947
+- **Website:** https://nwfs.org/basic-needs/food-matters
+- **Cost:** FREE
+- **Hours:** Thu 3-5pm
+
+Gladstone area food pantry, part of NW Family Services FoodMatters program. Thursday afternoons only.
+
+**What to know:** Connected to Northwest Family Services FoodMatters program which serves families and seniors across multiple counties.
+
+**First visit:** Open Thursday afternoons only. Walk in during hours.
+
+**What to bring:** Bags for groceries
+
+*Drop-in (come and go freely) · Anxiety-friendly, Low energy, Indoor · Wheelchair accessible*
 
 ### Gleaners of Clackamas County
 
@@ -3208,6 +3340,25 @@ One of Portland's best farmers markets with full SNAP/EBT support and Double Up 
 
 *Do alone · Anxiety-friendly, Outdoor, Family-friendly · Wheelchair accessible, Near transit*
 
+### Hunger Fighters Food Bank
+
+- **Address:** 4 Monroe Pkwy, Lake Oswego, OR 97034
+- **Phone:** 503-635-3401
+- **Website:** https://www.hungerfighters.org
+- **Cost:** FREE
+- **Hours:** Mon 4-6pm, Wed 5-7pm, Fri 10am-1pm
+- **Eligibility:** ZIP codes 97034 and 97035. No income verification needed.
+
+Lake Oswego area food bank. No income verification. Evening hours Mon/Wed. Serves ZIP codes 97034 and 97035.
+
+**What to know:** Evening hours Mon and Wed are great for people who work during the day. Serves the Lake Oswego area specifically.
+
+**First visit:** Walk in during hours. No income verification needed — just need to live in ZIP 97034 or 97035.
+
+**What to bring:** Bags for groceries
+
+*Drop-in (come and go freely) · Anxiety-friendly, Low energy, Indoor · Wheelchair accessible*
+
 ### Lake Oswego Farmers' Market
 
 - **Address:** Millennium Plaza Park, Lake Oswego, OR
@@ -3227,6 +3378,36 @@ May-October season. One of the best farmers' markets for SNAP users due to match
 **Features:** Fresh local produce, SNAP/EBT accepted, SNAP matching - doubles your EBT dollars, Holiday Market (November)
 
 *Drop-in (come and go freely) · Outdoor, Family-friendly · Wheelchair accessible*
+
+### Lift Urban Portland (Preston's Pantry)
+
+- **Address:** 1838 SW Jefferson St, Portland, OR 97201
+- **Phone:** 503-221-1224
+- **Website:** https://www.lifturbanportland.org
+- **Cost:** FREE
+- **Hours:** Tue, Thu, Fri 3-6pm (Tue 3-5:30pm by appointment for mobility/health needs)
+- **Eligibility:** NW and Downtown Portland residents. Visit up to 2x per month.
+
+Shopping-style food pantry in NW/Downtown Portland near Goose Hollow MAX. Dignity model — choose your own items. Tuesday appointments for mobility/health needs. Also stocks pantries in 50+ affordable housing buildings. Founded 1980.
+
+**What to know:** Tuesday 3-5:30pm is by appointment specifically for people with mobility or health challenges — call ahead. Founded 1980 as Northwest Portland Ministries. Also places food boxes in 50+ affordable housing buildings.
+
+**First visit:** Located at First United Methodist Church near Goose Hollow MAX stop — use the rear entrance. Shopping-style so you choose what you need.
+
+**What to bring:** Bags for groceries
+
+**Programs:**
+
+- **Preston's Pantry**
+  Shopping-style food pantry at First United Methodist Church. Visit 2x/month. Tuesday afternoon by appointment for people with mobility or health challenges.
+- **Adopted Buildings Program**
+  Onsite food boxes and pantries placed in 50+ affordable housing buildings throughout Portland
+
+**Features:** Shopping-style pantry (choose your own items), Fresh produce, yogurt, dairy, Dry and canned goods, Meat and eggs
+
+*Drop-in (come and go freely) · Anxiety-friendly, Low energy, Indoor · Near transit*
+
+**Accessibility:** Tuesday 3-5:30pm by appointment for people with mobility or health challenges. Near Goose Hollow MAX station.
 
 ### Loaves & Fishes Senior Dining Centers
 
@@ -3288,6 +3469,7 @@ Sundays May-October in downtown Milwaukie. SNAP/EBT accepted with Double Up Food
 - **Phone:** 503-246-1663
 - **Website:** https://nhpdx.org/
 - **Cost:** FREE
+- **Hours:** Mon-Fri 10am-5pm (Capitol Hwy location). Food pantry hours vary by location.
 
 40+ year food access organization in SW Portland. New expanded Barbur Blvd location opened early 2026.
 
@@ -3318,6 +3500,24 @@ Operating since 1906
 **Tips:** FREE entry with flat-rate pumpkins. Free hayrides included. Operating since 1906. Less commercialized than some pumpkin patches. Good for a simple, traditional fall experience. October only.
 
 *Drop-in (come and go freely) · Outdoor, Family-friendly · Wheelchair accessible*
+
+### Oregon Food Bank
+
+- **Address:** 7900 NE 33rd Dr, Portland, OR 97211
+- **Phone:** 503-282-0555
+- **Website:** https://www.oregonfoodbank.org
+- **Cost:** FREE
+- **Hours:** Varies by partner location — use Food Finder at foodfinder.oregonfoodbank.org to search by ZIP code
+
+Central hub organization supplying food to 1,200+ sites statewide. The Food Finder (foodfinder.oregonfoodbank.org) is the single best tool for locating free food near any address. No ID or income verification required at partner sites.
+
+**What to know:** The Food Finder is the most comprehensive tool for locating food pantries in Oregon — covers 100+ locations in the Portland metro area alone. Partner pantries offer free groceries, produce, and hot meals. Oregon Food Bank supplies food to most pantries in the region.
+
+**First visit:** Use the Food Finder at foodfinder.oregonfoodbank.org to search for pantries near you by ZIP code. No proof of income or documentation required.
+
+**Features:** Network of 1,200+ food assistance sites statewide, Food Finder search tool (foodfinder.oregonfoodbank.org), 100+ partner pantries in the Portland metro area, Free groceries, fresh produce, and hot meals through partners, No proof of income or documentation required at partner sites
+
+*Drop-in (come and go freely) · Anxiety-friendly, Low energy*
 
 ### Outgrowing Hunger
 
@@ -3420,6 +3620,48 @@ June-September season. Evening market serving the diverse Rockwood community.
 
 *Casual group · Outdoor, Newcomer-friendly · Wheelchair accessible, Near transit*
 
+### Salvation Army Hope Center (Hillsboro)
+
+- **Address:** 1440 SE 21st Ave, Hillsboro, OR 97123
+- **Phone:** 503-640-4311
+- **Website:** https://hillsboro.salvationarmy.org
+- **Cost:** FREE
+- **Hours:** Mon-Fri 1-3:45pm (food boxes). Daily sack lunch available.
+
+Washington County food pantry in Hillsboro. Food boxes Mon-Fri afternoons plus daily sack lunch. Mobile pantry on Wednesdays serves rural Banks and West Union areas.
+
+**What to know:** Also runs a mobile pantry on Wednesdays reaching Banks and West Union — good option for rural Washington County residents. Part of the Salvation Army's Cure Hunger program.
+
+**First visit:** Walk in during afternoon hours for food boxes. Daily sack lunches also available.
+
+**What to bring:** Bags or boxes for food
+
+**Programs:**
+
+- **Mobile Pantry**
+  Wednesday stops in Banks and West Union with fresh produce, proteins, dry and canned goods
+
+**Features:** Food boxes, Bread and baked goods, Hygiene products, Daily sack lunch
+
+*Drop-in (come and go freely) · Anxiety-friendly, Low energy, Indoor · Wheelchair accessible*
+
+### Sandy Community Action Center
+
+- **Address:** 38982 Pioneer Blvd, Sandy, OR 97055
+- **Phone:** 503-668-4746
+- **Cost:** FREE
+- **Hours:** Wed & Fri 10am-4pm
+
+Mt. Hood corridor food pantry serving Sandy and surrounding communities. Open Wed and Fri only.
+
+**What to know:** Serves the Sandy area and Mt. Hood corridor communities. Only open two days per week.
+
+**First visit:** Walk in during hours on Wednesday or Friday.
+
+**What to bring:** Bags or boxes for food
+
+*Drop-in (come and go freely) · Anxiety-friendly, Low energy, Indoor*
+
 ### Sikh Center of Oregon Langar
 
 - **Address:** 17514 SW Scholls Ferry Rd, Beaverton, OR 97007
@@ -3441,12 +3683,43 @@ Free vegetarian meals based on 500-year-old Sikh tradition (Langar). 150-200 peo
 - **Phone:** 503-222-5694
 - **Website:** https://sistersoftheroad.org
 - **Cost:** Pay-what-you-can. Barter work program - work 15 minutes for a meal
+- **Hours:** Tue-Sat, sign up for meals after 9am, serving 10am-2pm. Note: cafe transitioning to new location.
 
 Welcoming community space emphasizing dignity and autonomy
 
 **Tips:** Pay-what-you-can or work 15 minutes for a meal through barter program. Welcoming community space emphasizing dignity and autonomy. Downtown Old Town location. A gathering place, not just a meal program.
 
 *Casual group · Indoor, Good for isolation · Wheelchair accessible, Near transit*
+
+### SnowCap Community Charities
+
+- **Address:** 17805 SE Stark St, Portland, OR 97233
+- **Phone:** 503-674-8785
+- **Website:** https://www.snowcap.org
+- **Cost:** FREE
+- **Hours:** Mon-Fri 10am-2pm, Mon & Wed 6-8pm
+- **Eligibility:** East of 82nd Ave, Multnomah County (East Portland & Gresham). Up to 2 visits per month.
+
+Major East Portland food pantry serving area east of 82nd Ave. Evening hours Mon/Wed 6-8pm. Also operates mobile pantry, community garden, and senior delivery. Founded as an all-volunteer charity.
+
+**What to know:** Small staff with 1,000+ volunteers. Serves the area east of 82nd Ave — one of Portland's most underserved neighborhoods. Also provides diapers, formula, and clothing.
+
+**First visit:** Just show up during hours. Pre-packed boxes so the process is quick. Evening hours Mon & Wed are great for people who work during the day.
+
+**What to bring:** Bags or boxes to carry food home
+
+**Programs:**
+
+- **Mobile Food Pantry**
+  Brings food to underserved neighborhoods in East Portland and Gresham
+- **SnowCap Community Garden**
+  Free gardening plots for low-income residents east of 82nd Ave
+- **Senior Home Delivery**
+  Food delivery for homebound seniors
+
+**Features:** Pre-packed food boxes, Fresh and frozen food, Diapers (ages 0-2) and infant formula (12 months & under), Clothing by appointment, Blankets in winter
+
+*Drop-in (come and go freely) · Anxiety-friendly, Low energy, Indoor, Family-friendly · Wheelchair accessible, Near transit*
 
 ### SnowCap Community Garden
 
@@ -3476,6 +3749,24 @@ Most accessible option for peer support programs - accepts EBT
 
 *Do alone · Outdoor, Family-friendly, Active/physical · Wheelchair accessible*
 
+### St. Vincent de Paul Portland
+
+- **Address:** Various (40+ locations across Multnomah, Washington, and Clackamas counties)
+- **Phone:** 503-235-8431
+- **Website:** https://www.svdppdx.org
+- **Cost:** FREE
+- **Hours:** Varies by location — call Food Hotline at 503-235-8431 to find nearest pantry and hours
+
+Largest food pantry network in the Portland metro area — 40+ locations across all three counties. Food Hotline (503-235-8431) connects callers to their nearest pantry. Some locations offer delivery.
+
+**What to know:** Largest food pantry network in the region with 40+ locations. Some locations offer food delivery, especially for people with disabilities. Pantries are mostly hosted at Catholic parishes but serve everyone regardless of religion.
+
+**First visit:** Call the Food Hotline at 503-235-8431 to find the nearest pantry to you. They will tell you the location, hours, and what to expect.
+
+**Features:** 40+ food pantries across the tri-county area, Emergency food boxes, Food delivery available at some locations, Delivery for people with disabilities at select drop-in pantries
+
+*Drop-in (come and go freely) · Anxiety-friendly, Low energy, Indoor*
+
 ### Sunshine Division Food Pantry
 
 - **Address:** 12436 SE Stark St, Portland, OR 97233
@@ -3501,6 +3792,21 @@ Portland Police Bureau partner providing free food assistance since 1923. Walk-i
 
 *Drop-in (come and go freely) · Outdoor, Family-friendly · Wheelchair accessible*
 
+### Tualatin Food Pantry
+
+- **Address:** 3550 SW Borland Rd, Tualatin, OR 97062
+- **Phone:** 503-783-0721
+- **Cost:** FREE
+- **Eligibility:** Tualatin, Lake Oswego, West Linn, and North Wilsonville residents
+
+South metro food pantry serving Tualatin, Lake Oswego, West Linn, and North Wilsonville. Call for current hours.
+
+**What to know:** Serves a wide south metro area including Tualatin, Lake Oswego, West Linn, and North Wilsonville.
+
+**First visit:** Call ahead at 503-783-0721 for current hours and availability.
+
+*Drop-in (come and go freely) · Anxiety-friendly, Low energy, Indoor · Wheelchair accessible*
+
 ### Urban Gleaners Free Food Markets
 
 - **Address:** 21+ locations in Multnomah and Washington Counties
@@ -3522,6 +3828,24 @@ Rescues food before it goes to waste and distributes through 21+ free public mar
 
 *Drop-in (come and go freely) · Anxiety-friendly, Low energy · Varies*
 
+### Wilsonville Community Sharing
+
+- **Address:** 29796 SW Town Center Loop E, Wilsonville, OR 97070
+- **Phone:** 503-682-6939
+- **Website:** https://www.wilsonvillecommunitysharing.org
+- **Cost:** FREE
+- **Hours:** Tue 12:30-2:30pm & 6-7:30pm
+
+Wilsonville food pantry with both afternoon and evening hours on Tuesdays.
+
+**What to know:** Evening hours on Tuesdays (6-7:30pm) are great for people who work during the day.
+
+**First visit:** Walk in during hours. Tuesday has both afternoon and evening slots.
+
+**What to bring:** Bags for groceries
+
+*Drop-in (come and go freely) · Anxiety-friendly, Low energy, Indoor · Wheelchair accessible*
+
 ---
 
 ## Events & Festivals: Free Community Celebrations
@@ -3533,16 +3857,15 @@ Free festivals, seasonal events, concerts, and community gatherings throughout t
 - **Address:** Hollywood Theatre, 4122 NE Sandy Blvd, Portland, OR 97212
 - **Website:** https://www.africanfilmfestival.org/
 - **Cost:** FREE - all screenings free to public. Oldest and longest-running African film festival in the US
-- **Dates:** February 6 - March 7, 2026
 - **Eligibility:** Open to the public
 
-Free 5-week celebration of African cinema during Black History Month. 36 years running. Community discussions after films.
+Free annual celebration of African cinema during Black History Month (typically February through early March). 36+ years running. Community discussions after films. 2026 festival (36th) ran February 6 - March 7. 2027 dates TBD (typically announced in January).
 
 **What to know:** Shows Africa through African filmmakers' eyes, not Western perspective. Volunteer-run.
 
 **First visit:** Check schedule online - different films each weekend
 
-**Features:** 18 films from 16 countries, Visiting filmmakers and guest speakers, After-film discussions, Women Filmmakers Week, Family Film Day, Diaspora Film Night, Visual arts exhibit, Live performances, Marketplace
+**Features:** Visiting filmmakers and guest speakers, After-film discussions, Women Filmmakers Week, Family Film Day, Diaspora Film Night, Visual arts exhibit, Live performances, Marketplace
 
 *Do alone · Anxiety-friendly, Indoor, Creative · Wheelchair accessible, Near transit*
 
@@ -4209,8 +4532,9 @@ One of largest donation-based LGBTQIA2S+ Pride events on west coast. Moved from 
 
 ### Portland Rose Festival
 
+- **Address:** Tom McCall Waterfront Park, 98 SW Naito Pkwy, Portland, OR 97204
 - **Website:** https://www.rosefestival.org/
-- **Cost:** Multiple free events
+- **Cost:** Multiple free events; CityFair admission varies
 - **Dates:** May 22 - June 28, 2026
 
 60+ events over 3 weeks. 500,000+ attend Grand Floral Parade.
@@ -4635,6 +4959,7 @@ Primary hub for older adults in North Clackamas. Meals on Wheels program deliver
 - **Address:** 7688 SW Capitol Highway, Portland, OR 97219
 - **Phone:** 503-823-2787
 - **Cost:** Pay What You Can options; Access Discount Program applies
+- **Hours:** Mon-Thu 9am-9:30pm, Fri-Sat 9am-5pm, Sun closed
 
 Sliding-scale arts education
 
@@ -4865,6 +5190,7 @@ Partnership between City of Tigard and Meals on Wheels People. Welcoming atmosph
 - **Phone:** 503-796-9224
 - **Website:** https://writearound.org
 - **Cost:** FREE
+- **Hours:** Mon-Sat 9am-5pm
 
 **Tips:** FREE 10-week writing workshops with trauma-informed approach. Serves marginalized populations at hospitals, shelters, senior centers, treatment facilities. Public readings at First United Methodist Church. No writing experience needed.
 
@@ -5284,17 +5610,45 @@ Low-income transit fares, bike programs, and transportation assistance.
 
 ### BIKETOWN for All
 
+- **Address:** 1120 SW 5th Ave, Portland, OR 97204
+- **Phone:** 503-823-4000
 - **Website:** https://biketownpdx.com/pricing/biketown-for-all
-- **Cost:** $5/month for unlimited 60-minute rides. Regular membership is $20/month. BIKETOWN for All is 75% off.
-- **Eligibility:** Portland-area residents enrolled in SNAP, OHP, TANF, Section 8, LIHEAP, WIC, or with income ≤200% FPL
+- **Cost:** FREE membership ($0/month). Previously $5/month, now completely free. Free unlocks (usually $1). Scooters not included.
+- **Hours:** In-person help at Portland Building: Mon-Fri 8am-5pm. Lyft office (Central Eastside): Mon-Thu 9am-4pm
+- **Eligibility:** Portland-area residents 16+ receiving SNAP, OHP, TANF, affordable housing assistance, LIHEAP, unemployment insurance, Pell Grant, or TriMet Honored Citizens with qualifying incomes
 
-Discounted bike share membership for low-income Portland residents. $5/month.
+Free bike share membership for income-qualifying Portland residents. $0/month with $10 ebike credit.
 
-**What to know:** $5/month for unlimited 60-minute bike rides across Portland. E-bikes available. 75% discount off regular pricing. Great supplement to transit.
+**What to know:** Completely FREE membership with $10/month ebike ride credit. E-bikes available across Portland. Available in multiple languages (Spanish, Russian, Vietnamese, Chinese, Arabic). Key cards available for riders without smartphones.
 
-**First visit:** Apply at biketownpdx.com with proof of qualifying benefits
+**First visit:** Apply online at biketownpdx.com with a credit/debit/prepaid card and proof of qualifying benefits. Or visit the Portland Building (1120 SW 5th Ave, 1st floor) for in-person help from PDX 311 staff.
 
-*Do alone · Active/physical, Outdoor*
+**Registration:** Need active phone number for verification code, eligibility documentation, and a payment method (for overages beyond $10 monthly credit). PDX 311 staff can provide temporary payment method for those without bank access.
+
+*Do alone · Active/physical, Outdoor · Near transit*
+
+### Community Cycling Center
+
+- **Address:** 1700 NE Alberta St, Portland, OR 97211
+- **Phone:** 503-287-8786
+- **Website:** https://communitycyclingcenter.org/
+- **Cost:** Affordable used bikes, parts, and repair services. DIY workspace membership available.. Revenue supports free community bike programs across Portland.
+- **Hours:** Wed-Sat 11am-6pm, Sun 12pm-5pm
+
+Nonprofit bike shop on Alberta St. Affordable bikes, repairs, DIY workspace, and classes. Revenue supports free community bike programs.
+
+**What to know:** Welcoming, inclusive space with diverse staff. DIY Workspace lets you work on your own bike with professional tools. Great selection of affordable used bikes. They also accept bike donations. Explicitly welcoming to people of color, women, LGBTQIA+, neurodivergent, and gender non-conforming folks.
+
+**First visit:** Walk in during shop hours. No appointment needed for browsing bikes or buying parts. Repairs may have a wait depending on season.
+
+**Programs:**
+
+- **Bike Clubs & Camps**
+- **The Repair Hub**
+- **Earn a Bike**
+- **Holiday Bike Drive**
+
+*Drop-in (come and go freely) · Active/physical, Outdoor, Newcomer-friendly · Near transit*
 
 ### Ride Connection
 
@@ -5316,17 +5670,55 @@ Door-to-door ride service for seniors, people with disabilities, and underserved
 
 ### SPOT Southwest (Free On-Demand Transit)
 
+- **Phone:** 503-907-7768
 - **Website:** https://catchthespot.org/
 - **Cost:** FREE
+- **Hours:** Phone booking: Mon-Fri 7:30am-5pm. App booking: anytime during service hours
 - **Schedule:** Mon-Fri 6:30am-9:30pm
 
 Washington County free on-demand microtransit pilot. Serves SW Beaverton and NW Tigard neighborhoods with no fixed-route transit. Funded through 2027.
 
-**What to know:** Free door-to-door shared rides in SW Beaverton and NW Tigard. Connects to Washington Square Transit Center for TriMet bus transfers. Launched January 2026, funded through 2027. Fills a critical transit gap in an underserved area.
+**What to know:** Free door-to-door shared rides in SW Beaverton and NW Tigard. Connects to Washington Square Transit Center for TriMet bus transfers. Funded through 2027 via STIF grant. Partnership between Washington County and Ride Connection. Bike racks available. Accessible seating options. Child seats not provided (bring your own). Service animals welcome.
 
-**First visit:** Download the SPOT app (Google Play/App Store) to request a ride
+**First visit:** Download the SPOT Ride app or call 503-907-7768 to request a same-day ride
 
-**Registration:** App-based; request rides in real time
+**Registration:** App-based or phone-based; same-day rides only (on-demand, leave-at, or arrive-by scheduling)
+
+*Do alone · Anxiety-friendly, Low energy · Wheelchair accessible*
+
+### TriMet Honored Citizen Fare (Seniors, Disability, Veterans)
+
+- **Address:** 701 SW 6th Ave, Portland, OR
+- **Phone:** 503-238-7433
+- **Website:** https://trimet.org/fares/reduced.htm
+- **Hours:** TriMet Customer Support (Pioneer Courthouse Square): Mon-Fri 8:30am-5:30pm
+- **Eligibility:** Seniors 65+ or Medicare (no application needed, just photo ID); people with disabilities (must apply for Hop card); veterans and active-duty military (must apply for Hop card)
+
+Reduced fare program for seniors 65+, people with disabilities, and veterans. 72% discount on all TriMet services.
+
+**What to know:** 72% discount on transit. Seniors 65+ don't need to apply — just show ID when boarding. Monthly pass unlocked automatically at $28 spend. Works on all TriMet buses, MAX, WES, Portland Streetcar, and C-TRAN.
+
+**First visit:** Seniors 65+ can use reduced fare immediately with photo ID showing age. People with disabilities and veterans must apply for a personalized Hop card first.
+
+**What to bring:** Photo ID (driver's license, passport, tribal ID, military ID). Accepted IDs: any state/country driver's license, passport, armed services ID, tribal ID, US citizenship certificate.
+
+*Do alone · Anxiety-friendly, Low energy · For: Seniors (55+) · Wheelchair accessible*
+
+### TriMet LIFT Paratransit
+
+- **Phone:** 503-962-8000
+- **Website:** https://trimet.org/lift/
+- **Cost:** Personal Care Attendants ride free. Children 6 and under ride free with fare-paying adult.
+- **Hours:** Generally 3:30am-2:30am, 7 days a week (varies by area based on local bus/MAX service hours)
+- **Eligibility:** People unable to use regular TriMet buses and trains due to a disability or disabling health condition. Must apply and be determined eligible.
+
+Door-to-door shared-ride paratransit for people with disabilities who cannot use regular transit. $2.80/ride with monthly cap.
+
+**What to know:** Shared-ride door-to-door service. Book rides up to 3 days in advance or by 5pm the day before. Can book online via CARES system or by phone. 30-minute pick-up windows. LIFT Hop card also works on regular TriMet buses and MAX at the reduced Honored Citizen fare ($1.40). Also offers LIFT+, a flexible alternative.
+
+**First visit:** Call 503-962-8000 option 2 to start the eligibility process
+
+**Registration:** Must apply and be determined eligible based on disability. Once approved, receive a personalized LIFT Hop card.
 
 *Do alone · Anxiety-friendly, Low energy · Wheelchair accessible*
 
@@ -5336,15 +5728,16 @@ Washington County free on-demand microtransit pilot. Serves SW Beaverton and NW 
 - **Phone:** 503-238-7433
 - **Website:** https://trimet.org/income
 - **Cost:** Free first month + free Hop card upon enrollment
+- **Hours:** TriMet Customer Support (Pioneer Courthouse Square): Mon-Fri 8:30am-5:30pm. Also available at WorkSource locations and partner enrollment sites across the metro area.
 - **Eligibility:** Oregon residents 18-64 at/below 200% FPL, OR receiving OHP, SNAP, TANF, Free/Reduced Lunch, Section 8, LIHEAP
 
-**What to know:** First month FREE plus a free Hop card when you enroll. Half-price fares ($1.40 vs $2.80) and monthly pass ($28 vs $100). Works on all TriMet buses, MAX, WES, and Portland Streetcar. Auto-renews annually if still on qualifying benefits.
+**What to know:** First month FREE plus a free Hop card when you enroll. Half-price fares ($1.40 vs $2.80) and monthly pass ($28 vs $100). Works on all TriMet buses, MAX, WES, and Portland Streetcar. Auto-renews annually if still on qualifying benefits. Multiple enrollment locations including WorkSource centers with multilingual support (English, Russian, Spanish, Vietnamese).
 
-**First visit:** Apply online at trimet.org/income or visit TriMet Ticket Office at Pioneer Courthouse Square
+**First visit:** Apply online at trimet.org/income or visit TriMet Customer Support at Pioneer Courthouse Square (701 SW 6th Ave)
 
-**Registration:** Online application takes 5-10 minutes. Auto-qualify if you receive OHP, SNAP, TANF, Section 8, or LIHEAP. Otherwise provide proof of income.
+**Registration:** Online application takes 5-10 minutes. Auto-qualify if you receive OHP, SNAP, TANF, Section 8, LIHEAP, WIC, Free/Reduced Lunch, HUD Housing Choice Voucher, or Employment Related Daycare. Otherwise provide proof of income (paystubs, tax return, or unemployment letter).
 
-**What to bring:** For in-person - proof of public benefits OR income verification, photo ID
+**What to bring:** For in-person - proof of public benefits OR income verification, photo ID. In-person applicants get personalized photo ID Hop card on the spot.
 
 *Do alone · Anxiety-friendly, Low energy · Wheelchair accessible*
 
