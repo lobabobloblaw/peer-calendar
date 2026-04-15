@@ -25,9 +25,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:d749c957e9a0991a@portlandresources.org
-DTSTAMP:20260331T001914Z
-DTSTART;TZID=America/Los_Angeles:20260331T170000
-DTEND;TZID=America/Los_Angeles:20260331T213000
+DTSTAMP:20260415T072244Z
+DTSTART;TZID=America/Los_Angeles:20260421T170000
+DTEND;TZID=America/Los_Angeles:20260421T213000
 SUMMARY:Portland Area Board Games Meetup: Tuesday Board Games
 DESCRIPTION:Category: Social Activities\nCost: FREE - just buy food/drink f
  rom venue\nInfo: 20-30 attendees typical. Games provided. All skill levels
@@ -43,9 +43,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c536863dc98ad10a@portlandresources.org
-DTSTAMP:20260331T001914Z
-DTSTART;TZID=America/Los_Angeles:20260401T170000
-DTEND;TZID=America/Los_Angeles:20260401T213000
+DTSTAMP:20260415T072244Z
+DTSTART;TZID=America/Los_Angeles:20260415T170000
+DTEND;TZID=America/Los_Angeles:20260415T213000
 SUMMARY:Portland Area Board Games Meetup: Wednesday East Side Game Night
 DESCRIPTION:Category: Social Activities\nCost: FREE - just buy food/drink f
  rom venue\nInfo: Free weekly social for all levels. Games provided by the 
@@ -61,9 +61,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:22b230d60826a8b3@portlandresources.org
-DTSTAMP:20260331T001914Z
-DTSTART;TZID=America/Los_Angeles:20260401T083000
-DTEND;TZID=America/Los_Angeles:20260401T113000
+DTSTAMP:20260415T072244Z
+DTSTART;TZID=America/Los_Angeles:20260415T083000
+DTEND;TZID=America/Los_Angeles:20260415T113000
 SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
 DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
  some low-cost\nInfo: Novice to advanced\; guidance for starters\nAddress: 
@@ -81,9 +81,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85f82cd177356b11@portlandresources.org
-DTSTAMP:20260331T001914Z
-DTSTART;TZID=America/Los_Angeles:20260406T160000
-DTEND;TZID=America/Los_Angeles:20260406T170000
+DTSTAMP:20260415T072244Z
+DTSTART;TZID=America/Los_Angeles:20260420T160000
+DTEND;TZID=America/Los_Angeles:20260420T170000
 SUMMARY:Milwaukie Community Center: Tai Chi for Seniors
 DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
  some low-cost\nInfo: Gentle exercise for balance and wellness\nAddress: 54
@@ -101,9 +101,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:89444dc8c3fb77ee@portlandresources.org
-DTSTAMP:20260331T001914Z
-DTSTART;TZID=America/Los_Angeles:20260406T120000
-DTEND;TZID=America/Los_Angeles:20260406T123000
+DTSTAMP:20260415T072244Z
+DTSTART;TZID=America/Los_Angeles:20260420T120000
+DTEND;TZID=America/Los_Angeles:20260420T123000
 SUMMARY:Milwaukie Community Center: Congregate Lunch
 DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
  some low-cost\nInfo: Social dining for older adults\nAddress: 5440 SE Kell
@@ -120,9 +120,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8961f5d05e61f6ab@portlandresources.org
-DTSTAMP:20260331T001914Z
-DTSTART;TZID=America/Los_Angeles:20260331T150000
-DTEND;TZID=America/Los_Angeles:20260331T170000
+DTSTAMP:20260415T072244Z
+DTSTART;TZID=America/Los_Angeles:20260421T150000
+DTEND;TZID=America/Los_Angeles:20260421T170000
 SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
 DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nInfo: Drop-in 
  fiber arts session every Tuesday. Knit\, crochet\, or try other crafts whi
@@ -140,9 +140,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8569003d0f2e736e@portlandresources.org
-DTSTAMP:20260331T001914Z
-DTSTART;TZID=America/Los_Angeles:20260402T180000
-DTEND;TZID=America/Los_Angeles:20260402T203000
+DTSTAMP:20260415T072244Z
+DTSTART;TZID=America/Los_Angeles:20260416T180000
+DTEND;TZID=America/Los_Angeles:20260416T203000
 SUMMARY:Puddletown Knitters Guild: Monthly Meeting
 DESCRIPTION:Category: Social Activities\nCost: FREE for first 2 visits\; me
  mbership $35/year\nInfo: Year-round. Doors open 6pm for social knitting\; 
@@ -160,9 +160,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a46e449e668cab99@portlandresources.org
-DTSTAMP:20260331T001914Z
-DTSTART;TZID=America/Los_Angeles:20260331T080000
-DTEND;TZID=America/Los_Angeles:20260331T090000
+DTSTAMP:20260415T072244Z
+DTSTART;TZID=America/Los_Angeles:20260421T080000
+DTEND;TZID=America/Los_Angeles:20260421T090000
 SUMMARY:Pioneer Community Center: Zumba
 DESCRIPTION:Category: Social Activities\nCost: Most services free or low-co
  st\nAddress: 615 5th Street\, Oregon City\, OR 97045\nPhone: 503-657-8287\
@@ -180,9 +180,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8e93e04951e560a1@portlandresources.org
-DTSTAMP:20260331T001914Z
-DTSTART;TZID=America/Los_Angeles:20260402T123000
-DTEND;TZID=America/Los_Angeles:20260402T140000
+DTSTAMP:20260415T072244Z
+DTSTART;TZID=America/Los_Angeles:20260416T123000
+DTEND;TZID=America/Los_Angeles:20260416T140000
 SUMMARY:Pioneer Community Center: Bingo
 DESCRIPTION:Category: Social Activities\nCost: Most services free or low-co
  st\nInfo: Cards available for purchase starting at noon. Cards just 25 cen
@@ -201,9 +201,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ae8681a502d94534@portlandresources.org
-DTSTAMP:20260331T001914Z
-DTSTART;TZID=America/Los_Angeles:20260404T120000
-DTEND;TZID=America/Los_Angeles:20260404T150000
+DTSTAMP:20260415T072244Z
+DTSTART;TZID=America/Los_Angeles:20260418T120000
+DTEND;TZID=America/Los_Angeles:20260418T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
 DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
   and most workshops are free. Bring broken items to be repaired by volunte

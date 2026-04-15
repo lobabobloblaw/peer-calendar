@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-31T00:19:14.295306",
+  "generated": "2026-04-15T07:22:44.624083",
   "count": 269,
   "categories": {
     "peer_support": "Peer Support",
@@ -3489,7 +3489,11 @@
           "location": "Foster Food Carts (SE Foster Rd & SE 52nd Ave)",
           "audience": []
         },
-        "Friday Night Ride",
+        {
+          "name": "Friday Night Ride",
+          "schedule": "Every Friday (check shift2bikes.org/calendar for meeting point)",
+          "audience": []
+        },
         {
           "name": "Midnight Mystery Ride",
           "schedule": "2nd Friday of each month",
@@ -4548,7 +4552,7 @@
       "resource_type": "program",
       "programs": [],
       "dates": null,
-      "schedule": "Regular weekend bird walks (check Meetup for dates)",
+      "schedule": "Multiple walks per week (check Meetup for dates)",
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
@@ -4589,7 +4593,7 @@
       "resource_type": "program",
       "programs": [],
       "dates": null,
-      "schedule": "Regular walks (check website for dates)",
+      "schedule": "Every Saturday 9:30am-noon (10am-noon in winter months)",
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
@@ -4602,9 +4606,12 @@
         "outdoor",
         "low_energy"
       ],
-      "audience": [],
-      "audience_notes": null,
-      "notes": "Meditative slow-paced bird walks perfect for those seeking calm outdoor connection",
+      "audience": [
+        "women",
+        "trans_nonbinary"
+      ],
+      "audience_notes": "Welcoming space specifically for women, trans, and non-binary people",
+      "notes": "Meditative slow-paced bird walks perfect for those seeking calm outdoor connection. Welcoming space for women, trans, and non-binary people.",
       "practical_tips": "Meditative, slow-paced bird walks (1-2 miles) on paved and dirt paths. No RSVP required. Extra binoculars available. Designed to be calming and accessible."
     },
     {
@@ -4726,7 +4733,7 @@
       "category": "fitness_wellness",
       "categoryName": "Fitness & Wellness",
       "color": "#32CD32",
-      "address": "Portland Shambhala Center (check Meetup for location)",
+      "address": "TaborSpace, 5441 SE Belmont St, Portland, OR 97215",
       "latitude": null,
       "longitude": null,
       "phone": null,
@@ -4742,7 +4749,7 @@
       "resource_type": "program",
       "programs": [],
       "dates": null,
-      "schedule": "Regular meetings (check Meetup for dates)",
+      "schedule": "Mondays & Fridays 6:30-7:25pm",
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
@@ -4759,7 +4766,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": "Meditation plus talking circle - good for those wanting both practice and connection",
-      "practical_tips": "Partnership between Portland Shambhala Center and Young Meditators Group. 20 minutes silent meditation followed by talking circle. All traditions welcome. Good for connecting with others."
+      "practical_tips": "Meetings now held at TaborSpace in SE Portland (moved from Portland Shambhala Center). 30 minutes silent meditation followed by meditative talking circle and social time. All traditions welcome. Good for connecting with others."
     },
     {
       "id": "mazamas-street-rambles",
@@ -7204,14 +7211,14 @@
       "category": "events",
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
-      "address": null,
+      "address": "Tom McCall Waterfront Park, 98 SW Naito Pkwy, Portland, OR 97204",
       "latitude": null,
       "longitude": null,
       "phone": null,
       "email": null,
       "website": "https://www.rosefestival.org/",
       "pricing": {
-        "description": "Multiple free events"
+        "description": "Multiple free events; CityFair admission varies"
       },
       "hours": null,
       "eligibility": null,
@@ -8812,7 +8819,6 @@
       "hours": null,
       "eligibility": "Open to the public",
       "features": [
-        "18 films from 16 countries",
         "Visiting filmmakers and guest speakers",
         "After-film discussions",
         "Women Filmmakers Week",
@@ -8825,7 +8831,7 @@
       "location_type": "physical",
       "resource_type": "event",
       "programs": [],
-      "dates": "February 6 - March 7, 2026",
+      "dates": null,
       "schedule": null,
       "schedule_start_date": null,
       "schedule_end_date": null,
@@ -8842,7 +8848,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Free 5-week celebration of African cinema during Black History Month. 36 years running. Community discussions after films.",
+      "notes": "Free annual celebration of African cinema during Black History Month (typically February through early March). 36+ years running. Community discussions after films. 2026 festival (36th) ran February 6 - March 7. 2027 dates TBD (typically announced in January).",
       "practical_tips": {
         "first_visit": "Check schedule online - different films each weekend",
         "registration": null,
@@ -13318,28 +13324,28 @@
       "resource_type": "organization",
       "programs": [
         {
-          "name": "Connecting Through Loss (Grief Support)",
-          "schedule": "Contact for current schedule",
+          "name": "Conversations on Aging",
+          "schedule": "Last Wednesday of each month, 12:30-2pm",
           "format": "In-person",
-          "notes": "Grief support group for older adults processing loss",
+          "notes": "Support group for older adults navigating challenges of aging. Registration required; donations appreciated.",
           "audience": [
             "seniors"
           ]
         },
         {
-          "name": "Family Caregivers Group",
-          "schedule": "Contact for current schedule",
+          "name": "Family Caregivers Support Group",
+          "schedule": "2nd Monday of each month, 1-2pm",
           "format": "In-person",
-          "notes": "Support for adults 55+ caring for family members",
+          "notes": "Support for family caregivers, including grandparents or older relatives raising children. Learn resources and coping techniques for self-care while caregiving.",
           "audience": [
-            "seniors"
+            "children"
           ]
         },
         {
-          "name": "Memory Loss Support Group",
-          "schedule": "Contact for current schedule",
+          "name": "Memory Cafe",
+          "schedule": "4th Thursday of each month, 11am-12:30pm",
           "format": "In-person",
-          "notes": "Support for those experiencing memory loss",
+          "notes": "Free social gathering with music and refreshments for those with dementia, Alzheimer's, or memory loss, and their families. RSVP requested but drop-ins welcome.",
           "audience": [
             "seniors"
           ]
@@ -13978,10 +13984,12 @@
         "isolation"
       ],
       "audience": [
-        "teens"
+        "lgbtq",
+        "bipoc",
+        "trans_nonbinary"
       ],
       "audience_notes": null,
-      "notes": "Inclusive nonprofit gym focused on serving underrepresented communities. Free weekly BIPOC class plus sliding scale memberships.",
+      "notes": "Inclusive nonprofit gym focused on serving women, BIPOC, LGBTQ+, trans/nonbinary, and larger-bodied individuals. Free weekly BIPOC class plus sliding scale memberships.",
       "practical_tips": {
         "first_visit": "Check website for class schedule and sign up online",
         "registration": "Required - sign up via website",
@@ -14050,7 +14058,7 @@
       "email": null,
       "website": "https://thepeoplesyoga.org",
       "pricing": {
-        "description": "Scholarship memberships available ($40 contribution with fund covering remainder); free/by-donation classes with teacher trainees"
+        "description": "Scholarship memberships available (income-based, renewed every 3 months); regular memberships $65-85/month ($65 digital, $75 for 5 classes/month, $85 unlimited); $45 new student 30-day unlimited; drop-in $18 / livestream $12. $5 of each monthly fee supports community scholarship fund. Free/by-donation classes with teacher trainees also available."
       },
       "hours": "Two locations: NE (3014 NE Killingsworth) and SE (4029 SE Hawthorne). 90+ classes/week. Check thepeoplesyoga.org/schedule for times.",
       "eligibility": "Income verification required for scholarship; renewed every 3 months",
@@ -14093,7 +14101,7 @@
       "latitude": null,
       "longitude": null,
       "phone": null,
-      "email": null,
+      "email": "fatgirlshikingportland@gmail.com",
       "website": "https://fatgirlshiking.com/portland-or/",
       "pricing": {
         "description": "FREE"
@@ -14151,7 +14159,21 @@
       "resource_type": "organization",
       "programs": [
         {
-          "name": "Kayaking",
+          "name": "Wheelchair Basketball",
+          "format": "In-person",
+          "audience": [
+            "children"
+          ]
+        },
+        {
+          "name": "Wheelchair Rugby",
+          "format": "In-person",
+          "audience": [
+            "children"
+          ]
+        },
+        {
+          "name": "Wheelchair Racing",
           "format": "In-person",
           "audience": [
             "children"
@@ -14172,7 +14194,22 @@
           ]
         },
         {
-          "name": "Wheelchair Rugby",
+          "name": "Kayaking",
+          "format": "In-person",
+          "audience": [
+            "children"
+          ]
+        },
+        {
+          "name": "Goalball",
+          "format": "In-person",
+          "notes": "Sport designed for athletes with visual impairments",
+          "audience": [
+            "children"
+          ]
+        },
+        {
+          "name": "Archery",
           "format": "In-person",
           "audience": [
             "children"
@@ -14196,7 +14233,7 @@
         "children"
       ],
       "audience_notes": null,
-      "notes": "Premier adaptive sports organization in the region. Paralympic Sport Club recognized by Team USA.",
+      "notes": "Premier adaptive sports organization in the region. Serves children and adults with physical disabilities or visual impairments across Oregon and SW Washington since 1982. Paralympic Sport Club recognized by Team USA.",
       "practical_tips": {
         "first_visit": "Contact via email or website to learn about programs",
         "registration": "Membership required",

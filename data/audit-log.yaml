@@ -3887,3 +3887,194 @@
     - id: clackamas-county-repair-fairs
       status: updated
       changes: "Expanded from single West Linn event to full Clackamas County repair fair series (9 events across county through Sep 2026). Updated ID, name, website, and all dates."
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAMI Multnomah"
+  entries_audited: 1
+  entries:
+    - id: nami-multnomah
+      status: verified
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - Behavioral Health Resource Center"
+  entries_audited: 1
+  entries:
+    - id: bhrc
+      status: verified
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - DBSA Portland (Depression Bipolar Support Alliance)"
+  entries_audited: 1
+  entries:
+    - id: dbsa-portland
+      status: verified
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Hearing Voices"
+  entries_audited: 1
+  entries:
+    - id: portland-hearing-voices
+      status: verified
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - TeenForce Program"
+  entries_audited: 1
+  entries:
+    - id: teenforce-portland
+      status: verified
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - Spring Garden Fair"
+  entries_audited: 1
+  entries:
+    - id: spring-garden-fair
+      status: verified
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Bird Watching Meetup (Birding for the People)"
+  entries_audited: 1
+  entries:
+    - id: portland-bird-watching-meetup
+      status: verified
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - Fat Girls Hiking Portland"
+  entries_audited: 1
+  entries:
+    - id: fat-girls-hiking-portland
+      status: updated
+      changes: "Added organizer email (fatgirlshikingportland@gmail.com) and events page URL as second source"
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - Birdhers"
+  entries_audited: 1
+  entries:
+    - id: birdhers
+      status: updated
+      changes: "Confirmed schedule as every Saturday 9:30am-noon (10am winter); added audience tags for women and trans/nonbinary per website's stated focus"
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - Prism Moves"
+  entries_audited: 1
+  entries:
+    - id: prism-moves
+      status: updated
+      changes: "Replaced incorrect audience tag (teens) with accurate tags (lgbtq, bipoc, trans_nonbinary); updated notes to reflect inclusive mission. Address flagged for verification (website homepage/Yelp show 18 N Shaver St, but contact page still shows 4515 NE MLK Jr Blvd)"
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - Decompress + Connect Meditation Group"
+  entries_audited: 1
+  entries:
+    - id: decompress-connect-meditation
+      status: updated
+      changes: "Group moved from Portland Shambhala Center to TaborSpace (5441 SE Belmont St); confirmed active recurring schedule (Mondays and Fridays 6:30-7:25pm); group is very active with 2725 members, 4.9 stars"
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - Community for Positive Aging"
+  entries_audited: 1
+  entries:
+    - id: community-positive-aging-support-groups
+      status: updated
+      changes: "Replaced stale program list with current offerings: Memory Cafe (4th Thursday 11am-12:30pm), Family Caregivers Support Group (2nd Monday 1-2pm), Conversations on Aging (Last Wednesday 12:30-2pm). Removed Connecting Through Loss (no longer offered) and Memory Loss Support Group (replaced by Memory Cafe)"
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - The People's Yoga"
+  entries_audited: 1
+  entries:
+    - id: peoples-yoga
+      status: updated
+      changes: "Updated pricing to reflect current tiered rates ($65-85/mo memberships, $45 new student 30-day, $18 drop-in) and scholarship fund structure ($5/mo of each membership supports community scholarships)"
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - Cascade Festival of African Films"
+  entries_audited: 1
+  entries:
+    - id: cascade-festival-african-films
+      status: updated
+      changes: "2026 festival (36th) concluded March 7, 2026. Removed stale 'dates' field; pushed next_audit to 2027-01-15 when 2027 dates typically announced. Updated notes to reflect annual pattern"
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Rose Festival"
+  entries_audited: 1
+  entries:
+    - id: portland-rose-festival
+      status: updated
+      changes: "2026 structural change: former Grand Floral Parade and Starlight Parade merged into single CareOregon Grand Floral Starlight Parade. Added Junior Parade, CityFair, Queen's Coronation events. Updated address to Tom McCall Waterfront Park"
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Parks Fitness in the Park"
+  entries_audited: 1
+  entries:
+    - id: ppr-fitness-in-park
+      status: updated
+      changes: "Updated for 2026 season: spring phase starts May 4, 2026 at Irving Park only (was listed as 3 parks); Summer Free For All runs June 22 - September 27, 2026 at 9 locations (updated list: Columbia Park and Annex, Gabriel Community Garden, Irving, Kenton, Laurelhurst, Lents, Parklane, Rose City, Spring Garden)"
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - Shift to Bikes"
+  entries_audited: 1
+  entries:
+    - id: shift-to-bikes
+      status: updated
+      changes: "Fixed malformed YAML entry for Friday Night Ride (was bare string inside programs list, now structured entry with name and schedule)"
+
+---
+- date: 2026-04-15
+  type: audit
+  auditor: user
+  summary: "Audit completed - Adaptive Sports Northwest"
+  entries_audited: 1
+  entries:
+    - id: adaptive-sports-northwest
+      status: updated
+      changes: "Expanded programs list from 4 to 9 sports (added Wheelchair Basketball, Wheelchair Racing, Goalball, Archery); removed incorrect children-only audience tag since serves both children and adults per mission"

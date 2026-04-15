@@ -943,8 +943,8 @@
     schedule: Every Tuesday, 7-8:30pm
     format: Zoom
     eligibility: Those experiencing complex trauma and/or dissociation
-  last_verified: 2026-03-03
-  next_audit: 2026-04-03
+  last_verified: 2026-04-15
+  next_audit: 2026-05-15
   audit_frequency: monthly
   practical_tips:
     first_visit: Just show up to any meeting - no pre-registration needed for most groups
@@ -1273,8 +1273,8 @@
   bridge_housing:
     beds: 19
     stay_length: 90 days average
-  last_verified: 2026-03-07
-  next_audit: 2026-04-07
+  last_verified: 2026-04-15
+  next_audit: 2026-05-15
   audit_frequency: monthly
   practical_tips:
     first_visit: Get a ticket from the outreach van at NW Broadway & Glisan (6am-2pm) to access day center
@@ -1331,8 +1331,8 @@
     notes: For mental healthcare professionals or trainees. Peer support in a confidential space.
   eligibility: Open to all adults with any mental health condition (depression, bipolar, anxiety, PTSD, ADHD, etc.)
   member_liaison: dbsaportlandmemberliaison@gmail.com
-  last_verified: 2026-03-03
-  next_audit: 2026-04-03
+  last_verified: 2026-04-15
+  next_audit: 2026-05-15
   audit_frequency: monthly
   practical_tips:
     first_visit: Just join any Zoom meeting - drop-in, no registration needed
@@ -2708,15 +2708,16 @@
   - name: Foster Night Ride
     schedule: Every other Tuesday
     location: Foster Food Carts (SE Foster Rd & SE 52nd Ave)
-  - Friday Night Ride
+  - name: Friday Night Ride
+    schedule: Every Friday (check shift2bikes.org/calendar for meeting point)
   - name: Midnight Mystery Ride
     schedule: 2nd Friday of each month
     notes: Meet ~11pm, depart at midnight to a secret location. Meeting point kept secret until day of event.
   - name: Bike Summer (Pedalpalooza)
     schedule: June-August
     notes: Hundreds of free community rides
-  last_verified: 2026-03-07
-  next_audit: 2026-04-07
+  last_verified: 2026-04-15
+  next_audit: 2026-05-15
   audit_frequency: monthly
   practical_tips:
     first_visit: Check shift2bikes.org/calendar for current rides. Most list meeting location, time, and pace.
@@ -3441,21 +3442,28 @@
   - https://www.portland.gov/parks/recreation/fitness-park
   pricing:
     description: FREE
-  season: May-August (Summer Free For All)
+  season: 'May-September 2026 (Spring phase starts May 4; Summer Free For All runs June 22 - September 27)'
   locations:
     spring:
     - Irving Park
-    - Ventura Park
-    - Mt. Scott Park
-    summer: Expands to 8 locations starting late June
+    summer:
+    - Columbia Park and Annex
+    - Gabriel Community Garden and Orchard
+    - Irving Park
+    - Kenton Park
+    - Laurelhurst Park
+    - Lents Park
+    - Parklane Park
+    - Rose City Park
+    - Spring Garden Park
   class_types:
   - Yoga
   - Zumba
   - Cardio
   - Strength training
   eligibility: Ages 14+
-  last_verified: 2025-12-02
-  next_audit: 2026-04-01
+  last_verified: 2026-04-15
+  next_audit: 2027-04-15
   audit_frequency: annually
   practical_tips:
     first_visit: Check website for current schedule and locations
@@ -3554,9 +3562,9 @@
   - https://www.meetup.com/portland-bird-watching-meetup-group/
   pricing:
     description: FREE
-  schedule: Regular weekend bird walks (check Meetup for dates)
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  schedule: Multiple walks per week (check Meetup for dates)
+  last_verified: 2026-04-15
+  next_audit: 2026-07-15
   audit_frequency: quarterly
   practical_tips: Inclusive, beginner-friendly birding walks. Relaxed pace focused on learning together. No experience or
     gear required - free loaner binoculars available. Great gentle outdoor activity for mental wellness.
@@ -3583,9 +3591,9 @@
   - https://birdhers.com/
   pricing:
     description: FREE
-  schedule: Regular walks (check website for dates)
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  schedule: Every Saturday 9:30am-noon (10am-noon in winter months)
+  last_verified: 2026-04-15
+  next_audit: 2026-07-15
   audit_frequency: quarterly
   practical_tips: Meditative, slow-paced bird walks (1-2 miles) on paved and dirt paths. No RSVP required. Extra binoculars
     available. Designed to be calming and accessible.
@@ -3596,8 +3604,12 @@
   - anxiety_friendly
   - outdoor
   - low_energy
+  audience:
+  - women
+  - trans_nonbinary
+  audience_notes: Welcoming space specifically for women, trans, and non-binary people
   guide_location: activities-guide-1.md#nature-activities
-  notes: Meditative slow-paced bird walks perfect for those seeking calm outdoor connection
+  notes: Meditative slow-paced bird walks perfect for those seeking calm outdoor connection. Welcoming space for women, trans, and non-binary people.
 - id: tergar-meditation-portland
   name: Tergar Meditation Community of Portland
   category: fitness_wellness
@@ -3678,19 +3690,19 @@
   category: fitness_wellness
   location_type: physical
   resource_type: program
-  address: Portland Shambhala Center (check Meetup for location)
+  address: TaborSpace, 5441 SE Belmont St, Portland, OR 97215
   phone: null
   website: https://www.meetup.com/portlandyoungmeditators/
   source_urls:
   - https://www.meetup.com/portlandyoungmeditators/
   pricing:
     description: FREE
-  schedule: Regular meetings (check Meetup for dates)
-  last_verified: 2026-01-19
-  next_audit: 2026-04-19
+  schedule: Mondays & Fridays 6:30-7:25pm
+  last_verified: 2026-04-15
+  next_audit: 2026-07-15
   audit_frequency: quarterly
-  practical_tips: Partnership between Portland Shambhala Center and Young Meditators Group. 20 minutes silent meditation followed
-    by talking circle. All traditions welcome. Good for connecting with others.
+  practical_tips: Meetings now held at TaborSpace in SE Portland (moved from Portland Shambhala Center). 30 minutes silent meditation followed
+    by meditative talking circle and social time. All traditions welcome. Good for connecting with others.
   accessibility:
   - transit_nearby
   social_intensity: casual_group
@@ -5576,26 +5588,35 @@
   category: events
   location_type: physical
   resource_type: event
-  address: null
+  address: Tom McCall Waterfront Park, 98 SW Naito Pkwy, Portland, OR 97204
   phone: null
   website: https://www.rosefestival.org/
   source_urls:
   - https://www.rosefestival.org/
+  - https://www.rosefestival.org/events/2026
   pricing:
-    description: Multiple free events
+    description: Multiple free events; CityFair admission varies
   dates: May 22 - June 28, 2026
   events:
-  - name: Grand Floral Parade
-    notes: Free along parade route; 2nd largest all-floral parade in US
-  - name: Starlight Parade
+  - name: CareOregon Grand Floral Starlight Parade
+    notes: 'New for 2026: combines the former Grand Floral Parade and Starlight Parade into a single event. Free along parade
+      route.'
+  - name: Junior Parade
+    notes: Free community parade
   - name: Fleet Week ship tours
     location: Waterfront Park
+    notes: Free public tours of Navy vessels
   - name: Dragon Boat Races
     dates: June 6-7, 2026
     location: South Hawthorne Waterfront Park
     notes: Free viewing from waterfront
-  last_verified: 2025-12-02
-  next_audit: 2026-04-01
+  - name: CityFair
+    location: Tom McCall Waterfront Park
+    notes: Carnival rides, food, live music; check website for admission
+  - name: Queen's Coronation
+    dates: June 28, 2026
+  last_verified: 2026-04-15
+  next_audit: 2027-04-15
   audit_frequency: annually
   practical_tips:
     first_visit: Grand Floral Parade is free along the route - stake out a spot early on downtown streets
@@ -6118,8 +6139,8 @@
     description: $7 one-day / $12 two-day; Kids under 16 FREE
   dates: May 2-3, 2026
   hours: Sat 9am-5pm, Sun 9am-4pm
-  last_verified: 2026-01-24
-  next_audit: 2026-04-01
+  last_verified: 2026-04-15
+  next_audit: 2027-04-15
   notes: Free parking and free soil pH testing with admission.
   audit_frequency: annually
   practical_tips:
@@ -6838,9 +6859,7 @@
   pricing:
     description: FREE - all screenings free to public
     notes: Oldest and longest-running African film festival in the US
-  dates: February 6 - March 7, 2026
   features:
-  - 18 films from 16 countries
   - Visiting filmmakers and guest speakers
   - After-film discussions
   - Women Filmmakers Week
@@ -6855,11 +6874,12 @@
   - name: PCC Cascade Campus
     address: 705 N Killingsworth St, Portland, OR 97217
   eligibility: Open to the public
-  last_verified: 2026-03-07
-  next_audit: 2026-04-07
-  notes: Free 5-week celebration of African cinema during Black History Month. 36 years running. Community discussions after
-    films.
-  audit_frequency: monthly
+  last_verified: 2026-04-15
+  next_audit: 2027-01-15
+  notes: Free annual celebration of African cinema during Black History Month (typically February through early March).
+    36+ years running. Community discussions after films. 2026 festival (36th) ran February 6 - March 7. 2027 dates TBD (typically
+    announced in January).
+  audit_frequency: annually
   practical_tips:
     first_visit: Check schedule online - different films each weekend
     registration: null
@@ -10390,20 +10410,20 @@
     description: FREE
   eligibility: Adults 55+
   programs:
-  - name: Connecting Through Loss (Grief Support)
-    schedule: Contact for current schedule
+  - name: Conversations on Aging
+    schedule: Last Wednesday of each month, 12:30-2pm
     format: In-person
-    notes: Grief support group for older adults processing loss
-  - name: Family Caregivers Group
-    schedule: Contact for current schedule
+    notes: Support group for older adults navigating challenges of aging. Registration required; donations appreciated.
+  - name: Family Caregivers Support Group
+    schedule: 2nd Monday of each month, 1-2pm
     format: In-person
-    notes: Support for adults 55+ caring for family members
-  - name: Memory Loss Support Group
-    schedule: Contact for current schedule
+    notes: Support for family caregivers, including grandparents or older relatives raising children. Learn resources and coping techniques for self-care while caregiving.
+  - name: Memory Cafe
+    schedule: 4th Thursday of each month, 11am-12:30pm
     format: In-person
-    notes: Support for those experiencing memory loss
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+    notes: Free social gathering with music and refreshments for those with dementia, Alzheimer's, or memory loss, and their families. RSVP requested but drop-ins welcome.
+  last_verified: 2026-04-15
+  next_audit: 2026-07-15
   audit_frequency: quarterly
   practical_tips:
     first_visit: Call or email to learn about current support groups
@@ -10882,8 +10902,8 @@
     format: In-person
     cost: FREE
     notes: For BIPOC community only
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+  last_verified: 2026-04-15
+  next_audit: 2026-07-15
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check website for class schedule and sign up online
@@ -10901,9 +10921,11 @@
   - active
   - isolation
   audience:
-  - teens
+  - lgbtq
+  - bipoc
+  - trans_nonbinary
   guide_location: activities-guide-1.md#fitness-centers
-  notes: Inclusive nonprofit gym focused on serving underrepresented communities. Free weekly BIPOC class plus sliding scale
+  notes: Inclusive nonprofit gym focused on serving women, BIPOC, LGBTQ+, trans/nonbinary, and larger-bodied individuals. Free weekly BIPOC class plus sliding scale
     memberships.
   latitude: 45.555714
   longitude: -122.661657
@@ -10958,13 +10980,14 @@
   source_urls:
   - https://thepeoplesyoga.org
   pricing:
-    description: Scholarship memberships available ($40 contribution with fund covering remainder); free/by-donation classes
-      with teacher trainees
+    description: Scholarship memberships available (income-based, renewed every 3 months); regular memberships $65-85/month
+      ($65 digital, $75 for 5 classes/month, $85 unlimited); $45 new student 30-day unlimited; drop-in $18 / livestream $12.
+      $5 of each monthly fee supports community scholarship fund. Free/by-donation classes with teacher trainees also available.
   eligibility: Income verification required for scholarship; renewed every 3 months
   latitude: 45.562498
   longitude: -122.634555
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+  last_verified: 2026-04-15
+  next_audit: 2026-07-15
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check website for scholarship application and class schedule
@@ -10989,14 +11012,16 @@
   resource_type: program
   address: Various hiking locations
   phone: null
+  email: fatgirlshikingportland@gmail.com
   website: https://fatgirlshiking.com/portland-or/
   source_urls:
   - https://fatgirlshiking.com/portland-or/
+  - https://fatgirlshiking.com/events/
   pricing:
     description: FREE
   eligibility: Open to all - fat-positive, inclusive community
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+  last_verified: 2026-04-15
+  next_audit: 2026-07-15
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check website or social media for upcoming hike schedule
@@ -11029,16 +11054,25 @@
     description: Membership required
   eligibility: Anyone with physical or visual disabilities
   programs:
-  - name: Kayaking
+  - name: Wheelchair Basketball
+    format: In-person
+  - name: Wheelchair Rugby
+    format: In-person
+  - name: Wheelchair Racing
     format: In-person
   - name: Power Soccer
     format: In-person
   - name: Swimming
     format: In-person
-  - name: Wheelchair Rugby
+  - name: Kayaking
     format: In-person
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+  - name: Goalball
+    format: In-person
+    notes: Sport designed for athletes with visual impairments
+  - name: Archery
+    format: In-person
+  last_verified: 2026-04-15
+  next_audit: 2026-07-15
   audit_frequency: quarterly
   practical_tips:
     first_visit: Contact via email or website to learn about programs
@@ -11053,9 +11087,8 @@
   - active
   - isolation
   guide_location: activities-guide-1.md#adaptive-recreation
-  audience:
-  - children
-  notes: Premier adaptive sports organization in the region. Paralympic Sport Club recognized by Team USA.
+  notes: Premier adaptive sports organization in the region. Serves children and adults with physical disabilities or visual
+    impairments across Oregon and SW Washington since 1982. Paralympic Sport Club recognized by Team USA.
   latitude: 45.515372
   longitude: -122.554483
 - id: every-body-athletics
@@ -11177,8 +11210,8 @@
   pricing:
     description: FREE
   eligibility: Ages 10-20
-  last_verified: 2026-01-17
-  next_audit: 2026-04-17
+  last_verified: 2026-04-15
+  next_audit: 2026-07-15
   audit_frequency: quarterly
   practical_tips:
     first_visit: Visit any participating community center with ID
@@ -11222,8 +11255,8 @@
     schedule: (Possibly) Mondays 12:30-1:30pm PST; (Possibly) Wednesdays 12:30-2pm PST
     format: Virtual (Zoom)
     notes: Online groups marked as '(Possibly)' on website - may be intermittent. Check website for current status.
-  last_verified: 2026-03-04
-  next_audit: 2026-04-04
+  last_verified: 2026-04-15
+  next_audit: 2026-05-15
   audit_frequency: monthly
   practical_tips:
     first_visit: In-person group is at the Behavioral Health Resource Center downtown. Just show up - no registration needed.

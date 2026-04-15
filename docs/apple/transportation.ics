@@ -26,9 +26,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:eef9922f03c2cfbe@portlandresources.org
-DTSTAMP:20260331T001914Z
-DTSTART;TZID=America/Los_Angeles:20260406T063000
-DTEND;TZID=America/Los_Angeles:20260406T213000
+DTSTAMP:20260415T072244Z
+DTSTART;TZID=America/Los_Angeles:20260420T063000
+DTEND;TZID=America/Los_Angeles:20260420T213000
 SUMMARY:SPOT Southwest (Free On-Demand Transit)
 DESCRIPTION:Category: Transportation\nCost: FREE\nPhone: 503-907-7768\nWebs
  ite: https://catchthespot.org/\nDetails: Washington County free on-demand 
