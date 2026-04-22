@@ -4078,3 +4078,136 @@
     - id: adaptive-sports-northwest
       status: updated
       changes: "Expanded programs list from 4 to 9 sports (added Wheelchair Basketball, Wheelchair Racing, Goalball, Archery); removed incorrect children-only audience tag since serves both children and adults per mission"
+
+---
+- date: 2026-04-22
+  type: audit
+  auditor: claude
+  summary: "Monthly audit - 6 entries (4 peer support/fitness, 2 social activities)"
+  entries_audited: 6
+  entries:
+    - id: folktime
+      status: updated
+      changes: "Oregon City location moved to 710 6th Street (was 150 Beavercreek Rd). Oregon City hours reduced to Tuesday 10am-2pm only (was Mon-Fri 8:30am-4:30pm). General phone updated to 503-238-6428. Added NE Portland phone 503-206-5370. Added online support groups via Zoom."
+    - id: nami-clackamas
+      status: updated
+      changes: "Creative Support Group renamed to Art with Heart. Added Suicide Bereavement schedule (Online 1st Tue, 2nd/4th Wed; In-person 4th Sun). Added 3 new groups: Post Release (Happy Valley), Gather for Games (virtual), Compassionate Friends (affiliated grief). BIPOC group flagged for phone verification — not visible on website."
+    - id: northstar-clubhouse
+      status: verified
+      changes: "No changes found. Address, phone, hours, services all confirmed."
+    - id: lloyd-center-walking
+      status: updated
+      changes: "Fixed internal distance inconsistency (was 3.5 miles in tips, corrected to 5K/3.1 miles). Added 3rd floor meeting location. Lloyd Center still operating, no closure date announced."
+    - id: repair-pdx
+      status: verified
+      changes: "Confirmed still at Leaven Community Center. Added phone 503-893-9656. Events page uses dynamic content; 2nd Saturday monthly Repair Café schedule confirmed."
+    - id: clackamas-county-repair-fairs
+      status: updated
+      changes: "Marked Gladstone (Apr 4) and Happy Valley (Apr 18) as past. Added new Sandy Repair Fair on June 13, 2026 (venue TBD). Lake Oswego and Wilsonville dates confirmed."
+
+---
+- date: 2026-04-22
+  type: audit
+  auditor: claude
+  summary: "Quarterly audit - 38 entries across 7 categories"
+  entries_audited: 38
+  entries:
+    - id: sisters-of-the-road
+      status: updated
+      changes: "Cafe TEMPORARILY CLOSED - seeking new permanent location. No reopening date announced. Updated hours field and added VERIFY flag."
+    - id: snowcap-garden
+      status: updated
+      changes: "Organization rebranded from SnowCap Community Charities to SnowCap Community Services. Updated practical tips and notes."
+    - id: gleaners-clackamas
+      status: updated
+      changes: "Added phone 503-655-8740. Added hours Mon-Fri 8am-3pm. Updated services: members get weekly groceries (was every 2 weeks). Added Surplus Day, Field Picks programs. Added 2025 impact stats (3.8M lbs, 615 families, 42 teams)."
+    - id: clackamas-service-center
+      status: updated
+      changes: "Noted active Save the Food Hub fundraising campaign."
+    - id: five-oaks-museum
+      status: updated
+      changes: "Confirmed permanently closed. Changed audit_frequency to closed (no further audits needed)."
+    - id: thprd-financial-aid
+      status: verified
+      changes: "Program confirmed active. Spring 2026 at capacity. Realigning with fiscal year starting July 1, 2026."
+    - id: solve-oregon
+      status: verified
+      changes: "Confirmed active. Oregon Spring Cleanup running April 2026."
+    - id: oregon-food-bank-volunteer
+      status: verified
+      changes: "Confirmed accepting volunteers at Portland and Beaverton locations."
+    - id: ppr-access-discount
+      status: verified
+      changes: "Program confirmed active. 4-tier discount (25-90%) with no income verification."
+    - id: arts-for-all
+      status: verified
+      changes: "Program confirmed active at 100+ venues. $5 tickets for Oregon Trail Card holders."
+    - id: oregon-jewish-museum
+      status: verified
+      changes: "Hours, admission, free first Sunday all confirmed. SNAP/WIC free admission confirmed."
+    - id: oregon-rail-heritage
+      status: verified
+      changes: "Hours and admission confirmed. URL updated from /visit-orhc/ to /visit-us/."
+    - id: artichoke-music
+      status: verified
+      changes: "Confirmed operating since 1973. Address and phone confirmed."
+    - id: pcc-art-galleries
+      status: verified
+      changes: "Three galleries confirmed open. Southeast Gallery still on pause."
+    - id: new-narrative-comfort-zone
+      status: verified
+      changes: "Confirmed active with daily programming including art, crochet, outings."
+    - id: ncprd-scholarship
+      status: verified
+      changes: "25-75% fee coverage confirmed. Max 3 scholarships per person annually."
+    - id: hands-on-greater-portland
+      status: verified
+      changes: "Organization active but project calendar was empty at time of check."
+    - id: outgrowing-hunger
+      status: verified
+    - id: urban-gleaners
+      status: verified
+    - id: pdx-free-fridge
+      status: verified
+    - id: meals-on-wheels-people
+      status: verified
+      changes: "Website returned 403 - stable program, no changes expected."
+    - id: mhcc-visual-arts-gallery
+      status: verified
+      changes: "Website returned 403 - verify at next audit."
+    - id: laurelthirst-pub
+      status: verified
+    - id: matt-dishman-cc
+      status: verified
+    - id: pier-park-disc-golf
+      status: verified
+    - id: yoga-on-yamhill
+      status: verified
+    - id: ymca-columbia-willamette
+      status: verified
+    - id: charles-jordan-cc
+      status: verified
+    - id: gresham-splash-pads
+      status: verified
+    - id: write-around-portland
+      status: verified
+    - id: friends-of-trees
+      status: verified
+      changes: "Website returned 403 - organization presumed active."
+    - id: multnomah-arts-center
+      status: verified
+    - id: lake-oswego-acc
+      status: verified
+    - id: clackamas-adrc
+      status: verified
+    - id: tigard-senior-center
+      status: verified
+    - id: community-positive-aging
+      status: verified
+      changes: "Previously audited April 15 with program updates. Dates refreshed."
+    - id: lake-oswego-parks-scholarship
+      status: verified
+    - id: tualatin-recreation-scholarship
+      status: verified
+    - id: mhcc-senior-tuition
+      status: verified

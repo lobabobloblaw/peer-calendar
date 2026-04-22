@@ -13,8 +13,8 @@
     description: 25%, 50%, 75%, or 90% off all programs
     notes: No proof of income required - self-select discount level
   eligibility: Portland residents, any income level
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Register online at portland.gov/parks - no office visit needed
@@ -47,8 +47,8 @@
     description: $5 tickets at 100+ cultural organizations
     notes: Present Oregon Trail Card at venue
   eligibility: Oregon Trail Card (SNAP/EBT) holders
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just show your Oregon Trail Card at the ticket window - no pre-registration needed
@@ -122,8 +122,8 @@
     submit_via: Email, mail, or in-person at any THPRD facility
     processing_time: 10 business days
     languages: English and Spanish applications available
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Submit application online, by email, or in-person at any THPRD facility before registering for programs
@@ -456,8 +456,8 @@
   - Aquatic Park programs
   - Youth programs
   - Fitness classes
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Contact Recreation Services at 503-794-8080 or email recreation@ncprd.com to request an application
@@ -501,8 +501,8 @@
   - Enrichment programs
   application:
     valid_period: July 1 - June 30 fiscal year
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Call 503-675-2549 to request a scholarship application
@@ -540,8 +540,8 @@
   covered_programs:
   - Recreation programs
   - Summer camps
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Email info@tualatintogether.org to request scholarship application and information
@@ -579,8 +579,8 @@
     age_65_plus: FREE tuition for up to 8 credits (audit) for Oregon residents 65+
     notes: Fees not included in discount
   eligibility: Oregon residents 62+ (discount) or 65+ (free audit)
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Contact admissions to learn about enrollment process
@@ -989,10 +989,10 @@
     format: Virtual (Zoom)
     notes: For anyone who cares about someone with mental health condition. ⚠️ VERIFY schedule by phone (sourced from NAMI
       Oregon directory)
-  - name: Creative Support Group
+  - name: Art with Heart (Creative Support Group)
     schedule: 2nd & 4th Thursdays
     location: Oregon City (in-person, address provided upon registration)
-    notes: Creative arts peer support group. Started January 2026.
+    notes: Creative arts peer support group. Started January 2026. Listed as "Art with Heart" on website.
   - name: NAMI Clackamas Conexion (Spanish-Speaking Support Group)
     schedule: Every Wednesday, 7-8:30pm
     format: Virtual (Zoom)
@@ -1010,18 +1010,33 @@
     format: Virtual (Zoom)
     audience:
     - bipoc
-    notes: Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIFY by phone before publishing
+    notes: Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIFY by phone — not visible on namicc.org support groups page as of April 2026. Call 503-344-5050 to confirm still active.
   - name: Suicide Bereavement Support Group
-    notes: Hosted by NAMI Clackamas for those bereaved by suicide. ⚠️ VERIFY schedule by phone (not found online)
-  last_verified: 2026-03-24
-  next_audit: 2026-04-24
+    schedule: Online 1st Tuesday & 2nd/4th Wednesdays; In-person 4th Sunday
+    format: Both virtual and in-person
+    location: In-person at NAMI Clackamas office (10202 SE 32nd Ave, Suite 501, Milwaukie)
+    notes: Affiliated group (vetted but non-NAMI). Support for those bereaved by suicide. No registration required for in-person.
+  - name: Post Release Support Group
+    schedule: Sundays (afternoons, times vary)
+    location: Happy Valley (in-person)
+    notes: For previously incarcerated individuals. Contact NAMI Clackamas for details.
+  - name: Gather for Games
+    format: Virtual (Zoom)
+    notes: Game-based social and wellness gathering. Times vary — register via website.
+  - name: Compassionate Friends
+    schedule: 4th Tuesday, 7pm
+    location: NAMI Clackamas office (10202 SE 32nd Ave, Suite 501, Milwaukie)
+    notes: Affiliated grief support group. No registration required.
+  last_verified: 2026-04-22
+  next_audit: 2026-05-22
   audit_frequency: monthly
   practical_tips:
     first_visit: Call or email to register for your first meeting
     registration: Registration required - call 503-344-5050 or check website
     what_to_bring: Nothing required; virtual groups send Zoom link after registration
-    good_to_know: Spanish-speaking group available. Women's group meets in-person in Milwaukie. New creative support group
-      in Oregon City. All peer-led.
+    good_to_know: Spanish-speaking group available. Women's group meets in-person in Milwaukie. Art with Heart creative group
+      in Oregon City. Post Release group in Happy Valley. Game-based virtual group (Gather for Games). All peer-led. Affiliated
+      groups include Suicide Bereavement and Compassionate Friends (grief).
   accessibility:
   - transit_nearby
   social_intensity: structured_group
@@ -1086,7 +1101,7 @@
   location_type: physical
   resource_type: program
   address: null
-  phone: 503-709-2450
+  phone: 503-238-6428
   email: peerconnection@folktime.org
   website: https://folktime.org
   source_urls:
@@ -1097,11 +1112,16 @@
   locations:
   - name: Free To Be Me (Northeast Portland)
     address: 4837 NE Couch St, Portland
+    phone: 503-206-5370
     hours: Mon, Wed, Thu 10am-2pm
     notes: Collective meal prep - arrive by 11am to eat lunch
-  - name: Oregon City Clinic
-    address: 150 Beavercreek Rd, Ste 400, Oregon City, OR 97045
-    hours: Mon-Fri 8:30am-4:30pm
+  - name: Oregon City
+    address: 710 6th Street, Oregon City, OR
+    hours: Tuesday 10am-2pm
+    notes: Community outings and evening groups also offered - see calendar
+  - name: Online Support Groups
+    format: Virtual (Zoom)
+    notes: See website for Zoom link and schedule
   programs:
   - Drop-in peer support (no referral needed)
   - Yoga, hiking, art classes, gardening
@@ -1116,8 +1136,8 @@
     email: respite@folktime.org
     notes: Non-clinical, peer-led. Guests in self-defined crises stay up to 2 weeks in a home-like environment. Voluntary
       participation; guests may continue working and accessing natural supports.
-  last_verified: 2026-03-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-05-22
   audit_frequency: monthly
   practical_tips:
     first_visit: Attend orientation on 2nd or 3rd Wednesday of any month
@@ -1170,8 +1190,8 @@
   - Nutrition & food prep
   - Social activities
   - Individual goal setting
-  last_verified: 2026-03-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-05-22
   audit_frequency: monthly
   practical_tips:
     first_visit: Orientations are every other Wednesday at 3pm (in-person and on Zoom). Referral from a mental health professional
@@ -1215,8 +1235,8 @@
   - Benefits connection
   - ID acquisition assistance
   - Snacks and activities
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just walk in during open hours - no appointment needed
@@ -1999,8 +2019,8 @@
   - Fitness center
   - Gymnasium
   - Showers
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by the front desk to sign up for a day pass or ask about memberships
@@ -2054,8 +2074,8 @@
   - active
   - anxiety_friendly
   notes: Summer and winter layouts available. Park hours 5am-midnight. One of top disc golf courses in the country.
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   guide_location: activities-guide-2.md#disc-golf-courses
 - id: rockwood-disc-golf
@@ -2163,8 +2183,8 @@
   - low_energy
   notes: Portland's oldest sliding-scale studio since 2010. Located in historic Franz building near MAX Blue Line. Sound bath
     every 2nd Sunday 10-11:30am.
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
   latitude: 45.517071
@@ -2624,9 +2644,9 @@
     first_visit: Meet at Lloyd Center mall entrance, Sundays at 11am. Look for the group in colorful 80s attire!
     registration: None - just show up
     what_to_bring: Comfortable walking shoes. 80s attire encouraged but not required (neon, leg warmers, etc.)
-    good_to_know: 1980s-themed indoor mall walking led by Vera Mysteria. 3.5 mile route (2 laps, ~90 minutes). Rules - pump
-      your arms, wave to passersby, no one walks alone. Post-walk snacks at food court. Groups of 70+ regular attendees. Very
-      welcoming and fun community.
+    good_to_know: 1980s-themed indoor mall walking led by Vera Mysteria. 5K / 3.1 mile route (2 laps, ~90 minutes). Meet at
+      food court on 3rd floor above ice rink. Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks
+      at food court. Groups of 70+ regular attendees. Very welcoming and fun community.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
@@ -2642,10 +2662,10 @@
     attendees. Post-walk snacks at food court.'
   flags:
   - ⚠️ VERIFY - Lloyd Center closing by end of 2026; Portland Design Commission approved demolition/redevelopment master plan.
-    Food Court 5000 still running Sundays as of March 2026 but no relocation plans announced. Add schedule_end_date when closure
+    Food Court 5000 still running Sundays as of April 2026 but no relocation plans announced. Add schedule_end_date when closure
     date is confirmed.
-  last_verified: 2026-03-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-05-22
   audit_frequency: monthly
   guide_location: activities-guide-2.md#mall-walking-programs
   latitude: 45.532573
@@ -2809,8 +2829,8 @@
   - Youth programs
   - Childcare
   - Personal training
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Visit any location for a tour and to learn about membership options and financial assistance
@@ -3115,8 +3135,8 @@
   - Silver Sneakers
   - One Pass
   - Renew Active
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: 'Note: No swimming pool at this location - use East Portland or Mt. Scott for aquatics'
@@ -4277,8 +4297,8 @@
   - indoor
   - low_energy
   notes: Closed Mon-Tue and major holidays including Jewish holidays.
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   guide_location: activities-guide-2.md#museum-free-days
   latitude: 45.524334
@@ -4298,8 +4318,8 @@
   - https://fiveoaksmuseum.org/about/
   pricing:
     description: Was always FREE
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: null
   audit_frequency: annually
   practical_tips: CLOSED as of end of April 2025 due to funding cuts. Collection transferred to Washington County.
   accessibility:
@@ -4350,8 +4370,8 @@
   - indoor
   - low_energy
   notes: Near OMSI by Tilikum Crossing. Since 2012. Locomotives owned by City of Portland.
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   guide_location: activities-guide-2.md#always-free-museums
   latitude: 45.507222
@@ -4636,8 +4656,8 @@
   programs:
   - Open mic nights (check calendar for dates)
   - Affordable music lessons (sliding scale)
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips: Community music school offering affordable lessons. Check their calendar for open mic nights. Sliding scale
     available for lessons. Instruments available to borrow. Welcoming to beginners.
@@ -4784,8 +4804,8 @@
     cost: FREE
     notes: Acoustic, folk, and Americana music. Schedule varies - check laurelthirst.com/music-calendar for listings. Most
       shows free. Tip the musicians.
-  last_verified: 2026-01-28
-  next_audit: 2026-04-28
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips: Beloved neighborhood pub with free live acoustic and Americana music during 6-9pm happy hour. All shows
     free unless listed. Gets crowded on weekends. Good food and local beer selection. Cozy historic space. 21+ venue.
@@ -5218,8 +5238,8 @@
     dates: May 6 - May 27, 2026
   eligibility: Open to the public
   parking: Weekday permits required at kiosks; free on weekends
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check hours online - galleries close between exhibits
@@ -5303,8 +5323,8 @@
   schedule: 4 exhibitions per year (October-May)
   eligibility: Open to the public
   parking: Lot J closest to gallery
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check website for current exhibit
@@ -7382,8 +7402,8 @@
   - name: Rockwood Plaza Splash Pad
     address: 458 SE 185th Ave, Gresham, OR
     hours: 8am-9pm (May-September)
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips: FREE splash pads at Gresham Arts Plaza (10am-10pm) and Rockwood Plaza (8am-9pm). Seasonal May-September.
     Bring towels and sunscreen. Good for cooling off on hot days. Both locations have other amenities nearby.
@@ -7907,17 +7927,17 @@
   address: 618 NW Davis St, Portland, OR 97209
   phone: 503-222-5694
   website: https://sistersoftheroad.org
-  hours: 'Tue-Sat, sign up for meals after 9am, serving 10am-2pm. Note: cafe transitioning to new location.'
+  hours: 'TEMPORARILY CLOSED - seeking new permanent location. No reopening date announced.'
   source_urls:
   - https://sistersoftheroad.org
   pricing:
     description: Pay-what-you-can
-    notes: Barter work program - work 15 minutes for a meal
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+    notes: Barter work program - work 15 minutes for a meal (when open)
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips: Pay-what-you-can or work 15 minutes for a meal through barter program. Welcoming community space emphasizing
-    dignity and autonomy. Downtown Old Town location. A gathering place, not just a meal program.
+    dignity and autonomy. A gathering place, not just a meal program.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
@@ -7927,6 +7947,9 @@
   - isolation
   guide_location: activities-guide-1.md#community-meal-programs
   notes: Welcoming community space emphasizing dignity and autonomy
+  flags:
+  - ⚠️ VERIFY - Cafe temporarily closed as of April 2026, seeking new permanent location. Plans to reopen but no date announced.
+    Check website quarterly for reopening news.
   latitude: 45.524375
   longitude: -122.676939
 - id: portland-rescue-mission
@@ -8186,11 +8209,12 @@
   pricing:
     description: FREE plots for low-income residents east of 82nd Ave
   eligibility: Low-income residents east of 82nd Avenue
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips: FREE garden plots for low-income residents east of 82nd Ave. Most plots are handicapped accessible. Good
-    therapeutic activity. East Portland location. Apply for a plot through SnowCap Community Charities.
+    therapeutic activity. East Portland location. Apply for a plot through SnowCap Community Services (formerly SnowCap Community
+    Charities). SnowCap also operates a food pantry at same address (weekdays 10am-2pm, Mon/Wed evenings 6-8pm).
   accessibility:
   - wheelchair_accessible
   social_intensity: solo
@@ -8199,7 +8223,8 @@
   - low_energy
   - anxiety_friendly
   guide_location: activities-guide-1.md#community-gardens
-  notes: Most plots are handicapped accessible
+  notes: Most plots are handicapped accessible. Organization rebranded from SnowCap Community Charities to SnowCap Community
+    Services.
   latitude: 45.519888
   longitude: -122.479827
 - id: outgrowing-hunger
@@ -8214,8 +8239,8 @@
   - https://outgrowinghunger.org/
   pricing:
     description: FREE - drop in, farm 2 hours, leave with free produce
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips: Drop in and farm for 2 hours, then leave with free produce. No registration needed. At Rosewood Neighborhood
     Garden in East Portland. Good way to combine exercise with food access. Tools provided.
@@ -8259,8 +8284,8 @@
   secondary_location:
     name: Food Hub (donations only)
     address: 8937 SE Jannsen Rd, Clackamas, OR 97015
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Bring current piece of mail (within 30 days) as proof of address
@@ -8274,7 +8299,8 @@
   - indoor
   - low_energy
   guide_location: activities-guide-2.md#clackamas-county-food-resources
-  notes: Largest food pantry in Clackamas County. Also offers pop-up sites at elementary schools.
+  notes: Largest food pantry in Clackamas County. Also offers pop-up sites at elementary schools. Active "Save the Food Hub"
+    fundraising campaign.
   latitude: 45.460202
   longitude: -122.581345
 - id: gleaners-clackamas
@@ -8283,28 +8309,32 @@
   location_type: physical
   resource_type: service
   address: 13821 Fir St, Oregon City, OR 97045
-  phone: null
+  phone: 503-655-8740
   email: vp@gleanerscc.org
   website: https://www.gleanerscc.org
   source_urls:
   - https://www.gleanerscc.org
   - https://www.clackamas.us/food-resources
   pricing:
-    description: FREE emergency food; minimal charges for resource center items
+    description: FREE - members volunteer hours monthly in exchange for weekly groceries
+  hours: Mon-Fri 8am-3pm
   eligibility: Must meet household income guidelines; membership required
   services:
-  - Emergency food assistance (every 2 weeks for eligible members)
+  - Weekly groceries and essentials (members volunteer monthly hours)
   - Resource center with clothing and household items
+  - Surplus Day events
+  - Field Picks & Firewood
   mission: Reduce hunger and waste; aid social services by collecting and distributing food/non-food items to low-income,
     elderly, and disabled residents
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Contact to learn about membership and income guidelines
     registration: Membership required to access food assistance
     what_to_bring: null
-    good_to_know: All-volunteer organization established in 1981
+    good_to_know: All-volunteer organization established in 1981. 615 families across 42 teams countywide. Rescued 3.8 million
+      pounds of food in 2025.
   accessibility:
   - wheelchair_accessible
   social_intensity: drop_in
@@ -9180,8 +9210,8 @@
   - name: Public Readings
     location: First United Methodist Church, 1838 SW Jefferson St
     cost: FREE
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips: FREE 10-week writing workshops with trauma-informed approach. Serves marginalized populations at hospitals,
     shelters, senior centers, treatment facilities. Public readings at First United Methodist Church. No writing experience
@@ -9216,8 +9246,8 @@
   - Breakfast
   - Coffee/tea
   - Potluck lunch afterward
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips: FREE tree-planting events on weekend mornings fall through spring. Gloves, tools, breakfast, coffee/tea
     provided. Potluck lunch afterward. No experience needed, all ages welcome. Highly social atmosphere.
@@ -9256,8 +9286,8 @@
     schedule: Year-round neighborhood cleanups
     notes: Ongoing neighborhood cleanups throughout the year. Flexible scheduling lets you volunteer when it works for you.
       Equipment provided. Perfect for those wanting regular outdoor volunteer opportunities.
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips: FREE environmental cleanups throughout the year. Oregon Spring Cleanup (April), Beach/Riverside Cleanup
     (September), Pick It Up Portland (year-round). Equipment provided. No experience needed. Good for giving back to community.
@@ -9282,8 +9312,8 @@
   pricing:
     description: FREE
   schedule: null
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips: FREE team-oriented volunteer shifts Monday-Saturday, 2-3 hours each. Book online at oregonfoodbank.org.
     Sorting food with other volunteers. Good for those wanting to help fight hunger. Indoor warehouse work.
@@ -9319,8 +9349,8 @@
   - Textiles
   - Photography
   - Writing
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips: Pay What You Can options with Access Discount Program available. Classes in drawing, painting, ceramics,
     textiles, photography, writing. In SW Portland. Register through Portland Parks. All skill levels welcome.
@@ -9535,8 +9565,8 @@
     notes: Tech help and classes
   - name: Trips
     notes: Group outings
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: First senior center in Clackamas County (est. 1970)
@@ -9579,8 +9609,8 @@
   - Referrals to community adult centers
   - Connection to social services
   eligibility: All ages, incomes, and disabilities welcome
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: null
@@ -9635,8 +9665,8 @@
     cost: Suggested donation $3
     eligibility: Adults 60+
     home_delivery: Available for homebound individuals
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by to pick up monthly activity calendar
@@ -9897,8 +9927,8 @@
     notes: Learn embroidery techniques for mending clothing. Check website/Eventbrite for dates.
     dates_2026:
     - March 30
-  last_verified: 2026-03-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-05-22
   audit_frequency: monthly
   practical_tips:
     first_visit: Fill out the Google Form before arriving to let them know what you're bringing
@@ -9920,7 +9950,7 @@
   - new_to_area
   guide_location: activities-guide-2.md#community-workshops
   notes: Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great
-    for learning basic repair skills.
+    for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.
   flags:
   - 📅 DATE-SENSITIVE
 - id: clackamas-county-repair-fairs
@@ -9954,10 +9984,12 @@
     date: April 4, 2026
     time: 1-4pm
     location: Gladstone Library, 525 Portland Ave, Gladstone
+    status: past
   - name: Happy Valley
     date: April 18, 2026
     time: 10am-1pm
     location: Happy Valley Library, 13793 SE Sieben Park Way
+    status: past
   - name: Lake Oswego
     date: May 16, 2026
     time: 10am-1pm
@@ -9966,6 +9998,10 @@
     date: May 30, 2026
     time: 10am-1pm
     location: Wilsonville Public Library, 8200 SW Wilsonville Rd
+  - name: Sandy
+    date: June 13, 2026
+    time: 10am-1pm
+    location: Sandy, OR (venue TBD - check clackamas.us/recycling/repairfair)
   - name: Canby
     date: July 18, 2026
     time: 10am-1pm
@@ -9986,8 +10022,8 @@
     date: November 7, 2026
     time: 10am-1pm
     location: Clackamas Community College, Oregon City
-  last_verified: 2026-03-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-05-22
   audit_frequency: monthly
   practical_tips:
     first_visit: Just show up with your broken items
@@ -10134,8 +10170,8 @@
   pricing:
     description: FREE
   schedule: Various "done-in-a-day" projects throughout the week
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips: Done-in-a-day volunteer projects requiring no experience or ongoing commitment. 2-4 hour projects led by
     trained volunteer leaders. Sign up with two clicks online. Great low-pressure way to contribute and connect with others.
@@ -10176,8 +10212,8 @@
   - name: Energy Assistance
     schedule: Ongoing
     notes: Help applying for utility assistance programs.
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips: For adults 55+. Offers free legal aid, computer workshops, tax assistance, and energy assistance programs.
     Social activity groups and wellness programs. Also hosts NAMI peer support groups on 2nd & 4th Sundays.
@@ -10606,8 +10642,8 @@
     description: FREE
   eligibility: No income requirements or personal information required
   hours: 42 weekly markets - check Food Finder for specific times and locations
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Use the online Food Finder to locate your nearest market
@@ -10638,8 +10674,8 @@
     description: FREE - Take what you need, leave what you can
   eligibility: Open to everyone
   hours: Available 24/7
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check the website map for fridge locations near you
@@ -10708,8 +10744,8 @@
     notes: Each meal costs over $10 to prepare
   eligibility: Adults 60 years and older in Multnomah, Washington, and Clark counties
   hours: Meal delivery Mon-Thu 10am-2pm; Dining centers serve lunch at least one day weekly
-  last_verified: 2026-01-24
-  next_audit: 2026-04-24
+  last_verified: 2026-04-22
+  next_audit: 2026-07-22
   audit_frequency: quarterly
   practical_tips:
     first_visit: Call to sign up for home delivery or find your nearest dining center
