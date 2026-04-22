@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-15T14:25:47.511817",
+  "generated": "2026-04-22T23:50:27.221121",
   "count": 269,
   "categories": {
     "peer_support": "Peer Support",
@@ -1234,10 +1234,10 @@
           ]
         },
         {
-          "name": "Creative Support Group",
+          "name": "Art with Heart (Creative Support Group)",
           "schedule": "2nd & 4th Thursdays",
           "location": "Oregon City (in-person, address provided upon registration)",
-          "notes": "Creative arts peer support group. Started January 2026.",
+          "notes": "Creative arts peer support group. Started January 2026. Listed as \"Art with Heart\" on website.",
           "audience": [
             "spanish_speaking",
             "women"
@@ -1268,11 +1268,43 @@
           "audience": [
             "bipoc"
           ],
-          "notes": "Peer-led support group for BIPOC adults. Multi-county program. \u26a0\ufe0f VERIFY by phone before publishing"
+          "notes": "Peer-led support group for BIPOC adults. Multi-county program. \u26a0\ufe0f VERIFY by phone \u2014 not visible on namicc.org support groups page as of April 2026. Call 503-344-5050 to confirm still active."
         },
         {
           "name": "Suicide Bereavement Support Group",
-          "notes": "Hosted by NAMI Clackamas for those bereaved by suicide. \u26a0\ufe0f VERIFY schedule by phone (not found online)",
+          "schedule": "Online 1st Tuesday & 2nd/4th Wednesdays; In-person 4th Sunday",
+          "format": "Both virtual and in-person",
+          "location": "In-person at NAMI Clackamas office (10202 SE 32nd Ave, Suite 501, Milwaukie)",
+          "notes": "Affiliated group (vetted but non-NAMI). Support for those bereaved by suicide. No registration required for in-person.",
+          "audience": [
+            "spanish_speaking",
+            "women"
+          ]
+        },
+        {
+          "name": "Post Release Support Group",
+          "schedule": "Sundays (afternoons, times vary)",
+          "location": "Happy Valley (in-person)",
+          "notes": "For previously incarcerated individuals. Contact NAMI Clackamas for details.",
+          "audience": [
+            "spanish_speaking",
+            "women"
+          ]
+        },
+        {
+          "name": "Gather for Games",
+          "format": "Virtual (Zoom)",
+          "notes": "Game-based social and wellness gathering. Times vary \u2014 register via website.",
+          "audience": [
+            "spanish_speaking",
+            "women"
+          ]
+        },
+        {
+          "name": "Compassionate Friends",
+          "schedule": "4th Tuesday, 7pm",
+          "location": "NAMI Clackamas office (10202 SE 32nd Ave, Suite 501, Milwaukie)",
+          "notes": "Affiliated grief support group. No registration required.",
           "audience": [
             "spanish_speaking",
             "women"
@@ -1304,7 +1336,7 @@
         "first_visit": "Call or email to register for your first meeting",
         "registration": "Registration required - call 503-344-5050 or check website",
         "what_to_bring": "Nothing required; virtual groups send Zoom link after registration",
-        "good_to_know": "Spanish-speaking group available. Women's group meets in-person in Milwaukie. New creative support group in Oregon City. All peer-led."
+        "good_to_know": "Spanish-speaking group available. Women's group meets in-person in Milwaukie. Art with Heart creative group in Oregon City. Post Release group in Happy Valley. Game-based virtual group (Gather for Games). All peer-led. Affiliated groups include Suicide Bereavement and Compassionate Friends (grief)."
       }
     },
     {
@@ -1363,7 +1395,7 @@
       "address": null,
       "latitude": null,
       "longitude": null,
-      "phone": "503-709-2450",
+      "phone": "503-238-6428",
       "email": "peerconnection@folktime.org",
       "website": "https://folktime.org",
       "pricing": {
@@ -3384,7 +3416,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [
-        "\u26a0\ufe0f VERIFY - Lloyd Center closing by end of 2026; Portland Design Commission approved demolition/redevelopment master plan. Food Court 5000 still running Sundays as of March 2026 but no relocation plans announced. Add schedule_end_date when closure date is confirmed."
+        "\u26a0\ufe0f VERIFY - Lloyd Center closing by end of 2026; Portland Design Commission approved demolition/redevelopment master plan. Food Court 5000 still running Sundays as of April 2026 but no relocation plans announced. Add schedule_end_date when closure date is confirmed."
       ],
       "accessibility": [
         "wheelchair_accessible",
@@ -3405,7 +3437,7 @@
         "first_visit": "Meet at Lloyd Center mall entrance, Sundays at 11am. Look for the group in colorful 80s attire!",
         "registration": "None - just show up",
         "what_to_bring": "Comfortable walking shoes. 80s attire encouraged but not required (neon, leg warmers, etc.)",
-        "good_to_know": "1980s-themed indoor mall walking led by Vera Mysteria. 3.5 mile route (2 laps, ~90 minutes). Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks at food court. Groups of 70+ regular attendees. Very welcoming and fun community."
+        "good_to_know": "1980s-themed indoor mall walking led by Vera Mysteria. 5K / 3.1 mile route (2 laps, ~90 minutes). Meet at food court on 3rd floor above ice rink. Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks at food court. Groups of 70+ regular attendees. Very welcoming and fun community."
       }
     },
     {
@@ -10137,9 +10169,9 @@
       "website": "https://sistersoftheroad.org",
       "pricing": {
         "description": "Pay-what-you-can",
-        "notes": "Barter work program - work 15 minutes for a meal"
+        "notes": "Barter work program - work 15 minutes for a meal (when open)"
       },
-      "hours": "Tue-Sat, sign up for meals after 9am, serving 10am-2pm. Note: cafe transitioning to new location.",
+      "hours": "TEMPORARILY CLOSED - seeking new permanent location. No reopening date announced.",
       "eligibility": null,
       "features": [],
       "location_type": "physical",
@@ -10149,7 +10181,9 @@
       "schedule": null,
       "schedule_start_date": null,
       "schedule_end_date": null,
-      "flags": [],
+      "flags": [
+        "\u26a0\ufe0f VERIFY - Cafe temporarily closed as of April 2026, seeking new permanent location. Plans to reopen but no date announced. Check website quarterly for reopening news."
+      ],
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -10162,7 +10196,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": "Welcoming community space emphasizing dignity and autonomy",
-      "practical_tips": "Pay-what-you-can or work 15 minutes for a meal through barter program. Welcoming community space emphasizing dignity and autonomy. Downtown Old Town location. A gathering place, not just a meal program."
+      "practical_tips": "Pay-what-you-can or work 15 minutes for a meal through barter program. Welcoming community space emphasizing dignity and autonomy. A gathering place, not just a meal program."
     },
     {
       "id": "portland-rescue-mission",
@@ -10512,8 +10546,8 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Most plots are handicapped accessible",
-      "practical_tips": "FREE garden plots for low-income residents east of 82nd Ave. Most plots are handicapped accessible. Good therapeutic activity. East Portland location. Apply for a plot through SnowCap Community Charities."
+      "notes": "Most plots are handicapped accessible. Organization rebranded from SnowCap Community Charities to SnowCap Community Services.",
+      "practical_tips": "FREE garden plots for low-income residents east of 82nd Ave. Most plots are handicapped accessible. Good therapeutic activity. East Portland location. Apply for a plot through SnowCap Community Services (formerly SnowCap Community Charities). SnowCap also operates a food pantry at same address (weekdays 10am-2pm, Mon/Wed evenings 6-8pm)."
     },
     {
       "id": "outgrowing-hunger",
@@ -10594,7 +10628,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Largest food pantry in Clackamas County. Also offers pop-up sites at elementary schools.",
+      "notes": "Largest food pantry in Clackamas County. Also offers pop-up sites at elementary schools. Active \"Save the Food Hub\" fundraising campaign.",
       "practical_tips": {
         "first_visit": "Bring current piece of mail (within 30 days) as proof of address",
         "registration": null,
@@ -10611,13 +10645,13 @@
       "address": "13821 Fir St, Oregon City, OR 97045",
       "latitude": 45.329391,
       "longitude": -122.583239,
-      "phone": null,
+      "phone": "503-655-8740",
       "email": "vp@gleanerscc.org",
       "website": "https://www.gleanerscc.org",
       "pricing": {
-        "description": "FREE emergency food; minimal charges for resource center items"
+        "description": "FREE - members volunteer hours monthly in exchange for weekly groceries"
       },
-      "hours": null,
+      "hours": "Mon-Fri 8am-3pm",
       "eligibility": "Must meet household income guidelines; membership required",
       "features": [],
       "location_type": "physical",
@@ -10643,7 +10677,7 @@
         "first_visit": "Contact to learn about membership and income guidelines",
         "registration": "Membership required to access food assistance",
         "what_to_bring": null,
-        "good_to_know": "All-volunteer organization established in 1981"
+        "good_to_know": "All-volunteer organization established in 1981. 615 families across 42 teams countywide. Rescued 3.8 million pounds of food in 2025."
       }
     },
     {
@@ -12717,7 +12751,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Operating since 2013. Part of global Repair Caf\u00e9 movement promoting sustainability and community connection. Great for learning basic repair skills.",
+      "notes": "Operating since 2013. Part of global Repair Caf\u00e9 movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.",
       "practical_tips": {
         "first_visit": "Fill out the Google Form before arriving to let them know what you're bringing",
         "registration": "Registration form recommended but not required",

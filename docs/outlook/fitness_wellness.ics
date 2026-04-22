@@ -25,9 +25,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:320e6e4a7b1b2328@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260421T190000
-DTEND;TZID=America/Los_Angeles:20260421T200000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260428T190000
+DTEND;TZID=America/Los_Angeles:20260428T200000
 SUMMARY:BYMC (Bhakti Yoga Movement Center): Queer and Trans Yoga
 DESCRIPTION:Category: Fitness & Wellness\nCost: By-donation with equity pri
  cing\nNote: South Asian\, BIPOC\, and queer-owned. No one turned away.\nIn
@@ -45,9 +45,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da691286eec27342@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260419T173000
-DTEND;TZID=America/Los_Angeles:20260419T183000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260426T173000
+DTEND;TZID=America/Los_Angeles:20260426T183000
 SUMMARY:BYMC (Bhakti Yoga Movement Center): BIPOC-only Yoga
 DESCRIPTION:Category: Fitness & Wellness\nCost: By-donation with equity pri
  cing\nNote: South Asian\, BIPOC\, and queer-owned. No one turned away.\nIn
@@ -65,9 +65,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0338193000ae048d@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260419T082500
-DTEND;TZID=America/Los_Angeles:20260419T113000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260426T082500
+DTEND;TZID=America/Los_Angeles:20260426T113000
 SUMMARY:Dharma Rain Zen Center: Sunday Morning Program
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 8500 NE Sisk
  iyou St\, Portland\, OR 97220-5287\nPhone: 503-239-4846\nWebsite: https://
@@ -84,9 +84,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1843d5accdd3fbb0@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260415T063000
-DTEND;TZID=America/Los_Angeles:20260415T074500
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260422T063000
+DTEND;TZID=America/Los_Angeles:20260422T074500
 SUMMARY:Dharma Rain Zen Center: Weekday Morning Meditation
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 8500 NE Sisk
  iyou St\, Portland\, OR 97220-5287\nPhone: 503-239-4846\nWebsite: https://
@@ -103,9 +103,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d1ffac331809a7fc@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260415T190000
-DTEND;TZID=America/Los_Angeles:20260415T210000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260422T190000
+DTEND;TZID=America/Los_Angeles:20260422T210000
 SUMMARY:Dharma Rain Zen Center: Wednesday Evening Classes
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 8500 NE Sisk
  iyou St\, Portland\, OR 97220-5287\nPhone: 503-239-4846\nWebsite: https://
@@ -122,9 +122,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75e1464598e366da@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260420T190000
-DTEND;TZID=America/Los_Angeles:20260420T200000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260427T190000
+DTEND;TZID=America/Los_Angeles:20260427T200000
 SUMMARY:Diamond Way Buddhist Center: Guided Meditation
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE always\nInfo: Guided m
  editation with explanation. Newcomers especially welcome.\nAddress: Portla
@@ -141,9 +141,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75e1464598e366da@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260416T190000
-DTEND;TZID=America/Los_Angeles:20260416T200000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260423T190000
+DTEND;TZID=America/Los_Angeles:20260423T200000
 SUMMARY:Diamond Way Buddhist Center: Guided Meditation
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE always\nInfo: Guided m
  editation with explanation. Newcomers especially welcome.\nAddress: Portla
@@ -160,9 +160,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:600bad985806d05a@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260419T100000
-DTEND;TZID=America/Los_Angeles:20260419T120000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260426T100000
+DTEND;TZID=America/Los_Angeles:20260426T120000
 SUMMARY:Portland Insight Meditation Community (PIMC): Sunday Program
 DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nAddr
  ess: 6536 SE Duke St\, Portland\, OR 97206\nPhone: 503-519-9686\nWebsite: 
@@ -179,9 +179,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:06dba37e7b380c72@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260421T183000
-DTEND;TZID=America/Los_Angeles:20260421T200000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260428T183000
+DTEND;TZID=America/Los_Angeles:20260428T200000
 SUMMARY:Portland Insight Meditation Community (PIMC): Women's Sangha with A
  lexa Redner
 DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
@@ -199,9 +199,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:50283de6a02f284c@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260421T150000
-DTEND;TZID=America/Los_Angeles:20260421T163000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260428T150000
+DTEND;TZID=America/Los_Angeles:20260428T163000
 SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Teatime
 DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
  at: Online\nAddress: 6536 SE Duke St\, Portland\, OR 97206\nPhone: 503-519
@@ -218,9 +218,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c4627ca915697040@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260415T190000
-DTEND;TZID=America/Los_Angeles:20260415T203000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260422T190000
+DTEND;TZID=America/Los_Angeles:20260422T203000
 SUMMARY:Portland Insight Meditation Community (PIMC): Heart of Freedom
 DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
  at: Hybrid (in-person and Zoom)\nInfo: Mindfulness cultivation class with 
@@ -239,9 +239,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:94e0cd0418c97e74@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260418T110000
-DTEND;TZID=America/Los_Angeles:20260418T130000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260425T110000
+DTEND;TZID=America/Los_Angeles:20260425T130000
 SUMMARY:Mt. Scott Community Center: Slide Hours
 DESCRIPTION:Category: Fitness & Wellness\nNote: Non-residents pay higher ra
  tes. Children 0-2 FREE.\nAddress: 5530 SE 72nd Ave\, Portland\, OR 97206\n
@@ -259,9 +259,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a9f34038f6565caa@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260418T143000
-DTEND;TZID=America/Los_Angeles:20260418T162000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260425T143000
+DTEND;TZID=America/Los_Angeles:20260425T162000
 SUMMARY:Mt. Scott Community Center: Rope Swing
 DESCRIPTION:Category: Fitness & Wellness\nNote: Non-residents pay higher ra
  tes. Children 0-2 FREE.\nAddress: 5530 SE 72nd Ave\, Portland\, OR 97206\n
@@ -279,9 +279,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:69576450a4c8ec45@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260421T163000
-DTEND;TZID=America/Los_Angeles:20260421T190000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260428T163000
+DTEND;TZID=America/Los_Angeles:20260428T190000
 SUMMARY:Gresham Senior Center: Tuesday Night Dance
 DESCRIPTION:Category: Fitness & Wellness\nInfo: Live band (Desert Dogs)\; c
  ountry and more\; not on holidays\nAddress: 600 NE 8th Street\, Room 130\,
@@ -297,9 +297,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fa2a6f7932e27924@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260420T130000
-DTEND;TZID=America/Los_Angeles:20260420T150000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260427T130000
+DTEND;TZID=America/Los_Angeles:20260427T150000
 SUMMARY:Gresham Senior Center: Monday Movie Matinees
 DESCRIPTION:Category: Fitness & Wellness\nAddress: 600 NE 8th Street\, Room
   130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: https://www.gresh
@@ -314,9 +314,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:79365ba3889a5027@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260417T130000
-DTEND;TZID=America/Los_Angeles:20260417T143000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260424T130000
+DTEND;TZID=America/Los_Angeles:20260424T143000
 SUMMARY:Gresham Senior Center: Friday Speaker Series
 DESCRIPTION:Category: Fitness & Wellness\nAddress: 600 NE 8th Street\, Room
   130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: https://www.gresh
@@ -331,9 +331,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2899c7be9dbe89ab@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260420T180000
-DTEND;TZID=America/Los_Angeles:20260420T190000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260427T180000
+DTEND;TZID=America/Los_Angeles:20260427T190000
 SUMMARY:Portland Running Company Group Runs: Monday Trail Run
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nNote: Sign waiver bef
  ore first run\; no dogs\nInfo: 5-9 miles in Forest Park with No Name Trail
@@ -349,9 +349,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b00298890913c7a3@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260421T183000
-DTEND;TZID=America/Los_Angeles:20260421T193000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260428T183000
+DTEND;TZID=America/Los_Angeles:20260428T193000
 SUMMARY:Portland Running Company Group Runs: Tuesday Track Workout
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nNote: Sign waiver bef
  ore first run\; no dogs\nInfo: 60-75 minute workout including warmup/coold
@@ -367,9 +367,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3c383fb403018a6c@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260416T180000
-DTEND;TZID=America/Los_Angeles:20260416T190000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260423T180000
+DTEND;TZID=America/Los_Angeles:20260423T190000
 SUMMARY:Portland Running Company Group Runs: Thursday Thirsty Thursdays
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nNote: Sign waiver bef
  ore first run\; no dogs\nInfo: 5-7 miles followed by discounted first beve
@@ -385,9 +385,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:91c2138892ca5291@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260419T080000
-DTEND;TZID=America/Los_Angeles:20260419T090000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260426T080000
+DTEND;TZID=America/Los_Angeles:20260426T090000
 SUMMARY:Portland Running Company Group Runs: Sunday Long Run
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nNote: Sign waiver bef
  ore first run\; no dogs\nInfo: 5-18 miles\; all paces welcome. Post-run co
@@ -403,9 +403,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb1faca9bd5fba8c@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260419T110000
-DTEND;TZID=America/Los_Angeles:20260419T123000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260426T110000
+DTEND;TZID=America/Los_Angeles:20260426T123000
 SUMMARY:Food Court 5000 (Lloyd Center Mall Walking)
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 2201 Lloyd C
  enter\, Portland\, OR 97232\nWebsite: https://foodcourt5k.com/\nDetails: 1
@@ -422,9 +422,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0153a2619abbf2be@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260417T170000
-DTEND;TZID=America/Los_Angeles:20260417T210000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260424T170000
+DTEND;TZID=America/Los_Angeles:20260424T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Community Climbing Day
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE for Gresham residents 
  on specific days\nNote: Includes rental shoes\; chalk sold separately\nInf
@@ -441,9 +441,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:120fe89373741af7@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260418T180000
-DTEND;TZID=America/Los_Angeles:20260418T210000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260425T180000
+DTEND;TZID=America/Los_Angeles:20260425T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Teen Nights
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE for Gresham residents 
  on specific days\nNote: Includes rental shoes\; chalk sold separately\nEli
@@ -460,7 +460,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2c4a1c226a516cbd@portlandresources.org
-DTSTAMP:20260415T142547Z
+DTSTAMP:20260422T235027Z
 DTSTART;TZID=America/Los_Angeles:20260622T183000
 DTEND;TZID=America/Los_Angeles:20260622T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Creston Pool Free Swim
@@ -482,7 +482,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:19f37adeb9323fcb@portlandresources.org
-DTSTAMP:20260415T142547Z
+DTSTAMP:20260422T235027Z
 DTSTART;TZID=America/Los_Angeles:20260623T130000
 DTEND;TZID=America/Los_Angeles:20260623T154500
 SUMMARY:Portland Parks Free Open Swim Sessions: Peninsula Pool Free Swim
@@ -504,7 +504,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49b9f431cb693d00@portlandresources.org
-DTSTAMP:20260415T142547Z
+DTSTAMP:20260422T235027Z
 DTSTART;TZID=America/Los_Angeles:20260623T183000
 DTEND;TZID=America/Los_Angeles:20260623T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Montavilla Pool Free Swim
@@ -525,7 +525,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b759cc72f6eb0b0f@portlandresources.org
-DTSTAMP:20260415T142547Z
+DTSTAMP:20260422T235027Z
 DTSTART;TZID=America/Los_Angeles:20260624T130000
 DTEND;TZID=America/Los_Angeles:20260624T150000
 SUMMARY:Portland Parks Free Open Swim Sessions: Grant Pool Free Swim
@@ -546,7 +546,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4bb53254bccbec2d@portlandresources.org
-DTSTAMP:20260415T142547Z
+DTSTAMP:20260422T235027Z
 DTSTART;TZID=America/Los_Angeles:20260624T183000
 DTEND;TZID=America/Los_Angeles:20260624T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Sellwood Pool Free Swim
@@ -567,7 +567,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8bca75fd2199640c@portlandresources.org
-DTSTAMP:20260415T142547Z
+DTSTAMP:20260422T235027Z
 DTSTART;TZID=America/Los_Angeles:20260625T133000
 DTEND;TZID=America/Los_Angeles:20260625T153000
 SUMMARY:Portland Parks Free Open Swim Sessions: Pier Pool Free Swim
@@ -589,7 +589,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a150923005de6562@portlandresources.org
-DTSTAMP:20260415T142547Z
+DTSTAMP:20260422T235027Z
 DTSTART;TZID=America/Los_Angeles:20260625T183000
 DTEND;TZID=America/Los_Angeles:20260625T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Ida B. Wells Pool Free Swim
@@ -610,9 +610,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5a723522bb7078a8@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260415T062900
-DTEND;TZID=America/Los_Angeles:20260415T071500
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260422T062900
+DTEND;TZID=America/Los_Angeles:20260422T071500
 SUMMARY:November Project Portland: Wednesday Workout
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: 30-45 minute wo
  rkout. Bodyweight movements and running with alternatives for all levels. 
@@ -631,9 +631,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2d545c0884955257@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260418T083500
-DTEND;TZID=America/Los_Angeles:20260418T093500
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260425T083500
+DTEND;TZID=America/Los_Angeles:20260425T093500
 SUMMARY:Portland Trail Runners: Saturday Trail Run
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: 5-7 miles (3-4 
  mi option). Forest Park\, Tryon Creek\, Wildwood Trail. Coffee at trailhea
@@ -650,9 +650,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2a89d50c13cc476b@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260415T183500
-DTEND;TZID=America/Los_Angeles:20260415T193500
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260422T183500
+DTEND;TZID=America/Los_Angeles:20260422T193500
 SUMMARY:Portland Trail Runners: Weeknight Trail Run
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Night trails ru
  n - headlamp and reflective gear required.\nAddress: Forest Park (various 
@@ -669,9 +669,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:105d2f0b41322d3e@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260420T183000
-DTEND;TZID=America/Los_Angeles:20260420T200000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260427T183000
+DTEND;TZID=America/Los_Angeles:20260427T200000
 SUMMARY:Trail Sisters Portland: Monday Trail Run
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: No one left beh
  ind philosophy - group matches your pace.\nAddress: Forest Park\, Thurman 
@@ -690,9 +690,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6c4cd51bb25fc508@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260416T183000
-DTEND;TZID=America/Los_Angeles:20260416T200000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260423T183000
+DTEND;TZID=America/Los_Angeles:20260423T200000
 SUMMARY:Trail Sisters Portland: Thursday Trail Run
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: No one left beh
  ind philosophy - group matches your pace.\nAddress: Forest Park\, Thurman 
@@ -711,9 +711,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5fa19b2b7a92e2f9@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260418T093000
-DTEND;TZID=America/Los_Angeles:20260418T120000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260425T093000
+DTEND;TZID=America/Los_Angeles:20260425T120000
 SUMMARY:Birdhers
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: Inner Portla
  nd parks (various locations)\nWebsite: https://birdhers.com/\nDetails: Med
@@ -729,9 +729,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0781b534fe7b3022@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260419T130000
-DTEND;TZID=America/Los_Angeles:20260419T150000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260426T130000
+DTEND;TZID=America/Los_Angeles:20260426T150000
 SUMMARY:Tergar Meditation Community of Portland: Monthly In-Person Practice
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Three 25-minute
   silent sitting sessions with walking meditation between\, followed by tea
@@ -748,9 +748,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9b052c1131dba353@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260421T190000
-DTEND;TZID=America/Los_Angeles:20260421T203000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260428T190000
+DTEND;TZID=America/Los_Angeles:20260428T203000
 SUMMARY:Tergar Meditation Community of Portland: Tuesday Evening Online Pra
  ctice
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Virtual meditat
@@ -767,9 +767,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bac4853c7338ed55@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260415T093000
-DTEND;TZID=America/Los_Angeles:20260415T103000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260422T093000
+DTEND;TZID=America/Los_Angeles:20260422T103000
 SUMMARY:Tergar Meditation Community of Portland: Wednesday Morning Online P
  ractice
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Nectar of the P
@@ -786,7 +786,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6fe3cfdc57198d96@portlandresources.org
-DTSTAMP:20260415T142547Z
+DTSTAMP:20260422T235027Z
 DTSTART;TZID=America/Los_Angeles:20260330T190000
 DTEND;TZID=America/Los_Angeles:20260330T204500
 SUMMARY:Path of Sincerity Meditation Group: Monday Night Sangha
@@ -807,9 +807,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb99f91f8bb65d72@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260420T080000
-DTEND;TZID=America/Los_Angeles:20260420T090000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260427T080000
+DTEND;TZID=America/Los_Angeles:20260427T090000
 SUMMARY:Path of Sincerity Meditation Group: Daily Virtual Meditation
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE (donation-based gift e
  conomy)\nInfo: Consistent morning practice opportunity. Great for building
@@ -827,9 +827,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0a668cbdc8051419@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260420T183000
-DTEND;TZID=America/Los_Angeles:20260420T192500
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260427T183000
+DTEND;TZID=America/Los_Angeles:20260427T192500
 SUMMARY:Decompress + Connect Meditation Group
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: TaborSpace\,
   5441 SE Belmont St\, Portland\, OR 97215\nWebsite: https://www.meetup.com
@@ -845,9 +845,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fe0360e58ccaa78e@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260416T180000
-DTEND;TZID=America/Los_Angeles:20260416T200000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260423T180000
+DTEND;TZID=America/Los_Angeles:20260423T200000
 SUMMARY:Mazamas Street Rambles
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\, no registration requ
  ired\nAddress: Keen Garage\, 505 NW 13th Ave\, Portland\, OR\nPhone: 503-2
@@ -864,9 +864,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13929b2306504174@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260418T090000
-DTEND;TZID=America/Los_Angeles:20260418T100000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260425T090000
+DTEND;TZID=America/Los_Angeles:20260425T100000
 SUMMARY:Portland Strength Collective
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 1225 SE Gran
  d Ave\, Portland\, OR 97214\nWebsite: https://portlandstrengthcollective.c
@@ -881,9 +881,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:77f97d44905fa910@portlandresources.org
-DTSTAMP:20260415T142547Z
-DTSTART;TZID=America/Los_Angeles:20260417T170000
-DTEND;TZID=America/Los_Angeles:20260417T190000
+DTSTAMP:20260422T235027Z
+DTSTART;TZID=America/Los_Angeles:20260424T170000
+DTEND;TZID=America/Los_Angeles:20260424T190000
 SUMMARY:Friendly House: Community Nights
 DESCRIPTION:Category: Fitness & Wellness\nCost: Low-cost/sliding scale avai
  lable\nInfo: Free access to showers (6-8pm\, last signup 7pm)\, internet c
