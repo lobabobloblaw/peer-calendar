@@ -1,6 +1,6 @@
 {
-  "generated": "2026-04-22T23:50:27.221121",
-  "count": 269,
+  "generated": "2026-04-29T22:15:25.315380",
+  "count": 270,
   "categories": {
     "peer_support": "Peer Support",
     "fitness_wellness": "Fitness & Wellness",
@@ -1436,6 +1436,95 @@
         "registration": "Email peerconnection@folktime.org or just show up to orientation",
         "what_to_bring": "Nothing required; $1 donation suggested for collective lunch",
         "good_to_know": "Oregon's oldest peer-run program (1985). Drop-in, no referral needed. Arrive by 11am to join collective lunch prep. Peer Respite Center now open 24/7 \u2014 contact respite@folktime.org."
+      }
+    },
+    {
+      "id": "cmhc-peer-groups",
+      "title": "CMHC Peer Groups (FolkTime \u00d7 Clackamas County)",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#7B68EE",
+      "address": "11211 SE 82nd Ave, Suite O, Happy Valley, OR 97086",
+      "latitude": 45.443229,
+      "longitude": -122.580028,
+      "phone": "503-722-6200",
+      "email": null,
+      "website": "https://folktime.org",
+      "pricing": {
+        "description": "FREE"
+      },
+      "hours": null,
+      "eligibility": "Open to individuals receiving Peer Support services in Clackamas County. If you don't already have a Peer Support Specialist, stop in to the clinic to get connected.",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
+      "programs": [
+        {
+          "name": "ColorFlow",
+          "schedule": "1st & 3rd Wednesdays, 10-11:30am",
+          "schedule_start_date": "2026-05-20",
+          "cost": "FREE",
+          "notes": "A welcoming art group for creative self-expression and mindfulness through paint. Explore emotions, connect with others, and find calm through color. No art experience needed.",
+          "audience": []
+        },
+        {
+          "name": "Intentional Silence & Meditation",
+          "schedule": "2nd & 4th Tuesdays, 11am-12:30pm",
+          "schedule_start_date": "2026-05-12",
+          "cost": "FREE",
+          "notes": "A peaceful, grounding space to slow down, breathe, and reconnect with yourself. Together we'll explore stillness, mindfulness, and the power of silence as a way to rest, reflect, and find calm in community.",
+          "audience": []
+        },
+        {
+          "name": "Cultivate & Connect",
+          "schedule": "1st & 3rd Thursdays, 1-2:30pm",
+          "schedule_start_date": "2026-05-21",
+          "cost": "FREE",
+          "notes": "A grounding art group exploring creativity, connection, and mindfulness through nature. Inspired by natural materials and the senses, we'll celebrate growth, self-expression, and community through hands-on creation.",
+          "audience": []
+        },
+        {
+          "name": "Healing with Photography",
+          "schedule": "2nd & 4th Wednesdays, 1-2:30pm",
+          "schedule_start_date": "2026-05-13",
+          "cost": "FREE",
+          "notes": "A creative group for exploring healing, identity, and self-expression. Using photography as a mindful practice, we'll reflect on our experiences, notice moments of beauty, and connect.",
+          "audience": []
+        },
+        {
+          "name": "Karaoke Night",
+          "schedule": "1st & 3rd Fridays, 5-6:30pm",
+          "schedule_start_date": "2026-05-15",
+          "cost": "FREE",
+          "notes": "An open space for joy, laughter, and self-expression through song. Come as you are \u2014 sing solo, join in with others, or cheer from the crowd as we build confidence, connection, and community through music.",
+          "audience": []
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE"
+      ],
+      "accessibility": [
+        "wheelchair_accessible"
+      ],
+      "social_intensity": "structured_group",
+      "good_for": [
+        "anxiety_friendly",
+        "isolation",
+        "creative",
+        "indoor",
+        "low_energy"
+      ],
+      "audience": [],
+      "audience_notes": "Adults receiving Peer Support services in Clackamas County. Sponsored by FolkTime in partnership with Clackamas County.",
+      "notes": "Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups resume May 12, 2026. Source verified from official FolkTime/Clackamas County flyer received April 2026.",
+      "practical_tips": {
+        "first_visit": "Open to people receiving Peer Support in Clackamas County. If you don't already have a Peer Support Specialist, stop in to the clinic to get connected.",
+        "registration": "Connect through your Peer Support Specialist, or stop in at the Clackamas Mental Health Clinic.",
+        "good_to_know": "Five distinct peer-led groups \u2014 art (ColorFlow, Cultivate & Connect), mindfulness (Intentional Silence & Meditation), photography, and karaoke. All groups resume the week of May 12, 2026."
       }
     },
     {

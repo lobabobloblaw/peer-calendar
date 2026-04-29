@@ -2,6 +2,17 @@
 # Records all verification activities and changes
 
 ---
+- date: 2026-04-29
+  type: addition
+  auditor: claude
+  summary: "Added CMHC Peer Groups (FolkTime × Clackamas County) entry with 5 peer-led programs at Clackamas Mental Health Clinic, resuming May 12, 2026"
+  added:
+    - id: cmhc-peer-groups
+      name: CMHC Peer Groups (FolkTime × Clackamas County)
+      category: peer_support
+      reason: "FolkTime/Clackamas County partnership offering 5 peer-led groups at Clackamas Mental Health Clinic (11211 SE 82nd Ave, Suite O, Happy Valley): ColorFlow (1st & 3rd Wed 10-11:30am), Intentional Silence & Meditation (2nd & 4th Tue 11am-12:30pm), Cultivate & Connect (1st & 3rd Thu 1-2:30pm), Healing with Photography (2nd & 4th Wed 1-2:30pm), Karaoke Night (1st & 3rd Fri 5-6:30pm). All programs resume May 12, 2026. Open to people receiving Peer Support services in Clackamas County. Source: official FolkTime/Clackamas County flyer."
+
+---
 - date: 2026-03-30
   type: addition
   auditor: claude
