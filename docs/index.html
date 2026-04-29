@@ -2869,8 +2869,11 @@
 
                             const dates = getScheduleDates(program.schedule, year, month);
                             // Filter out dates before schedule_start_date or after schedule_end_date
-                            const startDate = entry.schedule_start_date ? new Date(entry.schedule_start_date) : null;
-                            const endDate = entry.schedule_end_date ? new Date(entry.schedule_end_date) : null;
+                            // Program-level dates take precedence over entry-level dates
+                            const startStr = program.schedule_start_date || entry.schedule_start_date;
+                            const endStr = program.schedule_end_date || entry.schedule_end_date;
+                            const startDate = startStr ? new Date(startStr) : null;
+                            const endDate = endStr ? new Date(endStr) : null;
                             for (const d of dates) {
                                 if (startDate && d.date < startDate) continue;
                                 if (endDate && d.date > endDate) continue;
