@@ -93,9 +93,11 @@
             .main-content {
                 display: grid;
                 grid-template-columns: 400px 1fr;
-                gap: 20px;
+                grid-template-rows: auto 1fr;
+                column-gap: 20px;
+                row-gap: 0;
                 align-items: stretch;
-                height: calc(100vh - 50px);
+                height: calc(100vh - 20px);
             }
 
             h1 {
@@ -112,7 +114,7 @@
 
             .main-content {
                 grid-template-columns: 450px 1fr;
-                gap: 32px;
+                column-gap: 32px;
             }
 
             .header-logo-container {
@@ -134,7 +136,7 @@
 
             .main-content {
                 grid-template-columns: 500px 1fr;
-                gap: 40px;
+                column-gap: 40px;
             }
 
             .header-logo-container {
@@ -175,7 +177,7 @@
             }
 
             .main-content {
-                height: calc(100vh - 75px);
+                height: calc(100vh - 12px);
             }
 
             header {
@@ -428,16 +430,24 @@
 
         /* Panel styles for two-column layout */
         @media (min-width: 768px) {
+            header {
+                grid-column: 1;
+                grid-row: 1;
+                margin-top: 0;
+            }
+
             .left-panel {
-                order: 1;
+                grid-column: 1;
+                grid-row: 2;
                 padding: 0;
                 margin: 0;
-                max-height: 100%;
+                min-height: 0;
                 overflow-y: auto;
             }
 
             .right-panel {
-                order: 2;
+                grid-column: 2;
+                grid-row: 1 / span 2;
                 padding: 0;
                 margin: 0;
                 margin-bottom: 0;
@@ -2061,14 +2071,13 @@
         <p>Please rotate your device to portrait mode</p>
     </div>
 
-    <header>
-        <div class="header-logo-container">
-            <img id="header-logo" src="" alt="2026 Peer Support Calendar for the Multnomah Tri-County Region" class="header-logo">
-        </div>
-    </header>
-
     <main>
         <div class="main-content">
+            <header>
+                <div class="header-logo-container">
+                    <img id="header-logo" src="" alt="2026 Peer Support Calendar for the Multnomah Tri-County Region" class="header-logo">
+                </div>
+            </header>
             <div class="left-panel">
         <div class="calendar-section">
             <div class="subscribe-row">
