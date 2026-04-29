@@ -26,9 +26,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:697356c9eaa7b5bb@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260425T100000
-DTEND;TZID=America/Los_Angeles:20260425T110000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260502T100000
+DTEND;TZID=America/Los_Angeles:20260502T110000
 SUMMARY:Tryon Creek State Natural Area: Saturday Guided Nature Walks
 DESCRIPTION:Category: Parks & Nature\nCost: Park FREE\; Parking $10/day res
  idents\, $12/day non-residents (since Oct 1\, 2025)\nNote: Free if arrivin
@@ -46,7 +46,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b1cd3f91d0b7fc50@portlandresources.org
-DTSTAMP:20260422T235027Z
+DTSTAMP:20260429T221525Z
 DTSTART;TZID=America/Los_Angeles:20260405T110000
 DTEND;TZID=America/Los_Angeles:20260405T120000
 SUMMARY:Hoyt Arboretum: Free Public Tours
@@ -62,9 +62,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26b379a33a5f1049@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260427T130000
-DTEND;TZID=America/Los_Angeles:20260427T150000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260504T130000
+DTEND;TZID=America/Los_Angeles:20260504T150000
 SUMMARY:Main City Park (Gresham): Summer Kids in the Park (SKIP)
 DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free lunch and recr
  eation for youth\nAddress: 219 S Main Ave\, Gresham\, OR\nWebsite: https:/

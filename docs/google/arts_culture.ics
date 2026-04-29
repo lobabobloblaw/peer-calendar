@@ -25,9 +25,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:65bcfcc6591abf66@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260423T100000
-DTEND;TZID=America/Los_Angeles:20260423T190000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260430T100000
+DTEND;TZID=America/Los_Angeles:20260430T190000
 SUMMARY:Portland Art Museum: Free First Thursday
 DESCRIPTION:Category: Arts & Culture\nCost: $27.50 adults\; FREE First Thur
  sday\; $5 Oregon Trail Card (up to 2 tickets)\nInfo: Explore the museum's 
@@ -44,9 +44,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4d15400e41f273e0@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260426T093000
-DTEND;TZID=America/Los_Angeles:20260426T173000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260503T093000
+DTEND;TZID=America/Los_Angeles:20260503T173000
 SUMMARY:OMSI (Oregon Museum of Science and Industry): First Sunday
 DESCRIPTION:Category: Arts & Culture\nCost: $20 adults\; $17 seniors (63+)\
  ; $15 youth (3-13)\; free under 3\; $5 First Sunday\; $5 Arts for All (EBT
@@ -66,9 +66,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1cc8d79374188c66@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260423T120000
-DTEND;TZID=America/Los_Angeles:20260423T000000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260430T120000
+DTEND;TZID=America/Los_Angeles:20260430T000000
 SUMMARY:Ground Kontrol Classic Arcade: Free Play (2nd Thursday)
 DESCRIPTION:Category: Arts & Culture\nInfo: All-ages noon-5pm ($6)\, 21+ 5p
  m-midnight ($12). Unlimited play on 100+ games.\nAddress: 115 NW 5th Ave\,
@@ -82,9 +82,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:59746f5642178898@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260422T120000
-DTEND;TZID=America/Los_Angeles:20260422T000000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260429T120000
+DTEND;TZID=America/Los_Angeles:20260429T000000
 SUMMARY:Ground Kontrol Classic Arcade: Free Play (Last Wednesday)
 DESCRIPTION:Category: Arts & Culture\nInfo: All-ages noon-5pm ($6)\, 21+ 5p
  m-midnight ($12). Unlimited play on 100+ games.\nAddress: 115 NW 5th Ave\,
@@ -98,9 +98,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75b2a7dcae90038e@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260426T120000
-DTEND;TZID=America/Los_Angeles:20260426T180000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260503T120000
+DTEND;TZID=America/Los_Angeles:20260503T180000
 SUMMARY:Guardian Games: Might I Suggest a Game? - Board Game Open Play
 DESCRIPTION:Category: Arts & Culture\nCost: FREE Board Game Open Play\nInfo
  : Game library with bartender-hosted game instruction in the Bar area\nAdd
@@ -114,9 +114,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c62bc17ff46d5148@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260422T180000
-DTEND;TZID=America/Los_Angeles:20260422T200000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260429T180000
+DTEND;TZID=America/Los_Angeles:20260429T200000
 SUMMARY:NAYA (Native American Youth and Family Center): Culture Nights
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 5135 NE Columbia
   Blvd\, Portland\, OR 97218\nPhone: 503-288-8177\nWebsite: https://nayapdx
@@ -130,9 +130,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e73e21017e0799ee@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260428T173000
-DTEND;TZID=America/Los_Angeles:20260428T183000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260505T173000
+DTEND;TZID=America/Los_Angeles:20260505T183000
 SUMMARY:Clackamas County Libraries (LINCC): Teen Advisory Group (GOAT)
 DESCRIPTION:Category: Arts & Culture\nCost: FREE library cards for all Oreg
  on residents\nEligibility: Grades 6-12\nInfo: Help shape library programs 
@@ -148,9 +148,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b442af6056d4144d@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260423T160000
-DTEND;TZID=America/Los_Angeles:20260423T170000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260430T160000
+DTEND;TZID=America/Los_Angeles:20260430T170000
 SUMMARY:Hillsboro Public Library: Teen Game Night
 DESCRIPTION:Category: Arts & Culture\nCost: FREE (all programs and events)\
  nInfo: Board and video games\, refreshments\nPhone: 503-615-6500\nWebsite:
@@ -163,9 +163,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3658fc1d7f9fa642@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260428T160000
-DTEND;TZID=America/Los_Angeles:20260428T180000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260505T160000
+DTEND;TZID=America/Los_Angeles:20260505T180000
 SUMMARY:Hillsboro Public Library: Craft Programs
 DESCRIPTION:Category: Arts & Culture\nCost: FREE (all programs and events)\
  nPhone: 503-615-6500\nWebsite: https://www.hillsboro-oregon.gov/library\nD
@@ -178,9 +178,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7911bf9a58117f@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260423T183000
-DTEND;TZID=America/Los_Angeles:20260423T193000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260430T183000
+DTEND;TZID=America/Los_Angeles:20260430T193000
 SUMMARY:MHCC Planetarium Sky Theatre: Early Planetarium Show
 DESCRIPTION:Category: Arts & Culture\nNote: Cash and card accepted at door\
  nAddress: 26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath li
@@ -196,9 +196,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e02aa101489f47a@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260423T200000
-DTEND;TZID=America/Los_Angeles:20260423T210000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260430T200000
+DTEND;TZID=America/Los_Angeles:20260430T210000
 SUMMARY:MHCC Planetarium Sky Theatre: Late Planetarium Show
 DESCRIPTION:Category: Arts & Culture\nNote: Cash and card accepted at door\
  nAddress: 26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath li
@@ -214,9 +214,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f7bf9869ba2e83a@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260422T120000
-DTEND;TZID=America/Los_Angeles:20260422T130000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260429T120000
+DTEND;TZID=America/Los_Angeles:20260429T130000
 SUMMARY:The Old Church Concert Hall: Lunchtime Concert Series
 DESCRIPTION:Category: Arts & Culture\nCost: FREE lunchtime concerts\nInfo: 
  Historic 1882 venue\, fully wheelchair accessible\nAddress: 1422 SW 11th A
@@ -230,9 +230,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0379c9729163580c@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260426T160000
-DTEND;TZID=America/Los_Angeles:20260426T170000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260503T160000
+DTEND;TZID=America/Los_Angeles:20260503T170000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
  s
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Four Bach cantatas 
@@ -247,9 +247,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c1294058eda55cac@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260422T090000
-DTEND;TZID=America/Los_Angeles:20260422T150000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260429T090000
+DTEND;TZID=America/Los_Angeles:20260429T150000
 SUMMARY:Historic Belmont Firehouse: Wednesday Open Hours
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Explore Portland Fi
  re & Rescue history through interactive exhibits\, an 1860 hose cart\, fir
@@ -265,9 +265,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d008ef21f7f8aa0a@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260424T170000
-DTEND;TZID=America/Los_Angeles:20260424T190000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260501T170000
+DTEND;TZID=America/Los_Angeles:20260501T190000
 SUMMARY:Turn! Turn! Turn!: Casual Friday (Comedy Open Mic)
 DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: Happy hour c
  omedy open mic hosted by Logan Loughmiller. Low-pressure environment for p
@@ -282,9 +282,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d8fc3329cc6894ad@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260426T123000
-DTEND;TZID=America/Los_Angeles:20260426T153000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260503T123000
+DTEND;TZID=America/Los_Angeles:20260503T153000
 SUMMARY:Turn! Turn! Turn!: Drawing Club
 DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: Casual drawi
  ng get-together - bring your own supplies or just hang out. All skill leve
@@ -299,9 +299,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d9e5489d6044ef66@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260427T200000
-DTEND;TZID=America/Los_Angeles:20260427T230000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260504T200000
+DTEND;TZID=America/Los_Angeles:20260504T230000
 SUMMARY:Turn! Turn! Turn!: Karaoke Night
 DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: K-Tel and La
  rry-okee supportive karaoke night. Low-pressure\, encouraging atmosphere f
@@ -316,9 +316,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a58e95f61ca649e6@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260427T140000
-DTEND;TZID=America/Los_Angeles:20260427T153000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260504T140000
+DTEND;TZID=America/Los_Angeles:20260504T153000
 SUMMARY:Rockwood Library: ESL Classes
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Free classes throug
  h Torus and Goodwill organizations. No registration required.\nAddress: 17
@@ -334,9 +334,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:081b91eb97012860@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260422T200000
-DTEND;TZID=America/Los_Angeles:20260422T210000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260429T200000
+DTEND;TZID=America/Los_Angeles:20260429T210000
 SUMMARY:Tualatin Public Library: Adult Book Discussion
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Monthly book club. 
  Check library for current book selection.\nAddress: 18878 SW Martinazzi Av
@@ -351,9 +351,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:33a5a02eaf722ff1@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260422T160000
-DTEND;TZID=America/Los_Angeles:20260422T170000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260429T160000
+DTEND;TZID=America/Los_Angeles:20260429T170000
 SUMMARY:Tualatin Public Library: Teen Book Chat (grades 8-12)
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Free copy of book f
  or participants.\nAddress: 18878 SW Martinazzi Ave\, Tualatin\, OR 97062\n
@@ -368,7 +368,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1237b588e2dc3b12@portlandresources.org
-DTSTAMP:20260422T235027Z
+DTSTAMP:20260429T221525Z
 DTSTART;TZID=America/Los_Angeles:20260607T140000
 DTEND;TZID=America/Los_Angeles:20260607T150000
 SUMMARY:Tualatin Public Library: Summer Sunday Music Series
@@ -385,9 +385,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:47623ca66dc7ccac@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260426T140000
-DTEND;TZID=America/Los_Angeles:20260426T160000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260503T140000
+DTEND;TZID=America/Los_Angeles:20260503T160000
 SUMMARY:SCRAP PDX Creative Reuse: Sunday Crafternoon
 DESCRIPTION:Category: Arts & Culture\nCost: FREE-$7 depending on event\nInf
  o: Guided themed craft projects. Materials provided. All skill levels welc
@@ -402,9 +402,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d1c182da302ffe9c@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260423T160000
-DTEND;TZID=America/Los_Angeles:20260423T180000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260430T160000
+DTEND;TZID=America/Los_Angeles:20260430T180000
 SUMMARY:SCRAP PDX Creative Reuse: Drop In Studio
 DESCRIPTION:Category: Arts & Culture\nCost: FREE-$7 depending on event\nInf
  o: Bring a project or start a new one.\nAddress: 619 SE 6th Ave\, Portland
@@ -419,9 +419,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:018c2dbc4c1b6d6c@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260426T170000
-DTEND;TZID=America/Los_Angeles:20260426T190000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260503T170000
+DTEND;TZID=America/Los_Angeles:20260503T190000
 SUMMARY:Independent Publishing Resource Center (IPRC): Collage Night
 DESCRIPTION:Category: Arts & Culture\nCost: Collage Night FREE\; workshops 
  vary\; zine library FREE\nInfo: Free monthly collage session. All material
@@ -437,9 +437,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a86510240984ddfd@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260423T183000
-DTEND;TZID=America/Los_Angeles:20260423T193000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260430T183000
+DTEND;TZID=America/Los_Angeles:20260430T193000
 SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Guilder Cafe
 DESCRIPTION:Category: Arts & Culture\nCost: FREE ($5 suggested donation)\nI
  nfo: Inside Powell's Books downtown. Poets get 3 minutes. 10 slots via lot
@@ -454,9 +454,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:74df6f3fc548fb54@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260423T183000
-DTEND;TZID=America/Los_Angeles:20260423T193000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260430T183000
+DTEND;TZID=America/Los_Angeles:20260430T193000
 SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Literary Arts
 DESCRIPTION:Category: Arts & Culture\nCost: FREE ($5 suggested donation)\nI
  nfo: Larger venue downtown. Features slam competition and featured readers
@@ -471,9 +471,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3283440e28606290@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260424T183000
-DTEND;TZID=America/Los_Angeles:20260424T193000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260501T183000
+DTEND;TZID=America/Los_Angeles:20260501T193000
 SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Flour Bloom
 DESCRIPTION:Category: Arts & Culture\nCost: FREE ($5 suggested donation)\nI
  nfo: Poetry open mic and slam. 10 slots via lottery.\nAddress: Various - G
@@ -488,9 +488,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4f5ddbd49f0a9039@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260426T160000
-DTEND;TZID=America/Los_Angeles:20260426T180000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260503T160000
+DTEND;TZID=America/Los_Angeles:20260503T180000
 SUMMARY:The Humble Poets' Open Mic
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: The Stacks Coffe
  ehouse\, 1831 N Killingsworth St\, Portland\, OR 97217\nPhone: 503-384-283
@@ -505,9 +505,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c0cf360c4a2f442c@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260425T100000
-DTEND;TZID=America/Los_Angeles:20260425T120000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260502T100000
+DTEND;TZID=America/Los_Angeles:20260502T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
 DESCRIPTION:Category: Arts & Culture\nCost: $10 suggested donation per tour
   (FREE self-guided options available)\nNote: Reservations or donations not
@@ -527,9 +527,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6521fc4b6bde906a@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260425T100000
-DTEND;TZID=America/Los_Angeles:20260425T120000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260502T100000
+DTEND;TZID=America/Los_Angeles:20260502T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
 DESCRIPTION:Category: Arts & Culture\nCost: $10 suggested donation per tour
   (FREE self-guided options available)\nNote: Reservations or donations not
@@ -550,9 +550,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:359b4e00639aefa2@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260425T100000
-DTEND;TZID=America/Los_Angeles:20260425T120000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260502T100000
+DTEND;TZID=America/Los_Angeles:20260502T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
 DESCRIPTION:Category: Arts & Culture\nCost: $10 suggested donation per tour
   (FREE self-guided options available)\nNote: Reservations or donations not
@@ -572,9 +572,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7053af3e4013d499@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260425T100000
-DTEND;TZID=America/Los_Angeles:20260425T120000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260502T100000
+DTEND;TZID=America/Los_Angeles:20260502T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
 DESCRIPTION:Category: Arts & Culture\nCost: $10 suggested donation per tour
   (FREE self-guided options available)\nNote: Reservations or donations not
@@ -595,9 +595,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb2584d8ad685306@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260426T130000
-DTEND;TZID=America/Los_Angeles:20260426T150000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260503T130000
+DTEND;TZID=America/Los_Angeles:20260503T150000
 SUMMARY:Community Jams: EZ-Lead Slow Jam (Blues\, Folk\, Americana)
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
  lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
@@ -613,9 +613,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:352aca1aa2ae288f@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260427T180000
-DTEND;TZID=America/Los_Angeles:20260427T200000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260504T180000
+DTEND;TZID=America/Los_Angeles:20260504T200000
 SUMMARY:Community Jams: CJ Anything Goes Jam
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
  lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
@@ -631,9 +631,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:36b525d206d3d5af@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260427T200000
-DTEND;TZID=America/Los_Angeles:20260427T220000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260504T200000
+DTEND;TZID=America/Los_Angeles:20260504T220000
 SUMMARY:Community Jams: CJ Improv Jam
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
  lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
@@ -649,9 +649,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:83b0bc41193a745a@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260428T190000
-DTEND;TZID=America/Los_Angeles:20260428T213000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260505T190000
+DTEND;TZID=America/Los_Angeles:20260505T213000
 SUMMARY:Community Jams: CJ Newcomers and Explorers Jam
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Best for first-time
  rs. Welcoming environment for all skill levels.\nAddress: 2365 SW Cedar Hi
@@ -668,9 +668,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a756560fd263fb59@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260423T190000
-DTEND;TZID=America/Los_Angeles:20260423T200000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260430T190000
+DTEND;TZID=America/Los_Angeles:20260430T200000
 SUMMARY:Community Jams: Themed Jam (varies weekly)
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
  lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
@@ -686,9 +686,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0f4493dcc6b71ae5@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260425T130000
-DTEND;TZID=America/Los_Angeles:20260425T150000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260502T130000
+DTEND;TZID=America/Los_Angeles:20260502T150000
 SUMMARY:Community Jams: CJ Newcomers and Explorers Jam (Saturday)
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
  lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
@@ -704,9 +704,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aa470ea8adfb8f4f@portlandresources.org
-DTSTAMP:20260422T235027Z
-DTSTART;TZID=America/Los_Angeles:20260425T163000
-DTEND;TZID=America/Los_Angeles:20260425T173000
+DTSTAMP:20260429T221525Z
+DTSTART;TZID=America/Los_Angeles:20260502T163000
+DTEND;TZID=America/Los_Angeles:20260502T173000
 SUMMARY:Community Jams: Build a Song Workshop
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Check Meetup calend
  ar for dates.\nAddress: 2365 SW Cedar Hills Blvd\, Beaverton\, OR\nWebsite
