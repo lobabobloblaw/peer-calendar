@@ -4222,3 +4222,151 @@
       status: verified
     - id: mhcc-senior-tuition
       status: verified
+
+---
+- date: 2026-05-01
+  type: audit
+  auditor: user
+  summary: "Audit completed - Hollywood Farmers Market"
+  entries_audited: 1
+  entries:
+    - id: hollywood-farmers-market
+      status: updated
+      changes: "Corrected winter schedule (2nd & 4th Saturdays, not 1st & 3rd); split April-Sep (8am-1pm) and Oct-Nov (9am-1pm) hours; refined address to between NE 44th & 45th Ave per official site"
+
+---
+- date: 2026-05-01
+  type: audit
+  auditor: user
+  summary: "Audit completed - Pedalpalooza / Bike Summer"
+  entries_audited: 1
+  entries:
+    - id: pedalpalooza
+      status: verified
+
+---
+- date: 2026-05-01
+  type: audit
+  auditor: user
+  summary: "Audit completed - East Portland Community Center"
+  entries_audited: 1
+  entries:
+    - id: east-portland-cc
+      status: updated
+      changes: "Pool boiler repair confirmed reopened July 2025 - removed stale closure flag. Added note about new Oregon pool supervision rule (under 14 needs adult 18+) effective Feb 2026"
+
+---
+- date: 2026-05-01
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Bicycling Club"
+  entries_audited: 1
+  entries:
+    - id: portland-bicycling-club
+      status: verified
+
+---
+- date: 2026-05-01
+  type: audit
+  auditor: user
+  summary: "Audit completed - Rock Haven Climbing (Gresham Partnership)"
+  entries_audited: 1
+  entries:
+    - id: rock-haven-climbing
+      status: updated
+      changes: "Added new 1st & 3rd Wednesday all-day Community Climb program (9am-9pm, free for Gresham residents). Clarified Friday program is  suggested donation (not flat fee) and free with SNAP/EBT"
+
+---
+- date: 2026-05-01
+  type: audit
+  auditor: user
+  summary: "Audit completed - OMSI (Oregon Museum of Science and Industry)"
+  entries_audited: 1
+  entries:
+    - id: omsi
+      status: updated
+      changes: "Updated 2026 pricing: adult $22.50 (was $20), senior $20.50 (was $17), youth $15.50 (was $15). Adult age now 14+. Arts for All 55% off applies to OMSI for 2, Family, Family Plus, Patron tiers"
+
+---
+- date: 2026-05-01
+  type: audit
+  auditor: user
+  summary: "Audit completed - Clackamas County Libraries (LINCC)"
+  entries_audited: 1
+  entries:
+    - id: clackamas-county-libraries
+      status: updated
+      changes: "Clarified library card eligibility (specific districts not all Oregon residents); added eCard option for ages 13+"
+
+---
+- date: 2026-05-01
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tigard Public Library"
+  entries_audited: 1
+  entries:
+    - id: tigard-public-library
+      status: verified
+
+---
+- date: 2026-05-01
+  type: audit
+  auditor: user
+  summary: "Audit completed - Lake Oswego Public Library"
+  entries_audited: 1
+  entries:
+    - id: lake-oswego-library
+      status: updated
+      changes: "Updated source URL to current 2026 Lake Oswego Reads page; verified hours, address, phone unchanged"
+
+---
+- date: 2026-05-01
+  type: audit
+  auditor: user
+  summary: "Audit completed - Independent Publishing Resource Center (IPRC)"
+  entries_audited: 1
+  entries:
+    - id: iprc
+      status: verified
+
+---
+- date: 2026-05-01
+  type: audit
+  auditor: user
+  summary: "Audit completed - The Humble Poets' Open Mic"
+  entries_audited: 1
+  entries:
+    - id: humble-poets-open-mic
+      status: verified
+
+---
+- date: 2026-05-01
+  type: audit
+  auditor: user
+  summary: "Audit completed - Willamette Writers"
+  entries_audited: 1
+  entries:
+    - id: willamette-writers
+      status: updated
+      changes: "Confirmed 2026 annual conference dates (July 30-August 2, 2026); updated practical tips with current member count"
+
+---
+- date: 2026-05-01
+  type: audit
+  auditor: user
+  summary: "Audit completed - First Thursday Art Walk"
+  entries_audited: 1
+  entries:
+    - id: first-thursday
+      status: updated
+      changes: "Clarified that indoor gallery openings happen year-round but Street Gallery (the festival component on NW 13th) runs April-October; verified 5-9pm hours"
+
+---
+- date: 2026-05-01
+  type: audit
+  auditor: user
+  summary: "Audit completed - Last Thursday on Alberta"
+  entries_audited: 1
+  entries:
+    - id: last-thursday-alberta
+      status: verified
