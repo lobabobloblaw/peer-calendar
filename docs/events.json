@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-29T22:27:12.178490",
+  "generated": "2026-05-01T16:05:11.898331",
   "count": 270,
   "categories": {
     "peer_support": "Peer Support",
@@ -3196,11 +3196,11 @@
       "eligibility": null,
       "features": [
         "Fitness center with selectorized strength, treadmills, wheelchair treadmill",
-        "Indoor pool with whirlpool spa (\u26a0\ufe0f TEMPORARILY CLOSED - mechanical issues as of Mar 2026)",
+        "Indoor pool with whirlpool spa",
         "Water fitness classes",
         "Group fitness classes daily",
         "Open gym",
-        "Play swims"
+        "Play swims (swimmers under 14 require direct supervision by adult 18+, per Oregon pool code effective Feb 2, 2026)"
       ],
       "location_type": "physical",
       "resource_type": "place",
@@ -3782,10 +3782,19 @@
       "resource_type": "program",
       "programs": [
         {
-          "name": "Community Climbing Day",
+          "name": "Community Climb (Friday)",
           "schedule": "1st Friday 5-9pm",
-          "cost": "FREE for Gresham residents with SNAP/EBT, $5 for other Gresham residents",
-          "notes": "Includes rental shoes; pre-register at rockhavenclimbing.com/first-visit",
+          "cost": "FREE for SNAP/EBT holders, $5 suggested donation for other Gresham/Rockwood residents",
+          "notes": "Includes rental shoes & chalk; bring photo ID for verification",
+          "audience": [
+            "teens"
+          ]
+        },
+        {
+          "name": "Community Climb (Wednesday)",
+          "schedule": "1st & 3rd Wednesday 9am-9pm",
+          "cost": "FREE for Gresham residents",
+          "notes": "Day pass includes rental shoes and chalk",
           "audience": [
             "teens"
           ]
@@ -3822,8 +3831,8 @@
       "practical_tips": {
         "first_visit": "Just show up during free climb times - no reservation needed. Complete waiver online or on-site.",
         "registration": "Waiver required (available online or on-site). Minors need guardian signature.",
-        "what_to_bring": "Comfortable clothes. Rental shoes included free.",
-        "good_to_know": "Free Friday Climbing (1st Friday 5-9pm) is free for SNAP/EBT holders, $5 for other Gresham residents. Teen Nights (1st & 3rd Saturdays 6-9pm) free for ages 13-18. May ask for ID to verify residency."
+        "what_to_bring": "Comfortable clothes and photo ID for residency verification. Rental shoes and chalk included.",
+        "good_to_know": "Three free programs for Gresham residents - 1st Friday Community Climb (5-9pm, free for SNAP/EBT or $5 suggested donation), 1st & 3rd Wednesday all-day climb (9am-9pm, free), and 1st & 3rd Saturday Teen Nights (6-9pm, ages 13-18). May ask for ID to verify residency."
       }
     },
     {
@@ -4997,8 +5006,8 @@
       "email": null,
       "website": "https://omsi.edu/",
       "pricing": {
-        "description": "$20 adults; $17 seniors (63+); $15 youth (3-13); free under 3; $5 First Sunday; $5 Arts for All (EBT/SNAP/WIC/TANF/Medicaid/OHP)",
-        "notes": "Arts for All provides up to 4 tickets at $5 each for EBT/SNAP/WIC/TANF/Medicaid/OHP recipients (any state); up to 55% off memberships"
+        "description": "$22.50 adults (14+); $20.50 seniors (63+); $15.50 youth (3-13); free under 3; $5 First Sunday; $5 Arts for All (EBT/SNAP/WIC/TANF/Medicaid/OHP)",
+        "notes": "Arts for All provides up to 4 tickets at $5 each for EBT/SNAP/WIC/TANF/Medicaid/OHP recipients (any state); up to 55% off OMSI for 2, Family, Family Plus, and Patron memberships"
       },
       "hours": "Tue-Fri 9:30am-5:30pm; Sat 9:30am-7pm; Sun 9:30am-5:30pm; Mon closed",
       "eligibility": null,
@@ -5697,7 +5706,8 @@
       "email": null,
       "website": "https://lincc.org",
       "pricing": {
-        "description": "FREE library cards for all Oregon residents"
+        "description": "FREE library cards for residents of Clackamas, Multnomah, Washington, or Hood River County Library Districts, Camas, or Fort Vancouver Regional Library District",
+        "notes": "Clackamas County residents age 13+ can apply for an eCard online before visiting in person"
       },
       "hours": null,
       "eligibility": null,
@@ -7224,7 +7234,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": "Oregon's largest writers' organization with free workshops and critique groups",
-      "practical_tips": "Oregon's largest writers' organization. Free writing workshops and drop-in critiques available. Annual conference in August. Good for connecting with other writers at all levels."
+      "practical_tips": "Oregon's largest writers' organization (6,000+ writers). Free writing workshops and drop-in critiques available. Annual conference July 30-August 2, 2026 in Portland. Good for connecting with other writers at all levels."
     },
     {
       "id": "cathedral-park-jazz",
@@ -7723,7 +7733,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Since 1986. Dozens of galleries with free receptions. Street Gallery runs April-October on NW 13th Ave (100+ artists, 4 blocks).",
+      "notes": "Since 1986. Indoor gallery openings happen year-round; outdoor Street Gallery runs April-October on NW 13th Ave (~100 local artists, 4 blocks). Calendar entries reflect the April-October Street Gallery season; year-round indoor gallery openings continue every first Thursday.",
       "practical_tips": {
         "first_visit": "Start at any Pearl District gallery - most along NW 12th-13th between Burnside and Lovejoy",
         "registration": "None - just walk in",
@@ -13790,7 +13800,7 @@
       "category": "food_farms",
       "categoryName": "Food & Farms",
       "color": "#DAA520",
-      "address": "NE Hancock & NE 44th Ave, Portland, OR 97213",
+      "address": "NE Hancock St between NE 44th & NE 45th Ave, Portland, OR 97213",
       "latitude": 45.534167,
       "longitude": -122.621389,
       "phone": null,
@@ -13800,16 +13810,16 @@
         "description": "SNAP/EBT accepted with Double Up Food Bucks match up to $20",
         "notes": "No surcharge for SNAP/EBT transactions"
       },
-      "hours": "Year-round (winter hours differ - 1st & 3rd Saturdays only, 9am-1pm, January-March)",
+      "hours": "Year-round. April-Sep every Saturday 8am-1pm. Oct-Nov every Saturday 9am-1pm. Dec-Mar 2nd & 4th Saturdays only, 9am-1pm.",
       "eligibility": null,
       "features": [],
       "location_type": "physical",
       "resource_type": "event",
       "programs": [],
       "dates": null,
-      "schedule": "Every Saturday, 8am-1pm (April-December)",
-      "schedule_start_date": "2026-04-01",
-      "schedule_end_date": "2026-12-19",
+      "schedule": "Every Saturday, 8am-1pm (April-September); 9am-1pm (October-November)",
+      "schedule_start_date": "2026-04-04",
+      "schedule_end_date": "2026-11-28",
       "flags": [],
       "accessibility": [
         "wheelchair_accessible",
