@@ -2,6 +2,23 @@
 # Records all verification activities and changes
 
 ---
+- date: 2026-05-01
+  type: removal
+  auditor: claude
+  summary: "Removed CMHC Peer Groups (Clackamas Mental Health Clinic) entry from sources.yaml per user request"
+  removed:
+    - id: cmhc-peer-groups
+      name: CMHC Peer Groups (FolkTime × Clackamas County)
+      category: peer_support
+      reason: "Entry removed from calendar per user request"
+      programs_removed:
+        - ColorFlow
+        - Intentional Silence & Meditation
+        - Cultivate & Connect
+        - Healing with Photography
+        - Karaoke Night
+
+---
 - date: 2026-04-29
   type: addition
   auditor: claude
