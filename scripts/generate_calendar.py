@@ -31,13 +31,14 @@ Output structure:
 """
 
 import argparse
+import calendar
 import hashlib
 import html
 import json
 import re
 import shutil
 import sys
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import yaml
@@ -172,30 +173,47 @@ def parse_schedule(schedule_str: str) -> dict:
         "saturday": "SA", "saturdays": "SA", "sat": "SA",
     }
 
-    # Day ranges first: "Mon-Fri", "Sat-Sun", "Wed-Sat" (check before individual days)
+    # Day ranges: "Mon-Fri", "Sat-Sun", "Wed-Sat", "Monday-Friday".
+    # Ranges are expanded first, then any standalone day names are added, so a
+    # string like "Fri 11am-1pm; Sat-Sun 2:30-4:30pm" keeps all three days.
     day_codes_ordered = ["MO", "TU", "WE", "TH", "FR", "SA", "SU"]
     abbrev_to_idx = {"mon": 0, "tue": 1, "wed": 2, "thu": 3, "fri": 4, "sat": 5, "sun": 6}
-    range_match = re.search(r'\b(mon|tue|wed|thu|fri|sat|sun)\s*-\s*(mon|tue|wed|thu|fri|sat|sun)\b', schedule_lower)
+    day_word = r'(mon|tue|wed|thu|fri|sat|sun)(?:day|sday|nesday|rsday|urday)?s?'
     days_found = []
-    if range_match:
+    range_spans = []
+    for range_match in re.finditer(day_word + r'\s*[-–]\s*' + day_word, schedule_lower):
         start_idx = abbrev_to_idx[range_match.group(1)]
         end_idx = abbrev_to_idx[range_match.group(2)]
         if start_idx <= end_idx:
-            days_found = [day_codes_ordered[i] for i in range(start_idx, end_idx + 1)]
-            result["day"] = ",".join(days_found)
+            span = range(start_idx, end_idx + 1)
+        else:
+            # Wrap-around range such as "Sat-Tue"
+            span = list(range(start_idx, 7)) + list(range(0, end_idx + 1))
+        for i in span:
+            if day_codes_ordered[i] not in days_found:
+                days_found.append(day_codes_ordered[i])
+        range_spans.append(range_match.span())
 
-    # Individual day matching (for "Tuesdays & Thursdays", "Tue/Thu")
-    if not days_found:
-        for day_name, day_code in sorted(day_map.items(), key=lambda x: -len(x[0])):
-            if re.search(r'\b' + re.escape(day_name) + r'\b', schedule_lower) and day_code not in days_found:
-                days_found.append(day_code)
-        if days_found:
-            result["day"] = ",".join(days_found)
+    # Individual day matching (for "Tuesdays & Thursdays", "Tue/Thu"), skipping
+    # day names already consumed by a range above.
+    for day_name, day_code in sorted(day_map.items(), key=lambda x: -len(x[0])):
+        if day_code in days_found:
+            continue
+        for match in re.finditer(r'\b' + re.escape(day_name) + r'\b', schedule_lower):
+            if any(s <= match.start() < e for s, e in range_spans):
+                continue
+            days_found.append(day_code)
+            break
+
+    if days_found:
+        # Keep a stable Mon-first ordering so output does not depend on dict order
+        days_found = [d for d in day_codes_ordered if d in days_found]
+        result["day"] = ",".join(days_found)
 
     ordinal_pattern = r"\b([1-5])(?:st|nd|rd|th)\b"
     ordinals = re.findall(ordinal_pattern, schedule_lower)
     if ordinals:
-        result["week_of_month"] = [int(o) for o in ordinals]
+        result["week_of_month"] = sorted({int(o) for o in ordinals})
 
     # "Last Sunday of each month", "Last Wednesday"
     if re.search(r'\blast\b', schedule_lower) and not ordinals:
@@ -208,7 +226,10 @@ def parse_schedule(schedule_str: str) -> dict:
     if re.search(r'every\s+other|bi-?weekly|alternate', schedule_lower):
         result["interval"] = 2
 
-    if "daily" in schedule_lower:
+    # "Daily 2-10pm" means every day, but only when no explicit days were given.
+    # Otherwise phrases like "Fri-Sun (check Facebook for daily schedule)" would
+    # be widened to all seven days.
+    if re.search(r'\bdaily\b', schedule_lower) and not result.get("day"):
         result["daily"] = True
         result["day"] = "MO,TU,WE,TH,FR,SA,SU"
 
@@ -265,53 +286,95 @@ def parse_schedule(schedule_str: str) -> dict:
     return result
 
 
-def parse_date_string(date_str: str) -> tuple[datetime | None, datetime | None]:
-    """Parse date strings into datetime objects."""
+MONTHS = {
+    "january": 1, "february": 2, "march": 3, "april": 4,
+    "may": 5, "june": 6, "july": 7, "august": 8,
+    "september": 9, "october": 10, "november": 11, "december": 12,
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "jun": 6, "jul": 7,
+    "aug": 8, "sept": 9, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
+}
+
+_MONTH_ALT = "|".join(sorted(MONTHS, key=len, reverse=True))
+
+
+def _resolve_year(explicit_year: int | None, month: int, day: int, today: date | None = None) -> int:
+    """Pick the year for a date that may not carry one.
+
+    When a year is written in the string it always wins. Otherwise assume the
+    next occurrence of that month/day: this year if it has not passed yet,
+    next year if it has. (Previously this always guessed next year, which put
+    every year-less date - and, because of a parsing gap, several dates that
+    *did* carry a year - twelve months into the future.)
+    """
+    if explicit_year:
+        return explicit_year
+    today = today or date.today()
+    try:
+        candidate = date(today.year, month, day)
+    except ValueError:  # e.g. Feb 29 in a non-leap year
+        return today.year
+    return today.year if candidate >= today else today.year + 1
+
+
+def parse_date_string(date_str: str, today: date | None = None) -> tuple[datetime | None, datetime | None]:
+    """Parse date strings into (start, end) datetimes.
+
+    Handles same-month ranges ("July 17-19, 2026"), cross-month ranges
+    ("May 22 - June 28, 2026"), month-to-month spans without days
+    ("June through August 2026"), and single dates.
+    """
     if not date_str:
         return None, None
 
-    current_year = datetime.now().year
-
-    months = {
-        "january": 1, "february": 2, "march": 3, "april": 4,
-        "may": 5, "june": 6, "july": 7, "august": 8,
-        "september": 9, "october": 10, "november": 11, "december": 12
-    }
-
     date_lower = date_str.lower()
 
-    range_pattern = r"(\w+)\s+(\d{1,2})\s*-\s*(\d{1,2}),?\s*(\d{4})?"
-    single_pattern = r"(\w+)\s+(\d{1,2}),?\s*(\d{4})?"
+    # An explicit four-digit year anywhere in the string applies to the whole range
+    year_match = re.search(r"\b(20\d{2})\b", date_lower)
+    explicit_year = int(year_match.group(1)) if year_match else None
 
-    range_match = re.search(range_pattern, date_lower)
-    if range_match:
-        month_name = range_match.group(1)
-        start_day = int(range_match.group(2))
-        end_day = int(range_match.group(3))
-        year = int(range_match.group(4)) if range_match.group(4) else current_year + 1
+    month_day = rf"({_MONTH_ALT})\s+(\d{{1,2}})\b"
+    dash = r"\s*(?:-|–|—|to|through|thru)\s*"
 
-        if month_name in months:
-            month = months[month_name]
-            try:
-                start_date = datetime(year, month, start_day)
-                end_date = datetime(year, month, end_day)
-                return start_date, end_date
-            except ValueError:
-                pass
+    # Cross-month range: "May 22 - June 28, 2026"
+    m = re.search(month_day + dash + month_day, date_lower)
+    if m:
+        start_month, start_day = MONTHS[m.group(1)], int(m.group(2))
+        end_month, end_day = MONTHS[m.group(3)], int(m.group(4))
+        year = _resolve_year(explicit_year, start_month, start_day, today)
+        end_year = year + 1 if end_month < start_month else year
+        try:
+            return datetime(year, start_month, start_day), datetime(end_year, end_month, end_day)
+        except ValueError:
+            pass
 
-    single_match = re.search(single_pattern, date_lower)
-    if single_match:
-        month_name = single_match.group(1)
-        day = int(single_match.group(2))
-        year = int(single_match.group(3)) if single_match.group(3) else current_year + 1
+    # Same-month range: "July 17-19, 2026", "December 15-31"
+    m = re.search(month_day + dash + r"(\d{1,2})\b", date_lower)
+    if m:
+        month, start_day, end_day = MONTHS[m.group(1)], int(m.group(2)), int(m.group(3))
+        year = _resolve_year(explicit_year, month, start_day, today)
+        try:
+            return datetime(year, month, start_day), datetime(year, month, end_day)
+        except ValueError:
+            pass
 
-        if month_name in months:
-            month = months[month_name]
-            try:
-                start_date = datetime(year, month, day)
-                return start_date, None
-            except ValueError:
-                pass
+    # Month-to-month span without days: "June through August 2026"
+    m = re.search(rf"\b({_MONTH_ALT})\b{dash}\b({_MONTH_ALT})\b", date_lower)
+    if m:
+        start_month, end_month = MONTHS[m.group(1)], MONTHS[m.group(2)]
+        year = _resolve_year(explicit_year, start_month, 1, today)
+        end_year = year + 1 if end_month < start_month else year
+        last_day = calendar.monthrange(end_year, end_month)[1]
+        return datetime(year, start_month, 1), datetime(end_year, end_month, last_day)
+
+    # Single date: "June 6, 2026"
+    m = re.search(month_day, date_lower)
+    if m:
+        month, day = MONTHS[m.group(1)], int(m.group(2))
+        year = _resolve_year(explicit_year, month, day, today)
+        try:
+            return datetime(year, month, day), None
+        except ValueError:
+            pass
 
     return None, None
 
@@ -496,6 +559,84 @@ def create_vevent(
     return "\r\n".join(lines)
 
 
+WEEKDAY_INDEX = {"MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5, "SU": 6}
+
+
+def _first_weekly_occurrence(base_date: datetime, days: list[str]) -> datetime | None:
+    """Earliest date on or after base_date falling on one of the given weekdays."""
+    offsets = []
+    for day in days:
+        target = WEEKDAY_INDEX.get(day)
+        if target is None:
+            continue
+        offsets.append((target - base_date.weekday()) % 7)
+    if not offsets:
+        return None
+    return base_date + timedelta(days=min(offsets))
+
+
+def _nth_weekday_of_month(year: int, month: int, weekday: int, nth: int) -> date | None:
+    """Date of the nth (1-5, or -1 for last) given weekday in a month."""
+    days_in_month = calendar.monthrange(year, month)[1]
+    matches = [
+        day for day in range(1, days_in_month + 1)
+        if date(year, month, day).weekday() == weekday
+    ]
+    try:
+        return date(year, month, matches[nth - 1 if nth > 0 else nth])
+    except IndexError:
+        return None
+
+
+def _first_monthly_occurrence(
+    base_date: datetime, days: list[str], weeks: list[int]
+) -> datetime | None:
+    """Earliest date on or after base_date matching any (week, weekday) pair.
+
+    DTSTART must itself be a valid occurrence of the RRULE, otherwise calendar
+    clients render an extra event on the DTSTART date. Walking forward month by
+    month guarantees that; simply advancing to the next matching weekday does not.
+    """
+    year, month = base_date.year, base_date.month
+    for _ in range(14):  # a year plus slack covers 5th-week rules that skip months
+        candidates = []
+        for day in days:
+            weekday = WEEKDAY_INDEX.get(day)
+            if weekday is None:
+                continue
+            for nth in weeks:
+                found = _nth_weekday_of_month(year, month, weekday, nth)
+                if found and found >= base_date.date():
+                    candidates.append(found)
+        if candidates:
+            best = min(candidates)
+            return datetime(best.year, best.month, best.day)
+        month += 1
+        if month > 12:
+            month, year = 1, year + 1
+    return None
+
+
+def _pacific_utc_offset(dt: datetime) -> int:
+    """Hours to add to Pacific local time to get UTC (7 during PDT, 8 during PST).
+
+    Implements the US rule the generated VTIMEZONE already declares - DST runs
+    from the second Sunday in March to the first Sunday in November - so the
+    result does not depend on the tzdata package being installed.
+    """
+    dst_start = _nth_weekday_of_month(dt.year, 3, 6, 2)   # 2nd Sunday in March
+    dst_end = _nth_weekday_of_month(dt.year, 11, 6, 1)    # 1st Sunday in November
+    if dst_start and dst_end and dst_start <= dt.date() < dst_end:
+        return 7
+    return 8
+
+
+def _local_end_of_day_utc(day: datetime) -> str:
+    """Format 23:59:59 Pacific on the given day as a UTC iCalendar timestamp."""
+    local_end = day.replace(hour=23, minute=59, second=59, microsecond=0)
+    return (local_end + timedelta(hours=_pacific_utc_offset(local_end))).strftime("%Y%m%dT%H%M%SZ")
+
+
 def build_recurring_event(
     schedule: dict,
     entry: dict,
@@ -512,25 +653,24 @@ def build_recurring_event(
     if not (schedule.get("day") and schedule.get("start_time")):
         return None
 
-    rrule_parts = [f"FREQ=WEEKLY;BYDAY={schedule['day']}"]
+    days = schedule["day"].split(",")
+
+    # Monthly rules use the "1WE"/"-1SU" BYDAY form rather than BYDAY + BYSETPOS.
+    # BYSETPOS picks the Nth item out of the *combined* set, so "1st Tuesday and
+    # 1st Saturday" written as BYDAY=TU,SA;BYSETPOS=1 collapses to whichever of
+    # the two falls first in the month. Prefixed BYDAY values say what is meant.
     if schedule.get("last_of_month"):
-        rrule_parts = [f"FREQ=MONTHLY;BYDAY={schedule['day']};BYSETPOS=-1"]
+        byday = ",".join(f"-1{d}" for d in days)
+        rrule_parts = [f"FREQ=MONTHLY;BYDAY={byday}"]
     elif schedule.get("week_of_month"):
         weeks = schedule["week_of_month"]
-        rrule_parts = [f"FREQ=MONTHLY;BYDAY={schedule['day']};BYSETPOS={','.join(map(str, weeks))}"]
+        byday = ",".join(f"{w}{d}" for d in days for w in weeks)
+        rrule_parts = [f"FREQ=MONTHLY;BYDAY={byday}"]
+    else:
+        rrule_parts = [f"FREQ=WEEKLY;BYDAY={schedule['day']}"]
 
     if schedule.get("interval") and schedule["interval"] > 1:
         rrule_parts.append(f"INTERVAL={schedule['interval']}")
-
-    schedule_end = entry.get("schedule_end_date")
-    if schedule_end:
-        if isinstance(schedule_end, str):
-            end_date = datetime.strptime(schedule_end, "%Y-%m-%d")
-        else:
-            end_date = datetime(schedule_end.year, schedule_end.month, schedule_end.day)
-        rrule_parts.append(f"UNTIL={end_date.strftime('%Y%m%dT235959')}")
-
-    rrule = ";".join(rrule_parts)
 
     schedule_start = entry.get("schedule_start_date")
     if schedule_start:
@@ -540,24 +680,45 @@ def build_recurring_event(
             base_date = datetime(schedule_start.year, schedule_start.month, schedule_start.day)
     else:
         base_date = datetime.now()
+    base_date = base_date.replace(hour=0, minute=0, second=0, microsecond=0)
 
-    day_map = {"SU": 6, "MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5}
-    first_day = schedule["day"].split(",")[0] if "," in schedule["day"] else schedule["day"]
-    target_day = day_map.get(first_day, 0)
-    days_ahead = target_day - base_date.weekday()
-    if days_ahead < 0:
-        days_ahead += 7
-    next_occurrence = base_date + timedelta(days=days_ahead)
+    if schedule.get("last_of_month"):
+        first_occurrence = _first_monthly_occurrence(base_date, days, [-1])
+    elif schedule.get("week_of_month"):
+        first_occurrence = _first_monthly_occurrence(base_date, days, schedule["week_of_month"])
+    else:
+        first_occurrence = _first_weekly_occurrence(base_date, days)
+
+    if first_occurrence is None:
+        return None
+
+    schedule_end = entry.get("schedule_end_date")
+    if schedule_end:
+        if isinstance(schedule_end, str):
+            end_date = datetime.strptime(schedule_end, "%Y-%m-%d")
+        else:
+            end_date = datetime(schedule_end.year, schedule_end.month, schedule_end.day)
+        if end_date.date() < first_occurrence.date():
+            # The window has closed - emitting the event would put a stale
+            # occurrence on the subscriber's calendar with an UNTIL in the past.
+            return None
+        # RFC 5545: when DTSTART carries a TZID, UNTIL must be a UTC timestamp.
+        rrule_parts.append(f"UNTIL={_local_end_of_day_utc(end_date)}")
+
+    rrule = ";".join(rrule_parts)
 
     start_time = schedule["start_time"].split(":")
     end_time = schedule["end_time"].split(":") if schedule.get("end_time") else start_time
 
-    dtstart = next_occurrence.replace(
+    dtstart = first_occurrence.replace(
         hour=int(start_time[0]), minute=int(start_time[1]), second=0, microsecond=0
     )
-    dtend = next_occurrence.replace(
+    dtend = first_occurrence.replace(
         hour=int(end_time[0]), minute=int(end_time[1]), second=0, microsecond=0
     )
+    if dtend <= dtstart:
+        # Overnight session such as "12-12am" (noon to midnight)
+        dtend += timedelta(days=1)
 
     return create_vevent(
         uid=uid,
@@ -579,14 +740,43 @@ _warned_schedules = set()
 def _make_date_event(
     date_str: str, entry_id: str, name: str, description: str,
     html_desc: str, address: str, website: str, category: str, platform: str,
+    times: dict | None = None, uid_suffix: str = "",
 ) -> str | None:
-    """Create an all-day VEVENT from a date string. Returns None if unparseable."""
+    """Create a VEVENT from a date string.
+
+    All-day by default. When `times` carries a parsed start/end time (from a
+    program's `schedule`), a timed single-day event is produced instead.
+    """
     start_date, end_date = parse_date_string(date_str)
     if not start_date:
         return None
     end = end_date if end_date else start_date
+    uid = generate_uid(entry_id, uid_suffix + start_date.strftime("%Y%m%d"))
+
+    if times and times.get("start_time") and start_date == end:
+        start_h, start_m = (int(x) for x in times["start_time"].split(":"))
+        end_h, end_m = (
+            (int(x) for x in times["end_time"].split(":")) if times.get("end_time") else (start_h + 1, start_m)
+        )
+        dtstart = start_date.replace(hour=start_h, minute=start_m)
+        dtend = start_date.replace(hour=end_h, minute=end_m)
+        if dtend <= dtstart:
+            dtend += timedelta(days=1)
+        return create_vevent(
+            uid=uid,
+            summary=name,
+            description=description,
+            location=address,
+            dtstart=format_ical_date(dtstart),
+            dtend=format_ical_date(dtend),
+            url=website,
+            category=category,
+            platform=platform,
+            html_description=html_desc,
+        )
+
     return create_vevent(
-        uid=generate_uid(entry_id, start_date.strftime("%Y%m%d")),
+        uid=uid,
         summary=name,
         description=description,
         location=address,
@@ -605,6 +795,13 @@ def _warn_unparseable(key: str, schedule_str: str, label: str) -> None:
     if key not in _warned_schedules:
         _warned_schedules.add(key)
         print(f"  WARNING: unparseable schedule for {label}: \"{schedule_str}\"", file=sys.stderr)
+
+
+def is_closed(entry: dict) -> bool:
+    """True if the entry is recorded as permanently closed or discontinued."""
+    if str(entry.get("status", "")).upper() == "CLOSED":
+        return True
+    return any("❌" in str(flag) for flag in entry.get("flags", []) or [])
 
 
 def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
@@ -634,10 +831,31 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
     programs = entry.get("programs", [])
     if isinstance(programs, list):
         for program in programs:
-            if not isinstance(program, dict) or "schedule" not in program:
+            if not isinstance(program, dict):
                 continue
             program_name = program.get("name", name)
             full_name = f"{name}: {program_name}" if program_name != name else name
+
+            # Programs with fixed dates (a touring series, a season of one-offs)
+            program_dates = program.get("dates")
+            if program_dates:
+                description, html_desc = generate_event_description(entry, program)
+                times = parse_schedule(program.get("schedule", "")) if program.get("schedule") else None
+                date_items = [program_dates] if isinstance(program_dates, str) else program_dates
+                for date_item in date_items:
+                    if not isinstance(date_item, str):
+                        continue
+                    vevent = _make_date_event(
+                        date_item, entry_id, full_name, description, html_desc,
+                        program.get("location", address), website, category, platform,
+                        times=times, uid_suffix=f"{program_name}-",
+                    )
+                    if vevent:
+                        events.append(vevent)
+                continue
+
+            if "schedule" not in program:
+                continue
             schedule = parse_schedule(program.get("schedule", ""))
 
             if program.get("schedule") and not schedule.get("day"):
@@ -858,6 +1076,13 @@ def main():
     print(f"Loading sources from {sources_path}...")
     entries = load_sources(sources_path)
     print(f"Loaded {len(entries)} entries")
+
+    # Permanently closed resources stay in sources.yaml as a record, but must not
+    # be published to calendars, the map, or the resources directory.
+    closed = [e for e in entries if is_closed(e)]
+    if closed:
+        entries = [e for e in entries if not is_closed(e)]
+        print(f"Excluding {len(closed)} closed entries: {', '.join(e.get('id', '?') for e in closed)}")
 
     # Filter by category if specified
     if args.category:

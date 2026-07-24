@@ -25,9 +25,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:d749c957e9a0991a@portlandresources.org
-DTSTAMP:20260511T220014Z
-DTSTART;TZID=America/Los_Angeles:20260512T170000
-DTEND;TZID=America/Los_Angeles:20260512T213000
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260728T170000
+DTEND;TZID=America/Los_Angeles:20260728T213000
 SUMMARY:Portland Area Board Games Meetup: Tuesday Board Games
 DESCRIPTION:Category: Social Activities\nCost: FREE - just buy food/drink f
  rom venue\nInfo: 20-30 attendees typical. Games provided. All skill levels
@@ -43,9 +43,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c536863dc98ad10a@portlandresources.org
-DTSTAMP:20260511T220014Z
-DTSTART;TZID=America/Los_Angeles:20260513T170000
-DTEND;TZID=America/Los_Angeles:20260513T213000
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260729T170000
+DTEND;TZID=America/Los_Angeles:20260729T213000
 SUMMARY:Portland Area Board Games Meetup: Wednesday East Side Game Night
 DESCRIPTION:Category: Social Activities\nCost: FREE - just buy food/drink f
  rom venue\nInfo: Free weekly social for all levels. Games provided by the 
@@ -61,9 +61,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:22b230d60826a8b3@portlandresources.org
-DTSTAMP:20260511T220014Z
-DTSTART;TZID=America/Los_Angeles:20260513T083000
-DTEND;TZID=America/Los_Angeles:20260513T113000
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260729T083000
+DTEND;TZID=America/Los_Angeles:20260729T113000
 SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
 DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
  some low-cost\nInfo: Novice to advanced\; guidance for starters\nAddress: 
@@ -81,9 +81,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85f82cd177356b11@portlandresources.org
-DTSTAMP:20260511T220014Z
-DTSTART;TZID=America/Los_Angeles:20260511T160000
-DTEND;TZID=America/Los_Angeles:20260511T170000
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260727T160000
+DTEND;TZID=America/Los_Angeles:20260727T170000
 SUMMARY:Milwaukie Community Center: Tai Chi for Seniors
 DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
  some low-cost\nInfo: Gentle exercise for balance and wellness\nAddress: 54
@@ -101,9 +101,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:89444dc8c3fb77ee@portlandresources.org
-DTSTAMP:20260511T220014Z
-DTSTART;TZID=America/Los_Angeles:20260511T120000
-DTEND;TZID=America/Los_Angeles:20260511T123000
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260724T120000
+DTEND;TZID=America/Los_Angeles:20260724T123000
 SUMMARY:Milwaukie Community Center: Congregate Lunch
 DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
  some low-cost\nInfo: Social dining for older adults\nAddress: 5440 SE Kell
@@ -120,9 +120,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8961f5d05e61f6ab@portlandresources.org
-DTSTAMP:20260511T220014Z
-DTSTART;TZID=America/Los_Angeles:20260512T150000
-DTEND;TZID=America/Los_Angeles:20260512T170000
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260728T150000
+DTEND;TZID=America/Los_Angeles:20260728T170000
 SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
 DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nInfo: Drop-in 
  fiber arts session every Tuesday. Knit\, crochet\, or try other crafts whi
@@ -140,9 +140,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8569003d0f2e736e@portlandresources.org
-DTSTAMP:20260511T220014Z
-DTSTART;TZID=America/Los_Angeles:20260514T180000
-DTEND;TZID=America/Los_Angeles:20260514T203000
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260813T180000
+DTEND;TZID=America/Los_Angeles:20260813T203000
 SUMMARY:Puddletown Knitters Guild: Monthly Meeting
 DESCRIPTION:Category: Social Activities\nCost: FREE for first 2 visits\; me
  mbership $35/year\nInfo: Year-round. Doors open 6pm for social knitting\; 
@@ -154,15 +154,15 @@ X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Rose City Park Presbyterian Church (Fellowship Hall)\, 1907 NE 45t
  h Ave\, Portland\, OR 97213
 URL:https://www.puddletownknittersguild.com/
-RRULE:FREQ=MONTHLY;BYDAY=TH;BYSETPOS=2
+RRULE:FREQ=MONTHLY;BYDAY=2TH
 CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a46e449e668cab99@portlandresources.org
-DTSTAMP:20260511T220014Z
-DTSTART;TZID=America/Los_Angeles:20260512T080000
-DTEND;TZID=America/Los_Angeles:20260512T090000
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260728T080000
+DTEND;TZID=America/Los_Angeles:20260728T090000
 SUMMARY:Pioneer Community Center: Zumba
 DESCRIPTION:Category: Social Activities\nCost: Most services free or low-co
  st\nAddress: 615 5th Street\, Oregon City\, OR 97045\nPhone: 503-657-8287\
@@ -180,9 +180,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8e93e04951e560a1@portlandresources.org
-DTSTAMP:20260511T220014Z
-DTSTART;TZID=America/Los_Angeles:20260514T123000
-DTEND;TZID=America/Los_Angeles:20260514T140000
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260730T123000
+DTEND;TZID=America/Los_Angeles:20260730T140000
 SUMMARY:Pioneer Community Center: Bingo
 DESCRIPTION:Category: Social Activities\nCost: Most services free or low-co
  st\nInfo: Cards available for purchase starting at noon. Cards just 25 cen
@@ -200,10 +200,10 @@ CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ae8681a502d94534@portlandresources.org
-DTSTAMP:20260511T220014Z
-DTSTART;TZID=America/Los_Angeles:20260516T120000
-DTEND;TZID=America/Los_Angeles:20260516T150000
+UID:3432df74a675b19b@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260110T120000
+DTEND;TZID=America/Los_Angeles:20260110T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
 DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
   and most workshops are free. Bring broken items to be repaired by volunte
@@ -217,7 +217,525 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><H
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
-RRULE:FREQ=MONTHLY;BYDAY=SA;BYSETPOS=2
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:30ef4d659b56572a@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260214T120000
+DTEND;TZID=America/Los_Angeles:20260214T150000
+SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
+ lothing. Tool/knife sharpening and Kintsugi repair available. Registration
+  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
+  since 2013. Part of global Repair Café movement promoting sustainability 
+ and community connection. Great for learning basic repair skills. Contact 
+ 503-893-9656 or repairpdx@gmail.com.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ad18b3e73fb66aca@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260314T120000
+DTEND;TZID=America/Los_Angeles:20260314T150000
+SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
+ lothing. Tool/knife sharpening and Kintsugi repair available. Registration
+  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
+  since 2013. Part of global Repair Café movement promoting sustainability 
+ and community connection. Great for learning basic repair skills. Contact 
+ 503-893-9656 or repairpdx@gmail.com.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:422f98ef9fdb8fa3@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260411T120000
+DTEND;TZID=America/Los_Angeles:20260411T150000
+SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
+ lothing. Tool/knife sharpening and Kintsugi repair available. Registration
+  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
+  since 2013. Part of global Repair Café movement promoting sustainability 
+ and community connection. Great for learning basic repair skills. Contact 
+ 503-893-9656 or repairpdx@gmail.com.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:741454cf748389c6@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260509T120000
+DTEND;TZID=America/Los_Angeles:20260509T150000
+SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
+ lothing. Tool/knife sharpening and Kintsugi repair available. Registration
+  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
+  since 2013. Part of global Repair Café movement promoting sustainability 
+ and community connection. Great for learning basic repair skills. Contact 
+ 503-893-9656 or repairpdx@gmail.com.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d21e58f557816555@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260613T120000
+DTEND;TZID=America/Los_Angeles:20260613T150000
+SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
+ lothing. Tool/knife sharpening and Kintsugi repair available. Registration
+  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
+  since 2013. Part of global Repair Café movement promoting sustainability 
+ and community connection. Great for learning basic repair skills. Contact 
+ 503-893-9656 or repairpdx@gmail.com.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e63c0b84870ac3f5@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260711T120000
+DTEND;TZID=America/Los_Angeles:20260711T150000
+SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
+ lothing. Tool/knife sharpening and Kintsugi repair available. Registration
+  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
+  since 2013. Part of global Repair Café movement promoting sustainability 
+ and community connection. Great for learning basic repair skills. Contact 
+ 503-893-9656 or repairpdx@gmail.com.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:08f8dd88e4d82f7a@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260808T120000
+DTEND;TZID=America/Los_Angeles:20260808T150000
+SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
+ lothing. Tool/knife sharpening and Kintsugi repair available. Registration
+  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
+  since 2013. Part of global Repair Café movement promoting sustainability 
+ and community connection. Great for learning basic repair skills. Contact 
+ 503-893-9656 or repairpdx@gmail.com.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:05cb9bc450497075@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260912T120000
+DTEND;TZID=America/Los_Angeles:20260912T150000
+SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
+ lothing. Tool/knife sharpening and Kintsugi repair available. Registration
+  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
+  since 2013. Part of global Repair Café movement promoting sustainability 
+ and community connection. Great for learning basic repair skills. Contact 
+ 503-893-9656 or repairpdx@gmail.com.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:410d463b401e225e@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20261010T120000
+DTEND;TZID=America/Los_Angeles:20261010T150000
+SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
+ lothing. Tool/knife sharpening and Kintsugi repair available. Registration
+  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
+  since 2013. Part of global Repair Café movement promoting sustainability 
+ and community connection. Great for learning basic repair skills. Contact 
+ 503-893-9656 or repairpdx@gmail.com.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8897057cdba5424c@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20261114T120000
+DTEND;TZID=America/Los_Angeles:20261114T150000
+SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
+ lothing. Tool/knife sharpening and Kintsugi repair available. Registration
+  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
+  since 2013. Part of global Repair Café movement promoting sustainability 
+ and community connection. Great for learning basic repair skills. Contact 
+ 503-893-9656 or repairpdx@gmail.com.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c2fa95c1f1946f9e@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20261212T120000
+DTEND;TZID=America/Los_Angeles:20261212T150000
+SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
+ lothing. Tool/knife sharpening and Kintsugi repair available. Registration
+  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
+  since 2013. Part of global Repair Café movement promoting sustainability 
+ and community connection. Great for learning basic repair skills. Contact 
+ 503-893-9656 or repairpdx@gmail.com.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e64eb6b85bee52da@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260114T180000
+DTEND;TZID=America/Los_Angeles:20260114T200000
+SUMMARY:Repair PDX: Soldering for Home Electronics Repairs Workshop
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Learn basics of soldering for electronics r
+ epair. Check website for dates.\nWebsite: https://www.repairpdx.org\nDetai
+ ls: Operating since 2013. Part of global Repair Café movement promoting su
+ stainability and community connection. Great for learning basic repair ski
+ lls. Contact 503-893-9656 or repairpdx@gmail.com.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Learn basics of soldering for electronics repair. Check website for dates.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Leaven Community Center\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb6d9141ea768a8f@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260118T100000
+DTEND;TZID=America/Los_Angeles:20260118T130000
+SUMMARY:Repair PDX: Sashiko Mending Workshop
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Traditional Japanese embroidered mending te
+ chnique. Check website for dates.\nWebsite: https://www.repairpdx.org\nDet
+ ails: Operating since 2013. Part of global Repair Café movement promoting 
+ sustainability and community connection. Great for learning basic repair s
+ kills. Contact 503-893-9656 or repairpdx@gmail.com.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Traditional Japanese embroidered mending technique. Check website for dates.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Leaven Community Center\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:47ccfa6d4b581092@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260322T100000
+DTEND;TZID=America/Los_Angeles:20260322T130000
+SUMMARY:Repair PDX: Sashiko Mending Workshop
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Traditional Japanese embroidered mending te
+ chnique. Check website for dates.\nWebsite: https://www.repairpdx.org\nDet
+ ails: Operating since 2013. Part of global Repair Café movement promoting 
+ sustainability and community connection. Great for learning basic repair s
+ kills. Contact 503-893-9656 or repairpdx@gmail.com.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Traditional Japanese embroidered mending technique. Check website for dates.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Leaven Community Center\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c81962a1bd7d2482@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260330T180000
+DTEND;TZID=America/Los_Angeles:20260330T200000
+SUMMARY:Repair PDX: Mend With Embroidery Workshop
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
+  and most workshops are free. Bring broken items to be repaired by volunte
+ ers.\nFormat: In-person\nInfo: Learn embroidery techniques for mending clo
+ thing. Check website/Eventbrite for dates.\nWebsite: https://www.repairpdx
+ .org\nDetails: Operating since 2013. Part of global Repair Café movement p
+ romoting sustainability and community connection. Great for learning basic
+  repair skills. Contact 503-893-9656 or repairpdx@gmail.com.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><em>All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.</em></p><p><strong>Format:</strong> In-person</p><p>Learn embroidery techniques for mending clothing. Check website/Eventbrite for dates.</p><p><strong>Website:</strong> <a href="https://www.repairpdx.org">https://www.repairpdx.org</a></p><p><strong>Details:</strong> Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Leaven Community Center\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:624f2b20731fcb70@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260228T100000
+DTEND;TZID=America/Los_Angeles:20260228T130000
+SUMMARY:Clackamas County Repair Fairs: Repair Fair - West Linn
+DESCRIPTION:Category: Social Activities\nCost: FREE\nWebsite: https://www.c
+ lackamas.us/recycling/repairfair\nDetails: Clackamas County repair fair se
+ ries rotating through libraries and community centers. Check clackamas.us/
+ recycling/repairfair for latest schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="https://www.clackamas.us/recycling/repairfair">https://www.clackamas.us/recycling/repairfair</a></p><p><strong>Details:</strong> Clackamas County repair fair series rotating through libraries and community centers. Check clackamas.us/recycling/repairfair for latest schedule.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Robinwood Station Community Center\, 3706 Cedar Oak Dr\, West Linn
+ \, OR 97068
+URL:https://www.clackamas.us/recycling/repairfair
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3f3149a6fa9bdf22@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260314T100000
+DTEND;TZID=America/Los_Angeles:20260314T130000
+SUMMARY:Clackamas County Repair Fairs: Repair Fair - Oak Grove/Milwaukie
+DESCRIPTION:Category: Social Activities\nCost: FREE\nWebsite: https://www.c
+ lackamas.us/recycling/repairfair\nDetails: Clackamas County repair fair se
+ ries rotating through libraries and community centers. Check clackamas.us/
+ recycling/repairfair for latest schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="https://www.clackamas.us/recycling/repairfair">https://www.clackamas.us/recycling/repairfair</a></p><p><strong>Details:</strong> Clackamas County repair fair series rotating through libraries and community centers. Check clackamas.us/recycling/repairfair for latest schedule.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Oak Lodge Library\, 3783 SE Concord Rd\, Oak Grove\, OR
+URL:https://www.clackamas.us/recycling/repairfair
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:49b50bb9a25b3c3c@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260404T130000
+DTEND;TZID=America/Los_Angeles:20260404T160000
+SUMMARY:Clackamas County Repair Fairs: Repair Fair - Gladstone
+DESCRIPTION:Category: Social Activities\nCost: FREE\nWebsite: https://www.c
+ lackamas.us/recycling/repairfair\nDetails: Clackamas County repair fair se
+ ries rotating through libraries and community centers. Check clackamas.us/
+ recycling/repairfair for latest schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="https://www.clackamas.us/recycling/repairfair">https://www.clackamas.us/recycling/repairfair</a></p><p><strong>Details:</strong> Clackamas County repair fair series rotating through libraries and community centers. Check clackamas.us/recycling/repairfair for latest schedule.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Gladstone Library\, 525 Portland Ave\, Gladstone\, OR
+URL:https://www.clackamas.us/recycling/repairfair
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:757e1433fd2efe49@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260418T100000
+DTEND;TZID=America/Los_Angeles:20260418T130000
+SUMMARY:Clackamas County Repair Fairs: Repair Fair - Happy Valley
+DESCRIPTION:Category: Social Activities\nCost: FREE\nWebsite: https://www.c
+ lackamas.us/recycling/repairfair\nDetails: Clackamas County repair fair se
+ ries rotating through libraries and community centers. Check clackamas.us/
+ recycling/repairfair for latest schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="https://www.clackamas.us/recycling/repairfair">https://www.clackamas.us/recycling/repairfair</a></p><p><strong>Details:</strong> Clackamas County repair fair series rotating through libraries and community centers. Check clackamas.us/recycling/repairfair for latest schedule.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Happy Valley Library\, 13793 SE Sieben Park Way\, Happy Valley\, O
+ R
+URL:https://www.clackamas.us/recycling/repairfair
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:17b6b256361be7b2@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260516T100000
+DTEND;TZID=America/Los_Angeles:20260516T130000
+SUMMARY:Clackamas County Repair Fairs: Repair Fair - Lake Oswego
+DESCRIPTION:Category: Social Activities\nCost: FREE\nWebsite: https://www.c
+ lackamas.us/recycling/repairfair\nDetails: Clackamas County repair fair se
+ ries rotating through libraries and community centers. Check clackamas.us/
+ recycling/repairfair for latest schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="https://www.clackamas.us/recycling/repairfair">https://www.clackamas.us/recycling/repairfair</a></p><p><strong>Details:</strong> Clackamas County repair fair series rotating through libraries and community centers. Check clackamas.us/recycling/repairfair for latest schedule.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Lake Oswego Adult Community Center\, 505 G Ave\, Lake Oswego\, OR
+URL:https://www.clackamas.us/recycling/repairfair
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5ea56ad8448c7f9b@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260530T100000
+DTEND;TZID=America/Los_Angeles:20260530T130000
+SUMMARY:Clackamas County Repair Fairs: Repair Fair - Wilsonville
+DESCRIPTION:Category: Social Activities\nCost: FREE\nWebsite: https://www.c
+ lackamas.us/recycling/repairfair\nDetails: Clackamas County repair fair se
+ ries rotating through libraries and community centers. Check clackamas.us/
+ recycling/repairfair for latest schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="https://www.clackamas.us/recycling/repairfair">https://www.clackamas.us/recycling/repairfair</a></p><p><strong>Details:</strong> Clackamas County repair fair series rotating through libraries and community centers. Check clackamas.us/recycling/repairfair for latest schedule.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Wilsonville Public Library\, 8200 SW Wilsonville Rd\, Wilsonville\
+ , OR
+URL:https://www.clackamas.us/recycling/repairfair
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3d404f0c1dc7c855@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260613T100000
+DTEND;TZID=America/Los_Angeles:20260613T130000
+SUMMARY:Clackamas County Repair Fairs: Repair Fair - Sandy
+DESCRIPTION:Category: Social Activities\nCost: FREE\nWebsite: https://www.c
+ lackamas.us/recycling/repairfair\nDetails: Clackamas County repair fair se
+ ries rotating through libraries and community centers. Check clackamas.us/
+ recycling/repairfair for latest schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="https://www.clackamas.us/recycling/repairfair">https://www.clackamas.us/recycling/repairfair</a></p><p><strong>Details:</strong> Clackamas County repair fair series rotating through libraries and community centers. Check clackamas.us/recycling/repairfair for latest schedule.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Sandy\, OR (venue TBD - check clackamas.us/recycling/repairfair)
+URL:https://www.clackamas.us/recycling/repairfair
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9ee4409b09b3caa6@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260718T100000
+DTEND;TZID=America/Los_Angeles:20260718T130000
+SUMMARY:Clackamas County Repair Fairs: Repair Fair - Canby
+DESCRIPTION:Category: Social Activities\nCost: FREE\nWebsite: https://www.c
+ lackamas.us/recycling/repairfair\nDetails: Clackamas County repair fair se
+ ries rotating through libraries and community centers. Check clackamas.us/
+ recycling/repairfair for latest schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="https://www.clackamas.us/recycling/repairfair">https://www.clackamas.us/recycling/repairfair</a></p><p><strong>Details:</strong> Clackamas County repair fair series rotating through libraries and community centers. Check clackamas.us/recycling/repairfair for latest schedule.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Canby Public Library\, 220 NE 2nd Ave\, Canby\, OR
+URL:https://www.clackamas.us/recycling/repairfair
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dca1f49eebde20b3@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260808T110000
+DTEND;TZID=America/Los_Angeles:20260808T140000
+SUMMARY:Clackamas County Repair Fairs: Repair Fair - Estacada
+DESCRIPTION:Category: Social Activities\nCost: FREE\nWebsite: https://www.c
+ lackamas.us/recycling/repairfair\nDetails: Clackamas County repair fair se
+ ries rotating through libraries and community centers. Check clackamas.us/
+ recycling/repairfair for latest schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="https://www.clackamas.us/recycling/repairfair">https://www.clackamas.us/recycling/repairfair</a></p><p><strong>Details:</strong> Clackamas County repair fair series rotating through libraries and community centers. Check clackamas.us/recycling/repairfair for latest schedule.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Estacada Library\, 825 NW Wade St\, Estacada\, OR
+URL:https://www.clackamas.us/recycling/repairfair
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8342ee4af0164666@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20260919T100000
+DTEND;TZID=America/Los_Angeles:20260919T140000
+SUMMARY:Clackamas County Repair Fairs: Milwaukie Sustainability Fair
+DESCRIPTION:Category: Social Activities\nCost: FREE\nWebsite: https://www.c
+ lackamas.us/recycling/repairfair\nDetails: Clackamas County repair fair se
+ ries rotating through libraries and community centers. Check clackamas.us/
+ recycling/repairfair for latest schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="https://www.clackamas.us/recycling/repairfair">https://www.clackamas.us/recycling/repairfair</a></p><p><strong>Details:</strong> Clackamas County repair fair series rotating through libraries and community centers. Check clackamas.us/recycling/repairfair for latest schedule.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:10723 SE Main St\, Milwaukie\, OR
+URL:https://www.clackamas.us/recycling/repairfair
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8b15f94e3f55e9c2@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20261024T100000
+DTEND;TZID=America/Los_Angeles:20261024T130000
+SUMMARY:Clackamas County Repair Fairs: Repair Fair - Oregon City
+DESCRIPTION:Category: Social Activities\nCost: FREE\nWebsite: https://www.c
+ lackamas.us/recycling/repairfair\nDetails: Clackamas County repair fair se
+ ries rotating through libraries and community centers. Check clackamas.us/
+ recycling/repairfair for latest schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="https://www.clackamas.us/recycling/repairfair">https://www.clackamas.us/recycling/repairfair</a></p><p><strong>Details:</strong> Clackamas County repair fair series rotating through libraries and community centers. Check clackamas.us/recycling/repairfair for latest schedule.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Oregon City Public Library\, 606 John Adams St\, Oregon City\, OR
+URL:https://www.clackamas.us/recycling/repairfair
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:551f37e6feb55818@portlandresources.org
+DTSTAMP:20260724T175500Z
+DTSTART;TZID=America/Los_Angeles:20261107T100000
+DTEND;TZID=America/Los_Angeles:20261107T130000
+SUMMARY:Clackamas County Repair Fairs: Repair Fair - Clackamas Community Co
+ llege
+DESCRIPTION:Category: Social Activities\nCost: FREE\nWebsite: https://www.c
+ lackamas.us/recycling/repairfair\nDetails: Clackamas County repair fair se
+ ries rotating through libraries and community centers. Check clackamas.us/
+ recycling/repairfair for latest schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> FREE</p><p><strong>Website:</strong> <a href="https://www.clackamas.us/recycling/repairfair">https://www.clackamas.us/recycling/repairfair</a></p><p><strong>Details:</strong> Clackamas County repair fair series rotating through libraries and community centers. Check clackamas.us/recycling/repairfair for latest schedule.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Clackamas Community College\, 19600 Molalla Ave\, Oregon City\, OR
+URL:https://www.clackamas.us/recycling/repairfair
 CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT

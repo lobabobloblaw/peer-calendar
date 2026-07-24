@@ -15,7 +15,7 @@ import re
 from pathlib import Path
 
 from utils import load_sources
-from generate_calendar import parse_schedule
+from generate_calendar import parse_date_string, parse_schedule
 
 # Schedules matching these patterns are intentionally vague and should not
 # block CI. They represent entries where the exact schedule is unknown or
@@ -59,7 +59,7 @@ def is_vague_schedule(schedule: str) -> bool:
 
 
 def validate_schedules(sources_path: str) -> int:
-    """Validate all schedule strings and report issues.
+    """Validate all schedule and date strings and report issues.
 
     Returns the number of unexpected (non-vague) issues found.
     Vague schedules are reported as info but don't count as failures.
@@ -69,6 +69,22 @@ def validate_schedules(sources_path: str) -> int:
     vague_count = 0
     incomplete_count = 0
     checked = 0
+
+    def check_dates(dates_value, label):
+        """Every `dates` string must parse, or the event silently disappears."""
+        nonlocal hard_issues, checked
+        items = [dates_value] if isinstance(dates_value, str) else dates_value
+        if not isinstance(items, list):
+            return
+        for item in items:
+            if not isinstance(item, str):
+                continue
+            checked += 1
+            start, _ = parse_date_string(item)
+            if start is None:
+                hard_issues += 1
+                print(f"  [FAIL] {label}: unparseable date")
+                print(f"    Dates: \"{item}\"")
 
     def check_schedule(schedule_str, label):
         nonlocal hard_issues, vague_count, incomplete_count
@@ -101,18 +117,26 @@ def validate_schedules(sources_path: str) -> int:
     for entry in entries:
         entry_id = entry.get("id", "unknown")
 
-        schedule = entry.get("schedule")
-        if schedule:
-            checked += 1
-            check_schedule(schedule, entry_id)
+        if entry.get("dates"):
+            check_dates(entry["dates"], entry_id)
+        else:
+            schedule = entry.get("schedule")
+            if schedule:
+                checked += 1
+                check_schedule(schedule, entry_id)
 
         for prog in entry.get("programs", []):
             if not isinstance(prog, dict):
                 continue
+            prog_name = prog.get("name", "unnamed program")
+            # When a program pins specific dates, its `schedule` is only the
+            # time of day - there is no weekday to detect.
+            if prog.get("dates"):
+                check_dates(prog["dates"], f"{entry_id} > {prog_name}")
+                continue
             prog_schedule = prog.get("schedule")
             if prog_schedule:
                 checked += 1
-                prog_name = prog.get("name", "unnamed program")
                 check_schedule(prog_schedule, f"{entry_id} > {prog_name}")
 
     print(f"\nSchedule validation: {checked} checked, {hard_issues} failures, "

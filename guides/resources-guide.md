@@ -2,7 +2,7 @@
 
 A comprehensive guide to free and affordable activities, services, and resources in the Portland metro area, with special attention to accessibility and mental health support.
 
-*Generated from verified data on April 15, 2026. 266 active resources across 9 categories.*
+*Generated from verified data on July 24, 2026. 266 active resources across 9 categories.*
 
 ## Contents
 
@@ -274,7 +274,7 @@ Peer-facilitated support groups since 2005. Typical attendance 10-25 people. Thr
 
 ### FolkTime Peer Connection Centers
 
-- **Phone:** 503-709-2450
+- **Phone:** 503-238-6428
 - **Website:** https://folktime.org
 - **Cost:** FREE ($1 suggested donation for lunch)
 
@@ -331,7 +331,7 @@ Free grief support in a beautiful, peaceful setting. The monthly Community Grief
 
 Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.
 
-**What to know:** Spanish-speaking group available. Women's group meets in-person in Milwaukie. New creative support group in Oregon City. All peer-led.
+**What to know:** Spanish-speaking group available. Women's group meets in-person in Milwaukie. Art with Heart creative group in Oregon City. Post Release group in Happy Valley. Game-based virtual group (Gather for Games). All peer-led. Affiliated groups include Suicide Bereavement and Compassionate Friends (grief).
 
 **First visit:** Call or email to register for your first meeting
 
@@ -348,8 +348,8 @@ Registration required for most groups. All groups free and peer-led by trained v
   *For: Women*
 - **NAMI Family Support Group:** 1st & 3rd Mondays, 6:30-8pm | Virtual (Zoom)
   For anyone who cares about someone with mental health condition. ⚠️ VERIFY schedule by phone (sourced from NAMI Oregon directory)
-- **Creative Support Group:** 2nd & 4th Thursdays | Oregon City (in-person, address provided upon registration)
-  Creative arts peer support group. Started January 2026.
+- **Art with Heart (Creative Support Group):** 2nd & 4th Thursdays | Oregon City (in-person, address provided upon registration)
+  Creative arts peer support group. Started January 2026. Listed as "Art with Heart" on website.
 - **NAMI Clackamas Conexion (Spanish-Speaking Support Group):** Every Wednesday, 7-8:30pm | Virtual (Zoom)
   Peer-led for Spanish-speaking adults with mental health conditions. Confirmed via NAMI Oregon directory.
   *For: Spanish-speaking*
@@ -357,10 +357,16 @@ Registration required for most groups. All groups free and peer-led by trained v
   Joint program with NAMI Multnomah - weekly for adults 18+. ⚠️ VERIFY schedule by phone
   *For: LGBTQ+*
 - **BIPOC Support Group:** 1st & 3rd Thursdays, 7-8:30pm | Virtual (Zoom)
-  Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIFY by phone before publishing
+  Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIFY by phone — not visible on namicc.org support groups page as of April 2026. Call 503-344-5050 to confirm still active.
   *For: BIPOC*
-- **Suicide Bereavement Support Group**
-  Hosted by NAMI Clackamas for those bereaved by suicide. ⚠️ VERIFY schedule by phone (not found online)
+- **Suicide Bereavement Support Group:** Online 1st Tuesday & 2nd/4th Wednesdays; In-person 4th Sunday | Both virtual and in-person | In-person at NAMI Clackamas office (10202 SE 32nd Ave, Suite 501, Milwaukie)
+  Affiliated group (vetted but non-NAMI). Support for those bereaved by suicide. No registration required for in-person.
+- **Post Release Support Group:** Sundays (afternoons, times vary) | Happy Valley (in-person)
+  For previously incarcerated individuals. Contact NAMI Clackamas for details.
+- **Gather for Games:** Virtual (Zoom)
+  Game-based social and wellness gathering. Times vary — register via website.
+- **Compassionate Friends:** 4th Tuesday, 7pm | NAMI Clackamas office (10202 SE 32nd Ave, Suite 501, Milwaukie)
+  Affiliated grief support group. No registration required.
 
 *Structured group · Anxiety-friendly, Good for isolation, Grief support, Indoor · Near transit*
 
@@ -998,7 +1004,7 @@ One of five PP&R community centers where TeenForce pass provides free access. Mu
 - **Swim Lessons**
   5 or 10-week sessions, registration required
 
-**Features:** Fitness center with selectorized strength, treadmills, wheelchair treadmill, Indoor pool with whirlpool spa (⚠️ TEMPORARILY CLOSED - mechanical issues as of Mar 2026), Water fitness classes, Group fitness classes daily, Open gym, Play swims
+**Features:** Fitness center with selectorized strength, treadmills, wheelchair treadmill, Indoor pool with whirlpool spa, Water fitness classes, Group fitness classes daily, Open gym, Play swims (swimmers under 14 require direct supervision by adult 18+, per Oregon pool code effective Feb 2, 2026)
 
 *Casual group · Active/physical, Indoor, Family-friendly · Wheelchair accessible, Near transit*
 
@@ -1062,7 +1068,7 @@ Fat-positive, inclusive hiking group founded in Portland. Welcoming to all body 
 
 1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court.
 
-**What to know:** 1980s-themed indoor mall walking led by Vera Mysteria. 3.5 mile route (2 laps, ~90 minutes). Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks at food court. Groups of 70+ regular attendees. Very welcoming and fun community.
+**What to know:** 1980s-themed indoor mall walking led by Vera Mysteria. 5K / 3.1 mile route (2 laps, ~90 minutes). Meet at food court on 3rd floor above ice rink. Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks at food court. Groups of 70+ regular attendees. Very welcoming and fun community.
 
 **First visit:** Meet at Lloyd Center mall entrance, Sundays at 11am. Look for the group in colorful 80s attire!
 
@@ -1609,18 +1615,20 @@ Inclusive nonprofit gym focused on serving women, BIPOC, LGBTQ+, trans/nonbinary
 - **Cost:** FREE for Gresham residents on specific days. Includes rental shoes; chalk sold separately
 - **Hours:** Mon/Wed/Fri/Sat 9am-9pm; Tue/Thu 6am-10pm; Sun 9am-7pm
 
-**What to know:** Free Friday Climbing (1st Friday 5-9pm) is free for SNAP/EBT holders, $5 for other Gresham residents. Teen Nights (1st & 3rd Saturdays 6-9pm) free for ages 13-18. May ask for ID to verify residency.
+**What to know:** Three free programs for Gresham residents - 1st Friday Community Climb (5-9pm, free for SNAP/EBT or $5 suggested donation), 1st & 3rd Wednesday all-day climb (9am-9pm, free), and 1st & 3rd Saturday Teen Nights (6-9pm, ages 13-18). May ask for ID to verify residency.
 
 **First visit:** Just show up during free climb times - no reservation needed. Complete waiver online or on-site.
 
 **Registration:** Waiver required (available online or on-site). Minors need guardian signature.
 
-**What to bring:** Comfortable clothes. Rental shoes included free.
+**What to bring:** Comfortable clothes and photo ID for residency verification. Rental shoes and chalk included.
 
 **Programs:**
 
-- **Community Climbing Day:** 1st Friday 5-9pm | FREE for Gresham residents with SNAP/EBT, $5 for other Gresham residents
-  Includes rental shoes; pre-register at rockhavenclimbing.com/first-visit
+- **Community Climb (Friday):** 1st Friday 5-9pm | FREE for SNAP/EBT holders, $5 suggested donation for other Gresham/Rockwood residents
+  Includes rental shoes & chalk; bring photo ID for verification
+- **Community Climb (Wednesday):** 1st & 3rd Wednesday 9am-9pm | FREE for Gresham residents
+  Day pass includes rental shoes and chalk
 - **Teen Nights:** 1st & 3rd Saturdays 6-9pm | FREE
 
 *Casual group · Active/physical, Indoor, Newcomer-friendly · For: Teens (13-17) · Wheelchair accessible*
@@ -1743,7 +1751,7 @@ Community-supported yoga studio with scholarship memberships funded by other mem
 - **Phone:** 503-645-6433
 - **Website:** https://www.thprd.org/fitness-in-the-park
 - **Cost:** FREE
-- **Season:** Year-round (Winter/Spring 2026: January 12 - March 22)
+- **Season:** Year-round; session schedules change each term (Winter/Spring 2026 ran January 12 - March 22)
 - **Eligibility:** All ages (varies by class)
 
 Free fitness classes in Washington County parks. Focus on environmental justice areas to reduce barriers to access.
@@ -1753,6 +1761,19 @@ Free fitness classes in Washington County parks. Focus on environmental justice 
 **First visit:** Classes are drop-in, no registration needed
 
 **What to bring:** Comfortable clothes, water
+
+**Programs:**
+
+- **Tai Chi at The Opal:** Mondays 4-5pm | The Opal
+- **Chair Yoga at Virginia Garcia Wellness Center:** Tuesdays 10:30-11:30am | Virginia Garcia Wellness Center
+- **Chair Fitness at The Barcelona:** Tuesdays 2:30-3:30pm | The Barcelona
+- **Zumba at Virginia Garcia Wellness Center:** Tuesdays 5:30-6:30pm | Virginia Garcia Wellness Center
+- **Tai Chi at Tallac Terrace:** Saturdays 11am-noon | Tallac Terrace
+- **Zumba at HMT Softball Concessions:** Sundays 11am-noon | HMT Softball Concessions
+- **Sweetheart Stroll:** 10-11:30am | Commonwealth Park
+  1.5-mile accessible walk
+- **Women's Wellness Fair:** 11am-1pm | Cedar Hills Recreation Center
+- **National Senior Health & Fitness Day:** Elsie Stuhr Center
 
 *Casual group · Outdoor, Active/physical, Low energy · Wheelchair accessible*
 
@@ -2309,7 +2330,7 @@ Portland's oldest operating movie theater, in Sunnyside neighborhood.
 ### Clackamas County Libraries (LINCC)
 
 - **Website:** https://lincc.org
-- **Cost:** FREE library cards for all Oregon residents
+- **Cost:** FREE library cards for residents of Clackamas, Multnomah, Washington, or Hood River County Library Districts, Camas, or Fort Vancouver Regional Library District. Clackamas County residents age 13+ can apply for an eCard online before visiting in person
 
 13 public libraries in Clackamas County. Oak Lodge and Gladstone operated by the county; others are independent LINCC members.
 
@@ -2717,7 +2738,7 @@ Free gallery in East County featuring diverse contemporary and traditional art. 
 - **Address:** 1945 SE Water Ave, Portland, OR 97214
 - **Phone:** 503-797-4000
 - **Website:** https://omsi.edu/
-- **Cost:** $20 adults; $17 seniors (63+); $15 youth (3-13); free under 3; $5 First Sunday; $5 Arts for All (EBT/SNAP/WIC/TANF/Medicaid/OHP). Arts for All provides up to 4 tickets at $5 each for EBT/SNAP/WIC/TANF/Medicaid/OHP recipients (any state); up to 55% off memberships
+- **Cost:** $22.50 adults (14+); $20.50 seniors (63+); $15.50 youth (3-13); free under 3; $5 First Sunday; $5 Arts for All (EBT/SNAP/WIC/TANF/Medicaid/OHP). Arts for All provides up to 4 tickets at $5 each for EBT/SNAP/WIC/TANF/Medicaid/OHP recipients (any state); up to 55% off OMSI for 2, Family, Family Plus, and Patron memberships
 - **Hours:** Tue-Fri 9:30am-5:30pm; Sat 9:30am-7pm; Sun 9:30am-5:30pm; Mon closed
 
 **Tips:** First Sunday is only $5 admission. Arts for All accepts EBT/SNAP/WIC/TANF/Medicaid/OHP - up to 4 tickets at $5 each, plus up to 55% off memberships. Free companion ticket for aide accompanying visitors with disabilities. Interactive exhibits good for all ages. Can be crowded on weekends - weekday visits are quieter.
@@ -3097,7 +3118,7 @@ Active programming including music series, teen programs, and Makerspace. Part o
 
 Oregon's largest writers' organization with free workshops and critique groups
 
-**Tips:** Oregon's largest writers' organization. Free writing workshops and drop-in critiques available. Annual conference in August. Good for connecting with other writers at all levels.
+**Tips:** Oregon's largest writers' organization (6,000+ writers). Free writing workshops and drop-in critiques available. Annual conference July 30-August 2, 2026 in Portland. Good for connecting with other writers at all levels.
 
 *Casual group · Creative, Indoor, Newcomer-friendly · Wheelchair accessible*
 
@@ -3172,7 +3193,7 @@ Serving since 1952. ~1,200 meals daily. Sit-down indoor dining, vegetarian optio
 - **Hours:** Office: Monday-Thursday 8am-4pm, Friday 10am-3pm; Food Distribution: Monday-Thursday 1-3:30pm, Friday 2-5pm
 - **Eligibility:** Clackamas County residents; current mail within 30 days required
 
-Largest food pantry in Clackamas County. Also offers pop-up sites at elementary schools.
+Largest food pantry in Clackamas County. Also offers pop-up sites at elementary schools. Active "Save the Food Hub" fundraising campaign.
 
 **What to know:** Largest food pantry in Clackamas County with 51-year history
 
@@ -3263,6 +3284,11 @@ Free community meal in Beaverton. Sundays at 4:15pm weekly, plus last Thursday m
 
 **First visit:** Just show up at 4:15pm on Sundays. Open to all.
 
+**Programs:**
+
+- **Weekly Sunday Meal:** Sundays 4:15-5:30pm
+- **Monthly Thursday Meal:** Last Thursday of each month 4:15-5:30pm
+
 *Drop-in (come and go freely) · Indoor, Low energy, Good for isolation · Wheelchair accessible*
 
 ### Gladstone Food Pantry
@@ -3286,13 +3312,15 @@ Gladstone area food pantry, part of NW Family Services FoodMatters program. Thur
 ### Gleaners of Clackamas County
 
 - **Address:** 13821 Fir St, Oregon City, OR 97045
+- **Phone:** 503-655-8740
 - **Website:** https://www.gleanerscc.org
-- **Cost:** FREE emergency food; minimal charges for resource center items
+- **Cost:** FREE - members volunteer hours monthly in exchange for weekly groceries
+- **Hours:** Mon-Fri 8am-3pm
 - **Eligibility:** Must meet household income guidelines; membership required
 
 Member-based, all-volunteer food share organization serving Clackamas County since 1981.
 
-**What to know:** All-volunteer organization established in 1981
+**What to know:** All-volunteer organization established in 1981. 615 families across 42 teams countywide. Rescued 3.8 million pounds of food in 2025.
 
 **First visit:** Contact to learn about membership and income guidelines
 
@@ -3322,11 +3350,11 @@ May-October season. One of three markets in Gresham area. EBT purple tokens avai
 
 ### Hollywood Farmers Market
 
-- **Address:** NE Hancock & NE 44th Ave, Portland, OR 97213
+- **Address:** NE Hancock St between NE 44th & NE 45th Ave, Portland, OR 97213
 - **Website:** https://www.hollywoodfarmersmarket.org
 - **Cost:** SNAP/EBT accepted with Double Up Food Bucks match up to $20. No surcharge for SNAP/EBT transactions
-- **Hours:** Year-round (winter hours differ - 1st & 3rd Saturdays only, 9am-1pm, January-March)
-- **Schedule:** Every Saturday, 8am-1pm (April-December)
+- **Hours:** Year-round. April-Sep every Saturday 8am-1pm. Oct-Nov every Saturday 9am-1pm. Dec-Mar 2nd & 4th Saturdays only, 9am-1pm.
+- **Schedule:** Every Saturday, 8am-1pm (April-September); 9am-1pm (October-November)
 
 One of Portland's best farmers markets with full SNAP/EBT support and Double Up Food Bucks matching.
 
@@ -3682,12 +3710,12 @@ Free vegetarian meals based on 500-year-old Sikh tradition (Langar). 150-200 peo
 - **Address:** 618 NW Davis St, Portland, OR 97209
 - **Phone:** 503-222-5694
 - **Website:** https://sistersoftheroad.org
-- **Cost:** Pay-what-you-can. Barter work program - work 15 minutes for a meal
-- **Hours:** Tue-Sat, sign up for meals after 9am, serving 10am-2pm. Note: cafe transitioning to new location.
+- **Cost:** Pay-what-you-can. Barter work program - work 15 minutes for a meal (when open)
+- **Hours:** TEMPORARILY CLOSED - seeking new permanent location. No reopening date announced.
 
 Welcoming community space emphasizing dignity and autonomy
 
-**Tips:** Pay-what-you-can or work 15 minutes for a meal through barter program. Welcoming community space emphasizing dignity and autonomy. Downtown Old Town location. A gathering place, not just a meal program.
+**Tips:** Pay-what-you-can or work 15 minutes for a meal through barter program. Welcoming community space emphasizing dignity and autonomy. A gathering place, not just a meal program.
 
 *Casual group · Indoor, Good for isolation · Wheelchair accessible, Near transit*
 
@@ -3729,9 +3757,9 @@ Major East Portland food pantry serving area east of 82nd Ave. Evening hours Mon
 - **Cost:** FREE plots for low-income residents east of 82nd Ave
 - **Eligibility:** Low-income residents east of 82nd Avenue
 
-Most plots are handicapped accessible
+Most plots are handicapped accessible. Organization rebranded from SnowCap Community Charities to SnowCap Community Services.
 
-**Tips:** FREE garden plots for low-income residents east of 82nd Ave. Most plots are handicapped accessible. Good therapeutic activity. East Portland location. Apply for a plot through SnowCap Community Charities.
+**Tips:** FREE garden plots for low-income residents east of 82nd Ave. Most plots are handicapped accessible. Good therapeutic activity. East Portland location. Apply for a plot through SnowCap Community Services (formerly SnowCap Community Charities). SnowCap also operates a food pantry at same address (weekdays 10am-2pm, Mon/Wed evenings 6-8pm).
 
 *Do alone · Outdoor, Low energy, Anxiety-friendly · Wheelchair accessible*
 
@@ -4004,7 +4032,7 @@ Annual intertribal powwow since 1970. Free admission. Draws participants from ac
 - **Schedule:** First Thursday monthly, 5-9pm (April-October)
 - **Transit:** MAX to Galleria/SW 10th
 
-Since 1986. Dozens of galleries with free receptions. Street Gallery runs April-October on NW 13th Ave (100+ artists, 4 blocks).
+Since 1986. Indoor gallery openings happen year-round; outdoor Street Gallery runs April-October on NW 13th Ave (~100 local artists, 4 blocks). Calendar entries reflect the April-October Street Gallery season; year-round indoor gallery openings continue every first Thursday.
 
 **What to know:** Since 1986 - Portland's original art walk. Dozens of galleries with free receptions, wine, and snacks. Street Gallery (April-October) adds 100+ artists on NW 13th Ave. Easy MAX access to Galleria/SW 10th. Great for experiencing Portland's art scene free.
 
@@ -4590,6 +4618,17 @@ Free car-free street events for biking, walking, and rolling. Four events May-Se
 
 **What to bring:** Bike, comfortable shoes, sunscreen, water
 
+**Programs:**
+
+- **Sunday Parkways - Southwest Portland:** 11am-4pm | Gabriel Park, SW 45th Ave & SW Vermont St, Portland, OR
+  Gabriel Park to Spring Garden Park (2 miles bike, 2.6 miles walking)
+- **Sunday Parkways - East Portland:** 11am-4pm | Ventura Park, SE 115th Ave & SE Stark St, Portland, OR
+  Ventura Park to Verdell Burdine Rutherford Park (4 miles through Centennial neighborhood)
+- **Sunday Parkways - North Portland:** 11am-4pm | Downtown St Johns, N Lombard St & N Philadelphia Ave, Portland, OR
+  Downtown St Johns, McCoy Park, Columbia Park, McKenna Park (6.7 miles along N Willamette Blvd). New route for 2026.
+- **Sunday Parkways - Downtown Portland:** 11am-4pm | Portland Art Museum Cart Blocks, SW Park Ave & SW Main St, Portland, OR
+  Cart Blocks to Pioneer Courthouse Square to PSU Park Blocks (2.3 miles)
+
 *Drop-in (come and go freely) · Outdoor, Active/physical, Family-friendly, Good for isolation, Newcomer-friendly · Wheelchair accessible*
 
 ### Portland Tree Lighting Ceremony
@@ -4787,6 +4826,21 @@ Clackamas County repair fair series rotating through libraries and community cen
 **First visit:** Just show up with your broken items
 
 **What to bring:** Broken household items that are portable
+
+**Programs:**
+
+- **Repair Fair - West Linn:** 10am-1pm | Robinwood Station Community Center, 3706 Cedar Oak Dr, West Linn, OR 97068
+- **Repair Fair - Oak Grove/Milwaukie:** 10am-1pm | Oak Lodge Library, 3783 SE Concord Rd, Oak Grove, OR
+- **Repair Fair - Gladstone:** 1-4pm | Gladstone Library, 525 Portland Ave, Gladstone, OR
+- **Repair Fair - Happy Valley:** 10am-1pm | Happy Valley Library, 13793 SE Sieben Park Way, Happy Valley, OR
+- **Repair Fair - Lake Oswego:** 10am-1pm | Lake Oswego Adult Community Center, 505 G Ave, Lake Oswego, OR
+- **Repair Fair - Wilsonville:** 10am-1pm | Wilsonville Public Library, 8200 SW Wilsonville Rd, Wilsonville, OR
+- **Repair Fair - Sandy:** 10am-1pm | Sandy, OR (venue TBD - check clackamas.us/recycling/repairfair)
+- **Repair Fair - Canby:** 10am-1pm | Canby Public Library, 220 NE 2nd Ave, Canby, OR
+- **Repair Fair - Estacada:** 11am-2pm | Estacada Library, 825 NW Wade St, Estacada, OR
+- **Milwaukie Sustainability Fair:** 10am-2pm | 10723 SE Main St, Milwaukie, OR
+- **Repair Fair - Oregon City:** 10am-1pm | Oregon City Public Library, 606 John Adams St, Oregon City, OR
+- **Repair Fair - Clackamas Community College:** 10am-1pm | Clackamas Community College, 19600 Molalla Ave, Oregon City, OR
 
 *Casual group · Anxiety-friendly, Good for isolation, Indoor, Newcomer-friendly · Wheelchair accessible*
 
@@ -5090,7 +5144,7 @@ Low-cost art classes for all skill levels. In-person Mondays, online Thursdays.
 - **Cost:** FREE. All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.
 - **Eligibility:** Open to all - bring broken household items
 
-Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills.
+Operating since 2013. Part of global Repair Café movement promoting sustainability and community connection. Great for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.
 
 **What to know:** Volunteer fixers donate their time and expertise. Not all items can be fixed but they'll try! Great way to learn repair skills yourself. Coffee and community atmosphere. Also offers periodic mending and repair skill workshops (Sashiko, embroidery, soldering) — check Eventbrite for dates.
 

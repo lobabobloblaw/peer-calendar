@@ -2132,8 +2132,6 @@
     registration: null
     what_to_bring: null
     good_to_know: PERMANENTLY CLOSED - See Pier Park or Rockwood for alternatives
-  accessibility:
-  - outdoor
   accessibility_notes: PERMANENTLY CLOSED - No longer operational.
   social_intensity: solo
   good_for:
@@ -2696,8 +2694,6 @@
     what_to_bring: null
     good_to_know: PROGRAM ENDED - Ran 11 seasons 2012-2022. Try Food Court 5000 (Lloyd Center), Portland Running Company,
       or Parks Dept walking programs instead.
-  accessibility:
-  - outdoor
   accessibility_notes: PROGRAM ENDED - No longer operational.
   social_intensity: casual_group
   good_for:
@@ -3517,46 +3513,54 @@
   - https://www.thprd.org/fitness-in-the-park
   pricing:
     description: FREE
-  season: 'Year-round (Winter/Spring 2026: January 12 - March 22)'
-  schedule_winter_2026:
-  - day: Monday
-    time: 4-5pm
-    class: Tai Chi
+  season: 'Year-round; session schedules change each term (Winter/Spring 2026 ran January 12 - March 22)'
+  programs:
+  - name: Tai Chi at The Opal
+    schedule: Mondays 4-5pm
     location: The Opal
-  - day: Tuesday
-    time: 10:30-11:30am
-    class: Chair Yoga
+    schedule_start_date: 2026-01-12
+    schedule_end_date: 2026-03-22
+  - name: Chair Yoga at Virginia Garcia Wellness Center
+    schedule: Tuesdays 10:30-11:30am
     location: Virginia Garcia Wellness Center
-  - day: Tuesday
-    time: 2:30-3:30pm
-    class: Chair Fitness
+    schedule_start_date: 2026-01-12
+    schedule_end_date: 2026-03-22
+  - name: Chair Fitness at The Barcelona
+    schedule: Tuesdays 2:30-3:30pm
     location: The Barcelona
-  - day: Tuesday
-    time: 5:30-6:30pm
-    class: Zumba
+    schedule_start_date: 2026-01-12
+    schedule_end_date: 2026-03-22
+  - name: Zumba at Virginia Garcia Wellness Center
+    schedule: Tuesdays 5:30-6:30pm
     location: Virginia Garcia Wellness Center
-  - day: Saturday
-    time: 11am-noon
-    class: Tai Chi
+    schedule_start_date: 2026-01-12
+    schedule_end_date: 2026-03-22
+  - name: Tai Chi at Tallac Terrace
+    schedule: Saturdays 11am-noon
     location: Tallac Terrace
-  - day: Sunday
-    time: 11am-noon
-    class: Zumba
+    schedule_start_date: 2026-01-12
+    schedule_end_date: 2026-03-22
+  - name: Zumba at HMT Softball Concessions
+    schedule: Sundays 11am-noon
     location: HMT Softball Concessions
-  special_events:
+    schedule_start_date: 2026-01-12
+    schedule_end_date: 2026-03-22
   - name: Sweetheart Stroll
-    date: February 8, 2026
-    time: 10am
+    dates: February 8, 2026
+    schedule: 10-11:30am
     location: Commonwealth Park
     notes: 1.5-mile accessible walk
   - name: Women's Wellness Fair
-    date: March 28, 2026
-    time: 11am
+    dates: March 28, 2026
+    schedule: 11am-1pm
     location: Cedar Hills Recreation Center
   - name: National Senior Health & Fitness Day
-    date: May 27, 2026
+    dates: May 27, 2026
     location: Elsie Stuhr Center
   eligibility: All ages (varies by class)
+  flags:
+  - ⚠️ VERIFY - Class list is the Winter/Spring 2026 session (ended March 22, 2026). Summer/Fall 2026 session
+    not yet captured; check thprd.org/fitness-in-the-park for the current term.
   last_verified: 2026-03-07
   next_audit: 2026-06-07
   audit_frequency: quarterly
@@ -5226,7 +5230,7 @@
   - name: North View Gallery (Sylvania Campus)
     address: 12000 SW 49th Ave, Portland, OR 97219 (CT 214, behind bookstore)
     hours: Mon-Fri 8am-4pm, Sat by appointment
-  exhibits_2025_2026:
+  exhibits:
   - name: 'Joni Smith: Markmaker'
     location: Paragon Gallery
     dates: October 2 - November 15, 2025
@@ -5246,6 +5250,9 @@
     dates: May 6 - May 27, 2026
   eligibility: Open to the public
   parking: Weekday permits required at kiosks; free on weekends
+  flags:
+  - ⚠️ VERIFY - Listed exhibits are the 2025-26 academic year; the last one closed May 27, 2026. Galleries
+    close between exhibits and over the summer. Confirm the 2026-27 schedule at pcc.edu/galleries.
   last_verified: 2026-04-22
   next_audit: 2026-07-22
   audit_frequency: quarterly
@@ -7875,6 +7882,11 @@
   pricing:
     description: FREE
   schedule: Sundays 4:15pm; last Thursday of each month 4:15pm
+  programs:
+  - name: Weekly Sunday Meal
+    schedule: Sundays 4:15-5:30pm
+  - name: Monthly Thursday Meal
+    schedule: Last Thursday of each month 4:15-5:30pm
   last_verified: 2026-03-24
   next_audit: 2026-06-24
   audit_frequency: quarterly
@@ -9898,44 +9910,44 @@
     format: In-person
     notes: Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration
       form recommended.
-    dates_2026:
-    - January 10
-    - February 14
-    - March 14
-    - April 11
-    - May 9
-    - June 13
-    - July 11
-    - August 8
-    - September 12
-    - October 10
-    - November 14
-    - December 12
+    dates:
+    - January 10, 2026
+    - February 14, 2026
+    - March 14, 2026
+    - April 11, 2026
+    - May 9, 2026
+    - June 13, 2026
+    - July 11, 2026
+    - August 8, 2026
+    - September 12, 2026
+    - October 10, 2026
+    - November 14, 2026
+    - December 12, 2026
   - name: Soldering for Home Electronics Repairs Workshop
     schedule: Periodic evenings, 6-8pm
     location: Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
     cost: TBD
     format: In-person
     notes: Learn basics of soldering for electronics repair. Check website for dates.
-    dates_2026:
-    - January 14
+    dates:
+    - January 14, 2026
   - name: Sashiko Mending Workshop
     schedule: Periodic, 10am-1pm
     location: Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
     cost: TBD
     format: In-person
     notes: Traditional Japanese embroidered mending technique. Check website for dates.
-    dates_2026:
-    - January 18
-    - March 22
+    dates:
+    - January 18, 2026
+    - March 22, 2026
   - name: Mend With Embroidery Workshop
     schedule: Periodic evenings, 6-8pm
     location: Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
     cost: TBD
     format: In-person
     notes: Learn embroidery techniques for mending clothing. Check website/Eventbrite for dates.
-    dates_2026:
-    - March 30
+    dates:
+    - March 30, 2026
   last_verified: 2026-04-22
   next_audit: 2026-05-22
   audit_frequency: monthly
@@ -9978,59 +9990,55 @@
   eligibility: Open to all - bring broken household items (clothing, bikes, small electronics, small appliances, jewelry,
     knives/tools)
   organizer: Clackamas County Sustainability & Solid Waste
-  dates_2026:
-  - name: West Linn
-    date: February 28, 2026
-    time: 10am-1pm
+  programs:
+  - name: Repair Fair - West Linn
+    dates: February 28, 2026
+    schedule: 10am-1pm
     location: Robinwood Station Community Center, 3706 Cedar Oak Dr, West Linn, OR 97068
-    status: past
-  - name: Oak Grove/Milwaukie
-    date: March 14, 2026
-    time: 10am-1pm
-    location: Oak Lodge Library, 3783 SE Concord Rd
-    status: past
-  - name: Gladstone
-    date: April 4, 2026
-    time: 1-4pm
-    location: Gladstone Library, 525 Portland Ave, Gladstone
-    status: past
-  - name: Happy Valley
-    date: April 18, 2026
-    time: 10am-1pm
-    location: Happy Valley Library, 13793 SE Sieben Park Way
-    status: past
-  - name: Lake Oswego
-    date: May 16, 2026
-    time: 10am-1pm
-    location: Lake Oswego Adult Community Center, 505 G Ave, Lake Oswego
-  - name: Wilsonville
-    date: May 30, 2026
-    time: 10am-1pm
-    location: Wilsonville Public Library, 8200 SW Wilsonville Rd
-  - name: Sandy
-    date: June 13, 2026
-    time: 10am-1pm
+  - name: Repair Fair - Oak Grove/Milwaukie
+    dates: March 14, 2026
+    schedule: 10am-1pm
+    location: Oak Lodge Library, 3783 SE Concord Rd, Oak Grove, OR
+  - name: Repair Fair - Gladstone
+    dates: April 4, 2026
+    schedule: 1-4pm
+    location: Gladstone Library, 525 Portland Ave, Gladstone, OR
+  - name: Repair Fair - Happy Valley
+    dates: April 18, 2026
+    schedule: 10am-1pm
+    location: Happy Valley Library, 13793 SE Sieben Park Way, Happy Valley, OR
+  - name: Repair Fair - Lake Oswego
+    dates: May 16, 2026
+    schedule: 10am-1pm
+    location: Lake Oswego Adult Community Center, 505 G Ave, Lake Oswego, OR
+  - name: Repair Fair - Wilsonville
+    dates: May 30, 2026
+    schedule: 10am-1pm
+    location: Wilsonville Public Library, 8200 SW Wilsonville Rd, Wilsonville, OR
+  - name: Repair Fair - Sandy
+    dates: June 13, 2026
+    schedule: 10am-1pm
     location: Sandy, OR (venue TBD - check clackamas.us/recycling/repairfair)
-  - name: Canby
-    date: July 18, 2026
-    time: 10am-1pm
-    location: Canby Public Library, 220 NE 2nd Ave, Canby
-  - name: Estacada
-    date: August 8, 2026
-    time: 11am-2pm
-    location: Estacada Library, 825 NW Wade St
+  - name: Repair Fair - Canby
+    dates: July 18, 2026
+    schedule: 10am-1pm
+    location: Canby Public Library, 220 NE 2nd Ave, Canby, OR
+  - name: Repair Fair - Estacada
+    dates: August 8, 2026
+    schedule: 11am-2pm
+    location: Estacada Library, 825 NW Wade St, Estacada, OR
   - name: Milwaukie Sustainability Fair
-    date: September 19, 2026
-    time: 10am-2pm
-    location: 10723 SE Main St, Milwaukie
-  - name: Oregon City
-    date: October 24, 2026
-    time: 10am-1pm
-    location: Oregon City Public Library
-  - name: Clackamas Community College
-    date: November 7, 2026
-    time: 10am-1pm
-    location: Clackamas Community College, Oregon City
+    dates: September 19, 2026
+    schedule: 10am-2pm
+    location: 10723 SE Main St, Milwaukie, OR
+  - name: Repair Fair - Oregon City
+    dates: October 24, 2026
+    schedule: 10am-1pm
+    location: Oregon City Public Library, 606 John Adams St, Oregon City, OR
+  - name: Repair Fair - Clackamas Community College
+    dates: November 7, 2026
+    schedule: 10am-1pm
+    location: Clackamas Community College, 19600 Molalla Ave, Oregon City, OR
   last_verified: 2026-04-22
   next_audit: 2026-05-22
   audit_frequency: monthly
@@ -10076,59 +10084,59 @@
     cost: $10
     format: In-person
     notes: Learn about Portland's founders and regionally-known pioneers. Meet at Soldiers Monument.
-    dates_2026:
-    - February 14
-    - March 14
-    - April 11
-    - May 9
-    - June 13
-    - July 11
-    - August 8
-    - September 12
-    - October 10
-    - November 14
-    - December 12
+    dates:
+    - February 14, 2026
+    - March 14, 2026
+    - April 11, 2026
+    - May 9, 2026
+    - June 13, 2026
+    - July 11, 2026
+    - August 8, 2026
+    - September 12, 2026
+    - October 10, 2026
+    - November 14, 2026
+    - December 12, 2026
   - name: Stories in Stone – North
     schedule: 1st Saturday of even months, 10am-12pm
     cost: $10
     format: In-person
     notes: Explores northern cemetery sections, structures, symbolism, and granite types. Meet at Soldiers Monument.
-    dates_2026:
-    - February 7
-    - April 4
-    - June 6
-    - August 1
-    - October 3
-    - December 5
+    dates:
+    - February 7, 2026
+    - April 4, 2026
+    - June 6, 2026
+    - August 1, 2026
+    - October 3, 2026
+    - December 5, 2026
   - name: Stories in Stone – South
     schedule: 1st Saturday of odd months, 10am-12pm
     cost: $10
     format: In-person
     notes: Explores southern section of cemetery. Meet at Soldiers Monument.
-    dates_2026:
-    - March 7
-    - May 2
-    - July 4
-    - September 5
-    - November 7
+    dates:
+    - March 7, 2026
+    - May 2, 2026
+    - July 4, 2026
+    - September 5, 2026
+    - November 7, 2026
   - name: Women's Tour
     schedule: 4th Saturday monthly, 10am-12pm
     cost: $10
     format: In-person
     notes: Highlights notable women including Terwilliger, McLoughlin, Macleay families. Meet at Soldiers Monument.
-    dates_2026:
-    - January 24
-    - February 28
-    - March 28
-    - April 25
-    - May 23
-    - June 27
-    - July 25
-    - August 22
-    - September 26
-    - October 24
-    - November 28
-    - December 26
+    dates:
+    - January 24, 2026
+    - February 28, 2026
+    - March 28, 2026
+    - April 25, 2026
+    - May 23, 2026
+    - June 27, 2026
+    - July 25, 2026
+    - August 22, 2026
+    - September 26, 2026
+    - October 24, 2026
+    - November 28, 2026
+    - December 26, 2026
   self_guided_tours:
   - Our Pioneer Beginnings
   - Founders of Rose Festival
@@ -10887,23 +10895,28 @@
   - https://www.portland.gov/transportation/news/2026/3/20/news-release-portland-sunday-parkways-announces-2026-season-new-route
   pricing:
     description: FREE
-  dates_2026:
-  - name: Southwest Portland
-    date: May 17, 2026
-    time: 11am-4pm
-    route: Gabriel Park to Spring Garden Park (2 miles bike, 2.6 miles walking)
-  - name: East Portland
-    date: June 28, 2026
-    time: 11am-4pm
-    route: Ventura Park to Verdell Burdine Rutherford Park (4 miles through Centennial neighborhood)
-  - name: North Portland (NEW)
-    date: August 2, 2026
-    time: 11am-4pm
-    route: Downtown St Johns, McCoy Park, Columbia Park, McKenna Park (6.7 miles along N Willamette Blvd)
-  - name: Downtown Portland
-    date: September 13, 2026
-    time: 11am-4pm
-    route: Cart Blocks to Pioneer Courthouse Square to PSU Park Blocks (2.3 miles)
+  programs:
+  - name: Sunday Parkways - Southwest Portland
+    dates: May 17, 2026
+    schedule: 11am-4pm
+    location: Gabriel Park, SW 45th Ave & SW Vermont St, Portland, OR
+    notes: Gabriel Park to Spring Garden Park (2 miles bike, 2.6 miles walking)
+  - name: Sunday Parkways - East Portland
+    dates: June 28, 2026
+    schedule: 11am-4pm
+    location: Ventura Park, SE 115th Ave & SE Stark St, Portland, OR
+    notes: Ventura Park to Verdell Burdine Rutherford Park (4 miles through Centennial neighborhood)
+  - name: Sunday Parkways - North Portland
+    dates: August 2, 2026
+    schedule: 11am-4pm
+    location: Downtown St Johns, N Lombard St & N Philadelphia Ave, Portland, OR
+    notes: Downtown St Johns, McCoy Park, Columbia Park, McKenna Park (6.7 miles along N Willamette Blvd).
+      New route for 2026.
+  - name: Sunday Parkways - Downtown Portland
+    dates: September 13, 2026
+    schedule: 11am-4pm
+    location: Portland Art Museum Cart Blocks, SW Park Ave & SW Main St, Portland, OR
+    notes: Cart Blocks to Pioneer Courthouse Square to PSU Park Blocks (2.3 miles)
   sponsor: Kaiser Permanente
   last_verified: 2026-03-24
   next_audit: 2026-06-24
@@ -11477,6 +11490,9 @@
   pricing:
     description: FREE with Multnomah County Library card
   eligibility: Multnomah County Library cardholder
+  flags:
+  - ⚠️ VERIFY - Venue list still includes Five Oaks Museum, which closed permanently in April 2025.
+    Re-check the full participating-venue list at multcolib.org/my-discovery-pass.
   programs:
   - name: Artists Repertory Theatre
     notes: Pass admits 2 adults

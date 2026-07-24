@@ -2610,39 +2610,53 @@
                           'thursdays': 4, 'fridays': 5, 'saturdays': 6,
                           'sun': 0, 'mon': 1, 'tue': 2, 'wed': 3, 'thu': 4, 'fri': 5, 'sat': 6 };
 
-            // Find all days of week mentioned (supports "Tue/Thu", "Tue & Thu", "Tuesday and Thursday")
+            // Day ranges first: "Mon-Fri", "Sat-Sun", "Monday-Friday". Individual day
+            // matching below would otherwise pick up only the two endpoints of a range
+            // and render "Mon-Fri 8am-5pm" as Monday and Friday only.
             const foundDays = new Set();
+            const dayCodesOrdered = [1, 2, 3, 4, 5, 6, 0]; // Mon=1 through Sun=0
+            const abbrevMap = {'mon': 0, 'tue': 1, 'wed': 2, 'thu': 3, 'fri': 4, 'sat': 5, 'sun': 6};
+            const dayWord = '(mon|tue|wed|thu|fri|sat|sun)(?:day|sday|nesday|rsday|urday)?s?';
+            const rangeSpans = [];
+            const rangeRe = new RegExp(dayWord + '\\s*[-\u2013]\\s*' + dayWord, 'g');
+            let rangeMatch;
+            while ((rangeMatch = rangeRe.exec(lower)) !== null) {
+                const startIdx = abbrevMap[rangeMatch[1]];
+                const endIdx = abbrevMap[rangeMatch[2]];
+                const span = [];
+                if (startIdx <= endIdx) {
+                    for (let i = startIdx; i <= endIdx; i++) span.push(i);
+                } else {
+                    for (let i = startIdx; i < 7; i++) span.push(i);
+                    for (let i = 0; i <= endIdx; i++) span.push(i);
+                }
+                span.forEach(i => foundDays.add(dayCodesOrdered[i]));
+                rangeSpans.push([rangeMatch.index, rangeMatch.index + rangeMatch[0].length]);
+            }
+
+            // Individual days (supports "Tue/Thu", "Tue & Thu", "Tuesday and Thursday"),
+            // skipping day names already consumed by a range above.
             for (const [name, num] of Object.entries(dayMap)) {
-                const regex = new RegExp('\\b' + name + '\\b', 'i');
-                if (regex.test(lower)) {
+                if (foundDays.has(num)) continue;
+                const regex = new RegExp('\\b' + name + '\\b', 'gi');
+                let m;
+                while ((m = regex.exec(lower)) !== null) {
+                    if (rangeSpans.some(([s, e]) => m.index >= s && m.index < e)) continue;
                     foundDays.add(num);
+                    break;
                 }
             }
             result.days = Array.from(foundDays).sort((a, b) => a - b);
-
-            // Day ranges: "Mon-Fri", "Sat-Sun", "Wed-Sat"
-            if (result.days.length === 0) {
-                const dayCodesOrdered = [1, 2, 3, 4, 5, 6, 0]; // Mon=1 through Sun=0
-                const abbrevMap = {'mon': 0, 'tue': 1, 'wed': 2, 'thu': 3, 'fri': 4, 'sat': 5, 'sun': 6};
-                const rangeMatch = lower.match(/\b(mon|tue|wed|thu|fri|sat|sun)\s*-\s*(mon|tue|wed|thu|fri|sat|sun)\b/);
-                if (rangeMatch) {
-                    const startIdx = abbrevMap[rangeMatch[1]];
-                    const endIdx = abbrevMap[rangeMatch[2]];
-                    if (startIdx <= endIdx) {
-                        for (let i = startIdx; i <= endIdx; i++) {
-                            result.days.push(dayCodesOrdered[i]);
-                        }
-                    }
-                }
-            }
 
             // Handle "Weekdays" → Mon-Fri
             if (lower.includes('weekdays') && result.days.length === 0) {
                 result.days = [1, 2, 3, 4, 5]; // Mon-Fri
             }
 
-            // Handle "Daily" schedules - return special marker
-            if (lower.includes('daily')) {
+            // Handle "Daily" schedules - return special marker. Only when no explicit
+            // days were found, so "Fri-Sun (check Facebook for daily schedule)" stays
+            // a three-day event rather than becoming an everyday one.
+            if (/\bdaily\b/.test(lower) && result.days.length === 0) {
                 result.daily = true;
             }
 
@@ -2856,6 +2870,20 @@
             return true;
         }
 
+        // Parse a fixed date string such as "May 17, 2026" into a local Date.
+        // Returns null when the string has no month/day pair.
+        function parseFixedDate(str) {
+            if (!str || typeof str !== 'string') return null;
+            const months = ['january','february','march','april','may','june',
+                            'july','august','september','october','november','december'];
+            const m = str.toLowerCase().match(/\b([a-z]{3,9})\s+(\d{1,2})\b(?:\s*,?\s*(\d{4}))?/);
+            if (!m) return null;
+            const monthIdx = months.findIndex(name => name.startsWith(m[1]) && m[1].length >= 3);
+            if (monthIdx === -1) return null;
+            const year = m[3] ? parseInt(m[3]) : new Date().getFullYear();
+            return new Date(year, monthIdx, parseInt(m[2]));
+        }
+
         // Generate all events for a month
         function generateMonthEvents(year, month) {
             if (!eventsData) return [];
@@ -2872,6 +2900,32 @@
                 // Handle programs with schedules
                 if (entry.programs && entry.programs.length > 0) {
                     for (const program of entry.programs) {
+                        // Programs pinned to specific dates (a touring series, a season
+                        // of one-offs) land on their actual day rather than recurring.
+                        if (program.dates) {
+                            const items = Array.isArray(program.dates) ? program.dates : [program.dates];
+                            const times = program.schedule ? parseSchedule(program.schedule) : null;
+                            for (const item of items) {
+                                const d = parseFixedDate(item);
+                                if (!d || d.getFullYear() !== year || d.getMonth() !== month) continue;
+                                const programName = program.name || entry.title;
+                                events.push({
+                                    title: programName !== entry.title ? `${entry.title}: ${programName}` : programName,
+                                    org: null,
+                                    date: d,
+                                    startTime: times?.startTime || null,
+                                    endTime: times?.endTime || null,
+                                    color: entry.color,
+                                    category: entry.categoryName,
+                                    location: program.location || entry.address,
+                                    format: program.format,
+                                    description: program.notes || entry.notes || null,
+                                    website: entry.website,
+                                    sourceEvent: entry
+                                });
+                            }
+                            continue;
+                        }
                         if (program.schedule) {
                             // Check if this month is within the program's seasonal range
                             // Always check schedule (where month ranges are defined) plus notes
@@ -3982,6 +4036,22 @@
                 // Check programs for seasonal schedules
                 if (entry.programs && Array.isArray(entry.programs)) {
                     for (const prog of entry.programs) {
+                        if (prog.dates) {
+                            const datesStr = Array.isArray(prog.dates) ? prog.dates.join(', ') : prog.dates;
+                            seasonalEvents.push({
+                                title: prog.name || entry.title,
+                                org: entry.title,
+                                dates: prog.schedule ? `${datesStr}, ${prog.schedule}` : datesStr,
+                                category: entry.categoryName,
+                                color: entry.color,
+                                website: entry.website,
+                                address: prog.location || entry.address,
+                                description: prog.notes || entry.notes,
+                                flags: entry.flags,
+                                entryId: entry.id
+                            });
+                            continue;
+                        }
                         if (prog.schedule && isSeasonalSchedule(prog.schedule)) {
                             const practicalTip = typeof entry.practical_tips === 'string'
                                 ? entry.practical_tips

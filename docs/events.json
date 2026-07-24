@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T22:00:14.569897",
-  "count": 269,
+  "generated": "2026-07-24T17:55:00.235492",
+  "count": 266,
   "categories": {
     "peer_support": "Peer Support",
     "fitness_wellness": "Fitness & Wellness",
@@ -2687,50 +2687,6 @@
       }
     },
     {
-      "id": "lunchtime-disc-golf",
-      "title": "Lunchtime Disc Golf Course",
-      "category": "fitness_wellness",
-      "categoryName": "Fitness & Wellness",
-      "color": "#32CD32",
-      "address": null,
-      "latitude": null,
-      "longitude": null,
-      "phone": null,
-      "email": null,
-      "website": null,
-      "pricing": null,
-      "hours": null,
-      "eligibility": null,
-      "features": [],
-      "location_type": "physical",
-      "resource_type": "place",
-      "programs": [],
-      "dates": null,
-      "schedule": null,
-      "schedule_start_date": null,
-      "schedule_end_date": null,
-      "flags": [
-        "\u274c CLOSED"
-      ],
-      "accessibility": [
-        "outdoor"
-      ],
-      "social_intensity": "solo",
-      "good_for": [
-        "outdoor",
-        "active"
-      ],
-      "audience": [],
-      "audience_notes": null,
-      "notes": "Permanently closed as of July 2021",
-      "practical_tips": {
-        "first_visit": null,
-        "registration": null,
-        "what_to_bring": null,
-        "good_to_know": "PERMANENTLY CLOSED - See Pier Park or Rockwood for alternatives"
-      }
-    },
-    {
       "id": "yoga-on-yamhill",
       "title": "Yoga on Yamhill",
       "category": "fitness_wellness",
@@ -3438,53 +3394,6 @@
         "registration": "None - just show up",
         "what_to_bring": "Comfortable walking shoes. 80s attire encouraged but not required (neon, leg warmers, etc.)",
         "good_to_know": "1980s-themed indoor mall walking led by Vera Mysteria. 5K / 3.1 mile route (2 laps, ~90 minutes). Meet at food court on 3rd floor above ice rink. Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks at food court. Groups of 70+ regular attendees. Very welcoming and fun community."
-      }
-    },
-    {
-      "id": "neighborwalks",
-      "title": "NeighborWalks",
-      "category": "fitness_wellness",
-      "categoryName": "Fitness & Wellness",
-      "color": "#32CD32",
-      "address": null,
-      "latitude": null,
-      "longitude": null,
-      "phone": null,
-      "email": null,
-      "website": null,
-      "pricing": {
-        "description": "FREE"
-      },
-      "hours": null,
-      "eligibility": null,
-      "features": [],
-      "location_type": "physical",
-      "resource_type": "program",
-      "programs": [],
-      "dates": null,
-      "schedule": "May-October (was seasonal)",
-      "schedule_start_date": null,
-      "schedule_end_date": null,
-      "flags": [
-        "\u274c CLOSED - Program ended after 2022 season"
-      ],
-      "accessibility": [
-        "outdoor"
-      ],
-      "social_intensity": "casual_group",
-      "good_for": [
-        "outdoor",
-        "active",
-        "isolation"
-      ],
-      "audience": [],
-      "audience_notes": null,
-      "notes": "AARP Oregon partnership. Ran 11 seasons from 2012-2022. Consider Portland Running Company, Lloyd Center, or Parks Dept programs as alternatives.",
-      "practical_tips": {
-        "first_visit": null,
-        "registration": null,
-        "what_to_bring": null,
-        "good_to_know": "PROGRAM ENDED - Ran 11 seasons 2012-2022. Try Food Court 5000 (Lloyd Center), Portland Running Company, or Parks Dept walking programs instead."
       }
     },
     {
@@ -4544,7 +4453,81 @@
       "features": [],
       "location_type": "physical",
       "resource_type": "program",
-      "programs": [],
+      "programs": [
+        {
+          "name": "Tai Chi at The Opal",
+          "schedule": "Mondays 4-5pm",
+          "location": "The Opal",
+          "schedule_start_date": "2026-01-12",
+          "schedule_end_date": "2026-03-22",
+          "audience": []
+        },
+        {
+          "name": "Chair Yoga at Virginia Garcia Wellness Center",
+          "schedule": "Tuesdays 10:30-11:30am",
+          "location": "Virginia Garcia Wellness Center",
+          "schedule_start_date": "2026-01-12",
+          "schedule_end_date": "2026-03-22",
+          "audience": []
+        },
+        {
+          "name": "Chair Fitness at The Barcelona",
+          "schedule": "Tuesdays 2:30-3:30pm",
+          "location": "The Barcelona",
+          "schedule_start_date": "2026-01-12",
+          "schedule_end_date": "2026-03-22",
+          "audience": []
+        },
+        {
+          "name": "Zumba at Virginia Garcia Wellness Center",
+          "schedule": "Tuesdays 5:30-6:30pm",
+          "location": "Virginia Garcia Wellness Center",
+          "schedule_start_date": "2026-01-12",
+          "schedule_end_date": "2026-03-22",
+          "audience": []
+        },
+        {
+          "name": "Tai Chi at Tallac Terrace",
+          "schedule": "Saturdays 11am-noon",
+          "location": "Tallac Terrace",
+          "schedule_start_date": "2026-01-12",
+          "schedule_end_date": "2026-03-22",
+          "audience": []
+        },
+        {
+          "name": "Zumba at HMT Softball Concessions",
+          "schedule": "Sundays 11am-noon",
+          "location": "HMT Softball Concessions",
+          "schedule_start_date": "2026-01-12",
+          "schedule_end_date": "2026-03-22",
+          "audience": []
+        },
+        {
+          "name": "Sweetheart Stroll",
+          "dates": "February 8, 2026",
+          "schedule": "10-11:30am",
+          "location": "Commonwealth Park",
+          "notes": "1.5-mile accessible walk",
+          "audience": []
+        },
+        {
+          "name": "Women's Wellness Fair",
+          "dates": "March 28, 2026",
+          "schedule": "11am-1pm",
+          "location": "Cedar Hills Recreation Center",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "National Senior Health & Fitness Day",
+          "dates": "May 27, 2026",
+          "location": "Elsie Stuhr Center",
+          "audience": [
+            "seniors"
+          ]
+        }
+      ],
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
@@ -5507,47 +5490,6 @@
       "audience_notes": null,
       "notes": "Closed Mon-Tue and major holidays including Jewish holidays.",
       "practical_tips": "Free first Sunday of every month. Also free with SNAP/WIC. Free for children under 12. Small museum - good for a 1-2 hour visit. Holocaust education exhibits are thoughtful and respectful. Open Wed-Sun 11am-4pm only. Old Town location."
-    },
-    {
-      "id": "five-oaks-museum",
-      "title": "Five Oaks Museum (formerly Washington County Museum)",
-      "category": "arts_culture",
-      "categoryName": "Arts & Culture",
-      "color": "#9370DB",
-      "address": "17677 NW Springville Rd, Portland (PCC Rock Creek campus)",
-      "latitude": null,
-      "longitude": null,
-      "phone": null,
-      "email": null,
-      "website": "https://fiveoaksmuseum.org/",
-      "pricing": {
-        "description": "Was always FREE"
-      },
-      "hours": null,
-      "eligibility": null,
-      "features": [],
-      "location_type": "physical",
-      "resource_type": "place",
-      "programs": [],
-      "dates": null,
-      "schedule": null,
-      "schedule_start_date": null,
-      "schedule_end_date": null,
-      "flags": [
-        "\u274c CLOSED - Museum closed April 2025 due to funding cuts"
-      ],
-      "accessibility": [
-        "wheelchair_accessible"
-      ],
-      "social_intensity": "solo",
-      "good_for": [
-        "anxiety_friendly",
-        "indoor"
-      ],
-      "audience": [],
-      "audience_notes": null,
-      "notes": "Named for historic gathering site of Kalapuyan Indians. Collection (40,000+ artifacts) transferred to Washington County.",
-      "practical_tips": "CLOSED as of end of April 2025 due to funding cuts. Collection transferred to Washington County."
     },
     {
       "id": "oregon-rail-heritage",
@@ -6776,7 +6718,9 @@
       "schedule": null,
       "schedule_start_date": null,
       "schedule_end_date": null,
-      "flags": [],
+      "flags": [
+        "\u26a0\ufe0f VERIFY - Listed exhibits are the 2025-26 academic year; the last one closed May 27, 2026. Galleries close between exhibits and over the summer. Confirm the 2026-27 schedule at pcc.edu/galleries."
+      ],
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10098,7 +10042,18 @@
       "features": [],
       "location_type": "physical",
       "resource_type": "service",
-      "programs": [],
+      "programs": [
+        {
+          "name": "Weekly Sunday Meal",
+          "schedule": "Sundays 4:15-5:30pm",
+          "audience": []
+        },
+        {
+          "name": "Monthly Thursday Meal",
+          "schedule": "Last Thursday of each month 4:15-5:30pm",
+          "audience": []
+        }
+      ],
       "dates": null,
       "schedule": "Sundays 4:15pm; last Thursday of each month 4:15pm",
       "schedule_start_date": null,
@@ -12686,19 +12641,19 @@
           "cost": "FREE",
           "format": "In-person",
           "notes": "Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.",
-          "dates_2026": [
-            "January 10",
-            "February 14",
-            "March 14",
-            "April 11",
-            "May 9",
-            "June 13",
-            "July 11",
-            "August 8",
-            "September 12",
-            "October 10",
-            "November 14",
-            "December 12"
+          "dates": [
+            "January 10, 2026",
+            "February 14, 2026",
+            "March 14, 2026",
+            "April 11, 2026",
+            "May 9, 2026",
+            "June 13, 2026",
+            "July 11, 2026",
+            "August 8, 2026",
+            "September 12, 2026",
+            "October 10, 2026",
+            "November 14, 2026",
+            "December 12, 2026"
           ],
           "audience": []
         },
@@ -12709,8 +12664,8 @@
           "cost": "TBD",
           "format": "In-person",
           "notes": "Learn basics of soldering for electronics repair. Check website for dates.",
-          "dates_2026": [
-            "January 14"
+          "dates": [
+            "January 14, 2026"
           ],
           "audience": []
         },
@@ -12721,9 +12676,9 @@
           "cost": "TBD",
           "format": "In-person",
           "notes": "Traditional Japanese embroidered mending technique. Check website for dates.",
-          "dates_2026": [
-            "January 18",
-            "March 22"
+          "dates": [
+            "January 18, 2026",
+            "March 22, 2026"
           ],
           "audience": []
         },
@@ -12734,8 +12689,8 @@
           "cost": "TBD",
           "format": "In-person",
           "notes": "Learn embroidery techniques for mending clothing. Check website/Eventbrite for dates.",
-          "dates_2026": [
-            "March 30"
+          "dates": [
+            "March 30, 2026"
           ],
           "audience": []
         }
@@ -12789,7 +12744,92 @@
       "features": [],
       "location_type": "physical",
       "resource_type": "event",
-      "programs": [],
+      "programs": [
+        {
+          "name": "Repair Fair - West Linn",
+          "dates": "February 28, 2026",
+          "schedule": "10am-1pm",
+          "location": "Robinwood Station Community Center, 3706 Cedar Oak Dr, West Linn, OR 97068",
+          "audience": []
+        },
+        {
+          "name": "Repair Fair - Oak Grove/Milwaukie",
+          "dates": "March 14, 2026",
+          "schedule": "10am-1pm",
+          "location": "Oak Lodge Library, 3783 SE Concord Rd, Oak Grove, OR",
+          "audience": []
+        },
+        {
+          "name": "Repair Fair - Gladstone",
+          "dates": "April 4, 2026",
+          "schedule": "1-4pm",
+          "location": "Gladstone Library, 525 Portland Ave, Gladstone, OR",
+          "audience": []
+        },
+        {
+          "name": "Repair Fair - Happy Valley",
+          "dates": "April 18, 2026",
+          "schedule": "10am-1pm",
+          "location": "Happy Valley Library, 13793 SE Sieben Park Way, Happy Valley, OR",
+          "audience": []
+        },
+        {
+          "name": "Repair Fair - Lake Oswego",
+          "dates": "May 16, 2026",
+          "schedule": "10am-1pm",
+          "location": "Lake Oswego Adult Community Center, 505 G Ave, Lake Oswego, OR",
+          "audience": []
+        },
+        {
+          "name": "Repair Fair - Wilsonville",
+          "dates": "May 30, 2026",
+          "schedule": "10am-1pm",
+          "location": "Wilsonville Public Library, 8200 SW Wilsonville Rd, Wilsonville, OR",
+          "audience": []
+        },
+        {
+          "name": "Repair Fair - Sandy",
+          "dates": "June 13, 2026",
+          "schedule": "10am-1pm",
+          "location": "Sandy, OR (venue TBD - check clackamas.us/recycling/repairfair)",
+          "audience": []
+        },
+        {
+          "name": "Repair Fair - Canby",
+          "dates": "July 18, 2026",
+          "schedule": "10am-1pm",
+          "location": "Canby Public Library, 220 NE 2nd Ave, Canby, OR",
+          "audience": []
+        },
+        {
+          "name": "Repair Fair - Estacada",
+          "dates": "August 8, 2026",
+          "schedule": "11am-2pm",
+          "location": "Estacada Library, 825 NW Wade St, Estacada, OR",
+          "audience": []
+        },
+        {
+          "name": "Milwaukie Sustainability Fair",
+          "dates": "September 19, 2026",
+          "schedule": "10am-2pm",
+          "location": "10723 SE Main St, Milwaukie, OR",
+          "audience": []
+        },
+        {
+          "name": "Repair Fair - Oregon City",
+          "dates": "October 24, 2026",
+          "schedule": "10am-1pm",
+          "location": "Oregon City Public Library, 606 John Adams St, Oregon City, OR",
+          "audience": []
+        },
+        {
+          "name": "Repair Fair - Clackamas Community College",
+          "dates": "November 7, 2026",
+          "schedule": "10am-1pm",
+          "location": "Clackamas Community College, 19600 Molalla Ave, Oregon City, OR",
+          "audience": []
+        }
+      ],
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
@@ -12845,18 +12885,18 @@
           "cost": "$10",
           "format": "In-person",
           "notes": "Learn about Portland's founders and regionally-known pioneers. Meet at Soldiers Monument.",
-          "dates_2026": [
-            "February 14",
-            "March 14",
-            "April 11",
-            "May 9",
-            "June 13",
-            "July 11",
-            "August 8",
-            "September 12",
-            "October 10",
-            "November 14",
-            "December 12"
+          "dates": [
+            "February 14, 2026",
+            "March 14, 2026",
+            "April 11, 2026",
+            "May 9, 2026",
+            "June 13, 2026",
+            "July 11, 2026",
+            "August 8, 2026",
+            "September 12, 2026",
+            "October 10, 2026",
+            "November 14, 2026",
+            "December 12, 2026"
           ],
           "audience": []
         },
@@ -12866,13 +12906,13 @@
           "cost": "$10",
           "format": "In-person",
           "notes": "Explores northern cemetery sections, structures, symbolism, and granite types. Meet at Soldiers Monument.",
-          "dates_2026": [
-            "February 7",
-            "April 4",
-            "June 6",
-            "August 1",
-            "October 3",
-            "December 5"
+          "dates": [
+            "February 7, 2026",
+            "April 4, 2026",
+            "June 6, 2026",
+            "August 1, 2026",
+            "October 3, 2026",
+            "December 5, 2026"
           ],
           "audience": []
         },
@@ -12882,12 +12922,12 @@
           "cost": "$10",
           "format": "In-person",
           "notes": "Explores southern section of cemetery. Meet at Soldiers Monument.",
-          "dates_2026": [
-            "March 7",
-            "May 2",
-            "July 4",
-            "September 5",
-            "November 7"
+          "dates": [
+            "March 7, 2026",
+            "May 2, 2026",
+            "July 4, 2026",
+            "September 5, 2026",
+            "November 7, 2026"
           ],
           "audience": []
         },
@@ -12897,19 +12937,19 @@
           "cost": "$10",
           "format": "In-person",
           "notes": "Highlights notable women including Terwilliger, McLoughlin, Macleay families. Meet at Soldiers Monument.",
-          "dates_2026": [
-            "January 24",
-            "February 28",
-            "March 28",
-            "April 25",
-            "May 23",
-            "June 27",
-            "July 25",
-            "August 22",
-            "September 26",
-            "October 24",
-            "November 28",
-            "December 26"
+          "dates": [
+            "January 24, 2026",
+            "February 28, 2026",
+            "March 28, 2026",
+            "April 25, 2026",
+            "May 23, 2026",
+            "June 27, 2026",
+            "July 25, 2026",
+            "August 22, 2026",
+            "September 26, 2026",
+            "October 24, 2026",
+            "November 28, 2026",
+            "December 26, 2026"
           ],
           "audience": [
             "women"
@@ -13948,7 +13988,48 @@
       "features": [],
       "location_type": "physical",
       "resource_type": "event",
-      "programs": [],
+      "programs": [
+        {
+          "name": "Sunday Parkways - Southwest Portland",
+          "dates": "May 17, 2026",
+          "schedule": "11am-4pm",
+          "location": "Gabriel Park, SW 45th Ave & SW Vermont St, Portland, OR",
+          "notes": "Gabriel Park to Spring Garden Park (2 miles bike, 2.6 miles walking)",
+          "audience": [
+            "lgbtq"
+          ]
+        },
+        {
+          "name": "Sunday Parkways - East Portland",
+          "dates": "June 28, 2026",
+          "schedule": "11am-4pm",
+          "location": "Ventura Park, SE 115th Ave & SE Stark St, Portland, OR",
+          "notes": "Ventura Park to Verdell Burdine Rutherford Park (4 miles through Centennial neighborhood)",
+          "audience": [
+            "lgbtq"
+          ]
+        },
+        {
+          "name": "Sunday Parkways - North Portland",
+          "dates": "August 2, 2026",
+          "schedule": "11am-4pm",
+          "location": "Downtown St Johns, N Lombard St & N Philadelphia Ave, Portland, OR",
+          "notes": "Downtown St Johns, McCoy Park, Columbia Park, McKenna Park (6.7 miles along N Willamette Blvd). New route for 2026.",
+          "audience": [
+            "lgbtq"
+          ]
+        },
+        {
+          "name": "Sunday Parkways - Downtown Portland",
+          "dates": "September 13, 2026",
+          "schedule": "11am-4pm",
+          "location": "Portland Art Museum Cart Blocks, SW Park Ave & SW Main St, Portland, OR",
+          "notes": "Cart Blocks to Pioneer Courthouse Square to PSU Park Blocks (2.3 miles)",
+          "audience": [
+            "lgbtq"
+          ]
+        }
+      ],
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
@@ -14893,7 +14974,9 @@
       "schedule": null,
       "schedule_start_date": null,
       "schedule_end_date": null,
-      "flags": [],
+      "flags": [
+        "\u26a0\ufe0f VERIFY - Venue list still includes Five Oaks Museum, which closed permanently in April 2025. Re-check the full participating-venue list at multcolib.org/my-discovery-pass."
+      ],
       "accessibility": [],
       "social_intensity": null,
       "good_for": [

@@ -206,6 +206,7 @@ When adding a new resource:
 - `low_vision_friendly`: Large print, audio descriptions, etc.
 - `gender_neutral_restroom`: Gender-neutral restroom available
 - `sliding_scale`: Sliding scale fees available
+- `varies`: Accessibility depends on which location/event (use for citywide or roving programs)
 
 **Social intensity levels**:
 - `solo`: Do alone (parks, trails, museums)
@@ -213,6 +214,9 @@ When adding a new resource:
 - `casual_group`: Social but unstructured (craft nights, walking groups)
 - `structured_group`: Facilitated, expected participation (support groups)
 - `one_on_one`: Individual appointments/services
+- `varies`: Depends on which program (use for umbrella services like scholarships)
+
+`audit_check.py --validate` rejects any tag outside these lists, so add a value here before using it.
 
 **Good-for tags** (standardized list):
 - `anxiety_friendly`: Quiet, low-pressure, can leave easily
@@ -294,6 +298,12 @@ Mark entries with:
 - `📅 DATE-SENSITIVE` - Event with specific dates
 - `❌ CLOSED` - Confirmed permanently closed
 - `❓ UNVERIFIED` - Added but not yet verified via official source
+
+**Closed entries are excluded from everything published.** An entry with `status: CLOSED` or a
+`❌` flag stays in `sources.yaml` as a historical record, but `generate_calendar.py` drops it
+from the ICS feeds and from `events.json` — so it never reaches the calendar, the map, or the
+Resources directory. `generate_guides.py` lists it in a separate "no longer operating" section.
+Never delete a closed entry; mark it, so it does not get re-researched and re-added later.
 
 ## Quick Start Commands
 
@@ -511,10 +521,10 @@ Use `schedule_start_date` and `schedule_end_date` to limit when a recurring even
 This is useful for seasonal programs (summer concerts, winter classes) or programs on hiatus. Both fields are respected by the ICS calendar generation and the web calendar preview.
 
 **One-time events vs recurring events:**
-**Important:** Use `dates` for specific event dates, not `dates_2026` or other year-suffixed variants. The calendar scripts only recognize the `dates` field.
+**Important:** Use `dates` for specific event dates, not `dates_2026` or other year-suffixed variants. The calendar scripts only recognize the `dates` field, and `audit_check.py --validate` now fails on any year-suffixed key so this cannot slip through silently.
 
 Entries with a `dates` field (e.g., "July 18-19, 2026") are treated as one-time events:
-- They appear ONLY in the "Seasonal Events" tab
+- They appear in the "Seasonal Events" tab and as all-day events in the ICS feeds
 - They do NOT generate recurring calendar entries
 - Use `dates` for festivals, fairs, and specific-date events
 
@@ -524,6 +534,28 @@ Entries with a `dates` field (e.g., "July 18-19, 2026") are treated as one-time 
   dates: "July 18-19, 2026"  # One-time event - won't show as recurring
   schedule: "Sat noon-8pm, Sun 11:30am-6pm"  # Schedule is for display only
 ```
+
+**Always write the year.** `dates: "December 15-31"` with no year is read as the *next*
+occurrence of those days, which flips to the following year once the date passes. Supported
+shapes: `"July 17-19, 2026"`, `"May 22 - June 28, 2026"` (cross-month), `"June through August
+2026"` (whole months), `"November 27, 2026"`.
+
+**Programs can have their own `dates`** for a touring series or a season of one-offs. Each date
+becomes its own calendar event at the program's location, and `schedule` supplies the time of
+day rather than a recurrence:
+
+```yaml
+- id: portland-sunday-parkways
+  programs:
+  - name: Sunday Parkways - Southwest Portland
+    dates: May 17, 2026
+    schedule: 11am-4pm        # time of day only - no weekday needed
+    location: Gabriel Park, SW 45th Ave & SW Vermont St, Portland, OR
+```
+
+Prefer an explicit `dates` list over a `schedule` recurrence whenever the organizer publishes
+actual dates. Recurrence strings cannot express patterns like "1st Saturday of even months",
+and a published list also survives skipped months and holiday closures.
 
 **Seasonal filtering:**
 The web calendar automatically filters events based on seasonal keywords in schedule/notes:

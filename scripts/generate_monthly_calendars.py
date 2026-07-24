@@ -401,6 +401,9 @@ def main():
             print(f"Warning: {source_file} not found, skipping {platform_name}")
             continue
 
+        # distribution/ is gitignored, so it may not exist on a fresh checkout
+        output_dir.mkdir(parents=True, exist_ok=True)
+
         print(f"Processing {platform_name}...")
 
         with open(source_file, 'r', encoding='utf-8') as f:

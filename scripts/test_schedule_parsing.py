@@ -6,11 +6,20 @@ Run: python -m pytest test_schedule_parsing.py -v
 import sys
 import os
 import unittest
+from datetime import date, datetime
 
 # Add scripts directory to path for imports
 sys.path.insert(0, os.path.dirname(__file__))
 
-from generate_calendar import parse_schedule, detect_audience, get_entry_audience, get_program_audience
+from generate_calendar import (
+    build_recurring_event,
+    detect_audience,
+    get_entry_audience,
+    get_program_audience,
+    is_closed,
+    parse_date_string,
+    parse_schedule,
+)
 
 
 class TestParseSchedule(unittest.TestCase):
@@ -339,6 +348,151 @@ class TestGetProgramAudience(unittest.TestCase):
         entry = {"name": "Senior Center Activities", "eligibility": "Adults 55+"}
         result = get_program_audience(program, entry)
         self.assertIn("seniors", result)
+
+
+class TestDayRanges(unittest.TestCase):
+    """Day ranges must expand fully and coexist with standalone day names."""
+
+    def test_full_name_range(self):
+        """'Monday-Friday' must expand, not collapse to the two endpoints."""
+        self.assertEqual(parse_schedule("Monday-Friday 8am-5pm")["day"], "MO,TU,WE,TH,FR")
+
+    def test_range_plus_standalone_day(self):
+        """'Fri ...; Sat-Sun ...' keeps Friday alongside the weekend range."""
+        result = parse_schedule("Fri 11am-1pm & 4-7pm; Sat-Sun 2:30-4:30pm")
+        self.assertEqual(result["day"], "FR,SA,SU")
+
+    def test_wrap_around_range(self):
+        self.assertEqual(parse_schedule("Sat-Tue 9-10am")["day"], "MO,TU,SA,SU")
+
+    def test_days_are_ordered_monday_first(self):
+        self.assertEqual(parse_schedule("Thursdays and Tuesdays 6-7pm")["day"], "TU,TH")
+
+    def test_daily_does_not_override_explicit_days(self):
+        """'daily' inside prose must not widen a specific range to all week."""
+        result = parse_schedule("Fri-Sun (check Facebook for daily schedule)")
+        self.assertEqual(result["day"], "FR,SA,SU")
+        self.assertNotIn("daily", result)
+
+    def test_daily_still_expands_when_alone(self):
+        result = parse_schedule("Daily 2-10pm")
+        self.assertEqual(result["day"], "MO,TU,WE,TH,FR,SA,SU")
+        self.assertTrue(result.get("daily"))
+
+
+class TestParseDateString(unittest.TestCase):
+    """Date strings for one-time events."""
+
+    TODAY = date(2026, 7, 24)
+
+    def parse(self, text):
+        return parse_date_string(text, today=self.TODAY)
+
+    def test_same_month_range(self):
+        start, end = self.parse("July 17-19, 2026 (46th annual)")
+        self.assertEqual((start.date(), end.date()), (date(2026, 7, 17), date(2026, 7, 19)))
+
+    def test_cross_month_range_keeps_stated_year(self):
+        """'May 22 - June 28, 2026' used to collapse to a single day in 2027."""
+        start, end = self.parse("May 22 - June 28, 2026")
+        self.assertEqual((start.date(), end.date()), (date(2026, 5, 22), date(2026, 6, 28)))
+
+    def test_month_span_without_days(self):
+        start, end = self.parse("June through August 2026")
+        self.assertEqual((start.date(), end.date()), (date(2026, 6, 1), date(2026, 8, 31)))
+
+    def test_year_less_date_uses_next_occurrence(self):
+        """No year written: December is still ahead of us in July, so this year."""
+        start, end = self.parse("December 15-31, 6-11pm nightly")
+        self.assertEqual((start.date(), end.date()), (date(2026, 12, 15), date(2026, 12, 31)))
+
+    def test_year_less_past_date_rolls_forward(self):
+        start, _ = self.parse("February 6")
+        self.assertEqual(start.date(), date(2027, 2, 6))
+
+    def test_single_date(self):
+        start, end = self.parse("November 27, 2026 (day after Thanksgiving), 5:30-6:45pm")
+        self.assertEqual(start.date(), date(2026, 11, 27))
+        self.assertIsNone(end)
+
+    def test_unparseable(self):
+        self.assertEqual(self.parse("Various dates"), (None, None))
+
+
+class TestRecurrenceRules(unittest.TestCase):
+    """DTSTART must be a real occurrence of the RRULE it carries."""
+
+    def build(self, schedule_str, entry=None):
+        return build_recurring_event(
+            schedule=parse_schedule(schedule_str),
+            entry=entry or {},
+            summary="Test", description="d", html_desc="d", location="",
+            uid="uid@test", website="", category="events", platform="google",
+        )
+
+    def rrule_of(self, vevent):
+        return next(line for line in vevent.split("\r\n") if line.startswith("RRULE:"))
+
+    def dtstart_of(self, vevent):
+        line = next(line for line in vevent.split("\r\n") if line.startswith("DTSTART"))
+        return datetime.strptime(line.split(":")[1][:8], "%Y%m%d").date()
+
+    def test_nth_weekday_uses_prefixed_byday(self):
+        """BYSETPOS over multiple days means 'first of either', not 'both firsts'."""
+        vevent = self.build("1st Tuesday and 1st Saturday 6-7pm")
+        self.assertIn("BYDAY=1TU,1SA", self.rrule_of(vevent))
+        self.assertNotIn("BYSETPOS", self.rrule_of(vevent))
+
+    def test_dtstart_matches_monthly_rule(self):
+        """The 1st/3rd Sunday rule must not start on a 4th Sunday."""
+        vevent = self.build("1st and 3rd Sunday 2-3pm", {"schedule_start_date": "2026-07-24"})
+        dtstart = self.dtstart_of(vevent)
+        self.assertEqual(dtstart.weekday(), 6)
+        self.assertIn((dtstart.day - 1) // 7 + 1, (1, 3))
+
+    def test_last_of_month_rule(self):
+        vevent = self.build("Last Wednesday of each month 12-1pm",
+                            {"schedule_start_date": "2026-07-01"})
+        self.assertIn("BYDAY=-1WE", self.rrule_of(vevent))
+        self.assertEqual(self.dtstart_of(vevent), date(2026, 7, 29))
+
+    def test_weekly_dtstart_is_soonest_listed_day(self):
+        vevent = self.build("Tue/Thu 8-9am", {"schedule_start_date": "2026-07-24"})
+        self.assertEqual(self.dtstart_of(vevent), date(2026, 7, 28))
+
+    def test_overnight_event_ends_after_it_starts(self):
+        """'12-12am' is noon to midnight, so DTEND belongs on the next day."""
+        vevent = self.build("Last Wednesday 12-12am", {"schedule_start_date": "2026-07-01"})
+        lines = dict(line.split(":", 1) for line in vevent.split("\r\n") if ":" in line)
+        dtstart = next(v for k, v in lines.items() if k.startswith("DTSTART"))
+        dtend = next(v for k, v in lines.items() if k.startswith("DTEND"))
+        self.assertGreater(dtend, dtstart)
+
+    def test_until_is_utc(self):
+        """RFC 5545: UNTIL must be UTC when DTSTART carries a TZID."""
+        vevent = self.build("Every Tuesday 6-7pm", {
+            "schedule_start_date": "2026-07-01", "schedule_end_date": "2026-08-31",
+        })
+        until = self.rrule_of(vevent).split("UNTIL=")[1].split(";")[0]
+        self.assertTrue(until.endswith("Z"), until)
+        self.assertEqual(until, "20260901T065959Z")  # 23:59:59 PDT
+
+    def test_expired_window_produces_no_event(self):
+        """A program whose end date has passed must not be published at all."""
+        self.assertIsNone(self.build("Every Tuesday 6-7pm", {"schedule_end_date": "2020-03-01"}))
+
+
+class TestClosedEntries(unittest.TestCase):
+    """Permanently closed resources must not reach the published feeds."""
+
+    def test_status_field(self):
+        self.assertTrue(is_closed({"id": "x", "status": "CLOSED"}))
+
+    def test_closed_flag(self):
+        self.assertTrue(is_closed({"id": "x", "flags": ["❌ CLOSED - funding cuts"]}))
+
+    def test_open_entry(self):
+        self.assertFalse(is_closed({"id": "x", "flags": ["🔄 SEASONAL"]}))
 
 
 if __name__ == "__main__":

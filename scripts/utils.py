@@ -1,5 +1,6 @@
 """Shared utilities for Portland Metro Resources scripts."""
 
+import re
 import sys
 from datetime import date, datetime
 from pathlib import Path
@@ -66,6 +67,37 @@ REQUIRED_FIELDS = ["id", "name", "category"]
 
 VALID_AUDIT_FREQUENCIES = {"weekly", "monthly", "quarterly", "annually"}
 
+VALID_ACCESSIBILITY = {
+    "wheelchair_accessible", "transit_nearby", "elevator", "asl_available",
+    "hearing_loop", "scent_free", "low_vision_friendly", "gender_neutral_restroom",
+    "sliding_scale", "varies",
+}
+
+VALID_GOOD_FOR = {
+    "anxiety_friendly", "grief", "isolation", "new_to_area", "low_energy",
+    "active", "creative", "outdoor", "indoor", "family_friendly",
+}
+
+VALID_AUDIENCES = {
+    "children", "teens", "young_adults", "seniors", "women", "lgbtq",
+    "trans_nonbinary", "bipoc", "spanish_speaking",
+}
+
+VALID_SOCIAL_INTENSITY = {
+    "solo", "drop_in", "casual_group", "structured_group", "one_on_one", "varies",
+}
+
+TAG_VOCABULARIES = {
+    "accessibility": VALID_ACCESSIBILITY,
+    "good_for": VALID_GOOD_FOR,
+    "audience": VALID_AUDIENCES,
+}
+
+# Fields the calendar/guide scripts read. A key like `dates_2026` looks
+# meaningful in the YAML but is silently ignored by every consumer, so any
+# year-suffixed variant of a real field is flagged.
+YEAR_SUFFIX_RE = re.compile(r"_(19|20)\d{2}(_(19|20)\d{2})?$")
+
 
 def validate_entry(entry: dict) -> list[str]:
     """Validate a single entry and return a list of warnings."""
@@ -106,6 +138,36 @@ def validate_entry(entry: dict) -> list[str]:
         e = parse_date(end)
         if s and e and e < s:
             warnings.append(f"{entry_id}: schedule_end_date is before schedule_start_date")
+
+    for field, vocabulary in TAG_VOCABULARIES.items():
+        values = entry.get(field) or []
+        if isinstance(values, str):
+            values = [values]
+        for value in values:
+            if value not in vocabulary:
+                warnings.append(f"{entry_id}: unknown {field} tag '{value}'")
+
+    social = entry.get("social_intensity")
+    if social and social not in VALID_SOCIAL_INTENSITY:
+        warnings.append(f"{entry_id}: unknown social_intensity '{social}'")
+
+    for key in entry:
+        if YEAR_SUFFIX_RE.search(key):
+            warnings.append(
+                f"{entry_id}: field '{key}' is year-suffixed and is ignored by every "
+                f"script - use the unsuffixed field (e.g. 'dates') instead"
+            )
+
+    for program in entry.get("programs") or []:
+        if not isinstance(program, dict):
+            continue
+        label = program.get("name", "<unnamed program>")
+        for key in program:
+            if YEAR_SUFFIX_RE.search(key):
+                warnings.append(
+                    f"{entry_id} > {label}: field '{key}' is year-suffixed and is "
+                    f"ignored by every script - use the unsuffixed field instead"
+                )
 
     return warnings
 
