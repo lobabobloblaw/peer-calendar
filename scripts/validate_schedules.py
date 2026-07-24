@@ -68,7 +68,28 @@ def validate_schedules(sources_path: str) -> int:
     hard_issues = 0
     vague_count = 0
     incomplete_count = 0
+    biweekly_unanchored = 0
     checked = 0
+
+    def check_biweekly_anchor(obj, label, inherited_start=None):
+        """A biweekly rule needs a known meeting date to align to.
+
+        "Every other Monday" becomes INTERVAL=2 counting from whichever Monday
+        the generator anchors to, so without schedule_start_date set to a real
+        meeting date it lands on the wrong week half the time.
+        """
+        nonlocal biweekly_unanchored
+        schedule_str = obj.get("schedule")
+        if not schedule_str or obj.get("dates"):
+            return
+        if not parse_schedule(schedule_str).get("interval"):
+            return
+        if obj.get("schedule_start_date") or inherited_start:
+            return
+        biweekly_unanchored += 1
+        print(f"  [unanchored] {label}: biweekly schedule with no schedule_start_date")
+        print(f"    Schedule: \"{schedule_str}\"")
+        print(f"    Set schedule_start_date to a date the group actually meets.")
 
     def check_dates(dates_value, label):
         """Every `dates` string must parse, or the event silently disappears."""
@@ -124,6 +145,7 @@ def validate_schedules(sources_path: str) -> int:
             if schedule:
                 checked += 1
                 check_schedule(schedule, entry_id)
+                check_biweekly_anchor(entry, entry_id)
 
         for prog in entry.get("programs", []):
             if not isinstance(prog, dict):
@@ -138,9 +160,12 @@ def validate_schedules(sources_path: str) -> int:
             if prog_schedule:
                 checked += 1
                 check_schedule(prog_schedule, f"{entry_id} > {prog_name}")
+                check_biweekly_anchor(prog, f"{entry_id} > {prog_name}",
+                                      inherited_start=entry.get("schedule_start_date"))
 
     print(f"\nSchedule validation: {checked} checked, {hard_issues} failures, "
-          f"{incomplete_count} incomplete, {vague_count} vague")
+          f"{incomplete_count} incomplete, {vague_count} vague, "
+          f"{biweekly_unanchored} unanchored biweekly")
     if hard_issues:
         print(f"  {hard_issues} schedule(s) could not be parsed — fix data or update vague patterns")
     return hard_issues

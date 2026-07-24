@@ -6,6 +6,7 @@ on:
     paths:
       - 'data/sources.yaml'
       - 'scripts/generate_calendar.py'
+      - 'scripts/generate_guides.py'
       - 'scripts/utils.py'
 
   workflow_dispatch:
@@ -49,16 +50,22 @@ jobs:
         working-directory: scripts
         run: python generate_calendar.py --json --publish
 
+      # Keeps guides/resources-guide.md from drifting away from sources.yaml
+      # between manual regenerations.
+      - name: Generate resource guide
+        working-directory: scripts
+        run: python generate_guides.py
+
       - name: Check for changes
         id: check
         run: |
-          git diff --quiet docs/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet docs/ guides/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push
         if: steps.check.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/
-          git commit -m "Auto-generate calendar feeds from sources.yaml"
+          git add docs/ guides/
+          git commit -m "Auto-generate calendar feeds and resource guide from sources.yaml"
           git push

@@ -249,11 +249,12 @@ backlog. Two structural options worth considering:
   case is `alano-club-portland`, where seven recovery meeting groups are stored as "Weekly
   meetings" / "Multiple weekly meetings" — real schedules exist on portlandalano.org and would
   add meaningful peer-support coverage.
-- **Biweekly events cannot be anchored.** `"Every other Monday 1-3pm"` becomes
-  `INTERVAL=2` starting from whenever the file was generated, so which Monday it lands on is
-  arbitrary — a 50/50 chance of being a week off. Affects Gresham Senior Center's movie
-  matinees, Gresham Music in the Parks, and Shift's Foster Night Ride. The fix is a data one:
-  add `schedule_start_date` set to a known meeting date. Worth a validator warning.
+- **Two biweekly events are not anchored.** `"Every other Monday 1-3pm"` becomes `INTERVAL=2`
+  counted from the anchor date, so which Monday it lands on is a coin flip. `validate_schedules.py`
+  now reports these as `[unanchored]`; two are outstanding, and each needs one real meeting
+  date from the organiser:
+  - `gresham-senior-center > Monday Movie Matinees` — "Every other Monday 1-3pm"
+  - `shift-to-bikes > Foster Night Ride` — "Every other Tuesday"
 
 ---
 
@@ -264,14 +265,17 @@ backlog. Two structural options worth considering:
   Consider having `generate_calendar.py` emit resolved days/times into `events.json` so the
   browser does not need to re-parse the strings at all — that would delete the duplication
   rather than police it.
-- **CI regenerates `docs/` on every push, and every `DTSTART` moves.** Because recurring events
-  are anchored to generation time, an unrelated commit produces a ~2,900-line diff and a fresh
-  "Auto-generate calendar feeds" commit. Anchoring recurrences to a fixed season start
-  (or to `schedule_start_date` where known) would make the output deterministic and the
-  history readable.
-- **CI does not run `generate_guides.py`,** so `guides/resources-guide.md` drifts from
-  `sources.yaml` between manual regenerations. It was three months and three entries stale at
-  the start of this review. Regenerated here; worth adding to the workflow.
+- ~~**CI regenerates `docs/` on every push, and every `DTSTART` moves.**~~ **Fixed.** Recurring
+  events were anchored to generation time, so an unrelated commit rewrote all 30 feeds — a
+  ~2,900-line diff — and buried any real change. `DTSTART` now anchors to a fixed
+  `CALENDAR_EPOCH` (or `schedule_start_date` where known), `DTSTAMP` comes from the entry's
+  `last_verified`, and `events.json`'s `generated` field is the newest `last_verified` in the
+  file. Two consecutive runs are now byte-identical across all 31 output files. The one
+  remaining time dependency is deliberate: a recurrence whose `schedule_end_date` has passed
+  stops being published.
+- ~~**CI does not run `generate_guides.py`.**~~ **Fixed.** `guides/resources-guide.md` drifted
+  from `sources.yaml` between manual regenerations — three months and three entries stale at
+  the start of this review. The workflow now regenerates and commits it alongside `docs/`.
 - **Three legacy hand-maintained guides remain** — `activities-guide-1.md`,
   `activities-guide-2.md`, `food_farms-guide.md` — alongside the generated
   `resources-guide.md`. CLAUDE.md says the generator "replaces manual guide maintenance", but

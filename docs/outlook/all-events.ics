@@ -25,9 +25,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:eef9922f03c2cfbe@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T063000
-DTEND;TZID=America/Los_Angeles:20260724T213000
+DTSTAMP:20260325T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T063000
+DTEND;TZID=America/Los_Angeles:20260101T213000
 SUMMARY:SPOT Southwest (Free On-Demand Transit)
 DESCRIPTION:Category: Transportation\nCost: FREE\nPhone: 503-907-7768\nWebs
  ite: https://catchthespot.org/\nDetails: Washington County free on-demand 
@@ -42,9 +42,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b8b48cbe08f220fe@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T150000
-DTEND;TZID=America/Los_Angeles:20260726T163000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260111T150000
+DTEND;TZID=America/Los_Angeles:20260111T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (In-Person)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
   464 SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\n
@@ -61,9 +61,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dba6711eb13da213@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260802T150000
-DTEND;TZID=America/Los_Angeles:20260802T163000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T150000
+DTEND;TZID=America/Los_Angeles:20260104T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (Online)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nAddress: 464 
  SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsi
@@ -79,9 +79,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9777816b12080f9@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T190000
-DTEND;TZID=America/Los_Angeles:20260727T203000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
  LGBTQ2SIA+ adults 18+ with mental health symptoms\nAddress: 464 SE 185th A
@@ -98,9 +98,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c8206c50171db713@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T150000
-DTEND;TZID=America/Los_Angeles:20260726T163000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260111T150000
+DTEND;TZID=America/Los_Angeles:20260111T163000
 SUMMARY:NAMI Multnomah: Young Adult (18-35)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nEligibil
  ity: Ages 18-35 with mental health symptoms\nAddress: 464 SE 185th Ave\, S
@@ -118,9 +118,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4b11c0aa298f2306@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260806T190000
-DTEND;TZID=America/Los_Angeles:20260806T203000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T190000
+DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:NAMI Multnomah: BIPOC Peer Support
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
  Black\, Indigenous\, and/or People of Color adults with mental health cond
@@ -138,9 +138,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c08dbed81b24d0f5@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T190000
-DTEND;TZID=America/Los_Angeles:20260728T203000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T190000
+DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Multnomah: Complex Trauma & Dissociation Support
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
  Those experiencing complex trauma and/or dissociation\nAddress: 464 SE 185
@@ -157,9 +157,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:531662b55bc0a9a7@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T190000
-DTEND;TZID=America/Los_Angeles:20260728T203000
+DTSTAMP:20260422T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T190000
+DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Clackamas: NAMI Connection Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: For adults living with mental health conditions. Registration required.
@@ -177,9 +177,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:abda9c8971b1314b@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260805T170000
-DTEND;TZID=America/Los_Angeles:20260805T183000
+DTSTAMP:20260422T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T170000
+DTEND;TZID=America/Los_Angeles:20260107T183000
 SUMMARY:NAMI Clackamas: Women (18+) Only Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Bi-weekly peer-led re
  covery support\nAddress: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97
@@ -196,9 +196,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:620a559fb7ab08a0@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260803T183000
-DTEND;TZID=America/Los_Angeles:20260803T200000
+DTSTAMP:20260422T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T183000
+DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:NAMI Clackamas: NAMI Family Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: For anyone who cares about someone with mental health condition. ⚠️ VER
@@ -216,9 +216,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d8997f26797c801@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260729T190000
-DTEND;TZID=America/Los_Angeles:20260729T203000
+DTSTAMP:20260422T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T190000
+DTEND;TZID=America/Los_Angeles:20260107T203000
 SUMMARY:NAMI Clackamas: NAMI Clackamas Conexion (Spanish-Speaking Support G
  roup)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
@@ -237,9 +237,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ea6aaafa1987c3ab@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T190000
-DTEND;TZID=America/Los_Angeles:20260727T203000
+DTSTAMP:20260422T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:NAMI Clackamas: LGBTQ+ Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: Joint program with NAMI Multnomah - weekly for adults 18+. ⚠️ VERIFY sc
@@ -257,9 +257,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0f499a48fa4b50aa@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260806T190000
-DTEND;TZID=America/Los_Angeles:20260806T203000
+DTSTAMP:20260422T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T190000
+DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:NAMI Clackamas: BIPOC Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIF
@@ -278,9 +278,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85d355a359c1e2b9@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T190000
-DTEND;TZID=America/Los_Angeles:20260728T200000
+DTSTAMP:20260422T000000Z
+DTSTART;TZID=America/Los_Angeles:20260127T190000
+DTEND;TZID=America/Los_Angeles:20260127T200000
 SUMMARY:NAMI Clackamas: Compassionate Friends
 DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Affiliated grief supp
  ort group. No registration required.\nAddress: 10202 SE 32nd Ave\, Suite 5
@@ -297,9 +297,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:651932636ba165c7@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T190000
-DTEND;TZID=America/Los_Angeles:20260727T203000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): LGBTQIA+ Suppo
  rt Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online (1st Monday 
@@ -316,9 +316,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:215024356d2538f2@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T183000
-DTEND;TZID=America/Los_Angeles:20260728T195000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T183000
+DTEND;TZID=America/Los_Angeles:20260106T195000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (W
  est Portland)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nWebsite: ht
@@ -334,9 +334,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49d6b06cbd9d0a5b@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260730T190000
-DTEND;TZID=America/Los_Angeles:20260730T203000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T190000
+DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (E
  astside)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nWebsite: ht
@@ -352,9 +352,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a8aee7696d751ae1@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T100000
-DTEND;TZID=America/Los_Angeles:20260725T113000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T100000
+DTEND;TZID=America/Los_Angeles:20260103T113000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Mental Healthc
  are Professionals
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nInfo: For m
@@ -372,9 +372,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:19f42812d02d4c30@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T100000
-DTEND;TZID=America/Los_Angeles:20260726T110000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T100000
+DTEND;TZID=America/Los_Angeles:20260104T110000
 SUMMARY:Recovery Dharma Portland (PDX): Queer Paths (LGBTQIA+)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nWebsite: http
  s://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portland. 
@@ -389,9 +389,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d01907d4e561c48d@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T160000
-DTEND;TZID=America/Los_Angeles:20260726T170000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T160000
+DTEND;TZID=America/Los_Angeles:20260104T170000
 SUMMARY:Recovery Dharma Portland (PDX): Middle Way on MLK
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -407,9 +407,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a401de0df0a97d58@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T070000
-DTEND;TZID=America/Los_Angeles:20260727T080000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T070000
+DTEND;TZID=America/Los_Angeles:20260105T080000
 SUMMARY:Recovery Dharma Portland (PDX): Dawn Metta
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nWebsite: http
  s://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portland. 
@@ -424,9 +424,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8b74d636a24a9d3b@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T190000
-DTEND;TZID=America/Los_Angeles:20260727T200000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:Recovery Dharma Portland (PDX): Dharma Rain Eightfold Path Study
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Hybrid\nWebsite: ht
  tps://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portland
@@ -442,9 +442,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cf5b8c34d2c742aa@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T180000
-DTEND;TZID=America/Los_Angeles:20260727T191500
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T180000
+DTEND;TZID=America/Los_Angeles:20260105T191500
 SUMMARY:Recovery Dharma Portland (PDX): Hungry Ghosts
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -460,9 +460,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:23dea98a4f0c56b7@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T193000
-DTEND;TZID=America/Los_Angeles:20260728T203000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T193000
+DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:Recovery Dharma Portland (PDX): Women's\, Trans\, and Non-Binary
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -478,9 +478,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b9e264e45b420ecd@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260730T120000
-DTEND;TZID=America/Los_Angeles:20260730T130000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T120000
+DTEND;TZID=America/Los_Angeles:20260101T130000
 SUMMARY:Recovery Dharma Portland (PDX): Thursday Portland Alano Club
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -496,9 +496,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:568f2b14f76f137e@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T190000
-DTEND;TZID=America/Los_Angeles:20260724T203000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T190000
+DTEND;TZID=America/Los_Angeles:20260102T203000
 SUMMARY:Recovery Dharma Portland (PDX): Sarpashana
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -514,9 +514,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0a44eb8e53fca375@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T190000
-DTEND;TZID=America/Los_Angeles:20260725T200000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T190000
+DTEND;TZID=America/Los_Angeles:20260103T200000
 SUMMARY:Recovery Dharma Portland (PDX): Meditation Sandwich
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -532,9 +532,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d6de414531d54a8c@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260801T100000
-DTEND;TZID=America/Los_Angeles:20260801T120000
+DTSTAMP:20260216T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T100000
+DTEND;TZID=America/Los_Angeles:20260103T120000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): Trans PDX Support Grou
  p
 DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: For t
@@ -552,9 +552,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5dccfbb24ed3c3f2@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260803T190000
-DTEND;TZID=America/Los_Angeles:20260803T203000
+DTSTAMP:20260216T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): LGBTQIA2S+ Mental Heal
  th Support
 DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: Peer-
@@ -572,9 +572,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:65981a99ae5aad6e@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260812T190000
-DTEND;TZID=America/Los_Angeles:20260812T210000
+DTSTAMP:20260216T000000Z
+DTSTART;TZID=America/Los_Angeles:20260114T190000
+DTEND;TZID=America/Los_Angeles:20260114T210000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): QTIBIPOC Community Spa
  ce
 DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: For q
@@ -592,9 +592,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:443269c9da047a73@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T120000
-DTEND;TZID=America/Los_Angeles:20260724T130000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T120000
+DTEND;TZID=America/Los_Angeles:20260101T130000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Daily Meetings (Central Offi
  ce)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
@@ -612,9 +612,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a21b6c155557d1bd@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T120000
-DTEND;TZID=America/Los_Angeles:20260727T130000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T120000
+DTEND;TZID=America/Los_Angeles:20260105T130000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Luke Dorf Meeting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
  2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
@@ -631,9 +631,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6705b1bab8158dc0@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T151500
-DTEND;TZID=America/Los_Angeles:20260727T161500
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T151500
+DTEND;TZID=America/Los_Angeles:20260105T161500
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Providence Medical Center Me
  eting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
@@ -651,9 +651,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7eee8f348d64220f@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T140000
-DTEND;TZID=America/Los_Angeles:20260727T150000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T140000
+DTEND;TZID=America/Los_Angeles:20260105T150000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Taft Hotel Meeting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
  2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
@@ -670,9 +670,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e3edc33c7c6abd02@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T100000
-DTEND;TZID=America/Los_Angeles:20260725T110000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T100000
+DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Saturday Meeting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
  2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
@@ -689,9 +689,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fd5742a493e3fee2@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T103000
-DTEND;TZID=America/Los_Angeles:20260725T113000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T103000
+DTEND;TZID=America/Los_Angeles:20260103T113000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Virtual Meeting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nAddress: 521 
  SW 11th Ave\, 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsit
@@ -709,9 +709,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0870cb364bf69dbd@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T140000
-DTEND;TZID=America/Los_Angeles:20260724T220000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T140000
+DTEND;TZID=America/Los_Angeles:20260101T220000
 SUMMARY:4D Recovery: Drop-In Center
 DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Welcoming space with 
  pool table\, video games\, TV\, and peer connection. Come hang out\, no pr
@@ -729,9 +729,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:445c92b4ea533d65@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T140000
-DTEND;TZID=America/Los_Angeles:20260726T150000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T140000
+DTEND;TZID=America/Los_Angeles:20260104T150000
 SUMMARY:Alano Club of Portland: RTS Recovery Yoga
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Yo
  ga classes designed for people in recovery\nAddress: 909 NW 24th Avenue\, 
@@ -748,9 +748,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3126ba680d24f93@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T100000
-DTEND;TZID=America/Los_Angeles:20260725T110000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T100000
+DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:Alano Club of Portland: Dual Diagnosis Anonymous (DDA)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
   909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
@@ -767,9 +767,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e9fbeb09cf612c48@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T110000
-DTEND;TZID=America/Los_Angeles:20260725T120000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T110000
+DTEND;TZID=America/Los_Angeles:20260103T120000
 SUMMARY:Alano Club of Portland: Gamblers Anonymous (GA)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
   909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
@@ -786,9 +786,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b744c3545429bb98@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T080000
-DTEND;TZID=America/Los_Angeles:20260724T170000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T080000
+DTEND;TZID=America/Los_Angeles:20260101T170000
 SUMMARY:Bridges to Change - Club Hope: Recovery Drop-In Center
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Sa
  fe space for peer connection and support. Shower/laundry facilities availa
@@ -807,9 +807,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3f2be9a46ade2d95@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T173000
-DTEND;TZID=America/Los_Angeles:20260728T183000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T173000
+DTEND;TZID=America/Los_Angeles:20260106T183000
 SUMMARY:Bridges to Change - Club Hope: Dual Diagnosis Anonymous (DDA) Meeti
  ng
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Fo
@@ -829,9 +829,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dac2e71c3d6922c7@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260729T123000
-DTEND;TZID=America/Los_Angeles:20260729T140000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260128T123000
+DTEND;TZID=America/Los_Angeles:20260128T140000
 SUMMARY:Community for Positive Aging: Conversations on Aging
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Su
  pport group for older adults navigating challenges of aging. Registration 
@@ -849,9 +849,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:37934774f23f64f3@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260810T130000
-DTEND;TZID=America/Los_Angeles:20260810T140000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260112T130000
+DTEND;TZID=America/Los_Angeles:20260112T140000
 SUMMARY:Community for Positive Aging: Family Caregivers Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Su
  pport for family caregivers\, including grandparents or older relatives ra
@@ -870,9 +870,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c1666e475947148e@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260827T110000
-DTEND;TZID=America/Los_Angeles:20260827T123000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260122T110000
+DTEND;TZID=America/Los_Angeles:20260122T123000
 SUMMARY:Community for Positive Aging: Memory Cafe
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Fr
  ee social gathering with music and refreshments for those with dementia\, 
@@ -891,9 +891,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b2c9ee508316dbb0@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T100000
-DTEND;TZID=America/Los_Angeles:20260727T110000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T100000
+DTEND;TZID=America/Los_Angeles:20260105T110000
 SUMMARY:Portland Hearing Voices: In-Person Hearing Voices Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\, drop-in
  \nAddress: 333 SW Park Ave\, Portland\, OR 97205\nWebsite: https://www.por
@@ -911,9 +911,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9b4a6cb18a941d5e@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T123000
-DTEND;TZID=America/Los_Angeles:20260727T133000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T123000
+DTEND;TZID=America/Los_Angeles:20260105T133000
 SUMMARY:Portland Hearing Voices: Hearing Voices Online
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: Online groups marked as '(Possibly)' on website - may be intermittent. 
@@ -933,9 +933,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:90892bb9e6fa288c@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260817T183000
-DTEND;TZID=America/Los_Angeles:20260817T200000
+DTSTAMP:20260304T000000Z
+DTSTART;TZID=America/Los_Angeles:20260119T183000
+DTEND;TZID=America/Los_Angeles:20260119T200000
 SUMMARY:Hopewell House Grief Support: Community Grief Ritual
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\, drop-in
  \, no RSVP needed\nInfo: A practice of transforming individual and collect
@@ -956,9 +956,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:320e6e4a7b1b2328@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T190000
-DTEND;TZID=America/Los_Angeles:20260728T200000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T190000
+DTEND;TZID=America/Los_Angeles:20260101T200000
 SUMMARY:BYMC (Bhakti Yoga Movement Center): Queer and Trans Yoga
 DESCRIPTION:Category: Fitness & Wellness\nCost: By-donation with equity pri
  cing\nNote: South Asian\, BIPOC\, and queer-owned. No one turned away.\nIn
@@ -976,9 +976,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da691286eec27342@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T173000
-DTEND;TZID=America/Los_Angeles:20260726T183000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T173000
+DTEND;TZID=America/Los_Angeles:20260104T183000
 SUMMARY:BYMC (Bhakti Yoga Movement Center): BIPOC-only Yoga
 DESCRIPTION:Category: Fitness & Wellness\nCost: By-donation with equity pri
  cing\nNote: South Asian\, BIPOC\, and queer-owned. No one turned away.\nIn
@@ -996,9 +996,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0338193000ae048d@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T082500
-DTEND;TZID=America/Los_Angeles:20260726T113000
+DTSTAMP:20260216T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T082500
+DTEND;TZID=America/Los_Angeles:20260104T113000
 SUMMARY:Dharma Rain Zen Center: Sunday Morning Program
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 8500 NE Sisk
  iyou St\, Portland\, OR 97220-5287\nPhone: 503-239-4846\nWebsite: https://
@@ -1015,9 +1015,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1843d5accdd3fbb0@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T063000
-DTEND;TZID=America/Los_Angeles:20260724T074500
+DTSTAMP:20260216T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T063000
+DTEND;TZID=America/Los_Angeles:20260101T074500
 SUMMARY:Dharma Rain Zen Center: Weekday Morning Meditation
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 8500 NE Sisk
  iyou St\, Portland\, OR 97220-5287\nPhone: 503-239-4846\nWebsite: https://
@@ -1034,9 +1034,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d1ffac331809a7fc@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260729T190000
-DTEND;TZID=America/Los_Angeles:20260729T210000
+DTSTAMP:20260216T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T190000
+DTEND;TZID=America/Los_Angeles:20260107T210000
 SUMMARY:Dharma Rain Zen Center: Wednesday Evening Classes
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 8500 NE Sisk
  iyou St\, Portland\, OR 97220-5287\nPhone: 503-239-4846\nWebsite: https://
@@ -1053,9 +1053,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75e1464598e366da@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T190000
-DTEND;TZID=America/Los_Angeles:20260727T200000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:Diamond Way Buddhist Center: Guided Meditation
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE always\nInfo: Guided m
  editation with explanation. Newcomers especially welcome.\nAddress: Portla
@@ -1072,9 +1072,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75e1464598e366da@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260730T190000
-DTEND;TZID=America/Los_Angeles:20260730T200000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T190000
+DTEND;TZID=America/Los_Angeles:20260101T200000
 SUMMARY:Diamond Way Buddhist Center: Guided Meditation
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE always\nInfo: Guided m
  editation with explanation. Newcomers especially welcome.\nAddress: Portla
@@ -1091,9 +1091,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:600bad985806d05a@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T100000
-DTEND;TZID=America/Los_Angeles:20260726T120000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T100000
+DTEND;TZID=America/Los_Angeles:20260104T120000
 SUMMARY:Portland Insight Meditation Community (PIMC): Sunday Program
 DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nAddr
  ess: 6536 SE Duke St\, Portland\, OR 97206\nPhone: 503-519-9686\nWebsite: 
@@ -1110,9 +1110,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:06dba37e7b380c72@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T183000
-DTEND;TZID=America/Los_Angeles:20260728T200000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T183000
+DTEND;TZID=America/Los_Angeles:20260106T200000
 SUMMARY:Portland Insight Meditation Community (PIMC): Women's Sangha with A
  lexa Redner
 DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
@@ -1130,9 +1130,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:50283de6a02f284c@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T150000
-DTEND;TZID=America/Los_Angeles:20260728T163000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T150000
+DTEND;TZID=America/Los_Angeles:20260106T163000
 SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Teatime
 DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
  at: Online\nAddress: 6536 SE Duke St\, Portland\, OR 97206\nPhone: 503-519
@@ -1149,9 +1149,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c4627ca915697040@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260729T190000
-DTEND;TZID=America/Los_Angeles:20260729T203000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T190000
+DTEND;TZID=America/Los_Angeles:20260107T203000
 SUMMARY:Portland Insight Meditation Community (PIMC): Heart of Freedom
 DESCRIPTION:Category: Fitness & Wellness\nCost: Dana (donation-based)\nForm
  at: Hybrid (in-person and Zoom)\nInfo: Mindfulness cultivation class with 
@@ -1170,9 +1170,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:94e0cd0418c97e74@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T110000
-DTEND;TZID=America/Los_Angeles:20260724T130000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T110000
+DTEND;TZID=America/Los_Angeles:20260102T130000
 SUMMARY:Mt. Scott Community Center: Slide Hours
 DESCRIPTION:Category: Fitness & Wellness\nNote: Non-residents pay higher ra
  tes. Children 0-2 FREE.\nAddress: 5530 SE 72nd Ave\, Portland\, OR 97206\n
@@ -1190,9 +1190,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a9f34038f6565caa@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T143000
-DTEND;TZID=America/Los_Angeles:20260725T162000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T143000
+DTEND;TZID=America/Los_Angeles:20260103T162000
 SUMMARY:Mt. Scott Community Center: Rope Swing
 DESCRIPTION:Category: Fitness & Wellness\nNote: Non-residents pay higher ra
  tes. Children 0-2 FREE.\nAddress: 5530 SE 72nd Ave\, Portland\, OR 97206\n
@@ -1210,9 +1210,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:69576450a4c8ec45@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T163000
-DTEND;TZID=America/Los_Angeles:20260728T190000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T163000
+DTEND;TZID=America/Los_Angeles:20260106T190000
 SUMMARY:Gresham Senior Center: Tuesday Night Dance
 DESCRIPTION:Category: Fitness & Wellness\nInfo: Live band (Desert Dogs)\; c
  ountry and more\; not on holidays\nAddress: 600 NE 8th Street\, Room 130\,
@@ -1228,9 +1228,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fa2a6f7932e27924@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T130000
-DTEND;TZID=America/Los_Angeles:20260727T150000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T130000
+DTEND;TZID=America/Los_Angeles:20260105T150000
 SUMMARY:Gresham Senior Center: Monday Movie Matinees
 DESCRIPTION:Category: Fitness & Wellness\nAddress: 600 NE 8th Street\, Room
   130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: https://www.gresh
@@ -1245,9 +1245,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:79365ba3889a5027@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T130000
-DTEND;TZID=America/Los_Angeles:20260724T143000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T130000
+DTEND;TZID=America/Los_Angeles:20260102T143000
 SUMMARY:Gresham Senior Center: Friday Speaker Series
 DESCRIPTION:Category: Fitness & Wellness\nAddress: 600 NE 8th Street\, Room
   130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: https://www.gresh
@@ -1262,9 +1262,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2899c7be9dbe89ab@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T180000
-DTEND;TZID=America/Los_Angeles:20260727T190000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T180000
+DTEND;TZID=America/Los_Angeles:20260105T190000
 SUMMARY:Portland Running Company Group Runs: Monday Trail Run
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nNote: Sign waiver bef
  ore first run\; no dogs\nInfo: 5-9 miles in Forest Park with No Name Trail
@@ -1280,9 +1280,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b00298890913c7a3@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T183000
-DTEND;TZID=America/Los_Angeles:20260728T193000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T183000
+DTEND;TZID=America/Los_Angeles:20260106T193000
 SUMMARY:Portland Running Company Group Runs: Tuesday Track Workout
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nNote: Sign waiver bef
  ore first run\; no dogs\nInfo: 60-75 minute workout including warmup/coold
@@ -1298,9 +1298,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3c383fb403018a6c@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260730T180000
-DTEND;TZID=America/Los_Angeles:20260730T190000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T180000
+DTEND;TZID=America/Los_Angeles:20260101T190000
 SUMMARY:Portland Running Company Group Runs: Thursday Thirsty Thursdays
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nNote: Sign waiver bef
  ore first run\; no dogs\nInfo: 5-7 miles followed by discounted first beve
@@ -1316,9 +1316,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:91c2138892ca5291@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T080000
-DTEND;TZID=America/Los_Angeles:20260726T090000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T080000
+DTEND;TZID=America/Los_Angeles:20260104T090000
 SUMMARY:Portland Running Company Group Runs: Sunday Long Run
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nNote: Sign waiver bef
  ore first run\; no dogs\nInfo: 5-18 miles\; all paces welcome. Post-run co
@@ -1334,9 +1334,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb1faca9bd5fba8c@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T110000
-DTEND;TZID=America/Los_Angeles:20260726T123000
+DTSTAMP:20260422T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T110000
+DTEND;TZID=America/Los_Angeles:20260104T123000
 SUMMARY:Food Court 5000 (Lloyd Center Mall Walking)
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 2201 Lloyd C
  enter\, Portland\, OR 97232\nWebsite: https://foodcourt5k.com/\nDetails: 1
@@ -1353,9 +1353,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b6d6695492daf9c2@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260807T170000
-DTEND;TZID=America/Los_Angeles:20260807T210000
+DTSTAMP:20260501T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T170000
+DTEND;TZID=America/Los_Angeles:20260102T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Community Climb (Friday)
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE for Gresham residents 
  on specific days\nNote: Includes rental shoes\; chalk sold separately\nInf
@@ -1372,9 +1372,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fe239b240ce243f8@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260805T090000
-DTEND;TZID=America/Los_Angeles:20260805T210000
+DTSTAMP:20260501T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T090000
+DTEND;TZID=America/Los_Angeles:20260107T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Community Climb (Wednesd
  ay)
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE for Gresham residents 
@@ -1392,9 +1392,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:120fe89373741af7@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260801T180000
-DTEND;TZID=America/Los_Angeles:20260801T210000
+DTSTAMP:20260501T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T180000
+DTEND;TZID=America/Los_Angeles:20260103T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Teen Nights
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE for Gresham residents 
  on specific days\nNote: Includes rental shoes\; chalk sold separately\nEli
@@ -1411,7 +1411,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2c4a1c226a516cbd@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260127T000000Z
 DTSTART;TZID=America/Los_Angeles:20260622T183000
 DTEND;TZID=America/Los_Angeles:20260622T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Creston Pool Free Swim
@@ -1433,7 +1433,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:19f37adeb9323fcb@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260127T000000Z
 DTSTART;TZID=America/Los_Angeles:20260623T130000
 DTEND;TZID=America/Los_Angeles:20260623T154500
 SUMMARY:Portland Parks Free Open Swim Sessions: Peninsula Pool Free Swim
@@ -1455,7 +1455,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49b9f431cb693d00@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260127T000000Z
 DTSTART;TZID=America/Los_Angeles:20260623T183000
 DTEND;TZID=America/Los_Angeles:20260623T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Montavilla Pool Free Swim
@@ -1476,7 +1476,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b759cc72f6eb0b0f@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260127T000000Z
 DTSTART;TZID=America/Los_Angeles:20260624T130000
 DTEND;TZID=America/Los_Angeles:20260624T150000
 SUMMARY:Portland Parks Free Open Swim Sessions: Grant Pool Free Swim
@@ -1497,7 +1497,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4bb53254bccbec2d@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260127T000000Z
 DTSTART;TZID=America/Los_Angeles:20260624T183000
 DTEND;TZID=America/Los_Angeles:20260624T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Sellwood Pool Free Swim
@@ -1518,7 +1518,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8bca75fd2199640c@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260127T000000Z
 DTSTART;TZID=America/Los_Angeles:20260625T133000
 DTEND;TZID=America/Los_Angeles:20260625T153000
 SUMMARY:Portland Parks Free Open Swim Sessions: Pier Pool Free Swim
@@ -1540,7 +1540,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a150923005de6562@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260127T000000Z
 DTSTART;TZID=America/Los_Angeles:20260625T183000
 DTEND;TZID=America/Los_Angeles:20260625T200000
 SUMMARY:Portland Parks Free Open Swim Sessions: Ida B. Wells Pool Free Swim
@@ -1561,9 +1561,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5a723522bb7078a8@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260729T062900
-DTEND;TZID=America/Los_Angeles:20260729T071500
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T062900
+DTEND;TZID=America/Los_Angeles:20260107T071500
 SUMMARY:November Project Portland: Wednesday Workout
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: 30-45 minute wo
  rkout. Bodyweight movements and running with alternatives for all levels. 
@@ -1582,9 +1582,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2d545c0884955257@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T083500
-DTEND;TZID=America/Los_Angeles:20260725T093500
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T083500
+DTEND;TZID=America/Los_Angeles:20260103T093500
 SUMMARY:Portland Trail Runners: Saturday Trail Run
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: 5-7 miles (3-4 
  mi option). Forest Park\, Tryon Creek\, Wildwood Trail. Coffee at trailhea
@@ -1601,9 +1601,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2a89d50c13cc476b@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260729T183500
-DTEND;TZID=America/Los_Angeles:20260729T193500
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T183500
+DTEND;TZID=America/Los_Angeles:20260107T193500
 SUMMARY:Portland Trail Runners: Weeknight Trail Run
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Night trails ru
  n - headlamp and reflective gear required.\nAddress: Forest Park (various 
@@ -1620,9 +1620,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:105d2f0b41322d3e@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T183000
-DTEND;TZID=America/Los_Angeles:20260727T200000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T183000
+DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:Trail Sisters Portland: Monday Trail Run
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: No one left beh
  ind philosophy - group matches your pace.\nAddress: Forest Park\, Thurman 
@@ -1641,9 +1641,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6c4cd51bb25fc508@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260730T183000
-DTEND;TZID=America/Los_Angeles:20260730T200000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T183000
+DTEND;TZID=America/Los_Angeles:20260101T200000
 SUMMARY:Trail Sisters Portland: Thursday Trail Run
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: No one left beh
  ind philosophy - group matches your pace.\nAddress: Forest Park\, Thurman 
@@ -1661,117 +1661,8 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:d323e00b2f2b4004@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260112T160000
-DTEND;TZID=America/Los_Angeles:20260112T170000
-SUMMARY:THPRD Fitness in the Park: Tai Chi at The Opal
-DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
- classes in Washington County parks. Focus on environmental justice areas t
- o reduce barriers to access.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-645-6433">503-645-6433</a></p><p><strong>Website:</strong> <a href="https://www.thprd.org/fitness-in-the-park">https://www.thprd.org/fitness-in-the-park</a></p><p><strong>Details:</strong> Free fitness classes in Washington County parks. Focus on environmental justice areas to reduce barriers to access.</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:The Opal
-URL:https://www.thprd.org/fitness-in-the-park
-RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20260323T065959Z
-CATEGORIES:Fitness & Wellness
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:87431613fe4cf5d0@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260113T103000
-DTEND;TZID=America/Los_Angeles:20260113T113000
-SUMMARY:THPRD Fitness in the Park: Chair Yoga at Virginia Garcia Wellness C
- enter
-DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
- classes in Washington County parks. Focus on environmental justice areas t
- o reduce barriers to access.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-645-6433">503-645-6433</a></p><p><strong>Website:</strong> <a href="https://www.thprd.org/fitness-in-the-park">https://www.thprd.org/fitness-in-the-park</a></p><p><strong>Details:</strong> Free fitness classes in Washington County parks. Focus on environmental justice areas to reduce barriers to access.</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Virginia Garcia Wellness Center
-URL:https://www.thprd.org/fitness-in-the-park
-RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20260323T065959Z
-CATEGORIES:Fitness & Wellness
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:fa1d89b762824198@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260113T143000
-DTEND;TZID=America/Los_Angeles:20260113T153000
-SUMMARY:THPRD Fitness in the Park: Chair Fitness at The Barcelona
-DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
- classes in Washington County parks. Focus on environmental justice areas t
- o reduce barriers to access.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-645-6433">503-645-6433</a></p><p><strong>Website:</strong> <a href="https://www.thprd.org/fitness-in-the-park">https://www.thprd.org/fitness-in-the-park</a></p><p><strong>Details:</strong> Free fitness classes in Washington County parks. Focus on environmental justice areas to reduce barriers to access.</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:The Barcelona
-URL:https://www.thprd.org/fitness-in-the-park
-RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20260323T065959Z
-CATEGORIES:Fitness & Wellness
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:105dcceadf2a0e9b@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260113T173000
-DTEND;TZID=America/Los_Angeles:20260113T183000
-SUMMARY:THPRD Fitness in the Park: Zumba at Virginia Garcia Wellness Center
-DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
- classes in Washington County parks. Focus on environmental justice areas t
- o reduce barriers to access.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-645-6433">503-645-6433</a></p><p><strong>Website:</strong> <a href="https://www.thprd.org/fitness-in-the-park">https://www.thprd.org/fitness-in-the-park</a></p><p><strong>Details:</strong> Free fitness classes in Washington County parks. Focus on environmental justice areas to reduce barriers to access.</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Virginia Garcia Wellness Center
-URL:https://www.thprd.org/fitness-in-the-park
-RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20260323T065959Z
-CATEGORIES:Fitness & Wellness
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:c70500435404bbdf@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260117T110000
-DTEND;TZID=America/Los_Angeles:20260117T120000
-SUMMARY:THPRD Fitness in the Park: Tai Chi at Tallac Terrace
-DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
- classes in Washington County parks. Focus on environmental justice areas t
- o reduce barriers to access.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-645-6433">503-645-6433</a></p><p><strong>Website:</strong> <a href="https://www.thprd.org/fitness-in-the-park">https://www.thprd.org/fitness-in-the-park</a></p><p><strong>Details:</strong> Free fitness classes in Washington County parks. Focus on environmental justice areas to reduce barriers to access.</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Tallac Terrace
-URL:https://www.thprd.org/fitness-in-the-park
-RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20260323T065959Z
-CATEGORIES:Fitness & Wellness
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:7207fed07877f691@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260118T110000
-DTEND;TZID=America/Los_Angeles:20260118T120000
-SUMMARY:THPRD Fitness in the Park: Zumba at HMT Softball Concessions
-DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
- classes in Washington County parks. Focus on environmental justice areas t
- o reduce barriers to access.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-645-6433">503-645-6433</a></p><p><strong>Website:</strong> <a href="https://www.thprd.org/fitness-in-the-park">https://www.thprd.org/fitness-in-the-park</a></p><p><strong>Details:</strong> Free fitness classes in Washington County parks. Focus on environmental justice areas to reduce barriers to access.</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:HMT Softball Concessions
-URL:https://www.thprd.org/fitness-in-the-park
-RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20260323T065959Z
-CATEGORIES:Fitness & Wellness
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:9bcec74921ec71a3@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260307T000000Z
 DTSTART;TZID=America/Los_Angeles:20260208T100000
 DTEND;TZID=America/Los_Angeles:20260208T113000
 SUMMARY:THPRD Fitness in the Park: Sweetheart Stroll
@@ -1788,7 +1679,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:63339ae952c1154d@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260307T000000Z
 DTSTART;TZID=America/Los_Angeles:20260328T110000
 DTEND;TZID=America/Los_Angeles:20260328T130000
 SUMMARY:THPRD Fitness in the Park: Women's Wellness Fair
@@ -1805,7 +1696,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bdf1f13e2de736d2@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260307T000000Z
 DTSTART;VALUE=DATE:20260527
 DTEND;VALUE=DATE:20260528
 SUMMARY:THPRD Fitness in the Park: National Senior Health & Fitness Day
@@ -1822,9 +1713,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5fa19b2b7a92e2f9@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T093000
-DTEND;TZID=America/Los_Angeles:20260725T120000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T093000
+DTEND;TZID=America/Los_Angeles:20260103T120000
 SUMMARY:Birdhers
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: Inner Portla
  nd parks (various locations)\nWebsite: https://birdhers.com/\nDetails: Med
@@ -1840,9 +1731,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0781b534fe7b3022@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260816T130000
-DTEND;TZID=America/Los_Angeles:20260816T150000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260118T130000
+DTEND;TZID=America/Los_Angeles:20260118T150000
 SUMMARY:Tergar Meditation Community of Portland: Monthly In-Person Practice
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Three 25-minute
   silent sitting sessions with walking meditation between\, followed by tea
@@ -1859,9 +1750,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9b052c1131dba353@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T190000
-DTEND;TZID=America/Los_Angeles:20260728T203000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T190000
+DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:Tergar Meditation Community of Portland: Tuesday Evening Online Pra
  ctice
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Virtual meditat
@@ -1878,9 +1769,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bac4853c7338ed55@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260729T093000
-DTEND;TZID=America/Los_Angeles:20260729T103000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T093000
+DTEND;TZID=America/Los_Angeles:20260107T103000
 SUMMARY:Tergar Meditation Community of Portland: Wednesday Morning Online P
  ractice
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Nectar of the P
@@ -1897,7 +1788,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6fe3cfdc57198d96@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260216T000000Z
 DTSTART;TZID=America/Los_Angeles:20260330T190000
 DTEND;TZID=America/Los_Angeles:20260330T204500
 SUMMARY:Path of Sincerity Meditation Group: Monday Night Sangha
@@ -1918,9 +1809,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb99f91f8bb65d72@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T080000
-DTEND;TZID=America/Los_Angeles:20260724T090000
+DTSTAMP:20260216T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T080000
+DTEND;TZID=America/Los_Angeles:20260101T090000
 SUMMARY:Path of Sincerity Meditation Group: Daily Virtual Meditation
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE (donation-based gift e
  conomy)\nInfo: Consistent morning practice opportunity. Great for building
@@ -1938,9 +1829,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0a668cbdc8051419@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T183000
-DTEND;TZID=America/Los_Angeles:20260724T192500
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T183000
+DTEND;TZID=America/Los_Angeles:20260102T192500
 SUMMARY:Decompress + Connect Meditation Group
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: TaborSpace\,
   5441 SE Belmont St\, Portland\, OR 97215\nWebsite: https://www.meetup.com
@@ -1956,9 +1847,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fe0360e58ccaa78e@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T180000
-DTEND;TZID=America/Los_Angeles:20260728T200000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T180000
+DTEND;TZID=America/Los_Angeles:20260101T200000
 SUMMARY:Mazamas Street Rambles
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\, no registration requ
  ired\nAddress: Keen Garage\, 505 NW 13th Ave\, Portland\, OR\nPhone: 503-2
@@ -1975,9 +1866,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13929b2306504174@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T090000
-DTEND;TZID=America/Los_Angeles:20260725T100000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T090000
+DTEND;TZID=America/Los_Angeles:20260103T100000
 SUMMARY:Portland Strength Collective
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 1225 SE Gran
  d Ave\, Portland\, OR 97214\nWebsite: https://portlandstrengthcollective.c
@@ -1992,9 +1883,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:77f97d44905fa910@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T170000
-DTEND;TZID=America/Los_Angeles:20260724T190000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T170000
+DTEND;TZID=America/Los_Angeles:20260102T190000
 SUMMARY:Friendly House: Community Nights
 DESCRIPTION:Category: Fitness & Wellness\nCost: Low-cost/sliding scale avai
  lable\nInfo: Free access to showers (6-8pm\, last signup 7pm)\, internet c
@@ -2012,9 +1903,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:65bcfcc6591abf66@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260806T100000
-DTEND;TZID=America/Los_Angeles:20260806T190000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T100000
+DTEND;TZID=America/Los_Angeles:20260101T190000
 SUMMARY:Portland Art Museum: Free First Thursday
 DESCRIPTION:Category: Arts & Culture\nCost: $27.50 adults\; FREE First Thur
  sday\; $5 Oregon Trail Card (up to 2 tickets)\nInfo: Explore the museum's 
@@ -2033,9 +1924,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4d15400e41f273e0@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260802T093000
-DTEND;TZID=America/Los_Angeles:20260802T173000
+DTSTAMP:20260501T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T093000
+DTEND;TZID=America/Los_Angeles:20260104T173000
 SUMMARY:OMSI (Oregon Museum of Science and Industry): First Sunday
 DESCRIPTION:Category: Arts & Culture\nCost: $22.50 adults (14+)\; $20.50 se
  niors (63+)\; $15.50 youth (3-13)\; free under 3\; $5 First Sunday\; $5 Ar
@@ -2058,9 +1949,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1cc8d79374188c66@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260813T120000
-DTEND;TZID=America/Los_Angeles:20260814T000000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260108T120000
+DTEND;TZID=America/Los_Angeles:20260109T000000
 SUMMARY:Ground Kontrol Classic Arcade: Free Play (2nd Thursday)
 DESCRIPTION:Category: Arts & Culture\nInfo: All-ages noon-5pm ($6)\, 21+ 5p
  m-midnight ($12). Unlimited play on 100+ games.\nAddress: 115 NW 5th Ave\,
@@ -2076,9 +1967,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:59746f5642178898@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260729T120000
-DTEND;TZID=America/Los_Angeles:20260730T000000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260128T120000
+DTEND;TZID=America/Los_Angeles:20260129T000000
 SUMMARY:Ground Kontrol Classic Arcade: Free Play (Last Wednesday)
 DESCRIPTION:Category: Arts & Culture\nInfo: All-ages noon-5pm ($6)\, 21+ 5p
  m-midnight ($12). Unlimited play on 100+ games.\nAddress: 115 NW 5th Ave\,
@@ -2094,9 +1985,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75b2a7dcae90038e@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T120000
-DTEND;TZID=America/Los_Angeles:20260726T180000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T120000
+DTEND;TZID=America/Los_Angeles:20260104T180000
 SUMMARY:Guardian Games: Might I Suggest a Game? - Board Game Open Play
 DESCRIPTION:Category: Arts & Culture\nCost: FREE Board Game Open Play\nInfo
  : Game library with bartender-hosted game instruction in the Bar area\nAdd
@@ -2112,9 +2003,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c62bc17ff46d5148@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260805T180000
-DTEND;TZID=America/Los_Angeles:20260805T200000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T180000
+DTEND;TZID=America/Los_Angeles:20260107T200000
 SUMMARY:NAYA (Native American Youth and Family Center): Culture Nights
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 5135 NE Columbia
   Blvd\, Portland\, OR 97218\nPhone: 503-288-8177\nWebsite: https://nayapdx
@@ -2130,9 +2021,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e73e21017e0799ee@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260804T173000
-DTEND;TZID=America/Los_Angeles:20260804T183000
+DTSTAMP:20260501T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T173000
+DTEND;TZID=America/Los_Angeles:20260106T183000
 SUMMARY:Clackamas County Libraries (LINCC): Teen Advisory Group (GOAT)
 DESCRIPTION:Category: Arts & Culture\nCost: FREE library cards for resident
  s of Clackamas\, Multnomah\, Washington\, or Hood River County Library Dis
@@ -2153,9 +2044,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b442af6056d4144d@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260813T160000
-DTEND;TZID=America/Los_Angeles:20260813T170000
+DTSTAMP:20260324T000000Z
+DTSTART;TZID=America/Los_Angeles:20260108T160000
+DTEND;TZID=America/Los_Angeles:20260108T170000
 SUMMARY:Hillsboro Public Library: Teen Game Night
 DESCRIPTION:Category: Arts & Culture\nCost: FREE (all programs and events)\
  nInfo: Board and video games\, refreshments\nPhone: 503-615-6500\nWebsite:
@@ -2170,9 +2061,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3658fc1d7f9fa642@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260811T160000
-DTEND;TZID=America/Los_Angeles:20260811T180000
+DTSTAMP:20260324T000000Z
+DTSTART;TZID=America/Los_Angeles:20260113T160000
+DTEND;TZID=America/Los_Angeles:20260113T180000
 SUMMARY:Hillsboro Public Library: Craft Programs
 DESCRIPTION:Category: Arts & Culture\nCost: FREE (all programs and events)\
  nPhone: 503-615-6500\nWebsite: https://www.hillsboro-oregon.gov/library\nD
@@ -2187,9 +2078,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7911bf9a58117f@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260806T183000
-DTEND;TZID=America/Los_Angeles:20260806T193000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T183000
+DTEND;TZID=America/Los_Angeles:20260101T193000
 SUMMARY:MHCC Planetarium Sky Theatre: Early Planetarium Show
 DESCRIPTION:Category: Arts & Culture\nNote: Cash and card accepted at door\
  nAddress: 26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath li
@@ -2207,9 +2098,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e02aa101489f47a@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260806T200000
-DTEND;TZID=America/Los_Angeles:20260806T210000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T200000
+DTEND;TZID=America/Los_Angeles:20260101T210000
 SUMMARY:MHCC Planetarium Sky Theatre: Late Planetarium Show
 DESCRIPTION:Category: Arts & Culture\nNote: Cash and card accepted at door\
  nAddress: 26000 SE Stark St\, Gresham\, OR 97030 (Room AC1305\, beneath li
@@ -2227,9 +2118,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f7bf9869ba2e83a@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260805T120000
-DTEND;TZID=America/Los_Angeles:20260805T130000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T120000
+DTEND;TZID=America/Los_Angeles:20260107T130000
 SUMMARY:The Old Church Concert Hall: Lunchtime Concert Series
 DESCRIPTION:Category: Arts & Culture\nCost: FREE lunchtime concerts\nInfo: 
  Historic 1882 venue\, fully wheelchair accessible\nAddress: 1422 SW 11th A
@@ -2245,7 +2136,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3b3d00bc4d800c42@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260216T000000Z
 DTSTART;TZID=America/Los_Angeles:20260222T160000
 DTEND;TZID=America/Los_Angeles:20260222T170000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
@@ -2263,9 +2154,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c1294058eda55cac@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260729T090000
-DTEND;TZID=America/Los_Angeles:20260729T150000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T090000
+DTEND;TZID=America/Los_Angeles:20260107T150000
 SUMMARY:Historic Belmont Firehouse: Wednesday Open Hours
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Explore Portland Fi
  re & Rescue history through interactive exhibits\, an 1860 hose cart\, fir
@@ -2283,9 +2174,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d008ef21f7f8aa0a@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T170000
-DTEND;TZID=America/Los_Angeles:20260724T190000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T170000
+DTEND;TZID=America/Los_Angeles:20260102T190000
 SUMMARY:Turn! Turn! Turn!: Casual Friday (Comedy Open Mic)
 DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: Happy hour c
  omedy open mic hosted by Logan Loughmiller. Low-pressure environment for p
@@ -2302,9 +2193,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d8fc3329cc6894ad@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T123000
-DTEND;TZID=America/Los_Angeles:20260726T153000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T123000
+DTEND;TZID=America/Los_Angeles:20260104T153000
 SUMMARY:Turn! Turn! Turn!: Drawing Club
 DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: Casual drawi
  ng get-together - bring your own supplies or just hang out. All skill leve
@@ -2321,9 +2212,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d9e5489d6044ef66@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T200000
-DTEND;TZID=America/Los_Angeles:20260727T230000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260112T200000
+DTEND;TZID=America/Los_Angeles:20260112T230000
 SUMMARY:Turn! Turn! Turn!: Karaoke Night
 DESCRIPTION:Category: Arts & Culture\nCost: FREE events\nInfo: K-Tel and La
  rry-okee supportive karaoke night. Low-pressure\, encouraging atmosphere f
@@ -2340,9 +2231,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a58e95f61ca649e6@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T140000
-DTEND;TZID=America/Los_Angeles:20260724T153000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T140000
+DTEND;TZID=America/Los_Angeles:20260102T153000
 SUMMARY:Rockwood Library: ESL Classes
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Free classes throug
  h Torus and Goodwill organizations. No registration required.\nAddress: 17
@@ -2360,9 +2251,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:081b91eb97012860@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260805T200000
-DTEND;TZID=America/Los_Angeles:20260805T210000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T200000
+DTEND;TZID=America/Los_Angeles:20260107T210000
 SUMMARY:Tualatin Public Library: Adult Book Discussion
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Monthly book club. 
  Check library for current book selection.\nAddress: 18878 SW Martinazzi Av
@@ -2379,9 +2270,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:33a5a02eaf722ff1@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260812T160000
-DTEND;TZID=America/Los_Angeles:20260812T170000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260114T160000
+DTEND;TZID=America/Los_Angeles:20260114T170000
 SUMMARY:Tualatin Public Library: Teen Book Chat (grades 8-12)
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Free copy of book f
  or participants.\nAddress: 18878 SW Martinazzi Ave\, Tualatin\, OR 97062\n
@@ -2398,7 +2289,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1237b588e2dc3b12@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260607T140000
 DTEND;TZID=America/Los_Angeles:20260607T150000
 SUMMARY:Tualatin Public Library: Summer Sunday Music Series
@@ -2417,9 +2308,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:47623ca66dc7ccac@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T140000
-DTEND;TZID=America/Los_Angeles:20260726T160000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T140000
+DTEND;TZID=America/Los_Angeles:20260104T160000
 SUMMARY:SCRAP PDX Creative Reuse: Sunday Crafternoon
 DESCRIPTION:Category: Arts & Culture\nCost: FREE-$7 depending on event\nInf
  o: Guided themed craft projects. Materials provided. All skill levels welc
@@ -2436,9 +2327,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d1c182da302ffe9c@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260820T160000
-DTEND;TZID=America/Los_Angeles:20260820T180000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260115T160000
+DTEND;TZID=America/Los_Angeles:20260115T180000
 SUMMARY:SCRAP PDX Creative Reuse: Drop In Studio
 DESCRIPTION:Category: Arts & Culture\nCost: FREE-$7 depending on event\nInf
  o: Bring a project or start a new one.\nAddress: 619 SE 6th Ave\, Portland
@@ -2455,9 +2346,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:018c2dbc4c1b6d6c@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260802T170000
-DTEND;TZID=America/Los_Angeles:20260802T190000
+DTSTAMP:20260501T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T170000
+DTEND;TZID=America/Los_Angeles:20260104T190000
 SUMMARY:Independent Publishing Resource Center (IPRC): Collage Night
 DESCRIPTION:Category: Arts & Culture\nCost: Collage Night FREE\; workshops 
  vary\; zine library FREE\nInfo: Free monthly collage session. All material
@@ -2475,9 +2366,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a86510240984ddfd@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260806T183000
-DTEND;TZID=America/Los_Angeles:20260806T193000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T183000
+DTEND;TZID=America/Los_Angeles:20260101T193000
 SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Guilder Cafe
 DESCRIPTION:Category: Arts & Culture\nCost: FREE ($5 suggested donation)\nI
  nfo: Inside Powell's Books downtown. Poets get 3 minutes. 10 slots via lot
@@ -2494,9 +2385,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:74df6f3fc548fb54@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260820T183000
-DTEND;TZID=America/Los_Angeles:20260820T193000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260115T183000
+DTEND;TZID=America/Los_Angeles:20260115T193000
 SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Literary Arts
 DESCRIPTION:Category: Arts & Culture\nCost: FREE ($5 suggested donation)\nI
  nfo: Larger venue downtown. Features slam competition and featured readers
@@ -2513,9 +2404,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3283440e28606290@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260731T183000
-DTEND;TZID=America/Los_Angeles:20260731T193000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260130T183000
+DTEND;TZID=America/Los_Angeles:20260130T193000
 SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Flour Bloom
 DESCRIPTION:Category: Arts & Culture\nCost: FREE ($5 suggested donation)\nI
  nfo: Poetry open mic and slam. 10 slots via lottery.\nAddress: Various - G
@@ -2532,9 +2423,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4f5ddbd49f0a9039@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T160000
-DTEND;TZID=America/Los_Angeles:20260726T180000
+DTSTAMP:20260501T000000Z
+DTSTART;TZID=America/Los_Angeles:20260125T160000
+DTEND;TZID=America/Los_Angeles:20260125T180000
 SUMMARY:The Humble Poets' Open Mic
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: The Stacks Coffe
  ehouse\, 1831 N Killingsworth St\, Portland\, OR 97217\nPhone: 503-384-283
@@ -2551,7 +2442,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0563adc825cb0aa6@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260214T100000
 DTEND;TZID=America/Los_Angeles:20260214T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -2574,7 +2465,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6f0e2bc6def72722@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260314T100000
 DTEND;TZID=America/Los_Angeles:20260314T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -2597,7 +2488,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3be71a6ec6a28cac@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260411T100000
 DTEND;TZID=America/Los_Angeles:20260411T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -2620,7 +2511,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:520296f185cd5d96@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260509T100000
 DTEND;TZID=America/Los_Angeles:20260509T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -2643,7 +2534,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c2e4afbf05ceed8f@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260613T100000
 DTEND;TZID=America/Los_Angeles:20260613T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -2666,7 +2557,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d32e053e81f15b19@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260711T100000
 DTEND;TZID=America/Los_Angeles:20260711T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -2689,7 +2580,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b139c00a489781b9@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T100000
 DTEND;TZID=America/Los_Angeles:20260808T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -2712,7 +2603,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1cad5a0e0292687b@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260912T100000
 DTEND;TZID=America/Los_Angeles:20260912T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -2735,7 +2626,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:df97fcec1ecd4da0@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20261010T100000
 DTEND;TZID=America/Los_Angeles:20261010T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -2758,7 +2649,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9f93e7744b81b1f@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20261114T100000
 DTEND;TZID=America/Los_Angeles:20261114T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -2781,7 +2672,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d7c4cfbb28c0d562@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20261212T100000
 DTEND;TZID=America/Los_Angeles:20261212T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -2804,7 +2695,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:08f87c8f17706bfb@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260207T100000
 DTEND;TZID=America/Los_Angeles:20260207T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -2828,7 +2719,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:89a5c07482d43ff3@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260404T100000
 DTEND;TZID=America/Los_Angeles:20260404T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -2852,7 +2743,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:608e99291c074b68@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260606T100000
 DTEND;TZID=America/Los_Angeles:20260606T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -2876,7 +2767,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:23e47de98033ad52@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260801T100000
 DTEND;TZID=America/Los_Angeles:20260801T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -2900,7 +2791,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b4b0729cb9f8cb30@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20261003T100000
 DTEND;TZID=America/Los_Angeles:20261003T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -2924,7 +2815,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2d5e6aab547c3c4c@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20261205T100000
 DTEND;TZID=America/Los_Angeles:20261205T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -2948,7 +2839,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1d8db4cd879ea3c2@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260307T100000
 DTEND;TZID=America/Los_Angeles:20260307T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -2971,7 +2862,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6379df558d3bd9bc@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260502T100000
 DTEND;TZID=America/Los_Angeles:20260502T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -2994,7 +2885,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bc7743c0a7fbf986@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260704T100000
 DTEND;TZID=America/Los_Angeles:20260704T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -3017,7 +2908,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7160c4921e2e8e5d@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260905T100000
 DTEND;TZID=America/Los_Angeles:20260905T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -3040,7 +2931,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c6e7fc6acefa2605@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20261107T100000
 DTEND;TZID=America/Los_Angeles:20261107T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -3063,7 +2954,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:41179eb899303506@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260124T100000
 DTEND;TZID=America/Los_Angeles:20260124T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -3087,7 +2978,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e97063187e284bdc@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260228T100000
 DTEND;TZID=America/Los_Angeles:20260228T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -3111,7 +3002,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5297965998432b34@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260328T100000
 DTEND;TZID=America/Los_Angeles:20260328T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -3135,7 +3026,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6f757b7220991fab@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260425T100000
 DTEND;TZID=America/Los_Angeles:20260425T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -3159,7 +3050,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d039051f4551428a@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260523T100000
 DTEND;TZID=America/Los_Angeles:20260523T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -3183,7 +3074,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:23ba5123dad8bc7e@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260627T100000
 DTEND;TZID=America/Los_Angeles:20260627T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -3207,7 +3098,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4cbaa15d2d805b00@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260725T100000
 DTEND;TZID=America/Los_Angeles:20260725T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -3231,7 +3122,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1976293e0d4de57a@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260822T100000
 DTEND;TZID=America/Los_Angeles:20260822T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -3255,7 +3146,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b701902d4ce9b21f@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260926T100000
 DTEND;TZID=America/Los_Angeles:20260926T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -3279,7 +3170,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9f0e9fed413b871@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20261024T100000
 DTEND;TZID=America/Los_Angeles:20261024T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -3303,7 +3194,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb476a9878ba238d@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20261128T100000
 DTEND;TZID=America/Los_Angeles:20261128T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -3327,7 +3218,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:206b17258ef1a0a2@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20261226T100000
 DTEND;TZID=America/Los_Angeles:20261226T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -3351,9 +3242,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb2584d8ad685306@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T130000
-DTEND;TZID=America/Los_Angeles:20260726T150000
+DTSTAMP:20260304T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T130000
+DTEND;TZID=America/Los_Angeles:20260104T150000
 SUMMARY:Community Jams: EZ-Lead Slow Jam (Blues\, Folk\, Americana)
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
  lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
@@ -3371,9 +3262,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:352aca1aa2ae288f@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T180000
-DTEND;TZID=America/Los_Angeles:20260727T200000
+DTSTAMP:20260304T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T180000
+DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:Community Jams: CJ Anything Goes Jam
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
  lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
@@ -3391,9 +3282,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:36b525d206d3d5af@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T200000
-DTEND;TZID=America/Los_Angeles:20260727T220000
+DTSTAMP:20260304T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T200000
+DTEND;TZID=America/Los_Angeles:20260105T220000
 SUMMARY:Community Jams: CJ Improv Jam
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
  lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
@@ -3411,9 +3302,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:83b0bc41193a745a@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T190000
-DTEND;TZID=America/Los_Angeles:20260728T213000
+DTSTAMP:20260304T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T190000
+DTEND;TZID=America/Los_Angeles:20260106T213000
 SUMMARY:Community Jams: CJ Newcomers and Explorers Jam
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Best for first-time
  rs. Welcoming environment for all skill levels.\nAddress: 2365 SW Cedar Hi
@@ -3432,9 +3323,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a756560fd263fb59@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260730T190000
-DTEND;TZID=America/Los_Angeles:20260730T200000
+DTSTAMP:20260304T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T190000
+DTEND;TZID=America/Los_Angeles:20260101T200000
 SUMMARY:Community Jams: Themed Jam (varies weekly)
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
  lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
@@ -3452,9 +3343,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0f4493dcc6b71ae5@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T130000
-DTEND;TZID=America/Los_Angeles:20260725T150000
+DTSTAMP:20260304T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T130000
+DTEND;TZID=America/Los_Angeles:20260103T150000
 SUMMARY:Community Jams: CJ Newcomers and Explorers Jam (Saturday)
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
  lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
@@ -3472,9 +3363,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aa470ea8adfb8f4f@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T163000
-DTEND;TZID=America/Los_Angeles:20260725T173000
+DTSTAMP:20260304T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T163000
+DTEND;TZID=America/Los_Angeles:20260103T173000
 SUMMARY:Community Jams: Build a Song Workshop
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Check Meetup calend
  ar for dates.\nAddress: 2365 SW Cedar Hills Blvd\, Beaverton\, OR\nWebsite
@@ -3493,7 +3384,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:008d34ae2bc45953@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260112T000000Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260720
 SUMMARY:Cathedral Park Jazz Festival
@@ -3511,7 +3402,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:18a13a731b750ba1@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260208T000000Z
 DTSTART;TZID=America/Los_Angeles:20260604T120000
 DTEND;TZID=America/Los_Angeles:20260604T130000
 SUMMARY:Noon Tunes at Pioneer Courthouse Square
@@ -3529,7 +3420,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a03980dd4d1f2b60@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260415T000000Z
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260629
 SUMMARY:Portland Rose Festival
@@ -3547,7 +3438,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:32a79cc8e332acc9@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260324T000000Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260622
 SUMMARY:Delta Park Powwow and Encampment
@@ -3566,7 +3457,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:360f573893319101@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260324T000000Z
 DTSTART;VALUE=DATE:20260628
 DTEND;VALUE=DATE:20260630
 SUMMARY:Oregon Midsummer Festival
@@ -3584,7 +3475,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8c76f5fab273940b@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260324T000000Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20260607
 SUMMARY:Portland Highland Games
@@ -3603,7 +3494,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:369fa2d7e26a8e4b@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260324T000000Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260713
 SUMMARY:West Linn Old Time Fair
@@ -3620,7 +3511,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f8b00c5e188ddc80@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260324T000000Z
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260831
 SUMMARY:Marianas Festival
@@ -3638,7 +3529,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:34fcf208f3ca4a9b@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260112T000000Z
 DTSTART;VALUE=DATE:20260718
 DTEND;VALUE=DATE:20260720
 SUMMARY:Portland Pride
@@ -3656,7 +3547,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:71e919571174ce47@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260501T000000Z
 DTSTART;TZID=America/Los_Angeles:20260402T170000
 DTEND;TZID=America/Los_Angeles:20260402T210000
 SUMMARY:First Thursday Art Walk
@@ -3677,9 +3568,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bd517104cb00543c@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260730T180000
-DTEND;TZID=America/Los_Angeles:20260730T210000
+DTSTAMP:20260501T000000Z
+DTSTART;TZID=America/Los_Angeles:20260129T180000
+DTEND;TZID=America/Los_Angeles:20260129T210000
 SUMMARY:Last Thursday on Alberta
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: NE Alberta S
  treet\, 15th-30th Ave\, Portland\nWebsite: https://www.lastthursdayalberta
@@ -3696,7 +3587,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a51c3018c49f316a@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260124T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Portland Tree Lighting Ceremony
@@ -3713,7 +3604,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c8f42108a7538ee3@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20251202T000000Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20270101
 SUMMARY:Peacock Lane Holiday Lights
@@ -3730,7 +3621,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d50d5cc747663bed@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260701T183000
 DTEND;TZID=America/Los_Angeles:20260701T203000
 SUMMARY:Gresham Wednesday Music in the Parks: Music in the Parks
@@ -3748,7 +3639,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:708c6dfd86bfecc0@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260317T000000Z
 DTSTART;VALUE=DATE:20260320
 DTEND;VALUE=DATE:20260427
 SUMMARY:Wooden Shoe Tulip Festival
@@ -3766,7 +3657,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b18dd951df2feef7@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260415T000000Z
 DTSTART;VALUE=DATE:20260502
 DTEND;VALUE=DATE:20260504
 SUMMARY:Spring Garden Fair
@@ -3783,7 +3674,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:396829af8d43697e@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260124T000000Z
 DTSTART;VALUE=DATE:20260718
 DTEND;VALUE=DATE:20260719
 SUMMARY:Gresham Arts Festival
@@ -3799,7 +3690,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4fbec19f3f135081@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260124T000000Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:India Festival
@@ -3815,7 +3706,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e17302519b24aeeb@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260124T000000Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:Obon Festival (Oregon Buddhist Temple)
@@ -3833,7 +3724,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0d346851668409e0@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260124T000000Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20261001
 SUMMARY:Swan Island Dahlias
@@ -3850,7 +3741,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:299891133691a158@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20251202T000000Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260823
 SUMMARY:Clackamas County Fair
@@ -3867,7 +3758,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cf6b2748cda84a9c@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260124T000000Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260921
 SUMMARY:Portland Polish Festival
@@ -3885,7 +3776,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1b5cf0280b32b4e2@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260124T000000Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261005
 SUMMARY:Portland Greek Festival
@@ -3903,7 +3794,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b297a771e14010c2@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260124T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Día de los Muertos (Gresham)
@@ -3918,7 +3809,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f74bcb91ff4bdb04@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260124T000000Z
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20260705
 SUMMARY:Happy Valley Fourth of July Festival
@@ -3936,7 +3827,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:afe46f3866470119@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260702T183000
 DTEND;TZID=America/Los_Angeles:20260702T203000
 SUMMARY:Concerts in the Valley (Happy Valley): Thursday Concert
@@ -3954,7 +3845,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6e8ff25f5ed72298@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260129T000000Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:Happy Valley Oktoberfest
@@ -3971,7 +3862,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:28c7937075bc38a8@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260124T000000Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Happy Valley Tree Lighting
@@ -3988,7 +3879,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6c03d30cb8f57738@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260211T000000Z
 DTSTART;TZID=America/Los_Angeles:20260307T100000
 DTEND;TZID=America/Los_Angeles:20260307T170000
 SUMMARY:Portland Saturday Market: Saturday Market
@@ -4006,7 +3897,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d278ca247411846b@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260211T000000Z
 DTSTART;VALUE=DATE:20260214
 DTEND;VALUE=DATE:20260216
 SUMMARY:Oregon Free Fishing Weekends
@@ -4022,7 +3913,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:77ae73c28b0f9ccd@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260211T000000Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20260608
 SUMMARY:Oregon Free Fishing Weekends
@@ -4038,7 +3929,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aadf365d4c01dd72@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260211T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:Oregon Free Fishing Weekends
@@ -4054,7 +3945,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:95aecf2fcdd0f430@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260124T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261222
 SUMMARY:Christmas Ships Parade
@@ -4071,7 +3962,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da583f55cb2a0059@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260605T183000
 DTEND;TZID=America/Los_Angeles:20260605T203000
 SUMMARY:Tualatin Concerts in the Parks
@@ -4089,7 +3980,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:435c9e4f7bb3de0c@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260211T000000Z
 DTSTART;VALUE=DATE:20260206
 DTEND;VALUE=DATE:20260215
 SUMMARY:Portland Winter Light Festival
@@ -4108,7 +3999,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e675cfc3e5b4613@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260129T000000Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260629
 SUMMARY:Good in the Hood Multicultural Festival
@@ -4126,7 +4017,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:74d99f732246769f@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260117T000000Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260727
 SUMMARY:Washington County Fair
@@ -4143,7 +4034,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5080ff4962798c9b@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260501T000000Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260901
 SUMMARY:Pedalpalooza / Bike Summer
@@ -4160,7 +4051,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b15c3d238c9a45ab@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260117T000000Z
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260906
 SUMMARY:Portland Parks Summer Free For All
@@ -4178,7 +4069,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a6395a7c06cf0be0@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260117T000000Z
 DTSTART;TZID=America/Los_Angeles:20260709T183000
 DTEND;TZID=America/Los_Angeles:20260709T203000
 SUMMARY:Portland Parks Summer Free For All: Free Outdoor Concerts
@@ -4198,7 +4089,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a6395a7c06cf0be0@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260117T000000Z
 DTSTART;TZID=America/Los_Angeles:20260710T183000
 DTEND;TZID=America/Los_Angeles:20260710T203000
 SUMMARY:Portland Parks Summer Free For All: Free Outdoor Concerts
@@ -4218,7 +4109,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8132faf5c5356489@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260117T000000Z
 DTSTART;TZID=America/Los_Angeles:20260711T193000
 DTEND;TZID=America/Los_Angeles:20260711T220000
 SUMMARY:Portland Parks Summer Free For All: Free Movies in the Park
@@ -4238,7 +4129,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9f592c53be720466@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260324T000000Z
 DTSTART;TZID=America/Los_Angeles:20260605T170000
 DTEND;TZID=America/Los_Angeles:20260605T200000
 SUMMARY:Milwaukie First Friday
@@ -4256,7 +4147,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:514cc305c64689a1@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260324T000000Z
 DTSTART;TZID=America/Los_Angeles:20260517T110000
 DTEND;TZID=America/Los_Angeles:20260517T160000
 SUMMARY:Portland Sunday Parkways: Sunday Parkways - Southwest Portland
@@ -4274,7 +4165,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7c47408d0d7d791b@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260324T000000Z
 DTSTART;TZID=America/Los_Angeles:20260628T110000
 DTEND;TZID=America/Los_Angeles:20260628T160000
 SUMMARY:Portland Sunday Parkways: Sunday Parkways - East Portland
@@ -4293,7 +4184,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6d79c6825187c7ff@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260324T000000Z
 DTSTART;TZID=America/Los_Angeles:20260802T110000
 DTEND;TZID=America/Los_Angeles:20260802T160000
 SUMMARY:Portland Sunday Parkways: Sunday Parkways - North Portland
@@ -4313,7 +4204,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ce9c6196f14232e1@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260324T000000Z
 DTSTART;TZID=America/Los_Angeles:20260913T110000
 DTEND;TZID=America/Los_Angeles:20260913T160000
 SUMMARY:Portland Sunday Parkways: Sunday Parkways - Downtown Portland
@@ -4332,9 +4223,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:697356c9eaa7b5bb@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T100000
-DTEND;TZID=America/Los_Angeles:20260725T110000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T100000
+DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:Tryon Creek State Natural Area: Saturday Guided Nature Walks
 DESCRIPTION:Category: Parks & Nature\nCost: Park FREE\; Parking $10/day res
  idents\, $12/day non-residents (since Oct 1\, 2025)\nNote: Free if arrivin
@@ -4354,7 +4245,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b1cd3f91d0b7fc50@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260405T110000
 DTEND;TZID=America/Los_Angeles:20260405T120000
 SUMMARY:Hoyt Arboretum: Free Public Tours
@@ -4372,9 +4263,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26b379a33a5f1049@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T130000
-DTEND;TZID=America/Los_Angeles:20260727T150000
+DTSTAMP:20260124T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T130000
+DTEND;TZID=America/Los_Angeles:20260101T150000
 SUMMARY:Main City Park (Gresham): Summer Kids in the Park (SKIP)
 DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free lunch and recr
  eation for youth\nAddress: 219 S Main Ave\, Gresham\, OR\nWebsite: https:/
@@ -4391,9 +4282,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f2e8a8002b3ae77e@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T161500
-DTEND;TZID=America/Los_Angeles:20260726T173000
+DTSTAMP:20260324T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T161500
+DTEND;TZID=America/Los_Angeles:20260104T173000
 SUMMARY:Faith Café at Bethel UCC (Beaverton Free Meal): Weekly Sunday Meal
 DESCRIPTION:Category: Food & Farms\nCost: FREE\nAddress: 5150 SW Watson Ave
  \, Beaverton\, OR 97005\nWebsite: https://www.bethelbeaverton.org/hunger\n
@@ -4409,9 +4300,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:06986a000f763b6b@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260730T161500
-DTEND;TZID=America/Los_Angeles:20260730T173000
+DTSTAMP:20260324T000000Z
+DTSTART;TZID=America/Los_Angeles:20260129T161500
+DTEND;TZID=America/Los_Angeles:20260129T173000
 SUMMARY:Faith Café at Bethel UCC (Beaverton Free Meal): Monthly Thursday Me
  al
 DESCRIPTION:Category: Food & Farms\nCost: FREE\nAddress: 5150 SW Watson Ave
@@ -4428,9 +4319,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:63ba5f7f93d4a09e@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T150000
-DTEND;TZID=America/Los_Angeles:20260726T160000
+DTSTAMP:20260324T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T150000
+DTEND;TZID=America/Los_Angeles:20260104T160000
 SUMMARY:Potluck in the Park
 DESCRIPTION:Category: Food & Farms\nCost: FREE\nAddress: North Park Blocks\
  , NW Glisan St between 8th Ave & Park Ave\, Portland\, OR\nPhone: 503-255-
@@ -4448,9 +4339,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:62415854f662a1e5@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T103000
-DTEND;TZID=America/Los_Angeles:20260724T141500
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T103000
+DTEND;TZID=America/Los_Angeles:20260102T141500
 SUMMARY:Sikh Center of Oregon Langar
 DESCRIPTION:Category: Food & Farms\nCost: FREE always\nAddress: 17514 SW Sc
  holls Ferry Rd\, Beaverton\, OR 97007\nPhone: 971-217-8577\nWebsite: https
@@ -4468,7 +4359,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:997f8b927cde4848@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260131T000000Z
 DTSTART;TZID=America/Los_Angeles:20260509T083000
 DTEND;TZID=America/Los_Angeles:20260509T133000
 SUMMARY:Lake Oswego Farmers' Market
@@ -4486,7 +4377,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6517fa2bcf3ed8b4@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260131T000000Z
 DTSTART;TZID=America/Los_Angeles:20260502T083000
 DTEND;TZID=America/Los_Angeles:20260502T140000
 SUMMARY:Gresham Farmers' Market
@@ -4505,7 +4396,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:67340f12a09b5cd7@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260324T000000Z
 DTSTART;TZID=America/Los_Angeles:20260503T093000
 DTEND;TZID=America/Los_Angeles:20260503T140000
 SUMMARY:Milwaukie Farmers Market
@@ -4524,7 +4415,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:435f2bc1450ffc3a@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260303T000000Z
 DTSTART;TZID=America/Los_Angeles:20260604T150000
 DTEND;TZID=America/Los_Angeles:20260604T190000
 SUMMARY:Rockwood Community Market
@@ -4542,7 +4433,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6e4cfdfcf86d5067@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260211T000000Z
 DTSTART;TZID=America/Los_Angeles:20260502T093000
 DTEND;TZID=America/Los_Angeles:20260502T123000
 SUMMARY:Community Farm at Lynwood Friends Church: Drop-In Farming
@@ -4561,7 +4452,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e5557256b5233151@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260501T000000Z
 DTSTART;TZID=America/Los_Angeles:20260404T080000
 DTEND;TZID=America/Los_Angeles:20260404T130000
 SUMMARY:Hollywood Farmers Market
@@ -4581,9 +4472,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d749c957e9a0991a@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T170000
-DTEND;TZID=America/Los_Angeles:20260728T213000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T170000
+DTEND;TZID=America/Los_Angeles:20260106T213000
 SUMMARY:Portland Area Board Games Meetup: Tuesday Board Games
 DESCRIPTION:Category: Social Activities\nCost: FREE - just buy food/drink f
  rom venue\nInfo: 20-30 attendees typical. Games provided. All skill levels
@@ -4599,9 +4490,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c536863dc98ad10a@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260729T170000
-DTEND;TZID=America/Los_Angeles:20260729T213000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T170000
+DTEND;TZID=America/Los_Angeles:20260107T213000
 SUMMARY:Portland Area Board Games Meetup: Wednesday East Side Game Night
 DESCRIPTION:Category: Social Activities\nCost: FREE - just buy food/drink f
  rom venue\nInfo: Free weekly social for all levels. Games provided by the 
@@ -4617,9 +4508,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:22b230d60826a8b3@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260729T083000
-DTEND;TZID=America/Los_Angeles:20260729T113000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T083000
+DTEND;TZID=America/Los_Angeles:20260107T113000
 SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
 DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
  some low-cost\nInfo: Novice to advanced\; guidance for starters\nAddress: 
@@ -4637,9 +4528,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85f82cd177356b11@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T160000
-DTEND;TZID=America/Los_Angeles:20260727T170000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T160000
+DTEND;TZID=America/Los_Angeles:20260105T170000
 SUMMARY:Milwaukie Community Center: Tai Chi for Seniors
 DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
  some low-cost\nInfo: Gentle exercise for balance and wellness\nAddress: 54
@@ -4657,9 +4548,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:89444dc8c3fb77ee@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T120000
-DTEND;TZID=America/Los_Angeles:20260724T123000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T120000
+DTEND;TZID=America/Los_Angeles:20260101T123000
 SUMMARY:Milwaukie Community Center: Congregate Lunch
 DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
  some low-cost\nInfo: Social dining for older adults\nAddress: 5440 SE Kell
@@ -4676,9 +4567,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8961f5d05e61f6ab@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T150000
-DTEND;TZID=America/Los_Angeles:20260728T170000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T150000
+DTEND;TZID=America/Los_Angeles:20260106T170000
 SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
 DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nInfo: Drop-in 
  fiber arts session every Tuesday. Knit\, crochet\, or try other crafts whi
@@ -4696,9 +4587,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8569003d0f2e736e@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260813T180000
-DTEND;TZID=America/Los_Angeles:20260813T203000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260108T180000
+DTEND;TZID=America/Los_Angeles:20260108T203000
 SUMMARY:Puddletown Knitters Guild: Monthly Meeting
 DESCRIPTION:Category: Social Activities\nCost: FREE for first 2 visits\; me
  mbership $35/year\nInfo: Year-round. Doors open 6pm for social knitting\; 
@@ -4716,9 +4607,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a46e449e668cab99@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T080000
-DTEND;TZID=America/Los_Angeles:20260728T090000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T080000
+DTEND;TZID=America/Los_Angeles:20260101T090000
 SUMMARY:Pioneer Community Center: Zumba
 DESCRIPTION:Category: Social Activities\nCost: Most services free or low-co
  st\nAddress: 615 5th Street\, Oregon City\, OR 97045\nPhone: 503-657-8287\
@@ -4736,9 +4627,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8e93e04951e560a1@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260730T123000
-DTEND;TZID=America/Los_Angeles:20260730T140000
+DTSTAMP:20260211T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T123000
+DTEND;TZID=America/Los_Angeles:20260101T140000
 SUMMARY:Pioneer Community Center: Bingo
 DESCRIPTION:Category: Social Activities\nCost: Most services free or low-co
  st\nInfo: Cards available for purchase starting at noon. Cards just 25 cen
@@ -4757,7 +4648,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3432df74a675b19b@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260110T120000
 DTEND;TZID=America/Los_Angeles:20260110T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4778,7 +4669,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:30ef4d659b56572a@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260214T120000
 DTEND;TZID=America/Los_Angeles:20260214T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4799,7 +4690,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ad18b3e73fb66aca@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260314T120000
 DTEND;TZID=America/Los_Angeles:20260314T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4820,7 +4711,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:422f98ef9fdb8fa3@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260411T120000
 DTEND;TZID=America/Los_Angeles:20260411T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4841,7 +4732,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:741454cf748389c6@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260509T120000
 DTEND;TZID=America/Los_Angeles:20260509T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4862,7 +4753,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d21e58f557816555@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260613T120000
 DTEND;TZID=America/Los_Angeles:20260613T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4883,7 +4774,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e63c0b84870ac3f5@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260711T120000
 DTEND;TZID=America/Los_Angeles:20260711T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4904,7 +4795,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:08f8dd88e4d82f7a@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T120000
 DTEND;TZID=America/Los_Angeles:20260808T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4925,7 +4816,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:05cb9bc450497075@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260912T120000
 DTEND;TZID=America/Los_Angeles:20260912T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4946,7 +4837,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:410d463b401e225e@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20261010T120000
 DTEND;TZID=America/Los_Angeles:20261010T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4967,7 +4858,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8897057cdba5424c@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20261114T120000
 DTEND;TZID=America/Los_Angeles:20261114T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4988,7 +4879,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c2fa95c1f1946f9e@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20261212T120000
 DTEND;TZID=America/Los_Angeles:20261212T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -5009,7 +4900,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e64eb6b85bee52da@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260114T180000
 DTEND;TZID=America/Los_Angeles:20260114T200000
 SUMMARY:Repair PDX: Soldering for Home Electronics Repairs Workshop
@@ -5029,7 +4920,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cb6d9141ea768a8f@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260118T100000
 DTEND;TZID=America/Los_Angeles:20260118T130000
 SUMMARY:Repair PDX: Sashiko Mending Workshop
@@ -5049,7 +4940,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:47ccfa6d4b581092@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260322T100000
 DTEND;TZID=America/Los_Angeles:20260322T130000
 SUMMARY:Repair PDX: Sashiko Mending Workshop
@@ -5069,7 +4960,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c81962a1bd7d2482@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260330T180000
 DTEND;TZID=America/Los_Angeles:20260330T200000
 SUMMARY:Repair PDX: Mend With Embroidery Workshop
@@ -5089,7 +4980,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:624f2b20731fcb70@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260228T100000
 DTEND;TZID=America/Los_Angeles:20260228T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - West Linn
@@ -5107,7 +4998,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3f3149a6fa9bdf22@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260314T100000
 DTEND;TZID=America/Los_Angeles:20260314T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Oak Grove/Milwaukie
@@ -5124,7 +5015,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49b50bb9a25b3c3c@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260404T130000
 DTEND;TZID=America/Los_Angeles:20260404T160000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Gladstone
@@ -5141,7 +5032,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:757e1433fd2efe49@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260418T100000
 DTEND;TZID=America/Los_Angeles:20260418T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Happy Valley
@@ -5159,7 +5050,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17b6b256361be7b2@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260516T100000
 DTEND;TZID=America/Los_Angeles:20260516T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Lake Oswego
@@ -5176,7 +5067,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5ea56ad8448c7f9b@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260530T100000
 DTEND;TZID=America/Los_Angeles:20260530T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Wilsonville
@@ -5194,7 +5085,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d404f0c1dc7c855@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260613T100000
 DTEND;TZID=America/Los_Angeles:20260613T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Sandy
@@ -5211,7 +5102,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9ee4409b09b3caa6@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260718T100000
 DTEND;TZID=America/Los_Angeles:20260718T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Canby
@@ -5228,7 +5119,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dca1f49eebde20b3@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T110000
 DTEND;TZID=America/Los_Angeles:20260808T140000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Estacada
@@ -5245,7 +5136,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8342ee4af0164666@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20260919T100000
 DTEND;TZID=America/Los_Angeles:20260919T140000
 SUMMARY:Clackamas County Repair Fairs: Milwaukie Sustainability Fair
@@ -5262,7 +5153,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8b15f94e3f55e9c2@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20261024T100000
 DTEND;TZID=America/Los_Angeles:20261024T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Oregon City
@@ -5279,7 +5170,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:551f37e6feb55818@portlandresources.org
-DTSTAMP:20260724T175500Z
+DTSTAMP:20260422T000000Z
 DTSTART;TZID=America/Los_Angeles:20261107T100000
 DTEND;TZID=America/Los_Angeles:20261107T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Clackamas Community Co

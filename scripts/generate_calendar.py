@@ -43,7 +43,7 @@ from pathlib import Path
 
 import yaml
 
-from utils import load_sources
+from utils import load_sources, parse_date
 
 
 # Category color scheme (hex colors)
@@ -501,13 +501,14 @@ def create_vevent(
     url: str = None,
     category: str = None,
     platform: str = "google",
-    html_description: str = None
+    html_description: str = None,
+    dtstamp: str = None,
 ) -> str:
     """Create a VEVENT component optimized for the target platform."""
     lines = [
         "BEGIN:VEVENT",
         f"UID:{uid}",
-        f"DTSTAMP:{format_ical_date(datetime.now())}Z",
+        f"DTSTAMP:{dtstamp or DEFAULT_DTSTAMP}",
     ]
 
     # Date/time handling
@@ -560,6 +561,27 @@ def create_vevent(
 
 
 WEEKDAY_INDEX = {"MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5, "SU": 6}
+
+# Recurring events with no schedule_start_date are anchored here rather than at
+# generation time. An RRULE runs forward from DTSTART indefinitely, so a fixed
+# anchor produces exactly the same series - but the output stops changing on
+# every CI run, which keeps the docs/ diff limited to what the data change did.
+CALENDAR_EPOCH = datetime(2026, 1, 1)
+
+DEFAULT_DTSTAMP = "20260101T000000Z"
+
+
+def entry_dtstamp(entry: dict) -> str:
+    """DTSTAMP for an entry's events, taken from when its data was last confirmed.
+
+    Using `last_verified` rather than the wall clock keeps regenerated feeds
+    byte-identical until the underlying data actually changes, and gives the
+    stamp a meaning: this is when a human last checked these details.
+    """
+    verified = parse_date(entry.get("last_verified"))
+    if not verified:
+        return DEFAULT_DTSTAMP
+    return verified.strftime("%Y%m%dT000000Z")
 
 
 def _first_weekly_occurrence(base_date: datetime, days: list[str]) -> datetime | None:
@@ -648,6 +670,8 @@ def build_recurring_event(
     website: str,
     category: str,
     platform: str,
+    dtstamp: str = None,
+    today: date = None,
 ) -> str | None:
     """Build a recurring VEVENT from parsed schedule data. Returns None if schedule is incomplete."""
     if not (schedule.get("day") and schedule.get("start_time")):
@@ -672,15 +696,11 @@ def build_recurring_event(
     if schedule.get("interval") and schedule["interval"] > 1:
         rrule_parts.append(f"INTERVAL={schedule['interval']}")
 
-    schedule_start = entry.get("schedule_start_date")
-    if schedule_start:
-        if isinstance(schedule_start, str):
-            base_date = datetime.strptime(schedule_start, "%Y-%m-%d")
-        else:
-            base_date = datetime(schedule_start.year, schedule_start.month, schedule_start.day)
-    else:
-        base_date = datetime.now()
-    base_date = base_date.replace(hour=0, minute=0, second=0, microsecond=0)
+    schedule_start = parse_date(entry.get("schedule_start_date"))
+    base_date = (
+        datetime(schedule_start.year, schedule_start.month, schedule_start.day)
+        if schedule_start else CALENDAR_EPOCH
+    )
 
     if schedule.get("last_of_month"):
         first_occurrence = _first_monthly_occurrence(base_date, days, [-1])
@@ -692,16 +712,15 @@ def build_recurring_event(
     if first_occurrence is None:
         return None
 
-    schedule_end = entry.get("schedule_end_date")
+    schedule_end = parse_date(entry.get("schedule_end_date"))
     if schedule_end:
-        if isinstance(schedule_end, str):
-            end_date = datetime.strptime(schedule_end, "%Y-%m-%d")
-        else:
-            end_date = datetime(schedule_end.year, schedule_end.month, schedule_end.day)
-        if end_date.date() < first_occurrence.date():
-            # The window has closed - emitting the event would put a stale
-            # occurrence on the subscriber's calendar with an UNTIL in the past.
+        if schedule_end < (today or date.today()):
+            # The window has closed - publishing it would put a finished series
+            # on the subscriber's calendar.
             return None
+        if schedule_end < first_occurrence.date():
+            return None
+        end_date = datetime(schedule_end.year, schedule_end.month, schedule_end.day)
         # RFC 5545: when DTSTART carries a TZID, UNTIL must be a UTC timestamp.
         rrule_parts.append(f"UNTIL={_local_end_of_day_utc(end_date)}")
 
@@ -732,6 +751,7 @@ def build_recurring_event(
         category=category,
         platform=platform,
         html_description=html_desc,
+        dtstamp=dtstamp,
     )
 
 
@@ -740,7 +760,7 @@ _warned_schedules = set()
 def _make_date_event(
     date_str: str, entry_id: str, name: str, description: str,
     html_desc: str, address: str, website: str, category: str, platform: str,
-    times: dict | None = None, uid_suffix: str = "",
+    times: dict | None = None, uid_suffix: str = "", dtstamp: str = None,
 ) -> str | None:
     """Create a VEVENT from a date string.
 
@@ -773,6 +793,7 @@ def _make_date_event(
             category=category,
             platform=platform,
             html_description=html_desc,
+            dtstamp=dtstamp,
         )
 
     return create_vevent(
@@ -787,6 +808,7 @@ def _make_date_event(
         category=category,
         platform=platform,
         html_description=html_desc,
+        dtstamp=dtstamp,
     )
 
 
@@ -807,6 +829,7 @@ def is_closed(entry: dict) -> bool:
 def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
     """Convert a source entry to one or more VEVENT strings."""
     events = []
+    dtstamp = entry_dtstamp(entry)
     entry_id = entry.get("id", "unknown")
     name = entry.get("name", "Unnamed Event")
     category = entry.get("category", "general")
@@ -822,7 +845,7 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
             if isinstance(date_item, str):
                 vevent = _make_date_event(
                     date_item, entry_id, name, description, html_desc,
-                    address, website, category, platform,
+                    address, website, category, platform, dtstamp=dtstamp,
                 )
                 if vevent:
                     events.append(vevent)
@@ -848,7 +871,7 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
                     vevent = _make_date_event(
                         date_item, entry_id, full_name, description, html_desc,
                         program.get("location", address), website, category, platform,
-                        times=times, uid_suffix=f"{program_name}-",
+                        times=times, uid_suffix=f"{program_name}-", dtstamp=dtstamp,
                     )
                     if vevent:
                         events.append(vevent)
@@ -877,6 +900,7 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
                 location=program.get("location", address),
                 uid=generate_uid(entry_id, program_name),
                 website=website, category=category, platform=platform,
+                dtstamp=dtstamp,
             )
             if vevent:
                 events.append(vevent)
@@ -894,6 +918,7 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
             description=description, html_desc=html_desc,
             location=address, uid=generate_uid(entry_id, "recurring"),
             website=website, category=category, platform=platform,
+            dtstamp=dtstamp,
         )
         if vevent:
             events.append(vevent)
@@ -1019,8 +1044,12 @@ def generate_json_feed(entries: list[dict]) -> dict:
             event_data["programs"] = enriched_programs
         events.append(event_data)
 
+    # "As of" the newest verification date rather than the wall clock, so an
+    # unchanged sources.yaml regenerates to an identical file.
+    verified_dates = [d for d in (parse_date(e.get("last_verified")) for e in entries) if d]
+
     return {
-        "generated": datetime.now().isoformat(),
+        "generated": max(verified_dates).isoformat() if verified_dates else "",
         "count": len(events),
         "categories": CATEGORY_NAMES,
         "colors": CATEGORY_COLORS,

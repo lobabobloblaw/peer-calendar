@@ -25,9 +25,9 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:b8b48cbe08f220fe@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T150000
-DTEND;TZID=America/Los_Angeles:20260726T163000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260111T150000
+DTEND;TZID=America/Los_Angeles:20260111T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (In-Person)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
   464 SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\n
@@ -42,9 +42,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dba6711eb13da213@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260802T150000
-DTEND;TZID=America/Los_Angeles:20260802T163000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T150000
+DTEND;TZID=America/Los_Angeles:20260104T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (Online)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nAddress: 464 
  SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsi
@@ -58,9 +58,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9777816b12080f9@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T190000
-DTEND;TZID=America/Los_Angeles:20260727T203000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
  LGBTQ2SIA+ adults 18+ with mental health symptoms\nAddress: 464 SE 185th A
@@ -75,9 +75,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c8206c50171db713@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T150000
-DTEND;TZID=America/Los_Angeles:20260726T163000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260111T150000
+DTEND;TZID=America/Los_Angeles:20260111T163000
 SUMMARY:NAMI Multnomah: Young Adult (18-35)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nEligibil
  ity: Ages 18-35 with mental health symptoms\nAddress: 464 SE 185th Ave\, S
@@ -93,9 +93,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4b11c0aa298f2306@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260806T190000
-DTEND;TZID=America/Los_Angeles:20260806T203000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T190000
+DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:NAMI Multnomah: BIPOC Peer Support
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
  Black\, Indigenous\, and/or People of Color adults with mental health cond
@@ -111,9 +111,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c08dbed81b24d0f5@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T190000
-DTEND;TZID=America/Los_Angeles:20260728T203000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T190000
+DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Multnomah: Complex Trauma & Dissociation Support
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
  Those experiencing complex trauma and/or dissociation\nAddress: 464 SE 185
@@ -128,9 +128,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:531662b55bc0a9a7@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T190000
-DTEND;TZID=America/Los_Angeles:20260728T203000
+DTSTAMP:20260422T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T190000
+DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Clackamas: NAMI Connection Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: For adults living with mental health conditions. Registration required.
@@ -146,9 +146,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:abda9c8971b1314b@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260805T170000
-DTEND;TZID=America/Los_Angeles:20260805T183000
+DTSTAMP:20260422T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T170000
+DTEND;TZID=America/Los_Angeles:20260107T183000
 SUMMARY:NAMI Clackamas: Women (18+) Only Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Bi-weekly peer-led re
  covery support\nAddress: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97
@@ -163,9 +163,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:620a559fb7ab08a0@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260803T183000
-DTEND;TZID=America/Los_Angeles:20260803T200000
+DTSTAMP:20260422T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T183000
+DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:NAMI Clackamas: NAMI Family Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: For anyone who cares about someone with mental health condition. ⚠️ VER
@@ -181,9 +181,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d8997f26797c801@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260729T190000
-DTEND;TZID=America/Los_Angeles:20260729T203000
+DTSTAMP:20260422T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T190000
+DTEND;TZID=America/Los_Angeles:20260107T203000
 SUMMARY:NAMI Clackamas: NAMI Clackamas Conexion (Spanish-Speaking Support G
  roup)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
@@ -200,9 +200,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ea6aaafa1987c3ab@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T190000
-DTEND;TZID=America/Los_Angeles:20260727T203000
+DTSTAMP:20260422T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:NAMI Clackamas: LGBTQ+ Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: Joint program with NAMI Multnomah - weekly for adults 18+. ⚠️ VERIFY sc
@@ -218,9 +218,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0f499a48fa4b50aa@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260806T190000
-DTEND;TZID=America/Los_Angeles:20260806T203000
+DTSTAMP:20260422T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T190000
+DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:NAMI Clackamas: BIPOC Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIF
@@ -237,9 +237,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85d355a359c1e2b9@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T190000
-DTEND;TZID=America/Los_Angeles:20260728T200000
+DTSTAMP:20260422T000000Z
+DTSTART;TZID=America/Los_Angeles:20260127T190000
+DTEND;TZID=America/Los_Angeles:20260127T200000
 SUMMARY:NAMI Clackamas: Compassionate Friends
 DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Affiliated grief supp
  ort group. No registration required.\nAddress: 10202 SE 32nd Ave\, Suite 5
@@ -254,9 +254,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:651932636ba165c7@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T190000
-DTEND;TZID=America/Los_Angeles:20260727T203000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): LGBTQIA+ Suppo
  rt Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online (1st Monday 
@@ -271,9 +271,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:215024356d2538f2@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T183000
-DTEND;TZID=America/Los_Angeles:20260728T195000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T183000
+DTEND;TZID=America/Los_Angeles:20260106T195000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (W
  est Portland)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nWebsite: ht
@@ -287,9 +287,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49d6b06cbd9d0a5b@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260730T190000
-DTEND;TZID=America/Los_Angeles:20260730T203000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T190000
+DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (E
  astside)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nWebsite: ht
@@ -303,9 +303,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a8aee7696d751ae1@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T100000
-DTEND;TZID=America/Los_Angeles:20260725T113000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T100000
+DTEND;TZID=America/Los_Angeles:20260103T113000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Mental Healthc
  are Professionals
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nInfo: For m
@@ -321,9 +321,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:19f42812d02d4c30@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T100000
-DTEND;TZID=America/Los_Angeles:20260726T110000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T100000
+DTEND;TZID=America/Los_Angeles:20260104T110000
 SUMMARY:Recovery Dharma Portland (PDX): Queer Paths (LGBTQIA+)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nWebsite: http
  s://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portland. 
@@ -336,9 +336,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d01907d4e561c48d@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T160000
-DTEND;TZID=America/Los_Angeles:20260726T170000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T160000
+DTEND;TZID=America/Los_Angeles:20260104T170000
 SUMMARY:Recovery Dharma Portland (PDX): Middle Way on MLK
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -352,9 +352,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a401de0df0a97d58@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T070000
-DTEND;TZID=America/Los_Angeles:20260727T080000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T070000
+DTEND;TZID=America/Los_Angeles:20260105T080000
 SUMMARY:Recovery Dharma Portland (PDX): Dawn Metta
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nWebsite: http
  s://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portland. 
@@ -367,9 +367,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8b74d636a24a9d3b@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T190000
-DTEND;TZID=America/Los_Angeles:20260727T200000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:Recovery Dharma Portland (PDX): Dharma Rain Eightfold Path Study
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Hybrid\nWebsite: ht
  tps://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portland
@@ -383,9 +383,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cf5b8c34d2c742aa@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T180000
-DTEND;TZID=America/Los_Angeles:20260727T191500
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T180000
+DTEND;TZID=America/Los_Angeles:20260105T191500
 SUMMARY:Recovery Dharma Portland (PDX): Hungry Ghosts
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -399,9 +399,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:23dea98a4f0c56b7@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T193000
-DTEND;TZID=America/Los_Angeles:20260728T203000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T193000
+DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:Recovery Dharma Portland (PDX): Women's\, Trans\, and Non-Binary
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -415,9 +415,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b9e264e45b420ecd@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260730T120000
-DTEND;TZID=America/Los_Angeles:20260730T130000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T120000
+DTEND;TZID=America/Los_Angeles:20260101T130000
 SUMMARY:Recovery Dharma Portland (PDX): Thursday Portland Alano Club
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -431,9 +431,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:568f2b14f76f137e@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T190000
-DTEND;TZID=America/Los_Angeles:20260724T203000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T190000
+DTEND;TZID=America/Los_Angeles:20260102T203000
 SUMMARY:Recovery Dharma Portland (PDX): Sarpashana
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -447,9 +447,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0a44eb8e53fca375@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T190000
-DTEND;TZID=America/Los_Angeles:20260725T200000
+DTSTAMP:20260303T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T190000
+DTEND;TZID=America/Los_Angeles:20260103T200000
 SUMMARY:Recovery Dharma Portland (PDX): Meditation Sandwich
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nWebsite:
   https://recoverydharmapdx.org/\nDetails: 30+ weekly meetings across Portl
@@ -463,9 +463,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d6de414531d54a8c@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260801T100000
-DTEND;TZID=America/Los_Angeles:20260801T120000
+DTSTAMP:20260216T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T100000
+DTEND;TZID=America/Los_Angeles:20260103T120000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): Trans PDX Support Grou
  p
 DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: For t
@@ -481,9 +481,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5dccfbb24ed3c3f2@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260803T190000
-DTEND;TZID=America/Los_Angeles:20260803T203000
+DTSTAMP:20260216T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): LGBTQIA2S+ Mental Heal
  th Support
 DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: Peer-
@@ -499,9 +499,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:65981a99ae5aad6e@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260812T190000
-DTEND;TZID=America/Los_Angeles:20260812T210000
+DTSTAMP:20260216T000000Z
+DTSTART;TZID=America/Los_Angeles:20260114T190000
+DTEND;TZID=America/Los_Angeles:20260114T210000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): QTIBIPOC Community Spa
  ce
 DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: For q
@@ -517,9 +517,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:443269c9da047a73@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T120000
-DTEND;TZID=America/Los_Angeles:20260724T130000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T120000
+DTEND;TZID=America/Los_Angeles:20260101T130000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Daily Meetings (Central Offi
  ce)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
@@ -535,9 +535,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a21b6c155557d1bd@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T120000
-DTEND;TZID=America/Los_Angeles:20260727T130000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T120000
+DTEND;TZID=America/Los_Angeles:20260105T130000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Luke Dorf Meeting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
  2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
@@ -552,9 +552,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6705b1bab8158dc0@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T151500
-DTEND;TZID=America/Los_Angeles:20260727T161500
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T151500
+DTEND;TZID=America/Los_Angeles:20260105T161500
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Providence Medical Center Me
  eting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
@@ -570,9 +570,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7eee8f348d64220f@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T140000
-DTEND;TZID=America/Los_Angeles:20260727T150000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T140000
+DTEND;TZID=America/Los_Angeles:20260105T150000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Taft Hotel Meeting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
  2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
@@ -587,9 +587,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e3edc33c7c6abd02@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T100000
-DTEND;TZID=America/Los_Angeles:20260725T110000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T100000
+DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Saturday Meeting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
  2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
@@ -604,9 +604,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fd5742a493e3fee2@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T103000
-DTEND;TZID=America/Los_Angeles:20260725T113000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T103000
+DTEND;TZID=America/Los_Angeles:20260103T113000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Virtual Meeting
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nAddress: 521 
  SW 11th Ave\, 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsit
@@ -622,9 +622,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0870cb364bf69dbd@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T140000
-DTEND;TZID=America/Los_Angeles:20260724T220000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T140000
+DTEND;TZID=America/Los_Angeles:20260101T220000
 SUMMARY:4D Recovery: Drop-In Center
 DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Welcoming space with 
  pool table\, video games\, TV\, and peer connection. Come hang out\, no pr
@@ -640,9 +640,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:445c92b4ea533d65@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260726T140000
-DTEND;TZID=America/Los_Angeles:20260726T150000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T140000
+DTEND;TZID=America/Los_Angeles:20260104T150000
 SUMMARY:Alano Club of Portland: RTS Recovery Yoga
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Yo
  ga classes designed for people in recovery\nAddress: 909 NW 24th Avenue\, 
@@ -657,9 +657,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3126ba680d24f93@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T100000
-DTEND;TZID=America/Los_Angeles:20260725T110000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T100000
+DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:Alano Club of Portland: Dual Diagnosis Anonymous (DDA)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
   909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
@@ -674,9 +674,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e9fbeb09cf612c48@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260725T110000
-DTEND;TZID=America/Los_Angeles:20260725T120000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T110000
+DTEND;TZID=America/Los_Angeles:20260103T120000
 SUMMARY:Alano Club of Portland: Gamblers Anonymous (GA)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
   909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
@@ -691,9 +691,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b744c3545429bb98@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260724T080000
-DTEND;TZID=America/Los_Angeles:20260724T170000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T080000
+DTEND;TZID=America/Los_Angeles:20260101T170000
 SUMMARY:Bridges to Change - Club Hope: Recovery Drop-In Center
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Sa
  fe space for peer connection and support. Shower/laundry facilities availa
@@ -710,9 +710,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3f2be9a46ade2d95@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260728T173000
-DTEND;TZID=America/Los_Angeles:20260728T183000
+DTSTAMP:20260213T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T173000
+DTEND;TZID=America/Los_Angeles:20260106T183000
 SUMMARY:Bridges to Change - Club Hope: Dual Diagnosis Anonymous (DDA) Meeti
  ng
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Fo
@@ -730,9 +730,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dac2e71c3d6922c7@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260729T123000
-DTEND;TZID=America/Los_Angeles:20260729T140000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260128T123000
+DTEND;TZID=America/Los_Angeles:20260128T140000
 SUMMARY:Community for Positive Aging: Conversations on Aging
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Su
  pport group for older adults navigating challenges of aging. Registration 
@@ -748,9 +748,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:37934774f23f64f3@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260810T130000
-DTEND;TZID=America/Los_Angeles:20260810T140000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260112T130000
+DTEND;TZID=America/Los_Angeles:20260112T140000
 SUMMARY:Community for Positive Aging: Family Caregivers Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Su
  pport for family caregivers\, including grandparents or older relatives ra
@@ -767,9 +767,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c1666e475947148e@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260827T110000
-DTEND;TZID=America/Los_Angeles:20260827T123000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260122T110000
+DTEND;TZID=America/Los_Angeles:20260122T123000
 SUMMARY:Community for Positive Aging: Memory Cafe
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Fr
  ee social gathering with music and refreshments for those with dementia\, 
@@ -786,9 +786,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b2c9ee508316dbb0@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T100000
-DTEND;TZID=America/Los_Angeles:20260727T110000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T100000
+DTEND;TZID=America/Los_Angeles:20260105T110000
 SUMMARY:Portland Hearing Voices: In-Person Hearing Voices Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\, drop-in
  \nAddress: 333 SW Park Ave\, Portland\, OR 97205\nWebsite: https://www.por
@@ -804,9 +804,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9b4a6cb18a941d5e@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260727T123000
-DTEND;TZID=America/Los_Angeles:20260727T133000
+DTSTAMP:20260415T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T123000
+DTEND;TZID=America/Los_Angeles:20260105T133000
 SUMMARY:Portland Hearing Voices: Hearing Voices Online
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: Online groups marked as '(Possibly)' on website - may be intermittent. 
@@ -824,9 +824,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:90892bb9e6fa288c@portlandresources.org
-DTSTAMP:20260724T175500Z
-DTSTART;TZID=America/Los_Angeles:20260817T183000
-DTEND;TZID=America/Los_Angeles:20260817T200000
+DTSTAMP:20260304T000000Z
+DTSTART;TZID=America/Los_Angeles:20260119T183000
+DTEND;TZID=America/Los_Angeles:20260119T200000
 SUMMARY:Hopewell House Grief Support: Community Grief Ritual
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\, drop-in
  \, no RSVP needed\nInfo: A practice of transforming individual and collect

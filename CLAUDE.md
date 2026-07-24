@@ -509,6 +509,23 @@ Schedule strings are parsed with natural language patterns:
 - The `parseSchedule()` function in `docs/index.html` handles the web calendar preview
 - The `parse_schedule()` function in `generate_calendar.py` handles ICS generation
 
+**Generation is deterministic.** Regenerating from an unchanged `sources.yaml` produces
+byte-identical files, so a `docs/` diff shows only what a data change actually did. Two things
+make that work, and both matter if you touch `generate_calendar.py`:
+
+- Recurring events with no `schedule_start_date` anchor `DTSTART` to `CALENDAR_EPOCH`
+  (2026-01-01), not to the wall clock. An RRULE runs forward from `DTSTART` indefinitely, so
+  the series is identical either way.
+- `DTSTAMP` comes from the entry's `last_verified`, and `events.json`'s `generated` field is
+  the newest `last_verified` in the file.
+
+Output still changes without a data edit in one case, by design: a recurring event whose
+`schedule_end_date` has passed stops being published.
+
+**Biweekly events need an anchor.** `Every other Monday` becomes `INTERVAL=2` counted from the
+anchor date, so without `schedule_start_date` set to a date the group actually meets it lands
+on the wrong week half the time. `validate_schedules.py` reports these as `[unanchored]`.
+
 **Bounding recurring events:**
 Use `schedule_start_date` and `schedule_end_date` to limit when a recurring event appears:
 ```yaml

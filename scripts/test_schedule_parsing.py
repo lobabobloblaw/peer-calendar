@@ -16,6 +16,7 @@ from generate_calendar import (
     detect_audience,
     get_entry_audience,
     get_program_audience,
+    entry_to_events,
     is_closed,
     parse_date_string,
     parse_schedule,
@@ -480,6 +481,38 @@ class TestRecurrenceRules(unittest.TestCase):
     def test_expired_window_produces_no_event(self):
         """A program whose end date has passed must not be published at all."""
         self.assertIsNone(self.build("Every Tuesday 6-7pm", {"schedule_end_date": "2020-03-01"}))
+
+
+class TestDeterministicOutput(unittest.TestCase):
+    """Regenerating unchanged data must produce byte-identical feeds.
+
+    DTSTART used to be anchored to the wall clock, so every CI run rewrote all
+    three platform feeds and buried real changes in a ~2,900-line diff.
+    """
+
+    ENTRY = {
+        "id": "test-group", "name": "Test Group", "category": "peer_support",
+        "schedule": "1st and 3rd Wednesday 2-3:30pm", "last_verified": date(2026, 3, 1),
+    }
+
+    def test_repeated_generation_is_identical(self):
+        self.assertEqual(entry_to_events(self.ENTRY), entry_to_events(self.ENTRY))
+
+    def test_dtstamp_comes_from_last_verified(self):
+        vevent = entry_to_events(self.ENTRY)[0]
+        self.assertIn("DTSTAMP:20260301T000000Z", vevent)
+
+    def test_dtstamp_changes_only_when_data_does(self):
+        reverified = dict(self.ENTRY, last_verified=date(2026, 7, 1))
+        self.assertNotEqual(entry_to_events(self.ENTRY), entry_to_events(reverified))
+
+    def test_anchor_is_a_valid_occurrence(self):
+        """A fixed anchor still has to satisfy the rule it is attached to."""
+        vevent = entry_to_events(self.ENTRY)[0]
+        line = next(l for l in vevent.split("\r\n") if l.startswith("DTSTART"))
+        dtstart = datetime.strptime(line.split(":")[1][:8], "%Y%m%d").date()
+        self.assertEqual(dtstart.weekday(), 2)
+        self.assertIn((dtstart.day - 1) // 7 + 1, (1, 3))
 
 
 class TestClosedEntries(unittest.TestCase):
