@@ -279,6 +279,193 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:80c98c702199b308@portlandresources.org
+DTSTAMP:20260724T000000Z
+DTSTART;TZID=America/Los_Angeles:20260804T100000
+DTEND;TZID=America/Los_Angeles:20260804T113000
+SUMMARY:CMHC Peer Groups (FolkTime × Clackamas County): ColorFlow
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
+ er-led with Luna. A welcoming art group for creative self-expression and m
+ indfulness through paint. Explore emotions\, connect with others\, and fin
+ d calm through color. No art experience needed.\nAddress: 11211 SE 82nd Av
+ e\, Suite O\, Portland\, OR 97086\nPhone: 503-722-6200\nWebsite: https://f
+ olktime.org\nDetails: Peer-led creative\, mindful\, and connection-focused
+  groups at Clackamas Mental Health Clinic\, offered through FolkTime in pa
+ rtnership with Clackamas County. Groups return August 2026 after a hiatus\
+ , with a revised line-up — ColorFlow moved from Wednesdays to Tuesdays\, C
+ ultivate & Connect is now Inspired by Nature\, Karaoke Night is now Open M
+ ic Night\, and Tea Time and Fun Brain Food are new. Verified from the offi
+ cial FolkTime/Clackamas County flyer received July 2026.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Peer-led with Luna. A welcoming art group for creative self-expression and mindfulness through paint. Explore emotions, connect with others, and find calm through color. No art experience needed.</p><p><strong>Address:</strong> 11211 SE 82nd Ave, Suite O, Portland, OR 97086</p><p><strong>Phone:</strong> <a href="tel:503-722-6200">503-722-6200</a></p><p><strong>Website:</strong> <a href="https://folktime.org">https://folktime.org</a></p><p><strong>Details:</strong> Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up — ColorFlow moved from Wednesdays to Tuesdays, Cultivate &amp; Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086
+URL:https://folktime.org
+RRULE:FREQ=MONTHLY;BYDAY=1TU,3TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e316600684ec1523@portlandresources.org
+DTSTAMP:20260724T000000Z
+DTSTART;TZID=America/Los_Angeles:20260811T110000
+DTEND;TZID=America/Los_Angeles:20260811T123000
+SUMMARY:CMHC Peer Groups (FolkTime × Clackamas County): Intentional Silence
+  & Meditation
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
+ er-led with Alé. A peaceful\, grounding space to slow down\, breathe\, and
+  reconnect with yourself. Together we'll explore stillness\, mindfulness\,
+  and the power of silence as a way to rest\, reflect\, and find calm in co
+ mmunity.\nAddress: 11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086\nPhon
+ e: 503-722-6200\nWebsite: https://folktime.org\nDetails: Peer-led creative
+ \, mindful\, and connection-focused groups at Clackamas Mental Health Clin
+ ic\, offered through FolkTime in partnership with Clackamas County. Groups
+  return August 2026 after a hiatus\, with a revised line-up — ColorFlow mo
+ ved from Wednesdays to Tuesdays\, Cultivate & Connect is now Inspired by N
+ ature\, Karaoke Night is now Open Mic Night\, and Tea Time and Fun Brain F
+ ood are new. Verified from the official FolkTime/Clackamas County flyer re
+ ceived July 2026.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Peer-led with Alé. A peaceful, grounding space to slow down, breathe, and reconnect with yourself. Together we&#x27;ll explore stillness, mindfulness, and the power of silence as a way to rest, reflect, and find calm in community.</p><p><strong>Address:</strong> 11211 SE 82nd Ave, Suite O, Portland, OR 97086</p><p><strong>Phone:</strong> <a href="tel:503-722-6200">503-722-6200</a></p><p><strong>Website:</strong> <a href="https://folktime.org">https://folktime.org</a></p><p><strong>Details:</strong> Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up — ColorFlow moved from Wednesdays to Tuesdays, Cultivate &amp; Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086
+URL:https://folktime.org
+RRULE:FREQ=MONTHLY;BYDAY=2TU,4TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:31776a6d2df51554@portlandresources.org
+DTSTAMP:20260724T000000Z
+DTSTART;TZID=America/Los_Angeles:20260812T130000
+DTEND;TZID=America/Los_Angeles:20260812T143000
+SUMMARY:CMHC Peer Groups (FolkTime × Clackamas County): Healing with Photog
+ raphy
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
+ er-led with Azy. A creative group for exploring healing\, identity\, and s
+ elf-expression. Using photography as a mindful practice\, we'll reflect on
+  our experiences\, notice moments of beauty\, and connect.\nAddress: 11211
+  SE 82nd Ave\, Suite O\, Portland\, OR 97086\nPhone: 503-722-6200\nWebsite
+ : https://folktime.org\nDetails: Peer-led creative\, mindful\, and connect
+ ion-focused groups at Clackamas Mental Health Clinic\, offered through Fol
+ kTime in partnership with Clackamas County. Groups return August 2026 afte
+ r a hiatus\, with a revised line-up — ColorFlow moved from Wednesdays to T
+ uesdays\, Cultivate & Connect is now Inspired by Nature\, Karaoke Night is
+  now Open Mic Night\, and Tea Time and Fun Brain Food are new. Verified fr
+ om the official FolkTime/Clackamas County flyer received July 2026.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Peer-led with Azy. A creative group for exploring healing, identity, and self-expression. Using photography as a mindful practice, we&#x27;ll reflect on our experiences, notice moments of beauty, and connect.</p><p><strong>Address:</strong> 11211 SE 82nd Ave, Suite O, Portland, OR 97086</p><p><strong>Phone:</strong> <a href="tel:503-722-6200">503-722-6200</a></p><p><strong>Website:</strong> <a href="https://folktime.org">https://folktime.org</a></p><p><strong>Details:</strong> Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up — ColorFlow moved from Wednesdays to Tuesdays, Cultivate &amp; Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086
+URL:https://folktime.org
+RRULE:FREQ=MONTHLY;BYDAY=2WE,4WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3c31aa671169d435@portlandresources.org
+DTSTAMP:20260724T000000Z
+DTSTART;TZID=America/Los_Angeles:20260806T130000
+DTEND;TZID=America/Los_Angeles:20260806T143000
+SUMMARY:CMHC Peer Groups (FolkTime × Clackamas County): Inspired by Nature
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
+ er-led by Aaron. A grounding art group exploring creativity\, connection\,
+  and mindfulness through nature. Inspired by natural materials and the sen
+ ses\, we'll celebrate growth\, self-expression\, and community through han
+ ds-on creation.\nAddress: 11211 SE 82nd Ave\, Suite O\, Portland\, OR 9708
+ 6\nPhone: 503-722-6200\nWebsite: https://folktime.org\nDetails: Peer-led c
+ reative\, mindful\, and connection-focused groups at Clackamas Mental Heal
+ th Clinic\, offered through FolkTime in partnership with Clackamas County.
+  Groups return August 2026 after a hiatus\, with a revised line-up — Color
+ Flow moved from Wednesdays to Tuesdays\, Cultivate & Connect is now Inspir
+ ed by Nature\, Karaoke Night is now Open Mic Night\, and Tea Time and Fun 
+ Brain Food are new. Verified from the official FolkTime/Clackamas County f
+ lyer received July 2026.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Peer-led by Aaron. A grounding art group exploring creativity, connection, and mindfulness through nature. Inspired by natural materials and the senses, we&#x27;ll celebrate growth, self-expression, and community through hands-on creation.</p><p><strong>Address:</strong> 11211 SE 82nd Ave, Suite O, Portland, OR 97086</p><p><strong>Phone:</strong> <a href="tel:503-722-6200">503-722-6200</a></p><p><strong>Website:</strong> <a href="https://folktime.org">https://folktime.org</a></p><p><strong>Details:</strong> Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up — ColorFlow moved from Wednesdays to Tuesdays, Cultivate &amp; Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086
+URL:https://folktime.org
+RRULE:FREQ=MONTHLY;BYDAY=1TH,3TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:caa8b23710ced30a@portlandresources.org
+DTSTAMP:20260724T000000Z
+DTSTART;TZID=America/Los_Angeles:20260807T170000
+DTEND;TZID=America/Los_Angeles:20260807T183000
+SUMMARY:CMHC Peer Groups (FolkTime × Clackamas County): Open Mic Night
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
+ er-led by Anthony. An open space for joy\, laughter\, and self-expression 
+ through song. Come as you are — sing solo\, join in with others\, or cheer
+  from the crowd as we build confidence\, connection\, and community throug
+ h music.\nAddress: 11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086\nPhon
+ e: 503-722-6200\nWebsite: https://folktime.org\nDetails: Peer-led creative
+ \, mindful\, and connection-focused groups at Clackamas Mental Health Clin
+ ic\, offered through FolkTime in partnership with Clackamas County. Groups
+  return August 2026 after a hiatus\, with a revised line-up — ColorFlow mo
+ ved from Wednesdays to Tuesdays\, Cultivate & Connect is now Inspired by N
+ ature\, Karaoke Night is now Open Mic Night\, and Tea Time and Fun Brain F
+ ood are new. Verified from the official FolkTime/Clackamas County flyer re
+ ceived July 2026.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Peer-led by Anthony. An open space for joy, laughter, and self-expression through song. Come as you are — sing solo, join in with others, or cheer from the crowd as we build confidence, connection, and community through music.</p><p><strong>Address:</strong> 11211 SE 82nd Ave, Suite O, Portland, OR 97086</p><p><strong>Phone:</strong> <a href="tel:503-722-6200">503-722-6200</a></p><p><strong>Website:</strong> <a href="https://folktime.org">https://folktime.org</a></p><p><strong>Details:</strong> Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up — ColorFlow moved from Wednesdays to Tuesdays, Cultivate &amp; Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086
+URL:https://folktime.org
+RRULE:FREQ=MONTHLY;BYDAY=1FR,3FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6db5e82289bfb93b@portlandresources.org
+DTSTAMP:20260724T000000Z
+DTSTART;TZID=America/Los_Angeles:20260814T143000
+DTEND;TZID=America/Los_Angeles:20260814T160000
+SUMMARY:CMHC Peer Groups (FolkTime × Clackamas County): Tea Time
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
+ er-led with Melinda. A relaxed space for tea\, conversation\, and communit
+ y. Slow down\, connect with others\, and enjoy meaningful moments together
+  — come as you are.\nAddress: 11211 SE 82nd Ave\, Suite O\, Portland\, OR 
+ 97086\nPhone: 503-722-6200\nWebsite: https://folktime.org\nDetails: Peer-l
+ ed creative\, mindful\, and connection-focused groups at Clackamas Mental 
+ Health Clinic\, offered through FolkTime in partnership with Clackamas Cou
+ nty. Groups return August 2026 after a hiatus\, with a revised line-up — C
+ olorFlow moved from Wednesdays to Tuesdays\, Cultivate & Connect is now In
+ spired by Nature\, Karaoke Night is now Open Mic Night\, and Tea Time and 
+ Fun Brain Food are new. Verified from the official FolkTime/Clackamas Coun
+ ty flyer received July 2026.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Peer-led with Melinda. A relaxed space for tea, conversation, and community. Slow down, connect with others, and enjoy meaningful moments together — come as you are.</p><p><strong>Address:</strong> 11211 SE 82nd Ave, Suite O, Portland, OR 97086</p><p><strong>Phone:</strong> <a href="tel:503-722-6200">503-722-6200</a></p><p><strong>Website:</strong> <a href="https://folktime.org">https://folktime.org</a></p><p><strong>Details:</strong> Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up — ColorFlow moved from Wednesdays to Tuesdays, Cultivate &amp; Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086
+URL:https://folktime.org
+RRULE:FREQ=MONTHLY;BYDAY=2FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:93bb74f49d5664fe@portlandresources.org
+DTSTAMP:20260724T000000Z
+DTSTART;TZID=America/Los_Angeles:20260828T143000
+DTEND;TZID=America/Los_Angeles:20260828T160000
+SUMMARY:CMHC Peer Groups (FolkTime × Clackamas County): Fun Brain Food
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
+ er-led with Melinda. A fun group for games\, puzzles\, and brain-boosting 
+ activities. Learn something new\, connect with others\, and enjoy snacks i
+ n a playful\, supportive environment.\nAddress: 11211 SE 82nd Ave\, Suite 
+ O\, Portland\, OR 97086\nPhone: 503-722-6200\nWebsite: https://folktime.or
+ g\nDetails: Peer-led creative\, mindful\, and connection-focused groups at
+  Clackamas Mental Health Clinic\, offered through FolkTime in partnership 
+ with Clackamas County. Groups return August 2026 after a hiatus\, with a r
+ evised line-up — ColorFlow moved from Wednesdays to Tuesdays\, Cultivate &
+  Connect is now Inspired by Nature\, Karaoke Night is now Open Mic Night\,
+  and Tea Time and Fun Brain Food are new. Verified from the official FolkT
+ ime/Clackamas County flyer received July 2026.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Peer-led with Melinda. A fun group for games, puzzles, and brain-boosting activities. Learn something new, connect with others, and enjoy snacks in a playful, supportive environment.</p><p><strong>Address:</strong> 11211 SE 82nd Ave, Suite O, Portland, OR 97086</p><p><strong>Phone:</strong> <a href="tel:503-722-6200">503-722-6200</a></p><p><strong>Website:</strong> <a href="https://folktime.org">https://folktime.org</a></p><p><strong>Details:</strong> Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up — ColorFlow moved from Wednesdays to Tuesdays, Cultivate &amp; Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086
+URL:https://folktime.org
+RRULE:FREQ=MONTHLY;BYDAY=4FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:651932636ba165c7@portlandresources.org
 DTSTAMP:20260415T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000

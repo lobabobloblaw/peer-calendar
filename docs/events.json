@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-01",
-  "count": 266,
+  "generated": "2026-07-24",
+  "count": 267,
   "categories": {
     "peer_support": "Peer Support",
     "fitness_wellness": "Fitness & Wellness",
@@ -1436,6 +1436,118 @@
         "registration": "Email peerconnection@folktime.org or just show up to orientation",
         "what_to_bring": "Nothing required; $1 donation suggested for collective lunch",
         "good_to_know": "Oregon's oldest peer-run program (1985). Drop-in, no referral needed. Arrive by 11am to join collective lunch prep. Peer Respite Center now open 24/7 \u2014 contact respite@folktime.org."
+      }
+    },
+    {
+      "id": "cmhc-peer-groups",
+      "title": "CMHC Peer Groups (FolkTime \u00d7 Clackamas County)",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#7B68EE",
+      "address": "11211 SE 82nd Ave, Suite O, Portland, OR 97086",
+      "latitude": 45.443229,
+      "longitude": -122.580028,
+      "phone": "503-722-6200",
+      "email": null,
+      "website": "https://folktime.org",
+      "pricing": {
+        "description": "FREE"
+      },
+      "hours": null,
+      "eligibility": "Open to individuals receiving Peer Support services in Clackamas County. If you don't already have a Peer Support Specialist, stop in to the clinic to get connected.",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "program",
+      "programs": [
+        {
+          "name": "ColorFlow",
+          "schedule": "1st & 3rd Tuesdays, 10-11:30am",
+          "schedule_start_date": "2026-08-01",
+          "cost": "FREE",
+          "format": "In-person",
+          "notes": "Peer-led with Luna. A welcoming art group for creative self-expression and mindfulness through paint. Explore emotions, connect with others, and find calm through color. No art experience needed.",
+          "audience": []
+        },
+        {
+          "name": "Intentional Silence & Meditation",
+          "schedule": "2nd & 4th Tuesdays, 11am-12:30pm",
+          "schedule_start_date": "2026-08-01",
+          "cost": "FREE",
+          "format": "In-person",
+          "notes": "Peer-led with Al\u00e9. A peaceful, grounding space to slow down, breathe, and reconnect with yourself. Together we'll explore stillness, mindfulness, and the power of silence as a way to rest, reflect, and find calm in community.",
+          "audience": []
+        },
+        {
+          "name": "Healing with Photography",
+          "schedule": "2nd & 4th Wednesdays, 1-2:30pm",
+          "schedule_start_date": "2026-08-01",
+          "cost": "FREE",
+          "format": "In-person",
+          "notes": "Peer-led with Azy. A creative group for exploring healing, identity, and self-expression. Using photography as a mindful practice, we'll reflect on our experiences, notice moments of beauty, and connect.",
+          "audience": []
+        },
+        {
+          "name": "Inspired by Nature",
+          "schedule": "1st & 3rd Thursdays, 1-2:30pm",
+          "schedule_start_date": "2026-08-01",
+          "cost": "FREE",
+          "format": "In-person",
+          "notes": "Peer-led by Aaron. A grounding art group exploring creativity, connection, and mindfulness through nature. Inspired by natural materials and the senses, we'll celebrate growth, self-expression, and community through hands-on creation.",
+          "audience": []
+        },
+        {
+          "name": "Open Mic Night",
+          "schedule": "1st & 3rd Fridays, 5-6:30pm",
+          "schedule_start_date": "2026-08-01",
+          "cost": "FREE",
+          "format": "In-person",
+          "notes": "Peer-led by Anthony. An open space for joy, laughter, and self-expression through song. Come as you are \u2014 sing solo, join in with others, or cheer from the crowd as we build confidence, connection, and community through music.",
+          "audience": []
+        },
+        {
+          "name": "Tea Time",
+          "schedule": "2nd Fridays, 2:30-4pm",
+          "schedule_start_date": "2026-08-01",
+          "cost": "FREE",
+          "format": "In-person",
+          "notes": "Peer-led with Melinda. A relaxed space for tea, conversation, and community. Slow down, connect with others, and enjoy meaningful moments together \u2014 come as you are.",
+          "audience": []
+        },
+        {
+          "name": "Fun Brain Food",
+          "schedule": "4th Fridays, 2:30-4pm",
+          "schedule_start_date": "2026-08-01",
+          "cost": "FREE",
+          "format": "In-person",
+          "notes": "Peer-led with Melinda. A fun group for games, puzzles, and brain-boosting activities. Learn something new, connect with others, and enjoy snacks in a playful, supportive environment.",
+          "audience": []
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE"
+      ],
+      "accessibility": [
+        "wheelchair_accessible"
+      ],
+      "social_intensity": "structured_group",
+      "good_for": [
+        "anxiety_friendly",
+        "isolation",
+        "creative",
+        "indoor",
+        "low_energy"
+      ],
+      "audience": [],
+      "audience_notes": "Adults receiving Peer Support services in Clackamas County. Sponsored by FolkTime in partnership with Clackamas County.",
+      "notes": "Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up \u2014 ColorFlow moved from Wednesdays to Tuesdays, Cultivate & Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026.",
+      "practical_tips": {
+        "first_visit": "Open to people receiving Peer Support in Clackamas County. If you don't already have a Peer Support Specialist, stop in to the clinic to get connected.",
+        "registration": "Connect through your Peer Support Specialist, or stop in at the Clackamas Mental Health Clinic.",
+        "good_to_know": "Seven peer-led groups resuming August 2026 \u2014 art (ColorFlow, Inspired by Nature), mindfulness (Intentional Silence & Meditation), photography, music (Open Mic Night), and two Friday afternoon social groups (Tea Time, Fun Brain Food). Each group is led by a named peer specialist. No art or music experience needed for any of them."
       }
     },
     {

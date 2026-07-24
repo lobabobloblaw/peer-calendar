@@ -2,11 +2,11 @@
 
 A comprehensive guide to free and affordable activities, services, and resources in the Portland metro area, with special attention to accessibility and mental health support.
 
-*Generated from verified data on July 24, 2026. 266 active resources across 9 categories.*
+*Generated from verified data on July 24, 2026. 267 active resources across 9 categories.*
 
 ## Contents
 
-- [Peer Support: Mental Health & Recovery](#peer-support-mental-health-recovery) (30 resources)
+- [Peer Support: Mental Health & Recovery](#peer-support-mental-health-recovery) (31 resources)
 - [Fitness & Wellness: Accessible Programs for All Abilities](#fitness-wellness-accessible-programs-for-all-abilities) (45 resources)
 - [Parks & Nature: Free Outdoor Spaces](#parks-nature-free-outdoor-spaces) (20 resources)
 - [Arts & Culture: Museums, Galleries, and Performances](#arts-culture-museums-galleries-and-performances) (41 resources)
@@ -163,6 +163,43 @@ Free 24/7 crisis line and walk-in mental health center for Clackamas County. Pee
 **First visit:** Call 503-655-8585 anytime, or walk in Mon-Fri 9am-7pm. You don't have to be in crisis — any time you need help is the right time.
 
 *One-on-one · Anxiety-friendly, Good for isolation, Grief support, Indoor · Wheelchair accessible*
+
+### CMHC Peer Groups (FolkTime × Clackamas County)
+
+- **Address:** 11211 SE 82nd Ave, Suite O, Portland, OR 97086
+- **Phone:** 503-722-6200
+- **Website:** https://folktime.org
+- **Cost:** FREE
+- **Eligibility:** Open to individuals receiving Peer Support services in Clackamas County. If you don't already have a Peer Support Specialist, stop in to the clinic to get connected.
+
+Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up — ColorFlow moved from Wednesdays to Tuesdays, Cultivate & Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026.
+
+**What to know:** Seven peer-led groups resuming August 2026 — art (ColorFlow, Inspired by Nature), mindfulness (Intentional Silence & Meditation), photography, music (Open Mic Night), and two Friday afternoon social groups (Tea Time, Fun Brain Food). Each group is led by a named peer specialist. No art or music experience needed for any of them.
+
+**First visit:** Open to people receiving Peer Support in Clackamas County. If you don't already have a Peer Support Specialist, stop in to the clinic to get connected.
+
+**Registration:** Connect through your Peer Support Specialist, or stop in at the Clackamas Mental Health Clinic.
+
+**Programs:**
+
+- **ColorFlow:** 1st & 3rd Tuesdays, 10-11:30am | FREE | In-person
+  Peer-led with Luna. A welcoming art group for creative self-expression and mindfulness through paint. Explore emotions, connect with others, and find calm through color. No art experience needed.
+- **Intentional Silence & Meditation:** 2nd & 4th Tuesdays, 11am-12:30pm | FREE | In-person
+  Peer-led with Alé. A peaceful, grounding space to slow down, breathe, and reconnect with yourself. Together we'll explore stillness, mindfulness, and the power of silence as a way to rest, reflect, and find calm in community.
+- **Healing with Photography:** 2nd & 4th Wednesdays, 1-2:30pm | FREE | In-person
+  Peer-led with Azy. A creative group for exploring healing, identity, and self-expression. Using photography as a mindful practice, we'll reflect on our experiences, notice moments of beauty, and connect.
+- **Inspired by Nature:** 1st & 3rd Thursdays, 1-2:30pm | FREE | In-person
+  Peer-led by Aaron. A grounding art group exploring creativity, connection, and mindfulness through nature. Inspired by natural materials and the senses, we'll celebrate growth, self-expression, and community through hands-on creation.
+- **Open Mic Night:** 1st & 3rd Fridays, 5-6:30pm | FREE | In-person
+  Peer-led by Anthony. An open space for joy, laughter, and self-expression through song. Come as you are — sing solo, join in with others, or cheer from the crowd as we build confidence, connection, and community through music.
+- **Tea Time:** 2nd Fridays, 2:30-4pm | FREE | In-person
+  Peer-led with Melinda. A relaxed space for tea, conversation, and community. Slow down, connect with others, and enjoy meaningful moments together — come as you are.
+- **Fun Brain Food:** 4th Fridays, 2:30-4pm | FREE | In-person
+  Peer-led with Melinda. A fun group for games, puzzles, and brain-boosting activities. Learn something new, connect with others, and enjoy snacks in a playful, supportive environment.
+
+*Structured group · Anxiety-friendly, Good for isolation, Creative, Indoor, Low energy · Wheelchair accessible*
+
+**Who it's for:** Adults receiving Peer Support services in Clackamas County. Sponsored by FolkTime in partnership with Clackamas County.
 
 ### Community for Positive Aging
 

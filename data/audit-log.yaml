@@ -2,6 +2,26 @@
 # Records all verification activities and changes
 
 ---
+- date: 2026-07-24
+  type: addition
+  auditor: claude
+  summary: "Re-added CMHC Peer Groups (FolkTime × Clackamas County) with a revised 7-program line-up returning August 2026"
+  added:
+    - id: cmhc-peer-groups
+      name: CMHC Peer Groups (FolkTime × Clackamas County)
+      category: peer_support
+      reason: "Groups return August 2026 after the May 2026 hiatus. Seven peer-led programs at Clackamas Mental Health Clinic (11211 SE 82nd Ave, Suite O, Portland, OR 97086): ColorFlow (1st & 3rd Tue 10-11:30am, Luna), Intentional Silence & Meditation (2nd & 4th Tue 11am-12:30pm, Alé), Healing with Photography (2nd & 4th Wed 1-2:30pm, Azy), Inspired by Nature (1st & 3rd Thu 1-2:30pm, Aaron), Open Mic Night (1st & 3rd Fri 5-6:30pm, Anthony), Tea Time (2nd Fri 2:30-4pm, Melinda), Fun Brain Food (4th Fri 2:30-4pm, Melinda). All bounded with schedule_start_date 2026-08-01. Open to people receiving Peer Support services in Clackamas County. Source: official FolkTime/Clackamas County flyer received July 2026."
+      changes_from_previous_version:
+        - "ColorFlow moved from 1st & 3rd Wednesdays to 1st & 3rd Tuesdays"
+        - "Cultivate & Connect renamed to Inspired by Nature (same description, same 1st & 3rd Thursday 1-2:30pm slot)"
+        - "Karaoke Night renamed to Open Mic Night (same description, same 1st & 3rd Friday 5-6:30pm slot)"
+        - "Tea Time added (2nd Friday 2:30-4pm)"
+        - "Fun Brain Food added (4th Friday 2:30-4pm)"
+        - "Intentional Silence & Meditation and Healing with Photography unchanged"
+        - "Facilitator names now recorded per program"
+        - "Address city changed from Happy Valley to Portland per the flyer; coordinates unchanged"
+
+---
 - date: 2026-05-01
   type: removal
   auditor: claude
