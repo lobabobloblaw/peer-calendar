@@ -769,4 +769,22 @@ URL:https://www.portland.gov/sunday-parkways
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
+BEGIN:VEVENT
+UID:8c411e5862e6249e@portlandresources.org
+DTSTAMP:20260728T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:Multnomah Days Festival & Parade
+DESCRIPTION:Category: Events & Festivals\nCost: FREE to attend\nNote: Open-
+ air street festival - no admission charge described. Food\, drink and vend
+ or purchases cost extra.\nAddress: SW Capitol Hwy & SW 35th Ave\, Portland
+ \, OR 97219\nWebsite: https://www.multnomahvillage.org/event-details/multn
+ omah-days-2026\nEligibility: Open to all\nDetails: Annual Multnomah Villag
+ e street festival and parade\, organised by the Multnomah Village Business
+  Association. Added July 2026.
+LOCATION:SW Capitol Hwy & SW 35th Ave\, Portland\, OR 97219
+URL:https://www.multnomahvillage.org/event-details/multnomah-days-2026
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

@@ -1,6 +1,6 @@
 {
   "generated": "2026-07-28",
-  "count": 267,
+  "count": 272,
   "categories": {
     "peer_support": "Peer Support",
     "fitness_wellness": "Fitness & Wellness",
@@ -15343,6 +15343,325 @@
       "practical_tips": {
         "first_visit": "Visit returningveterans.org and use the Provider Directory to find a provider near you. No referral or VA registration needed.",
         "good_to_know": "Nearly 200 volunteer health providers across Oregon and SW Washington. Completely free and confidential. No insurance needed. Serves post-9/11 veterans, service members, AND their families."
+      }
+    },
+    {
+      "id": "brief-encounters",
+      "title": "Brief Encounters (Pregnancy & Infant Loss Support)",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#7B68EE",
+      "address": "The Peace House, 2116 NE 18th Ave, Portland, OR 97212",
+      "latitude": null,
+      "longitude": null,
+      "phone": "503-699-8006",
+      "email": null,
+      "website": "https://www.briefencounters.org",
+      "pricing": {
+        "description": "FREE",
+        "notes": "Free of charge to bereaved parents and their family and friends."
+      },
+      "hours": null,
+      "eligibility": "Parents and families who have experienced pregnancy loss, early pregnancy loss, or infant loss",
+      "features": [],
+      "location_type": "hybrid",
+      "resource_type": "program",
+      "programs": [
+        {
+          "name": "Parents of Pregnancy and Infant Loss",
+          "schedule": "2nd Monday 7pm",
+          "location": "The Peace House, 2116 NE 18th Ave, Portland, OR 97212",
+          "format": "In-person",
+          "cost": "FREE",
+          "notes": "Includes early pregnancy loss. The same group also meets on the 4th Tuesday at 7pm; that session's format was not published as of July 2026, so only the confirmed in-person 2nd Monday meeting is listed as a calendar event. Call 503-699-8006 to confirm the 4th Tuesday.",
+          "audience": []
+        },
+        {
+          "name": "Non-Birthing Parent Support Group",
+          "schedule": "1st Monday 6:30pm",
+          "location": "The Peace House, 2116 NE 18th Ave, Portland, OR 97212",
+          "format": "In-person",
+          "cost": "FREE",
+          "notes": "For grieving partners and non-birthing parents.",
+          "audience": []
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [
+        "\u26a0\ufe0f VERIFY - Group days and times sourced from briefencounters.org via search; the 4th Tuesday session's format (in-person vs virtual) is unconfirmed. Confirm both groups by phone at 503-699-8006."
+      ],
+      "accessibility": [
+        "transit_nearby"
+      ],
+      "social_intensity": "structured_group",
+      "good_for": [
+        "grief",
+        "anxiety_friendly",
+        "isolation",
+        "indoor"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Portland-based peer support for pregnancy and infant loss, including early pregnancy loss, plus a separate group for non-birthing parents and partners. Added July 2026 to fill a perinatal grief gap not covered by Dougy Center, Providence Hospice or Hopewell House.",
+      "practical_tips": {
+        "first_visit": "Call 503-699-8006 before your first meeting to confirm the date and let them know you are coming.",
+        "registration": "Contact by phone; no formal registration described for in-person meetings.",
+        "what_to_bring": "Nothing required.",
+        "good_to_know": "Peer-led support run by trained volunteers, specifically for perinatal loss - a gap the general grief groups in this guide do not cover. Meetings are held at The Peace House in NE Portland."
+      }
+    },
+    {
+      "id": "portland-memory-garden",
+      "title": "Portland Memory Garden (Ed Benedict Park)",
+      "category": "parks_nature",
+      "categoryName": "Parks & Nature",
+      "color": "#228B22",
+      "address": "Ed Benedict Park, SE 104th Ave & SE Powell Blvd, Portland, OR 97266",
+      "latitude": null,
+      "longitude": null,
+      "phone": null,
+      "email": null,
+      "website": "https://www.portland.gov/parks/portland-memory-garden",
+      "pricing": {
+        "description": "FREE",
+        "notes": "Entrance is free for all visitors."
+      },
+      "hours": "Dawn to dusk, as with other Portland parks",
+      "eligibility": "Open to all",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "place",
+      "programs": [
+        {
+          "name": "Music in the Garden",
+          "schedule": "11:30am-1pm",
+          "dates": [
+            "September 12, 2026"
+          ],
+          "cost": "FREE",
+          "format": "In-person, outdoor",
+          "notes": "Live music twice monthly, weather permitting, hosted by Friends of Portland Memory Garden. September 12 features Jamie Turbett on cello. Earlier 2026 dates included a cello quartet on July 11 and guitar on July 25. The full remaining-season date list is not published as a set - check the upcoming events page.",
+          "audience": [
+            "seniors"
+          ]
+        },
+        {
+          "name": "National Grandparents Day",
+          "schedule": "11:30am-1pm",
+          "dates": [
+            "September 13, 2026"
+          ],
+          "cost": "FREE",
+          "format": "In-person, outdoor",
+          "notes": "Hollywood Ukulele performs. Hosted by Friends of Portland Memory Garden.",
+          "audience": [
+            "seniors"
+          ]
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE"
+      ],
+      "accessibility": [
+        "wheelchair_accessible",
+        "transit_nearby"
+      ],
+      "social_intensity": "solo",
+      "good_for": [
+        "anxiety_friendly",
+        "low_energy",
+        "outdoor",
+        "isolation",
+        "grief"
+      ],
+      "audience": [
+        "seniors"
+      ],
+      "audience_notes": "Designed with older adults and people living with dementia in mind, but open to all visitors of any age.",
+      "notes": "Therapeutic garden at Ed Benedict Park in outer SE Portland, maintained with Friends of Portland Memory Garden. Added July 2026. Strong fit for low-energy, anxiety-friendly, accessible outdoor time.",
+      "practical_tips": {
+        "first_visit": "The garden is inside Ed Benedict Park. Paths are wide, level and looped, designed so visitors cannot get lost.",
+        "registration": "None - just show up",
+        "what_to_bring": "A chair or blanket for the music events; seating is limited",
+        "good_to_know": "Purpose-built as a therapeutic garden for older adults, people with disabilities, and people living with Alzheimer's or dementia. Calm, enclosed and sensory-focused - one of the quieter free outdoor options in the guide. Free live music roughly twice a month in season."
+      }
+    },
+    {
+      "id": "ops-fest-shakespeare",
+      "title": "Original Practice Shakespeare Festival (OPS Fest)",
+      "category": "arts_culture",
+      "categoryName": "Arts & Culture",
+      "color": "#9370DB",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "phone": null,
+      "email": null,
+      "website": "https://www.opsfest.org",
+      "pricing": {
+        "description": "FREE",
+        "notes": "No-cost performances in public parks. Donations accepted but never required."
+      },
+      "hours": null,
+      "eligibility": "Open to all",
+      "features": [],
+      "location_type": "varies",
+      "resource_type": "event",
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": "2026-06-20",
+      "schedule_end_date": "2026-08-22",
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE",
+        "\u26a0\ufe0f VERIFY - Season dates (June 20 - August 22, 2026) and the 22-plays/11-parks scale are confirmed, but the per-performance schedule of which play is at which park on which night was not retrievable by search. It lives at opsfest.org/season-chronological.html. Until that page is read directly this entry carries no parseable calendar events and appears only in the Resources directory. Capture the individual dates as programs with dates fields on the next pass."
+      ],
+      "accessibility": [
+        "varies"
+      ],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "outdoor",
+        "creative",
+        "family_friendly",
+        "anxiety_friendly",
+        "isolation"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "18th season in 2026 - 22 plays across 11 Portland metro parks, all free. Added July 2026.",
+      "practical_tips": {
+        "first_visit": "Bring a blanket or low chair; performances are on grass. Arrive early for a good spot.",
+        "registration": "None - free and open, just turn up",
+        "what_to_bring": "Blanket or chair, water, layers for the evening",
+        "good_to_know": "Performed in Elizabethan \"original practice\" style - scripts in hand, minimal rehearsal, an onstage prompter, heavy audience interaction and dice rolls. Loose, funny and forgiving rather than formal, so it suits people who find traditional theatre intimidating. You can arrive late or leave early without disrupting anything."
+      }
+    },
+    {
+      "id": "multnomah-days",
+      "title": "Multnomah Days Festival & Parade",
+      "category": "events",
+      "categoryName": "Events & Festivals",
+      "color": "#FF6347",
+      "address": "SW Capitol Hwy & SW 35th Ave, Portland, OR 97219",
+      "latitude": null,
+      "longitude": null,
+      "phone": null,
+      "email": null,
+      "website": "https://www.multnomahvillage.org/event-details/multnomah-days-2026",
+      "pricing": {
+        "description": "FREE to attend",
+        "notes": "Open-air street festival - no admission charge described. Food, drink and vendor purchases cost extra."
+      },
+      "hours": null,
+      "eligibility": "Open to all",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
+      "programs": [],
+      "dates": "August 15, 2026",
+      "schedule": "9am-5pm",
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE",
+        "\u26a0\ufe0f VERIFY - Date (August 15, 2026), hours (9am-5pm) and location are well corroborated. Free admission is implied by the open-air street-festival format and its inclusion in free-event roundups, but is not stated outright on the organiser's page. Confirm before describing it as free in printed material."
+      ],
+      "accessibility": [
+        "wheelchair_accessible",
+        "transit_nearby"
+      ],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "outdoor",
+        "family_friendly",
+        "new_to_area",
+        "isolation"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Annual Multnomah Village street festival and parade, organised by the Multnomah Village Business Association. Added July 2026.",
+      "practical_tips": {
+        "first_visit": "Centred on SW Capitol Hwy in Multnomah Village. Street closures mean parking nearby is tight - transit or walking is easier.",
+        "registration": "None",
+        "what_to_bring": "Cash for vendors and food carts, sun protection",
+        "good_to_know": "One-day open-air street festival with a community parade, two stages of live music, an art fair and 150+ vendor booths, plus food carts and street dining. Busy and crowded - the morning is quieter than the afternoon if large crowds are difficult."
+      }
+    },
+    {
+      "id": "hawthorne-plaza-concerts",
+      "title": "Hawthorne Plaza Concert Series (Concerts in the Plaza)",
+      "category": "arts_culture",
+      "categoryName": "Arts & Culture",
+      "color": "#9370DB",
+      "address": "Hawthorne Plaza, SE 37th Ave & SE Hawthorne Blvd, Portland, OR 97214",
+      "latitude": null,
+      "longitude": null,
+      "phone": null,
+      "email": null,
+      "website": "https://ventureportland.org/event/hawthorne-plaza-concert-series/",
+      "pricing": {
+        "description": "FREE"
+      },
+      "hours": null,
+      "eligibility": "Open to all",
+      "features": [],
+      "location_type": "physical",
+      "resource_type": "event",
+      "programs": [
+        {
+          "name": "Flat Pocket Trio",
+          "dates": [
+            "August 8, 2026"
+          ],
+          "schedule": "4-6pm",
+          "cost": "FREE",
+          "audience": []
+        },
+        {
+          "name": "Bigger Nova",
+          "dates": [
+            "August 15, 2026"
+          ],
+          "schedule": "4-6pm",
+          "cost": "FREE",
+          "audience": []
+        }
+      ],
+      "dates": null,
+      "schedule": "Saturdays 4-6pm",
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "flags": [
+        "\ud83d\udd04 SEASONAL",
+        "\u26a0\ufe0f VERIFY - Weekly Saturday 4-6pm slot and the August 8 and August 15 performers are confirmed, but the series start and end dates were not published in any source found. The two confirmed dates are listed as programs; the entry-level Saturday schedule is therefore suppressed by design until the full run is known. Get the season range from ventureportland.org and add schedule_start_date and schedule_end_date."
+      ],
+      "accessibility": [
+        "wheelchair_accessible",
+        "transit_nearby"
+      ],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "outdoor",
+        "anxiety_friendly",
+        "isolation",
+        "new_to_area"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Free Saturday-afternoon summer concert series on Hawthorne Plaza, supported by Venture Portland. Added July 2026.",
+      "practical_tips": {
+        "first_visit": "The plaza is a small open square at SE 37th and Hawthorne. Bring a chair - seating is limited.",
+        "registration": "None - free and open",
+        "what_to_bring": "Chair or blanket, water, sun protection",
+        "good_to_know": "Free outdoor neighbourhood concerts on Saturday afternoons in summer. Small and low-key rather than a large festival, and easy to leave at any point."
       }
     }
   ]

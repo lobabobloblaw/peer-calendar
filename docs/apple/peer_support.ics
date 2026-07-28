@@ -1126,4 +1126,51 @@ RRULE:FREQ=MONTHLY;BYDAY=3MO
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
+BEGIN:VEVENT
+UID:48eff2276e9d2d0b@portlandresources.org
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260112T190000
+DTEND;TZID=America/Los_Angeles:20260112T200000
+SUMMARY:Brief Encounters (Pregnancy & Infant Loss Support): Parents of Preg
+ nancy and Infant Loss
+DESCRIPTION:Category: Peer Support\nCost: FREE\nNote: Free of charge to ber
+ eaved parents and their family and friends.\nFormat: In-person\nInfo: Incl
+ udes early pregnancy loss. The same group also meets on the 4th Tuesday at
+  7pm\; that session's format was not published as of July 2026\, so only t
+ he confirmed in-person 2nd Monday meeting is listed as a calendar event. C
+ all 503-699-8006 to confirm the 4th Tuesday.\nAddress: The Peace House\, 2
+ 116 NE 18th Ave\, Portland\, OR 97212\nPhone: 503-699-8006\nWebsite: https
+ ://www.briefencounters.org\nDetails: Portland-based peer support for pregn
+ ancy and infant loss\, including early pregnancy loss\, plus a separate gr
+ oup for non-birthing parents and partners. Added July 2026 to fill a perin
+ atal grief gap not covered by Dougy Center\, Providence Hospice or Hopewel
+ l House.
+LOCATION:The Peace House\, 2116 NE 18th Ave\, Portland\, OR 97212
+URL:https://www.briefencounters.org
+RRULE:FREQ=MONTHLY;BYDAY=2MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c332712d8be556fb@portlandresources.org
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T183000
+DTEND;TZID=America/Los_Angeles:20260105T193000
+SUMMARY:Brief Encounters (Pregnancy & Infant Loss Support): Non-Birthing Pa
+ rent Support Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nNote: Free of charge to ber
+ eaved parents and their family and friends.\nFormat: In-person\nInfo: For 
+ grieving partners and non-birthing parents.\nAddress: The Peace House\, 21
+ 16 NE 18th Ave\, Portland\, OR 97212\nPhone: 503-699-8006\nWebsite: https:
+ //www.briefencounters.org\nDetails: Portland-based peer support for pregna
+ ncy and infant loss\, including early pregnancy loss\, plus a separate gro
+ up for non-birthing parents and partners. Added July 2026 to fill a perina
+ tal grief gap not covered by Dougy Center\, Providence Hospice or Hopewell
+  House.
+LOCATION:The Peace House\, 2116 NE 18th Ave\, Portland\, OR 97212
+URL:https://www.briefencounters.org
+RRULE:FREQ=MONTHLY;BYDAY=1MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR
