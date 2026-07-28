@@ -364,7 +364,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb1faca9bd5fba8c@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T110000
 DTEND;TZID=America/Los_Angeles:20260104T123000
 SUMMARY:Food Court 5000 (Lloyd Center Mall Walking)
@@ -372,10 +372,15 @@ DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 2201 Lloyd C
  enter\, Portland\, OR 97232\nWebsite: https://foodcourt5k.com/\nDetails: 1
  980s/90s-themed indoor mall walking. Dress code: neon leggings\, acid-wash
  ed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at 
- food court.
+ food court. Lloyd Center closes permanently August 8\, 2026 - the last reg
+ ular Sunday walk inside the mall is August 2\, with a final farewell walk 
+ on Saturday August 8. The group continues afterward at rotating pop-up loc
+ ations around Portland (some outdoors for late summer\, some indoors)\; a 
+ permanent home is reportedly close to being finalized but was not announce
+ d as of late July 2026.
 LOCATION:2201 Lloyd Center\, Portland\, OR 97232
 URL:https://foodcourt5k.com/
-RRULE:FREQ=WEEKLY;BYDAY=SU
+RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20260803T065959Z
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -660,7 +665,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9bcec74921ec71a3@portlandresources.org
-DTSTAMP:20260307T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260208T100000
 DTEND;TZID=America/Los_Angeles:20260208T113000
 SUMMARY:THPRD Fitness in the Park: Sweetheart Stroll
@@ -675,7 +680,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:63339ae952c1154d@portlandresources.org
-DTSTAMP:20260307T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260328T110000
 DTEND;TZID=America/Los_Angeles:20260328T130000
 SUMMARY:THPRD Fitness in the Park: Women's Wellness Fair
@@ -690,7 +695,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bdf1f13e2de736d2@portlandresources.org
-DTSTAMP:20260307T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;VALUE=DATE:20260527
 DTEND;VALUE=DATE:20260528
 SUMMARY:THPRD Fitness in the Park: National Senior Health & Fitness Day

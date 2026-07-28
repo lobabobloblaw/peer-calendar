@@ -4407,3 +4407,140 @@
   entries:
     - id: last-thursday-alberta
       status: verified
+
+---
+- date: 2026-07-28
+  type: audit
+  auditor: user
+  summary: "Audit completed - Behavioral Health Resource Center"
+  entries_audited: 1
+  entries:
+    - id: bhrc
+      status: verified
+
+---
+- date: 2026-07-28
+  type: audit
+  auditor: user
+  summary: "Audit completed - NorthStar Clubhouse"
+  entries_audited: 1
+  entries:
+    - id: northstar-clubhouse
+      status: verified
+
+---
+- date: 2026-07-28
+  type: audit
+  auditor: user
+  summary: "Audit completed - FolkTime Peer Respite"
+  entries_audited: 1
+  entries:
+    - id: folktime
+      status: verified
+
+---
+- date: 2026-07-28
+  type: audit
+  auditor: user
+  summary: "Audit completed - Repair PDX"
+  entries_audited: 1
+  entries:
+    - id: repair-pdx
+      status: verified
+
+---
+- date: 2026-07-28
+  type: audit
+  auditor: user
+  summary: "Audit completed - Shift to Bikes"
+  entries_audited: 1
+  entries:
+    - id: shift-to-bikes
+      status: verified
+
+---
+- date: 2026-07-28
+  type: audit
+  auditor: user
+  summary: "Audit completed - Clackamas County Repair Fairs"
+  entries_audited: 1
+  entries:
+    - id: clackamas-county-repair-fairs
+      status: verified
+
+---
+- date: 2026-07-28
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAMI Multnomah"
+  entries_audited: 1
+  entries:
+    - id: nami-multnomah
+      status: updated
+      changes: "Added two peer groups confirmed on namimultnomah.org: LGBTQ2SIA+ in-person (2nd & 4th Sundays 1-2:30pm at Rose City Community Collective, crafts from 12:30pm) and Young Adult 18-35 online (2nd & 4th Wednesdays 7-8:30pm Zoom). Added audience tags to LGBTQ2SIA+, Young Adult and BIPOC groups. Noted family/caregiver groups in entry notes as an intentional exclusion with referral info."
+
+---
+- date: 2026-07-28
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Hearing Voices"
+  entries_audited: 1
+  entries:
+    - id: portland-hearing-voices
+      status: updated
+      changes: "In-person group moved from Mondays 10-11am to Wednesdays 9:30-10:30am at BHRC. Former Wednesday 12:30-2pm online group no longer listed; Monday 12:30-1:30pm online remains marked '(Possibly)'."
+
+---
+- date: 2026-07-28
+  type: audit
+  auditor: user
+  summary: "Audit completed - Food Court 5000 (Lloyd Center Mall Walking)"
+  entries_audited: 1
+  entries:
+    - id: lloyd-center-walking
+      status: updated
+      changes: "Lloyd Center closes permanently Aug 8 2026 (City Council denied appeals July 8). Bounded recurring Sunday walks with schedule_end_date 2026-08-02, the last regular Sunday inside the mall. Documented Sat Aug 8 farewell walk and post-closure pop-up plans; replaced VERIFY flag with SEASONAL relocation flag."
+
+---
+- date: 2026-07-28
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAMI Clackamas"
+  entries_audited: 1
+  entries:
+    - id: nami-clackamas
+      status: updated
+      changes: "Confirmed LGBTQ+ group Mondays 7-8:30pm Zoom via namicc.org and cleared its VERIFY flag. Confirmed Art with Heart began Jan 22 2026 in Oregon City."
+
+---
+- date: 2026-07-28
+  type: audit
+  auditor: user
+  summary: "Audit completed - DBSA Portland (Depression Bipolar Support Alliance)"
+  entries_audited: 1
+  entries:
+    - id: dbsa-portland
+      status: updated
+      changes: "Confirmed Eastside (Thu 7-8:30pm) and LGBTQIA+ (Mon 7-8:30pm). LGBTQIA+ in-person option corrected to 1st AND 3rd Mondays at the Q Center (was 1st Monday via Meetup). West Portland corrected from 6:30-7:50pm to 7pm start per dbsawestportland.org. Flagged Mental Healthcare Professionals group as unconfirmable this pass."
+
+---
+- date: 2026-07-28
+  type: audit
+  auditor: user
+  summary: "Audit completed - Alano Club of Portland"
+  entries_audited: 1
+  entries:
+    - id: alano-club-portland
+      status: updated
+      changes: "Flagged RTS Recovery Yoga day conflict: 2-3pm time consistent across sources but days disagree (stored Tue/Sun vs Sat/Wed vs Wed/Sun in July 2026 searches). Days left unchanged pending direct confirmation."
+
+---
+- date: 2026-07-28
+  type: audit
+  auditor: user
+  summary: "Audit completed - THPRD Fitness in the Park"
+  entries_audited: 1
+  entries:
+    - id: thprd-fitness-in-park
+      status: updated
+      changes: "Confirmed Summer 2026 season June 15 - August 23 (no classes June 19, July 3, July 4) and class mix. Merged two duplicate 'flags' keys that were silently discarding the VERIFY flag. Per-class schedule still needs a direct read of the THPRD print schedule page."

@@ -25,14 +25,21 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:b8b48cbe08f220fe@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260111T150000
 DTEND;TZID=America/Los_Angeles:20260111T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (In-Person)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
   464 SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\n
  Website: https://namimultnomah.org\nDetails: No diagnosis required for any
-  groups. Groups are peer-led by trained volunteers with lived experience.
+  groups. Groups are peer-led by trained volunteers with lived experience. 
+ NAMI Multnomah also runs family and caregiver groups that are deliberately
+  not listed here\, because this database covers groups people attend for t
+ heir own support - Family Support Group (Mondays 6-7:30pm\, 1st Monday in 
+ person at Rose City Community Collective)\, Parent Support Group (1st & 3r
+ d Wednesdays 4-5:15pm)\, and Military Family Support Group (2nd Thursday 6
+ -7:30pm). Refer family members to namimultnomah.org/family-support-groups 
+ or 503-228-5692.
 LOCATION:Community for Positive Aging\, 1820 NE 40th Ave\, Portland OR 9721
  2
 URL:https://namimultnomah.org
@@ -42,14 +49,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dba6711eb13da213@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T150000
 DTEND;TZID=America/Los_Angeles:20260104T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (Online)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nAddress: 464 
  SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsi
  te: https://namimultnomah.org\nDetails: No diagnosis required for any grou
- ps. Groups are peer-led by trained volunteers with lived experience.
+ ps. Groups are peer-led by trained volunteers with lived experience. NAMI 
+ Multnomah also runs family and caregiver groups that are deliberately not 
+ listed here\, because this database covers groups people attend for their 
+ own support - Family Support Group (Mondays 6-7:30pm\, 1st Monday in perso
+ n at Rose City Community Collective)\, Parent Support Group (1st & 3rd Wed
+ nesdays 4-5:15pm)\, and Military Family Support Group (2nd Thursday 6-7:30
+ pm). Refer family members to namimultnomah.org/family-support-groups or 50
+ 3-228-5692.
 LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
 URL:https://namimultnomah.org
 RRULE:FREQ=MONTHLY;BYDAY=1SU,3SU
@@ -58,7 +72,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9777816b12080f9@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support
@@ -66,7 +80,14 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility:
  LGBTQ2SIA+ adults 18+ with mental health symptoms\nAddress: 464 SE 185th A
  ve\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: https:
  //namimultnomah.org\nDetails: No diagnosis required for any groups. Groups
-  are peer-led by trained volunteers with lived experience.
+  are peer-led by trained volunteers with lived experience. NAMI Multnomah 
+ also runs family and caregiver groups that are deliberately not listed her
+ e\, because this database covers groups people attend for their own suppor
+ t - Family Support Group (Mondays 6-7:30pm\, 1st Monday in person at Rose 
+ City Community Collective)\, Parent Support Group (1st & 3rd Wednesdays 4-
+ 5:15pm)\, and Military Family Support Group (2nd Thursday 6-7:30pm). Refer
+  family members to namimultnomah.org/family-support-groups or 503-228-5692
+ .
 LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
 URL:https://namimultnomah.org
 RRULE:FREQ=WEEKLY;BYDAY=MO
@@ -74,16 +95,71 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:c8206c50171db713@portlandresources.org
-DTSTAMP:20260415T000000Z
+UID:59d4efd22aea95e4@portlandresources.org
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260111T130000
+DTEND;TZID=America/Los_Angeles:20260111T143000
+SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support (In-Person)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nEligibil
+ ity: LGBTQ2SIA+ adults 18+ with mental health symptoms\nInfo: A 30-minute 
+ community arts and crafts session runs beforehand\, starting at 12:30pm.\n
+ Address: 464 SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-22
+ 8-5692\nWebsite: https://namimultnomah.org\nDetails: No diagnosis required
+  for any groups. Groups are peer-led by trained volunteers with lived expe
+ rience. NAMI Multnomah also runs family and caregiver groups that are deli
+ berately not listed here\, because this database covers groups people atte
+ nd for their own support - Family Support Group (Mondays 6-7:30pm\, 1st Mo
+ nday in person at Rose City Community Collective)\, Parent Support Group (
+ 1st & 3rd Wednesdays 4-5:15pm)\, and Military Family Support Group (2nd Th
+ ursday 6-7:30pm). Refer family members to namimultnomah.org/family-support
+ -groups or 503-228-5692.
+LOCATION:Rose City Community Collective\, 5830 NE Alameda St Suite 205\, Po
+ rtland\, OR 97213
+URL:https://namimultnomah.org
+RRULE:FREQ=MONTHLY;BYDAY=2SU,4SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6be9edf2f9be9c02@portlandresources.org
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260114T190000
+DTEND;TZID=America/Los_Angeles:20260114T203000
+SUMMARY:NAMI Multnomah: Young Adult (18-35) Online
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
+ Ages 18-35 with mental health symptoms\nAddress: 464 SE 185th Ave\, Suite 
+ 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: https://namimultn
+ omah.org\nDetails: No diagnosis required for any groups. Groups are peer-l
+ ed by trained volunteers with lived experience. NAMI Multnomah also runs f
+ amily and caregiver groups that are deliberately not listed here\, because
+  this database covers groups people attend for their own support - Family 
+ Support Group (Mondays 6-7:30pm\, 1st Monday in person at Rose City Commun
+ ity Collective)\, Parent Support Group (1st & 3rd Wednesdays 4-5:15pm)\, a
+ nd Military Family Support Group (2nd Thursday 6-7:30pm). Refer family mem
+ bers to namimultnomah.org/family-support-groups or 503-228-5692.
+LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+URL:https://namimultnomah.org
+RRULE:FREQ=MONTHLY;BYDAY=2WE,4WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e824f70c00e4569b@portlandresources.org
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260111T150000
 DTEND;TZID=America/Los_Angeles:20260111T163000
-SUMMARY:NAMI Multnomah: Young Adult (18-35)
+SUMMARY:NAMI Multnomah: Young Adult (18-35) In-Person
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nEligibil
  ity: Ages 18-35 with mental health symptoms\nAddress: 464 SE 185th Ave\, S
  uite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: https://nami
  multnomah.org\nDetails: No diagnosis required for any groups. Groups are p
- eer-led by trained volunteers with lived experience.
+ eer-led by trained volunteers with lived experience. NAMI Multnomah also r
+ uns family and caregiver groups that are deliberately not listed here\, be
+ cause this database covers groups people attend for their own support - Fa
+ mily Support Group (Mondays 6-7:30pm\, 1st Monday in person at Rose City C
+ ommunity Collective)\, Parent Support Group (1st & 3rd Wednesdays 4-5:15pm
+ )\, and Military Family Support Group (2nd Thursday 6-7:30pm). Refer famil
+ y members to namimultnomah.org/family-support-groups or 503-228-5692.
 LOCATION:Community for Positive Aging\, 1820 NE 40th Ave\, Portland OR 9721
  2
 URL:https://namimultnomah.org
@@ -93,7 +169,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4b11c0aa298f2306@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:NAMI Multnomah: BIPOC Peer Support
@@ -102,7 +178,13 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility:
  itions\nAddress: 464 SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone
  : 503-228-5692\nWebsite: https://namimultnomah.org\nDetails: No diagnosis 
  required for any groups. Groups are peer-led by trained volunteers with li
- ved experience.
+ ved experience. NAMI Multnomah also runs family and caregiver groups that 
+ are deliberately not listed here\, because this database covers groups peo
+ ple attend for their own support - Family Support Group (Mondays 6-7:30pm\
+ , 1st Monday in person at Rose City Community Collective)\, Parent Support
+  Group (1st & 3rd Wednesdays 4-5:15pm)\, and Military Family Support Group
+  (2nd Thursday 6-7:30pm). Refer family members to namimultnomah.org/family
+ -support-groups or 503-228-5692.
 LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
 URL:https://namimultnomah.org
 RRULE:FREQ=MONTHLY;BYDAY=1TH,3TH
@@ -111,7 +193,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c08dbed81b24d0f5@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Multnomah: Complex Trauma & Dissociation Support
@@ -119,7 +201,14 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility:
  Those experiencing complex trauma and/or dissociation\nAddress: 464 SE 185
  th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: ht
  tps://namimultnomah.org\nDetails: No diagnosis required for any groups. Gr
- oups are peer-led by trained volunteers with lived experience.
+ oups are peer-led by trained volunteers with lived experience. NAMI Multno
+ mah also runs family and caregiver groups that are deliberately not listed
+  here\, because this database covers groups people attend for their own su
+ pport - Family Support Group (Mondays 6-7:30pm\, 1st Monday in person at R
+ ose City Community Collective)\, Parent Support Group (1st & 3rd Wednesday
+ s 4-5:15pm)\, and Military Family Support Group (2nd Thursday 6-7:30pm). R
+ efer family members to namimultnomah.org/family-support-groups or 503-228-
+ 5692.
 LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
 URL:https://namimultnomah.org
 RRULE:FREQ=WEEKLY;BYDAY=TU
@@ -128,7 +217,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:531662b55bc0a9a7@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Clackamas: NAMI Connection Support Group
@@ -146,7 +235,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:abda9c8971b1314b@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T170000
 DTEND;TZID=America/Los_Angeles:20260107T183000
 SUMMARY:NAMI Clackamas: Women (18+) Only Support Group
@@ -163,7 +252,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:620a559fb7ab08a0@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T183000
 DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:NAMI Clackamas: NAMI Family Support Group
@@ -181,7 +270,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d8997f26797c801@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T190000
 DTEND;TZID=America/Los_Angeles:20260107T203000
 SUMMARY:NAMI Clackamas: NAMI Clackamas Conexion (Spanish-Speaking Support G
@@ -200,16 +289,16 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ea6aaafa1987c3ab@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:NAMI Clackamas: LGBTQ+ Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
- o: Joint program with NAMI Multnomah - weekly for adults 18+. ⚠️ VERIFY sc
- hedule by phone\nAddress: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 9
- 7222\nPhone: 503-344-5050\nWebsite: https://namicc.org\nDetails: Registrat
- ion required for most groups. All groups free and peer-led by trained volu
- nteers with lived experience.
+ o: Joint program with NAMI Multnomah - weekly for adults 18+. Schedule con
+ firmed via namicc.org July 2026.\nAddress: 10202 SE 32nd Ave\, Suite 501\,
+  Milwaukie\, OR 97222\nPhone: 503-344-5050\nWebsite: https://namicc.org\nD
+ etails: Registration required for most groups. All groups free and peer-le
+ d by trained volunteers with lived experience.
 LOCATION:10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222
 URL:https://namicc.org
 RRULE:FREQ=WEEKLY;BYDAY=MO
@@ -218,7 +307,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0f499a48fa4b50aa@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:NAMI Clackamas: BIPOC Support Group
@@ -237,7 +326,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85d355a359c1e2b9@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260127T190000
 DTEND;TZID=America/Los_Angeles:20260127T200000
 SUMMARY:NAMI Clackamas: Compassionate Friends
@@ -427,16 +516,20 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:651932636ba165c7@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): LGBTQIA+ Suppo
  rt Group
-DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online (1st Monday 
- in-person via Meetup for location)\nWebsite: https://mentalhealthisforever
- yone.com/\nDetails: Peer-facilitated support groups since 2005. Typical at
- tendance 10-25 people. Three chapters: Eastside\, West Portland\, and LGBT
- Q. All meetings free and drop-in.
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\, with an in
+ -person option on 1st & 3rd Mondays at the Q Center\nInfo: In-person optio
+ n confirmed July 2026 as 1st AND 3rd Mondays at the Q Center. Previously r
+ ecorded as 1st Monday only with the location distributed via Meetup. Q Cen
+ ter street address not yet confirmed - add it on the next pass.\nWebsite: 
+ https://mentalhealthisforeveryone.com/\nDetails: Peer-facilitated support 
+ groups since 2005. Typical attendance 10-25 people. Three chapters: Eastsi
+ de\, West Portland\, and LGBTQ. All meetings free and drop-in.
+LOCATION:Q Center\, Portland (1st & 3rd Mondays only)
 URL:https://mentalhealthisforeveryone.com/
 RRULE:FREQ=WEEKLY;BYDAY=MO
 CATEGORIES:Peer Support
@@ -444,15 +537,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:215024356d2538f2@portlandresources.org
-DTSTAMP:20260415T000000Z
-DTSTART;TZID=America/Los_Angeles:20260106T183000
-DTEND;TZID=America/Los_Angeles:20260106T195000
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T190000
+DTEND;TZID=America/Los_Angeles:20260106T200000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (W
  est Portland)
-DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nWebsite: ht
- tps://mentalhealthisforeveryone.com/\nDetails: Peer-facilitated support gr
- oups since 2005. Typical attendance 10-25 people. Three chapters: Eastside
- \, West Portland\, and LGBTQ. All meetings free and drop-in.
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nInfo: dbsaw
+ estportland.org states the meeting starts at 7:00pm\, with the room openin
+ g at 6:45pm for informal chat beforehand. Previously recorded as 6:30-7:50
+ pm\, which the chapter's own meetings page does not support. No end time i
+ s published\, so the calendar assumes a one-hour block.\nWebsite: https://
+ mentalhealthisforeveryone.com/\nDetails: Peer-facilitated support groups s
+ ince 2005. Typical attendance 10-25 people. Three chapters: Eastside\, Wes
+ t Portland\, and LGBTQ. All meetings free and drop-in.
 URL:https://mentalhealthisforeveryone.com/
 RRULE:FREQ=WEEKLY;BYDAY=TU
 CATEGORIES:Peer Support
@@ -460,7 +557,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49d6b06cbd9d0a5b@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (E
@@ -476,7 +573,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a8aee7696d751ae1@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T100000
 DTEND;TZID=America/Los_Angeles:20260103T113000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Mental Healthc
@@ -813,12 +910,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:445c92b4ea533d65@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T140000
 DTEND;TZID=America/Los_Angeles:20260104T150000
 SUMMARY:Alano Club of Portland: RTS Recovery Yoga
-DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Yo
- ga classes designed for people in recovery\nAddress: 909 NW 24th Avenue\, 
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: ⚠️
+  VERIFY days. Trauma-informed yoga for people in recovery\, held in the Lo
+ ft in partnership with Rayleen McMillan. The 2-3pm time is consistently re
+ ported\, but three sources disagree on the days - this entry has Tue/Sun\,
+  while July 2026 searches returned both Sat/Wed and Wed/Sun. Only Wednesda
+ y appears in more than one. Days left unchanged rather than guessed\; conf
+ irm against portlandalano.org or by phone.\nAddress: 909 NW 24th Avenue\, 
  Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: https://www.portlandala
  no.org\nDetails: Portland's premier recovery community center with over 12
  0 weekly meetings for various 12-step and secular recovery programs.
@@ -830,7 +932,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3126ba680d24f93@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T100000
 DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:Alano Club of Portland: Dual Diagnosis Anonymous (DDA)
@@ -847,7 +949,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e9fbeb09cf612c48@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T110000
 DTEND;TZID=America/Los_Angeles:20260103T120000
 SUMMARY:Alano Club of Portland: Gamblers Anonymous (GA)
@@ -959,39 +1061,46 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b2c9ee508316dbb0@portlandresources.org
-DTSTAMP:20260415T000000Z
-DTSTART;TZID=America/Los_Angeles:20260105T100000
-DTEND;TZID=America/Los_Angeles:20260105T110000
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T093000
+DTEND;TZID=America/Los_Angeles:20260107T103000
 SUMMARY:Portland Hearing Voices: In-Person Hearing Voices Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\, drop-in
- \nAddress: 333 SW Park Ave\, Portland\, OR 97205\nWebsite: https://www.por
- tlandhearingvoices.net\nDetails: Peer-led support groups for people who he
- ar voices\, see visions\, or have unusual beliefs/sensory experiences. In-
- person group confirmed active at BHRC. Online groups may be intermittent -
-  website lists them as '(Possibly)'. Part of Hearing Voices Network USA.
+ \nInfo: Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed 
+ July 2026.\nAddress: 333 SW Park Ave\, Portland\, OR 97205\nWebsite: https
+ ://www.portlandhearingvoices.net\nDetails: Peer-led support groups for peo
+ ple who hear voices\, see visions\, or have unusual beliefs/sensory experi
+ ences. In-person group confirmed active at BHRC\, Wednesdays 9:30-10:30am 
+ (moved from Mondays). Online group may be intermittent - website lists it 
+ as '(Possibly)'. Part of Hearing Voices Network USA. The network also list
+ s a Salem online group hosted for Project ABLE\, which is outside the Port
+ land metro scope of this database.
 LOCATION:Behavioral Health Resource Center\, 333 SW Park Ave\, Portland
 URL:https://www.portlandhearingvoices.net
-RRULE:FREQ=WEEKLY;BYDAY=MO
+RRULE:FREQ=WEEKLY;BYDAY=WE
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9b4a6cb18a941d5e@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T123000
 DTEND;TZID=America/Los_Angeles:20260105T133000
 SUMMARY:Portland Hearing Voices: Hearing Voices Online
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
- o: Online groups marked as '(Possibly)' on website - may be intermittent. 
- Check website for current status.\nAddress: 333 SW Park Ave\, Portland\, O
- R 97205\nWebsite: https://www.portlandhearingvoices.net\nDetails: Peer-led
-  support groups for people who hear voices\, see visions\, or have unusual
-  beliefs/sensory experiences. In-person group confirmed active at BHRC. On
- line groups may be intermittent - website lists them as '(Possibly)'. Part
-  of Hearing Voices Network USA.
+ o: Still listed as '(Possibly)' on the website - may be intermittent\, so 
+ confirm before relying on it. The former Wednesday 12:30-2pm online group 
+ is no longer listed as of July 2026.\nAddress: 333 SW Park Ave\, Portland\
+ , OR 97205\nWebsite: https://www.portlandhearingvoices.net\nDetails: Peer-
+ led support groups for people who hear voices\, see visions\, or have unus
+ ual beliefs/sensory experiences. In-person group confirmed active at BHRC\
+ , Wednesdays 9:30-10:30am (moved from Mondays). Online group may be interm
+ ittent - website lists it as '(Possibly)'. Part of Hearing Voices Network 
+ USA. The network also lists a Salem online group hosted for Project ABLE\,
+  which is outside the Portland metro scope of this database.
 LOCATION:333 SW Park Ave\, Portland\, OR 97205
 URL:https://www.portlandhearingvoices.net
-RRULE:FREQ=WEEKLY;BYDAY=MO,WE
+RRULE:FREQ=WEEKLY;BYDAY=MO
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -41,14 +41,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b8b48cbe08f220fe@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260111T150000
 DTEND;TZID=America/Los_Angeles:20260111T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (In-Person)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
   464 SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\n
  Website: https://namimultnomah.org\nDetails: No diagnosis required for any
-  groups. Groups are peer-led by trained volunteers with lived experience.
+  groups. Groups are peer-led by trained volunteers with lived experience. 
+ NAMI Multnomah also runs family and caregiver groups that are deliberately
+  not listed here\, because this database covers groups people attend for t
+ heir own support - Family Support Group (Mondays 6-7:30pm\, 1st Monday in 
+ person at Rose City Community Collective)\, Parent Support Group (1st & 3r
+ d Wednesdays 4-5:15pm)\, and Military Family Support Group (2nd Thursday 6
+ -7:30pm). Refer family members to namimultnomah.org/family-support-groups 
+ or 503-228-5692.
 LOCATION:Community for Positive Aging\, 1820 NE 40th Ave\, Portland OR 9721
  2
 URL:https://namimultnomah.org
@@ -58,14 +65,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dba6711eb13da213@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T150000
 DTEND;TZID=America/Los_Angeles:20260104T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (Online)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nAddress: 464 
  SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsi
  te: https://namimultnomah.org\nDetails: No diagnosis required for any grou
- ps. Groups are peer-led by trained volunteers with lived experience.
+ ps. Groups are peer-led by trained volunteers with lived experience. NAMI 
+ Multnomah also runs family and caregiver groups that are deliberately not 
+ listed here\, because this database covers groups people attend for their 
+ own support - Family Support Group (Mondays 6-7:30pm\, 1st Monday in perso
+ n at Rose City Community Collective)\, Parent Support Group (1st & 3rd Wed
+ nesdays 4-5:15pm)\, and Military Family Support Group (2nd Thursday 6-7:30
+ pm). Refer family members to namimultnomah.org/family-support-groups or 50
+ 3-228-5692.
 LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
 URL:https://namimultnomah.org
 RRULE:FREQ=MONTHLY;BYDAY=1SU,3SU
@@ -74,7 +88,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9777816b12080f9@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support
@@ -82,7 +96,14 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility:
  LGBTQ2SIA+ adults 18+ with mental health symptoms\nAddress: 464 SE 185th A
  ve\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: https:
  //namimultnomah.org\nDetails: No diagnosis required for any groups. Groups
-  are peer-led by trained volunteers with lived experience.
+  are peer-led by trained volunteers with lived experience. NAMI Multnomah 
+ also runs family and caregiver groups that are deliberately not listed her
+ e\, because this database covers groups people attend for their own suppor
+ t - Family Support Group (Mondays 6-7:30pm\, 1st Monday in person at Rose 
+ City Community Collective)\, Parent Support Group (1st & 3rd Wednesdays 4-
+ 5:15pm)\, and Military Family Support Group (2nd Thursday 6-7:30pm). Refer
+  family members to namimultnomah.org/family-support-groups or 503-228-5692
+ .
 LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
 URL:https://namimultnomah.org
 RRULE:FREQ=WEEKLY;BYDAY=MO
@@ -90,16 +111,71 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:c8206c50171db713@portlandresources.org
-DTSTAMP:20260415T000000Z
+UID:59d4efd22aea95e4@portlandresources.org
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260111T130000
+DTEND;TZID=America/Los_Angeles:20260111T143000
+SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support (In-Person)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nEligibil
+ ity: LGBTQ2SIA+ adults 18+ with mental health symptoms\nInfo: A 30-minute 
+ community arts and crafts session runs beforehand\, starting at 12:30pm.\n
+ Address: 464 SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-22
+ 8-5692\nWebsite: https://namimultnomah.org\nDetails: No diagnosis required
+  for any groups. Groups are peer-led by trained volunteers with lived expe
+ rience. NAMI Multnomah also runs family and caregiver groups that are deli
+ berately not listed here\, because this database covers groups people atte
+ nd for their own support - Family Support Group (Mondays 6-7:30pm\, 1st Mo
+ nday in person at Rose City Community Collective)\, Parent Support Group (
+ 1st & 3rd Wednesdays 4-5:15pm)\, and Military Family Support Group (2nd Th
+ ursday 6-7:30pm). Refer family members to namimultnomah.org/family-support
+ -groups or 503-228-5692.
+LOCATION:Rose City Community Collective\, 5830 NE Alameda St Suite 205\, Po
+ rtland\, OR 97213
+URL:https://namimultnomah.org
+RRULE:FREQ=MONTHLY;BYDAY=2SU,4SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6be9edf2f9be9c02@portlandresources.org
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260114T190000
+DTEND;TZID=America/Los_Angeles:20260114T203000
+SUMMARY:NAMI Multnomah: Young Adult (18-35) Online
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
+ Ages 18-35 with mental health symptoms\nAddress: 464 SE 185th Ave\, Suite 
+ 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: https://namimultn
+ omah.org\nDetails: No diagnosis required for any groups. Groups are peer-l
+ ed by trained volunteers with lived experience. NAMI Multnomah also runs f
+ amily and caregiver groups that are deliberately not listed here\, because
+  this database covers groups people attend for their own support - Family 
+ Support Group (Mondays 6-7:30pm\, 1st Monday in person at Rose City Commun
+ ity Collective)\, Parent Support Group (1st & 3rd Wednesdays 4-5:15pm)\, a
+ nd Military Family Support Group (2nd Thursday 6-7:30pm). Refer family mem
+ bers to namimultnomah.org/family-support-groups or 503-228-5692.
+LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+URL:https://namimultnomah.org
+RRULE:FREQ=MONTHLY;BYDAY=2WE,4WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e824f70c00e4569b@portlandresources.org
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260111T150000
 DTEND;TZID=America/Los_Angeles:20260111T163000
-SUMMARY:NAMI Multnomah: Young Adult (18-35)
+SUMMARY:NAMI Multnomah: Young Adult (18-35) In-Person
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nEligibil
  ity: Ages 18-35 with mental health symptoms\nAddress: 464 SE 185th Ave\, S
  uite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: https://nami
  multnomah.org\nDetails: No diagnosis required for any groups. Groups are p
- eer-led by trained volunteers with lived experience.
+ eer-led by trained volunteers with lived experience. NAMI Multnomah also r
+ uns family and caregiver groups that are deliberately not listed here\, be
+ cause this database covers groups people attend for their own support - Fa
+ mily Support Group (Mondays 6-7:30pm\, 1st Monday in person at Rose City C
+ ommunity Collective)\, Parent Support Group (1st & 3rd Wednesdays 4-5:15pm
+ )\, and Military Family Support Group (2nd Thursday 6-7:30pm). Refer famil
+ y members to namimultnomah.org/family-support-groups or 503-228-5692.
 LOCATION:Community for Positive Aging\, 1820 NE 40th Ave\, Portland OR 9721
  2
 URL:https://namimultnomah.org
@@ -109,7 +185,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4b11c0aa298f2306@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:NAMI Multnomah: BIPOC Peer Support
@@ -118,7 +194,13 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility:
  itions\nAddress: 464 SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone
  : 503-228-5692\nWebsite: https://namimultnomah.org\nDetails: No diagnosis 
  required for any groups. Groups are peer-led by trained volunteers with li
- ved experience.
+ ved experience. NAMI Multnomah also runs family and caregiver groups that 
+ are deliberately not listed here\, because this database covers groups peo
+ ple attend for their own support - Family Support Group (Mondays 6-7:30pm\
+ , 1st Monday in person at Rose City Community Collective)\, Parent Support
+  Group (1st & 3rd Wednesdays 4-5:15pm)\, and Military Family Support Group
+  (2nd Thursday 6-7:30pm). Refer family members to namimultnomah.org/family
+ -support-groups or 503-228-5692.
 LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
 URL:https://namimultnomah.org
 RRULE:FREQ=MONTHLY;BYDAY=1TH,3TH
@@ -127,7 +209,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c08dbed81b24d0f5@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Multnomah: Complex Trauma & Dissociation Support
@@ -135,7 +217,14 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility:
  Those experiencing complex trauma and/or dissociation\nAddress: 464 SE 185
  th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: ht
  tps://namimultnomah.org\nDetails: No diagnosis required for any groups. Gr
- oups are peer-led by trained volunteers with lived experience.
+ oups are peer-led by trained volunteers with lived experience. NAMI Multno
+ mah also runs family and caregiver groups that are deliberately not listed
+  here\, because this database covers groups people attend for their own su
+ pport - Family Support Group (Mondays 6-7:30pm\, 1st Monday in person at R
+ ose City Community Collective)\, Parent Support Group (1st & 3rd Wednesday
+ s 4-5:15pm)\, and Military Family Support Group (2nd Thursday 6-7:30pm). R
+ efer family members to namimultnomah.org/family-support-groups or 503-228-
+ 5692.
 LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
 URL:https://namimultnomah.org
 RRULE:FREQ=WEEKLY;BYDAY=TU
@@ -144,7 +233,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:531662b55bc0a9a7@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Clackamas: NAMI Connection Support Group
@@ -162,7 +251,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:abda9c8971b1314b@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T170000
 DTEND;TZID=America/Los_Angeles:20260107T183000
 SUMMARY:NAMI Clackamas: Women (18+) Only Support Group
@@ -179,7 +268,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:620a559fb7ab08a0@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T183000
 DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:NAMI Clackamas: NAMI Family Support Group
@@ -197,7 +286,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d8997f26797c801@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T190000
 DTEND;TZID=America/Los_Angeles:20260107T203000
 SUMMARY:NAMI Clackamas: NAMI Clackamas Conexion (Spanish-Speaking Support G
@@ -216,16 +305,16 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ea6aaafa1987c3ab@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:NAMI Clackamas: LGBTQ+ Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
- o: Joint program with NAMI Multnomah - weekly for adults 18+. ⚠️ VERIFY sc
- hedule by phone\nAddress: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 9
- 7222\nPhone: 503-344-5050\nWebsite: https://namicc.org\nDetails: Registrat
- ion required for most groups. All groups free and peer-led by trained volu
- nteers with lived experience.
+ o: Joint program with NAMI Multnomah - weekly for adults 18+. Schedule con
+ firmed via namicc.org July 2026.\nAddress: 10202 SE 32nd Ave\, Suite 501\,
+  Milwaukie\, OR 97222\nPhone: 503-344-5050\nWebsite: https://namicc.org\nD
+ etails: Registration required for most groups. All groups free and peer-le
+ d by trained volunteers with lived experience.
 LOCATION:10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222
 URL:https://namicc.org
 RRULE:FREQ=WEEKLY;BYDAY=MO
@@ -234,7 +323,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0f499a48fa4b50aa@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:NAMI Clackamas: BIPOC Support Group
@@ -253,7 +342,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85d355a359c1e2b9@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260127T190000
 DTEND;TZID=America/Los_Angeles:20260127T200000
 SUMMARY:NAMI Clackamas: Compassionate Friends
@@ -443,16 +532,20 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:651932636ba165c7@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): LGBTQIA+ Suppo
  rt Group
-DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online (1st Monday 
- in-person via Meetup for location)\nWebsite: https://mentalhealthisforever
- yone.com/\nDetails: Peer-facilitated support groups since 2005. Typical at
- tendance 10-25 people. Three chapters: Eastside\, West Portland\, and LGBT
- Q. All meetings free and drop-in.
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\, with an in
+ -person option on 1st & 3rd Mondays at the Q Center\nInfo: In-person optio
+ n confirmed July 2026 as 1st AND 3rd Mondays at the Q Center. Previously r
+ ecorded as 1st Monday only with the location distributed via Meetup. Q Cen
+ ter street address not yet confirmed - add it on the next pass.\nWebsite: 
+ https://mentalhealthisforeveryone.com/\nDetails: Peer-facilitated support 
+ groups since 2005. Typical attendance 10-25 people. Three chapters: Eastsi
+ de\, West Portland\, and LGBTQ. All meetings free and drop-in.
+LOCATION:Q Center\, Portland (1st & 3rd Mondays only)
 URL:https://mentalhealthisforeveryone.com/
 RRULE:FREQ=WEEKLY;BYDAY=MO
 CATEGORIES:Peer Support
@@ -460,15 +553,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:215024356d2538f2@portlandresources.org
-DTSTAMP:20260415T000000Z
-DTSTART;TZID=America/Los_Angeles:20260106T183000
-DTEND;TZID=America/Los_Angeles:20260106T195000
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T190000
+DTEND;TZID=America/Los_Angeles:20260106T200000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (W
  est Portland)
-DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nWebsite: ht
- tps://mentalhealthisforeveryone.com/\nDetails: Peer-facilitated support gr
- oups since 2005. Typical attendance 10-25 people. Three chapters: Eastside
- \, West Portland\, and LGBTQ. All meetings free and drop-in.
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nInfo: dbsaw
+ estportland.org states the meeting starts at 7:00pm\, with the room openin
+ g at 6:45pm for informal chat beforehand. Previously recorded as 6:30-7:50
+ pm\, which the chapter's own meetings page does not support. No end time i
+ s published\, so the calendar assumes a one-hour block.\nWebsite: https://
+ mentalhealthisforeveryone.com/\nDetails: Peer-facilitated support groups s
+ ince 2005. Typical attendance 10-25 people. Three chapters: Eastside\, Wes
+ t Portland\, and LGBTQ. All meetings free and drop-in.
 URL:https://mentalhealthisforeveryone.com/
 RRULE:FREQ=WEEKLY;BYDAY=TU
 CATEGORIES:Peer Support
@@ -476,7 +573,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49d6b06cbd9d0a5b@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (E
@@ -492,7 +589,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a8aee7696d751ae1@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T100000
 DTEND;TZID=America/Los_Angeles:20260103T113000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Mental Healthc
@@ -829,12 +926,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:445c92b4ea533d65@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T140000
 DTEND;TZID=America/Los_Angeles:20260104T150000
 SUMMARY:Alano Club of Portland: RTS Recovery Yoga
-DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Yo
- ga classes designed for people in recovery\nAddress: 909 NW 24th Avenue\, 
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: ⚠️
+  VERIFY days. Trauma-informed yoga for people in recovery\, held in the Lo
+ ft in partnership with Rayleen McMillan. The 2-3pm time is consistently re
+ ported\, but three sources disagree on the days - this entry has Tue/Sun\,
+  while July 2026 searches returned both Sat/Wed and Wed/Sun. Only Wednesda
+ y appears in more than one. Days left unchanged rather than guessed\; conf
+ irm against portlandalano.org or by phone.\nAddress: 909 NW 24th Avenue\, 
  Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: https://www.portlandala
  no.org\nDetails: Portland's premier recovery community center with over 12
  0 weekly meetings for various 12-step and secular recovery programs.
@@ -846,7 +948,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3126ba680d24f93@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T100000
 DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:Alano Club of Portland: Dual Diagnosis Anonymous (DDA)
@@ -863,7 +965,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e9fbeb09cf612c48@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T110000
 DTEND;TZID=America/Los_Angeles:20260103T120000
 SUMMARY:Alano Club of Portland: Gamblers Anonymous (GA)
@@ -975,39 +1077,46 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b2c9ee508316dbb0@portlandresources.org
-DTSTAMP:20260415T000000Z
-DTSTART;TZID=America/Los_Angeles:20260105T100000
-DTEND;TZID=America/Los_Angeles:20260105T110000
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T093000
+DTEND;TZID=America/Los_Angeles:20260107T103000
 SUMMARY:Portland Hearing Voices: In-Person Hearing Voices Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\, drop-in
- \nAddress: 333 SW Park Ave\, Portland\, OR 97205\nWebsite: https://www.por
- tlandhearingvoices.net\nDetails: Peer-led support groups for people who he
- ar voices\, see visions\, or have unusual beliefs/sensory experiences. In-
- person group confirmed active at BHRC. Online groups may be intermittent -
-  website lists them as '(Possibly)'. Part of Hearing Voices Network USA.
+ \nInfo: Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed 
+ July 2026.\nAddress: 333 SW Park Ave\, Portland\, OR 97205\nWebsite: https
+ ://www.portlandhearingvoices.net\nDetails: Peer-led support groups for peo
+ ple who hear voices\, see visions\, or have unusual beliefs/sensory experi
+ ences. In-person group confirmed active at BHRC\, Wednesdays 9:30-10:30am 
+ (moved from Mondays). Online group may be intermittent - website lists it 
+ as '(Possibly)'. Part of Hearing Voices Network USA. The network also list
+ s a Salem online group hosted for Project ABLE\, which is outside the Port
+ land metro scope of this database.
 LOCATION:Behavioral Health Resource Center\, 333 SW Park Ave\, Portland
 URL:https://www.portlandhearingvoices.net
-RRULE:FREQ=WEEKLY;BYDAY=MO
+RRULE:FREQ=WEEKLY;BYDAY=WE
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9b4a6cb18a941d5e@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T123000
 DTEND;TZID=America/Los_Angeles:20260105T133000
 SUMMARY:Portland Hearing Voices: Hearing Voices Online
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
- o: Online groups marked as '(Possibly)' on website - may be intermittent. 
- Check website for current status.\nAddress: 333 SW Park Ave\, Portland\, O
- R 97205\nWebsite: https://www.portlandhearingvoices.net\nDetails: Peer-led
-  support groups for people who hear voices\, see visions\, or have unusual
-  beliefs/sensory experiences. In-person group confirmed active at BHRC. On
- line groups may be intermittent - website lists them as '(Possibly)'. Part
-  of Hearing Voices Network USA.
+ o: Still listed as '(Possibly)' on the website - may be intermittent\, so 
+ confirm before relying on it. The former Wednesday 12:30-2pm online group 
+ is no longer listed as of July 2026.\nAddress: 333 SW Park Ave\, Portland\
+ , OR 97205\nWebsite: https://www.portlandhearingvoices.net\nDetails: Peer-
+ led support groups for people who hear voices\, see visions\, or have unus
+ ual beliefs/sensory experiences. In-person group confirmed active at BHRC\
+ , Wednesdays 9:30-10:30am (moved from Mondays). Online group may be interm
+ ittent - website lists it as '(Possibly)'. Part of Hearing Voices Network 
+ USA. The network also lists a Salem online group hosted for Project ABLE\,
+  which is outside the Portland metro scope of this database.
 LOCATION:333 SW Park Ave\, Portland\, OR 97205
 URL:https://www.portlandhearingvoices.net
-RRULE:FREQ=WEEKLY;BYDAY=MO,WE
+RRULE:FREQ=WEEKLY;BYDAY=MO
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1372,7 +1481,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb1faca9bd5fba8c@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T110000
 DTEND;TZID=America/Los_Angeles:20260104T123000
 SUMMARY:Food Court 5000 (Lloyd Center Mall Walking)
@@ -1380,10 +1489,15 @@ DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 2201 Lloyd C
  enter\, Portland\, OR 97232\nWebsite: https://foodcourt5k.com/\nDetails: 1
  980s/90s-themed indoor mall walking. Dress code: neon leggings\, acid-wash
  ed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at 
- food court.
+ food court. Lloyd Center closes permanently August 8\, 2026 - the last reg
+ ular Sunday walk inside the mall is August 2\, with a final farewell walk 
+ on Saturday August 8. The group continues afterward at rotating pop-up loc
+ ations around Portland (some outdoors for late summer\, some indoors)\; a 
+ permanent home is reportedly close to being finalized but was not announce
+ d as of late July 2026.
 LOCATION:2201 Lloyd Center\, Portland\, OR 97232
 URL:https://foodcourt5k.com/
-RRULE:FREQ=WEEKLY;BYDAY=SU
+RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20260803T065959Z
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1668,7 +1782,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9bcec74921ec71a3@portlandresources.org
-DTSTAMP:20260307T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260208T100000
 DTEND;TZID=America/Los_Angeles:20260208T113000
 SUMMARY:THPRD Fitness in the Park: Sweetheart Stroll
@@ -1683,7 +1797,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:63339ae952c1154d@portlandresources.org
-DTSTAMP:20260307T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260328T110000
 DTEND;TZID=America/Los_Angeles:20260328T130000
 SUMMARY:THPRD Fitness in the Park: Women's Wellness Fair
@@ -1698,7 +1812,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bdf1f13e2de736d2@portlandresources.org
-DTSTAMP:20260307T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;VALUE=DATE:20260527
 DTEND;VALUE=DATE:20260528
 SUMMARY:THPRD Fitness in the Park: National Senior Health & Fitness Day
@@ -2241,6 +2355,24 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Live music by the f
 LOCATION:18878 SW Martinazzi Ave\, Tualatin\, OR 97062
 URL:https://www.tualatinoregon.gov/library
 RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20260901T065959Z
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2cd9fb858053dc3e@portlandresources.org
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260801T100000
+DTEND;TZID=America/Los_Angeles:20260801T160000
+SUMMARY:Tualatin Heritage Center: Northwest Fossil Fest
+DESCRIPTION:Category: Arts & Culture\nCost: FREE admission\nInfo: 2026 date
+  confirmed as August 1. Draws 400+ visitors - arrive early.\nAddress: 8700
+  SW Sweek Drive\, Tualatin\, OR 97062\nPhone: 503-885-1926\nWebsite: https
+ ://www.tualatinhistory.org\nDetails: Free local history museum with excell
+ ent family events. Fossil Fest is a highlight - 400+ attendees. Re-tiered 
+ from annual to quarterly audits in July 2026 - an annual cadence let the w
+ hole program list sit a full year stale\, still advertising 2025 dates.
+LOCATION:8700 SW Sweek Drive\, Tualatin\, OR 97062
+URL:https://www.tualatinhistory.org
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -4352,7 +4484,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3432df74a675b19b@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260110T120000
 DTEND;TZID=America/Los_Angeles:20260110T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4371,7 +4503,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:30ef4d659b56572a@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260214T120000
 DTEND;TZID=America/Los_Angeles:20260214T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4390,7 +4522,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ad18b3e73fb66aca@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260314T120000
 DTEND;TZID=America/Los_Angeles:20260314T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4409,7 +4541,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:422f98ef9fdb8fa3@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260411T120000
 DTEND;TZID=America/Los_Angeles:20260411T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4428,7 +4560,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:741454cf748389c6@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260509T120000
 DTEND;TZID=America/Los_Angeles:20260509T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4447,7 +4579,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d21e58f557816555@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260613T120000
 DTEND;TZID=America/Los_Angeles:20260613T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4466,7 +4598,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e63c0b84870ac3f5@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260711T120000
 DTEND;TZID=America/Los_Angeles:20260711T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4485,7 +4617,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:08f8dd88e4d82f7a@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T120000
 DTEND;TZID=America/Los_Angeles:20260808T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4504,7 +4636,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:05cb9bc450497075@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260912T120000
 DTEND;TZID=America/Los_Angeles:20260912T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4523,7 +4655,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:410d463b401e225e@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20261010T120000
 DTEND;TZID=America/Los_Angeles:20261010T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4542,7 +4674,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8897057cdba5424c@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20261114T120000
 DTEND;TZID=America/Los_Angeles:20261114T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4561,7 +4693,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c2fa95c1f1946f9e@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20261212T120000
 DTEND;TZID=America/Los_Angeles:20261212T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -4580,7 +4712,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e64eb6b85bee52da@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260114T180000
 DTEND;TZID=America/Los_Angeles:20260114T200000
 SUMMARY:Repair PDX: Soldering for Home Electronics Repairs Workshop
@@ -4598,7 +4730,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cb6d9141ea768a8f@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260118T100000
 DTEND;TZID=America/Los_Angeles:20260118T130000
 SUMMARY:Repair PDX: Sashiko Mending Workshop
@@ -4616,7 +4748,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:47ccfa6d4b581092@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260322T100000
 DTEND;TZID=America/Los_Angeles:20260322T130000
 SUMMARY:Repair PDX: Sashiko Mending Workshop
@@ -4634,7 +4766,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c81962a1bd7d2482@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260330T180000
 DTEND;TZID=America/Los_Angeles:20260330T200000
 SUMMARY:Repair PDX: Mend With Embroidery Workshop
@@ -4652,7 +4784,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:624f2b20731fcb70@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260228T100000
 DTEND;TZID=America/Los_Angeles:20260228T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - West Linn
@@ -4668,7 +4800,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3f3149a6fa9bdf22@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260314T100000
 DTEND;TZID=America/Los_Angeles:20260314T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Oak Grove/Milwaukie
@@ -4683,7 +4815,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49b50bb9a25b3c3c@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260404T130000
 DTEND;TZID=America/Los_Angeles:20260404T160000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Gladstone
@@ -4698,7 +4830,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:757e1433fd2efe49@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260418T100000
 DTEND;TZID=America/Los_Angeles:20260418T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Happy Valley
@@ -4714,7 +4846,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17b6b256361be7b2@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260516T100000
 DTEND;TZID=America/Los_Angeles:20260516T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Lake Oswego
@@ -4729,7 +4861,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5ea56ad8448c7f9b@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260530T100000
 DTEND;TZID=America/Los_Angeles:20260530T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Wilsonville
@@ -4745,7 +4877,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d404f0c1dc7c855@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260613T100000
 DTEND;TZID=America/Los_Angeles:20260613T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Sandy
@@ -4760,7 +4892,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9ee4409b09b3caa6@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260718T100000
 DTEND;TZID=America/Los_Angeles:20260718T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Canby
@@ -4775,7 +4907,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dca1f49eebde20b3@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T110000
 DTEND;TZID=America/Los_Angeles:20260808T140000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Estacada
@@ -4790,7 +4922,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8342ee4af0164666@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260919T100000
 DTEND;TZID=America/Los_Angeles:20260919T140000
 SUMMARY:Clackamas County Repair Fairs: Milwaukie Sustainability Fair
@@ -4805,7 +4937,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8b15f94e3f55e9c2@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20261024T100000
 DTEND;TZID=America/Los_Angeles:20261024T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Oregon City
@@ -4820,7 +4952,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:551f37e6feb55818@portlandresources.org
-DTSTAMP:20260422T000000Z
+DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20261107T100000
 DTEND;TZID=America/Los_Angeles:20261107T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Clackamas Community Co

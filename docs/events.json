@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24",
+  "generated": "2026-07-28",
   "count": 267,
   "categories": {
     "peer_support": "Peer Support",
@@ -1133,7 +1133,27 @@
           ]
         },
         {
-          "name": "Young Adult (18-35)",
+          "name": "LGBTQ2SIA+ Support (In-Person)",
+          "schedule": "2nd & 4th Sundays, 1-2:30pm",
+          "format": "In-person",
+          "location": "Rose City Community Collective, 5830 NE Alameda St Suite 205, Portland, OR 97213",
+          "eligibility": "LGBTQ2SIA+ adults 18+ with mental health symptoms",
+          "audience": [
+            "lgbtq"
+          ],
+          "notes": "A 30-minute community arts and crafts session runs beforehand, starting at 12:30pm."
+        },
+        {
+          "name": "Young Adult (18-35) Online",
+          "schedule": "2nd & 4th Wednesdays, 7-8:30pm",
+          "format": "Zoom",
+          "eligibility": "Ages 18-35 with mental health symptoms",
+          "audience": [
+            "young_adults"
+          ]
+        },
+        {
+          "name": "Young Adult (18-35) In-Person",
           "schedule": "2nd & 4th Sundays, 3-4:30pm",
           "format": "In-person",
           "location": "Community for Positive Aging, 1820 NE 40th Ave, Portland OR 97212",
@@ -1175,7 +1195,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "No diagnosis required for any groups. Groups are peer-led by trained volunteers with lived experience.",
+      "notes": "No diagnosis required for any groups. Groups are peer-led by trained volunteers with lived experience. NAMI Multnomah also runs family and caregiver groups that are deliberately not listed here, because this database covers groups people attend for their own support - Family Support Group (Mondays 6-7:30pm, 1st Monday in person at Rose City Community Collective), Parent Support Group (1st & 3rd Wednesdays 4-5:15pm), and Military Family Support Group (2nd Thursday 6-7:30pm). Refer family members to namimultnomah.org/family-support-groups or 503-228-5692.",
       "practical_tips": {
         "first_visit": "Just show up to any meeting - no pre-registration needed for most groups",
         "registration": "Some groups require registration via email/phone - check schedule",
@@ -1237,7 +1257,7 @@
           "name": "Art with Heart (Creative Support Group)",
           "schedule": "2nd & 4th Thursdays",
           "location": "Oregon City (in-person, address provided upon registration)",
-          "notes": "Creative arts peer support group. Started January 2026. Listed as \"Art with Heart\" on website.",
+          "notes": "Creative arts peer support group. Began January 22, 2026, confirmed via namicc.org July 2026. Listed as \"Art with Heart\" on website.",
           "audience": [
             "spanish_speaking",
             "women"
@@ -1259,7 +1279,7 @@
           "audience": [
             "lgbtq"
           ],
-          "notes": "Joint program with NAMI Multnomah - weekly for adults 18+. \u26a0\ufe0f VERIFY schedule by phone"
+          "notes": "Joint program with NAMI Multnomah - weekly for adults 18+. Schedule confirmed via namicc.org July 2026."
         },
         {
           "name": "BIPOC Support Group",
@@ -1716,17 +1736,20 @@
         {
           "name": "LGBTQIA+ Support Group",
           "schedule": "Mondays 7:00-8:30pm PT",
-          "format": "Online (1st Monday in-person via Meetup for location)",
+          "format": "Online, with an in-person option on 1st & 3rd Mondays at the Q Center",
+          "location": "Q Center, Portland (1st & 3rd Mondays only)",
           "contact": "dbsalgbtqiazoom@gmail.com",
           "audience": [
             "lgbtq"
-          ]
+          ],
+          "notes": "In-person option confirmed July 2026 as 1st AND 3rd Mondays at the Q Center. Previously recorded as 1st Monday only with the location distributed via Meetup. Q Center street address not yet confirmed - add it on the next pass."
         },
         {
           "name": "Open to All (West Portland)",
-          "schedule": "Tuesdays 6:30-7:50pm PT",
+          "schedule": "Tuesdays 7pm",
           "format": "Online",
           "contact": "dbsawestportland@gmail.com",
+          "notes": "dbsawestportland.org states the meeting starts at 7:00pm, with the room opening at 6:45pm for informal chat beforehand. Previously recorded as 6:30-7:50pm, which the chapter's own meetings page does not support. No end time is published, so the calendar assumes a one-hour block.",
           "audience": [
             "lgbtq"
           ]
@@ -1755,7 +1778,9 @@
       "schedule": null,
       "schedule_start_date": null,
       "schedule_end_date": null,
-      "flags": [],
+      "flags": [
+        "\u26a0\ufe0f VERIFY - Eastside (Thu 7-8:30pm) and LGBTQIA+ (Mon 7-8:30pm) confirmed July 2026. The Mental Healthcare Professionals group (Sat 10-11:30am) could NOT be confirmed from any published source this pass and may no longer run - confirm before relying on it. mentalhealthisforeveryone.com does not expose its schedule to search, so the chapter site itself needs a direct read."
+      ],
       "accessibility": [
         "wheelchair_accessible",
         "low_vision_friendly"
@@ -3482,9 +3507,9 @@
       "dates": null,
       "schedule": "Every Sunday 11am-12:30pm",
       "schedule_start_date": null,
-      "schedule_end_date": null,
+      "schedule_end_date": "2026-08-02",
       "flags": [
-        "\u26a0\ufe0f VERIFY - Lloyd Center closing by end of 2026; Portland Design Commission approved demolition/redevelopment master plan. Food Court 5000 still running Sundays as of April 2026 but no relocation plans announced. Add schedule_end_date when closure date is confirmed."
+        "\ud83d\udd04 SEASONAL - Lloyd Center closes permanently August 8, 2026 (Portland City Council denied appeals July 8, 2026; demolition approved). Recurring Sunday walks bounded with schedule_end_date 2026-08-02, the last regular Sunday inside the mall. A one-off farewell walk happens Sat August 8; it is described in notes rather than added as a program, because adding a programs list would suppress the entry-level recurring schedule. Group continues at pop-up locations TBA - check foodcourt5k.com or email foodcourt5000@gmail.com for the new location, then update address and schedule, reset schedule_end_date, and remove this flag."
       ],
       "accessibility": [
         "wheelchair_accessible",
@@ -3500,7 +3525,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court.",
+      "notes": "1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court. Lloyd Center closes permanently August 8, 2026 - the last regular Sunday walk inside the mall is August 2, with a final farewell walk on Saturday August 8. The group continues afterward at rotating pop-up locations around Portland (some outdoors for late summer, some indoors); a permanent home is reportedly close to being finalized but was not announced as of late July 2026.",
       "practical_tips": {
         "first_visit": "Meet at Lloyd Center mall entrance, Sundays at 11am. Look for the group in colorful 80s attire!",
         "registration": "None - just show up",
@@ -4645,7 +4670,8 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [
-        "\ud83d\udcc5 DATE-SENSITIVE"
+        "\ud83d\udcc5 DATE-SENSITIVE",
+        "\u26a0\ufe0f VERIFY - Summer 2026 season confirmed as June 15 - August 23, with no classes June 19, July 3 or July 4. The class mix is reported as yoga, Zumba, total body circuit, tai chi, outdoor circuit, chair fitness, family classes, and Forest Bathing at Lowami Hart Woods Natural Area at 9am in June and July. The per-class day, time and park list is not published in a form reachable by search - it lives at thprd.org/activities/schedules/fitness-in-the-park/print/. Until that page is read directly, the six programs below stay bounded to the expired Winter/Spring term and this entry contributes nothing to the calendar."
       ],
       "accessibility": [
         "wheelchair_accessible"
@@ -6748,9 +6774,9 @@
       "resource_type": "place",
       "programs": [
         {
-          "name": "Fossil Fest 2025",
-          "date": "August 2, 2025",
-          "hours": "10am-4pm",
+          "name": "Northwest Fossil Fest",
+          "dates": "August 1, 2026",
+          "schedule": "10am-4pm",
           "cost": "FREE",
           "features": [
             "Fossil exhibits and displays",
@@ -6760,12 +6786,13 @@
             "Expert paleontology talks",
             "Bring your own fossils for identification"
           ],
+          "notes": "2026 date confirmed as August 1. Draws 400+ visitors - arrive early.",
           "audience": []
         },
         {
           "name": "Old Fashioned Christmas",
-          "date": "December 6, 2025",
           "cost": "FREE",
+          "notes": "Annual December event. The 2026 date was not published as of late July 2026, so no date is recorded here rather than carrying the stale 2025 one. Check tualatinhistory.org/events in the fall.",
           "audience": []
         },
         {
@@ -6796,7 +6823,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Free local history museum with excellent family events. Fossil Fest is a highlight - 400+ attendees.",
+      "notes": "Free local history museum with excellent family events. Fossil Fest is a highlight - 400+ attendees. Re-tiered from annual to quarterly audits in July 2026 - an annual cadence let the whole program list sit a full year stale, still advertising 2025 dates.",
       "practical_tips": {
         "first_visit": "Check website for current exhibit information",
         "registration": "Special events may require registration",
@@ -6831,7 +6858,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [
-        "\u26a0\ufe0f VERIFY - Listed exhibits are the 2025-26 academic year; the last one closed May 27, 2026. Galleries close between exhibits and over the summer. Confirm the 2026-27 schedule at pcc.edu/galleries."
+        "\u26a0\ufe0f VERIFY - The 2026-27 academic year exhibit schedule was not published as of late July 2026. North View is currently showing Marcus Fischer, \"We Are the Confluence of Two Rivers\", with a performance on Sunday August 30 at 11am, but no closing date is given. Note that the exhibits and galleries keys are descriptive only - generate_calendar.py reads entry-level dates and the programs list, so nothing under them reaches the calendar. To publish the August 30 performance it would need to move into programs with a dates field."
       ],
       "accessibility": [
         "wheelchair_accessible"
@@ -13373,7 +13400,7 @@
           "name": "RTS Recovery Yoga",
           "schedule": "Tuesdays and Sundays 2pm",
           "format": "In-person",
-          "notes": "Yoga classes designed for people in recovery",
+          "notes": "\u26a0\ufe0f VERIFY days. Trauma-informed yoga for people in recovery, held in the Loft in partnership with Rayleen McMillan. The 2-3pm time is consistently reported, but three sources disagree on the days - this entry has Tue/Sun, while July 2026 searches returned both Sat/Wed and Wed/Sun. Only Wednesday appears in more than one. Days left unchanged rather than guessed; confirm against portlandalano.org or by phone.",
           "audience": []
         },
         {
@@ -14723,21 +14750,22 @@
       "programs": [
         {
           "name": "In-Person Hearing Voices Group",
-          "schedule": "Every Monday 10-11am",
+          "schedule": "Every Wednesday 9:30-10:30am",
           "location": "Behavioral Health Resource Center, 333 SW Park Ave, Portland",
           "format": "In-person, drop-in",
+          "notes": "Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026.",
           "audience": []
         },
         {
           "name": "Hearing Voices Online",
-          "schedule": "(Possibly) Mondays 12:30-1:30pm PST; (Possibly) Wednesdays 12:30-2pm PST",
+          "schedule": "(Possibly) Mondays 12:30-1:30pm PST",
           "format": "Virtual (Zoom)",
-          "notes": "Online groups marked as '(Possibly)' on website - may be intermittent. Check website for current status.",
+          "notes": "Still listed as '(Possibly)' on the website - may be intermittent, so confirm before relying on it. The former Wednesday 12:30-2pm online group is no longer listed as of July 2026.",
           "audience": []
         }
       ],
       "dates": null,
-      "schedule": "Every Monday 10-11am (in-person at BHRC)",
+      "schedule": "Every Wednesday 9:30-10:30am (in-person at BHRC)",
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
@@ -14753,10 +14781,10 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Peer-led support groups for people who hear voices, see visions, or have unusual beliefs/sensory experiences. In-person group confirmed active at BHRC. Online groups may be intermittent - website lists them as '(Possibly)'. Part of Hearing Voices Network USA.",
+      "notes": "Peer-led support groups for people who hear voices, see visions, or have unusual beliefs/sensory experiences. In-person group confirmed active at BHRC, Wednesdays 9:30-10:30am (moved from Mondays). Online group may be intermittent - website lists it as '(Possibly)'. Part of Hearing Voices Network USA. The network also lists a Salem online group hosted for Project ABLE, which is outside the Portland metro scope of this database.",
       "practical_tips": {
-        "first_visit": "In-person group is at the Behavioral Health Resource Center downtown. Just show up - no registration needed.",
-        "good_to_know": "Part of the Hearing Voices Network USA. For people who hear voices, see visions, or have unusual sensory experiences. Peer-led, non-clinical approach. FolkTime also hosts a Hearing Voices group at their NE Portland location."
+        "first_visit": "In-person group meets Wednesday mornings at the Behavioral Health Resource Center downtown. Just show up - no registration needed.",
+        "good_to_know": "Part of the Hearing Voices Network USA. For people who hear voices, see visions, or have unusual sensory experiences. Peer-led, non-clinical approach. FolkTime also hosts a Hearing Voices group at their NE Portland location. Note the in-person group moved from Mondays to Wednesday mornings in 2026."
       }
     },
     {
