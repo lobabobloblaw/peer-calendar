@@ -2,16 +2,16 @@
 
 A comprehensive guide to free and affordable activities, services, and resources in the Portland metro area, with special attention to accessibility and mental health support.
 
-*Generated from verified data on July 24, 2026. 267 active resources across 9 categories.*
+*Generated from verified data on July 28, 2026. 272 active resources across 9 categories.*
 
 ## Contents
 
-- [Peer Support: Mental Health & Recovery](#peer-support-mental-health-recovery) (31 resources)
+- [Peer Support: Mental Health & Recovery](#peer-support-mental-health-recovery) (32 resources)
 - [Fitness & Wellness: Accessible Programs for All Abilities](#fitness-wellness-accessible-programs-for-all-abilities) (45 resources)
-- [Parks & Nature: Free Outdoor Spaces](#parks-nature-free-outdoor-spaces) (20 resources)
-- [Arts & Culture: Museums, Galleries, and Performances](#arts-culture-museums-galleries-and-performances) (41 resources)
+- [Parks & Nature: Free Outdoor Spaces](#parks-nature-free-outdoor-spaces) (21 resources)
+- [Arts & Culture: Museums, Galleries, and Performances](#arts-culture-museums-galleries-and-performances) (43 resources)
 - [Food & Farms: Community Meals, U-Pick, and Markets](#food-farms-community-meals-u-pick-and-markets) (41 resources)
-- [Events & Festivals: Free Community Celebrations](#events-festivals-free-community-celebrations) (43 resources)
+- [Events & Festivals: Free Community Celebrations](#events-festivals-free-community-celebrations) (44 resources)
 - [Social Activities: Connection and Community](#social-activities-connection-and-community) (21 resources)
 - [Discount Programs: Maximize Your Access](#discount-programs-maximize-your-access) (18 resources)
 - [Transportation: Getting Around Portland](#transportation-getting-around-portland) (7 resources)
@@ -87,7 +87,7 @@ Portland's premier recovery community center with over 120 weekly meetings for v
 - **Adult Children of Alcoholics (ACA):** Weekly meetings | In-person
 - **Codependents Anonymous (CODA):** Weekly meetings | In-person
 - **RTS Recovery Yoga:** Tuesdays and Sundays 2pm | In-person
-  Yoga classes designed for people in recovery
+  ⚠️ VERIFY days. Trauma-informed yoga for people in recovery, held in the Loft in partnership with Rayleen McMillan. The 2-3pm time is consistently reported, but three sources disagree on the days - this entry has Tue/Sun, while July 2026 searches returned both Sat/Wed and Wed/Sun. Only Wednesday appears in more than one. Days left unchanged rather than guessed; confirm against portlandalano.org or by phone.
 - **Heroin Anonymous (HA):** Multiple weekly meetings | In-person
 - **Sex Addicts Anonymous (SAA):** Multiple weekly meetings | In-person
 - **Recovery Dharma:** Thursdays and Saturdays | In-person
@@ -146,6 +146,33 @@ Peer-run recovery center in Gresham. Staff have lived experience in recovery. Al
   Peer-led support from staff with lived experience in recovery
 
 *Drop-in (come and go freely) · Anxiety-friendly, Good for isolation, Indoor · Near transit*
+
+### Brief Encounters (Pregnancy & Infant Loss Support)
+
+- **Address:** The Peace House, 2116 NE 18th Ave, Portland, OR 97212
+- **Phone:** 503-699-8006
+- **Website:** https://www.briefencounters.org
+- **Cost:** FREE. Free of charge to bereaved parents and their family and friends.
+- **Eligibility:** Parents and families who have experienced pregnancy loss, early pregnancy loss, or infant loss
+
+Portland-based peer support for pregnancy and infant loss, including early pregnancy loss, plus a separate group for non-birthing parents and partners. Added July 2026 to fill a perinatal grief gap not covered by Dougy Center, Providence Hospice or Hopewell House.
+
+**What to know:** Peer-led support run by trained volunteers, specifically for perinatal loss - a gap the general grief groups in this guide do not cover. Meetings are held at The Peace House in NE Portland.
+
+**First visit:** Call 503-699-8006 before your first meeting to confirm the date and let them know you are coming.
+
+**Registration:** Contact by phone; no formal registration described for in-person meetings.
+
+**What to bring:** Nothing required.
+
+**Programs:**
+
+- **Parents of Pregnancy and Infant Loss:** 2nd Monday 7pm | FREE | In-person | The Peace House, 2116 NE 18th Ave, Portland, OR 97212
+  Includes early pregnancy loss. The same group also meets on the 4th Tuesday at 7pm; that session's format was not published as of July 2026, so only the confirmed in-person 2nd Monday meeting is listed as a calendar event. Call 503-699-8006 to confirm the 4th Tuesday.
+- **Non-Birthing Parent Support Group:** 1st Monday 6:30pm | FREE | In-person | The Peace House, 2116 NE 18th Ave, Portland, OR 97212
+  For grieving partners and non-birthing parents.
+
+*Structured group · Grief support, Anxiety-friendly, Good for isolation, Indoor · Near transit*
 
 ### Clackamas County Crisis & Walk-In Mental Health Center
 
@@ -270,9 +297,11 @@ Peer-facilitated support groups since 2005. Typical attendance 10-25 people. Thr
 
 **Programs:**
 
-- **LGBTQIA+ Support Group:** Mondays 7:00-8:30pm PT | Online (1st Monday in-person via Meetup for location)
+- **LGBTQIA+ Support Group:** Mondays 7:00-8:30pm PT | Online, with an in-person option on 1st & 3rd Mondays at the Q Center | Q Center, Portland (1st & 3rd Mondays only)
+  In-person option confirmed July 2026 as 1st AND 3rd Mondays at the Q Center. Previously recorded as 1st Monday only with the location distributed via Meetup. Q Center street address not yet confirmed - add it on the next pass.
   *For: LGBTQ+*
-- **Open to All (West Portland):** Tuesdays 6:30-7:50pm PT | Online
+- **Open to All (West Portland):** Tuesdays 7pm | Online
+  dbsawestportland.org states the meeting starts at 7:00pm, with the room opening at 6:45pm for informal chat beforehand. Previously recorded as 6:30-7:50pm, which the chapter's own meetings page does not support. No end time is published, so the calendar assumes a one-hour block.
 - **Open to All (Eastside):** Thursdays 7:00-8:30pm PT | Online
 - **Mental Healthcare Professionals:** Saturdays 10-11:30am PT | Online
   For mental healthcare professionals or trainees. Peer support in a confidential space.
@@ -386,12 +415,12 @@ Registration required for most groups. All groups free and peer-led by trained v
 - **NAMI Family Support Group:** 1st & 3rd Mondays, 6:30-8pm | Virtual (Zoom)
   For anyone who cares about someone with mental health condition. ⚠️ VERIFY schedule by phone (sourced from NAMI Oregon directory)
 - **Art with Heart (Creative Support Group):** 2nd & 4th Thursdays | Oregon City (in-person, address provided upon registration)
-  Creative arts peer support group. Started January 2026. Listed as "Art with Heart" on website.
+  Creative arts peer support group. Began January 22, 2026, confirmed via namicc.org July 2026. Listed as "Art with Heart" on website.
 - **NAMI Clackamas Conexion (Spanish-Speaking Support Group):** Every Wednesday, 7-8:30pm | Virtual (Zoom)
   Peer-led for Spanish-speaking adults with mental health conditions. Confirmed via NAMI Oregon directory.
   *For: Spanish-speaking*
 - **LGBTQ+ Support Group:** Every Monday, 7-8:30pm | Virtual (Zoom)
-  Joint program with NAMI Multnomah - weekly for adults 18+. ⚠️ VERIFY schedule by phone
+  Joint program with NAMI Multnomah - weekly for adults 18+. Schedule confirmed via namicc.org July 2026.
   *For: LGBTQ+*
 - **BIPOC Support Group:** 1st & 3rd Thursdays, 7-8:30pm | Virtual (Zoom)
   Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIFY by phone — not visible on namicc.org support groups page as of April 2026. Call 503-344-5050 to confirm still active.
@@ -414,7 +443,7 @@ Registration required for most groups. All groups free and peer-led by trained v
 - **Website:** https://namimultnomah.org
 - **Cost:** FREE
 
-No diagnosis required for any groups. Groups are peer-led by trained volunteers with lived experience.
+No diagnosis required for any groups. Groups are peer-led by trained volunteers with lived experience. NAMI Multnomah also runs family and caregiver groups that are deliberately not listed here, because this database covers groups people attend for their own support - Family Support Group (Mondays 6-7:30pm, 1st Monday in person at Rose City Community Collective), Parent Support Group (1st & 3rd Wednesdays 4-5:15pm), and Military Family Support Group (2nd Thursday 6-7:30pm). Refer family members to namimultnomah.org/family-support-groups or 503-228-5692.
 
 **What to know:** Peer-led by volunteers with lived experience. No diagnosis required. Safe to share or just listen.
 
@@ -429,8 +458,16 @@ No diagnosis required for any groups. Groups are peer-led by trained volunteers 
 - **Connection Peer Support (In-Person):** 2nd & 4th Sundays, 3-4:30pm | In-person | Community for Positive Aging, 1820 NE 40th Ave, Portland OR 97212
 - **Connection Peer Support (Online):** 1st & 3rd Sundays, 3-4:30pm | Zoom
 - **LGBTQ2SIA+ Support:** Every Monday, 7-8:30pm | Zoom
-- **Young Adult (18-35):** 2nd & 4th Sundays, 3-4:30pm | In-person | Community for Positive Aging, 1820 NE 40th Ave, Portland OR 97212
+  *For: LGBTQ+*
+- **LGBTQ2SIA+ Support (In-Person):** 2nd & 4th Sundays, 1-2:30pm | In-person | Rose City Community Collective, 5830 NE Alameda St Suite 205, Portland, OR 97213
+  A 30-minute community arts and crafts session runs beforehand, starting at 12:30pm.
+  *For: LGBTQ+*
+- **Young Adult (18-35) Online:** 2nd & 4th Wednesdays, 7-8:30pm | Zoom
+  *For: Young adults (18-35)*
+- **Young Adult (18-35) In-Person:** 2nd & 4th Sundays, 3-4:30pm | In-person | Community for Positive Aging, 1820 NE 40th Ave, Portland OR 97212
+  *For: Young adults (18-35)*
 - **BIPOC Peer Support:** 1st & 3rd Thursdays, 7-8:30pm | Zoom
+  *For: BIPOC*
 - **Complex Trauma & Dissociation Support:** Every Tuesday, 7-8:30pm | Zoom
 
 *Structured group · Anxiety-friendly, Good for isolation, Indoor · Near transit*
@@ -591,19 +628,20 @@ No dues or fees. No requirements - anyone who wants to stop drinking is welcome.
 - **Address:** 333 SW Park Ave, Portland, OR 97205
 - **Website:** https://www.portlandhearingvoices.net
 - **Cost:** FREE
-- **Schedule:** Every Monday 10-11am (in-person at BHRC)
+- **Schedule:** Every Wednesday 9:30-10:30am (in-person at BHRC)
 
-Peer-led support groups for people who hear voices, see visions, or have unusual beliefs/sensory experiences. In-person group confirmed active at BHRC. Online groups may be intermittent - website lists them as '(Possibly)'. Part of Hearing Voices Network USA.
+Peer-led support groups for people who hear voices, see visions, or have unusual beliefs/sensory experiences. In-person group confirmed active at BHRC, Wednesdays 9:30-10:30am (moved from Mondays). Online group may be intermittent - website lists it as '(Possibly)'. Part of Hearing Voices Network USA. The network also lists a Salem online group hosted for Project ABLE, which is outside the Portland metro scope of this database.
 
-**What to know:** Part of the Hearing Voices Network USA. For people who hear voices, see visions, or have unusual sensory experiences. Peer-led, non-clinical approach. FolkTime also hosts a Hearing Voices group at their NE Portland location.
+**What to know:** Part of the Hearing Voices Network USA. For people who hear voices, see visions, or have unusual sensory experiences. Peer-led, non-clinical approach. FolkTime also hosts a Hearing Voices group at their NE Portland location. Note the in-person group moved from Mondays to Wednesday mornings in 2026.
 
-**First visit:** In-person group is at the Behavioral Health Resource Center downtown. Just show up - no registration needed.
+**First visit:** In-person group meets Wednesday mornings at the Behavioral Health Resource Center downtown. Just show up - no registration needed.
 
 **Programs:**
 
-- **In-Person Hearing Voices Group:** Every Monday 10-11am | In-person, drop-in | Behavioral Health Resource Center, 333 SW Park Ave, Portland
-- **Hearing Voices Online:** (Possibly) Mondays 12:30-1:30pm PST; (Possibly) Wednesdays 12:30-2pm PST | Virtual (Zoom)
-  Online groups marked as '(Possibly)' on website - may be intermittent. Check website for current status.
+- **In-Person Hearing Voices Group:** Every Wednesday 9:30-10:30am | In-person, drop-in | Behavioral Health Resource Center, 333 SW Park Ave, Portland
+  Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026.
+- **Hearing Voices Online:** (Possibly) Mondays 12:30-1:30pm PST | Virtual (Zoom)
+  Still listed as '(Possibly)' on the website - may be intermittent, so confirm before relying on it. The former Wednesday 12:30-2pm online group is no longer listed as of July 2026.
 
 *Structured group · Anxiety-friendly, Good for isolation, Indoor · Near transit, Wheelchair accessible*
 
@@ -1103,7 +1141,7 @@ Fat-positive, inclusive hiking group founded in Portland. Welcoming to all body 
 - **Cost:** FREE
 - **Schedule:** Every Sunday 11am-12:30pm
 
-1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court.
+1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court. Lloyd Center closes permanently August 8, 2026 - the last regular Sunday walk inside the mall is August 2, with a final farewell walk on Saturday August 8. The group continues afterward at rotating pop-up locations around Portland (some outdoors for late summer, some indoors); a permanent home is reportedly close to being finalized but was not announced as of late July 2026.
 
 **What to know:** 1980s-themed indoor mall walking led by Vera Mysteria. 5K / 3.1 mile route (2 laps, ~90 minutes). Meet at food court on 3rd floor above ice rink. Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks at food court. Groups of 70+ regular attendees. Very welcoming and fun community.
 
@@ -1788,7 +1826,7 @@ Community-supported yoga studio with scholarship memberships funded by other mem
 - **Phone:** 503-645-6433
 - **Website:** https://www.thprd.org/fitness-in-the-park
 - **Cost:** FREE
-- **Season:** Year-round; session schedules change each term (Winter/Spring 2026 ran January 12 - March 22)
+- **Season:** Year-round; session schedules change each term. Summer 2026 runs June 15 - August 23, with no classes on June 19, July 3 or July 4. The prior Winter/Spring term ran January 12 - March 22.
 - **Eligibility:** All ages (varies by class)
 
 Free fitness classes in Washington County parks. Focus on environmental justice areas to reduce barriers to access.
@@ -2176,6 +2214,37 @@ Old-growth forest with 700-year-old trees
 
 *Do alone · Outdoor, Anxiety-friendly, Active/physical · Wheelchair accessible*
 
+### Portland Memory Garden (Ed Benedict Park)
+
+- **Address:** Ed Benedict Park, SE 104th Ave & SE Powell Blvd, Portland, OR 97266
+- **Website:** https://www.portland.gov/parks/portland-memory-garden
+- **Cost:** FREE. Entrance is free for all visitors.
+- **Hours:** Dawn to dusk, as with other Portland parks
+- **Eligibility:** Open to all
+
+Therapeutic garden at Ed Benedict Park in outer SE Portland, maintained with Friends of Portland Memory Garden. Added July 2026. Strong fit for low-energy, anxiety-friendly, accessible outdoor time.
+
+**What to know:** Purpose-built as a therapeutic garden for older adults, people with disabilities, and people living with Alzheimer's or dementia. Calm, enclosed and sensory-focused - one of the quieter free outdoor options in the guide. Free live music roughly twice a month in season.
+
+**First visit:** The garden is inside Ed Benedict Park. Paths are wide, level and looped, designed so visitors cannot get lost.
+
+**Registration:** None - just show up
+
+**What to bring:** A chair or blanket for the music events; seating is limited
+
+**Programs:**
+
+- **Music in the Garden:** 11:30am-1pm | FREE | In-person, outdoor
+  Live music twice monthly, weather permitting, hosted by Friends of Portland Memory Garden. September 12 features Jamie Turbett on cello. Earlier 2026 dates included a cello quartet on July 11 and guitar on July 25. The full remaining-season date list is not published as a set - check the upcoming events page.
+- **National Grandparents Day:** 11:30am-1pm | FREE | In-person, outdoor
+  Hollywood Ukulele performs. Hosted by Friends of Portland Memory Garden.
+
+*Do alone · Anxiety-friendly, Low energy, Outdoor, Good for isolation, Grief support · For: Seniors (55+) · Wheelchair accessible, Near transit*
+
+**Accessibility:** Designed for accessibility - level looped pathways, raised beds, handrails and seating throughout. Built specifically with dementia and mobility needs in mind.
+
+**Who it's for:** Designed with older adults and people living with dementia in mind, but open to all visitors of any age.
+
 ### Portland Parks Community Gardens
 
 - **Phone:** 503-823-1612
@@ -2501,6 +2570,34 @@ Since 1999. Games from Golden Age of Video Arcade.
   Game library with bartender-hosted game instruction in the Bar area
 
 *Casual group · Good for isolation, Newcomer-friendly, Indoor · Wheelchair accessible*
+
+### Hawthorne Plaza Concert Series (Concerts in the Plaza)
+
+- **Address:** Hawthorne Plaza, SE 37th Ave & SE Hawthorne Blvd, Portland, OR 97214
+- **Website:** https://ventureportland.org/event/hawthorne-plaza-concert-series/
+- **Cost:** FREE
+- **Schedule:** Saturdays 4-6pm
+- **Season:** Summer
+- **Eligibility:** Open to all
+
+Free Saturday-afternoon summer concert series on Hawthorne Plaza, supported by Venture Portland. Added July 2026.
+
+**What to know:** Free outdoor neighbourhood concerts on Saturday afternoons in summer. Small and low-key rather than a large festival, and easy to leave at any point.
+
+**First visit:** The plaza is a small open square at SE 37th and Hawthorne. Bring a chair - seating is limited.
+
+**Registration:** None - free and open
+
+**What to bring:** Chair or blanket, water, sun protection
+
+**Programs:**
+
+- **Flat Pocket Trio:** 4-6pm | FREE
+- **Bigger Nova:** 4-6pm | FREE
+
+*Drop-in (come and go freely) · Outdoor, Anxiety-friendly, Good for isolation, Newcomer-friendly · Wheelchair accessible, Near transit*
+
+**Accessibility:** Flat paved plaza directly on the Hawthorne bus line. Limited seating - bring your own.
 
 ### Hillsboro Public Library
 
@@ -2855,6 +2952,27 @@ Near OMSI by Tilikum Crossing. Since 2012. Locomotives owned by City of Portland
 
 *Do alone · Anxiety-friendly, Family-friendly, Indoor, Low energy · Wheelchair accessible*
 
+### Original Practice Shakespeare Festival (OPS Fest)
+
+- **Website:** https://www.opsfest.org
+- **Cost:** FREE. No-cost performances in public parks. Donations accepted but never required.
+- **Season:** June 20 - August 22, 2026 (18th season)
+- **Eligibility:** Open to all
+
+18th season in 2026 - 22 plays across 11 Portland metro parks, all free. Added July 2026.
+
+**What to know:** Performed in Elizabethan "original practice" style - scripts in hand, minimal rehearsal, an onstage prompter, heavy audience interaction and dice rolls. Loose, funny and forgiving rather than formal, so it suits people who find traditional theatre intimidating. You can arrive late or leave early without disrupting anything.
+
+**First visit:** Bring a blanket or low chair; performances are on grass. Arrive early for a good spot.
+
+**Registration:** None - free and open, just turn up
+
+**What to bring:** Blanket or chair, water, layers for the evening
+
+*Drop-in (come and go freely) · Outdoor, Creative, Family-friendly, Anxiety-friendly, Good for isolation · Varies*
+
+**Accessibility:** Performances are outdoors on park lawns; accessibility depends on the individual park. Seating is not provided.
+
 ### PCC Art Galleries
 
 - **Website:** https://www.pcc.edu/galleries/
@@ -3070,7 +3188,7 @@ Part of Washington County Cooperative Library Services (WCCLS). Cultural Pass Ex
 - **Cost:** FREE admission
 - **Hours:** Mon-Fri 10am-2pm (closed weekends)
 
-Free local history museum with excellent family events. Fossil Fest is a highlight - 400+ attendees.
+Free local history museum with excellent family events. Fossil Fest is a highlight - 400+ attendees. Re-tiered from annual to quarterly audits in July 2026 - an annual cadence let the whole program list sit a full year stale, still advertising 2025 dates.
 
 **What to know:** Fossil Fest draws 400+ visitors - arrive early
 
@@ -3082,8 +3200,10 @@ Free local history museum with excellent family events. Fossil Fest is a highlig
 
 **Programs:**
 
-- **Fossil Fest 2025:** FREE
+- **Northwest Fossil Fest:** 10am-4pm | FREE
+  2026 date confirmed as August 1. Draws 400+ visitors - arrive early.
 - **Old Fashioned Christmas:** FREE
+  Annual December event. The 2026 date was not published as of late July 2026, so no date is recorded here rather than carrying the stale 2025 one. Check tualatinhistory.org/events in the fall.
 - **Memorial Day Celebration**
   Honors veterans, kicks off city celebrations
 - **Arbor Month Poetry Contest:** April
@@ -4356,6 +4476,29 @@ Monthly arts and community event June-October on Historic Milwaukie Main Street.
 *Drop-in (come and go freely) · Outdoor, Creative, Anxiety-friendly, Good for isolation, Newcomer-friendly · Wheelchair accessible, Near transit*
 
 **Accessibility:** Downtown Milwaukie near Orange Line MAX station
+
+### Multnomah Days Festival & Parade
+
+- **Address:** SW Capitol Hwy & SW 35th Ave, Portland, OR 97219
+- **Website:** https://www.multnomahvillage.org/event-details/multnomah-days-2026
+- **Cost:** FREE to attend. Open-air street festival - no admission charge described. Food, drink and vendor purchases cost extra.
+- **Schedule:** 9am-5pm
+- **Dates:** August 15, 2026
+- **Eligibility:** Open to all
+
+Annual Multnomah Village street festival and parade, organised by the Multnomah Village Business Association. Added July 2026.
+
+**What to know:** One-day open-air street festival with a community parade, two stages of live music, an art fair and 150+ vendor booths, plus food carts and street dining. Busy and crowded - the morning is quieter than the afternoon if large crowds are difficult.
+
+**First visit:** Centred on SW Capitol Hwy in Multnomah Village. Street closures mean parking nearby is tight - transit or walking is easier.
+
+**Registration:** None
+
+**What to bring:** Cash for vendors and food carts, sun protection
+
+*Drop-in (come and go freely) · Outdoor, Family-friendly, Newcomer-friendly, Good for isolation · Wheelchair accessible, Near transit*
+
+**Accessibility:** Street-level festival on closed roads. Crowds can be dense midday.
 
 ### Noon Tunes at Pioneer Courthouse Square
 
