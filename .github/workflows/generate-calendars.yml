@@ -9,6 +9,9 @@ on:
       - 'scripts/generate_guides.py'
       - 'scripts/utils.py'
 
+  schedule:
+    - cron: '0 14 * * 1' # Mondays 14:00 UTC (~7am Pacific)
+
   workflow_dispatch:
 
 concurrency:
