@@ -1013,8 +1013,8 @@
   - name: NAMI Family Support Group
     schedule: 1st & 3rd Mondays, 6:30-8pm
     format: Virtual (Zoom)
-    notes: For anyone who cares about someone with mental health condition. ⚠️ VERIFY schedule by phone (sourced from NAMI
-      Oregon directory)
+    notes: For anyone who cares about someone with mental health condition. Schedule confirmed 2026-08-07 via namior.org
+      (1st & 3rd Mondays 6:30-8pm via Zoom).
   - name: Art with Heart (Creative Support Group)
     schedule: 2nd & 4th Thursdays
     location: Oregon City (in-person, address provided upon registration)
@@ -1054,8 +1054,8 @@
     schedule: 4th Tuesday, 7pm
     location: NAMI Clackamas office (10202 SE 32nd Ave, Suite 501, Milwaukie)
     notes: Affiliated grief support group. No registration required.
-  last_verified: 2026-07-28
-  next_audit: 2026-08-28
+  last_verified: 2026-08-07
+  next_audit: 2026-11-07
   audit_frequency: monthly
   practical_tips:
     first_visit: Call or email to register for your first meeting
@@ -1782,47 +1782,61 @@
   - http://ddaoregon.com/meeting.htm
   - https://ddainc.org/
   flags:
-  - '⚠️ VERIFY phone: website consistently shows 503-737-4126 (confirmed Feb 2026), we have 503-222-6484. Update phone after
-    calling to confirm.'
-  - '⚠️ VERIFY: DDA meeting at FolkTime (4837 NE Couch, Tue 2-3pm) still active?'
-  - '⚠️ VERIFY: ddainc.org national directory shows different meetings (Fora Health Mon 3pm, Oregon Change Clinic Tue/Thu
-    12pm) than our stored schedule. Central office may have moved to 4141 SE Division St. Call 503-737-4126 to confirm.'
-  - '⚠️ VERIFY: Virtual Sat 10:30-11:30am meeting not listed on ddaoregon.com. Sat 10-11am at Alano Club confirmed via portlandalano.org.
-    Website is very outdated (copyright 2008).'
-  - '⚠️ VERIFY: ddaoregon.com blocks automated access but loads in browser (Mar 17, 2026). Content may be outdated (copyright
-    2008). Call 503-222-6484 and 503-737-4126 to verify current meeting schedule.'
+  - '⚠️ VERIFY phone: website consistently shows 503-737-4126 (confirmed Feb 2026), we have 503-222-6484 (also on
+    a Washington corrections resource listing for DDA Portland). Still needs a call to confirm which is current.
+    503-222-6484 is corroborated; ddaoregon.com is stale (copyright 2008).'
+  - '⚠️ VERIFY legacy meetings: our stored Central Office daily meeting (521 SW 11th Ave), Luke Dorf (Mon 12pm),
+    Providence (Mon 3:15pm), Taft Hotel (Mon 2pm) and FolkTime (Tue 2-3pm) meetings are NOT in ddainc.org''s
+    current national directory (June 2026), which lists a different Multnomah County line-up (now reflected in
+    this entry''s programs). The central office may have moved to 4141 SE Division St. Call 503-737-4126 /
+    503-222-6484 to confirm before relying on the legacy locations.'
   pricing:
     description: FREE
   programs:
-  - name: Daily Meetings (Central Office)
-    schedule: Mon-Fri 12-1pm
-    location: 521 SW 11th Ave (2nd floor)
+  - name: DDA at the 8x8
+    schedule: Tuesdays 2-3pm
+    location: 8 NW 8th Ave, Portland
     cost: FREE
-  - name: Luke Dorf Meeting
-    schedule: Mondays 12-1pm
-    location: Luke Dorf, Inc., 9225 NE Halsey St
+  - name: DDA at the Mead Building
+    schedule: Thursdays 11am-12pm
+    location: Mead Building Basement, Portland
     cost: FREE
-  - name: Providence Medical Center Meeting
-    schedule: Mondays 3:15-4:15pm
-    location: Providence Medical Center, 5228 NE Hoyt St
+  - name: DDA at Garlington Wellness Center
+    schedule: Fridays 11am-12pm
+    location: 3034 NE Martin Luther King Jr Blvd, Portland
     cost: FREE
-  - name: Taft Hotel Meeting
-    schedule: Mondays 2-3pm
-    location: Taft Hotel, 1337 SW Washington St
+  - name: DDA at New Narrative
+    schedule: Mondays 11am-12pm
+    location: 1952 SE 122nd Ave, Portland
     cost: FREE
-  - name: Saturday Meeting
+  - name: DDA at Club Hope (Gresham)
+    schedule: Tuesdays 5:30-6:30pm
+    location: 100 SE Cleveland Ave, Gresham
+    cost: FREE
+  - name: DDA at True Colors Recovery
+    schedule: Fridays 3-4pm
+    location: 3807 NE MLK Jr Blvd, Portland
+    cost: FREE
+  - name: Saturday Meeting at Alano Club
     schedule: Saturdays 10-11am
-    location: Portland Alano Club (Board Room)
+    location: Portland Alano Club, 909 NW 24th Ave (Board Room)
     cost: FREE
-  - name: Virtual Meeting
-    schedule: Saturdays 10:30-11:30am PST
+    notes: Confirmed August 2026 on the Alano Club's own meeting grid (portlandalano.org/meetings).
+  - name: Thursday Meeting at Alano Club
+    schedule: Thursdays 2-3pm
+    location: Portland Alano Club, 909 NW 24th Ave (Board Room)
+    cost: FREE
+    notes: Listed in ddainc.org's June 2026 national directory AND on the Alano Club's own grid.
+  - name: Online DDA Meetings
+    schedule: Daily 10am and 5pm PT
     format: Zoom
     cost: FREE
-  office_hours: Mon-Fri 8am-1pm
+    notes: Daily online meetings at 10am and 5pm Pacific, running since April 1, 2026 (ddainc.org/online-dda-meetings).
+  office_hours: Mon-Fri 8am-1pm (per older ddaoregon.com; unconfirmed - see flags)
   latitude: 45.521551
   longitude: -122.683033
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-08-07
+  next_audit: 2026-11-07
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just show up to any meeting - daily noon meetings downtown most accessible
@@ -1981,7 +1995,7 @@
   address: 324 NE 9th St., Gresham, OR 97030
   phone: 971-703-4623
   website: https://4drecovery.org/
-  hours: Mon-Fri 9am-5pm
+  hours: Drop-in center open daily 2-10pm (confirmed on 4drecovery.org, August 2026)
   source_urls:
   - https://4drecovery.org/
   - https://4drecovery.org/locations/
@@ -1999,8 +2013,8 @@
   - name: Recovery Support Meetings
     schedule: Various weekly meetings
     notes: 12-step, dharma, yoga, and social recovery approaches available. Check website for current schedule.
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-08-07
+  next_audit: 2026-11-07
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just drop in during open hours - no appointment needed
@@ -2018,6 +2032,10 @@
   - indoor
   guide_location: activities-guide-2.md#recovery-support
   notes: Youth-focused (14-35) recovery community with peer mentors. Smit Center (Gresham) is the Multnomah County location.
+    The long-standing "closed/relocating" question is resolved (August 2026) - the Gresham drop-in center is operating
+    daily 2-10pm. The separate new NE Portland Youth & Family Recovery Campus (NE 100th & E Burnside, days from
+    opening) was destroyed by an arson fire on April 11-12, 2026; 4D is fundraising to rebuild it (KATU, May 5 2026).
+    That campus never opened, so no published services were lost.
     Previous SE 11th Ave Portland location is closed.
   latitude: 45.503271
   longitude: -122.42733
@@ -2769,6 +2787,17 @@
     description: FREE
   schedule: Every Sunday 11am-12:30pm
   schedule_end_date: 2026-08-02
+  flags:
+  - '⚠️ VERIFY - Lloyd Center closed permanently Aug 8, 2026. Food Court 5000 outlives the mall: weekly pop-up
+    walks at rotating Portland locations, then relocation to a new mall later in 2026 (organizer Krista Catwood,
+    via OregonLive Aug 4 2026). Update location/schedule once the pop-up calendar is announced on foodcourt5k.com.'
+  programs:
+  - name: Final Lloyd Center Walk (Silent Disco)
+    dates: August 8, 2026
+    schedule: 11am
+    notes: One last walk on the mall's closing day, with Heartbeat Silent Discos and Snap! Dance Party (~150
+      headphone sets, $10 reservation). Starts 11am in the food court. Part of the Aug 8 farewell day
+      (Lloyderpalooza, Pedalpalooza funeral ride, Lloyd Fest 4-7pm).
   distance: 3.1 miles / 5K (two laps around mall, ~90 minutes)
   host: Vera Mysteria (Krista Catwood)
   rules:
@@ -2866,8 +2895,11 @@
     location: Irving Park
     notes: Casual social ride, welcoming to newcomers
   - name: Foster Night Ride
-    schedule: Every other Tuesday
-    location: Foster Food Carts (SE Foster Rd & SE 52nd Ave)
+    schedule: Every other Tuesday 7pm
+    schedule_start_date: 2026-08-04
+    location: Foster Food Carts (5205 SE Foster Rd, at SE 52nd Ave)
+    notes: Meet 7pm, ride out 8pm; 8-15 miles, ends with a fire. Anchored to the confirmed Aug 4, 2026 ride
+      on shift2bikes.org (event 23246).
   - name: Friday Night Ride
     schedule: Every Friday (check shift2bikes.org/calendar for meeting point)
   - name: Midnight Mystery Ride
@@ -5328,13 +5360,22 @@
     notes: Honors veterans, kicks off city celebrations
   - name: Arbor Month Poetry Contest
     schedule: April
+  - name: 'Heritage Center 100th Anniversary Lecture, Part 3: How Our Building Became the Heritage Center'
+    dates: August 5, 2026
+    notes: Part 3 of the building's centennial lecture series. Time of day not published as of early August 2026.
+  - name: 'Making History Today: The Man Behind Tualatin Livability'
+    dates: October 7, 2026
+    notes: Evening lecture. Time of day not published as of early August 2026.
   special_events:
   - name: Heritage Evening
+    dates: September 11, 2026
+    schedule: 5:30-8:30pm
     cost: $50
-    notes: The society's single annual fundraiser, held in early September. The 2026 date was not published as
-      of late July 2026; the 2025 edition was September 5 and featured Oregon Cowboy Poet Tom Swearingen.
-  last_verified: 2026-07-28
-  next_audit: 2026-10-28
+    notes: The society's single annual fundraiser. 2026 event is Friday, September 11, 2026, 5:30-8:30pm, with a
+      "Half a Grand" raffle - tickets on sale at tualatinhistory.org/heritage-evening. The 2025 edition was
+      September 5 and featured Oregon Cowboy Poet Tom Swearingen.
+  last_verified: 2026-08-07
+  next_audit: 2026-11-07
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check website for current exhibit information
@@ -5407,6 +5448,12 @@
     location: North View Gallery
     dates: On view as of July 2026; closing date not published
     event: Performance Sunday, August 30, 2026, 11am
+  programs:
+  - name: 'Marcus Fischer: We Are the Confluence of Two Rivers - closing performance'
+    dates: August 30, 2026
+    schedule: 11am
+    location: North View Gallery
+    notes: Performance closing Fischer's exhibition at North View Gallery (on view as of July 2026).
   eligibility: Open to the public
   parking: Weekday permits required at kiosks; free on weekends
   flags:
@@ -5415,7 +5462,7 @@
     30 at 11am, but no closing date is given. Note that the exhibits and galleries keys are descriptive only -
     generate_calendar.py reads entry-level dates and the programs list, so nothing under them reaches the
     calendar. To publish the August 30 performance it would need to move into programs with a dates field.
-  last_verified: 2026-07-28
+  last_verified: 2026-08-07
   next_audit: 2026-10-28
   audit_frequency: quarterly
   practical_tips:
@@ -8110,14 +8157,15 @@
   address: 618 NW Davis St, Portland, OR 97209
   phone: 503-222-5694
   website: https://sistersoftheroad.org
-  hours: 'TEMPORARILY CLOSED - seeking new permanent location. No reopening date announced.'
+  hours: 'TEMPORARILY CLOSED - relocating to Lents. New home purchased June 2026 (5643 SE 83rd Ave); renovation underway. Once open, the cafe expects to operate Tue-Sat 10am-2pm (per HUD project filing).'
   source_urls:
   - https://sistersoftheroad.org
+  - https://www.opb.org/article/2026/07/06/think-out-loud-sisters-of-the-road-moves-portland-lents/
   pricing:
     description: Pay-what-you-can
     notes: Barter work program - work 15 minutes for a meal (when open)
-  last_verified: 2026-04-22
-  next_audit: 2026-07-22
+  last_verified: 2026-08-07
+  next_audit: 2026-11-07
   audit_frequency: quarterly
   practical_tips: Pay-what-you-can or work 15 minutes for a meal through barter program. Welcoming community space emphasizing
     dignity and autonomy. A gathering place, not just a meal program.
@@ -8131,8 +8179,10 @@
   guide_location: activities-guide-1.md#community-meal-programs
   notes: Welcoming community space emphasizing dignity and autonomy
   flags:
-  - ⚠️ VERIFY - Cafe temporarily closed as of April 2026, seeking new permanent location. Plans to reopen but no date announced.
-    Check website quarterly for reopening news.
+  - '⚠️ VERIFY - Cafe closed since April 2026, but relocation is now confirmed - Sisters closed on a house at
+    5643 SE 83rd Ave (Lents) in June 2026 (OPB, July 6 2026), funded by a HUD grant (Portland Housing Bureau,
+    Feb 2026). Expected hours once operational - Tue-Sat 10am-2pm. Watch for the opening announcement, then
+    update address/hours and clear this flag.'
   latitude: 45.524375
   longitude: -122.676939
 - id: portland-rescue-mission
@@ -10499,57 +10549,247 @@
   pricing:
     description: FREE
   eligibility: Anyone seeking recovery from substance use and mental health disorders
-  hours: Check website for meeting times - meetings run morning through evening, 7 days/week
+  hours: Meetings daily from 6:30am to 9:45pm - 118 meetings per week across 25+ fellowships. Full grid at portlandalano.org/meetings
   programs:
-  - name: Alcoholics Anonymous (AA)
-    schedule: Multiple daily meetings
+  - name: 'AA: Dawn Patrol'
+    schedule: 'Daily 6:30-7:30am'
     format: In-person
-  - name: Narcotics Anonymous (NA)
-    schedule: Multiple weekly meetings
+    notes: Loft. Long-running daily early meeting.
+  - name: 'AA: Noon Meetings'
+    schedule: Daily 12-1pm
     format: In-person
-  - name: Al-Anon
-    schedule: Multiple weekly meetings
+    notes: 'Three to four concurrent options daily: Men''s Clock Room (MO), Surrender at Noon (NE Room), and Women''s Newcomer (WO, Basement).'
+  - name: 'AA: New Alternatives & Upstairs 5:30'
+    schedule: 'Daily 5:30-6:30pm'
+    format: In-person
+    notes: Two concurrent meetings daily (Basement and Loft).
+  - name: 'AA: Recovery Sisters (WO) - Evening'
+    schedule: 'Mondays and Tuesdays 6:45-7:45pm'
+    format: In-person
+    notes: 'Women''s meeting.'
+  - name: 'AA: Recovery Sisters (WO) - Wednesday Morning'
+    schedule: Wednesdays 10-11am
+    format: In-person
+    notes: 'Women''s meeting.'
+  - name: 'AA: Recovery Sisters (WO) - Afternoons'
+    schedule: Thursday-Sunday 3-4pm
+    format: In-person
+    notes: 'Women''s meeting.'
+  - name: 'AA: Young at Heart'
+    schedule: Mondays 7-8pm
+    format: In-person
+    notes: 'Young people''s meeting, Basement.'
+  - name: 'AA: For Musicians/Artists/Writers'
+    schedule: Tuesdays 7-8pm
+    format: In-person
+  - name: 'AA: Whoopie Party'
+    schedule: Wednesdays 7-8pm
+    format: In-person
+    notes: Loft.
+  - name: 'AA: Soul Purpose Group'
+    schedule: Thursdays 7-8pm
+    format: In-person
+    notes: Basement.
+  - name: 'AA: Guys Night Out'
+    schedule: 'Thursdays 7:30-8:30pm'
+    format: In-person
+  - name: 'AA: Women''s Sex Workers (WO)'
+    schedule: Fridays 3-4pm
+    format: In-person
+  - name: 'AA: Tight Rope (GMO)'
+    schedule: 'Fridays 6:30-7:30pm'
+    format: In-person
+    notes: 'Gay men''s meeting.'
+  - name: 'AA: NW Beginners'
+    schedule: Fridays 7-8pm
+    format: In-person
+  - name: 'AA: Dignitaries Sympathy (MO)'
+    schedule: Sundays 8-9am
+    format: In-person
+    notes: 'Men''s meeting, Loft.'
+  - name: 'AA: Serenity Sisters (WO)'
+    schedule: Sundays 9-10am
+    format: In-person
+    notes: 'Women''s meeting.'
+  - name: 'AA: Now What'
+    schedule: 'Sundays 9:30-10:30am'
+    format: In-person
+  - name: 'AA: Beyond Belief (Secular)'
+    schedule: Sundays 10-11am
+    format: In-person
+    notes: 'Secular AA meeting, Board Room.'
+  - name: 'NA: RITH'
+    schedule: Daily 3-4pm
+    format: In-person
+    notes: NE Room. Daily Narcotics Anonymous meeting.
+  - name: 'NA: LGBTQ+ Queer as Folk'
+    schedule: 'Wednesdays 7-8:15pm'
+    format: In-person
+  - name: 'NA: A New Way to Live'
+    schedule: 'Sundays 9-10:30am'
+    format: In-person
+  - name: 'Al-Anon: NW at Noon'
+    schedule: Monday-Friday 12-1pm
+    format: In-person
+    notes: Loft. Weekday Al-Anon meeting.
+  - name: 'Al-Anon: Growing Towards Wisdom (MO)'
+    schedule: 'Wednesdays 6:15-7:30pm'
+    format: In-person
+  - name: 'Al-Anon: Weekend Survivors'
+    schedule: 'Mondays 5:45-6:45pm'
+    format: In-person
+  - name: 'Al-Anon: We Care'
+    schedule: 'Saturdays 5:30-6:30pm'
+    format: In-person
+  - name: 'Al-Anon: Early Morning Meditation'
+    schedule: 'Sundays 8:15-9:15am'
     format: In-person
   - name: SMART Recovery
-    schedule: Weekly meetings
+    schedule: Mondays and Wednesdays 4-5pm
     format: In-person
-  - name: Adult Children of Alcoholics (ACA)
-    schedule: Weekly meetings
+    notes: Cafe/SE Room.
+  - name: 'SMART Recovery Friends & Family'
+    schedule: 'Mondays 5:30-7pm'
     format: In-person
-  - name: Codependents Anonymous (CODA)
-    schedule: Weekly meetings
+    notes: Clock Room.
+  - name: 'ACA: True Selves'
+    schedule: 'Mondays 7-8:30pm'
     format: In-person
+  - name: 'ACA: ACA for Alcoholics'
+    schedule: Tuesdays 5-6pm
+    format: In-person
+  - name: 'ACA: Gentleness, Love, Humor, Respect'
+    schedule: 'Wednesdays 6:30-8pm'
+    format: In-person
+  - name: 'ACA: A New Hope'
+    schedule: Saturdays 10-11am
+    format: In-person
+  - name: 'ACA: Awareness'
+    schedule: 'Saturdays 12-1:30pm'
+    format: In-person
+  - name: 'CODA: The Way of CODA'
+    schedule: 'Mondays 7-8:30pm'
+    format: In-person
+    notes: Board Room.
+  - name: 'CODA: Step Share'
+    schedule: 'Fridays 6:30-8pm'
+    format: In-person
+    notes: Clock Room.
+  - name: 'CODA: Portland Men''s CoDA (MO)'
+    schedule: 'Saturdays 7-8:30pm'
+    format: In-person
+  - name: 'CODA: PWL2M'
+    schedule: Sundays 10-11am
+    format: In-person
+    notes: Loft.
   - name: RTS Recovery Yoga
-    schedule: Tuesdays and Sundays 2pm
+    schedule: Tuesdays and Sundays 2-3pm
     format: In-person
-    notes: ⚠️ VERIFY days. Trauma-informed yoga for people in recovery, held in the Loft in partnership with
-      Rayleen McMillan. The 2-3pm time is consistently reported, but three sources disagree on the days - this
-      entry has Tue/Sun, while July 2026 searches returned both Sat/Wed and Wed/Sun. Only Wednesday appears in
-      more than one. Days left unchanged rather than guessed; confirm against portlandalano.org or by phone.
-  - name: Heroin Anonymous (HA)
-    schedule: Multiple weekly meetings
+    notes: 'Loft. Trauma-informed yoga for people in recovery, held in partnership with Rayleen McMillan. Days CONFIRMED 2026-08-07 against the official meeting grid at portlandalano.org/meetings (Tue + Sun 2-3pm), resolving the earlier three-source disagreement.'
+  - name: 'HA: Women''s Sunlight of the Spirit (WO)'
+    schedule: Tuesdays 7-8pm
     format: In-person
-  - name: Sex Addicts Anonymous (SAA)
-    schedule: Multiple weekly meetings
+    notes: Basement.
+  - name: 'HA: Candlelight'
+    schedule: Fridays 9-10pm
+    format: In-person
+    notes: Basement.
+  - name: 'HA: The Way Out'
+    schedule: Sundays 4-5pm
+    format: In-person
+    notes: Loft.
+  - name: 'SAA: Thursday Group'
+    schedule: 'Thursdays 6:45-7:45pm'
+    format: In-person
+  - name: 'SAA: Touchstone'
+    schedule: 'Saturdays 9:30-11am'
+    format: In-person
+    notes: Basement.
+  - name: 'SAA: Steps Into Action'
+    schedule: Sundays 5-6pm
     format: In-person
   - name: Recovery Dharma
-    schedule: Thursdays and Saturdays
+    schedule: Thursdays 12-1pm
     format: In-person
-  - name: Dual Diagnosis Anonymous (DDA)
-    schedule: Saturdays 10am
+    notes: SE Room.
+  - name: 'Recovery Dharma: Meditation Sandwich'
+    schedule: 'Saturdays 7-8:15pm'
     format: In-person
-  - name: Gamblers Anonymous (GA)
-    schedule: Saturdays 11am
+    notes: Loft.
+  - name: 'DDA: Thursday Meeting'
+    schedule: Thursdays 2-3pm
     format: In-person
-  last_verified: 2026-07-28
-  next_audit: 2026-10-28
+    notes: Board Room. Dual Diagnosis Anonymous.
+  - name: 'DDA: Saturday Meeting'
+    schedule: Saturdays 10-11am
+    format: In-person
+    notes: 'Board Room. Dual Diagnosis Anonymous. CONFIRMED 2026-08-07 on the official grid - this is the Saturday Alano DDA meeting referenced in dda-oregon''s open flags.'
+  - name: Gamblers Anonymous
+    schedule: 'Saturdays 11am-12:30pm'
+    format: In-person
+    notes: SE Room.
+  - name: Women For Sobriety
+    schedule: 'Saturdays 9-10:30am'
+    format: In-person
+    notes: Cafe.
+  - name: 'SLAA: Anorexia Focus'
+    schedule: 'Wednesdays 6:30-7:30pm'
+    format: In-person
+    notes: Board Room.
+  - name: 'SLAA: Women''s Honesty, Openness and Willingness (WO)'
+    schedule: Wednesdays 7-8pm
+    format: In-person
+    notes: Clock Room.
+  - name: 'SLAA: Real Love'
+    schedule: 'Saturdays 9:30-10:45pm'
+    format: In-person
+    notes: SE Room. Late evening meeting.
+  - name: Refuge Recovery
+    schedule: Fridays 7-8pm
+    format: In-person
+    notes: Loft.
+  - name: Recovery International
+    schedule: 'Thursdays 7-8:30pm'
+    format: In-person
+    notes: Board Room.
+  - name: 'DA: Peace & Prosperity'
+    schedule: 'Thursdays 7-8:30pm'
+    format: In-person
+    notes: Cafe. Debtors Anonymous.
+  - name: 'ITAA: Log Off!'
+    schedule: 'Thursdays 6:30-7:30pm'
+    format: In-person
+    notes: Clock Room. Internet and Technology Addicts Anonymous.
+  - name: 'MA: A New Leaf'
+    schedule: 'Wednesdays 7:45-8:45pm'
+    format: In-person
+    notes: NE Room. Marijuana Anonymous.
+  - name: 'SPAA: Awakenings'
+    schedule: 'Sundays 3:30-4:30pm'
+    format: In-person
+    notes: Clock Room.
+  - name: Wellbriety
+    schedule: 'Sundays 6:45-9pm'
+    format: In-person
+    notes: Basement.
+  - name: Mindfulness Meditation
+    schedule: Thursdays 7-8pm
+    format: In-person
+    notes: Loft.
+  - name: Sounds of Recovery
+    schedule: Saturdays 4-5pm
+    format: In-person
+    notes: Basement. Music and recovery.
+  last_verified: 2026-08-07
+  next_audit: 2026-11-07
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just walk in - no appointment needed. Check meeting schedule online first.
     registration: None required
     what_to_bring: Nothing required
-    good_to_know: Over 120 weekly meetings including AA, NA, Al-Anon, SMART Recovery, HA, SAA, Recovery Dharma, DDA, GA, and
-      many more. One of the largest recovery community centers in Portland. Coffee available at most meetings.
+    good_to_know: Over 110 weekly meetings including AA, NA, Al-Anon, SMART Recovery, ACA, CODA, HA, SAA, SLAA, Recovery Dharma, DDA, GA, MA, Women For Sobriety, Refuge Recovery, Wellbriety and
+      many more - 118 meetings per week as of the August 2026 grid. One of the largest recovery community
+      centers in Portland. Coffee available at most meetings.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
