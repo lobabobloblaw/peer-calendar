@@ -1487,6 +1487,52 @@
         .filter-pill.active { border-color: transparent; }
         .filter-pill input { display: none; }
 
+        /* Quick date filters (Today / This Weekend) */
+        .quick-date-pill {
+            display: inline-flex;
+            align-items: center;
+            padding: 5px 12px;
+            border-radius: 14px;
+            font-size: 0.78em;
+            font-weight: 500;
+            font-family: inherit;
+            cursor: pointer;
+            border: 1px solid rgba(64, 96, 176, 0.18);
+            background: rgba(235, 242, 252, 0.7);
+            color: var(--text-secondary);
+            transition: all 0.2s ease;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .quick-date-pill:hover {
+            border-color: rgba(64, 96, 176, 0.38);
+            background: rgba(235, 242, 252, 0.95);
+            transform: translateY(-1px);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+        }
+
+        .quick-date-pill:active { transform: translateY(0); }
+        .quick-date-pill.active { background: #4060B0; border-color: transparent; color: white; }
+
+        /* Copy event link button */
+        .copy-link-btn {
+            font-size: 0.85em;
+            font-family: inherit;
+            padding: 4px 12px;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.12);
+            background: rgba(255, 255, 255, 0.7);
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+
+        .copy-link-btn:hover {
+            border-color: rgba(64, 96, 176, 0.4);
+            background: rgba(235, 242, 252, 0.9);
+            color: var(--accent);
+        }
+
         /* Group-specific inactive tints */
         .cat-pill              { background: rgba(255, 245, 235, 0.7); border-color: rgba(224, 128, 80, 0.15); }
         .cat-pill:hover        { border-color: rgba(224, 128, 80, 0.35); background: rgba(255, 245, 235, 0.95); }
@@ -2169,6 +2215,13 @@
                 </div>
                 <div class="filter-panel" id="filter-panel">
                     <input type="search" class="filter-search" id="filter-search" placeholder="Search events, locations, categories..." oninput="debouncedUpdateFilters()" aria-label="Search events">
+                    <div class="filter-group" data-group="when">
+                        <span class="filter-group-label">When</span>
+                        <div class="filter-pills">
+                            <button type="button" class="quick-date-pill" id="quick-today" onclick="toggleQuickDate('today')" aria-pressed="false">Today</button>
+                            <button type="button" class="quick-date-pill" id="quick-weekend" onclick="toggleQuickDate('weekend')" aria-pressed="false">This Weekend</button>
+                        </div>
+                    </div>
                     <div class="filter-group" data-group="category">
                         <span class="filter-group-label">Category</span>
                         <div class="filter-pills">
@@ -2418,6 +2471,8 @@
         let activeSocialFilters = [];
         let searchQuery = '';
         let lastFocusedElement = null;
+        let quickDateFilter = null; // null | 'today' | 'weekend'
+        let currentEventLink = ''; // deep link for the currently open event modal
 
         function debounce(fn, delay) {
             let timer;
@@ -2449,6 +2504,38 @@
             btn.classList.toggle('active', panel.classList.contains('active') || activeFilters.length > 0);
         }
 
+        // Quick date filters: toggle Today / This Weekend. Applies to dated
+        // event instances (grid, list, day popup) — not to the map, whose
+        // markers represent resources rather than dated occurrences.
+        function toggleQuickDate(mode) {
+            quickDateFilter = (quickDateFilter === mode) ? null : mode;
+            document.getElementById('quick-today').classList.toggle('active', quickDateFilter === 'today');
+            document.getElementById('quick-today').setAttribute('aria-pressed', quickDateFilter === 'today');
+            document.getElementById('quick-weekend').classList.toggle('active', quickDateFilter === 'weekend');
+            document.getElementById('quick-weekend').setAttribute('aria-pressed', quickDateFilter === 'weekend');
+            updateFilters();
+        }
+
+        function matchesQuickDateFilter(eventDate) {
+            if (!quickDateFilter) return true;
+            const now = new Date();
+            const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+            const d = new Date(eventDate.getFullYear(), eventDate.getMonth(), eventDate.getDate());
+            if (quickDateFilter === 'today') {
+                return d.getTime() === todayStart.getTime();
+            }
+            // 'weekend': the Saturday/Sunday of the current weekend — if today
+            // is Sat or Sun, that means this very weekend; otherwise the
+            // upcoming one.
+            const day = now.getDay();
+            const sat = new Date(todayStart);
+            if (day === 0) sat.setDate(sat.getDate() - 1);      // Sunday: weekend started yesterday
+            else sat.setDate(sat.getDate() + (6 - day));        // Mon–Sat: upcoming Saturday
+            const sun = new Date(sat);
+            sun.setDate(sun.getDate() + 1);
+            return d.getTime() === sat.getTime() || d.getTime() === sun.getTime();
+        }
+
         function updateFilters() {
             // Audience filters (pills without special classes)
             const audienceCheckboxes = document.querySelectorAll('.filter-pill:not(.cat-pill):not(.goodfor-pill):not(.social-pill) input:checked');
@@ -2476,7 +2563,7 @@
             });
 
             // Update badge and button state
-            const totalActive = activeFilters.length + activeCategoryFilters.length + activeGoodForFilters.length + activeSocialFilters.length + (searchQuery ? 1 : 0);
+            const totalActive = activeFilters.length + activeCategoryFilters.length + activeGoodForFilters.length + activeSocialFilters.length + (searchQuery ? 1 : 0) + (quickDateFilter ? 1 : 0);
             const badge = document.getElementById('filter-badge');
             const btn = document.getElementById('filter-btn');
             const clearBtn = document.getElementById('filter-clear');
@@ -2505,6 +2592,11 @@
             activeGoodForFilters = [];
             activeSocialFilters = [];
             searchQuery = '';
+            quickDateFilter = null;
+            document.getElementById('quick-today').classList.remove('active');
+            document.getElementById('quick-today').setAttribute('aria-pressed', 'false');
+            document.getElementById('quick-weekend').classList.remove('active');
+            document.getElementById('quick-weekend').setAttribute('aria-pressed', 'false');
             document.getElementById('filter-badge').style.display = 'none';
             document.getElementById('filter-clear').style.display = 'none';
             const panel = document.getElementById('filter-panel');
@@ -2887,7 +2979,7 @@
         }
 
         // Generate all events for a month
-        function generateMonthEvents(year, month) {
+        function generateMonthEvents(year, month, applyQuickFilter = true) {
             if (!eventsData) return [];
 
             const events = [];
@@ -3020,7 +3112,9 @@
                 return (a.startTime || '').localeCompare(b.startTime || '');
             });
 
-            return events;
+            // Quick date filters (Today / This Weekend) narrow dated instances.
+            // Skipped for print output, which has its own explicit date range.
+            return applyQuickFilter ? events.filter(e => matchesQuickDateFilter(e.date)) : events;
         }
 
         // Format time for display
@@ -3085,6 +3179,21 @@
                 </div>`;
             }
 
+            // Verification freshness (from the source entry's last_verified date)
+            const lastVerified = event.sourceEvent && event.sourceEvent.last_verified;
+            if (lastVerified) {
+                const vd = new Date(lastVerified + 'T00:00:00');
+                if (!isNaN(vd)) {
+                    const ageDays = Math.floor((Date.now() - vd.getTime()) / 86400000);
+                    const fresh = ageDays <= 90;
+                    const label = `${monthNames[vd.getMonth()]} ${vd.getFullYear()}`;
+                    bodyHtml += `<div class="event-modal-row">
+                        <div class="event-modal-icon">${fresh ? '✅' : '⚠️'}</div>
+                        <div class="event-modal-value">${fresh ? `Confirmed ${escapeHtml(label)}` : `Not verified since ${escapeHtml(label)}`}</div>
+                    </div>`;
+                }
+            }
+
             // Description
             if (event.description) {
                 bodyHtml += `<div class="event-modal-row">
@@ -3112,10 +3221,61 @@
                 </div>`;
             }
 
+            // Deep link: make the open modal addressable (#event=<id>@<YYYY-MM-DD>)
+            currentEventLink = '';
+            if (event.sourceEvent && event.sourceEvent.id && event.date) {
+                const d = event.date;
+                const iso = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+                const hash = `#event=${encodeURIComponent(event.sourceEvent.id)}@${iso}`;
+                currentEventLink = `${location.origin}${location.pathname}${hash}`;
+                history.replaceState(null, '', hash);
+                bodyHtml += `<div class="event-modal-row">
+                    <div class="event-modal-icon">📤</div>
+                    <div class="event-modal-value"><button type="button" class="copy-link-btn" onclick="copyEventLink()">Copy link to this event</button></div>
+                </div>`;
+            }
+
             document.getElementById('modal-body').innerHTML = bodyHtml;
             overlay.classList.add('active');
             trapFocus(overlay.querySelector('.event-modal'));
         }
+
+        // Copy the deep link for the currently open event
+        function copyEventLink() {
+            if (!currentEventLink) return;
+            const done = () => announce('Link copied to clipboard');
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(currentEventLink).then(done).catch(() => window.prompt('Copy this link:', currentEventLink));
+            } else {
+                window.prompt('Copy this link:', currentEventLink);
+            }
+        }
+
+        // Open the event named in the URL hash, if any. Format:
+        // #event=<source-id>@<YYYY-MM-DD>. Falls back to the resource modal
+        // for entries that don't produce dated instances (one-time/seasonal).
+        function openEventFromHash() {
+            const m = location.hash.match(/^#event=([^@]+)@(\d{4})-(\d{2})-(\d{2})$/);
+            if (!m || !eventsData) return;
+            const id = decodeURIComponent(m[1]);
+            const y = parseInt(m[2], 10), mo = parseInt(m[3], 10), da = parseInt(m[4], 10);
+            const entry = eventsData.events.find(e => e.id === id);
+            if (!entry) return;
+            // Navigate the calendar to the target month, then find the instance
+            currentMonth = new Date(y, mo - 1, 1);
+            updateCalendarDisplay();
+            updateNavButtons();
+            const instances = generateMonthEvents(y, mo - 1, false);
+            const inst = instances.find(e => e.sourceEvent && e.sourceEvent.id === id &&
+                e.date.getFullYear() === y && e.date.getMonth() === mo - 1 && e.date.getDate() === da);
+            if (inst) {
+                showEventModal(inst);
+            } else if (typeof showResourceModal === 'function') {
+                showResourceModal(id);
+            }
+        }
+
+        window.addEventListener('hashchange', openEventFromHash);
 
         // Focus trap for accessible modals
         let activeFocusTrap = null;
@@ -3146,6 +3306,11 @@
             const overlay = document.getElementById('event-modal-overlay');
             releaseFocusTrap(overlay.querySelector('.event-modal'));
             overlay.classList.remove('active');
+            // Closing the modal also clears its deep link from the URL
+            if (location.hash.startsWith('#event=')) {
+                history.replaceState(null, '', location.pathname + location.search);
+            }
+            currentEventLink = '';
             if (lastFocusedElement && lastFocusedElement.focus) {
                 lastFocusedElement.focus();
                 lastFocusedElement = null;
@@ -3436,7 +3601,7 @@
             const endMonth = new Date(endDate.getFullYear(), endDate.getMonth(), 1);
 
             while (current <= endMonth) {
-                const monthEvents = generateMonthEvents(current.getFullYear(), current.getMonth());
+                const monthEvents = generateMonthEvents(current.getFullYear(), current.getMonth(), false);
                 allEvents = allEvents.concat(monthEvents);
                 current.setMonth(current.getMonth() + 1);
             }
@@ -4164,6 +4329,25 @@
                 </div>`;
             }
 
+            // Verification freshness — seasonal events reference their source
+            // entry by ID, so look up last_verified there.
+            const seasonalSource = event.entryId && eventsData
+                ? eventsData.events.find(e => e.id === event.entryId)
+                : null;
+            const seasonalVerified = seasonalSource && seasonalSource.last_verified;
+            if (seasonalVerified) {
+                const vd = new Date(seasonalVerified + 'T00:00:00');
+                if (!isNaN(vd)) {
+                    const ageDays = Math.floor((Date.now() - vd.getTime()) / 86400000);
+                    const fresh = ageDays <= 90;
+                    const label = `${monthNames[vd.getMonth()]} ${vd.getFullYear()}`;
+                    bodyHtml += `<div class="event-modal-row">
+                        <div class="event-modal-icon">${fresh ? '✅' : '⚠️'}</div>
+                        <div class="event-modal-value">${fresh ? `Confirmed ${escapeHtml(label)}` : `Not verified since ${escapeHtml(label)}`}</div>
+                    </div>`;
+                }
+            }
+
             // Description
             if (event.description) {
                 bodyHtml += `<div class="event-modal-row">
@@ -4469,6 +4653,9 @@
 
                 // Pre-render seasonal view so it's ready when tab is clicked
                 renderSeasonalView();
+
+                // Open a specific event if the URL contains a deep link
+                openEventFromHash();
             })
             .catch(err => {
                 document.querySelectorAll('.loading-indicator').forEach(el => el.remove());

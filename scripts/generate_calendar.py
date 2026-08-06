@@ -1022,6 +1022,7 @@ def generate_json_feed(entries: list[dict]) -> dict:
             "schedule_start_date": entry.get("schedule_start_date"),
             "schedule_end_date": entry.get("schedule_end_date"),
             "flags": entry.get("flags", []),
+            "last_verified": entry.get("last_verified"),
             "accessibility": entry.get("accessibility", []),
             "social_intensity": entry.get("social_intensity"),
             "good_for": entry.get("good_for", []),
