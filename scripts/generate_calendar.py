@@ -1120,7 +1120,7 @@ def main():
         print(f"Filtered to {len(entries)} entries in category '{args.category}'")
 
     # Determine which platforms to generate
-    platforms = ["google", "apple", "outlook"] if args.platform == "all" else ["google", "apple", "outlook"]
+    platforms = ["google", "apple", "outlook"] if args.platform == "all" else [args.platform]
 
     # Group entries by category
     categories: dict[str, list[dict]] = {}
