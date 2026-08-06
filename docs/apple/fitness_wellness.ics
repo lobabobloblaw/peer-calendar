@@ -363,24 +363,43 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:eb1faca9bd5fba8c@portlandresources.org
+UID:94efda47272343d2@portlandresources.org
 DTSTAMP:20260728T000000Z
-DTSTART;TZID=America/Los_Angeles:20260104T110000
-DTEND;TZID=America/Los_Angeles:20260104T123000
-SUMMARY:Food Court 5000 (Lloyd Center Mall Walking)
-DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 2201 Lloyd C
- enter\, Portland\, OR 97232\nWebsite: https://foodcourt5k.com/\nDetails: 1
- 980s/90s-themed indoor mall walking. Dress code: neon leggings\, acid-wash
- ed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at 
- food court. Lloyd Center closes permanently August 8\, 2026 - the last reg
- ular Sunday walk inside the mall is August 2\, with a final farewell walk 
- on Saturday August 8. The group continues afterward at rotating pop-up loc
- ations around Portland (some outdoors for late summer\, some indoors)\; a 
- permanent home is reportedly close to being finalized but was not announce
- d as of late July 2026.
+DTSTART;TZID=America/Los_Angeles:20260808T110000
+DTEND;TZID=America/Los_Angeles:20260808T120000
+SUMMARY:Food Court 5000 (Lloyd Center Mall Walking): Final Lloyd Center Wal
+ k (Silent Disco)
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: One last walk o
+ n the mall's closing day\, with Heartbeat Silent Discos and Snap! Dance Pa
+ rty (~150 headphone sets\, $10 reservation). Starts 11am in the food court
+ . Part of the Aug 8 farewell day (Lloyderpalooza\, Pedalpalooza funeral ri
+ de\, Lloyd Fest 4-7pm).\nAddress: 2201 Lloyd Center\, Portland\, OR 97232\
+ nWebsite: https://foodcourt5k.com/\nDetails: 1980s/90s-themed indoor mall 
+ walking. Dress code: neon leggings\, acid-washed denim encouraged. Groups 
+ of 70+ regular attendees. Post-walk snacks at food court. Lloyd Center clo
+ ses permanently August 8\, 2026 - the last regular Sunday walk inside the 
+ mall is August 2\, with a final farewell walk on Saturday August 8. The gr
+ oup continues afterward at rotating pop-up locations around Portland (some
+  outdoors for late summer\, some indoors)\; a permanent home is reportedly
+  close to being finalized but was not announced as of late July 2026.
 LOCATION:2201 Lloyd Center\, Portland\, OR 97232
 URL:https://foodcourt5k.com/
-RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20260803T065959Z
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d4864019dec4725a@portlandresources.org
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260804T190000
+DTEND;TZID=America/Los_Angeles:20260804T200000
+SUMMARY:Shift to Bikes: Foster Night Ride
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Meet 7pm\, ride
+  out 8pm\; 8-15 miles\, ends with a fire. Anchored to the confirmed Aug 4\
+ , 2026 ride on shift2bikes.org (event 23246).\nWebsite: https://shift2bike
+ s.org/calendar
+LOCATION:Foster Food Carts (5205 SE Foster Rd\, at SE 52nd Ave)
+URL:https://shift2bikes.org/calendar
+RRULE:FREQ=WEEKLY;BYDAY=TU;INTERVAL=2
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT

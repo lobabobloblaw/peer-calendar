@@ -2,7 +2,7 @@
 
 A comprehensive guide to free and affordable activities, services, and resources in the Portland metro area, with special attention to accessibility and mental health support.
 
-*Generated from verified data on July 28, 2026. 272 active resources across 9 categories.*
+*Generated from verified data on August 06, 2026. 272 active resources across 9 categories.*
 
 ## Contents
 
@@ -36,9 +36,9 @@ Free peer-led support groups, drop-in centers, and warmlines for adults living w
 - **Phone:** 971-703-4623
 - **Website:** https://4drecovery.org/
 - **Cost:** FREE
-- **Hours:** Mon-Fri 9am-5pm
+- **Hours:** Drop-in center open daily 2-10pm (confirmed on 4drecovery.org, August 2026)
 
-Youth-focused (14-35) recovery community with peer mentors. Smit Center (Gresham) is the Multnomah County location. Previous SE 11th Ave Portland location is closed.
+Youth-focused (14-35) recovery community with peer mentors. Smit Center (Gresham) is the Multnomah County location. The long-standing "closed/relocating" question is resolved (August 2026) - the Gresham drop-in center is operating daily 2-10pm. The separate new NE Portland Youth & Family Recovery Campus (NE 100th & E Burnside, days from opening) was destroyed by an arson fire on April 11-12, 2026; 4D is fundraising to rebuild it (KATU, May 5 2026). That campus never opened, so no published services were lost. Previous SE 11th Ave Portland location is closed.
 
 **What to know:** Peer-led recovery community for young people ages 18-35. Multiple locations: Smit Center (Gresham), O'Rourke Center (Hillsboro), Clackamas County (Happy Valley). Accepts Medicaid/OHP for treatment services.
 
@@ -65,12 +65,12 @@ Youth-focused (14-35) recovery community with peer mentors. Smit Center (Gresham
 - **Phone:** 503-222-5756
 - **Website:** https://www.portlandalano.org
 - **Cost:** FREE
-- **Hours:** Check website for meeting times - meetings run morning through evening, 7 days/week
+- **Hours:** Meetings daily from 6:30am to 9:45pm - 118 meetings per week across 25+ fellowships. Full grid at portlandalano.org/meetings
 - **Eligibility:** Anyone seeking recovery from substance use and mental health disorders
 
 Portland's premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.
 
-**What to know:** Over 120 weekly meetings including AA, NA, Al-Anon, SMART Recovery, HA, SAA, Recovery Dharma, DDA, GA, and many more. One of the largest recovery community centers in Portland. Coffee available at most meetings.
+**What to know:** Over 110 weekly meetings including AA, NA, Al-Anon, SMART Recovery, ACA, CODA, HA, SAA, SLAA, Recovery Dharma, DDA, GA, MA, Women For Sobriety, Refuge Recovery, Wellbriety and many more - 118 meetings per week as of the August 2026 grid. One of the largest recovery community centers in Portland. Coffee available at most meetings.
 
 **First visit:** Just walk in - no appointment needed. Check meeting schedule online first.
 
@@ -80,19 +80,111 @@ Portland's premier recovery community center with over 120 weekly meetings for v
 
 **Programs:**
 
-- **Alcoholics Anonymous (AA):** Multiple daily meetings | In-person
-- **Narcotics Anonymous (NA):** Multiple weekly meetings | In-person
-- **Al-Anon:** Multiple weekly meetings | In-person
-- **SMART Recovery:** Weekly meetings | In-person
-- **Adult Children of Alcoholics (ACA):** Weekly meetings | In-person
-- **Codependents Anonymous (CODA):** Weekly meetings | In-person
-- **RTS Recovery Yoga:** Tuesdays and Sundays 2pm | In-person
-  ⚠️ VERIFY days. Trauma-informed yoga for people in recovery, held in the Loft in partnership with Rayleen McMillan. The 2-3pm time is consistently reported, but three sources disagree on the days - this entry has Tue/Sun, while July 2026 searches returned both Sat/Wed and Wed/Sun. Only Wednesday appears in more than one. Days left unchanged rather than guessed; confirm against portlandalano.org or by phone.
-- **Heroin Anonymous (HA):** Multiple weekly meetings | In-person
-- **Sex Addicts Anonymous (SAA):** Multiple weekly meetings | In-person
-- **Recovery Dharma:** Thursdays and Saturdays | In-person
-- **Dual Diagnosis Anonymous (DDA):** Saturdays 10am | In-person
-- **Gamblers Anonymous (GA):** Saturdays 11am | In-person
+- **AA: Dawn Patrol:** Daily 6:30-7:30am | In-person
+  Loft. Long-running daily early meeting.
+- **AA: Noon Meetings:** Daily 12-1pm | In-person
+  Three to four concurrent options daily: Men's Clock Room (MO), Surrender at Noon (NE Room), and Women's Newcomer (WO, Basement).
+- **AA: New Alternatives & Upstairs 5:30:** Daily 5:30-6:30pm | In-person
+  Two concurrent meetings daily (Basement and Loft).
+- **AA: Recovery Sisters (WO) - Evening:** Mondays and Tuesdays 6:45-7:45pm | In-person
+  Women's meeting.
+- **AA: Recovery Sisters (WO) - Wednesday Morning:** Wednesdays 10-11am | In-person
+  Women's meeting.
+- **AA: Recovery Sisters (WO) - Afternoons:** Thursday-Sunday 3-4pm | In-person
+  Women's meeting.
+- **AA: Young at Heart:** Mondays 7-8pm | In-person
+  Young people's meeting, Basement.
+- **AA: For Musicians/Artists/Writers:** Tuesdays 7-8pm | In-person
+- **AA: Whoopie Party:** Wednesdays 7-8pm | In-person
+  Loft.
+- **AA: Soul Purpose Group:** Thursdays 7-8pm | In-person
+  Basement.
+- **AA: Guys Night Out:** Thursdays 7:30-8:30pm | In-person
+- **AA: Women's Sex Workers (WO):** Fridays 3-4pm | In-person
+- **AA: Tight Rope (GMO):** Fridays 6:30-7:30pm | In-person
+  Gay men's meeting.
+- **AA: NW Beginners:** Fridays 7-8pm | In-person
+- **AA: Dignitaries Sympathy (MO):** Sundays 8-9am | In-person
+  Men's meeting, Loft.
+- **AA: Serenity Sisters (WO):** Sundays 9-10am | In-person
+  Women's meeting.
+- **AA: Now What:** Sundays 9:30-10:30am | In-person
+- **AA: Beyond Belief (Secular):** Sundays 10-11am | In-person
+  Secular AA meeting, Board Room.
+- **NA: RITH:** Daily 3-4pm | In-person
+  NE Room. Daily Narcotics Anonymous meeting.
+- **NA: LGBTQ+ Queer as Folk:** Wednesdays 7-8:15pm | In-person
+- **NA: A New Way to Live:** Sundays 9-10:30am | In-person
+- **Al-Anon: NW at Noon:** Monday-Friday 12-1pm | In-person
+  Loft. Weekday Al-Anon meeting.
+- **Al-Anon: Growing Towards Wisdom (MO):** Wednesdays 6:15-7:30pm | In-person
+- **Al-Anon: Weekend Survivors:** Mondays 5:45-6:45pm | In-person
+- **Al-Anon: We Care:** Saturdays 5:30-6:30pm | In-person
+- **Al-Anon: Early Morning Meditation:** Sundays 8:15-9:15am | In-person
+- **SMART Recovery:** Mondays and Wednesdays 4-5pm | In-person
+  Cafe/SE Room.
+- **SMART Recovery Friends & Family:** Mondays 5:30-7pm | In-person
+  Clock Room.
+- **ACA: True Selves:** Mondays 7-8:30pm | In-person
+- **ACA: ACA for Alcoholics:** Tuesdays 5-6pm | In-person
+- **ACA: Gentleness, Love, Humor, Respect:** Wednesdays 6:30-8pm | In-person
+- **ACA: A New Hope:** Saturdays 10-11am | In-person
+- **ACA: Awareness:** Saturdays 12-1:30pm | In-person
+- **CODA: The Way of CODA:** Mondays 7-8:30pm | In-person
+  Board Room.
+- **CODA: Step Share:** Fridays 6:30-8pm | In-person
+  Clock Room.
+- **CODA: Portland Men's CoDA (MO):** Saturdays 7-8:30pm | In-person
+- **CODA: PWL2M:** Sundays 10-11am | In-person
+  Loft.
+- **RTS Recovery Yoga:** Tuesdays and Sundays 2-3pm | In-person
+  Loft. Trauma-informed yoga for people in recovery, held in partnership with Rayleen McMillan. Days CONFIRMED 2026-08-07 against the official meeting grid at portlandalano.org/meetings (Tue + Sun 2-3pm), resolving the earlier three-source disagreement.
+- **HA: Women's Sunlight of the Spirit (WO):** Tuesdays 7-8pm | In-person
+  Basement.
+- **HA: Candlelight:** Fridays 9-10pm | In-person
+  Basement.
+- **HA: The Way Out:** Sundays 4-5pm | In-person
+  Loft.
+- **SAA: Thursday Group:** Thursdays 6:45-7:45pm | In-person
+- **SAA: Touchstone:** Saturdays 9:30-11am | In-person
+  Basement.
+- **SAA: Steps Into Action:** Sundays 5-6pm | In-person
+- **Recovery Dharma:** Thursdays 12-1pm | In-person
+  SE Room.
+- **Recovery Dharma: Meditation Sandwich:** Saturdays 7-8:15pm | In-person
+  Loft.
+- **DDA: Thursday Meeting:** Thursdays 2-3pm | In-person
+  Board Room. Dual Diagnosis Anonymous.
+- **DDA: Saturday Meeting:** Saturdays 10-11am | In-person
+  Board Room. Dual Diagnosis Anonymous. CONFIRMED 2026-08-07 on the official grid - this is the Saturday Alano DDA meeting referenced in dda-oregon's open flags.
+- **Gamblers Anonymous:** Saturdays 11am-12:30pm | In-person
+  SE Room.
+- **Women For Sobriety:** Saturdays 9-10:30am | In-person
+  Cafe.
+- **SLAA: Anorexia Focus:** Wednesdays 6:30-7:30pm | In-person
+  Board Room.
+- **SLAA: Women's Honesty, Openness and Willingness (WO):** Wednesdays 7-8pm | In-person
+  Clock Room.
+- **SLAA: Real Love:** Saturdays 9:30-10:45pm | In-person
+  SE Room. Late evening meeting.
+- **Refuge Recovery:** Fridays 7-8pm | In-person
+  Loft.
+- **Recovery International:** Thursdays 7-8:30pm | In-person
+  Board Room.
+- **DA: Peace & Prosperity:** Thursdays 7-8:30pm | In-person
+  Cafe. Debtors Anonymous.
+- **ITAA: Log Off!:** Thursdays 6:30-7:30pm | In-person
+  Clock Room. Internet and Technology Addicts Anonymous.
+- **MA: A New Leaf:** Wednesdays 7:45-8:45pm | In-person
+  NE Room. Marijuana Anonymous.
+- **SPAA: Awakenings:** Sundays 3:30-4:30pm | In-person
+  Clock Room.
+- **Wellbriety:** Sundays 6:45-9pm | In-person
+  Basement.
+- **Mindfulness Meditation:** Thursdays 7-8pm | In-person
+  Loft.
+- **Sounds of Recovery:** Saturdays 4-5pm | In-person
+  Basement. Music and recovery.
 
 *Structured group · Anxiety-friendly, Good for isolation, Indoor · Wheelchair accessible, Near transit*
 
@@ -329,12 +421,18 @@ Peer-facilitated support groups since 2005. Typical attendance 10-25 people. Thr
 
 **Programs:**
 
-- **Daily Meetings (Central Office):** Mon-Fri 12-1pm | FREE | 521 SW 11th Ave (2nd floor)
-- **Luke Dorf Meeting:** Mondays 12-1pm | FREE | Luke Dorf, Inc., 9225 NE Halsey St
-- **Providence Medical Center Meeting:** Mondays 3:15-4:15pm | FREE | Providence Medical Center, 5228 NE Hoyt St
-- **Taft Hotel Meeting:** Mondays 2-3pm | FREE | Taft Hotel, 1337 SW Washington St
-- **Saturday Meeting:** Saturdays 10-11am | FREE | Portland Alano Club (Board Room)
-- **Virtual Meeting:** Saturdays 10:30-11:30am PST | FREE | Zoom
+- **DDA at the 8x8:** Tuesdays 2-3pm | FREE | 8 NW 8th Ave, Portland
+- **DDA at the Mead Building:** Thursdays 11am-12pm | FREE | Mead Building Basement, Portland
+- **DDA at Garlington Wellness Center:** Fridays 11am-12pm | FREE | 3034 NE Martin Luther King Jr Blvd, Portland
+- **DDA at New Narrative:** Mondays 11am-12pm | FREE | 1952 SE 122nd Ave, Portland
+- **DDA at Club Hope (Gresham):** Tuesdays 5:30-6:30pm | FREE | 100 SE Cleveland Ave, Gresham
+- **DDA at True Colors Recovery:** Fridays 3-4pm | FREE | 3807 NE MLK Jr Blvd, Portland
+- **Saturday Meeting at Alano Club:** Saturdays 10-11am | FREE | Portland Alano Club, 909 NW 24th Ave (Board Room)
+  Confirmed August 2026 on the Alano Club's own meeting grid (portlandalano.org/meetings).
+- **Thursday Meeting at Alano Club:** Thursdays 2-3pm | FREE | Portland Alano Club, 909 NW 24th Ave (Board Room)
+  Listed in ddainc.org's June 2026 national directory AND on the Alano Club's own grid.
+- **Online DDA Meetings:** Daily 10am and 5pm PT | FREE | Zoom
+  Daily online meetings at 10am and 5pm Pacific, running since April 1, 2026 (ddainc.org/online-dda-meetings).
 
 *Structured group · Anxiety-friendly, Good for isolation, Indoor · Near transit*
 
@@ -413,7 +511,7 @@ Registration required for most groups. All groups free and peer-led by trained v
   Bi-weekly peer-led recovery support
   *For: Women*
 - **NAMI Family Support Group:** 1st & 3rd Mondays, 6:30-8pm | Virtual (Zoom)
-  For anyone who cares about someone with mental health condition. ⚠️ VERIFY schedule by phone (sourced from NAMI Oregon directory)
+  For anyone who cares about someone with mental health condition. Schedule confirmed 2026-08-07 via namior.org (1st & 3rd Mondays 6:30-8pm via Zoom).
 - **Art with Heart (Creative Support Group):** 2nd & 4th Thursdays | Oregon City (in-person, address provided upon registration)
   Creative arts peer support group. Began January 22, 2026, confirmed via namicc.org July 2026. Listed as "Art with Heart" on website.
 - **NAMI Clackamas Conexion (Spanish-Speaking Support Group):** Every Wednesday, 7-8:30pm | Virtual (Zoom)
@@ -1151,6 +1249,11 @@ Fat-positive, inclusive hiking group founded in Portland. Welcoming to all body 
 
 **What to bring:** Comfortable walking shoes. 80s attire encouraged but not required (neon, leg warmers, etc.)
 
+**Programs:**
+
+- **Final Lloyd Center Walk (Silent Disco):** 11am
+  One last walk on the mall's closing day, with Heartbeat Silent Discos and Snap! Dance Party (~150 headphone sets, $10 reservation). Starts 11am in the food court. Part of the Aug 8 farewell day (Lloyderpalooza, Pedalpalooza funeral ride, Lloyd Fest 4-7pm).
+
 *Casual group · Indoor, Active/physical, Good for isolation, Newcomer-friendly, Anxiety-friendly · Wheelchair accessible, Near transit*
 
 **Accessibility:** Flat indoor mall surfaces. Elevators available. Right on MAX Red/Blue lines.
@@ -1748,7 +1851,8 @@ Oregon's first disc golf course (established 1980)
 
 - **Mellow Mondays:** Every Monday | Irving Park
   Casual social ride, welcoming to newcomers
-- **Foster Night Ride:** Every other Tuesday | Foster Food Carts (SE Foster Rd & SE 52nd Ave)
+- **Foster Night Ride:** Every other Tuesday 7pm | Foster Food Carts (5205 SE Foster Rd, at SE 52nd Ave)
+  Meet 7pm, ride out 8pm; 8-15 miles, ends with a fire. Anchored to the confirmed Aug 4, 2026 ride on shift2bikes.org (event 23246).
 - **Friday Night Ride:** Every Friday (check shift2bikes.org/calendar for meeting point)
 - **Midnight Mystery Ride:** 2nd Friday of each month
   Meet ~11pm, depart at midnight to a secret location. Meeting point kept secret until day of event.
@@ -2985,6 +3089,11 @@ Three free campus galleries featuring regional and national artists. Student exh
 
 **First visit:** Check hours online - galleries close between exhibits
 
+**Programs:**
+
+- **Marcus Fischer: We Are the Confluence of Two Rivers - closing performance:** 11am | North View Gallery
+  Performance closing Fischer's exhibition at North View Gallery (on view as of July 2026).
+
 *Do alone · Anxiety-friendly, Indoor, Low energy, Creative · Wheelchair accessible*
 
 ### PCC Theatre
@@ -3207,6 +3316,10 @@ Free local history museum with excellent family events. Fossil Fest is a highlig
 - **Memorial Day Celebration**
   Honors veterans, kicks off city celebrations
 - **Arbor Month Poetry Contest:** April
+- **Heritage Center 100th Anniversary Lecture, Part 3: How Our Building Became the Heritage Center**
+  Part 3 of the building's centennial lecture series. Time of day not published as of early August 2026.
+- **Making History Today: The Man Behind Tualatin Livability**
+  Evening lecture. Time of day not published as of early August 2026.
 
 *Do alone · Family-friendly, Indoor · Wheelchair accessible*
 
@@ -3868,7 +3981,7 @@ Free vegetarian meals based on 500-year-old Sikh tradition (Langar). 150-200 peo
 - **Phone:** 503-222-5694
 - **Website:** https://sistersoftheroad.org
 - **Cost:** Pay-what-you-can. Barter work program - work 15 minutes for a meal (when open)
-- **Hours:** TEMPORARILY CLOSED - seeking new permanent location. No reopening date announced.
+- **Hours:** TEMPORARILY CLOSED - relocating to Lents. New home purchased June 2026 (5643 SE 83rd Ave); renovation underway. Once open, the cafe expects to operate Tue-Sat 10am-2pm (per HUD project filing).
 
 Welcoming community space emphasizing dignity and autonomy
 

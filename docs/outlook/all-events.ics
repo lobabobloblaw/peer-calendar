@@ -250,7 +250,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:531662b55bc0a9a7@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260807T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Clackamas: NAMI Connection Support Group
@@ -270,7 +270,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:abda9c8971b1314b@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260807T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T170000
 DTEND;TZID=America/Los_Angeles:20260107T183000
 SUMMARY:NAMI Clackamas: Women (18+) Only Support Group
@@ -289,17 +289,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:620a559fb7ab08a0@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260807T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T183000
 DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:NAMI Clackamas: NAMI Family Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
- o: For anyone who cares about someone with mental health condition. ⚠️ VER
- IFY schedule by phone (sourced from NAMI Oregon directory)\nAddress: 10202
-  SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222\nPhone: 503-344-5050\nWebs
- ite: https://namicc.org\nDetails: Registration required for most groups. A
- ll groups free and peer-led by trained volunteers with lived experience.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Virtual (Zoom)</p><p>For anyone who cares about someone with mental health condition. ⚠️ VERIFY schedule by phone (sourced from NAMI Oregon directory)</p><p><strong>Address:</strong> 10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p><p><strong>Website:</strong> <a href="https://namicc.org">https://namicc.org</a></p><p><strong>Details:</strong> Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.</p></BODY></HTML>
+ o: For anyone who cares about someone with mental health condition. Schedu
+ le confirmed 2026-08-07 via namior.org (1st & 3rd Mondays 6:30-8pm via Zoo
+ m).\nAddress: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222\nPhone:
+  503-344-5050\nWebsite: https://namicc.org\nDetails: Registration required
+  for most groups. All groups free and peer-led by trained volunteers with 
+ lived experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Virtual (Zoom)</p><p>For anyone who cares about someone with mental health condition. Schedule confirmed 2026-08-07 via namior.org (1st &amp; 3rd Mondays 6:30-8pm via Zoom).</p><p><strong>Address:</strong> 10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p><p><strong>Website:</strong> <a href="https://namicc.org">https://namicc.org</a></p><p><strong>Details:</strong> Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222
 URL:https://namicc.org
@@ -309,7 +310,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d8997f26797c801@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260807T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T190000
 DTEND;TZID=America/Los_Angeles:20260107T203000
 SUMMARY:NAMI Clackamas: NAMI Clackamas Conexion (Spanish-Speaking Support G
@@ -330,7 +331,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ea6aaafa1987c3ab@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260807T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:NAMI Clackamas: LGBTQ+ Support Group
@@ -350,7 +351,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0f499a48fa4b50aa@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260807T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:NAMI Clackamas: BIPOC Support Group
@@ -371,7 +372,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85d355a359c1e2b9@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260807T000000Z
 DTSTART;TZID=America/Los_Angeles:20260127T190000
 DTEND;TZID=America/Los_Angeles:20260127T200000
 SUMMARY:NAMI Clackamas: Compassionate Friends
@@ -879,12 +880,11 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:443269c9da047a73@portlandresources.org
-DTSTAMP:20260213T000000Z
-DTSTART;TZID=America/Los_Angeles:20260101T120000
-DTEND;TZID=America/Los_Angeles:20260101T130000
-SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Daily Meetings (Central Offi
- ce)
+UID:d38dc6be9514a666@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T140000
+DTEND;TZID=America/Los_Angeles:20260106T150000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at the 8x8
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
  2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
  regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
@@ -892,18 +892,18 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\,
  throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:521 SW 11th Ave (2nd floor)
+LOCATION:8 NW 8th Ave\, Portland
 URL:http://ddaoregon.com/
-RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+RRULE:FREQ=WEEKLY;BYDAY=TU
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:a21b6c155557d1bd@portlandresources.org
-DTSTAMP:20260213T000000Z
-DTSTART;TZID=America/Los_Angeles:20260105T120000
-DTEND;TZID=America/Los_Angeles:20260105T130000
-SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Luke Dorf Meeting
+UID:f0b5d5c2028650a3@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T110000
+DTEND;TZID=America/Los_Angeles:20260101T120000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at the Mead Building
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
  2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
  regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
@@ -911,19 +911,57 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\,
  throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Luke Dorf\, Inc.\, 9225 NE Halsey St
+LOCATION:Mead Building Basement\, Portland
+URL:http://ddaoregon.com/
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:83f0dda716f10bc5@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T110000
+DTEND;TZID=America/Los_Angeles:20260102T120000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at Garlington Wellness C
+ enter
+DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
+ 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
+ regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
+ al illness and substance use. Peer-led meetings. Many additional meetings 
+ throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:3034 NE Martin Luther King Jr Blvd\, Portland
+URL:http://ddaoregon.com/
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c521e972b3cb1a31@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T110000
+DTEND;TZID=America/Los_Angeles:20260105T120000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at New Narrative
+DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
+ 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
+ regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
+ al illness and substance use. Peer-led meetings. Many additional meetings 
+ throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:1952 SE 122nd Ave\, Portland
 URL:http://ddaoregon.com/
 RRULE:FREQ=WEEKLY;BYDAY=MO
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:6705b1bab8158dc0@portlandresources.org
-DTSTAMP:20260213T000000Z
-DTSTART;TZID=America/Los_Angeles:20260105T151500
-DTEND;TZID=America/Los_Angeles:20260105T161500
-SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Providence Medical Center Me
- eting
+UID:d03e805960da82ec@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T173000
+DTEND;TZID=America/Los_Angeles:20260106T183000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at Club Hope (Gresham)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
  2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
  regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
@@ -931,18 +969,18 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\,
  throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Providence Medical Center\, 5228 NE Hoyt St
+LOCATION:100 SE Cleveland Ave\, Gresham
 URL:http://ddaoregon.com/
-RRULE:FREQ=WEEKLY;BYDAY=MO
+RRULE:FREQ=WEEKLY;BYDAY=TU
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:7eee8f348d64220f@portlandresources.org
-DTSTAMP:20260213T000000Z
-DTSTART;TZID=America/Los_Angeles:20260105T140000
-DTEND;TZID=America/Los_Angeles:20260105T150000
-SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Taft Hotel Meeting
+UID:8e53fc7dd5f856ab@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T150000
+DTEND;TZID=America/Los_Angeles:20260102T160000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at True Colors Recovery
 DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
  2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
  regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
@@ -950,54 +988,80 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\,
  throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Taft Hotel\, 1337 SW Washington St
+LOCATION:3807 NE MLK Jr Blvd\, Portland
 URL:http://ddaoregon.com/
-RRULE:FREQ=WEEKLY;BYDAY=MO
+RRULE:FREQ=WEEKLY;BYDAY=FR
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:e3edc33c7c6abd02@portlandresources.org
-DTSTAMP:20260213T000000Z
+UID:dfab8921e1f6b150@portlandresources.org
+DTSTAMP:20260807T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T100000
 DTEND;TZID=America/Los_Angeles:20260103T110000
-SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Saturday Meeting
-DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
- 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
- regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
- al illness and substance use. Peer-led meetings. Many additional meetings 
- throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Saturday Meeting at Alano Cl
+ ub
+DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Confirmed August 2026
+  on the Alano Club's own meeting grid (portlandalano.org/meetings).\nAddre
+ ss: 521 SW 11th Ave\, 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484
+ \nWebsite: http://ddaoregon.com/\nDetails: 12-Step plus 5 additional steps
+  for co-occurring mental illness and substance use. Peer-led meetings. Man
+ y additional meetings throughout Portland - see ddaoregon.com/meeting.htm 
+ for full schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>Confirmed August 2026 on the Alano Club&#x27;s own meeting grid (portlandalano.org/meetings).</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Portland Alano Club (Board Room)
+LOCATION:Portland Alano Club\, 909 NW 24th Ave (Board Room)
 URL:http://ddaoregon.com/
 RRULE:FREQ=WEEKLY;BYDAY=SA
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:fd5742a493e3fee2@portlandresources.org
-DTSTAMP:20260213T000000Z
-DTSTART;TZID=America/Los_Angeles:20260103T103000
-DTEND;TZID=America/Los_Angeles:20260103T113000
-SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Virtual Meeting
-DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nAddress: 521 
- SW 11th Ave\, 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsit
- e: http://ddaoregon.com/\nDetails: 12-Step plus 5 additional steps for co-
- occurring mental illness and substance use. Peer-led meetings. Many additi
- onal meetings throughout Portland - see ddaoregon.com/meeting.htm for full
-  schedule.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
+UID:9d6ae81810e11112@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T140000
+DTEND;TZID=America/Los_Angeles:20260101T150000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Thursday Meeting at Alano Cl
+ ub
+DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Listed in ddainc.org'
+ s June 2026 national directory AND on the Alano Club's own grid.\nAddress:
+  521 SW 11th Ave\, 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nW
+ ebsite: http://ddaoregon.com/\nDetails: 12-Step plus 5 additional steps fo
+ r co-occurring mental illness and substance use. Peer-led meetings. Many a
+ dditional meetings throughout Portland - see ddaoregon.com/meeting.htm for
+  full schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>Listed in ddainc.org&#x27;s June 2026 national directory AND on the Alano Club&#x27;s own grid.</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Portland Alano Club\, 909 NW 24th Ave (Board Room)
+URL:http://ddaoregon.com/
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fe785cfeeb7bae14@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T100000
+DTEND;TZID=America/Los_Angeles:20260101T110000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Online DDA Meetings
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nInfo: Daily o
+ nline meetings at 10am and 5pm Pacific\, running since April 1\, 2026 (dda
+ inc.org/online-dda-meetings).\nAddress: 521 SW 11th Ave\, 2nd Floor\, Port
+ land\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddaoregon.com/\nDeta
+ ils: 12-Step plus 5 additional steps for co-occurring mental illness and s
+ ubstance use. Peer-led meetings. Many additional meetings throughout Portl
+ and - see ddaoregon.com/meeting.htm for full schedule.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p>Daily online meetings at 10am and 5pm Pacific, running since April 1, 2026 (ddainc.org/online-dda-meetings).</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:521 SW 11th Ave\, 2nd Floor\, Portland\, OR 97205
 URL:http://ddaoregon.com/
-RRULE:FREQ=WEEKLY;BYDAY=SA
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR,SA,SU
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0870cb364bf69dbd@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260807T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T140000
 DTEND;TZID=America/Los_Angeles:20260101T220000
 SUMMARY:4D Recovery: Drop-In Center
@@ -1006,8 +1070,14 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Welcoming space with
  essure.\nAddress: 324 NE 9th St.\, Gresham\, OR 97030\nPhone: 971-703-4623
  \nWebsite: https://4drecovery.org/\nDetails: Youth-focused (14-35) recover
  y community with peer mentors. Smit Center (Gresham) is the Multnomah Coun
- ty location. Previous SE 11th Ave Portland location is closed.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>Welcoming space with pool table, video games, TV, and peer connection. Come hang out, no pressure.</p><p><strong>Address:</strong> 324 NE 9th St., Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:971-703-4623">971-703-4623</a></p><p><strong>Website:</strong> <a href="https://4drecovery.org/">https://4drecovery.org/</a></p><p><strong>Details:</strong> Youth-focused (14-35) recovery community with peer mentors. Smit Center (Gresham) is the Multnomah County location. Previous SE 11th Ave Portland location is closed.</p></BODY></HTML>
+ ty location. The long-standing "closed/relocating" question is resolved (A
+ ugust 2026) - the Gresham drop-in center is operating daily 2-10pm. The se
+ parate new NE Portland Youth & Family Recovery Campus (NE 100th & E Burnsi
+ de\, days from opening) was destroyed by an arson fire on April 11-12\, 20
+ 26\; 4D is fundraising to rebuild it (KATU\, May 5 2026). That campus neve
+ r opened\, so no published services were lost. Previous SE 11th Ave Portla
+ nd location is closed.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>Welcoming space with pool table, video games, TV, and peer connection. Come hang out, no pressure.</p><p><strong>Address:</strong> 324 NE 9th St., Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:971-703-4623">971-703-4623</a></p><p><strong>Website:</strong> <a href="https://4drecovery.org/">https://4drecovery.org/</a></p><p><strong>Details:</strong> Youth-focused (14-35) recovery community with peer mentors. Smit Center (Gresham) is the Multnomah County location. The long-standing &quot;closed/relocating&quot; question is resolved (August 2026) - the Gresham drop-in center is operating daily 2-10pm. The separate new NE Portland Youth &amp; Family Recovery Campus (NE 100th &amp; E Burnside, days from opening) was destroyed by an arson fire on April 11-12, 2026; 4D is fundraising to rebuild it (KATU, May 5 2026). That campus never opened, so no published services were lost. Previous SE 11th Ave Portland location is closed.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:324 NE 9th St.\, Gresham\, OR 97030
 URL:https://4drecovery.org/
@@ -1016,35 +1086,470 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:445c92b4ea533d65@portlandresources.org
-DTSTAMP:20260728T000000Z
-DTSTART;TZID=America/Los_Angeles:20260104T140000
-DTEND;TZID=America/Los_Angeles:20260104T150000
-SUMMARY:Alano Club of Portland: RTS Recovery Yoga
-DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: ⚠️
-  VERIFY days. Trauma-informed yoga for people in recovery\, held in the Lo
- ft in partnership with Rayleen McMillan. The 2-3pm time is consistently re
- ported\, but three sources disagree on the days - this entry has Tue/Sun\,
-  while July 2026 searches returned both Sat/Wed and Wed/Sun. Only Wednesda
- y appears in more than one. Days left unchanged rather than guessed\; conf
- irm against portlandalano.org or by phone.\nAddress: 909 NW 24th Avenue\, 
- Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: https://www.portlandala
- no.org\nDetails: Portland's premier recovery community center with over 12
- 0 weekly meetings for various 12-step and secular recovery programs.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>⚠️ VERIFY days. Trauma-informed yoga for people in recovery, held in the Loft in partnership with Rayleen McMillan. The 2-3pm time is consistently reported, but three sources disagree on the days - this entry has Tue/Sun, while July 2026 searches returned both Sat/Wed and Wed/Sun. Only Wednesday appears in more than one. Days left unchanged rather than guessed; confirm against portlandalano.org or by phone.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+UID:fb7bf229fdbee72a@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T063000
+DTEND;TZID=America/Los_Angeles:20260101T073000
+SUMMARY:Alano Club of Portland: AA: Dawn Patrol
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Lo
+ ft. Long-running daily early meeting.\nAddress: 909 NW 24th Avenue\, Portl
+ and\, OR 97210\nPhone: 503-222-5756\nWebsite: https://www.portlandalano.or
+ g\nDetails: Portland's premier recovery community center with over 120 wee
+ kly meetings for various 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Loft. Long-running daily early meeting.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
 URL:https://www.portlandalano.org
-RRULE:FREQ=WEEKLY;BYDAY=TU,SU
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR,SA,SU
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:b3126ba680d24f93@portlandresources.org
-DTSTAMP:20260728T000000Z
-DTSTART;TZID=America/Los_Angeles:20260103T100000
-DTEND;TZID=America/Los_Angeles:20260103T110000
-SUMMARY:Alano Club of Portland: Dual Diagnosis Anonymous (DDA)
+UID:18677ec7a70cc383@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T120000
+DTEND;TZID=America/Los_Angeles:20260101T130000
+SUMMARY:Alano Club of Portland: AA: Noon Meetings
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Th
+ ree to four concurrent options daily: Men's Clock Room (MO)\, Surrender at
+  Noon (NE Room)\, and Women's Newcomer (WO\, Basement).\nAddress: 909 NW 2
+ 4th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: https://ww
+ w.portlandalano.org\nDetails: Portland's premier recovery community center
+  with over 120 weekly meetings for various 12-step and secular recovery pr
+ ograms.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Three to four concurrent options daily: Men&#x27;s Clock Room (MO), Surrender at Noon (NE Room), and Women&#x27;s Newcomer (WO, Basement).</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR,SA,SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1043507d7df9b0e9@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T173000
+DTEND;TZID=America/Los_Angeles:20260101T183000
+SUMMARY:Alano Club of Portland: AA: New Alternatives & Upstairs 5:30
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Tw
+ o concurrent meetings daily (Basement and Loft).\nAddress: 909 NW 24th Ave
+ nue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: https://www.portl
+ andalano.org\nDetails: Portland's premier recovery community center with o
+ ver 120 weekly meetings for various 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Two concurrent meetings daily (Basement and Loft).</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR,SA,SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ac12dc2282cdffe9@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T184500
+DTEND;TZID=America/Los_Angeles:20260105T194500
+SUMMARY:Alano Club of Portland: AA: Recovery Sisters (WO) - Evening
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Wo
+ men's meeting.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 
+ 503-222-5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's 
+ premier recovery community center with over 120 weekly meetings for variou
+ s 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Women&#x27;s meeting.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:047af9701c99f7c5@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T100000
+DTEND;TZID=America/Los_Angeles:20260107T110000
+SUMMARY:Alano Club of Portland: AA: Recovery Sisters (WO) - Wednesday Morni
+ ng
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Wo
+ men's meeting.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 
+ 503-222-5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's 
+ premier recovery community center with over 120 weekly meetings for variou
+ s 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Women&#x27;s meeting.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:db0032ee3fc9deb0@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T150000
+DTEND;TZID=America/Los_Angeles:20260101T160000
+SUMMARY:Alano Club of Portland: AA: Recovery Sisters (WO) - Afternoons
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Wo
+ men's meeting.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 
+ 503-222-5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's 
+ premier recovery community center with over 120 weekly meetings for variou
+ s 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Women&#x27;s meeting.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=TH,FR,SA,SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:36824d45c7f1afbd@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T200000
+SUMMARY:Alano Club of Portland: AA: Young at Heart
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Yo
+ ung people's meeting\, Basement.\nAddress: 909 NW 24th Avenue\, Portland\,
+  OR 97210\nPhone: 503-222-5756\nWebsite: https://www.portlandalano.org\nDe
+ tails: Portland's premier recovery community center with over 120 weekly m
+ eetings for various 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Young people&#x27;s meeting, Basement.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:67bafcb81d17f5ee@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T190000
+DTEND;TZID=America/Los_Angeles:20260106T200000
+SUMMARY:Alano Club of Portland: AA: For Musicians/Artists/Writers
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:98e63b7b80a3a874@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T190000
+DTEND;TZID=America/Los_Angeles:20260107T200000
+SUMMARY:Alano Club of Portland: AA: Whoopie Party
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Lo
+ ft.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-575
+ 6\nWebsite: https://www.portlandalano.org\nDetails: Portland's premier rec
+ overy community center with over 120 weekly meetings for various 12-step a
+ nd secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Loft.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:670ab3bfe9d5e044@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T190000
+DTEND;TZID=America/Los_Angeles:20260101T200000
+SUMMARY:Alano Club of Portland: AA: Soul Purpose Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Ba
+ sement.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222
+ -5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's premier
+  recovery community center with over 120 weekly meetings for various 12-st
+ ep and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Basement.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a71945d89b3524cd@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T193000
+DTEND;TZID=America/Los_Angeles:20260101T203000
+SUMMARY:Alano Club of Portland: AA: Guys Night Out
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:19dbabcf554f3bb3@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T150000
+DTEND;TZID=America/Los_Angeles:20260102T160000
+SUMMARY:Alano Club of Portland: AA: Women's Sex Workers (WO)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1bc99f867e6e3548@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T183000
+DTEND;TZID=America/Los_Angeles:20260102T193000
+SUMMARY:Alano Club of Portland: AA: Tight Rope (GMO)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Ga
+ y men's meeting.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone
+ : 503-222-5756\nWebsite: https://www.portlandalano.org\nDetails: Portland'
+ s premier recovery community center with over 120 weekly meetings for vari
+ ous 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Gay men&#x27;s meeting.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b3ec3bb25b9bfa6d@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T190000
+DTEND;TZID=America/Los_Angeles:20260102T200000
+SUMMARY:Alano Club of Portland: AA: NW Beginners
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c4e5e576f817253c@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T080000
+DTEND;TZID=America/Los_Angeles:20260104T090000
+SUMMARY:Alano Club of Portland: AA: Dignitaries Sympathy (MO)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Me
+ n's meeting\, Loft.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPh
+ one: 503-222-5756\nWebsite: https://www.portlandalano.org\nDetails: Portla
+ nd's premier recovery community center with over 120 weekly meetings for v
+ arious 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Men&#x27;s meeting, Loft.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0291f6ac087cbeee@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T090000
+DTEND;TZID=America/Los_Angeles:20260104T100000
+SUMMARY:Alano Club of Portland: AA: Serenity Sisters (WO)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Wo
+ men's meeting.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 
+ 503-222-5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's 
+ premier recovery community center with over 120 weekly meetings for variou
+ s 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Women&#x27;s meeting.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:68438b80395a9a56@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T093000
+DTEND;TZID=America/Los_Angeles:20260104T103000
+SUMMARY:Alano Club of Portland: AA: Now What
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:731a6fc5202b321d@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T100000
+DTEND;TZID=America/Los_Angeles:20260104T110000
+SUMMARY:Alano Club of Portland: AA: Beyond Belief (Secular)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Se
+ cular AA meeting\, Board Room.\nAddress: 909 NW 24th Avenue\, Portland\, O
+ R 97210\nPhone: 503-222-5756\nWebsite: https://www.portlandalano.org\nDeta
+ ils: Portland's premier recovery community center with over 120 weekly mee
+ tings for various 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Secular AA meeting, Board Room.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f84eac9fac2ab683@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T150000
+DTEND;TZID=America/Los_Angeles:20260101T160000
+SUMMARY:Alano Club of Portland: NA: RITH
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: NE
+  Room. Daily Narcotics Anonymous meeting.\nAddress: 909 NW 24th Avenue\, P
+ ortland\, OR 97210\nPhone: 503-222-5756\nWebsite: https://www.portlandalan
+ o.org\nDetails: Portland's premier recovery community center with over 120
+  weekly meetings for various 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>NE Room. Daily Narcotics Anonymous meeting.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR,SA,SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6c1fd453fcbfda3d@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T190000
+DTEND;TZID=America/Los_Angeles:20260107T201500
+SUMMARY:Alano Club of Portland: NA: LGBTQ+ Queer as Folk
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4012dc6b5bf1b092@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T090000
+DTEND;TZID=America/Los_Angeles:20260104T103000
+SUMMARY:Alano Club of Portland: NA: A New Way to Live
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:46b47f8100b9079c@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T120000
+DTEND;TZID=America/Los_Angeles:20260101T130000
+SUMMARY:Alano Club of Portland: Al-Anon: NW at Noon
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Lo
+ ft. Weekday Al-Anon meeting.\nAddress: 909 NW 24th Avenue\, Portland\, OR 
+ 97210\nPhone: 503-222-5756\nWebsite: https://www.portlandalano.org\nDetail
+ s: Portland's premier recovery community center with over 120 weekly meeti
+ ngs for various 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Loft. Weekday Al-Anon meeting.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b3181bab17864fda@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T181500
+DTEND;TZID=America/Los_Angeles:20260107T193000
+SUMMARY:Alano Club of Portland: Al-Anon: Growing Towards Wisdom (MO)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5721ac85ac2ae4e3@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T174500
+DTEND;TZID=America/Los_Angeles:20260105T184500
+SUMMARY:Alano Club of Portland: Al-Anon: Weekend Survivors
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6bd54ad567812c97@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T173000
+DTEND;TZID=America/Los_Angeles:20260103T183000
+SUMMARY:Alano Club of Portland: Al-Anon: We Care
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
   909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
  ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
@@ -1059,17 +1564,708 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:e9fbeb09cf612c48@portlandresources.org
-DTSTAMP:20260728T000000Z
-DTSTART;TZID=America/Los_Angeles:20260103T110000
-DTEND;TZID=America/Los_Angeles:20260103T120000
-SUMMARY:Alano Club of Portland: Gamblers Anonymous (GA)
+UID:b771efbfb1167d6f@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T081500
+DTEND;TZID=America/Los_Angeles:20260104T091500
+SUMMARY:Alano Club of Portland: Al-Anon: Early Morning Meditation
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
   909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
  ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
  ty center with over 120 weekly meetings for various 12-step and secular re
  covery programs.
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2a24b240871e9901@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T160000
+DTEND;TZID=America/Los_Angeles:20260105T170000
+SUMMARY:Alano Club of Portland: SMART Recovery
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Ca
+ fe/SE Room.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503
+ -222-5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's pre
+ mier recovery community center with over 120 weekly meetings for various 1
+ 2-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Cafe/SE Room.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=MO,WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6cefcd8a5d12faaf@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T173000
+DTEND;TZID=America/Los_Angeles:20260105T190000
+SUMMARY:Alano Club of Portland: SMART Recovery Friends & Family
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Cl
+ ock Room.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-2
+ 22-5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's premi
+ er recovery community center with over 120 weekly meetings for various 12-
+ step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Clock Room.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5982d8bb9b5d0de1@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T203000
+SUMMARY:Alano Club of Portland: ACA: True Selves
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ab5bd6d31d2ec751@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T170000
+DTEND;TZID=America/Los_Angeles:20260106T180000
+SUMMARY:Alano Club of Portland: ACA: ACA for Alcoholics
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9b69662028daa372@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T183000
+DTEND;TZID=America/Los_Angeles:20260107T200000
+SUMMARY:Alano Club of Portland: ACA: Gentleness\, Love\, Humor\, Respect
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:12893bee49d52c91@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T100000
+DTEND;TZID=America/Los_Angeles:20260103T110000
+SUMMARY:Alano Club of Portland: ACA: A New Hope
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0edb7a96fb1da40b@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T120000
+DTEND;TZID=America/Los_Angeles:20260103T133000
+SUMMARY:Alano Club of Portland: ACA: Awareness
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c40a6aae79d039fc@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T203000
+SUMMARY:Alano Club of Portland: CODA: The Way of CODA
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Bo
+ ard Room.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-2
+ 22-5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's premi
+ er recovery community center with over 120 weekly meetings for various 12-
+ step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Board Room.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:46cac297770a1ca2@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T183000
+DTEND;TZID=America/Los_Angeles:20260102T200000
+SUMMARY:Alano Club of Portland: CODA: Step Share
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Cl
+ ock Room.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-2
+ 22-5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's premi
+ er recovery community center with over 120 weekly meetings for various 12-
+ step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Clock Room.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:501c94e36ef21d42@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T190000
+DTEND;TZID=America/Los_Angeles:20260103T203000
+SUMMARY:Alano Club of Portland: CODA: Portland Men's CoDA (MO)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:208d56d49ba85c6c@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T100000
+DTEND;TZID=America/Los_Angeles:20260104T110000
+SUMMARY:Alano Club of Portland: CODA: PWL2M
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Lo
+ ft.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-575
+ 6\nWebsite: https://www.portlandalano.org\nDetails: Portland's premier rec
+ overy community center with over 120 weekly meetings for various 12-step a
+ nd secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Loft.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:445c92b4ea533d65@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T140000
+DTEND;TZID=America/Los_Angeles:20260104T150000
+SUMMARY:Alano Club of Portland: RTS Recovery Yoga
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Lo
+ ft. Trauma-informed yoga for people in recovery\, held in partnership with
+  Rayleen McMillan. Days CONFIRMED 2026-08-07 against the official meeting 
+ grid at portlandalano.org/meetings (Tue + Sun 2-3pm)\, resolving the earli
+ er three-source disagreement.\nAddress: 909 NW 24th Avenue\, Portland\, OR
+  97210\nPhone: 503-222-5756\nWebsite: https://www.portlandalano.org\nDetai
+ ls: Portland's premier recovery community center with over 120 weekly meet
+ ings for various 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Loft. Trauma-informed yoga for people in recovery, held in partnership with Rayleen McMillan. Days CONFIRMED 2026-08-07 against the official meeting grid at portlandalano.org/meetings (Tue + Sun 2-3pm), resolving the earlier three-source disagreement.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=TU,SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f9bd9580f5ba0452@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T190000
+DTEND;TZID=America/Los_Angeles:20260106T200000
+SUMMARY:Alano Club of Portland: HA: Women's Sunlight of the Spirit (WO)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Ba
+ sement.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222
+ -5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's premier
+  recovery community center with over 120 weekly meetings for various 12-st
+ ep and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Basement.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1dbce92a5bd0da1c@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T210000
+DTEND;TZID=America/Los_Angeles:20260102T220000
+SUMMARY:Alano Club of Portland: HA: Candlelight
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Ba
+ sement.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222
+ -5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's premier
+  recovery community center with over 120 weekly meetings for various 12-st
+ ep and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Basement.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:de7a985f4f259517@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T160000
+DTEND;TZID=America/Los_Angeles:20260104T170000
+SUMMARY:Alano Club of Portland: HA: The Way Out
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Lo
+ ft.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-575
+ 6\nWebsite: https://www.portlandalano.org\nDetails: Portland's premier rec
+ overy community center with over 120 weekly meetings for various 12-step a
+ nd secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Loft.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2a28af5cfead43c6@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T184500
+DTEND;TZID=America/Los_Angeles:20260101T194500
+SUMMARY:Alano Club of Portland: SAA: Thursday Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fa4c70f456bc8d58@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T093000
+DTEND;TZID=America/Los_Angeles:20260103T110000
+SUMMARY:Alano Club of Portland: SAA: Touchstone
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Ba
+ sement.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222
+ -5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's premier
+  recovery community center with over 120 weekly meetings for various 12-st
+ ep and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Basement.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f8aa9145e095057a@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T170000
+DTEND;TZID=America/Los_Angeles:20260104T180000
+SUMMARY:Alano Club of Portland: SAA: Steps Into Action
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nAddress:
+  909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: h
+ ttps://www.portlandalano.org\nDetails: Portland's premier recovery communi
+ ty center with over 120 weekly meetings for various 12-step and secular re
+ covery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a50e0e2177082bc1@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T120000
+DTEND;TZID=America/Los_Angeles:20260101T130000
+SUMMARY:Alano Club of Portland: Recovery Dharma
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: SE
+  Room.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-
+ 5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's premier 
+ recovery community center with over 120 weekly meetings for various 12-ste
+ p and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>SE Room.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0d5c57bf0b9986e4@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T190000
+DTEND;TZID=America/Los_Angeles:20260103T201500
+SUMMARY:Alano Club of Portland: Recovery Dharma: Meditation Sandwich
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Lo
+ ft.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-575
+ 6\nWebsite: https://www.portlandalano.org\nDetails: Portland's premier rec
+ overy community center with over 120 weekly meetings for various 12-step a
+ nd secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Loft.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:37b70b199cb50a4e@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T140000
+DTEND;TZID=America/Los_Angeles:20260101T150000
+SUMMARY:Alano Club of Portland: DDA: Thursday Meeting
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Bo
+ ard Room. Dual Diagnosis Anonymous.\nAddress: 909 NW 24th Avenue\, Portlan
+ d\, OR 97210\nPhone: 503-222-5756\nWebsite: https://www.portlandalano.org\
+ nDetails: Portland's premier recovery community center with over 120 weekl
+ y meetings for various 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Board Room. Dual Diagnosis Anonymous.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:42a73941da19a43a@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T100000
+DTEND;TZID=America/Los_Angeles:20260103T110000
+SUMMARY:Alano Club of Portland: DDA: Saturday Meeting
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Bo
+ ard Room. Dual Diagnosis Anonymous. CONFIRMED 2026-08-07 on the official g
+ rid - this is the Saturday Alano DDA meeting referenced in dda-oregon's op
+ en flags.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-2
+ 22-5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's premi
+ er recovery community center with over 120 weekly meetings for various 12-
+ step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Board Room. Dual Diagnosis Anonymous. CONFIRMED 2026-08-07 on the official grid - this is the Saturday Alano DDA meeting referenced in dda-oregon&#x27;s open flags.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b08f689c49c26474@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T110000
+DTEND;TZID=America/Los_Angeles:20260103T123000
+SUMMARY:Alano Club of Portland: Gamblers Anonymous
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: SE
+  Room.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-
+ 5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's premier 
+ recovery community center with over 120 weekly meetings for various 12-ste
+ p and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>SE Room.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ea21d61982e10469@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T090000
+DTEND;TZID=America/Los_Angeles:20260103T103000
+SUMMARY:Alano Club of Portland: Women For Sobriety
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Ca
+ fe.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-575
+ 6\nWebsite: https://www.portlandalano.org\nDetails: Portland's premier rec
+ overy community center with over 120 weekly meetings for various 12-step a
+ nd secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Cafe.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:95d11ba6d2b1e72c@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T183000
+DTEND;TZID=America/Los_Angeles:20260107T193000
+SUMMARY:Alano Club of Portland: SLAA: Anorexia Focus
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Bo
+ ard Room.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-2
+ 22-5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's premi
+ er recovery community center with over 120 weekly meetings for various 12-
+ step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Board Room.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1d1804cd3a9cf2c5@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T190000
+DTEND;TZID=America/Los_Angeles:20260107T200000
+SUMMARY:Alano Club of Portland: SLAA: Women's Honesty\, Openness and Willin
+ gness (WO)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Cl
+ ock Room.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-2
+ 22-5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's premi
+ er recovery community center with over 120 weekly meetings for various 12-
+ step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Clock Room.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:147496e329ea4f5f@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T213000
+DTEND;TZID=America/Los_Angeles:20260103T224500
+SUMMARY:Alano Club of Portland: SLAA: Real Love
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: SE
+  Room. Late evening meeting.\nAddress: 909 NW 24th Avenue\, Portland\, OR 
+ 97210\nPhone: 503-222-5756\nWebsite: https://www.portlandalano.org\nDetail
+ s: Portland's premier recovery community center with over 120 weekly meeti
+ ngs for various 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>SE Room. Late evening meeting.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:39692b03676412e8@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T190000
+DTEND;TZID=America/Los_Angeles:20260102T200000
+SUMMARY:Alano Club of Portland: Refuge Recovery
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Lo
+ ft.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-575
+ 6\nWebsite: https://www.portlandalano.org\nDetails: Portland's premier rec
+ overy community center with over 120 weekly meetings for various 12-step a
+ nd secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Loft.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:30548664c4dafea5@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T190000
+DTEND;TZID=America/Los_Angeles:20260101T203000
+SUMMARY:Alano Club of Portland: Recovery International
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Bo
+ ard Room.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-2
+ 22-5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's premi
+ er recovery community center with over 120 weekly meetings for various 12-
+ step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Board Room.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1d5773b9ae2fda82@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T190000
+DTEND;TZID=America/Los_Angeles:20260101T203000
+SUMMARY:Alano Club of Portland: DA: Peace & Prosperity
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Ca
+ fe. Debtors Anonymous.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\
+ nPhone: 503-222-5756\nWebsite: https://www.portlandalano.org\nDetails: Por
+ tland's premier recovery community center with over 120 weekly meetings fo
+ r various 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Cafe. Debtors Anonymous.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d26f16eddc078751@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T183000
+DTEND;TZID=America/Los_Angeles:20260101T193000
+SUMMARY:Alano Club of Portland: ITAA: Log Off!
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Cl
+ ock Room. Internet and Technology Addicts Anonymous.\nAddress: 909 NW 24th
+  Avenue\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: https://www.p
+ ortlandalano.org\nDetails: Portland's premier recovery community center wi
+ th over 120 weekly meetings for various 12-step and secular recovery progr
+ ams.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Clock Room. Internet and Technology Addicts Anonymous.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb624fa33ca66144@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T194500
+DTEND;TZID=America/Los_Angeles:20260107T204500
+SUMMARY:Alano Club of Portland: MA: A New Leaf
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: NE
+  Room. Marijuana Anonymous.\nAddress: 909 NW 24th Avenue\, Portland\, OR 9
+ 7210\nPhone: 503-222-5756\nWebsite: https://www.portlandalano.org\nDetails
+ : Portland's premier recovery community center with over 120 weekly meetin
+ gs for various 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>NE Room. Marijuana Anonymous.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c5aa32f84861e97b@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T153000
+DTEND;TZID=America/Los_Angeles:20260104T163000
+SUMMARY:Alano Club of Portland: SPAA: Awakenings
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Cl
+ ock Room.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-2
+ 22-5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's premi
+ er recovery community center with over 120 weekly meetings for various 12-
+ step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Clock Room.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ae1e1e62c2cd8119@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T184500
+DTEND;TZID=America/Los_Angeles:20260104T210000
+SUMMARY:Alano Club of Portland: Wellbriety
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Ba
+ sement.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222
+ -5756\nWebsite: https://www.portlandalano.org\nDetails: Portland's premier
+  recovery community center with over 120 weekly meetings for various 12-st
+ ep and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Basement.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e6998d1184a6f992@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T190000
+DTEND;TZID=America/Los_Angeles:20260101T200000
+SUMMARY:Alano Club of Portland: Mindfulness Meditation
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Lo
+ ft.\nAddress: 909 NW 24th Avenue\, Portland\, OR 97210\nPhone: 503-222-575
+ 6\nWebsite: https://www.portlandalano.org\nDetails: Portland's premier rec
+ overy community center with over 120 weekly meetings for various 12-step a
+ nd secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Loft.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
+URL:https://www.portlandalano.org
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:71f790604d335fd8@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T160000
+DTEND;TZID=America/Los_Angeles:20260103T170000
+SUMMARY:Alano Club of Portland: Sounds of Recovery
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Ba
+ sement. Music and recovery.\nAddress: 909 NW 24th Avenue\, Portland\, OR 9
+ 7210\nPhone: 503-222-5756\nWebsite: https://www.portlandalano.org\nDetails
+ : Portland's premier recovery community center with over 120 weekly meetin
+ gs for various 12-step and secular recovery programs.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Basement. Music and recovery.</p><p><strong>Address:</strong> 909 NW 24th Avenue, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org">https://www.portlandalano.org</a></p><p><strong>Details:</strong> Portland&#x27;s premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:909 NW 24th Avenue\, Portland\, OR 97210
 URL:https://www.portlandalano.org
@@ -1684,26 +2880,47 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:eb1faca9bd5fba8c@portlandresources.org
+UID:94efda47272343d2@portlandresources.org
 DTSTAMP:20260728T000000Z
-DTSTART;TZID=America/Los_Angeles:20260104T110000
-DTEND;TZID=America/Los_Angeles:20260104T123000
-SUMMARY:Food Court 5000 (Lloyd Center Mall Walking)
-DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 2201 Lloyd C
- enter\, Portland\, OR 97232\nWebsite: https://foodcourt5k.com/\nDetails: 1
- 980s/90s-themed indoor mall walking. Dress code: neon leggings\, acid-wash
- ed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at 
- food court. Lloyd Center closes permanently August 8\, 2026 - the last reg
- ular Sunday walk inside the mall is August 2\, with a final farewell walk 
- on Saturday August 8. The group continues afterward at rotating pop-up loc
- ations around Portland (some outdoors for late summer\, some indoors)\; a 
- permanent home is reportedly close to being finalized but was not announce
- d as of late July 2026.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 2201 Lloyd Center, Portland, OR 97232</p><p><strong>Website:</strong> <a href="https://foodcourt5k.com/">https://foodcourt5k.com/</a></p><p><strong>Details:</strong> 1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court. Lloyd Center closes permanently August 8, 2026 - the last regular Sunday walk inside the mall is August 2, with a final farewell walk on Saturday August 8. The group continues afterward at rotating pop-up locations around Portland (some outdoors for late summer, some indoors); a permanent home is reportedly close to being finalized but was not announced as of late July 2026.</p></BODY></HTML>
+DTSTART;TZID=America/Los_Angeles:20260808T110000
+DTEND;TZID=America/Los_Angeles:20260808T120000
+SUMMARY:Food Court 5000 (Lloyd Center Mall Walking): Final Lloyd Center Wal
+ k (Silent Disco)
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: One last walk o
+ n the mall's closing day\, with Heartbeat Silent Discos and Snap! Dance Pa
+ rty (~150 headphone sets\, $10 reservation). Starts 11am in the food court
+ . Part of the Aug 8 farewell day (Lloyderpalooza\, Pedalpalooza funeral ri
+ de\, Lloyd Fest 4-7pm).\nAddress: 2201 Lloyd Center\, Portland\, OR 97232\
+ nWebsite: https://foodcourt5k.com/\nDetails: 1980s/90s-themed indoor mall 
+ walking. Dress code: neon leggings\, acid-washed denim encouraged. Groups 
+ of 70+ regular attendees. Post-walk snacks at food court. Lloyd Center clo
+ ses permanently August 8\, 2026 - the last regular Sunday walk inside the 
+ mall is August 2\, with a final farewell walk on Saturday August 8. The gr
+ oup continues afterward at rotating pop-up locations around Portland (some
+  outdoors for late summer\, some indoors)\; a permanent home is reportedly
+  close to being finalized but was not announced as of late July 2026.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>One last walk on the mall&#x27;s closing day, with Heartbeat Silent Discos and Snap! Dance Party (~150 headphone sets, $10 reservation). Starts 11am in the food court. Part of the Aug 8 farewell day (Lloyderpalooza, Pedalpalooza funeral ride, Lloyd Fest 4-7pm).</p><p><strong>Address:</strong> 2201 Lloyd Center, Portland, OR 97232</p><p><strong>Website:</strong> <a href="https://foodcourt5k.com/">https://foodcourt5k.com/</a></p><p><strong>Details:</strong> 1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court. Lloyd Center closes permanently August 8, 2026 - the last regular Sunday walk inside the mall is August 2, with a final farewell walk on Saturday August 8. The group continues afterward at rotating pop-up locations around Portland (some outdoors for late summer, some indoors); a permanent home is reportedly close to being finalized but was not announced as of late July 2026.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:2201 Lloyd Center\, Portland\, OR 97232
 URL:https://foodcourt5k.com/
-RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20260803T065959Z
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d4864019dec4725a@portlandresources.org
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260804T190000
+DTEND;TZID=America/Los_Angeles:20260804T200000
+SUMMARY:Shift to Bikes: Foster Night Ride
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Meet 7pm\, ride
+  out 8pm\; 8-15 miles\, ends with a fire. Anchored to the confirmed Aug 4\
+ , 2026 ride on shift2bikes.org (event 23246).\nWebsite: https://shift2bike
+ s.org/calendar
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>Meet 7pm, ride out 8pm; 8-15 miles, ends with a fire. Anchored to the confirmed Aug 4, 2026 ride on shift2bikes.org (event 23246).</p><p><strong>Website:</strong> <a href="https://shift2bikes.org/calendar">https://shift2bikes.org/calendar</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Foster Food Carts (5205 SE Foster Rd\, at SE 52nd Ave)
+URL:https://shift2bikes.org/calendar
+RRULE:FREQ=WEEKLY;BYDAY=TU;INTERVAL=2
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2664,7 +3881,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2cd9fb858053dc3e@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260807T000000Z
 DTSTART;TZID=America/Los_Angeles:20260801T100000
 DTEND;TZID=America/Los_Angeles:20260801T160000
 SUMMARY:Tualatin Heritage Center: Northwest Fossil Fest
@@ -2679,6 +3896,68 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><H
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:8700 SW Sweek Drive\, Tualatin\, OR 97062
 URL:https://www.tualatinhistory.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:180600ab13298af1@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:Tualatin Heritage Center: Heritage Center 100th Anniversary Lecture
+ \, Part 3: How Our Building Became the Heritage Center
+DESCRIPTION:Category: Arts & Culture\nCost: FREE admission\nInfo: Part 3 of
+  the building's centennial lecture series. Time of day not published as of
+  early August 2026.\nAddress: 8700 SW Sweek Drive\, Tualatin\, OR 97062\nP
+ hone: 503-885-1926\nWebsite: https://www.tualatinhistory.org\nDetails: Fre
+ e local history museum with excellent family events. Fossil Fest is a high
+ light - 400+ attendees. Re-tiered from annual to quarterly audits in July 
+ 2026 - an annual cadence let the whole program list sit a full year stale\
+ , still advertising 2025 dates.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE admission</p><p>Part 3 of the building&#x27;s centennial lecture series. Time of day not published as of early August 2026.</p><p><strong>Address:</strong> 8700 SW Sweek Drive, Tualatin, OR 97062</p><p><strong>Phone:</strong> <a href="tel:503-885-1926">503-885-1926</a></p><p><strong>Website:</strong> <a href="https://www.tualatinhistory.org">https://www.tualatinhistory.org</a></p><p><strong>Details:</strong> Free local history museum with excellent family events. Fossil Fest is a highlight - 400+ attendees. Re-tiered from annual to quarterly audits in July 2026 - an annual cadence let the whole program list sit a full year stale, still advertising 2025 dates.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:8700 SW Sweek Drive\, Tualatin\, OR 97062
+URL:https://www.tualatinhistory.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:88595ac438b7c617@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Tualatin Heritage Center: Making History Today: The Man Behind Tual
+ atin Livability
+DESCRIPTION:Category: Arts & Culture\nCost: FREE admission\nInfo: Evening l
+ ecture. Time of day not published as of early August 2026.\nAddress: 8700 
+ SW Sweek Drive\, Tualatin\, OR 97062\nPhone: 503-885-1926\nWebsite: https:
+ //www.tualatinhistory.org\nDetails: Free local history museum with excelle
+ nt family events. Fossil Fest is a highlight - 400+ attendees. Re-tiered f
+ rom annual to quarterly audits in July 2026 - an annual cadence let the wh
+ ole program list sit a full year stale\, still advertising 2025 dates.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE admission</p><p>Evening lecture. Time of day not published as of early August 2026.</p><p><strong>Address:</strong> 8700 SW Sweek Drive, Tualatin, OR 97062</p><p><strong>Phone:</strong> <a href="tel:503-885-1926">503-885-1926</a></p><p><strong>Website:</strong> <a href="https://www.tualatinhistory.org">https://www.tualatinhistory.org</a></p><p><strong>Details:</strong> Free local history museum with excellent family events. Fossil Fest is a highlight - 400+ attendees. Re-tiered from annual to quarterly audits in July 2026 - an annual cadence let the whole program list sit a full year stale, still advertising 2025 dates.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:8700 SW Sweek Drive\, Tualatin\, OR 97062
+URL:https://www.tualatinhistory.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:81a04f3f6a39be83@portlandresources.org
+DTSTAMP:20260807T000000Z
+DTSTART;TZID=America/Los_Angeles:20260830T110000
+DTEND;TZID=America/Los_Angeles:20260830T120000
+SUMMARY:PCC Art Galleries: Marcus Fischer: We Are the Confluence of Two Riv
+ ers - closing performance
+DESCRIPTION:Category: Arts & Culture\nCost: FREE admission\nNote: All galle
+ ries free and open to the public\nInfo: Performance closing Fischer's exhi
+ bition at North View Gallery (on view as of July 2026).\nWebsite: https://
+ www.pcc.edu/galleries/\nDetails: Three free campus galleries featuring reg
+ ional and national artists. Student exhibitions in spring.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> FREE admission</p><p><em>All galleries free and open to the public</em></p><p>Performance closing Fischer&#x27;s exhibition at North View Gallery (on view as of July 2026).</p><p><strong>Website:</strong> <a href="https://www.pcc.edu/galleries/">https://www.pcc.edu/galleries/</a></p><p><strong>Details:</strong> Three free campus galleries featuring regional and national artists. Student exhibitions in spring.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:North View Gallery
+URL:https://www.pcc.edu/galleries/
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -3812,24 +5091,6 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><H
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Cathedral Park\, N Edison St & Pittsburg Ave\, Portland\, OR 97203
 URL:https://jazzoregon.org/
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:18a13a731b750ba1@portlandresources.org
-DTSTAMP:20260208T000000Z
-DTSTART;TZID=America/Los_Angeles:20260604T120000
-DTEND;TZID=America/Los_Angeles:20260604T130000
-SUMMARY:Noon Tunes at Pioneer Courthouse Square
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: 701 SW 6th A
- ve\, Portland\, OR 97204\nWebsite: https://www.thesquarepdx.org/\nDetails:
-  33+ years of free lunchtime concerts. 17 concerts per season. Presented b
- y 101.9 KINK. Food vendors on site. Art in The Park activities.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Events &amp; Festivals</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 701 SW 6th Ave, Portland, OR 97204</p><p><strong>Website:</strong> <a href="https://www.thesquarepdx.org/">https://www.thesquarepdx.org/</a></p><p><strong>Details:</strong> 33+ years of free lunchtime concerts. 17 concerts per season. Presented by 101.9 KINK. Food vendors on site. Art in The Park activities.</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:701 SW 6th Ave\, Portland\, OR 97204
-URL:https://www.thesquarepdx.org/
-RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20260801T065959Z
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT

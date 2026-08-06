@@ -40,22 +40,6 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:18a13a731b750ba1@portlandresources.org
-DTSTAMP:20260208T000000Z
-DTSTART;TZID=America/Los_Angeles:20260604T120000
-DTEND;TZID=America/Los_Angeles:20260604T130000
-SUMMARY:Noon Tunes at Pioneer Courthouse Square
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: 701 SW 6th A
- ve\, Portland\, OR 97204\nWebsite: https://www.thesquarepdx.org/\nDetails:
-  33+ years of free lunchtime concerts. 17 concerts per season. Presented b
- y 101.9 KINK. Food vendors on site. Art in The Park activities.
-LOCATION:701 SW 6th Ave\, Portland\, OR 97204
-URL:https://www.thesquarepdx.org/
-RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20260801T065959Z
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:a03980dd4d1f2b60@portlandresources.org
 DTSTAMP:20260415T000000Z
 DTSTART;VALUE=DATE:20260522

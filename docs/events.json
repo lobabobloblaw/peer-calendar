@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-28",
+  "generated": "2026-08-07",
   "count": 272,
   "categories": {
     "peer_support": "Peer Support",
@@ -1247,7 +1247,7 @@
           "name": "NAMI Family Support Group",
           "schedule": "1st & 3rd Mondays, 6:30-8pm",
           "format": "Virtual (Zoom)",
-          "notes": "For anyone who cares about someone with mental health condition. \u26a0\ufe0f VERIFY schedule by phone (sourced from NAMI Oregon directory)",
+          "notes": "For anyone who cares about someone with mental health condition. Schedule confirmed 2026-08-07 via namior.org (1st & 3rd Mondays 6:30-8pm via Zoom).",
           "audience": [
             "spanish_speaking",
             "women"
@@ -2187,45 +2187,69 @@
       "resource_type": "program",
       "programs": [
         {
-          "name": "Daily Meetings (Central Office)",
-          "schedule": "Mon-Fri 12-1pm",
-          "location": "521 SW 11th Ave (2nd floor)",
+          "name": "DDA at the 8x8",
+          "schedule": "Tuesdays 2-3pm",
+          "location": "8 NW 8th Ave, Portland",
           "cost": "FREE",
           "audience": []
         },
         {
-          "name": "Luke Dorf Meeting",
-          "schedule": "Mondays 12-1pm",
-          "location": "Luke Dorf, Inc., 9225 NE Halsey St",
+          "name": "DDA at the Mead Building",
+          "schedule": "Thursdays 11am-12pm",
+          "location": "Mead Building Basement, Portland",
           "cost": "FREE",
           "audience": []
         },
         {
-          "name": "Providence Medical Center Meeting",
-          "schedule": "Mondays 3:15-4:15pm",
-          "location": "Providence Medical Center, 5228 NE Hoyt St",
+          "name": "DDA at Garlington Wellness Center",
+          "schedule": "Fridays 11am-12pm",
+          "location": "3034 NE Martin Luther King Jr Blvd, Portland",
           "cost": "FREE",
           "audience": []
         },
         {
-          "name": "Taft Hotel Meeting",
-          "schedule": "Mondays 2-3pm",
-          "location": "Taft Hotel, 1337 SW Washington St",
+          "name": "DDA at New Narrative",
+          "schedule": "Mondays 11am-12pm",
+          "location": "1952 SE 122nd Ave, Portland",
           "cost": "FREE",
           "audience": []
         },
         {
-          "name": "Saturday Meeting",
+          "name": "DDA at Club Hope (Gresham)",
+          "schedule": "Tuesdays 5:30-6:30pm",
+          "location": "100 SE Cleveland Ave, Gresham",
+          "cost": "FREE",
+          "audience": []
+        },
+        {
+          "name": "DDA at True Colors Recovery",
+          "schedule": "Fridays 3-4pm",
+          "location": "3807 NE MLK Jr Blvd, Portland",
+          "cost": "FREE",
+          "audience": []
+        },
+        {
+          "name": "Saturday Meeting at Alano Club",
           "schedule": "Saturdays 10-11am",
-          "location": "Portland Alano Club (Board Room)",
+          "location": "Portland Alano Club, 909 NW 24th Ave (Board Room)",
           "cost": "FREE",
+          "notes": "Confirmed August 2026 on the Alano Club's own meeting grid (portlandalano.org/meetings).",
           "audience": []
         },
         {
-          "name": "Virtual Meeting",
-          "schedule": "Saturdays 10:30-11:30am PST",
+          "name": "Thursday Meeting at Alano Club",
+          "schedule": "Thursdays 2-3pm",
+          "location": "Portland Alano Club, 909 NW 24th Ave (Board Room)",
+          "cost": "FREE",
+          "notes": "Listed in ddainc.org's June 2026 national directory AND on the Alano Club's own grid.",
+          "audience": []
+        },
+        {
+          "name": "Online DDA Meetings",
+          "schedule": "Daily 10am and 5pm PT",
           "format": "Zoom",
           "cost": "FREE",
+          "notes": "Daily online meetings at 10am and 5pm Pacific, running since April 1, 2026 (ddainc.org/online-dda-meetings).",
           "audience": []
         }
       ],
@@ -2234,11 +2258,8 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [
-        "\u26a0\ufe0f VERIFY phone: website consistently shows 503-737-4126 (confirmed Feb 2026), we have 503-222-6484. Update phone after calling to confirm.",
-        "\u26a0\ufe0f VERIFY: DDA meeting at FolkTime (4837 NE Couch, Tue 2-3pm) still active?",
-        "\u26a0\ufe0f VERIFY: ddainc.org national directory shows different meetings (Fora Health Mon 3pm, Oregon Change Clinic Tue/Thu 12pm) than our stored schedule. Central office may have moved to 4141 SE Division St. Call 503-737-4126 to confirm.",
-        "\u26a0\ufe0f VERIFY: Virtual Sat 10:30-11:30am meeting not listed on ddaoregon.com. Sat 10-11am at Alano Club confirmed via portlandalano.org. Website is very outdated (copyright 2008).",
-        "\u26a0\ufe0f VERIFY: ddaoregon.com blocks automated access but loads in browser (Mar 17, 2026). Content may be outdated (copyright 2008). Call 503-222-6484 and 503-737-4126 to verify current meeting schedule."
+        "\u26a0\ufe0f VERIFY phone: website consistently shows 503-737-4126 (confirmed Feb 2026), we have 503-222-6484 (also on a Washington corrections resource listing for DDA Portland). Still needs a call to confirm which is current. 503-222-6484 is corroborated; ddaoregon.com is stale (copyright 2008).",
+        "\u26a0\ufe0f VERIFY legacy meetings: our stored Central Office daily meeting (521 SW 11th Ave), Luke Dorf (Mon 12pm), Providence (Mon 3:15pm), Taft Hotel (Mon 2pm) and FolkTime (Tue 2-3pm) meetings are NOT in ddainc.org's current national directory (June 2026), which lists a different Multnomah County line-up (now reflected in this entry's programs). The central office may have moved to 4141 SE Division St. Call 503-737-4126 / 503-222-6484 to confirm before relying on the legacy locations."
       ],
       "accessibility": [
         "transit_nearby"
@@ -2466,7 +2487,7 @@
       "pricing": {
         "description": "FREE"
       },
-      "hours": "Mon-Fri 9am-5pm",
+      "hours": "Drop-in center open daily 2-10pm (confirmed on 4drecovery.org, August 2026)",
       "eligibility": null,
       "features": [],
       "location_type": "physical",
@@ -2511,7 +2532,7 @@
         "young_adults"
       ],
       "audience_notes": "Youth-focused recovery community for ages 14-35. Community centers serve ages 18-35; adolescent services (14-17) are separate programs at separate locations.",
-      "notes": "Youth-focused (14-35) recovery community with peer mentors. Smit Center (Gresham) is the Multnomah County location. Previous SE 11th Ave Portland location is closed.",
+      "notes": "Youth-focused (14-35) recovery community with peer mentors. Smit Center (Gresham) is the Multnomah County location. The long-standing \"closed/relocating\" question is resolved (August 2026) - the Gresham drop-in center is operating daily 2-10pm. The separate new NE Portland Youth & Family Recovery Campus (NE 100th & E Burnside, days from opening) was destroyed by an arson fire on April 11-12, 2026; 4D is fundraising to rebuild it (KATU, May 5 2026). That campus never opened, so no published services were lost. Previous SE 11th Ave Portland location is closed.",
       "practical_tips": {
         "first_visit": "Just drop in during open hours - no appointment needed",
         "good_to_know": "Peer-led recovery community for young people ages 18-35. Multiple locations: Smit Center (Gresham), O'Rourke Center (Hillsboro), Clackamas County (Happy Valley). Accepts Medicaid/OHP for treatment services.",
@@ -3503,7 +3524,15 @@
       "features": [],
       "location_type": "physical",
       "resource_type": "program",
-      "programs": [],
+      "programs": [
+        {
+          "name": "Final Lloyd Center Walk (Silent Disco)",
+          "dates": "August 8, 2026",
+          "schedule": "11am",
+          "notes": "One last walk on the mall's closing day, with Heartbeat Silent Discos and Snap! Dance Party (~150 headphone sets, $10 reservation). Starts 11am in the food court. Part of the Aug 8 farewell day (Lloyderpalooza, Pedalpalooza funeral ride, Lloyd Fest 4-7pm).",
+          "audience": []
+        }
+      ],
       "dates": null,
       "schedule": "Every Sunday 11am-12:30pm",
       "schedule_start_date": null,
@@ -3563,8 +3592,10 @@
         },
         {
           "name": "Foster Night Ride",
-          "schedule": "Every other Tuesday",
-          "location": "Foster Food Carts (SE Foster Rd & SE 52nd Ave)",
+          "schedule": "Every other Tuesday 7pm",
+          "schedule_start_date": "2026-08-04",
+          "location": "Foster Food Carts (5205 SE Foster Rd, at SE 52nd Ave)",
+          "notes": "Meet 7pm, ride out 8pm; 8-15 miles, ends with a fire. Anchored to the confirmed Aug 4, 2026 ride on shift2bikes.org (event 23246).",
           "audience": []
         },
         {
@@ -6804,6 +6835,18 @@
           "name": "Arbor Month Poetry Contest",
           "schedule": "April",
           "audience": []
+        },
+        {
+          "name": "Heritage Center 100th Anniversary Lecture, Part 3: How Our Building Became the Heritage Center",
+          "dates": "August 5, 2026",
+          "notes": "Part 3 of the building's centennial lecture series. Time of day not published as of early August 2026.",
+          "audience": []
+        },
+        {
+          "name": "Making History Today: The Man Behind Tualatin Livability",
+          "dates": "October 7, 2026",
+          "notes": "Evening lecture. Time of day not published as of early August 2026.",
+          "audience": []
         }
       ],
       "dates": null,
@@ -6852,7 +6895,16 @@
       "features": [],
       "location_type": "physical",
       "resource_type": "place",
-      "programs": [],
+      "programs": [
+        {
+          "name": "Marcus Fischer: We Are the Confluence of Two Rivers - closing performance",
+          "dates": "August 30, 2026",
+          "schedule": "11am",
+          "location": "North View Gallery",
+          "notes": "Performance closing Fischer's exhibition at North View Gallery (on view as of July 2026).",
+          "audience": []
+        }
+      ],
       "dates": null,
       "schedule": null,
       "schedule_start_date": null,
@@ -10275,7 +10327,7 @@
         "description": "Pay-what-you-can",
         "notes": "Barter work program - work 15 minutes for a meal (when open)"
       },
-      "hours": "TEMPORARILY CLOSED - seeking new permanent location. No reopening date announced.",
+      "hours": "TEMPORARILY CLOSED - relocating to Lents. New home purchased June 2026 (5643 SE 83rd Ave); renovation underway. Once open, the cafe expects to operate Tue-Sat 10am-2pm (per HUD project filing).",
       "eligibility": null,
       "features": [],
       "location_type": "physical",
@@ -10286,7 +10338,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [
-        "\u26a0\ufe0f VERIFY - Cafe temporarily closed as of April 2026, seeking new permanent location. Plans to reopen but no date announced. Check website quarterly for reopening news."
+        "\u26a0\ufe0f VERIFY - Cafe closed since April 2026, but relocation is now confirmed - Sisters closed on a house at 5643 SE 83rd Ave (Lents) in June 2026 (OPB, July 6 2026), funded by a HUD grant (Portland Housing Bureau, Feb 2026). Expected hours once operational - Tue-Sat 10am-2pm. Watch for the opening announcement, then update address/hours and clear this flag."
       ],
       "accessibility": [
         "wheelchair_accessible",
@@ -13354,84 +13406,550 @@
       "pricing": {
         "description": "FREE"
       },
-      "hours": "Check website for meeting times - meetings run morning through evening, 7 days/week",
+      "hours": "Meetings daily from 6:30am to 9:45pm - 118 meetings per week across 25+ fellowships. Full grid at portlandalano.org/meetings",
       "eligibility": "Anyone seeking recovery from substance use and mental health disorders",
       "features": [],
       "location_type": "physical",
       "resource_type": "place",
       "programs": [
         {
-          "name": "Alcoholics Anonymous (AA)",
-          "schedule": "Multiple daily meetings",
+          "name": "AA: Dawn Patrol",
+          "schedule": "Daily 6:30-7:30am",
           "format": "In-person",
-          "audience": []
+          "notes": "Loft. Long-running daily early meeting.",
+          "audience": [
+            "women"
+          ]
         },
         {
-          "name": "Narcotics Anonymous (NA)",
-          "schedule": "Multiple weekly meetings",
+          "name": "AA: Noon Meetings",
+          "schedule": "Daily 12-1pm",
           "format": "In-person",
-          "audience": []
+          "notes": "Three to four concurrent options daily: Men's Clock Room (MO), Surrender at Noon (NE Room), and Women's Newcomer (WO, Basement).",
+          "audience": [
+            "women"
+          ]
         },
         {
-          "name": "Al-Anon",
-          "schedule": "Multiple weekly meetings",
+          "name": "AA: New Alternatives & Upstairs 5:30",
+          "schedule": "Daily 5:30-6:30pm",
           "format": "In-person",
-          "audience": []
+          "notes": "Two concurrent meetings daily (Basement and Loft).",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "AA: Recovery Sisters (WO) - Evening",
+          "schedule": "Mondays and Tuesdays 6:45-7:45pm",
+          "format": "In-person",
+          "notes": "Women's meeting.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "AA: Recovery Sisters (WO) - Wednesday Morning",
+          "schedule": "Wednesdays 10-11am",
+          "format": "In-person",
+          "notes": "Women's meeting.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "AA: Recovery Sisters (WO) - Afternoons",
+          "schedule": "Thursday-Sunday 3-4pm",
+          "format": "In-person",
+          "notes": "Women's meeting.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "AA: Young at Heart",
+          "schedule": "Mondays 7-8pm",
+          "format": "In-person",
+          "notes": "Young people's meeting, Basement.",
+          "audience": [
+            "young_adults"
+          ]
+        },
+        {
+          "name": "AA: For Musicians/Artists/Writers",
+          "schedule": "Tuesdays 7-8pm",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "AA: Whoopie Party",
+          "schedule": "Wednesdays 7-8pm",
+          "format": "In-person",
+          "notes": "Loft.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "AA: Soul Purpose Group",
+          "schedule": "Thursdays 7-8pm",
+          "format": "In-person",
+          "notes": "Basement.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "AA: Guys Night Out",
+          "schedule": "Thursdays 7:30-8:30pm",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "AA: Women's Sex Workers (WO)",
+          "schedule": "Fridays 3-4pm",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "AA: Tight Rope (GMO)",
+          "schedule": "Fridays 6:30-7:30pm",
+          "format": "In-person",
+          "notes": "Gay men's meeting.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "AA: NW Beginners",
+          "schedule": "Fridays 7-8pm",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "AA: Dignitaries Sympathy (MO)",
+          "schedule": "Sundays 8-9am",
+          "format": "In-person",
+          "notes": "Men's meeting, Loft.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "AA: Serenity Sisters (WO)",
+          "schedule": "Sundays 9-10am",
+          "format": "In-person",
+          "notes": "Women's meeting.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "AA: Now What",
+          "schedule": "Sundays 9:30-10:30am",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "AA: Beyond Belief (Secular)",
+          "schedule": "Sundays 10-11am",
+          "format": "In-person",
+          "notes": "Secular AA meeting, Board Room.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "NA: RITH",
+          "schedule": "Daily 3-4pm",
+          "format": "In-person",
+          "notes": "NE Room. Daily Narcotics Anonymous meeting.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "NA: LGBTQ+ Queer as Folk",
+          "schedule": "Wednesdays 7-8:15pm",
+          "format": "In-person",
+          "audience": [
+            "lgbtq"
+          ]
+        },
+        {
+          "name": "NA: A New Way to Live",
+          "schedule": "Sundays 9-10:30am",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "Al-Anon: NW at Noon",
+          "schedule": "Monday-Friday 12-1pm",
+          "format": "In-person",
+          "notes": "Loft. Weekday Al-Anon meeting.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "Al-Anon: Growing Towards Wisdom (MO)",
+          "schedule": "Wednesdays 6:15-7:30pm",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "Al-Anon: Weekend Survivors",
+          "schedule": "Mondays 5:45-6:45pm",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "Al-Anon: We Care",
+          "schedule": "Saturdays 5:30-6:30pm",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "Al-Anon: Early Morning Meditation",
+          "schedule": "Sundays 8:15-9:15am",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
         },
         {
           "name": "SMART Recovery",
-          "schedule": "Weekly meetings",
+          "schedule": "Mondays and Wednesdays 4-5pm",
           "format": "In-person",
-          "audience": []
+          "notes": "Cafe/SE Room.",
+          "audience": [
+            "women"
+          ]
         },
         {
-          "name": "Adult Children of Alcoholics (ACA)",
-          "schedule": "Weekly meetings",
+          "name": "SMART Recovery Friends & Family",
+          "schedule": "Mondays 5:30-7pm",
           "format": "In-person",
-          "audience": []
+          "notes": "Clock Room.",
+          "audience": [
+            "women"
+          ]
         },
         {
-          "name": "Codependents Anonymous (CODA)",
-          "schedule": "Weekly meetings",
+          "name": "ACA: True Selves",
+          "schedule": "Mondays 7-8:30pm",
           "format": "In-person",
-          "audience": []
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "ACA: ACA for Alcoholics",
+          "schedule": "Tuesdays 5-6pm",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "ACA: Gentleness, Love, Humor, Respect",
+          "schedule": "Wednesdays 6:30-8pm",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "ACA: A New Hope",
+          "schedule": "Saturdays 10-11am",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "ACA: Awareness",
+          "schedule": "Saturdays 12-1:30pm",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "CODA: The Way of CODA",
+          "schedule": "Mondays 7-8:30pm",
+          "format": "In-person",
+          "notes": "Board Room.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "CODA: Step Share",
+          "schedule": "Fridays 6:30-8pm",
+          "format": "In-person",
+          "notes": "Clock Room.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "CODA: Portland Men's CoDA (MO)",
+          "schedule": "Saturdays 7-8:30pm",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "CODA: PWL2M",
+          "schedule": "Sundays 10-11am",
+          "format": "In-person",
+          "notes": "Loft.",
+          "audience": [
+            "women"
+          ]
         },
         {
           "name": "RTS Recovery Yoga",
-          "schedule": "Tuesdays and Sundays 2pm",
+          "schedule": "Tuesdays and Sundays 2-3pm",
           "format": "In-person",
-          "notes": "\u26a0\ufe0f VERIFY days. Trauma-informed yoga for people in recovery, held in the Loft in partnership with Rayleen McMillan. The 2-3pm time is consistently reported, but three sources disagree on the days - this entry has Tue/Sun, while July 2026 searches returned both Sat/Wed and Wed/Sun. Only Wednesday appears in more than one. Days left unchanged rather than guessed; confirm against portlandalano.org or by phone.",
-          "audience": []
+          "notes": "Loft. Trauma-informed yoga for people in recovery, held in partnership with Rayleen McMillan. Days CONFIRMED 2026-08-07 against the official meeting grid at portlandalano.org/meetings (Tue + Sun 2-3pm), resolving the earlier three-source disagreement.",
+          "audience": [
+            "women"
+          ]
         },
         {
-          "name": "Heroin Anonymous (HA)",
-          "schedule": "Multiple weekly meetings",
+          "name": "HA: Women's Sunlight of the Spirit (WO)",
+          "schedule": "Tuesdays 7-8pm",
           "format": "In-person",
-          "audience": []
+          "notes": "Basement.",
+          "audience": [
+            "women"
+          ]
         },
         {
-          "name": "Sex Addicts Anonymous (SAA)",
-          "schedule": "Multiple weekly meetings",
+          "name": "HA: Candlelight",
+          "schedule": "Fridays 9-10pm",
           "format": "In-person",
-          "audience": []
+          "notes": "Basement.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "HA: The Way Out",
+          "schedule": "Sundays 4-5pm",
+          "format": "In-person",
+          "notes": "Loft.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "SAA: Thursday Group",
+          "schedule": "Thursdays 6:45-7:45pm",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "SAA: Touchstone",
+          "schedule": "Saturdays 9:30-11am",
+          "format": "In-person",
+          "notes": "Basement.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "SAA: Steps Into Action",
+          "schedule": "Sundays 5-6pm",
+          "format": "In-person",
+          "audience": [
+            "women"
+          ]
         },
         {
           "name": "Recovery Dharma",
-          "schedule": "Thursdays and Saturdays",
+          "schedule": "Thursdays 12-1pm",
           "format": "In-person",
-          "audience": []
+          "notes": "SE Room.",
+          "audience": [
+            "women"
+          ]
         },
         {
-          "name": "Dual Diagnosis Anonymous (DDA)",
-          "schedule": "Saturdays 10am",
+          "name": "Recovery Dharma: Meditation Sandwich",
+          "schedule": "Saturdays 7-8:15pm",
           "format": "In-person",
-          "audience": []
+          "notes": "Loft.",
+          "audience": [
+            "women"
+          ]
         },
         {
-          "name": "Gamblers Anonymous (GA)",
-          "schedule": "Saturdays 11am",
+          "name": "DDA: Thursday Meeting",
+          "schedule": "Thursdays 2-3pm",
           "format": "In-person",
-          "audience": []
+          "notes": "Board Room. Dual Diagnosis Anonymous.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "DDA: Saturday Meeting",
+          "schedule": "Saturdays 10-11am",
+          "format": "In-person",
+          "notes": "Board Room. Dual Diagnosis Anonymous. CONFIRMED 2026-08-07 on the official grid - this is the Saturday Alano DDA meeting referenced in dda-oregon's open flags.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "Gamblers Anonymous",
+          "schedule": "Saturdays 11am-12:30pm",
+          "format": "In-person",
+          "notes": "SE Room.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "Women For Sobriety",
+          "schedule": "Saturdays 9-10:30am",
+          "format": "In-person",
+          "notes": "Cafe.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "SLAA: Anorexia Focus",
+          "schedule": "Wednesdays 6:30-7:30pm",
+          "format": "In-person",
+          "notes": "Board Room.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "SLAA: Women's Honesty, Openness and Willingness (WO)",
+          "schedule": "Wednesdays 7-8pm",
+          "format": "In-person",
+          "notes": "Clock Room.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "SLAA: Real Love",
+          "schedule": "Saturdays 9:30-10:45pm",
+          "format": "In-person",
+          "notes": "SE Room. Late evening meeting.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "Refuge Recovery",
+          "schedule": "Fridays 7-8pm",
+          "format": "In-person",
+          "notes": "Loft.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "Recovery International",
+          "schedule": "Thursdays 7-8:30pm",
+          "format": "In-person",
+          "notes": "Board Room.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "DA: Peace & Prosperity",
+          "schedule": "Thursdays 7-8:30pm",
+          "format": "In-person",
+          "notes": "Cafe. Debtors Anonymous.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "ITAA: Log Off!",
+          "schedule": "Thursdays 6:30-7:30pm",
+          "format": "In-person",
+          "notes": "Clock Room. Internet and Technology Addicts Anonymous.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "MA: A New Leaf",
+          "schedule": "Wednesdays 7:45-8:45pm",
+          "format": "In-person",
+          "notes": "NE Room. Marijuana Anonymous.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "SPAA: Awakenings",
+          "schedule": "Sundays 3:30-4:30pm",
+          "format": "In-person",
+          "notes": "Clock Room.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "Wellbriety",
+          "schedule": "Sundays 6:45-9pm",
+          "format": "In-person",
+          "notes": "Basement.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "Mindfulness Meditation",
+          "schedule": "Thursdays 7-8pm",
+          "format": "In-person",
+          "notes": "Loft.",
+          "audience": [
+            "women"
+          ]
+        },
+        {
+          "name": "Sounds of Recovery",
+          "schedule": "Saturdays 4-5pm",
+          "format": "In-person",
+          "notes": "Basement. Music and recovery.",
+          "audience": [
+            "women"
+          ]
         }
       ],
       "dates": null,
@@ -13449,14 +13967,16 @@
         "isolation",
         "indoor"
       ],
-      "audience": [],
+      "audience": [
+        "women"
+      ],
       "audience_notes": null,
       "notes": "Portland's premier recovery community center with over 120 weekly meetings for various 12-step and secular recovery programs.",
       "practical_tips": {
         "first_visit": "Just walk in - no appointment needed. Check meeting schedule online first.",
         "registration": "None required",
         "what_to_bring": "Nothing required",
-        "good_to_know": "Over 120 weekly meetings including AA, NA, Al-Anon, SMART Recovery, HA, SAA, Recovery Dharma, DDA, GA, and many more. One of the largest recovery community centers in Portland. Coffee available at most meetings."
+        "good_to_know": "Over 110 weekly meetings including AA, NA, Al-Anon, SMART Recovery, ACA, CODA, HA, SAA, SLAA, Recovery Dharma, DDA, GA, MA, Women For Sobriety, Refuge Recovery, Wellbriety and many more - 118 meetings per week as of the August 2026 grid. One of the largest recovery community centers in Portland. Coffee available at most meetings."
       }
     },
     {
