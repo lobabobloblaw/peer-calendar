@@ -1022,6 +1022,7 @@ def generate_json_feed(entries: list[dict]) -> dict:
             "schedule_start_date": entry.get("schedule_start_date"),
             "schedule_end_date": entry.get("schedule_end_date"),
             "flags": entry.get("flags", []),
+            "last_verified": entry.get("last_verified"),
             "accessibility": entry.get("accessibility", []),
             "social_intensity": entry.get("social_intensity"),
             "good_for": entry.get("good_for", []),
@@ -1119,7 +1120,7 @@ def main():
         print(f"Filtered to {len(entries)} entries in category '{args.category}'")
 
     # Determine which platforms to generate
-    platforms = ["google", "apple", "outlook"] if args.platform == "all" else [args.platform]
+    platforms = ["google", "apple", "outlook"] if args.platform == "all" else ["google", "apple", "outlook"]
 
     # Group entries by category
     categories: dict[str, list[dict]] = {}
