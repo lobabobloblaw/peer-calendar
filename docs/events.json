@@ -51,6 +51,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "transit_nearby"
       ],
@@ -97,6 +98,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -148,6 +150,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -196,6 +199,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible",
         "low_vision_friendly"
@@ -244,6 +248,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible",
         "low_vision_friendly"
@@ -291,6 +296,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible",
         "low_vision_friendly"
@@ -337,6 +343,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [],
       "social_intensity": "solo",
       "good_for": [
@@ -379,6 +386,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [],
       "social_intensity": "solo",
       "good_for": [
@@ -420,6 +428,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [],
       "social_intensity": "solo",
       "good_for": [
@@ -482,6 +491,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [],
       "social_intensity": "one_on_one",
       "good_for": [
@@ -522,6 +532,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -568,6 +579,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -613,6 +625,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -659,6 +672,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -708,6 +722,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -756,6 +771,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -804,6 +820,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-25",
       "accessibility": [
         "transit_nearby"
       ],
@@ -847,6 +864,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-25",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -893,6 +911,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-25",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -940,6 +959,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-25",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -985,6 +1005,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-25",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -1068,6 +1089,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-25",
       "accessibility": [
         "transit_nearby"
       ],
@@ -1184,6 +1206,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "transit_nearby"
       ],
@@ -1336,6 +1359,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-08-07",
       "accessibility": [
         "transit_nearby"
       ],
@@ -1388,6 +1412,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -1437,6 +1462,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "transit_nearby"
       ],
@@ -1550,6 +1576,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-07-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -1600,6 +1627,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -1646,6 +1674,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -1692,6 +1721,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -1781,6 +1811,7 @@
       "flags": [
         "\u26a0\ufe0f VERIFY - Eastside (Thu 7-8:30pm) and LGBTQIA+ (Mon 7-8:30pm) confirmed July 2026. The Mental Healthcare Professionals group (Sat 10-11:30am) could NOT be confirmed from any published source this pass and may no longer run - confirm before relying on it. mentalhealthisforeveryone.com does not expose its schedule to search, so the chapter site itself needs a direct read."
       ],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "wheelchair_accessible",
         "low_vision_friendly"
@@ -1829,6 +1860,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-07",
       "accessibility": [
         "wheelchair_accessible",
         "low_vision_friendly"
@@ -1969,6 +2001,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "transit_nearby"
       ],
@@ -2018,6 +2051,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-07",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -2092,6 +2126,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-16",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -2142,6 +2177,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -2261,6 +2297,7 @@
         "\u26a0\ufe0f VERIFY phone: website consistently shows 503-737-4126 (confirmed Feb 2026), we have 503-222-6484 (also on a Washington corrections resource listing for DDA Portland). Still needs a call to confirm which is current. 503-222-6484 is corroborated; ddaoregon.com is stale (copyright 2008).",
         "\u26a0\ufe0f VERIFY legacy meetings: our stored Central Office daily meeting (521 SW 11th Ave), Luke Dorf (Mon 12pm), Providence (Mon 3:15pm), Taft Hotel (Mon 2pm) and FolkTime (Tue 2-3pm) meetings are NOT in ddainc.org's current national directory (June 2026), which lists a different Multnomah County line-up (now reflected in this entry's programs). The central office may have moved to 4141 SE Division St. Call 503-737-4126 / 503-222-6484 to confirm before relying on the legacy locations."
       ],
+      "last_verified": "2026-08-07",
       "accessibility": [
         "transit_nearby"
       ],
@@ -2326,6 +2363,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "asl_available",
         "low_vision_friendly"
@@ -2405,6 +2443,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2025-12-02",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -2453,6 +2492,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-12",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -2517,6 +2557,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-08-07",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -2566,6 +2607,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [],
       "social_intensity": "varies",
       "good_for": [
@@ -2604,6 +2646,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -2643,6 +2686,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-03",
       "accessibility": [],
       "social_intensity": "one_on_one",
       "good_for": [
@@ -2683,6 +2727,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "transit_nearby"
       ],
@@ -2732,6 +2777,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -2778,6 +2824,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "transit_nearby"
       ],
@@ -2823,6 +2870,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2025-11-25",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -2880,6 +2928,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "transit_nearby"
       ],
@@ -2976,6 +3025,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "transit_nearby"
       ],
@@ -3045,6 +3095,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-16",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -3104,6 +3155,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "transit_nearby"
       ],
@@ -3179,6 +3231,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-13",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -3253,6 +3306,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-05-01",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -3336,6 +3390,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-13",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -3406,6 +3461,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-13",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -3484,6 +3540,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-13",
       "accessibility": [
         "transit_nearby"
       ],
@@ -3540,6 +3597,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL - Lloyd Center closes permanently August 8, 2026 (Portland City Council denied appeals July 8, 2026; demolition approved). Recurring Sunday walks bounded with schedule_end_date 2026-08-02, the last regular Sunday inside the mall. A one-off farewell walk happens Sat August 8; it is described in notes rather than added as a program, because adding a programs list would suppress the entry-level recurring schedule. Group continues at pop-up locations TBA - check foodcourt5k.com or email foodcourt5000@gmail.com for the new location, then update address and schedule, reset schedule_end_date, and remove this flag."
       ],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -3621,6 +3679,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "transit_nearby"
       ],
@@ -3674,6 +3733,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-05-01",
       "accessibility": [
         "transit_nearby"
       ],
@@ -3727,6 +3787,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -3802,6 +3863,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-05-01",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -3849,6 +3911,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2025-12-02",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -3895,6 +3958,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2025-12-02",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -3997,6 +4061,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-01-27",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -4088,6 +4153,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-07",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -4160,6 +4226,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -4217,6 +4284,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-07",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -4268,6 +4336,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-07",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -4321,6 +4390,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "transit_nearby"
       ],
@@ -4401,6 +4471,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2025-12-02",
       "accessibility": [
         "transit_nearby"
       ],
@@ -4460,6 +4531,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-13",
       "accessibility": [
         "transit_nearby"
       ],
@@ -4531,6 +4603,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "transit_nearby"
       ],
@@ -4583,6 +4656,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-04-15",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -4704,6 +4778,7 @@
         "\ud83d\udcc5 DATE-SENSITIVE",
         "\u26a0\ufe0f VERIFY - Summer 2026 season confirmed as June 15 - August 23, with no classes June 19, July 3 or July 4. The class mix is reported as yoga, Zumba, total body circuit, tai chi, outdoor circuit, chair fitness, family classes, and Forest Bathing at Lowami Hart Woods Natural Area at 9am in June and July. The per-class day, time and park list is not published in a form reachable by search - it lives at thprd.org/activities/schedules/fitness-in-the-park/print/. Until that page is read directly, the six programs below stay bounded to the expired Winter/Spring term and this entry contributes nothing to the calendar."
       ],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -4749,6 +4824,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-15",
       "accessibility": [
         "varies"
       ],
@@ -4790,6 +4866,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-15",
       "accessibility": [
         "varies"
       ],
@@ -4852,6 +4929,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-13",
       "accessibility": [
         "transit_nearby"
       ],
@@ -4906,6 +4984,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-16",
       "accessibility": [
         "transit_nearby"
       ],
@@ -4946,6 +5025,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-15",
       "accessibility": [
         "transit_nearby"
       ],
@@ -4987,6 +5067,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "transit_nearby"
       ],
@@ -5036,6 +5117,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby",
@@ -5091,6 +5173,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-05-01",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -5142,6 +5225,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-07",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -5193,6 +5277,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-07",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -5241,6 +5326,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-07",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -5289,6 +5375,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-07",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby",
@@ -5341,6 +5428,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-07",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -5403,6 +5491,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "transit_nearby"
       ],
@@ -5450,6 +5539,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-13",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -5505,6 +5595,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -5545,6 +5636,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-07",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -5592,6 +5684,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-07",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby",
@@ -5643,6 +5736,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -5698,6 +5792,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -5775,6 +5870,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-05-01",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -5846,6 +5942,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -5924,6 +6021,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -5994,6 +6092,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -6050,6 +6149,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -6094,6 +6194,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "transit_nearby"
       ],
@@ -6143,6 +6244,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-16",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -6191,6 +6293,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "transit_nearby"
       ],
@@ -6258,6 +6361,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-13",
       "accessibility": [
         "transit_nearby"
       ],
@@ -6306,6 +6410,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "transit_nearby"
       ],
@@ -6346,6 +6451,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -6403,6 +6509,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -6482,6 +6589,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-13",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -6565,6 +6673,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-05-01",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -6666,6 +6775,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-05-01",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -6761,6 +6871,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -6856,6 +6967,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-08-07",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -6912,6 +7024,7 @@
       "flags": [
         "\u26a0\ufe0f VERIFY - The 2026-27 academic year exhibit schedule was not published as of late July 2026. North View is currently showing Marcus Fischer, \"We Are the Confluence of Two Rivers\", with a performance on Sunday August 30 at 11am, but no closing date is given. Note that the exhibits and galleries keys are descriptive only - generate_calendar.py reads entry-level dates and the programs list, so nothing under them reaches the calendar. To publish the August 30 performance it would need to move into programs with a dates field."
       ],
+      "last_verified": "2026-08-07",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -6959,6 +7072,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-07",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -7010,6 +7124,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -7078,6 +7193,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -7128,6 +7244,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-05-01",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -7189,6 +7306,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "transit_nearby"
       ],
@@ -7228,6 +7346,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-05-01",
       "accessibility": [
         "transit_nearby"
       ],
@@ -7268,6 +7387,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-05-01",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -7310,6 +7430,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-12",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -7361,6 +7482,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-02-08",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -7410,6 +7532,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-04-15",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -7463,6 +7586,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -7519,6 +7643,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-03-24",
       "accessibility": [],
       "social_intensity": "drop_in",
       "good_for": [
@@ -7570,6 +7695,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-03-24",
       "accessibility": [],
       "social_intensity": "drop_in",
       "good_for": [
@@ -7620,6 +7746,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -7673,6 +7800,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-03-24",
       "accessibility": [],
       "social_intensity": "drop_in",
       "good_for": [
@@ -7717,6 +7845,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-12",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -7766,6 +7895,7 @@
       "schedule_start_date": "2026-04-02",
       "schedule_end_date": "2026-10-01",
       "flags": [],
+      "last_verified": "2026-05-01",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -7815,6 +7945,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-05-01",
       "accessibility": [
         "transit_nearby"
       ],
@@ -7863,6 +7994,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -7911,6 +8043,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2025-12-02",
       "accessibility": [
         "transit_nearby"
       ],
@@ -7968,6 +8101,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -8018,6 +8152,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-03-17",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -8067,6 +8202,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-04-15",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -8115,6 +8251,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -8165,6 +8302,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -8212,6 +8350,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "transit_nearby"
       ],
@@ -8259,6 +8398,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -8306,6 +8446,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2025-12-02",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -8352,6 +8493,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "transit_nearby"
       ],
@@ -8398,6 +8540,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -8448,6 +8591,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -8496,6 +8640,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -8556,6 +8701,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -8606,6 +8752,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-29",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -8654,6 +8801,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -8708,6 +8856,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -8761,6 +8910,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -8809,6 +8959,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -8863,6 +9014,7 @@
         "\ud83d\udd04 SEASONAL",
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -8911,6 +9063,7 @@
         "\ud83d\udd04 SEASONAL",
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -8959,6 +9112,7 @@
         "\ud83d\udd04 SEASONAL",
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -9013,6 +9167,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-15",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -9065,6 +9220,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "transit_nearby"
       ],
@@ -9110,6 +9266,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "transit_nearby"
       ],
@@ -9150,6 +9307,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -9200,6 +9358,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-13",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -9249,6 +9408,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -9293,6 +9453,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "transit_nearby"
       ],
@@ -9333,6 +9494,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "transit_nearby"
       ],
@@ -9379,6 +9541,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -9425,6 +9588,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -9475,6 +9639,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -9537,6 +9702,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -9586,6 +9752,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "transit_nearby"
       ],
@@ -9628,6 +9795,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -9672,6 +9840,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -9742,6 +9911,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -9790,6 +9960,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -9833,6 +10004,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -9875,6 +10047,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -9929,6 +10102,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -9984,6 +10158,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10036,6 +10211,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10084,6 +10260,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10129,6 +10306,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10194,6 +10372,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -10250,6 +10429,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10297,6 +10477,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -10340,6 +10521,7 @@
       "flags": [
         "\u26a0\ufe0f VERIFY - Cafe closed since April 2026, but relocation is now confirmed - Sisters closed on a house at 5643 SE 83rd Ave (Lents) in June 2026 (OPB, July 6 2026), funded by a HUD grant (Portland Housing Bureau, Feb 2026). Expected hours once operational - Tue-Sat 10am-2pm. Watch for the opening announcement, then update address/hours and clear this flag."
       ],
+      "last_verified": "2026-08-07",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -10384,6 +10566,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -10429,6 +10612,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -10475,6 +10659,7 @@
       "flags": [
         "\u26a0\ufe0f VERIFY: Friday 8pm Langar not listed on website schedule page. Call 971-217-8577 to confirm."
       ],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10515,6 +10700,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -10561,6 +10747,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10602,6 +10789,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-01-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10646,6 +10834,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10691,6 +10880,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10731,6 +10921,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10774,6 +10965,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10818,6 +11010,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10870,6 +11063,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-01-31",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10923,6 +11117,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-01-31",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10975,6 +11170,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -11022,6 +11218,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -11076,6 +11273,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "varies"
       ],
@@ -11116,6 +11314,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "transit_nearby"
       ],
@@ -11182,6 +11381,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-30",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -11236,6 +11436,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-30",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -11296,6 +11497,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-30",
       "accessibility": [
         "transit_nearby"
       ],
@@ -11351,6 +11553,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-30",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -11395,6 +11598,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-30",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -11439,6 +11643,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-30",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -11485,6 +11690,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-30",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -11528,6 +11734,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-30",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -11572,6 +11779,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-30",
       "accessibility": [],
       "social_intensity": "drop_in",
       "good_for": [
@@ -11614,6 +11822,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-30",
       "accessibility": [],
       "social_intensity": "drop_in",
       "good_for": [
@@ -11661,6 +11870,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-30",
       "accessibility": [],
       "social_intensity": "drop_in",
       "good_for": [
@@ -11707,6 +11917,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-30",
       "accessibility": [],
       "social_intensity": "drop_in",
       "good_for": [
@@ -11753,6 +11964,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-30",
       "accessibility": [],
       "social_intensity": "drop_in",
       "good_for": [
@@ -11799,6 +12011,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-30",
       "accessibility": [],
       "social_intensity": "one_on_one",
       "good_for": [
@@ -11854,6 +12067,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -11923,6 +12137,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -11989,6 +12204,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -12032,6 +12248,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -12092,6 +12309,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -12132,6 +12350,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -12180,6 +12399,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -12226,6 +12446,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [],
       "social_intensity": "structured_group",
       "good_for": [
@@ -12277,6 +12498,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -12326,6 +12548,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -12380,6 +12603,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -12484,6 +12708,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -12531,6 +12756,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "transit_nearby"
       ],
@@ -12586,6 +12812,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -12677,6 +12904,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-13",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -12731,6 +12959,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -12783,6 +13012,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-07",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -12893,6 +13123,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -13028,6 +13259,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -13154,6 +13386,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "transit_nearby"
       ],
@@ -13200,6 +13433,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "varies"
       ],
@@ -13274,6 +13508,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -13317,6 +13552,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-03",
       "accessibility": [
         "transit_nearby"
       ],
@@ -13372,6 +13608,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "transit_nearby"
       ],
@@ -13957,6 +14194,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-08-07",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -14026,6 +14264,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-13",
       "accessibility": [
         "transit_nearby"
       ],
@@ -14099,6 +14338,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-15",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -14150,6 +14390,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -14199,6 +14440,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-29",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -14248,6 +14490,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-17",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -14296,6 +14539,7 @@
         "\ud83d\udd04 SEASONAL",
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-05-01",
       "accessibility": [
         "varies"
       ],
@@ -14342,6 +14586,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "varies"
       ],
@@ -14386,6 +14631,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "varies"
       ],
@@ -14431,6 +14677,7 @@
       "schedule_start_date": "2026-04-04",
       "schedule_end_date": "2026-11-28",
       "flags": [],
+      "last_verified": "2026-05-01",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -14478,6 +14725,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-22",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -14550,6 +14798,7 @@
         "\ud83d\udd04 SEASONAL",
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-01-17",
       "accessibility": [
         "wheelchair_accessible",
         "asl_available",
@@ -14606,6 +14855,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -14697,6 +14947,7 @@
         "\ud83d\udcc5 DATE-SENSITIVE",
         "\ud83d\udd04 SEASONAL"
       ],
+      "last_verified": "2026-03-24",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -14756,6 +15007,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-15",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby",
@@ -14807,6 +15059,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-13",
       "accessibility": [
         "transit_nearby"
       ],
@@ -14855,6 +15108,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-15",
       "accessibility": [
         "transit_nearby",
         "sliding_scale"
@@ -14901,6 +15155,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-15",
       "accessibility": [
         "varies"
       ],
@@ -15005,6 +15260,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-15",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -15077,6 +15333,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-13",
       "accessibility": [
         "wheelchair_accessible",
         "sliding_scale"
@@ -15175,6 +15432,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-02-13",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby",
@@ -15225,6 +15483,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-04-15",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -15289,6 +15548,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "transit_nearby",
         "wheelchair_accessible"
@@ -15347,6 +15607,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-04",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -15423,6 +15684,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-04",
       "accessibility": [],
       "social_intensity": "structured_group",
       "good_for": [
@@ -15504,6 +15766,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-04",
       "accessibility": [
         "transit_nearby"
       ],
@@ -15637,6 +15900,7 @@
       "flags": [
         "\u26a0\ufe0f VERIFY - Venue list still includes Five Oaks Museum, which closed permanently in April 2025. Re-check the full participating-venue list at multcolib.org/my-discovery-pass."
       ],
+      "last_verified": "2026-03-04",
       "accessibility": [],
       "social_intensity": null,
       "good_for": [
@@ -15679,6 +15943,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-04",
       "accessibility": [],
       "social_intensity": null,
       "good_for": [
@@ -15757,6 +16022,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-04",
       "accessibility": [],
       "social_intensity": null,
       "good_for": [
@@ -15852,6 +16118,7 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "flags": [],
+      "last_verified": "2026-03-04",
       "accessibility": [],
       "social_intensity": "one_on_one",
       "good_for": [
@@ -15913,6 +16180,7 @@
       "flags": [
         "\u26a0\ufe0f VERIFY - Group days and times sourced from briefencounters.org via search; the 4th Tuesday session's format (in-person vs virtual) is unconfirmed. Confirm both groups by phone at 503-699-8006."
       ],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "transit_nearby"
       ],
@@ -15989,6 +16257,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -16043,6 +16312,7 @@
         "\ud83d\udcc5 DATE-SENSITIVE",
         "\u26a0\ufe0f VERIFY - Season dates (June 20 - August 22, 2026) and the 22-plays/11-parks scale are confirmed, but the per-performance schedule of which play is at which park on which night was not retrievable by search. It lives at opsfest.org/season-chronological.html. Until that page is read directly this entry carries no parseable calendar events and appears only in the Resources directory. Capture the individual dates as programs with dates fields on the next pass."
       ],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "varies"
       ],
@@ -16094,6 +16364,7 @@
         "\ud83d\udcc5 DATE-SENSITIVE",
         "\u26a0\ufe0f VERIFY - Date (August 15, 2026), hours (9am-5pm) and location are well corroborated. Free admission is implied by the open-air street-festival format and its inclusion in free-event roundups, but is not stated outright on the organiser's page. Confirm before describing it as free in printed material."
       ],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -16163,6 +16434,7 @@
         "\ud83d\udd04 SEASONAL",
         "\u26a0\ufe0f VERIFY - Weekly Saturday 4-6pm slot and the August 8 and August 15 performers are confirmed, but the series start and end dates were not published in any source found. The two confirmed dates are listed as programs; the entry-level Saturday schedule is therefore suppressed by design until the full run is known. Get the season range from ventureportland.org and add schedule_start_date and schedule_end_date."
       ],
+      "last_verified": "2026-07-28",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
