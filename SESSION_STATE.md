@@ -1,7 +1,7 @@
 # Session State - Resume Point
 
-**Last Updated:** 2026-01-24
-**Current Phase:** Part 1 - Baseline Sweep **COMPLETE**
+**Last Updated:** 2026-08-06
+**Current Phase:** August 2026 web-verification **SHIPPED** — feeds auto-regenerate weekly (Mon 14:00 UTC)
 
 ## Quick Resume Commands
 ```bash
@@ -325,6 +325,13 @@ python scripts/audit_check.py
 ---
 
 ## Session Log
+- **2026-08-06 (wrap-up, local Kimi session)** — tables below are stale (January); this entry is the current truth:
+  - **August web-verification data patch shipped** (`8e3b207`): Alano Club of Portland entry with 62 programs (61 from the weekly grid), DDA/4D/Sisters/NAMI updates, Lloyd Center farewell walk, Foster Night Ride anchored. 345 ICS events/platform. Applied from `peer-calendar-aug-2026.patch` (kept in project root, safe to delete along with the duplicate root `sources.yaml`).
+  - **PR #12 merged** (housekeeping deletions) and **PR #23 merged** (quick filters, verified badges, deep links — badges now have data).
+  - **Issue #6 closed** (`39c768e`): weekly cron added to Generate Calendars (Mon 14:00 UTC). **Issue #9 closed** (`dcdd794`): 169 geocoded via `--force` Nominatim run (cache had stored old failures); nami-multnomah + south-barlow-berries placed by hand (OSM lacks house numbers there). ~34 remain ungeocodable by design ("Various parks" etc.).
+  - **Updates auto-post rule** (`44ef3f9`): `scripts/add_update_post.py` — CI appends one summary post/day to Updates when regeneration publishes changes; curated `--text` posts suppress the day's auto-post. Rule codified in CLAUDE.md data flow step 5. Aug 6 backfilled (2 posts, live).
+  - **Branches:** remote now only `main` + `claude/audit-content-HGGy2` (unmerged, 3mo old — review or delete).
+  - **Gotchas:** (1) git ops can hang minutes on iCloud-evicted files in this iCloud-synced Documents folder — unstick with `brctl download <file>`. (2) GitHub push-event delivery for Actions was delayed ~10 min today; delayed stale CI runs fail harmlessly on non-FF push — ignore red X's dated 2026-08-06. (3) `output/` is gitignored scratch; `docs/` is the published feed CI owns. (4) Untracked `guides/fitness_wellness-guide.md` predates today — decide whether to commit it.
 - **2026-01-24 (Session 7 - FINAL)**:
   - **BASELINE SWEEP COMPLETE** - All 213 entries verified
   - **parks_nature COMPLETE** (18 verified, 0 fixes needed)
