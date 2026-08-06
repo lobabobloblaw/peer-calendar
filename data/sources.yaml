@@ -598,8 +598,8 @@
   audience:
   - seniors
   notes: Oregon seniors 65+ can audit college classes free. Great for lifelong learners.
-  latitude: 45.514266
-  longitude: -122.395848
+  latitude: 45.514986
+  longitude: -122.398231
 ---
 ---
 - id: ride-connection
@@ -681,8 +681,8 @@
   - active
   - outdoor
   guide_location: activities-guide-1.md#essential-access-programs
-  latitude: 45.515185
-  longitude: -122.679066
+  latitude: 45.515756
+  longitude: -122.679
   notes: Free bike share membership for income-qualifying Portland residents. $0/month with $10 ebike credit.
 - id: spot-southwest
   name: SPOT Southwest (Free On-Demand Transit)
@@ -898,8 +898,8 @@
   - outdoor
   - new_to_area
   guide_location: activities-guide-1.md#essential-access-programs
-  latitude: 45.559068
-  longitude: -122.645968
+  latitude: 45.558938
+  longitude: -122.647522
   notes: Nonprofit bike shop on Alberta St. Affordable bikes, repairs, DIY workspace, and classes. Revenue supports free community
     bike programs.
 ---
@@ -983,9 +983,11 @@
   guide_location: activities-guide-2.md#mental-health-peer-support-groups
   notes: No diagnosis required for any groups. Groups are peer-led by trained volunteers with lived experience. NAMI Multnomah
     also runs family and caregiver groups that are deliberately not listed here, because this database covers groups people
-    attend for their own support - Family Support Group (Mondays 6-7:30pm, 1st Monday in person at Rose City Community
-    Collective), Parent Support Group (1st & 3rd Wednesdays 4-5:15pm), and Military Family Support Group (2nd Thursday
-    6-7:30pm). Refer family members to namimultnomah.org/family-support-groups or 503-228-5692.
+    attend for their own support - Family Support Group (Mondays 6-7:30pm, 1st Monday in person at Rose City Community Collective),
+    Parent Support Group (1st & 3rd Wednesdays 4-5:15pm), and Military Family Support Group (2nd Thursday 6-7:30pm). Refer
+    family members to namimultnomah.org/family-support-groups or 503-228-5692.
+  latitude: 45.519798
+  longitude: -122.472031
 - id: nami-clackamas
   name: NAMI Clackamas
   category: peer_support
@@ -1013,8 +1015,8 @@
   - name: NAMI Family Support Group
     schedule: 1st & 3rd Mondays, 6:30-8pm
     format: Virtual (Zoom)
-    notes: For anyone who cares about someone with mental health condition. Schedule confirmed 2026-08-07 via namior.org
-      (1st & 3rd Mondays 6:30-8pm via Zoom).
+    notes: For anyone who cares about someone with mental health condition. Schedule confirmed 2026-08-07 via namior.org (1st
+      & 3rd Mondays 6:30-8pm via Zoom).
   - name: Art with Heart (Creative Support Group)
     schedule: 2nd & 4th Thursdays
     location: Oregon City (in-person, address provided upon registration)
@@ -1037,7 +1039,8 @@
     format: Virtual (Zoom)
     audience:
     - bipoc
-    notes: Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIFY by phone — not visible on namicc.org support groups page as of April 2026. Call 503-344-5050 to confirm still active.
+    notes: Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIFY by phone — not visible on namicc.org support
+      groups page as of April 2026. Call 503-344-5050 to confirm still active.
   - name: Suicide Bereavement Support Group
     schedule: Online 1st Tuesday & 2nd/4th Wednesdays; In-person 4th Sunday
     format: Both virtual and in-person
@@ -1120,8 +1123,8 @@
   guide_location: activities-guide-2.md#crisis-resources
   notes: Free 24/7 crisis line and walk-in mental health center for Clackamas County. Peer-delivered services. Mobile crisis
     response available.
-  latitude: 45.443229
-  longitude: -122.580028
+  latitude: 45.44325
+  longitude: -122.579517
 - id: folktime
   name: FolkTime Peer Connection Centers
   category: peer_support
@@ -1196,16 +1199,16 @@
   - https://www.clackamas.us/behavioralhealth
   pricing:
     description: FREE
-  eligibility: Open to individuals receiving Peer Support services in Clackamas County. If you don't already have a Peer
-    Support Specialist, stop in to the clinic to get connected.
+  eligibility: Open to individuals receiving Peer Support services in Clackamas County. If you don't already have a Peer Support
+    Specialist, stop in to the clinic to get connected.
   programs:
   - name: ColorFlow
     schedule: 1st & 3rd Tuesdays, 10-11:30am
     schedule_start_date: 2026-08-01
     cost: FREE
     format: In-person
-    notes: Peer-led with Luna. A welcoming art group for creative self-expression and mindfulness through paint. Explore
-      emotions, connect with others, and find calm through color. No art experience needed.
+    notes: Peer-led with Luna. A welcoming art group for creative self-expression and mindfulness through paint. Explore emotions,
+      connect with others, and find calm through color. No art experience needed.
   - name: Intentional Silence & Meditation
     schedule: 2nd & 4th Tuesdays, 11am-12:30pm
     schedule_start_date: 2026-08-01
@@ -1276,8 +1279,8 @@
     Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026.
   flags:
   - 📅 DATE-SENSITIVE
-  latitude: 45.443229
-  longitude: -122.580028
+  latitude: 45.46134
+  longitude: -122.579054
 - id: northstar-clubhouse
   name: NorthStar Clubhouse
   category: peer_support
@@ -1459,16 +1462,15 @@
     contact: dbsalgbtqiazoom@gmail.com
     audience:
     - lgbtq
-    notes: In-person option confirmed July 2026 as 1st AND 3rd Mondays at the Q Center. Previously recorded as 1st
-      Monday only with the location distributed via Meetup. Q Center street address not yet confirmed - add it on
-      the next pass.
+    notes: In-person option confirmed July 2026 as 1st AND 3rd Mondays at the Q Center. Previously recorded as 1st Monday
+      only with the location distributed via Meetup. Q Center street address not yet confirmed - add it on the next pass.
   - name: Open to All (West Portland)
     schedule: Tuesdays 7pm
     format: Online
     contact: dbsawestportland@gmail.com
-    notes: dbsawestportland.org states the meeting starts at 7:00pm, with the room opening at 6:45pm for informal
-      chat beforehand. Previously recorded as 6:30-7:50pm, which the chapter's own meetings page does not support.
-      No end time is published, so the calendar assumes a one-hour block.
+    notes: dbsawestportland.org states the meeting starts at 7:00pm, with the room opening at 6:45pm for informal chat beforehand.
+      Previously recorded as 6:30-7:50pm, which the chapter's own meetings page does not support. No end time is published,
+      so the calendar assumes a one-hour block.
   - name: Open to All (Eastside)
     schedule: Thursdays 7:00-8:30pm PT
     format: Online
@@ -1481,10 +1483,10 @@
   eligibility: Open to all adults with any mental health condition (depression, bipolar, anxiety, PTSD, ADHD, etc.)
   member_liaison: dbsaportlandmemberliaison@gmail.com
   flags:
-  - ⚠️ VERIFY - Eastside (Thu 7-8:30pm) and LGBTQIA+ (Mon 7-8:30pm) confirmed July 2026. The Mental Healthcare
-    Professionals group (Sat 10-11:30am) could NOT be confirmed from any published source this pass and may no
-    longer run - confirm before relying on it. mentalhealthisforeveryone.com does not expose its schedule to
-    search, so the chapter site itself needs a direct read.
+  - ⚠️ VERIFY - Eastside (Thu 7-8:30pm) and LGBTQIA+ (Mon 7-8:30pm) confirmed July 2026. The Mental Healthcare Professionals
+    group (Sat 10-11:30am) could NOT be confirmed from any published source this pass and may no longer run - confirm before
+    relying on it. mentalhealthisforeveryone.com does not expose its schedule to search, so the chapter site itself needs
+    a direct read.
   last_verified: 2026-07-28
   next_audit: 2026-08-28
   audit_frequency: monthly
@@ -1766,8 +1768,8 @@
   guide_location: activities-guide-2.md#lgbtq-support
   notes: LGBTQ+ youth drop-in center (ages 13-24). Free resources including food, clothing, and gender-affirming supplies.
     Run by New Avenues for Youth.
-  latitude: 45.51585
-  longitude: -122.687127
+  latitude: 45.51578
+  longitude: -122.687115
 - id: dda-oregon
   name: Dual Diagnosis Anonymous (DDA) Oregon
   category: peer_support
@@ -1782,14 +1784,13 @@
   - http://ddaoregon.com/meeting.htm
   - https://ddainc.org/
   flags:
-  - '⚠️ VERIFY phone: website consistently shows 503-737-4126 (confirmed Feb 2026), we have 503-222-6484 (also on
-    a Washington corrections resource listing for DDA Portland). Still needs a call to confirm which is current.
-    503-222-6484 is corroborated; ddaoregon.com is stale (copyright 2008).'
-  - '⚠️ VERIFY legacy meetings: our stored Central Office daily meeting (521 SW 11th Ave), Luke Dorf (Mon 12pm),
-    Providence (Mon 3:15pm), Taft Hotel (Mon 2pm) and FolkTime (Tue 2-3pm) meetings are NOT in ddainc.org''s
-    current national directory (June 2026), which lists a different Multnomah County line-up (now reflected in
-    this entry''s programs). The central office may have moved to 4141 SE Division St. Call 503-737-4126 /
-    503-222-6484 to confirm before relying on the legacy locations.'
+  - '⚠️ VERIFY phone: website consistently shows 503-737-4126 (confirmed Feb 2026), we have 503-222-6484 (also on a Washington
+    corrections resource listing for DDA Portland). Still needs a call to confirm which is current. 503-222-6484 is corroborated;
+    ddaoregon.com is stale (copyright 2008).'
+  - '⚠️ VERIFY legacy meetings: our stored Central Office daily meeting (521 SW 11th Ave), Luke Dorf (Mon 12pm), Providence
+    (Mon 3:15pm), Taft Hotel (Mon 2pm) and FolkTime (Tue 2-3pm) meetings are NOT in ddainc.org''s current national directory
+    (June 2026), which lists a different Multnomah County line-up (now reflected in this entry''s programs). The central office
+    may have moved to 4141 SE Division St. Call 503-737-4126 / 503-222-6484 to confirm before relying on the legacy locations.'
   pricing:
     description: FREE
   programs:
@@ -2032,13 +2033,12 @@
   - indoor
   guide_location: activities-guide-2.md#recovery-support
   notes: Youth-focused (14-35) recovery community with peer mentors. Smit Center (Gresham) is the Multnomah County location.
-    The long-standing "closed/relocating" question is resolved (August 2026) - the Gresham drop-in center is operating
-    daily 2-10pm. The separate new NE Portland Youth & Family Recovery Campus (NE 100th & E Burnside, days from
-    opening) was destroyed by an arson fire on April 11-12, 2026; 4D is fundraising to rebuild it (KATU, May 5 2026).
-    That campus never opened, so no published services were lost.
-    Previous SE 11th Ave Portland location is closed.
-  latitude: 45.503271
-  longitude: -122.42733
+    The long-standing "closed/relocating" question is resolved (August 2026) - the Gresham drop-in center is operating daily
+    2-10pm. The separate new NE Portland Youth & Family Recovery Campus (NE 100th & E Burnside, days from opening) was destroyed
+    by an arson fire on April 11-12, 2026; 4D is fundraising to rebuild it (KATU, May 5 2026). That campus never opened, so
+    no published services were lost. Previous SE 11th Ave Portland location is closed.
+  latitude: 45.497862
+  longitude: -122.432988
 - id: peergalaxy
   name: PeerGalaxy Online Wellness Portal
   category: peer_support
@@ -2566,8 +2566,7 @@
   - Water fitness classes
   - Group fitness classes daily
   - Open gym
-  - Play swims (swimmers under 14 require direct supervision by adult 18+, per Oregon
-    pool code effective Feb 2, 2026)
+  - Play swims (swimmers under 14 require direct supervision by adult 18+, per Oregon pool code effective Feb 2, 2026)
   programs:
   - name: TeenForce
     schedule: Various
@@ -2712,8 +2711,8 @@
   guide_location: activities-guide-2.md#gresham-senior-center
   audience:
   - seniors
-  latitude: 45.50265
-  longitude: -122.425283
+  latitude: 45.502668
+  longitude: -122.425282
 - id: portland-running-company
   name: Portland Running Company Group Runs
   category: fitness_wellness
@@ -2788,16 +2787,19 @@
   schedule: Every Sunday 11am-12:30pm
   schedule_end_date: 2026-08-02
   flags:
-  - '⚠️ VERIFY - Lloyd Center closed permanently Aug 8, 2026. Food Court 5000 outlives the mall: weekly pop-up
-    walks at rotating Portland locations, then relocation to a new mall later in 2026 (organizer Krista Catwood,
-    via OregonLive Aug 4 2026). Update location/schedule once the pop-up calendar is announced on foodcourt5k.com.'
+  - 🔄 SEASONAL - Lloyd Center closes permanently August 8, 2026 (Portland City Council denied appeals July 8, 2026; demolition
+    approved). Recurring Sunday walks bounded with schedule_end_date 2026-08-02, the last regular Sunday inside the mall.
+    A one-off farewell walk happens Sat August 8; it is described in notes rather than added as a program, because adding
+    a programs list would suppress the entry-level recurring schedule. Group continues at pop-up locations TBA - check foodcourt5k.com
+    or email foodcourt5000@gmail.com for the new location, then update address and schedule, reset schedule_end_date, and
+    remove this flag.
   programs:
   - name: Final Lloyd Center Walk (Silent Disco)
     dates: August 8, 2026
     schedule: 11am
-    notes: One last walk on the mall's closing day, with Heartbeat Silent Discos and Snap! Dance Party (~150
-      headphone sets, $10 reservation). Starts 11am in the food court. Part of the Aug 8 farewell day
-      (Lloyderpalooza, Pedalpalooza funeral ride, Lloyd Fest 4-7pm).
+    notes: One last walk on the mall's closing day, with Heartbeat Silent Discos and Snap! Dance Party (~150 headphone sets,
+      $10 reservation). Starts 11am in the food court. Part of the Aug 8 farewell day (Lloyderpalooza, Pedalpalooza funeral
+      ride, Lloyd Fest 4-7pm).
   distance: 3.1 miles / 5K (two laps around mall, ~90 minutes)
   host: Vera Mysteria (Krista Catwood)
   rules:
@@ -2828,13 +2830,6 @@
     inside the mall is August 2, with a final farewell walk on Saturday August 8. The group continues afterward at rotating
     pop-up locations around Portland (some outdoors for late summer, some indoors); a permanent home is reportedly close to
     being finalized but was not announced as of late July 2026.'
-  flags:
-  - 🔄 SEASONAL - Lloyd Center closes permanently August 8, 2026 (Portland City Council denied appeals July 8, 2026; demolition
-    approved). Recurring Sunday walks bounded with schedule_end_date 2026-08-02, the last regular Sunday inside the mall.
-    A one-off farewell walk happens Sat August 8; it is described in notes rather than added as a program, because adding
-    a programs list would suppress the entry-level recurring schedule. Group continues at pop-up locations TBA - check
-    foodcourt5k.com or email foodcourt5000@gmail.com for the new location, then update address and schedule, reset
-    schedule_end_date, and remove this flag.
   last_verified: 2026-07-28
   next_audit: 2026-08-28
   audit_frequency: monthly
@@ -2898,8 +2893,8 @@
     schedule: Every other Tuesday 7pm
     schedule_start_date: 2026-08-04
     location: Foster Food Carts (5205 SE Foster Rd, at SE 52nd Ave)
-    notes: Meet 7pm, ride out 8pm; 8-15 miles, ends with a fire. Anchored to the confirmed Aug 4, 2026 ride
-      on shift2bikes.org (event 23246).
+    notes: Meet 7pm, ride out 8pm; 8-15 miles, ends with a fire. Anchored to the confirmed Aug 4, 2026 ride on shift2bikes.org
+      (event 23246).
   - name: Friday Night Ride
     schedule: Every Friday (check shift2bikes.org/calendar for meeting point)
   - name: Midnight Mystery Ride
@@ -3058,9 +3053,9 @@
     first_visit: Just show up during free climb times - no reservation needed. Complete waiver online or on-site.
     registration: Waiver required (available online or on-site). Minors need guardian signature.
     what_to_bring: Comfortable clothes and photo ID for residency verification. Rental shoes and chalk included.
-    good_to_know: Three free programs for Gresham residents - 1st Friday Community Climb (5-9pm, free for SNAP/EBT or
-      $5 suggested donation), 1st & 3rd Wednesday all-day climb (9am-9pm, free), and 1st & 3rd Saturday Teen Nights
-      (6-9pm, ages 13-18). May ask for ID to verify residency.
+    good_to_know: Three free programs for Gresham residents - 1st Friday Community Climb (5-9pm, free for SNAP/EBT or $5 suggested
+      donation), 1st & 3rd Wednesday all-day climb (9am-9pm, free), and 1st & 3rd Saturday Teen Nights (6-9pm, ages 13-18).
+      May ask for ID to verify residency.
   accessibility:
   - wheelchair_accessible
   accessibility_notes: Rock Haven facility is ADA accessible. Climbing walls have routes of varying difficulty.
@@ -3639,7 +3634,7 @@
   - https://www.portland.gov/parks/recreation/fitness-park
   pricing:
     description: FREE
-  season: 'May-September 2026 (Spring phase starts May 4; Summer Free For All runs June 22 - September 27)'
+  season: May-September 2026 (Spring phase starts May 4; Summer Free For All runs June 22 - September 27)
   locations:
     spring:
     - Irving Park
@@ -3688,8 +3683,8 @@
   - https://www.thprd.org/fitness-in-the-park
   pricing:
     description: FREE
-  season: Year-round; session schedules change each term. Summer 2026 runs June 15 - August 23, with no classes
-    on June 19, July 3 or July 4. The prior Winter/Spring term ran January 12 - March 22.
+  season: Year-round; session schedules change each term. Summer 2026 runs June 15 - August 23, with no classes on June 19,
+    July 3 or July 4. The prior Winter/Spring term ran January 12 - March 22.
   programs:
   - name: Tai Chi at The Opal
     schedule: Mondays 4-5pm
@@ -3736,12 +3731,12 @@
   eligibility: All ages (varies by class)
   flags:
   - 📅 DATE-SENSITIVE
-  - ⚠️ VERIFY - Summer 2026 season confirmed as June 15 - August 23, with no classes June 19, July 3 or July 4.
-    The class mix is reported as yoga, Zumba, total body circuit, tai chi, outdoor circuit, chair fitness, family
-    classes, and Forest Bathing at Lowami Hart Woods Natural Area at 9am in June and July. The per-class day,
-    time and park list is not published in a form reachable by search - it lives at
-    thprd.org/activities/schedules/fitness-in-the-park/print/. Until that page is read directly, the six programs
-    below stay bounded to the expired Winter/Spring term and this entry contributes nothing to the calendar.
+  - ⚠️ VERIFY - Summer 2026 season confirmed as June 15 - August 23, with no classes June 19, July 3 or July 4. The class
+    mix is reported as yoga, Zumba, total body circuit, tai chi, outdoor circuit, chair fitness, family classes, and Forest
+    Bathing at Lowami Hart Woods Natural Area at 9am in June and July. The per-class day, time and park list is not published
+    in a form reachable by search - it lives at thprd.org/activities/schedules/fitness-in-the-park/print/. Until that page
+    is read directly, the six programs below stay bounded to the expired Winter/Spring term and this entry contributes nothing
+    to the calendar.
   last_verified: 2026-07-28
   next_audit: 2026-08-28
   audit_frequency: monthly
@@ -3818,7 +3813,8 @@
   - trans_nonbinary
   audience_notes: Welcoming space specifically for women, trans, and non-binary people
   guide_location: activities-guide-1.md#nature-activities
-  notes: Meditative slow-paced bird walks perfect for those seeking calm outdoor connection. Welcoming space for women, trans, and non-binary people.
+  notes: Meditative slow-paced bird walks perfect for those seeking calm outdoor connection. Welcoming space for women, trans,
+    and non-binary people.
 - id: tergar-meditation-portland
   name: Tergar Meditation Community of Portland
   category: fitness_wellness
@@ -3892,8 +3888,8 @@
   - indoor
   guide_location: activities-guide-1.md#meditation
   notes: Daily virtual + weekly in-person meditation. Gift economy model.
-  latitude: 45.51273
-  longitude: -122.640013
+  latitude: 45.512728
+  longitude: -122.640024
 - id: decompress-connect-meditation
   name: Decompress + Connect Meditation Group
   category: fitness_wellness
@@ -3910,8 +3906,8 @@
   last_verified: 2026-04-15
   next_audit: 2026-07-15
   audit_frequency: quarterly
-  practical_tips: Meetings now held at TaborSpace in SE Portland (moved from Portland Shambhala Center). 30 minutes silent meditation followed
-    by meditative talking circle and social time. All traditions welcome. Good for connecting with others.
+  practical_tips: Meetings now held at TaborSpace in SE Portland (moved from Portland Shambhala Center). 30 minutes silent
+    meditation followed by meditative talking circle and social time. All traditions welcome. Good for connecting with others.
   accessibility:
   - transit_nearby
   social_intensity: casual_group
@@ -3922,6 +3918,8 @@
   - new_to_area
   guide_location: activities-guide-1.md#meditation
   notes: Meditation plus talking circle - good for those wanting both practice and connection
+  latitude: 45.516898
+  longitude: -122.607163
 - id: mazamas-street-rambles
   name: Mazamas Street Rambles
   category: fitness_wellness
@@ -4010,7 +4008,8 @@
   - https://omsi.edu/visit-omsi/admission-discounts/
   hours: Tue-Fri 9:30am-5:30pm; Sat 9:30am-7pm; Sun 9:30am-5:30pm; Mon closed
   pricing:
-    description: $22.50 adults (14+); $20.50 seniors (63+); $15.50 youth (3-13); free under 3; $5 First Sunday; $5 Arts for All (EBT/SNAP/WIC/TANF/Medicaid/OHP)
+    description: $22.50 adults (14+); $20.50 seniors (63+); $15.50 youth (3-13); free under 3; $5 First Sunday; $5 Arts for
+      All (EBT/SNAP/WIC/TANF/Medicaid/OHP)
     notes: Arts for All provides up to 4 tickets at $5 each for EBT/SNAP/WIC/TANF/Medicaid/OHP recipients (any state); up
       to 55% off OMSI for 2, Family, Family Plus, and Patron memberships
   programs:
@@ -4035,8 +4034,8 @@
   - family_friendly
   - active
   guide_location: activities-guide-1.md#museums
-  latitude: 45.507974
-  longitude: -122.663738
+  latitude: 45.508089
+  longitude: -122.663725
 - id: academy-theater
   name: Academy Theater
   category: arts_culture
@@ -4563,8 +4562,8 @@
   next_audit: 2026-07-22
   audit_frequency: quarterly
   guide_location: activities-guide-2.md#always-free-museums
-  latitude: 45.507222
-  longitude: -122.661543
+  latitude: 45.507274
+  longitude: -122.661625
 - id: clackamas-county-libraries
   name: Clackamas County Libraries (LINCC)
   category: arts_culture
@@ -4795,8 +4794,8 @@
   - low_energy
   guide_location: activities-guide-1.md#arts-and-culture
   notes: Affordable planetarium shows in East County. Different astronomy topic each month. Perfect for families.
-  latitude: 45.514266
-  longitude: -122.395848
+  latitude: 45.514986
+  longitude: -122.398231
 - id: old-church-concerts
   name: The Old Church Concert Hall
   category: arts_culture
@@ -4931,7 +4930,7 @@
   - low_energy
   guide_location: activities-guide-1.md#museums
   latitude: 45.516325
-  longitude: -122.627898
+  longitude: -122.627897
 - id: turn-turn-turn
   name: Turn! Turn! Turn!
   category: arts_culture
@@ -4974,8 +4973,8 @@
   - indoor
   - isolation
   guide_location: activities-guide-1.md#entertainment
-  latitude: 45.562554
-  longitude: -122.666715
+  latitude: 45.562598
+  longitude: -122.666744
 - id: laurelthirst-pub
   name: Laurelthirst Public House
   category: arts_culture
@@ -5354,8 +5353,8 @@
     notes: 2026 date confirmed as August 1. Draws 400+ visitors - arrive early.
   - name: Old Fashioned Christmas
     cost: FREE
-    notes: Annual December event. The 2026 date was not published as of late July 2026, so no date is recorded
-      here rather than carrying the stale 2025 one. Check tualatinhistory.org/events in the fall.
+    notes: Annual December event. The 2026 date was not published as of late July 2026, so no date is recorded here rather
+      than carrying the stale 2025 one. Check tualatinhistory.org/events in the fall.
   - name: Memorial Day Celebration
     notes: Honors veterans, kicks off city celebrations
   - name: Arbor Month Poetry Contest
@@ -5371,9 +5370,9 @@
     dates: September 11, 2026
     schedule: 5:30-8:30pm
     cost: $50
-    notes: The society's single annual fundraiser. 2026 event is Friday, September 11, 2026, 5:30-8:30pm, with a
-      "Half a Grand" raffle - tickets on sale at tualatinhistory.org/heritage-evening. The 2025 edition was
-      September 5 and featured Oregon Cowboy Poet Tom Swearingen.
+    notes: The society's single annual fundraiser. 2026 event is Friday, September 11, 2026, 5:30-8:30pm, with a "Half a Grand"
+      raffle - tickets on sale at tualatinhistory.org/heritage-evening. The 2025 edition was September 5 and featured Oregon
+      Cowboy Poet Tom Swearingen.
   last_verified: 2026-08-07
   next_audit: 2026-11-07
   audit_frequency: quarterly
@@ -5389,9 +5388,9 @@
   - family_friendly
   - indoor
   guide_location: activities-guide-1.md#museums
-  notes: Free local history museum with excellent family events. Fossil Fest is a highlight - 400+ attendees.
-    Re-tiered from annual to quarterly audits in July 2026 - an annual cadence let the whole program list sit a
-    full year stale, still advertising 2025 dates.
+  notes: Free local history museum with excellent family events. Fossil Fest is a highlight - 400+ attendees. Re-tiered from
+    annual to quarterly audits in July 2026 - an annual cadence let the whole program list sit a full year stale, still advertising
+    2025 dates.
   flags:
   - 📅 DATE-SENSITIVE
   latitude: 45.386282
@@ -5457,11 +5456,11 @@
   eligibility: Open to the public
   parking: Weekday permits required at kiosks; free on weekends
   flags:
-  - ⚠️ VERIFY - The 2026-27 academic year exhibit schedule was not published as of late July 2026. North View is
-    currently showing Marcus Fischer, "We Are the Confluence of Two Rivers", with a performance on Sunday August
-    30 at 11am, but no closing date is given. Note that the exhibits and galleries keys are descriptive only -
-    generate_calendar.py reads entry-level dates and the programs list, so nothing under them reaches the
-    calendar. To publish the August 30 performance it would need to move into programs with a dates field.
+  - ⚠️ VERIFY - The 2026-27 academic year exhibit schedule was not published as of late July 2026. North View is currently
+    showing Marcus Fischer, "We Are the Confluence of Two Rivers", with a performance on Sunday August 30 at 11am, but no
+    closing date is given. Note that the exhibits and galleries keys are descriptive only - generate_calendar.py reads entry-level
+    dates and the programs list, so nothing under them reaches the calendar. To publish the August 30 performance it would
+    need to move into programs with a dates field.
   last_verified: 2026-08-07
   next_audit: 2026-10-28
   audit_frequency: quarterly
@@ -5522,8 +5521,8 @@
   - creative
   guide_location: activities-guide-1.md#arts-and-culture
   notes: Community college theater with professional-quality productions. Drama, comedy, and musicals.
-  latitude: 45.441398
-  longitude: -122.733741
+  latitude: 45.439926
+  longitude: -122.727278
 - id: mhcc-visual-arts-gallery
   name: MHCC Visual Arts Gallery
   category: arts_culture
@@ -5566,8 +5565,8 @@
   - creative
   guide_location: activities-guide-1.md#arts-and-culture
   notes: Free gallery in East County featuring diverse contemporary and traditional art. Peaceful forest campus setting.
-  latitude: 45.514266
-  longitude: -122.395848
+  latitude: 45.514986
+  longitude: -122.398231
 - id: scrap-pdx
   name: SCRAP PDX Creative Reuse
   category: arts_culture
@@ -5711,7 +5710,7 @@
   - indoor
   guide_location: activities-guide-1.md#writing-groups
   notes: Very welcoming poetry open mic in cozy coffeehouse - great for first-timers
-  latitude: 45.562923
+  latitude: 45.562922
   longitude: -122.686181
 - id: willamette-writers
   name: Willamette Writers
@@ -5881,6 +5880,8 @@
   notes: 60+ events over 3 weeks. 500,000+ attend Grand Floral Parade.
   flags:
   - 📅 DATE-SENSITIVE
+  latitude: 45.521571
+  longitude: -122.670316
 - id: delta-park-powwow
   name: Delta Park Powwow and Encampment
   category: events
@@ -5964,8 +5965,8 @@
   notes: Annual Nordic solstice celebration at Nordic Northwest Campus.
   flags:
   - 📅 DATE-SENSITIVE
-  latitude: 45.456129
-  longitude: -122.76743
+  latitude: 45.456126
+  longitude: -122.767331
 - id: portland-highland-games
   name: Portland Highland Games
   category: events
@@ -6168,8 +6169,8 @@
   - anxiety_friendly
   - new_to_area
   guide_location: activities-guide-1.md#free-galleries-and-art-walks
-  notes: Since 1986. Indoor gallery openings happen year-round; outdoor Street Gallery runs April-October on NW 13th Ave
-    (~100 local artists, 4 blocks). Calendar entries reflect the April-October Street Gallery season; year-round indoor gallery
+  notes: Since 1986. Indoor gallery openings happen year-round; outdoor Street Gallery runs April-October on NW 13th Ave (~100
+    local artists, 4 blocks). Calendar entries reflect the April-October Street Gallery season; year-round indoor gallery
     openings continue every first Thursday.
   latitude: 45.529044
   longitude: -122.681598
@@ -6441,8 +6442,8 @@
   guide_location: activities-guide-2.md#summer-festivals
   flags:
   - 📅 DATE-SENSITIVE
-  latitude: 45.498689
-  longitude: -122.393768
+  latitude: 45.499036
+  longitude: -122.426781
 - id: india-festival
   name: India Festival
   category: events
@@ -6625,8 +6626,8 @@
   guide_location: activities-guide-2.md#cultural-festivals
   flags:
   - 📅 DATE-SENSITIVE
-  latitude: 45.550979
-  longitude: -122.680485
+  latitude: 45.550984
+  longitude: -122.680486
 - id: portland-greek-festival
   name: Portland Greek Festival
   category: events
@@ -6700,8 +6701,8 @@
   guide_location: activities-guide-2.md#cultural-festivals
   flags:
   - 📅 DATE-SENSITIVE
-  latitude: 45.498689
-  longitude: -122.393768
+  latitude: 45.499036
+  longitude: -122.426781
 - id: happy-valley-july4
   name: Happy Valley Fourth of July Festival
   category: events
@@ -7121,8 +7122,8 @@
   eligibility: Open to the public
   last_verified: 2026-04-15
   next_audit: 2027-01-15
-  notes: Free annual celebration of African cinema during Black History Month (typically February through early March).
-    36+ years running. Community discussions after films. 2026 festival (36th) ran February 6 - March 7. 2027 dates TBD (typically
+  notes: Free annual celebration of African cinema during Black History Month (typically February through early March). 36+
+    years running. Community discussions after films. 2026 festival (36th) ran February 6 - March 7. 2027 dates TBD (typically
     announced in January).
   audit_frequency: annually
   practical_tips:
@@ -7390,8 +7391,8 @@
   - low_energy
   guide_location: activities-guide-1.md#metro-regional-natural-areas
   notes: Portland's first wildlife refuge, 175+ bird species, very few visitors
-  latitude: 45.46403
-  longitude: -122.649025
+  latitude: 45.464322
+  longitude: -122.650025
 - id: cooper-mountain
   name: Cooper Mountain Nature Park
   category: parks_nature
@@ -7672,8 +7673,8 @@
   - active
   - anxiety_friendly
   guide_location: activities-guide-2.md#disc-golf
-  latitude: 45.555935
-  longitude: -122.445195
+  latitude: 45.555939
+  longitude: -122.445197
 - id: main-city-park-gresham
   name: Main City Park (Gresham)
   category: parks_nature
@@ -7725,8 +7726,8 @@
   guide_location: activities-guide-1.md#parks-and-nature
   notes: Central Gresham park hosting festivals, concerts, and community events. Tsuru Island Japanese Garden maintained by
     volunteers since 1970s.
-  latitude: 45.495626
-  longitude: -122.430965
+  latitude: 45.49563
+  longitude: -122.430967
 - id: graham-oaks
   name: Graham Oaks Nature Park
   category: parks_nature
@@ -7816,8 +7817,8 @@
   - anxiety_friendly
   - active
   guide_location: activities-guide-1.md#metro-natural-areas
-  latitude: 45.4023
-  longitude: -122.5647
+  latitude: 45.420288
+  longitude: -122.550956
 - id: cook-park-tigard
   name: Cook Park
   category: parks_nature
@@ -7962,6 +7963,8 @@
   notes: Most accessible option for peer support programs - accepts EBT
   flags:
   - 🔄 SEASONAL
+  latitude: 45.18695
+  longitude: -122.722062
 - id: columbia-farms
   name: Columbia Farms U-Pick
   category: food_farms
@@ -8157,7 +8160,8 @@
   address: 618 NW Davis St, Portland, OR 97209
   phone: 503-222-5694
   website: https://sistersoftheroad.org
-  hours: 'TEMPORARILY CLOSED - relocating to Lents. New home purchased June 2026 (5643 SE 83rd Ave); renovation underway. Once open, the cafe expects to operate Tue-Sat 10am-2pm (per HUD project filing).'
+  hours: TEMPORARILY CLOSED - relocating to Lents. New home purchased June 2026 (5643 SE 83rd Ave); renovation underway. Once
+    open, the cafe expects to operate Tue-Sat 10am-2pm (per HUD project filing).
   source_urls:
   - https://sistersoftheroad.org
   - https://www.opb.org/article/2026/07/06/think-out-loud-sisters-of-the-road-moves-portland-lents/
@@ -8179,10 +8183,9 @@
   guide_location: activities-guide-1.md#community-meal-programs
   notes: Welcoming community space emphasizing dignity and autonomy
   flags:
-  - '⚠️ VERIFY - Cafe closed since April 2026, but relocation is now confirmed - Sisters closed on a house at
-    5643 SE 83rd Ave (Lents) in June 2026 (OPB, July 6 2026), funded by a HUD grant (Portland Housing Bureau,
-    Feb 2026). Expected hours once operational - Tue-Sat 10am-2pm. Watch for the opening announcement, then
-    update address/hours and clear this flag.'
+  - ⚠️ VERIFY - Cafe closed since April 2026, but relocation is now confirmed - Sisters closed on a house at 5643 SE 83rd
+    Ave (Lents) in June 2026 (OPB, July 6 2026), funded by a HUD grant (Portland Housing Bureau, Feb 2026). Expected hours
+    once operational - Tue-Sat 10am-2pm. Watch for the opening announcement, then update address/hours and clear this flag.
   latitude: 45.524375
   longitude: -122.676939
 - id: portland-rescue-mission
@@ -8748,8 +8751,8 @@
   notes: June-September season. Evening market serving the diverse Rockwood community.
   flags:
   - 🔄 SEASONAL
-  latitude: 45.519787
-  longitude: -122.47219
+  latitude: 45.519819
+  longitude: -122.472301
 - id: lynwood-community-farm
   name: Community Farm at Lynwood Friends Church
   category: food_farms
@@ -8815,8 +8818,8 @@
   guide_location: activities-guide-2.md#community-meals-and-social-dining
   notes: Portland Police Bureau partner providing free food assistance since 1923. Walk-in food pantry plus precinct food
     boxes and home delivery options.
-  latitude: 45.518749
-  longitude: -122.535025
+  latitude: 45.518866
+  longitude: -122.535129
 - id: snowcap-community-charities
   name: SnowCap Community Charities
   category: food_farms
@@ -8905,8 +8908,8 @@
   guide_location: activities-guide-2.md#free-food-resources
   notes: Major NE Portland food hub serving 975+ families weekly. Also operates as a food redistribution center for 70+ partner
     agencies (1.2M lbs/month). Offers financial literacy and family programs.
-  latitude: 45.537226
-  longitude: -122.525933
+  latitude: 45.53753
+  longitude: -122.499089
 - id: lift-urban-portland
   name: Lift Urban Portland (Preston's Pantry)
   category: food_farms
@@ -9089,8 +9092,8 @@
   - indoor
   guide_location: activities-guide-2.md#free-food-resources
   notes: South metro food pantry serving Tualatin, Lake Oswego, West Linn, and North Wilsonville. Call for current hours.
-  latitude: 45.373558
-  longitude: -122.712036
+  latitude: 45.373498
+  longitude: -122.711639
 - id: wilsonville-community-sharing
   name: Wilsonville Community Sharing
   category: food_farms
@@ -9459,8 +9462,8 @@
   - isolation
   - indoor
   guide_location: activities-guide-2.md#writing-groups
-  latitude: 45.521613
-  longitude: -122.672524
+  latitude: 45.521526
+  longitude: -122.672863
 - id: friends-of-trees
   name: Friends of Trees
   category: social_activities
@@ -10025,8 +10028,8 @@
   - family_friendly
   guide_location: activities-guide-1.md#community-centers
   notes: Hillsboro Parks & Recreation community center. Financial assistance (50% off) available for qualifying residents.
-  latitude: 45.52445
-  longitude: -122.928112
+  latitude: 45.524529
+  longitude: -122.933055
 - id: juanita-pohl-center
   name: Juanita Pohl Center (Tualatin Active Aging Center)
   category: social_activities
@@ -10552,33 +10555,34 @@
   hours: Meetings daily from 6:30am to 9:45pm - 118 meetings per week across 25+ fellowships. Full grid at portlandalano.org/meetings
   programs:
   - name: 'AA: Dawn Patrol'
-    schedule: 'Daily 6:30-7:30am'
+    schedule: Daily 6:30-7:30am
     format: In-person
     notes: Loft. Long-running daily early meeting.
   - name: 'AA: Noon Meetings'
     schedule: Daily 12-1pm
     format: In-person
-    notes: 'Three to four concurrent options daily: Men''s Clock Room (MO), Surrender at Noon (NE Room), and Women''s Newcomer (WO, Basement).'
+    notes: 'Three to four concurrent options daily: Men''s Clock Room (MO), Surrender at Noon (NE Room), and Women''s Newcomer
+      (WO, Basement).'
   - name: 'AA: New Alternatives & Upstairs 5:30'
-    schedule: 'Daily 5:30-6:30pm'
+    schedule: Daily 5:30-6:30pm
     format: In-person
     notes: Two concurrent meetings daily (Basement and Loft).
   - name: 'AA: Recovery Sisters (WO) - Evening'
-    schedule: 'Mondays and Tuesdays 6:45-7:45pm'
+    schedule: Mondays and Tuesdays 6:45-7:45pm
     format: In-person
-    notes: 'Women''s meeting.'
+    notes: Women's meeting.
   - name: 'AA: Recovery Sisters (WO) - Wednesday Morning'
     schedule: Wednesdays 10-11am
     format: In-person
-    notes: 'Women''s meeting.'
+    notes: Women's meeting.
   - name: 'AA: Recovery Sisters (WO) - Afternoons'
     schedule: Thursday-Sunday 3-4pm
     format: In-person
-    notes: 'Women''s meeting.'
+    notes: Women's meeting.
   - name: 'AA: Young at Heart'
     schedule: Mondays 7-8pm
     format: In-person
-    notes: 'Young people''s meeting, Basement.'
+    notes: Young people's meeting, Basement.
   - name: 'AA: For Musicians/Artists/Writers'
     schedule: Tuesdays 7-8pm
     format: In-person
@@ -10591,92 +10595,92 @@
     format: In-person
     notes: Basement.
   - name: 'AA: Guys Night Out'
-    schedule: 'Thursdays 7:30-8:30pm'
+    schedule: Thursdays 7:30-8:30pm
     format: In-person
   - name: 'AA: Women''s Sex Workers (WO)'
     schedule: Fridays 3-4pm
     format: In-person
   - name: 'AA: Tight Rope (GMO)'
-    schedule: 'Fridays 6:30-7:30pm'
+    schedule: Fridays 6:30-7:30pm
     format: In-person
-    notes: 'Gay men''s meeting.'
+    notes: Gay men's meeting.
   - name: 'AA: NW Beginners'
     schedule: Fridays 7-8pm
     format: In-person
   - name: 'AA: Dignitaries Sympathy (MO)'
     schedule: Sundays 8-9am
     format: In-person
-    notes: 'Men''s meeting, Loft.'
+    notes: Men's meeting, Loft.
   - name: 'AA: Serenity Sisters (WO)'
     schedule: Sundays 9-10am
     format: In-person
-    notes: 'Women''s meeting.'
+    notes: Women's meeting.
   - name: 'AA: Now What'
-    schedule: 'Sundays 9:30-10:30am'
+    schedule: Sundays 9:30-10:30am
     format: In-person
   - name: 'AA: Beyond Belief (Secular)'
     schedule: Sundays 10-11am
     format: In-person
-    notes: 'Secular AA meeting, Board Room.'
+    notes: Secular AA meeting, Board Room.
   - name: 'NA: RITH'
     schedule: Daily 3-4pm
     format: In-person
     notes: NE Room. Daily Narcotics Anonymous meeting.
   - name: 'NA: LGBTQ+ Queer as Folk'
-    schedule: 'Wednesdays 7-8:15pm'
+    schedule: Wednesdays 7-8:15pm
     format: In-person
   - name: 'NA: A New Way to Live'
-    schedule: 'Sundays 9-10:30am'
+    schedule: Sundays 9-10:30am
     format: In-person
   - name: 'Al-Anon: NW at Noon'
     schedule: Monday-Friday 12-1pm
     format: In-person
     notes: Loft. Weekday Al-Anon meeting.
   - name: 'Al-Anon: Growing Towards Wisdom (MO)'
-    schedule: 'Wednesdays 6:15-7:30pm'
+    schedule: Wednesdays 6:15-7:30pm
     format: In-person
   - name: 'Al-Anon: Weekend Survivors'
-    schedule: 'Mondays 5:45-6:45pm'
+    schedule: Mondays 5:45-6:45pm
     format: In-person
   - name: 'Al-Anon: We Care'
-    schedule: 'Saturdays 5:30-6:30pm'
+    schedule: Saturdays 5:30-6:30pm
     format: In-person
   - name: 'Al-Anon: Early Morning Meditation'
-    schedule: 'Sundays 8:15-9:15am'
+    schedule: Sundays 8:15-9:15am
     format: In-person
   - name: SMART Recovery
     schedule: Mondays and Wednesdays 4-5pm
     format: In-person
     notes: Cafe/SE Room.
-  - name: 'SMART Recovery Friends & Family'
-    schedule: 'Mondays 5:30-7pm'
+  - name: SMART Recovery Friends & Family
+    schedule: Mondays 5:30-7pm
     format: In-person
     notes: Clock Room.
   - name: 'ACA: True Selves'
-    schedule: 'Mondays 7-8:30pm'
+    schedule: Mondays 7-8:30pm
     format: In-person
   - name: 'ACA: ACA for Alcoholics'
     schedule: Tuesdays 5-6pm
     format: In-person
   - name: 'ACA: Gentleness, Love, Humor, Respect'
-    schedule: 'Wednesdays 6:30-8pm'
+    schedule: Wednesdays 6:30-8pm
     format: In-person
   - name: 'ACA: A New Hope'
     schedule: Saturdays 10-11am
     format: In-person
   - name: 'ACA: Awareness'
-    schedule: 'Saturdays 12-1:30pm'
+    schedule: Saturdays 12-1:30pm
     format: In-person
   - name: 'CODA: The Way of CODA'
-    schedule: 'Mondays 7-8:30pm'
+    schedule: Mondays 7-8:30pm
     format: In-person
     notes: Board Room.
   - name: 'CODA: Step Share'
-    schedule: 'Fridays 6:30-8pm'
+    schedule: Fridays 6:30-8pm
     format: In-person
     notes: Clock Room.
   - name: 'CODA: Portland Men''s CoDA (MO)'
-    schedule: 'Saturdays 7-8:30pm'
+    schedule: Saturdays 7-8:30pm
     format: In-person
   - name: 'CODA: PWL2M'
     schedule: Sundays 10-11am
@@ -10685,7 +10689,9 @@
   - name: RTS Recovery Yoga
     schedule: Tuesdays and Sundays 2-3pm
     format: In-person
-    notes: 'Loft. Trauma-informed yoga for people in recovery, held in partnership with Rayleen McMillan. Days CONFIRMED 2026-08-07 against the official meeting grid at portlandalano.org/meetings (Tue + Sun 2-3pm), resolving the earlier three-source disagreement.'
+    notes: Loft. Trauma-informed yoga for people in recovery, held in partnership with Rayleen McMillan. Days CONFIRMED 2026-08-07
+      against the official meeting grid at portlandalano.org/meetings (Tue + Sun 2-3pm), resolving the earlier three-source
+      disagreement.
   - name: 'HA: Women''s Sunlight of the Spirit (WO)'
     schedule: Tuesdays 7-8pm
     format: In-person
@@ -10699,10 +10705,10 @@
     format: In-person
     notes: Loft.
   - name: 'SAA: Thursday Group'
-    schedule: 'Thursdays 6:45-7:45pm'
+    schedule: Thursdays 6:45-7:45pm
     format: In-person
   - name: 'SAA: Touchstone'
-    schedule: 'Saturdays 9:30-11am'
+    schedule: Saturdays 9:30-11am
     format: In-person
     notes: Basement.
   - name: 'SAA: Steps Into Action'
@@ -10713,7 +10719,7 @@
     format: In-person
     notes: SE Room.
   - name: 'Recovery Dharma: Meditation Sandwich'
-    schedule: 'Saturdays 7-8:15pm'
+    schedule: Saturdays 7-8:15pm
     format: In-person
     notes: Loft.
   - name: 'DDA: Thursday Meeting'
@@ -10723,17 +10729,18 @@
   - name: 'DDA: Saturday Meeting'
     schedule: Saturdays 10-11am
     format: In-person
-    notes: 'Board Room. Dual Diagnosis Anonymous. CONFIRMED 2026-08-07 on the official grid - this is the Saturday Alano DDA meeting referenced in dda-oregon''s open flags.'
+    notes: Board Room. Dual Diagnosis Anonymous. CONFIRMED 2026-08-07 on the official grid - this is the Saturday Alano DDA
+      meeting referenced in dda-oregon's open flags.
   - name: Gamblers Anonymous
-    schedule: 'Saturdays 11am-12:30pm'
+    schedule: Saturdays 11am-12:30pm
     format: In-person
     notes: SE Room.
   - name: Women For Sobriety
-    schedule: 'Saturdays 9-10:30am'
+    schedule: Saturdays 9-10:30am
     format: In-person
     notes: Cafe.
   - name: 'SLAA: Anorexia Focus'
-    schedule: 'Wednesdays 6:30-7:30pm'
+    schedule: Wednesdays 6:30-7:30pm
     format: In-person
     notes: Board Room.
   - name: 'SLAA: Women''s Honesty, Openness and Willingness (WO)'
@@ -10741,7 +10748,7 @@
     format: In-person
     notes: Clock Room.
   - name: 'SLAA: Real Love'
-    schedule: 'Saturdays 9:30-10:45pm'
+    schedule: Saturdays 9:30-10:45pm
     format: In-person
     notes: SE Room. Late evening meeting.
   - name: Refuge Recovery
@@ -10749,27 +10756,27 @@
     format: In-person
     notes: Loft.
   - name: Recovery International
-    schedule: 'Thursdays 7-8:30pm'
+    schedule: Thursdays 7-8:30pm
     format: In-person
     notes: Board Room.
   - name: 'DA: Peace & Prosperity'
-    schedule: 'Thursdays 7-8:30pm'
+    schedule: Thursdays 7-8:30pm
     format: In-person
     notes: Cafe. Debtors Anonymous.
   - name: 'ITAA: Log Off!'
-    schedule: 'Thursdays 6:30-7:30pm'
+    schedule: Thursdays 6:30-7:30pm
     format: In-person
     notes: Clock Room. Internet and Technology Addicts Anonymous.
   - name: 'MA: A New Leaf'
-    schedule: 'Wednesdays 7:45-8:45pm'
+    schedule: Wednesdays 7:45-8:45pm
     format: In-person
     notes: NE Room. Marijuana Anonymous.
   - name: 'SPAA: Awakenings'
-    schedule: 'Sundays 3:30-4:30pm'
+    schedule: Sundays 3:30-4:30pm
     format: In-person
     notes: Clock Room.
   - name: Wellbriety
-    schedule: 'Sundays 6:45-9pm'
+    schedule: Sundays 6:45-9pm
     format: In-person
     notes: Basement.
   - name: Mindfulness Meditation
@@ -10787,9 +10794,9 @@
     first_visit: Just walk in - no appointment needed. Check meeting schedule online first.
     registration: None required
     what_to_bring: Nothing required
-    good_to_know: Over 110 weekly meetings including AA, NA, Al-Anon, SMART Recovery, ACA, CODA, HA, SAA, SLAA, Recovery Dharma, DDA, GA, MA, Women For Sobriety, Refuge Recovery, Wellbriety and
-      many more - 118 meetings per week as of the August 2026 grid. One of the largest recovery community
-      centers in Portland. Coffee available at most meetings.
+    good_to_know: Over 110 weekly meetings including AA, NA, Al-Anon, SMART Recovery, ACA, CODA, HA, SAA, SLAA, Recovery Dharma,
+      DDA, GA, MA, Women For Sobriety, Refuge Recovery, Wellbriety and many more - 118 meetings per week as of the August
+      2026 grid. One of the largest recovery community centers in Portland. Coffee available at most meetings.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
@@ -10851,8 +10858,8 @@
   guide_location: activities-guide-2.md#recovery-support
   notes: Peer-run recovery center in Gresham. Staff have lived experience in recovery. Also provides housing, mobile outreach
     (MBHT), and shower/laundry services.
-  latitude: 45.497484
-  longitude: -122.42077
+  latitude: 45.497493
+  longitude: -122.420762
 - id: community-positive-aging-support-groups
   name: Community for Positive Aging
   category: peer_support
@@ -10876,11 +10883,13 @@
   - name: Family Caregivers Support Group
     schedule: 2nd Monday of each month, 1-2pm
     format: In-person
-    notes: Support for family caregivers, including grandparents or older relatives raising children. Learn resources and coping techniques for self-care while caregiving.
+    notes: Support for family caregivers, including grandparents or older relatives raising children. Learn resources and
+      coping techniques for self-care while caregiving.
   - name: Memory Cafe
     schedule: 4th Thursday of each month, 11am-12:30pm
     format: In-person
-    notes: Free social gathering with music and refreshments for those with dementia, Alzheimer's, or memory loss, and their families. RSVP requested but drop-ins welcome.
+    notes: Free social gathering with music and refreshments for those with dementia, Alzheimer's, or memory loss, and their
+      families. RSVP requested but drop-ins welcome.
   last_verified: 2026-04-15
   next_audit: 2026-07-15
   audit_frequency: quarterly
@@ -11012,8 +11021,8 @@
   notes: One of the few county fairs with completely free admission.
   flags:
   - 📅 DATE-SENSITIVE
-  latitude: 45.529276
-  longitude: -122.947809
+  latitude: 45.52995
+  longitude: -122.95036
 - id: pedalpalooza
   name: Pedalpalooza / Bike Summer
   category: events
@@ -11131,8 +11140,7 @@
   schedule: Every Saturday, 8am-1pm (April-September); 9am-1pm (October-November)
   schedule_start_date: 2026-04-04
   schedule_end_date: 2026-11-28
-  hours: 'Year-round. April-Sep every Saturday 8am-1pm. Oct-Nov every Saturday 9am-1pm.
-    Dec-Mar 2nd & 4th Saturdays only, 9am-1pm.'
+  hours: Year-round. April-Sep every Saturday 8am-1pm. Oct-Nov every Saturday 9am-1pm. Dec-Mar 2nd & 4th Saturdays only, 9am-1pm.
   latitude: 45.534167
   longitude: -122.621389
   last_verified: 2026-05-01
@@ -11316,8 +11324,7 @@
     dates: August 2, 2026
     schedule: 11am-4pm
     location: Downtown St Johns, N Lombard St & N Philadelphia Ave, Portland, OR
-    notes: Downtown St Johns, McCoy Park, Columbia Park, McKenna Park (6.7 miles along N Willamette Blvd).
-      New route for 2026.
+    notes: Downtown St Johns, McCoy Park, Columbia Park, McKenna Park (6.7 miles along N Willamette Blvd). New route for 2026.
   - name: Sunday Parkways - Downtown Portland
     dates: September 13, 2026
     schedule: 11am-4pm
@@ -11391,10 +11398,10 @@
   - bipoc
   - trans_nonbinary
   guide_location: activities-guide-1.md#fitness-centers
-  notes: Inclusive nonprofit gym focused on serving women, BIPOC, LGBTQ+, trans/nonbinary, and larger-bodied individuals. Free weekly BIPOC class plus sliding scale
-    memberships.
-  latitude: 45.555714
-  longitude: -122.661657
+  notes: Inclusive nonprofit gym focused on serving women, BIPOC, LGBTQ+, trans/nonbinary, and larger-bodied individuals.
+    Free weekly BIPOC class plus sliding scale memberships.
+  latitude: 45.555719
+  longitude: -122.661658
 - id: portland-strength-collective
   name: Portland Strength Collective
   category: fitness_wellness
@@ -11727,8 +11734,8 @@
   next_audit: 2026-08-28
   audit_frequency: monthly
   practical_tips:
-    first_visit: In-person group meets Wednesday mornings at the Behavioral Health Resource Center downtown. Just show up -
-      no registration needed.
+    first_visit: In-person group meets Wednesday mornings at the Behavioral Health Resource Center downtown. Just show up
+      - no registration needed.
     good_to_know: Part of the Hearing Voices Network USA. For people who hear voices, see visions, or have unusual sensory
       experiences. Peer-led, non-clinical approach. FolkTime also hosts a Hearing Voices group at their NE Portland location.
       Note the in-person group moved from Mondays to Wednesday mornings in 2026.
@@ -11743,8 +11750,8 @@
   guide_location: activities-guide-2.md#peer-support
   notes: Peer-led support groups for people who hear voices, see visions, or have unusual beliefs/sensory experiences. In-person
     group confirmed active at BHRC, Wednesdays 9:30-10:30am (moved from Mondays). Online group may be intermittent - website
-    lists it as '(Possibly)'. Part of Hearing Voices Network USA. The network also lists a Salem online group hosted for
-    Project ABLE, which is outside the Portland metro scope of this database.
+    lists it as '(Possibly)'. Part of Hearing Voices Network USA. The network also lists a Salem online group hosted for Project
+    ABLE, which is outside the Portland metro scope of this database.
   latitude: 45.521959
   longitude: -122.679643
 - id: hopewell-house-grief
@@ -11902,8 +11909,8 @@
     description: FREE with Multnomah County Library card
   eligibility: Multnomah County Library cardholder
   flags:
-  - ⚠️ VERIFY - Venue list still includes Five Oaks Museum, which closed permanently in April 2025.
-    Re-check the full participating-venue list at multcolib.org/my-discovery-pass.
+  - ⚠️ VERIFY - Venue list still includes Five Oaks Museum, which closed permanently in April 2025. Re-check the full participating-venue
+    list at multcolib.org/my-discovery-pass.
   programs:
   - name: Artists Repertory Theatre
     notes: Pass admits 2 adults
@@ -12086,9 +12093,9 @@
     location: The Peace House, 2116 NE 18th Ave, Portland, OR 97212
     format: In-person
     cost: FREE
-    notes: Includes early pregnancy loss. The same group also meets on the 4th Tuesday at 7pm; that session's
-      format was not published as of July 2026, so only the confirmed in-person 2nd Monday meeting is listed
-      as a calendar event. Call 503-699-8006 to confirm the 4th Tuesday.
+    notes: Includes early pregnancy loss. The same group also meets on the 4th Tuesday at 7pm; that session's format was not
+      published as of July 2026, so only the confirmed in-person 2nd Monday meeting is listed as a calendar event. Call 503-699-8006
+      to confirm the 4th Tuesday.
   - name: Non-Birthing Parent Support Group
     schedule: 1st Monday 6:30pm
     location: The Peace House, 2116 NE 18th Ave, Portland, OR 97212
@@ -12102,8 +12109,8 @@
     first_visit: Call 503-699-8006 before your first meeting to confirm the date and let them know you are coming.
     registration: Contact by phone; no formal registration described for in-person meetings.
     what_to_bring: Nothing required.
-    good_to_know: Peer-led support run by trained volunteers, specifically for perinatal loss - a gap the general
-      grief groups in this guide do not cover. Meetings are held at The Peace House in NE Portland.
+    good_to_know: Peer-led support run by trained volunteers, specifically for perinatal loss - a gap the general grief groups
+      in this guide do not cover. Meetings are held at The Peace House in NE Portland.
   accessibility:
   - transit_nearby
   social_intensity: structured_group
@@ -12113,12 +12120,14 @@
   - isolation
   - indoor
   guide_location: activities-guide-2.md#peer-support
-  notes: Portland-based peer support for pregnancy and infant loss, including early pregnancy loss, plus a separate
-    group for non-birthing parents and partners. Added July 2026 to fill a perinatal grief gap not covered by
-    Dougy Center, Providence Hospice or Hopewell House.
+  notes: Portland-based peer support for pregnancy and infant loss, including early pregnancy loss, plus a separate group
+    for non-birthing parents and partners. Added July 2026 to fill a perinatal grief gap not covered by Dougy Center, Providence
+    Hospice or Hopewell House.
   flags:
-  - ⚠️ VERIFY - Group days and times sourced from briefencounters.org via search; the 4th Tuesday session's format
-    (in-person vs virtual) is unconfirmed. Confirm both groups by phone at 503-699-8006.
+  - ⚠️ VERIFY - Group days and times sourced from briefencounters.org via search; the 4th Tuesday session's format (in-person
+    vs virtual) is unconfirmed. Confirm both groups by phone at 503-699-8006.
+  latitude: 45.537764
+  longitude: -122.64698
 - id: portland-memory-garden
   name: Portland Memory Garden (Ed Benedict Park)
   category: parks_nature
@@ -12143,9 +12152,9 @@
     - September 12, 2026
     cost: FREE
     format: In-person, outdoor
-    notes: Live music twice monthly, weather permitting, hosted by Friends of Portland Memory Garden. September
-      12 features Jamie Turbett on cello. Earlier 2026 dates included a cello quartet on July 11 and guitar on
-      July 25. The full remaining-season date list is not published as a set - check the upcoming events page.
+    notes: Live music twice monthly, weather permitting, hosted by Friends of Portland Memory Garden. September 12 features
+      Jamie Turbett on cello. Earlier 2026 dates included a cello quartet on July 11 and guitar on July 25. The full remaining-season
+      date list is not published as a set - check the upcoming events page.
   - name: National Grandparents Day
     schedule: 11:30am-1pm
     dates:
@@ -12157,18 +12166,18 @@
   next_audit: 2026-10-28
   audit_frequency: quarterly
   practical_tips:
-    first_visit: The garden is inside Ed Benedict Park. Paths are wide, level and looped, designed so visitors
-      cannot get lost.
+    first_visit: The garden is inside Ed Benedict Park. Paths are wide, level and looped, designed so visitors cannot get
+      lost.
     registration: None - just show up
     what_to_bring: A chair or blanket for the music events; seating is limited
-    good_to_know: Purpose-built as a therapeutic garden for older adults, people with disabilities, and people
-      living with Alzheimer's or dementia. Calm, enclosed and sensory-focused - one of the quieter free outdoor
-      options in the guide. Free live music roughly twice a month in season.
+    good_to_know: Purpose-built as a therapeutic garden for older adults, people with disabilities, and people living with
+      Alzheimer's or dementia. Calm, enclosed and sensory-focused - one of the quieter free outdoor options in the guide.
+      Free live music roughly twice a month in season.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
-  accessibility_notes: Designed for accessibility - level looped pathways, raised beds, handrails and seating
-    throughout. Built specifically with dementia and mobility needs in mind.
+  accessibility_notes: Designed for accessibility - level looped pathways, raised beds, handrails and seating throughout.
+    Built specifically with dementia and mobility needs in mind.
   social_intensity: solo
   good_for:
   - anxiety_friendly
@@ -12178,11 +12187,10 @@
   - grief
   audience:
   - seniors
-  audience_notes: Designed with older adults and people living with dementia in mind, but open to all visitors
-    of any age.
+  audience_notes: Designed with older adults and people living with dementia in mind, but open to all visitors of any age.
   guide_location: activities-guide-1.md#parks-and-gardens
-  notes: Therapeutic garden at Ed Benedict Park in outer SE Portland, maintained with Friends of Portland Memory
-    Garden. Added July 2026. Strong fit for low-energy, anxiety-friendly, accessible outdoor time.
+  notes: Therapeutic garden at Ed Benedict Park in outer SE Portland, maintained with Friends of Portland Memory Garden. Added
+    July 2026. Strong fit for low-energy, anxiety-friendly, accessible outdoor time.
   flags:
   - 📅 DATE-SENSITIVE
 - id: ops-fest-shakespeare
@@ -12211,14 +12219,13 @@
     first_visit: Bring a blanket or low chair; performances are on grass. Arrive early for a good spot.
     registration: None - free and open, just turn up
     what_to_bring: Blanket or chair, water, layers for the evening
-    good_to_know: Performed in Elizabethan "original practice" style - scripts in hand, minimal rehearsal, an
-      onstage prompter, heavy audience interaction and dice rolls. Loose, funny and forgiving rather than formal,
-      so it suits people who find traditional theatre intimidating. You can arrive late or leave early without
-      disrupting anything.
+    good_to_know: Performed in Elizabethan "original practice" style - scripts in hand, minimal rehearsal, an onstage prompter,
+      heavy audience interaction and dice rolls. Loose, funny and forgiving rather than formal, so it suits people who find
+      traditional theatre intimidating. You can arrive late or leave early without disrupting anything.
   accessibility:
   - varies
-  accessibility_notes: Performances are outdoors on park lawns; accessibility depends on the individual park.
-    Seating is not provided.
+  accessibility_notes: Performances are outdoors on park lawns; accessibility depends on the individual park. Seating is not
+    provided.
   social_intensity: drop_in
   good_for:
   - outdoor
@@ -12230,11 +12237,10 @@
   notes: 18th season in 2026 - 22 plays across 11 Portland metro parks, all free. Added July 2026.
   flags:
   - 📅 DATE-SENSITIVE
-  - ⚠️ VERIFY - Season dates (June 20 - August 22, 2026) and the 22-plays/11-parks scale are confirmed, but the
-    per-performance schedule of which play is at which park on which night was not retrievable by search. It
-    lives at opsfest.org/season-chronological.html. Until that page is read directly this entry carries no
-    parseable calendar events and appears only in the Resources directory. Capture the individual dates as
-    programs with dates fields on the next pass.
+  - ⚠️ VERIFY - Season dates (June 20 - August 22, 2026) and the 22-plays/11-parks scale are confirmed, but the per-performance
+    schedule of which play is at which park on which night was not retrievable by search. It lives at opsfest.org/season-chronological.html.
+    Until that page is read directly this entry carries no parseable calendar events and appears only in the Resources directory.
+    Capture the individual dates as programs with dates fields on the next pass.
 - id: multnomah-days
   name: Multnomah Days Festival & Parade
   category: events
@@ -12257,13 +12263,13 @@
   next_audit: 2026-10-28
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Centred on SW Capitol Hwy in Multnomah Village. Street closures mean parking nearby is tight -
-      transit or walking is easier.
+    first_visit: Centred on SW Capitol Hwy in Multnomah Village. Street closures mean parking nearby is tight - transit or
+      walking is easier.
     registration: None
     what_to_bring: Cash for vendors and food carts, sun protection
-    good_to_know: One-day open-air street festival with a community parade, two stages of live music, an art
-      fair and 150+ vendor booths, plus food carts and street dining. Busy and crowded - the morning is quieter
-      than the afternoon if large crowds are difficult.
+    good_to_know: One-day open-air street festival with a community parade, two stages of live music, an art fair and 150+
+      vendor booths, plus food carts and street dining. Busy and crowded - the morning is quieter than the afternoon if large
+      crowds are difficult.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
@@ -12275,13 +12281,13 @@
   - new_to_area
   - isolation
   guide_location: activities-guide-1.md#festivals-and-events
-  notes: Annual Multnomah Village street festival and parade, organised by the Multnomah Village Business
-    Association. Added July 2026.
+  notes: Annual Multnomah Village street festival and parade, organised by the Multnomah Village Business Association. Added
+    July 2026.
   flags:
   - 📅 DATE-SENSITIVE
-  - ⚠️ VERIFY - Date (August 15, 2026), hours (9am-5pm) and location are well corroborated. Free admission is
-    implied by the open-air street-festival format and its inclusion in free-event roundups, but is not stated
-    outright on the organiser's page. Confirm before describing it as free in printed material.
+  - ⚠️ VERIFY - Date (August 15, 2026), hours (9am-5pm) and location are well corroborated. Free admission is implied by the
+    open-air street-festival format and its inclusion in free-event roundups, but is not stated outright on the organiser's
+    page. Confirm before describing it as free in printed material.
 - id: hawthorne-plaza-concerts
   name: Hawthorne Plaza Concert Series (Concerts in the Plaza)
   category: arts_culture
@@ -12317,8 +12323,8 @@
     first_visit: The plaza is a small open square at SE 37th and Hawthorne. Bring a chair - seating is limited.
     registration: None - free and open
     what_to_bring: Chair or blanket, water, sun protection
-    good_to_know: Free outdoor neighbourhood concerts on Saturday afternoons in summer. Small and low-key rather
-      than a large festival, and easy to leave at any point.
+    good_to_know: Free outdoor neighbourhood concerts on Saturday afternoons in summer. Small and low-key rather than a large
+      festival, and easy to leave at any point.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
@@ -12330,11 +12336,10 @@
   - isolation
   - new_to_area
   guide_location: activities-guide-1.md#free-concerts
-  notes: Free Saturday-afternoon summer concert series on Hawthorne Plaza, supported by Venture Portland. Added
-    July 2026.
+  notes: Free Saturday-afternoon summer concert series on Hawthorne Plaza, supported by Venture Portland. Added July 2026.
   flags:
   - 🔄 SEASONAL
-  - ⚠️ VERIFY - Weekly Saturday 4-6pm slot and the August 8 and August 15 performers are confirmed, but the
-    series start and end dates were not published in any source found. The two confirmed dates are listed as
-    programs; the entry-level Saturday schedule is therefore suppressed by design until the full run is known.
-    Get the season range from ventureportland.org and add schedule_start_date and schedule_end_date.
+  - ⚠️ VERIFY - Weekly Saturday 4-6pm slot and the August 8 and August 15 performers are confirmed, but the series start and
+    end dates were not published in any source found. The two confirmed dates are listed as programs; the entry-level Saturday
+    schedule is therefore suppressed by design until the full run is known. Get the season range from ventureportland.org
+    and add schedule_start_date and schedule_end_date.
