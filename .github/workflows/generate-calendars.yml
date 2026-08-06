@@ -49,6 +49,9 @@ jobs:
         working-directory: scripts
         run: python test_schedule_parsing.py
 
+      - name: Snapshot published events
+        run: cp docs/events.json /tmp/events-before.json || true
+
       - name: Generate calendars and JSON
         working-directory: scripts
         run: python generate_calendar.py --json --publish
@@ -63,6 +66,13 @@ jobs:
         id: check
         run: |
           git diff --quiet docs/ guides/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      # One auto-post per day to the Updates section; a curated post already
+      # present for today suppresses the auto summary (see CLAUDE.md data flow).
+      - name: Post update to site
+        if: steps.check.outputs.changed == 'true'
+        working-directory: scripts
+        run: python add_update_post.py --auto --before /tmp/events-before.json --after ../docs/events.json
 
       - name: Commit and push
         if: steps.check.outputs.changed == 'true'

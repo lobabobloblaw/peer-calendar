@@ -23,6 +23,7 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 2. Update corresponding section in `guides/*.md`
 3. Log the change in `data/audit-log.yaml`
 4. Run `python scripts/generate_calendar.py` to update calendar feeds
+5. When shipping changes that regenerate feeds, add a curated post to the Updates section: `python scripts/add_update_post.py --text "..."` (inserts a dated `<li>` at the top of the list in `docs/index.html`). If no curated post exists for the day, CI appends an auto-summary post on regeneration — at most one auto-post per day, and only when the regenerated feeds actually changed.
 
 **Key files:**
 - `data/sources.yaml` - Master registry with ~269 resources and audit metadata (multi-document YAML with `---` separators)
@@ -42,6 +43,7 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 - `scripts/audit_check.py` - Reports entries due for audit, unverified entries, statistics
 - `scripts/audit_complete.py` - Mark entries as audited, auto-updates dates and logs
 - `scripts/validate_schedules.py` - Validates all schedule strings parse correctly (run before calendar generation)
+- `scripts/add_update_post.py` - Adds dated posts to the Updates section in `docs/index.html` (curated `--text` mode; CI `--auto` diff-summary mode)
 - `scripts/test_schedule_parsing.py` - 56-test suite for schedule parsing and audience detection
 - `scripts/deduplicate_entries.py` - Merge duplicate entries in sources.yaml
 - `scripts/add_type_fields.py` - Migration script for adding location_type/resource_type fields
