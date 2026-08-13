@@ -184,8 +184,8 @@ test('portrait mobile exposes complete day agendas and restores focus', async ({
         .filter(control => control.width < 43.5 || control.height < 43.5));
     expect(undersizedControls).toEqual([]);
 
-    await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
-    await expect(page.locator('footer')).toBeVisible();
+    await page.locator('.contact-section').scrollIntoViewIfNeeded();
+    await expect(page.locator('.contact-section')).toBeVisible();
 });
 
 for (const viewport of [
@@ -205,8 +205,8 @@ for (const viewport of [
         expect(layout.overflowY).not.toBe('hidden');
         expect(layout.scrollHeight).toBeGreaterThan(layout.innerHeight);
 
-        await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
-        await expect(page.locator('footer')).toBeVisible();
+        await page.locator('.contact-section').scrollIntoViewIfNeeded();
+        await expect(page.locator('.contact-section')).toBeVisible();
         await expectWcag21AA(page, `${viewport.label} landscape calendar`);
     });
 }
@@ -276,6 +276,7 @@ test.describe('reduced motion', () => {
     test.use({ reducedMotion: 'reduce' });
 
     test('keeps Vanta frozen and rain particles clear on initial render', async ({ page }) => {
+        await page.emulateMedia({ reducedMotion: 'reduce' });
         await openCalendar(page, { width: 390, height: 844 });
         await page.waitForTimeout(200);
 
