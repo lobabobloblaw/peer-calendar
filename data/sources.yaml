@@ -294,27 +294,31 @@
   resource_type: service
   address: null
   phone: 503-823-7770
-  website: https://www.portland.gov/water/financial-assistance
+  website: https://www.portland.gov/water/customer-service/pay-your-utility-bill/smart-discount
   source_urls:
-  - https://www.portland.gov/water/financial-assistance
+  - https://www.portland.gov/water/customer-service/pay-your-utility-bill/smart-discount
+  - https://www.portland.gov/bes/full-list-environmental-services-rates-and-charges
   pricing:
-    description: 5-80% discount on water and sewer bills
-    notes: Discount based on financial vulnerability assessment
-  eligibility: Portland Water Bureau customers experiencing financial hardship
-  apply: Online, by mail, or in person
-  last_verified: 2026-03-24
-  next_audit: 2027-03-24
-  audit_frequency: annually
+    description: Automatic 5-80% discount on City sewer, stormwater, and water utility bills
+    notes: Eligibility and the discount percentage are assigned using account and publicly available data.
+  eligibility: Currently tailored to selected single-family residential customers facing financial hardship; eligibility
+    is determined automatically.
+  apply: No application required; eligible customers are notified before the discount appears.
+  last_verified: 2026-08-13
+  next_audit: 2026-11-13
+  audit_frequency: quarterly
   practical_tips:
-    first_visit: Apply online at portland.gov/water or call 503-823-7770
-    good_to_know: Sliding scale discount from 5% to 80% based on financial need. Covers both water and sewer charges. Can
-      be combined with other utility discount programs.
+    first_visit: No application is available for Smart Discount. Call 503-823-7770 with account questions or to ask about
+      other financial-assistance options.
+    good_to_know: The automatic discount ranges from 5% to 80% and reduces the combined sewer, stormwater, and water bill.
+      Discount percentages are reviewed every six months.
   social_intensity: solo
   good_for:
   - anxiety_friendly
   - low_energy
   guide_location: activities-guide-1.md#utility-bill-discounts
-  notes: Portland water/sewer bill discount. 5-80% off based on financial need.
+  notes: Automatic 5-80% utility-bill discount currently tailored to selected single-family residential customers; no application
+    is required.
 - id: oregon-lifeline
   name: Oregon Lifeline (Phone & Internet Discount)
   category: discount_programs
@@ -1456,7 +1460,7 @@
 - id: dbsa-portland
   name: DBSA Portland (Depression Bipolar Support Alliance)
   category: peer_support
-  location_type: hybrid
+  location_type: virtual
   resource_type: program
   address: null
   phone: null
@@ -1464,64 +1468,50 @@
   website: https://mentalhealthisforeveryone.com/
   source_urls:
   - https://mentalhealthisforeveryone.com/
-  - https://mentalhealthisforeveryone.com/support/
+  - https://mentalhealthisforeveryone.com/support-groups/
   pricing:
     description: FREE
   programs:
   - name: LGBTQIA+ Support Group
     schedule: Mondays 7:00-8:30pm PT
-    format: Online, with an in-person option on 1st & 3rd Mondays at the Q Center
-    location: Q Center, Portland (1st & 3rd Mondays only)
+    format: Online
     contact: dbsalgbtqiazoom@gmail.com
     audience:
     - lgbtq
-    notes: In-person option confirmed July 2026 as 1st AND 3rd Mondays at the Q Center. Previously recorded as 1st Monday
-      only with the location distributed via Meetup. Q Center street address not yet confirmed - add it on the next pass.
+    notes: RSVP by email with first name, last initial, and pronouns to receive the Zoom link.
   - name: Open to All (West Portland)
-    schedule: Tuesdays 7pm
+    schedule: Tuesdays 7:00-8:30pm PT
     format: Online
     contact: dbsawestportland@gmail.com
-    notes: dbsawestportland.org states the meeting starts at 7:00pm, with the room opening at 6:45pm for informal chat beforehand.
-      Previously recorded as 6:30-7:50pm, which the chapter's own meetings page does not support. No end time is published,
-      so the calendar assumes a one-hour block.
+    notes: RSVP by email with your first name to receive the Zoom link and password.
   - name: Open to All (Eastside)
     schedule: Thursdays 7:00-8:30pm PT
     format: Online
     registration: 'Via Meetup: Portland-Depression-Bipolar-Support-Alliance-Meetup-Group'
   - name: Mental Healthcare Professionals
-    schedule: Saturdays 10-11:30am PT
+    schedule: Saturdays 10am PT
     format: Online
     contact: dbsa.healthcare.professionals@gmail.com
-    notes: For mental healthcare professionals or trainees. Peer support in a confidential space.
+    notes: For mental healthcare professionals or trainees. The official page publishes a 10am start but no end time.
   eligibility: Open to all adults with any mental health condition (depression, bipolar, anxiety, PTSD, ADHD, etc.)
   member_liaison: dbsaportlandmemberliaison@gmail.com
-  flags:
-  - ⚠️ VERIFY - Eastside (Thu 7-8:30pm) and LGBTQIA+ (Mon 7-8:30pm) confirmed July 2026. The Mental Healthcare Professionals
-    group (Sat 10-11:30am) could NOT be confirmed from any published source this pass and may no longer run - confirm before
-    relying on it. mentalhealthisforeveryone.com does not expose its schedule to search, so the chapter site itself needs
-    a direct read.
-  last_verified: 2026-07-28
-  next_audit: 2026-08-28
+  last_verified: 2026-08-13
+  next_audit: 2026-09-13
   audit_frequency: monthly
   practical_tips:
-    first_visit: Just join any Zoom meeting - drop-in, no registration needed
-    registration: Eastside group uses Meetup for registration; others just show up
-    what_to_bring: Computer/phone for Zoom; first Monday LGBTQ+ meeting is hybrid
-    good_to_know: Not just for depression/bipolar - open to ALL mental health conditions. Typical attendance 10-25 people.
-      Running since 2005.
-  accessibility:
-  - wheelchair_accessible
-  - low_vision_friendly
-  accessibility_notes: Most meetings are online via Zoom, making them accessible from home. First Monday LGBTQ+ meeting offers
-    hybrid option. Zoom provides auto-captions.
+    first_visit: Use the listed email or Meetup group to obtain Zoom details before attending.
+    registration: Monday, Tuesday, and Saturday groups require email RSVP; Thursday uses Meetup.
+    what_to_bring: Computer or phone for Zoom
+    good_to_know: All current chapter meetings are online. The official site says in-person groups are discontinued due to
+      low attendance.
   social_intensity: structured_group
   good_for:
   - anxiety_friendly
   - isolation
   - indoor
   guide_location: activities-guide-1.md#peer-support-groups
-  notes: 'Peer-facilitated support groups since 2005. Typical attendance 10-25 people. Three chapters: Eastside, West Portland,
-    and LGBTQ. All meetings free and drop-in.'
+  notes: Peer-facilitated online support groups. All meetings are free; obtain Zoom details through the listed email or Meetup
+    contact before attending.
 - id: oregon-warmline
   name: David Romprey Oregon Warmline
   category: peer_support
@@ -5354,7 +5344,8 @@
   website: https://www.ci.oswego.or.us/library
   source_urls:
   - https://www.ci.oswego.or.us/library
-  - https://www.ci.oswego.or.us/loreads/lake-oswego-reads-2026
+  - https://www.ci.oswego.or.us/loreads
+  - https://www.ci.oswego.or.us/loreads/events-2026
   pricing:
     description: FREE
   hours: 'Mon-Thu: 10am-7pm
@@ -5366,9 +5357,9 @@
     '
   programs:
   - name: Lake Oswego Reads
-    schedule: Various events throughout year
     cost: FREE
-    notes: Community reading program with author talks, discussions, book swaps
+    notes: Annual community reading program; 2026 events centered on Tilt and took place in April. Check the official page
+      for the next book and event series.
   - name: World Cinema Series
     schedule: Monthly
     location: Lake Theater & Cafe
@@ -5389,8 +5380,8 @@
     schedule: June 1 - August 31
     cost: FREE
     notes: All ages; readings, special events, prizes
-  last_verified: 2026-05-01
-  next_audit: 2026-08-01
+  last_verified: 2026-08-13
+  next_audit: 2026-11-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Kids Librarian available at 503-697-6580
@@ -6280,27 +6271,25 @@
   resource_type: event
   address: Pearl District, Portland
   phone: null
-  website: https://www.pearldistrict.org/article/first-thursday-is-back
+  website: https://urbanartnetwork.org/events/first-thursday-street-gallery
   source_urls:
-  - https://www.travelportland.com/culture/monthly-art-walks-in-portland/
-  - https://www.pearldistrict.org/article/first-thursday-is-back
-  - https://urbanartnetwork.org/
+  - https://www.travelportland.com/events/portland-street-fairs/
+  - https://urbanartnetwork.org/events/first-thursday-street-gallery
   pricing:
-    description: FREE
+    description: FREE (suggested $2 donation)
   schedule: First Thursday monthly, 5-9pm (April-October)
   schedule_start_date: 2026-04-02
   schedule_end_date: 2026-10-01
   transit: MAX to Galleria/SW 10th
-  last_verified: 2026-05-01
-  next_audit: 2026-08-01
+  last_verified: 2026-08-13
+  next_audit: 2027-03-01
   audit_frequency: annually
   practical_tips:
     first_visit: Start at any Pearl District gallery - most along NW 12th-13th between Burnside and Lovejoy
     registration: None - just walk in
     what_to_bring: Nothing required. Comfortable walking shoes helpful.
-    good_to_know: Since 1986 - Portland's original art walk. Dozens of galleries with free receptions, wine, and snacks. Street
-      Gallery (April-October) adds 100+ artists on NW 13th Ave. Easy MAX access to Galleria/SW 10th. Great for experiencing
-      Portland's art scene free.
+    good_to_know: Indoor gallery openings continue year-round. The outdoor Street Gallery runs 5-9pm April-October on NW
+      13th Avenue between Hoyt/Glisan and Kearney. Easy MAX access to Galleria/SW 10th.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
@@ -6312,8 +6301,8 @@
   - anxiety_friendly
   - new_to_area
   guide_location: activities-guide-1.md#free-galleries-and-art-walks
-  notes: Since 1986. Indoor gallery openings happen year-round; outdoor Street Gallery runs April-October on NW 13th Ave (~100
-    local artists, 4 blocks). Calendar entries reflect the April-October Street Gallery season; year-round indoor gallery
+  notes: Indoor gallery openings happen year-round; the outdoor Street Gallery runs April-October on NW 13th Avenue. Calendar
+    entries reflect the April-October Street Gallery season; year-round indoor gallery
     openings continue every first Thursday.
   latitude: 45.529044
   longitude: -122.681598
@@ -6401,28 +6390,24 @@
   category: events
   location_type: physical
   resource_type: event
-  address: SE 39th Ave between Belmont & Stark, Portland
+  address: SE Peacock Lane between SE Belmont St & SE Stark St, Portland, OR 97214
   phone: null
   website: https://www.peacocklane.org/
   source_urls:
   - https://www.peacocklane.org/
-  - https://traveloregon.com/things-to-do/events/holiday-lights-on-peacock-lane/
   pricing:
-    description: FREE (donations accepted at cocoa booth)
-  dates: December 15-31, 6-11pm nightly
-  special_events:
-  - 'Free Cocoa Booth: December 15-24, opens 6pm'
-  - 'Pedestrian-Only Nights: December 19 & 20'
+    description: FREE (2026 cocoa-booth details not yet announced)
   transit: TriMet recommended - no official parking
-  last_verified: 2025-12-02
+  last_verified: 2026-08-13
   next_audit: 2026-11-01
   audit_frequency: annually
   practical_tips:
-    first_visit: Visit on pedestrian-only nights (Dec 19-20) for best experience - no car traffic
+    first_visit: Check the official site for the 2026 dates and pedestrian-only nights before making a trip.
     registration: None - just show up
-    what_to_bring: Warm clothes, walking shoes. Cash for cocoa booth donations.
-    good_to_know: Since 1932 - 93 years of tradition. Historic Tudor homes decorated with classic lights. Free cocoa booth
-      Dec 15-24. Pedestrian-only nights Dec 19-20 recommended. Take TriMet - no official parking. 2032 will be 100th anniversary.
+    what_to_bring: Warm clothes and walking shoes; check the official site for current cocoa-booth details.
+    good_to_know: Historic Tudor homes have hosted this volunteer-run tradition since 1932. The official site still shows
+      the 2025 schedule; 2026 dates and pedestrian-only nights have not yet been announced. Take TriMet when the season opens—there
+      is no official parking.
   accessibility:
   - transit_nearby
   accessibility_notes: Flat residential street, walkable. Can also drive through slowly on non-pedestrian nights.
@@ -6432,9 +6417,14 @@
   - family_friendly
   - anxiety_friendly
   guide_location: activities-guide-2.md#winter-holiday-events
-  notes: Since 1932 (93 years). Historic Tudor homes. 2032 will be 100th anniversary.
+  notes: Since 1932. The official site still shows the 2025 schedule, so this entry is intentionally directory-only until
+    the 2026 dates are announced. The calendar will not guess dates from last year's schedule.
   flags:
   - 📅 DATE-SENSITIVE
+  - ⚠️ VERIFY - The official site still displays its 2025 schedule. Recheck in November and add 2026 dates only after the
+    organizer publishes them.
+  latitude: 45.517783
+  longitude: -122.621441
 - id: gresham-music-parks
   name: Gresham Wednesday Music in the Parks
   category: events
@@ -6853,19 +6843,21 @@
   resource_type: event
   address: Happy Valley Park, 13770 SE Ridgecrest Rd, Happy Valley, OR
   phone: null
-  website: https://www.happyvalleyor.gov/4th-of-july-family-festival/
+  website: https://www.happyvalleyor.gov/community/community-services/community-events/4th-of-july/
   source_urls:
-  - https://www.happyvalleyor.gov/4th-of-july-family-festival/
+  - https://www.happyvalleyor.gov/community/community-services/community-events/4th-of-july/
+  - https://www.happyvalleyor.gov/services/hv-community-events/
   pricing:
-    description: FREE
+    description: FREE admission; carnival rides and inflatables require a City-issued wristband
   dates: July 4, 2026
   hours: Noon-10pm (parade at noon, fireworks at dusk)
-  last_verified: 2026-01-24
-  next_audit: 2026-06-01
+  last_verified: 2026-08-13
+  next_audit: 2027-06-01
   notes: Independence Day hike at 9:30am, parade at noon. Beer garden, carnival rides (wristbands), food vendors.
   audit_frequency: annually
   practical_tips:
-    first_visit: Arrive early for parking at Happy Valley Park
+    first_visit: The park is closed to vehicles July 3-5. Use the free parking at Happy Valley Elementary or Middle School
+      and allow time to walk to the park.
     registration: None - free admission
     what_to_bring: Blankets, chairs, picnic food, sunscreen
     good_to_know: Free community Fourth of July celebration. Live music, food vendors, kids activities. Fireworks typically
@@ -7045,24 +7037,26 @@
   resource_type: event
   address: Statewide - all Oregon waters
   phone: null
-  website: https://myodfw.com/articles/free-fishing-days-and-events
+  website: https://myodfw.com/articles/family-fishing-events-free-fishing-weekends
   source_urls:
-  - https://myodfw.com/articles/free-fishing-days-and-events
+  - https://myodfw.com/articles/2026-free-fishing-days-and-events
+  - https://myodfw.com/articles/family-fishing-events-free-fishing-weekends
+  - https://myodfw.com/articles/disabled-angler-access-map
   pricing:
     description: FREE - no license required
   dates:
   - February 14-15, 2026
   - June 6-7, 2026
   - November 27-28, 2026
-  last_verified: 2026-02-11
-  next_audit: 2027-02-11
+  last_verified: 2026-08-13
+  next_audit: 2027-01-15
   audit_frequency: annually
   practical_tips:
-    first_visit: Find a fishing spot - many stocked ponds in Portland metro area
-    registration: None - no license required on free weekends
-    what_to_bring: Fishing gear (rod, tackle, bait), bucket/cooler, sunscreen
-    good_to_know: No fishing license required statewide on these weekends. Three times per year (February, June, November).
-      All other fishing regulations still apply (size/bag limits). Great introduction to fishing without cost of license.
+    first_visit: Find a fishing spot—many stocked ponds are available in the Portland metro area.
+    registration: None; no license or tags are required on designated free-fishing weekends.
+    what_to_bring: Fishing gear (rod, tackle, bait), bucket or cooler, and sunscreen
+    good_to_know: No licenses, tags, or endorsements are required for fishing, crabbing, or clamming during the designated
+      weekends. Area closures, bag limits, and all other regulations still apply.
   accessibility:
   - wheelchair_accessible
   accessibility_notes: Varies by fishing location - many urban ponds have accessible banks and fishing docks. ODFW maintains
@@ -8300,37 +8294,34 @@
   category: food_farms
   location_type: physical
   resource_type: service
-  address: 618 NW Davis St, Portland, OR 97209
+  status: TEMPORARILY CLOSED
+  address: null
   phone: 503-222-5694
   website: https://sistersoftheroad.org
-  hours: TEMPORARILY CLOSED - relocating to Lents. New home purchased June 2026 (5643 SE 83rd Ave); renovation underway. Once
-    open, the cafe expects to operate Tue-Sat 10am-2pm (per HUD project filing).
+  hours: CLOSED - no cafe service is operating. Sisters plans to move to a residential home in Lents later in 2026; reopening
+    date, address, services, and hours are not yet published.
   source_urls:
-  - https://sistersoftheroad.org
-  - https://www.opb.org/article/2026/07/06/think-out-loud-sisters-of-the-road-moves-portland-lents/
+  - https://www.sistersoftheroad.org/
+  - https://www.sistersoftheroad.org/lents-faq
+  - https://www.sistersoftheroad.org/fresh-change
   pricing:
-    description: Pay-what-you-can
-    notes: Barter work program - work 15 minutes for a meal (when open)
-  last_verified: 2026-08-07
-  next_audit: 2026-11-07
+    description: Not currently operating
+    notes: The historic cafe was pay-what-you-can; future Lents services and pricing have not been announced.
+  last_verified: 2026-08-13
+  next_audit: 2026-09-13
   audit_frequency: quarterly
-  practical_tips: Pay-what-you-can or work 15 minutes for a meal through barter program. Welcoming community space emphasizing
-    dignity and autonomy. A gathering place, not just a meal program.
-  accessibility:
-  - wheelchair_accessible
-  - transit_nearby
+  practical_tips: The cafe is closed and is not currently a meal-access option. Check the official move FAQ or newsletter
+    for the future Lents opening and services.
   social_intensity: casual_group
   good_for:
   - indoor
   - isolation
   guide_location: activities-guide-1.md#community-meal-programs
-  notes: Welcoming community space emphasizing dignity and autonomy
+  notes: Sisters is planning a move from Old Town to a residential home in Lents. The organization says the future program
+    model is still being shaped with community input.
   flags:
-  - ⚠️ VERIFY - Cafe closed since April 2026, but relocation is now confirmed - Sisters closed on a house at 5643 SE 83rd
-    Ave (Lents) in June 2026 (OPB, July 6 2026), funded by a HUD grant (Portland Housing Bureau, Feb 2026). Expected hours
-    once operational - Tue-Sat 10am-2pm. Watch for the opening announcement, then update address/hours and clear this flag.
-  latitude: 45.524375
-  longitude: -122.676939
+  - ⚠️ VERIFY - Cafe service remains closed. Sisters plans a Lents move later in 2026, but its official FAQ does not yet publish
+    the new address, opening date, hours, meal service, or pricing. Recheck before listing it as an available food resource.
 - id: portland-rescue-mission
   name: Portland Rescue Mission
   category: food_farms
@@ -8971,7 +8962,7 @@
   latitude: 45.518866
   longitude: -122.535129
 - id: snowcap-community-charities
-  name: SnowCap Community Charities
+  name: SnowCap Community Services
   category: food_farms
   location_type: physical
   resource_type: organization
@@ -8980,11 +8971,11 @@
   website: https://www.snowcap.org
   source_urls:
   - https://www.snowcap.org
-  - https://www.snowcap.org/food-assistance
+  - https://www.snowcap.org/services.html
   pricing:
     description: FREE
   hours: Mon-Fri 10am-2pm, Mon & Wed 6-8pm
-  eligibility: East of 82nd Ave, Multnomah County (East Portland & Gresham). Up to 2 visits per month.
+  eligibility: East of 82nd Avenue in Multnomah County; pantry visits up to 2 times per month through August 2026.
   features:
   - Pre-packed food boxes
   - Fresh and frozen food
@@ -8995,18 +8986,19 @@
   - name: Mobile Food Pantry
     notes: Brings food to underserved neighborhoods in East Portland and Gresham
   - name: SnowCap Community Garden
-    notes: Free gardening plots for low-income residents east of 82nd Ave
+    notes: Raised garden beds, water, greenhouse space, and gardening classes for low-income families; gardeners give 10%
+      of their harvest to the pantry.
   - name: Senior Home Delivery
-    notes: Food delivery for homebound seniors
-  last_verified: 2026-03-30
-  next_audit: 2026-06-30
+    notes: Monthly pre-packed food and produce delivery for homebound seniors; individual delivery is currently at capacity.
+  last_verified: 2026-08-13
+  next_audit: 2026-09-01
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Just show up during hours. Pre-packed boxes so the process is quick. Evening hours Mon & Wed are great for
-      people who work during the day.
+    first_visit: Complete SnowCap's general application online or call for a quick intake, then visit during pantry hours.
+      Evening hours Monday and Wednesday are useful for people who work during the day.
     what_to_bring: Bags or boxes to carry food home
-    good_to_know: Small staff with 1,000+ volunteers. Serves the area east of 82nd Ave — one of Portland's most underserved
-      neighborhoods. Also provides diapers, formula, and clothing.
+    good_to_know: Guests may visit the pantry up to twice per month through August 2026. Clothing is available by appointment
+      at a separate location.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
@@ -9017,8 +9009,8 @@
   - indoor
   - family_friendly
   guide_location: activities-guide-2.md#free-food-resources
-  notes: Major East Portland food pantry serving area east of 82nd Ave. Evening hours Mon/Wed 6-8pm. Also operates mobile
-    pantry, community garden, and senior delivery. Founded as an all-volunteer charity.
+  notes: Major East Portland food pantry serving Multnomah County residents east of 82nd Avenue. Evening hours Monday and
+    Wednesday 6-8pm. Also operates mobile pantry, community garden, and senior delivery programs.
   latitude: 45.519888
   longitude: -122.479827
 - id: birch-community-services
@@ -9151,26 +9143,29 @@
   latitude: 45.508887
   longitude: -122.960188
 - id: hunger-fighters-lake-oswego
-  name: Hunger Fighters Food Bank
+  name: Hunger Fighters Oregon
   category: food_farms
   location_type: physical
   resource_type: service
-  address: 4 Monroe Pkwy, Lake Oswego, OR 97034
-  phone: 503-635-3401
-  website: https://www.hungerfighters.org
+  address: 4 Monroe Parkway, Suite A, Lake Oswego, OR 97035
+  phone: 503-683-3401
+  website: https://www.hungerfightersoregon.org/
   source_urls:
-  - https://www.hungerfighters.org
+  - https://www.hungerfightersoregon.org/
+  - https://www.hungerfightersoregon.org/for-our-guests.html
   pricing:
     description: FREE
   hours: Mon 4-6pm, Wed 5-7pm, Fri 10am-1pm
-  eligibility: ZIP codes 97034 and 97035. No income verification needed.
-  last_verified: 2026-03-30
-  next_audit: 2026-06-30
+  eligibility: No proof of income or residency required. No appointment required; guests may shop twice per month.
+  last_verified: 2026-08-13
+  next_audit: 2026-11-13
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Walk in during hours. No income verification needed — just need to live in ZIP 97034 or 97035.
+    first_visit: Walk in during open hours; guests are admitted first-come, first-served. New guests complete a basic demographic
+      form, but no proof of income or residency is required.
     what_to_bring: Bags for groceries
-    good_to_know: Evening hours Mon and Wed are great for people who work during the day. Serves the Lake Oswego area specifically.
+    good_to_know: Guests may shop twice each month. The pantry closes on major holidays, so check the official page before
+      a holiday visit.
   accessibility:
   - wheelchair_accessible
   social_intensity: drop_in
@@ -9179,7 +9174,8 @@
   - low_energy
   - indoor
   guide_location: activities-guide-2.md#free-food-resources
-  notes: Lake Oswego area food bank. No income verification. Evening hours Mon/Wed. Serves ZIP codes 97034 and 97035.
+  notes: No-barriers Lake Oswego pantry offering free food, hygiene items, and household essentials. No proof of income,
+    residency, or appointment is required.
   latitude: 45.431834
   longitude: -122.703402
 - id: gladstone-food-pantry
@@ -11412,12 +11408,13 @@
   website: https://www.firstfridaymilwaukie.com/
   source_urls:
   - https://www.firstfridaymilwaukie.com/
-  - https://www.milwaukieoregon.gov/generalpage/first-friday
+  - https://www.firstfridaymilwaukie.com/directions.aspx
+  - https://www.milwaukieoregon.gov/community/events/spring_summer_concerts.php
   pricing:
     description: FREE
-  season: June to October
+  season: May to October
   schedule: 1st Fridays 5-8pm
-  schedule_start_date: 2026-06-01
+  schedule_start_date: 2026-05-01
   schedule_end_date: 2026-10-31
   features:
   - Artist installations
@@ -11425,8 +11422,8 @@
   - Craft beer
   - Local vendors
   - Live music
-  last_verified: 2026-03-24
-  next_audit: 2027-03-24
+  last_verified: 2026-08-13
+  next_audit: 2027-04-01
   audit_frequency: annually
   practical_tips:
     first_visit: Walk along Historic Main Street from 5-8pm on the first Friday of the month
@@ -11445,7 +11442,7 @@
   - isolation
   - new_to_area
   guide_location: activities-guide-1.md#community-art-events
-  notes: Monthly arts and community event June-October on Historic Milwaukie Main Street. Free to attend.
+  notes: Monthly arts and community event May-October on Historic Milwaukie Main Street. Free to attend.
   flags:
   - 🔄 SEASONAL
 - id: portland-sunday-parkways
@@ -11914,30 +11911,34 @@
   resource_type: program
   address: 6171 SW Capitol Highway, Portland, OR 97239
   phone: 503-894-7560
-  website: https://hopewellhousepdx.org/grief-support/
+  website: https://hopewellhousepdx.org/community-connections/
   source_urls:
-  - https://hopewellhousepdx.org/grief-support/
+  - https://hopewellhousepdx.org/community-connections/
   - https://hopewellhousepdx.org/contact/
   pricing:
-    description: FREE
+    description: Cost not published; contact Hopewell House for current details
   programs:
-  - name: Community Grief Ritual
-    schedule: 3rd Monday of each month 6:30-8pm
+  - name: Community Grief Circle
+    schedule: Last Monday of each month 6:30-8pm
+    schedule_start_date: 2026-07-01
     format: In-person, drop-in, no RSVP needed
     notes: A practice of transforming individual and collective grief within a supportive community. All grief is welcome.
-  - name: Grief Support Groups (Spring 2026)
-    format: In-person, 6-session series, every other week over 12 weeks. RSVP required.
-    notes: 'Spring sessions: Tuesdays 2-3:30pm (Apr 7-Jun 16) register by Mar 31; Thursdays 6:30-8pm (Apr 2-Jun 11) register
-      by Mar 26. Email stephanie.brown@fhhpdx.org to register.'
-  schedule: 3rd Monday 6:30-8pm (Grief Ritual); Grief groups run in series throughout the year
-  last_verified: 2026-03-04
-  next_audit: 2026-06-04
+  - name: Grief Support Groups
+    format: In-person; six 90-minute sessions every other week; advance registration required.
+    notes: New groups begin every three months; join the waitlist for the next available group.
+  - name: LGBTQIA+ Grief Support Group
+    format: In-person, 6-session series, every other week. RSVP required.
+    notes: For LGBTQIA+ people mourning the death of a significant person. Join the waitlist through the official page for
+      availability and exact session dates.
+  schedule: Last Monday 6:30-8pm (Community Grief Circle); grief groups run quarterly by advance registration
+  last_verified: 2026-08-13
+  next_audit: 2026-11-13
   audit_frequency: quarterly
   practical_tips:
-    first_visit: The monthly Community Grief Ritual is drop-in - just show up. For the 6-session grief groups, you must register
-      in advance by email.
-    registration: Email stephanie.brown@fhhpdx.org to register for grief support groups
-    good_to_know: Historic 12,000 sq ft Tudor home on 4.5 wooded acres in the Hillsdale neighborhood. Peaceful, welcoming
+    first_visit: The monthly Community Grief Circle is drop-in—just show up on the last Monday. For 6-session grief groups,
+      join the waitlist through the official page.
+    registration: No RSVP for the monthly circle; advance registration is required for the quarterly grief groups.
+    good_to_know: Historic 1926 English Tudor home on 3.6 wooded acres in the Hillsdale neighborhood. Peaceful, welcoming
       setting. Led by professionally trained volunteers. Grief groups close to new members once they begin.
   accessibility:
   - wheelchair_accessible
@@ -11947,7 +11948,7 @@
   - anxiety_friendly
   - indoor
   guide_location: activities-guide-2.md#peer-support
-  notes: Free grief support in a beautiful, peaceful setting. The monthly Community Grief Ritual is the most accessible entry
+  notes: Community grief support in a beautiful, peaceful setting. The monthly Community Grief Circle is the most accessible entry
     point - drop-in, no RSVP. Grief groups run in 6-session series with registration. Hopewell House is primarily a residential
     end-of-life care facility that also offers community grief services.
   latitude: 45.480052
@@ -12229,11 +12230,13 @@
   category: peer_support
   location_type: hybrid
   resource_type: program
-  address: The Peace House, 2116 NE 18th Ave, Portland, OR 97212
-  phone: 503-699-8006
+  address: null
+  phone: 503-334-2564
+  email: info@briefencounters.org
   website: https://www.briefencounters.org
   source_urls:
   - https://www.briefencounters.org/
+  - https://www.briefencounters.org/calendar
   - https://www.briefencounters.org/pregnancy-and-infant-loss-support-groups
   - https://www.briefencounters.org/grievingpartnersgroup
   pricing:
@@ -12242,28 +12245,38 @@
   eligibility: Parents and families who have experienced pregnancy loss, early pregnancy loss, or infant loss
   programs:
   - name: Parents of Pregnancy and Infant Loss
-    schedule: 2nd Monday 7pm
-    location: The Peace House, 2116 NE 18th Ave, Portland, OR 97212
+    schedule: 2nd Monday 7-9pm
+    schedule_start_date: 2026-08-01
+    location: The Overlook House, 3839 N Melrose Dr, Portland, OR 97227
     format: In-person
     cost: FREE
-    notes: Includes early pregnancy loss. The same group also meets on the 4th Tuesday at 7pm; that session's format was not
-      published as of July 2026, so only the confirmed in-person 2nd Monday meeting is listed as a calendar event. Call 503-699-8006
-      to confirm the 4th Tuesday.
+    notes: Includes early pregnancy loss. No registration is required. Call or text 503-334-2564 to confirm the venue because
+      the official site's static page still names the former Peace House location.
+  - name: Parents of Pregnancy and Infant Loss (Zoom)
+    schedule: 4th Tuesday 7-9pm
+    format: Online
+    location: Online (Zoom)
+    registration: https://us06web.zoom.us/j/89975709388
+    cost: FREE
+    notes: Call or text 503-334-2564 for Zoom help. Keep camera and audio focused on the adult participant during the meeting.
   - name: Non-Birthing Parent Support Group
-    schedule: 1st Monday 6:30pm
-    location: The Peace House, 2116 NE 18th Ave, Portland, OR 97212
+    schedule: 1st Monday 6:30-8pm
+    schedule_start_date: 2026-08-01
+    location: The Overlook House, 3839 N Melrose Dr, Portland, OR 97227
     format: In-person
     cost: FREE
-    notes: For grieving partners and non-birthing parents.
-  last_verified: 2026-07-28
-  next_audit: 2026-10-28
+    notes: For grieving partners and non-birthing parents. Call or text 503-334-2564 to confirm the venue because the official
+      site's static page still names the former Peace House location.
+  last_verified: 2026-08-13
+  next_audit: 2026-11-13
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Call 503-699-8006 before your first meeting to confirm the date and let them know you are coming.
-    registration: Contact by phone; no formal registration described for in-person meetings.
+    first_visit: Call or text 503-334-2564 before an in-person meeting to confirm the venue.
+    registration: No registration for in-person meetings; use the published Zoom link for the fourth-Tuesday meeting.
     what_to_bring: Nothing required.
     good_to_know: Peer-led support run by trained volunteers, specifically for perinatal loss - a gap the general grief groups
-      in this guide do not cover. Meetings are held at The Peace House in NE Portland.
+      in this guide do not cover. Current dated calendar entries list The Overlook House, but call to confirm because other
+      official pages still name The Peace House.
   accessibility:
   - transit_nearby
   social_intensity: structured_group
@@ -12277,10 +12290,10 @@
     for non-birthing parents and partners. Added July 2026 to fill a perinatal grief gap not covered by Dougy Center, Providence
     Hospice or Hopewell House.
   flags:
-  - ⚠️ VERIFY - Group days and times sourced from briefencounters.org via search; the 4th Tuesday session's format (in-person
-    vs virtual) is unconfirmed. Confirm both groups by phone at 503-699-8006.
-  latitude: 45.537764
-  longitude: -122.64698
+  - ⚠️ VERIFY - The dated August 2026 official calendar places the first-Monday and second-Monday in-person groups at The
+    Overlook House, 3839 N Melrose Dr, while the static support pages and event-description boilerplate still name The Peace
+    House, 2116 NE 18th Ave. Schedules and the fourth-Tuesday Zoom format are confirmed; call or text 503-334-2564 to confirm
+    the in-person venue before attending.
 - id: portland-memory-garden
   name: Portland Memory Garden (Ed Benedict Park)
   category: parks_nature
@@ -12357,16 +12370,177 @@
   source_urls:
   - https://www.opsfest.org/
   - https://www.opsfest.org/season-chronological.html
-  - https://www.pdxpipeline.com/2026-portland-original-practice-shakespeare-festival-free/
   pricing:
     description: FREE
     notes: No-cost performances in public parks. Donations accepted but never required.
   eligibility: Open to all
-  season: June 20 - August 22, 2026 (18th season)
+  season: June 20 - August 29, 2026 (18th season)
   schedule_start_date: 2026-06-20
-  schedule_end_date: 2026-08-22
-  last_verified: 2026-07-28
-  next_audit: 2026-09-28
+  schedule_end_date: 2026-08-29
+  programs:
+  - id: midsommer-mt-tabor-jun20
+    name: A Midsommer Nights Dreame
+    dates:
+    - June 20, 2026
+    schedule: 9pm
+    location: Mt Tabor Summit
+    cost: FREE
+  - id: midsommer-abridged-happy-valley-jun27
+    name: Midsommer (Abridged)
+    dates:
+    - June 27, 2026
+    schedule: 5:30pm
+    location: Happy Valley Library
+    cost: FREE
+  - id: twelfe-night-abridged-oaks-park-jun28
+    name: Twelfe Night (Abridged)
+    dates:
+    - June 28, 2026
+    schedule: 3pm
+    location: Oaks Park Pride Rides
+    cost: FREE
+  - id: henry-iv-laurelhurst-jul10
+    name: Henry IV, pt 1
+    dates:
+    - July 10, 2026
+    schedule: 7pm
+    location: Laurelhurst Park
+    cost: FREE
+  - id: comedie-errors-abridged-laurelhurst-jul11
+    name: Comedie of Errors (Abridged)
+    dates:
+    - July 11, 2026
+    schedule: 2pm
+    location: Laurelhurst Park
+    cost: FREE
+  - id: king-lear-laurelhurst-jul11
+    name: King Lear
+    dates:
+    - July 11, 2026
+    schedule: 7pm
+    location: Laurelhurst Park
+    cost: FREE
+  - id: much-adoe-irving-jul17
+    name: Much Adoe About Nothing
+    dates:
+    - July 17, 2026
+    schedule: 7pm
+    location: Irving Park
+    cost: FREE
+  - id: twelfe-night-abridged-irving-jul18
+    name: Twelfe Night (Abridged)
+    dates:
+    - July 18, 2026
+    schedule: 2pm
+    location: Irving Park
+    cost: FREE
+  - id: romeo-juliet-irving-jul18
+    name: Romeo and Juliet
+    dates:
+    - July 18, 2026
+    schedule: 7pm
+    location: Irving Park
+    cost: FREE
+  - id: cymbeline-laurelhurst-jul24
+    name: Cymbeline
+    dates:
+    - July 24, 2026
+    schedule: 7pm
+    location: Laurelhurst Park
+    cost: FREE
+  - id: midsommer-abridged-laurelhurst-jul25
+    name: Midsommer (Abridged)
+    dates:
+    - July 25, 2026
+    schedule: 2pm
+    location: Laurelhurst Park
+    cost: FREE
+  - id: twelfe-night-laurelhurst-jul25
+    name: Twelfe Night
+    dates:
+    - July 25, 2026
+    schedule: 7pm
+    location: Laurelhurst Park
+    cost: FREE
+  - id: comedie-errors-roehr-jul31
+    name: Comedie of Errors
+    dates:
+    - July 31, 2026
+    schedule: 7pm
+    location: Roehr Park, Lake Oswego
+    cost: FREE
+  - id: as-you-like-it-sherwood-aug1
+    name: As You Like It
+    dates:
+    - August 1, 2026
+    schedule: 7pm
+    location: Veterans' Park, Sherwood
+    cost: FREE
+  - id: midsommer-abridged-gateway-aug5
+    name: Midsommer (Abridged)
+    dates:
+    - August 5, 2026
+    schedule: 11:30am
+    location: Gateway Discovery Park
+    cost: FREE
+  - id: macbeth-george-rogers-aug8
+    name: Macbeth
+    dates:
+    - August 8, 2026
+    schedule: 7pm
+    location: George Rogers Park, Lake Oswego
+    cost: FREE
+  - id: julius-caesar-washington-park-aug14
+    name: Julius Caesar
+    dates:
+    - August 14, 2026
+    schedule: 7pm
+    location: Washington Park Amphitheatre
+    cost: FREE
+  - id: romeo-juliet-abridged-washington-park-aug15
+    name: Romeo And Juliet (Abridged)
+    dates:
+    - August 15, 2026
+    schedule: 2pm
+    location: Washington Park Amphitheatre
+    cost: FREE
+  - id: midsommer-washington-park-aug15
+    name: A Midsommer Nights Dreame
+    dates:
+    - August 15, 2026
+    schedule: 7pm
+    location: Washington Park Amphitheatre
+    cost: FREE
+  - id: comedie-errors-abridged-camille-aug19
+    name: Comedie of Errors (Abridged)
+    dates:
+    - August 19, 2026
+    schedule: 6:30pm
+    location: Camille Park, Beaverton
+    cost: FREE
+  - id: apprentice-showcase-mt-tabor-aug22
+    name: Apprentice Showcase!
+    dates:
+    - August 22, 2026
+    schedule: 2pm
+    location: Mt Tabor Amphitheatre
+    cost: FREE
+  - id: hamlet-mt-tabor-aug22
+    name: Hamlet
+    dates:
+    - August 22, 2026
+    schedule: 7pm
+    location: Mt Tabor Amphitheatre
+    cost: FREE
+  - id: loves-labours-lost-tillamook-aug29
+    name: Loves Labour's Lost
+    dates:
+    - August 29, 2026
+    schedule: 2pm
+    location: Tillamook Library
+    cost: FREE
+  last_verified: 2026-08-13
+  next_audit: 2027-06-01
   audit_frequency: annually
   practical_tips:
     first_visit: Bring a blanket or low chair; performances are on grass. Arrive early for a good spot.
@@ -12387,13 +12561,9 @@
   - anxiety_friendly
   - isolation
   guide_location: activities-guide-1.md#arts-and-culture
-  notes: 18th season in 2026 - 22 plays across 11 Portland metro parks, all free. Added July 2026.
+  notes: 18th season in 2026 - 23 free performances across 12 parks and venues.
   flags:
   - 📅 DATE-SENSITIVE
-  - ⚠️ VERIFY - Season dates (June 20 - August 22, 2026) and the 22-plays/11-parks scale are confirmed, but the per-performance
-    schedule of which play is at which park on which night was not retrievable by search. It lives at opsfest.org/season-chronological.html.
-    Until that page is read directly this entry carries no parseable calendar events and appears only in the Resources directory.
-    Capture the individual dates as programs with dates fields on the next pass.
 - id: multnomah-days
   name: Multnomah Days Festival & Parade
   category: events
@@ -12404,23 +12574,23 @@
   website: https://www.multnomahvillage.org/event-details/multnomah-days-2026
   source_urls:
   - https://www.multnomahvillage.org/event-details/multnomah-days-2026
-  - https://everout.com/portland/events/multnomah-days-2026/e239258/
+  - https://www.multnomahvillage.org/events/multnomah-days-2026
   - https://www.travelportland.com/event/6839a945f06e831a6c74654d/
   pricing:
     description: FREE to attend
-    notes: Open-air street festival - no admission charge described. Food, drink and vendor purchases cost extra.
+    notes: Food, drink, vendor purchases, and auto-show registration may cost extra.
   dates: August 15, 2026
   schedule: 9am-5pm
   eligibility: Open to all
-  last_verified: 2026-07-28
-  next_audit: 2026-10-28
+  last_verified: 2026-08-13
+  next_audit: 2027-07-15
   audit_frequency: annually
   practical_tips:
     first_visit: Centred on SW Capitol Hwy in Multnomah Village. Street closures mean parking nearby is tight - transit or
       walking is easier.
     registration: None
     what_to_bring: Cash for vendors and food carts, sun protection
-    good_to_know: One-day open-air street festival with a community parade, two stages of live music, an art fair and 150+
+    good_to_know: One-day open-air street festival with a community parade, two stages of live music, an art fair and 170+
       vendor booths, plus food carts and street dining. Busy and crowded - the morning is quieter than the afternoon if large
       crowds are difficult.
   accessibility:
@@ -12438,9 +12608,6 @@
     July 2026.
   flags:
   - 📅 DATE-SENSITIVE
-  - ⚠️ VERIFY - Date (August 15, 2026), hours (9am-5pm) and location are well corroborated. Free admission is implied by the
-    open-air street-festival format and its inclusion in free-event roundups, but is not stated outright on the organiser's
-    page. Confirm before describing it as free in printed material.
 - id: hawthorne-plaza-concerts
   name: Hawthorne Plaza Concert Series (Concerts in the Plaza)
   category: arts_culture
@@ -12448,29 +12615,69 @@
   resource_type: event
   address: Hawthorne Plaza, SE 37th Ave & SE Hawthorne Blvd, Portland, OR 97214
   phone: null
-  website: https://ventureportland.org/event/hawthorne-plaza-concert-series/
+  website: https://ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/
   source_urls:
-  - https://ventureportland.org/event/hawthorne-plaza-concert-series/
-  - https://pdxparent.com/series/heart-of-hawthorne-summer-concerts/
-  - https://www.pdxpipeline.com/portland-august-events/
+  - https://ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/
+  - https://www.instagram.com/p/DadvdRYkvTA/
+  - https://www.portland.gov/transportation/planning/plazas/events
   pricing:
     description: FREE
   schedule: Saturdays 4-6pm
-  season: Summer
+  season: July 11 - August 29, 2026
+  schedule_start_date: 2026-07-11
+  schedule_end_date: 2026-08-29
   eligibility: Open to all
   programs:
-  - name: Flat Pocket Trio
+  - id: sid-murrell-jul11
+    name: Sid Murrell
+    dates:
+    - July 11, 2026
+    schedule: 4-6pm
+    cost: FREE
+  - id: taste-of-jazz-jul18
+    name: Taste of Jazz
+    dates:
+    - July 18, 2026
+    schedule: 4-6pm
+    cost: FREE
+  - id: rose-gerber-jul25
+    name: Rose Gerber
+    dates:
+    - July 25, 2026
+    schedule: 4-6pm
+    cost: FREE
+  - id: lee-walker-aug1
+    name: Lee Walker
+    dates:
+    - August 1, 2026
+    schedule: 4-6pm
+    cost: FREE
+  - id: flat-pocket-trio-aug8
+    name: Flat Pocket Trio
     dates:
     - August 8, 2026
     schedule: 4-6pm
     cost: FREE
-  - name: Bigger Nova
+  - id: bigger-nova-aug15
+    name: Bigger Nova
     dates:
     - August 15, 2026
     schedule: 4-6pm
     cost: FREE
-  last_verified: 2026-07-28
-  next_audit: 2026-09-28
+  - id: sid-murrell-aug22
+    name: Sid Murrell
+    dates:
+    - August 22, 2026
+    schedule: 4-6pm
+    cost: FREE
+  - id: taste-of-jazz-aug29
+    name: Taste of Jazz
+    dates:
+    - August 29, 2026
+    schedule: 4-6pm
+    cost: FREE
+  last_verified: 2026-08-13
+  next_audit: 2026-09-13
   audit_frequency: monthly
   practical_tips:
     first_visit: The plaza is a small open square at SE 37th and Hawthorne. Bring a chair - seating is limited.
@@ -12489,10 +12696,6 @@
   - isolation
   - new_to_area
   guide_location: activities-guide-1.md#free-concerts
-  notes: Free Saturday-afternoon summer concert series on Hawthorne Plaza, supported by Venture Portland. Added July 2026.
+  notes: Free eight-concert Saturday series at Heart of Hawthorne Plaza, July 11-August 29, 2026.
   flags:
   - 🔄 SEASONAL
-  - ⚠️ VERIFY - Weekly Saturday 4-6pm slot and the August 8 and August 15 performers are confirmed, but the series start and
-    end dates were not published in any source found. The two confirmed dates are listed as programs; the entry-level Saturday
-    schedule is therefore suppressed by design until the full run is known. Get the season range from ventureportland.org
-    and add schedule_start_date and schedule_end_date.

@@ -154,19 +154,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:71e919571174ce47@portlandresources.org
-DTSTAMP:20260501T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260402T170000
 DTEND;TZID=America/Los_Angeles:20260402T210000
 SUMMARY:First Thursday Art Walk
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Pearl Distri
- ct\, Portland\nWebsite: https://www.pearldistrict.org/article/first-thursd
- ay-is-back\nDetails: Since 1986. Indoor gallery openings happen year-round
- \; outdoor Street Gallery runs April-October on NW 13th Ave (~100 local ar
- tists\, 4 blocks). Calendar entries reflect the April-October Street Galle
- ry season\; year-round indoor gallery openings continue every first Thursd
- ay.
+DESCRIPTION:Category: Events & Festivals\nCost: FREE (suggested $2 donation
+ )\nAddress: Pearl District\, Portland\nWebsite: https://urbanartnetwork.or
+ g/events/first-thursday-street-gallery\nDetails: Indoor gallery openings h
+ appen year-round\; the outdoor Street Gallery runs April-October on NW 13t
+ h Avenue. Calendar entries reflect the April-October Street Gallery season
+ \; year-round indoor gallery openings continue every first Thursday.
 LOCATION:Pearl District\, Portland
-URL:https://www.pearldistrict.org/article/first-thursday-is-back
+URL:https://urbanartnetwork.org/events/first-thursday-street-gallery
 RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20261002T065959Z
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
@@ -200,21 +199,6 @@ DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Pioneer Cour
   Martini sing-along\, 10\,000 lights. 2025 was 41st annual.
 LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland
 URL:https://www.thesquarepdx.org/
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:c8f42108a7538ee3@portlandresources.org
-DTSTAMP:20251202T000000Z
-DTSTART;VALUE=DATE:20261215
-DTEND;VALUE=DATE:20270101
-SUMMARY:Peacock Lane Holiday Lights
-DESCRIPTION:Category: Events & Festivals\nCost: FREE (donations accepted at
-  cocoa booth)\nAddress: SE 39th Ave between Belmont & Stark\, Portland\nWe
- bsite: https://www.peacocklane.org/\nDetails: Since 1932 (93 years). Histo
- ric Tudor homes. 2032 will be 100th anniversary.
-LOCATION:SE 39th Ave between Belmont & Stark\, Portland
-URL:https://www.peacocklane.org/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -386,17 +370,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f74bcb91ff4bdb04@portlandresources.org
-DTSTAMP:20260124T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20260705
 SUMMARY:Happy Valley Fourth of July Festival
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Happy Valley
-  Park\, 13770 SE Ridgecrest Rd\, Happy Valley\, OR\nWebsite: https://www.h
- appyvalleyor.gov/4th-of-july-family-festival/\nDetails: Independence Day h
- ike at 9:30am\, parade at noon. Beer garden\, carnival rides (wristbands)\
- , food vendors.
+DESCRIPTION:Category: Events & Festivals\nCost: FREE admission\; carnival r
+ ides and inflatables require a City-issued wristband\nAddress: Happy Valle
+ y Park\, 13770 SE Ridgecrest Rd\, Happy Valley\, OR\nWebsite: https://www.
+ happyvalleyor.gov/community/community-services/community-events/4th-of-jul
+ y/\nDetails: Independence Day hike at 9:30am\, parade at noon. Beer garden
+ \, carnival rides (wristbands)\, food vendors.
 LOCATION:Happy Valley Park\, 13770 SE Ridgecrest Rd\, Happy Valley\, OR
-URL:https://www.happyvalleyor.gov/4th-of-july-family-festival/
+URL:https://www.happyvalleyor.gov/community/community-services/community-events/4th-of-july/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -464,43 +449,43 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d278ca247411846b@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;VALUE=DATE:20260214
 DTEND;VALUE=DATE:20260216
 SUMMARY:Oregon Free Fishing Weekends
 DESCRIPTION:Category: Events & Festivals\nCost: FREE - no license required\
  nAddress: Statewide - all Oregon waters\nWebsite: https://myodfw.com/artic
- les/free-fishing-days-and-events
+ les/family-fishing-events-free-fishing-weekends
 LOCATION:Statewide - all Oregon waters
-URL:https://myodfw.com/articles/free-fishing-days-and-events
+URL:https://myodfw.com/articles/family-fishing-events-free-fishing-weekends
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:77ae73c28b0f9ccd@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20260608
 SUMMARY:Oregon Free Fishing Weekends
 DESCRIPTION:Category: Events & Festivals\nCost: FREE - no license required\
  nAddress: Statewide - all Oregon waters\nWebsite: https://myodfw.com/artic
- les/free-fishing-days-and-events
+ les/family-fishing-events-free-fishing-weekends
 LOCATION:Statewide - all Oregon waters
-URL:https://myodfw.com/articles/free-fishing-days-and-events
+URL:https://myodfw.com/articles/family-fishing-events-free-fishing-weekends
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aadf365d4c01dd72@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:Oregon Free Fishing Weekends
 DESCRIPTION:Category: Events & Festivals\nCost: FREE - no license required\
  nAddress: Statewide - all Oregon waters\nWebsite: https://myodfw.com/artic
- les/free-fishing-days-and-events
+ les/family-fishing-events-free-fishing-weekends
 LOCATION:Statewide - all Oregon waters
-URL:https://myodfw.com/articles/free-fishing-days-and-events
+URL:https://myodfw.com/articles/family-fishing-events-free-fishing-weekends
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -670,14 +655,14 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9f592c53be720466@portlandresources.org
-DTSTAMP:20260324T000000Z
-DTSTART;TZID=America/Los_Angeles:20260605T170000
-DTEND;TZID=America/Los_Angeles:20260605T200000
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260501T170000
+DTEND;TZID=America/Los_Angeles:20260501T200000
 SUMMARY:Milwaukie First Friday
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Historic Mil
  waukie Main Street\, Milwaukie\, OR 97222\nWebsite: https://www.firstfrida
- ymilwaukie.com/\nDetails: Monthly arts and community event June-October on
-  Historic Milwaukie Main Street. Free to attend.
+ ymilwaukie.com/\nDetails: Monthly arts and community event May-October on 
+ Historic Milwaukie Main Street. Free to attend.
 LOCATION:Historic Milwaukie Main Street\, Milwaukie\, OR 97222
 URL:https://www.firstfridaymilwaukie.com/
 RRULE:FREQ=MONTHLY;BYDAY=1FR;UNTIL=20261101T065959Z
@@ -754,17 +739,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8c411e5862e6249e@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:Multnomah Days Festival & Parade
-DESCRIPTION:Category: Events & Festivals\nCost: FREE to attend\nNote: Open-
- air street festival - no admission charge described. Food\, drink and vend
- or purchases cost extra.\nAddress: SW Capitol Hwy & SW 35th Ave\, Portland
- \, OR 97219\nWebsite: https://www.multnomahvillage.org/event-details/multn
- omah-days-2026\nEligibility: Open to all\nDetails: Annual Multnomah Villag
- e street festival and parade\, organised by the Multnomah Village Business
-  Association. Added July 2026.
+DESCRIPTION:Category: Events & Festivals\nCost: FREE to attend\nNote: Food\
+ , drink\, vendor purchases\, and auto-show registration may cost extra.\nA
+ ddress: SW Capitol Hwy & SW 35th Ave\, Portland\, OR 97219\nWebsite: https
+ ://www.multnomahvillage.org/event-details/multnomah-days-2026\nEligibility
+ : Open to all\nDetails: Annual Multnomah Village street festival and parad
+ e\, organised by the Multnomah Village Business Association. Added July 20
+ 26.
 LOCATION:SW Capitol Hwy & SW 35th Ave\, Portland\, OR 97219
 URL:https://www.multnomahvillage.org/event-details/multnomah-days-2026
 CATEGORIES:Events & Festivals

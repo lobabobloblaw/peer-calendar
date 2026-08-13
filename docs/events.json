@@ -378,13 +378,13 @@
       "longitude": null,
       "phone": "503-823-7770",
       "email": null,
-      "website": "https://www.portland.gov/water/financial-assistance",
+      "website": "https://www.portland.gov/water/customer-service/pay-your-utility-bill/smart-discount",
       "pricing": {
-        "description": "5-80% discount on water and sewer bills",
-        "notes": "Discount based on financial vulnerability assessment"
+        "description": "Automatic 5-80% discount on City sewer, stormwater, and water utility bills",
+        "notes": "Eligibility and the discount percentage are assigned using account and publicly available data."
       },
       "hours": null,
-      "eligibility": "Portland Water Bureau customers experiencing financial hardship",
+      "eligibility": "Currently tailored to selected single-family residential customers facing financial hardship; eligibility is determined automatically.",
       "features": [],
       "location_type": "online_service",
       "resource_type": "service",
@@ -395,7 +395,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-03-24",
+      "last_verified": "2026-08-13",
       "accessibility": [],
       "social_intensity": "solo",
       "good_for": [
@@ -404,10 +404,10 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Portland water/sewer bill discount. 5-80% off based on financial need.",
+      "notes": "Automatic 5-80% utility-bill discount currently tailored to selected single-family residential customers; no application is required.",
       "practical_tips": {
-        "first_visit": "Apply online at portland.gov/water or call 503-823-7770",
-        "good_to_know": "Sliding scale discount from 5% to 80% based on financial need. Covers both water and sewer charges. Can be combined with other utility discount programs."
+        "first_visit": "No application is available for Smart Discount. Call 503-823-7770 with account questions or to ask about other financial-assistance options.",
+        "good_to_know": "The automatic discount ranges from 5% to 80% and reduces the combined sewer, stormwater, and water bill. Discount percentages are reviewed every six months."
       }
     },
     {
@@ -2293,19 +2293,18 @@
       "hours": null,
       "eligibility": "Open to all adults with any mental health condition (depression, bipolar, anxiety, PTSD, ADHD, etc.)",
       "features": [],
-      "location_type": "hybrid",
+      "location_type": "virtual",
       "resource_type": "program",
       "programs": [
         {
           "name": "LGBTQIA+ Support Group",
           "schedule": "Mondays 7:00-8:30pm PT",
-          "format": "Online, with an in-person option on 1st & 3rd Mondays at the Q Center",
-          "location": "Q Center, Portland (1st & 3rd Mondays only)",
+          "format": "Online",
           "contact": "dbsalgbtqiazoom@gmail.com",
           "audience": [
             "lgbtq"
           ],
-          "notes": "In-person option confirmed July 2026 as 1st AND 3rd Mondays at the Q Center. Previously recorded as 1st Monday only with the location distributed via Meetup. Q Center street address not yet confirmed - add it on the next pass.",
+          "notes": "RSVP by email with first name, last initial, and pronouns to receive the Zoom link.",
           "resolved_schedule": {
             "type": "recurring",
             "frequency": "weekly",
@@ -2323,13 +2322,11 @@
         },
         {
           "name": "Open to All (West Portland)",
-          "schedule": "Tuesdays 7pm",
+          "schedule": "Tuesdays 7:00-8:30pm PT",
           "format": "Online",
           "contact": "dbsawestportland@gmail.com",
-          "notes": "dbsawestportland.org states the meeting starts at 7:00pm, with the room opening at 6:45pm for informal chat beforehand. Previously recorded as 6:30-7:50pm, which the chapter's own meetings page does not support. No end time is published, so the calendar assumes a one-hour block.",
-          "audience": [
-            "lgbtq"
-          ],
+          "notes": "RSVP by email with your first name to receive the Zoom link and password.",
+          "audience": [],
           "resolved_schedule": {
             "type": "recurring",
             "frequency": "weekly",
@@ -2341,7 +2338,7 @@
             "anchor_date": "2026-01-06",
             "until_date": null,
             "start_time": "19:00",
-            "end_time": "20:00",
+            "end_time": "20:30",
             "end_day_offset": 0
           }
         },
@@ -2350,9 +2347,7 @@
           "schedule": "Thursdays 7:00-8:30pm PT",
           "format": "Online",
           "registration": "Via Meetup: Portland-Depression-Bipolar-Support-Alliance-Meetup-Group",
-          "audience": [
-            "lgbtq"
-          ],
+          "audience": [],
           "resolved_schedule": {
             "type": "recurring",
             "frequency": "weekly",
@@ -2370,13 +2365,11 @@
         },
         {
           "name": "Mental Healthcare Professionals",
-          "schedule": "Saturdays 10-11:30am PT",
+          "schedule": "Saturdays 10am PT",
           "format": "Online",
           "contact": "dbsa.healthcare.professionals@gmail.com",
-          "notes": "For mental healthcare professionals or trainees. Peer support in a confidential space.",
-          "audience": [
-            "lgbtq"
-          ],
+          "notes": "For mental healthcare professionals or trainees. The official page publishes a 10am start but no end time.",
+          "audience": [],
           "resolved_schedule": {
             "type": "recurring",
             "frequency": "weekly",
@@ -2388,7 +2381,7 @@
             "anchor_date": "2026-01-03",
             "until_date": null,
             "start_time": "10:00",
-            "end_time": "11:30",
+            "end_time": "11:00",
             "end_day_offset": 0
           }
         }
@@ -2398,30 +2391,23 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "resolved_schedule": null,
-      "flags": [
-        "\u26a0\ufe0f VERIFY - Eastside (Thu 7-8:30pm) and LGBTQIA+ (Mon 7-8:30pm) confirmed July 2026. The Mental Healthcare Professionals group (Sat 10-11:30am) could NOT be confirmed from any published source this pass and may no longer run - confirm before relying on it. mentalhealthisforeveryone.com does not expose its schedule to search, so the chapter site itself needs a direct read."
-      ],
-      "last_verified": "2026-07-28",
-      "accessibility": [
-        "wheelchair_accessible",
-        "low_vision_friendly"
-      ],
+      "flags": [],
+      "last_verified": "2026-08-13",
+      "accessibility": [],
       "social_intensity": "structured_group",
       "good_for": [
         "anxiety_friendly",
         "isolation",
         "indoor"
       ],
-      "audience": [
-        "lgbtq"
-      ],
+      "audience": [],
       "audience_notes": null,
-      "notes": "Peer-facilitated support groups since 2005. Typical attendance 10-25 people. Three chapters: Eastside, West Portland, and LGBTQ. All meetings free and drop-in.",
+      "notes": "Peer-facilitated online support groups. All meetings are free; obtain Zoom details through the listed email or Meetup contact before attending.",
       "practical_tips": {
-        "first_visit": "Just join any Zoom meeting - drop-in, no registration needed",
-        "registration": "Eastside group uses Meetup for registration; others just show up",
-        "what_to_bring": "Computer/phone for Zoom; first Monday LGBTQ+ meeting is hybrid",
-        "good_to_know": "Not just for depression/bipolar - open to ALL mental health conditions. Typical attendance 10-25 people. Running since 2005."
+        "first_visit": "Use the listed email or Meetup group to obtain Zoom details before attending.",
+        "registration": "Monday, Tuesday, and Saturday groups require email RSVP; Thursday uses Meetup.",
+        "what_to_bring": "Computer or phone for Zoom",
+        "good_to_know": "All current chapter meetings are online. The official site says in-person groups are discontinued due to low attendance."
       }
     },
     {
@@ -9539,9 +9525,8 @@
       "programs": [
         {
           "name": "Lake Oswego Reads",
-          "schedule": "Various events throughout year",
           "cost": "FREE",
-          "notes": "Community reading program with author talks, discussions, book swaps",
+          "notes": "Annual community reading program; 2026 events centered on Tilt and took place in April. Check the official page for the next book and event series.",
           "audience": [
             "children"
           ],
@@ -9604,7 +9589,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-05-01",
+      "last_verified": "2026-08-13",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -11056,9 +11041,9 @@
       "longitude": -122.681598,
       "phone": null,
       "email": null,
-      "website": "https://www.pearldistrict.org/article/first-thursday-is-back",
+      "website": "https://urbanartnetwork.org/events/first-thursday-street-gallery",
       "pricing": {
-        "description": "FREE"
+        "description": "FREE (suggested $2 donation)"
       },
       "hours": null,
       "eligibility": null,
@@ -11085,7 +11070,7 @@
         "end_day_offset": 0
       },
       "flags": [],
-      "last_verified": "2026-05-01",
+      "last_verified": "2026-08-13",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -11099,12 +11084,12 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Since 1986. Indoor gallery openings happen year-round; outdoor Street Gallery runs April-October on NW 13th Ave (~100 local artists, 4 blocks). Calendar entries reflect the April-October Street Gallery season; year-round indoor gallery openings continue every first Thursday.",
+      "notes": "Indoor gallery openings happen year-round; the outdoor Street Gallery runs April-October on NW 13th Avenue. Calendar entries reflect the April-October Street Gallery season; year-round indoor gallery openings continue every first Thursday.",
       "practical_tips": {
         "first_visit": "Start at any Pearl District gallery - most along NW 12th-13th between Burnside and Lovejoy",
         "registration": "None - just walk in",
         "what_to_bring": "Nothing required. Comfortable walking shoes helpful.",
-        "good_to_know": "Since 1986 - Portland's original art walk. Dozens of galleries with free receptions, wine, and snacks. Street Gallery (April-October) adds 100+ artists on NW 13th Ave. Easy MAX access to Galleria/SW 10th. Great for experiencing Portland's art scene free."
+        "good_to_know": "Indoor gallery openings continue year-round. The outdoor Street Gallery runs 5-9pm April-October on NW 13th Avenue between Hoyt/Glisan and Kearney. Easy MAX access to Galleria/SW 10th."
       }
     },
     {
@@ -11240,14 +11225,14 @@
       "category": "events",
       "categoryName": "Events & Festivals",
       "color": "#FF6347",
-      "address": "SE 39th Ave between Belmont & Stark, Portland",
-      "latitude": null,
-      "longitude": null,
+      "address": "SE Peacock Lane between SE Belmont St & SE Stark St, Portland, OR 97214",
+      "latitude": 45.517783,
+      "longitude": -122.621441,
       "phone": null,
       "email": null,
       "website": "https://www.peacocklane.org/",
       "pricing": {
-        "description": "FREE (donations accepted at cocoa booth)"
+        "description": "FREE (2026 cocoa-booth details not yet announced)"
       },
       "hours": null,
       "eligibility": null,
@@ -11255,27 +11240,16 @@
       "location_type": "physical",
       "resource_type": "event",
       "programs": [],
-      "dates": "December 15-31, 6-11pm nightly",
+      "dates": null,
       "schedule": null,
       "schedule_start_date": null,
       "schedule_end_date": null,
-      "resolved_schedule": {
-        "type": "fixed",
-        "occurrences": [
-          {
-            "start_date": "2026-12-15",
-            "end_date": "2026-12-31",
-            "all_day": true,
-            "start_time": null,
-            "end_time": null,
-            "end_day_offset": 0
-          }
-        ]
-      },
+      "resolved_schedule": null,
       "flags": [
-        "\ud83d\udcc5 DATE-SENSITIVE"
+        "\ud83d\udcc5 DATE-SENSITIVE",
+        "\u26a0\ufe0f VERIFY - The official site still displays its 2025 schedule. Recheck in November and add 2026 dates only after the organizer publishes them."
       ],
-      "last_verified": "2025-12-02",
+      "last_verified": "2026-08-13",
       "accessibility": [
         "transit_nearby"
       ],
@@ -11287,12 +11261,12 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Since 1932 (93 years). Historic Tudor homes. 2032 will be 100th anniversary.",
+      "notes": "Since 1932. The official site still shows the 2025 schedule, so this entry is intentionally directory-only until the 2026 dates are announced. The calendar will not guess dates from last year's schedule.",
       "practical_tips": {
-        "first_visit": "Visit on pedestrian-only nights (Dec 19-20) for best experience - no car traffic",
+        "first_visit": "Check the official site for the 2026 dates and pedestrian-only nights before making a trip.",
         "registration": "None - just show up",
-        "what_to_bring": "Warm clothes, walking shoes. Cash for cocoa booth donations.",
-        "good_to_know": "Since 1932 - 93 years of tradition. Historic Tudor homes decorated with classic lights. Free cocoa booth Dec 15-24. Pedestrian-only nights Dec 19-20 recommended. Take TriMet - no official parking. 2032 will be 100th anniversary."
+        "what_to_bring": "Warm clothes and walking shoes; check the official site for current cocoa-booth details.",
+        "good_to_know": "Historic Tudor homes have hosted this volunteer-run tradition since 1932. The official site still shows the 2025 schedule; 2026 dates and pedestrian-only nights have not yet been announced. Take TriMet when the season opens\u2014there is no official parking."
       }
     },
     {
@@ -12000,9 +11974,9 @@
       "longitude": -122.521286,
       "phone": null,
       "email": null,
-      "website": "https://www.happyvalleyor.gov/4th-of-july-family-festival/",
+      "website": "https://www.happyvalleyor.gov/community/community-services/community-events/4th-of-july/",
       "pricing": {
-        "description": "FREE"
+        "description": "FREE admission; carnival rides and inflatables require a City-issued wristband"
       },
       "hours": "Noon-10pm (parade at noon, fireworks at dusk)",
       "eligibility": null,
@@ -12030,7 +12004,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
-      "last_verified": "2026-01-24",
+      "last_verified": "2026-08-13",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -12045,7 +12019,7 @@
       "audience_notes": null,
       "notes": "Independence Day hike at 9:30am, parade at noon. Beer garden, carnival rides (wristbands), food vendors.",
       "practical_tips": {
-        "first_visit": "Arrive early for parking at Happy Valley Park",
+        "first_visit": "The park is closed to vehicles July 3-5. Use the free parking at Happy Valley Elementary or Middle School and allow time to walk to the park.",
         "registration": "None - free admission",
         "what_to_bring": "Blankets, chairs, picnic food, sunscreen",
         "good_to_know": "Free community Fourth of July celebration. Live music, food vendors, kids activities. Fireworks typically at dusk. Great neighborhood event in Happy Valley."
@@ -12335,7 +12309,7 @@
       "longitude": null,
       "phone": null,
       "email": null,
-      "website": "https://myodfw.com/articles/free-fishing-days-and-events",
+      "website": "https://myodfw.com/articles/family-fishing-events-free-fishing-weekends",
       "pricing": {
         "description": "FREE - no license required"
       },
@@ -12385,7 +12359,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
-      "last_verified": "2026-02-11",
+      "last_verified": "2026-08-13",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -12400,10 +12374,10 @@
       "audience_notes": null,
       "notes": null,
       "practical_tips": {
-        "first_visit": "Find a fishing spot - many stocked ponds in Portland metro area",
-        "registration": "None - no license required on free weekends",
-        "what_to_bring": "Fishing gear (rod, tackle, bait), bucket/cooler, sunscreen",
-        "good_to_know": "No fishing license required statewide on these weekends. Three times per year (February, June, November). All other fishing regulations still apply (size/bag limits). Great introduction to fishing without cost of license."
+        "first_visit": "Find a fishing spot\u2014many stocked ponds are available in the Portland metro area.",
+        "registration": "None; no license or tags are required on designated free-fishing weekends.",
+        "what_to_bring": "Fishing gear (rod, tackle, bait), bucket or cooler, and sunscreen",
+        "good_to_know": "No licenses, tags, or endorsements are required for fishing, crabbing, or clamming during the designated weekends. Area closures, bag limits, and all other regulations still apply."
       }
     },
     {
@@ -14111,17 +14085,17 @@
       "category": "food_farms",
       "categoryName": "Food & Farms",
       "color": "#DAA520",
-      "address": "618 NW Davis St, Portland, OR 97209",
-      "latitude": 45.524375,
-      "longitude": -122.676939,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
       "phone": "503-222-5694",
       "email": null,
       "website": "https://sistersoftheroad.org",
       "pricing": {
-        "description": "Pay-what-you-can",
-        "notes": "Barter work program - work 15 minutes for a meal (when open)"
+        "description": "Not currently operating",
+        "notes": "The historic cafe was pay-what-you-can; future Lents services and pricing have not been announced."
       },
-      "hours": "TEMPORARILY CLOSED - relocating to Lents. New home purchased June 2026 (5643 SE 83rd Ave); renovation underway. Once open, the cafe expects to operate Tue-Sat 10am-2pm (per HUD project filing).",
+      "hours": "CLOSED - no cafe service is operating. Sisters plans to move to a residential home in Lents later in 2026; reopening date, address, services, and hours are not yet published.",
       "eligibility": null,
       "features": [],
       "location_type": "physical",
@@ -14133,13 +14107,10 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [
-        "\u26a0\ufe0f VERIFY - Cafe closed since April 2026, but relocation is now confirmed - Sisters closed on a house at 5643 SE 83rd Ave (Lents) in June 2026 (OPB, July 6 2026), funded by a HUD grant (Portland Housing Bureau, Feb 2026). Expected hours once operational - Tue-Sat 10am-2pm. Watch for the opening announcement, then update address/hours and clear this flag."
+        "\u26a0\ufe0f VERIFY - Cafe service remains closed. Sisters plans a Lents move later in 2026, but its official FAQ does not yet publish the new address, opening date, hours, meal service, or pricing. Recheck before listing it as an available food resource."
       ],
-      "last_verified": "2026-08-07",
-      "accessibility": [
-        "wheelchair_accessible",
-        "transit_nearby"
-      ],
+      "last_verified": "2026-08-13",
+      "accessibility": [],
       "social_intensity": "casual_group",
       "good_for": [
         "indoor",
@@ -14147,8 +14118,8 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Welcoming community space emphasizing dignity and autonomy",
-      "practical_tips": "Pay-what-you-can or work 15 minutes for a meal through barter program. Welcoming community space emphasizing dignity and autonomy. A gathering place, not just a meal program."
+      "notes": "Sisters is planning a move from Old Town to a residential home in Lents. The organization says the future program model is still being shaped with community input.",
+      "practical_tips": "The cafe is closed and is not currently a meal-access option. Check the official move FAQ or newsletter for the future Lents opening and services."
     },
     {
       "id": "portland-rescue-mission",
@@ -15079,7 +15050,7 @@
     },
     {
       "id": "snowcap-community-charities",
-      "title": "SnowCap Community Charities",
+      "title": "SnowCap Community Services",
       "category": "food_farms",
       "categoryName": "Food & Farms",
       "color": "#DAA520",
@@ -15093,7 +15064,7 @@
         "description": "FREE"
       },
       "hours": "Mon-Fri 10am-2pm, Mon & Wed 6-8pm",
-      "eligibility": "East of 82nd Ave, Multnomah County (East Portland & Gresham). Up to 2 visits per month.",
+      "eligibility": "East of 82nd Avenue in Multnomah County; pantry visits up to 2 times per month through August 2026.",
       "features": [
         "Pre-packed food boxes",
         "Fresh and frozen food",
@@ -15114,7 +15085,7 @@
         },
         {
           "name": "SnowCap Community Garden",
-          "notes": "Free gardening plots for low-income residents east of 82nd Ave",
+          "notes": "Raised garden beds, water, greenhouse space, and gardening classes for low-income families; gardeners give 10% of their harvest to the pantry.",
           "audience": [
             "seniors"
           ],
@@ -15122,7 +15093,7 @@
         },
         {
           "name": "Senior Home Delivery",
-          "notes": "Food delivery for homebound seniors",
+          "notes": "Monthly pre-packed food and produce delivery for homebound seniors; individual delivery is currently at capacity.",
           "audience": [
             "seniors"
           ],
@@ -15135,7 +15106,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-03-30",
+      "last_verified": "2026-08-13",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -15151,11 +15122,11 @@
         "seniors"
       ],
       "audience_notes": null,
-      "notes": "Major East Portland food pantry serving area east of 82nd Ave. Evening hours Mon/Wed 6-8pm. Also operates mobile pantry, community garden, and senior delivery. Founded as an all-volunteer charity.",
+      "notes": "Major East Portland food pantry serving Multnomah County residents east of 82nd Avenue. Evening hours Monday and Wednesday 6-8pm. Also operates mobile pantry, community garden, and senior delivery programs.",
       "practical_tips": {
-        "first_visit": "Just show up during hours. Pre-packed boxes so the process is quick. Evening hours Mon & Wed are great for people who work during the day.",
+        "first_visit": "Complete SnowCap's general application online or call for a quick intake, then visit during pantry hours. Evening hours Monday and Wednesday are useful for people who work during the day.",
         "what_to_bring": "Bags or boxes to carry food home",
-        "good_to_know": "Small staff with 1,000+ volunteers. Serves the area east of 82nd Ave \u2014 one of Portland's most underserved neighborhoods. Also provides diapers, formula, and clothing."
+        "good_to_know": "Guests may visit the pantry up to twice per month through August 2026. Clothing is available by appointment at a separate location."
       }
     },
     {
@@ -15334,21 +15305,21 @@
     },
     {
       "id": "hunger-fighters-lake-oswego",
-      "title": "Hunger Fighters Food Bank",
+      "title": "Hunger Fighters Oregon",
       "category": "food_farms",
       "categoryName": "Food & Farms",
       "color": "#DAA520",
-      "address": "4 Monroe Pkwy, Lake Oswego, OR 97034",
+      "address": "4 Monroe Parkway, Suite A, Lake Oswego, OR 97035",
       "latitude": 45.431834,
       "longitude": -122.703402,
-      "phone": "503-635-3401",
+      "phone": "503-683-3401",
       "email": null,
-      "website": "https://www.hungerfighters.org",
+      "website": "https://www.hungerfightersoregon.org/",
       "pricing": {
         "description": "FREE"
       },
       "hours": "Mon 4-6pm, Wed 5-7pm, Fri 10am-1pm",
-      "eligibility": "ZIP codes 97034 and 97035. No income verification needed.",
+      "eligibility": "No proof of income or residency required. No appointment required; guests may shop twice per month.",
       "features": [],
       "location_type": "physical",
       "resource_type": "service",
@@ -15359,7 +15330,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-03-30",
+      "last_verified": "2026-08-13",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -15371,11 +15342,11 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Lake Oswego area food bank. No income verification. Evening hours Mon/Wed. Serves ZIP codes 97034 and 97035.",
+      "notes": "No-barriers Lake Oswego pantry offering free food, hygiene items, and household essentials. No proof of income, residency, or appointment is required.",
       "practical_tips": {
-        "first_visit": "Walk in during hours. No income verification needed \u2014 just need to live in ZIP 97034 or 97035.",
+        "first_visit": "Walk in during open hours; guests are admitted first-come, first-served. New guests complete a basic demographic form, but no proof of income or residency is required.",
         "what_to_bring": "Bags for groceries",
-        "good_to_know": "Evening hours Mon and Wed are great for people who work during the day. Serves the Lake Oswego area specifically."
+        "good_to_know": "Guests may shop twice each month. The pantry closes on major holidays, so check the official page before a holiday visit."
       }
     },
     {
@@ -20511,7 +20482,7 @@
       "programs": [],
       "dates": null,
       "schedule": "1st Fridays 5-8pm",
-      "schedule_start_date": "2026-06-01",
+      "schedule_start_date": "2026-05-01",
       "schedule_end_date": "2026-10-31",
       "resolved_schedule": {
         "type": "recurring",
@@ -20523,7 +20494,7 @@
         "month_weeks": [
           1
         ],
-        "anchor_date": "2026-06-05",
+        "anchor_date": "2026-05-01",
         "until_date": "2026-10-31",
         "start_time": "17:00",
         "end_time": "20:00",
@@ -20532,7 +20503,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
-      "last_verified": "2026-03-24",
+      "last_verified": "2026-08-13",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -20547,7 +20518,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Monthly arts and community event June-October on Historic Milwaukie Main Street. Free to attend.",
+      "notes": "Monthly arts and community event May-October on Historic Milwaukie Main Street. Free to attend.",
       "practical_tips": {
         "first_visit": "Walk along Historic Main Street from 5-8pm on the first Friday of the month",
         "what_to_bring": "Cash for food trucks and vendors",
@@ -21390,9 +21361,9 @@
       "longitude": -122.691292,
       "phone": "503-894-7560",
       "email": null,
-      "website": "https://hopewellhousepdx.org/grief-support/",
+      "website": "https://hopewellhousepdx.org/community-connections/",
       "pricing": {
-        "description": "FREE"
+        "description": "Cost not published; contact Hopewell House for current details"
       },
       "hours": null,
       "eligibility": null,
@@ -21401,8 +21372,9 @@
       "resource_type": "program",
       "programs": [
         {
-          "name": "Community Grief Ritual",
-          "schedule": "3rd Monday of each month 6:30-8pm",
+          "name": "Community Grief Circle",
+          "schedule": "Last Monday of each month 6:30-8pm",
+          "schedule_start_date": "2026-07-01",
           "format": "In-person, drop-in, no RSVP needed",
           "notes": "A practice of transforming individual and collective grief within a supportive community. All grief is welcome.",
           "audience": [],
@@ -21414,9 +21386,9 @@
               "MO"
             ],
             "month_weeks": [
-              3
+              -1
             ],
-            "anchor_date": "2026-01-19",
+            "anchor_date": "2026-07-27",
             "until_date": null,
             "start_time": "18:30",
             "end_time": "20:00",
@@ -21424,20 +21396,29 @@
           }
         },
         {
-          "name": "Grief Support Groups (Spring 2026)",
-          "format": "In-person, 6-session series, every other week over 12 weeks. RSVP required.",
-          "notes": "Spring sessions: Tuesdays 2-3:30pm (Apr 7-Jun 16) register by Mar 31; Thursdays 6:30-8pm (Apr 2-Jun 11) register by Mar 26. Email stephanie.brown@fhhpdx.org to register.",
+          "name": "Grief Support Groups",
+          "format": "In-person; six 90-minute sessions every other week; advance registration required.",
+          "notes": "New groups begin every three months; join the waitlist for the next available group.",
           "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "LGBTQIA+ Grief Support Group",
+          "format": "In-person, 6-session series, every other week. RSVP required.",
+          "notes": "For LGBTQIA+ people mourning the death of a significant person. Join the waitlist through the official page for availability and exact session dates.",
+          "audience": [
+            "lgbtq"
+          ],
           "resolved_schedule": null
         }
       ],
       "dates": null,
-      "schedule": "3rd Monday 6:30-8pm (Grief Ritual); Grief groups run in series throughout the year",
+      "schedule": "Last Monday 6:30-8pm (Community Grief Circle); grief groups run quarterly by advance registration",
       "schedule_start_date": null,
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-03-04",
+      "last_verified": "2026-08-13",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -21449,11 +21430,11 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Free grief support in a beautiful, peaceful setting. The monthly Community Grief Ritual is the most accessible entry point - drop-in, no RSVP. Grief groups run in 6-session series with registration. Hopewell House is primarily a residential end-of-life care facility that also offers community grief services.",
+      "notes": "Community grief support in a beautiful, peaceful setting. The monthly Community Grief Circle is the most accessible entry point - drop-in, no RSVP. Grief groups run in 6-session series with registration. Hopewell House is primarily a residential end-of-life care facility that also offers community grief services.",
       "practical_tips": {
-        "first_visit": "The monthly Community Grief Ritual is drop-in - just show up. For the 6-session grief groups, you must register in advance by email.",
-        "registration": "Email stephanie.brown@fhhpdx.org to register for grief support groups",
-        "good_to_know": "Historic 12,000 sq ft Tudor home on 4.5 wooded acres in the Hillsdale neighborhood. Peaceful, welcoming setting. Led by professionally trained volunteers. Grief groups close to new members once they begin."
+        "first_visit": "The monthly Community Grief Circle is drop-in\u2014just show up on the last Monday. For 6-session grief groups, join the waitlist through the official page.",
+        "registration": "No RSVP for the monthly circle; advance registration is required for the quarterly grief groups.",
+        "good_to_know": "Historic 1926 English Tudor home on 3.6 wooded acres in the Hillsdale neighborhood. Peaceful, welcoming setting. Led by professionally trained volunteers. Grief groups close to new members once they begin."
       }
     },
     {
@@ -22105,11 +22086,11 @@
       "category": "peer_support",
       "categoryName": "Peer Support",
       "color": "#7B68EE",
-      "address": "The Peace House, 2116 NE 18th Ave, Portland, OR 97212",
-      "latitude": 45.537764,
-      "longitude": -122.64698,
-      "phone": "503-699-8006",
-      "email": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "phone": "503-334-2564",
+      "email": "info@briefencounters.org",
       "website": "https://www.briefencounters.org",
       "pricing": {
         "description": "FREE",
@@ -22123,11 +22104,12 @@
       "programs": [
         {
           "name": "Parents of Pregnancy and Infant Loss",
-          "schedule": "2nd Monday 7pm",
-          "location": "The Peace House, 2116 NE 18th Ave, Portland, OR 97212",
+          "schedule": "2nd Monday 7-9pm",
+          "schedule_start_date": "2026-08-01",
+          "location": "The Overlook House, 3839 N Melrose Dr, Portland, OR 97227",
           "format": "In-person",
           "cost": "FREE",
-          "notes": "Includes early pregnancy loss. The same group also meets on the 4th Tuesday at 7pm; that session's format was not published as of July 2026, so only the confirmed in-person 2nd Monday meeting is listed as a calendar event. Call 503-699-8006 to confirm the 4th Tuesday.",
+          "notes": "Includes early pregnancy loss. No registration is required. Call or text 503-334-2564 to confirm the venue because the official site's static page still names the former Peace House location.",
           "audience": [],
           "resolved_schedule": {
             "type": "recurring",
@@ -22139,20 +22121,47 @@
             "month_weeks": [
               2
             ],
-            "anchor_date": "2026-01-12",
+            "anchor_date": "2026-08-10",
             "until_date": null,
             "start_time": "19:00",
-            "end_time": "20:00",
+            "end_time": "21:00",
+            "end_day_offset": 0
+          }
+        },
+        {
+          "name": "Parents of Pregnancy and Infant Loss (Zoom)",
+          "schedule": "4th Tuesday 7-9pm",
+          "format": "Online",
+          "location": "Online (Zoom)",
+          "registration": "https://us06web.zoom.us/j/89975709388",
+          "cost": "FREE",
+          "notes": "Call or text 503-334-2564 for Zoom help. Keep camera and audio focused on the adult participant during the meeting.",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "recurring",
+            "frequency": "monthly",
+            "interval": 1,
+            "weekdays": [
+              "TU"
+            ],
+            "month_weeks": [
+              4
+            ],
+            "anchor_date": "2026-01-27",
+            "until_date": null,
+            "start_time": "19:00",
+            "end_time": "21:00",
             "end_day_offset": 0
           }
         },
         {
           "name": "Non-Birthing Parent Support Group",
-          "schedule": "1st Monday 6:30pm",
-          "location": "The Peace House, 2116 NE 18th Ave, Portland, OR 97212",
+          "schedule": "1st Monday 6:30-8pm",
+          "schedule_start_date": "2026-08-01",
+          "location": "The Overlook House, 3839 N Melrose Dr, Portland, OR 97227",
           "format": "In-person",
           "cost": "FREE",
-          "notes": "For grieving partners and non-birthing parents.",
+          "notes": "For grieving partners and non-birthing parents. Call or text 503-334-2564 to confirm the venue because the official site's static page still names the former Peace House location.",
           "audience": [],
           "resolved_schedule": {
             "type": "recurring",
@@ -22164,10 +22173,10 @@
             "month_weeks": [
               1
             ],
-            "anchor_date": "2026-01-05",
+            "anchor_date": "2026-08-03",
             "until_date": null,
             "start_time": "18:30",
-            "end_time": "19:30",
+            "end_time": "20:00",
             "end_day_offset": 0
           }
         }
@@ -22178,9 +22187,9 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [
-        "\u26a0\ufe0f VERIFY - Group days and times sourced from briefencounters.org via search; the 4th Tuesday session's format (in-person vs virtual) is unconfirmed. Confirm both groups by phone at 503-699-8006."
+        "\u26a0\ufe0f VERIFY - The dated August 2026 official calendar places the first-Monday and second-Monday in-person groups at The Overlook House, 3839 N Melrose Dr, while the static support pages and event-description boilerplate still name The Peace House, 2116 NE 18th Ave. Schedules and the fourth-Tuesday Zoom format are confirmed; call or text 503-334-2564 to confirm the in-person venue before attending."
       ],
-      "last_verified": "2026-07-28",
+      "last_verified": "2026-08-13",
       "accessibility": [
         "transit_nearby"
       ],
@@ -22195,10 +22204,10 @@
       "audience_notes": null,
       "notes": "Portland-based peer support for pregnancy and infant loss, including early pregnancy loss, plus a separate group for non-birthing parents and partners. Added July 2026 to fill a perinatal grief gap not covered by Dougy Center, Providence Hospice or Hopewell House.",
       "practical_tips": {
-        "first_visit": "Call 503-699-8006 before your first meeting to confirm the date and let them know you are coming.",
-        "registration": "Contact by phone; no formal registration described for in-person meetings.",
+        "first_visit": "Call or text 503-334-2564 before an in-person meeting to confirm the venue.",
+        "registration": "No registration for in-person meetings; use the published Zoom link for the fourth-Tuesday meeting.",
         "what_to_bring": "Nothing required.",
-        "good_to_know": "Peer-led support run by trained volunteers, specifically for perinatal loss - a gap the general grief groups in this guide do not cover. Meetings are held at The Peace House in NE Portland."
+        "good_to_know": "Peer-led support run by trained volunteers, specifically for perinatal loss - a gap the general grief groups in this guide do not cover. Current dated calendar entries list The Overlook House, but call to confirm because other official pages still name The Peace House."
       }
     },
     {
@@ -22330,17 +22339,569 @@
       "features": [],
       "location_type": "varies",
       "resource_type": "event",
-      "programs": [],
+      "programs": [
+        {
+          "id": "midsommer-mt-tabor-jun20",
+          "name": "A Midsommer Nights Dreame",
+          "dates": [
+            "June 20, 2026"
+          ],
+          "schedule": "9pm",
+          "location": "Mt Tabor Summit",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-06-20",
+                "end_date": "2026-06-20",
+                "all_day": false,
+                "start_time": "21:00",
+                "end_time": "22:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "midsommer-abridged-happy-valley-jun27",
+          "name": "Midsommer (Abridged)",
+          "dates": [
+            "June 27, 2026"
+          ],
+          "schedule": "5:30pm",
+          "location": "Happy Valley Library",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-06-27",
+                "end_date": "2026-06-27",
+                "all_day": false,
+                "start_time": "17:30",
+                "end_time": "18:30",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "twelfe-night-abridged-oaks-park-jun28",
+          "name": "Twelfe Night (Abridged)",
+          "dates": [
+            "June 28, 2026"
+          ],
+          "schedule": "3pm",
+          "location": "Oaks Park Pride Rides",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-06-28",
+                "end_date": "2026-06-28",
+                "all_day": false,
+                "start_time": "15:00",
+                "end_time": "16:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "henry-iv-laurelhurst-jul10",
+          "name": "Henry IV, pt 1",
+          "dates": [
+            "July 10, 2026"
+          ],
+          "schedule": "7pm",
+          "location": "Laurelhurst Park",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-07-10",
+                "end_date": "2026-07-10",
+                "all_day": false,
+                "start_time": "19:00",
+                "end_time": "20:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "comedie-errors-abridged-laurelhurst-jul11",
+          "name": "Comedie of Errors (Abridged)",
+          "dates": [
+            "July 11, 2026"
+          ],
+          "schedule": "2pm",
+          "location": "Laurelhurst Park",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-07-11",
+                "end_date": "2026-07-11",
+                "all_day": false,
+                "start_time": "14:00",
+                "end_time": "15:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "king-lear-laurelhurst-jul11",
+          "name": "King Lear",
+          "dates": [
+            "July 11, 2026"
+          ],
+          "schedule": "7pm",
+          "location": "Laurelhurst Park",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-07-11",
+                "end_date": "2026-07-11",
+                "all_day": false,
+                "start_time": "19:00",
+                "end_time": "20:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "much-adoe-irving-jul17",
+          "name": "Much Adoe About Nothing",
+          "dates": [
+            "July 17, 2026"
+          ],
+          "schedule": "7pm",
+          "location": "Irving Park",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-07-17",
+                "end_date": "2026-07-17",
+                "all_day": false,
+                "start_time": "19:00",
+                "end_time": "20:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "twelfe-night-abridged-irving-jul18",
+          "name": "Twelfe Night (Abridged)",
+          "dates": [
+            "July 18, 2026"
+          ],
+          "schedule": "2pm",
+          "location": "Irving Park",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-07-18",
+                "end_date": "2026-07-18",
+                "all_day": false,
+                "start_time": "14:00",
+                "end_time": "15:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "romeo-juliet-irving-jul18",
+          "name": "Romeo and Juliet",
+          "dates": [
+            "July 18, 2026"
+          ],
+          "schedule": "7pm",
+          "location": "Irving Park",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-07-18",
+                "end_date": "2026-07-18",
+                "all_day": false,
+                "start_time": "19:00",
+                "end_time": "20:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "cymbeline-laurelhurst-jul24",
+          "name": "Cymbeline",
+          "dates": [
+            "July 24, 2026"
+          ],
+          "schedule": "7pm",
+          "location": "Laurelhurst Park",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-07-24",
+                "end_date": "2026-07-24",
+                "all_day": false,
+                "start_time": "19:00",
+                "end_time": "20:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "midsommer-abridged-laurelhurst-jul25",
+          "name": "Midsommer (Abridged)",
+          "dates": [
+            "July 25, 2026"
+          ],
+          "schedule": "2pm",
+          "location": "Laurelhurst Park",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-07-25",
+                "end_date": "2026-07-25",
+                "all_day": false,
+                "start_time": "14:00",
+                "end_time": "15:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "twelfe-night-laurelhurst-jul25",
+          "name": "Twelfe Night",
+          "dates": [
+            "July 25, 2026"
+          ],
+          "schedule": "7pm",
+          "location": "Laurelhurst Park",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-07-25",
+                "end_date": "2026-07-25",
+                "all_day": false,
+                "start_time": "19:00",
+                "end_time": "20:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "comedie-errors-roehr-jul31",
+          "name": "Comedie of Errors",
+          "dates": [
+            "July 31, 2026"
+          ],
+          "schedule": "7pm",
+          "location": "Roehr Park, Lake Oswego",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-07-31",
+                "end_date": "2026-07-31",
+                "all_day": false,
+                "start_time": "19:00",
+                "end_time": "20:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "as-you-like-it-sherwood-aug1",
+          "name": "As You Like It",
+          "dates": [
+            "August 1, 2026"
+          ],
+          "schedule": "7pm",
+          "location": "Veterans' Park, Sherwood",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-08-01",
+                "end_date": "2026-08-01",
+                "all_day": false,
+                "start_time": "19:00",
+                "end_time": "20:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "midsommer-abridged-gateway-aug5",
+          "name": "Midsommer (Abridged)",
+          "dates": [
+            "August 5, 2026"
+          ],
+          "schedule": "11:30am",
+          "location": "Gateway Discovery Park",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-08-05",
+                "end_date": "2026-08-05",
+                "all_day": false,
+                "start_time": "11:30",
+                "end_time": "12:30",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "macbeth-george-rogers-aug8",
+          "name": "Macbeth",
+          "dates": [
+            "August 8, 2026"
+          ],
+          "schedule": "7pm",
+          "location": "George Rogers Park, Lake Oswego",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-08-08",
+                "end_date": "2026-08-08",
+                "all_day": false,
+                "start_time": "19:00",
+                "end_time": "20:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "julius-caesar-washington-park-aug14",
+          "name": "Julius Caesar",
+          "dates": [
+            "August 14, 2026"
+          ],
+          "schedule": "7pm",
+          "location": "Washington Park Amphitheatre",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-08-14",
+                "end_date": "2026-08-14",
+                "all_day": false,
+                "start_time": "19:00",
+                "end_time": "20:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "romeo-juliet-abridged-washington-park-aug15",
+          "name": "Romeo And Juliet (Abridged)",
+          "dates": [
+            "August 15, 2026"
+          ],
+          "schedule": "2pm",
+          "location": "Washington Park Amphitheatre",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-08-15",
+                "end_date": "2026-08-15",
+                "all_day": false,
+                "start_time": "14:00",
+                "end_time": "15:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "midsommer-washington-park-aug15",
+          "name": "A Midsommer Nights Dreame",
+          "dates": [
+            "August 15, 2026"
+          ],
+          "schedule": "7pm",
+          "location": "Washington Park Amphitheatre",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-08-15",
+                "end_date": "2026-08-15",
+                "all_day": false,
+                "start_time": "19:00",
+                "end_time": "20:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "comedie-errors-abridged-camille-aug19",
+          "name": "Comedie of Errors (Abridged)",
+          "dates": [
+            "August 19, 2026"
+          ],
+          "schedule": "6:30pm",
+          "location": "Camille Park, Beaverton",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-08-19",
+                "end_date": "2026-08-19",
+                "all_day": false,
+                "start_time": "18:30",
+                "end_time": "19:30",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "apprentice-showcase-mt-tabor-aug22",
+          "name": "Apprentice Showcase!",
+          "dates": [
+            "August 22, 2026"
+          ],
+          "schedule": "2pm",
+          "location": "Mt Tabor Amphitheatre",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-08-22",
+                "end_date": "2026-08-22",
+                "all_day": false,
+                "start_time": "14:00",
+                "end_time": "15:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "hamlet-mt-tabor-aug22",
+          "name": "Hamlet",
+          "dates": [
+            "August 22, 2026"
+          ],
+          "schedule": "7pm",
+          "location": "Mt Tabor Amphitheatre",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-08-22",
+                "end_date": "2026-08-22",
+                "all_day": false,
+                "start_time": "19:00",
+                "end_time": "20:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "loves-labours-lost-tillamook-aug29",
+          "name": "Loves Labour's Lost",
+          "dates": [
+            "August 29, 2026"
+          ],
+          "schedule": "2pm",
+          "location": "Tillamook Library",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-08-29",
+                "end_date": "2026-08-29",
+                "all_day": false,
+                "start_time": "14:00",
+                "end_time": "15:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        }
+      ],
       "dates": null,
       "schedule": null,
       "schedule_start_date": "2026-06-20",
-      "schedule_end_date": "2026-08-22",
+      "schedule_end_date": "2026-08-29",
       "resolved_schedule": null,
       "flags": [
-        "\ud83d\udcc5 DATE-SENSITIVE",
-        "\u26a0\ufe0f VERIFY - Season dates (June 20 - August 22, 2026) and the 22-plays/11-parks scale are confirmed, but the per-performance schedule of which play is at which park on which night was not retrievable by search. It lives at opsfest.org/season-chronological.html. Until that page is read directly this entry carries no parseable calendar events and appears only in the Resources directory. Capture the individual dates as programs with dates fields on the next pass."
+        "\ud83d\udcc5 DATE-SENSITIVE"
       ],
-      "last_verified": "2026-07-28",
+      "last_verified": "2026-08-13",
       "accessibility": [
         "varies"
       ],
@@ -22354,7 +22915,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "18th season in 2026 - 22 plays across 11 Portland metro parks, all free. Added July 2026.",
+      "notes": "18th season in 2026 - 23 free performances across 12 parks and venues.",
       "practical_tips": {
         "first_visit": "Bring a blanket or low chair; performances are on grass. Arrive early for a good spot.",
         "registration": "None - free and open, just turn up",
@@ -22376,7 +22937,7 @@
       "website": "https://www.multnomahvillage.org/event-details/multnomah-days-2026",
       "pricing": {
         "description": "FREE to attend",
-        "notes": "Open-air street festival - no admission charge described. Food, drink and vendor purchases cost extra."
+        "notes": "Food, drink, vendor purchases, and auto-show registration may cost extra."
       },
       "hours": null,
       "eligibility": "Open to all",
@@ -22402,10 +22963,9 @@
         ]
       },
       "flags": [
-        "\ud83d\udcc5 DATE-SENSITIVE",
-        "\u26a0\ufe0f VERIFY - Date (August 15, 2026), hours (9am-5pm) and location are well corroborated. Free admission is implied by the open-air street-festival format and its inclusion in free-event roundups, but is not stated outright on the organiser's page. Confirm before describing it as free in printed material."
+        "\ud83d\udcc5 DATE-SENSITIVE"
       ],
-      "last_verified": "2026-07-28",
+      "last_verified": "2026-08-13",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -22424,7 +22984,7 @@
         "first_visit": "Centred on SW Capitol Hwy in Multnomah Village. Street closures mean parking nearby is tight - transit or walking is easier.",
         "registration": "None",
         "what_to_bring": "Cash for vendors and food carts, sun protection",
-        "good_to_know": "One-day open-air street festival with a community parade, two stages of live music, an art fair and 150+ vendor booths, plus food carts and street dining. Busy and crowded - the morning is quieter than the afternoon if large crowds are difficult."
+        "good_to_know": "One-day open-air street festival with a community parade, two stages of live music, an art fair and 170+ vendor booths, plus food carts and street dining. Busy and crowded - the morning is quieter than the afternoon if large crowds are difficult."
       }
     },
     {
@@ -22438,7 +22998,7 @@
       "longitude": null,
       "phone": null,
       "email": null,
-      "website": "https://ventureportland.org/event/hawthorne-plaza-concert-series/",
+      "website": "https://ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/",
       "pricing": {
         "description": "FREE"
       },
@@ -22449,6 +23009,99 @@
       "resource_type": "event",
       "programs": [
         {
+          "id": "sid-murrell-jul11",
+          "name": "Sid Murrell",
+          "dates": [
+            "July 11, 2026"
+          ],
+          "schedule": "4-6pm",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-07-11",
+                "end_date": "2026-07-11",
+                "all_day": false,
+                "start_time": "16:00",
+                "end_time": "18:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "taste-of-jazz-jul18",
+          "name": "Taste of Jazz",
+          "dates": [
+            "July 18, 2026"
+          ],
+          "schedule": "4-6pm",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-07-18",
+                "end_date": "2026-07-18",
+                "all_day": false,
+                "start_time": "16:00",
+                "end_time": "18:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "rose-gerber-jul25",
+          "name": "Rose Gerber",
+          "dates": [
+            "July 25, 2026"
+          ],
+          "schedule": "4-6pm",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-07-25",
+                "end_date": "2026-07-25",
+                "all_day": false,
+                "start_time": "16:00",
+                "end_time": "18:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "lee-walker-aug1",
+          "name": "Lee Walker",
+          "dates": [
+            "August 1, 2026"
+          ],
+          "schedule": "4-6pm",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-08-01",
+                "end_date": "2026-08-01",
+                "all_day": false,
+                "start_time": "16:00",
+                "end_time": "18:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "flat-pocket-trio-aug8",
           "name": "Flat Pocket Trio",
           "dates": [
             "August 8, 2026"
@@ -22471,6 +23124,7 @@
           }
         },
         {
+          "id": "bigger-nova-aug15",
           "name": "Bigger Nova",
           "dates": [
             "August 15, 2026"
@@ -22491,18 +23145,63 @@
               }
             ]
           }
+        },
+        {
+          "id": "sid-murrell-aug22",
+          "name": "Sid Murrell",
+          "dates": [
+            "August 22, 2026"
+          ],
+          "schedule": "4-6pm",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-08-22",
+                "end_date": "2026-08-22",
+                "all_day": false,
+                "start_time": "16:00",
+                "end_time": "18:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "taste-of-jazz-aug29",
+          "name": "Taste of Jazz",
+          "dates": [
+            "August 29, 2026"
+          ],
+          "schedule": "4-6pm",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-08-29",
+                "end_date": "2026-08-29",
+                "all_day": false,
+                "start_time": "16:00",
+                "end_time": "18:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
         }
       ],
       "dates": null,
       "schedule": "Saturdays 4-6pm",
-      "schedule_start_date": null,
-      "schedule_end_date": null,
+      "schedule_start_date": "2026-07-11",
+      "schedule_end_date": "2026-08-29",
       "resolved_schedule": null,
       "flags": [
-        "\ud83d\udd04 SEASONAL",
-        "\u26a0\ufe0f VERIFY - Weekly Saturday 4-6pm slot and the August 8 and August 15 performers are confirmed, but the series start and end dates were not published in any source found. The two confirmed dates are listed as programs; the entry-level Saturday schedule is therefore suppressed by design until the full run is known. Get the season range from ventureportland.org and add schedule_start_date and schedule_end_date."
+        "\ud83d\udd04 SEASONAL"
       ],
-      "last_verified": "2026-07-28",
+      "last_verified": "2026-08-13",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -22516,7 +23215,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Free Saturday-afternoon summer concert series on Hawthorne Plaza, supported by Venture Portland. Added July 2026.",
+      "notes": "Free eight-concert Saturday series at Heart of Hawthorne Plaza, July 11-August 29, 2026.",
       "practical_tips": {
         "first_visit": "The plaza is a small open square at SE 37th and Hawthorne. Bring a chair - seating is limited.",
         "registration": "None - free and open",

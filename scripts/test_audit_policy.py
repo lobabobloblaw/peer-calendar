@@ -129,13 +129,13 @@ class TestCorpusAuditPolicy(unittest.TestCase):
         active = [value for value in self.entries if value.get("status") != "CLOSED"]
         counts = {frequency: sum(value.get("audit_frequency") == frequency for value in active)
                   for frequency in ("monthly", "quarterly", "annually")}
-        self.assertEqual(counts, {"monthly": 15, "quarterly": 127, "annually": 130})
+        self.assertEqual(counts, {"monthly": 15, "quarterly": 128, "annually": 129})
         priorities = {priority: sum(audit_priority(value) == priority for value in active)
                       for priority in ("critical", "high", "standard", "low")}
         self.assertEqual(priorities, {"critical": 61, "high": 70, "standard": 12, "low": 129})
         summary = workload_summary(active, capacity_per_week=5, as_of=date(2026, 8, 13))
-        self.assertEqual(summary["backlog"], 137)
-        self.assertEqual(summary["audits_per_year"], 818)
+        self.assertEqual(summary["backlog"], 131)
+        self.assertEqual(summary["audits_per_year"], 821)
         self.assertFalse(summary["backlog_recoverable"])
 
     def test_migration_is_idempotent_after_application(self):
