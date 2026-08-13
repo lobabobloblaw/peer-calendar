@@ -890,10 +890,16 @@
         this._particles = [];
         this._particleAnimId = null;
         this._lastParticleFrame = 0;
-        this._particlesWereRunning = false;
         this._particleTimeOfDay = 'day';
         this._currentParticleType = null;
         this._currentParticleIntensity = null;
+
+        // Cache the media query so preference changes can stop and restart
+        // nonessential motion without requiring a page reload.
+        this._reducedMotionQuery = this._options.respectReducedMotion &&
+            typeof window.matchMedia === 'function'
+            ? window.matchMedia('(prefers-reduced-motion: reduce)')
+            : null;
 
         // Weather refresh timer
         this._weatherTimer = null;
@@ -908,6 +914,7 @@
         // Bound handlers for cleanup
         this._boundVisChange = this._onVisibilityChange.bind(this);
         this._boundResize = this._onResize.bind(this);
+        this._boundReducedMotionChange = this._onReducedMotionChange.bind(this);
     }
 
     // ---- Event system ----
@@ -973,6 +980,14 @@
         // Attach global listeners
         document.addEventListener('visibilitychange', this._boundVisChange);
         window.addEventListener('resize', this._boundResize);
+        if (this._reducedMotionQuery) {
+            if (typeof this._reducedMotionQuery.addEventListener === 'function') {
+                this._reducedMotionQuery.addEventListener('change', this._boundReducedMotionChange);
+            } else if (typeof this._reducedMotionQuery.addListener === 'function') {
+                // Legacy Safari fallback.
+                this._reducedMotionQuery.addListener(this._boundReducedMotionChange);
+            }
+        }
 
         // Weather refresh interval
         var self = this;
@@ -1055,8 +1070,8 @@
     SkyEffect.prototype.resume = function () {
         if (!this._paused) return;
         this._paused = false;
-        if (this._vantaEffect) this._vantaEffect.setOptions({ speed: this._currentSpeed });
-        // Re-render to restart particles if applicable
+        // Re-render to apply the current motion preference and restart any
+        // weather particles only when animation is allowed.
         this._render();
     };
 
@@ -1102,6 +1117,13 @@
         // Remove listeners
         document.removeEventListener('visibilitychange', this._boundVisChange);
         window.removeEventListener('resize', this._boundResize);
+        if (this._reducedMotionQuery) {
+            if (typeof this._reducedMotionQuery.removeEventListener === 'function') {
+                this._reducedMotionQuery.removeEventListener('change', this._boundReducedMotionChange);
+            } else if (typeof this._reducedMotionQuery.removeListener === 'function') {
+                this._reducedMotionQuery.removeListener(this._boundReducedMotionChange);
+            }
+        }
 
         // Clear weather timer
         if (this._weatherTimer) {
@@ -1120,6 +1142,16 @@
     };
 
     // ---- Private methods ----
+
+    SkyEffect.prototype._isReducedMotion = function () {
+        return !!(this._options.respectReducedMotion &&
+            this._reducedMotionQuery && this._reducedMotionQuery.matches);
+    };
+
+    SkyEffect.prototype._canAnimate = function () {
+        return !this._paused && !this._destroyed && !document.hidden &&
+            !this._isReducedMotion();
+    };
 
     SkyEffect.prototype._createDOM = function () {
         // Background gradient
@@ -1262,8 +1294,7 @@
         }
 
         var isMobile = window.innerWidth < this._options.mobileBreakpoint;
-        var reducedMotion = this._options.respectReducedMotion &&
-            window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var reducedMotion = this._isReducedMotion();
 
         // Mobile gets reduced blur for performance
         if (isMobile && options.blur) {
@@ -1359,6 +1390,13 @@
             delete vantaOpts.weatherCategory;
             delete vantaOpts._interpolated;
 
+            // Preserve the calculated speed as _currentSpeed, but never pass an
+            // active speed to Vanta while animation is disallowed. This lets a
+            // visibility or preference change restore the intended speed.
+            if (!this._canAnimate()) {
+                vantaOpts.speed = 0;
+            }
+
             if (this._vantaEffect) {
                 if (hideCloudCanvas && !this._vantaFrozen) {
                     // Freeze Vanta: stop its render loop to save GPU
@@ -1411,7 +1449,7 @@
         }
 
         // Particles — only restart if type or intensity changed
-        if (this._options.enableParticles && this._weather && !this._paused) {
+        if (this._options.enableParticles && this._weather && this._canAnimate()) {
             var pType = getWeatherParticleType(this._weather.weatherCode);
             var pIntensity = getWeatherParticleIntensity(this._weather.weatherCode);
             if (pType !== this._currentParticleType || pIntensity !== this._currentParticleIntensity) {
@@ -1468,7 +1506,7 @@
 
     SkyEffect.prototype._startParticles = function (type, intensity, timeOfDay) {
         this._stopParticles();
-        if (!type || !this._particlesCanvas) return;
+        if (!type || !this._particlesCanvas || !this._canAnimate()) return;
 
         this._currentParticleType = type;
         this._currentParticleIntensity = intensity;
@@ -1488,6 +1526,10 @@
         var self = this;
 
         function animate(currentTime) {
+            if (!self._canAnimate()) {
+                self._particleAnimId = null;
+                return;
+            }
             var deltaTime = Math.min(currentTime - self._lastParticleFrame, 50);
             self._lastParticleFrame = currentTime;
             self._particlesCtx.clearRect(0, 0, self._particlesCanvas.width, self._particlesCanvas.height);
@@ -1516,34 +1558,19 @@
     SkyEffect.prototype._onVisibilityChange = function () {
         if (document.hidden) {
             if (this._vantaEffect && !this._vantaFrozen) this._vantaEffect.setOptions({ speed: 0 });
-            if (this._particleAnimId) {
-                this._particlesWereRunning = true;
-                cancelAnimationFrame(this._particleAnimId);
-                this._particleAnimId = null;
-            }
+            this._stopParticles();
         } else if (!this._paused) {
-            var reducedMotion = this._options.respectReducedMotion &&
-                window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-            if (!reducedMotion) {
-                if (this._vantaEffect && !this._vantaFrozen) this._vantaEffect.setOptions({ speed: this._currentSpeed });
-                if (this._particlesWereRunning && this._particles.length > 0) {
-                    this._lastParticleFrame = performance.now();
-                    var self = this;
-                    function animate(currentTime) {
-                        var deltaTime = Math.min(currentTime - self._lastParticleFrame, 50);
-                        self._lastParticleFrame = currentTime;
-                        self._particlesCtx.clearRect(0, 0, self._particlesCanvas.width, self._particlesCanvas.height);
-                        for (var i = 0; i < self._particles.length; i++) {
-                            self._particles[i].update(deltaTime);
-                            self._particles[i].draw(self._particlesCtx, self._particleTimeOfDay);
-                        }
-                        self._particleAnimId = requestAnimationFrame(animate);
-                    }
-                    self._particleAnimId = requestAnimationFrame(animate);
-                }
-            }
-            this._particlesWereRunning = false;
+            // Recalculate the effective Vanta speed and recreate particles only
+            // if the current motion preference permits animation.
+            this._render();
         }
+    };
+
+    SkyEffect.prototype._onReducedMotionChange = function () {
+        if (this._destroyed) return;
+        // _render applies a zero Vanta speed and clears particles when reduction
+        // is requested, or restores both when the preference is removed.
+        this._render();
     };
 
     SkyEffect.prototype._onResize = function () {

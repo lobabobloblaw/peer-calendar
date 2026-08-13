@@ -1,0 +1,47 @@
+name: Test Web UI
+
+on:
+  pull_request:
+    paths:
+      - 'docs/index.html'
+      - 'docs/events.json'
+      - 'docs/sky-effect.js'
+      - 'scripts/generate_calendar.py'
+      - 'scripts/test_web_ui_contract.mjs'
+      - 'scripts/test_sky_effect_reduced_motion.mjs'
+      - '.github/workflows/test-web-ui.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'docs/index.html'
+      - 'docs/events.json'
+      - 'docs/sky-effect.js'
+      - 'scripts/generate_calendar.py'
+      - 'scripts/test_web_ui_contract.mjs'
+      - 'scripts/test_sky_effect_reduced_motion.mjs'
+      - '.github/workflows/test-web-ui.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Check JavaScript syntax
+        run: |
+          node --check docs/sky-effect.js
+          awk 'BEGIN{inside=0} /^[[:space:]]*<script>[[:space:]]*$/{inside=1;next} /^[[:space:]]*<\/script>[[:space:]]*$/{if(inside){exit}} inside{print}' docs/index.html | node --check -
+
+      - name: Run deterministic UI tests
+        run: node --test scripts/test_web_ui_contract.mjs scripts/test_sky_effect_reduced_motion.mjs

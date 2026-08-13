@@ -78,15 +78,15 @@ distribution/              # User-ready files (recurring events expanded by mont
 ```
 
 **Category colors (for Apple Calendar):**
-- Peer Support: #7B68EE (Medium slate blue)
-- Fitness & Wellness: #32CD32 (Lime green)
-- Events: #FF6347 (Tomato red)
-- Arts & Culture: #9370DB (Medium purple)
-- Parks & Nature: #228B22 (Forest green)
-- Food & Farms: #DAA520 (Goldenrod)
-- Social Activities: #FF69B4 (Hot pink)
-- Discount Programs: #4169E1 (Royal blue)
-- Transportation: #708090 (Slate gray)
+- Peer Support: #3E56B5 (Blue)
+- Fitness & Wellness: #496800 (Olive green)
+- Events: #B6402F (Brick red)
+- Arts & Culture: #6949AC (Purple)
+- Parks & Nature: #176C47 (Forest green)
+- Food & Farms: #745800 (Brown-gold)
+- Social Activities: #AD2F77 (Magenta)
+- Discount Programs: #1D5F9B (Blue)
+- Transportation: #516170 (Slate gray)
 
 ## Core Workflows
 

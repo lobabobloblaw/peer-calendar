@@ -48,15 +48,15 @@ from utils import load_sources, parse_date
 
 # Category color scheme (hex colors)
 CATEGORY_COLORS = {
-    "peer_support": "#7B68EE",      # Medium slate blue - calming, mental health
-    "fitness_wellness": "#32CD32",   # Lime green - health, activity
-    "events": "#FF6347",             # Tomato red - excitement, events
-    "arts_culture": "#9370DB",       # Medium purple - creativity
-    "parks_nature": "#228B22",       # Forest green - nature
-    "food_farms": "#DAA520",         # Goldenrod - harvest, food
-    "social_activities": "#FF69B4",  # Hot pink - social, community
-    "discount_programs": "#4169E1",  # Royal blue - services, programs
-    "transportation": "#708090",     # Slate gray - transit, infrastructure
+    "peer_support": "#3E56B5",      # Blue - calming, mental health
+    "fitness_wellness": "#496800",  # Olive green - health, activity
+    "events": "#B6402F",            # Brick red - excitement, events
+    "arts_culture": "#6949AC",      # Purple - creativity
+    "parks_nature": "#176C47",      # Forest green - nature
+    "food_farms": "#745800",        # Brown-gold - harvest, food
+    "social_activities": "#AD2F77", # Magenta - social, community
+    "discount_programs": "#1D5F9B", # Blue - services, programs
+    "transportation": "#516170",    # Slate gray - transit, infrastructure
 }
 
 # Human-readable category names
@@ -1083,7 +1083,7 @@ def create_vcalendar(
             header.append(f"X-APPLE-CALENDAR-COLOR:{CATEGORY_COLORS[category]}")
         else:
             # Default color for combined calendar
-            header.append("X-APPLE-CALENDAR-COLOR:#7B68EE")
+            header.append("X-APPLE-CALENDAR-COLOR:#3E56B5")
 
     elif platform == "outlook":
         header.append("X-WR-TIMEZONE:America/Los_Angeles")
