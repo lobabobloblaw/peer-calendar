@@ -9,6 +9,10 @@ on:
       - 'scripts/generate_calendar.py'
       - 'scripts/test_web_ui_contract.mjs'
       - 'scripts/test_sky_effect_reduced_motion.mjs'
+      - 'tests/web-ui.spec.mjs'
+      - 'playwright.config.mjs'
+      - 'package.json'
+      - 'package-lock.json'
       - '.github/workflows/test-web-ui.yml'
   push:
     branches: [main]
@@ -19,6 +23,10 @@ on:
       - 'scripts/generate_calendar.py'
       - 'scripts/test_web_ui_contract.mjs'
       - 'scripts/test_sky_effect_reduced_motion.mjs'
+      - 'tests/web-ui.spec.mjs'
+      - 'playwright.config.mjs'
+      - 'package.json'
+      - 'package-lock.json'
       - '.github/workflows/test-web-ui.yml'
   workflow_dispatch:
 
@@ -44,4 +52,26 @@ jobs:
           awk 'BEGIN{inside=0} /^[[:space:]]*<script>[[:space:]]*$/{inside=1;next} /^[[:space:]]*<\/script>[[:space:]]*$/{if(inside){exit}} inside{print}' docs/index.html | node --check -
 
       - name: Run deterministic UI tests
-        run: node --test scripts/test_web_ui_contract.mjs scripts/test_sky_effect_reduced_motion.mjs
+        run: npm run test:web-contract
+
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install test dependencies
+        run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run browser accessibility tests
+        run: npm run test:web-e2e

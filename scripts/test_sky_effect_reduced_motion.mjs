@@ -159,3 +159,44 @@ test('reduced-motion prevents initial particles and responds to live preference 
     assert.equal(activeAnimations.size, 0);
     assert.equal(motionQuery.listenerCount(), 0, 'the preference listener is removed on destroy');
 });
+
+test('WebGL initialization failure falls back once without repeated errors', async () => {
+    const motionQuery = createMotionQuery(false);
+    const { windowMock } = installBrowserMocks(motionQuery);
+    const warnings = [];
+    let attempts = 0;
+    const originalWarn = console.warn;
+
+    windowMock.VANTA = globalThis.VANTA = {
+        CLOUDS() {
+            attempts += 1;
+            throw new Error('WebGL unavailable');
+        }
+    };
+    console.warn = (...args) => warnings.push(args.join(' '));
+
+    const sky = new SkyEffect(createContainer(), {
+        autoFetchWeather: false,
+        autoLoadDeps: false,
+        enableFog: false,
+        updateThemeColor: false
+    });
+
+    try {
+        await sky.init();
+        sky._render();
+        sky._render();
+
+        assert.equal(attempts, 1, 'Vanta is not retried after WebGL fails');
+        assert.equal(sky._vantaUnavailable, true);
+        assert.equal(sky._cloudsEl.style.opacity, '0');
+        assert.equal(
+            warnings.filter(message => message.includes('gradient-only mode')).length,
+            1,
+            'the fallback warning is emitted once'
+        );
+    } finally {
+        sky.destroy();
+        console.warn = originalWarn;
+    }
+});

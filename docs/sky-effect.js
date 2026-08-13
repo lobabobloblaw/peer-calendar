@@ -885,6 +885,7 @@
         // Vanta instance
         this._vantaEffect = null;
         this._vantaFrozen = false;
+        this._vantaUnavailable = false;
 
         // Particle system state
         this._particles = [];
@@ -1379,7 +1380,7 @@
         // Only fog with high cloud cover reaches this threshold.
         var hideCloudCanvas = blur >= 10;
 
-        if (window.VANTA && window.VANTA.CLOUDS && !this._deferVanta) {
+        if (window.VANTA && window.VANTA.CLOUDS && !this._deferVanta && !this._vantaUnavailable) {
             var vantaOpts = Object.assign({}, options, this._options.vantaOptions);
             // Remove non-Vanta keys
             delete vantaOpts.timeOfDay;
@@ -1397,35 +1398,47 @@
                 vantaOpts.speed = 0;
             }
 
-            if (this._vantaEffect) {
-                if (hideCloudCanvas && !this._vantaFrozen) {
-                    // Freeze Vanta: stop its render loop to save GPU
-                    if (this._vantaEffect.req) {
-                        cancelAnimationFrame(this._vantaEffect.req);
-                        this._vantaEffect.req = null;
+            try {
+                if (this._vantaEffect) {
+                    if (hideCloudCanvas && !this._vantaFrozen) {
+                        // Freeze Vanta: stop its render loop to save GPU
+                        if (this._vantaEffect.req) {
+                            cancelAnimationFrame(this._vantaEffect.req);
+                            this._vantaEffect.req = null;
+                        }
+                        this._vantaFrozen = true;
+                    } else if (!hideCloudCanvas && this._vantaFrozen) {
+                        // Unfreeze: restart Vanta by reapplying options
+                        this._vantaEffect.setOptions(vantaOpts);
+                        this._vantaFrozen = false;
+                    } else if (!hideCloudCanvas) {
+                        this._vantaEffect.setOptions(vantaOpts);
                     }
-                    this._vantaFrozen = true;
-                } else if (!hideCloudCanvas && this._vantaFrozen) {
-                    // Unfreeze: restart Vanta by reapplying options
-                    this._vantaEffect.setOptions(vantaOpts);
+                } else {
+                    this._vantaEffect = VANTA.CLOUDS(Object.assign({
+                        el: this._cloudsEl,
+                        mouseControls: false,
+                        touchControls: false,
+                        gyroControls: false,
+                        minHeight: 200,
+                        minWidth: 200
+                    }, vantaOpts));
                     this._vantaFrozen = false;
-                } else if (!hideCloudCanvas) {
-                    this._vantaEffect.setOptions(vantaOpts);
                 }
-            } else {
-                this._vantaEffect = VANTA.CLOUDS(Object.assign({
-                    el: this._cloudsEl,
-                    mouseControls: false,
-                    touchControls: false,
-                    gyroControls: false,
-                    minHeight: 200,
-                    minWidth: 200
-                }, vantaOpts));
+            } catch (e) {
+                // WebGL can be unavailable even when the scripts loaded. Fall
+                // back permanently for this instance so periodic renders do not
+                // keep throwing and the CSS gradient remains usable.
+                this._vantaUnavailable = true;
+                this._vantaEffect = null;
                 this._vantaFrozen = false;
+                this._cloudsEl.style.opacity = '0';
+                this._cloudsEl.style.filter = 'none';
+                console.warn('SkyEffect: WebGL initialization failed, running in gradient-only mode.', e.message);
             }
 
             // Cloud layer opacity and blur
-            if (this._paused || hideCloudCanvas) {
+            if (this._vantaUnavailable || this._paused || hideCloudCanvas) {
                 this._cloudsEl.style.opacity = '0';
                 this._cloudsEl.style.filter = 'none';
             } else {
