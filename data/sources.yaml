@@ -14,8 +14,8 @@
     notes: No proof of income required - self-select discount level
   eligibility: Portland residents, any income level
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips:
     first_visit: Register online at portland.gov/parks - no office visit needed
     registration: Self-select your discount level (25-90%) based on your situation - no proof required
@@ -48,8 +48,8 @@
     notes: Present Oregon Trail Card at venue
   eligibility: Oregon Trail Card (SNAP/EBT) holders
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips:
     first_visit: Just show your Oregon Trail Card at the ticket window - no pre-registration needed
     registration: None required - just present your EBT card at participating venues
@@ -124,7 +124,7 @@
     languages: English and Spanish applications available
   last_verified: 2026-04-22
   next_audit: 2026-07-22
-  audit_frequency: quarterly
+  audit_frequency: annually
   practical_tips:
     first_visit: Submit application online, by email, or in-person at any THPRD facility before registering for programs
     registration: Apply once per household per year. Wait for approval (10 business days) before signing up for classes. Funds
@@ -457,8 +457,8 @@
   - Youth programs
   - Fitness classes
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips:
     first_visit: Contact Recreation Services at 503-794-8080 or email recreation@ncprd.com to request an application
     registration: Apply before registering for programs - scholarships must be pre-approved. Do not register for classes until
@@ -502,8 +502,8 @@
   application:
     valid_period: July 1 - June 30 fiscal year
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips:
     first_visit: Call 503-675-2549 to request a scholarship application
     registration: Apply through Parks & Recreation office. Scholarship valid for fiscal year (July 1 - June 30). Only household
@@ -541,8 +541,8 @@
   - Recreation programs
   - Summer camps
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips:
     first_visit: Email info@tualatintogether.org to request scholarship application and information
     registration: Email info@tualatintogether.org for scholarship application. Must demonstrate financial need and Tualatin
@@ -580,8 +580,8 @@
     notes: Fees not included in discount
   eligibility: Oregon residents 62+ (discount) or 65+ (free audit)
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips:
     first_visit: Contact admissions to learn about enrollment process
     registration: Standard enrollment process; bring ID for age verification
@@ -2218,8 +2218,8 @@
   - Gymnasium
   - Showers
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips:
     first_visit: Stop by the front desk to sign up for a day pass or ask about memberships
     registration: Drop-in welcome. North Portland residents get FREE access with proof of address.
@@ -2273,8 +2273,8 @@
   - anxiety_friendly
   notes: Summer and winter layouts available. Park hours 5am-midnight. One of top disc golf courses in the country.
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   guide_location: activities-guide-2.md#disc-golf-courses
 - id: rockwood-disc-golf
   name: Rockwood Central Park Disc Golf Course
@@ -2310,8 +2310,8 @@
   - new_to_area
   notes: Oregon's first disc golf course (established 1980)
   last_verified: 2025-11-25
-  next_audit: 2026-05-25
-  audit_frequency: quarterly
+  next_audit: 2026-11-25
+  audit_frequency: annually
   guide_location: activities-guide-2.md#disc-golf-courses
   latitude: 45.513815
   longitude: -122.480928
@@ -2380,8 +2380,8 @@
   notes: Portland's oldest sliding-scale studio since 2010. Located in historic Franz building near MAX Blue Line. Sound bath
     every 2nd Sunday 10-11:30am.
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   guide_location: activities-guide-1.md#free-yoga-and-meditation
   latitude: 45.517071
   longitude: -122.674578
@@ -3047,8 +3047,8 @@
   - Childcare
   - Personal training
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips:
     first_visit: Visit any location for a tour and to learn about membership options and financial assistance
     registration: Apply for financial assistance online or at any YMCA location
@@ -3301,8 +3301,8 @@
   - name: Parent Preschool Swim
     notes: Discounted times for parents with young children
   last_verified: 2026-03-07
-  next_audit: 2026-06-07
-  audit_frequency: quarterly
+  next_audit: 2027-03-07
+  audit_frequency: annually
   practical_tips:
     first_visit: Arrive early for Big Surf sessions as they can get crowded
     registration: Register online at ncprd.org or call 503-794-8080
@@ -3358,8 +3358,8 @@
   - One Pass
   - Renew Active
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips:
     first_visit: 'Note: No swimming pool at this location - use East Portland or Mt. Scott for aquatics'
     registration: Online at portland.gov/parks, by phone, or in person
@@ -3415,8 +3415,8 @@
   - One Pass / One Pass Select
   - Aaptive Programs
   last_verified: 2026-03-07
-  next_audit: 2026-06-07
-  audit_frequency: quarterly
+  next_audit: 2027-03-07
+  audit_frequency: annually
   practical_tips:
     first_visit: Check if your insurance includes SilverSneakers or Silver & Fit for free access
     registration: Create account via Active Communities for registration
@@ -3466,8 +3466,8 @@
   - Adult leagues
   - Open swim
   last_verified: 2026-03-07
-  next_audit: 2026-06-07
-  audit_frequency: quarterly
+  next_audit: 2027-03-07
+  audit_frequency: annually
   practical_tips:
     first_visit: Opened June 2025 - brand new facility
     registration: Create account for class registration and day passes
@@ -4215,8 +4215,8 @@
   - indoor
   notes: Independent dinner theater in Montavilla neighborhood.
   last_verified: 2026-03-07
-  next_audit: 2026-06-07
-  audit_frequency: quarterly
+  next_audit: 2027-03-07
+  audit_frequency: annually
   guide_location: activities-guide-1.md#movie-theaters
   latitude: 45.518885
   longitude: -122.582923
@@ -4255,8 +4255,8 @@
   - indoor
   notes: Portland's oldest operating movie theater, in Sunnyside neighborhood.
   last_verified: 2026-03-07
-  next_audit: 2026-06-07
-  audit_frequency: quarterly
+  next_audit: 2027-03-07
+  audit_frequency: annually
   guide_location: activities-guide-1.md#movie-theaters
   latitude: 45.51656
   longitude: -122.628478
@@ -4293,8 +4293,8 @@
   - indoor
   notes: Theater and pub in Laurelhurst neighborhood.
   last_verified: 2026-03-07
-  next_audit: 2026-06-07
-  audit_frequency: quarterly
+  next_audit: 2027-03-07
+  audit_frequency: annually
   guide_location: activities-guide-1.md#movie-theaters
   latitude: 45.523238
   longitude: -122.637514
@@ -4331,8 +4331,8 @@
   - indoor
   notes: Downtown near Powell's Books. Founded by filmmakers.
   last_verified: 2026-03-07
-  next_audit: 2026-06-07
-  audit_frequency: quarterly
+  next_audit: 2027-03-07
+  audit_frequency: annually
   guide_location: activities-guide-1.md#movie-theaters
   latitude: 45.522372
   longitude: -122.681408
@@ -4373,8 +4373,8 @@
   - creative
   notes: Film Action Oregon dba Hollywood Theatre. Historic landmark, namesake of Hollywood District.
   last_verified: 2026-03-07
-  next_audit: 2026-06-07
-  audit_frequency: quarterly
+  next_audit: 2027-03-07
+  audit_frequency: annually
   guide_location: activities-guide-2.md#free-and-low-cost-film-events
   latitude: 45.535443
   longitude: -122.620609
@@ -4552,8 +4552,8 @@
   - indoor
   notes: Since 1976. Serves Oregon and SW Washington immigrant/refugee communities.
   last_verified: 2026-03-07
-  next_audit: 2026-06-07
-  audit_frequency: quarterly
+  next_audit: 2027-03-07
+  audit_frequency: annually
   guide_location: activities-guide-1.md#cultural-community-centers
   latitude: 45.526515
   longitude: -122.556437
@@ -4590,8 +4590,8 @@
   - low_energy
   notes: NOT part of Bank of America Museums on Us program.
   last_verified: 2026-03-07
-  next_audit: 2026-06-07
-  audit_frequency: quarterly
+  next_audit: 2027-03-07
+  audit_frequency: annually
   guide_location: activities-guide-2.md#museum-free-days
   latitude: 45.515859
   longitude: -122.682184
@@ -4630,8 +4630,8 @@
   - low_energy
   notes: Closed Mon-Tue and major holidays including Jewish holidays.
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   guide_location: activities-guide-2.md#museum-free-days
   latitude: 45.524334
   longitude: -122.678206
@@ -4703,8 +4703,8 @@
   - low_energy
   notes: Near OMSI by Tilikum Crossing. Since 2012. Locomotives owned by City of Portland.
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   guide_location: activities-guide-2.md#always-free-museums
   latitude: 45.507274
   longitude: -122.661625
@@ -4991,8 +4991,8 @@
   - Open mic nights (check calendar for dates)
   - Affordable music lessons (sliding scale)
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips: Community music school offering affordable lessons. Check their calendar for open mic nights. Sliding scale
     available for lessons. Instruments available to borrow. Welcoming to beginners.
   accessibility:
@@ -6293,7 +6293,7 @@
   transit: MAX to Galleria/SW 10th
   last_verified: 2026-05-01
   next_audit: 2026-08-01
-  audit_frequency: quarterly
+  audit_frequency: annually
   practical_tips:
     first_visit: Start at any Pearl District gallery - most along NW 12th-13th between Burnside and Lovejoy
     registration: None - just walk in
@@ -6456,7 +6456,7 @@
     notes: July-August at Nadaka Nature Park, Bella Vista Park, Butler Creek Park, Vance Park; 2026 dates TBA
   last_verified: 2026-03-03
   next_audit: 2026-06-03
-  audit_frequency: quarterly
+  audit_frequency: annually
   practical_tips:
     first_visit: Check greshamoregon.gov/Recreation for current schedule and locations
     registration: None - free and open to all
@@ -7015,7 +7015,7 @@
     notes: March through December; live music at 11am and 2pm
   last_verified: 2026-02-11
   next_audit: 2026-05-11
-  audit_frequency: quarterly
+  audit_frequency: annually
   practical_tips:
     first_visit: Enter from Waterfront Park - market stretches under Burnside Bridge
     registration: None - free admission
@@ -7319,7 +7319,7 @@
   next_audit: 2026-06-01
   notes: Portland's largest multicultural night market celebrating Jade District's diverse Asian and immigrant communities.
     Founded 2014.
-  audit_frequency: quarterly
+  audit_frequency: annually
   practical_tips:
     first_visit: Arrive early for parking; bring cash for vendors
     registration: null
@@ -7772,8 +7772,8 @@
     address: 458 SE 185th Ave, Gresham, OR
     hours: 8am-9pm (May-September)
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips: FREE splash pads at Gresham Arts Plaza (10am-10pm) and Rockwood Plaza (8am-9pm). Seasonal May-September.
     Bring towels and sunscreen. Good for cooling off on hot days. Both locations have other amenities nearby.
   accessibility:
@@ -8565,8 +8565,8 @@
   - Plots assigned February through June
   - Waitlists for popular gardens
   last_verified: 2026-03-24
-  next_audit: 2026-06-24
-  audit_frequency: quarterly
+  next_audit: 2027-03-24
+  audit_frequency: annually
   practical_tips:
     first_visit: Submit a plot request at portland.gov/parks/community-gardens/request to join the waitlist
     registration: Online waitlist form; plots assigned Feb-Jun as space opens
@@ -8596,8 +8596,8 @@
     description: FREE plots for low-income residents east of 82nd Ave
   eligibility: Low-income residents east of 82nd Avenue
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips: FREE garden plots for low-income residents east of 82nd Ave. Most plots are handicapped accessible. Good
     therapeutic activity. East Portland location. Apply for a plot through SnowCap Community Services (formerly SnowCap Community
     Charities). SnowCap also operates a food pantry at same address (weekdays 10am-2pm, Mon/Wed evenings 6-8pm).
@@ -8626,8 +8626,8 @@
   pricing:
     description: FREE - drop in, farm 2 hours, leave with free produce
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips: Drop in and farm for 2 hours, then leave with free produce. No registration needed. At Rosewood Neighborhood
     Garden in East Portland. Good way to combine exercise with food access. Tools provided.
   accessibility:
@@ -8925,7 +8925,7 @@
     notes: Come farm for 2 hours, leave with a bag of fresh produce. No commitment required.
   last_verified: 2026-02-11
   next_audit: 2026-05-11
-  audit_frequency: quarterly
+  audit_frequency: annually
   practical_tips: Drop-in model where anyone can come farm for 2 hours and leave with fresh produce. No commitment required
     - just show up during open hours. Combines gentle physical activity with tangible reward. Great for those wanting to try
     gardening.
@@ -9598,8 +9598,8 @@
     location: First United Methodist Church, 1838 SW Jefferson St
     cost: FREE
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips: FREE 10-week writing workshops with trauma-informed approach. Serves marginalized populations at hospitals,
     shelters, senior centers, treatment facilities. Public readings at First United Methodist Church. No writing experience
     needed.
@@ -9700,8 +9700,8 @@
     description: FREE
   schedule: null
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips: FREE team-oriented volunteer shifts Monday-Saturday, 2-3 hours each. Book online at oregonfoodbank.org.
     Sorting food with other volunteers. Good for those wanting to help fight hunger. Indoor warehouse work.
   accessibility:
@@ -9737,8 +9737,8 @@
   - Photography
   - Writing
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips: Pay What You Can options with Access Discount Program available. Classes in drawing, painting, ceramics,
     textiles, photography, writing. In SW Portland. Register through Portland Parks. All skill levels welcome.
   accessibility:
@@ -9953,8 +9953,8 @@
   - name: Trips
     notes: Group outings
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips:
     first_visit: First senior center in Clackamas County (est. 1970)
     registration: null
@@ -9997,8 +9997,8 @@
   - Connection to social services
   eligibility: All ages, incomes, and disabilities welcome
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips:
     first_visit: null
     registration: null
@@ -10053,8 +10053,8 @@
     eligibility: Adults 60+
     home_delivery: Available for homebound individuals
   last_verified: 2026-04-22
-  next_audit: 2026-07-22
-  audit_frequency: quarterly
+  next_audit: 2027-04-22
+  audit_frequency: annually
   practical_tips:
     first_visit: Stop by to pick up monthly activity calendar
     registration: Most activities are drop-in; some classes may require signup
@@ -10162,8 +10162,8 @@
   - Youth and teen programs
   - Community events
   last_verified: 2026-03-24
-  next_audit: 2026-06-24
-  audit_frequency: quarterly
+  next_audit: 2027-03-24
+  audit_frequency: annually
   practical_tips:
     first_visit: Check the class catalog at hillsboro-oregon.gov/parks-recreation
     registration: Online or in-person; financial assistance application available year-round
@@ -10234,8 +10234,8 @@
     trips:
     - Trips & Travel program
   last_verified: 2026-03-07
-  next_audit: 2026-06-07
-  audit_frequency: quarterly
+  next_audit: 2027-03-07
+  audit_frequency: annually
   practical_tips:
     first_visit: Stop by for JPC Prime Times calendar of activities
     registration: Some classes require registration; many are drop-in
@@ -10628,8 +10628,8 @@
     description: FREE
   hours: Wednesday-Saturday 11am-4pm
   last_verified: 2026-03-03
-  next_audit: 2026-06-03
-  audit_frequency: quarterly
+  next_audit: 2027-03-03
+  audit_frequency: annually
   practical_tips: Volunteer to help refurbish donated electronics. Tech education classes in development. Free/low-cost refurbished
     computers available for community members in need.
   accessibility:
@@ -11295,7 +11295,7 @@
   longitude: -122.621389
   last_verified: 2026-05-01
   next_audit: 2026-08-01
-  audit_frequency: quarterly
+  audit_frequency: annually
   practical_tips:
     first_visit: Find the info booth to exchange SNAP benefits for green tokens
     registration: None required
@@ -11486,7 +11486,7 @@
   sponsor: Kaiser Permanente
   last_verified: 2026-03-24
   next_audit: 2026-06-24
-  audit_frequency: quarterly
+  audit_frequency: annually
   practical_tips:
     first_visit: Just show up on event day. Streets are closed to cars and open for walking, biking, and rolling.
     what_to_bring: Bike, comfortable shoes, sunscreen, water
@@ -11613,8 +11613,8 @@
   latitude: 45.562498
   longitude: -122.634555
   last_verified: 2026-04-15
-  next_audit: 2026-07-15
-  audit_frequency: quarterly
+  next_audit: 2027-04-15
+  audit_frequency: annually
   practical_tips:
     first_visit: Check website for scholarship application and class schedule
     registration: Required for scholarship membership
@@ -11647,8 +11647,8 @@
     description: FREE
   eligibility: Open to all - fat-positive, inclusive community
   last_verified: 2026-04-15
-  next_audit: 2026-07-15
-  audit_frequency: quarterly
+  next_audit: 2027-04-15
+  audit_frequency: annually
   practical_tips:
     first_visit: Check website or social media for upcoming hike schedule
     registration: Check listing for each hike
@@ -11698,8 +11698,8 @@
   - name: Archery
     format: In-person
   last_verified: 2026-04-15
-  next_audit: 2026-07-15
-  audit_frequency: quarterly
+  next_audit: 2027-04-15
+  audit_frequency: annually
   practical_tips:
     first_visit: Contact via email or website to learn about programs
     registration: Membership required
@@ -11837,8 +11837,8 @@
     description: FREE
   eligibility: Ages 10-20
   last_verified: 2026-04-15
-  next_audit: 2026-07-15
-  audit_frequency: quarterly
+  next_audit: 2027-04-15
+  audit_frequency: annually
   practical_tips:
     first_visit: Visit any participating community center with ID
     registration: Sign up at community center; parental waiver required for ages 14-17 for fitness center
@@ -12317,7 +12317,7 @@
     notes: Hollywood Ukulele performs. Hosted by Friends of Portland Memory Garden.
   last_verified: 2026-07-28
   next_audit: 2026-10-28
-  audit_frequency: quarterly
+  audit_frequency: annually
   practical_tips:
     first_visit: The garden is inside Ed Benedict Park. Paths are wide, level and looped, designed so visitors cannot get
       lost.
@@ -12367,7 +12367,7 @@
   schedule_end_date: 2026-08-22
   last_verified: 2026-07-28
   next_audit: 2026-09-28
-  audit_frequency: quarterly
+  audit_frequency: annually
   practical_tips:
     first_visit: Bring a blanket or low chair; performances are on grass. Arrive early for a good spot.
     registration: None - free and open, just turn up
@@ -12414,7 +12414,7 @@
   eligibility: Open to all
   last_verified: 2026-07-28
   next_audit: 2026-10-28
-  audit_frequency: quarterly
+  audit_frequency: annually
   practical_tips:
     first_visit: Centred on SW Capitol Hwy in Multnomah Village. Street closures mean parking nearby is tight - transit or
       walking is easier.

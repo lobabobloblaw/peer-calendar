@@ -16,7 +16,7 @@
     - https://secondary-source.org
   last_verified: 2025-XX-XX  # Date you researched this
   next_audit: 2025-XX-XX     # Based on audit_frequency
-  audit_frequency: quarterly  # weekly | monthly | quarterly | annually
+  audit_frequency: quarterly  # weekly | monthly | quarterly | annually; see cadence policy in CLAUDE.md
   
   # Cost and Access
   pricing:

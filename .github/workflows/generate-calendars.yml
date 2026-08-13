@@ -10,6 +10,8 @@ on:
       - 'scripts/generate_guides.py'
       - 'scripts/test_add_update_post.py'
       - 'scripts/test_schedule_parsing.py'
+      - 'scripts/audit_policy.py'
+      - 'scripts/test_audit_policy.py'
       - 'scripts/test_web_schedule_parity.mjs'
       - 'scripts/utils.py'
       - '.github/workflows/generate-calendars.yml'
@@ -55,6 +57,7 @@ jobs:
         run: |
           python test_schedule_parsing.py
           python test_add_update_post.py
+          python test_audit_policy.py
 
       - name: Snapshot published events
         run: cp docs/events.json /tmp/events-before.json || true

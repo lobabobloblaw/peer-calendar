@@ -19,6 +19,7 @@ Usage:
 """
 
 import argparse
+import json
 import sys
 from collections import Counter
 from datetime import datetime, date, timedelta
@@ -94,8 +95,17 @@ def main():
     parser.add_argument("--category", help="Filter by category")
     parser.add_argument("--quality", action="store_true", help="Run data quality check")
     parser.add_argument("--validate", action="store_true", help="Validate entry fields and types")
+    parser.add_argument("--workload", action="store_true", help="Show projected audit workload and priority queue")
+    parser.add_argument("--capacity-per-week", type=float, help="Compare workload with available weekly audit capacity")
+    parser.add_argument("--limit", type=int, default=10, help="Maximum queue entries to show (default: 10)")
+    parser.add_argument("--as-of", help="Use YYYY-MM-DD instead of today for reproducible reports")
+    parser.add_argument("--format", choices=("text", "json"), default="text", help="Output format for --workload")
 
     args = parser.parse_args()
+    if args.capacity_per_week is not None and args.capacity_per_week <= 0:
+        parser.error("--capacity-per-week must be greater than zero")
+    if args.limit < 0:
+        parser.error("--limit cannot be negative")
 
     script_dir = Path(__file__).parent
     sources_path = (script_dir / args.sources).resolve()
@@ -105,7 +115,9 @@ def main():
         return
 
     entries = load_sources(sources_path)
-    print(f"Loaded {len(entries)} entries from sources.yaml\n")
+    json_mode = args.workload and args.format == "json"
+    if not json_mode:
+        print(f"Loaded {len(entries)} entries from sources.yaml\n")
 
     if args.validate:
         from utils import validate_all_entries
@@ -123,8 +135,14 @@ def main():
         print()
         return
 
-    today_dt = datetime.now()
-    today_date = today_dt.date()
+    if args.as_of:
+        today_date = parse_date(args.as_of)
+        if not today_date:
+            parser.error("--as-of must use YYYY-MM-DD")
+        today_dt = datetime.combine(today_date, datetime.min.time())
+    else:
+        today_dt = datetime.now()
+        today_date = today_dt.date()
     current_month = today_dt.strftime("%Y-%m")
     next_month = (today_dt.replace(day=28) + timedelta(days=4)).strftime("%Y-%m")
     week_from_now = today_date + timedelta(days=7)
@@ -132,11 +150,61 @@ def main():
     # Filter by category if specified
     if args.category:
         entries = [e for e in entries if e.get("category") == args.category]
-        print(f"Filtered to {len(entries)} entries in category '{args.category}'\n")
+        if not json_mode:
+            print(f"Filtered to {len(entries)} entries in category '{args.category}'\n")
 
     # Check if a focused view is requested
     focused_view = (args.weekly_summary or args.overdue or args.due_this_week or
-                   args.due_this_month or args.unverified or args.quality)
+                   args.due_this_month or args.due_next_month or args.unverified or
+                   args.quality or args.workload)
+
+    if args.workload:
+        from audit_policy import audit_priority, audit_queue, workload_summary
+
+        summary = workload_summary(entries, args.capacity_per_week, today_date)
+        queue = audit_queue(entries, today_date)[:max(args.limit, 0)]
+        if args.format == "json":
+            summary["queue"] = [
+                {
+                    "id": entry.get("id"),
+                    "name": entry.get("name"),
+                    "priority": audit_priority(entry),
+                    "frequency": entry.get("audit_frequency"),
+                    "next_audit": format_date(entry.get("next_audit")),
+                    "flagged": any("VERIFY" in str(flag).upper() for flag in entry.get("flags", [])),
+                }
+                for entry in queue
+            ]
+            print(json.dumps(summary, indent=2))
+            return
+
+        print("=" * 60)
+        print(f"AUDIT WORKLOAD - {summary['as_of']}")
+        print("=" * 60)
+        print(f"  Active entries: {summary['active_entries']}")
+        print(f"  Due/overdue backlog: {summary['backlog']}")
+        print(f"  Steady state: {summary['audits_per_year']} audits/year "
+              f"({summary['audits_per_week']:.1f}/week)")
+        print("  By frequency: " + ", ".join(
+            f"{key}={value}" for key, value in summary["by_frequency"].items()
+        ))
+        print("  By priority: " + ", ".join(
+            f"{key}={value}" for key, value in summary["by_priority"].items()
+        ))
+        if args.capacity_per_week is not None:
+            print(f"  Capacity: {args.capacity_per_week:g}/week "
+                  f"({summary['utilization']:.0%} utilized)" if summary['utilization'] is not None
+                  else "  Capacity: 0/week")
+            if summary["backlog_recoverable"]:
+                print(f"  Backlog recovery: about {summary['weeks_to_clear']:.1f} weeks")
+            else:
+                print("  Backlog recovery: not recoverable at this capacity")
+        print(f"\n  Priority queue (first {len(queue)}):")
+        for entry in queue:
+            marker = " VERIFY" if any("VERIFY" in str(flag).upper() for flag in entry.get("flags", [])) else ""
+            print(f"    [{audit_priority(entry)}/{entry.get('audit_frequency')}{marker}] "
+                  f"{format_date(entry.get('next_audit'))} {entry.get('id')}")
+        return
 
     # Category statistics (only in full report mode)
     if not focused_view:

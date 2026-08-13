@@ -117,12 +117,24 @@ python scripts/audit_check.py --category peer_support  # Filter by category
 - `quarterly`: Contact info, eligibility requirements, program details
 - `annually`: Addresses, general descriptions, stable policies
 
+Cadence follows volatility and consequence rather than category alone. Keep
+peer-support schedules, basic-needs food services, transportation, open-ended
+recurrences, and rotating program/exhibit catalogs at least quarterly. Stable
+places, general descriptions, bounded annual events, and established programs
+can be annual. Changing cadence is maintenance, not verification: never advance
+`last_verified`, and preserve an earlier `next_audit` when it represents a
+date-sensitive or unresolved follow-up.
+Retiering alone does not make a five-audit weekly capacity sustainable; use the
+workload report to expose the remaining load rather than claiming the backlog
+is solved.
+
 **Weekly audit workflow (15-30 min):**
 
 1. **Start your session:**
    ```bash
    source scripts/venv/bin/activate
    python scripts/audit_check.py --weekly-summary
+   python scripts/audit_check.py --workload --capacity-per-week 5
    ```
 
 2. **Work through entries in priority order:**
