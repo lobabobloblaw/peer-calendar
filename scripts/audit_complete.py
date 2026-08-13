@@ -38,7 +38,7 @@ def calculate_next_audit(frequency: str, from_date: date = None) -> date:
         elif frequency == "annually":
             return from_date + relativedelta(years=1)
         else:
-            return from_date + relativedelta(months=3)  # default to quarterly
+            raise ValueError(f"Unknown audit frequency: {frequency}")
     else:
         # Fallback without dateutil (less accurate for month boundaries)
         if frequency == "weekly":
@@ -50,7 +50,7 @@ def calculate_next_audit(frequency: str, from_date: date = None) -> date:
         elif frequency == "annually":
             return from_date + timedelta(days=365)
         else:
-            return from_date + timedelta(days=91)
+            raise ValueError(f"Unknown audit frequency: {frequency}")
 
 
 def find_entry_info(content: str, entry_id: str) -> dict | None:
@@ -199,12 +199,19 @@ def main():
         return 1
 
     entry_name = entry_info.get('name', args.id)
-    frequency = entry_info.get('audit_frequency', 'quarterly')
+    frequency = entry_info.get('audit_frequency')
+    if not frequency:
+        print(f"Error: Entry '{args.id}' has no audit_frequency")
+        return 1
 
     # Calculate new dates
     today = date.today()
     new_last_verified = today.strftime('%Y-%m-%d')
-    new_next_audit = calculate_next_audit(frequency, today).strftime('%Y-%m-%d')
+    try:
+        new_next_audit = calculate_next_audit(frequency, today).strftime('%Y-%m-%d')
+    except ValueError as error:
+        print(f"Error: {error}")
+        return 1
 
     # Determine status
     status = "updated" if args.changes else "verified"

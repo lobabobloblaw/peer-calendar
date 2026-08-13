@@ -76,6 +76,69 @@ python audit_check.py --quality
 - Data quality issues (missing fields, etc.)
 - Summary statistics
 
+### check_source_urls.py
+
+Checks every unique `source_urls` value with bounded concurrency, per-host
+limits, timeouts, retries, safe redirect detection, and a `HEAD` to `GET`
+fallback. Redirect destinations are not fetched automatically; they are flagged
+for browser verification.
+It deliberately separates confirmed broken links from sites that block bots:
+HTTP 403/429 responses, JavaScript challenges, temporary server errors, and
+network failures are warnings that need human follow-up rather than hard
+failures.
+
+**Usage:**
+```bash
+# Concise console summary (informational exit code)
+python check_source_urls.py
+
+# Also write machine-readable JSON and a Markdown summary
+python check_source_urls.py \
+  --output ../artifacts/source-url-report.json \
+  --markdown-output ../artifacts/source-url-summary.md
+
+# Opt in to exit code 1 when confirmed broken links are present
+python check_source_urls.py --fail-on-broken
+
+# Run deterministic tests; these never contact live websites
+python test_check_source_urls.py
+```
+
+The `Check Source URLs` GitHub Actions workflow runs the mocked test suite on
+pull requests. After merge, it performs an informational live check each
+Wednesday and whenever source data changes. It publishes the summary in the
+workflow run and retains the full JSON report as an artifact for 30 days. The
+live step is initially non-blocking even when it finds confirmed broken links.
+
+### Audit workload and cadence policy
+
+Audit cadence measures how often a human should re-check content; automated URL
+reachability is only a separate maintenance signal. Review the sustainable load
+and a consequence-aware queue with:
+
+```bash
+python audit_check.py --workload --capacity-per-week 5
+python audit_check.py --workload --as-of 2026-08-13 --format json
+```
+
+The queue prioritizes explicit VERIFY flags, essential peer/basic-needs access,
+discounts and transportation, and open-ended recurring schedules. Monthly and
+quarterly cadences are retained for volatile schedules and rotating catalogs;
+stable facilities, bounded annual events, and general descriptions can be
+annual. A cadence migration must never update `last_verified`, because it is
+policy maintenance rather than evidence of content verification. Earlier
+`next_audit` dates may be preserved for TBA announcements or unresolved work.
+
+`migrate_audit_cadence.py` records the reviewed issue #5 migration. It previews
+by default; `--apply` writes the exact 53-entry migration and validates that no
+`last_verified` value changed.
+
+Retiering reduces low-value repetition but does not by itself make a five-audit
+weekly capacity sustainable: the active corpus still projects above that rate,
+and even one annual human review per active entry exceeds five per week. Use
+the workload report to make that limitation explicit; do not interpret this
+migration as closing the capacity question.
+
 ## Integrating Calendars
 
 ### Google Calendar
@@ -109,6 +172,8 @@ scripts/
 ├── README.md           # This file
 ├── requirements.txt    # Python dependencies
 ├── venv/               # Virtual environment (created by setup)
+├── check_source_urls.py
+├── test_check_source_urls.py
 ├── generate_calendar.py
 └── audit_check.py
 

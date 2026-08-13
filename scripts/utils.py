@@ -8,11 +8,8 @@ from pathlib import Path
 import yaml
 
 
-def load_sources(sources_path: str | Path) -> list[dict]:
-    """Load and parse the sources.yaml file (multi-document YAML)."""
-    with open(sources_path, "r", encoding="utf-8") as f:
-        content = f.read()
-
+def parse_sources(content: str) -> list[dict]:
+    """Parse sources from multi-document YAML text."""
     documents = []
     for doc in yaml.safe_load_all(content):
         if doc and isinstance(doc, list):
@@ -21,6 +18,12 @@ def load_sources(sources_path: str | Path) -> list[dict]:
             documents.append(doc)
 
     return [d for d in documents if d and isinstance(d, dict) and "id" in d]
+
+
+def load_sources(sources_path: str | Path) -> list[dict]:
+    """Load and parse the sources.yaml file (multi-document YAML)."""
+    with open(sources_path, "r", encoding="utf-8") as f:
+        return parse_sources(f.read())
 
 
 def parse_date(date_val) -> date | None:
@@ -122,11 +125,9 @@ def validate_entry(entry: dict) -> list[str]:
     if res_type and res_type not in VALID_RESOURCE_TYPES:
         warnings.append(f"{entry_id}: unknown resource_type '{res_type}'")
 
-    audit_freq = entry.get("audit_frequency")
-    if audit_freq and audit_freq not in VALID_AUDIT_FREQUENCIES:
-        warnings.append(f"{entry_id}: unknown audit_frequency '{audit_freq}'")
-    elif not audit_freq:
-        warnings.append(f"{entry_id}: missing audit_frequency")
+    # Import lazily to avoid a module cycle: audit_policy uses parse_date above.
+    from audit_policy import validate_audit_policy
+    warnings.extend(validate_audit_policy(entry))
 
     if not entry.get("source_urls"):
         warnings.append(f"{entry_id}: missing source_urls")

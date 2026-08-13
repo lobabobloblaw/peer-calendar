@@ -1,0 +1,99 @@
+name: Check Source URLs
+
+on:
+  pull_request:
+    paths:
+      - 'data/sources.yaml'
+      - 'scripts/check_source_urls.py'
+      - 'scripts/test_check_source_urls.py'
+      - 'scripts/audit_policy.py'
+      - 'scripts/audit_check.py'
+      - 'scripts/migrate_audit_cadence.py'
+      - 'scripts/test_audit_policy.py'
+      - 'scripts/utils.py'
+      - 'scripts/requirements.txt'
+      - '.github/workflows/check-source-urls.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'data/sources.yaml'
+      - 'scripts/check_source_urls.py'
+      - 'scripts/test_check_source_urls.py'
+      - 'scripts/audit_policy.py'
+      - 'scripts/audit_check.py'
+      - 'scripts/migrate_audit_cadence.py'
+      - 'scripts/test_audit_policy.py'
+      - 'scripts/utils.py'
+      - 'scripts/requirements.txt'
+      - '.github/workflows/check-source-urls.yml'
+  schedule:
+    - cron: '0 15 * * 3' # Wednesdays 15:00 UTC (~8am Pacific)
+  workflow_dispatch:
+
+concurrency:
+  group: source-url-health-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+          cache-dependency-path: 'scripts/requirements.txt'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Test URL checker without live network
+        run: python scripts/test_check_source_urls.py
+
+      - name: Test audit policy and migration
+        run: python scripts/test_audit_policy.py
+
+      # Pull requests run only deterministic tests. The live check starts after
+      # merge so untrusted PR URLs are never requested by a GitHub-hosted runner.
+      - name: Check source URL health
+        id: live-check
+        if: github.event_name != 'pull_request'
+        continue-on-error: true
+        run: |
+          mkdir -p artifacts
+          python scripts/check_source_urls.py \
+            --sources data/sources.yaml \
+            --output artifacts/source-url-report.json \
+            --markdown-output artifacts/source-url-summary.md \
+            --max-workers 8 \
+            --per-host 2 \
+            --timeout 12 \
+            --retries 1 \
+            --fail-on-broken
+
+      - name: Add report to workflow summary
+        if: always() && github.event_name != 'pull_request'
+        run: |
+          if [ -f artifacts/source-url-summary.md ]; then
+            cat artifacts/source-url-summary.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "## Source URL health" >> "$GITHUB_STEP_SUMMARY"
+            echo "The checker did not produce a report; inspect the live-check logs." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload URL health report
+        if: always() && github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-url-health-${{ github.run_id }}
+          path: artifacts/
+          if-no-files-found: warn
+          retention-days: 30

@@ -3,6 +3,18 @@
 
 ---
 - date: 2026-08-13
+  type: maintenance
+  auditor: codex
+  summary: "Applied the reviewed risk-based audit cadence policy from issue #5"
+  entries_audited: 0
+  changes:
+    - "Moved 53 lower-volatility entries from quarterly to annual audits while retaining monthly schedules, peer support, basic-needs food access, transportation, ongoing program schedules (including directory-only schedules), and rotating catalogs at their existing cadence"
+    - "Preserved every last_verified date; this policy migration does not claim content verification"
+    - "Preserved eleven earlier date-sensitive, pre-season, or verification checkpoints so known follow-up work remains visible"
+    - "Added workload reporting and a separately automated, non-blocking source URL health check"
+
+---
+- date: 2026-08-13
   type: update
   auditor: codex
   summary: "Corrected current schedules and stale source data from issues #10, #4, and #11"
