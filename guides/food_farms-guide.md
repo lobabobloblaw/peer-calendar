@@ -251,20 +251,20 @@ One of Portland's best farmers markets with full SNAP/EBT support and Double Up 
 
 *Do alone · Anxiety-friendly, Outdoor, Family-friendly · Wheelchair accessible, Near transit*
 
-### Hunger Fighters Food Bank
+### Hunger Fighters Oregon
 
-- **Address:** 4 Monroe Pkwy, Lake Oswego, OR 97034
-- **Phone:** 503-635-3401
-- **Website:** https://www.hungerfighters.org
+- **Address:** 4 Monroe Parkway, Suite A, Lake Oswego, OR 97035
+- **Phone:** 503-683-3401
+- **Website:** https://www.hungerfightersoregon.org/
 - **Cost:** FREE
 - **Hours:** Mon 4-6pm, Wed 5-7pm, Fri 10am-1pm
-- **Eligibility:** ZIP codes 97034 and 97035. No income verification needed.
+- **Eligibility:** No proof of income or residency required. No appointment needed; guests may shop twice per month.
 
-Lake Oswego area food bank. No income verification. Evening hours Mon/Wed. Serves ZIP codes 97034 and 97035.
+No-barriers Lake Oswego pantry offering free food, hygiene items, and household essentials.
 
-**What to know:** Evening hours Mon and Wed are great for people who work during the day. Serves the Lake Oswego area specifically.
+**What to know:** Guests may shop twice each month. The pantry closes on major holidays, so check the official page before a holiday visit.
 
-**First visit:** Walk in during hours. No income verification needed — just need to live in ZIP 97034 or 97035.
+**First visit:** Walk in during open hours; guests are admitted first-come, first-served. New guests complete a basic demographic form, but no proof of income or residency is required.
 
 **What to bring:** Bags for groceries
 
@@ -590,32 +590,31 @@ Free vegetarian meals based on 500-year-old Sikh tradition (Langar). 150-200 peo
 
 ### Sisters of the Road Café
 
-- **Address:** 618 NW Davis St, Portland, OR 97209
 - **Phone:** 503-222-5694
 - **Website:** https://sistersoftheroad.org
-- **Cost:** Pay-what-you-can. Barter work program - work 15 minutes for a meal
-- **Hours:** Tue-Sat, sign up for meals after 9am, serving 10am-2pm. Note: cafe transitioning to new location.
+- **Cost:** Not currently operating. Future Lents services and pricing have not been announced.
+- **Hours:** CLOSED - no cafe service is operating. Reopening date, address, services, and hours are not yet published.
 
-Welcoming community space emphasizing dignity and autonomy
+Sisters is planning a move from Old Town to a residential home in Lents. The future program model is still being shaped with community input.
 
-**Tips:** Pay-what-you-can or work 15 minutes for a meal through barter program. Welcoming community space emphasizing dignity and autonomy. Downtown Old Town location. A gathering place, not just a meal program.
+**Tips:** The cafe is closed and is not currently a meal-access option. Check the official move FAQ or newsletter for the future Lents opening and services.
 
-*Casual group · Indoor, Good for isolation · Wheelchair accessible, Near transit*
+*Casual group · Indoor, Good for isolation*
 
-### SnowCap Community Charities
+### SnowCap Community Services
 
 - **Address:** 17805 SE Stark St, Portland, OR 97233
 - **Phone:** 503-674-8785
 - **Website:** https://www.snowcap.org
 - **Cost:** FREE
 - **Hours:** Mon-Fri 10am-2pm, Mon & Wed 6-8pm
-- **Eligibility:** East of 82nd Ave, Multnomah County (East Portland & Gresham). Up to 2 visits per month.
+- **Eligibility:** East of 82nd Avenue in Multnomah County; pantry visits up to 2 times per month through August 2026.
 
-Major East Portland food pantry serving area east of 82nd Ave. Evening hours Mon/Wed 6-8pm. Also operates mobile pantry, community garden, and senior delivery. Founded as an all-volunteer charity.
+Major East Portland food pantry serving Multnomah County residents east of 82nd Avenue. Evening hours Monday and Wednesday 6-8pm. Also operates mobile pantry, community garden, and senior delivery programs.
 
-**What to know:** Small staff with 1,000+ volunteers. Serves the area east of 82nd Ave — one of Portland's most underserved neighborhoods. Also provides diapers, formula, and clothing.
+**What to know:** Guests may visit the pantry up to twice per month through August 2026. Clothing is available by appointment at a separate location.
 
-**First visit:** Just show up during hours. Pre-packed boxes so the process is quick. Evening hours Mon & Wed are great for people who work during the day.
+**First visit:** Complete SnowCap's general application online or call for a quick intake, then visit during pantry hours. Evening hours Monday and Wednesday are useful for people who work during the day.
 
 **What to bring:** Bags or boxes to carry food home
 
@@ -624,9 +623,9 @@ Major East Portland food pantry serving area east of 82nd Ave. Evening hours Mon
 - **Mobile Food Pantry**
   Brings food to underserved neighborhoods in East Portland and Gresham
 - **SnowCap Community Garden**
-  Free gardening plots for low-income residents east of 82nd Ave
+  Raised garden beds, water, greenhouse space, and gardening classes for low-income families; gardeners give 10% of their harvest to the pantry.
 - **Senior Home Delivery**
-  Food delivery for homebound seniors
+  Monthly pre-packed food and produce delivery for homebound seniors; individual delivery is currently at capacity.
 
 **Features:** Pre-packed food boxes, Fresh and frozen food, Diapers (ages 0-2) and infant formula (12 months & under), Clothing by appointment, Blankets in winter
 
@@ -642,7 +641,7 @@ Major East Portland food pantry serving area east of 82nd Ave. Evening hours Mon
 
 Most plots are handicapped accessible
 
-**Tips:** FREE garden plots for low-income residents east of 82nd Ave. Most plots are handicapped accessible. Good therapeutic activity. East Portland location. Apply for a plot through SnowCap Community Charities.
+**Tips:** FREE garden plots for low-income residents east of 82nd Ave. Most plots are handicapped accessible. Good therapeutic activity. East Portland location. Apply for a plot through SnowCap Community Services.
 
 *Do alone · Outdoor, Low energy, Anxiety-friendly · Wheelchair accessible*
 

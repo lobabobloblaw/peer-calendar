@@ -3,6 +3,65 @@
 
 ---
 - date: 2026-08-13
+  type: update
+  auditor: codex
+  summary: "Replaced confirmed broken sources and reconciled current verification flags"
+  entries_audited: 17
+  updated:
+    - id: portland-water-smart-discount
+      changes:
+        - "Replaced the retired financial-assistance URL and corrected Smart Discount to an automatic, no-application 5-80% program for selected single-family residential customers"
+    - id: happy-valley-july4
+      changes:
+        - "Replaced the 404 event page with the current official Fourth of July page and confirmed the 2026 event details"
+    - id: free-fishing-weekends
+      changes:
+        - "Replaced the 404 ODFW page with the dated 2026 and stable program pages; confirmed the three 2026 weekends"
+    - id: hunger-fighters-lake-oswego
+      changes:
+        - "Moved to Hunger Fighters Oregon's current domain and corrected its name, phone, Suite A address, no-barriers eligibility, and twice-monthly limit"
+    - id: hopewell-house-grief
+      changes:
+        - "Replaced the retired grief-support page; corrected the monthly circle to the last Monday and removed expired spring-series details"
+    - id: lake-oswego-library
+      changes:
+        - "Replaced the retired Lake Oswego Reads slug with stable official pages and kept the completed 2026 series directory-only"
+    - id: first-thursday
+      changes:
+        - "Replaced the retired Pearl District article with the current organizer page and confirmed April-October first Thursdays, 5-9pm"
+    - id: snowcap-community-charities
+      changes:
+        - "Renamed SnowCap Community Services, replaced its retired assistance page, and refreshed intake, visit-limit, clothing, garden, and delivery details"
+    - id: peacock-lane
+      changes:
+        - "Removed a dead secondary source, corrected the street and map coordinates, and suppressed unannounced 2026 dates instead of rolling 2025 dates forward"
+    - id: milwaukie-first-friday
+      changes:
+        - "Replaced the retired City page and corrected the official season from June-October to May-October"
+    - id: dbsa-portland
+      changes:
+        - "Confirmed all four current groups are online, corrected Tuesday and Saturday times, removed obsolete Q Center details, and cleared VERIFY"
+    - id: sisters-of-the-road
+      changes:
+        - "Removed the closed Old Town address and speculative Lents address/hours; clearly marked the cafe unavailable while retaining an actionable reopening watch"
+    - id: multnomah-discovery-pass
+      changes:
+        - "Reconfirmed that the library still lists permanently closed Five Oaks Museum; retained the intentional local exclusion and upstream-conflict flag"
+    - id: brief-encounters
+      changes:
+        - "Added the confirmed fourth-Tuesday Zoom group and current contact; narrowed VERIFY to the official conflict between Overlook House and Peace House"
+    - id: ops-fest-shakespeare
+      changes:
+        - "Added all 23 official 2026 performances, extended the season through August 29, and cleared VERIFY"
+    - id: multnomah-days
+      changes:
+        - "Confirmed August 15 hours, 170+ booths, and free admission through current official organizer and Travel Portland pages; cleared VERIFY"
+    - id: hawthorne-plaza-concerts
+      changes:
+        - "Added the complete eight-concert July 11-August 29 lineup and cleared VERIFY"
+
+---
+- date: 2026-08-13
   type: maintenance
   auditor: codex
   summary: "Applied the reviewed risk-based audit cadence policy from issue #5"

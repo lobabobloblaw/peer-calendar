@@ -192,7 +192,7 @@ Programs include drop-in peer support (no referral needed), yoga, hiking, art cl
 
 No diagnosis required. Space to feel heard, learn about resources, connect with others who understand. Peer-led by trained volunteers with lived experience.
 
-**DBSA Portland** (Depression Bipolar Support Alliance) offers free Zoom support groups Monday evenings (LGBTQIA+ focused) and Thursday evenings (general). Open to all adults with any mental health condition. Email: dbsaportlandeastside@gmail.com
+**DBSA Portland** (Depression Bipolar Support Alliance) offers four free online groups: LGBTQIA+ Mondays 7-8:30pm, open-to-all Tuesdays and Thursdays 7-8:30pm, and mental-healthcare professionals/trainees Saturdays at 10am. The chapter says its in-person groups are discontinued. Obtain Zoom details through the program's listed email or Meetup contact.
 
 **Oregon Warmline** (1-800-698-2392) provides non-crisis peer phone support for anyone struggling with mental health issues or painful feelings—staffed by peers with lived experience.
 
@@ -205,7 +205,7 @@ No diagnosis required. Space to feel heard, learn about resources, connect with 
 
 Beautiful café atmosphere, served with dignity by volunteers. All-you-can-eat, welcome to multiple servings. No questions asked, never run out of food. Come toward end of hour to avoid lines.
 
-**Sisters of the Road Café** (133 NW 6th Ave) offers pay-what-you-can meals plus a barter work program—work 15 minutes for a meal. Welcoming community space emphasizing dignity and autonomy.
+**Sisters of the Road Café** is closed and is not currently a meal-access option. Sisters plans to move to a residential home in Lents later in 2026, but the opening date, address, services, hours, and pricing have not been published. Check sistersoftheroad.org for updates.
 
 **Loaves & Fishes Dining Centers** (503-736-6325) serve adults 60+ regardless of income at 11 locations throughout Portland. Hot nutritious weekday lunches with activities including exercise, art, and computer classes. Suggested donation, no one turned away.
 
@@ -373,13 +373,13 @@ All Portland Farmers Markets accept SNAP/EBT with **Double Up Food Bucks** match
 
 **Portland Pride** (July 19-20, 2025) has **suggested $10 donation** but no one turned away. Festival at Waterfront Park; parade Sunday at 11am.
 
-**First Thursday Art Walk** runs year-round the first Thursday of each month in the Pearl District, 5-9pm, with free gallery receptions and refreshments.
+**First Thursday Art Walk** has year-round indoor gallery openings. The free outdoor Street Gallery runs 5-9pm on first Thursdays from April through October on NW 13th Avenue between Hoyt/Glisan and Kearney; a $2 donation is suggested.
 
 ### Holiday events
 
 **Portland Tree Lighting** (November 28, 2025, 5:30pm) at Pioneer Courthouse Square features a 75-foot Douglas fir with 10,000 lights, community sing-along, and Santa.
 
-**Peacock Lane** (late November-December) in SE Portland offers free walking tours of historic homes decorated in vintage Christmas lights.
+**Peacock Lane** is a free volunteer-run holiday-light tradition on SE Peacock Lane between Belmont and Stark. The organizer still shows only its 2025 schedule, so check peacocklane.org for confirmed 2026 dates and pedestrian-only nights before visiting.
 
 **Christmas Ships Parade** (15 nights in December) features decorated boats on the Columbia and Willamette Rivers—free viewing from any riverfront location.
 

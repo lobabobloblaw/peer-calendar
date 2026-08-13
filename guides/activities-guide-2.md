@@ -408,11 +408,10 @@ Meals on Wheels People operates **30+ dining centers** offering sit-down communi
 - **Note:** 75-foot tree, Pink Martini sing-along
 
 **Peacock Lane** holiday lights display runs since the 1930s.
-- **Address:** SE 39th Ave between Belmont & Stark, Portland
-- **Dates:** December 15–31, 6–11pm nightly
+- **Address:** SE Peacock Lane between SE Belmont St & SE Stark St, Portland
+- **Dates:** 2026 dates have not yet been announced; check peacocklane.org before visiting
 - **Cost:** **FREE**
-- **Free Cocoa Booth:** December 15–24
-- **Pedestrian-Only Nights:** December 19 & 20
+- **Note:** The organizer still displays its 2025 cocoa-booth and pedestrian-night details; do not assume those dates repeat in 2026
 
 ---
 

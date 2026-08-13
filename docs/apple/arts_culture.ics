@@ -1361,37 +1361,477 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:6aacca91a7930462@portlandresources.org
-DTSTAMP:20260728T000000Z
+UID:4210e6ab0afb1aaf@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260620T210000
+DTEND;TZID=America/Los_Angeles:20260620T220000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): A Midsommer Nigh
+ ts Dreame
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Mt Tabor Summit
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d294cc705ea328c6@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260627T173000
+DTEND;TZID=America/Los_Angeles:20260627T183000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Midsommer (Abrid
+ ged)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Happy Valley Library
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7859c7bed7bc93ab@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260628T150000
+DTEND;TZID=America/Los_Angeles:20260628T160000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Twelfe Night (Ab
+ ridged)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Oaks Park Pride Rides
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:18068828aa3e2a92@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260710T190000
+DTEND;TZID=America/Los_Angeles:20260710T200000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Henry IV\, pt 1
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Laurelhurst Park
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:571b2b65498fb465@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260711T140000
+DTEND;TZID=America/Los_Angeles:20260711T150000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Comedie of Error
+ s (Abridged)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Laurelhurst Park
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5028fa7982645ba3@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260711T190000
+DTEND;TZID=America/Los_Angeles:20260711T200000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): King Lear
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Laurelhurst Park
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d56131cd5f9893c1@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260717T190000
+DTEND;TZID=America/Los_Angeles:20260717T200000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Much Adoe About 
+ Nothing
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Irving Park
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2b9f5abbef678be5@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260718T140000
+DTEND;TZID=America/Los_Angeles:20260718T150000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Twelfe Night (Ab
+ ridged)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Irving Park
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d428af4edfc3cc56@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260718T190000
+DTEND;TZID=America/Los_Angeles:20260718T200000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Romeo and Juliet
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Irving Park
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5bf435803e0deee4@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260724T190000
+DTEND;TZID=America/Los_Angeles:20260724T200000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Cymbeline
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Laurelhurst Park
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:07134d9518446a0d@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260725T140000
+DTEND;TZID=America/Los_Angeles:20260725T150000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Midsommer (Abrid
+ ged)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Laurelhurst Park
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c97261535b8b4b80@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260725T190000
+DTEND;TZID=America/Los_Angeles:20260725T200000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Twelfe Night
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Laurelhurst Park
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:47dcd9766e4752ce@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260731T190000
+DTEND;TZID=America/Los_Angeles:20260731T200000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Comedie of Error
+ s
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Roehr Park\, Lake Oswego
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a64144fe99ca6741@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260801T190000
+DTEND;TZID=America/Los_Angeles:20260801T200000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): As You Like It
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Veterans' Park\, Sherwood
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:49b25291a2e8961e@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260805T113000
+DTEND;TZID=America/Los_Angeles:20260805T123000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Midsommer (Abrid
+ ged)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Gateway Discovery Park
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4254655a719eca40@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260808T190000
+DTEND;TZID=America/Los_Angeles:20260808T200000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Macbeth
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:George Rogers Park\, Lake Oswego
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e7473399aaa32696@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260814T190000
+DTEND;TZID=America/Los_Angeles:20260814T200000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Julius Caesar
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Washington Park Amphitheatre
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:464442ccafbb4d32@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260815T140000
+DTEND;TZID=America/Los_Angeles:20260815T150000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Romeo And Juliet
+  (Abridged)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Washington Park Amphitheatre
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d92da8cc63fe1465@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260815T190000
+DTEND;TZID=America/Los_Angeles:20260815T200000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): A Midsommer Nigh
+ ts Dreame
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Washington Park Amphitheatre
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:73529b07db5c2fae@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260819T183000
+DTEND;TZID=America/Los_Angeles:20260819T193000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Comedie of Error
+ s (Abridged)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Camille Park\, Beaverton
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da82796899e19d68@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260822T140000
+DTEND;TZID=America/Los_Angeles:20260822T150000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Apprentice Showc
+ ase!
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Mt Tabor Amphitheatre
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:33f767ec313b546b@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260822T190000
+DTEND;TZID=America/Los_Angeles:20260822T200000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Hamlet
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Mt Tabor Amphitheatre
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3f3463ddee88419a@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260829T140000
+DTEND;TZID=America/Los_Angeles:20260829T150000
+SUMMARY:Original Practice Shakespeare Festival (OPS Fest): Loves Labour's L
+ ost
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nWebsite: https://www.opsf
+ est.org\nDetails: 18th season in 2026 - 23 free performances across 12 par
+ ks and venues.
+LOCATION:Tillamook Library
+URL:https://www.opsfest.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f2e9003f4d3b33c0@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260711T160000
+DTEND;TZID=America/Los_Angeles:20260711T180000
+SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Sid Murrell
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Hawthorne Plaza\
+ , SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 97214\nWebsite: https://
+ ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/\nDet
+ ails: Free eight-concert Saturday series at Heart of Hawthorne Plaza\, Jul
+ y 11-August 29\, 2026.
+LOCATION:Hawthorne Plaza\, SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 
+ 97214
+URL:https://ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:55dc8bc60e8f1fee@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260718T160000
+DTEND;TZID=America/Los_Angeles:20260718T180000
+SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Taste of Ja
+ zz
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Hawthorne Plaza\
+ , SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 97214\nWebsite: https://
+ ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/\nDet
+ ails: Free eight-concert Saturday series at Heart of Hawthorne Plaza\, Jul
+ y 11-August 29\, 2026.
+LOCATION:Hawthorne Plaza\, SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 
+ 97214
+URL:https://ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3844d73ec9a708bc@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260725T160000
+DTEND;TZID=America/Los_Angeles:20260725T180000
+SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Rose Gerber
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Hawthorne Plaza\
+ , SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 97214\nWebsite: https://
+ ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/\nDet
+ ails: Free eight-concert Saturday series at Heart of Hawthorne Plaza\, Jul
+ y 11-August 29\, 2026.
+LOCATION:Hawthorne Plaza\, SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 
+ 97214
+URL:https://ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ec59b1ef17cbdc6e@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260801T160000
+DTEND;TZID=America/Los_Angeles:20260801T180000
+SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Lee Walker
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Hawthorne Plaza\
+ , SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 97214\nWebsite: https://
+ ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/\nDet
+ ails: Free eight-concert Saturday series at Heart of Hawthorne Plaza\, Jul
+ y 11-August 29\, 2026.
+LOCATION:Hawthorne Plaza\, SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 
+ 97214
+URL:https://ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1550b3336fb7befe@portlandresources.org
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T160000
 DTEND;TZID=America/Los_Angeles:20260808T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Flat Pocket
   Trio
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Hawthorne Plaza\
  , SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 97214\nWebsite: https://
- ventureportland.org/event/hawthorne-plaza-concert-series/\nDetails: Free S
- aturday-afternoon summer concert series on Hawthorne Plaza\, supported by 
- Venture Portland. Added July 2026.
+ ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/\nDet
+ ails: Free eight-concert Saturday series at Heart of Hawthorne Plaza\, Jul
+ y 11-August 29\, 2026.
 LOCATION:Hawthorne Plaza\, SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 
  97214
-URL:https://ventureportland.org/event/hawthorne-plaza-concert-series/
+URL:https://ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bff5b50cf3dee328@portlandresources.org
-DTSTAMP:20260728T000000Z
+UID:09851041642d424c@portlandresources.org
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260815T160000
 DTEND;TZID=America/Los_Angeles:20260815T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Bigger Nova
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Hawthorne Plaza\
  , SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 97214\nWebsite: https://
- ventureportland.org/event/hawthorne-plaza-concert-series/\nDetails: Free S
- aturday-afternoon summer concert series on Hawthorne Plaza\, supported by 
- Venture Portland. Added July 2026.
+ ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/\nDet
+ ails: Free eight-concert Saturday series at Heart of Hawthorne Plaza\, Jul
+ y 11-August 29\, 2026.
 LOCATION:Hawthorne Plaza\, SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 
  97214
-URL:https://ventureportland.org/event/hawthorne-plaza-concert-series/
+URL:https://ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0be939e3e89dc392@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260822T160000
+DTEND;TZID=America/Los_Angeles:20260822T180000
+SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Sid Murrell
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Hawthorne Plaza\
+ , SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 97214\nWebsite: https://
+ ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/\nDet
+ ails: Free eight-concert Saturday series at Heart of Hawthorne Plaza\, Jul
+ y 11-August 29\, 2026.
+LOCATION:Hawthorne Plaza\, SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 
+ 97214
+URL:https://ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:87d3115c50d5eb22@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260829T160000
+DTEND;TZID=America/Los_Angeles:20260829T180000
+SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Taste of Ja
+ zz
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Hawthorne Plaza\
+ , SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 97214\nWebsite: https://
+ ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/\nDet
+ ails: Free eight-concert Saturday series at Heart of Hawthorne Plaza\, Jul
+ y 11-August 29\, 2026.
+LOCATION:Hawthorne Plaza\, SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 
+ 97214
+URL:https://ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT

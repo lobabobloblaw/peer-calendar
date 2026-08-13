@@ -625,20 +625,16 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:651932636ba165c7@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): LGBTQIA+ Suppo
  rt Group
-DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\, with an in
- -person option on 1st & 3rd Mondays at the Q Center\nInfo: In-person optio
- n confirmed July 2026 as 1st AND 3rd Mondays at the Q Center. Previously r
- ecorded as 1st Monday only with the location distributed via Meetup. Q Cen
- ter street address not yet confirmed - add it on the next pass.\nWebsite: 
- https://mentalhealthisforeveryone.com/\nDetails: Peer-facilitated support 
- groups since 2005. Typical attendance 10-25 people. Three chapters: Eastsi
- de\, West Portland\, and LGBTQ. All meetings free and drop-in.
-LOCATION:Q Center\, Portland (1st & 3rd Mondays only)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nInfo: RSVP 
+ by email with first name\, last initial\, and pronouns to receive the Zoom
+  link.\nWebsite: https://mentalhealthisforeveryone.com/\nDetails: Peer-fac
+ ilitated online support groups. All meetings are free\; obtain Zoom detail
+ s through the listed email or Meetup contact before attending.
 URL:https://mentalhealthisforeveryone.com/
 RRULE:FREQ=WEEKLY;BYDAY=MO
 CATEGORIES:Peer Support
@@ -646,19 +642,16 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:215024356d2538f2@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
-DTEND;TZID=America/Los_Angeles:20260106T200000
+DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (W
  est Portland)
-DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nInfo: dbsaw
- estportland.org states the meeting starts at 7:00pm\, with the room openin
- g at 6:45pm for informal chat beforehand. Previously recorded as 6:30-7:50
- pm\, which the chapter's own meetings page does not support. No end time i
- s published\, so the calendar assumes a one-hour block.\nWebsite: https://
- mentalhealthisforeveryone.com/\nDetails: Peer-facilitated support groups s
- ince 2005. Typical attendance 10-25 people. Three chapters: Eastside\, Wes
- t Portland\, and LGBTQ. All meetings free and drop-in.
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nInfo: RSVP 
+ by email with your first name to receive the Zoom link and password.\nWebs
+ ite: https://mentalhealthisforeveryone.com/\nDetails: Peer-facilitated onl
+ ine support groups. All meetings are free\; obtain Zoom details through th
+ e listed email or Meetup contact before attending.
 URL:https://mentalhealthisforeveryone.com/
 RRULE:FREQ=WEEKLY;BYDAY=TU
 CATEGORIES:Peer Support
@@ -666,15 +659,15 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49d6b06cbd9d0a5b@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (E
  astside)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nWebsite: ht
- tps://mentalhealthisforeveryone.com/\nDetails: Peer-facilitated support gr
- oups since 2005. Typical attendance 10-25 people. Three chapters: Eastside
- \, West Portland\, and LGBTQ. All meetings free and drop-in.
+ tps://mentalhealthisforeveryone.com/\nDetails: Peer-facilitated online sup
+ port groups. All meetings are free\; obtain Zoom details through the liste
+ d email or Meetup contact before attending.
 URL:https://mentalhealthisforeveryone.com/
 RRULE:FREQ=WEEKLY;BYDAY=TH
 CATEGORIES:Peer Support
@@ -682,17 +675,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a8aee7696d751ae1@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T100000
-DTEND;TZID=America/Los_Angeles:20260103T113000
+DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Mental Healthc
  are Professionals
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nInfo: For m
- ental healthcare professionals or trainees. Peer support in a confidential
-  space.\nWebsite: https://mentalhealthisforeveryone.com/\nDetails: Peer-fa
- cilitated support groups since 2005. Typical attendance 10-25 people. Thre
- e chapters: Eastside\, West Portland\, and LGBTQ. All meetings free and dr
- op-in.
+ ental healthcare professionals or trainees. The official page publishes a 
+ 10am start but no end time.\nWebsite: https://mentalhealthisforeveryone.co
+ m/\nDetails: Peer-facilitated online support groups. All meetings are free
+ \; obtain Zoom details through the listed email or Meetup contact before a
+ ttending.
 URL:https://mentalhealthisforeveryone.com/
 RRULE:FREQ=WEEKLY;BYDAY=SA
 CATEGORIES:Peer Support
@@ -2463,66 +2456,86 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:90892bb9e6fa288c@portlandresources.org
-DTSTAMP:20260304T000000Z
-DTSTART;TZID=America/Los_Angeles:20260119T183000
-DTEND;TZID=America/Los_Angeles:20260119T200000
-SUMMARY:Hopewell House Grief Support: Community Grief Ritual
-DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\, drop-in
- \, no RSVP needed\nInfo: A practice of transforming individual and collect
- ive grief within a supportive community. All grief is welcome.\nAddress: 6
- 171 SW Capitol Highway\, Portland\, OR 97239\nPhone: 503-894-7560\nWebsite
- : https://hopewellhousepdx.org/grief-support/\nDetails: Free grief support
-  in a beautiful\, peaceful setting. The monthly Community Grief Ritual is 
- the most accessible entry point - drop-in\, no RSVP. Grief groups run in 6
- -session series with registration. Hopewell House is primarily a residenti
- al end-of-life care facility that also offers community grief services.
+UID:189390ff57aed616@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260727T183000
+DTEND;TZID=America/Los_Angeles:20260727T200000
+SUMMARY:Hopewell House Grief Support: Community Grief Circle
+DESCRIPTION:Category: Peer Support\nCost: Cost not published\; contact Hope
+ well House for current details\nFormat: In-person\, drop-in\, no RSVP need
+ ed\nInfo: A practice of transforming individual and collective grief withi
+ n a supportive community. All grief is welcome.\nAddress: 6171 SW Capitol 
+ Highway\, Portland\, OR 97239\nPhone: 503-894-7560\nWebsite: https://hopew
+ ellhousepdx.org/community-connections/\nDetails: Community grief support i
+ n a beautiful\, peaceful setting. The monthly Community Grief Circle is th
+ e most accessible entry point - drop-in\, no RSVP. Grief groups run in 6-s
+ ession series with registration. Hopewell House is primarily a residential
+  end-of-life care facility that also offers community grief services.
 LOCATION:6171 SW Capitol Highway\, Portland\, OR 97239
-URL:https://hopewellhousepdx.org/grief-support/
-RRULE:FREQ=MONTHLY;BYDAY=3MO
+URL:https://hopewellhousepdx.org/community-connections/
+RRULE:FREQ=MONTHLY;BYDAY=-1MO
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:48eff2276e9d2d0b@portlandresources.org
-DTSTAMP:20260728T000000Z
-DTSTART;TZID=America/Los_Angeles:20260112T190000
-DTEND;TZID=America/Los_Angeles:20260112T200000
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260810T190000
+DTEND;TZID=America/Los_Angeles:20260810T210000
 SUMMARY:Brief Encounters (Pregnancy & Infant Loss Support): Parents of Preg
  nancy and Infant Loss
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: In
- cludes early pregnancy loss. The same group also meets on the 4th Tuesday 
- at 7pm\; that session's format was not published as of July 2026\, so only
-  the confirmed in-person 2nd Monday meeting is listed as a calendar event.
-  Call 503-699-8006 to confirm the 4th Tuesday.\nAddress: The Peace House\,
-  2116 NE 18th Ave\, Portland\, OR 97212\nPhone: 503-699-8006\nWebsite: htt
- ps://www.briefencounters.org\nDetails: Portland-based peer support for pre
- gnancy and infant loss\, including early pregnancy loss\, plus a separate 
- group for non-birthing parents and partners. Added July 2026 to fill a per
- inatal grief gap not covered by Dougy Center\, Providence Hospice or Hopew
- ell House.
-LOCATION:The Peace House\, 2116 NE 18th Ave\, Portland\, OR 97212
+ cludes early pregnancy loss. No registration is required. Call or text 503
+ -334-2564 to confirm the venue because the official site's static page sti
+ ll names the former Peace House location.\nPhone: 503-334-2564\nWebsite: h
+ ttps://www.briefencounters.org\nDetails: Portland-based peer support for p
+ regnancy and infant loss\, including early pregnancy loss\, plus a separat
+ e group for non-birthing parents and partners. Added July 2026 to fill a p
+ erinatal grief gap not covered by Dougy Center\, Providence Hospice or Hop
+ ewell House.
+LOCATION:The Overlook House\, 3839 N Melrose Dr\, Portland\, OR 97227
 URL:https://www.briefencounters.org
 RRULE:FREQ=MONTHLY;BYDAY=2MO
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:e14d82444a5352d5@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260127T190000
+DTEND;TZID=America/Los_Angeles:20260127T210000
+SUMMARY:Brief Encounters (Pregnancy & Infant Loss Support): Parents of Preg
+ nancy and Infant Loss (Zoom)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nInfo: Call 
+ or text 503-334-2564 for Zoom help. Keep camera and audio focused on the a
+ dult participant during the meeting.\nPhone: 503-334-2564\nWebsite: https:
+ //www.briefencounters.org\nDetails: Portland-based peer support for pregna
+ ncy and infant loss\, including early pregnancy loss\, plus a separate gro
+ up for non-birthing parents and partners. Added July 2026 to fill a perina
+ tal grief gap not covered by Dougy Center\, Providence Hospice or Hopewell
+  House.
+LOCATION:Online (Zoom)
+URL:https://www.briefencounters.org
+RRULE:FREQ=MONTHLY;BYDAY=4TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:c332712d8be556fb@portlandresources.org
-DTSTAMP:20260728T000000Z
-DTSTART;TZID=America/Los_Angeles:20260105T183000
-DTEND;TZID=America/Los_Angeles:20260105T193000
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260803T183000
+DTEND;TZID=America/Los_Angeles:20260803T200000
 SUMMARY:Brief Encounters (Pregnancy & Infant Loss Support): Non-Birthing Pa
  rent Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Fo
- r grieving partners and non-birthing parents.\nAddress: The Peace House\, 
- 2116 NE 18th Ave\, Portland\, OR 97212\nPhone: 503-699-8006\nWebsite: http
- s://www.briefencounters.org\nDetails: Portland-based peer support for preg
- nancy and infant loss\, including early pregnancy loss\, plus a separate g
- roup for non-birthing parents and partners. Added July 2026 to fill a peri
- natal grief gap not covered by Dougy Center\, Providence Hospice or Hopewe
- ll House.
-LOCATION:The Peace House\, 2116 NE 18th Ave\, Portland\, OR 97212
+ r grieving partners and non-birthing parents. Call or text 503-334-2564 to
+  confirm the venue because the official site's static page still names the
+  former Peace House location.\nPhone: 503-334-2564\nWebsite: https://www.b
+ riefencounters.org\nDetails: Portland-based peer support for pregnancy and
+  infant loss\, including early pregnancy loss\, plus a separate group for 
+ non-birthing parents and partners. Added July 2026 to fill a perinatal gri
+ ef gap not covered by Dougy Center\, Providence Hospice or Hopewell House.
+LOCATION:The Overlook House\, 3839 N Melrose Dr\, Portland\, OR 97227
 URL:https://www.briefencounters.org
 RRULE:FREQ=MONTHLY;BYDAY=1MO
 CATEGORIES:Peer Support
