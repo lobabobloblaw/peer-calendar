@@ -44,7 +44,8 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 - `scripts/audit_complete.py` - Mark entries as audited, auto-updates dates and logs
 - `scripts/validate_schedules.py` - Validates all schedule strings parse correctly (run before calendar generation)
 - `scripts/add_update_post.py` - Adds dated posts to the Updates section in `docs/index.html` (curated `--text` mode; CI `--auto` diff-summary mode)
-- `scripts/test_schedule_parsing.py` - 56-test suite for schedule parsing and audience detection
+- `scripts/test_schedule_parsing.py` - Python regression suite for schedule parsing, resolved JSON data, ICS recurrence, and audience detection
+- `scripts/test_web_schedule_parity.mjs` - Browser recurrence regression suite for the resolved schedule contract
 - `scripts/deduplicate_entries.py` - Merge duplicate entries in sources.yaml
 - `scripts/add_type_fields.py` - Migration script for adding location_type/resource_type fields
 - `scripts/add_audience_fields.py` - Migration script for adding audience tags
@@ -244,6 +245,8 @@ When adding a new resource:
 - `spanish_speaking`: Spanish-language services
 
 Note: Resources without an `audience` field are open to all adults. Programs within an entry can have their own `audience` field to specify program-specific demographics.
+
+Give a program a stable `id` whenever an entry contains two programs with the same display `name`. Calendar UIDs use that program ID to keep otherwise identical names distinct for subscribers.
 
 ### 3. Generate Updated Guides
 
@@ -445,8 +448,7 @@ The `docs/` folder contains:
   - Vanta.js for animated cloud background
   - Open-Meteo API for weather-reactive theming
   - Key JavaScript functions:
-    - `parseSchedule()` - Parses schedule strings into day/time components
-    - `isMonthInSeasonalRange()` - Filters events by season keywords and month ranges
+    - `resolvedScheduleDates()` - Expands the generator's versioned `resolved_schedule` data; the browser does not parse raw schedule text
     - `generateMonthEvents()` - Creates event list for calendar display
     - `matchesAllFilters()` - Composes search, category, good_for, social, and audience filters
     - `renderResourcesView()` - Renders all entries as browsable directory cards grouped by category
@@ -464,8 +466,8 @@ The `docs/` folder contains:
 
 **CI/CD (GitHub Actions):**
 - `.github/workflows/generate-calendars.yml` - Auto-generates calendars on push to main
-- Triggered when `data/sources.yaml`, `scripts/generate_calendar.py`, or `scripts/utils.py` change
-- Steps: validate sources → validate schedules (blocks on failure) → run tests → generate calendars → commit docs/
+- Triggered by source, generator, browser calendar, schedule-test, or workflow changes
+- Steps: validate sources → validate schedules (blocks on failure) → run Python and browser recurrence tests → generate calendars → commit docs/
 - `audit_check.py --validate` exits non-zero on warnings (checks required fields, valid enums, audit_frequency, source_urls, date ranges)
 - Can also be triggered manually via `workflow_dispatch`
 
@@ -508,8 +510,8 @@ Schedule strings are parsed with natural language patterns:
 - Day abbreviations: "Tue/Thu", "Mon/Wed/Fri" supported alongside full names
 - "Daily 2-10pm" → expands to all 7 days
 - "Weekdays" → expands to MO,TU,WE,TH,FR
-- The `parseSchedule()` function in `docs/index.html` handles the web calendar preview
-- The `parse_schedule()` function in `generate_calendar.py` handles ICS generation
+- The `parse_schedule()` function in `generate_calendar.py` is the only natural-language schedule parser.
+- `events.json` carries `schedule_schema_version: 1` and a normalized `resolved_schedule` on each entry/program. `docs/index.html` expands that data without interpreting the raw display text.
 
 **Generation is deterministic.** Regenerating from an unchanged `sources.yaml` produces
 byte-identical files, so a `docs/` diff shows only what a data change actually did. Two things
@@ -576,15 +578,8 @@ Prefer an explicit `dates` list over a `schedule` recurrence whenever the organi
 actual dates. Recurrence strings cannot express patterns like "1st Saturday of even months",
 and a published list also survives skipped months and holiday closures.
 
-**Seasonal filtering:**
-The web calendar automatically filters events based on seasonal keywords in schedule/notes:
-- `summer` → Only shows June-August
-- `winter` → Only shows December-February
-- `spring` → Only shows March-May
-- `fall`/`autumn` → Only shows September-November
-- Month ranges like "June-August" or "May-October" are also recognized
-
-Example: An entry with notes "Free outdoor summer concert series" will only appear in summer months.
+**Seasonal bounds:**
+Do not rely on words such as `summer` or `June-August` in notes to control recurrence. Set explicit `schedule_start_date` and `schedule_end_date`; the generator resolves those bounds once for both ICS and the web calendar. The Seasonal tab may still use descriptive text to classify one-time events for display, but it does not control recurring event dates.
 
 ## Known Issues
 

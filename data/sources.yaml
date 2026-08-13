@@ -999,11 +999,23 @@
   source_urls:
   - https://namicc.org
   - https://namicc.org/support-groups
+  - https://www.namicc.org/support-groups-register
+  - https://namior.org/support-groups/
+  - https://www.sbsnw.org/groups/online
+  - https://www.sbsnw.org/groups/in-person
   pricing:
     description: FREE
   programs:
-  - name: NAMI Connection Support Group
+  - name: NAMI Connection Support Group - Tuesday
     schedule: Every Tuesday, 7-8:30pm
+    format: Virtual (Zoom)
+    notes: For adults living with mental health conditions. Registration required.
+  - name: NAMI Connection Support Group - Wednesday
+    schedule: Every Wednesday, 2-3:30pm
+    format: Virtual (Zoom)
+    notes: For adults living with mental health conditions. Registration required.
+  - name: NAMI Connection Support Group - Sunday
+    schedule: Every Sunday, 6-7:30pm
     format: Virtual (Zoom)
     notes: For adults living with mental health conditions. Registration required.
   - name: Women (18+) Only Support Group
@@ -1012,16 +1024,22 @@
     notes: Bi-weekly peer-led recovery support
     audience:
     - women
-  - name: NAMI Family Support Group
+  - name: NAMI Family Support Group - Tuesday
+    schedule: Every Tuesday, 7-8:30pm
+    format: Virtual (Zoom)
+    notes: For anyone who cares about someone with a mental health condition. Registration required through NAMI Clackamas.
+  - name: NAMI Family Support Group - Monday
     schedule: 1st & 3rd Mondays, 6:30-8pm
     format: Virtual (Zoom)
-    notes: For anyone who cares about someone with mental health condition. Schedule confirmed 2026-08-07 via namior.org (1st
-      & 3rd Mondays 6:30-8pm via Zoom).
+    notes: For anyone who cares about someone with a mental health condition. Current schedule published by NAMI Oregon.
+  - name: NAMI Family Support Group - Saturday
+    schedule: 3rd Saturdays, 9-10:30am
+    format: Virtual (Zoom)
+    notes: For anyone who cares about someone with a mental health condition. Current schedule published by NAMI Oregon.
   - name: Art with Heart (Creative Support Group)
-    schedule: 2nd & 4th Thursdays
     location: Oregon City (in-person, address provided upon registration)
-    notes: Creative arts peer support group. Began January 22, 2026, confirmed via namicc.org July 2026. Listed as "Art with
-      Heart" on website.
+    notes: Creative arts peer support group meeting 2nd and 4th Thursdays. The current public page does not provide a time;
+      register for current details. Kept directory-only so the calendar does not guess a time.
   - name: NAMI Clackamas Conexion (Spanish-Speaking Support Group)
     schedule: Every Wednesday, 7-8:30pm
     format: Virtual (Zoom)
@@ -1034,39 +1052,34 @@
     audience:
     - lgbtq
     notes: Joint program with NAMI Multnomah - weekly for adults 18+. Schedule confirmed via namicc.org July 2026.
-  - name: BIPOC Support Group
-    schedule: 1st & 3rd Thursdays, 7-8:30pm
-    format: Virtual (Zoom)
-    audience:
-    - bipoc
-    notes: Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIFY by phone — not visible on namicc.org support
-      groups page as of April 2026. Call 503-344-5050 to confirm still active.
-  - name: Suicide Bereavement Support Group
-    schedule: Online 1st Tuesday & 2nd/4th Wednesdays; In-person 4th Sunday
-    format: Both virtual and in-person
-    location: In-person at NAMI Clackamas office (10202 SE 32nd Ave, Suite 501, Milwaukie)
-    notes: Affiliated group (vetted but non-NAMI). Support for those bereaved by suicide. No registration required for in-person.
-  - name: Post Release Support Group
-    schedule: Sundays (afternoons, times vary)
-    location: Happy Valley (in-person)
-    notes: For previously incarcerated individuals. Contact NAMI Clackamas for details.
-  - name: Gather for Games
-    format: Virtual (Zoom)
-    notes: Game-based social and wellness gathering. Times vary — register via website.
+  - name: Suicide Bereavement Support - Tuesday Online
+    schedule: 1st Tuesdays, 7-8:30pm
+    format: Virtual
+    notes: Free affiliated support group for adults bereaved by suicide. Contact the facilitator through SBSNW for the meeting link.
+  - name: Suicide Bereavement Support - Wednesday Online
+    schedule: 2nd & 4th Wednesdays, 6-7:45pm
+    format: Virtual
+    notes: Free affiliated support group for adults bereaved by suicide. Contact the facilitator through SBSNW for the meeting link.
+  - name: Suicide Bereavement Support - Sunday In-Person
+    schedule: 4th Sundays, 2-4pm
+    format: In-person
+    location: NAMI Clackamas office, 10202 SE 32nd Ave, Suite 501, Milwaukie
+    notes: Free affiliated support group for adults bereaved by suicide. No registration required.
   - name: Compassionate Friends
     schedule: 4th Tuesday, 7pm
     location: NAMI Clackamas office (10202 SE 32nd Ave, Suite 501, Milwaukie)
-    notes: Affiliated grief support group. No registration required.
-  last_verified: 2026-08-07
-  next_audit: 2026-11-07
+    notes: Affiliated grief support group. No registration required. The public schedule lists a 7pm start but no end time;
+      the one-hour calendar block is a start-time reminder.
+  last_verified: 2026-08-13
+  next_audit: 2026-09-13
   audit_frequency: monthly
   practical_tips:
     first_visit: Call or email to register for your first meeting
     registration: Registration required - call 503-344-5050 or check website
     what_to_bring: Nothing required; virtual groups send Zoom link after registration
-    good_to_know: Spanish-speaking group available. Women's group meets in-person in Milwaukie. Art with Heart creative group
-      in Oregon City. Post Release group in Happy Valley. Game-based virtual group (Gather for Games). All peer-led. Affiliated
-      groups include Suicide Bereavement and Compassionate Friends (grief).
+    good_to_know: Spanish-speaking group available. Women's group meets in person in Milwaukie. Art with Heart meets in Oregon
+      City but is directory-only until a current time is published. Affiliated grief groups include Suicide Bereavement and
+      Compassionate Friends.
   accessibility:
   - transit_nearby
   social_intensity: structured_group
@@ -1775,47 +1788,40 @@
   category: peer_support
   location_type: hybrid
   resource_type: program
-  address: 521 SW 11th Ave, 2nd Floor, Portland, OR 97205
+  address: null
   phone: 503-222-6484
   toll_free: 877-222-1332
-  website: http://ddaoregon.com/
+  website: https://ddainc.org/
   source_urls:
-  - http://ddaoregon.com/
-  - http://ddaoregon.com/meeting.htm
   - https://ddainc.org/
-  flags:
-  - '⚠️ VERIFY phone: website consistently shows 503-737-4126 (confirmed Feb 2026), we have 503-222-6484 (also on a Washington
-    corrections resource listing for DDA Portland). Still needs a call to confirm which is current. 503-222-6484 is corroborated;
-    ddaoregon.com is stale (copyright 2008).'
-  - '⚠️ VERIFY legacy meetings: our stored Central Office daily meeting (521 SW 11th Ave), Luke Dorf (Mon 12pm), Providence
-    (Mon 3:15pm), Taft Hotel (Mon 2pm) and FolkTime (Tue 2-3pm) meetings are NOT in ddainc.org''s current national directory
-    (June 2026), which lists a different Multnomah County line-up (now reflected in this entry''s programs). The central office
-    may have moved to 4141 SE Division St. Call 503-737-4126 / 503-222-6484 to confirm before relying on the legacy locations.'
+  - https://ddainc.org/in-person-meetings/
+  - https://ddainc.org/online-dda-meetings/
+  - https://www.portlandalano.org/meetings
   pricing:
     description: FREE
   programs:
   - name: DDA at the 8x8
-    schedule: Tuesdays 2-3pm
+    schedule: Tuesdays 2pm
     location: 8 NW 8th Ave, Portland
     cost: FREE
   - name: DDA at the Mead Building
-    schedule: Thursdays 11am-12pm
+    schedule: Thursdays 11am
     location: Mead Building Basement, Portland
     cost: FREE
   - name: DDA at Garlington Wellness Center
-    schedule: Fridays 11am-12pm
+    schedule: Fridays 11am
     location: 3034 NE Martin Luther King Jr Blvd, Portland
     cost: FREE
   - name: DDA at New Narrative
-    schedule: Mondays 11am-12pm
+    schedule: Mondays 11am
     location: 1952 SE 122nd Ave, Portland
     cost: FREE
   - name: DDA at Club Hope (Gresham)
-    schedule: Tuesdays 5:30-6:30pm
+    schedule: Tuesdays 5:30pm
     location: 100 SE Cleveland Ave, Gresham
     cost: FREE
   - name: DDA at True Colors Recovery
-    schedule: Fridays 3-4pm
+    schedule: Fridays 3pm
     location: 3807 NE MLK Jr Blvd, Portland
     cost: FREE
   - name: Saturday Meeting at Alano Club
@@ -1828,22 +1834,59 @@
     location: Portland Alano Club, 909 NW 24th Ave (Board Room)
     cost: FREE
     notes: Listed in ddainc.org's June 2026 national directory AND on the Alano Club's own grid.
-  - name: Online DDA Meetings
-    schedule: Daily 10am and 5pm PT
+  - name: DDA at Clackamas Transition Center
+    schedule: Tuesdays 12pm
+    location: 2219 Kaen Rd, Oregon City
+    cost: FREE
+  - name: DDA at 4D Recovery Clackamas
+    schedule: Wednesdays 4pm
+    location: 11690 SE 82nd Ave, Happy Valley
+    cost: FREE
+  - name: DDA at FolkTime Pink Church
+    schedule: Tuesdays 1pm
+    location: 710 6th St, Oregon City
+    cost: FREE
+  - name: DDA at Sandy Clinic
+    schedule: Fridays 4pm
+    location: 39740 Pleasant St, Sandy
+    cost: FREE
+  - name: Online DDA Morning Meetings - Sunday through Wednesday
+    schedule: Sundays-Wednesdays 10-11am
     format: Zoom
     cost: FREE
-    notes: Daily online meetings at 10am and 5pm Pacific, running since April 1, 2026 (ddainc.org/online-dda-meetings).
-  office_hours: Mon-Fri 8am-1pm (per older ddaoregon.com; unconfirmed - see flags)
-  latitude: 45.521551
-  longitude: -122.683033
-  last_verified: 2026-08-07
-  next_audit: 2026-11-07
-  audit_frequency: quarterly
+    notes: Zoom meeting ID 849 3539 5086; no passcode. Pacific time.
+  - name: Online DDA Women's Meeting - Thursday Morning
+    schedule: Thursdays 10-11am
+    format: Zoom
+    audience:
+    - women
+    cost: FREE
+    notes: Women-only. Zoom meeting ID 849 3539 5086; no passcode. Pacific time.
+  - name: Online DDA Saturday Morning Meeting
+    schedule: Saturdays 10-11am
+    format: Zoom
+    cost: FREE
+    notes: Zoom meeting ID 849 3539 5086; no passcode. There is currently no Friday 10am meeting. Pacific time.
+  - name: Online DDA Evening Meetings
+    schedule: Daily 5-6pm
+    format: Zoom
+    cost: FREE
+    notes: Zoom meeting ID 849 3539 5086; no passcode. Pacific time.
+  - name: Online DDA Open Mic Fellowship
+    schedule: Last Sunday of each month, 1-3pm
+    format: Zoom
+    cost: FREE
+    notes: Fellowship event open to all. Zoom meeting ID 849 3539 5086; no passcode. Pacific time.
+  last_verified: 2026-08-13
+  next_audit: 2026-09-13
+  audit_frequency: monthly
   practical_tips:
-    first_visit: Just show up to any meeting - daily noon meetings downtown most accessible
+    first_visit: Use the current in-person directory or join an online meeting. The current official site publishes each open
+      meeting and the shared Zoom details.
     registration: No registration needed
     what_to_bring: Nothing required
-    good_to_know: 17-step program designed for co-occurring mental health AND substance use. Daily meetings Mon-Fri plus Saturday.
+    good_to_know: 17-step program designed for co-occurring mental health and substance use. Online meetings run every evening,
+      with morning meetings except Friday; current open in-person meetings are listed above.
   accessibility:
   - transit_nearby
   social_intensity: structured_group
@@ -1852,8 +1895,10 @@
   - isolation
   - indoor
   guide_location: activities-guide-2.md#dual-diagnosis-support
-  notes: 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional
-    meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
+  notes: 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW
+    11th office address and hours were removed because current official sources publish only a PO box, not a public office.
+    The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are
+    start-time reminders, not confirmed durations.
 - id: aa-portland-intergroup
   name: Portland Area Intergroup of Alcoholics Anonymous
   category: peer_support
@@ -1958,7 +2003,7 @@
 - id: providence-grief-support
   name: Providence Hospice Grief Support Groups
   category: peer_support
-  location_type: physical
+  location_type: varies
   resource_type: program
   phone: 503-215-4622
   website: https://www.providence.org/locations/or/portland-medical-center/patients-and-visitors/grief-support-groups
@@ -1967,15 +2012,15 @@
   pricing:
     description: FREE
   services:
-  - Individual bereavement support
-  - Family support
-  - Group support (various times throughout year - call for schedule)
-  last_verified: 2026-01-12
-  next_audit: 2026-06-01
+  - Portland grief support groups (call for current schedule and location)
+  - Seven Strategies class for people coping with a death within the last year (call for current schedule and location)
+  - Bereavement support and resources for individuals and families
+  last_verified: 2026-08-13
+  next_audit: 2026-11-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Call 503-215-4622 for current group schedule and registration
-    registration: Call for current schedule
+    registration: Registration required; call 503-215-4622 for current Portland dates and locations
     what_to_bring: Nothing required
     good_to_know: Hospital-based but open to anyone grieving. Professional facilitators. Groups meet at various times - call
       for schedule.
@@ -1987,7 +2032,8 @@
   - isolation
   - indoor
   guide_location: activities-guide-2.md#grief-support
-  notes: Open to anyone grieving the death of a significant person. Free and no registration required.
+  notes: Open to anyone grieving the death of a significant person. Services are free and professionally facilitated. Registration
+    is required. Kept directory-only because Providence publishes current Portland dates and locations by phone.
 - id: 4d-recovery
   name: 4D Recovery
   category: peer_support
@@ -2460,10 +2506,12 @@
   pricing:
     description: FREE always
   programs:
-  - name: Guided Meditation
+  - id: guided-meditation-monday
+    name: Guided Meditation
     schedule: Mondays 7-8pm
     notes: Guided meditation with explanation. Newcomers especially welcome.
-  - name: Guided Meditation
+  - id: guided-meditation-thursday
+    name: Guided Meditation
     schedule: Thursdays 7-8pm
     notes: Guided meditation with explanation. Newcomers especially welcome.
   practical_tips:
@@ -2677,6 +2725,7 @@
   source_urls:
   - https://www.greshamseniorcenter.com/
   - https://www.greshamseniorcenter.com/activities---classes-calendar
+  - https://container.parishesonline.com/bulletins/05/1112/20260701N.pdf
   - https://volunteer.greshamoregon.gov/agency/detail/?agency_id=169304
   hours: Monday-Friday 8:30am-3pm
   programs:
@@ -2684,20 +2733,21 @@
     schedule: Tuesdays 4:30-7pm
     cost: $6/person
     notes: Live band (Desert Dogs); country and more; not on holidays
-  - name: Monday Movie Matinees
-    schedule: Every other Monday 1-3pm
+  - name: Movie Madness
+    schedule: 1st & 3rd Mondays, 1pm
     cost: FREE
+    notes: End time varies; meets in the Chinook Room. Schedule confirmed in the official July/August 2026 newsletter.
   - name: Friday Speaker Series
     schedule: Fridays 1-2:30pm
     cost: FREE (RSVP required)
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-08-13
+  next_audit: 2026-11-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by during open hours (Mon-Fri 8:30am-3pm) to see the facility and learn about programs
     registration: Some programs require RSVP (like Friday Speaker Series). Most are drop-in.
     what_to_bring: Nothing special for most programs. Comfortable shoes for dance nights.
-    good_to_know: Gresham's hub for 55+ activities. Tuesday Night Dance with live band is popular ($6). Monday Movie Matinees
+    good_to_know: Gresham's hub for 55+ activities. Tuesday Night Dance with live band is popular ($6). Movie Madness
       and Friday Speaker Series are free.
   accessibility:
   - wheelchair_accessible
@@ -3678,67 +3728,159 @@
   location_type: physical
   resource_type: program
   phone: 503-645-6433
-  website: https://www.thprd.org/fitness-in-the-park
+  website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
   source_urls:
-  - https://www.thprd.org/fitness-in-the-park
+  - https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
   pricing:
     description: FREE
   season: Year-round; session schedules change each term. Summer 2026 runs June 15 - August 23, with no classes on June 19,
-    July 3 or July 4. The prior Winter/Spring term ran January 12 - March 22.
+    July 3 or July 4.
   programs:
-  - name: Tai Chi at The Opal
-    schedule: Mondays 4-5pm
-    location: The Opal
-    schedule_start_date: 2026-01-12
-    schedule_end_date: 2026-03-22
+  - id: total-body-circuit-monday-virginia-garcia
+    name: Total Body Circuit
+    schedule: Mondays 6pm
+    location: Virginia Garcia Wellness Center
+    schedule_start_date: 2026-06-15
+    schedule_end_date: 2026-08-17
   - name: Chair Yoga at Virginia Garcia Wellness Center
-    schedule: Tuesdays 10:30-11:30am
+    schedule: Tuesdays 10:30am
     location: Virginia Garcia Wellness Center
-    schedule_start_date: 2026-01-12
-    schedule_end_date: 2026-03-22
-  - name: Chair Fitness at The Barcelona
-    schedule: Tuesdays 2:30-3:30pm
-    location: The Barcelona
-    schedule_start_date: 2026-01-12
-    schedule_end_date: 2026-03-22
+    schedule_start_date: 2026-06-16
+    schedule_end_date: 2026-08-18
   - name: Zumba at Virginia Garcia Wellness Center
-    schedule: Tuesdays 5:30-6:30pm
+    schedule: Tuesdays 5:30pm
     location: Virginia Garcia Wellness Center
-    schedule_start_date: 2026-01-12
-    schedule_end_date: 2026-03-22
-  - name: Tai Chi at Tallac Terrace
-    schedule: Saturdays 11am-noon
-    location: Tallac Terrace
-    schedule_start_date: 2026-01-12
-    schedule_end_date: 2026-03-22
-  - name: Zumba at HMT Softball Concessions
-    schedule: Sundays 11am-noon
-    location: HMT Softball Concessions
-    schedule_start_date: 2026-01-12
-    schedule_end_date: 2026-03-22
-  - name: Sweetheart Stroll
-    dates: February 8, 2026
-    schedule: 10-11:30am
-    location: Commonwealth Park
-    notes: 1.5-mile accessible walk
-  - name: Women's Wellness Fair
-    dates: March 28, 2026
-    schedule: 11am-1pm
-    location: Cedar Hills Recreation Center
-  - name: National Senior Health & Fitness Day
-    dates: May 27, 2026
-    location: Elsie Stuhr Center
+    schedule_start_date: 2026-06-16
+    schedule_end_date: 2026-08-18
+  - id: yoga-tuesday-griffith-park
+    name: Yoga, All Levels
+    schedule: Tuesdays 6:30pm
+    location: Griffith Park
+    schedule_start_date: 2026-06-16
+    schedule_end_date: 2026-08-18
+  - id: total-body-circuit-wednesday-virginia-garcia
+    name: Total Body Circuit
+    schedule: Wednesdays 6pm
+    location: Virginia Garcia Wellness Center
+    schedule_start_date: 2026-06-17
+    schedule_end_date: 2026-08-19
+  - name: Zumba at Cooper Park
+    schedule: Wednesdays 6:30pm
+    location: Cooper Park
+    schedule_start_date: 2026-06-17
+    schedule_end_date: 2026-08-19
+  - name: FUNctional Chair Fitness
+    schedule: Thursdays 10am
+    location: Virginia Garcia Wellness Center
+    schedule_start_date: 2026-06-18
+    schedule_end_date: 2026-08-20
+  - name: Kid's Fit & Fun
+    schedule: Thursdays 10:30am
+    location: Beaverton City Park
+    schedule_start_date: 2026-06-18
+    schedule_end_date: 2026-08-20
+  - id: yoga-thursday-bethany-creek-park
+    name: Yoga, All Levels
+    schedule: Thursdays 6:30pm
+    location: Bethany Creek Park
+    schedule_start_date: 2026-06-18
+    schedule_end_date: 2026-08-20
+  - name: Outdoor Circuit
+    dates:
+    - June 26, 2026
+    - July 10, 2026
+    - July 17, 2026
+    - July 24, 2026
+    - July 31, 2026
+    - August 7, 2026
+    - August 14, 2026
+    - August 21, 2026
+    schedule: 9am
+    location: Ridgewood View Park
+  - name: Zumba at Virginia Garcia Wellness Center
+    dates:
+    - June 26, 2026
+    - July 10, 2026
+    - July 17, 2026
+    - July 24, 2026
+    - July 31, 2026
+    - August 7, 2026
+    - August 14, 2026
+    - August 21, 2026
+    schedule: 5:30pm
+    location: Virginia Garcia Wellness Center
+  - name: Forest Bathing at Lowami Hart Woods Natural Area
+    dates:
+    - June 20, 2026
+    - June 27, 2026
+    - July 11, 2026
+    - July 18, 2026
+    - July 25, 2026
+    schedule: 9am
+    location: Lowami Hart Woods Natural Area
+  - name: Forest Bathing at Hyland Woods Natural Area
+    dates:
+    - August 1, 2026
+    - August 8, 2026
+    - August 15, 2026
+    - August 22, 2026
+    schedule: 9am
+    location: Hyland Woods Natural Area
+  - name: Tai Chi at Melilah Park
+    schedule: Sundays 10am
+    location: Melilah Park
+    schedule_start_date: 2026-06-21
+    schedule_end_date: 2026-08-23
+  - name: Walk with Me - Commonwealth Lake Park
+    dates: June 17, 2026
+    schedule: 9:30am
+    location: Commonwealth Lake Park
+  - name: Walk with Me - Rock Creek Trail
+    dates: June 24, 2026
+    schedule: 9:30am
+    location: Park trail entrance at NW 177th Ave & NW Blacktail Dr
+  - name: Walk with Me - Cedar Mill Creek Trail
+    dates: July 1, 2026
+    schedule: 9:30am
+    location: Sidewalk on Barnes Road at the bottom of the Market of Choice stairs
+  - name: Walk with Me - Waterhouse Park
+    dates: July 8, 2026
+    schedule: 9:30am
+    location: Waterhouse Soccer Field entrance
+  - name: Walk with Me - Bethany Creek Park/Yoshihara Trail
+    dates: July 15, 2026
+    schedule: 9:30am
+    location: Bethany Creek Park/Yoshihara Trail
+  - name: Walk with Me - Greenway Park
+    dates: July 22, 2026
+    schedule: 9:30am
+    location: Paved path/park entrance next to Fanno Farmhouse
+  - name: Walk with Me - Jenkins Estate
+    dates: July 29, 2026
+    schedule: 9:30am
+    location: Park trail entrance next to the lower lot
+  - name: Walk with Me - Jackie Husen Park
+    dates: August 5, 2026
+    schedule: 9:30am
+    location: Paved trailhead next to the parking lot
+  - name: Walk with Me - Lowami Hart Woods
+    dates: August 12, 2026
+    schedule: 9:30am
+    location: Park entrance near the benches across from the parking lot
+  - name: Walk with Me - Fanno Creek Trail
+    dates: August 19, 2026
+    schedule: 9:30am
+    location: Paved trailhead next to the parking lot
+  - name: Zumba from Around the World
+    dates: September 16, 2026
+    schedule: 5:30-7pm
+    location: Vose Elementary School
+    notes: All-ages cultural celebration featuring THPRD Zumba instructors.
   eligibility: All ages (varies by class)
   flags:
   - 📅 DATE-SENSITIVE
-  - ⚠️ VERIFY - Summer 2026 season confirmed as June 15 - August 23, with no classes June 19, July 3 or July 4. The class
-    mix is reported as yoga, Zumba, total body circuit, tai chi, outdoor circuit, chair fitness, family classes, and Forest
-    Bathing at Lowami Hart Woods Natural Area at 9am in June and July. The per-class day, time and park list is not published
-    in a form reachable by search - it lives at thprd.org/activities/schedules/fitness-in-the-park/print/. Until that page
-    is read directly, the six programs below stay bounded to the expired Winter/Spring term and this entry contributes nothing
-    to the calendar.
-  last_verified: 2026-07-28
-  next_audit: 2026-08-28
+  last_verified: 2026-08-13
+  next_audit: 2026-08-24
   audit_frequency: monthly
   practical_tips:
     first_visit: Classes are drop-in, no registration needed
@@ -3754,6 +3896,8 @@
   - low_energy
   guide_location: activities-guide-1.md#free-fitness
   notes: Free fitness classes in Washington County parks. Focus on environmental justice areas to reduce barriers to access.
+    The official schedule publishes start times but not class end times; one-hour calendar blocks are start-time reminders,
+    not confirmed durations.
 - id: portland-bird-watching-meetup
   name: Portland Bird Watching Meetup (Birding for the People)
   category: fitness_wellness
@@ -5335,6 +5479,7 @@
   source_urls:
   - https://www.tualatinhistory.org
   - https://www.tualatinoregon.gov/recreation/tualatin-heritage-center
+  - https://www.tualatinhistory.org/heritage-evening/p/heritage-evening-ticket-for-2023
   pricing:
     description: FREE admission
   hours: Mon-Fri 10am-2pm (closed weekends)
@@ -5365,16 +5510,15 @@
   - name: 'Making History Today: The Man Behind Tualatin Livability'
     dates: October 7, 2026
     notes: Evening lecture. Time of day not published as of early August 2026.
-  special_events:
   - name: Heritage Evening
     dates: September 11, 2026
     schedule: 5:30-8:30pm
     cost: $50
-    notes: The society's single annual fundraiser. 2026 event is Friday, September 11, 2026, 5:30-8:30pm, with a "Half a Grand"
-      raffle - tickets on sale at tualatinhistory.org/heritage-evening. The 2025 edition was September 5 and featured Oregon
-      Cowboy Poet Tom Swearingen.
-  last_verified: 2026-08-07
-  next_audit: 2026-11-07
+    notes: The society's single annual fundraiser. Tickets are $50. The 2026 event is Friday, September 11, 2026, 5:30-8:30pm,
+      with a "Half a Grand" raffle; tickets are on sale at tualatinhistory.org/heritage-evening. The 2025 edition was September
+      5 and featured Oregon Cowboy Poet Tom Swearingen.
+  last_verified: 2026-08-13
+  next_audit: 2026-11-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check website for current exhibit information
@@ -5406,21 +5550,25 @@
   - https://www.pcc.edu/galleries/
   - https://www.pcc.edu/galleries/cascade/
   - https://www.pcc.edu/galleries/rock-creek/
+  - https://www.pcc.edu/galleries/sylvania/
+  - https://www.pcc.edu/galleries/2026/07/16/7619/
   pricing:
     description: FREE admission
     notes: All galleries free and open to the public
   galleries:
   - name: Paragon Arts Gallery (Cascade Campus)
     address: 815 N Killingsworth St, Portland, OR 97217
-    hours: Wed 12-5pm, Thu-Fri 12-7pm, Sat 12-5pm (academic year)
-    notes: Closed between exhibitions and during summer. Wednesday closes at 5pm, not 7pm - corrected July 2026.
+    hours: Wed-Fri 12-7pm, Sat 12-5pm (academic year)
+    notes: Closed between exhibitions and during summer.
   - name: Helzer Gallery (Rock Creek Campus)
     address: 17705 NW Springville Rd, Portland, OR 97229 (Building 3)
     hours: Mon-Fri 9am-4pm, Sat by appointment
     notes: Named for longtime ceramics faculty Richard Helzer
   - name: North View Gallery (Sylvania Campus)
-    address: 12000 SW 49th Ave, Portland, OR 97219 (CT 214, behind bookstore)
-    hours: Mon-Fri 8am-4pm, Sat by appointment
+    address: 12000 SW 49th Ave, Portland, OR 97219
+    hours: Locations vary during the building's two-year renovation
+    notes: Operating as North View Mobile, activating temporary sites around the Sylvania campus. Check the event page for
+      each location.
   exhibits:
   - name: 'Joni Smith: Markmaker'
     location: Paragon Gallery
@@ -5451,18 +5599,13 @@
   - name: 'Marcus Fischer: We Are the Confluence of Two Rivers - closing performance'
     dates: August 30, 2026
     schedule: 11am
-    location: North View Gallery
-    notes: Performance closing Fischer's exhibition at North View Gallery (on view as of July 2026).
+    location: Rock garden on the PCC Sylvania campus
+    notes: Site-specific performance inaugurating North View Mobile during the gallery building's two-year renovation. The
+      official page publishes an 11am start but no end time; the one-hour calendar block is a start-time reminder.
   eligibility: Open to the public
   parking: Weekday permits required at kiosks; free on weekends
-  flags:
-  - ⚠️ VERIFY - The 2026-27 academic year exhibit schedule was not published as of late July 2026. North View is currently
-    showing Marcus Fischer, "We Are the Confluence of Two Rivers", with a performance on Sunday August 30 at 11am, but no
-    closing date is given. Note that the exhibits and galleries keys are descriptive only - generate_calendar.py reads entry-level
-    dates and the programs list, so nothing under them reaches the calendar. To publish the August 30 performance it would
-    need to move into programs with a dates field.
-  last_verified: 2026-08-07
-  next_audit: 2026-10-28
+  last_verified: 2026-08-13
+  next_audit: 2026-11-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check hours online - galleries close between exhibits
@@ -8267,19 +8410,26 @@
   email: info@sikhcenteroforegon.com
   website: https://sikhcenteroforegon.com/
   source_urls:
+  - https://sikhcenteroforegon.com/index.html
   - https://www.sikhcenteroforegon.com/schedule.html
   - https://www.sikhcenteroforegon.com/langar-seva-program.html
   pricing:
     description: FREE always
   hours: Gurdwara open 7 days 7am-9pm
-  schedule: Sundays 10:30am-2:15pm; Fridays 8pm (after evening service)
-  flags:
-  - '⚠️ VERIFY: Friday 8pm Langar not listed on website schedule page. Call 971-217-8577 to confirm.'
-  last_verified: 2026-03-03
-  next_audit: 2026-06-03
+  programs:
+  - name: Sunday Langar
+    schedule: Sundays 10:30am
+    notes: Begins at 10:30am and continues onward. The one-hour calendar block is a start-time reminder, not a claimed ending time.
+  - name: Friday Langar
+    schedule: Fridays 8pm
+    notes: Begins at 8pm and continues onward. Check the center's WhatsApp announcements for changes. The one-hour calendar
+      block is a start-time reminder, not a claimed ending time.
+  last_verified: 2026-08-13
+  next_audit: 2026-11-13
   audit_frequency: quarterly
-  practical_tips: Free vegetarian meals Sundays 10:30am-2:15pm. All welcome regardless of religion. Remove shoes and cover
-    head (scarves provided). Food served in separate area - no need to attend religious service. Gurdwara open daily 7am-9pm.
+  practical_tips: Free vegetarian meals begin Sundays at 10:30am and Fridays at 8pm. All welcome regardless of religion. Remove
+    shoes and cover head (scarves provided). Food is served in a separate area - no need to attend religious service. Check
+    WhatsApp announcements for Friday changes. Gurdwara open daily 7am-9pm.
   accessibility:
   - wheelchair_accessible
   social_intensity: casual_group
@@ -11211,12 +11361,15 @@
     description: FREE
   dates: July 9 - September 5, 2026
   schedule_start_date: 2026-07-09
+  schedule_end_date: 2026-09-05
   programs:
-  - name: Free Outdoor Concerts
+  - id: free-outdoor-concerts-thursday
+    name: Free Outdoor Concerts
     schedule: Thursdays 6:30-8:30pm
     format: In-person
     notes: Various parks. Check website for locations.
-  - name: Free Outdoor Concerts
+  - id: free-outdoor-concerts-friday
+    name: Free Outdoor Concerts
     schedule: Fridays 6:30-8:30pm
     format: In-person
     notes: Various parks. Check website for locations.
@@ -11905,19 +12058,19 @@
   source_urls:
   - https://multcolib.org/my-discovery-pass
   - https://mydiscoverypass.quipugroup.net/
+  - https://fiveoaksmuseum.org/
   pricing:
     description: FREE with Multnomah County Library card
   eligibility: Multnomah County Library cardholder
   flags:
-  - ⚠️ VERIFY - Venue list still includes Five Oaks Museum, which closed permanently in April 2025. Re-check the full participating-venue
-    list at multcolib.org/my-discovery-pass.
+  - ⚠️ VERIFY - Multnomah County Library still lists Five Oaks Museum even though the museum's official site confirms it closed
+    permanently after April 2025. Five Oaks is intentionally excluded below; re-add only if the library announces a valid
+    successor offer.
   programs:
   - name: Artists Repertory Theatre
     notes: Pass admits 2 adults
   - name: Boom Arts
     notes: Pass admits 2 people
-  - name: Five Oaks Museum
-    notes: Pass admits 2 adults; youth 17 and under always free
   - name: Friends of Chamber Music
     notes: Pass admits 2 adults; call 503.224.9842 one week prior
   - name: Japanese American Museum of Oregon
@@ -11942,8 +12095,8 @@
     notes: Pass admits 2 adults
   - name: Rose City Comic Con
     notes: Single day and 3-day badges
-  last_verified: 2026-03-04
-  next_audit: 2026-06-04
+  last_verified: 2026-08-13
+  next_audit: 2026-11-13
   audit_frequency: quarterly
   practical_tips:
     first_visit: Log in at multcolib.org/my-discovery-pass with your library card number and password.
@@ -11955,9 +12108,9 @@
   - indoor
   - creative
   guide_location: activities-guide-1.md#discount-programs
-  notes: Free cultural passes for Multnomah County Library cardholders. Provides online access to free tickets for 15 local
-    cultural attractions including Portland Art Museum, Portland Japanese Garden, Artists Repertory Theatre, Portland Opera,
-    and more. Outstanding value for anyone with a library card.
+  notes: Free cultural passes for Multnomah County Library cardholders. Provides online access to free tickets for 14 currently
+    operating cultural attractions including Portland Art Museum, Portland Japanese Garden, Artists Repertory Theatre,
+    Portland Opera, and more. The library's page still lists permanently closed Five Oaks Museum, which is excluded here.
 - id: wccls-adventure-pass
   name: WCCLS Adventure Pass
   category: discount_programs

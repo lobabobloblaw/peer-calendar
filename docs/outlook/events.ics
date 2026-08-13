@@ -506,11 +506,11 @@ DTSTAMP:20260211T000000Z
 DTSTART;TZID=America/Los_Angeles:20260307T100000
 DTEND;TZID=America/Los_Angeles:20260307T170000
 SUMMARY:Portland Saturday Market: Saturday Market
-DESCRIPTION:Category: Events & Festivals\nCost: FREE admission\nInfo: March
-  through December\; live music at 11am and 2pm\nAddress: Waterfront Park\,
-  Portland\, OR\nWebsite: https://portlandsaturdaymarket.com/\nDetails: Lar
- gest continuously operating outdoor arts market in the U.S.\, 250+ vendors
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Events &amp; Festivals</p><p><strong>Cost:</strong> FREE admission</p><p>March through December; live music at 11am and 2pm</p><p><strong>Address:</strong> Waterfront Park, Portland, OR</p><p><strong>Website:</strong> <a href="https://portlandsaturdaymarket.com/">https://portlandsaturdaymarket.com/</a></p><p><strong>Details:</strong> Largest continuously operating outdoor arts market in the U.S., 250+ vendors</p></BODY></HTML>
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: March through D
+ ecember\; live music at 11am and 2pm\nAddress: Waterfront Park\, Portland\
+ , OR\nWebsite: https://portlandsaturdaymarket.com/\nDetails: Largest conti
+ nuously operating outdoor arts market in the U.S.\, 250+ vendors
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Events &amp; Festivals</p><p><strong>Cost:</strong> FREE</p><p>March through December; live music at 11am and 2pm</p><p><strong>Address:</strong> Waterfront Park, Portland, OR</p><p><strong>Website:</strong> <a href="https://portlandsaturdaymarket.com/">https://portlandsaturdaymarket.com/</a></p><p><strong>Details:</strong> Largest continuously operating outdoor arts market in the U.S., 250+ vendors</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Waterfront Park\, Portland\, OR
 URL:https://portlandsaturdaymarket.com/
@@ -691,7 +691,7 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:a6395a7c06cf0be0@portlandresources.org
+UID:2c4a4bb335ebe0af@portlandresources.org
 DTSTAMP:20260117T000000Z
 DTSTART;TZID=America/Los_Angeles:20260709T183000
 DTEND;TZID=America/Los_Angeles:20260709T203000
@@ -706,12 +706,12 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><H
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Various city parks throughout Portland
 URL:https://www.portland.gov/parks/arts-culture/summer-free-all
-RRULE:FREQ=WEEKLY;BYDAY=TH
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20260906T065959Z
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:a6395a7c06cf0be0@portlandresources.org
+UID:6b7a26a9aaa1871e@portlandresources.org
 DTSTAMP:20260117T000000Z
 DTSTART;TZID=America/Los_Angeles:20260710T183000
 DTEND;TZID=America/Los_Angeles:20260710T203000
@@ -726,7 +726,7 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><H
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Various city parks throughout Portland
 URL:https://www.portland.gov/parks/arts-culture/summer-free-all
-RRULE:FREQ=WEEKLY;BYDAY=FR
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20260906T065959Z
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -746,7 +746,7 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><H
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Various city parks throughout Portland
 URL:https://www.portland.gov/parks/arts-culture/summer-free-all
-RRULE:FREQ=WEEKLY;BYDAY=SA
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20260906T065959Z
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT

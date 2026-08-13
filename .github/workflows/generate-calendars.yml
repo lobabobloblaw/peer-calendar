@@ -5,9 +5,14 @@ on:
     branches: [main]
     paths:
       - 'data/sources.yaml'
+      - 'docs/index.html'
       - 'scripts/generate_calendar.py'
       - 'scripts/generate_guides.py'
+      - 'scripts/test_add_update_post.py'
+      - 'scripts/test_schedule_parsing.py'
+      - 'scripts/test_web_schedule_parity.mjs'
       - 'scripts/utils.py'
+      - '.github/workflows/generate-calendars.yml'
 
   schedule:
     - cron: '0 14 * * 1' # Mondays 14:00 UTC (~7am Pacific)
@@ -47,7 +52,9 @@ jobs:
 
       - name: Run tests
         working-directory: scripts
-        run: python test_schedule_parsing.py
+        run: |
+          python test_schedule_parsing.py
+          python test_add_update_post.py
 
       - name: Snapshot published events
         run: cp docs/events.json /tmp/events-before.json || true
@@ -55,6 +62,12 @@ jobs:
       - name: Generate calendars and JSON
         working-directory: scripts
         run: python generate_calendar.py --json --publish
+
+      # This test reads the freshly generated events.json and the browser code,
+      # so it must run after generation and before anything can be committed.
+      - name: Verify web schedule parity
+        working-directory: scripts
+        run: node test_web_schedule_parity.mjs
 
       # Keeps guides/resources-guide.md from drifting away from sources.yaml
       # between manual regenerations.

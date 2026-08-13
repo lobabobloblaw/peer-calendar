@@ -232,11 +232,11 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:531662b55bc0a9a7@portlandresources.org
-DTSTAMP:20260807T000000Z
+UID:037946b9b573fb32@portlandresources.org
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
-SUMMARY:NAMI Clackamas: NAMI Connection Support Group
+SUMMARY:NAMI Clackamas: NAMI Connection Support Group - Tuesday
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
  o: For adults living with mental health conditions. Registration required.
  \nAddress: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222\nPhone: 50
@@ -252,8 +252,48 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:1b9953e2137b6606@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T140000
+DTEND;TZID=America/Los_Angeles:20260107T153000
+SUMMARY:NAMI Clackamas: NAMI Connection Support Group - Wednesday
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
+ o: For adults living with mental health conditions. Registration required.
+ \nAddress: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222\nPhone: 50
+ 3-344-5050\nWebsite: https://namicc.org\nDetails: Registration required fo
+ r most groups. All groups free and peer-led by trained volunteers with liv
+ ed experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Virtual (Zoom)</p><p>For adults living with mental health conditions. Registration required.</p><p><strong>Address:</strong> 10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p><p><strong>Website:</strong> <a href="https://namicc.org">https://namicc.org</a></p><p><strong>Details:</strong> Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222
+URL:https://namicc.org
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:53e690c50aeada48@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T180000
+DTEND;TZID=America/Los_Angeles:20260104T193000
+SUMMARY:NAMI Clackamas: NAMI Connection Support Group - Sunday
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
+ o: For adults living with mental health conditions. Registration required.
+ \nAddress: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222\nPhone: 50
+ 3-344-5050\nWebsite: https://namicc.org\nDetails: Registration required fo
+ r most groups. All groups free and peer-led by trained volunteers with liv
+ ed experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Virtual (Zoom)</p><p>For adults living with mental health conditions. Registration required.</p><p><strong>Address:</strong> 10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p><p><strong>Website:</strong> <a href="https://namicc.org">https://namicc.org</a></p><p><strong>Details:</strong> Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222
+URL:https://namicc.org
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:abda9c8971b1314b@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T170000
 DTEND;TZID=America/Los_Angeles:20260107T183000
 SUMMARY:NAMI Clackamas: Women (18+) Only Support Group
@@ -271,19 +311,38 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:620a559fb7ab08a0@portlandresources.org
-DTSTAMP:20260807T000000Z
+UID:d00b7987fd0d91ef@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T190000
+DTEND;TZID=America/Los_Angeles:20260106T203000
+SUMMARY:NAMI Clackamas: NAMI Family Support Group - Tuesday
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
+ o: For anyone who cares about someone with a mental health condition. Regi
+ stration required through NAMI Clackamas.\nAddress: 10202 SE 32nd Ave\, Su
+ ite 501\, Milwaukie\, OR 97222\nPhone: 503-344-5050\nWebsite: https://nami
+ cc.org\nDetails: Registration required for most groups. All groups free an
+ d peer-led by trained volunteers with lived experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Virtual (Zoom)</p><p>For anyone who cares about someone with a mental health condition. Registration required through NAMI Clackamas.</p><p><strong>Address:</strong> 10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p><p><strong>Website:</strong> <a href="https://namicc.org">https://namicc.org</a></p><p><strong>Details:</strong> Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222
+URL:https://namicc.org
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4857c38419b59235@portlandresources.org
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T183000
 DTEND;TZID=America/Los_Angeles:20260105T200000
-SUMMARY:NAMI Clackamas: NAMI Family Support Group
+SUMMARY:NAMI Clackamas: NAMI Family Support Group - Monday
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
- o: For anyone who cares about someone with mental health condition. Schedu
- le confirmed 2026-08-07 via namior.org (1st & 3rd Mondays 6:30-8pm via Zoo
- m).\nAddress: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222\nPhone:
-  503-344-5050\nWebsite: https://namicc.org\nDetails: Registration required
-  for most groups. All groups free and peer-led by trained volunteers with 
- lived experience.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Virtual (Zoom)</p><p>For anyone who cares about someone with mental health condition. Schedule confirmed 2026-08-07 via namior.org (1st &amp; 3rd Mondays 6:30-8pm via Zoom).</p><p><strong>Address:</strong> 10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p><p><strong>Website:</strong> <a href="https://namicc.org">https://namicc.org</a></p><p><strong>Details:</strong> Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.</p></BODY></HTML>
+ o: For anyone who cares about someone with a mental health condition. Curr
+ ent schedule published by NAMI Oregon.\nAddress: 10202 SE 32nd Ave\, Suite
+  501\, Milwaukie\, OR 97222\nPhone: 503-344-5050\nWebsite: https://namicc.
+ org\nDetails: Registration required for most groups. All groups free and p
+ eer-led by trained volunteers with lived experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Virtual (Zoom)</p><p>For anyone who cares about someone with a mental health condition. Current schedule published by NAMI Oregon.</p><p><strong>Address:</strong> 10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p><p><strong>Website:</strong> <a href="https://namicc.org">https://namicc.org</a></p><p><strong>Details:</strong> Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222
 URL:https://namicc.org
@@ -292,8 +351,28 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:c2b49f8ad5f5c06c@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260117T090000
+DTEND;TZID=America/Los_Angeles:20260117T103000
+SUMMARY:NAMI Clackamas: NAMI Family Support Group - Saturday
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
+ o: For anyone who cares about someone with a mental health condition. Curr
+ ent schedule published by NAMI Oregon.\nAddress: 10202 SE 32nd Ave\, Suite
+  501\, Milwaukie\, OR 97222\nPhone: 503-344-5050\nWebsite: https://namicc.
+ org\nDetails: Registration required for most groups. All groups free and p
+ eer-led by trained volunteers with lived experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Virtual (Zoom)</p><p>For anyone who cares about someone with a mental health condition. Current schedule published by NAMI Oregon.</p><p><strong>Address:</strong> 10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p><p><strong>Website:</strong> <a href="https://namicc.org">https://namicc.org</a></p><p><strong>Details:</strong> Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222
+URL:https://namicc.org
+RRULE:FREQ=MONTHLY;BYDAY=3SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:3d8997f26797c801@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T190000
 DTEND;TZID=America/Los_Angeles:20260107T203000
 SUMMARY:NAMI Clackamas: NAMI Clackamas Conexion (Spanish-Speaking Support G
@@ -314,7 +393,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ea6aaafa1987c3ab@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:NAMI Clackamas: LGBTQ+ Support Group
@@ -333,38 +412,79 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:0f499a48fa4b50aa@portlandresources.org
-DTSTAMP:20260807T000000Z
-DTSTART;TZID=America/Los_Angeles:20260101T190000
-DTEND;TZID=America/Los_Angeles:20260101T203000
-SUMMARY:NAMI Clackamas: BIPOC Support Group
-DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
- o: Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIF
- Y by phone — not visible on namicc.org support groups page as of April 202
- 6. Call 503-344-5050 to confirm still active.\nAddress: 10202 SE 32nd Ave\
- , Suite 501\, Milwaukie\, OR 97222\nPhone: 503-344-5050\nWebsite: https://
- namicc.org\nDetails: Registration required for most groups. All groups fre
- e and peer-led by trained volunteers with lived experience.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Virtual (Zoom)</p><p>Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIFY by phone — not visible on namicc.org support groups page as of April 2026. Call 503-344-5050 to confirm still active.</p><p><strong>Address:</strong> 10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p><p><strong>Website:</strong> <a href="https://namicc.org">https://namicc.org</a></p><p><strong>Details:</strong> Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.</p></BODY></HTML>
+UID:d485a809056eb93d@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T190000
+DTEND;TZID=America/Los_Angeles:20260106T203000
+SUMMARY:NAMI Clackamas: Suicide Bereavement Support - Tuesday Online
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual\nInfo: Free
+  affiliated support group for adults bereaved by suicide. Contact the faci
+ litator through SBSNW for the meeting link.\nAddress: 10202 SE 32nd Ave\, 
+ Suite 501\, Milwaukie\, OR 97222\nPhone: 503-344-5050\nWebsite: https://na
+ micc.org\nDetails: Registration required for most groups. All groups free 
+ and peer-led by trained volunteers with lived experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Virtual</p><p>Free affiliated support group for adults bereaved by suicide. Contact the facilitator through SBSNW for the meeting link.</p><p><strong>Address:</strong> 10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p><p><strong>Website:</strong> <a href="https://namicc.org">https://namicc.org</a></p><p><strong>Details:</strong> Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222
 URL:https://namicc.org
-RRULE:FREQ=MONTHLY;BYDAY=1TH,3TH
+RRULE:FREQ=MONTHLY;BYDAY=1TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9a653776875afe2e@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260114T180000
+DTEND;TZID=America/Los_Angeles:20260114T194500
+SUMMARY:NAMI Clackamas: Suicide Bereavement Support - Wednesday Online
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual\nInfo: Free
+  affiliated support group for adults bereaved by suicide. Contact the faci
+ litator through SBSNW for the meeting link.\nAddress: 10202 SE 32nd Ave\, 
+ Suite 501\, Milwaukie\, OR 97222\nPhone: 503-344-5050\nWebsite: https://na
+ micc.org\nDetails: Registration required for most groups. All groups free 
+ and peer-led by trained volunteers with lived experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Virtual</p><p>Free affiliated support group for adults bereaved by suicide. Contact the facilitator through SBSNW for the meeting link.</p><p><strong>Address:</strong> 10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p><p><strong>Website:</strong> <a href="https://namicc.org">https://namicc.org</a></p><p><strong>Details:</strong> Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222
+URL:https://namicc.org
+RRULE:FREQ=MONTHLY;BYDAY=2WE,4WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e6040178bc14d7a1@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260125T140000
+DTEND;TZID=America/Los_Angeles:20260125T160000
+SUMMARY:NAMI Clackamas: Suicide Bereavement Support - Sunday In-Person
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Fr
+ ee affiliated support group for adults bereaved by suicide. No registratio
+ n required.\nAddress: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222
+ \nPhone: 503-344-5050\nWebsite: https://namicc.org\nDetails: Registration 
+ required for most groups. All groups free and peer-led by trained voluntee
+ rs with lived experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Free affiliated support group for adults bereaved by suicide. No registration required.</p><p><strong>Address:</strong> 10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p><p><strong>Website:</strong> <a href="https://namicc.org">https://namicc.org</a></p><p><strong>Details:</strong> Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:NAMI Clackamas office\, 10202 SE 32nd Ave\, Suite 501\, Milwaukie
+URL:https://namicc.org
+RRULE:FREQ=MONTHLY;BYDAY=4SU
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85d355a359c1e2b9@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260127T190000
 DTEND;TZID=America/Los_Angeles:20260127T200000
 SUMMARY:NAMI Clackamas: Compassionate Friends
 DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Affiliated grief supp
- ort group. No registration required.\nAddress: 10202 SE 32nd Ave\, Suite 5
- 01\, Milwaukie\, OR 97222\nPhone: 503-344-5050\nWebsite: https://namicc.or
- g\nDetails: Registration required for most groups. All groups free and pee
- r-led by trained volunteers with lived experience.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>Affiliated grief support group. No registration required.</p><p><strong>Address:</strong> 10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p><p><strong>Website:</strong> <a href="https://namicc.org">https://namicc.org</a></p><p><strong>Details:</strong> Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.</p></BODY></HTML>
+ ort group. No registration required. The public schedule lists a 7pm start
+  but no end time\; the one-hour calendar block is a start-time reminder.\n
+ Address: 10202 SE 32nd Ave\, Suite 501\, Milwaukie\, OR 97222\nPhone: 503-
+ 344-5050\nWebsite: https://namicc.org\nDetails: Registration required for 
+ most groups. All groups free and peer-led by trained volunteers with lived
+  experience.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>Affiliated grief support group. No registration required. The public schedule lists a 7pm start but no end time; the one-hour calendar block is a start-time reminder.</p><p><strong>Address:</strong> 10202 SE 32nd Ave, Suite 501, Milwaukie, OR 97222</p><p><strong>Phone:</strong> <a href="tel:503-344-5050">503-344-5050</a></p><p><strong>Website:</strong> <a href="https://namicc.org">https://namicc.org</a></p><p><strong>Details:</strong> Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:NAMI Clackamas office (10202 SE 32nd Ave\, Suite 501\, Milwaukie)
 URL:https://namicc.org
@@ -809,12 +929,12 @@ DTSTART;TZID=America/Los_Angeles:20260103T100000
 DTEND;TZID=America/Los_Angeles:20260103T120000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): Trans PDX Support Grou
  p
-DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: For t
- rans\, nonbinary\, agender\, gender-fabulous folks\nAddress: 4115 N Missis
- sippi Ave\, Portland\, OR 97217\nPhone: 503-234-7837\nWebsite: https://www
- .pdxqcenter.org/\nDetails: Portland's LGBTQ+ community center. Safe space 
- with multi-generational programs. Many support groups and weekly events.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE (most programs)</p><p>For trans, nonbinary, agender, gender-fabulous folks</p><p><strong>Address:</strong> 4115 N Mississippi Ave, Portland, OR 97217</p><p><strong>Phone:</strong> <a href="tel:503-234-7837">503-234-7837</a></p><p><strong>Website:</strong> <a href="https://www.pdxqcenter.org/">https://www.pdxqcenter.org/</a></p><p><strong>Details:</strong> Portland&#x27;s LGBTQ+ community center. Safe space with multi-generational programs. Many support groups and weekly events.</p></BODY></HTML>
+DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: For trans\, nonbinary
+ \, agender\, gender-fabulous folks\nAddress: 4115 N Mississippi Ave\, Port
+ land\, OR 97217\nPhone: 503-234-7837\nWebsite: https://www.pdxqcenter.org/
+ \nDetails: Portland's LGBTQ+ community center. Safe space with multi-gener
+ ational programs. Many support groups and weekly events.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>For trans, nonbinary, agender, gender-fabulous folks</p><p><strong>Address:</strong> 4115 N Mississippi Ave, Portland, OR 97217</p><p><strong>Phone:</strong> <a href="tel:503-234-7837">503-234-7837</a></p><p><strong>Website:</strong> <a href="https://www.pdxqcenter.org/">https://www.pdxqcenter.org/</a></p><p><strong>Details:</strong> Portland&#x27;s LGBTQ+ community center. Safe space with multi-generational programs. Many support groups and weekly events.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:4115 N Mississippi Ave\, Portland\, OR 97217
 URL:https://www.pdxqcenter.org/
@@ -829,12 +949,12 @@ DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): LGBTQIA2S+ Mental Heal
  th Support
-DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: Peer-
- led for anxiety\, depression\, bipolar\, PTSD\nAddress: 4115 N Mississippi
-  Ave\, Portland\, OR 97217\nPhone: 503-234-7837\nWebsite: https://www.pdxq
- center.org/\nDetails: Portland's LGBTQ+ community center. Safe space with 
- multi-generational programs. Many support groups and weekly events.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE (most programs)</p><p>Peer-led for anxiety, depression, bipolar, PTSD</p><p><strong>Address:</strong> 4115 N Mississippi Ave, Portland, OR 97217</p><p><strong>Phone:</strong> <a href="tel:503-234-7837">503-234-7837</a></p><p><strong>Website:</strong> <a href="https://www.pdxqcenter.org/">https://www.pdxqcenter.org/</a></p><p><strong>Details:</strong> Portland&#x27;s LGBTQ+ community center. Safe space with multi-generational programs. Many support groups and weekly events.</p></BODY></HTML>
+DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Peer-led for anxiety\
+ , depression\, bipolar\, PTSD\nAddress: 4115 N Mississippi Ave\, Portland\
+ , OR 97217\nPhone: 503-234-7837\nWebsite: https://www.pdxqcenter.org/\nDet
+ ails: Portland's LGBTQ+ community center. Safe space with multi-generation
+ al programs. Many support groups and weekly events.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>Peer-led for anxiety, depression, bipolar, PTSD</p><p><strong>Address:</strong> 4115 N Mississippi Ave, Portland, OR 97217</p><p><strong>Phone:</strong> <a href="tel:503-234-7837">503-234-7837</a></p><p><strong>Website:</strong> <a href="https://www.pdxqcenter.org/">https://www.pdxqcenter.org/</a></p><p><strong>Details:</strong> Portland&#x27;s LGBTQ+ community center. Safe space with multi-generational programs. Many support groups and weekly events.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:4115 N Mississippi Ave\, Portland\, OR 97217
 URL:https://www.pdxqcenter.org/
@@ -849,12 +969,12 @@ DTSTART;TZID=America/Los_Angeles:20260114T190000
 DTEND;TZID=America/Los_Angeles:20260114T210000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): QTIBIPOC Community Spa
  ce
-DESCRIPTION:Category: Peer Support\nCost: FREE (most programs)\nInfo: For q
- ueer\, trans\, intersex BIPOC community members\nAddress: 4115 N Mississip
- pi Ave\, Portland\, OR 97217\nPhone: 503-234-7837\nWebsite: https://www.pd
- xqcenter.org/\nDetails: Portland's LGBTQ+ community center. Safe space wit
- h multi-generational programs. Many support groups and weekly events.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE (most programs)</p><p>For queer, trans, intersex BIPOC community members</p><p><strong>Address:</strong> 4115 N Mississippi Ave, Portland, OR 97217</p><p><strong>Phone:</strong> <a href="tel:503-234-7837">503-234-7837</a></p><p><strong>Website:</strong> <a href="https://www.pdxqcenter.org/">https://www.pdxqcenter.org/</a></p><p><strong>Details:</strong> Portland&#x27;s LGBTQ+ community center. Safe space with multi-generational programs. Many support groups and weekly events.</p></BODY></HTML>
+DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: For queer\, trans\, i
+ ntersex BIPOC community members\nAddress: 4115 N Mississippi Ave\, Portlan
+ d\, OR 97217\nPhone: 503-234-7837\nWebsite: https://www.pdxqcenter.org/\nD
+ etails: Portland's LGBTQ+ community center. Safe space with multi-generati
+ onal programs. Many support groups and weekly events.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>For queer, trans, intersex BIPOC community members</p><p><strong>Address:</strong> 4115 N Mississippi Ave, Portland, OR 97217</p><p><strong>Phone:</strong> <a href="tel:503-234-7837">503-234-7837</a></p><p><strong>Website:</strong> <a href="https://www.pdxqcenter.org/">https://www.pdxqcenter.org/</a></p><p><strong>Details:</strong> Portland&#x27;s LGBTQ+ community center. Safe space with multi-generational programs. Many support groups and weekly events.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:4115 N Mississippi Ave\, Portland\, OR 97217
 URL:https://www.pdxqcenter.org/
@@ -864,181 +984,375 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d38dc6be9514a666@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T140000
 DTEND;TZID=America/Los_Angeles:20260106T150000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at the 8x8
-DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
- 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
- regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
- al illness and substance use. Peer-led meetings. Many additional meetings 
- throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
+DESCRIPTION:Category: Peer Support\nCost: FREE\nPhone: 503-222-6484\nWebsit
+ e: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for co-oc
+ curring mental illness and substance use. Peer-led meetings. The former SW
+  11th office address and hours were removed because current official sourc
+ es publish only a PO box\, not a public office. The national in-person dir
+ ectory publishes start times but not end times\; one-hour calendar blocks 
+ for those listings are start-time reminders\, not confirmed durations.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:8 NW 8th Ave\, Portland
-URL:http://ddaoregon.com/
+URL:https://ddainc.org/
 RRULE:FREQ=WEEKLY;BYDAY=TU
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f0b5d5c2028650a3@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T110000
 DTEND;TZID=America/Los_Angeles:20260101T120000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at the Mead Building
-DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
- 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
- regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
- al illness and substance use. Peer-led meetings. Many additional meetings 
- throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
+DESCRIPTION:Category: Peer Support\nCost: FREE\nPhone: 503-222-6484\nWebsit
+ e: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for co-oc
+ curring mental illness and substance use. Peer-led meetings. The former SW
+  11th office address and hours were removed because current official sourc
+ es publish only a PO box\, not a public office. The national in-person dir
+ ectory publishes start times but not end times\; one-hour calendar blocks 
+ for those listings are start-time reminders\, not confirmed durations.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Mead Building Basement\, Portland
-URL:http://ddaoregon.com/
+URL:https://ddainc.org/
 RRULE:FREQ=WEEKLY;BYDAY=TH
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:83f0dda716f10bc5@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T110000
 DTEND;TZID=America/Los_Angeles:20260102T120000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at Garlington Wellness C
  enter
-DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
- 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
- regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
- al illness and substance use. Peer-led meetings. Many additional meetings 
- throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
+DESCRIPTION:Category: Peer Support\nCost: FREE\nPhone: 503-222-6484\nWebsit
+ e: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for co-oc
+ curring mental illness and substance use. Peer-led meetings. The former SW
+  11th office address and hours were removed because current official sourc
+ es publish only a PO box\, not a public office. The national in-person dir
+ ectory publishes start times but not end times\; one-hour calendar blocks 
+ for those listings are start-time reminders\, not confirmed durations.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:3034 NE Martin Luther King Jr Blvd\, Portland
-URL:http://ddaoregon.com/
+URL:https://ddainc.org/
 RRULE:FREQ=WEEKLY;BYDAY=FR
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c521e972b3cb1a31@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T110000
 DTEND;TZID=America/Los_Angeles:20260105T120000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at New Narrative
-DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
- 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
- regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
- al illness and substance use. Peer-led meetings. Many additional meetings 
- throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
+DESCRIPTION:Category: Peer Support\nCost: FREE\nPhone: 503-222-6484\nWebsit
+ e: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for co-oc
+ curring mental illness and substance use. Peer-led meetings. The former SW
+  11th office address and hours were removed because current official sourc
+ es publish only a PO box\, not a public office. The national in-person dir
+ ectory publishes start times but not end times\; one-hour calendar blocks 
+ for those listings are start-time reminders\, not confirmed durations.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:1952 SE 122nd Ave\, Portland
-URL:http://ddaoregon.com/
+URL:https://ddainc.org/
 RRULE:FREQ=WEEKLY;BYDAY=MO
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d03e805960da82ec@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T173000
 DTEND;TZID=America/Los_Angeles:20260106T183000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at Club Hope (Gresham)
-DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
- 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
- regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
- al illness and substance use. Peer-led meetings. Many additional meetings 
- throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
+DESCRIPTION:Category: Peer Support\nCost: FREE\nPhone: 503-222-6484\nWebsit
+ e: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for co-oc
+ curring mental illness and substance use. Peer-led meetings. The former SW
+  11th office address and hours were removed because current official sourc
+ es publish only a PO box\, not a public office. The national in-person dir
+ ectory publishes start times but not end times\; one-hour calendar blocks 
+ for those listings are start-time reminders\, not confirmed durations.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:100 SE Cleveland Ave\, Gresham
-URL:http://ddaoregon.com/
+URL:https://ddainc.org/
 RRULE:FREQ=WEEKLY;BYDAY=TU
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8e53fc7dd5f856ab@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T150000
 DTEND;TZID=America/Los_Angeles:20260102T160000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at True Colors Recovery
-DESCRIPTION:Category: Peer Support\nCost: FREE\nAddress: 521 SW 11th Ave\, 
- 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddao
- regon.com/\nDetails: 12-Step plus 5 additional steps for co-occurring ment
- al illness and substance use. Peer-led meetings. Many additional meetings 
- throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
+DESCRIPTION:Category: Peer Support\nCost: FREE\nPhone: 503-222-6484\nWebsit
+ e: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for co-oc
+ curring mental illness and substance use. Peer-led meetings. The former SW
+  11th office address and hours were removed because current official sourc
+ es publish only a PO box\, not a public office. The national in-person dir
+ ectory publishes start times but not end times\; one-hour calendar blocks 
+ for those listings are start-time reminders\, not confirmed durations.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:3807 NE MLK Jr Blvd\, Portland
-URL:http://ddaoregon.com/
+URL:https://ddainc.org/
 RRULE:FREQ=WEEKLY;BYDAY=FR
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dfab8921e1f6b150@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T100000
 DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Saturday Meeting at Alano Cl
  ub
 DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Confirmed August 2026
-  on the Alano Club's own meeting grid (portlandalano.org/meetings).\nAddre
- ss: 521 SW 11th Ave\, 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484
- \nWebsite: http://ddaoregon.com/\nDetails: 12-Step plus 5 additional steps
-  for co-occurring mental illness and substance use. Peer-led meetings. Man
- y additional meetings throughout Portland - see ddaoregon.com/meeting.htm 
- for full schedule.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>Confirmed August 2026 on the Alano Club&#x27;s own meeting grid (portlandalano.org/meetings).</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
+  on the Alano Club's own meeting grid (portlandalano.org/meetings).\nPhone
+ : 503-222-6484\nWebsite: https://ddainc.org/\nDetails: 12-Step plus 5 addi
+ tional steps for co-occurring mental illness and substance use. Peer-led m
+ eetings. The former SW 11th office address and hours were removed because 
+ current official sources publish only a PO box\, not a public office. The 
+ national in-person directory publishes start times but not end times\; one
+ -hour calendar blocks for those listings are start-time reminders\, not co
+ nfirmed durations.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>Confirmed August 2026 on the Alano Club&#x27;s own meeting grid (portlandalano.org/meetings).</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Portland Alano Club\, 909 NW 24th Ave (Board Room)
-URL:http://ddaoregon.com/
+URL:https://ddainc.org/
 RRULE:FREQ=WEEKLY;BYDAY=SA
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9d6ae81810e11112@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T140000
 DTEND;TZID=America/Los_Angeles:20260101T150000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Thursday Meeting at Alano Cl
  ub
 DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Listed in ddainc.org'
- s June 2026 national directory AND on the Alano Club's own grid.\nAddress:
-  521 SW 11th Ave\, 2nd Floor\, Portland\, OR 97205\nPhone: 503-222-6484\nW
- ebsite: http://ddaoregon.com/\nDetails: 12-Step plus 5 additional steps fo
- r co-occurring mental illness and substance use. Peer-led meetings. Many a
- dditional meetings throughout Portland - see ddaoregon.com/meeting.htm for
-  full schedule.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>Listed in ddainc.org&#x27;s June 2026 national directory AND on the Alano Club&#x27;s own grid.</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
+ s June 2026 national directory AND on the Alano Club's own grid.\nPhone: 5
+ 03-222-6484\nWebsite: https://ddainc.org/\nDetails: 12-Step plus 5 additio
+ nal steps for co-occurring mental illness and substance use. Peer-led meet
+ ings. The former SW 11th office address and hours were removed because cur
+ rent official sources publish only a PO box\, not a public office. The nat
+ ional in-person directory publishes start times but not end times\; one-ho
+ ur calendar blocks for those listings are start-time reminders\, not confi
+ rmed durations.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>Listed in ddainc.org&#x27;s June 2026 national directory AND on the Alano Club&#x27;s own grid.</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Portland Alano Club\, 909 NW 24th Ave (Board Room)
-URL:http://ddaoregon.com/
+URL:https://ddainc.org/
 RRULE:FREQ=WEEKLY;BYDAY=TH
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:fe785cfeeb7bae14@portlandresources.org
-DTSTAMP:20260807T000000Z
+UID:bc087d2079d81941@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T120000
+DTEND;TZID=America/Los_Angeles:20260106T130000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at Clackamas Transition 
+ Center
+DESCRIPTION:Category: Peer Support\nCost: FREE\nPhone: 503-222-6484\nWebsit
+ e: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for co-oc
+ curring mental illness and substance use. Peer-led meetings. The former SW
+  11th office address and hours were removed because current official sourc
+ es publish only a PO box\, not a public office. The national in-person dir
+ ectory publishes start times but not end times\; one-hour calendar blocks 
+ for those listings are start-time reminders\, not confirmed durations.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:2219 Kaen Rd\, Oregon City
+URL:https://ddainc.org/
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a7f463ec89cb186d@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T160000
+DTEND;TZID=America/Los_Angeles:20260107T170000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at 4D Recovery Clackamas
+DESCRIPTION:Category: Peer Support\nCost: FREE\nPhone: 503-222-6484\nWebsit
+ e: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for co-oc
+ curring mental illness and substance use. Peer-led meetings. The former SW
+  11th office address and hours were removed because current official sourc
+ es publish only a PO box\, not a public office. The national in-person dir
+ ectory publishes start times but not end times\; one-hour calendar blocks 
+ for those listings are start-time reminders\, not confirmed durations.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:11690 SE 82nd Ave\, Happy Valley
+URL:https://ddainc.org/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1eab2bfeaf2b01e4@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T130000
+DTEND;TZID=America/Los_Angeles:20260106T140000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at FolkTime Pink Church
+DESCRIPTION:Category: Peer Support\nCost: FREE\nPhone: 503-222-6484\nWebsit
+ e: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for co-oc
+ curring mental illness and substance use. Peer-led meetings. The former SW
+  11th office address and hours were removed because current official sourc
+ es publish only a PO box\, not a public office. The national in-person dir
+ ectory publishes start times but not end times\; one-hour calendar blocks 
+ for those listings are start-time reminders\, not confirmed durations.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:710 6th St\, Oregon City
+URL:https://ddainc.org/
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b07aa22b1f9d51a7@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T160000
+DTEND;TZID=America/Los_Angeles:20260102T170000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at Sandy Clinic
+DESCRIPTION:Category: Peer Support\nCost: FREE\nPhone: 503-222-6484\nWebsit
+ e: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for co-oc
+ curring mental illness and substance use. Peer-led meetings. The former SW
+  11th office address and hours were removed because current official sourc
+ es publish only a PO box\, not a public office. The national in-person dir
+ ectory publishes start times but not end times\; one-hour calendar blocks 
+ for those listings are start-time reminders\, not confirmed durations.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:39740 Pleasant St\, Sandy
+URL:https://ddainc.org/
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d92720a6acf0e82e@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T100000
+DTEND;TZID=America/Los_Angeles:20260104T110000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Online DDA Morning Meetings 
+ - Sunday through Wednesday
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nInfo: Zoom me
+ eting ID 849 3539 5086\; no passcode. Pacific time.\nPhone: 503-222-6484\n
+ Website: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for
+  co-occurring mental illness and substance use. Peer-led meetings. The for
+ mer SW 11th office address and hours were removed because current official
+  sources publish only a PO box\, not a public office. The national in-pers
+ on directory publishes start times but not end times\; one-hour calendar b
+ locks for those listings are start-time reminders\, not confirmed duration
+ s.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p>Zoom meeting ID 849 3539 5086; no passcode. Pacific time.</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+URL:https://ddainc.org/
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:24706b50ad7a8a7f@portlandresources.org
+DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T100000
 DTEND;TZID=America/Los_Angeles:20260101T110000
-SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Online DDA Meetings
-DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nInfo: Daily o
- nline meetings at 10am and 5pm Pacific\, running since April 1\, 2026 (dda
- inc.org/online-dda-meetings).\nAddress: 521 SW 11th Ave\, 2nd Floor\, Port
- land\, OR 97205\nPhone: 503-222-6484\nWebsite: http://ddaoregon.com/\nDeta
- ils: 12-Step plus 5 additional steps for co-occurring mental illness and s
- ubstance use. Peer-led meetings. Many additional meetings throughout Portl
- and - see ddaoregon.com/meeting.htm for full schedule.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p>Daily online meetings at 10am and 5pm Pacific, running since April 1, 2026 (ddainc.org/online-dda-meetings).</p><p><strong>Address:</strong> 521 SW 11th Ave, 2nd Floor, Portland, OR 97205</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="http://ddaoregon.com/">http://ddaoregon.com/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.</p></BODY></HTML>
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Online DDA Women's Meeting -
+  Thursday Morning
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nInfo: Women-o
+ nly. Zoom meeting ID 849 3539 5086\; no passcode. Pacific time.\nPhone: 50
+ 3-222-6484\nWebsite: https://ddainc.org/\nDetails: 12-Step plus 5 addition
+ al steps for co-occurring mental illness and substance use. Peer-led meeti
+ ngs. The former SW 11th office address and hours were removed because curr
+ ent official sources publish only a PO box\, not a public office. The nati
+ onal in-person directory publishes start times but not end times\; one-hou
+ r calendar blocks for those listings are start-time reminders\, not confir
+ med durations.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p>Women-only. Zoom meeting ID 849 3539 5086; no passcode. Pacific time.</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:521 SW 11th Ave\, 2nd Floor\, Portland\, OR 97205
-URL:http://ddaoregon.com/
+URL:https://ddainc.org/
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e64134a8c82a0030@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T100000
+DTEND;TZID=America/Los_Angeles:20260103T110000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Online DDA Saturday Morning 
+ Meeting
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nInfo: Zoom me
+ eting ID 849 3539 5086\; no passcode. There is currently no Friday 10am me
+ eting. Pacific time.\nPhone: 503-222-6484\nWebsite: https://ddainc.org/\nD
+ etails: 12-Step plus 5 additional steps for co-occurring mental illness an
+ d substance use. Peer-led meetings. The former SW 11th office address and 
+ hours were removed because current official sources publish only a PO box\
+ , not a public office. The national in-person directory publishes start ti
+ mes but not end times\; one-hour calendar blocks for those listings are st
+ art-time reminders\, not confirmed durations.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p>Zoom meeting ID 849 3539 5086; no passcode. There is currently no Friday 10am meeting. Pacific time.</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+URL:https://ddainc.org/
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:946ab2321b10735e@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T170000
+DTEND;TZID=America/Los_Angeles:20260101T180000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Online DDA Evening Meetings
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nInfo: Zoom me
+ eting ID 849 3539 5086\; no passcode. Pacific time.\nPhone: 503-222-6484\n
+ Website: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for
+  co-occurring mental illness and substance use. Peer-led meetings. The for
+ mer SW 11th office address and hours were removed because current official
+  sources publish only a PO box\, not a public office. The national in-pers
+ on directory publishes start times but not end times\; one-hour calendar b
+ locks for those listings are start-time reminders\, not confirmed duration
+ s.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p>Zoom meeting ID 849 3539 5086; no passcode. Pacific time.</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+URL:https://ddainc.org/
 RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR,SA,SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3535967883f28ee4@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260125T130000
+DTEND;TZID=America/Los_Angeles:20260125T150000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Online DDA Open Mic Fellowsh
+ ip
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nInfo: Fellows
+ hip event open to all. Zoom meeting ID 849 3539 5086\; no passcode. Pacifi
+ c time.\nPhone: 503-222-6484\nWebsite: https://ddainc.org/\nDetails: 12-St
+ ep plus 5 additional steps for co-occurring mental illness and substance u
+ se. Peer-led meetings. The former SW 11th office address and hours were re
+ moved because current official sources publish only a PO box\, not a publi
+ c office. The national in-person directory publishes start times but not e
+ nd times\; one-hour calendar blocks for those listings are start-time remi
+ nders\, not confirmed durations.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p>Fellowship event open to all. Zoom meeting ID 849 3539 5086; no passcode. Pacific time.</p><p><strong>Phone:</strong> <a href="tel:503-222-6484">503-222-6484</a></p><p><strong>Website:</strong> <a href="https://ddainc.org/">https://ddainc.org/</a></p><p><strong>Details:</strong> 12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+URL:https://ddainc.org/
+RRULE:FREQ=MONTHLY;BYDAY=-1SU
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2440,19 +2754,18 @@ DTSTART;TZID=America/Los_Angeles:20260112T190000
 DTEND;TZID=America/Los_Angeles:20260112T200000
 SUMMARY:Brief Encounters (Pregnancy & Infant Loss Support): Parents of Preg
  nancy and Infant Loss
-DESCRIPTION:Category: Peer Support\nCost: FREE\nNote: Free of charge to ber
- eaved parents and their family and friends.\nFormat: In-person\nInfo: Incl
- udes early pregnancy loss. The same group also meets on the 4th Tuesday at
-  7pm\; that session's format was not published as of July 2026\, so only t
- he confirmed in-person 2nd Monday meeting is listed as a calendar event. C
- all 503-699-8006 to confirm the 4th Tuesday.\nAddress: The Peace House\, 2
- 116 NE 18th Ave\, Portland\, OR 97212\nPhone: 503-699-8006\nWebsite: https
- ://www.briefencounters.org\nDetails: Portland-based peer support for pregn
- ancy and infant loss\, including early pregnancy loss\, plus a separate gr
- oup for non-birthing parents and partners. Added July 2026 to fill a perin
- atal grief gap not covered by Dougy Center\, Providence Hospice or Hopewel
- l House.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><em>Free of charge to bereaved parents and their family and friends.</em></p><p><strong>Format:</strong> In-person</p><p>Includes early pregnancy loss. The same group also meets on the 4th Tuesday at 7pm; that session&#x27;s format was not published as of July 2026, so only the confirmed in-person 2nd Monday meeting is listed as a calendar event. Call 503-699-8006 to confirm the 4th Tuesday.</p><p><strong>Address:</strong> The Peace House, 2116 NE 18th Ave, Portland, OR 97212</p><p><strong>Phone:</strong> <a href="tel:503-699-8006">503-699-8006</a></p><p><strong>Website:</strong> <a href="https://www.briefencounters.org">https://www.briefencounters.org</a></p><p><strong>Details:</strong> Portland-based peer support for pregnancy and infant loss, including early pregnancy loss, plus a separate group for non-birthing parents and partners. Added July 2026 to fill a perinatal grief gap not covered by Dougy Center, Providence Hospice or Hopewell House.</p></BODY></HTML>
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: In
+ cludes early pregnancy loss. The same group also meets on the 4th Tuesday 
+ at 7pm\; that session's format was not published as of July 2026\, so only
+  the confirmed in-person 2nd Monday meeting is listed as a calendar event.
+  Call 503-699-8006 to confirm the 4th Tuesday.\nAddress: The Peace House\,
+  2116 NE 18th Ave\, Portland\, OR 97212\nPhone: 503-699-8006\nWebsite: htt
+ ps://www.briefencounters.org\nDetails: Portland-based peer support for pre
+ gnancy and infant loss\, including early pregnancy loss\, plus a separate 
+ group for non-birthing parents and partners. Added July 2026 to fill a per
+ inatal grief gap not covered by Dougy Center\, Providence Hospice or Hopew
+ ell House.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Includes early pregnancy loss. The same group also meets on the 4th Tuesday at 7pm; that session&#x27;s format was not published as of July 2026, so only the confirmed in-person 2nd Monday meeting is listed as a calendar event. Call 503-699-8006 to confirm the 4th Tuesday.</p><p><strong>Address:</strong> The Peace House, 2116 NE 18th Ave, Portland, OR 97212</p><p><strong>Phone:</strong> <a href="tel:503-699-8006">503-699-8006</a></p><p><strong>Website:</strong> <a href="https://www.briefencounters.org">https://www.briefencounters.org</a></p><p><strong>Details:</strong> Portland-based peer support for pregnancy and infant loss, including early pregnancy loss, plus a separate group for non-birthing parents and partners. Added July 2026 to fill a perinatal grief gap not covered by Dougy Center, Providence Hospice or Hopewell House.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:The Peace House\, 2116 NE 18th Ave\, Portland\, OR 97212
 URL:https://www.briefencounters.org
@@ -2467,16 +2780,15 @@ DTSTART;TZID=America/Los_Angeles:20260105T183000
 DTEND;TZID=America/Los_Angeles:20260105T193000
 SUMMARY:Brief Encounters (Pregnancy & Infant Loss Support): Non-Birthing Pa
  rent Support Group
-DESCRIPTION:Category: Peer Support\nCost: FREE\nNote: Free of charge to ber
- eaved parents and their family and friends.\nFormat: In-person\nInfo: For 
- grieving partners and non-birthing parents.\nAddress: The Peace House\, 21
- 16 NE 18th Ave\, Portland\, OR 97212\nPhone: 503-699-8006\nWebsite: https:
- //www.briefencounters.org\nDetails: Portland-based peer support for pregna
- ncy and infant loss\, including early pregnancy loss\, plus a separate gro
- up for non-birthing parents and partners. Added July 2026 to fill a perina
- tal grief gap not covered by Dougy Center\, Providence Hospice or Hopewell
-  House.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><em>Free of charge to bereaved parents and their family and friends.</em></p><p><strong>Format:</strong> In-person</p><p>For grieving partners and non-birthing parents.</p><p><strong>Address:</strong> The Peace House, 2116 NE 18th Ave, Portland, OR 97212</p><p><strong>Phone:</strong> <a href="tel:503-699-8006">503-699-8006</a></p><p><strong>Website:</strong> <a href="https://www.briefencounters.org">https://www.briefencounters.org</a></p><p><strong>Details:</strong> Portland-based peer support for pregnancy and infant loss, including early pregnancy loss, plus a separate group for non-birthing parents and partners. Added July 2026 to fill a perinatal grief gap not covered by Dougy Center, Providence Hospice or Hopewell House.</p></BODY></HTML>
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Fo
+ r grieving partners and non-birthing parents.\nAddress: The Peace House\, 
+ 2116 NE 18th Ave\, Portland\, OR 97212\nPhone: 503-699-8006\nWebsite: http
+ s://www.briefencounters.org\nDetails: Portland-based peer support for preg
+ nancy and infant loss\, including early pregnancy loss\, plus a separate g
+ roup for non-birthing parents and partners. Added July 2026 to fill a peri
+ natal grief gap not covered by Dougy Center\, Providence Hospice or Hopewe
+ ll House.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>For grieving partners and non-birthing parents.</p><p><strong>Address:</strong> The Peace House, 2116 NE 18th Ave, Portland, OR 97212</p><p><strong>Phone:</strong> <a href="tel:503-699-8006">503-699-8006</a></p><p><strong>Website:</strong> <a href="https://www.briefencounters.org">https://www.briefencounters.org</a></p><p><strong>Details:</strong> Portland-based peer support for pregnancy and infant loss, including early pregnancy loss, plus a separate group for non-birthing parents and partners. Added July 2026 to fill a perinatal grief gap not covered by Dougy Center, Providence Hospice or Hopewell House.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:The Peace House\, 2116 NE 18th Ave\, Portland\, OR 97212
 URL:https://www.briefencounters.org

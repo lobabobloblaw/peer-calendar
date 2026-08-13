@@ -31,17 +31,22 @@ PAGE = """<html><body>
 """
 
 AUG6 = datetime(2026, 8, 6)
+TEST_TEMP_DIR = tempfile.TemporaryDirectory(prefix="peer-calendar-update-tests-")
 
 
 def tmp_page(content: str = PAGE) -> Path:
-    f = tempfile.NamedTemporaryFile("w", suffix=".html", delete=False, encoding="utf-8")
+    f = tempfile.NamedTemporaryFile(
+        "w", suffix=".html", delete=False, encoding="utf-8", dir=TEST_TEMP_DIR.name,
+    )
     f.write(content)
     f.close()
     return Path(f.name)
 
 
 def tmp_json(obj) -> Path:
-    f = tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8")
+    f = tempfile.NamedTemporaryFile(
+        "w", suffix=".json", delete=False, encoding="utf-8", dir=TEST_TEMP_DIR.name,
+    )
     json.dump(obj, f)
     f.close()
     return Path(f.name)

@@ -2,6 +2,51 @@
 # Records all verification activities and changes
 
 ---
+- date: 2026-08-13
+  type: update
+  auditor: codex
+  summary: "Corrected current schedules and stale source data from issues #10, #4, and #11"
+  updated:
+    - id: thprd-fitness-in-park
+      changes:
+        - "Replaced expired winter classes with the official June 15-August 23, 2026 Fitness in the Park schedule"
+        - "Added dated Walk with Me outings and the September 16 Zumba Around the World event"
+        - "Updated the program URL and bounded all seasonal recurrences"
+    - id: tualatin-heritage-center
+      changes:
+        - "Moved the September 11 Heritage Evening into programs so it is emitted by the calendar generator"
+    - id: pcc-art-galleries
+      changes:
+        - "Corrected Paragon Gallery hours and documented North View Gallery's temporary mobile format during renovation"
+    - id: multnomah-discovery-pass
+      changes:
+        - "Removed permanently closed Five Oaks Museum from the local attraction list while documenting the upstream library-page discrepancy"
+    - id: nami-clackamas
+      changes:
+        - "Added current Connection, Family, and Suicide Bereavement meeting times from official local and state sources"
+        - "Removed a duplicated NAMI Multnomah BIPOC group and unsupported Post Release/Gather for Games recurrences"
+        - "Kept untimed Art with Heart directory-only instead of guessing a calendar time"
+    - id: dda-oregon
+      changes:
+        - "Replaced stale office metadata with the current official site, contact details, open meetings, and Zoom schedule"
+        - "Removed the nonexistent Friday 10am online recurrence and added the monthly Open Mic Fellowship"
+    - id: sikh-center-langar
+      changes:
+        - "Confirmed Sunday and Friday langar start times on the current homepage and removed the obsolete verification flag"
+    - id: providence-grief-support
+      changes:
+        - "Corrected registration to required and kept unpublished Portland session dates directory-only"
+    - id: gresham-senior-center
+      changes:
+        - "Replaced the incorrect unanchored biweekly Movie Matinee rule with the official 1st/3rd Monday Movie Madness schedule"
+    - id: diamond-way-buddhist
+      changes:
+        - "Added stable program IDs to distinguish the Monday and Thursday Guided Meditation calendar series"
+    - id: ppr-summer-free-for-all
+      changes:
+        - "Added stable program IDs to distinguish Thursday and Friday Free Outdoor Concert calendar series and bounded both to the published September 5 season end"
+
+---
 - date: 2026-07-24
   type: addition
   auditor: claude
