@@ -29,14 +29,12 @@ DTSTAMP:20260213T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T100000
 DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:Tryon Creek State Natural Area: Saturday Guided Nature Walks
-DESCRIPTION:Category: Parks & Nature\nCost: Park FREE\; Parking $10/day res
- idents\, $12/day non-residents (since Oct 1\, 2025)\nNote: Free if arrivin
- g by foot\, bike\, or bus. Annual permits $60 resident/$75 non-resident.\n
- Info: One-hour guided hike with a park naturalist. Topics vary weekly - fu
- ngi\, wildlife\, seasonal themes. Ages 5+ (all ages welcome). No registrat
- ion - meet at Nature Center.\nAddress: 11321 S Terwilliger Blvd\, Portland
- \, OR 97219\nPhone: 503-636-9886\nWebsite: https://stateparks.oregon.gov/i
- ndex.cfm?do=park.profile&parkId=103
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: One-hour guided hik
+ e with a park naturalist. Topics vary weekly - fungi\, wildlife\, seasonal
+  themes. Ages 5+ (all ages welcome). No registration - meet at Nature Cent
+ er.\nAddress: 11321 S Terwilliger Blvd\, Portland\, OR 97219\nPhone: 503-6
+ 36-9886\nWebsite: https://stateparks.oregon.gov/index.cfm?do=park.profile&
+ parkId=103
 LOCATION:11321 S Terwilliger Blvd\, Portland\, OR 97219
 URL:https://stateparks.oregon.gov/index.cfm?do=park.profile&parkId=103
 RRULE:FREQ=WEEKLY;BYDAY=SA
@@ -82,17 +80,17 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260912T113000
 DTEND;TZID=America/Los_Angeles:20260912T130000
 SUMMARY:Portland Memory Garden (Ed Benedict Park): Music in the Garden
-DESCRIPTION:Category: Parks & Nature\nCost: FREE\nNote: Entrance is free fo
- r all visitors.\nFormat: In-person\, outdoor\nInfo: Live music twice month
- ly\, weather permitting\, hosted by Friends of Portland Memory Garden. Sep
- tember 12 features Jamie Turbett on cello. Earlier 2026 dates included a c
- ello quartet on July 11 and guitar on July 25. The full remaining-season d
- ate list is not published as a set - check the upcoming events page.\nAddr
- ess: Ed Benedict Park\, SE 104th Ave & SE Powell Blvd\, Portland\, OR 9726
- 6\nWebsite: https://www.portland.gov/parks/portland-memory-garden\nDetails
- : Therapeutic garden at Ed Benedict Park in outer SE Portland\, maintained
-  with Friends of Portland Memory Garden. Added July 2026. Strong fit for l
- ow-energy\, anxiety-friendly\, accessible outdoor time.
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nFormat: In-person\, outdo
+ or\nInfo: Live music twice monthly\, weather permitting\, hosted by Friend
+ s of Portland Memory Garden. September 12 features Jamie Turbett on cello.
+  Earlier 2026 dates included a cello quartet on July 11 and guitar on July
+  25. The full remaining-season date list is not published as a set - check
+  the upcoming events page.\nAddress: Ed Benedict Park\, SE 104th Ave & SE 
+ Powell Blvd\, Portland\, OR 97266\nWebsite: https://www.portland.gov/parks
+ /portland-memory-garden\nDetails: Therapeutic garden at Ed Benedict Park i
+ n outer SE Portland\, maintained with Friends of Portland Memory Garden. A
+ dded July 2026. Strong fit for low-energy\, anxiety-friendly\, accessible 
+ outdoor time.
 LOCATION:Ed Benedict Park\, SE 104th Ave & SE Powell Blvd\, Portland\, OR 9
  7266
 URL:https://www.portland.gov/parks/portland-memory-garden
@@ -106,14 +104,13 @@ DTSTART;TZID=America/Los_Angeles:20260913T113000
 DTEND;TZID=America/Los_Angeles:20260913T130000
 SUMMARY:Portland Memory Garden (Ed Benedict Park): National Grandparents Da
  y
-DESCRIPTION:Category: Parks & Nature\nCost: FREE\nNote: Entrance is free fo
- r all visitors.\nFormat: In-person\, outdoor\nInfo: Hollywood Ukulele perf
- orms. Hosted by Friends of Portland Memory Garden.\nAddress: Ed Benedict P
- ark\, SE 104th Ave & SE Powell Blvd\, Portland\, OR 97266\nWebsite: https:
- //www.portland.gov/parks/portland-memory-garden\nDetails: Therapeutic gard
- en at Ed Benedict Park in outer SE Portland\, maintained with Friends of P
- ortland Memory Garden. Added July 2026. Strong fit for low-energy\, anxiet
- y-friendly\, accessible outdoor time.
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nFormat: In-person\, outdo
+ or\nInfo: Hollywood Ukulele performs. Hosted by Friends of Portland Memory
+  Garden.\nAddress: Ed Benedict Park\, SE 104th Ave & SE Powell Blvd\, Port
+ land\, OR 97266\nWebsite: https://www.portland.gov/parks/portland-memory-g
+ arden\nDetails: Therapeutic garden at Ed Benedict Park in outer SE Portlan
+ d\, maintained with Friends of Portland Memory Garden. Added July 2026. St
+ rong fit for low-energy\, anxiety-friendly\, accessible outdoor time.
 LOCATION:Ed Benedict Park\, SE 104th Ave & SE Powell Blvd\, Portland\, OR 9
  7266
 URL:https://www.portland.gov/parks/portland-memory-garden

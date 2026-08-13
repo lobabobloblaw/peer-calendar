@@ -433,8 +433,9 @@ def generate_event_description(entry: dict, program: dict = None) -> tuple[str, 
     parts.append(f"Category: {category_name}")
     html_parts.append(f"<p><strong>Category:</strong> {html.escape(category_name)}</p>")
 
-    # Pricing
-    pricing = entry.get("pricing", {})
+    # Program pricing overrides a venue/resource's general pricing. This matters
+    # for cases such as a free-admission museum hosting a ticketed fundraiser.
+    pricing = program.get("cost") if program and program.get("cost") is not None else entry.get("pricing", {})
     if isinstance(pricing, dict):
         if "description" in pricing:
             parts.append(f"Cost: {pricing['description']}")
@@ -562,6 +563,11 @@ def create_vevent(
 
 WEEKDAY_INDEX = {"MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5, "SU": 6}
 
+# Versioned contract consumed by docs/index.html. Human-readable schedule text
+# remains in the feed for display, but clients should use ``resolved_schedule``
+# for recurrence math so every surface agrees with the ICS generator.
+SCHEDULE_SCHEMA_VERSION = 1
+
 # Recurring events with no schedule_start_date are anchored here rather than at
 # generation time. An RRULE runs forward from DTSTART indefinitely, so a fixed
 # anchor produces exactly the same series - but the output stops changing on
@@ -639,6 +645,132 @@ def _first_monthly_occurrence(
     return None
 
 
+def _end_day_offset(start_time: str, end_time: str) -> int:
+    """Return 1 when an event's end clock time falls on the following day."""
+    start_hour, start_minute = (int(part) for part in start_time.split(":"))
+    end_hour, end_minute = (int(part) for part in end_time.split(":"))
+    return int((end_hour, end_minute) <= (start_hour, start_minute))
+
+
+def resolve_recurring_schedule(
+    schedule: dict,
+    entry: dict,
+    today: date | None = None,
+) -> dict | None:
+    """Normalize a parsed recurring schedule for both ICS and JSON consumers.
+
+    The returned anchor is itself a valid recurrence occurrence. Returning
+    ``None`` means the schedule is too incomplete to publish, has an impossible
+    window, or has already ended. Keeping that decision here prevents the web
+    calendar and subscribed ICS feeds from interpreting the same source text
+    differently.
+    """
+    if not (
+        schedule.get("day")
+        and schedule.get("start_time")
+        and schedule.get("end_time")
+    ):
+        return None
+
+    days = [day for day in schedule["day"].split(",") if day in WEEKDAY_INDEX]
+    if not days:
+        return None
+
+    schedule_start = parse_date(entry.get("schedule_start_date"))
+    base_date = (
+        datetime(schedule_start.year, schedule_start.month, schedule_start.day)
+        if schedule_start else CALENDAR_EPOCH
+    )
+
+    if schedule.get("last_of_month"):
+        frequency = "monthly"
+        month_weeks = [-1]
+        first_occurrence = _first_monthly_occurrence(base_date, days, month_weeks)
+    elif schedule.get("week_of_month"):
+        frequency = "monthly"
+        month_weeks = list(schedule["week_of_month"])
+        first_occurrence = _first_monthly_occurrence(base_date, days, month_weeks)
+    else:
+        frequency = "weekly"
+        month_weeks = []
+        first_occurrence = _first_weekly_occurrence(base_date, days)
+
+    if first_occurrence is None:
+        return None
+
+    schedule_end = parse_date(entry.get("schedule_end_date"))
+    if schedule_end:
+        if schedule_end < (today or date.today()):
+            return None
+        if schedule_end < first_occurrence.date():
+            return None
+
+    start_time = schedule["start_time"]
+    end_time = schedule["end_time"]
+    return {
+        "type": "recurring",
+        "frequency": frequency,
+        "interval": max(1, int(schedule.get("interval", 1))),
+        "weekdays": days,
+        "month_weeks": month_weeks,
+        "anchor_date": first_occurrence.date().isoformat(),
+        "until_date": schedule_end.isoformat() if schedule_end else None,
+        "start_time": start_time,
+        "end_time": end_time,
+        "end_day_offset": _end_day_offset(start_time, end_time),
+    }
+
+
+def resolve_fixed_schedule(
+    dates: str | list,
+    schedule: str | None = None,
+    today: date | None = None,
+) -> dict | None:
+    """Normalize fixed dates, optionally applying a program's clock times.
+
+    This mirrors ``_make_date_event``: only a single-day program occurrence is
+    timed; date ranges and entry-level fixed dates remain all-day events.
+    """
+    date_items = [dates] if isinstance(dates, str) else dates
+    if not isinstance(date_items, list):
+        return None
+
+    parsed_times = parse_schedule(schedule) if schedule else {}
+    has_times = bool(parsed_times.get("start_time") and parsed_times.get("end_time"))
+    occurrences = []
+    for date_item in date_items:
+        if not isinstance(date_item, str):
+            continue
+        start_date, end_date = parse_date_string(date_item, today=today)
+        if not start_date:
+            continue
+        effective_end = end_date or start_date
+        timed = has_times and start_date == effective_end
+        start_time = parsed_times.get("start_time") if timed else None
+        end_time = parsed_times.get("end_time") if timed else None
+        occurrences.append({
+            "start_date": start_date.date().isoformat(),
+            "end_date": effective_end.date().isoformat(),
+            "all_day": not timed,
+            "start_time": start_time,
+            "end_time": end_time,
+            "end_day_offset": _end_day_offset(start_time, end_time) if timed else 0,
+        })
+
+    if not occurrences:
+        return None
+    return {"type": "fixed", "occurrences": occurrences}
+
+
+def _effective_schedule_entry(entry: dict, program: dict) -> dict:
+    """Return entry bounds with each program-level bound overriding its parent."""
+    effective_entry = dict(entry)
+    for key in ("schedule_start_date", "schedule_end_date"):
+        if program.get(key):
+            effective_entry[key] = program[key]
+    return effective_entry
+
+
 def _pacific_utc_offset(dt: datetime) -> int:
     """Hours to add to Pacific local time to get UTC (7 during PDT, 8 during PST).
 
@@ -674,60 +806,39 @@ def build_recurring_event(
     today: date = None,
 ) -> str | None:
     """Build a recurring VEVENT from parsed schedule data. Returns None if schedule is incomplete."""
-    if not (schedule.get("day") and schedule.get("start_time")):
+    resolved = resolve_recurring_schedule(schedule, entry, today=today)
+    if not resolved:
         return None
 
-    days = schedule["day"].split(",")
+    days = resolved["weekdays"]
 
     # Monthly rules use the "1WE"/"-1SU" BYDAY form rather than BYDAY + BYSETPOS.
     # BYSETPOS picks the Nth item out of the *combined* set, so "1st Tuesday and
     # 1st Saturday" written as BYDAY=TU,SA;BYSETPOS=1 collapses to whichever of
     # the two falls first in the month. Prefixed BYDAY values say what is meant.
-    if schedule.get("last_of_month"):
+    if resolved["month_weeks"] == [-1]:
         byday = ",".join(f"-1{d}" for d in days)
         rrule_parts = [f"FREQ=MONTHLY;BYDAY={byday}"]
-    elif schedule.get("week_of_month"):
-        weeks = schedule["week_of_month"]
+    elif resolved["month_weeks"]:
+        weeks = resolved["month_weeks"]
         byday = ",".join(f"{w}{d}" for d in days for w in weeks)
         rrule_parts = [f"FREQ=MONTHLY;BYDAY={byday}"]
     else:
-        rrule_parts = [f"FREQ=WEEKLY;BYDAY={schedule['day']}"]
+        rrule_parts = [f"FREQ=WEEKLY;BYDAY={','.join(days)}"]
 
-    if schedule.get("interval") and schedule["interval"] > 1:
-        rrule_parts.append(f"INTERVAL={schedule['interval']}")
+    if resolved["interval"] > 1:
+        rrule_parts.append(f"INTERVAL={resolved['interval']}")
 
-    schedule_start = parse_date(entry.get("schedule_start_date"))
-    base_date = (
-        datetime(schedule_start.year, schedule_start.month, schedule_start.day)
-        if schedule_start else CALENDAR_EPOCH
-    )
-
-    if schedule.get("last_of_month"):
-        first_occurrence = _first_monthly_occurrence(base_date, days, [-1])
-    elif schedule.get("week_of_month"):
-        first_occurrence = _first_monthly_occurrence(base_date, days, schedule["week_of_month"])
-    else:
-        first_occurrence = _first_weekly_occurrence(base_date, days)
-
-    if first_occurrence is None:
-        return None
-
-    schedule_end = parse_date(entry.get("schedule_end_date"))
-    if schedule_end:
-        if schedule_end < (today or date.today()):
-            # The window has closed - publishing it would put a finished series
-            # on the subscriber's calendar.
-            return None
-        if schedule_end < first_occurrence.date():
-            return None
-        end_date = datetime(schedule_end.year, schedule_end.month, schedule_end.day)
+    first_occurrence = datetime.fromisoformat(resolved["anchor_date"])
+    if resolved["until_date"]:
+        end_date = datetime.fromisoformat(resolved["until_date"])
         # RFC 5545: when DTSTART carries a TZID, UNTIL must be a UTC timestamp.
         rrule_parts.append(f"UNTIL={_local_end_of_day_utc(end_date)}")
 
     rrule = ";".join(rrule_parts)
 
-    start_time = schedule["start_time"].split(":")
-    end_time = schedule["end_time"].split(":") if schedule.get("end_time") else start_time
+    start_time = resolved["start_time"].split(":")
+    end_time = resolved["end_time"].split(":")
 
     dtstart = first_occurrence.replace(
         hour=int(start_time[0]), minute=int(start_time[1]), second=0, microsecond=0
@@ -735,7 +846,7 @@ def build_recurring_event(
     dtend = first_occurrence.replace(
         hour=int(end_time[0]), minute=int(end_time[1]), second=0, microsecond=0
     )
-    if dtend <= dtstart:
+    if resolved["end_day_offset"]:
         # Overnight session such as "12-12am" (noon to midnight)
         dtend += timedelta(days=1)
 
@@ -857,6 +968,7 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
             if not isinstance(program, dict):
                 continue
             program_name = program.get("name", name)
+            program_key = program.get("id", program_name)
             full_name = f"{name}: {program_name}" if program_name != name else name
 
             # Programs with fixed dates (a touring series, a season of one-offs)
@@ -871,7 +983,7 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
                     vevent = _make_date_event(
                         date_item, entry_id, full_name, description, html_desc,
                         program.get("location", address), website, category, platform,
-                        times=times, uid_suffix=f"{program_name}-", dtstamp=dtstamp,
+                        times=times, uid_suffix=f"{program_key}-", dtstamp=dtstamp,
                     )
                     if vevent:
                         events.append(vevent)
@@ -887,18 +999,13 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
             description, html_desc = generate_event_description(entry, program)
 
             # Merge program-level schedule bounds
-            effective_entry = entry
-            if program.get("schedule_start_date") or program.get("schedule_end_date"):
-                effective_entry = dict(entry)
-                for key in ("schedule_start_date", "schedule_end_date"):
-                    if program.get(key):
-                        effective_entry[key] = program[key]
+            effective_entry = _effective_schedule_entry(entry, program)
 
             vevent = build_recurring_event(
                 schedule=schedule, entry=effective_entry, summary=full_name,
                 description=description, html_desc=html_desc,
                 location=program.get("location", address),
-                uid=generate_uid(entry_id, program_name),
+                uid=generate_uid(entry_id, program_key),
                 website=website, category=category, platform=platform,
                 dtstamp=dtstamp,
             )
@@ -993,7 +1100,7 @@ def create_vcalendar(
     return header_str + "\r\n" + timezone + "\r\n" + "\r\n".join(events) + "\r\n" + footer_str
 
 
-def generate_json_feed(entries: list[dict]) -> dict:
+def generate_json_feed(entries: list[dict], today: date | None = None) -> dict:
     """Generate a JSON feed for web applications."""
     events = []
 
@@ -1021,6 +1128,7 @@ def generate_json_feed(entries: list[dict]) -> dict:
             "schedule": entry.get("schedule"),
             "schedule_start_date": entry.get("schedule_start_date"),
             "schedule_end_date": entry.get("schedule_end_date"),
+            "resolved_schedule": None,
             "flags": entry.get("flags", []),
             "last_verified": entry.get("last_verified"),
             "accessibility": entry.get("accessibility", []),
@@ -1031,6 +1139,12 @@ def generate_json_feed(entries: list[dict]) -> dict:
             "notes": entry.get("notes"),
             "practical_tips": entry.get("practical_tips"),
         }
+        if entry.get("dates"):
+            # Entry-level fixed dates are always all-day, matching ICS output.
+            event_data["resolved_schedule"] = resolve_fixed_schedule(
+                entry["dates"], today=today,
+            )
+
         # Add detected audience to programs
         if event_data["programs"]:
             enriched_programs = []
@@ -1038,11 +1152,27 @@ def generate_json_feed(entries: list[dict]) -> dict:
                 if isinstance(prog, dict):
                     prog_copy = dict(prog)
                     prog_copy["audience"] = get_program_audience(prog, entry)
+                    if prog.get("dates"):
+                        prog_copy["resolved_schedule"] = resolve_fixed_schedule(
+                            prog["dates"], prog.get("schedule"), today=today,
+                        )
+                    elif prog.get("schedule"):
+                        prog_copy["resolved_schedule"] = resolve_recurring_schedule(
+                            parse_schedule(prog["schedule"]),
+                            _effective_schedule_entry(entry, prog),
+                            today=today,
+                        )
+                    else:
+                        prog_copy["resolved_schedule"] = None
                     enriched_programs.append(prog_copy)
                 else:
                     # Program is just a string, skip enrichment
                     enriched_programs.append(prog)
             event_data["programs"] = enriched_programs
+        elif entry.get("schedule") and not entry.get("dates"):
+            event_data["resolved_schedule"] = resolve_recurring_schedule(
+                parse_schedule(entry["schedule"]), entry, today=today,
+            )
         events.append(event_data)
 
     # "As of" the newest verification date rather than the wall clock, so an
@@ -1050,6 +1180,7 @@ def generate_json_feed(entries: list[dict]) -> dict:
     verified_dates = [d for d in (parse_date(e.get("last_verified")) for e in entries) if d]
 
     return {
+        "schedule_schema_version": SCHEDULE_SCHEMA_VERSION,
         "generated": max(verified_dates).isoformat() if verified_dates else "",
         "count": len(events),
         "categories": CATEGORY_NAMES,

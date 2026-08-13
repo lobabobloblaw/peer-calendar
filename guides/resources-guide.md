@@ -2,7 +2,7 @@
 
 A comprehensive guide to free and affordable activities, services, and resources in the Portland metro area, with special attention to accessibility and mental health support.
 
-*Generated from verified data on August 10, 2026. 272 active resources across 9 categories.*
+*Generated from verified data on August 13, 2026. 272 active resources across 9 categories.*
 
 ## Contents
 
@@ -404,16 +404,15 @@ Peer-facilitated support groups since 2005. Typical attendance 10-25 people. Thr
 
 ### Dual Diagnosis Anonymous (DDA) Oregon
 
-- **Address:** 521 SW 11th Ave, 2nd Floor, Portland, OR 97205
 - **Phone:** 503-222-6484
-- **Website:** http://ddaoregon.com/
+- **Website:** https://ddainc.org/
 - **Cost:** FREE
 
-12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. Many additional meetings throughout Portland - see ddaoregon.com/meeting.htm for full schedule.
+12-Step plus 5 additional steps for co-occurring mental illness and substance use. Peer-led meetings. The former SW 11th office address and hours were removed because current official sources publish only a PO box, not a public office. The national in-person directory publishes start times but not end times; one-hour calendar blocks for those listings are start-time reminders, not confirmed durations.
 
-**What to know:** 17-step program designed for co-occurring mental health AND substance use. Daily meetings Mon-Fri plus Saturday.
+**What to know:** 17-step program designed for co-occurring mental health and substance use. Online meetings run every evening, with morning meetings except Friday; current open in-person meetings are listed above.
 
-**First visit:** Just show up to any meeting - daily noon meetings downtown most accessible
+**First visit:** Use the current in-person directory or join an online meeting. The current official site publishes each open meeting and the shared Zoom details.
 
 **Registration:** No registration needed
 
@@ -421,18 +420,31 @@ Peer-facilitated support groups since 2005. Typical attendance 10-25 people. Thr
 
 **Programs:**
 
-- **DDA at the 8x8:** Tuesdays 2-3pm | FREE | 8 NW 8th Ave, Portland
-- **DDA at the Mead Building:** Thursdays 11am-12pm | FREE | Mead Building Basement, Portland
-- **DDA at Garlington Wellness Center:** Fridays 11am-12pm | FREE | 3034 NE Martin Luther King Jr Blvd, Portland
-- **DDA at New Narrative:** Mondays 11am-12pm | FREE | 1952 SE 122nd Ave, Portland
-- **DDA at Club Hope (Gresham):** Tuesdays 5:30-6:30pm | FREE | 100 SE Cleveland Ave, Gresham
-- **DDA at True Colors Recovery:** Fridays 3-4pm | FREE | 3807 NE MLK Jr Blvd, Portland
+- **DDA at the 8x8:** Tuesdays 2pm | FREE | 8 NW 8th Ave, Portland
+- **DDA at the Mead Building:** Thursdays 11am | FREE | Mead Building Basement, Portland
+- **DDA at Garlington Wellness Center:** Fridays 11am | FREE | 3034 NE Martin Luther King Jr Blvd, Portland
+- **DDA at New Narrative:** Mondays 11am | FREE | 1952 SE 122nd Ave, Portland
+- **DDA at Club Hope (Gresham):** Tuesdays 5:30pm | FREE | 100 SE Cleveland Ave, Gresham
+- **DDA at True Colors Recovery:** Fridays 3pm | FREE | 3807 NE MLK Jr Blvd, Portland
 - **Saturday Meeting at Alano Club:** Saturdays 10-11am | FREE | Portland Alano Club, 909 NW 24th Ave (Board Room)
   Confirmed August 2026 on the Alano Club's own meeting grid (portlandalano.org/meetings).
 - **Thursday Meeting at Alano Club:** Thursdays 2-3pm | FREE | Portland Alano Club, 909 NW 24th Ave (Board Room)
   Listed in ddainc.org's June 2026 national directory AND on the Alano Club's own grid.
-- **Online DDA Meetings:** Daily 10am and 5pm PT | FREE | Zoom
-  Daily online meetings at 10am and 5pm Pacific, running since April 1, 2026 (ddainc.org/online-dda-meetings).
+- **DDA at Clackamas Transition Center:** Tuesdays 12pm | FREE | 2219 Kaen Rd, Oregon City
+- **DDA at 4D Recovery Clackamas:** Wednesdays 4pm | FREE | 11690 SE 82nd Ave, Happy Valley
+- **DDA at FolkTime Pink Church:** Tuesdays 1pm | FREE | 710 6th St, Oregon City
+- **DDA at Sandy Clinic:** Fridays 4pm | FREE | 39740 Pleasant St, Sandy
+- **Online DDA Morning Meetings - Sunday through Wednesday:** Sundays-Wednesdays 10-11am | FREE | Zoom
+  Zoom meeting ID 849 3539 5086; no passcode. Pacific time.
+- **Online DDA Women's Meeting - Thursday Morning:** Thursdays 10-11am | FREE | Zoom
+  Women-only. Zoom meeting ID 849 3539 5086; no passcode. Pacific time.
+  *For: Women*
+- **Online DDA Saturday Morning Meeting:** Saturdays 10-11am | FREE | Zoom
+  Zoom meeting ID 849 3539 5086; no passcode. There is currently no Friday 10am meeting. Pacific time.
+- **Online DDA Evening Meetings:** Daily 5-6pm | FREE | Zoom
+  Zoom meeting ID 849 3539 5086; no passcode. Pacific time.
+- **Online DDA Open Mic Fellowship:** Last Sunday of each month, 1-3pm | FREE | Zoom
+  Fellowship event open to all. Zoom meeting ID 849 3539 5086; no passcode. Pacific time.
 
 *Structured group · Anxiety-friendly, Good for isolation, Indoor · Near transit*
 
@@ -495,7 +507,7 @@ Free grief support in a beautiful, peaceful setting. The monthly Community Grief
 
 Registration required for most groups. All groups free and peer-led by trained volunteers with lived experience.
 
-**What to know:** Spanish-speaking group available. Women's group meets in-person in Milwaukie. Art with Heart creative group in Oregon City. Post Release group in Happy Valley. Game-based virtual group (Gather for Games). All peer-led. Affiliated groups include Suicide Bereavement and Compassionate Friends (grief).
+**What to know:** Spanish-speaking group available. Women's group meets in person in Milwaukie. Art with Heart meets in Oregon City but is directory-only until a current time is published. Affiliated grief groups include Suicide Bereavement and Compassionate Friends.
 
 **First visit:** Call or email to register for your first meeting
 
@@ -505,32 +517,37 @@ Registration required for most groups. All groups free and peer-led by trained v
 
 **Programs:**
 
-- **NAMI Connection Support Group:** Every Tuesday, 7-8:30pm | Virtual (Zoom)
+- **NAMI Connection Support Group - Tuesday:** Every Tuesday, 7-8:30pm | Virtual (Zoom)
+  For adults living with mental health conditions. Registration required.
+- **NAMI Connection Support Group - Wednesday:** Every Wednesday, 2-3:30pm | Virtual (Zoom)
+  For adults living with mental health conditions. Registration required.
+- **NAMI Connection Support Group - Sunday:** Every Sunday, 6-7:30pm | Virtual (Zoom)
   For adults living with mental health conditions. Registration required.
 - **Women (18+) Only Support Group:** 1st & 3rd Wednesdays, 5-6:30pm | Milwaukie (in-person)
   Bi-weekly peer-led recovery support
   *For: Women*
-- **NAMI Family Support Group:** 1st & 3rd Mondays, 6:30-8pm | Virtual (Zoom)
-  For anyone who cares about someone with mental health condition. Schedule confirmed 2026-08-07 via namior.org (1st & 3rd Mondays 6:30-8pm via Zoom).
-- **Art with Heart (Creative Support Group):** 2nd & 4th Thursdays | Oregon City (in-person, address provided upon registration)
-  Creative arts peer support group. Began January 22, 2026, confirmed via namicc.org July 2026. Listed as "Art with Heart" on website.
+- **NAMI Family Support Group - Tuesday:** Every Tuesday, 7-8:30pm | Virtual (Zoom)
+  For anyone who cares about someone with a mental health condition. Registration required through NAMI Clackamas.
+- **NAMI Family Support Group - Monday:** 1st & 3rd Mondays, 6:30-8pm | Virtual (Zoom)
+  For anyone who cares about someone with a mental health condition. Current schedule published by NAMI Oregon.
+- **NAMI Family Support Group - Saturday:** 3rd Saturdays, 9-10:30am | Virtual (Zoom)
+  For anyone who cares about someone with a mental health condition. Current schedule published by NAMI Oregon.
+- **Art with Heart (Creative Support Group):** Oregon City (in-person, address provided upon registration)
+  Creative arts peer support group meeting 2nd and 4th Thursdays. The current public page does not provide a time; register for current details. Kept directory-only so the calendar does not guess a time.
 - **NAMI Clackamas Conexion (Spanish-Speaking Support Group):** Every Wednesday, 7-8:30pm | Virtual (Zoom)
   Peer-led for Spanish-speaking adults with mental health conditions. Confirmed via NAMI Oregon directory.
   *For: Spanish-speaking*
 - **LGBTQ+ Support Group:** Every Monday, 7-8:30pm | Virtual (Zoom)
   Joint program with NAMI Multnomah - weekly for adults 18+. Schedule confirmed via namicc.org July 2026.
   *For: LGBTQ+*
-- **BIPOC Support Group:** 1st & 3rd Thursdays, 7-8:30pm | Virtual (Zoom)
-  Peer-led support group for BIPOC adults. Multi-county program. ⚠️ VERIFY by phone — not visible on namicc.org support groups page as of April 2026. Call 503-344-5050 to confirm still active.
-  *For: BIPOC*
-- **Suicide Bereavement Support Group:** Online 1st Tuesday & 2nd/4th Wednesdays; In-person 4th Sunday | Both virtual and in-person | In-person at NAMI Clackamas office (10202 SE 32nd Ave, Suite 501, Milwaukie)
-  Affiliated group (vetted but non-NAMI). Support for those bereaved by suicide. No registration required for in-person.
-- **Post Release Support Group:** Sundays (afternoons, times vary) | Happy Valley (in-person)
-  For previously incarcerated individuals. Contact NAMI Clackamas for details.
-- **Gather for Games:** Virtual (Zoom)
-  Game-based social and wellness gathering. Times vary — register via website.
+- **Suicide Bereavement Support - Tuesday Online:** 1st Tuesdays, 7-8:30pm | Virtual
+  Free affiliated support group for adults bereaved by suicide. Contact the facilitator through SBSNW for the meeting link.
+- **Suicide Bereavement Support - Wednesday Online:** 2nd & 4th Wednesdays, 6-7:45pm | Virtual
+  Free affiliated support group for adults bereaved by suicide. Contact the facilitator through SBSNW for the meeting link.
+- **Suicide Bereavement Support - Sunday In-Person:** 4th Sundays, 2-4pm | In-person | NAMI Clackamas office, 10202 SE 32nd Ave, Suite 501, Milwaukie
+  Free affiliated support group for adults bereaved by suicide. No registration required.
 - **Compassionate Friends:** 4th Tuesday, 7pm | NAMI Clackamas office (10202 SE 32nd Ave, Suite 501, Milwaukie)
-  Affiliated grief support group. No registration required.
+  Affiliated grief support group. No registration required. The public schedule lists a 7pm start but no end time; the one-hour calendar block is a start-time reminder.
 
 *Structured group · Anxiety-friendly, Good for isolation, Grief support, Indoor · Near transit*
 
@@ -749,13 +766,13 @@ Peer-led support groups for people who hear voices, see visions, or have unusual
 - **Website:** https://www.providence.org/locations/or/portland-medical-center/patients-and-visitors/grief-support-groups
 - **Cost:** FREE
 
-Open to anyone grieving the death of a significant person. Free and no registration required.
+Open to anyone grieving the death of a significant person. Services are free and professionally facilitated. Registration is required. Kept directory-only because Providence publishes current Portland dates and locations by phone.
 
 **What to know:** Hospital-based but open to anyone grieving. Professional facilitators. Groups meet at various times - call for schedule.
 
 **First visit:** Call 503-215-4622 for current group schedule and registration
 
-**Registration:** Call for current schedule
+**Registration:** Registration required; call 503-215-4622 for current Portland dates and locations
 
 **What to bring:** Nothing required
 
@@ -1324,7 +1341,7 @@ Nonprofit neighborhood center with sliding scale. Multnomah County Senior Center
 - **Website:** https://www.greshamseniorcenter.com/
 - **Hours:** Monday-Friday 8:30am-3pm
 
-**What to know:** Gresham's hub for 55+ activities. Tuesday Night Dance with live band is popular ($6). Monday Movie Matinees and Friday Speaker Series are free.
+**What to know:** Gresham's hub for 55+ activities. Tuesday Night Dance with live band is popular ($6). Movie Madness and Friday Speaker Series are free.
 
 **First visit:** Stop by during open hours (Mon-Fri 8:30am-3pm) to see the facility and learn about programs
 
@@ -1336,7 +1353,8 @@ Nonprofit neighborhood center with sliding scale. Multnomah County Senior Center
 
 - **Tuesday Night Dance:** Tuesdays 4:30-7pm | $6/person
   Live band (Desert Dogs); country and more; not on holidays
-- **Monday Movie Matinees:** Every other Monday 1-3pm | FREE
+- **Movie Madness:** 1st & 3rd Mondays, 1pm | FREE
+  End time varies; meets in the Chinook Room. Schedule confirmed in the official July/August 2026 newsletter.
 - **Friday Speaker Series:** Fridays 1-2:30pm | FREE (RSVP required)
 
 *Casual group · Good for isolation, Indoor, Low energy · For: Seniors (55+) · Wheelchair accessible, Near transit*
@@ -1928,12 +1946,12 @@ Community-supported yoga studio with scholarship memberships funded by other mem
 ### THPRD Fitness in the Park
 
 - **Phone:** 503-645-6433
-- **Website:** https://www.thprd.org/fitness-in-the-park
+- **Website:** https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
 - **Cost:** FREE
-- **Season:** Year-round; session schedules change each term. Summer 2026 runs June 15 - August 23, with no classes on June 19, July 3 or July 4. The prior Winter/Spring term ran January 12 - March 22.
+- **Season:** Year-round; session schedules change each term. Summer 2026 runs June 15 - August 23, with no classes on June 19, July 3 or July 4.
 - **Eligibility:** All ages (varies by class)
 
-Free fitness classes in Washington County parks. Focus on environmental justice areas to reduce barriers to access.
+Free fitness classes in Washington County parks. Focus on environmental justice areas to reduce barriers to access. The official schedule publishes start times but not class end times; one-hour calendar blocks are start-time reminders, not confirmed durations.
 
 **What to know:** Classes held in environmental justice areas to increase access
 
@@ -1943,16 +1961,32 @@ Free fitness classes in Washington County parks. Focus on environmental justice 
 
 **Programs:**
 
-- **Tai Chi at The Opal:** Mondays 4-5pm | The Opal
-- **Chair Yoga at Virginia Garcia Wellness Center:** Tuesdays 10:30-11:30am | Virginia Garcia Wellness Center
-- **Chair Fitness at The Barcelona:** Tuesdays 2:30-3:30pm | The Barcelona
-- **Zumba at Virginia Garcia Wellness Center:** Tuesdays 5:30-6:30pm | Virginia Garcia Wellness Center
-- **Tai Chi at Tallac Terrace:** Saturdays 11am-noon | Tallac Terrace
-- **Zumba at HMT Softball Concessions:** Sundays 11am-noon | HMT Softball Concessions
-- **Sweetheart Stroll:** 10-11:30am | Commonwealth Park
-  1.5-mile accessible walk
-- **Women's Wellness Fair:** 11am-1pm | Cedar Hills Recreation Center
-- **National Senior Health & Fitness Day:** Elsie Stuhr Center
+- **Total Body Circuit:** Mondays 6pm | Virginia Garcia Wellness Center
+- **Chair Yoga at Virginia Garcia Wellness Center:** Tuesdays 10:30am | Virginia Garcia Wellness Center
+- **Zumba at Virginia Garcia Wellness Center:** Tuesdays 5:30pm | Virginia Garcia Wellness Center
+- **Yoga, All Levels:** Tuesdays 6:30pm | Griffith Park
+- **Total Body Circuit:** Wednesdays 6pm | Virginia Garcia Wellness Center
+- **Zumba at Cooper Park:** Wednesdays 6:30pm | Cooper Park
+- **FUNctional Chair Fitness:** Thursdays 10am | Virginia Garcia Wellness Center
+- **Kid's Fit & Fun:** Thursdays 10:30am | Beaverton City Park
+- **Yoga, All Levels:** Thursdays 6:30pm | Bethany Creek Park
+- **Outdoor Circuit:** 9am | Ridgewood View Park
+- **Zumba at Virginia Garcia Wellness Center:** 5:30pm | Virginia Garcia Wellness Center
+- **Forest Bathing at Lowami Hart Woods Natural Area:** 9am | Lowami Hart Woods Natural Area
+- **Forest Bathing at Hyland Woods Natural Area:** 9am | Hyland Woods Natural Area
+- **Tai Chi at Melilah Park:** Sundays 10am | Melilah Park
+- **Walk with Me - Commonwealth Lake Park:** 9:30am | Commonwealth Lake Park
+- **Walk with Me - Rock Creek Trail:** 9:30am | Park trail entrance at NW 177th Ave & NW Blacktail Dr
+- **Walk with Me - Cedar Mill Creek Trail:** 9:30am | Sidewalk on Barnes Road at the bottom of the Market of Choice stairs
+- **Walk with Me - Waterhouse Park:** 9:30am | Waterhouse Soccer Field entrance
+- **Walk with Me - Bethany Creek Park/Yoshihara Trail:** 9:30am | Bethany Creek Park/Yoshihara Trail
+- **Walk with Me - Greenway Park:** 9:30am | Paved path/park entrance next to Fanno Farmhouse
+- **Walk with Me - Jenkins Estate:** 9:30am | Park trail entrance next to the lower lot
+- **Walk with Me - Jackie Husen Park:** 9:30am | Paved trailhead next to the parking lot
+- **Walk with Me - Lowami Hart Woods:** 9:30am | Park entrance near the benches across from the parking lot
+- **Walk with Me - Fanno Creek Trail:** 9:30am | Paved trailhead next to the parking lot
+- **Zumba from Around the World:** 5:30-7pm | Vose Elementary School
+  All-ages cultural celebration featuring THPRD Zumba instructors.
 
 *Casual group · Outdoor, Active/physical, Low energy · Wheelchair accessible*
 
@@ -3091,8 +3125,8 @@ Three free campus galleries featuring regional and national artists. Student exh
 
 **Programs:**
 
-- **Marcus Fischer: We Are the Confluence of Two Rivers - closing performance:** 11am | North View Gallery
-  Performance closing Fischer's exhibition at North View Gallery (on view as of July 2026).
+- **Marcus Fischer: We Are the Confluence of Two Rivers - closing performance:** 11am | Rock garden on the PCC Sylvania campus
+  Site-specific performance inaugurating North View Mobile during the gallery building's two-year renovation. The official page publishes an 11am start but no end time; the one-hour calendar block is a start-time reminder.
 
 *Do alone · Anxiety-friendly, Indoor, Low energy, Creative · Wheelchair accessible*
 
@@ -3320,6 +3354,8 @@ Free local history museum with excellent family events. Fossil Fest is a highlig
   Part 3 of the building's centennial lecture series. Time of day not published as of early August 2026.
 - **Making History Today: The Man Behind Tualatin Livability**
   Evening lecture. Time of day not published as of early August 2026.
+- **Heritage Evening:** 5:30-8:30pm | $50
+  The society's single annual fundraiser. Tickets are $50. The 2026 event is Friday, September 11, 2026, 5:30-8:30pm, with a "Half a Grand" raffle; tickets are on sale at tualatinhistory.org/heritage-evening. The 2025 edition was September 5 and featured Oregon Cowboy Poet Tom Swearingen.
 
 *Do alone · Family-friendly, Indoor · Wheelchair accessible*
 
@@ -3967,11 +4003,17 @@ Mt. Hood corridor food pantry serving Sandy and surrounding communities. Open We
 - **Website:** https://sikhcenteroforegon.com/
 - **Cost:** FREE always
 - **Hours:** Gurdwara open 7 days 7am-9pm
-- **Schedule:** Sundays 10:30am-2:15pm; Fridays 8pm (after evening service)
 
 Free vegetarian meals based on 500-year-old Sikh tradition (Langar). 150-200 people served weekly. All welcome regardless of religion. Remove shoes, cover head (scarves provided). Food served in separate area - no need to attend religious service.
 
-**Tips:** Free vegetarian meals Sundays 10:30am-2:15pm. All welcome regardless of religion. Remove shoes and cover head (scarves provided). Food served in separate area - no need to attend religious service. Gurdwara open daily 7am-9pm.
+**Tips:** Free vegetarian meals begin Sundays at 10:30am and Fridays at 8pm. All welcome regardless of religion. Remove shoes and cover head (scarves provided). Food is served in a separate area - no need to attend religious service. Check WhatsApp announcements for Friday changes. Gurdwara open daily 7am-9pm.
+
+**Programs:**
+
+- **Sunday Langar:** Sundays 10:30am
+  Begins at 10:30am and continues onward. The one-hour calendar block is a start-time reminder, not a claimed ending time.
+- **Friday Langar:** Fridays 8pm
+  Begins at 8pm and continues onward. Check the center's WhatsApp announcements for changes. The one-hour calendar block is a start-time reminder, not a claimed ending time.
 
 *Casual group · Indoor, Newcomer-friendly, Good for isolation · Wheelchair accessible*
 
@@ -5694,7 +5736,7 @@ Oregon seniors 65+ can audit college classes free. Great for lifelong learners.
 - **Cost:** FREE with Multnomah County Library card
 - **Eligibility:** Multnomah County Library cardholder
 
-Free cultural passes for Multnomah County Library cardholders. Provides online access to free tickets for 15 local cultural attractions including Portland Art Museum, Portland Japanese Garden, Artists Repertory Theatre, Portland Opera, and more. Outstanding value for anyone with a library card.
+Free cultural passes for Multnomah County Library cardholders. Provides online access to free tickets for 14 currently operating cultural attractions including Portland Art Museum, Portland Japanese Garden, Artists Repertory Theatre, Portland Opera, and more. The library's page still lists permanently closed Five Oaks Museum, which is excluded here.
 
 **What to know:** One pass per attraction per calendar year. Up to 2 reservations at a time. Once you print or download a pass, you cannot cancel. Passes are limited - book as soon as dates open.
 
@@ -5708,8 +5750,6 @@ Free cultural passes for Multnomah County Library cardholders. Provides online a
   Pass admits 2 adults
 - **Boom Arts**
   Pass admits 2 people
-- **Five Oaks Museum**
-  Pass admits 2 adults; youth 17 and under always free
 - **Friends of Chamber Music**
   Pass admits 2 adults; call 503.224.9842 one week prior
 - **Japanese American Museum of Oregon**

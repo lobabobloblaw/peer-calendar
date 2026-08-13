@@ -37,7 +37,7 @@ python generate_calendar.py --output ./my-calendars
 - `output/events.ics` - Festivals, art walks, seasonal events
 - `output/fitness_wellness.ics` - Yoga, running groups, etc.
 - `output/all-events.ics` - Combined calendar with everything
-- `output/events.json` - JSON feed for web applications (if --json flag used)
+- `output/events.json` - JSON feed for web applications (if --json flag used), including versioned `resolved_schedule` data shared with the browser
 
 **Calendar Features:**
 - Recurring events with proper iCal RRULE support (weekly, monthly, etc.)
@@ -122,6 +122,6 @@ output/                 # Generated calendar files
 
 ## Development
 
-The scripts use standard Python 3.13+ features and depend only on PyYAML for parsing the source data. Calendar generation uses the iCal standard (RFC 5545) for maximum compatibility.
+The scripts use standard Python 3.13+ features and depend on PyYAML and python-dateutil. Calendar generation uses the iCal standard (RFC 5545) for maximum compatibility.
 
-To add new event parsing logic, modify the `parse_schedule()` and `entry_to_events()` functions in `generate_calendar.py`.
+To add schedule parsing logic, update `parse_schedule()` and the canonical resolver in `generate_calendar.py`, then extend both `test_schedule_parsing.py` and `test_web_schedule_parity.mjs`. The browser consumes `resolved_schedule`; it must not add a second natural-language parser.

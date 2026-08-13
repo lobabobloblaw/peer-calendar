@@ -2171,6 +2171,7 @@
                 <div class="updates-section">
                     <h2>Updates <span id="stats-inline" style="font-weight: normal; font-size: 0.85em; color: var(--text-muted);"></span></h2>
                     <ul class="updates-list">
+                        <li><span class="update-date">Aug 13</span> Added current THPRD summer classes and Tualatin Heritage Evening; corrected NAMI Clackamas, DDA, Sikh langar, Providence, and Gresham Movie Madness details; unified website and subscription recurrence handling.</li>
                         <li><span class="update-date">Aug 10</span> Calendar feeds refreshed</li>
                         <li><span class="update-date">Aug 6</span> August web-verification pass: Alano Club of Portland is now on the calendar — 61 programs from its weekly grid (AA, NA, Al-Anon, SMART Recovery, ACA, CODA, DDA and more). DDA Oregon lineup reconciled with the national directory; 4D Recovery's Gresham drop-in corrected (open daily 2-10pm); Sisters of the Road relocation confirmed; Lloyd Center's final walk added for Aug 8. Also: 171 resources geocoded or refreshed, so map coverage is much fuller.</li>
                         <li><span class="update-date">Aug 6</span> Site updates: Today / This Weekend quick filters, 'Verified on' dates for resources, and shareable links for individual events.</li>
@@ -2693,414 +2694,221 @@
         const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
                            'July', 'August', 'September', 'October', 'November', 'December'];
 
-        // Parse schedule strings like "1st & 3rd Wednesdays, 2-3:30pm"
-        function parseSchedule(schedule) {
-            if (!schedule) return null;
+        // The Python generator is the single source of truth for interpreting raw
+        // schedule text. The browser only expands its versioned, resolved contract.
+        const resolvedWeekdayNumbers = {
+            SU: 0, MO: 1, TU: 2, WE: 3, TH: 4, FR: 5, SA: 6
+        };
 
-            const result = { ordinals: [], days: [], startTime: null, endTime: null, weekly: false };
-            const lower = schedule.toLowerCase();
-
-            // Day name mappings (including abbreviations)
-            const dayMap = { 'sunday': 0, 'monday': 1, 'tuesday': 2, 'wednesday': 3,
-                          'thursday': 4, 'friday': 5, 'saturday': 6,
-                          'sundays': 0, 'mondays': 1, 'tuesdays': 2, 'wednesdays': 3,
-                          'thursdays': 4, 'fridays': 5, 'saturdays': 6,
-                          'sun': 0, 'mon': 1, 'tue': 2, 'wed': 3, 'thu': 4, 'fri': 5, 'sat': 6 };
-
-            // Day ranges first: "Mon-Fri", "Sat-Sun", "Monday-Friday". Individual day
-            // matching below would otherwise pick up only the two endpoints of a range
-            // and render "Mon-Fri 8am-5pm" as Monday and Friday only.
-            const foundDays = new Set();
-            const dayCodesOrdered = [1, 2, 3, 4, 5, 6, 0]; // Mon=1 through Sun=0
-            const abbrevMap = {'mon': 0, 'tue': 1, 'wed': 2, 'thu': 3, 'fri': 4, 'sat': 5, 'sun': 6};
-            const dayWord = '(mon|tue|wed|thu|fri|sat|sun)(?:day|sday|nesday|rsday|urday)?s?';
-            const rangeSpans = [];
-            const rangeRe = new RegExp(dayWord + '\\s*[-\u2013]\\s*' + dayWord, 'g');
-            let rangeMatch;
-            while ((rangeMatch = rangeRe.exec(lower)) !== null) {
-                const startIdx = abbrevMap[rangeMatch[1]];
-                const endIdx = abbrevMap[rangeMatch[2]];
-                const span = [];
-                if (startIdx <= endIdx) {
-                    for (let i = startIdx; i <= endIdx; i++) span.push(i);
-                } else {
-                    for (let i = startIdx; i < 7; i++) span.push(i);
-                    for (let i = 0; i <= endIdx; i++) span.push(i);
-                }
-                span.forEach(i => foundDays.add(dayCodesOrdered[i]));
-                rangeSpans.push([rangeMatch.index, rangeMatch.index + rangeMatch[0].length]);
+        function localDateFromIso(value) {
+            if (typeof value !== 'string') return null;
+            const match = value.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+            if (!match) return null;
+            const year = Number(match[1]);
+            const month = Number(match[2]);
+            const day = Number(match[3]);
+            const parsed = new Date(year, month - 1, day);
+            if (parsed.getFullYear() !== year || parsed.getMonth() !== month - 1 || parsed.getDate() !== day) {
+                return null;
             }
-
-            // Individual days (supports "Tue/Thu", "Tue & Thu", "Tuesday and Thursday"),
-            // skipping day names already consumed by a range above.
-            for (const [name, num] of Object.entries(dayMap)) {
-                if (foundDays.has(num)) continue;
-                const regex = new RegExp('\\b' + name + '\\b', 'gi');
-                let m;
-                while ((m = regex.exec(lower)) !== null) {
-                    if (rangeSpans.some(([s, e]) => m.index >= s && m.index < e)) continue;
-                    foundDays.add(num);
-                    break;
-                }
-            }
-            result.days = Array.from(foundDays).sort((a, b) => a - b);
-
-            // Handle "Weekdays" → Mon-Fri
-            if (lower.includes('weekdays') && result.days.length === 0) {
-                result.days = [1, 2, 3, 4, 5]; // Mon-Fri
-            }
-
-            // Handle "Daily" schedules - return special marker. Only when no explicit
-            // days were found, so "Fri-Sun (check Facebook for daily schedule)" stays
-            // a three-day event rather than becoming an everyday one.
-            if (/\bdaily\b/.test(lower) && result.days.length === 0) {
-                result.daily = true;
-            }
-
-            // Find ordinals (1st, 2nd, 3rd, 4th, Last)
-            const ordinalMatch = lower.match(/(\d+)(?:st|nd|rd|th)/g);
-            if (ordinalMatch) {
-                result.ordinals = ordinalMatch.map(o => parseInt(o));
-            }
-            // Check for "Last" (e.g., "Last Sunday of each month")
-            if (/\blast\b/i.test(lower)) {
-                result.lastOfMonth = true;
-            }
-
-            // Check for "every" or bare day name (weekly)
-            // "Every Monday" or just "Mondays 9-11am" both mean weekly
-            if (lower.includes('every')) {
-                result.weekly = true;
-            } else if (result.days.length > 0 && result.ordinals.length === 0 && !result.lastOfMonth) {
-                // Has days but no ordinals like "1st" and not "Last" - treat as weekly
-                result.weekly = true;
-            }
-
-            // Parse time - handles formats like "10am-7pm", "2-3:30pm", "10:00am-7:00pm", "noon-1pm"
-            // First, normalize noon/midnight to 12pm/12am
-            let normalizedSchedule = schedule
-                .replace(/\bnoon\b/gi, '12pm')
-                .replace(/\bmidnight\b/gi, '12am');
-
-            const timeMatch = normalizedSchedule.match(/(\d{1,2})(?::(\d{2}))?\s*(am|pm)?\s*-\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm)?/i);
-            if (timeMatch) {
-                let startHour = parseInt(timeMatch[1]);
-                const startMin = timeMatch[2] ? parseInt(timeMatch[2]) : 0;
-                const startPeriod = timeMatch[3]?.toLowerCase();
-                let endHour = parseInt(timeMatch[4]);
-                const endMin = timeMatch[5] ? parseInt(timeMatch[5]) : 0;
-                const endPeriod = timeMatch[6]?.toLowerCase();
-
-                // Infer start period when only end has one (must do BEFORE converting end)
-                // Compare raw 12-hour values to determine if start should be same period or AM
-                const rawEndHour = parseInt(timeMatch[4]);
-                if (!startPeriod && endPeriod) {
-                    // "2-10pm" → both PM (2pm-10pm) because 2 < 10
-                    // "10-7pm" → AM to PM (10am-7pm) because 10 > 7
-                    if (startHour <= rawEndHour && endPeriod === 'pm' && startHour < 12) {
-                        // Same period: e.g., "2-10pm" means 2pm-10pm
-                        startHour += 12;
-                    }
-                    // else: different periods, start stays as AM (e.g., "10-7pm" = 10am-7pm)
-                }
-
-                // Apply am/pm conversion for explicit periods
-                if (startPeriod === 'pm' && startHour < 12) startHour += 12;
-                if (startPeriod === 'am' && startHour === 12) startHour = 0;
-                if (endPeriod === 'pm' && endHour < 12) endHour += 12;
-                if (endPeriod === 'am' && endHour === 12) endHour = 0;
-
-                result.startTime = `${startHour.toString().padStart(2, '0')}:${startMin.toString().padStart(2, '0')}`;
-                result.endTime = `${endHour.toString().padStart(2, '0')}:${endMin.toString().padStart(2, '0')}`;
-            } else {
-                // Try matching single time without range (e.g., "10am", "6pm", "6:15pm")
-                const singleTimeMatch = normalizedSchedule.match(/\b(\d{1,2})(?::(\d{2}))?\s*(am|pm)\b/i);
-                if (singleTimeMatch) {
-                    let hour = parseInt(singleTimeMatch[1]);
-                    const min = singleTimeMatch[2] ? parseInt(singleTimeMatch[2]) : 0;
-                    const period = singleTimeMatch[3]?.toLowerCase();
-
-                    if (period === 'pm' && hour < 12) hour += 12;
-                    if (period === 'am' && hour === 12) hour = 0;
-
-                    result.startTime = `${hour.toString().padStart(2, '0')}:${min.toString().padStart(2, '0')}`;
-                    // Assume 1 hour duration for single time
-                    const endHour = hour + 1;
-                    result.endTime = `${endHour.toString().padStart(2, '0')}:${min.toString().padStart(2, '0')}`;
-                }
-            }
-
-            return result;
+            return parsed;
         }
 
-        // Get dates for a schedule in a given month
-        function getScheduleDates(schedule, year, month) {
-            const parsed = parseSchedule(schedule);
-            // Require a start time to generate calendar events
-            if (!parsed || !parsed.startTime) return [];
-            // Require either days of week OR daily flag
-            if (parsed.days.length === 0 && !parsed.daily) return [];
+        function civilDayNumber(date) {
+            return Math.floor(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / 86400000);
+        }
 
+        function mondayWeekNumber(date) {
+            const mondayOffset = (date.getDay() + 6) % 7;
+            return civilDayNumber(date) - mondayOffset;
+        }
+
+        function resolvedWeekdays(value) {
+            const codes = Array.isArray(value)
+                ? value
+                : (typeof value === 'string' ? value.split(',') : []);
+            return codes
+                .map(code => resolvedWeekdayNumbers[String(code).trim().toUpperCase()])
+                .filter(day => day !== undefined);
+        }
+
+        function isResolvedOccurrenceDate(date, schedule, anchorDate, untilDate) {
+            const dayNumber = civilDayNumber(date);
+            const anchorDay = anchorDate ? civilDayNumber(anchorDate) : null;
+            const untilDay = untilDate ? civilDayNumber(untilDate) : null;
+            if (anchorDay !== null && dayNumber < anchorDay) return false;
+            if (untilDay !== null && dayNumber > untilDay) return false;
+
+            const frequency = String(schedule.frequency || '').toLowerCase();
+            const interval = Math.max(1, Number.parseInt(schedule.interval, 10) || 1);
+            const weekdays = resolvedWeekdays(schedule.weekdays);
+            if (frequency !== 'daily' && !weekdays.includes(date.getDay())) return false;
+            if (frequency === 'daily' && weekdays.length > 0 && !weekdays.includes(date.getDay())) return false;
+
+            if (frequency === 'daily') {
+                return anchorDay === null || (dayNumber - anchorDay) % interval === 0;
+            }
+
+            if (frequency === 'weekly') {
+                // RFC-style weekly intervals advance at Monday week boundaries,
+                // not in rolling seven-day windows from each weekday occurrence.
+                if (!anchorDate) return interval === 1;
+                const elapsedWeeks = (mondayWeekNumber(date) - mondayWeekNumber(anchorDate)) / 7;
+                return elapsedWeeks >= 0 && elapsedWeeks % interval === 0;
+            }
+
+            if (frequency === 'monthly') {
+                if (anchorDate) {
+                    const elapsedMonths = (date.getFullYear() - anchorDate.getFullYear()) * 12
+                        + date.getMonth() - anchorDate.getMonth();
+                    if (elapsedMonths < 0 || elapsedMonths % interval !== 0) return false;
+                } else if (interval !== 1) {
+                    return false;
+                }
+
+                const requestedWeeks = (Array.isArray(schedule.month_weeks) ? schedule.month_weeks : [])
+                    .map(value => Number.parseInt(value, 10))
+                    .filter(value => value === -1 || (value >= 1 && value <= 5));
+                if (requestedWeeks.length === 0) return false;
+                const weekOfMonth = Math.floor((date.getDate() - 1) / 7) + 1;
+                const isLastWeekday = new Date(
+                    date.getFullYear(), date.getMonth(), date.getDate() + 7
+                ).getMonth() !== date.getMonth();
+                return requestedWeeks.includes(weekOfMonth)
+                    || (requestedWeeks.includes(-1) && isLastWeekday);
+            }
+
+            return false;
+        }
+
+        function resolvedScheduleDates(schedule, year, month) {
+            if (!schedule || typeof schedule !== 'object') return [];
+            const type = String(schedule.type || '').toLowerCase();
+            const anchorDate = localDateFromIso(schedule.anchor_date);
+            const untilDate = localDateFromIso(schedule.until_date);
+
+            if (type === 'fixed') {
+                const occurrences = Array.isArray(schedule.occurrences) ? schedule.occurrences : [];
+                return occurrences.flatMap(occurrence => {
+                    const details = typeof occurrence === 'string' ? { start_date: occurrence } : occurrence;
+                    if (!details || typeof details !== 'object') return [];
+                    const firstDate = localDateFromIso(details.start_date ?? details.date);
+                    const lastDate = localDateFromIso(details.end_date ?? details.start_date ?? details.date);
+                    if (!firstDate || !lastDate || civilDayNumber(lastDate) < civilDayNumber(firstDate)) return [];
+                    const expanded = [];
+                    for (let dayNumber = civilDayNumber(firstDate); dayNumber <= civilDayNumber(lastDate); dayNumber++) {
+                        const utcDate = new Date(dayNumber * 86400000);
+                        const date = new Date(
+                            utcDate.getUTCFullYear(), utcDate.getUTCMonth(), utcDate.getUTCDate()
+                        );
+                        if (date.getFullYear() !== year || date.getMonth() !== month) continue;
+                        if (anchorDate && dayNumber < civilDayNumber(anchorDate)) continue;
+                        if (untilDate && dayNumber > civilDayNumber(untilDate)) continue;
+                        expanded.push({
+                            date,
+                            startTime: details.start_time ?? schedule.start_time ?? null,
+                            endTime: details.end_time ?? schedule.end_time ?? null,
+                            endDayOffset: Number(details.end_day_offset ?? schedule.end_day_offset) || 0,
+                            allDay: Boolean(details.all_day),
+                            occurrenceStartDate: firstDate,
+                            occurrenceEndDate: lastDate
+                        });
+                    }
+                    return expanded;
+                });
+            }
+
+            if (type !== 'recurring' || !schedule.start_time || !anchorDate) return [];
             const dates = [];
-            const firstDay = new Date(year, month, 1);
-            const lastDay = new Date(year, month + 1, 0);
-
-            // Handle daily schedules
-            if (parsed.daily) {
-                let date = new Date(firstDay);
-                while (date <= lastDay) {
-                    dates.push({
-                        date: new Date(date),
-                        startTime: parsed.startTime,
-                        endTime: parsed.endTime
-                    });
-                    date.setDate(date.getDate() + 1);
-                }
-                return dates;
+            const lastDay = new Date(year, month + 1, 0).getDate();
+            for (let day = 1; day <= lastDay; day++) {
+                const date = new Date(year, month, day);
+                if (!isResolvedOccurrenceDate(date, schedule, anchorDate, untilDate)) continue;
+                dates.push({
+                    date,
+                    startTime: schedule.start_time,
+                    endTime: schedule.end_time ?? null,
+                    endDayOffset: Number(schedule.end_day_offset) || 0,
+                    allDay: false
+                });
             }
-
-            // For "Last X of month", find the last occurrence of each day
-            if (parsed.lastOfMonth) {
-                for (const dayNum of parsed.days) {
-                    // Find last occurrence of this day in the month
-                    let lastOccurrence = null;
-                    let date = new Date(firstDay);
-                    while (date <= lastDay) {
-                        if (date.getDay() === dayNum) {
-                            lastOccurrence = new Date(date);
-                        }
-                        date.setDate(date.getDate() + 1);
-                    }
-                    if (lastOccurrence) {
-                        dates.push({
-                            date: lastOccurrence,
-                            startTime: parsed.startTime,
-                            endTime: parsed.endTime
-                        });
-                    }
-                }
-                return dates;
-            }
-
-            // Find all occurrences of the specified days in this month
-            let date = new Date(firstDay);
-
-            while (date <= lastDay) {
-                // Check if this day of week is in our list
-                if (parsed.days.includes(date.getDay())) {
-                    const weekNum = Math.floor((date.getDate() - 1) / 7) + 1;
-
-                    if (parsed.weekly || parsed.ordinals.includes(weekNum)) {
-                        dates.push({
-                            date: new Date(date),
-                            startTime: parsed.startTime,
-                            endTime: parsed.endTime
-                        });
-                    }
-                }
-                date.setDate(date.getDate() + 1);
-            }
-
             return dates;
-        }
-
-        // Check if a month is within a seasonal date range mentioned in text
-        // Returns true if month is valid, false if text specifies a different season
-        function isMonthInSeasonalRange(text, month) {
-            if (!text) return true;
-            const lower = text.toLowerCase();
-
-            // Season keyword mapping (month ranges)
-            // Summer: June-August, Winter: December-February, Spring: March-May, Fall: September-November
-            if (/\bsummer\b/.test(lower)) {
-                return month >= 5 && month <= 7; // June (5) through August (7)
-            }
-            if (/\bwinter\b/.test(lower) && !/winter\s*\d{4}/.test(lower)) {
-                // Winter spans year boundary: December, January, February
-                return month === 11 || month <= 1; // December (11), January (0), February (1)
-            }
-            if (/\bspring\b/.test(lower) && !/spring\s*\d{4}/.test(lower)) {
-                return month >= 2 && month <= 4; // March (2) through May (4)
-            }
-            if (/\bfall\b|\bautumn\b/.test(lower)) {
-                return month >= 8 && month <= 10; // September (8) through November (10)
-            }
-
-            // Month name to number mapping
-            const monthNames = {
-                'january': 0, 'february': 1, 'march': 2, 'april': 3,
-                'may': 4, 'june': 5, 'july': 6, 'august': 7,
-                'september': 8, 'october': 9, 'november': 10, 'december': 11,
-                'jan': 0, 'feb': 1, 'mar': 2, 'apr': 3,
-                'jun': 5, 'jul': 6, 'aug': 7, 'sep': 8, 'sept': 8,
-                'oct': 9, 'nov': 10, 'dec': 11
-            };
-
-            // Look for month range patterns like "July-August", "June through September", "May-October", "June 3 - July 31"
-            const rangePatterns = [
-                /\b(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)(?:\s+\d{1,2})?\s*[-–—through]+\s*(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)(?:\s+\d{1,2})?\b/gi
-            ];
-
-            for (const pattern of rangePatterns) {
-                const match = lower.match(pattern);
-                if (match) {
-                    // Extract start and end months, stripping any day numbers
-                    const parts = match[0].split(/[-–—]|through/i).map(s => s.trim().replace(/\s+\d+$/, ''));
-                    if (parts.length >= 2) {
-                        const startMonth = monthNames[parts[0]];
-                        const endMonth = monthNames[parts[1]];
-                        if (startMonth !== undefined && endMonth !== undefined) {
-                            // Check if current month is in range
-                            if (startMonth <= endMonth) {
-                                // Normal range (e.g., May-October)
-                                return month >= startMonth && month <= endMonth;
-                            } else {
-                                // Wrapping range (e.g., October-March)
-                                return month >= startMonth || month <= endMonth;
-                            }
-                        }
-                    }
-                }
-            }
-
-            // No seasonal restriction found
-            return true;
-        }
-
-        // Parse a fixed date string such as "May 17, 2026" into a local Date.
-        // Returns null when the string has no month/day pair.
-        function parseFixedDate(str) {
-            if (!str || typeof str !== 'string') return null;
-            const months = ['january','february','march','april','may','june',
-                            'july','august','september','october','november','december'];
-            const m = str.toLowerCase().match(/\b([a-z]{3,9})\s+(\d{1,2})\b(?:\s*,?\s*(\d{4}))?/);
-            if (!m) return null;
-            const monthIdx = months.findIndex(name => name.startsWith(m[1]) && m[1].length >= 3);
-            if (monthIdx === -1) return null;
-            const year = m[3] ? parseInt(m[3]) : new Date().getFullYear();
-            return new Date(year, monthIdx, parseInt(m[2]));
         }
 
         // Generate all events for a month
         function generateMonthEvents(year, month, applyQuickFilter = true) {
-            if (!eventsData) return [];
+            if (!eventsData || eventsData.schedule_schema_version !== 1) return [];
 
             const events = [];
 
             for (const entry of eventsData.events) {
-                // Skip entries with dates/date fields - these are one-time events shown in Seasonal Events only
-                if (entry.dates || entry.date) continue;
-
                 // Apply all filters
                 if (!matchesAllFilters(entry)) continue;
 
-                // Handle programs with schedules
+                // Program-level resolved schedules take precedence whenever an
+                // entry contains programs. Raw `schedule`/`dates` remain in the
+                // feed for display, but are never interpreted in the browser.
                 if (entry.programs && entry.programs.length > 0) {
                     for (const program of entry.programs) {
-                        // Programs pinned to specific dates (a touring series, a season
-                        // of one-offs) land on their actual day rather than recurring.
-                        if (program.dates) {
-                            const items = Array.isArray(program.dates) ? program.dates : [program.dates];
-                            const times = program.schedule ? parseSchedule(program.schedule) : null;
-                            for (const item of items) {
-                                const d = parseFixedDate(item);
-                                if (!d || d.getFullYear() !== year || d.getMonth() !== month) continue;
-                                const programName = program.name || entry.title;
-                                events.push({
-                                    title: programName !== entry.title ? `${entry.title}: ${programName}` : programName,
-                                    org: null,
-                                    date: d,
-                                    startTime: times?.startTime || null,
-                                    endTime: times?.endTime || null,
-                                    color: entry.color,
-                                    category: entry.categoryName,
-                                    location: program.location || entry.address,
-                                    format: program.format,
-                                    description: program.notes || entry.notes || null,
-                                    website: entry.website,
-                                    sourceEvent: entry
-                                });
-                            }
-                            continue;
-                        }
-                        if (program.schedule) {
-                            // Check if this month is within the program's seasonal range
-                            // Always check schedule (where month ranges are defined) plus notes
-                            const seasonalText = (program.schedule || '') + ' ' + (program.notes || '');
-                            if (!isMonthInSeasonalRange(seasonalText, month)) continue;
-
-                            const dates = getScheduleDates(program.schedule, year, month);
-                            // Filter out dates before schedule_start_date or after schedule_end_date
-                            // Program-level dates take precedence over entry-level dates
-                            const startStr = program.schedule_start_date || entry.schedule_start_date;
-                            const endStr = program.schedule_end_date || entry.schedule_end_date;
-                            const startDate = startStr ? new Date(startStr) : null;
-                            const endDate = endStr ? new Date(endStr) : null;
-                            for (const d of dates) {
-                                if (startDate && d.date < startDate) continue;
-                                if (endDate && d.date > endDate) continue;
-                                // Build description: prefer program notes, fall back to entry context
-                                // practical_tips can be a string or an object with good_to_know
-                                const practicalTip = typeof entry.practical_tips === 'string'
-                                    ? entry.practical_tips
-                                    : entry.practical_tips?.good_to_know;
-                                const description = program.notes
-                                    || practicalTip
-                                    || entry.notes
-                                    || null;
-                                // Prepend org name to program title for context
-                                const programName = program.name || entry.title;
-                                const displayTitle = programName !== entry.title
-                                    ? `${entry.title}: ${programName}`
-                                    : programName;
-                                events.push({
-                                    title: displayTitle,
-                                    org: null,  // Org is now included in title
-                                    date: d.date,
-                                    startTime: d.startTime,
-                                    endTime: d.endTime,
-                                    color: entry.color,
-                                    category: entry.categoryName,
-                                    location: program.location || entry.address,
-                                    format: program.format,
-                                    description: description,
-                                    website: entry.website,
-                                    sourceEvent: entry
-                                });
-                            }
+                        if (!program || typeof program !== 'object') continue;
+                        const dates = resolvedScheduleDates(program.resolved_schedule, year, month);
+                        const practicalTip = typeof entry.practical_tips === 'string'
+                            ? entry.practical_tips
+                            : entry.practical_tips?.good_to_know;
+                        const description = program.notes || practicalTip || entry.notes || null;
+                        const programName = program.name || entry.title;
+                        const displayTitle = programName !== entry.title
+                            ? `${entry.title}: ${programName}`
+                            : programName;
+                        for (const occurrence of dates) {
+                            events.push({
+                                title: displayTitle,
+                                org: null,
+                                date: occurrence.date,
+                                startTime: occurrence.startTime,
+                                endTime: occurrence.endTime,
+                                endDayOffset: occurrence.endDayOffset,
+                                allDay: occurrence.allDay,
+                                occurrenceStartDate: occurrence.occurrenceStartDate,
+                                occurrenceEndDate: occurrence.occurrenceEndDate,
+                                color: entry.color,
+                                category: entry.categoryName,
+                                location: program.location || entry.address,
+                                format: program.format,
+                                description,
+                                website: entry.website,
+                                sourceEvent: entry
+                            });
                         }
                     }
                 }
 
-                // Handle direct schedule on entry
-                if (entry.schedule && !entry.programs?.length) {
-                    // Check if this month is within the entry's seasonal range
-                    // Always check schedule (where month ranges are defined) plus notes
-                    const seasonalText = (entry.schedule || '') + ' ' + (entry.notes || '');
-                    if (!isMonthInSeasonalRange(seasonalText, month)) continue;
-
-                    const dates = getScheduleDates(entry.schedule, year, month);
-                    // Filter out dates before schedule_start_date or after schedule_end_date
-                    const startDate = entry.schedule_start_date ? new Date(entry.schedule_start_date) : null;
-                    const endDate = entry.schedule_end_date ? new Date(entry.schedule_end_date) : null;
-                    // practical_tips can be a string or an object with good_to_know
+                // Direct recurring entries appear in the month views. Entry-level
+                // fixed dates remain in Seasonal, while fixed-date child programs
+                // above still appear on their actual days. Do not skip the whole
+                // entry merely because it also has an entry-level date range.
+                if (!entry.programs?.length && entry.resolved_schedule?.type === 'recurring') {
+                    const dates = resolvedScheduleDates(entry.resolved_schedule, year, month);
                     const practicalTip = typeof entry.practical_tips === 'string'
                         ? entry.practical_tips
                         : entry.practical_tips?.good_to_know;
                     const description = practicalTip || entry.notes || null;
-                    for (const d of dates) {
-                        if (startDate && d.date < startDate) continue;
-                        if (endDate && d.date > endDate) continue;
+                    for (const occurrence of dates) {
                         events.push({
                             title: entry.title,
                             org: null,
-                            date: d.date,
-                            startTime: d.startTime,
-                            endTime: d.endTime,
+                            date: occurrence.date,
+                            startTime: occurrence.startTime,
+                            endTime: occurrence.endTime,
+                            endDayOffset: occurrence.endDayOffset,
+                            allDay: occurrence.allDay,
+                            occurrenceStartDate: occurrence.occurrenceStartDate,
+                            occurrenceEndDate: occurrence.occurrenceEndDate,
                             color: entry.color,
                             category: entry.categoryName,
                             location: entry.address,
-                            description: description,
+                            format: entry.format,
+                            description,
                             website: entry.website,
                             sourceEvent: entry
                         });
@@ -3129,6 +2937,16 @@
             return min > 0 ? `${displayHour}:${min.toString().padStart(2, '0')}${period}` : `${displayHour}${period}`;
         }
 
+        function formatEventTime(event, separator = ' - ') {
+            if (!event.startTime) return '';
+            if (!event.endTime) return formatTime(event.startTime);
+            const offset = Number(event.endDayOffset) || 0;
+            const offsetLabel = offset > 0
+                ? ` (+${offset} day${offset === 1 ? '' : 's'})`
+                : '';
+            return `${formatTime(event.startTime)}${separator}${formatTime(event.endTime)}${offsetLabel}`;
+        }
+
         // Store events indexed for quick lookup
         let eventsByDateKey = {};
 
@@ -3152,9 +2970,7 @@
 
             // Time
             if (event.startTime) {
-                const timeStr = event.endTime
-                    ? `${formatTime(event.startTime)} - ${formatTime(event.endTime)}`
-                    : formatTime(event.startTime);
+                const timeStr = formatEventTime(event);
                 bodyHtml += `<div class="event-modal-row">
                     <div class="event-modal-icon">🕐</div>
                     <div class="event-modal-value">${timeStr}</div>
@@ -3491,8 +3307,7 @@
                     <div class="day-header${isToday ? ' today' : ''}">${dayName}, ${monthDay}</div>`;
 
                 for (const event of dayEvents) {
-                    const timeStr = event.startTime ?
-                        `${formatTime(event.startTime)}${event.endTime ? ' - ' + formatTime(event.endTime) : ''}` : '';
+                    const timeStr = formatEventTime(event);
                     const locationStr = event.format === 'Zoom' ? 'Online (Zoom)' : (event.location || '');
 
                     html += `<div class="event-item" data-list-index="${eventIndex}" style="cursor: pointer;">
@@ -3672,8 +3487,7 @@
                         <div class="print-day-header${isToday ? ' today' : ''}">${dayName}, ${monthDay}${isToday ? ' (Today)' : ''}</div>`;
 
                     for (const event of dayEvents) {
-                        const timeStr = event.startTime ?
-                            `${formatTime(event.startTime)}${event.endTime ? ' – ' + formatTime(event.endTime) : ''}` : '';
+                        const timeStr = formatEventTime(event, ' – ');
                         const locationStr = event.format === 'Zoom' ? 'Online (Zoom)' : (event.location || event.address || '');
 
                         html += `<div class="print-event">

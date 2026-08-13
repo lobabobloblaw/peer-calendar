@@ -61,12 +61,11 @@ DTSTAMP:20260211T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T083000
 DTEND;TZID=America/Los_Angeles:20260107T113000
 SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
-DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
- some low-cost\nInfo: Novice to advanced\; guidance for starters\nAddress: 
- 5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222\nPhone: 503-653-8100\nWebs
- ite: https://ncprd.org/milwaukie-community-center\nDetails: Primary hub fo
- r older adults in North Clackamas. Meals on Wheels program delivers 300+ m
- eals daily.
+DESCRIPTION:Category: Social Activities\nCost: $1 NCPRD / $2 non-resident\n
+ Info: Novice to advanced\; guidance for starters\nAddress: 5440 SE Kellogg
+  Creek Dr\, Milwaukie\, OR 97222\nPhone: 503-653-8100\nWebsite: https://nc
+ prd.org/milwaukie-community-center\nDetails: Primary hub for older adults 
+ in North Clackamas. Meals on Wheels program delivers 300+ meals daily.
 LOCATION:5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222
 URL:https://ncprd.org/milwaukie-community-center
 RRULE:FREQ=WEEKLY;BYDAY=WE
@@ -97,8 +96,8 @@ DTSTAMP:20260211T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T120000
 DTEND;TZID=America/Los_Angeles:20260101T123000
 SUMMARY:Milwaukie Community Center: Congregate Lunch
-DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
- some low-cost\nInfo: Social dining for older adults\nAddress: 5440 SE Kell
+DESCRIPTION:Category: Social Activities\nCost: $3 suggested donation (60+)\
+ ; $5 under 60\nInfo: Social dining for older adults\nAddress: 5440 SE Kell
  ogg Creek Dr\, Milwaukie\, OR 97222\nPhone: 503-653-8100\nWebsite: https:/
  /ncprd.org/milwaukie-community-center\nDetails: Primary hub for older adul
  ts in North Clackamas. Meals on Wheels program delivers 300+ meals daily.
@@ -114,12 +113,12 @@ DTSTAMP:20260211T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T150000
 DTEND;TZID=America/Los_Angeles:20260106T170000
 SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
-DESCRIPTION:Category: Social Activities\nCost: FREE drop-in\nInfo: Drop-in 
- fiber arts session every Tuesday. Knit\, crochet\, or try other crafts whi
- le chatting with fellow crafters. Projects are donated to charity. Supplie
- s provided or bring your own. All skill levels welcome—beginners encourage
- d!\nAddress: 3524 SW Troy St\, Portland\, OR 97219\nPhone: 503-244-5024\nW
- ebsite: https://www.northwestwools.com/
+DESCRIPTION:Category: Social Activities\nCost: FREE\nInfo: Drop-in fiber ar
+ ts session every Tuesday. Knit\, crochet\, or try other crafts while chatt
+ ing with fellow crafters. Projects are donated to charity. Supplies provid
+ ed or bring your own. All skill levels welcome—beginners encouraged!\nAddr
+ ess: 3524 SW Troy St\, Portland\, OR 97219\nPhone: 503-244-5024\nWebsite: 
+ https://www.northwestwools.com/
 LOCATION:3524 SW Troy St\, Portland\, OR 97219
 URL:https://www.northwestwools.com/
 RRULE:FREQ=WEEKLY;BYDAY=TU
@@ -132,11 +131,11 @@ DTSTAMP:20260211T000000Z
 DTSTART;TZID=America/Los_Angeles:20260108T180000
 DTEND;TZID=America/Los_Angeles:20260108T203000
 SUMMARY:Puddletown Knitters Guild: Monthly Meeting
-DESCRIPTION:Category: Social Activities\nCost: FREE for first 2 visits\; me
- mbership $35/year\nInfo: Year-round. Doors open 6pm for social knitting\; 
- programming begins 7pm. Hybrid (in-person + Zoom).\nAddress: Rose City Par
- k Presbyterian Church (Fellowship Hall)\, 1907 NE 45th Ave\, Portland\, OR
-  97213\nWebsite: https://www.puddletownknittersguild.com/
+DESCRIPTION:Category: Social Activities\nCost: FREE for visitors\nInfo: Yea
+ r-round. Doors open 6pm for social knitting\; programming begins 7pm. Hybr
+ id (in-person + Zoom).\nAddress: Rose City Park Presbyterian Church (Fello
+ wship Hall)\, 1907 NE 45th Ave\, Portland\, OR 97213\nWebsite: https://www
+ .puddletownknittersguild.com/
 LOCATION:Rose City Park Presbyterian Church (Fellowship Hall)\, 1907 NE 45t
  h Ave\, Portland\, OR 97213
 URL:https://www.puddletownknittersguild.com/
@@ -187,14 +186,13 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260110T120000
 DTEND;TZID=America/Los_Angeles:20260110T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
- lothing. Tool/knife sharpening and Kintsugi repair available. Registration
-  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
-  since 2013. Part of global Repair Café movement promoting sustainability 
- and community connection. Great for learning basic repair skills. Contact 
- 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: FREE\nFormat: In-person\nInf
+ o: Volunteers fix small appliances\, bikes\, clothing. Tool/knife sharpeni
+ ng and Kintsugi repair available. Registration form recommended.\nWebsite:
+  https://www.repairpdx.org\nDetails: Operating since 2013. Part of global 
+ Repair Café movement promoting sustainability and community connection. Gr
+ eat for learning basic repair skills. Contact 503-893-9656 or repairpdx@gm
+ ail.com.
 LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities
@@ -206,14 +204,13 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260214T120000
 DTEND;TZID=America/Los_Angeles:20260214T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
- lothing. Tool/knife sharpening and Kintsugi repair available. Registration
-  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
-  since 2013. Part of global Repair Café movement promoting sustainability 
- and community connection. Great for learning basic repair skills. Contact 
- 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: FREE\nFormat: In-person\nInf
+ o: Volunteers fix small appliances\, bikes\, clothing. Tool/knife sharpeni
+ ng and Kintsugi repair available. Registration form recommended.\nWebsite:
+  https://www.repairpdx.org\nDetails: Operating since 2013. Part of global 
+ Repair Café movement promoting sustainability and community connection. Gr
+ eat for learning basic repair skills. Contact 503-893-9656 or repairpdx@gm
+ ail.com.
 LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities
@@ -225,14 +222,13 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260314T120000
 DTEND;TZID=America/Los_Angeles:20260314T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
- lothing. Tool/knife sharpening and Kintsugi repair available. Registration
-  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
-  since 2013. Part of global Repair Café movement promoting sustainability 
- and community connection. Great for learning basic repair skills. Contact 
- 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: FREE\nFormat: In-person\nInf
+ o: Volunteers fix small appliances\, bikes\, clothing. Tool/knife sharpeni
+ ng and Kintsugi repair available. Registration form recommended.\nWebsite:
+  https://www.repairpdx.org\nDetails: Operating since 2013. Part of global 
+ Repair Café movement promoting sustainability and community connection. Gr
+ eat for learning basic repair skills. Contact 503-893-9656 or repairpdx@gm
+ ail.com.
 LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities
@@ -244,14 +240,13 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260411T120000
 DTEND;TZID=America/Los_Angeles:20260411T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
- lothing. Tool/knife sharpening and Kintsugi repair available. Registration
-  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
-  since 2013. Part of global Repair Café movement promoting sustainability 
- and community connection. Great for learning basic repair skills. Contact 
- 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: FREE\nFormat: In-person\nInf
+ o: Volunteers fix small appliances\, bikes\, clothing. Tool/knife sharpeni
+ ng and Kintsugi repair available. Registration form recommended.\nWebsite:
+  https://www.repairpdx.org\nDetails: Operating since 2013. Part of global 
+ Repair Café movement promoting sustainability and community connection. Gr
+ eat for learning basic repair skills. Contact 503-893-9656 or repairpdx@gm
+ ail.com.
 LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities
@@ -263,14 +258,13 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260509T120000
 DTEND;TZID=America/Los_Angeles:20260509T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
- lothing. Tool/knife sharpening and Kintsugi repair available. Registration
-  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
-  since 2013. Part of global Repair Café movement promoting sustainability 
- and community connection. Great for learning basic repair skills. Contact 
- 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: FREE\nFormat: In-person\nInf
+ o: Volunteers fix small appliances\, bikes\, clothing. Tool/knife sharpeni
+ ng and Kintsugi repair available. Registration form recommended.\nWebsite:
+  https://www.repairpdx.org\nDetails: Operating since 2013. Part of global 
+ Repair Café movement promoting sustainability and community connection. Gr
+ eat for learning basic repair skills. Contact 503-893-9656 or repairpdx@gm
+ ail.com.
 LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities
@@ -282,14 +276,13 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260613T120000
 DTEND;TZID=America/Los_Angeles:20260613T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
- lothing. Tool/knife sharpening and Kintsugi repair available. Registration
-  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
-  since 2013. Part of global Repair Café movement promoting sustainability 
- and community connection. Great for learning basic repair skills. Contact 
- 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: FREE\nFormat: In-person\nInf
+ o: Volunteers fix small appliances\, bikes\, clothing. Tool/knife sharpeni
+ ng and Kintsugi repair available. Registration form recommended.\nWebsite:
+  https://www.repairpdx.org\nDetails: Operating since 2013. Part of global 
+ Repair Café movement promoting sustainability and community connection. Gr
+ eat for learning basic repair skills. Contact 503-893-9656 or repairpdx@gm
+ ail.com.
 LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities
@@ -301,14 +294,13 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260711T120000
 DTEND;TZID=America/Los_Angeles:20260711T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
- lothing. Tool/knife sharpening and Kintsugi repair available. Registration
-  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
-  since 2013. Part of global Repair Café movement promoting sustainability 
- and community connection. Great for learning basic repair skills. Contact 
- 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: FREE\nFormat: In-person\nInf
+ o: Volunteers fix small appliances\, bikes\, clothing. Tool/knife sharpeni
+ ng and Kintsugi repair available. Registration form recommended.\nWebsite:
+  https://www.repairpdx.org\nDetails: Operating since 2013. Part of global 
+ Repair Café movement promoting sustainability and community connection. Gr
+ eat for learning basic repair skills. Contact 503-893-9656 or repairpdx@gm
+ ail.com.
 LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities
@@ -320,14 +312,13 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T120000
 DTEND;TZID=America/Los_Angeles:20260808T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
- lothing. Tool/knife sharpening and Kintsugi repair available. Registration
-  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
-  since 2013. Part of global Repair Café movement promoting sustainability 
- and community connection. Great for learning basic repair skills. Contact 
- 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: FREE\nFormat: In-person\nInf
+ o: Volunteers fix small appliances\, bikes\, clothing. Tool/knife sharpeni
+ ng and Kintsugi repair available. Registration form recommended.\nWebsite:
+  https://www.repairpdx.org\nDetails: Operating since 2013. Part of global 
+ Repair Café movement promoting sustainability and community connection. Gr
+ eat for learning basic repair skills. Contact 503-893-9656 or repairpdx@gm
+ ail.com.
 LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities
@@ -339,14 +330,13 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260912T120000
 DTEND;TZID=America/Los_Angeles:20260912T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
- lothing. Tool/knife sharpening and Kintsugi repair available. Registration
-  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
-  since 2013. Part of global Repair Café movement promoting sustainability 
- and community connection. Great for learning basic repair skills. Contact 
- 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: FREE\nFormat: In-person\nInf
+ o: Volunteers fix small appliances\, bikes\, clothing. Tool/knife sharpeni
+ ng and Kintsugi repair available. Registration form recommended.\nWebsite:
+  https://www.repairpdx.org\nDetails: Operating since 2013. Part of global 
+ Repair Café movement promoting sustainability and community connection. Gr
+ eat for learning basic repair skills. Contact 503-893-9656 or repairpdx@gm
+ ail.com.
 LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities
@@ -358,14 +348,13 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20261010T120000
 DTEND;TZID=America/Los_Angeles:20261010T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
- lothing. Tool/knife sharpening and Kintsugi repair available. Registration
-  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
-  since 2013. Part of global Repair Café movement promoting sustainability 
- and community connection. Great for learning basic repair skills. Contact 
- 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: FREE\nFormat: In-person\nInf
+ o: Volunteers fix small appliances\, bikes\, clothing. Tool/knife sharpeni
+ ng and Kintsugi repair available. Registration form recommended.\nWebsite:
+  https://www.repairpdx.org\nDetails: Operating since 2013. Part of global 
+ Repair Café movement promoting sustainability and community connection. Gr
+ eat for learning basic repair skills. Contact 503-893-9656 or repairpdx@gm
+ ail.com.
 LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities
@@ -377,14 +366,13 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20261114T120000
 DTEND;TZID=America/Los_Angeles:20261114T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
- lothing. Tool/knife sharpening and Kintsugi repair available. Registration
-  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
-  since 2013. Part of global Repair Café movement promoting sustainability 
- and community connection. Great for learning basic repair skills. Contact 
- 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: FREE\nFormat: In-person\nInf
+ o: Volunteers fix small appliances\, bikes\, clothing. Tool/knife sharpeni
+ ng and Kintsugi repair available. Registration form recommended.\nWebsite:
+  https://www.repairpdx.org\nDetails: Operating since 2013. Part of global 
+ Repair Café movement promoting sustainability and community connection. Gr
+ eat for learning basic repair skills. Contact 503-893-9656 or repairpdx@gm
+ ail.com.
 LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities
@@ -396,14 +384,13 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20261212T120000
 DTEND;TZID=America/Los_Angeles:20261212T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Volunteers fix small appliances\, bikes\, c
- lothing. Tool/knife sharpening and Kintsugi repair available. Registration
-  form recommended.\nWebsite: https://www.repairpdx.org\nDetails: Operating
-  since 2013. Part of global Repair Café movement promoting sustainability 
- and community connection. Great for learning basic repair skills. Contact 
- 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: FREE\nFormat: In-person\nInf
+ o: Volunteers fix small appliances\, bikes\, clothing. Tool/knife sharpeni
+ ng and Kintsugi repair available. Registration form recommended.\nWebsite:
+  https://www.repairpdx.org\nDetails: Operating since 2013. Part of global 
+ Repair Café movement promoting sustainability and community connection. Gr
+ eat for learning basic repair skills. Contact 503-893-9656 or repairpdx@gm
+ ail.com.
 LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities
@@ -415,13 +402,12 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260114T180000
 DTEND;TZID=America/Los_Angeles:20260114T200000
 SUMMARY:Repair PDX: Soldering for Home Electronics Repairs Workshop
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Learn basics of soldering for electronics r
- epair. Check website for dates.\nWebsite: https://www.repairpdx.org\nDetai
- ls: Operating since 2013. Part of global Repair Café movement promoting su
- stainability and community connection. Great for learning basic repair ski
- lls. Contact 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: TBD\nFormat: In-person\nInfo
+ : Learn basics of soldering for electronics repair. Check website for date
+ s.\nWebsite: https://www.repairpdx.org\nDetails: Operating since 2013. Par
+ t of global Repair Café movement promoting sustainability and community co
+ nnection. Great for learning basic repair skills. Contact 503-893-9656 or 
+ repairpdx@gmail.com.
 LOCATION:Leaven Community Center\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities
@@ -433,13 +419,12 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260118T100000
 DTEND;TZID=America/Los_Angeles:20260118T130000
 SUMMARY:Repair PDX: Sashiko Mending Workshop
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Traditional Japanese embroidered mending te
- chnique. Check website for dates.\nWebsite: https://www.repairpdx.org\nDet
- ails: Operating since 2013. Part of global Repair Café movement promoting 
- sustainability and community connection. Great for learning basic repair s
- kills. Contact 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: TBD\nFormat: In-person\nInfo
+ : Traditional Japanese embroidered mending technique. Check website for da
+ tes.\nWebsite: https://www.repairpdx.org\nDetails: Operating since 2013. P
+ art of global Repair Café movement promoting sustainability and community 
+ connection. Great for learning basic repair skills. Contact 503-893-9656 o
+ r repairpdx@gmail.com.
 LOCATION:Leaven Community Center\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities
@@ -451,13 +436,12 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260322T100000
 DTEND;TZID=America/Los_Angeles:20260322T130000
 SUMMARY:Repair PDX: Sashiko Mending Workshop
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Traditional Japanese embroidered mending te
- chnique. Check website for dates.\nWebsite: https://www.repairpdx.org\nDet
- ails: Operating since 2013. Part of global Repair Café movement promoting 
- sustainability and community connection. Great for learning basic repair s
- kills. Contact 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: TBD\nFormat: In-person\nInfo
+ : Traditional Japanese embroidered mending technique. Check website for da
+ tes.\nWebsite: https://www.repairpdx.org\nDetails: Operating since 2013. P
+ art of global Repair Café movement promoting sustainability and community 
+ connection. Great for learning basic repair skills. Contact 503-893-9656 o
+ r repairpdx@gmail.com.
 LOCATION:Leaven Community Center\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities
@@ -469,13 +453,12 @@ DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260330T180000
 DTEND;TZID=America/Los_Angeles:20260330T200000
 SUMMARY:Repair PDX: Mend With Embroidery Workshop
-DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: All Repair Cafés
-  and most workshops are free. Bring broken items to be repaired by volunte
- ers.\nFormat: In-person\nInfo: Learn embroidery techniques for mending clo
- thing. Check website/Eventbrite for dates.\nWebsite: https://www.repairpdx
- .org\nDetails: Operating since 2013. Part of global Repair Café movement p
- romoting sustainability and community connection. Great for learning basic
-  repair skills. Contact 503-893-9656 or repairpdx@gmail.com.
+DESCRIPTION:Category: Social Activities\nCost: TBD\nFormat: In-person\nInfo
+ : Learn embroidery techniques for mending clothing. Check website/Eventbri
+ te for dates.\nWebsite: https://www.repairpdx.org\nDetails: Operating sinc
+ e 2013. Part of global Repair Café movement promoting sustainability and c
+ ommunity connection. Great for learning basic repair skills. Contact 503-8
+ 93-9656 or repairpdx@gmail.com.
 LOCATION:Leaven Community Center\, 5431 NE 20th Ave\, Portland\, OR 97211
 URL:https://www.repairpdx.org
 CATEGORIES:Social Activities

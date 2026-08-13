@@ -3,10 +3,12 @@
 Run: python -m pytest test_schedule_parsing.py -v
   or: python test_schedule_parsing.py
 """
-import sys
 import os
+import re
+import sys
 import unittest
 from datetime import date, datetime
+from pathlib import Path
 
 # Add scripts directory to path for imports
 sys.path.insert(0, os.path.dirname(__file__))
@@ -17,10 +19,15 @@ from generate_calendar import (
     get_entry_audience,
     get_program_audience,
     entry_to_events,
+    generate_event_description,
+    generate_json_feed,
     is_closed,
     parse_date_string,
     parse_schedule,
+    resolve_fixed_schedule,
+    resolve_recurring_schedule,
 )
+from utils import load_sources
 
 
 class TestParseSchedule(unittest.TestCase):
@@ -483,6 +490,196 @@ class TestRecurrenceRules(unittest.TestCase):
         self.assertIsNone(self.build("Every Tuesday 6-7pm", {"schedule_end_date": "2020-03-01"}))
 
 
+class TestResolvedScheduleContract(unittest.TestCase):
+    """The web feed receives the same normalized recurrence used by ICS."""
+
+    TODAY = date(2026, 8, 1)
+
+    def event(self, entry):
+        return generate_json_feed([entry], today=self.TODAY)["events"][0]
+
+    def test_feed_declares_schema_version(self):
+        feed = generate_json_feed([], today=self.TODAY)
+        self.assertEqual(feed["schedule_schema_version"], 1)
+
+    def test_biweekly_schedule_has_stable_anchor(self):
+        resolved = resolve_recurring_schedule(
+            parse_schedule("Every other Tuesday 6:30-8:30pm"),
+            {"schedule_start_date": "2026-08-01"},
+            today=self.TODAY,
+        )
+        self.assertEqual(resolved, {
+            "type": "recurring",
+            "frequency": "weekly",
+            "interval": 2,
+            "weekdays": ["TU"],
+            "month_weeks": [],
+            "anchor_date": "2026-08-04",
+            "until_date": None,
+            "start_time": "18:30",
+            "end_time": "20:30",
+            "end_day_offset": 0,
+        })
+
+    def test_second_biweekly_anchor_regression(self):
+        resolved = resolve_recurring_schedule(
+            parse_schedule("Every other Wednesday 6-8pm"),
+            {"schedule_start_date": "2026-08-12"},
+            today=self.TODAY,
+        )
+        self.assertEqual(resolved["anchor_date"], "2026-08-12")
+        self.assertEqual(resolved["interval"], 2)
+
+    def test_ordinal_monthly_schedule(self):
+        resolved = resolve_recurring_schedule(
+            parse_schedule("1st & 3rd Mondays, 1pm"),
+            {"schedule_start_date": "2026-08-01"},
+            today=self.TODAY,
+        )
+        self.assertEqual(resolved["frequency"], "monthly")
+        self.assertEqual(resolved["month_weeks"], [1, 3])
+        self.assertEqual(resolved["weekdays"], ["MO"])
+        self.assertEqual(resolved["anchor_date"], "2026-08-03")
+        self.assertEqual((resolved["start_time"], resolved["end_time"]), ("13:00", "14:00"))
+
+    def test_last_of_month_normalizes_to_negative_one(self):
+        resolved = resolve_recurring_schedule(
+            parse_schedule("Last Sunday of each month 4-6pm"),
+            {"schedule_start_date": "2026-08-01"},
+            today=self.TODAY,
+        )
+        self.assertEqual(resolved["month_weeks"], [-1])
+        self.assertEqual(resolved["anchor_date"], "2026-08-30")
+
+    def test_daily_normalizes_to_weekly_all_days(self):
+        resolved = resolve_recurring_schedule(
+            parse_schedule("Daily 2-10pm"), {}, today=self.TODAY,
+        )
+        self.assertEqual(resolved["frequency"], "weekly")
+        self.assertEqual(resolved["weekdays"], ["MO", "TU", "WE", "TH", "FR", "SA", "SU"])
+
+    def test_bounds_are_inclusive_and_anchor_is_valid(self):
+        resolved = resolve_recurring_schedule(
+            parse_schedule("Mondays 6-7pm"),
+            {"schedule_start_date": "2026-08-05", "schedule_end_date": "2026-09-07"},
+            today=self.TODAY,
+        )
+        self.assertEqual(resolved["anchor_date"], "2026-08-10")
+        self.assertEqual(resolved["until_date"], "2026-09-07")
+
+    def test_overnight_schedule_carries_end_day_offset(self):
+        resolved = resolve_recurring_schedule(
+            parse_schedule("Fridays 10pm-2am"),
+            {"schedule_start_date": "2026-08-01"},
+            today=self.TODAY,
+        )
+        self.assertEqual((resolved["start_time"], resolved["end_time"]), ("22:00", "02:00"))
+        self.assertEqual(resolved["end_day_offset"], 1)
+
+    def test_fixed_entry_occurrences_are_all_day(self):
+        event = self.event({
+            "id": "festival", "name": "Festival", "category": "events",
+            "dates": ["August 15, 2026", "September 4-6, 2026"],
+        })
+        self.assertEqual(event["resolved_schedule"], {
+            "type": "fixed",
+            "occurrences": [
+                {
+                    "start_date": "2026-08-15", "end_date": "2026-08-15",
+                    "all_day": True, "start_time": None, "end_time": None,
+                    "end_day_offset": 0,
+                },
+                {
+                    "start_date": "2026-09-04", "end_date": "2026-09-06",
+                    "all_day": True, "start_time": None, "end_time": None,
+                    "end_day_offset": 0,
+                },
+            ],
+        })
+
+    def test_fixed_program_can_be_timed_and_overnight(self):
+        resolved = resolve_fixed_schedule(
+            "August 15, 2026", "10pm-2am", today=self.TODAY,
+        )
+        self.assertEqual(resolved["occurrences"][0], {
+            "start_date": "2026-08-15", "end_date": "2026-08-15",
+            "all_day": False, "start_time": "22:00", "end_time": "02:00",
+            "end_day_offset": 1,
+        })
+
+    def test_fixed_date_range_stays_all_day_even_with_times(self):
+        resolved = resolve_fixed_schedule(
+            "August 15-16, 2026", "6-8pm", today=self.TODAY,
+        )
+        occurrence = resolved["occurrences"][0]
+        self.assertTrue(occurrence["all_day"])
+        self.assertIsNone(occurrence["start_time"])
+
+    def test_vague_or_incomplete_schedules_resolve_to_null(self):
+        for raw in ("Call for schedule", "Every Saturday", None):
+            entry = {
+                "id": "vague", "name": "Vague", "category": "events",
+                "schedule": raw,
+            }
+            self.assertIsNone(self.event(entry)["resolved_schedule"])
+        self.assertIsNone(resolve_fixed_schedule("Various dates", today=self.TODAY))
+
+    def test_program_bounds_inherit_and_override_independently(self):
+        event = self.event({
+            "id": "bounded", "name": "Bounded", "category": "events",
+            "schedule_start_date": "2026-08-01",
+            "schedule_end_date": "2026-12-31",
+            "programs": [
+                {"name": "Inherited", "schedule": "Mondays 6-7pm"},
+                {
+                    "name": "Overridden", "schedule": "Mondays 6-7pm",
+                    "schedule_start_date": "2026-09-01",
+                    "schedule_end_date": "2026-10-31",
+                },
+            ],
+        })
+        inherited, overridden = [program["resolved_schedule"] for program in event["programs"]]
+        self.assertEqual((inherited["anchor_date"], inherited["until_date"]),
+                         ("2026-08-03", "2026-12-31"))
+        self.assertEqual((overridden["anchor_date"], overridden["until_date"]),
+                         ("2026-09-07", "2026-10-31"))
+
+    def test_entry_schedule_is_suppressed_when_programs_exist(self):
+        event = self.event({
+            "id": "parent", "name": "Parent", "category": "events",
+            "schedule": "Sundays 9-10am",
+            "programs": [{"name": "Child", "schedule": "Tuesdays 6-7pm"}],
+        })
+        self.assertIsNone(event["resolved_schedule"])
+        self.assertEqual(event["programs"][0]["resolved_schedule"]["weekdays"], ["TU"])
+
+    def test_dates_take_precedence_over_entry_schedule(self):
+        event = self.event({
+            "id": "one-off", "name": "One-off", "category": "events",
+            "dates": "August 20, 2026", "schedule": "Thursdays 6-7pm",
+        })
+        self.assertEqual(event["resolved_schedule"]["type"], "fixed")
+        self.assertTrue(event["resolved_schedule"]["occurrences"][0]["all_day"])
+
+    def test_entry_dates_and_programs_both_resolve(self):
+        event = self.event({
+            "id": "mixed", "name": "Mixed", "category": "events",
+            "dates": "August 20, 2026",
+            "programs": [{"name": "Child", "schedule": "Tuesdays 6-7pm"}],
+        })
+        self.assertEqual(event["resolved_schedule"]["type"], "fixed")
+        self.assertEqual(event["programs"][0]["resolved_schedule"]["type"], "recurring")
+
+    def test_program_cost_overrides_entry_pricing(self):
+        description, html_description = generate_event_description(
+            {"category": "events", "pricing": {"description": "FREE admission"}},
+            {"name": "Fundraiser", "cost": "$50"},
+        )
+        self.assertIn("Cost: $50", description)
+        self.assertNotIn("FREE admission", description)
+        self.assertIn("<strong>Cost:</strong> $50", html_description)
+
+
 class TestDeterministicOutput(unittest.TestCase):
     """Regenerating unchanged data must produce byte-identical feeds.
 
@@ -526,6 +723,25 @@ class TestClosedEntries(unittest.TestCase):
 
     def test_open_entry(self):
         self.assertFalse(is_closed({"id": "x", "flags": ["🔄 SEASONAL"]}))
+
+
+class TestPublishedUidUniqueness(unittest.TestCase):
+    """Calendar clients use UID as identity; every VEVENT needs its own."""
+
+    def test_all_generated_vevents_have_unique_uids(self):
+        sources_path = Path(__file__).resolve().parents[1] / "data" / "sources.yaml"
+        vevents = [
+            vevent
+            for entry in load_sources(sources_path)
+            if not is_closed(entry)
+            for vevent in entry_to_events(entry, platform="google")
+        ]
+        uids = [
+            re.search(r"^UID:(.+)$", vevent, re.MULTILINE).group(1).rstrip("\r")
+            for vevent in vevents
+        ]
+        duplicates = sorted({uid for uid in uids if uids.count(uid) > 1})
+        self.assertEqual(duplicates, [])
 
 
 if __name__ == "__main__":

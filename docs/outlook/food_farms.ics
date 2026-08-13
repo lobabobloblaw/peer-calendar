@@ -81,22 +81,47 @@ CATEGORIES:Food & Farms
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:62415854f662a1e5@portlandresources.org
-DTSTAMP:20260303T000000Z
-DTSTART;TZID=America/Los_Angeles:20260102T103000
-DTEND;TZID=America/Los_Angeles:20260102T141500
-SUMMARY:Sikh Center of Oregon Langar
-DESCRIPTION:Category: Food & Farms\nCost: FREE always\nAddress: 17514 SW Sc
- holls Ferry Rd\, Beaverton\, OR 97007\nPhone: 971-217-8577\nWebsite: https
- ://sikhcenteroforegon.com/\nDetails: Free vegetarian meals based on 500-ye
- ar-old Sikh tradition (Langar). 150-200 people served weekly. All welcome 
- regardless of religion. Remove shoes\, cover head (scarves provided). Food
-  served in separate area - no need to attend religious service.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE always</p><p><strong>Address:</strong> 17514 SW Scholls Ferry Rd, Beaverton, OR 97007</p><p><strong>Phone:</strong> <a href="tel:971-217-8577">971-217-8577</a></p><p><strong>Website:</strong> <a href="https://sikhcenteroforegon.com/">https://sikhcenteroforegon.com/</a></p><p><strong>Details:</strong> Free vegetarian meals based on 500-year-old Sikh tradition (Langar). 150-200 people served weekly. All welcome regardless of religion. Remove shoes, cover head (scarves provided). Food served in separate area - no need to attend religious service.</p></BODY></HTML>
+UID:82b08310f2a35cf2@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T103000
+DTEND;TZID=America/Los_Angeles:20260104T113000
+SUMMARY:Sikh Center of Oregon Langar: Sunday Langar
+DESCRIPTION:Category: Food & Farms\nCost: FREE always\nInfo: Begins at 10:3
+ 0am and continues onward. The one-hour calendar block is a start-time remi
+ nder\, not a claimed ending time.\nAddress: 17514 SW Scholls Ferry Rd\, Be
+ averton\, OR 97007\nPhone: 971-217-8577\nWebsite: https://sikhcenteroforeg
+ on.com/\nDetails: Free vegetarian meals based on 500-year-old Sikh traditi
+ on (Langar). 150-200 people served weekly. All welcome regardless of relig
+ ion. Remove shoes\, cover head (scarves provided). Food served in separate
+  area - no need to attend religious service.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE always</p><p>Begins at 10:30am and continues onward. The one-hour calendar block is a start-time reminder, not a claimed ending time.</p><p><strong>Address:</strong> 17514 SW Scholls Ferry Rd, Beaverton, OR 97007</p><p><strong>Phone:</strong> <a href="tel:971-217-8577">971-217-8577</a></p><p><strong>Website:</strong> <a href="https://sikhcenteroforegon.com/">https://sikhcenteroforegon.com/</a></p><p><strong>Details:</strong> Free vegetarian meals based on 500-year-old Sikh tradition (Langar). 150-200 people served weekly. All welcome regardless of religion. Remove shoes, cover head (scarves provided). Food served in separate area - no need to attend religious service.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:17514 SW Scholls Ferry Rd\, Beaverton\, OR 97007
 URL:https://sikhcenteroforegon.com/
-RRULE:FREQ=WEEKLY;BYDAY=FR,SU
+RRULE:FREQ=WEEKLY;BYDAY=SU
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7d8691a323748517@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T200000
+DTEND;TZID=America/Los_Angeles:20260102T210000
+SUMMARY:Sikh Center of Oregon Langar: Friday Langar
+DESCRIPTION:Category: Food & Farms\nCost: FREE always\nInfo: Begins at 8pm 
+ and continues onward. Check the center's WhatsApp announcements for change
+ s. The one-hour calendar block is a start-time reminder\, not a claimed en
+ ding time.\nAddress: 17514 SW Scholls Ferry Rd\, Beaverton\, OR 97007\nPho
+ ne: 971-217-8577\nWebsite: https://sikhcenteroforegon.com/\nDetails: Free 
+ vegetarian meals based on 500-year-old Sikh tradition (Langar). 150-200 pe
+ ople served weekly. All welcome regardless of religion. Remove shoes\, cov
+ er head (scarves provided). Food served in separate area - no need to atte
+ nd religious service.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE always</p><p>Begins at 8pm and continues onward. Check the center&#x27;s WhatsApp announcements for changes. The one-hour calendar block is a start-time reminder, not a claimed ending time.</p><p><strong>Address:</strong> 17514 SW Scholls Ferry Rd, Beaverton, OR 97007</p><p><strong>Phone:</strong> <a href="tel:971-217-8577">971-217-8577</a></p><p><strong>Website:</strong> <a href="https://sikhcenteroforegon.com/">https://sikhcenteroforegon.com/</a></p><p><strong>Details:</strong> Free vegetarian meals based on 500-year-old Sikh tradition (Langar). 150-200 people served weekly. All welcome regardless of religion. Remove shoes, cover head (scarves provided). Food served in separate area - no need to attend religious service.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:17514 SW Scholls Ferry Rd\, Beaverton\, OR 97007
+URL:https://sikhcenteroforegon.com/
+RRULE:FREQ=WEEKLY;BYDAY=FR
 CATEGORIES:Food & Farms
 TRANSP:TRANSPARENT
 END:VEVENT
