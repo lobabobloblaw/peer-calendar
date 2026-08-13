@@ -16,17 +16,21 @@
     <title>FolkTime 2026 Peer Support Calendar</title>
     <style>
         :root {
-            --peer-support: #7B68EE;
-            --fitness: #1B8A1B;
-            --events: #FF6347;
-            --arts: #9370DB;
-            --food: #DAA520;
-            --social: #FF69B4;
-            --accent: #e08050;
+            --peer-support: #3e56b5;
+            --fitness: #496800;
+            --events: #b6402f;
+            --arts: #6949ac;
+            --parks: #176c47;
+            --food: #745800;
+            --social: #ad2f77;
+            --discounts: #1d5f9b;
+            --transportation: #516170;
+            --accent: #b94f1a;
+            --success: #18733f;
             --bg-dark: #0a0a0a;
-            --bg-card: rgba(255, 255, 255, 0.6);
-            --bg-card-hover: rgba(255, 255, 255, 0.7);
-            --hover-bg: rgba(255, 255, 255, 0.7);
+            --bg-card: rgba(255, 255, 255, 0.94);
+            --bg-card-hover: rgba(255, 255, 255, 0.99);
+            --hover-bg: rgba(255, 255, 255, 0.99);
             --bg-secondary: rgba(240, 240, 240, 0.95);
             --border-color: rgba(0, 0, 0, 0.1);
             --text-primary: #1a1a1a;
@@ -69,13 +73,16 @@
             color: white;
             text-shadow: 0 1px 3px rgba(0,0,0,0.6);
             transition: color 0.5s ease, text-shadow 0.5s ease;
-            padding: 0 4px;
+            padding: 16px;
+            border-radius: 12px;
+            background: rgba(10, 24, 42, 0.78);
         }
 
         /* Swap to dark text during daytime - subtle shadow for depth only */
         body.daytime .left-panel {
             color: #2a2a2a;
             text-shadow: 0 1px 1px rgba(255,255,255,0.5);
+            background: rgba(255, 255, 255, 0.9);
         }
 
         .right-panel {
@@ -86,8 +93,6 @@
         @media (min-width: 768px) {
             body {
                 padding: 34px 40px 10px;
-                height: 100vh;
-                overflow: hidden;
             }
 
             .main-content {
@@ -96,8 +101,7 @@
                 grid-template-rows: auto 1fr;
                 column-gap: 20px;
                 row-gap: 0;
-                align-items: stretch;
-                height: calc(100vh - 44px);
+                align-items: start;
             }
 
             h1 {
@@ -115,7 +119,6 @@
             .main-content {
                 grid-template-columns: 450px 1fr;
                 column-gap: 32px;
-                height: calc(100vh - 56px);
             }
 
             .header-logo-container {
@@ -138,7 +141,6 @@
             .main-content {
                 grid-template-columns: 500px 1fr;
                 column-gap: 40px;
-                height: calc(100vh - 64px);
             }
 
             .header-logo-container {
@@ -178,10 +180,6 @@
                 padding: 32px 40px 4px;
             }
 
-            .main-content {
-                height: calc(100vh - 36px);
-            }
-
             header {
                 margin-top: 0;
                 margin-bottom: 2px;
@@ -190,10 +188,6 @@
             .header-logo-container {
                 max-width: 340px;
                 height: 80px;
-            }
-
-            .left-panel {
-                overflow-y: hidden;
             }
 
             .calendar-section {
@@ -337,6 +331,7 @@
         .calendar-section .platform-tabs {
             display: flex;
             gap: 6px;
+            flex-wrap: wrap;
         }
 
         .platform-tab {
@@ -397,8 +392,8 @@
             white-space: nowrap;
         }
 
-        .copy-btn:hover { background: #c06a40; }
-        .copy-btn.copied { background: #27ae60; }
+        .copy-btn:hover { background: #963d12; }
+        .copy-btn.copied { background: var(--success); }
 
         /* Instructions */
         .instructions {
@@ -441,10 +436,9 @@
             .left-panel {
                 grid-column: 1;
                 grid-row: 2;
-                padding: 0;
+                padding: 16px;
                 margin: 0;
                 min-height: 0;
-                overflow-y: auto;
             }
 
             .right-panel {
@@ -455,7 +449,6 @@
                 margin-bottom: 0;
                 min-width: 0;
                 min-height: 0;
-                overflow: hidden;
             }
         }
 
@@ -473,15 +466,6 @@
             .calendar-preview {
                 display: flex;
                 flex-direction: column;
-                max-height: 100%;
-            }
-
-            .grid-view,
-            .list-view,
-            .seasonal-view {
-                flex: 1;
-                overflow-y: auto;
-                min-height: 0;
             }
         }
 
@@ -537,20 +521,7 @@
 
         /* List view */
         .list-view {
-            max-height: 50vh;
-            overflow-y: auto;
-        }
-
-        @media (min-width: 768px) {
-            .list-view {
-                max-height: calc(100vh - 380px);
-            }
-        }
-
-        @media (min-width: 768px) and (max-height: 1000px) {
-            .list-view {
-                max-height: calc(100vh - 150px);
-            }
+            overflow: visible;
         }
 
         .event-day {
@@ -590,6 +561,15 @@
             border-bottom: 1px solid var(--border-color);
             cursor: pointer;
             transition: background 0.15s;
+            width: 100%;
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            background: transparent;
+            color: inherit;
+            font: inherit;
+            text-align: left;
+            min-height: 44px;
         }
 
         .event-item:hover {
@@ -612,6 +592,7 @@
         }
 
         .event-title {
+            display: block;
             font-weight: 500;
             font-size: 0.9em;
             color: var(--text-primary);
@@ -619,6 +600,7 @@
         }
 
         .event-meta {
+            display: block;
             font-size: 0.8em;
             color: var(--text-secondary);
         }
@@ -641,7 +623,7 @@
         .seasonal-view.active { display: block; }
         .map-view { display: none; }
         .map-view.active { display: block; }
-        .resources-view { display: none; overflow-y: auto; max-height: 75vh; }
+        .resources-view { display: none; }
         .resources-view.active { display: block; }
         .resources-category-header {
             position: sticky;
@@ -672,10 +654,10 @@
             gap: 10px;
             padding: 12px 16px;
             background: var(--bg-card);
-            cursor: pointer;
             transition: background 0.15s;
         }
-        .resource-card:hover {
+        .resource-card:hover,
+        .resource-card:focus-within {
             background: var(--bg-card-hover);
         }
         .resource-color {
@@ -694,6 +676,25 @@
             font-size: 0.95em;
             margin-bottom: 2px;
         }
+        .resource-details-btn {
+            border: 0;
+            background: transparent;
+            color: var(--text-primary);
+            cursor: pointer;
+            font: inherit;
+            font-weight: 600;
+            padding: 5px 0;
+            text-align: left;
+            min-height: 44px;
+        }
+        .resource-phone {
+            color: var(--accent);
+            display: inline-flex;
+            align-items: center;
+            min-height: 44px;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
         .resource-meta {
             font-size: 0.82em;
             color: var(--text-secondary);
@@ -706,7 +707,7 @@
             display: inline-block;
             font-size: 0.78em;
             font-weight: 600;
-            color: #228B22;
+            color: #176c47;
             background: rgba(34,139,34,0.08);
             padding: 1px 6px;
             border-radius: 4px;
@@ -761,6 +762,15 @@
             border-bottom: 1px solid var(--border-color);
             cursor: pointer;
             transition: background 0.15s;
+            width: 100%;
+            border-top: 0;
+            border-right: 0;
+            border-left: 0;
+            background: transparent;
+            color: inherit;
+            font: inherit;
+            text-align: left;
+            min-height: 44px;
         }
 
         .seasonal-event-card:hover {
@@ -768,6 +778,7 @@
         }
 
         .seasonal-event-date {
+            display: block;
             font-weight: 600;
             color: var(--accent);
             font-size: 0.9em;
@@ -782,13 +793,23 @@
             gap: 6px;
         }
 
+        .color-dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
         .seasonal-event-org {
+            display: block;
             font-size: 0.85em;
             color: var(--text-secondary);
             margin-bottom: 2px;
         }
 
         .seasonal-event-category {
+            display: block;
             font-size: 0.8em;
             color: var(--text-muted);
         }
@@ -837,8 +858,6 @@
         }
 
         .seasonal-collapse-content {
-            max-height: 300px;
-            overflow-y: auto;
             border-top: 1px solid var(--border-color);
         }
 
@@ -977,6 +996,14 @@
             overflow: hidden;
             text-overflow: ellipsis;
             cursor: pointer;
+            display: block;
+            width: 100%;
+            border: 0;
+            font: inherit;
+            text-align: left;
+            min-height: 24px;
+            position: relative;
+            z-index: 4;
         }
 
         .grid-event:hover {
@@ -987,6 +1014,13 @@
             color: var(--text-secondary);
             font-size: 0.7em;
             cursor: pointer;
+            border: 0;
+            background: transparent;
+            font: inherit;
+            padding: 2px 0;
+            text-align: left;
+            position: relative;
+            z-index: 4;
         }
 
         .more-events:hover {
@@ -1042,7 +1076,7 @@
             flex: 1;
         }
 
-        .event-modal-title h3 {
+        .event-modal-title h2 {
             margin: 0 0 4px;
             font-size: 1.1em;
             color: var(--text-primary);
@@ -1183,6 +1217,13 @@
             border-radius: 4px;
             cursor: pointer;
             transition: background 0.15s;
+            width: 100%;
+            border: 0;
+            background: transparent;
+            color: inherit;
+            font: inherit;
+            text-align: left;
+            min-height: 44px;
         }
 
         .day-popup-event:hover {
@@ -1203,6 +1244,7 @@
         }
 
         .day-popup-event-title {
+            display: block;
             font-size: 0.85em;
             font-weight: 500;
             color: var(--text-primary);
@@ -1210,6 +1252,7 @@
         }
 
         .day-popup-event-time {
+            display: block;
             font-size: 0.75em;
             color: var(--text-muted);
         }
@@ -1227,6 +1270,10 @@
             }
             .grid-day { min-height: 60px; }
             .grid-event { display: none; }
+            .more-events { display: none; }
+            .mobile-day-trigger {
+                display: block;
+            }
             .day-number.has-events::after {
                 content: '';
                 display: inline-block;
@@ -1259,6 +1306,7 @@
                 justify-content: center;
                 margin-left: 0;
                 margin-top: 4px;
+                flex: 1 1 100%;
             }
 
             .month-nav > .filter-btn,
@@ -1270,11 +1318,6 @@
             .view-tab {
                 padding: 6px 12px;
                 font-size: 0.8em;
-            }
-
-            /* Show Seasonal Events on mobile too since we have room now */
-            .view-tabs .view-tab.desktop-only {
-                display: inline-block;
             }
 
             .filter-panel { padding: 10px 10px 8px; }
@@ -1308,8 +1351,6 @@
             margin: 0;
             font-size: 0.82em;
             line-height: 1.5;
-            max-height: 9.5em;
-            overflow-y: auto;
         }
 
         .updates-list li {
@@ -1338,7 +1379,6 @@
             padding-top: 10px;
             border-top: 1px solid rgba(255, 255, 255, 0.15);
             font-size: 0.78em;
-            opacity: 0.85;
             transition: border-color 0.5s ease;
         }
 
@@ -1347,12 +1387,12 @@
         }
 
         .contact-section a {
-            color: #ffddaa;
-            text-decoration: none;
+            color: #fff;
+            text-decoration: underline;
         }
 
         body.daytime .contact-section a {
-            color: #b35900;
+            color: #7a390e;
         }
 
         .contact-section a:hover {
@@ -1463,6 +1503,7 @@
 
         .filter-pill {
             display: inline-flex;
+            position: relative;
             align-items: center;
             padding: 5px 12px;
             border-radius: 14px;
@@ -1485,7 +1526,18 @@
 
         .filter-pill:active { transform: translateY(0); }
         .filter-pill.active { border-color: transparent; }
-        .filter-pill input { display: none; }
+        .filter-pill input {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            clip-path: inset(50%);
+            white-space: nowrap;
+            border: 0;
+        }
 
         /* Quick date filters (Today / This Weekend) */
         .quick-date-pill {
@@ -1552,10 +1604,10 @@
         .filter-pill[data-tag="young_adults"].active { background: #B0E0E6; color: #2F4F4F; }
         .filter-pill[data-tag="seniors"].active { background: #D3D3D3; color: #2F4F4F; }
         .filter-pill[data-tag="women"].active { background: #FFB6C1; color: #8B0A50; }
-        .filter-pill[data-tag="lgbtq"].active { background: linear-gradient(90deg, #FF6B6B, #FECA57, #48DBFB, #5352ED); color: white; }
+        .filter-pill[data-tag="lgbtq"].active { background: #5352ed; color: white; }
         .filter-pill[data-tag="trans_nonbinary"].active { background: #89CFF0; color: #1E3A5F; }
         .filter-pill[data-tag="bipoc"].active { background: #8B4513; color: white; }
-        .filter-pill[data-tag="spanish_speaking"].active { background: #228B22; color: white; }
+        .filter-pill[data-tag="spanish_speaking"].active { background: #176c2b; color: white; }
 
         .filter-clear {
             font-size: 0.75em;
@@ -1604,18 +1656,18 @@
             flex-shrink: 0;
         }
 
-        .goodfor-pill.active { background: #2d8a6e; color: white; }
+        .goodfor-pill.active { background: #26745c; color: white; }
         .social-pill.active { background: #6b5b95; color: white; }
 
         .cat-pill[data-tag="peer_support"].active { background: var(--peer-support); color: white; }
         .cat-pill[data-tag="fitness_wellness"].active { background: var(--fitness); color: white; }
         .cat-pill[data-tag="events"].active { background: var(--events); color: white; }
         .cat-pill[data-tag="arts_culture"].active { background: var(--arts); color: white; }
-        .cat-pill[data-tag="parks_nature"].active { background: #228B22; color: white; }
+        .cat-pill[data-tag="parks_nature"].active { background: var(--parks); color: white; }
         .cat-pill[data-tag="food_farms"].active { background: var(--food); color: white; }
         .cat-pill[data-tag="social_activities"].active { background: var(--social); color: white; }
-        .cat-pill[data-tag="discount_programs"].active { background: #4169E1; color: white; }
-        .cat-pill[data-tag="transportation"].active { background: #708090; color: white; }
+        .cat-pill[data-tag="discount_programs"].active { background: var(--discounts); color: white; }
+        .cat-pill[data-tag="transportation"].active { background: var(--transportation); color: white; }
 
         .loading-indicator {
             display: flex;
@@ -1636,7 +1688,29 @@
         }
         @keyframes spin { to { transform: rotate(360deg); } }
 
-        .sr-live { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+        .sr-live,
+        .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+
+        .mobile-day-trigger {
+            display: none;
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            border: 0;
+            background: transparent;
+            cursor: pointer;
+            z-index: 2;
+        }
+
+        .grid-day {
+            position: relative;
+        }
+
+        .grid-day .day-number {
+            position: relative;
+            z-index: 3;
+            pointer-events: none;
+        }
 
         /* Badge style for event modals */
         .audience-badge {
@@ -1654,10 +1728,10 @@
         .audience-badge.young_adults { background: #B0E0E6; color: #2F4F4F; }
         .audience-badge.seniors { background: #D3D3D3; color: #2F4F4F; }
         .audience-badge.women { background: #FFB6C1; color: #8B0A50; }
-        .audience-badge.lgbtq { background: linear-gradient(90deg, #FF6B6B, #FECA57, #48DBFB, #5352ED); color: white; }
+        .audience-badge.lgbtq { background: #5352ed; color: white; }
         .audience-badge.trans_nonbinary { background: #89CFF0; color: #1E3A5F; }
         .audience-badge.bipoc { background: #8B4513; color: white; }
-        .audience-badge.spanish_speaking { background: #228B22; color: white; }
+        .audience-badge.spanish_speaking { background: #176c2b; color: white; }
 
         /* Print dialog */
         .print-dialog-overlay {
@@ -1697,7 +1771,7 @@
             border-bottom: 1px solid var(--border-color);
         }
 
-        .print-dialog-header h3 {
+        .print-dialog-header h2 {
             margin: 0;
             font-size: 1.1em;
             color: var(--text-primary);
@@ -1836,8 +1910,9 @@
                 page-break-after: avoid;
             }
 
-            .print-header h1 {
+            .print-header .print-title {
                 font-size: 14pt;
+                font-weight: 700;
                 margin: 0 0 3px 0;
                 color: #333;
             }
@@ -2060,34 +2135,6 @@
             }
         }
 
-        /* Landscape lock overlay for mobile */
-        .landscape-overlay {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(10, 10, 10, 0.95);
-            z-index: 9999;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 20px;
-            color: white;
-        }
-
-        .landscape-overlay p {
-            font-size: 1.2em;
-            margin: 0;
-        }
-
-        @media (max-width: 767px) and (orientation: landscape) {
-            .landscape-overlay {
-                display: flex;
-            }
-        }
-
         /* Reduced motion support */
         @media (prefers-reduced-motion: reduce) {
             *, *::before, *::after {
@@ -2109,17 +2156,71 @@
             outline: 2px solid var(--accent);
             outline-offset: 2px;
         }
+
+        /* Product target: primary touch controls remain comfortably operable. */
+        .month-nav > button,
+        .view-tab,
+        .filter-btn,
+        .platform-tab,
+        .copy-btn,
+        .quick-date-pill,
+        .filter-clear,
+        .event-modal-close,
+        .day-popup-close,
+        .print-dialog-close {
+            min-height: 44px;
+            min-width: 44px;
+        }
+
+        .view-tabs {
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 600px) {
+            .filter-pill {
+                min-height: 44px;
+            }
+
+            .mobile-day-trigger {
+                display: block;
+            }
+        }
+
+        /* Short or narrow viewports use normal document flow in either orientation. */
+        @media (max-width: 1000px), (max-height: 600px) {
+            body {
+                padding: 16px;
+            }
+
+            .main-content {
+                display: flex;
+                flex-direction: column;
+                height: auto;
+            }
+
+            .right-panel {
+                width: 100%;
+                padding-top: 0;
+                margin-bottom: 20px;
+            }
+
+            .left-panel {
+                width: 100%;
+            }
+
+            .month-nav {
+                flex-wrap: wrap;
+            }
+        }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 <body>
     <div id="sky-bg" aria-hidden="true"></div>
-    <div class="landscape-overlay" aria-hidden="true">
-        <p>Please rotate your device to portrait mode</p>
-    </div>
 
-    <main>
+    <main id="page-content">
+        <h1 class="sr-only">2026 Peer Support Calendar for the Multnomah Tri-County Region</h1>
         <div class="main-content">
             <header>
                 <div class="header-logo-container">
@@ -2130,10 +2231,10 @@
         <div class="calendar-section">
             <div class="subscribe-row">
                 <span class="subscribe-label">Subscribe:</span>
-                <div class="platform-tabs">
-                    <button class="platform-tab active" data-platform="apple">Apple Calendar</button>
-                    <button class="platform-tab" data-platform="google">Google Calendar</button>
-                    <button class="platform-tab" data-platform="outlook">Outlook</button>
+                <div class="platform-tabs" role="group" aria-label="Calendar platform">
+                    <button type="button" class="platform-tab active" data-platform="apple" aria-pressed="true">Apple Calendar</button>
+                    <button type="button" class="platform-tab" data-platform="google" aria-pressed="false">Google Calendar</button>
+                    <button type="button" class="platform-tab" data-platform="outlook" aria-pressed="false">Outlook</button>
                 </div>
             </div>
 
@@ -2171,6 +2272,7 @@
                 <div class="updates-section">
                     <h2>Updates <span id="stats-inline" style="font-weight: normal; font-size: 0.85em; color: var(--text-muted);"></span></h2>
                     <ul class="updates-list">
+                        <li><span class="update-date">Aug 13</span> Improved short-screen and landscape access, keyboard navigation, color contrast, mobile day agendas, resource phone and hours formatting, dialog behavior, and reduced-motion support.</li>
                         <li><span class="update-date">Aug 13</span> Repaired 10 broken source links; added the full OPS Fest and Hawthorne Plaza summer lineups; corrected DBSA, Brief Encounters, Sisters of the Road, Multnomah Days, food-access, and seasonal-event details.</li>
                         <li><span class="update-date">Aug 13</span> Added current THPRD summer classes and Tualatin Heritage Evening; corrected NAMI Clackamas, DDA, Sikh langar, Providence, and Gresham Movie Madness details; unified website and subscription recurrence handling.</li>
                         <li><span class="update-date">Aug 10</span> Calendar feeds refreshed</li>
@@ -2203,32 +2305,32 @@
             <div class="calendar-preview">
                 <div class="month-nav">
                     <button id="prev-month" aria-label="Previous month">&larr;</button>
-                    <span class="month-label" id="month-label">January 2025</span>
+                    <span class="month-label" id="month-label">Loading calendar…</span>
                     <button id="next-month" aria-label="Next month">&rarr;</button>
                     <button class="today-btn" id="today-btn" onclick="goToToday()" aria-label="Go to today">Today</button>
                     <div class="view-tabs" role="tablist" aria-label="Calendar views">
-                        <button class="view-tab active" id="grid-tab" data-view="grid" role="tab" aria-selected="true" aria-controls="grid-view">Calendar</button>
-                        <button class="view-tab" id="list-tab" data-view="list" role="tab" aria-selected="false" aria-controls="list-view">List</button>
-                        <button class="view-tab desktop-only" id="seasonal-tab" data-view="seasonal" role="tab" aria-selected="false" aria-controls="seasonal-view">Seasonal</button>
-                        <button class="view-tab" id="map-tab" data-view="map" role="tab" aria-selected="false" aria-controls="map-view">Map</button>
-                        <button class="view-tab" id="resources-tab" data-view="resources" role="tab" aria-selected="false" aria-controls="resources-view">Resources</button>
+                        <button type="button" class="view-tab active" id="grid-tab" data-view="grid" role="tab" aria-selected="true" aria-controls="grid-view" tabindex="0">Calendar</button>
+                        <button type="button" class="view-tab" id="list-tab" data-view="list" role="tab" aria-selected="false" aria-controls="list-view" tabindex="-1">List</button>
+                        <button type="button" class="view-tab" id="seasonal-tab" data-view="seasonal" role="tab" aria-selected="false" aria-controls="seasonal-view" tabindex="-1">Seasonal</button>
+                        <button type="button" class="view-tab" id="map-tab" data-view="map" role="tab" aria-selected="false" aria-controls="map-view" tabindex="-1">Map</button>
+                        <button type="button" class="view-tab" id="resources-tab" data-view="resources" role="tab" aria-selected="false" aria-controls="resources-view" tabindex="-1">Resources</button>
                     </div>
-                    <button class="filter-btn" id="filter-btn" onclick="toggleFilterPanel()">
+                    <button type="button" class="filter-btn" id="filter-btn" onclick="toggleFilterPanel()" aria-expanded="false" aria-controls="filter-panel">
                         Filter <span class="filter-badge" id="filter-badge" style="display:none;">0</span>
                     </button>
                     <button class="print-btn" onclick="openPrintDialog()" title="Print calendar">🖨️ Print</button>
                 </div>
-                <div class="filter-panel" id="filter-panel">
+                <div class="filter-panel" id="filter-panel" aria-hidden="true">
                     <input type="search" class="filter-search" id="filter-search" placeholder="Search events, locations, categories..." oninput="debouncedUpdateFilters()" aria-label="Search events">
-                    <div class="filter-group" data-group="when">
-                        <span class="filter-group-label">When</span>
+                    <div class="filter-group" data-group="when" role="group" aria-labelledby="filter-when-label">
+                        <span class="filter-group-label" id="filter-when-label">When</span>
                         <div class="filter-pills">
                             <button type="button" class="quick-date-pill" id="quick-today" onclick="toggleQuickDate('today')" aria-pressed="false">Today</button>
                             <button type="button" class="quick-date-pill" id="quick-weekend" onclick="toggleQuickDate('weekend')" aria-pressed="false">This Weekend</button>
                         </div>
                     </div>
-                    <div class="filter-group" data-group="category">
-                        <span class="filter-group-label">Category</span>
+                    <div class="filter-group" data-group="category" role="group" aria-labelledby="filter-category-label">
+                        <span class="filter-group-label" id="filter-category-label">Category</span>
                         <div class="filter-pills">
                             <label class="filter-pill cat-pill" data-tag="peer_support"><input type="checkbox" value="peer_support" onchange="updateFilters()">Peer Support</label>
                             <label class="filter-pill cat-pill" data-tag="fitness_wellness"><input type="checkbox" value="fitness_wellness" onchange="updateFilters()">Fitness</label>
@@ -2241,8 +2343,8 @@
                             <label class="filter-pill cat-pill" data-tag="transportation"><input type="checkbox" value="transportation" onchange="updateFilters()">Transit</label>
                         </div>
                     </div>
-                    <div class="filter-group" data-group="vibe">
-                        <span class="filter-group-label">Vibe</span>
+                    <div class="filter-group" data-group="vibe" role="group" aria-labelledby="filter-vibe-label">
+                        <span class="filter-group-label" id="filter-vibe-label">Vibe</span>
                         <div class="filter-pills">
                             <label class="filter-pill goodfor-pill" data-tag="anxiety_friendly"><input type="checkbox" value="anxiety_friendly" onchange="updateFilters()">Low-Pressure</label>
                             <label class="filter-pill goodfor-pill" data-tag="low_energy"><input type="checkbox" value="low_energy" onchange="updateFilters()">Low-Energy</label>
@@ -2253,8 +2355,8 @@
                             <label class="filter-pill goodfor-pill" data-tag="family_friendly"><input type="checkbox" value="family_friendly" onchange="updateFilters()">Family</label>
                         </div>
                     </div>
-                    <div class="filter-group" data-group="social">
-                        <span class="filter-group-label">Social Level</span>
+                    <div class="filter-group" data-group="social" role="group" aria-labelledby="filter-social-label">
+                        <span class="filter-group-label" id="filter-social-label">Social Level</span>
                         <div class="filter-pills">
                             <label class="filter-pill social-pill" data-tag="solo"><input type="checkbox" value="solo" onchange="updateFilters()">Solo</label>
                             <label class="filter-pill social-pill" data-tag="drop_in"><input type="checkbox" value="drop_in" onchange="updateFilters()">Drop-In</label>
@@ -2263,8 +2365,8 @@
                             <label class="filter-pill social-pill" data-tag="one_on_one"><input type="checkbox" value="one_on_one" onchange="updateFilters()">1-on-1</label>
                         </div>
                     </div>
-                    <div class="filter-group" data-group="audience">
-                        <span class="filter-group-label">Audience</span>
+                    <div class="filter-group" data-group="audience" role="group" aria-labelledby="filter-audience-label">
+                        <span class="filter-group-label" id="filter-audience-label">Audience</span>
                         <div class="filter-pills">
                             <label class="filter-pill" data-tag="seniors"><input type="checkbox" value="seniors" onchange="updateFilters()">Seniors</label>
                             <label class="filter-pill" data-tag="young_adults"><input type="checkbox" value="young_adults" onchange="updateFilters()">Young Adults</label>
@@ -2280,21 +2382,21 @@
                     <button class="filter-clear" id="filter-clear" onclick="clearFilters()" style="display:none;">Clear</button>
                 </div>
                 <div id="sr-announcer" class="sr-live" aria-live="polite" aria-atomic="true"></div>
-                <div class="list-view" id="list-view" role="tabpanel" aria-labelledby="list-tab">
+                <div class="list-view" id="list-view" role="tabpanel" aria-labelledby="list-tab" hidden>
                     <div class="loading-indicator" id="list-loading"><div class="loading-spinner"></div>Loading events...</div>
                 </div>
                 <div class="grid-view active" id="grid-view" role="tabpanel" aria-labelledby="grid-tab">
                     <div class="loading-indicator" id="grid-loading"><div class="loading-spinner"></div>Loading calendar...</div>
-                    <div class="calendar-grid" id="calendar-grid" role="grid" aria-label="Monthly calendar"></div>
+                    <div class="calendar-grid" id="calendar-grid" role="region" aria-labelledby="month-label"></div>
                 </div>
-                <div class="seasonal-view" id="seasonal-view" role="tabpanel" aria-labelledby="seasonal-tab">
+                <div class="seasonal-view" id="seasonal-view" role="tabpanel" aria-labelledby="seasonal-tab" hidden>
                     <div class="loading-indicator" id="seasonal-loading"><div class="loading-spinner"></div>Loading seasonal events...</div>
                 </div>
-                <div class="map-view" id="map-view" role="tabpanel" aria-labelledby="map-tab">
-                    <div id="map-container" style="width:100%;border-radius:8px;" aria-label="Interactive map of resource locations" role="application"></div>
+                <div class="map-view" id="map-view" role="tabpanel" aria-labelledby="map-tab" hidden>
+                    <div id="map-container" style="width:100%;border-radius:8px;" aria-label="Interactive map of resource locations" role="region"></div>
                     <div id="map-legend"></div>
                 </div>
-                <div class="resources-view" id="resources-view" role="tabpanel" aria-labelledby="resources-tab">
+                <div class="resources-view" id="resources-view" role="tabpanel" aria-labelledby="resources-tab" hidden>
                 </div>
             </div>
 
@@ -2312,10 +2414,10 @@
     </main>
 
     <!-- Print dialog -->
-    <div class="print-dialog-overlay" id="print-dialog-overlay">
+    <div class="print-dialog-overlay" id="print-dialog-overlay" aria-hidden="true">
         <div class="print-dialog" role="dialog" aria-modal="true" aria-labelledby="print-dialog-title">
             <div class="print-dialog-header">
-                <h3 id="print-dialog-title">🖨️ Print Calendar</h3>
+                <h2 id="print-dialog-title">🖨️ Print Calendar</h2>
                 <button class="print-dialog-close" onclick="closePrintDialog()" aria-label="Close">&times;</button>
             </div>
             <div class="print-dialog-body">
@@ -2348,12 +2450,12 @@
     </footer>
 
     <!-- Event detail modal -->
-    <div class="event-modal-overlay" id="event-modal-overlay">
+    <div class="event-modal-overlay" id="event-modal-overlay" aria-hidden="true">
         <div class="event-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
             <div class="event-modal-header">
                 <div class="event-modal-color" id="modal-color"></div>
                 <div class="event-modal-title">
-                    <h3 id="modal-title"></h3>
+                    <h2 id="modal-title"></h2>
                     <div class="event-org" id="modal-org"></div>
                 </div>
                 <button class="event-modal-close" id="modal-close" aria-label="Close">&times;</button>
@@ -2363,11 +2465,11 @@
     </div>
 
     <!-- About modal -->
-    <div class="event-modal-overlay" id="about-modal-overlay">
+    <div class="event-modal-overlay" id="about-modal-overlay" aria-hidden="true">
         <div class="event-modal about-modal" role="dialog" aria-modal="true" aria-labelledby="about-modal-title">
             <div class="event-modal-header">
                 <div class="event-modal-title">
-                    <h3 id="about-modal-title">About This Calendar</h3>
+                    <h2 id="about-modal-title">About This Calendar</h2>
                 </div>
                 <button class="event-modal-close" onclick="closeAboutModal()" aria-label="Close">&times;</button>
             </div>
@@ -2430,8 +2532,12 @@
         // Platform tab switching
         document.querySelectorAll('.platform-tab').forEach(tab => {
             tab.addEventListener('click', function() {
-                document.querySelectorAll('.platform-tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.platform-tab').forEach(t => {
+                    t.classList.remove('active');
+                    t.setAttribute('aria-pressed', 'false');
+                });
                 this.classList.add('active');
+                this.setAttribute('aria-pressed', 'true');
                 currentPlatform = this.dataset.platform;
 
                 // Update instructions
@@ -2447,22 +2553,46 @@
                 const fullUrl = baseUrl + currentPlatform + '/' + file;
 
                 try {
-                    await navigator.clipboard.writeText(fullUrl);
-                } catch (err) {
-                    const textarea = document.createElement('textarea');
-                    textarea.value = fullUrl;
-                    document.body.appendChild(textarea);
-                    textarea.select();
-                    document.execCommand('copy');
-                    document.body.removeChild(textarea);
-                }
+                    let copied = false;
+                    if (navigator.clipboard?.writeText) {
+                        try {
+                            await navigator.clipboard.writeText(fullUrl);
+                            copied = true;
+                        } catch (err) {
+                            // Fall through to the legacy copy path below.
+                        }
+                    }
 
-                this.textContent = 'Link copied!';
-                this.classList.add('copied');
-                setTimeout(() => {
-                    this.textContent = 'Subscribe';
+                    if (!copied) {
+                        const textarea = document.createElement('textarea');
+                        textarea.value = fullUrl;
+                        textarea.setAttribute('readonly', '');
+                        textarea.style.position = 'fixed';
+                        textarea.style.opacity = '0';
+                        document.body.appendChild(textarea);
+                        textarea.select();
+                        try {
+                            copied = document.execCommand('copy');
+                        } finally {
+                            document.body.removeChild(textarea);
+                        }
+                    }
+
+                    if (!copied) throw new Error('Copy command failed');
+
+                    this.textContent = 'Link copied!';
+                    this.classList.add('copied');
+                    announce('Calendar link copied to clipboard');
+                    clearTimeout(this.copyResetTimer);
+                    this.copyResetTimer = setTimeout(() => {
+                        this.textContent = 'Copy Calendar Link';
+                        this.classList.remove('copied');
+                    }, 2000);
+                } catch (err) {
+                    this.textContent = 'Copy Calendar Link';
                     this.classList.remove('copied');
-                }, 2000);
+                    announce('Could not copy the calendar link. Please try again.');
+                }
             });
         });
 
@@ -2475,7 +2605,10 @@
         let activeGoodForFilters = [];
         let activeSocialFilters = [];
         let searchQuery = '';
-        let lastFocusedElement = null;
+        let eventModalTrigger = null;
+        let aboutModalTrigger = null;
+        let printModalTrigger = null;
+        let dayPopupTrigger = null;
         let quickDateFilter = null; // null | 'today' | 'weekend'
         let currentEventLink = ''; // deep link for the currently open event modal
 
@@ -2506,7 +2639,10 @@
             const panel = document.getElementById('filter-panel');
             const btn = document.getElementById('filter-btn');
             panel.classList.toggle('active');
-            btn.classList.toggle('active', panel.classList.contains('active') || activeFilters.length > 0);
+            const expanded = panel.classList.contains('active');
+            panel.setAttribute('aria-hidden', String(!expanded));
+            btn.setAttribute('aria-expanded', String(expanded));
+            btn.classList.toggle('active', expanded || activeFilters.length > 0);
         }
 
         // Quick date filters: toggle Today / This Weekend. Applies to dated
@@ -2685,10 +2821,40 @@
         }
 
         function escapeHtml(str) {
-            if (!str) return '';
+            if (str == null) return '';
             const div = document.createElement('div');
-            div.textContent = str;
-            return div.innerHTML;
+            div.textContent = String(str);
+            return div.innerHTML.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+        }
+
+        function humanizeFieldKey(key) {
+            const words = String(key || '').replace(/[_-]+/g, ' ').trim();
+            return words ? words.charAt(0).toUpperCase() + words.slice(1) : '';
+        }
+
+        function formatHours(value, separator = '; ') {
+            if (value == null || value === '') return '';
+            if (Array.isArray(value)) {
+                return value.map(item => formatHours(item, ', ')).filter(Boolean).join(separator);
+            }
+            if (typeof value === 'object') {
+                return Object.entries(value).map(([key, item]) => {
+                    const formatted = formatHours(item, ', ');
+                    return formatted ? `${humanizeFieldKey(key)}: ${formatted}` : '';
+                }).filter(Boolean).join(separator);
+            }
+            return String(value);
+        }
+
+        function phoneHref(phone) {
+            if (phone == null) return '';
+            const value = String(phone).trim();
+            const extension = value.match(/(?:ext\.?|extension|x)\s*(\d+)\s*$/i);
+            const main = extension ? value.slice(0, extension.index) : value;
+            const hasLeadingPlus = /^\s*\+/.test(main);
+            const digits = main.replace(/\D/g, '');
+            if (digits.length < 3) return '';
+            return `tel:${hasLeadingPlus ? '+' : ''}${digits}${extension ? `;ext=${extension[1]}` : ''}`;
         }
 
         const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
@@ -2953,7 +3119,7 @@
 
         // Modal functions
         function showEventModal(event) {
-            lastFocusedElement = document.activeElement;
+            eventModalTrigger = document.activeElement;
             const overlay = document.getElementById('event-modal-overlay');
             document.getElementById('modal-title').textContent = event.title;
             document.getElementById('modal-org').textContent = event.org || '';
@@ -3057,6 +3223,7 @@
 
             document.getElementById('modal-body').innerHTML = bodyHtml;
             overlay.classList.add('active');
+            setModalState(overlay, true);
             trapFocus(overlay.querySelector('.event-modal'));
         }
 
@@ -3098,14 +3265,40 @@
         window.addEventListener('hashchange', openEventFromHash);
 
         // Focus trap for accessible modals
-        let activeFocusTrap = null;
+        const focusTraps = new WeakMap();
+        const openModalOverlays = new Set();
+
+        function setModalState(overlay, isOpen) {
+            const pageContent = document.getElementById('page-content');
+            if (isOpen) {
+                openModalOverlays.add(overlay);
+                overlay.setAttribute('aria-hidden', 'false');
+            } else {
+                openModalOverlays.delete(overlay);
+                overlay.setAttribute('aria-hidden', 'true');
+            }
+            const hasOpenModal = openModalOverlays.size > 0;
+            pageContent.inert = hasOpenModal;
+            if (hasOpenModal) pageContent.setAttribute('aria-hidden', 'true');
+            else pageContent.removeAttribute('aria-hidden');
+        }
+
+        function restoreFocus(trigger, fallbackId) {
+            if (trigger?.isConnected && trigger !== document.body && trigger.focus) {
+                trigger.focus();
+                return;
+            }
+            document.getElementById(fallbackId)?.focus({ preventScroll: true });
+        }
+
         function trapFocus(modalElement) {
+            releaseFocusTrap(modalElement);
             const focusable = modalElement.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
             if (focusable.length === 0) return;
             const first = focusable[0];
             const last = focusable[focusable.length - 1];
             first.focus();
-            activeFocusTrap = function(e) {
+            const handler = function(e) {
                 if (e.key !== 'Tab') return;
                 if (e.shiftKey) {
                     if (document.activeElement === first) { e.preventDefault(); last.focus(); }
@@ -3113,28 +3306,30 @@
                     if (document.activeElement === last) { e.preventDefault(); first.focus(); }
                 }
             };
-            modalElement.addEventListener('keydown', activeFocusTrap);
+            focusTraps.set(modalElement, handler);
+            modalElement.addEventListener('keydown', handler);
         }
         function releaseFocusTrap(modalElement) {
-            if (activeFocusTrap) {
-                modalElement.removeEventListener('keydown', activeFocusTrap);
-                activeFocusTrap = null;
+            const handler = focusTraps.get(modalElement);
+            if (handler) {
+                modalElement.removeEventListener('keydown', handler);
+                focusTraps.delete(modalElement);
             }
         }
 
         function hideEventModal() {
             const overlay = document.getElementById('event-modal-overlay');
+            if (!overlay.classList.contains('active')) return;
             releaseFocusTrap(overlay.querySelector('.event-modal'));
             overlay.classList.remove('active');
+            setModalState(overlay, false);
             // Closing the modal also clears its deep link from the URL
             if (location.hash.startsWith('#event=')) {
                 history.replaceState(null, '', location.pathname + location.search);
             }
             currentEventLink = '';
-            if (lastFocusedElement && lastFocusedElement.focus) {
-                lastFocusedElement.focus();
-                lastFocusedElement = null;
-            }
+            restoreFocus(eventModalTrigger, 'grid-tab');
+            eventModalTrigger = null;
         }
 
         // Close modal on overlay click or close button
@@ -3143,29 +3338,29 @@
         });
         document.getElementById('modal-close').addEventListener('click', hideEventModal);
         document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape') {
-                hideEventModal();
-                closeAboutModal();
-                closePrintDialog();
-            }
+            if (e.key !== 'Escape') return;
+            if (document.getElementById('print-dialog-overlay').classList.contains('active')) closePrintDialog();
+            else if (document.getElementById('about-modal-overlay').classList.contains('active')) closeAboutModal();
+            else if (document.getElementById('event-modal-overlay').classList.contains('active')) hideEventModal();
         });
 
         // About modal functions
         function showAboutModal() {
-            lastFocusedElement = document.activeElement;
+            aboutModalTrigger = document.activeElement;
             const overlay = document.getElementById('about-modal-overlay');
             overlay.classList.add('active');
+            setModalState(overlay, true);
             trapFocus(overlay.querySelector('.event-modal'));
         }
 
         function closeAboutModal() {
             const overlay = document.getElementById('about-modal-overlay');
+            if (!overlay.classList.contains('active')) return;
             releaseFocusTrap(overlay.querySelector('.event-modal'));
             overlay.classList.remove('active');
-            if (lastFocusedElement && lastFocusedElement.focus) {
-                lastFocusedElement.focus();
-                lastFocusedElement = null;
-            }
+            setModalState(overlay, false);
+            restoreFocus(aboutModalTrigger, 'grid-tab');
+            aboutModalTrigger = null;
         }
 
         // Close about modal on overlay click
@@ -3179,13 +3374,16 @@
         function showDayPopup(dayElement, dayEvents, dateLabel) {
             // Remove any existing popup and clean up listeners
             hideDayPopup();
-            lastFocusedElement = document.activeElement;
+            dayPopupTrigger = document.activeElement;
 
             const popup = document.createElement('div');
             popup.className = 'day-popup';
+            popup.setAttribute('role', 'dialog');
+            popup.setAttribute('aria-modal', 'false');
+            popup.setAttribute('aria-labelledby', 'day-popup-title');
 
             let html = `<div class="day-popup-header">
-                <span>${dateLabel}</span>
+                <span id="day-popup-title">${dateLabel}</span>
                 <button class="day-popup-close" aria-label="Close">&times;</button>
             </div>
             <div class="day-popup-events">`;
@@ -3193,13 +3391,13 @@
             for (let i = 0; i < dayEvents.length; i++) {
                 const evt = dayEvents[i];
                 const timeStr = evt.startTime ? formatTime(evt.startTime) : '';
-                html += `<div class="day-popup-event" data-event-index="${i}">
-                    <div class="day-popup-event-color" style="background:${evt.color}"></div>
-                    <div class="day-popup-event-details">
-                        <div class="day-popup-event-title">${escapeHtml(evt.title)}</div>
-                        ${timeStr ? `<div class="day-popup-event-time">${timeStr}</div>` : ''}
-                    </div>
-                </div>`;
+                html += `<button type="button" class="day-popup-event" data-event-index="${i}">
+                    <span class="day-popup-event-color" style="background:${evt.color}"></span>
+                    <span class="day-popup-event-details">
+                        <span class="day-popup-event-title">${escapeHtml(evt.title)}</span>
+                        ${timeStr ? `<span class="day-popup-event-time">${timeStr}</span>` : ''}
+                    </span>
+                </button>`;
             }
 
             html += '</div>';
@@ -3227,14 +3425,18 @@
 
             document.body.appendChild(popup);
             currentDayPopup = popup;
+            popup.querySelector('.day-popup-close').focus();
 
             // Add event listeners
-            popup.querySelector('.day-popup-close').addEventListener('click', hideDayPopup);
+            popup.querySelector('.day-popup-close').addEventListener('click', () => hideDayPopup());
 
             popup.querySelectorAll('.day-popup-event').forEach((el, idx) => {
                 el.addEventListener('click', () => {
-                    showEventModal(dayEvents[idx]);
-                    hideDayPopup();
+                    const selectedEvent = dayEvents[idx];
+                    const trigger = dayPopupTrigger;
+                    hideDayPopup(false);
+                    showEventModal(selectedEvent);
+                    eventModalTrigger = trigger;
                 });
             });
 
@@ -3253,21 +3455,21 @@
             }
         }
 
-        function hideDayPopup() {
+        function hideDayPopup(restoreFocus = true) {
             if (currentDayPopup) {
                 currentDayPopup.remove();
                 currentDayPopup = null;
                 document.removeEventListener('click', handleOutsideClick);
                 document.removeEventListener('keydown', handlePopupEscape);
-                if (lastFocusedElement && lastFocusedElement.focus) {
-                    lastFocusedElement.focus();
-                    lastFocusedElement = null;
+                if (restoreFocus && dayPopupTrigger?.isConnected && dayPopupTrigger.focus) {
+                    dayPopupTrigger.focus();
                 }
+                dayPopupTrigger = null;
             }
         }
 
         function handleOutsideClick(e) {
-            if (currentDayPopup && !currentDayPopup.contains(e.target) && !e.target.classList.contains('more-events') && !e.target.classList.contains('grid-event')) {
+            if (currentDayPopup && !currentDayPopup.contains(e.target) && !e.target.classList.contains('more-events') && !e.target.classList.contains('grid-event') && !e.target.classList.contains('mobile-day-trigger')) {
                 hideDayPopup();
             }
         }
@@ -3311,17 +3513,17 @@
                     const timeStr = formatEventTime(event);
                     const locationStr = event.format === 'Zoom' ? 'Online (Zoom)' : (event.location || '');
 
-                    html += `<div class="event-item" data-list-index="${eventIndex}" style="cursor: pointer;">
-                        <div class="event-color" style="background: ${event.color}"></div>
-                        <div class="event-details">
-                            <div class="event-title">${escapeHtml(event.title)}</div>
-                            <div class="event-meta">
+                    html += `<button type="button" class="event-item" data-list-index="${eventIndex}">
+                        <span class="event-color" style="background: ${event.color}"></span>
+                        <span class="event-details">
+                            <span class="event-title">${escapeHtml(event.title)}</span>
+                            <span class="event-meta">
                                 ${timeStr ? `<span class="event-time">${timeStr}</span>` : ''}
                                 ${timeStr && locationStr ? ' · ' : ''}
                                 ${escapeHtml(locationStr)}
-                            </div>
-                        </div>
-                    </div>`;
+                            </span>
+                        </span>
+                    </button>`;
 
                     allListEvents.push(event);
                     eventIndex++;
@@ -3348,7 +3550,7 @@
         const printMinDate = new Date(2026, 0, 1); // January 1, 2026
 
         function openPrintDialog() {
-            lastFocusedElement = document.activeElement;
+            printModalTrigger = document.activeElement;
             const overlay = document.getElementById('print-dialog-overlay');
             const startInput = document.getElementById('print-start-date');
             const endInput = document.getElementById('print-end-date');
@@ -3369,17 +3571,18 @@
             endInput.value = lastDay.toISOString().split('T')[0];
 
             overlay.classList.add('active');
+            setModalState(overlay, true);
             trapFocus(overlay.querySelector('.print-dialog'));
         }
 
         function closePrintDialog() {
             const overlay = document.getElementById('print-dialog-overlay');
+            if (!overlay.classList.contains('active')) return;
             releaseFocusTrap(overlay.querySelector('.print-dialog'));
             overlay.classList.remove('active');
-            if (lastFocusedElement && lastFocusedElement.focus) {
-                lastFocusedElement.focus();
-                lastFocusedElement = null;
-            }
+            setModalState(overlay, false);
+            restoreFocus(printModalTrigger, 'grid-tab');
+            printModalTrigger = null;
         }
 
         function executePrint() {
@@ -3432,14 +3635,9 @@
             });
 
             // Category colors for legend
-            const categoryColors = {
-                'Peer Support': '#7B68EE',
-                'Fitness & Movement': '#32CD32',
-                'Events & Activities': '#FF6347',
-                'Arts & Culture': '#9370DB',
-                'Food & Meals': '#DAA520',
-                'Social & Games': '#FF69B4'
-            };
+            const categoryColors = Object.fromEntries(
+                Object.entries(eventsData.categories).map(([key, name]) => [name, eventsData.colors[key]])
+            );
 
             // Group events by date
             const grouped = {};
@@ -3465,7 +3663,7 @@
             // Build print HTML
             let html = `
                 <div class="print-header">
-                    <h1>2026 Peer Support Calendar for the Multnomah Tri-County Region</h1>
+                    <div class="print-title">2026 Peer Support Calendar for the Multnomah Tri-County Region</div>
                     <p class="print-subtitle">${formatDateRange(startDate, endDate)}</p>
                 </div>
                 <div class="print-disclaimer">
@@ -3576,13 +3774,13 @@
             const today = new Date();
             const isCurrentMonth = today.getFullYear() === year && today.getMonth() === month;
 
-            let html = dayNames.map(d => `<div class="grid-header" role="columnheader">${d}</div>`).join('');
+            let html = dayNames.map(d => `<div class="grid-header" aria-hidden="true">${d}</div>`).join('');
 
             // Previous month days
             const prevMonth = new Date(year, month, 0);
             for (let i = startOffset - 1; i >= 0; i--) {
                 const d = prevMonth.getDate() - i;
-                html += `<div class="grid-day other-month" role="gridcell" aria-disabled="true"><div class="day-number">${d}</div></div>`;
+                html += `<div class="grid-day other-month" aria-hidden="true"><div class="day-number">${d}</div></div>`;
             }
 
             // Current month days
@@ -3591,19 +3789,26 @@
                 const isToday = isCurrentMonth && today.getDate() === day;
                 const dayEvents = eventsByDateKey[day] || [];
                 const hasEvents = dayEvents.length > 0;
-                const ariaLabel = `${monthLabel} ${day}${hasEvents ? ', ' + dayEvents.length + ' event' + (dayEvents.length > 1 ? 's' : '') : ''}`;
+                const date = new Date(year, month, day);
+                const weekday = date.toLocaleDateString('en-US', { weekday: 'long' });
+                const ariaLabel = `${weekday}, ${monthLabel} ${day}, ${year}${hasEvents ? ', ' + dayEvents.length + ' event' + (dayEvents.length > 1 ? 's' : '') : ''}`;
 
-                html += `<div class="grid-day${isToday ? ' today' : ''}" data-day="${day}" role="gridcell" aria-label="${ariaLabel}">
-                    <div class="day-number${hasEvents ? ' has-events' : ''}">${day}</div>`;
+                const isoDate = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                html += `<div class="grid-day${isToday ? ' today' : ''}${hasEvents ? ' has-events' : ''}" data-day="${day}">
+                    <time class="day-number${hasEvents ? ' has-events' : ''}" datetime="${isoDate}">${day}</time>`;
+
+                if (hasEvents) {
+                    html += `<button type="button" class="mobile-day-trigger" data-day="${day}" aria-label="View all ${dayEvents.length} event${dayEvents.length === 1 ? '' : 's'} on ${weekday}, ${monthLabel} ${day}, ${year}"></button>`;
+                }
 
                 const maxShow = window.innerWidth >= 768 ? 3 : 2;
                 for (let i = 0; i < Math.min(dayEvents.length, maxShow); i++) {
                     const evt = dayEvents[i];
-                    html += `<div class="grid-event" title="${escapeHtml(evt.title)}" data-day="${day}" data-index="${i}" role="button" tabindex="0">${escapeHtml(evt.title)}</div>`;
+                    html += `<button type="button" class="grid-event" title="${escapeHtml(evt.title)}" data-day="${day}" data-index="${i}">${escapeHtml(evt.title)}</button>`;
                 }
 
                 if (dayEvents.length > maxShow) {
-                    html += `<div class="more-events" data-day="${day}" role="button" tabindex="0">+${dayEvents.length - maxShow} more</div>`;
+                    html += `<button type="button" class="more-events" data-day="${day}">+${dayEvents.length - maxShow} more</button>`;
                 }
 
                 html += '</div>';
@@ -3613,7 +3818,7 @@
             const totalCells = startOffset + lastDay.getDate();
             const remaining = (7 - (totalCells % 7)) % 7;
             for (let i = 1; i <= remaining; i++) {
-                html += `<div class="grid-day other-month" role="gridcell" aria-disabled="true"><div class="day-number">${i}</div></div>`;
+                html += `<div class="grid-day other-month" aria-hidden="true"><div class="day-number">${i}</div></div>`;
             }
 
             container.innerHTML = html;
@@ -3643,13 +3848,14 @@
                 });
             });
 
-            // Keyboard support for grid events and "+X more" buttons
-            container.querySelectorAll('.grid-event, .more-events').forEach(el => {
-                el.addEventListener('keydown', function(e) {
-                    if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        this.click();
-                    }
+            // On compact screens the whole day cell opens its complete agenda.
+            container.querySelectorAll('.mobile-day-trigger').forEach(el => {
+                el.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const day = parseInt(this.dataset.day);
+                    const dayEvents = eventsByDateKey[day] || [];
+                    const dayCell = this.closest('.grid-day');
+                    showDayPopup(dayCell, dayEvents, `${monthNames[month]} ${day}`);
                 });
             });
         }
@@ -3750,32 +3956,36 @@
 
                 for (const r of entries) {
                     const price = r.pricing ? (typeof r.pricing === 'object' ? r.pricing.description : r.pricing) : null;
-                    html += `<div class="resource-card" tabindex="0" role="button"
-                                 aria-label="${escapeHtml(r.title)}"
-                                 onclick="showResourceModal('${r.id}')"
-                                 onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showResourceModal('${r.id}');}">
+                    html += `<article class="resource-card">
                         <div class="resource-color" style="background:${color};"></div>
                         <div class="resource-info">
-                            <div class="resource-name">${escapeHtml(r.title)}</div>
+                            <button type="button" class="resource-details-btn" data-resource-id="${escapeHtml(r.id)}" aria-label="View details for ${escapeHtml(r.title)}">${escapeHtml(r.title)}</button>
                             <div class="resource-meta">`;
 
                     if (r.address && !r.address.startsWith('Various'))
                         html += `<span>${escapeHtml(r.address)}</span>`;
-                    if (r.phone)
-                        html += `<span>${escapeHtml(String(r.phone))}</span>`;
+                    if (r.phone) {
+                        const href = phoneHref(r.phone);
+                        html += href
+                            ? `<span><a class="resource-phone" href="${escapeHtml(href)}">${escapeHtml(String(r.phone))}</a></span>`
+                            : `<span>${escapeHtml(String(r.phone))}</span>`;
+                    }
                     if (r.hours)
-                        html += `<span>${escapeHtml(typeof r.hours === 'object' ? JSON.stringify(r.hours) : String(r.hours))}</span>`;
+                        html += `<span>${escapeHtml(formatHours(r.hours))}</span>`;
                     else if (r.schedule)
                         html += `<span>${escapeHtml(r.schedule)}</span>`;
 
                     html += `</div>`;
                     if (price) html += `<span class="resource-price">${escapeHtml(price)}</span>`;
-                    html += `</div></div>`;
+                    html += `</div></article>`;
                 }
                 html += '</div>';
             }
 
             container.innerHTML = html;
+            container.querySelectorAll('.resource-details-btn').forEach(button => {
+                button.addEventListener('click', () => showResourceModal(button.dataset.resourceId));
+            });
             announce(`Resources view: ${resources.length} resources`);
         }
 
@@ -3785,7 +3995,7 @@
             const r = eventsData.events.find(e => e.id === id);
             if (!r) return;
 
-            lastFocusedElement = document.activeElement;
+            eventModalTrigger = document.activeElement;
             const color = eventsData.colors[r.category] || '#808080';
             const catName = r.categoryName || r.category;
             const price = r.pricing ? (typeof r.pricing === 'object' ? r.pricing.description : r.pricing) : null;
@@ -3812,7 +4022,7 @@
 
             // Hours/Schedule
             if (r.hours) {
-                const hrs = typeof r.hours === 'object' ? Object.entries(r.hours).map(([k, v]) => `${k}: ${v}`).join('<br>') : escapeHtml(String(r.hours));
+                const hrs = escapeHtml(formatHours(r.hours, '\n')).replace(/\n/g, '<br>');
                 body += `<div class="resource-modal-section"><h4>Hours</h4><p>${hrs}</p></div>`;
             } else if (r.schedule) {
                 body += `<div class="resource-modal-section"><h4>Schedule</h4><p>${escapeHtml(r.schedule)}</p></div>`;
@@ -3889,6 +4099,7 @@
             document.getElementById('modal-body').innerHTML = body;
             const overlay = document.getElementById('event-modal-overlay');
             overlay.classList.add('active');
+            setModalState(overlay, true);
             const modal = overlay.querySelector('.event-modal');
             trapFocus(modal);
             announce(`${r.title} details`);
@@ -3909,15 +4120,11 @@
         // Scroll to today in list view (if viewing current month and today has events)
         function scrollToToday() {
             const todaySection = document.getElementById('today-events');
-            const listView = document.getElementById('list-view');
-            if (todaySection && listView) {
+            if (todaySection) {
                 // Small delay to ensure layout is complete
                 setTimeout(() => {
-                    // Scroll within the list-view container only, not the whole page
-                    const containerTop = listView.getBoundingClientRect().top;
-                    const elementTop = todaySection.getBoundingClientRect().top;
-                    const offset = elementTop - containerTop + listView.scrollTop;
-                    listView.scrollTo({ top: offset, behavior: 'smooth' });
+                    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                    todaySection.scrollIntoView({ block: 'start', behavior: reduceMotion ? 'auto' : 'smooth' });
                 }, 50);
             }
         }
@@ -4090,14 +4297,15 @@
             for (const [month, monthEvents] of Object.entries(grouped)) {
                 html += `<div class="seasonal-month-header">${month}</div>`;
                 for (const event of monthEvents) {
+                    const seasonalIndex = events.indexOf(event);
                     const colorDot = event.color ? `<span class="color-dot" style="background:${event.color}"></span>` : '';
                     html += `
-                        <div class="seasonal-event-card" data-event='${JSON.stringify(event).replace(/'/g, "&#39;")}'>
-                            <div class="seasonal-event-date">${escapeHtml(event.dates || 'Various dates')}</div>
-                            <div class="seasonal-event-title">${colorDot}${escapeHtml(event.title)}</div>
-                            ${event.org ? `<div class="seasonal-event-org">${escapeHtml(event.org)}</div>` : ''}
-                            <div class="seasonal-event-category">${escapeHtml(event.category || '')}</div>
-                        </div>
+                        <button type="button" class="seasonal-event-card" data-seasonal-index="${seasonalIndex}">
+                            <span class="seasonal-event-date">${escapeHtml(event.dates || 'Various dates')}</span>
+                            <span class="seasonal-event-title">${colorDot}${escapeHtml(event.title)}</span>
+                            ${event.org ? `<span class="seasonal-event-org">${escapeHtml(event.org)}</span>` : ''}
+                            <span class="seasonal-event-category">${escapeHtml(event.category || '')}</span>
+                        </button>
                     `;
                 }
             }
@@ -4111,17 +4319,18 @@
                 if (!cont) return;
                 cont.querySelectorAll('.seasonal-event-card').forEach(card => {
                     card.addEventListener('click', () => {
-                        const eventData = JSON.parse(card.dataset.event);
-                        showSeasonalEventModal(eventData);
+                        const eventData = events[Number(card.dataset.seasonalIndex)];
+                        if (eventData) showSeasonalEventModal(eventData);
                     });
                 });
             });
         }
 
         function showSeasonalEventModal(event) {
-            lastFocusedElement = document.activeElement;
+            const seasonalModalTrigger = document.activeElement;
             const modal = document.createElement('div');
             modal.className = 'event-modal-overlay active';
+            modal.setAttribute('aria-hidden', 'false');
 
             let bodyHtml = '';
 
@@ -4209,15 +4418,16 @@
             `;
 
             document.body.appendChild(modal);
+            setModalState(modal, true);
             trapFocus(modal.querySelector('.event-modal'));
 
             // Close handlers
-            const savedFocus = lastFocusedElement;
             const removeModal = () => {
                 releaseFocusTrap(modal.querySelector('.event-modal'));
                 document.removeEventListener('keydown', handleSeasonalEscape);
+                setModalState(modal, false);
                 modal.remove();
-                if (savedFocus && savedFocus.focus) savedFocus.focus();
+                if (seasonalModalTrigger?.isConnected && seasonalModalTrigger.focus) seasonalModalTrigger.focus();
             };
             const handleSeasonalEscape = (e) => {
                 if (e.key === 'Escape') removeModal();
@@ -4349,42 +4559,47 @@
             announce(`Map showing ${mapMarkers.length} locations`);
         }
 
-        // View tab switching
-        document.querySelectorAll('.view-tab').forEach(tab => {
-            tab.addEventListener('click', function() {
-                document.querySelectorAll('.view-tab').forEach(t => {
-                    t.classList.remove('active');
-                    t.setAttribute('aria-selected', 'false');
-                });
-                this.classList.add('active');
-                this.setAttribute('aria-selected', 'true');
+        // View tabs use the WAI-ARIA automatic-activation keyboard pattern.
+        const viewTabs = Array.from(document.querySelectorAll('.view-tab'));
+        const viewPanels = ['list', 'grid', 'seasonal', 'map', 'resources'];
 
-                currentView = this.dataset.view;
-                document.getElementById('list-view').classList.toggle('active', currentView === 'list');
-                document.getElementById('grid-view').classList.toggle('active', currentView === 'grid');
-                document.getElementById('seasonal-view').classList.toggle('active', currentView === 'seasonal');
-                document.getElementById('map-view').classList.toggle('active', currentView === 'map');
-                document.getElementById('resources-view').classList.toggle('active', currentView === 'resources');
+        function activateViewTab(tab, moveFocus = false) {
+            viewTabs.forEach(item => {
+                const selected = item === tab;
+                item.classList.toggle('active', selected);
+                item.setAttribute('aria-selected', String(selected));
+                item.tabIndex = selected ? 0 : -1;
+            });
 
-                // Auto-scroll to today when switching to list view
-                if (currentView === 'list' && isCurrentMonth()) {
-                    scrollToToday();
-                }
+            currentView = tab.dataset.view;
+            viewPanels.forEach(view => {
+                const panel = document.getElementById(`${view}-view`);
+                const selected = view === currentView;
+                panel.classList.toggle('active', selected);
+                panel.hidden = !selected;
+            });
 
-                // Render seasonal view when switching to it
-                if (currentView === 'seasonal') {
-                    renderSeasonalView();
-                }
+            if (moveFocus) tab.focus();
 
-                // Initialize map when switching to map view
-                if (currentView === 'map') {
-                    initMap();
-                }
+            if (currentView === 'list' && isCurrentMonth()) scrollToToday();
+            if (currentView === 'seasonal') renderSeasonalView();
+            if (currentView === 'map') initMap();
+            if (currentView === 'resources') renderResourcesView();
+        }
 
-                // Render resources view when switching to it
-                if (currentView === 'resources') {
-                    renderResourcesView();
-                }
+        viewTabs.forEach(tab => {
+            tab.addEventListener('click', () => activateViewTab(tab));
+            tab.addEventListener('keydown', event => {
+                if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+                event.preventDefault();
+                const visibleTabs = viewTabs.filter(item => getComputedStyle(item).display !== 'none');
+                const currentIndex = visibleTabs.indexOf(tab);
+                let nextIndex = currentIndex;
+                if (event.key === 'Home') nextIndex = 0;
+                if (event.key === 'End') nextIndex = visibleTabs.length - 1;
+                if (event.key === 'ArrowLeft') nextIndex = (currentIndex - 1 + visibleTabs.length) % visibleTabs.length;
+                if (event.key === 'ArrowRight') nextIndex = (currentIndex + 1) % visibleTabs.length;
+                activateViewTab(visibleTabs[nextIndex], true);
             });
         });
 
