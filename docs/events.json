@@ -5514,20 +5514,7 @@
           "location": "Creston Pool, 4454 SE Powell Blvd",
           "notes": "Extended season through early September",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "MO"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-22",
-            "until_date": "2026-08-22",
-            "start_time": "18:30",
-            "end_time": "20:00",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Peninsula Pool Free Swim",
@@ -5536,20 +5523,7 @@
           "location": "Peninsula Pool, 700 N Rosa Parks Way",
           "notes": "Extended season through early September",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "TU"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-23",
-            "until_date": "2026-08-22",
-            "start_time": "13:00",
-            "end_time": "15:45",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Montavilla Pool Free Swim",
@@ -5557,20 +5531,7 @@
           "cost": "FREE",
           "location": "Montavilla Pool, 8219 NE Glisan St",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "TU"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-23",
-            "until_date": "2026-08-22",
-            "start_time": "18:30",
-            "end_time": "20:00",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Grant Pool Free Swim",
@@ -5578,20 +5539,7 @@
           "cost": "FREE",
           "location": "Grant Pool, 2300 NE 33rd Ave",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "WE"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-24",
-            "until_date": "2026-08-22",
-            "start_time": "13:00",
-            "end_time": "15:00",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Sellwood Pool Free Swim",
@@ -5599,20 +5547,7 @@
           "cost": "FREE",
           "location": "Sellwood Pool, 7951 SE 7th Ave",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "WE"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-24",
-            "until_date": "2026-08-22",
-            "start_time": "18:30",
-            "end_time": "20:00",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Pier Pool Free Swim",
@@ -5621,20 +5556,7 @@
           "location": "Pier Pool, 9341 N St Johns Ave",
           "notes": "Extended season through early September",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "TH"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-25",
-            "until_date": "2026-08-22",
-            "start_time": "13:30",
-            "end_time": "15:30",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Ida B. Wells Pool Free Swim",
@@ -5642,20 +5564,7 @@
           "cost": "FREE",
           "location": "Ida B. Wells Pool, 5765 SW 45th Ave",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "TH"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-25",
-            "until_date": "2026-08-22",
-            "start_time": "18:30",
-            "end_time": "20:00",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         }
       ],
       "dates": null,
@@ -6401,20 +6310,7 @@
           "schedule_start_date": "2026-06-15",
           "schedule_end_date": "2026-08-17",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "MO"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-15",
-            "until_date": "2026-08-17",
-            "start_time": "18:00",
-            "end_time": "19:00",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Chair Yoga at Virginia Garcia Wellness Center",
@@ -6423,20 +6319,7 @@
           "schedule_start_date": "2026-06-16",
           "schedule_end_date": "2026-08-18",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "TU"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-16",
-            "until_date": "2026-08-18",
-            "start_time": "10:30",
-            "end_time": "11:30",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Zumba at Virginia Garcia Wellness Center",
@@ -6445,20 +6328,7 @@
           "schedule_start_date": "2026-06-16",
           "schedule_end_date": "2026-08-18",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "TU"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-16",
-            "until_date": "2026-08-18",
-            "start_time": "17:30",
-            "end_time": "18:30",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "id": "yoga-tuesday-griffith-park",
@@ -6468,20 +6338,7 @@
           "schedule_start_date": "2026-06-16",
           "schedule_end_date": "2026-08-18",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "TU"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-16",
-            "until_date": "2026-08-18",
-            "start_time": "18:30",
-            "end_time": "19:30",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "id": "total-body-circuit-wednesday-virginia-garcia",
@@ -6491,20 +6348,7 @@
           "schedule_start_date": "2026-06-17",
           "schedule_end_date": "2026-08-19",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "WE"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-17",
-            "until_date": "2026-08-19",
-            "start_time": "18:00",
-            "end_time": "19:00",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Zumba at Cooper Park",
@@ -6513,20 +6357,7 @@
           "schedule_start_date": "2026-06-17",
           "schedule_end_date": "2026-08-19",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "WE"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-17",
-            "until_date": "2026-08-19",
-            "start_time": "18:30",
-            "end_time": "19:30",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "FUNctional Chair Fitness",
@@ -6535,20 +6366,7 @@
           "schedule_start_date": "2026-06-18",
           "schedule_end_date": "2026-08-20",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "TH"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-18",
-            "until_date": "2026-08-20",
-            "start_time": "10:00",
-            "end_time": "11:00",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Kid's Fit & Fun",
@@ -6559,20 +6377,7 @@
           "audience": [
             "children"
           ],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "TH"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-18",
-            "until_date": "2026-08-20",
-            "start_time": "10:30",
-            "end_time": "11:30",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "id": "yoga-thursday-bethany-creek-park",
@@ -6582,20 +6387,7 @@
           "schedule_start_date": "2026-06-18",
           "schedule_end_date": "2026-08-20",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "TH"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-18",
-            "until_date": "2026-08-20",
-            "start_time": "18:30",
-            "end_time": "19:30",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Outdoor Circuit",
@@ -6881,20 +6673,7 @@
           "schedule_start_date": "2026-06-21",
           "schedule_end_date": "2026-08-23",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "SU"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-21",
-            "until_date": "2026-08-23",
-            "start_time": "10:00",
-            "end_time": "11:00",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Walk with Me - Commonwealth Lake Park",
