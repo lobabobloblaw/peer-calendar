@@ -1345,12 +1345,29 @@
             letter-spacing: 0.02em;
         }
 
+        .updates-help {
+            margin: -2px 0 8px;
+            font-size: 0.74em;
+            opacity: 0.8;
+        }
+
         .updates-list {
             list-style: none;
             padding: 0;
             margin: 0;
             font-size: 0.82em;
             line-height: 1.5;
+        }
+
+        /* Keep the desktop update history from determining the page height. */
+        @media (min-width: 1001px) and (min-height: 601px) {
+            .updates-scroll {
+                max-height: clamp(10rem, 22dvh, 22rem);
+                overflow-y: auto;
+                overscroll-behavior: contain;
+                scrollbar-gutter: stable;
+                padding-right: 8px;
+            }
         }
 
         .updates-list li {
@@ -2270,7 +2287,9 @@
         </div>
 
                 <div class="updates-section">
-                    <h2>Updates <span id="stats-inline" style="font-weight: normal; font-size: 0.85em; color: var(--text-muted);"></span></h2>
+                    <h2 id="updates-heading">Updates <span id="stats-inline" style="font-weight: normal; font-size: 0.85em; color: var(--text-muted);"></span></h2>
+                    <p class="updates-help" id="updates-help">Newest first. Scroll for older updates.</p>
+                    <div class="updates-scroll" role="region" aria-label="Update history" aria-describedby="updates-help" tabindex="0">
                     <ul class="updates-list">
                         <li><span class="update-date">Aug 28</span> Calendar feeds refreshed</li>
                         <li><span class="update-date">Aug 24</span> Updated data for 2 resources. Calendar now at 272 resources</li>
@@ -2294,6 +2313,7 @@
                         <li><span class="update-date">Jan 30</span> Farmers markets now show only during their operating seasons; audited Saturday peer support events</li>
                         <li><span class="update-date">Jan 23</span> Event titles now include organization names for clearer context; improved seasonal event filtering and print layout</li>
                     </ul>
+                    </div>
                 </div>
 
                 <div class="contact-section">

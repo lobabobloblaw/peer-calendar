@@ -91,6 +91,28 @@ async function expectWcag21AA(page, state) {
 test('desktop tabs, panels, dialogs, and accessibility work in a rendered browser', async ({ page }) => {
     await openCalendar(page, { width: 1280, height: 900 });
 
+    const updatesRegion = page.getByRole('region', { name: 'Update history' });
+    const updatesLayout = await updatesRegion.evaluate(element => ({
+        clientHeight: element.clientHeight,
+        scrollHeight: element.scrollHeight,
+        overflowY: getComputedStyle(element).overflowY,
+        itemCount: element.querySelectorAll('li').length,
+        leftBottom: document.querySelector('.left-panel').getBoundingClientRect().bottom,
+        rightBottom: document.querySelector('.right-panel').getBoundingClientRect().bottom
+    }));
+    expect(updatesLayout.scrollHeight).toBeGreaterThan(updatesLayout.clientHeight);
+    expect(updatesLayout.overflowY).toBe('auto');
+    expect(updatesLayout.itemCount).toBeGreaterThan(10);
+    expect(updatesLayout.leftBottom).toBeLessThanOrEqual(updatesLayout.rightBottom + 1);
+
+    await updatesRegion.press('PageDown');
+    const updateScrollState = await updatesRegion.evaluate(element => ({
+        scrollTop: element.scrollTop,
+        pageScrollY: window.scrollY
+    }));
+    expect(updateScrollState.scrollTop).toBeGreaterThan(0);
+    expect(updateScrollState.pageScrollY).toBe(0);
+
     const calendarTab = page.getByRole('tab', { name: 'Calendar' });
     const listTab = page.getByRole('tab', { name: 'List' });
     const resourcesTab = page.getByRole('tab', { name: 'Resources' });
@@ -150,6 +172,14 @@ test('portrait mobile exposes complete day agendas and restores focus', async ({
     expect(layout.overflowY).not.toBe('hidden');
     expect(layout.scrollHeight).toBeGreaterThan(layout.innerHeight);
     expect(layout.orientationBlockers).toBe(0);
+
+    const mobileUpdates = await page.locator('.updates-scroll').evaluate(element => ({
+        clientHeight: element.clientHeight,
+        scrollHeight: element.scrollHeight,
+        overflowY: getComputedStyle(element).overflowY
+    }));
+    expect(mobileUpdates.overflowY).toBe('visible');
+    expect(mobileUpdates.scrollHeight).toBe(mobileUpdates.clientHeight);
 
     const dayTrigger = page.locator('.mobile-day-trigger:visible').first();
     await expect(dayTrigger).toHaveAccessibleName(/View all \d+ events? on (Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday), August \d+, 2026/);
