@@ -1,0 +1,21 @@
+version: 2
+
+# Monthly, so this stays a background chore rather than a stream of pull
+# requests. Action updates are the useful half: the runner currently warns that
+# several actions target Node 20, and dependabot proposes the exact major that
+# exists rather than one guessed from memory.
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: 'CI:'
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+    # Playwright and axe are test-only; nothing here ships to the site.
+    commit-message:
+      prefix: 'Tests:'
