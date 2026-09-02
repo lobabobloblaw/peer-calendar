@@ -4032,6 +4032,12 @@
 
             let body = '';
 
+            // A temporarily closed resource is still listed, so the warning has
+            // to lead. Permanently closed entries never reach the feed.
+            if (r.status && String(r.status).toUpperCase() !== 'CLOSED') {
+                body += `<div class="resource-modal-section"><p style="color: var(--events); font-weight: 600; margin: 0;">${escapeHtml(String(r.status).toUpperCase())} &mdash; check before travelling</p></div>`;
+            }
+
             // Address with directions
             if (r.address) {
                 body += `<div class="resource-modal-section"><h4>Address</h4><p>${escapeHtml(r.address)}`;
@@ -4039,6 +4045,25 @@
                     body += ` <a href="https://www.google.com/maps/dir/?api=1&destination=${r.latitude},${r.longitude}" target="_blank" rel="noopener" style="font-size:0.85em;">(Directions)</a>`;
                 }
                 body += `</p></div>`;
+            }
+
+            // Locations: several entries keep every real address here and leave
+            // the entry-level address null, so this is the only place they appear.
+            const locationList = Array.isArray(r.locations) ? r.locations : [];
+            if (locationList.length > 0) {
+                const items = locationList.map(loc => {
+                    if (typeof loc === 'string') return `<li>${escapeHtml(loc)}</li>`;
+                    if (!loc || typeof loc !== 'object') return '';
+                    const bits = [];
+                    if (loc.name) bits.push(`<strong>${escapeHtml(loc.name)}</strong>`);
+                    if (loc.address) bits.push(escapeHtml(loc.address));
+                    if (loc.hours) bits.push(escapeHtml(formatHours(loc.hours, ', ')));
+                    if (loc.format) bits.push(escapeHtml(loc.format));
+                    if (loc.phone) bits.push(`<a href="tel:${String(loc.phone).replace(/[^0-9+]/g, '')}">${escapeHtml(String(loc.phone))}</a>`);
+                    if (loc.notes) bits.push(`<span style="font-size:0.9em;color:var(--text-secondary);">${escapeHtml(loc.notes)}</span>`);
+                    return bits.length ? `<li>${bits.join('<br>')}</li>` : '';
+                }).filter(Boolean).join('');
+                if (items) body += `<div class="resource-modal-section"><h4>Locations</h4><ul>${items}</ul></div>`;
             }
 
             // Contact
@@ -4070,9 +4095,38 @@
                 body += `<div class="resource-modal-section"><h4>Eligibility</h4><p>${escapeHtml(r.eligibility)}</p></div>`;
             }
 
+            // Getting there
+            const travel = [];
+            if (r.transit) travel.push(`Transit: ${escapeHtml(formatHours(r.transit, ', '))}`);
+            if (r.parking) travel.push(`Parking: ${escapeHtml(formatHours(r.parking, ', '))}`);
+            if (travel.length > 0) {
+                body += `<div class="resource-modal-section"><h4>Getting there</h4><p>${travel.join('<br>')}</p></div>`;
+            }
+
+            // Languages
+            if (r.languages) {
+                body += `<div class="resource-modal-section"><h4>Languages</h4><p>${escapeHtml(formatHours(r.languages, ', '))}</p></div>`;
+            }
+
+            // Season
+            if (r.season) {
+                body += `<div class="resource-modal-section"><h4>Season</h4><p>${escapeHtml(formatHours(r.season, ', '))}</p></div>`;
+            }
+
             // Features
             if (r.features && r.features.length > 0) {
                 body += `<div class="resource-modal-section"><h4>What's Available</h4><ul>${r.features.map(f => `<li>${escapeHtml(f)}</li>`).join('')}</ul></div>`;
+            }
+
+            // Services
+            const serviceList = Array.isArray(r.services) ? r.services : (r.services ? [r.services] : []);
+            if (serviceList.length > 0) {
+                const items = serviceList.map(sv => {
+                    if (typeof sv === 'string') return `<li>${escapeHtml(sv)}</li>`;
+                    if (sv && typeof sv === 'object') return `<li>${escapeHtml(formatHours(sv, ', '))}</li>`;
+                    return '';
+                }).filter(Boolean).join('');
+                if (items) body += `<div class="resource-modal-section"><h4>Services</h4><ul>${items}</ul></div>`;
             }
 
             // Programs

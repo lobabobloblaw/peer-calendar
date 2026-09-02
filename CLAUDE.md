@@ -664,6 +664,6 @@ being worked from it. Older reviews and hand-off notes are in `docs-archive/`.
 
 Future improvements:
 - Offline/PWA support (issue #17)
-- Multi-language support (Spanish UI option). Note that `audience: spanish_speaking` is a
-  documented tag no entry currently uses, so the Spanish filter returns nothing even though
-  three entries record Spanish under `languages`.
+- Multi-language support (Spanish UI option). No entry sets `audience: spanish_speaking`
+  explicitly; the tag reaches the feed through `detect_audience()` and, since September
+  2026, through the `languages` field as well.

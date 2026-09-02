@@ -83,7 +83,8 @@ AUDIENCE_PATTERNS = {
     'lgbtq': [r'lgbtq', r'queer\b', r'lgbtqia', r'lgbtq2sia', r'pride\b'],
     'trans_nonbinary': [r'\btrans\b', r'nonbinary', r'non-binary', r'gender[\s-]*diverse'],
     'bipoc': [r'\bbipoc\b', r'black,?\s*indigenous', r'people\s*of\s*color'],
-    'spanish_speaking': [r'spanish[\s-]*speaking', r'en\s*espa[nñ]ol', r'esperanza'],
+    'spanish_speaking': [r'spanish[\s-]*speaking', r'spanish[\s-]*language',
+                         r'en\s*espa[nñ]ol', r'esperanza'],
 }
 
 
@@ -104,11 +105,30 @@ def detect_audience(text: str) -> list:
     return sorted(list(detected))
 
 
+def language_audience(entry: dict) -> list:
+    """Audience tags implied by the languages a resource serves.
+
+    A service listing Spanish under `languages` serves Spanish speakers even
+    when no prose says so, and the prose scan never looked at that field. The
+    documented `spanish_speaking` tag had no entries at all, so the site's
+    Spanish filter always came back empty.
+    """
+    languages = entry.get("languages")
+    if not languages:
+        return []
+    text = " ".join(str(item) for item in languages) if isinstance(languages, (list, tuple)) else str(languages)
+    return ["spanish_speaking"] if re.search(r"spanish|espa[nn\u00f1]ol", text, re.IGNORECASE) else []
+
+
 def get_entry_audience(entry: dict) -> list:
     """Get audience for an entry, either from field or by detection."""
-    # If audience is explicitly set, use it
+    # An explicit audience wins, but a language signal is additive to it.
     if entry.get("audience"):
-        return entry.get("audience", [])
+        audience = list(entry["audience"])
+        for tag in language_audience(entry):
+            if tag not in audience:
+                audience.append(tag)
+        return audience
 
     # Otherwise, detect from text fields
     # Include practical_tips which often contains audience info
@@ -123,7 +143,11 @@ def get_entry_audience(entry: dict) -> list:
         practical_tips,
     ]
     combined = " ".join(str(t) for t in text_fields if t)
-    return detect_audience(combined)
+    audience = detect_audience(combined)
+    for tag in language_audience(entry):
+        if tag not in audience:
+            audience.append(tag)
+    return audience
 
 
 def get_program_audience(program: dict, entry: dict) -> list:
@@ -426,6 +450,15 @@ def generate_event_description(entry: dict, program: dict = None) -> tuple[str, 
     """
     parts = []
     html_parts = []
+
+    # A temporarily closed resource is still published, so its events have to
+    # carry the warning. Permanently closed entries never reach this point.
+    status = str(entry.get("status") or "").strip()
+    if status and status.upper() != "CLOSED":
+        parts.append(f"{status.upper()} - check before travelling")
+        html_parts.append(
+            f"<p><strong>{html.escape(status.upper())} - check before travelling</strong></p>"
+        )
 
     # Category label
     category = entry.get("category", "general")
@@ -1137,6 +1170,18 @@ def generate_json_feed(entries: list[dict], today: date | None = None) -> dict:
             "hours": entry.get("hours"),
             "eligibility": entry.get("eligibility"),
             "features": entry.get("features", []),
+            # Fields the feed used to drop, so the site could not show them:
+            # branch addresses and hours, service lists, transit and parking
+            # directions, languages served, seasonal availability, and whether
+            # a resource is temporarily shut.
+            "locations": entry.get("locations", []),
+            "services": entry.get("services", []),
+            "transit": entry.get("transit"),
+            "parking": entry.get("parking"),
+            "languages": entry.get("languages"),
+            "season": entry.get("season"),
+            "organizer": entry.get("organizer"),
+            "status": entry.get("status"),
             "location_type": entry.get("location_type"),
             "resource_type": entry.get("resource_type"),
             "programs": entry.get("programs", []),

@@ -736,6 +736,96 @@ class TestDeterministicOutput(unittest.TestCase):
         self.assertIn((dtstart.day - 1) // 7 + 1, (1, 3))
 
 
+class TestFeedCarriesAccessFields(unittest.TestCase):
+    """Fields the feed used to drop, which the site therefore could not show."""
+
+    TODAY = date(2026, 8, 1)
+
+    def feed_entry(self, **overrides):
+        entry = {
+            "id": "fields-test", "name": "Fields Test", "category": "food_farms",
+            "last_verified": date(2026, 3, 1),
+        }
+        entry.update(overrides)
+        return generate_json_feed([entry], today=self.TODAY)["events"][0]
+
+    def test_branch_locations_reach_the_feed(self):
+        """Several entries keep every real address here and leave address null."""
+        locations = [{"name": "Northeast", "address": "4837 NE Couch St", "hours": "Mon 10am-2pm"}]
+        self.assertEqual(self.feed_entry(locations=locations)["locations"], locations)
+
+    def test_services_transit_parking_and_season_reach_the_feed(self):
+        entry = self.feed_entry(
+            services=["Food pantry", "Clothing closet"],
+            transit="Bus 72", parking="Free on weekends", season="June-August",
+        )
+        self.assertEqual(entry["services"], ["Food pantry", "Clothing closet"])
+        self.assertEqual(entry["transit"], "Bus 72")
+        self.assertEqual(entry["parking"], "Free on weekends")
+        self.assertEqual(entry["season"], "June-August")
+
+    def test_temporarily_closed_status_reaches_the_feed(self):
+        self.assertEqual(self.feed_entry(status="TEMPORARILY CLOSED")["status"], "TEMPORARILY CLOSED")
+
+    def test_absent_fields_stay_empty(self):
+        entry = self.feed_entry()
+        self.assertEqual(entry["locations"], [])
+        self.assertEqual(entry["services"], [])
+        self.assertIsNone(entry["transit"])
+        self.assertIsNone(entry["status"])
+
+
+class TestLanguageAudience(unittest.TestCase):
+    """A Spanish-language service serves Spanish speakers even if no prose says so."""
+
+    def test_languages_string_implies_the_tag(self):
+        self.assertEqual(
+            get_entry_audience({"languages": "English, Spanish, Russian"}),
+            ["spanish_speaking"],
+        )
+
+    def test_languages_list_implies_the_tag(self):
+        self.assertIn(
+            "spanish_speaking",
+            get_entry_audience({"languages": ["English", "Spanish (Linea de Esperanza)"]}),
+        )
+
+    def test_explicit_audience_is_kept_and_extended(self):
+        """An author's own tags must survive, in their own order."""
+        audience = get_entry_audience({"audience": ["seniors"], "languages": "Spanish"})
+        self.assertEqual(audience, ["seniors", "spanish_speaking"])
+
+    def test_other_languages_do_not_imply_the_tag(self):
+        self.assertEqual(get_entry_audience({"languages": "Arabic, Vietnamese"}), [])
+
+    def test_spanish_language_prose_is_detected(self):
+        self.assertIn(
+            "spanish_speaking",
+            get_entry_audience({"notes": "Spanish-language support group available."}),
+        )
+
+    def test_no_duplicate_when_prose_and_languages_agree(self):
+        audience = get_entry_audience(
+            {"languages": "Spanish", "notes": "Spanish-speaking group available."}
+        )
+        self.assertEqual(audience.count("spanish_speaking"), 1)
+
+
+class TestTemporarilyClosedDescription(unittest.TestCase):
+    """A resource that is shut must say so on any event it still publishes."""
+
+    def test_warning_leads_the_description(self):
+        text, html_text = generate_event_description(
+            {"id": "x", "name": "X", "category": "food_farms", "status": "TEMPORARILY CLOSED"}
+        )
+        self.assertTrue(text.startswith("TEMPORARILY CLOSED - check before travelling"), text[:60])
+        self.assertIn("TEMPORARILY CLOSED", html_text)
+
+    def test_open_resources_carry_no_warning(self):
+        text, _ = generate_event_description({"id": "x", "name": "X", "category": "food_farms"})
+        self.assertNotIn("check before travelling", text)
+
+
 class TestEntryScheduleFallback(unittest.TestCase):
     """An entry-level schedule is used unless a program supplies its own timing.
 
