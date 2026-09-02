@@ -1863,10 +1863,74 @@
       "location_type": "physical",
       "resource_type": "program",
       "programs": [
-        "Drop-in peer support (no referral needed)",
-        "Yoga, hiking, art classes, gardening",
-        "Collective meal preparation",
-        "Hearing Voices Network support groups"
+        {
+          "id": "folktime-drop-in-ne",
+          "name": "Drop-in peer support - Free To Be Me (Northeast Portland)",
+          "schedule": "Mon, Wed, Thu 10am-2pm",
+          "location": "4837 NE Couch St, Portland, OR",
+          "phone": "503-206-5370",
+          "notes": "No referral needed. Collective meal prep - arrive by 11am to eat lunch.",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "recurring",
+            "frequency": "weekly",
+            "interval": 1,
+            "weekdays": [
+              "MO",
+              "WE",
+              "TH"
+            ],
+            "month_weeks": [],
+            "anchor_date": "2026-01-01",
+            "until_date": null,
+            "start_time": "10:00",
+            "end_time": "14:00",
+            "end_day_offset": 0
+          }
+        },
+        {
+          "id": "folktime-drop-in-oregon-city",
+          "name": "Drop-in peer support - Oregon City",
+          "schedule": "Tuesday 10am-2pm",
+          "location": "710 6th Street, Oregon City, OR",
+          "notes": "No referral needed. Community outings and evening groups also offered - see calendar.",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "recurring",
+            "frequency": "weekly",
+            "interval": 1,
+            "weekdays": [
+              "TU"
+            ],
+            "month_weeks": [],
+            "anchor_date": "2026-01-06",
+            "until_date": null,
+            "start_time": "10:00",
+            "end_time": "14:00",
+            "end_day_offset": 0
+          }
+        },
+        {
+          "name": "Online support groups",
+          "notes": "Virtual (Zoom). See the website for the Zoom link and schedule.",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Yoga, hiking, art classes, gardening",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Collective meal preparation",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Hearing Voices Network support groups",
+          "audience": [],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": null,
@@ -4020,14 +4084,48 @@
       "location_type": "physical",
       "resource_type": "program",
       "programs": [
-        "Power yoga",
-        "Vinyasa",
-        "Sculpt",
-        "Hatha",
-        "Yin",
-        "Restorative",
-        "Yoga nidra",
-        "LGBTQIA+ offerings"
+        {
+          "name": "Power yoga",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Vinyasa",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Sculpt",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Hatha",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Yin",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Restorative",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Yoga nidra",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "LGBTQIA+ offerings",
+          "audience": [
+            "lgbtq"
+          ],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": null,
@@ -5228,11 +5326,31 @@
       "location_type": "physical",
       "resource_type": "organization",
       "programs": [
-        "Group fitness classes",
-        "Swim lessons",
-        "Youth programs",
-        "Childcare",
-        "Personal training"
+        {
+          "name": "Group fitness classes",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Swim lessons",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Youth programs",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Childcare",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Personal training",
+          "audience": [],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": null,
@@ -5796,13 +5914,41 @@
       "location_type": "physical",
       "resource_type": "organization",
       "programs": [
-        "Swim lessons (all ages)",
-        "Private lessons",
-        "Exercise/water aerobics classes",
-        "Competitive swim teams",
-        "Water polo",
-        "Movie nights",
-        "Wibit obstacle courses"
+        {
+          "name": "Swim lessons (all ages)",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Private lessons",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Exercise/water aerobics classes",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Competitive swim teams",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Water polo",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Movie nights",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Wibit obstacle courses",
+          "audience": [],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": null,
@@ -5851,11 +5997,31 @@
       "location_type": "physical",
       "resource_type": "place",
       "programs": [
-        "Swim lessons",
-        "Adult fitness classes",
-        "Youth sports leagues",
-        "Adult leagues",
-        "Open swim"
+        {
+          "name": "Swim lessons",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Adult fitness classes",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Youth sports leagues",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Adult leagues",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Open swim",
+          "audience": [],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": null,
@@ -7713,10 +7879,26 @@
       "location_type": "physical",
       "resource_type": "place",
       "programs": [
-        "B-Movie Bingo (check calendar for dates)",
-        "Kung Fu Theater",
-        "Hecklevision",
-        "Various free screenings"
+        {
+          "name": "B-Movie Bingo (check calendar for dates)",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Kung Fu Theater",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Hecklevision",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Various free screenings",
+          "audience": [],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": null,
@@ -7941,15 +8123,53 @@
             "end_day_offset": 0
           }
         },
-        "Elder Services",
-        "Food pantry (Oregon Food Bank partner)",
-        "Clothing closet",
-        "Healing circles (domestic/sexual violence survivors)",
-        "Camp Rise (grades 2-8, spring/summer)",
-        "Two Spirit youth support",
-        "Community Garden (Wapas Nah Nee Shaku)",
-        "Pathways Home (homeownership education)",
-        "Many Nations Academy (grades 9-12)"
+        {
+          "name": "Elder Services",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Food pantry (Oregon Food Bank partner)",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Clothing closet",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Healing circles (domestic/sexual violence survivors)",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Camp Rise (grades 2-8, spring/summer)",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Two Spirit youth support",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Community Garden (Wapas Nah Nee Shaku)",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Pathways Home (homeownership education)",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Many Nations Academy (grades 9-12)",
+          "audience": [
+            "teens"
+          ],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": null,
@@ -8667,8 +8887,16 @@
       "location_type": "physical",
       "resource_type": "place",
       "programs": [
-        "Open mic nights (check calendar for dates)",
-        "Affordable music lessons (sliding scale)"
+        {
+          "name": "Open mic nights (check calendar for dates)",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Affordable music lessons (sliding scale)",
+          "audience": [],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": null,
@@ -9471,20 +9699,7 @@
           "audience": [
             "teens"
           ],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "SU"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-06-07",
-            "until_date": "2026-08-31",
-            "start_time": "14:00",
-            "end_time": "15:00",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Teen Library Committee (TLC)",
@@ -11077,20 +11292,7 @@
           "cost": "FREE",
           "notes": "July-August at Nadaka Nature Park, Bella Vista Park, Butler Creek Park, Vance Park; 2026 dates TBA",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 2,
-            "weekdays": [
-              "WE"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-07-01",
-            "until_date": "2026-08-31",
-            "start_time": "18:30",
-            "end_time": "20:30",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         }
       ],
       "dates": null,
@@ -11835,20 +12037,7 @@
           "audience": [
             "children"
           ],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "TH"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-07-02",
-            "until_date": "2026-08-31",
-            "start_time": "18:30",
-            "end_time": "20:30",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         }
       ],
       "dates": null,
@@ -12351,20 +12540,7 @@
       "schedule": "Friday evenings, 6:30-8:30pm (plus lunchtime series 12-1pm)",
       "schedule_start_date": "2026-06-01",
       "schedule_end_date": "2026-08-31",
-      "resolved_schedule": {
-        "type": "recurring",
-        "frequency": "weekly",
-        "interval": 1,
-        "weekdays": [
-          "FR"
-        ],
-        "month_weeks": [],
-        "anchor_date": "2026-06-05",
-        "until_date": "2026-08-31",
-        "start_time": "18:30",
-        "end_time": "20:30",
-        "end_day_offset": 0
-      },
+      "resolved_schedule": null,
       "flags": [
         "\ud83d\udd04 SEASONAL",
         "\ud83d\udcc5 DATE-SENSITIVE"
@@ -12860,9 +13036,21 @@
       "location_type": "physical",
       "resource_type": "place",
       "programs": [
-        "Guided forest hikes",
-        "Campfire programs",
-        "Mushroom walks"
+        {
+          "name": "Guided forest hikes",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Campfire programs",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Mushroom walks",
+          "audience": [],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": null,
@@ -12909,12 +13097,36 @@
       "location_type": "physical",
       "resource_type": "place",
       "programs": [
-        "Puddle Stompers (ages 2-5)",
-        "Ranger-Led Hikes",
-        "Evening Hikes",
-        "Owl Prowl (October-February)",
-        "Waterfowl Watch",
-        "Volunteer work parties"
+        {
+          "name": "Puddle Stompers (ages 2-5)",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Ranger-Led Hikes",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Evening Hikes",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Owl Prowl (October-February)",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Waterfowl Watch",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Volunteer work parties",
+          "audience": [],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": null,
@@ -13043,8 +13255,16 @@
       "location_type": "physical",
       "resource_type": "organization",
       "programs": [
-        "Free Bird Walks (volunteer-led, year-round)",
-        "Bird Song Walks (spring)"
+        {
+          "name": "Free Bird Walks (volunteer-led, year-round)",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Bird Song Walks (spring)",
+          "audience": [],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": null,
@@ -14247,9 +14467,21 @@
       "location_type": "physical",
       "resource_type": "program",
       "programs": [
-        "60 community gardens across Portland",
-        "Plots assigned February through June",
-        "Waitlists for popular gardens"
+        {
+          "name": "60 community gardens across Portland",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Plots assigned February through June",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Waitlists for popular gardens",
+          "audience": [],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": null,
@@ -15993,12 +16225,36 @@
       "location_type": "physical",
       "resource_type": "place",
       "programs": [
-        "Drawing",
-        "Painting",
-        "Ceramics",
-        "Textiles",
-        "Photography",
-        "Writing"
+        {
+          "name": "Drawing",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Painting",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Ceramics",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Textiles",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Photography",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Writing",
+          "audience": [],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": null,
@@ -16044,9 +16300,21 @@
       "location_type": "hybrid",
       "resource_type": "program",
       "programs": [
-        "Drawing and painting classes",
-        "All skill levels welcome",
-        "In-person (Mondays) and online (Thursdays)"
+        {
+          "name": "Drawing and painting classes",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "All skill levels welcome",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "In-person (Mondays) and online (Thursdays)",
+          "audience": [],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": "Mondays in-person, Thursday evenings online",
@@ -16637,10 +16905,28 @@
       "location_type": "physical",
       "resource_type": "place",
       "programs": [
-        "Fitness classes",
-        "Aquatics",
-        "Youth and teen programs",
-        "Community events"
+        {
+          "name": "Fitness classes",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Aquatics",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Youth and teen programs",
+          "audience": [
+            "teens"
+          ],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Community events",
+          "audience": [],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": null,
@@ -16689,12 +16975,90 @@
       "location_type": "physical",
       "resource_type": "place",
       "programs": [
-        "fitness",
-        "social",
-        "creative",
-        "support",
-        "services",
-        "trips"
+        {
+          "name": "SW Portland Caregiver Support Group",
+          "schedule": "4th Tuesday 6-7:30pm",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "recurring",
+            "frequency": "monthly",
+            "interval": 1,
+            "weekdays": [
+              "TU"
+            ],
+            "month_weeks": [
+              4
+            ],
+            "anchor_date": "2026-01-27",
+            "until_date": null,
+            "start_time": "18:00",
+            "end_time": "19:30",
+            "end_day_offset": 0
+          }
+        },
+        {
+          "name": "Alzheimer Support Group",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Grupo de Apoyo Para Mujeres",
+          "notes": "Spanish-language women's support group.",
+          "audience": [
+            "women"
+          ],
+          "resolved_schedule": null
+        },
+        {
+          "name": "AARP Tax Aide",
+          "cost": "FREE",
+          "notes": "Available during tax season.",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "SHIBA Medicare Counseling",
+          "cost": "FREE",
+          "notes": "Help with Medicare plan selection",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Foot Care",
+          "notes": "Appointment required",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Legal Advice Program",
+          "cost": "FREE",
+          "notes": "30-minute consultations with volunteer attorney",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Fitness classes",
+          "notes": "SilverSneakers\u00ae Classic, Silver&Fit Signature Series Level 3 Excel, Tai Chi, Gentle Yoga, Zumba\u00ae, Line Dance, Fit & Strong",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Social activities",
+          "notes": "Tuesday Night Social, Billiards, Shanghai Rummy, Cards/Board Games, American Mah Jongg, Bingo",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Creative classes",
+          "notes": "Quilting, Sewing",
+          "audience": [],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Trips & Travel program",
+          "audience": [],
+          "resolved_schedule": null
+        }
       ],
       "dates": null,
       "schedule": null,

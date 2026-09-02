@@ -159,9 +159,28 @@ def validate_entry(entry: dict) -> list[str]:
                 f"script - use the unsuffixed field (e.g. 'dates') instead"
             )
 
-    for program in entry.get("programs") or []:
+    programs = entry.get("programs")
+    if programs is not None and not isinstance(programs, list):
+        # A mapping here renders as nothing at all: the site tests
+        # programs.length, which is undefined for an object, so the whole
+        # catalogue silently disappears.
+        warnings.append(
+            f"{entry_id}: 'programs' must be a list, not "
+            f"{type(programs).__name__} - a mapping is dropped by every consumer"
+        )
+        programs = []
+
+    for program in programs or []:
         if not isinstance(program, dict):
+            # A bare string program carries no schedule, so it can never reach
+            # the calendar, and it suppressed the entry's own schedule too.
+            warnings.append(
+                f"{entry_id}: program {program!r} must be a mapping - "
+                f"write it as '- name: {program}'"
+            )
             continue
+        if not program.get("name"):
+            warnings.append(f"{entry_id}: a program is missing its 'name'")
         label = program.get("name", "<unnamed program>")
         for key in program:
             if YEAR_SUFFIX_RE.search(key):

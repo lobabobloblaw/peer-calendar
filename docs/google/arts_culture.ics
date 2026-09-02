@@ -360,23 +360,6 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:1237b588e2dc3b12@portlandresources.org
-DTSTAMP:20260303T000000Z
-DTSTART;TZID=America/Los_Angeles:20260607T140000
-DTEND;TZID=America/Los_Angeles:20260607T150000
-SUMMARY:Tualatin Public Library: Summer Sunday Music Series
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Live music by the f
- ireplace hearth. Summer season only.\nAddress: 18878 SW Martinazzi Ave\, T
- ualatin\, OR 97062\nPhone: 503-691-3074\nWebsite: https://www.tualatinoreg
- on.gov/library\nDetails: Active programming including music series\, teen 
- programs\, and Makerspace. Part of WCCLS.
-LOCATION:18878 SW Martinazzi Ave\, Tualatin\, OR 97062
-URL:https://www.tualatinoregon.gov/library
-RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20260901T065959Z
-CATEGORIES:Arts & Culture
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:2cd9fb858053dc3e@portlandresources.org
 DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260801T100000

@@ -1170,10 +1170,22 @@
     format: Virtual (Zoom)
     notes: See website for Zoom link and schedule
   programs:
-  - Drop-in peer support (no referral needed)
-  - Yoga, hiking, art classes, gardening
-  - Collective meal preparation
-  - Hearing Voices Network support groups
+  - id: folktime-drop-in-ne
+    name: Drop-in peer support - Free To Be Me (Northeast Portland)
+    schedule: Mon, Wed, Thu 10am-2pm
+    location: 4837 NE Couch St, Portland, OR
+    phone: 503-206-5370
+    notes: No referral needed. Collective meal prep - arrive by 11am to eat lunch.
+  - id: folktime-drop-in-oregon-city
+    name: Drop-in peer support - Oregon City
+    schedule: Tuesday 10am-2pm
+    location: 710 6th Street, Oregon City, OR
+    notes: No referral needed. Community outings and evening groups also offered - see calendar.
+  - name: Online support groups
+    notes: Virtual (Zoom). See the website for the Zoom link and schedule.
+  - name: Yoga, hiking, art classes, gardening
+  - name: Collective meal preparation
+  - name: Hearing Voices Network support groups
   orientation: 2nd and 3rd Wednesdays of the month
   peer_respite:
     name: FolkTime Peer Respite
@@ -2347,14 +2359,14 @@
     notes: No one turned away for lack of funds
   hours: Mon/Wed/Fri 7am-7:30pm, Tue/Thu 6:30am-7:30pm, Sat 10am-12pm, Sun 10am-4pm
   programs:
-  - Power yoga
-  - Vinyasa
-  - Sculpt
-  - Hatha
-  - Yin
-  - Restorative
-  - Yoga nidra
-  - LGBTQIA+ offerings
+  - name: Power yoga
+  - name: Vinyasa
+  - name: Sculpt
+  - name: Hatha
+  - name: Yin
+  - name: Restorative
+  - name: Yoga nidra
+  - name: LGBTQIA+ offerings
   practical_tips:
     first_visit: Just show up for any class - donation box on way out
     registration: null
@@ -3031,11 +3043,11 @@
     address: 601 SW 2nd Avenue, Suite 110, Portland, OR 97204
     phone: 503-223-9622
   programs:
-  - Group fitness classes
-  - Swim lessons
-  - Youth programs
-  - Childcare
-  - Personal training
+  - name: Group fitness classes
+  - name: Swim lessons
+  - name: Youth programs
+  - name: Childcare
+  - name: Personal training
   last_verified: 2026-04-22
   next_audit: 2027-04-22
   audit_frequency: annually
@@ -3391,13 +3403,13 @@
     address: 22380 SW Boones Ferry Rd, Tualatin, OR 97062
     phone: 503-431-5655
   programs:
-  - Swim lessons (all ages)
-  - Private lessons
-  - Exercise/water aerobics classes
-  - Competitive swim teams
-  - Water polo
-  - Movie nights
-  - Wibit obstacle courses
+  - name: Swim lessons (all ages)
+  - name: Private lessons
+  - name: Exercise/water aerobics classes
+  - name: Competitive swim teams
+  - name: Water polo
+  - name: Movie nights
+  - name: Wibit obstacle courses
   discount_programs:
   - SilverSneakers (FREE with participating Medicare plans)
   - Silver & Fit (FREE with participating insurance)
@@ -3450,11 +3462,11 @@
   - 7,500 sq ft weights and cardio room
   - Indoor playground (Tue/Thu 9am-1pm, ages 0-4)
   programs:
-  - Swim lessons
-  - Adult fitness classes
-  - Youth sports leagues
-  - Adult leagues
-  - Open swim
+  - name: Swim lessons
+  - name: Adult fitness classes
+  - name: Youth sports leagues
+  - name: Adult leagues
+  - name: Open swim
   last_verified: 2026-03-07
   next_audit: 2027-03-07
   audit_frequency: annually
@@ -4341,10 +4353,10 @@
   pricing:
     description: Various - includes free screenings
   programs:
-  - B-Movie Bingo (check calendar for dates)
-  - Kung Fu Theater
-  - Hecklevision
-  - Various free screenings
+  - name: B-Movie Bingo (check calendar for dates)
+  - name: Kung Fu Theater
+  - name: Hecklevision
+  - name: Various free screenings
   features:
   - Historic 1926 theater (National Register)
   - Only 70mm film projector in Oregon
@@ -4462,15 +4474,15 @@
   programs:
   - name: Culture Nights
     schedule: 1st & 3rd Wednesdays 6-8pm
-  - Elder Services
-  - Food pantry (Oregon Food Bank partner)
-  - Clothing closet
-  - Healing circles (domestic/sexual violence survivors)
-  - Camp Rise (grades 2-8, spring/summer)
-  - Two Spirit youth support
-  - Community Garden (Wapas Nah Nee Shaku)
-  - Pathways Home (homeownership education)
-  - Many Nations Academy (grades 9-12)
+  - name: Elder Services
+  - name: Food pantry (Oregon Food Bank partner)
+  - name: Clothing closet
+  - name: Healing circles (domestic/sexual violence survivors)
+  - name: Camp Rise (grades 2-8, spring/summer)
+  - name: Two Spirit youth support
+  - name: Community Garden (Wapas Nah Nee Shaku)
+  - name: Pathways Home (homeownership education)
+  - name: Many Nations Academy (grades 9-12)
   services:
   - Youth housing support (ages 16-24)
   - Rental/energy assistance
@@ -4978,8 +4990,8 @@
   pricing:
     description: FREE (donations welcome)
   programs:
-  - Open mic nights (check calendar for dates)
-  - Affordable music lessons (sliding scale)
+  - name: Open mic nights (check calendar for dates)
+  - name: Affordable music lessons (sliding scale)
   last_verified: 2026-04-22
   next_audit: 2027-04-22
   audit_frequency: annually
@@ -7587,9 +7599,9 @@
     annual_pass: $40
     programs: ~$6/person with fee waivers available
   programs:
-  - Guided forest hikes
-  - Campfire programs
-  - Mushroom walks
+  - name: Guided forest hikes
+  - name: Campfire programs
+  - name: Mushroom walks
   free_days: 16+ days annually
   latitude: 45.493333
   longitude: -122.286111
@@ -7632,12 +7644,12 @@
     status: May 1 - September 30 only
     notes: Closed in winter to protect waterfowl
   programs:
-  - Puddle Stompers (ages 2-5)
-  - Ranger-Led Hikes
-  - Evening Hikes
-  - Owl Prowl (October-February)
-  - Waterfowl Watch
-  - Volunteer work parties
+  - name: Puddle Stompers (ages 2-5)
+  - name: Ranger-Led Hikes
+  - name: Evening Hikes
+  - name: Owl Prowl (October-February)
+  - name: Waterfowl Watch
+  - name: Volunteer work parties
   last_verified: 2026-01-24
   next_audit: 2027-01-24
   audit_frequency: annually
@@ -7722,8 +7734,8 @@
   - 40+ bird varieties
   - 60 species of mammals
   programs:
-  - Free Bird Walks (volunteer-led, year-round)
-  - Bird Song Walks (spring)
+  - name: Free Bird Walks (volunteer-led, year-round)
+  - name: Bird Song Walks (spring)
   amenities:
   - Loaner binoculars available
   - Field guides available
@@ -8552,9 +8564,9 @@
     notes: Scholarship assistance available. Regular pricing varies by plot size.
   eligibility: Portland residents. Low-income residents qualify for $15 plots.
   programs:
-  - 60 community gardens across Portland
-  - Plots assigned February through June
-  - Waitlists for popular gardens
+  - name: 60 community gardens across Portland
+  - name: Plots assigned February through June
+  - name: Waitlists for popular gardens
   last_verified: 2026-03-24
   next_audit: 2027-03-24
   audit_frequency: annually
@@ -9726,12 +9738,12 @@
   pricing:
     description: Pay What You Can options; Access Discount Program applies
   programs:
-  - Drawing
-  - Painting
-  - Ceramics
-  - Textiles
-  - Photography
-  - Writing
+  - name: Drawing
+  - name: Painting
+  - name: Ceramics
+  - name: Textiles
+  - name: Photography
+  - name: Writing
   last_verified: 2026-04-22
   next_audit: 2027-04-22
   audit_frequency: annually
@@ -9765,9 +9777,9 @@
     notes: Mission is to provide low-cost art classes accessible to all. Member discounts available.
   schedule: Mondays in-person, Thursday evenings online
   programs:
-  - Drawing and painting classes
-  - All skill levels welcome
-  - In-person (Mondays) and online (Thursdays)
+  - name: Drawing and painting classes
+  - name: All skill levels welcome
+  - name: In-person (Mondays) and online (Thursdays)
   last_verified: 2026-03-24
   next_audit: 2026-06-24
   audit_frequency: quarterly
@@ -10153,10 +10165,10 @@
     application: Apply anytime; allow 2 weeks for processing; notified by email
     youth_art_scholarship: 100% of registration for youth/teen classes at Walters Cultural Arts Center
   programs:
-  - Fitness classes
-  - Aquatics
-  - Youth and teen programs
-  - Community events
+  - name: Fitness classes
+  - name: Aquatics
+  - name: Youth and teen programs
+  - name: Community events
   last_verified: 2026-03-24
   next_audit: 2027-03-24
   audit_frequency: annually
@@ -10193,42 +10205,30 @@
     notes: Some fitness classes free with SilverSneakers/Silver&Fit
   eligibility: All adults welcome; programs focus on active aging
   programs:
-    fitness:
-    - SilverSneakers® Classic
-    - Silver&Fit Signature Series Level 3 Excel
-    - Tai Chi
-    - Gentle Yoga
-    - Zumba®
-    - Line Dance
-    - Fit & Strong
-    social:
-    - Tuesday Night Social
-    - Billiards
-    - Shanghai Rummy
-    - Cards/Board Games
-    - American Mah Jongg
-    - Bingo
-    creative:
-    - Quilting
-    - Sewing
-    support:
-    - Alzheimer Support Group
-    - Grupo de Apoyo Para Mujeres (Spanish women's support group)
-    - SW Portland Caregiver Support Group (4th Tuesday, 6-7:30pm)
-    services:
-    - name: AARP Tax Aide
-      schedule: Tax season
-      cost: FREE
-    - name: SHIBA Medicare Counseling
-      cost: FREE
-      notes: Help with Medicare plan selection
-    - name: Foot Care
-      notes: Appointment required
-    - name: Legal Advice Program
-      cost: FREE
-      notes: 30-minute consultations with volunteer attorney
-    trips:
-    - Trips & Travel program
+  - name: SW Portland Caregiver Support Group
+    schedule: 4th Tuesday 6-7:30pm
+  - name: Alzheimer Support Group
+  - name: Grupo de Apoyo Para Mujeres
+    notes: Spanish-language women's support group.
+  - name: AARP Tax Aide
+    cost: FREE
+    notes: Available during tax season.
+  - name: SHIBA Medicare Counseling
+    cost: FREE
+    notes: Help with Medicare plan selection
+  - name: Foot Care
+    notes: Appointment required
+  - name: Legal Advice Program
+    cost: FREE
+    notes: 30-minute consultations with volunteer attorney
+  - name: Fitness classes
+    notes: SilverSneakers® Classic, Silver&Fit Signature Series Level 3 Excel, Tai Chi, Gentle Yoga, Zumba®, Line Dance,
+      Fit & Strong
+  - name: Social activities
+    notes: Tuesday Night Social, Billiards, Shanghai Rummy, Cards/Board Games, American Mah Jongg, Bingo
+  - name: Creative classes
+    notes: Quilting, Sewing
+  - name: Trips & Travel program
   last_verified: 2026-03-07
   next_audit: 2027-03-07
   audit_frequency: annually

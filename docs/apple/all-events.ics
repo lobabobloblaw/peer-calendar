@@ -467,6 +467,42 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:bf09ccb7ad115192@portlandresources.org
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T100000
+DTEND;TZID=America/Los_Angeles:20260101T140000
+SUMMARY:FolkTime Peer Connection Centers: Drop-in peer support - Free To Be
+  Me (Northeast Portland)
+DESCRIPTION:Category: Peer Support\nCost: FREE ($1 suggested donation for l
+ unch)\nInfo: No referral needed. Collective meal prep - arrive by 11am to 
+ eat lunch.\nPhone: 503-238-6428\nWebsite: https://folktime.org\nDetails: F
+ ounded 1985\, one of Oregon's oldest peer-run programs. Free membership. O
+ rientation required for new members.
+LOCATION:4837 NE Couch St\, Portland\, OR
+URL:https://folktime.org
+RRULE:FREQ=WEEKLY;BYDAY=MO,WE,TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d64ff11ba8b3e087@portlandresources.org
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T100000
+DTEND;TZID=America/Los_Angeles:20260106T140000
+SUMMARY:FolkTime Peer Connection Centers: Drop-in peer support - Oregon Cit
+ y
+DESCRIPTION:Category: Peer Support\nCost: FREE ($1 suggested donation for l
+ unch)\nInfo: No referral needed. Community outings and evening groups also
+  offered - see calendar.\nPhone: 503-238-6428\nWebsite: https://folktime.o
+ rg\nDetails: Founded 1985\, one of Oregon's oldest peer-run programs. Free
+  membership. Orientation required for new members.
+LOCATION:710 6th Street\, Oregon City\, OR
+URL:https://folktime.org
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:80c98c702199b308@portlandresources.org
 DTSTAMP:20260724T000000Z
 DTSTART;TZID=America/Los_Angeles:20260804T100000
@@ -4206,23 +4242,6 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:1237b588e2dc3b12@portlandresources.org
-DTSTAMP:20260303T000000Z
-DTSTART;TZID=America/Los_Angeles:20260607T140000
-DTEND;TZID=America/Los_Angeles:20260607T150000
-SUMMARY:Tualatin Public Library: Summer Sunday Music Series
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Live music by the f
- ireplace hearth. Summer season only.\nAddress: 18878 SW Martinazzi Ave\, T
- ualatin\, OR 97062\nPhone: 503-691-3074\nWebsite: https://www.tualatinoreg
- on.gov/library\nDetails: Active programming including music series\, teen 
- programs\, and Makerspace. Part of WCCLS.
-LOCATION:18878 SW Martinazzi Ave\, Tualatin\, OR 97062
-URL:https://www.tualatinoregon.gov/library
-RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20260901T065959Z
-CATEGORIES:Arts & Culture
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:2cd9fb858053dc3e@portlandresources.org
 DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260801T100000
@@ -5860,22 +5879,6 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:d50d5cc747663bed@portlandresources.org
-DTSTAMP:20260303T000000Z
-DTSTART;TZID=America/Los_Angeles:20260701T183000
-DTEND;TZID=America/Los_Angeles:20260701T203000
-SUMMARY:Gresham Wednesday Music in the Parks: Music in the Parks
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: July-August at 
- Nadaka Nature Park\, Bella Vista Park\, Butler Creek Park\, Vance Park\; 2
- 026 dates TBA\nAddress: Various Gresham parks\nPhone: 503-618-2300\nWebsit
- e: https://greshamoregon.gov/Recreation/
-LOCATION:Various Gresham parks
-URL:https://greshamoregon.gov/Recreation/
-RRULE:FREQ=WEEKLY;BYDAY=WE;INTERVAL=2;UNTIL=20260901T065959Z
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:708c6dfd86bfecc0@portlandresources.org
 DTSTAMP:20260317T000000Z
 DTSTART;VALUE=DATE:20260320
@@ -6043,22 +6046,6 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:afe46f3866470119@portlandresources.org
-DTSTAMP:20260303T000000Z
-DTSTART;TZID=America/Los_Angeles:20260702T183000
-DTEND;TZID=America/Los_Angeles:20260702T203000
-SUMMARY:Concerts in the Valley (Happy Valley): Thursday Concert
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: July-August\; 2
- 026 dates TBA (check website in June)\nAddress: Happy Valley Park\, 13770 
- SE Ridgecrest Rd\, Happy Valley\, OR\nWebsite: https://www.happyvalleyor.g
- ov/services/hv-community-events/summer-concerts/
-LOCATION:Happy Valley Park\, 13770 SE Ridgecrest Rd\, Happy Valley\, OR
-URL:https://www.happyvalleyor.gov/services/hv-community-events/summer-concerts/
-RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20260901T065959Z
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:6e8ff25f5ed72298@portlandresources.org
 DTSTAMP:20260129T000000Z
 DTSTART;VALUE=DATE:20261003
@@ -6158,22 +6145,6 @@ DESCRIPTION:Category: Events & Festivals\nCost: FREE viewing from any river
  ivers
 LOCATION:Columbia and Willamette Rivers\, Portland\, OR
 URL:https://christmasships.org/
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:da583f55cb2a0059@portlandresources.org
-DTSTAMP:20260303T000000Z
-DTSTART;TZID=America/Los_Angeles:20260605T183000
-DTEND;TZID=America/Los_Angeles:20260605T203000
-SUMMARY:Tualatin Concerts in the Parks
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Tualatin Com
- munity Park\, 8515 SW Tualatin Rd\nWebsite: https://www.tualatinoregon.gov
- /recreation/concerts-parks\nDetails: Free outdoor summer concert series fe
- aturing diverse music genres.
-LOCATION:Tualatin Community Park\, 8515 SW Tualatin Rd
-URL:https://www.tualatinoregon.gov/recreation/concerts-parks
-RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20260901T065959Z
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -6853,6 +6824,25 @@ DESCRIPTION:Category: Social Activities\nCost: Most services free or low-co
 LOCATION:615 5th Street\, Oregon City\, OR 97045
 URL:https://www.orcity.org/pioneercenter
 RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0b5f972508de5d1a@portlandresources.org
+DTSTAMP:20260307T000000Z
+DTSTART;TZID=America/Los_Angeles:20260127T180000
+DTEND;TZID=America/Los_Angeles:20260127T193000
+SUMMARY:Juanita Pohl Center (Tualatin Active Aging Center): SW Portland Car
+ egiver Support Group
+DESCRIPTION:Category: Social Activities\nCost: Many activities free or low-
+ cost\nNote: Some fitness classes free with SilverSneakers/Silver&Fit\nAddr
+ ess: 8513 SW Tualatin Rd\, Tualatin\, OR 97062\nPhone: 503-691-3061\nWebsi
+ te: https://www.tualatinoregon.gov/recreation/adult-programs-and-services\
+ nDetails: Active aging center with diverse programming from fitness to leg
+ al aid. Spanish-language support group available.
+LOCATION:8513 SW Tualatin Rd\, Tualatin\, OR 97062
+URL:https://www.tualatinoregon.gov/recreation/adult-programs-and-services
+RRULE:FREQ=MONTHLY;BYDAY=4TU
 CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT

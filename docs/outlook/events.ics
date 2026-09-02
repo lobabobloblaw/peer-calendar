@@ -225,24 +225,6 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:d50d5cc747663bed@portlandresources.org
-DTSTAMP:20260303T000000Z
-DTSTART;TZID=America/Los_Angeles:20260701T183000
-DTEND;TZID=America/Los_Angeles:20260701T203000
-SUMMARY:Gresham Wednesday Music in the Parks: Music in the Parks
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: July-August at 
- Nadaka Nature Park\, Bella Vista Park\, Butler Creek Park\, Vance Park\; 2
- 026 dates TBA\nAddress: Various Gresham parks\nPhone: 503-618-2300\nWebsit
- e: https://greshamoregon.gov/Recreation/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Events &amp; Festivals</p><p><strong>Cost:</strong> FREE</p><p>July-August at Nadaka Nature Park, Bella Vista Park, Butler Creek Park, Vance Park; 2026 dates TBA</p><p><strong>Address:</strong> Various Gresham parks</p><p><strong>Phone:</strong> <a href="tel:503-618-2300">503-618-2300</a></p><p><strong>Website:</strong> <a href="https://greshamoregon.gov/Recreation/">https://greshamoregon.gov/Recreation/</a></p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Various Gresham parks
-URL:https://greshamoregon.gov/Recreation/
-RRULE:FREQ=WEEKLY;BYDAY=WE;INTERVAL=2;UNTIL=20260901T065959Z
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:708c6dfd86bfecc0@portlandresources.org
 DTSTAMP:20260317T000000Z
 DTSTART;VALUE=DATE:20260320
@@ -432,24 +414,6 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:afe46f3866470119@portlandresources.org
-DTSTAMP:20260303T000000Z
-DTSTART;TZID=America/Los_Angeles:20260702T183000
-DTEND;TZID=America/Los_Angeles:20260702T203000
-SUMMARY:Concerts in the Valley (Happy Valley): Thursday Concert
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: July-August\; 2
- 026 dates TBA (check website in June)\nAddress: Happy Valley Park\, 13770 
- SE Ridgecrest Rd\, Happy Valley\, OR\nWebsite: https://www.happyvalleyor.g
- ov/services/hv-community-events/summer-concerts/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Events &amp; Festivals</p><p><strong>Cost:</strong> FREE</p><p>July-August; 2026 dates TBA (check website in June)</p><p><strong>Address:</strong> Happy Valley Park, 13770 SE Ridgecrest Rd, Happy Valley, OR</p><p><strong>Website:</strong> <a href="https://www.happyvalleyor.gov/services/hv-community-events/summer-concerts/">https://www.happyvalleyor.gov/services/hv-community-events/summer-concerts/</a></p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Happy Valley Park\, 13770 SE Ridgecrest Rd\, Happy Valley\, OR
-URL:https://www.happyvalleyor.gov/services/hv-community-events/summer-concerts/
-RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20260901T065959Z
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:6e8ff25f5ed72298@portlandresources.org
 DTSTAMP:20260129T000000Z
 DTSTART;VALUE=DATE:20261003
@@ -563,24 +527,6 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><H
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Columbia and Willamette Rivers\, Portland\, OR
 URL:https://christmasships.org/
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:da583f55cb2a0059@portlandresources.org
-DTSTAMP:20260303T000000Z
-DTSTART;TZID=America/Los_Angeles:20260605T183000
-DTEND;TZID=America/Los_Angeles:20260605T203000
-SUMMARY:Tualatin Concerts in the Parks
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Tualatin Com
- munity Park\, 8515 SW Tualatin Rd\nWebsite: https://www.tualatinoregon.gov
- /recreation/concerts-parks\nDetails: Free outdoor summer concert series fe
- aturing diverse music genres.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Events &amp; Festivals</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> Tualatin Community Park, 8515 SW Tualatin Rd</p><p><strong>Website:</strong> <a href="https://www.tualatinoregon.gov/recreation/concerts-parks">https://www.tualatinoregon.gov/recreation/concerts-parks</a></p><p><strong>Details:</strong> Free outdoor summer concert series featuring diverse music genres.</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Tualatin Community Park\, 8515 SW Tualatin Rd
-URL:https://www.tualatinoregon.gov/recreation/concerts-parks
-RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20260901T065959Z
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT

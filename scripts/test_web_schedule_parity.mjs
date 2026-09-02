@@ -108,6 +108,10 @@ assert.doesNotMatch(html, /function\s+isMonthInSeasonalRange\s*\(/);
 assert.doesNotMatch(html, /\bgetScheduleDates\s*\(/);
 assert.doesNotMatch(html, /if\s*\(entry\.dates\s*\|\|\s*entry\.date\)\s*continue/,
     'entry-level dates must not hide independently scheduled child programs');
+assert.doesNotMatch(html, /typeof p === 'string'/,
+    'programs are mappings; validation rejects bare strings, so the fallback branch is dead');
+assert.match(html, /hasScheduledProgram/,
+    'the browser must mirror the generator: an entry schedule is used unless a program has one');
 
 function programSchedule(entryId, programName) {
     const entry = feed.events.find(item => item.id === entryId);

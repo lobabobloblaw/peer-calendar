@@ -736,6 +736,50 @@ class TestDeterministicOutput(unittest.TestCase):
         self.assertIn((dtstart.day - 1) // 7 + 1, (1, 3))
 
 
+class TestEntryScheduleFallback(unittest.TestCase):
+    """An entry-level schedule is used unless a program supplies its own timing.
+
+    Suppressing it whenever `programs` was merely non-empty meant an entry whose
+    programs are a list of offerings published nothing at all, even with a
+    perfectly good schedule of its own.
+    """
+
+    BASE = {
+        "id": "fallback-test", "name": "Fallback Test", "category": "social_activities",
+        "schedule": "Every Monday 6-7pm", "last_verified": date(2026, 3, 1),
+    }
+
+    def test_offering_list_does_not_suppress_the_entry_schedule(self):
+        entry = dict(self.BASE, programs=[{"name": "Drawing"}, {"name": "Painting"}])
+        self.assertEqual(len(entry_to_events(entry)), 1)
+
+    def test_a_scheduled_program_still_takes_precedence(self):
+        """Otherwise the entry and its program would both publish the same slot."""
+        entry = dict(self.BASE, programs=[{"name": "Class", "schedule": "Every Tuesday 6-7pm"}])
+        vevents = entry_to_events(entry)
+        self.assertEqual(len(vevents), 1)
+        self.assertIn("BYDAY=TU", vevents[0])
+
+    def test_a_dated_program_also_takes_precedence(self):
+        entry = dict(self.BASE, programs=[{"name": "One-off", "dates": "August 15, 2026"}])
+        self.assertEqual(len(entry_to_events(entry)), 1)
+
+    def test_no_programs_behaves_as_before(self):
+        self.assertEqual(len(entry_to_events(dict(self.BASE))), 1)
+
+    def test_json_feed_agrees_with_the_ics_feed(self):
+        """A divergence here is exactly the class of bug the parity test exists for."""
+        entry = dict(self.BASE, programs=[{"name": "Drawing"}])
+        feed_entry = generate_json_feed([entry], today=date(2026, 8, 1))["events"][0]
+        self.assertIsNotNone(feed_entry["resolved_schedule"])
+        self.assertEqual(feed_entry["resolved_schedule"]["weekdays"], ["MO"])
+
+    def test_json_feed_omits_entry_schedule_when_a_program_has_one(self):
+        entry = dict(self.BASE, programs=[{"name": "Class", "schedule": "Every Tuesday 6-7pm"}])
+        feed_entry = generate_json_feed([entry], today=date(2026, 8, 1))["events"][0]
+        self.assertIsNone(feed_entry["resolved_schedule"])
+
+
 class TestClosedEntries(unittest.TestCase):
     """Permanently closed resources must not reach the published feeds."""
 

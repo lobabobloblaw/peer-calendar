@@ -3082,7 +3082,9 @@
                 // fixed dates remain in Seasonal, while fixed-date child programs
                 // above still appear on their actual days. Do not skip the whole
                 // entry merely because it also has an entry-level date range.
-                if (!entry.programs?.length && entry.resolved_schedule?.type === 'recurring') {
+                const hasScheduledProgram = (entry.programs || [])
+                    .some(program => program && typeof program === 'object' && program.resolved_schedule);
+                if (!hasScheduledProgram && entry.resolved_schedule?.type === 'recurring') {
                     const dates = resolvedScheduleDates(entry.resolved_schedule, year, month);
                     const practicalTip = typeof entry.practical_tips === 'string'
                         ? entry.practical_tips
@@ -4077,7 +4079,6 @@
             if (r.programs && r.programs.length > 0) {
                 let progHtml = '<ul>';
                 for (const p of r.programs) {
-                    if (typeof p === 'string') { progHtml += `<li>${escapeHtml(p)}</li>`; continue; }
                     let line = `<strong>${escapeHtml(p.name)}</strong>`;
                     if (p.schedule) line += ` — ${escapeHtml(p.schedule)}`;
                     if (p.notes) line += `<br><span style="font-size:0.9em;color:var(--text-secondary);">${escapeHtml(p.notes)}</span>`;

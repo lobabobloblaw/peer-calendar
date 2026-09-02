@@ -465,10 +465,15 @@ Founded 1985, one of Oregon's oldest peer-run programs. Free membership. Orienta
 
 **Programs:**
 
-- Drop-in peer support (no referral needed)
-- Yoga, hiking, art classes, gardening
-- Collective meal preparation
-- Hearing Voices Network support groups
+- **Drop-in peer support - Free To Be Me (Northeast Portland):** Mon, Wed, Thu 10am-2pm | 4837 NE Couch St, Portland, OR
+  No referral needed. Collective meal prep - arrive by 11am to eat lunch.
+- **Drop-in peer support - Oregon City:** Tuesday 10am-2pm | 710 6th Street, Oregon City, OR
+  No referral needed. Community outings and evening groups also offered - see calendar.
+- **Online support groups**
+  Virtual (Zoom). See the website for the Zoom link and schedule.
+- **Yoga, hiking, art classes, gardening**
+- **Collective meal preparation**
+- **Hearing Voices Network support groups**
 
 *Casual group · Anxiety-friendly, Good for isolation, Creative, Indoor, Low energy · Near transit*
 
@@ -1380,10 +1385,10 @@ Hillsboro Parks & Recreation community center. Financial assistance (50% off) av
 
 **Programs:**
 
-- Fitness classes
-- Aquatics
-- Youth and teen programs
-- Community events
+- **Fitness classes**
+- **Aquatics**
+- **Youth and teen programs**
+- **Community events**
 
 *Casual group · Active/physical, Indoor, Family-friendly · Wheelchair accessible*
 
@@ -1410,11 +1415,11 @@ Brand new facility opened June 2025. Scholarship available for income-qualifying
 
 **Programs:**
 
-- Swim lessons
-- Adult fitness classes
-- Youth sports leagues
-- Adult leagues
-- Open swim
+- **Swim lessons**
+- **Adult fitness classes**
+- **Youth sports leagues**
+- **Adult leagues**
+- **Open swim**
 
 *Drop-in (come and go freely) · Active/physical, Family-friendly · Wheelchair accessible*
 
@@ -2010,13 +2015,13 @@ Special district serving Tigard-Tualatin area. Medicare/insurance programs may p
 
 **Programs:**
 
-- Swim lessons (all ages)
-- Private lessons
-- Exercise/water aerobics classes
-- Competitive swim teams
-- Water polo
-- Movie nights
-- Wibit obstacle courses
+- **Swim lessons (all ages)**
+- **Private lessons**
+- **Exercise/water aerobics classes**
+- **Competitive swim teams**
+- **Water polo**
+- **Movie nights**
+- **Wibit obstacle courses**
 
 *Drop-in (come and go freely) · Active/physical, Low energy · Wheelchair accessible*
 
@@ -2086,11 +2091,11 @@ Financial assistance available - no one turned away for inability to pay. Also o
 
 **Programs:**
 
-- Group fitness classes
-- Swim lessons
-- Youth programs
-- Childcare
-- Personal training
+- **Group fitness classes**
+- **Swim lessons**
+- **Youth programs**
+- **Childcare**
+- **Personal training**
 
 *Drop-in (come and go freely) · Active/physical, Indoor, Family-friendly, Good for isolation · Wheelchair accessible*
 
@@ -2114,14 +2119,14 @@ Portland's oldest sliding-scale studio since 2010. Located in historic Franz bui
 
 **Programs:**
 
-- Power yoga
-- Vinyasa
-- Sculpt
-- Hatha
-- Yin
-- Restorative
-- Yoga nidra
-- LGBTQIA+ offerings
+- **Power yoga**
+- **Vinyasa**
+- **Sculpt**
+- **Hatha**
+- **Yin**
+- **Restorative**
+- **Yoga nidra**
+- **LGBTQIA+ offerings**
 
 *Casual group · Anxiety-friendly, Indoor, Low energy · Near transit*
 
@@ -2150,8 +2155,8 @@ Name changed from Portland Audubon in Feb 2024. Upper Macleay in Forest Park (ad
 
 **Programs:**
 
-- Free Bird Walks (volunteer-led, year-round)
-- Bird Song Walks (spring)
+- **Free Bird Walks (volunteer-led, year-round)**
+- **Bird Song Walks (spring)**
 
 **Features:** 172-acre Wildlife Sanctuary, 4+ miles of forested hiking trails, 40+ bird varieties, 60 species of mammals
 
@@ -2347,9 +2352,9 @@ Old-growth forest with 700-year-old trees
 
 **Programs:**
 
-- Guided forest hikes
-- Campfire programs
-- Mushroom walks
+- **Guided forest hikes**
+- **Campfire programs**
+- **Mushroom walks**
 
 *Do alone · Outdoor, Anxiety-friendly, Active/physical · Wheelchair accessible*
 
@@ -2401,9 +2406,9 @@ Therapeutic garden at Ed Benedict Park in outer SE Portland, maintained with Fri
 
 **Programs:**
 
-- 60 community gardens across Portland
-- Plots assigned February through June
-- Waitlists for popular gardens
+- **60 community gardens across Portland**
+- **Plots assigned February through June**
+- **Waitlists for popular gardens**
 
 *Do alone · Outdoor, Anxiety-friendly, Creative, Good for isolation · Wheelchair accessible*
 
@@ -2507,12 +2512,12 @@ Est. 1992. 900+ acres. 200+ bird species. Part of Tualatin River NWR Complex wit
 
 **Programs:**
 
-- Puddle Stompers (ages 2-5)
-- Ranger-Led Hikes
-- Evening Hikes
-- Owl Prowl (October-February)
-- Waterfowl Watch
-- Volunteer work parties
+- **Puddle Stompers (ages 2-5)**
+- **Ranger-Led Hikes**
+- **Evening Hikes**
+- **Owl Prowl (October-February)**
+- **Waterfowl Watch**
+- **Volunteer work parties**
 
 *Do alone · Outdoor, Anxiety-friendly, Family-friendly, Low energy · Wheelchair accessible*
 
@@ -2551,8 +2556,8 @@ Nonprofit community music center since 1971
 
 **Programs:**
 
-- Open mic nights (check calendar for dates)
-- Affordable music lessons (sliding scale)
+- **Open mic nights (check calendar for dates)**
+- **Affordable music lessons (sliding scale)**
 
 *Casual group · Creative, Indoor, Good for isolation · Near transit*
 
@@ -2800,10 +2805,10 @@ Film Action Oregon dba Hollywood Theatre. Historic landmark, namesake of Hollywo
 
 **Programs:**
 
-- B-Movie Bingo (check calendar for dates)
-- Kung Fu Theater
-- Hecklevision
-- Various free screenings
+- **B-Movie Bingo (check calendar for dates)**
+- **Kung Fu Theater**
+- **Hecklevision**
+- **Various free screenings**
 
 **Features:** Historic 1926 theater (National Register), Only 70mm film projector in Oregon, Nonprofit organization, 1,491 seats
 
@@ -3000,15 +3005,15 @@ Free gallery in East County featuring diverse contemporary and traditional art. 
 **Programs:**
 
 - **Culture Nights:** 1st & 3rd Wednesdays 6-8pm
-- Elder Services
-- Food pantry (Oregon Food Bank partner)
-- Clothing closet
-- Healing circles (domestic/sexual violence survivors)
-- Camp Rise (grades 2-8, spring/summer)
-- Two Spirit youth support
-- Community Garden (Wapas Nah Nee Shaku)
-- Pathways Home (homeownership education)
-- Many Nations Academy (grades 9-12)
+- **Elder Services**
+- **Food pantry (Oregon Food Bank partner)**
+- **Clothing closet**
+- **Healing circles (domestic/sexual violence survivors)**
+- **Camp Rise (grades 2-8, spring/summer)**
+- **Two Spirit youth support**
+- **Community Garden (Wapas Nah Nee Shaku)**
+- **Pathways Home (homeownership education)**
+- **Many Nations Academy (grades 9-12)**
 
 *Casual group · Good for isolation, Newcomer-friendly, Creative, Indoor · Wheelchair accessible, Near transit*
 
@@ -5303,12 +5308,25 @@ Active aging center with diverse programming from fitness to legal aid. Spanish-
 
 **Programs:**
 
-- fitness
-- social
-- creative
-- support
-- services
-- trips
+- **SW Portland Caregiver Support Group:** 4th Tuesday 6-7:30pm
+- **Alzheimer Support Group**
+- **Grupo de Apoyo Para Mujeres**
+  Spanish-language women's support group.
+- **AARP Tax Aide:** FREE
+  Available during tax season.
+- **SHIBA Medicare Counseling:** FREE
+  Help with Medicare plan selection
+- **Foot Care**
+  Appointment required
+- **Legal Advice Program:** FREE
+  30-minute consultations with volunteer attorney
+- **Fitness classes**
+  SilverSneakers® Classic, Silver&Fit Signature Series Level 3 Excel, Tai Chi, Gentle Yoga, Zumba®, Line Dance, Fit & Strong
+- **Social activities**
+  Tuesday Night Social, Billiards, Shanghai Rummy, Cards/Board Games, American Mah Jongg, Bingo
+- **Creative classes**
+  Quilting, Sewing
+- **Trips & Travel program**
 
 *Casual group · Good for isolation, Low energy, Active/physical · Wheelchair accessible, Near transit*
 
@@ -5387,12 +5405,12 @@ Sliding-scale arts education
 
 **Programs:**
 
-- Drawing
-- Painting
-- Ceramics
-- Textiles
-- Photography
-- Writing
+- **Drawing**
+- **Painting**
+- **Ceramics**
+- **Textiles**
+- **Photography**
+- **Writing**
 
 *Structured group · Creative, Good for isolation, Indoor · Wheelchair accessible, Near transit*
 
@@ -5483,9 +5501,9 @@ Low-cost art classes for all skill levels. In-person Mondays, online Thursdays.
 
 **Programs:**
 
-- Drawing and painting classes
-- All skill levels welcome
-- In-person (Mondays) and online (Thursdays)
+- **Drawing and painting classes**
+- **All skill levels welcome**
+- **In-person (Mondays) and online (Thursdays)**
 
 *Structured group · Creative, Good for isolation, Indoor, Newcomer-friendly*
 

@@ -4660,3 +4660,60 @@
     - id: thprd-fitness-in-park
       status: updated
       changes: "Confirmed Summer 2026 season June 15 - August 23 (no classes June 19, July 3, July 4) and class mix. Merged two duplicate 'flags' keys that were silently discarding the VERIFY flag. Per-class schedule still needs a direct read of the THPRD print schedule page."
+
+---
+- date: 2026-09-02
+  type: data-shape
+  auditor: claude
+  summary: "Programs converted to named mappings; no content re-verified"
+  entries_audited: 16
+  notes: "Structural change only. No last_verified or next_audit date was advanced, because nothing was checked against a source."
+  entries:
+    - id: folktime
+      status: updated
+      changes: "Programs rewritten as mappings. The two drop-in centres kept their hours inside `locations`, where no consumer read them, so FolkTime published no calendar events at all. Added folktime-drop-in-ne (Mon, Wed, Thu 10am-2pm, 4837 NE Couch St) and folktime-drop-in-oregon-city (Tuesday 10am-2pm, 710 6th Street) from the hours already recorded in that entry. Now generates 2 events."
+    - id: juanita-pohl-center
+      status: updated
+      changes: "`programs` was a mapping of category to activity lists, not a list, so the site's programs.length check was undefined and all 23 activities were invisible. Flattened to 11 named programs, preserving every activity name. SW Portland Caregiver Support Group (4th Tuesday 6-7:30pm) now generates its first calendar event; AARP Tax Aide's 'Tax season' moved from schedule to notes since it is not a schedule."
+    - id: portland-art-guild
+      status: updated
+      changes: "Three offering strings converted to named programs. Its entry-level schedule was being suppressed by their presence; the generator fallback is fixed, but the schedule still carries no times so it produces no event yet. Needs a time from the organiser."
+    - id: yoga-on-yamhill
+      status: updated
+      changes: "8 offering strings converted to named programs. No schedules added."
+    - id: ymca-columbia-willamette
+      status: updated
+      changes: "5 offering strings converted to named programs. No schedules added."
+    - id: ttad-pools
+      status: updated
+      changes: "7 offering strings converted to named programs. No schedules added."
+    - id: lake-oswego-lorac
+      status: updated
+      changes: "5 offering strings converted to named programs. No schedules added."
+    - id: hollywood-theatre
+      status: updated
+      changes: "4 offering strings converted to named programs. No schedules added."
+    - id: naya
+      status: updated
+      changes: "9 service strings converted to named programs, alongside the existing Culture Nights program. No schedules added."
+    - id: artichoke-music
+      status: updated
+      changes: "2 offering strings converted to named programs. No schedules added."
+    - id: oxbow-regional-park
+      status: updated
+      changes: "3 offering strings converted to named programs. No schedules added."
+    - id: tualatin-river-nwr
+      status: updated
+      changes: "6 offering strings converted to named programs. No schedules added."
+    - id: bird-alliance-oregon
+      status: updated
+      changes: "2 offering strings converted to named programs. No schedules added."
+    - id: ppr-community-gardens
+      status: updated
+      changes: "3 descriptive strings converted to named programs. No schedules added."
+    - id: multnomah-arts-center
+      status: updated
+      changes: "6 class-subject strings converted to named programs. No schedules added."
+    - id: hidden-creek-community-center
+      status: updated
+      changes: "4 offering strings converted to named programs. No schedules added."

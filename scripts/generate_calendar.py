@@ -930,6 +930,22 @@ def _warn_unparseable(key: str, schedule_str: str, label: str) -> None:
         print(f"  WARNING: unparseable schedule for {label}: \"{schedule_str}\"", file=sys.stderr)
 
 
+def has_scheduled_programs(programs) -> bool:
+    """True if any program carries its own schedule or dates.
+
+    An entry-level schedule is a fallback for entries whose programs are just a
+    list of offerings. Suppressing it whenever `programs` is merely non-empty
+    hid the entry's own schedule instead: portland-art-guild published nothing
+    because three offering names sat alongside its schedule.
+    """
+    if not isinstance(programs, list):
+        return False
+    return any(
+        isinstance(program, dict) and (program.get("schedule") or program.get("dates"))
+        for program in programs
+    )
+
+
 def is_closed(entry: dict) -> bool:
     """True if the entry is recorded as permanently closed or discontinued."""
     if str(entry.get("status", "")).upper() == "CLOSED":
@@ -1012,9 +1028,9 @@ def entry_to_events(entry: dict, platform: str = "google") -> list[str]:
             if vevent:
                 events.append(vevent)
 
-    # Entry-level schedule (no sub-programs, no dates)
+    # Entry-level schedule, used when no program supplies its own timing
     schedule_str = entry.get("schedule")
-    if schedule_str and not programs and not dates:
+    if schedule_str and not has_scheduled_programs(programs) and not dates:
         schedule = parse_schedule(schedule_str)
         if not schedule.get("day"):
             _warn_unparseable(entry_id, schedule_str, entry_id)
@@ -1169,7 +1185,11 @@ def generate_json_feed(entries: list[dict], today: date | None = None) -> dict:
                     # Program is just a string, skip enrichment
                     enriched_programs.append(prog)
             event_data["programs"] = enriched_programs
-        elif entry.get("schedule") and not entry.get("dates"):
+        if (
+            entry.get("schedule")
+            and not entry.get("dates")
+            and not has_scheduled_programs(entry.get("programs"))
+        ):
             event_data["resolved_schedule"] = resolve_recurring_schedule(
                 parse_schedule(entry["schedule"]), entry, today=today,
             )

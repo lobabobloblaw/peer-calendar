@@ -132,7 +132,12 @@ class TestCorpusAuditPolicy(unittest.TestCase):
         self.assertEqual(counts, {"monthly": 15, "quarterly": 128, "annually": 129})
         priorities = {priority: sum(audit_priority(value) == priority for value in active)
                       for priority in ("critical", "high", "standard", "low")}
-        self.assertEqual(priorities, {"critical": 61, "high": 70, "standard": 12, "low": 129})
+        # juanita-pohl-center moved low -> high when its programs were converted
+        # from an unreadable mapping into a list: one of them is an open-ended
+        # recurring support group, which the policy rates higher precisely
+        # because it now publishes to subscribers. The cadence inventory this
+        # test locks is unchanged; only the derived priority moved.
+        self.assertEqual(priorities, {"critical": 61, "high": 71, "standard": 12, "low": 128})
         summary = workload_summary(active, capacity_per_week=5, as_of=date(2026, 8, 13))
         self.assertEqual(summary["backlog"], 131)
         self.assertEqual(summary["audits_per_year"], 821)

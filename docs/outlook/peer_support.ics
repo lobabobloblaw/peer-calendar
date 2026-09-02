@@ -493,6 +493,46 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:bf09ccb7ad115192@portlandresources.org
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T100000
+DTEND;TZID=America/Los_Angeles:20260101T140000
+SUMMARY:FolkTime Peer Connection Centers: Drop-in peer support - Free To Be
+  Me (Northeast Portland)
+DESCRIPTION:Category: Peer Support\nCost: FREE ($1 suggested donation for l
+ unch)\nInfo: No referral needed. Collective meal prep - arrive by 11am to 
+ eat lunch.\nPhone: 503-238-6428\nWebsite: https://folktime.org\nDetails: F
+ ounded 1985\, one of Oregon's oldest peer-run programs. Free membership. O
+ rientation required for new members.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE ($1 suggested donation for lunch)</p><p>No referral needed. Collective meal prep - arrive by 11am to eat lunch.</p><p><strong>Phone:</strong> <a href="tel:503-238-6428">503-238-6428</a></p><p><strong>Website:</strong> <a href="https://folktime.org">https://folktime.org</a></p><p><strong>Details:</strong> Founded 1985, one of Oregon&#x27;s oldest peer-run programs. Free membership. Orientation required for new members.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:4837 NE Couch St\, Portland\, OR
+URL:https://folktime.org
+RRULE:FREQ=WEEKLY;BYDAY=MO,WE,TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d64ff11ba8b3e087@portlandresources.org
+DTSTAMP:20260728T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T100000
+DTEND;TZID=America/Los_Angeles:20260106T140000
+SUMMARY:FolkTime Peer Connection Centers: Drop-in peer support - Oregon Cit
+ y
+DESCRIPTION:Category: Peer Support\nCost: FREE ($1 suggested donation for l
+ unch)\nInfo: No referral needed. Community outings and evening groups also
+  offered - see calendar.\nPhone: 503-238-6428\nWebsite: https://folktime.o
+ rg\nDetails: Founded 1985\, one of Oregon's oldest peer-run programs. Free
+  membership. Orientation required for new members.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE ($1 suggested donation for lunch)</p><p>No referral needed. Community outings and evening groups also offered - see calendar.</p><p><strong>Phone:</strong> <a href="tel:503-238-6428">503-238-6428</a></p><p><strong>Website:</strong> <a href="https://folktime.org">https://folktime.org</a></p><p><strong>Details:</strong> Founded 1985, one of Oregon&#x27;s oldest peer-run programs. Free membership. Orientation required for new members.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:710 6th Street\, Oregon City\, OR
+URL:https://folktime.org
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:80c98c702199b308@portlandresources.org
 DTSTAMP:20260724T000000Z
 DTSTART;TZID=America/Los_Angeles:20260804T100000

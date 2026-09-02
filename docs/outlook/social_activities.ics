@@ -199,6 +199,27 @@ CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:0b5f972508de5d1a@portlandresources.org
+DTSTAMP:20260307T000000Z
+DTSTART;TZID=America/Los_Angeles:20260127T180000
+DTEND;TZID=America/Los_Angeles:20260127T193000
+SUMMARY:Juanita Pohl Center (Tualatin Active Aging Center): SW Portland Car
+ egiver Support Group
+DESCRIPTION:Category: Social Activities\nCost: Many activities free or low-
+ cost\nNote: Some fitness classes free with SilverSneakers/Silver&Fit\nAddr
+ ess: 8513 SW Tualatin Rd\, Tualatin\, OR 97062\nPhone: 503-691-3061\nWebsi
+ te: https://www.tualatinoregon.gov/recreation/adult-programs-and-services\
+ nDetails: Active aging center with diverse programming from fitness to leg
+ al aid. Spanish-language support group available.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Social Activities</p><p><strong>Cost:</strong> Many activities free or low-cost</p><p><em>Some fitness classes free with SilverSneakers/Silver&amp;Fit</em></p><p><strong>Address:</strong> 8513 SW Tualatin Rd, Tualatin, OR 97062</p><p><strong>Phone:</strong> <a href="tel:503-691-3061">503-691-3061</a></p><p><strong>Website:</strong> <a href="https://www.tualatinoregon.gov/recreation/adult-programs-and-services">https://www.tualatinoregon.gov/recreation/adult-programs-and-services</a></p><p><strong>Details:</strong> Active aging center with diverse programming from fitness to legal aid. Spanish-language support group available.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:8513 SW Tualatin Rd\, Tualatin\, OR 97062
+URL:https://www.tualatinoregon.gov/recreation/adult-programs-and-services
+RRULE:FREQ=MONTHLY;BYDAY=4TU
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:3432df74a675b19b@portlandresources.org
 DTSTAMP:20260728T000000Z
 DTSTART;TZID=America/Los_Angeles:20260110T120000
