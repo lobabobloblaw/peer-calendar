@@ -12,14 +12,23 @@ Run commands from the repository root:
 python3 -m venv scripts/venv
 source scripts/venv/bin/activate
 python -m pip install -r scripts/requirements.txt
-python scripts/audit_check.py --validate
-python scripts/validate_schedules.py
-python -m unittest discover -s scripts -p 'test_*.py'
-python scripts/generate_calendar.py --json
+
+npm run check          # every check CI runs, in CI's order
+npm run check -- --e2e # also the Playwright browser suite
+
 python scripts/generate_guides.py
 ```
 
-The two validation commands check schema values and schedule parsing. Tests cover calendar parsing and update posts. Calendar generation writes ignored files to `output/`; add `--publish` only when intentionally refreshing tracked files in `docs/`.
+`npm run check` (equivalently `scripts/check_all.sh`) runs the entry schema
+check, schedule validation, the Python suite, calendar generation, the browser
+schedule-parity test, and the deterministic UI tests. It prints one line per
+check and the output of any that fail. Run it before every push; the Validate
+workflow runs the same list on your pull request.
+
+Nothing in that list publishes. Calendar generation writes ignored files to
+`output/`; add `--publish` only when intentionally refreshing tracked files in
+`docs/`. Note that a relative `--output` is resolved against `scripts/`, not the
+working directory.
 
 ## Coding Style & Data Conventions
 
@@ -27,11 +36,11 @@ Use four-space Python indentation, `snake_case` names, `PascalCase` test classes
 
 ## Testing Guidelines
 
-Tests use standard-library `unittest`. Name files `test_*.py`, classes `Test...`, and methods `test_...`. Add focused regression cases for parser, calendar, or publishing changes. There is no coverage threshold; run both validations and the full discovery command before submitting.
+Tests use standard-library `unittest`. Name files `test_*.py`, classes `Test...`, and methods `test_...`. Add focused regression cases for parser, calendar, or publishing changes. There is no coverage threshold; run `npm run check` before submitting, and add `--e2e` when `docs/index.html` or `docs/sky-effect.js` changed.
 
 ## Commit & Pull Request Guidelines
 
-Follow history with imperative, sentence-case subjects such as `Fix platform selection ternary` or scoped forms like `CI: regenerate calendar feeds weekly`; use `closes #N` when applicable. PRs should summarize impact, list affected resource IDs and official verification sources/dates, report validation commands, and call out generated diffs. Link issues and include screenshots for `docs/index.html` UI changes.
+Follow history with imperative, sentence-case subjects such as `Fix platform selection ternary` or scoped forms like `CI: regenerate calendar feeds weekly`; use `closes #N` when applicable. PRs should summarize impact, list affected resource IDs and official verification sources/dates, report validation commands, and call out generated diffs; `.github/pull_request_template.md` lays out those sections. Link issues and include screenshots for `docs/index.html` UI changes.
 
 ## Data Safety & Publishing
 

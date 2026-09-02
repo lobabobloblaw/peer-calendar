@@ -2,6 +2,7 @@
   "name": "peer-calendar-web-tests",
   "private": true,
   "scripts": {
+    "check": "bash scripts/check_all.sh",
     "test:web-contract": "node --test scripts/test_web_ui_contract.mjs scripts/test_sky_effect_reduced_motion.mjs",
     "test:web-e2e": "playwright test"
   },
