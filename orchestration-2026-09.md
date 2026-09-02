@@ -5,6 +5,122 @@ A work plan derived from `project-review-2026-09-02.md`, written for an autonomo
 independent and can run in parallel; waves are ordered by dependency and by merge-conflict
 risk. Read the review first for the evidence behind each task.
 
+## Status — updated 2026-09-02, end of the cloud session
+
+Twelve commits are on `claude/project-review-recommendations-9h4ki4` and pushed. **Nothing
+is merged to `main` yet**, so the CI fix in T0.1 is not live and the Monday 14:00 UTC
+scheduled run still fails until it is. Merging is the first thing to do locally.
+
+| Task | Status |
+|---|---|
+| T0.1 Freeze `today` in tests | **Done** — `0c579cd`. Suite also verified under a simulated 2031 clock. |
+| T0.2 Arts for All 404 | **Blocked** — needs network. `arts-for-all` still points at the dead `racc.org/artsforall`. |
+| T1.1 PR validation workflow | **Done** — `ca43af8`. New `validate.yml`; parity test gained `--feed`. |
+| T1.2 Deterministic guide header | **Done** — `abc102b`. Regeneration now yields a zero-line diff. |
+| T1.3 Scheduled-failure visibility | **Done** — `895b21e`. Action version bumps deferred to dependabot (`1d82276`) rather than guessed. |
+| T1.4 Route URL-health results | **Not started.** The state file and `--weekly-summary` wiring are offline work; triaging the 112 warnings needs a live run. |
+| T1.5 One check command | **Done** — `fa7a570`. `npm run check`, plus a PR template. |
+| T2.1 Locations export and map | **Partly done** — the field is exported and rendered in the resource panel (`c07dc12`). Map markers still need `geocode_addresses.py` run with network. Two entries also still hold odd `locations` shapes (`ppr-fitness-in-park` a mapping, `gresham-movies-in-park` a list of strings) and want normalising. |
+| T2.2 Programs as named mappings | **Done** — `1606787`. |
+| T2.3 Publish dropped fields | **Done** — `c07dc12`. |
+| T2.4 Tighten the schema | **Not started.** Fully offline. |
+| T3.1 Page snapshots in the checker | **Not started.** Code is offline work; populating it needs network. |
+| T3.2 Assisted verification | **Not started.** Needs network to be worth anything. |
+| T3.3 Work the critical backlog | **Not started.** Network and a phone. Still 50 critical overdue. |
+| T3.4 Vague peer-support schedules | **Not started.** Network. |
+| T3.5 Staleness tiers, report a change | **Not started.** Fully offline. |
+| T4.1 Asset diet | **Done** — `5b4ef05`. `docs/` 22MB → 5.8MB. |
+| T4.2 Split `index.html` | **Not started.** Fully offline, and takes the exclusive lock on that file. |
+| T4.3 Feed and sky-effect weight | **Not started.** Fully offline. |
+| T4.4 Skip link | **Not started.** Fully offline. |
+| T5.1 One calendar-year constant | **Not started.** Fully offline. |
+| T5.2 Stale-event detection | **Not started.** Fully offline. |
+| T5.3 Rollover checklist | **Not started.** |
+| T6.1 README and doc reconciliation | **Done** — `adfa9ec`. Four documents moved to `docs-archive/`. |
+| T6.2 Issues and branches | **Partly done.** Findings posted to issues #3 and #4; neither closed or renamed, by the owner's decision. Dependabot added. **Branch deletion still outstanding** — the cloud session's git proxy rejects ref deletion. |
+
+### Found while executing, not in the original plan
+
+- **The entry-level schedule fallback was a generator bug.** A schedule was skipped whenever
+  `programs` was non-empty rather than when a program carried its own timing. Fixed in the ICS
+  path, the JSON feed and the browser together (`1606787`).
+- **`juanita-pohl-center` stored `programs` as a mapping**, so the site's `programs.length`
+  check was undefined and all 23 activities were invisible. Fixed, and validation now rejects
+  the shape.
+- **`portland-art-guild` still publishes nothing.** Its schedule, "Mondays in-person, Thursday
+  evenings online", states no times. Needs a time from the organiser — a network or phone item.
+- **A relative `--output` is resolved against `scripts/`, not the working directory.** So
+  `generate_calendar.py --json --output output` writes to `scripts/output/`. Use the default.
+- **Correction to the review:** the Spanish filter was not returning nothing. It already matched
+  NAMI Clackamas and Dougy Center by text detection. What was true is that no entry sets the tag
+  explicitly. Coverage is now six resources rather than two.
+- **`generate_monthly_calendars.py`** remains a third RRULE implementation that CI neither runs
+  nor tests. Documented as local-only; still wants a decision.
+
+---
+
+## Picking this up in a local terminal
+
+```bash
+cd ~/peer-calendar
+git fetch origin
+
+# 1. Land the CI fix. main has not moved, so this fast-forwards.
+git checkout main
+git merge --ff-only origin/claude/project-review-recommendations-9h4ki4
+git push origin main
+
+# 2. Delete the five merged branches the cloud session could not remove.
+git push origin --delete \
+  agent/audit-cadence-and-link-checking \
+  agent/correct-calendar-data-and-schedules \
+  agent/refresh-broken-links-and-flags \
+  agent/remediate-ui-accessibility \
+  claude/audit-content-HGGy2
+
+# 3. Set up and confirm the checks pass before changing anything.
+python3 -m venv scripts/venv
+source scripts/venv/bin/activate
+python -m pip install -r scripts/requirements.txt
+npm ci
+npx playwright install chromium   # only needed for `npm run check -- --e2e`
+npm run check
+```
+
+That exact sequence was run against a fresh clone of this branch at `c07dc12` and finished
+with all six checks green, so a surprise in the setup path is unlikely. The only Python
+requirement is 3.11 or newer with `pyyaml` and `python-dateutil`; nothing else is imported.
+
+Expect one automatic commit shortly after the merge: the publish workflow drops the four
+summer concert series that ended on 31 August, which is the correction the broken test had
+been holding back.
+
+### Local gotchas
+
+- **This repository lives in an iCloud-synced folder.** Git operations can hang for minutes on
+  evicted files; `brctl download <path>` unsticks them. Recorded in
+  `docs-archive/SESSION_STATE.md`.
+- **Playwright browsers are not installed by `npm ci`.** Run `npx playwright install chromium`
+  once, or `npm run check` will skip the browser suite silently (it only runs with `--e2e`).
+- **Regenerating is safe; publishing is deliberate.** `generate_calendar.py --json` writes to
+  the gitignored `output/`. Only `--publish` touches `docs/`.
+
+### What to pick up first, with network
+
+1. **T0.2**, one dead URL, five minutes.
+2. **T3.3**, the 50 critical overdue audits — the largest remaining accuracy risk, and the
+   reason the whole audit machinery exists. Build **T3.2** first if you want the leverage.
+3. **`geocode_addresses.py`** to finish T2.1's map half, and to place the FolkTime centres now
+   that their addresses are in the feed.
+
+### What to pick up first, without network
+
+**T4.2** (split `index.html`) unblocks T3.5, T4.3 and T4.4, and it takes the exclusive lock on
+that file, so it is worth doing before anything else touches the page. **T2.4**, **T5.1** and
+**T5.2** are independent of it and can go in any order.
+
+---
+
 ## 0. Ground rules for every task
 
 - **Branch and PR per task.** Branch name `agent/<task-id>-<slug>` (for example
