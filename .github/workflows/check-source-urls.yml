@@ -1,28 +1,12 @@
 name: Check Source URLs
 
 on:
-  pull_request:
-    paths:
-      - 'data/sources.yaml'
-      - 'scripts/check_source_urls.py'
-      - 'scripts/test_check_source_urls.py'
-      - 'scripts/audit_policy.py'
-      - 'scripts/audit_check.py'
-      - 'scripts/migrate_audit_cadence.py'
-      - 'scripts/test_audit_policy.py'
-      - 'scripts/utils.py'
-      - 'scripts/requirements.txt'
-      - '.github/workflows/check-source-urls.yml'
   push:
     branches: [main]
     paths:
       - 'data/sources.yaml'
       - 'scripts/check_source_urls.py'
-      - 'scripts/test_check_source_urls.py'
       - 'scripts/audit_policy.py'
-      - 'scripts/audit_check.py'
-      - 'scripts/migrate_audit_cadence.py'
-      - 'scripts/test_audit_policy.py'
       - 'scripts/utils.py'
       - 'scripts/requirements.txt'
       - '.github/workflows/check-source-urls.yml'
@@ -55,17 +39,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Test URL checker without live network
-        run: python scripts/test_check_source_urls.py
-
-      - name: Test audit policy and migration
-        run: python scripts/test_audit_policy.py
-
-      # Pull requests run only deterministic tests. The live check starts after
-      # merge so untrusted PR URLs are never requested by a GitHub-hosted runner.
+      # The checker's own tests run on pull requests in the Validate workflow.
+      # This workflow deliberately never runs on a pull request, so a URL from
+      # an untrusted branch is never requested by a GitHub-hosted runner.
       - name: Check source URL health
         id: live-check
-        if: github.event_name != 'pull_request'
         continue-on-error: true
         run: |
           mkdir -p artifacts
@@ -80,7 +58,7 @@ jobs:
             --fail-on-broken
 
       - name: Add report to workflow summary
-        if: always() && github.event_name != 'pull_request'
+        if: always()
         run: |
           if [ -f artifacts/source-url-summary.md ]; then
             cat artifacts/source-url-summary.md >> "$GITHUB_STEP_SUMMARY"
@@ -90,7 +68,7 @@ jobs:
           fi
 
       - name: Upload URL health report
-        if: always() && github.event_name != 'pull_request'
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: source-url-health-${{ github.run_id }}

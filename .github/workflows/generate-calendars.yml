@@ -42,7 +42,7 @@ jobs:
           cache-dependency-path: 'scripts/requirements.txt'
 
       - name: Install dependencies
-        run: pip install pyyaml python-dateutil
+        run: pip install -r scripts/requirements.txt
 
       - name: Validate sources
         working-directory: scripts
@@ -52,12 +52,11 @@ jobs:
         working-directory: scripts
         run: python validate_schedules.py
 
+      # The whole suite, not a hand-listed subset: this is the last gate
+      # before the feeds subscribers receive are rewritten.
       - name: Run tests
         working-directory: scripts
-        run: |
-          python test_schedule_parsing.py
-          python test_add_update_post.py
-          python test_audit_policy.py
+        run: python -m unittest discover -s . -p 'test_*.py'
 
       - name: Snapshot published events
         run: cp docs/events.json /tmp/events-before.json || true

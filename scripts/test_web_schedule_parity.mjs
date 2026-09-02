@@ -2,11 +2,26 @@
 
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { pathToFileURL } from 'node:url';
 import vm from 'node:vm';
 
-const indexUrl = new URL('../docs/index.html', import.meta.url);
+// CI validates a freshly generated feed in output/ before anything is
+// published, so the feed path is overridable; it defaults to the published one.
+function argValue(flag, fallback) {
+    const index = process.argv.indexOf(flag);
+    if (index === -1) return fallback;
+    const value = process.argv[index + 1];
+    if (!value || value.startsWith('--')) {
+        throw new Error(`${flag} requires a path`);
+    }
+    return pathToFileURL(resolve(value));
+}
+
+const indexUrl = argValue('--index', new URL('../docs/index.html', import.meta.url));
+const feedUrl = argValue('--feed', new URL('../docs/events.json', import.meta.url));
 const html = readFileSync(indexUrl, 'utf8');
-const feed = JSON.parse(readFileSync(new URL('../docs/events.json', import.meta.url), 'utf8'));
+const feed = JSON.parse(readFileSync(feedUrl, 'utf8'));
 const helperStart = html.indexOf('const resolvedWeekdayNumbers');
 const helperEnd = html.indexOf('// Generate all events for a month', helperStart);
 assert.ok(helperStart >= 0 && helperEnd > helperStart, 'resolved schedule helpers must be present');
@@ -112,4 +127,4 @@ assert.deepEqual(
     ['2026-08-03', '2026-08-17']
 );
 
-console.log('web schedule parity: 23 assertions passed');
+console.log(`web schedule parity: 23 assertions passed against ${feedUrl.pathname}`);

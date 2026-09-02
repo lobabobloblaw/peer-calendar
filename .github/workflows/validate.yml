@@ -1,0 +1,84 @@
+name: Validate
+
+# Every deterministic check that guards published data, run before merge.
+#
+# These checks used to run only after merge, inside the job that publishes, so
+# a malformed schedule string or an invalid entry landed on main first and was
+# caught by a red run nobody was notified about. Nothing here publishes.
+
+on:
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+      - 'guides/**'
+      - 'docs/index.html'
+      - 'docs/events.json'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/validate.yml'
+  push:
+    branches-ignore: [main]
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+      - 'guides/**'
+      - 'docs/index.html'
+      - 'docs/events.json'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/validate.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+          cache-dependency-path: 'scripts/requirements.txt'
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Validate entry schema
+        run: python scripts/audit_check.py --validate
+
+      - name: Validate schedules
+        run: python scripts/validate_schedules.py
+
+      - name: Run Python tests
+        run: python -m unittest discover -s scripts -p 'test_*.py'
+
+      # Writes to the gitignored output/ directory (the default; note that a
+      # relative --output is resolved against scripts/, not the working
+      # directory). docs/ is only ever refreshed by the publishing workflow.
+      - name: Generate feeds without publishing
+        run: python scripts/generate_calendar.py --json
+
+      # Reads the feed this run just generated, not the published one, so a
+      # change to the resolver is checked against its own output.
+      - name: Verify web schedule parity against the fresh feed
+        run: node scripts/test_web_schedule_parity.mjs --feed output/events.json
+
+      - name: Run deterministic UI tests
+        run: npm run test:web-contract
