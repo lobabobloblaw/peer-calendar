@@ -18,8 +18,8 @@ generator* to *operations and reach*:
 3. **Real data never reaches the site.** Twelve entries, including FolkTime's own two peer
    connection centers, keep their addresses in a `locations` list the feed does not export.
    FolkTime is not on the map, and its drop-in hours are not on the calendar.
-4. **2027 is unplanned.** The calendar year is hard-coded in fourteen places across the
-   generator and the page.
+4. **2027 is unplanned.** The calendar year is hard-coded in 23 places across the
+   generator (9) and the page (14).
 
 ---
 
