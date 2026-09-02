@@ -30,6 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: write
 
     steps:
       - uses: actions/checkout@v4
@@ -96,4 +97,29 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/ guides/
           git commit -m "Auto-generate calendar feeds and resource guide from sources.yaml"
+          # A push landing on main between checkout and here makes this push a
+          # non-fast-forward and throws away a completed regeneration.
+          git pull --rebase origin main
           git push
+
+      # A failed scheduled run is otherwise invisible: nobody watches the
+      # Actions tab on a Monday morning, and published feeds simply stop being
+      # refreshed until someone notices. One open issue, updated per failure.
+      - name: Report a failed scheduled run
+        if: failure() && github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title='Weekly calendar generation is failing'
+          body=$(printf '%s\n\n%s\n\n%s\n' \
+            "The scheduled Generate Calendars run failed on $(date -u +%Y-%m-%d)." \
+            "Published calendar feeds are not being refreshed until this is fixed. Subscribers keep whatever the last successful run produced." \
+            "Failed run: $RUN_URL")
+          existing=$(gh issue list --state open --search "$title in:title" \
+            --json number,title --jq "[.[] | select(.title == \"$title\")][0].number // empty")
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body"
+          fi
