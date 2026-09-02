@@ -26,7 +26,7 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 5. When shipping changes that regenerate feeds, add a curated post to the Updates section: `python scripts/add_update_post.py --text "..."` (inserts a dated `<li>` at the top of the list in `docs/index.html`). If no curated post exists for the day, CI appends an auto-summary post on regeneration — at most one auto-post per day, and only when the regenerated feeds actually changed.
 
 **Key files:**
-- `data/sources.yaml` - Master registry with ~269 resources and audit metadata (multi-document YAML with `---` separators)
+- `data/sources.yaml` - Master registry with 275 resources (272 active, 3 closed) and audit metadata (multi-document YAML with `---` separators)
 - `docs/events.json` - JSON feed used by web calendar preview (generated from sources.yaml)
 - `data/audit-log.yaml` - Verification history
 - `data/queue.yaml` - Pending resources to research
@@ -34,21 +34,45 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 - `guides/activities-guide-2.md` - U-pick farms, community centers, peer support
 - `templates/resource-entry.yaml` - Template for new entries
 
-**Scripts (require Python 3.13+ with PyYAML, python-dateutil):**
-- `scripts/utils.py` - Shared utilities: `load_sources()`, `parse_date()`, `format_date()`, `validate_entry()`
-- `scripts/generate_calendar.py` - Generates iCal/ICS calendar feeds to `output/`
-- `scripts/generate_monthly_calendars.py` - Expands recurring events into month-specific calendars in `distribution/`
+**Scripts (Python 3.11+ with PyYAML, python-dateutil; CI runs 3.13):**
+
+Run everything at once with `npm run check` (or `scripts/check_all.sh`), which runs the
+same list the Validate workflow runs on pull requests. Add `--e2e` for the browser suite.
+
+*Generation*
+- `scripts/utils.py` - Shared utilities: `load_sources()`, `parse_date()`, `format_date()`, `validate_entry()`, controlled vocabularies
+- `scripts/generate_calendar.py` - Generates iCal/ICS feeds and `events.json` to `output/` (`--publish` copies to `docs/`). A relative `--output` is resolved against `scripts/`, not the working directory.
 - `scripts/generate_guides.py` - Generates `guides/resources-guide.md` from sources.yaml (replaces manual guide maintenance)
-- `scripts/geocode_addresses.py` - Geocodes addresses via Nominatim, stores lat/lng in sources.yaml, validates Portland metro bounds
-- `scripts/audit_check.py` - Reports entries due for audit, unverified entries, statistics
-- `scripts/audit_complete.py` - Mark entries as audited, auto-updates dates and logs
-- `scripts/validate_schedules.py` - Validates all schedule strings parse correctly (run before calendar generation)
+- `scripts/generate_monthly_calendars.py` - Expands recurring events into month-specific calendars in `distribution/`. Local-only: not run or tested by CI, and it carries its own RRULE expansion separate from the generator's.
 - `scripts/add_update_post.py` - Adds dated posts to the Updates section in `docs/index.html` (curated `--text` mode; CI `--auto` diff-summary mode)
-- `scripts/test_schedule_parsing.py` - Python regression suite for schedule parsing, resolved JSON data, ICS recurrence, and audience detection
-- `scripts/test_web_schedule_parity.mjs` - Browser recurrence regression suite for the resolved schedule contract
+- `scripts/geocode_addresses.py` - Geocodes addresses via Nominatim, stores lat/lng in sources.yaml, validates Portland metro bounds
+
+*Validation and audit*
+- `scripts/audit_check.py` - Entries due for audit, unverified entries, statistics, `--validate`, `--workload`
+- `scripts/audit_policy.py` - Risk-based cadence policy, priority queue, and workload maths behind `--workload`
+- `scripts/audit_complete.py` - Mark entries as audited, auto-updates dates and logs
+- `scripts/validate_schedules.py` - Validates all schedule strings and `dates` values parse (run before calendar generation)
+- `scripts/check_source_urls.py` - Live source URL health check with per-host limits; separates broken links from bot-blocking
+- `scripts/analyze_data_quality.py` - Field completeness, schedule coverage, and enrichment adoption report
+- `scripts/check_all.sh` - Runs every check below, in CI's order
+
+*Tests*
+- `scripts/test_schedule_parsing.py` - Schedule parsing, resolved JSON data, ICS recurrence, determinism, audience detection
+- `scripts/test_generate_guides.py` - Guide determinism and header dating
+- `scripts/test_audit_policy.py` - Cadence policy, priority queue, and the reviewed cadence migration
+- `scripts/test_check_source_urls.py` - URL checker, with no live network
+- `scripts/test_add_update_post.py` - Updates-section posting rules
+- `scripts/test_web_schedule_parity.mjs` - Browser recurrence suite for the resolved schedule contract (`--feed` selects which feed to check)
+- `scripts/test_web_ui_contract.mjs` - Deterministic UI contract checks (palette, semantics, formatting)
+- `scripts/test_sky_effect_reduced_motion.mjs` - Reduced-motion and WebGL-fallback behaviour
+- `tests/web-ui.spec.mjs` - Playwright and axe browser suite across six viewports
+
+*Migrations (already applied; kept as a record)*
+- `scripts/migrate_audit_cadence.py` - The reviewed issue #5 cadence migration
 - `scripts/deduplicate_entries.py` - Merge duplicate entries in sources.yaml
-- `scripts/add_type_fields.py` - Migration script for adding location_type/resource_type fields
-- `scripts/add_audience_fields.py` - Migration script for adding audience tags
+- `scripts/add_type_fields.py` - Adding location_type/resource_type fields
+- `scripts/add_audience_fields.py` - Adding audience tags
+
 - `scripts/requirements.txt` - Python dependencies (pyyaml, python-dateutil)
 - `scripts/venv/` - Virtual environment
 
@@ -328,6 +352,9 @@ Never delete a closed entry; mark it, so it does not get re-researched and re-ad
 # Activate the Python environment (from project root)
 source scripts/venv/bin/activate
 
+# Run every check CI runs, in CI's order (add -- --e2e for the browser suite)
+npm run check
+
 # Check what's due for audit
 python scripts/audit_check.py
 
@@ -424,7 +451,7 @@ Calendars are hosted via GitHub Pages for public subscription access.
   - Events without audience tags always appear (open to all)
   - Screen reader announcements via aria-live region
 - Interactive map view (Leaflet.js + OpenStreetMap):
-  - Category-colored circle markers for 178 geocoded locations
+  - Category-colored circle markers for 182 geocoded locations
   - Popups with name, category, address, pricing, website link
   - Respects all active filters (category, vibe, social, audience, search)
   - Auto-fits bounds to visible markers
@@ -456,8 +483,8 @@ git push
 ```
 
 The `docs/` folder contains:
-- `index.html` - Landing page with subscription links and calendar preview (~4400 lines)
-  - Vanta.js for animated cloud background
+- `index.html` - Landing page with subscription links and calendar preview (~4750 lines)
+  - `sky-effect.js` (weather-reactive sky; loads Three.js and Vanta from CDN) for the animated cloud background
   - Open-Meteo API for weather-reactive theming
   - Key JavaScript functions:
     - `resolvedScheduleDates()` - Expands the generator's versioned `resolved_schedule` data; the browser does not parse raw schedule text
@@ -477,11 +504,35 @@ The `docs/` folder contains:
 - `folktime.png`, `2026-calendar-2.png` - Logo and header images
 
 **CI/CD (GitHub Actions):**
-- `.github/workflows/generate-calendars.yml` - Auto-generates calendars on push to main
-- Triggered by source, generator, browser calendar, schedule-test, or workflow changes
-- Steps: validate sources → validate schedules (blocks on failure) → run Python and browser recurrence tests → generate calendars → commit docs/
-- `audit_check.py --validate` exits non-zero on warnings (checks required fields, valid enums, audit_frequency, source_urls, date ranges)
-- Can also be triggered manually via `workflow_dispatch`
+
+Four workflows. Only Generate Calendars writes to the repository.
+
+- `.github/workflows/validate.yml` — **Validate.** Runs on pull requests and on pushes to
+  any branch but main. Entry schema → schedule strings → the full Python suite → calendar
+  generation into `output/` → browser schedule parity against that fresh feed →
+  deterministic UI tests. Publishes nothing. This is the same list `npm run check` runs
+  locally, so a green local run means a green PR.
+- `.github/workflows/generate-calendars.yml` — **Generate Calendars.** Push to main, plus
+  Mondays 14:00 UTC. Re-runs the checks, generates, verifies parity, regenerates the guide,
+  and commits `docs/` and `guides/` only when they changed. Rebases before pushing. A
+  failed *scheduled* run opens (or comments on) an issue, because nothing else would
+  notice that publishing had stopped.
+- `.github/workflows/test-web-ui.yml` — **Test Web UI.** Playwright and axe across six
+  viewports, plus JavaScript syntax checks, when the site or its tests change.
+- `.github/workflows/check-source-urls.yml` — **Check Source URLs.** Wednesdays, plus
+  pushes to main that touch the data. Deliberately never runs on a pull request, so a URL
+  from an untrusted branch is never fetched by a GitHub-hosted runner. The live check is
+  non-blocking; its report is a workflow summary and a 30-day artifact.
+
+`audit_check.py --validate` exits non-zero on warnings (required fields, valid enums,
+audit_frequency, source_urls, date ranges, year-suffixed keys). All four workflows can be
+triggered manually via `workflow_dispatch`.
+
+**Tests must not depend on the wall clock.** The generator drops a recurrence whose
+`schedule_end_date` has passed, so any test fixture carrying one has to pass an explicit
+`today` (see `TestRecurrenceRules.FROZEN_TODAY`). A fixture that does not will pass until
+its window closes and then fail on a calendar date rather than on a code change — which
+happened on 2026-09-01 and would have stopped the weekly publish.
 
 ## Calendar Import Instructions
 
@@ -606,8 +657,13 @@ A future iOS update (possibly iOS 26.2+) may resolve this, as the underlying Web
 
 ## Ongoing Work
 
-Check `data/queue.yaml` for pending research items and `data/audit-log.yaml` for recent changes.
+Check `data/queue.yaml` for pending research items and `data/audit-log.yaml` for recent
+changes. Open work is tracked in GitHub issues; `project-review-2026-09-02.md` and
+`orchestration-2026-09.md` at the repository root hold the current review and the plan
+being worked from it. Older reviews and hand-off notes are in `docs-archive/`.
 
 Future improvements:
-- Offline/PWA support
-- Multi-language support (Spanish UI option)
+- Offline/PWA support (issue #17)
+- Multi-language support (Spanish UI option). Note that `audience: spanish_speaking` is a
+  documented tag no entry currently uses, so the Spanish filter returns nothing even though
+  three entries record Spanish under `languages`.
