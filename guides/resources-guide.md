@@ -2,7 +2,7 @@
 
 A comprehensive guide to free and affordable activities, services, and resources in the Portland metro area, with special attention to accessibility and mental health support.
 
-*Generated from verified data on August 31, 2026. 272 active resources across 9 categories.*
+*Generated from data verified through August 13, 2026. 272 active resources across 9 categories.*
 
 ## Contents
 

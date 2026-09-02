@@ -14,10 +14,9 @@ Usage:
 import argparse
 import sys
 from collections import defaultdict
-from datetime import date
 from pathlib import Path
 
-from utils import load_sources, get_default_sources_path, format_date
+from utils import load_sources, get_default_sources_path, format_date, parse_date
 
 
 # Category display config: order, titles, and intro paragraphs
@@ -395,12 +394,22 @@ def generate_guide(entries, categories=None) -> str:
         "in the Portland metro area, with special attention to accessibility and mental health support."
     )
     lines.append("")
-    today = date.today().strftime("%B %d, %Y")
+    # Dated by the newest verification in the data, not the wall clock: a
+    # today() stamp made every scheduled CI run produce a commit, so real
+    # changes were buried among no-op regenerations.
+    rendered = [entry for cat in cats_to_generate for entry in by_category[cat]]
+    verified_dates = [
+        d for d in (parse_date(e.get("last_verified")) for e in rendered) if d
+    ]
+    verified_through = (
+        max(verified_dates).strftime("%B %d, %Y") if verified_dates
+        else "an unrecorded date"
+    )
     total_active = sum(
-        1 for e in entries if e.get("status") != "CLOSED"
+        1 for e in rendered if e.get("status") != "CLOSED"
     )
     lines.append(
-        f"*Generated from verified data on {today}. "
+        f"*Generated from data verified through {verified_through}. "
         f"{total_active} active resources across {len(cats_to_generate)} categories.*"
     )
     lines.append("")
