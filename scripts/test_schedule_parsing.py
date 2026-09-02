@@ -428,7 +428,17 @@ class TestParseDateString(unittest.TestCase):
 
 
 class TestRecurrenceRules(unittest.TestCase):
-    """DTSTART must be a real occurrence of the RRULE it carries."""
+    """DTSTART must be a real occurrence of the RRULE it carries.
+
+    Every fixture that carries a ``schedule_end_date`` builds against
+    ``FROZEN_TODAY`` rather than the wall clock. The generator drops a
+    recurrence whose window has already closed, so a fixture window dated in
+    the past would make these tests start failing on a calendar date rather
+    than on a code change -- which is what happened on 2026-09-01, when the
+    weekly publish stopped because the test suite runs before generation.
+    """
+
+    FROZEN_TODAY = date(2026, 8, 1)
 
     def build(self, schedule_str, entry=None):
         return build_recurring_event(
@@ -436,6 +446,7 @@ class TestRecurrenceRules(unittest.TestCase):
             entry=entry or {},
             summary="Test", description="d", html_desc="d", location="",
             uid="uid@test", website="", category="events", platform="google",
+            today=self.FROZEN_TODAY,
         )
 
     def rrule_of(self, vevent):
@@ -488,6 +499,19 @@ class TestRecurrenceRules(unittest.TestCase):
     def test_expired_window_produces_no_event(self):
         """A program whose end date has passed must not be published at all."""
         self.assertIsNone(self.build("Every Tuesday 6-7pm", {"schedule_end_date": "2020-03-01"}))
+
+    def test_bounded_fixtures_are_independent_of_the_wall_clock(self):
+        """A closed fixture window must still build, because today is frozen.
+
+        The UNTIL fixture above ends 2026-08-31, a date that is now in the
+        past and recedes further every day. This test fails the moment
+        ``build()`` stops passing ``FROZEN_TODAY``, which is the only reason
+        that fixture still resolves.
+        """
+        self.assertLess(date(2026, 8, 31), date.today())
+        self.assertIsNotNone(self.build("Every Tuesday 6-7pm", {
+            "schedule_start_date": "2026-07-01", "schedule_end_date": "2026-08-31",
+        }))
 
 
 class TestResolvedScheduleContract(unittest.TestCase):
