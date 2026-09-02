@@ -134,7 +134,20 @@
       "WebFetch(domain:www.hoytarboretum.org)",
       "WebFetch(domain:theoldchurch.org)",
       "WebFetch(domain:www.repairpdx.org)",
-      "WebFetch(domain:www.friendsoflonefircemetery.org)"
+      "WebFetch(domain:www.friendsoflonefircemetery.org)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git fetch:*)",
+      "Bash(git ls-remote:*)",
+      "Bash(npm run:*)",
+      "Bash(npm ci:*)",
+      "Bash(node:*)",
+      "Bash(npx playwright:*)",
+      "Bash(scripts/check_all.sh:*)",
+      "Bash(./scripts/check_all.sh:*)",
+      "Bash(grep:*)"
     ],
     "deny": [],
     "ask": []
