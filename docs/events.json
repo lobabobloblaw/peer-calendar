@@ -22848,20 +22848,7 @@
           "format": "In-person",
           "notes": "Various parks. Check website for locations.",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "TH"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-07-09",
-            "until_date": "2026-09-05",
-            "start_time": "18:30",
-            "end_time": "20:30",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "id": "free-outdoor-concerts-friday",
@@ -22870,20 +22857,7 @@
           "format": "In-person",
           "notes": "Various parks. Check website for locations.",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "FR"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-07-10",
-            "until_date": "2026-09-05",
-            "start_time": "18:30",
-            "end_time": "20:30",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Free Movies in the Park",
@@ -22891,20 +22865,7 @@
           "format": "In-person",
           "notes": "Pre-movie performances by local musicians and free popcorn. Movies start at dusk.",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "SA"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-07-11",
-            "until_date": "2026-09-05",
-            "start_time": "19:30",
-            "end_time": "22:00",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         }
       ],
       "dates": "July 9 - September 5, 2026",

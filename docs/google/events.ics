@@ -552,60 +552,6 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:2c4a4bb335ebe0af@portlandresources.org
-DTSTAMP:20260117T000000Z
-DTSTART;TZID=America/Los_Angeles:20260709T183000
-DTEND;TZID=America/Los_Angeles:20260709T203000
-SUMMARY:Portland Parks Summer Free For All: Free Outdoor Concerts
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nFormat: In-person\nIn
- fo: Various parks. Check website for locations.\nAddress: Various city par
- ks throughout Portland\nPhone: 503-823-2525\nWebsite: https://www.portland
- .gov/parks/arts-culture/summer-free-all\nDetails: Portland's flagship summ
- er program with free movies\, concerts\, and cultural events at parks city
- wide.
-LOCATION:Various city parks throughout Portland
-URL:https://www.portland.gov/parks/arts-culture/summer-free-all
-RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20260906T065959Z
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:6b7a26a9aaa1871e@portlandresources.org
-DTSTAMP:20260117T000000Z
-DTSTART;TZID=America/Los_Angeles:20260710T183000
-DTEND;TZID=America/Los_Angeles:20260710T203000
-SUMMARY:Portland Parks Summer Free For All: Free Outdoor Concerts
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nFormat: In-person\nIn
- fo: Various parks. Check website for locations.\nAddress: Various city par
- ks throughout Portland\nPhone: 503-823-2525\nWebsite: https://www.portland
- .gov/parks/arts-culture/summer-free-all\nDetails: Portland's flagship summ
- er program with free movies\, concerts\, and cultural events at parks city
- wide.
-LOCATION:Various city parks throughout Portland
-URL:https://www.portland.gov/parks/arts-culture/summer-free-all
-RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20260906T065959Z
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:8132faf5c5356489@portlandresources.org
-DTSTAMP:20260117T000000Z
-DTSTART;TZID=America/Los_Angeles:20260711T193000
-DTEND;TZID=America/Los_Angeles:20260711T220000
-SUMMARY:Portland Parks Summer Free For All: Free Movies in the Park
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nFormat: In-person\nIn
- fo: Pre-movie performances by local musicians and free popcorn. Movies sta
- rt at dusk.\nAddress: Various city parks throughout Portland\nPhone: 503-8
- 23-2525\nWebsite: https://www.portland.gov/parks/arts-culture/summer-free-
- all\nDetails: Portland's flagship summer program with free movies\, concer
- ts\, and cultural events at parks citywide.
-LOCATION:Various city parks throughout Portland
-URL:https://www.portland.gov/parks/arts-culture/summer-free-all
-RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20260906T065959Z
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:9f592c53be720466@portlandresources.org
 DTSTAMP:20260813T000000Z
 DTSTART;TZID=America/Los_Angeles:20260501T170000
