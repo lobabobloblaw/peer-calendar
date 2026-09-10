@@ -2846,7 +2846,7 @@
   latitude: 45.533868
   longitude: -122.697963
 - id: lloyd-center-walking
-  name: Food Court 5000 (Lloyd Center Mall Walking)
+  name: Food Court 5000 (Mall Walking Group)
   category: fitness_wellness
   location_type: varies
   resource_type: program
@@ -2888,8 +2888,8 @@
       in colorful 80s attire!
     registration: None - just show up
     what_to_bring: Comfortable walking shoes. 80s attire encouraged but not required (neon, leg warmers, etc.)
-    good_to_know: 1980s-themed indoor mall walking led by Vera Mysteria. 5K / 3.1 mile route (2 laps, ~90 minutes). Meet at
-      food court on 3rd floor above ice rink. Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks
+    good_to_know: 1980s-themed walking group led by Vera Mysteria that walked Lloyd Center every Sunday until the mall closed
+      on August 8, 2026. 5K / 3.1 mile route (~90 minutes). Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks
       at food court. Groups of 70+ regular attendees. Very welcoming and fun community.
   accessibility:
   - wheelchair_accessible
@@ -2902,11 +2902,10 @@
   - isolation
   - new_to_area
   - anxiety_friendly
-  notes: '1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular
-    attendees. Post-walk snacks at food court. Lloyd Center closes permanently August 8, 2026 - the last regular Sunday walk
-    inside the mall is August 2, with a final farewell walk on Saturday August 8. The group continues afterward at rotating
-    pop-up locations around Portland (some outdoors for late summer, some indoors); a permanent home is reportedly close to
-    being finalized but was not announced as of late July 2026.'
+  notes: '1980s/90s-themed walking group. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular
+    attendees. Lloyd Center closed permanently on August 8, 2026; the last regular Sunday walk inside the mall was August 2 and
+    the farewell walk was Saturday August 8. The group now walks at rotating pop-up locations around Portland (some outdoors,
+    some indoors) and has said a permanent home is in the works, but none was announced as of September 10, 2026.'
   last_verified: 2026-09-10
   next_audit: 2026-10-10
   audit_frequency: monthly
@@ -2934,8 +2933,8 @@
     first_visit: null
     registration: null
     what_to_bring: null
-    good_to_know: PROGRAM ENDED - Ran 11 seasons 2012-2022. Try Food Court 5000 (Lloyd Center), Portland Running Company,
-      or Parks Dept walking programs instead.
+    good_to_know: PROGRAM ENDED - Ran 11 seasons 2012-2022. Try Food Court 5000 (pop-up walks since Lloyd Center closed in
+      August 2026), Portland Running Company, or Parks Dept walking programs instead.
   accessibility_notes: PROGRAM ENDED - No longer operational.
   social_intensity: casual_group
   good_for:
@@ -2943,8 +2942,8 @@
   - active
   - isolation
   guide_location: activities-guide-1.md#free-running-and-walking-groups
-  notes: AARP Oregon partnership. Ran 11 seasons from 2012-2022. Consider Portland Running Company, Lloyd Center, or Parks
-    Dept programs as alternatives.
+  notes: AARP Oregon partnership. Ran 11 seasons from 2012-2022. Consider Portland Running Company, Food Court 5000 pop-up
+    walks, or Parks Dept programs as alternatives.
   flags:
   - ❌ CLOSED - Program ended after 2022 season
 - id: shift-to-bikes

@@ -2,7 +2,7 @@
 
 A comprehensive guide to free and affordable activities, services, and resources in the Portland metro area, with special attention to accessibility and mental health support.
 
-*Generated from data verified through August 13, 2026. 45 active resources across 1 categories.*
+*Generated from data verified through September 10, 2026. 45 active resources across 1 categories.*
 
 ## Contents
 
@@ -230,7 +230,7 @@ Karma Kagyu lineage of Tibetan Buddhism. Live-in center with guest room, near pu
 
 One of five PP&R community centers where TeenForce pass provides free access. Multi-visit passes work at all PP&R community centers.
 
-**What to know:** Daily admission good for entire day - swim morning, fitness class noon, spa evening
+**What to know:** Daily admission good for entire day - swim morning, fitness class noon, spa evening. The center's page lists a pool closure October 12 - November 16 and a full closure October 19-30 for annual maintenance (published as this year's dates - confirm at 503-823-3450 before visiting in October).
 
 **First visit:** Register for Access Discount online before visiting to get reduced pricing
 
@@ -302,18 +302,18 @@ Fat-positive, inclusive hiking group founded in Portland. Welcoming to all body 
 
 *Casual group · Active/physical, Outdoor, Good for isolation, Newcomer-friendly · Varies*
 
-### Food Court 5000 (Lloyd Center Mall Walking)
+### Food Court 5000 (Mall Walking Group)
 
-- **Address:** 2201 Lloyd Center, Portland, OR 97232
+- **Address:** Pop-up locations around Portland (check foodcourt5k.com); permanent home not yet announced
 - **Website:** https://foodcourt5k.com/
 - **Cost:** FREE
 - **Schedule:** Every Sunday 11am-12:30pm
 
-1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court. Lloyd Center closes permanently August 8, 2026 - the last regular Sunday walk inside the mall is August 2, with a final farewell walk on Saturday August 8. The group continues afterward at rotating pop-up locations around Portland (some outdoors for late summer, some indoors); a permanent home is reportedly close to being finalized but was not announced as of late July 2026.
+1980s/90s-themed walking group. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Lloyd Center closed permanently on August 8, 2026; the last regular Sunday walk inside the mall was August 2 and the farewell walk was Saturday August 8. The group now walks at rotating pop-up locations around Portland (some outdoors, some indoors) and has said a permanent home is in the works, but none was announced as of September 10, 2026.
 
-**What to know:** 1980s-themed indoor mall walking led by Vera Mysteria. 5K / 3.1 mile route (2 laps, ~90 minutes). Meet at food court on 3rd floor above ice rink. Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks at food court. Groups of 70+ regular attendees. Very welcoming and fun community.
+**What to know:** 1980s-themed walking group led by Vera Mysteria that walked Lloyd Center every Sunday until the mall closed on August 8, 2026. 5K / 3.1 mile route (~90 minutes). Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks at food court. Groups of 70+ regular attendees. Very welcoming and fun community.
 
-**First visit:** Meet at Lloyd Center mall entrance, Sundays at 11am. Look for the group in colorful 80s attire!
+**First visit:** The mall is gone - check foodcourt5k.com for this week's pop-up location before heading out. Look for the group in colorful 80s attire!
 
 **Registration:** None - just show up
 
@@ -350,7 +350,7 @@ Local running store offering free group runs at multiple Portland locations thro
   Taco Tuesdays - post-run social at Tacovore
 - **Wednesday Run:** NW 23rd store
 - **Thursday Run:** Foot Traffic Southeast (Sellwood), 1260 SE Lambert St
-  Free pizza on final Thursday of each month
+  ORRC-partnered run; pizza/food after the run on the first Thursday of each month. Meet 5:50pm for a 6pm start.
 
 *Casual group · Outdoor, Active/physical, Good for isolation, Newcomer-friendly · Near transit*
 
@@ -383,7 +383,7 @@ Nonprofit neighborhood center with sliding scale. Multnomah County Senior Center
 - **Elder Pride Services:** In-person
   LGBTQ+ senior services in partnership with SAGE. Dedicated line 503-224-2640.
 - **Community Nights:** Fridays 5:00-7:00pm | FREE
-  Free access to showers (6-8pm, last signup 7pm), internet center, fitness room, and classes. Open to everyone.
+  Free access to showers (6-8pm, last signup 7pm), internet center, fitness room, and classes. Open to everyone. The official site describes Friday hours as 7am-8pm, so the Community Night window may run later than 7pm - call 503-228-4391.
 
 *varies · Active/physical, Good for isolation, Indoor · For: LGBTQ+, Seniors (55+) · Wheelchair accessible, Near transit, Sliding scale*
 
@@ -823,8 +823,8 @@ Portland's original trail running group, exploring the city's best trails for ov
 
 - **Saturday Trail Run:** Saturdays 8:35am (2 hours)
   5-7 miles (3-4 mi option). Forest Park, Tryon Creek, Wildwood Trail. Coffee at trailhead after.
-- **Weeknight Trail Run:** Wednesdays 6:35pm
-  Night trails run - headlamp and reflective gear required.
+- **Weeknight Trail Run:** Occasional weeknight runs (check Meetup)
+  Weekday runs are posted on Meetup from time to time rather than every week. Night trails run - headlamp and reflective gear required.
 
 *Casual group · Outdoor, Active/physical, Good for isolation, Newcomer-friendly · Near transit*
 
@@ -832,14 +832,14 @@ Portland's original trail running group, exploring the city's best trails for ov
 
 ### Prism Moves
 
-- **Address:** 4515 NE Martin Luther King Jr Blvd, Portland, OR 97211
+- **Address:** 18 N Shaver St, Portland, OR 97227
 - **Phone:** 503-298-5636
 - **Website:** https://prismmoves.org
 - **Cost:** FREE BIPOC class weekly; sliding scale memberships available
 - **Hours:** Open gym 5am-11pm; class schedule varies (6am-7pm most days)
 - **Eligibility:** BIPOC class is for BIPOC community only; general classes open to all
 
-Inclusive nonprofit gym focused on serving women, BIPOC, LGBTQ+, trans/nonbinary, and larger-bodied individuals. Free weekly BIPOC class plus sliding scale memberships.
+Inclusive nonprofit gym focused on serving women, BIPOC, LGBTQ+, trans/nonbinary, and larger-bodied individuals. Free weekly BIPOC class plus sliding scale memberships. Moved from NE MLK Jr Blvd to 18 N Shaver St (four independent 2026 listings agree); coordinates removed until re-geocoded.
 
 **What to know:** Nonprofit inclusive strength and conditioning gym intentionally serving women, BIPOC, LGBTQ+, and larger-bodied individuals. Sliding scale makes membership affordable.
 
@@ -864,7 +864,7 @@ Inclusive nonprofit gym focused on serving women, BIPOC, LGBTQ+, trans/nonbinary
 - **Cost:** FREE for Gresham residents on specific days. Includes rental shoes; chalk sold separately
 - **Hours:** Mon/Wed/Fri/Sat 9am-9pm; Tue/Thu 6am-10pm; Sun 9am-7pm
 
-**What to know:** Three free programs for Gresham residents - 1st Friday Community Climb (5-9pm, free for SNAP/EBT or $5 suggested donation), 1st & 3rd Wednesday all-day climb (9am-9pm, free), and 1st & 3rd Saturday Teen Nights (6-9pm, ages 13-18). May ask for ID to verify residency.
+**What to know:** Three low-cost programs for Gresham residents - 1st Friday Community Climb (5-9pm, free with SNAP/EBT, otherwise $5 per person), 1st & 3rd Wednesday all-day climb (9am-9pm, free), and 1st & 3rd Saturday Teen Nights (6-9pm, ages 13-18). Photo ID with a Gresham address is required. The Wednesday and Saturday programs were not re-confirmed in September 2026 - call 503-512-5511.
 
 **First visit:** Just show up during free climb times - no reservation needed. Complete waiver online or on-site.
 
@@ -874,8 +874,8 @@ Inclusive nonprofit gym focused on serving women, BIPOC, LGBTQ+, trans/nonbinary
 
 **Programs:**
 
-- **Community Climb (Friday):** 1st Friday 5-9pm | FREE for SNAP/EBT holders, $5 suggested donation for other Gresham/Rockwood residents
-  Includes rental shoes & chalk; bring photo ID for verification
+- **Community Climb (Friday):** 1st Friday 5-9pm | FREE for Gresham residents with SNAP/EBT; $5 per person for other Gresham residents
+  Includes climbing access and rental shoes; bring photo ID with a Gresham address for verification
 - **Community Climb (Wednesday):** 1st & 3rd Wednesday 9am-9pm | FREE for Gresham residents
   Day pass includes rental shoes and chalk
 - **Teen Nights:** 1st & 3rd Saturdays 6-9pm | FREE
@@ -1074,7 +1074,7 @@ Special district serving Tigard-Tualatin area. Medicare/insurance programs may p
 
 ### Trail Sisters Portland
 
-- **Address:** Forest Park, Thurman Entrance
+- **Address:** Forest Park Thurman entrance, 4100 NW Leif Erikson Dr, Portland, OR 97210
 - **Website:** https://trailsisters.net/local-groups/portland-oregon/
 - **Cost:** FREE
 - **Eligibility:** Women-identifying, trans, and nonbinary trail runners and hikers
@@ -1180,7 +1180,7 @@ Portland's oldest sliding-scale studio since 2010. Located in historic Franz bui
 ### Permanently Closed
 
 - **Lunchtime Disc Golf Course** (closed 2021-07-01) — Permanently closed as of July 2021
-- **NeighborWalks** (closed 2022-10-01) — AARP Oregon partnership. Ran 11 seasons from 2012-2022. Consider Portland Running Company, Lloyd Center, or Parks Dept programs as alternatives.
+- **NeighborWalks** (closed 2022-10-01) — AARP Oregon partnership. Ran 11 seasons from 2012-2022. Consider Portland Running Company, Food Court 5000 pop-up walks, or Parks Dept programs as alternatives.
 
 ---
 

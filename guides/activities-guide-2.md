@@ -138,16 +138,15 @@ The Portland metro area offers exceptional u-pick opportunities, with several fa
 
 ### Mall Walking Programs
 
-**Lloyd Center Food Court 5000** is an organized Sunday walking group.
-- **Address:** 2201 Lloyd Center, Portland, OR 97232 (meet at Food Court)
-- **Schedule:** Every Sunday at 11am
-- **Distance:** 3.5 miles (two laps, 90 minutes)
+**Food Court 5000** is the 1980s-themed Sunday walking group that met at Lloyd Center until the mall closed permanently on August 8, 2026.
+- **Location:** Rotating pop-up spots around Portland; a permanent home has not been announced. Check foodcourt5k.com or email foodcourt5000@gmail.com each week.
+- **Distance:** 5K / 3.1 miles (about 90 minutes)
 - **Cost:** **FREE**
 - **Atmosphere:** 1980s-themed, all ages welcome, very social
 
 **Clackamas Town Center** opens early for walkers.
 - **Address:** 12000 SE 82nd Ave, Happy Valley, OR 97086
-- **Walking Hours:** Doors open **6am daily**
+- **Walking Hours:** Doors open **7am daily**
 - **Cost:** **FREE**
 
 **Washington Square** also accommodates early walkers.

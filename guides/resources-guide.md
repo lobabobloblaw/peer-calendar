@@ -1271,16 +1271,16 @@ Fat-positive, inclusive hiking group founded in Portland. Welcoming to all body 
 
 *Casual group · Active/physical, Outdoor, Good for isolation, Newcomer-friendly · Varies*
 
-### Food Court 5000 (Lloyd Center Mall Walking)
+### Food Court 5000 (Mall Walking Group)
 
 - **Address:** Pop-up locations around Portland (check foodcourt5k.com); permanent home not yet announced
 - **Website:** https://foodcourt5k.com/
 - **Cost:** FREE
 - **Schedule:** Every Sunday 11am-12:30pm
 
-1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court. Lloyd Center closes permanently August 8, 2026 - the last regular Sunday walk inside the mall is August 2, with a final farewell walk on Saturday August 8. The group continues afterward at rotating pop-up locations around Portland (some outdoors for late summer, some indoors); a permanent home is reportedly close to being finalized but was not announced as of late July 2026.
+1980s/90s-themed walking group. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Lloyd Center closed permanently on August 8, 2026; the last regular Sunday walk inside the mall was August 2 and the farewell walk was Saturday August 8. The group now walks at rotating pop-up locations around Portland (some outdoors, some indoors) and has said a permanent home is in the works, but none was announced as of September 10, 2026.
 
-**What to know:** 1980s-themed indoor mall walking led by Vera Mysteria. 5K / 3.1 mile route (2 laps, ~90 minutes). Meet at food court on 3rd floor above ice rink. Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks at food court. Groups of 70+ regular attendees. Very welcoming and fun community.
+**What to know:** 1980s-themed walking group led by Vera Mysteria that walked Lloyd Center every Sunday until the mall closed on August 8, 2026. 5K / 3.1 mile route (~90 minutes). Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks at food court. Groups of 70+ regular attendees. Very welcoming and fun community.
 
 **First visit:** The mall is gone - check foodcourt5k.com for this week's pop-up location before heading out. Look for the group in colorful 80s attire!
 
@@ -2149,7 +2149,7 @@ Portland's oldest sliding-scale studio since 2010. Located in historic Franz bui
 ### Permanently Closed
 
 - **Lunchtime Disc Golf Course** (closed 2021-07-01) — Permanently closed as of July 2021
-- **NeighborWalks** (closed 2022-10-01) — AARP Oregon partnership. Ran 11 seasons from 2012-2022. Consider Portland Running Company, Lloyd Center, or Parks Dept programs as alternatives.
+- **NeighborWalks** (closed 2022-10-01) — AARP Oregon partnership. Ran 11 seasons from 2012-2022. Consider Portland Running Company, Food Court 5000 pop-up walks, or Parks Dept programs as alternatives.
 
 ---
 
