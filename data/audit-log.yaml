@@ -4717,3 +4717,14 @@
     - id: hidden-creek-community-center
       status: updated
       changes: "4 offering strings converted to named programs. No schedules added."
+
+---
+- date: 2026-09-10
+  type: update
+  auditor: claude
+  summary: "Replaced the confirmed dead Arts for All source (review task T0.2)"
+  entries_audited: 1
+  updated:
+    - id: arts-for-all
+      changes:
+        - "Replaced the dead racc.org/artsforall URL with arts4allpdx.org after RACC handed the program to a community-led steering committee in August 2026; softened the venue count to 'dozens of participating organizations' and noted the Street Roots monthly Arts for All calendar"

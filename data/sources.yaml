@@ -40,23 +40,28 @@
   resource_type: service
   address: null
   phone: null
-  website: https://racc.org/artsforall
+  website: https://arts4allpdx.org/
   source_urls:
-  - https://racc.org/artsforall
+  - https://arts4allpdx.org/
+  - https://www.pcs.org/arts-for-all
+  - https://www.streetroots.org/culture/2026/09/02/september-arts-for-all-calendar/
   pricing:
-    description: $5 tickets at 100+ cultural organizations
-    notes: Present Oregon Trail Card at venue
+    description: $5 tickets at dozens of participating cultural organizations
+    notes: Present Oregon Trail Card at venue. Participation is opt-in per organization - check the current list at arts4allpdx.org
+      before you go.
   eligibility: Oregon Trail Card (SNAP/EBT) holders
-  last_verified: 2026-04-22
-  next_audit: 2027-04-22
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: annually
   practical_tips:
     first_visit: Just show your Oregon Trail Card at the ticket window - no pre-registration needed
     registration: None required - just present your EBT card at participating venues
     what_to_bring: Oregon Trail Card (SNAP/EBT) and valid ID
-    good_to_know: Works at 100+ venues including Portland Art Museum, OMSI, Oregon Zoo, Japanese Garden, Oregon Symphony,
-      Portland Opera, and theaters. Most venues allow same-day walk-up. Check individual venue hours and any timed-entry requirements.
-      Some venues may have blackout dates for special exhibitions.
+    good_to_know: Participating venues include Portland Art Museum, OMSI, Oregon Zoo, Japanese Garden, Oregon Symphony,
+      Portland Center Stage, and many theaters. Most venues allow same-day walk-up. Check individual venue hours and any timed-entry
+      requirements. Some venues may have blackout dates for special exhibitions. In August 2026 RACC handed the program to a
+      community-led steering committee of participating organizations; the old racc.org/artsforall page is gone. Street Roots
+      publishes a monthly Arts for All event calendar.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
