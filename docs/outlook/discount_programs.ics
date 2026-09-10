@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Portland Metro Resources//Calendar Generator//EN
+X-WR-CALNAME:Portland Resources - Discount Programs
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a765ab03c489889f@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261110
+SUMMARY:Oregon Zoo Discount Days & Income-Qualified Admission: Fall Discoun
+ t Days
+DESCRIPTION:Category: Discount Programs\nCost: $13 admission for everyone\n
+ Info: Half of the regular $26 adult price\; federal employees including mi
+ litary and postal workers free\, limit four\nAddress: Oregon Zoo\, 4001 SW
+  Canyon Rd\, Portland\, OR 97221\nPhone: 503-226-1561\nWebsite: https://ww
+ w.oregonzoo.org/discounts\nDetails: Standing $13 income-qualified admissio
+ n plus the annual Fall Discount Days week\, November 3-9\, 2026. The Novem
+ ber dates came from a search summary of the zoo page - confirm on oregonzo
+ o.org before promoting.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Discount Programs</p><p><strong>Cost:</strong> $13 admission for everyone</p><p>Half of the regular $26 adult price; federal employees including military and postal workers free, limit four</p><p><strong>Address:</strong> Oregon Zoo, 4001 SW Canyon Rd, Portland, OR 97221</p><p><strong>Phone:</strong> <a href="tel:503-226-1561">503-226-1561</a></p><p><strong>Website:</strong> <a href="https://www.oregonzoo.org/discounts">https://www.oregonzoo.org/discounts</a></p><p><strong>Details:</strong> Standing $13 income-qualified admission plus the annual Fall Discount Days week, November 3-9, 2026. The November dates came from a search summary of the zoo page - confirm on oregonzoo.org before promoting.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
+URL:https://www.oregonzoo.org/discounts
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

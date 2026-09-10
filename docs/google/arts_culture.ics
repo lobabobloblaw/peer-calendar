@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:65bcfcc6591abf66@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T100000
 DTEND;TZID=America/Los_Angeles:20260101T190000
 SUMMARY:Portland Art Museum: Free First Thursday
@@ -43,7 +43,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4d15400e41f273e0@portlandresources.org
-DTSTAMP:20260501T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T093000
 DTEND;TZID=America/Los_Angeles:20260104T173000
 SUMMARY:OMSI (Oregon Museum of Science and Industry): First Sunday
@@ -93,7 +93,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:75b2a7dcae90038e@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T120000
 DTEND;TZID=America/Los_Angeles:20260104T180000
 SUMMARY:Guardian Games: Might I Suggest a Game? - Board Game Open Play
@@ -109,7 +109,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c62bc17ff46d5148@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T180000
 DTEND;TZID=America/Los_Angeles:20260107T200000
 SUMMARY:NAYA (Native American Youth and Family Center): Culture Nights
@@ -125,7 +125,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e73e21017e0799ee@portlandresources.org
-DTSTAMP:20260501T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T173000
 DTEND;TZID=America/Los_Angeles:20260106T183000
 SUMMARY:Clackamas County Libraries (LINCC): Teen Advisory Group (GOAT)
@@ -142,7 +142,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b442af6056d4144d@portlandresources.org
-DTSTAMP:20260324T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260108T160000
 DTEND;TZID=America/Los_Angeles:20260108T170000
 SUMMARY:Hillsboro Public Library: Teen Game Night
@@ -157,7 +157,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3658fc1d7f9fa642@portlandresources.org
-DTSTAMP:20260324T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260113T160000
 DTEND;TZID=America/Los_Angeles:20260113T180000
 SUMMARY:Hillsboro Public Library: Craft Programs
@@ -171,7 +171,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7911bf9a58117f@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T183000
 DTEND;TZID=America/Los_Angeles:20260101T193000
 SUMMARY:MHCC Planetarium Sky Theatre: Early Planetarium Show
@@ -190,7 +190,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1e02aa101489f47a@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T200000
 DTEND;TZID=America/Los_Angeles:20260101T210000
 SUMMARY:MHCC Planetarium Sky Theatre: Late Planetarium Show
@@ -209,7 +209,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f7bf9869ba2e83a@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T120000
 DTEND;TZID=America/Los_Angeles:20260107T130000
 SUMMARY:The Old Church Concert Hall: Lunchtime Concert Series
@@ -224,9 +224,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3b3d00bc4d800c42@portlandresources.org
-DTSTAMP:20260216T000000Z
-DTSTART;TZID=America/Los_Angeles:20260222T160000
-DTEND;TZID=America/Los_Angeles:20260222T170000
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260222T170000
+DTEND;TZID=America/Los_Angeles:20260222T180000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
  s
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Four Bach cantatas 
@@ -327,7 +327,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:081b91eb97012860@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T200000
 DTEND;TZID=America/Los_Angeles:20260107T210000
 SUMMARY:Tualatin Public Library: Adult Book Discussion
@@ -344,7 +344,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:33a5a02eaf722ff1@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260114T160000
 DTEND;TZID=America/Los_Angeles:20260114T170000
 SUMMARY:Tualatin Public Library: Teen Book Chat (grades 8-12)
@@ -457,16 +457,53 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:f2af9fc66198c4ab@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20261203T183000
+DTEND;TZID=America/Los_Angeles:20261203T193000
+SUMMARY:PCC Theatre: An Evening of Shakespeare Scenes
+DESCRIPTION:Category: Arts & Culture\nCost: Ticket prices vary by section (
+ Sections A\, B\, C)\nNote: Student and senior discounts typically availabl
+ e. Tickets online or at box office (opens 1hr before curtain\, cash/check 
+ only).\nInfo: PCC Sylvania Performing Arts\; ticket details on pcc.edu/the
+ atre\nAddress: 12000 SW 49th Ave\, Portland\, OR 97219\nPhone: 971-722-484
+ 8\nWebsite: https://www.pcc.edu/theatre/\nDetails: Community college theat
+ er with professional-quality productions. Drama\, comedy\, and musicals.
+LOCATION:12000 SW 49th Ave\, Portland\, OR 97219
+URL:https://www.pcc.edu/theatre/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ed474ca226a145d0@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270308
+SUMMARY:PCC Theatre: A Midsummer Night's Dream
+DESCRIPTION:Category: Arts & Culture\nCost: Ticket prices vary by section (
+ Sections A\, B\, C)\nNote: Student and senior discounts typically availabl
+ e. Tickets online or at box office (opens 1hr before curtain\, cash/check 
+ only).\nInfo: Showtimes and pricing not yet posted\; auditions November 2-
+ 3\, 2026\nAddress: 12000 SW 49th Ave\, Portland\, OR 97219\nPhone: 971-722
+ -4848\nWebsite: https://www.pcc.edu/theatre/\nDetails: Community college t
+ heater with professional-quality productions. Drama\, comedy\, and musical
+ s.
+LOCATION:12000 SW 49th Ave\, Portland\, OR 97219
+URL:https://www.pcc.edu/theatre/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:47623ca66dc7ccac@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T140000
 DTEND;TZID=America/Los_Angeles:20260104T160000
 SUMMARY:SCRAP PDX Creative Reuse: Sunday Crafternoon
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Guided themed craft
-  projects. Materials provided. All skill levels welcome.\nAddress: 619 SE 
- 6th Ave\, Portland\, OR 97214\nPhone: 503-294-0769\nWebsite: https://portl
- and.scrapcreativereuse.org/\nDetails: Nonprofit creative reuse center with
-  free/low-cost craft events
+DESCRIPTION:Category: Arts & Culture\nCost: $10-15 online ticket plus fees\
+ nInfo: Guided themed craft projects. Materials provided. All skill levels 
+ welcome. Ticketed\, not free.\nAddress: 619 SE 6th Ave\, Portland\, OR 972
+ 14\nPhone: 503-294-0769\nWebsite: https://portland.scrapcreativereuse.org/
+ \nDetails: Nonprofit creative reuse center with free/low-cost craft events
 LOCATION:619 SE 6th Ave\, Portland\, OR 97214
 URL:https://portland.scrapcreativereuse.org/
 RRULE:FREQ=WEEKLY;BYDAY=SU
@@ -475,7 +512,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d1c182da302ffe9c@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260115T160000
 DTEND;TZID=America/Los_Angeles:20260115T180000
 SUMMARY:SCRAP PDX Creative Reuse: Drop In Studio
@@ -491,7 +528,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:018c2dbc4c1b6d6c@portlandresources.org
-DTSTAMP:20260501T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T170000
 DTEND;TZID=America/Los_Angeles:20260104T190000
 SUMMARY:Independent Publishing Resource Center (IPRC): Collage Night
@@ -508,7 +545,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a86510240984ddfd@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T183000
 DTEND;TZID=America/Los_Angeles:20260101T193000
 SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Guilder Cafe
@@ -525,7 +562,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:74df6f3fc548fb54@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260115T183000
 DTEND;TZID=America/Los_Angeles:20260115T193000
 SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Literary Arts
@@ -542,7 +579,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3283440e28606290@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260130T183000
 DTEND;TZID=America/Los_Angeles:20260130T193000
 SUMMARY:Slamlandia Poetry Open Mic: Open Mic at Flour Bloom
@@ -558,7 +595,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4f5ddbd49f0a9039@portlandresources.org
-DTSTAMP:20260501T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260125T160000
 DTEND;TZID=America/Los_Angeles:20260125T180000
 SUMMARY:The Humble Poets' Open Mic
@@ -575,7 +612,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0563adc825cb0aa6@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260214T100000
 DTEND;TZID=America/Los_Angeles:20260214T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -594,7 +631,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6f0e2bc6def72722@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260314T100000
 DTEND;TZID=America/Los_Angeles:20260314T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -613,7 +650,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3be71a6ec6a28cac@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260411T100000
 DTEND;TZID=America/Los_Angeles:20260411T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -632,7 +669,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:520296f185cd5d96@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260509T100000
 DTEND;TZID=America/Los_Angeles:20260509T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -651,7 +688,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c2e4afbf05ceed8f@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260613T100000
 DTEND;TZID=America/Los_Angeles:20260613T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -670,7 +707,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d32e053e81f15b19@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260711T100000
 DTEND;TZID=America/Los_Angeles:20260711T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -689,7 +726,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b139c00a489781b9@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T100000
 DTEND;TZID=America/Los_Angeles:20260808T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -708,7 +745,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1cad5a0e0292687b@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260912T100000
 DTEND;TZID=America/Los_Angeles:20260912T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -727,7 +764,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:df97fcec1ecd4da0@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20261010T100000
 DTEND;TZID=America/Los_Angeles:20261010T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -746,7 +783,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9f93e7744b81b1f@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20261114T100000
 DTEND;TZID=America/Los_Angeles:20261114T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -765,7 +802,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d7c4cfbb28c0d562@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20261212T100000
 DTEND;TZID=America/Los_Angeles:20261212T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -784,7 +821,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:08f87c8f17706bfb@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260207T100000
 DTEND;TZID=America/Los_Angeles:20260207T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -803,7 +840,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:89a5c07482d43ff3@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260404T100000
 DTEND;TZID=America/Los_Angeles:20260404T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -822,7 +859,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:608e99291c074b68@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260606T100000
 DTEND;TZID=America/Los_Angeles:20260606T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -841,7 +878,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:23e47de98033ad52@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260801T100000
 DTEND;TZID=America/Los_Angeles:20260801T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -860,7 +897,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b4b0729cb9f8cb30@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20261003T100000
 DTEND;TZID=America/Los_Angeles:20261003T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -879,7 +916,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2d5e6aab547c3c4c@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20261205T100000
 DTEND;TZID=America/Los_Angeles:20261205T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -898,7 +935,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1d8db4cd879ea3c2@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260307T100000
 DTEND;TZID=America/Los_Angeles:20260307T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -916,7 +953,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6379df558d3bd9bc@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260502T100000
 DTEND;TZID=America/Los_Angeles:20260502T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -934,7 +971,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bc7743c0a7fbf986@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260704T100000
 DTEND;TZID=America/Los_Angeles:20260704T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -952,7 +989,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7160c4921e2e8e5d@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260905T100000
 DTEND;TZID=America/Los_Angeles:20260905T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -970,7 +1007,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c6e7fc6acefa2605@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20261107T100000
 DTEND;TZID=America/Los_Angeles:20261107T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -988,7 +1025,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:41179eb899303506@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260124T100000
 DTEND;TZID=America/Los_Angeles:20260124T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1007,7 +1044,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e97063187e284bdc@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260228T100000
 DTEND;TZID=America/Los_Angeles:20260228T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1026,7 +1063,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5297965998432b34@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260328T100000
 DTEND;TZID=America/Los_Angeles:20260328T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1045,7 +1082,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6f757b7220991fab@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260425T100000
 DTEND;TZID=America/Los_Angeles:20260425T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1064,7 +1101,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d039051f4551428a@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260523T100000
 DTEND;TZID=America/Los_Angeles:20260523T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1083,7 +1120,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:23ba5123dad8bc7e@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260627T100000
 DTEND;TZID=America/Los_Angeles:20260627T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1102,7 +1139,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4cbaa15d2d805b00@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260725T100000
 DTEND;TZID=America/Los_Angeles:20260725T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1121,7 +1158,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1976293e0d4de57a@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260822T100000
 DTEND;TZID=America/Los_Angeles:20260822T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1140,7 +1177,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b701902d4ce9b21f@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260926T100000
 DTEND;TZID=America/Los_Angeles:20260926T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1159,7 +1196,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9f0e9fed413b871@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20261024T100000
 DTEND;TZID=America/Los_Angeles:20261024T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1178,7 +1215,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb476a9878ba238d@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20261128T100000
 DTEND;TZID=America/Los_Angeles:20261128T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1197,7 +1234,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:206b17258ef1a0a2@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20261226T100000
 DTEND;TZID=America/Los_Angeles:20261226T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1814,6 +1851,26 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Hawthorne Plaza\
 LOCATION:Hawthorne Plaza\, SE 37th Ave & SE Hawthorne Blvd\, Portland\, OR 
  97214
 URL:https://ventureportland.org/event/hawthorne-summer-concert-series/2026-07-11/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2db1062664d6bbdb@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261109
+SUMMARY:Portland Book Festival
+DESCRIPTION:Category: Arts & Culture\nCost: Youth 17 and under FREE\; Arts 
+ for All $5 tickets for Oregon Trail Card holders\; general admission charg
+ ed (2025 was $18 advance / $25 day-of)\nNote: Up to two $5 Arts for All ti
+ ckets per SNAP card through the Portland'5 Box Office (1111 SW Broadway\, 
+ Wed-Fri 12-5pm\, or 503-248-4335)\nAddress: Portland Art Museum\, 1219 SW 
+ Park Ave\, Portland\, OR 97205\nPhone: 503-248-4335\nWebsite: https://lite
+ rary-arts.org/about/programs/portland-book-festival/\nDetails: Literary Ar
+ ts' annual festival\, expanded to a week of events in 2026. Free for youth
+ \; $5 through Arts for All.
+LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR 97205
+URL:https://literary-arts.org/about/programs/portland-book-festival/
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT

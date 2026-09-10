@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:f2e8a8002b3ae77e@portlandresources.org
-DTSTAMP:20260324T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T161500
 DTEND;TZID=America/Los_Angeles:20260104T173000
 SUMMARY:Faith Café at Bethel UCC (Beaverton Free Meal): Weekly Sunday Meal
@@ -43,7 +43,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:06986a000f763b6b@portlandresources.org
-DTSTAMP:20260324T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260129T161500
 DTEND;TZID=America/Los_Angeles:20260129T173000
 SUMMARY:Faith Café at Bethel UCC (Beaverton Free Meal): Monthly Thursday Me
@@ -62,7 +62,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:63ba5f7f93d4a09e@portlandresources.org
-DTSTAMP:20260324T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T150000
 DTEND;TZID=America/Los_Angeles:20260104T160000
 SUMMARY:Potluck in the Park
@@ -201,7 +201,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6e4cfdfcf86d5067@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260502T093000
 DTEND;TZID=America/Los_Angeles:20260502T123000
 SUMMARY:Community Farm at Lynwood Friends Church: Drop-In Farming
@@ -220,7 +220,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e5557256b5233151@portlandresources.org
-DTSTAMP:20260501T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260404T080000
 DTEND;TZID=America/Los_Angeles:20260404T130000
 SUMMARY:Hollywood Farmers Market
@@ -235,6 +235,89 @@ X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:NE Hancock St between NE 44th & NE 45th Ave\, Portland\, OR 97213
 URL:https://www.hollywoodfarmersmarket.org
 RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20261129T075959Z
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f27b3bf690a597ac@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260404T083000
+DTEND;TZID=America/Los_Angeles:20260404T140000
+SUMMARY:Portland Farmers Market at PSU: Saturday Market (April-October)
+DESCRIPTION:Category: Food & Farms\nCost: FREE\nAddress: South Park Blocks\
+ , SW Park Ave & SW Montgomery St\, Portland\, OR 97201\nWebsite: https://w
+ ww.portlandfarmersmarket.org/our-markets/psu/\nDetails: Year-round Saturda
+ y market on the PSU campus with full SNAP/EBT support and Double Up Food B
+ ucks matching. Phone not published on the market page. Coordinates approxi
+ mate - re-run geocode_addresses.py.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> South Park Blocks, SW Park Ave &amp; SW Montgomery St, Portland, OR 97201</p><p><strong>Website:</strong> <a href="https://www.portlandfarmersmarket.org/our-markets/psu/">https://www.portlandfarmersmarket.org/our-markets/psu/</a></p><p><strong>Details:</strong> Year-round Saturday market on the PSU campus with full SNAP/EBT support and Double Up Food Bucks matching. Phone not published on the market page. Coordinates approximate - re-run geocode_addresses.py.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:South Park Blocks\, SW Park Ave & SW Montgomery St\, Portland\, OR
+  97201
+URL:https://www.portlandfarmersmarket.org/our-markets/psu/
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20261101T065959Z
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0b4dd8cc1ac585cc@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20261107T090000
+DTEND;TZID=America/Los_Angeles:20261107T140000
+SUMMARY:Portland Farmers Market at PSU: Saturday Market (November-March)
+DESCRIPTION:Category: Food & Farms\nCost: FREE\nAddress: South Park Blocks\
+ , SW Park Ave & SW Montgomery St\, Portland\, OR 97201\nWebsite: https://w
+ ww.portlandfarmersmarket.org/our-markets/psu/\nDetails: Year-round Saturda
+ y market on the PSU campus with full SNAP/EBT support and Double Up Food B
+ ucks matching. Phone not published on the market page. Coordinates approxi
+ mate - re-run geocode_addresses.py.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> South Park Blocks, SW Park Ave &amp; SW Montgomery St, Portland, OR 97201</p><p><strong>Website:</strong> <a href="https://www.portlandfarmersmarket.org/our-markets/psu/">https://www.portlandfarmersmarket.org/our-markets/psu/</a></p><p><strong>Details:</strong> Year-round Saturday market on the PSU campus with full SNAP/EBT support and Double Up Food Bucks matching. Phone not published on the market page. Coordinates approximate - re-run geocode_addresses.py.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:South Park Blocks\, SW Park Ave & SW Montgomery St\, Portland\, OR
+  97201
+URL:https://www.portlandfarmersmarket.org/our-markets/psu/
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20270328T065959Z
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c3d41a3787cc7cfb@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T183000
+DTEND;TZID=America/Los_Angeles:20260102T193000
+SUMMARY:St. Andre Bessette Church Hospitality Meals: Friday Evening Hospita
+ lity Meal
+DESCRIPTION:Category: Food & Farms\nCost: FREE\nInfo: Hot meal and beverage
+  handed out at the church on W Burnside\nAddress: 601 W Burnside St\, Port
+ land\, OR 97209\nPhone: 503-228-0746\nWebsite: https://saintandrebessettep
+ dx.org/\nDetails: Catholic parish in Old Town serving sack lunches Tue-Thu
+  mornings and a hot Friday dinner. Open to anyone in need.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE</p><p>Hot meal and beverage handed out at the church on W Burnside</p><p><strong>Address:</strong> 601 W Burnside St, Portland, OR 97209</p><p><strong>Phone:</strong> <a href="tel:503-228-0746">503-228-0746</a></p><p><strong>Website:</strong> <a href="https://saintandrebessettepdx.org/">https://saintandrebessettepdx.org/</a></p><p><strong>Details:</strong> Catholic parish in Old Town serving sack lunches Tue-Thu mornings and a hot Friday dinner. Open to anyone in need.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:601 W Burnside St\, Portland\, OR 97209
+URL:https://saintandrebessettepdx.org/
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9cd342311fbe0ff8@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T170000
+DTEND;TZID=America/Los_Angeles:20260106T190000
+SUMMARY:Salvation Army Moore Street Corps (Tuesday Dinner & Food Pantry): T
+ uesday Family Night Dinner
+DESCRIPTION:Category: Food & Farms\nCost: FREE\nInfo: Free dinner served al
+ ongside a Bible study and youth group - a religious program accompanies th
+ e meal\nAddress: 5325 N Williams Ave\, Portland\, OR 97217\nPhone: 971-340
+ -4010\nWebsite: https://moorestreet.salvationarmy.org/\nDetails: North Por
+ tland Salvation Army corps with a twice-weekly pantry and a free Tuesday e
+ vening dinner.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE</p><p>Free dinner served alongside a Bible study and youth group - a religious program accompanies the meal</p><p><strong>Address:</strong> 5325 N Williams Ave, Portland, OR 97217</p><p><strong>Phone:</strong> <a href="tel:971-340-4010">971-340-4010</a></p><p><strong>Website:</strong> <a href="https://moorestreet.salvationarmy.org/">https://moorestreet.salvationarmy.org/</a></p><p><strong>Details:</strong> North Portland Salvation Army corps with a twice-weekly pantry and a free Tuesday evening dinner.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:5325 N Williams Ave\, Portland\, OR 97217
+URL:https://moorestreet.salvationarmy.org/
+RRULE:FREQ=WEEKLY;BYDAY=TU
 CATEGORIES:Food & Farms
 TRANSP:TRANSPARENT
 END:VEVENT

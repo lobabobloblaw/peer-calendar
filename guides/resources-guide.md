@@ -2,18 +2,18 @@
 
 A comprehensive guide to free and affordable activities, services, and resources in the Portland metro area, with special attention to accessibility and mental health support.
 
-*Generated from data verified through August 13, 2026. 272 active resources across 9 categories.*
+*Generated from data verified through September 10, 2026. 280 active resources across 9 categories.*
 
 ## Contents
 
 - [Peer Support: Mental Health & Recovery](#peer-support-mental-health-recovery) (32 resources)
 - [Fitness & Wellness: Accessible Programs for All Abilities](#fitness-wellness-accessible-programs-for-all-abilities) (45 resources)
 - [Parks & Nature: Free Outdoor Spaces](#parks-nature-free-outdoor-spaces) (21 resources)
-- [Arts & Culture: Museums, Galleries, and Performances](#arts-culture-museums-galleries-and-performances) (43 resources)
-- [Food & Farms: Community Meals, U-Pick, and Markets](#food-farms-community-meals-u-pick-and-markets) (41 resources)
-- [Events & Festivals: Free Community Celebrations](#events-festivals-free-community-celebrations) (44 resources)
+- [Arts & Culture: Museums, Galleries, and Performances](#arts-culture-museums-galleries-and-performances) (44 resources)
+- [Food & Farms: Community Meals, U-Pick, and Markets](#food-farms-community-meals-u-pick-and-markets) (45 resources)
+- [Events & Festivals: Free Community Celebrations](#events-festivals-free-community-celebrations) (46 resources)
 - [Social Activities: Connection and Community](#social-activities-connection-and-community) (21 resources)
-- [Discount Programs: Maximize Your Access](#discount-programs-maximize-your-access) (18 resources)
+- [Discount Programs: Maximize Your Access](#discount-programs-maximize-your-access) (19 resources)
 - [Transportation: Getting Around Portland](#transportation-getting-around-portland) (7 resources)
 
 ---
@@ -211,18 +211,18 @@ Pets allowed; no ID, sobriety, or cleanliness required. Managed by The Peer Comp
 
 ### Bridges to Change - Club Hope
 
-- **Address:** 100 SE Cleveland Ave, Gresham, OR 97030
+- **Address:** 100 SE Cleveland St, Gresham, OR 97030
 - **Phone:** 503-465-2749
 - **Website:** https://www.bridgestochange.com
 - **Cost:** FREE
-- **Hours:** Mon-Fri 9am-9pm, Sat 12pm-8pm
+- **Hours:** Mon-Fri 8am-5pm (showers/laundry Mon-Fri 10am-3pm)
 - **Eligibility:** Anyone seeking recovery support
 
 Peer-run recovery center in Gresham. Staff have lived experience in recovery. Also provides housing, mobile outreach (MBHT), and shower/laundry services.
 
 **What to know:** Staff have lived experience in recovery. Also operates housing programs and Mobile Behavioral Health Team (MBHT). Located in Gresham, serving East Portland and East County. DDA meeting Tuesdays — ⚠️ VERIFY schedule by phone. ⚠️ Phone may have changed to 503-933-2440 (per 211info); stored 503-465-2749 not found on website. Also opened Rockwood Drop-in Resource Center (Sept 2025).
 
-**First visit:** Drop-in anytime during open hours - no appointment needed
+**First visit:** Drop in weekdays 8am-5pm - no appointment needed. The earlier 9am-9pm and Saturday hours belonged to the old SE Stark St location.
 
 **Registration:** None required
 
@@ -606,16 +606,25 @@ Washington County chapter of NAMI. Provides education, support, and advocacy for
 
 **What to know:** Part of the national NAMI network. Partners with MHAAO for PeerZone workshops. Serves all of Washington County.
 
-**First visit:** Check website or call for current meeting schedule
+**First visit:** Topic-specific Connection groups meet weekly at the Aloha office; confirm the day's group at washconami.org/support-groups or 503-356-6835 before a first visit
 
-**Registration:** Registration may be required for some groups
+**Registration:** Registration may be required for some groups; the Men's Zoom group needs a link from the website
 
 **What to bring:** Nothing required - just yourself
 
 **Programs:**
 
-- **NAMI Connection Recovery Support Group:** Contact for current schedule | In-person and Virtual
-  Peer-led support groups for adults living with mental health conditions
+- **Anxiety Connection Support Group:** Every Tuesday 1-2:30pm | In-person
+  Peer-led NAMI Connection group for adults living with anxiety
+- **Women's Connection Support Group:** Every Wednesday 2-3:30pm | In-person
+  Peer-led NAMI Connection group for women living with mental health conditions
+  *For: Women*
+- **Depression/Bipolar Connection Support Group:** Every Saturday 12-1:30pm | In-person
+  Peer-led NAMI Connection group for adults living with depression or bipolar disorder
+- **Schizophrenia Connection Support Group:** Every Monday 2-3pm | In-person
+  Peer-led NAMI Connection group for adults living with schizophrenia or psychosis
+- **Men's Support Group:** Every Thursday 2-3pm | Virtual (Zoom)
+  Peer-led group for men living with mental health conditions; register on washconami.org for the Zoom link
 - **NAMI Family Support Group:** Contact for current schedule | In-person and Virtual
   Support groups for family members and caregivers
 
@@ -683,9 +692,9 @@ Comprehensive Oregon peer support portal - find virtual and in-person groups
 - **Phone:** 503-232-7676
 - **Website:** https://pflagpdx.org
 - **Cost:** FREE
-- **Schedule:** Twice monthly (contact for current dates)
+- **Schedule:** 4th Saturday 10am-12pm
 
-Peer-to-peer support for LGBTQ+ people, their parents, families, and allies. In-person meetings are walk-in; online circles require registration. Helpline available. Does not publish a fixed recurring schedule - contact them for current meeting dates. Active 501(c)(3), EIN 93-0848543.
+Peer-to-peer support for LGBTQ+ people, their parents, families, and allies. In-person meetings are walk-in; online circles require registration. The helpline is a 24-48 hour callback, not a live line. In-person meetings are the 4th Saturday of the month. Active 501(c)(3), EIN 93-0848543.
 
 **What to know:** One of the oldest PFLAG chapters in the country (since 1982). Support for LGBTQ+ people AND their parents, families, and allies. Also offers private one-on-one support circles on request.
 
@@ -693,31 +702,40 @@ Peer-to-peer support for LGBTQ+ people, their parents, families, and allies. In-
 
 **Programs:**
 
-- **In-Person Chapter Meetings:** Walk-in, no registration needed
-  Held every other month (~6 per year). Includes announcements, guest speakers, socializing, and support groups. Meeting at a faith community center (free of religious iconography).
+- **In-Person Chapter Meetings:** 4th Saturday 10am-12pm | Walk-in, no registration needed
+  Monthly support circle with announcements, guest speakers, and socializing. Meeting at a faith community center (free of religious iconography) - call or email for the address.
+- **Trans Support Circle:** 4th Saturday 12-1pm | Walk-in, no registration needed
+  Follows the chapter meeting at the same location
+  *For: Trans/nonbinary*
 - **Online Support Circles:** Virtual, registration required
   Visit the Online Support Circle Guide on the PFLAG website to register.
 - **Helpline**
   For non-urgent information and private requests. A volunteer will respond within 24-48 hours.
 - **Transgender Student Scholarship**
-  $1,000 scholarship for transgender students headed to college. Apply by 3/31/26.
+  $1,000 scholarship for transgender students headed to college. Applications have been due March 31 each year.
 
 *Structured group · Good for isolation, Newcomer-friendly, Indoor · For: LGBTQ+*
 
 ### Plates for the People (at Alano Club)
 
-- **Address:** 909 NW 24th Ave, Portland, OR 97210 (Alano Club)
+- **Address:** Cookshop at the Alano Club, 909 NW 24th Ave, Portland, OR 97210
 - **Phone:** (503) 222-5756
 - **Website:** https://www.portlandalano.org/plates-for-the-people
-- **Cost:** FREE
-- **Schedule:** Monthly (dates vary, check Eventbrite for registration)
+- **Cost:** FREE (free Eventbrite ticket required)
+- **Schedule:** One Tuesday evening a month, May-October 2026 (see dates; free Eventbrite ticket)
 
 Free cooking classes for people in or seeking recovery. Led by award-winning chefs who share their own recovery stories. Learn budgeting, meal planning, and cooking. Each class ends with a shared meal. Partnership between Alano Club and Ben's Friends.
+
+**Programs:**
+
+- **Plates for the People 2026 cooking class:** 5:30-6:30pm
+  Confirmed 2026 dates from Eventbrite; the June and September dates were not captured - check Eventbrite. Classes have run longer in past years when a shared meal followed.
 
 *Structured group · Good for isolation, Newcomer-friendly, Indoor, Creative · Near transit*
 
 ### Portland Area Intergroup of Alcoholics Anonymous
 
+- **Address:** 825 NE 20th Ave, Suite 200, Portland, OR 97232
 - **Phone:** 503-223-8569
 - **Website:** https://www.pdxaa.org/
 - **Cost:** FREE
@@ -790,11 +808,11 @@ Open to anyone grieving the death of a significant person. Services are free and
 - **Phone:** 503-234-7837
 - **Website:** https://www.pdxqcenter.org/
 - **Cost:** FREE (most programs)
-- **Hours:** Wed-Fri 10am-5pm, Sat 12pm-8pm, Sun-Tue closed. Hand Up Pantry: Mon-Tue 12pm-4pm.
+- **Hours:** Wed-Fri 10am-5pm (Saturday hours and Hand Up Pantry days not confirmed - call 503-234-7837)
 
 Portland's LGBTQ+ community center. Safe space with multi-generational programs. Many support groups and weekly events.
 
-**What to know:** Portland's LGBTQ+ community hub. Trans support, mental health groups, QTIBIPOC space. Safe and welcoming.
+**What to know:** Portland's LGBTQ+ community hub. Trans support, 12-step, Late Bloomers, and QTBIPOC groups meet in person here. NAMI Multnomah's LGBTQ2SIA+ peer group no longer meets at Q Center (see the NAMI Multnomah entry). Safe and welcoming.
 
 **First visit:** Check website for current group schedule and drop in
 
@@ -805,11 +823,9 @@ Portland's LGBTQ+ community center. Safe space with multi-generational programs.
 **Programs:**
 
 - **Trans PDX Support Group:** 1st Saturday 10am-12pm in-person; Tuesdays 6pm virtual (Discord) | FREE
-  For trans, nonbinary, agender, gender-fabulous folks
-- **LGBTQIA2S+ Mental Health Support:** Mondays 7-8:30pm (virtual; 1st & 3rd Mondays hybrid at Q Center) | FREE
-  Peer-led for anxiety, depression, bipolar, PTSD
+  For trans, nonbinary, agender, gender-fabulous folks. Masks required at in-person meetings.
 - **QTIBIPOC Community Space:** 2nd & 4th Wednesdays 7-9pm | FREE
-  For queer, trans, intersex BIPOC community members
+  For queer, trans, intersex BIPOC community members. Q Center still lists QTBIPOC support in 2026 but publishes no day/time online - confirm the schedule by phone before attending.
 
 *Casual group · Anxiety-friendly, Good for isolation, Indoor, Newcomer-friendly · For: LGBTQ+, Trans/nonbinary · Wheelchair accessible, Near transit*
 
@@ -820,7 +836,7 @@ Portland's LGBTQ+ community center. Safe space with multi-generational programs.
 
 30+ weekly meetings across Portland. Buddhist-based recovery using mindfulness and loving-kindness - alternative to 12-step programs.
 
-**What to know:** Buddhist-based but non-religious. 30+ meetings weekly. Specialty groups for LGBTQIA+, women/trans/NB. Alternative to 12-step.
+**What to know:** Buddhist-based but non-religious. About 24 active meetings weekly. Specialty groups for LGBTQIA+, women/trans/NB. Alternative to 12-step. The Dharma Rain Monday meeting skips September 14 and December 7, 2026 for temple retreats.
 
 **First visit:** Just show up to any meeting - all welcome beginners
 
@@ -848,12 +864,12 @@ Portland's LGBTQ+ community center. Safe space with multi-generational programs.
 
 ### Returning Veterans Project
 
-- **Phone:** 503-954-2094
+- **Phone:** 503-954-2259
 - **Website:** https://returningveterans.org
 - **Cost:** FREE - no fees, no insurance verification, no VA referral needed
 - **Eligibility:** Post-9/11 veterans, active duty service members, and their families in Oregon and SW Washington
 
-Comprehensive free health services for post-9/11 veterans, service members, and families through ~200 volunteer providers. Services include counseling, acupuncture, chiropractic, massage, art therapy, equine therapy, float therapy, forest therapy, and more. Distinct from VA services - no enrollment or referral needed.
+Comprehensive free health services for post-9/11 veterans, service members, and families through ~200 volunteer providers. Services include counseling, acupuncture, chiropractic, massage, art therapy, equine therapy, float therapy, forest therapy, and more. Distinct from VA services - no enrollment or referral needed. 503-954-2259 is the number on the official site in September 2026; the previously listed 503-954-2094 no longer appears anywhere.
 
 **What to know:** Nearly 200 volunteer health providers across Oregon and SW Washington. Completely free and confidential. No insurance needed. Serves post-9/11 veterans, service members, AND their families.
 
@@ -902,7 +918,7 @@ LGBTQ+ youth drop-in center (ages 13-24). Free resources including food, clothin
 
 **What to know:** Since 1998 — one of the longest-running LGBTQ+ youth centers in the US. Free food, clothing, hygiene supplies, gender-affirming garments. No judgment, no questions.
 
-**First visit:** Just drop in during open hours. Safe, harassment-free space.
+**First visit:** Just drop in during open hours; the entrance is on the lower level of 1220 SW Columbia. Safe, harassment-free space.
 
 *Drop-in (come and go freely) · Anxiety-friendly, Good for isolation, Indoor, Newcomer-friendly · For: LGBTQ+, Teens (13-17), Young adults (18-35) · Wheelchair accessible, Near transit*
 
@@ -939,16 +955,16 @@ Pioneering peer grief support model since 1982. World-renowned programs. Also of
 
 ### The Peer Company (formerly MHAAO)
 
-- **Address:** 2740 SE Powell Blvd Suite 3, Portland, OR 97202
+- **Address:** 8935 SE Powell Blvd, Portland, OR 97266
 - **Phone:** 503-922-2377
-- **Website:** https://www.mhaoforegon.org/
+- **Website:** https://thepeercompany.org/
 - **Cost:** FREE
 
-Rebranded from MHAAO September 2025. Free peer support services throughout Portland metro. Walk-in locations available.
+Rebranded from MHAAO September 2025; the website is now thepeercompany.org. Free peer support services throughout Portland metro. The public site is the Recovery Campus in Lents; 2740 SE Powell Suite 3 is a mailing address only.
 
 **What to know:** Free peer support for both mental health AND substance use. Also offers peer specialist training programs.
 
-**First visit:** Walk in to Recovery Campus (SE Powell) or CATT (Hillsboro) during business hours
+**First visit:** Walk in to the Recovery Campus at 8935 SE Powell Blvd during business hours. Call before referring someone to CATT in Hillsboro - its walk-in hours were not confirmed in September 2026.
 
 **Registration:** No appointment needed for walk-in support
 
@@ -1183,7 +1199,7 @@ Karma Kagyu lineage of Tibetan Buddhism. Live-in center with guest room, near pu
 
 One of five PP&R community centers where TeenForce pass provides free access. Multi-visit passes work at all PP&R community centers.
 
-**What to know:** Daily admission good for entire day - swim morning, fitness class noon, spa evening
+**What to know:** Daily admission good for entire day - swim morning, fitness class noon, spa evening. The center's page lists a pool closure October 12 - November 16 and a full closure October 19-30 for annual maintenance (published as this year's dates - confirm at 503-823-3450 before visiting in October).
 
 **First visit:** Register for Access Discount online before visiting to get reduced pricing
 
@@ -1257,7 +1273,7 @@ Fat-positive, inclusive hiking group founded in Portland. Welcoming to all body 
 
 ### Food Court 5000 (Lloyd Center Mall Walking)
 
-- **Address:** 2201 Lloyd Center, Portland, OR 97232
+- **Address:** Pop-up locations around Portland (check foodcourt5k.com); permanent home not yet announced
 - **Website:** https://foodcourt5k.com/
 - **Cost:** FREE
 - **Schedule:** Every Sunday 11am-12:30pm
@@ -1266,7 +1282,7 @@ Fat-positive, inclusive hiking group founded in Portland. Welcoming to all body 
 
 **What to know:** 1980s-themed indoor mall walking led by Vera Mysteria. 5K / 3.1 mile route (2 laps, ~90 minutes). Meet at food court on 3rd floor above ice rink. Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks at food court. Groups of 70+ regular attendees. Very welcoming and fun community.
 
-**First visit:** Meet at Lloyd Center mall entrance, Sundays at 11am. Look for the group in colorful 80s attire!
+**First visit:** The mall is gone - check foodcourt5k.com for this week's pop-up location before heading out. Look for the group in colorful 80s attire!
 
 **Registration:** None - just show up
 
@@ -1303,7 +1319,7 @@ Local running store offering free group runs at multiple Portland locations thro
   Taco Tuesdays - post-run social at Tacovore
 - **Wednesday Run:** NW 23rd store
 - **Thursday Run:** Foot Traffic Southeast (Sellwood), 1260 SE Lambert St
-  Free pizza on final Thursday of each month
+  ORRC-partnered run; pizza/food after the run on the first Thursday of each month. Meet 5:50pm for a 6pm start.
 
 *Casual group · Outdoor, Active/physical, Good for isolation, Newcomer-friendly · Near transit*
 
@@ -1336,7 +1352,7 @@ Nonprofit neighborhood center with sliding scale. Multnomah County Senior Center
 - **Elder Pride Services:** In-person
   LGBTQ+ senior services in partnership with SAGE. Dedicated line 503-224-2640.
 - **Community Nights:** Fridays 5:00-7:00pm | FREE
-  Free access to showers (6-8pm, last signup 7pm), internet center, fitness room, and classes. Open to everyone.
+  Free access to showers (6-8pm, last signup 7pm), internet center, fitness room, and classes. Open to everyone. The official site describes Friday hours as 7am-8pm, so the Community Night window may run later than 7pm - call 503-228-4391.
 
 *varies · Active/physical, Good for isolation, Indoor · For: LGBTQ+, Seniors (55+) · Wheelchair accessible, Near transit, Sliding scale*
 
@@ -1776,8 +1792,8 @@ Portland's original trail running group, exploring the city's best trails for ov
 
 - **Saturday Trail Run:** Saturdays 8:35am (2 hours)
   5-7 miles (3-4 mi option). Forest Park, Tryon Creek, Wildwood Trail. Coffee at trailhead after.
-- **Weeknight Trail Run:** Wednesdays 6:35pm
-  Night trails run - headlamp and reflective gear required.
+- **Weeknight Trail Run:** Occasional weeknight runs (check Meetup)
+  Weekday runs are posted on Meetup from time to time rather than every week. Night trails run - headlamp and reflective gear required.
 
 *Casual group · Outdoor, Active/physical, Good for isolation, Newcomer-friendly · Near transit*
 
@@ -1785,14 +1801,14 @@ Portland's original trail running group, exploring the city's best trails for ov
 
 ### Prism Moves
 
-- **Address:** 4515 NE Martin Luther King Jr Blvd, Portland, OR 97211
+- **Address:** 18 N Shaver St, Portland, OR 97227
 - **Phone:** 503-298-5636
 - **Website:** https://prismmoves.org
 - **Cost:** FREE BIPOC class weekly; sliding scale memberships available
 - **Hours:** Open gym 5am-11pm; class schedule varies (6am-7pm most days)
 - **Eligibility:** BIPOC class is for BIPOC community only; general classes open to all
 
-Inclusive nonprofit gym focused on serving women, BIPOC, LGBTQ+, trans/nonbinary, and larger-bodied individuals. Free weekly BIPOC class plus sliding scale memberships.
+Inclusive nonprofit gym focused on serving women, BIPOC, LGBTQ+, trans/nonbinary, and larger-bodied individuals. Free weekly BIPOC class plus sliding scale memberships. Moved from NE MLK Jr Blvd to 18 N Shaver St (four independent 2026 listings agree); coordinates removed until re-geocoded.
 
 **What to know:** Nonprofit inclusive strength and conditioning gym intentionally serving women, BIPOC, LGBTQ+, and larger-bodied individuals. Sliding scale makes membership affordable.
 
@@ -1817,7 +1833,7 @@ Inclusive nonprofit gym focused on serving women, BIPOC, LGBTQ+, trans/nonbinary
 - **Cost:** FREE for Gresham residents on specific days. Includes rental shoes; chalk sold separately
 - **Hours:** Mon/Wed/Fri/Sat 9am-9pm; Tue/Thu 6am-10pm; Sun 9am-7pm
 
-**What to know:** Three free programs for Gresham residents - 1st Friday Community Climb (5-9pm, free for SNAP/EBT or $5 suggested donation), 1st & 3rd Wednesday all-day climb (9am-9pm, free), and 1st & 3rd Saturday Teen Nights (6-9pm, ages 13-18). May ask for ID to verify residency.
+**What to know:** Three low-cost programs for Gresham residents - 1st Friday Community Climb (5-9pm, free with SNAP/EBT, otherwise $5 per person), 1st & 3rd Wednesday all-day climb (9am-9pm, free), and 1st & 3rd Saturday Teen Nights (6-9pm, ages 13-18). Photo ID with a Gresham address is required. The Wednesday and Saturday programs were not re-confirmed in September 2026 - call 503-512-5511.
 
 **First visit:** Just show up during free climb times - no reservation needed. Complete waiver online or on-site.
 
@@ -1827,8 +1843,8 @@ Inclusive nonprofit gym focused on serving women, BIPOC, LGBTQ+, trans/nonbinary
 
 **Programs:**
 
-- **Community Climb (Friday):** 1st Friday 5-9pm | FREE for SNAP/EBT holders, $5 suggested donation for other Gresham/Rockwood residents
-  Includes rental shoes & chalk; bring photo ID for verification
+- **Community Climb (Friday):** 1st Friday 5-9pm | FREE for Gresham residents with SNAP/EBT; $5 per person for other Gresham residents
+  Includes climbing access and rental shoes; bring photo ID with a Gresham address for verification
 - **Community Climb (Wednesday):** 1st & 3rd Wednesday 9am-9pm | FREE for Gresham residents
   Day pass includes rental shoes and chalk
 - **Teen Nights:** 1st & 3rd Saturdays 6-9pm | FREE
@@ -2027,7 +2043,7 @@ Special district serving Tigard-Tualatin area. Medicare/insurance programs may p
 
 ### Trail Sisters Portland
 
-- **Address:** Forest Park, Thurman Entrance
+- **Address:** Forest Park Thurman entrance, 4100 NW Leif Erikson Dr, Portland, OR 97210
 - **Website:** https://trailsisters.net/local-groups/portland-oregon/
 - **Cost:** FREE
 - **Eligibility:** Women-identifying, trans, and nonbinary trail runners and hikers
@@ -3036,9 +3052,9 @@ Free gallery in East County featuring diverse contemporary and traditional art. 
 
 ### Oregon City Public Library
 
-- **Address:** 362 Warner Milne Rd, Oregon City, OR 97045
+- **Address:** 606 John Adams St, Oregon City, OR 97045
 - **Phone:** 503-657-8269
-- **Website:** https://www.orcity.org/library
+- **Website:** https://orcity.org/159/Library
 - **Cost:** FREE (all programs)
 - **Hours:** Mon-Fri 10am-6:30pm, Sat 10am-6pm, Sun 10am-5pm
 
@@ -3182,6 +3198,13 @@ Community college theater with professional-quality productions. Drama, comedy, 
 
 **First visit:** Purchase tickets in advance online or at the door
 
+**Programs:**
+
+- **An Evening of Shakespeare Scenes:** 6:30pm
+  PCC Sylvania Performing Arts; ticket details on pcc.edu/theatre
+- **A Midsummer Night's Dream**
+  Showtimes and pricing not yet posted; auditions November 2-3, 2026
+
 *Do alone · Anxiety-friendly, Indoor, Creative · Wheelchair accessible*
 
 ### Portland Art Museum
@@ -3202,6 +3225,29 @@ Community college theater with professional-quality productions. Drama, comedy, 
 *Do alone · Indoor, Anxiety-friendly, Creative, Low energy · Wheelchair accessible, Near transit, Elevator, ASL available, Gender-neutral restroom, Low-vision friendly*
 
 **Accessibility:** Free wheelchairs available (8 sizes). FM assistive listening devices free. EnChroma glasses for colorblindness. All-gender restrooms. Accessibility line: 503-276-4284. Videophone for Deaf visitors: 503-420-3169.
+
+### Portland Book Festival
+
+- **Address:** Portland Art Museum, 1219 SW Park Ave, Portland, OR 97205
+- **Phone:** 503-248-4335
+- **Website:** https://literary-arts.org/about/programs/portland-book-festival/
+- **Cost:** Youth 17 and under FREE; Arts for All $5 tickets for Oregon Trail Card holders; general admission charged (2025 was $18 advance / $25 day-of). Up to two $5 Arts for All tickets per SNAP card through the Portland'5 Box Office (1111 SW Broadway, Wed-Fri 12-5pm, or 503-248-4335)
+- **Hours:** Main festival day Saturday, November 7, 2026; smaller satellite events during the week
+- **Dates:** November 2-8, 2026
+
+Literary Arts' annual festival, expanded to a week of events in 2026. Free for youth; $5 through Arts for All.
+
+**What to know:** The Saturday main day is very crowded; the weeknight satellite events added in 2026 are much smaller and calmer. The 2026 general-admission price was not yet posted in September 2026.
+
+**First visit:** Buy Arts for All tickets ahead through the Portland'5 Box Office and bring your Oregon Trail Card to wristband pickup
+
+**Registration:** Tickets required for most sessions; the 2025 main day sold out in advance
+
+**What to bring:** Oregon Trail Card and ID if using Arts for All
+
+*Drop-in (come and go freely) · Indoor, Creative, Good for isolation, Newcomer-friendly · Wheelchair accessible, Near transit*
+
+**Accessibility:** Portland Art Museum and the South Park Blocks venues are wheelchair accessible; MAX, streetcar, and bus to downtown.
 
 ### Rockwood Library
 
@@ -3243,17 +3289,17 @@ Part of Multnomah County Library system. Recently renovated with makerspace feat
 - **Address:** 619 SE 6th Ave, Portland, OR 97214
 - **Phone:** 503-294-0769
 - **Website:** https://portland.scrapcreativereuse.org/
-- **Cost:** FREE-$7 depending on event
+- **Cost:** FREE-$15 depending on event
 - **Hours:** 7 days a week 11am-7pm
 
 Nonprofit creative reuse center with free/low-cost craft events
 
-**Tips:** Nonprofit creative reuse center with low-cost art supplies. Sunday Crafternoon is great for trying new crafts. Low-pressure environment perfect for creative expression without spending much. Materials provided for most events.
+**Tips:** Nonprofit creative reuse center with low-cost art supplies. Sunday Crafternoon ($10-15) is great for trying new crafts. Low-pressure environment perfect for creative expression without spending much. Materials provided for most events.
 
 **Programs:**
 
-- **Sunday Crafternoon:** Sundays 2-4pm | FREE
-  Guided themed craft projects. Materials provided. All skill levels welcome.
+- **Sunday Crafternoon:** Select Sundays 2-4pm (check calendar) | $10-15 online ticket plus fees
+  Guided themed craft projects. Materials provided. All skill levels welcome. Ticketed, not free.
 - **Sunday Night Stitchin':** Once monthly (check website) | FREE
   Textile and fiber arts open studio. Bring your own project or start something new.
 - **Drop In Studio:** 3rd Thursday 4-6pm | FREE
@@ -3288,11 +3334,11 @@ Supportive poetry open mic with both intimate and larger venue options
 - **Website:** https://stjamespdx.org/life/wm/bach/
 - **Cost:** FREE
 
-**Tips:** Free concerts featuring Bach cantatas on select Sundays at 4pm. Four cantatas per season. No tickets needed - just show up. Offerings accepted but not required. Beautiful church setting with excellent acoustics. 2026 dates: Feb 22, Jun 14.
+**Tips:** Free concerts featuring Bach cantatas on select Sundays at 5pm. Four cantatas per season. No tickets needed - just show up. Offerings accepted but not required. Beautiful church setting with excellent acoustics. 2026 dates: Feb 22, Jun 14.
 
 **Programs:**
 
-- **Bach Cantata Vespers:** Select Sundays 4-5pm (4 per season) | FREE
+- **Bach Cantata Vespers:** Select Sundays 5-6pm (4 per season) | FREE
   Four Bach cantatas per season presented within Evening Prayer liturgy with choir, soloists, and orchestra.
 
 *Drop-in (come and go freely) · Anxiety-friendly, Indoor, Low energy · Wheelchair accessible*
@@ -3505,7 +3551,7 @@ Major NE Portland food hub serving 975+ families weekly. Also operates as a food
 
 **What to know:** Serves 975+ families weekly. Also redistributes 1.2 million lbs of donated products monthly to 70+ partner agencies across the region. Founded 1992.
 
-**First visit:** Open Mon/Wed/Fri. Walk in during hours — no appointment needed.
+**First visit:** Enrollment-based program for working families that pairs groceries with financial education; call 503-251-5431 about joining before visiting. For same-day food, Birch publishes a separate Same Day Food Resources list on its site.
 
 **What to bring:** Bags for groceries
 
@@ -3534,12 +3580,12 @@ Serving since 1952. ~1,200 meals daily. Sit-down indoor dining, vegetarian optio
 - **Phone:** 503-771-7914
 - **Website:** https://www.cscoregon.org
 - **Cost:** FREE
-- **Hours:** Office: Monday-Thursday 8am-4pm, Friday 10am-3pm; Food Distribution: Monday-Thursday 1-3:30pm, Friday 2-5pm
-- **Eligibility:** Clackamas County residents; current mail within 30 days required
+- **Hours:** Office: Phone line Mon-Fri 9am-5pm; Food Distribution: Food pantry Tue/Thu noon-4pm; to-go meals Tue-Thu 1-2:30pm and Sun 3-3:30pm
+- **Eligibility:** Serves Clackamas, Multnomah, and Washington County residents; bring current mail within 30 days as proof of address
 
 Largest food pantry in Clackamas County. Also offers pop-up sites at elementary schools. Active "Save the Food Hub" fundraising campaign.
 
-**What to know:** Largest food pantry in Clackamas County with 51-year history
+**What to know:** Largest food pantry in Clackamas County with 51-year history. Pantry days narrowed to Tuesday and Thursday in 2026; the Sunday 3-3:30pm to-go meal is a rare weekend option. Services in English and Spanish.
 
 **First visit:** Bring current piece of mail (within 30 days) as proof of address
 
@@ -3564,16 +3610,16 @@ Quiet, non-festival atmosphere - good for calmer environments
 ### Community Action of Washington County
 
 - **Address:** Various locations in Washington County
-- **Phone:** 503-615-0771
+- **Phone:** 503-648-6646
 - **Website:** https://caowash.org
 - **Cost:** FREE
-- **Hours:** Varies by program and location
+- **Hours:** Multi-service centers in Hillsboro, Beaverton, and Tigard open Mon-Fri 8:30am-12pm & 1-5pm
 
 Washington County's community action organization — 60+ years of service. Provides emergency food boxes plus energy assistance, housing support, and Head Start programs.
 
 **What to know:** Has been serving Washington County for 60+ years. Provides food assistance along with energy assistance, housing support, and other services. Good single point of contact for multiple needs.
 
-**First visit:** Call 503-615-0771 to find the right program for your needs. They serve all of Washington County.
+**First visit:** Call the main line at 503-648-6646 to find the right program; 503-615-0771 is the energy/utility assistance line. They serve all of Washington County.
 
 **Features:** Emergency food boxes, Energy assistance, Housing support, Head Start programs
 
@@ -3603,13 +3649,13 @@ Farm for 2 hours, take home fresh produce. No ongoing commitment required.
 - **Address:** 272 S Broadway St, Estacada, OR 97023
 - **Phone:** 503-630-2888
 - **Cost:** FREE
-- **Hours:** 2nd & 4th Tue 10am-2pm, Wed 10am-2pm, Thu 1-5pm
+- **Hours:** Wed 2-6pm (2-4pm Estacada School District families, 4-6pm everyone); Tue/Thu hours conflict across sources - call 503-630-2888
 
 Rural Clackamas County food bank serving Estacada and surrounding communities. Limited hours — check schedule before visiting.
 
-**What to know:** Serves the rural Estacada and eastern Clackamas County area. Limited Tuesday hours — Wednesdays and Thursdays are more consistently open.
+**What to know:** Serves the rural Estacada and eastern Clackamas County area. Wednesday afternoon is the most consistently listed session; the first two hours are reserved for Estacada School District families.
 
-**First visit:** Walk in during hours. Tuesdays are 2nd and 4th week of the month only.
+**First visit:** Call 503-630-2888 to confirm the day's hours before making the trip.
 
 **What to bring:** Bags or boxes for food
 
@@ -3638,14 +3684,15 @@ Free community meal in Beaverton. Sundays at 4:15pm weekly, plus last Thursday m
 ### Gladstone Food Pantry
 
 - **Address:** 6460 Glen Echo Ave, Gladstone, OR 97027
-- **Phone:** 503-496-3947
+- **Phone:** 503-737-5283
 - **Website:** https://nwfs.org/basic-needs/food-matters
 - **Cost:** FREE
-- **Hours:** Thu 3-5pm
+- **Hours:** Thu 3-5:30pm
+- **Eligibility:** Gladstone School District families plus residents of Gladstone, Jennings Lodge, and Oak Grove
 
 Gladstone area food pantry, part of NW Family Services FoodMatters program. Thursday afternoons only.
 
-**What to know:** Connected to Northwest Family Services FoodMatters program which serves families and seniors across multiple counties.
+**What to know:** Located on the Gladstone Center for Children & Families campus. Connected to Northwest Family Services FoodMatters program. 503-737-5283 is the pantry line listed by the school district; NW Family Services also lists 503-496-3947.
 
 **First visit:** Open Thursday afternoons only. Walk in during hours.
 
@@ -3697,7 +3744,7 @@ May-October season. One of three markets in Gresham area. EBT purple tokens avai
 - **Address:** NE Hancock St between NE 44th & NE 45th Ave, Portland, OR 97213
 - **Website:** https://www.hollywoodfarmersmarket.org
 - **Cost:** SNAP/EBT accepted with Double Up Food Bucks match up to $20. No surcharge for SNAP/EBT transactions
-- **Hours:** Year-round. April-Sep every Saturday 8am-1pm. Oct-Nov every Saturday 9am-1pm. Dec-Mar 2nd & 4th Saturdays only, 9am-1pm.
+- **Hours:** Year-round. April-Sep every Saturday 8am-1pm. Oct-Nov every Saturday 9am-1pm. Dec-Mar 1st & 3rd Saturdays only, 9am-1pm.
 - **Schedule:** Every Saturday, 8am-1pm (April-September); 9am-1pm (October-November)
 
 One of Portland's best farmers markets with full SNAP/EBT support and Double Up Food Bucks matching.
@@ -3762,7 +3809,7 @@ May-October season. One of the best farmers' markets for SNAP users due to match
 
 Shopping-style food pantry in NW/Downtown Portland near Goose Hollow MAX. Dignity model — choose your own items. Tuesday appointments for mobility/health needs. Also stocks pantries in 50+ affordable housing buildings. Founded 1980.
 
-**What to know:** Tuesday 3-5:30pm is by appointment specifically for people with mobility or health challenges — call ahead. Founded 1980 as Northwest Portland Ministries. Also places food boxes in 50+ affordable housing buildings.
+**What to know:** Thursday and Friday shopping order is drawn by lottery — arrive between 2:00 and 2:30pm to get a number. Tuesday 3-5:30pm is by appointment for people with mobility or health challenges (503-221-1224 x105). Founded 1980 as Northwest Portland Ministries. Also places food boxes in 50+ affordable housing buildings.
 
 **First visit:** Located at First United Methodist Church near Goose Hollow MAX stop — use the rear entrance. Shopping-style so you choose what you need.
 
@@ -3783,24 +3830,25 @@ Shopping-style food pantry in NW/Downtown Portland near Goose Hollow MAX. Dignit
 
 ### Loaves & Fishes Senior Dining Centers
 
-- **Phone:** 503-736-6325
+- **Phone:** 503-953-8111
 - **Website:** https://mowp.org
-- **Cost:** $10.50 suggested donation - pay what you can afford
-- **Schedule:** Lunches Monday-Thursday (varies by center)
+- **Cost:** $10 per meal - contribute what you can afford, no one turned away
+- **Schedule:** Lunches served Monday-Friday at most centers (days vary by center - call ahead)
 - **Eligibility:** Adults 60+ regardless of income
 
 30+ dining centers operated by Meals on Wheels People
 
-**Tips:** For adults 60+ regardless of income. Suggested $10.50 donation but pay what you can afford. Lunches Mon-Thu at various locations throughout Portland metro. Social dining experience. Call ahead to confirm hours at specific location.
+**Tips:** For adults 60+ regardless of income. $10 per meal but contribute what you can afford. Lunches served weekdays at dining centers throughout the Portland metro. Social dining experience. Call ahead to confirm days and hours at a specific center; only the Belmont and Gresham centers surfaced in 2026 listings, so confirm MLK and St. Johns before a first visit.
 
 *Casual group · Indoor, Good for isolation, Low energy · For: Seniors (55+) · Wheelchair accessible, Near transit*
 
 ### Meals on Wheels People
 
 - **Address:** Various dining centers throughout Portland metro
+- **Phone:** 503-953-8111
 - **Website:** https://www.mowp.org
-- **Cost:** Donation-based (meals provided regardless of ability to pay). Each meal costs over $10 to prepare
-- **Hours:** Meal delivery Mon-Thu 10am-2pm; Dining centers serve lunch at least one day weekly
+- **Cost:** Donation-based (meals provided regardless of ability to pay). $10 per meal; contribute what you can
+- **Hours:** Meal delivery Mon-Thu 10am-2pm; dining centers serve lunch Monday-Friday (days vary by center)
 - **Eligibility:** Adults 60 years and older in Multnomah, Washington, and Clark counties
 
 More than a meal service - provides nutrition, connection, and wellness checks for seniors.
@@ -3837,17 +3885,17 @@ Sundays May-October in downtown Milwaukie. SNAP/EBT accepted with Double Up Food
 
 ### Neighborhood House (SW Portland)
 
-- **Address:** 8959 SW Barbur Blvd, Portland, OR
+- **Address:** 8959 SW Barbur Blvd, Portland, OR 97219
 - **Phone:** 503-246-1663
 - **Website:** https://nhpdx.org/
 - **Cost:** FREE
-- **Hours:** Mon-Fri 10am-5pm (Capitol Hwy location). Food pantry hours vary by location.
+- **Hours:** Free Food Market: Mon & Wed 10am-4pm (closed 12-1pm), Thu 2-6pm
 
 40+ year food access organization in SW Portland. New expanded Barbur Blvd location opened early 2026.
 
 **What to know:** New 16,000 sq ft facility on Barbur Blvd (3-4x larger than previous location). Indoor waiting area. Free food market, senior center, and community services under one roof. Serves SW Portland.
 
-**First visit:** Check nhpdx.org for current hours at the new Barbur Blvd location
+**First visit:** Thursday 2-6pm is the slot for people who work days; the market closes for lunch 12-1pm on Mon/Wed
 
 **Programs:**
 
@@ -3859,6 +3907,27 @@ Sundays May-October in downtown Milwaukie. SNAP/EBT accepted with Double Up Food
   Shared community spaces, social services
 
 *Do alone · Anxiety-friendly, Indoor · For: Seniors (55+) · Wheelchair accessible, Near transit*
+
+### Nourish Oregon (POBC Community Pantry)
+
+- **Address:** 3223 SE 92nd Ave, Portland, OR 97266
+- **Phone:** 503-442-8228
+- **Website:** https://www.nourishoregon.com/
+- **Cost:** FREE
+- **Hours:** Tue 4-7pm and Thu 10am-1pm (walk-up); Mon 4-7pm pre-order pickup only
+- **Eligibility:** Open to anyone in the state of Oregon. No ID required.
+
+Inclusive free food pantry in SE Portland. No ID required. Open to anyone in Oregon. Evening hours available.
+
+**What to know:** Inclusive pantry — no questions asked, no ID needed. Walk-ups welcome Tuesdays and Thursdays; Monday evening is pre-order pickup only, so do not send walk-ins on Monday. Tuesday evening hours (4-7pm) suit people who work days. The pantry now leads with the Nourish Oregon name.
+
+**First visit:** Just show up during hours. No ID or proof of income required.
+
+**What to bring:** Bags to carry groceries
+
+**Features:** Fruits and vegetables, Canned goods and dairy, Fresh and frozen meats, In-person shopping or scheduled pickup
+
+*Do alone · Anxiety-friendly, Indoor · Wheelchair accessible*
 
 ### Olson Farms Pumpkin Patch
 
@@ -3922,26 +3991,31 @@ Community mutual aid project. Take what you need, leave what you can. Fridges cl
 
 *Do alone · Anxiety-friendly, Low energy · Varies*
 
-### POBC Community Pantry (Nourish Oregon)
+### Portland Farmers Market at PSU
 
-- **Address:** 3223 SE 92nd Ave, Portland, OR 97266
-- **Phone:** 503-442-8228
-- **Website:** https://www.pobcpantry.com/
-- **Cost:** FREE
-- **Hours:** Tue 5-8pm, Thu 10am-2pm
-- **Eligibility:** Open to anyone in the state of Oregon. No ID required.
+- **Address:** South Park Blocks, SW Park Ave & SW Montgomery St, Portland, OR 97201
+- **Website:** https://www.portlandfarmersmarket.org/our-markets/psu/
+- **Cost:** FREE to attend; SNAP/EBT accepted with Double Up Food Bucks match up to $20 per visit. Exchange SNAP benefits for market tokens at the info booth; Double Up match applies to fruits and vegetables
+- **Hours:** Year-round Saturdays. April-October 8:30am-2pm; November-March 9am-2pm.
 
-Inclusive free food pantry in SE Portland. No ID required. Open to anyone in Oregon. Evening hours available.
+Year-round Saturday market on the PSU campus with full SNAP/EBT support and Double Up Food Bucks matching. Phone not published on the market page. Coordinates approximate - re-run geocode_addresses.py.
 
-**What to know:** Inclusive pantry — no questions asked, no ID needed. Can shop in-person or schedule a pickup. Good evening hours on Tuesdays for those who work during the day.
+**What to know:** The largest market in the Portland Farmers Market network, on the flat, paved South Park Blocks. Busiest late morning; quietest right at opening. The hours shift from 8:30am to 9am in November.
 
-**First visit:** Just show up during hours. No ID or proof of income required.
+**First visit:** Go to the info booth first if you use SNAP - that is where benefits are swapped for tokens and the Double Up match is added
 
-**What to bring:** Bags to carry groceries
+**Registration:** None
 
-**Features:** Fruits and vegetables, Canned goods and dairy, Fresh and frozen meats, In-person shopping or scheduled pickup
+**What to bring:** Reusable bags, Oregon Trail Card if using SNAP
 
-*Do alone · Anxiety-friendly, Indoor · Wheelchair accessible*
+**Programs:**
+
+- **Saturday Market (April-October):** Every Saturday 8:30am-2pm | FREE
+- **Saturday Market (November-March):** Every Saturday 9am-2pm | FREE
+
+*Drop-in (come and go freely) · Outdoor, Good for isolation, Newcomer-friendly, Low energy, Family-friendly · Wheelchair accessible, Near transit*
+
+**Accessibility:** Flat paved park blocks. MAX Green/Yellow/Orange lines and the Portland Streetcar stop within a few blocks.
 
 ### Portland Rescue Mission
 
@@ -3998,13 +4072,13 @@ June-September season. Evening market serving the diverse Rockwood community.
 - **Phone:** 503-640-4311
 - **Website:** https://hillsboro.salvationarmy.org
 - **Cost:** FREE
-- **Hours:** Mon-Fri 1-3:45pm (food boxes). Daily sack lunch available.
+- **Hours:** Food boxes Mon/Tue/Thu/Fri 1-3:45pm (closed Wed). Sack lunch weekdays 9:30am-3:30pm (Hillsboro/Sherwood residents)
 
-Washington County food pantry in Hillsboro. Food boxes Mon-Fri afternoons plus daily sack lunch. Mobile pantry on Wednesdays serves rural Banks and West Union areas.
+Washington County food pantry in Hillsboro. Food boxes four weekday afternoons plus weekday sack lunches. Mobile pantry on Wednesdays serves rural Banks and West Union areas.
 
 **What to know:** Also runs a mobile pantry on Wednesdays reaching Banks and West Union — good option for rural Washington County residents. Part of the Salvation Army's Cure Hunger program.
 
-**First visit:** Walk in during afternoon hours for food boxes. Daily sack lunches also available.
+**First visit:** Walk in on Mon/Tue/Thu/Fri afternoons for food boxes; the pantry is closed Wednesdays while the mobile pantry runs. Weekday sack lunches are for Hillsboro and Sherwood residents.
 
 **What to bring:** Bags or boxes for food
 
@@ -4016,6 +4090,31 @@ Washington County food pantry in Hillsboro. Food boxes Mon-Fri afternoons plus d
 **Features:** Food boxes, Bread and baked goods, Hygiene products, Daily sack lunch
 
 *Drop-in (come and go freely) · Anxiety-friendly, Low energy, Indoor · Wheelchair accessible*
+
+### Salvation Army Moore Street Corps (Tuesday Dinner & Food Pantry)
+
+- **Address:** 5325 N Williams Ave, Portland, OR 97217
+- **Phone:** 971-340-4010
+- **Website:** https://moorestreet.salvationarmy.org/
+- **Cost:** FREE
+- **Hours:** Food pantry: Wednesday and Friday 9am-1pm. Tuesday Family Night dinner: 5-7pm.
+
+North Portland Salvation Army corps with a twice-weekly pantry and a free Tuesday evening dinner.
+
+**What to know:** The Tuesday dinner includes a Bible study, which may matter to people who prefer a secular meal. Bus 4 on Williams/Vancouver and bus 72 on Killingsworth stop nearby.
+
+**First visit:** Walk in for the Wednesday or Friday pantry; the shopping-style pantry has fresh produce and canned goods
+
+**Registration:** None stated
+
+**What to bring:** Bags for groceries
+
+**Programs:**
+
+- **Tuesday Family Night Dinner:** Every Tuesday 5-7pm | FREE
+  Free dinner served alongside a Bible study and youth group - a religious program accompanies the meal
+
+*Casual group · Good for isolation, Indoor, Family-friendly, Low energy · Near transit*
 
 ### Sandy Community Action Center
 
@@ -4062,7 +4161,7 @@ Free vegetarian meals based on 500-year-old Sikh tradition (Langar). 150-200 peo
 - **Cost:** Not currently operating. The historic cafe was pay-what-you-can; future Lents services and pricing have not been announced.
 - **Hours:** CLOSED - no cafe service is operating. Sisters plans to move to a residential home in Lents later in 2026; reopening date, address, services, and hours are not yet published.
 
-Sisters is planning a move from Old Town to a residential home in Lents. The organization says the future program model is still being shaped with community input.
+Sisters closed on a residential house in Lents in June 2026 as its new base of operations (OPB, July 6, 2026). The organization says it is still asking neighbors and partners what the space should become.
 
 **Tips:** The cafe is closed and is not currently a meal-access option. Check the official move FAQ or newsletter for the future Lents opening and services.
 
@@ -4089,11 +4188,11 @@ Most plots are handicapped accessible. Organization rebranded from SnowCap Commu
 - **Website:** https://www.snowcap.org
 - **Cost:** FREE
 - **Hours:** Mon-Fri 10am-2pm, Mon & Wed 6-8pm
-- **Eligibility:** East of 82nd Avenue in Multnomah County; pantry visits up to 2 times per month through August 2026.
+- **Eligibility:** East of 82nd Avenue in Multnomah County; pantry visits were limited to 2 per month through August 2026 - ask whether the limit still applies.
 
 Major East Portland food pantry serving Multnomah County residents east of 82nd Avenue. Evening hours Monday and Wednesday 6-8pm. Also operates mobile pantry, community garden, and senior delivery programs.
 
-**What to know:** Guests may visit the pantry up to twice per month through August 2026. Clothing is available by appointment at a separate location.
+**What to know:** A twice-per-month visit limit was announced through August 2026; ask at intake whether it still applies. Clothing is available by appointment at a separate location.
 
 **First visit:** Complete SnowCap's general application online or call for a quick intake, then visit during pantry hours. Evening hours Monday and Wednesday are useful for people who work during the day.
 
@@ -4126,13 +4225,40 @@ Most accessible option for peer support programs - accepts EBT
 
 *Do alone · Outdoor, Family-friendly, Active/physical · Wheelchair accessible*
 
+### St. Andre Bessette Church Hospitality Meals
+
+- **Address:** 601 W Burnside St, Portland, OR 97209
+- **Phone:** 503-228-0746
+- **Website:** https://saintandrebessettepdx.org/
+- **Cost:** FREE
+- **Hours:** Morning hospitality (beverage and sack lunch): Tuesday, Wednesday, Thursday mornings. Evening hospitality (hot meal): Friday 6:30-7:30pm. Closed on holidays.
+
+Catholic parish in Old Town serving sack lunches Tue-Thu mornings and a hot Friday dinner. Open to anyone in need.
+
+**What to know:** Limited groceries can be requested in the morning before 11am for same-day pickup 1:30-2pm. The morning start time is not published online - call 503-228-0746 (office Mon-Wed 8:30am-3pm).
+
+**First visit:** Street-level entry on W Burnside in Old Town. Morning hospitality also offers hygiene kits and clothing.
+
+**Registration:** None
+
+**What to bring:** Nothing required
+
+**Programs:**
+
+- **Friday Evening Hospitality Meal:** Every Friday 6:30-7:30pm | FREE
+  Hot meal and beverage handed out at the church on W Burnside
+
+*Drop-in (come and go freely) · Low energy, Good for isolation, Indoor · Near transit*
+
+**Accessibility:** MAX Blue/Red at Skidmore Fountain and Old Town/Chinatown; many bus lines on W Burnside.
+
 ### St. Vincent de Paul Portland
 
 - **Address:** Various (40+ locations across Multnomah, Washington, and Clackamas counties)
 - **Phone:** 503-235-8431
 - **Website:** https://www.svdppdx.org
 - **Cost:** FREE
-- **Hours:** Varies by location — call Food Hotline at 503-235-8431 to find nearest pantry and hours
+- **Hours:** Varies by location — call the Food Hotline at 503-235-8431 (weekdays 9:30am-3:30pm) to find the nearest pantry and hours
 
 Largest food pantry network in the Portland metro area — 40+ locations across all three counties. Food Hotline (503-235-8431) connects callers to their nearest pantry. Some locations offer delivery.
 
@@ -4150,11 +4276,11 @@ Largest food pantry network in the Portland metro area — 40+ locations across 
 - **Phone:** 503-823-2102
 - **Website:** https://sunshinedivision.org/
 - **Cost:** FREE
-- **Hours:** Tuesday-Saturday 9am-12pm & 1-4pm
+- **Hours:** SE Stark: Mon-Fri 9am-12pm & 1-4pm. NW Front Ave: Tue/Wed/Fri 9am-12pm & 1-4pm, Thu 11am-3pm & 4-7pm, Sat 9am-2pm
 
 Portland Police Bureau partner providing free food assistance since 1923. Walk-in food pantry plus precinct food boxes and home delivery options.
 
-**Tips:** Free food boxes also available 24/7 at every Portland Police precinct. Home delivery Mon/Wed via DoorDash (register at sunshinedivision.org). New headquarters at 2121 NW Front Ave expected spring 2026.
+**Tips:** Free food boxes also available 24/7 at every Portland Police precinct. Home delivery Mon/Wed via DoorDash (register at sunshinedivision.org). The new NW Front Ave headquarters opened June 9, 2026 as a grocery-style choice pantry; it is the only site with Thursday evening and Saturday hours. The SE Stark pantry is now weekdays only.
 
 *Drop-in (come and go freely) · Low energy · Near transit*
 
@@ -4173,16 +4299,41 @@ Portland Police Bureau partner providing free food assistance since 1923. Walk-i
 
 - **Address:** 3550 SW Borland Rd, Tualatin, OR 97062
 - **Phone:** 503-783-0721
+- **Website:** https://www.tualatinfoodpantry.org
 - **Cost:** FREE
+- **Hours:** Mon 4-7pm, Wed 10am-1pm, Fri 10am-1pm
 - **Eligibility:** Tualatin, Lake Oswego, West Linn, and North Wilsonville residents
 
-South metro food pantry serving Tualatin, Lake Oswego, West Linn, and North Wilsonville. Call for current hours.
+South metro food pantry serving Tualatin, Lake Oswego, West Linn, and North Wilsonville, in the lower level of Rolling Hills Community Church.
 
 **What to know:** Serves a wide south metro area including Tualatin, Lake Oswego, West Linn, and North Wilsonville.
 
-**First visit:** Call ahead at 503-783-0721 for current hours and availability.
+**First visit:** Use the lower-level entrance of Rolling Hills Community Church. Monday evening suits people who work days. The phone is only answered during pantry hours.
 
 *Drop-in (come and go freely) · Anxiety-friendly, Low energy, Indoor · Wheelchair accessible*
+
+### Union Gospel Mission Portland (Free Meals)
+
+- **Address:** 3 NW 3rd Ave, Portland, OR 97209
+- **Phone:** 503-274-4483
+- **Website:** https://www.ugmportland.org/
+- **Cost:** FREE
+- **Hours:** Breakfast 6:30-7:30am, lunch 11:30am-12:30pm, dinner 5-6pm daily (per a directory listing - confirm by phone)
+- **Eligibility:** Open to people experiencing homelessness or hunger
+
+Long-running Old Town mission serving three free meals a day. Meal times not yet confirmed on the official site.
+
+**What to know:** Faith-based mission. The meal times above come from a third-party directory, not the mission's own site - call 503-274-4483 to confirm before making the trip.
+
+**First visit:** Old Town at NW 3rd and Burnside; arrive a few minutes before the meal window
+
+**Registration:** None
+
+**What to bring:** Nothing required
+
+*Drop-in (come and go freely) · Low energy, Indoor · Near transit*
+
+**Accessibility:** MAX at Skidmore Fountain and Old Town/Chinatown; multiple bus lines.
 
 ### Urban Gleaners Free Food Markets
 
@@ -4190,7 +4341,7 @@ South metro food pantry serving Tualatin, Lake Oswego, West Linn, and North Wils
 - **Phone:** 503-226-8061
 - **Website:** https://urbangleaners.org
 - **Cost:** FREE
-- **Hours:** 42 weekly markets - check Food Finder for specific times and locations
+- **Hours:** 21 public free food markets each week - check the Food Finder for times and locations
 - **Eligibility:** No income requirements or personal information required
 
 Rescues food before it goes to waste and distributes through 21+ free public markets. Completely barrier-free access.
@@ -4211,11 +4362,11 @@ Rescues food before it goes to waste and distributes through 21+ free public mar
 - **Phone:** 503-682-6939
 - **Website:** https://www.wilsonvillecommunitysharing.org
 - **Cost:** FREE
-- **Hours:** Tue 12:30-2:30pm & 6-7:30pm
+- **Hours:** Tue 12:30-2:30pm & 6-7:15pm
 
 Wilsonville food pantry with both afternoon and evening hours on Tuesdays.
 
-**What to know:** Evening hours on Tuesdays (6-7:30pm) are great for people who work during the day.
+**What to know:** Evening hours on Tuesdays (6-7:15pm) are great for people who work during the day. Clients are accepted up to 15 minutes before closing; new clients should arrive at least 30 minutes before closing to sign up.
 
 **First visit:** Walk in during hours. Tuesday has both afternoon and evening slots.
 
@@ -4273,9 +4424,9 @@ Longest-running free jazz/blues festival west of the Mississippi. All-volunteer 
 - **Address:** Columbia and Willamette Rivers, Portland, OR
 - **Website:** https://christmasships.org/
 - **Cost:** FREE viewing from any riverfront
-- **Dates:** November 27 - December 21, 2026
+- **Dates:** December 3-20, 2026
 
-15 nights of decorated boats on the rivers
+15 nights of decorated boats on the rivers. Meet the Skippers at RiverPlace Marina dock Saturday December 19 8-10pm and Sunday December 20 2-4:30pm.
 
 **What to know:** 15 nights of decorated boats parading on the Columbia and Willamette Rivers. Free to view from any riverfront location. Fleet visits different areas each night - check schedule. Restaurants along the river offer viewing with dinner. Magical Portland holiday tradition.
 
@@ -4397,11 +4548,11 @@ Indoor gallery openings happen year-round; the outdoor Street Gallery runs April
 
 ### Good in the Hood Multicultural Festival
 
-- **Address:** Lillis-Albina Park, North Portland
+- **Address:** Lillis-Albina Park, 2451 N Flint Ave, Portland, OR 97227
 - **Website:** https://www.goodnthehood.org
 - **Cost:** FREE (some ticketed events like gospel brunch)
-- **Hours:** Friday 6pm-10pm, Saturday & Sunday noon-10pm
-- **Dates:** June 26-28, 2026
+- **Hours:** Saturday & Sunday noon-9pm (2026 listings; no Friday component was announced)
+- **Dates:** June 27-28, 2026
 
 Portland's longest-running multicultural festival celebrating diverse communities in North/Northeast Portland.
 
@@ -4464,7 +4615,7 @@ Free outdoor movie series since 2022. Coordinated with Troutdale's program for m
 - **Website:** https://greshamoregon.gov/Recreation/
 - **Cost:** FREE
 
-**What to know:** Free summer concerts at rotating Gresham parks July-August. Every other Wednesday 6:30-8:30pm. Great family-friendly neighborhood events. Check schedule for park locations.
+**What to know:** Free summer concerts at rotating Gresham parks on four Wednesdays in July-August, 6:30-8:30pm. Great family-friendly neighborhood events. Food vendors and beer/wine on site. The city publishes exact dates each May.
 
 **First visit:** Check greshamoregon.gov/Recreation for current schedule and locations
 
@@ -4474,8 +4625,8 @@ Free outdoor movie series since 2022. Coordinated with Troutdale's program for m
 
 **Programs:**
 
-- **Music in the Parks:** Every other Wednesday 6:30-8:30pm | FREE
-  July-August at Nadaka Nature Park, Bella Vista Park, Butler Creek Park, Vance Park; 2026 dates TBA
+- **Music in the Parks:** 6:30-8:30pm | FREE
+  2026 lineup - July 8 Carpathian-Pacific Express at Nadaka Nature Park; July 22 Eric John Kaiser Band at Bella Vista Park; August 5 Brady Goss at Butler Creek Park; August 19 A Cara o Cruz Band at Vance Park
 
 *Drop-in (come and go freely) · Family-friendly, Outdoor, Low energy, Anxiety-friendly · Wheelchair accessible*
 
@@ -4550,7 +4701,7 @@ Date estimated based on typical first-Sunday-of-December pattern; confirm closer
 - **Address:** Pioneer Courthouse Square, 701 SW 6th Ave, Portland, OR
 - **Website:** https://www.icaportland.org/
 - **Cost:** FREE
-- **Hours:** 10am-8pm
+- **Hours:** 10:30am-8pm
 - **Dates:** August 23, 2026
 
 10,000+ attendees, Indian dance, music, food
@@ -4569,7 +4720,7 @@ Date estimated based on typical first-Sunday-of-December pattern; confirm closer
 
 ### Jade International Night Market
 
-- **Website:** https://jadedistrict.org/jade-international-night-market-2025
+- **Website:** https://jadedistrict.org/jade-international-night-market-2026
 - **Cost:** FREE admission. Food and vendor purchases separate
 - **Schedule:** Annual event, mid-August
 - **Eligibility:** Open to the public, family-friendly
@@ -4631,9 +4782,9 @@ Since 1997. 29 years of community-driven arts. Year-round gallery openings indoo
 
 - **Address:** Blue Lake Regional Park, 21224 NE Blue Lake Rd, Fairview, OR
 - **Website:** https://www.marianasfestival.com/
-- **Cost:** $5 parking. Festival admission details TBD — check website closer to event
-- **Schedule:** Fri workshops (location TBD), Sat-Sun at Blue Lake Park
-- **Dates:** August 28-30, 2026
+- **Cost:** FREE admission; $5 per vehicle parking
+- **Schedule:** Thu-Fri workshops (Fri 5-8pm at Heritage High School, Vancouver WA); Sat 9am-7pm at Blue Lake Park
+- **Dates:** August 27-29, 2026
 
 Chamorro cultural celebration at Blue Lake Regional Park. Organized by MAGI.
 
@@ -4774,6 +4925,29 @@ Annual Nordic solstice celebration at Nordic Northwest Campus.
 
 *Drop-in (come and go freely) · Outdoor, Family-friendly, Creative*
 
+### Oregon Zoo ZooLights
+
+- **Address:** Oregon Zoo, 4001 SW Canyon Rd, Portland, OR 97221
+- **Phone:** 503-226-1561
+- **Website:** https://www.oregonzoo.org/lights
+- **Cost:** $13-$35 adults, $13-$30 youth depending on the night; Value Nights are the cheapest and are marked on the ZooLights calendar. 10% off tickets bought by September 22, 2026. No other discounts apply on Value Nights. Ask whether the zoo's $13 income-qualified tickets apply.
+- **Hours:** Evenings; nightly hours posted on the ZooLights calendar
+- **Dates:** November 20 - December 31, 2026, January 1-3, 2027
+
+Annual holiday light display at the Oregon Zoo, November 20, 2026 through January 3, 2027. Not free, but Value Nights start at $13.
+
+**What to know:** Take MAX to Washington Park station (elevator to the surface) to avoid parking fees. Weekend and holiday-week nights are packed.
+
+**First visit:** Pick a weeknight Value Night for the lowest price and thinner crowds; buy timed tickets online
+
+**Registration:** Timed tickets required
+
+**What to bring:** Warm layers - the zoo is hilly and outdoors
+
+*Do alone · Outdoor, Family-friendly, Low energy, Good for isolation · Wheelchair accessible, Near transit*
+
+**Accessibility:** Paved but hilly paths; wheelchairs available at the zoo. Washington Park MAX station has elevators.
+
 ### Peacock Lane Holiday Lights
 
 - **Address:** SE Peacock Lane between SE Belmont St & SE Stark St, Portland, OR 97214
@@ -4856,13 +5030,33 @@ Annual Scottish cultural festival at Washington County Fairgrounds.
 
 *Drop-in (come and go freely) · Outdoor, Family-friendly*
 
+### Portland Night Market
+
+- **Address:** 100 SE Alder St, Portland, OR 97214
+- **Website:** https://www.pdxnm.com/
+- **Cost:** FREE admission, all ages. Optional $10 fast pass to skip the entry line; food and vendor purchases extra
+- **Hours:** Typically 4-11pm each night
+- **Dates:** October 2-3, 2026, December 3-6, 2026
+
+Free quarterly market with 175+ local vendors and food. Fall/winter 2026 dates from a secondary listing - the December days and nightly hours should be confirmed on pdxnm.com.
+
+**What to know:** Very crowded and loud with long entry lines later in the evening - not a low-pressure setting. Under the Morrison Bridge; buses 6 and 15 on SE Grand/MLK and the Streetcar A/B Loop are close.
+
+**First visit:** Arrive right at the 4pm opening for the shortest line and quietest hour
+
+**Registration:** None for general entry
+
+**What to bring:** Cash or card for vendors; layers - the warehouse is open to the elements
+
+*Drop-in (come and go freely) · Indoor, Good for isolation, Newcomer-friendly, Creative · Near transit*
+
 ### Portland Parks Summer Free For All
 
 - **Address:** Various city parks throughout Portland
 - **Phone:** 503-823-2525
 - **Website:** https://www.portland.gov/parks/arts-culture/summer-free-all
 - **Cost:** FREE
-- **Dates:** July 9 - September 5, 2026
+- **Dates:** July 10 - August 29, 2026
 
 Portland's flagship summer program with free movies, concerts, and cultural events at parks citywide.
 
@@ -4952,7 +5146,7 @@ One of largest donation-based LGBTQIA2S+ Pride events on west coast. Moved from 
 
 ### Portland Saturday Market
 
-- **Address:** Waterfront Park, Portland, OR
+- **Address:** 2 SW Naito Pkwy, Portland, OR 97204
 - **Website:** https://portlandsaturdaymarket.com/
 - **Cost:** FREE admission
 
@@ -4969,7 +5163,7 @@ Largest continuously operating outdoor arts market in the U.S., 250+ vendors
 **Programs:**
 
 - **Saturday Market:** Saturdays 10am-5pm | FREE
-  March through December; live music at 11am and 2pm
+  March 7 through December 19, 2026; live music at 11am and 2pm
 
 *Drop-in (come and go freely) · Outdoor, Creative, Family-friendly, Newcomer-friendly · Wheelchair accessible, Near transit*
 
@@ -5028,12 +5222,12 @@ Since 1984. 75-foot tree donated by Stimson Lumber. Pink Martini sing-along, 10,
 - **Address:** Multiple locations including Pioneer Courthouse Square and Electric Blocks (Central Eastside)
 - **Website:** https://pdxwlf.com
 - **Cost:** FREE
-- **Hours:** Anchor sites activated Friday and Saturday nights during festival
-- **Dates:** February 6-14, 2026
+- **Hours:** Anchor sites activated Friday and Saturday nights during festival (2027 sites and hours not yet posted)
+- **Dates:** February 5-13, 2027
 
 Portland's annual winter light art festival. Free citywide event with installations at multiple locations.
 
-**What to know:** 11th anniversary of the festival. Features large-scale interactive art installations, performances, and pop-ups across Portland. Best experienced after dark.
+**What to know:** 12th year of the festival in 2027. Features large-scale interactive art installations, performances, and pop-ups across Portland. Best experienced after dark.
 
 **First visit:** Check website for map of installations and anchor site locations
 
@@ -5210,6 +5404,7 @@ Clackamas County repair fair series rotating through libraries and community cen
 - **Repair Fair - Canby:** 10am-1pm | Canby Public Library, 220 NE 2nd Ave, Canby, OR
 - **Repair Fair - Estacada:** 11am-2pm | Estacada Library, 825 NW Wade St, Estacada, OR
 - **Milwaukie Sustainability Fair:** 10am-2pm | 10723 SE Main St, Milwaukie, OR
+- **Repair Fair - Molalla:** 12-3pm | Molalla, OR (venue TBD - check clackamas.us/recycling/repairfair)
 - **Repair Fair - Oregon City:** 10am-1pm | Oregon City Public Library, 606 John Adams St, Oregon City, OR
 - **Repair Fair - Clackamas Community College:** 10am-1pm | Clackamas Community College, 19600 Molalla Ave, Oregon City, OR
 
@@ -5221,11 +5416,7 @@ Clackamas County repair fair series rotating through libraries and community cen
 - **Phone:** 503-629-6342
 - **Website:** https://www.thprd.org/facilities/recreation/elsie-stuhr-center
 - **Cost:** Drop-in fees vary; many activities free or low-cost. THPRD Financial Aid available for qualifying residents
-- **Hours:** Mon-Thu: 8am-5pm
-Fri: 8am-2pm
-Sat: 8am-4pm
-Closed Sunday and major holidays
-
+- **Hours:** Mon 8am-8pm, Tue 8am-2pm, Wed 8am-6pm, Thu 8am-2pm (Fri/Sat hours not captured - verify); closed Sunday and major holidays
 - **Eligibility:** Adults 55+
 
 THPRD's only recreation center dedicated to 55+ adults. Warm, welcoming community with diverse programming.
@@ -5542,6 +5733,10 @@ Operating since 2013. Part of global Repair Café movement promoting sustainabil
 
 - **RPDX Repair Café @ Leaven Common House:** 2nd Saturday monthly, 12-3pm | FREE | In-person | Leaven Common House, 5431 NE 20th Ave, Portland, OR 97211
   Volunteers fix small appliances, bikes, clothing. Tool/knife sharpening and Kintsugi repair available. Registration form recommended.
+- **Cedar Mill Library Repair Fair:** 1-4pm | FREE | In-person | Cedar Mill Community Library, Portland, OR (check repairpdx.org/repair-events for the address)
+  Partner repair fair listed on repairpdx.org in September 2026
+- **Tualatin Library Repair Fair:** 1-4pm | FREE | In-person | Tualatin Public Library, 18878 SW Martinazzi Ave, Tualatin, OR 97062
+  Partner repair fair listed on repairpdx.org in September 2026
 - **Soldering for Home Electronics Repairs Workshop:** Periodic evenings, 6-8pm | TBD | In-person | Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
   Learn basics of soldering for electronics repair. Check website for dates.
 - **Sashiko Mending Workshop:** Periodic, 10am-1pm | TBD | In-person | Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
@@ -5648,11 +5843,11 @@ Programs that dramatically reduce the cost of transit, utilities, recreation, an
 
 ### Arts for All (EBT Cultural Access)
 
-- **Website:** https://racc.org/artsforall
-- **Cost:** $5 tickets at 100+ cultural organizations. Present Oregon Trail Card at venue
+- **Website:** https://arts4allpdx.org/
+- **Cost:** $5 tickets at dozens of participating cultural organizations. Present Oregon Trail Card at venue. Participation is opt-in per organization - check the current list at arts4allpdx.org before you go.
 - **Eligibility:** Oregon Trail Card (SNAP/EBT) holders
 
-**What to know:** Works at 100+ venues including Portland Art Museum, OMSI, Oregon Zoo, Japanese Garden, Oregon Symphony, Portland Opera, and theaters. Most venues allow same-day walk-up. Check individual venue hours and any timed-entry requirements. Some venues may have blackout dates for special exhibitions.
+**What to know:** Participating venues include Portland Art Museum, OMSI, Oregon Zoo, Japanese Garden, Oregon Symphony, Portland Center Stage, and many theaters. Most venues allow same-day walk-up. Check individual venue hours and any timed-entry requirements. Some venues may have blackout dates for special exhibitions. In August 2026 RACC handed the program to a community-led steering committee of participating organizations; the old racc.org/artsforall page is gone. Street Roots publishes a monthly Arts for All event calendar.
 
 **First visit:** Just show your Oregon Trail Card at the ticket window - no pre-registration needed
 
@@ -5884,6 +6079,34 @@ Oregon PUC program reducing phone or internet costs for low-income households.
 
 *Do alone · Anxiety-friendly, Low energy*
 
+### Oregon Zoo Discount Days & Income-Qualified Admission
+
+- **Address:** Oregon Zoo, 4001 SW Canyon Rd, Portland, OR 97221
+- **Phone:** 503-226-1561
+- **Website:** https://www.oregonzoo.org/discounts
+- **Cost:** $13 tickets year-round for Oregon and Washington residents on income-assistance programs (up to four per visit); $13 admission for everyone during Fall Discount Days. Bring proof of benefits and residency. SNAP funds on the Oregon Trail Card cannot be used to buy tickets or food. Discount Days tickets cannot be combined with other discounts.
+- **Hours:** Income-qualified tickets available during regular zoo hours year-round
+- **Eligibility:** Income-qualified pricing for people enrolled in income-assistance programs; Discount Days open to all
+
+Standing $13 income-qualified admission plus the annual Fall Discount Days week, November 3-9, 2026. The November dates came from a search summary of the zoo page - confirm on oregonzoo.org before promoting.
+
+**What to know:** There is no $5 second-Tuesday program any more - the income-qualified $13 ticket is the standing discount. Winter Discount Days usually follow in January or February. Take MAX to Washington Park station.
+
+**First visit:** Reserve income-qualified tickets online or at the gate and bring a benefits letter or card plus proof of Oregon/Washington address
+
+**Registration:** Reservation recommended - the zoo uses timed entry on busy days
+
+**What to bring:** Proof of benefits, proof of residency, photo ID
+
+**Programs:**
+
+- **Fall Discount Days:** $13 admission for everyone
+  Half of the regular $26 adult price; federal employees including military and postal workers free, limit four
+
+*Do alone · Outdoor, Family-friendly, Low energy · Wheelchair accessible, Near transit*
+
+**Accessibility:** Paved but hilly grounds; wheelchairs available. Washington Park MAX station has elevators.
+
 ### Pacific Power Oregon Low-Income Discount (LID)
 
 - **Phone:** 888-221-7070
@@ -5988,7 +6211,7 @@ Income must fall below Federal Free Meal Guidelines:
 - Each additional person: add $596/month
 
 
-Winter 2026 session at capacity; reopens February 2, 2026 for Spring registration. One application per household yearly. Unused funds expire annually.
+Fall 2026 registration opened August 8 (in-district) and August 10 (out-of-district). One application per household yearly. Unused funds expire annually. Financial Aid Specialist line 503-619-3994.
 
 **What to know:** $300 per person annually covers general classes, community garden plots, facility rentals, birthday parties, childcare, and youth sports leagues. English and Spanish applications available. Unused funds expire after 12 months.
 
@@ -6091,14 +6314,14 @@ Nonprofit bike shop on Alberta St. Affordable bikes, repairs, DIY workspace, and
 - **Phone:** 503-226-0700
 - **Website:** https://rideconnection.org/
 - **Cost:** FREE or low-cost (varies by program). Many rides free for seniors 60+ and people with disabilities. General public rides available in some areas.
-- **Hours:** Service Center: Mon-Fri (call for hours). TTY: 7-1-1
+- **Hours:** Service Center: Mon-Fri 7:30am-5pm. Rural general-public rides: Mon-Fri 8am-4:30pm. TTY: 7-1-1
 - **Eligibility:** Seniors 60+, people with disabilities, and general public in select areas. Rural general public limited to 10 one-way trips/month.
 
 Door-to-door ride service for seniors, people with disabilities, and underserved communities. Rides for any purpose including recreation.
 
 **What to know:** Door-to-door rides for ANY purpose — not just medical. Covers medical, meals, shopping, recreation, and work trips. Especially valuable for seniors and people with disabilities in areas with limited transit. TTY available at 7-1-1.
 
-**First visit:** Call 503-226-0700 to schedule a ride or learn about available services in your area
+**First visit:** Call 503-226-0700 to schedule a ride or learn about available services in your area. Book door-to-door rides at least 4 business days ahead.
 
 **Registration:** Call Service Center; eligibility varies by program
 
@@ -6150,7 +6373,7 @@ Reduced fare program for seniors 65+, people with disabilities, and veterans. 72
 
 Door-to-door shared-ride paratransit for people with disabilities who cannot use regular transit. $2.80/ride with monthly cap.
 
-**What to know:** Shared-ride door-to-door service. Book rides up to 3 days in advance or by 5pm the day before. Can book online via CARES system or by phone. 30-minute pick-up windows. LIFT Hop card also works on regular TriMet buses and MAX at the reduced Honored Citizen fare ($1.40). Also offers LIFT+, a flexible alternative.
+**What to know:** Shared-ride door-to-door service. Book rides up to 3 days in advance or by 5pm the day before. Can book online via CARES system or by phone. 30-minute pick-up windows. LIFT Hop card also works on regular TriMet buses and MAX at the reduced Honored Citizen fare ($1.40). New in 2026 - LIFT+ lets riders opt in to have some trips sent to rideshare partners at the same LIFT fare with shorter waits, and LIFT riders can use an Instacart grocery-delivery option.
 
 **First visit:** Call 503-962-8000 option 2 to start the eligibility process
 
