@@ -58,7 +58,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:32a79cc8e332acc9@portlandresources.org
-DTSTAMP:20260324T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260622
 SUMMARY:Delta Park Powwow and Encampment
@@ -122,16 +122,15 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:f8b00c5e188ddc80@portlandresources.org
-DTSTAMP:20260324T000000Z
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260831
+UID:bfb4691a098227da@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260830
 SUMMARY:Marianas Festival
-DESCRIPTION:Category: Events & Festivals\nCost: $5 parking\nNote: Festival 
- admission details TBD — check website closer to event\nAddress: Blue Lake 
- Regional Park\, 21224 NE Blue Lake Rd\, Fairview\, OR\nWebsite: https://ww
- w.marianasfestival.com/\nDetails: Chamorro cultural celebration at Blue La
- ke Regional Park. Organized by MAGI.
+DESCRIPTION:Category: Events & Festivals\nCost: FREE admission\; $5 per veh
+ icle parking\nAddress: Blue Lake Regional Park\, 21224 NE Blue Lake Rd\, F
+ airview\, OR\nWebsite: https://www.marianasfestival.com/\nDetails: Chamorr
+ o cultural celebration at Blue Lake Regional Park. Organized by MAGI.
 LOCATION:Blue Lake Regional Park\, 21224 NE Blue Lake Rd\, Fairview\, OR
 URL:https://www.marianasfestival.com/
 CATEGORIES:Events & Festivals
@@ -204,6 +203,70 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:6ef01d9473bc6841@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260708T183000
+DTEND;TZID=America/Los_Angeles:20260708T203000
+SUMMARY:Gresham Wednesday Music in the Parks: Music in the Parks
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: 2026 lineup - J
+ uly 8 Carpathian-Pacific Express at Nadaka Nature Park\; July 22 Eric John
+  Kaiser Band at Bella Vista Park\; August 5 Brady Goss at Butler Creek Par
+ k\; August 19 A Cara o Cruz Band at Vance Park\nAddress: Various Gresham p
+ arks\nPhone: 503-618-2300\nWebsite: https://greshamoregon.gov/Recreation/
+LOCATION:Various Gresham parks
+URL:https://greshamoregon.gov/Recreation/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b0da2d15c9289bd9@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260722T183000
+DTEND;TZID=America/Los_Angeles:20260722T203000
+SUMMARY:Gresham Wednesday Music in the Parks: Music in the Parks
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: 2026 lineup - J
+ uly 8 Carpathian-Pacific Express at Nadaka Nature Park\; July 22 Eric John
+  Kaiser Band at Bella Vista Park\; August 5 Brady Goss at Butler Creek Par
+ k\; August 19 A Cara o Cruz Band at Vance Park\nAddress: Various Gresham p
+ arks\nPhone: 503-618-2300\nWebsite: https://greshamoregon.gov/Recreation/
+LOCATION:Various Gresham parks
+URL:https://greshamoregon.gov/Recreation/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4adffa24f0b9bb2f@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260805T183000
+DTEND;TZID=America/Los_Angeles:20260805T203000
+SUMMARY:Gresham Wednesday Music in the Parks: Music in the Parks
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: 2026 lineup - J
+ uly 8 Carpathian-Pacific Express at Nadaka Nature Park\; July 22 Eric John
+  Kaiser Band at Bella Vista Park\; August 5 Brady Goss at Butler Creek Par
+ k\; August 19 A Cara o Cruz Band at Vance Park\nAddress: Various Gresham p
+ arks\nPhone: 503-618-2300\nWebsite: https://greshamoregon.gov/Recreation/
+LOCATION:Various Gresham parks
+URL:https://greshamoregon.gov/Recreation/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d757a2f76f84c485@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260819T183000
+DTEND;TZID=America/Los_Angeles:20260819T203000
+SUMMARY:Gresham Wednesday Music in the Parks: Music in the Parks
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: 2026 lineup - J
+ uly 8 Carpathian-Pacific Express at Nadaka Nature Park\; July 22 Eric John
+  Kaiser Band at Bella Vista Park\; August 5 Brady Goss at Butler Creek Par
+ k\; August 19 A Cara o Cruz Band at Vance Park\nAddress: Various Gresham p
+ arks\nPhone: 503-618-2300\nWebsite: https://greshamoregon.gov/Recreation/
+LOCATION:Various Gresham parks
+URL:https://greshamoregon.gov/Recreation/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:708c6dfd86bfecc0@portlandresources.org
 DTSTAMP:20260317T000000Z
 DTSTART;VALUE=DATE:20260320
@@ -236,7 +299,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:396829af8d43697e@portlandresources.org
-DTSTAMP:20260124T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;VALUE=DATE:20260718
 DTEND;VALUE=DATE:20260719
 SUMMARY:Gresham Arts Festival
@@ -250,7 +313,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4fbec19f3f135081@portlandresources.org
-DTSTAMP:20260124T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:India Festival
@@ -264,7 +327,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e17302519b24aeeb@portlandresources.org
-DTSTAMP:20260124T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:Obon Festival (Oregon Buddhist Temple)
@@ -280,7 +343,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0d346851668409e0@portlandresources.org
-DTSTAMP:20260124T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20261001
 SUMMARY:Swan Island Dahlias
@@ -295,7 +358,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:299891133691a158@portlandresources.org
-DTSTAMP:20251202T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260823
 SUMMARY:Clackamas County Fair
@@ -310,7 +373,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cf6b2748cda84a9c@portlandresources.org
-DTSTAMP:20260124T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260921
 SUMMARY:Portland Polish Festival
@@ -326,7 +389,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1b5cf0280b32b4e2@portlandresources.org
-DTSTAMP:20260124T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261005
 SUMMARY:Portland Greek Festival
@@ -402,17 +465,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6c03d30cb8f57738@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260307T100000
 DTEND;TZID=America/Los_Angeles:20260307T170000
 SUMMARY:Portland Saturday Market: Saturday Market
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: March through D
- ecember\; live music at 11am and 2pm\nAddress: Waterfront Park\, Portland\
- , OR\nWebsite: https://portlandsaturdaymarket.com/\nDetails: Largest conti
- nuously operating outdoor arts market in the U.S.\, 250+ vendors
-LOCATION:Waterfront Park\, Portland\, OR
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: March 7 through
+  December 19\, 2026\; live music at 11am and 2pm\nAddress: 2 SW Naito Pkwy
+ \, Portland\, OR 97204\nWebsite: https://portlandsaturdaymarket.com/\nDeta
+ ils: Largest continuously operating outdoor arts market in the U.S.\, 250+
+  vendors
+LOCATION:2 SW Naito Pkwy\, Portland\, OR 97204
 URL:https://portlandsaturdaymarket.com/
-RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20261225T075959Z
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20261220T075959Z
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -459,25 +523,26 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:95aecf2fcdd0f430@portlandresources.org
-DTSTAMP:20260124T000000Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261222
+UID:b15d343b54d9cc34@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261221
 SUMMARY:Christmas Ships Parade
 DESCRIPTION:Category: Events & Festivals\nCost: FREE viewing from any river
  front\nAddress: Columbia and Willamette Rivers\, Portland\, OR\nWebsite: h
  ttps://christmasships.org/\nDetails: 15 nights of decorated boats on the r
- ivers
+ ivers. Meet the Skippers at RiverPlace Marina dock Saturday December 19 8-
+ 10pm and Sunday December 20 2-4:30pm.
 LOCATION:Columbia and Willamette Rivers\, Portland\, OR
 URL:https://christmasships.org/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:435c9e4f7bb3de0c@portlandresources.org
-DTSTAMP:20260211T000000Z
-DTSTART;VALUE=DATE:20260206
-DTEND;VALUE=DATE:20260215
+UID:edc64077dd8da10e@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270214
 SUMMARY:Portland Winter Light Festival
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Multiple loc
  ations including Pioneer Courthouse Square and Electric Blocks (Central Ea
@@ -491,17 +556,17 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:1e675cfc3e5b4613@portlandresources.org
-DTSTAMP:20260129T000000Z
-DTSTART;VALUE=DATE:20260626
+UID:e1ce70ee351468d9@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20260627
 DTEND;VALUE=DATE:20260629
 SUMMARY:Good in the Hood Multicultural Festival
 DESCRIPTION:Category: Events & Festivals\nCost: FREE (some ticketed events 
- like gospel brunch)\nAddress: Lillis-Albina Park\, North Portland\nWebsite
- : https://www.goodnthehood.org\nDetails: Portland's longest-running multic
- ultural festival celebrating diverse communities in North/Northeast Portla
- nd.
-LOCATION:Lillis-Albina Park\, North Portland
+ like gospel brunch)\nAddress: Lillis-Albina Park\, 2451 N Flint Ave\, Port
+ land\, OR 97227\nWebsite: https://www.goodnthehood.org\nDetails: Portland'
+ s longest-running multicultural festival celebrating diverse communities i
+ n North/Northeast Portland.
+LOCATION:Lillis-Albina Park\, 2451 N Flint Ave\, Portland\, OR 97227
 URL:https://www.goodnthehood.org
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
@@ -537,10 +602,10 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:b15c3d238c9a45ab@portlandresources.org
-DTSTAMP:20260117T000000Z
-DTSTART;VALUE=DATE:20260709
-DTEND;VALUE=DATE:20260906
+UID:9ba27b707f99a454@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260830
 SUMMARY:Portland Parks Summer Free For All
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Various city
   parks throughout Portland\nPhone: 503-823-2525\nWebsite: https://www.port
@@ -570,7 +635,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:514cc305c64689a1@portlandresources.org
-DTSTAMP:20260324T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260517T110000
 DTEND;TZID=America/Los_Angeles:20260517T160000
 SUMMARY:Portland Sunday Parkways: Sunday Parkways - Southwest Portland
@@ -586,7 +651,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7c47408d0d7d791b@portlandresources.org
-DTSTAMP:20260324T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260628T110000
 DTEND;TZID=America/Los_Angeles:20260628T160000
 SUMMARY:Portland Sunday Parkways: Sunday Parkways - East Portland
@@ -603,7 +668,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6d79c6825187c7ff@portlandresources.org
-DTSTAMP:20260324T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260802T110000
 DTEND;TZID=America/Los_Angeles:20260802T160000
 SUMMARY:Portland Sunday Parkways: Sunday Parkways - North Portland
@@ -621,7 +686,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ce9c6196f14232e1@portlandresources.org
-DTSTAMP:20260324T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260913T110000
 DTEND;TZID=America/Los_Angeles:20260913T160000
 SUMMARY:Portland Sunday Parkways: Sunday Parkways - Downtown Portland
@@ -651,6 +716,80 @@ DESCRIPTION:Category: Events & Festivals\nCost: FREE to attend\nNote: Food\
  26.
 LOCATION:SW Capitol Hwy & SW 35th Ave\, Portland\, OR 97219
 URL:https://www.multnomahvillage.org/event-details/multnomah-days-2026
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3a188dac215082fd@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20270101
+SUMMARY:Oregon Zoo ZooLights
+DESCRIPTION:Category: Events & Festivals\nCost: $13-$35 adults\, $13-$30 yo
+ uth depending on the night\; Value Nights are the cheapest and are marked 
+ on the ZooLights calendar\nNote: 10% off tickets bought by September 22\, 
+ 2026. No other discounts apply on Value Nights. Ask whether the zoo's $13 
+ income-qualified tickets apply.\nAddress: Oregon Zoo\, 4001 SW Canyon Rd\,
+  Portland\, OR 97221\nPhone: 503-226-1561\nWebsite: https://www.oregonzoo.
+ org/lights\nDetails: Annual holiday light display at the Oregon Zoo\, Nove
+ mber 20\, 2026 through January 3\, 2027. Not free\, but Value Nights start
+  at $13.
+LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
+URL:https://www.oregonzoo.org/lights
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6b399c2dd83ebade@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270104
+SUMMARY:Oregon Zoo ZooLights
+DESCRIPTION:Category: Events & Festivals\nCost: $13-$35 adults\, $13-$30 yo
+ uth depending on the night\; Value Nights are the cheapest and are marked 
+ on the ZooLights calendar\nNote: 10% off tickets bought by September 22\, 
+ 2026. No other discounts apply on Value Nights. Ask whether the zoo's $13 
+ income-qualified tickets apply.\nAddress: Oregon Zoo\, 4001 SW Canyon Rd\,
+  Portland\, OR 97221\nPhone: 503-226-1561\nWebsite: https://www.oregonzoo.
+ org/lights\nDetails: Annual holiday light display at the Oregon Zoo\, Nove
+ mber 20\, 2026 through January 3\, 2027. Not free\, but Value Nights start
+  at $13.
+LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
+URL:https://www.oregonzoo.org/lights
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:78e57fbf8ca8200a@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261004
+SUMMARY:Portland Night Market
+DESCRIPTION:Category: Events & Festivals\nCost: FREE admission\, all ages\n
+ Note: Optional $10 fast pass to skip the entry line\; food and vendor purc
+ hases extra\nAddress: 100 SE Alder St\, Portland\, OR 97214\nWebsite: http
+ s://www.pdxnm.com/\nDetails: Free quarterly market with 175+ local vendors
+  and food. Fall/winter 2026 dates from a secondary listing - the December 
+ days and nightly hours should be confirmed on pdxnm.com.
+LOCATION:100 SE Alder St\, Portland\, OR 97214
+URL:https://www.pdxnm.com/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3e0abe2afae2c440@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261207
+SUMMARY:Portland Night Market
+DESCRIPTION:Category: Events & Festivals\nCost: FREE admission\, all ages\n
+ Note: Optional $10 fast pass to skip the entry line\; food and vendor purc
+ hases extra\nAddress: 100 SE Alder St\, Portland\, OR 97214\nWebsite: http
+ s://www.pdxnm.com/\nDetails: Free quarterly market with 175+ local vendors
+  and food. Fall/winter 2026 dates from a secondary listing - the December 
+ days and nightly hours should be confirmed on pdxnm.com.
+LOCATION:100 SE Alder St\, Portland\, OR 97214
+URL:https://www.pdxnm.com/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:b8b48cbe08f220fe@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260111T150000
 DTEND;TZID=America/Los_Angeles:20260111T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (In-Person)
@@ -51,7 +51,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dba6711eb13da213@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T150000
 DTEND;TZID=America/Los_Angeles:20260104T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (Online)
@@ -76,7 +76,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9777816b12080f9@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support
@@ -102,7 +102,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:59d4efd22aea95e4@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260111T130000
 DTEND;TZID=America/Los_Angeles:20260111T143000
 SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support (In-Person)
@@ -130,7 +130,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6be9edf2f9be9c02@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260114T190000
 DTEND;TZID=America/Los_Angeles:20260114T203000
 SUMMARY:NAMI Multnomah: Young Adult (18-35) Online
@@ -155,7 +155,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e824f70c00e4569b@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260111T150000
 DTEND;TZID=America/Los_Angeles:20260111T163000
 SUMMARY:NAMI Multnomah: Young Adult (18-35) In-Person
@@ -181,7 +181,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4b11c0aa298f2306@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:NAMI Multnomah: BIPOC Peer Support
@@ -207,7 +207,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c08dbed81b24d0f5@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Multnomah: Complex Trauma & Dissociation Support
@@ -494,7 +494,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bf09ccb7ad115192@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T100000
 DTEND;TZID=America/Los_Angeles:20260101T140000
 SUMMARY:FolkTime Peer Connection Centers: Drop-in peer support - Free To Be
@@ -514,7 +514,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d64ff11ba8b3e087@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T100000
 DTEND;TZID=America/Los_Angeles:20260106T140000
 SUMMARY:FolkTime Peer Connection Centers: Drop-in peer support - Oregon Cit
@@ -797,7 +797,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:19f42812d02d4c30@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T100000
 DTEND;TZID=America/Los_Angeles:20260104T110000
 SUMMARY:Recovery Dharma Portland (PDX): Queer Paths (LGBTQIA+)
@@ -814,7 +814,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d01907d4e561c48d@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T160000
 DTEND;TZID=America/Los_Angeles:20260104T170000
 SUMMARY:Recovery Dharma Portland (PDX): Middle Way on MLK
@@ -832,7 +832,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a401de0df0a97d58@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T070000
 DTEND;TZID=America/Los_Angeles:20260105T080000
 SUMMARY:Recovery Dharma Portland (PDX): Dawn Metta
@@ -849,7 +849,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8b74d636a24a9d3b@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:Recovery Dharma Portland (PDX): Dharma Rain Eightfold Path Study
@@ -867,7 +867,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cf5b8c34d2c742aa@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T180000
 DTEND;TZID=America/Los_Angeles:20260105T191500
 SUMMARY:Recovery Dharma Portland (PDX): Hungry Ghosts
@@ -885,7 +885,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:23dea98a4f0c56b7@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T193000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:Recovery Dharma Portland (PDX): Women's\, Trans\, and Non-Binary
@@ -903,7 +903,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b9e264e45b420ecd@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T120000
 DTEND;TZID=America/Los_Angeles:20260101T130000
 SUMMARY:Recovery Dharma Portland (PDX): Thursday Portland Alano Club
@@ -921,7 +921,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:568f2b14f76f137e@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T190000
 DTEND;TZID=America/Los_Angeles:20260102T203000
 SUMMARY:Recovery Dharma Portland (PDX): Sarpashana
@@ -939,7 +939,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0a44eb8e53fca375@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T190000
 DTEND;TZID=America/Los_Angeles:20260103T200000
 SUMMARY:Recovery Dharma Portland (PDX): Meditation Sandwich
@@ -957,17 +957,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d6de414531d54a8c@portlandresources.org
-DTSTAMP:20260216T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T100000
 DTEND;TZID=America/Los_Angeles:20260103T120000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): Trans PDX Support Grou
  p
 DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: For trans\, nonbinary
- \, agender\, gender-fabulous folks\nAddress: 4115 N Mississippi Ave\, Port
- land\, OR 97217\nPhone: 503-234-7837\nWebsite: https://www.pdxqcenter.org/
- \nDetails: Portland's LGBTQ+ community center. Safe space with multi-gener
- ational programs. Many support groups and weekly events.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>For trans, nonbinary, agender, gender-fabulous folks</p><p><strong>Address:</strong> 4115 N Mississippi Ave, Portland, OR 97217</p><p><strong>Phone:</strong> <a href="tel:503-234-7837">503-234-7837</a></p><p><strong>Website:</strong> <a href="https://www.pdxqcenter.org/">https://www.pdxqcenter.org/</a></p><p><strong>Details:</strong> Portland&#x27;s LGBTQ+ community center. Safe space with multi-generational programs. Many support groups and weekly events.</p></BODY></HTML>
+ \, agender\, gender-fabulous folks. Masks required at in-person meetings.\
+ nAddress: 4115 N Mississippi Ave\, Portland\, OR 97217\nPhone: 503-234-783
+ 7\nWebsite: https://www.pdxqcenter.org/\nDetails: Portland's LGBTQ+ commun
+ ity center. Safe space with multi-generational programs. Many support grou
+ ps and weekly events.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>For trans, nonbinary, agender, gender-fabulous folks. Masks required at in-person meetings.</p><p><strong>Address:</strong> 4115 N Mississippi Ave, Portland, OR 97217</p><p><strong>Phone:</strong> <a href="tel:503-234-7837">503-234-7837</a></p><p><strong>Website:</strong> <a href="https://www.pdxqcenter.org/">https://www.pdxqcenter.org/</a></p><p><strong>Details:</strong> Portland&#x27;s LGBTQ+ community center. Safe space with multi-generational programs. Many support groups and weekly events.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:4115 N Mississippi Ave\, Portland\, OR 97217
 URL:https://www.pdxqcenter.org/
@@ -976,38 +977,20 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:5dccfbb24ed3c3f2@portlandresources.org
-DTSTAMP:20260216T000000Z
-DTSTART;TZID=America/Los_Angeles:20260105T190000
-DTEND;TZID=America/Los_Angeles:20260105T203000
-SUMMARY:Q Center Portland (LGBTQ+ Community Center): LGBTQIA2S+ Mental Heal
- th Support
-DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Peer-led for anxiety\
- , depression\, bipolar\, PTSD\nAddress: 4115 N Mississippi Ave\, Portland\
- , OR 97217\nPhone: 503-234-7837\nWebsite: https://www.pdxqcenter.org/\nDet
- ails: Portland's LGBTQ+ community center. Safe space with multi-generation
- al programs. Many support groups and weekly events.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>Peer-led for anxiety, depression, bipolar, PTSD</p><p><strong>Address:</strong> 4115 N Mississippi Ave, Portland, OR 97217</p><p><strong>Phone:</strong> <a href="tel:503-234-7837">503-234-7837</a></p><p><strong>Website:</strong> <a href="https://www.pdxqcenter.org/">https://www.pdxqcenter.org/</a></p><p><strong>Details:</strong> Portland&#x27;s LGBTQ+ community center. Safe space with multi-generational programs. Many support groups and weekly events.</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:4115 N Mississippi Ave\, Portland\, OR 97217
-URL:https://www.pdxqcenter.org/
-RRULE:FREQ=MONTHLY;BYDAY=1MO,3MO
-CATEGORIES:Peer Support
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:65981a99ae5aad6e@portlandresources.org
-DTSTAMP:20260216T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260114T190000
 DTEND;TZID=America/Los_Angeles:20260114T210000
 SUMMARY:Q Center Portland (LGBTQ+ Community Center): QTIBIPOC Community Spa
  ce
 DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: For queer\, trans\, i
- ntersex BIPOC community members\nAddress: 4115 N Mississippi Ave\, Portlan
- d\, OR 97217\nPhone: 503-234-7837\nWebsite: https://www.pdxqcenter.org/\nD
- etails: Portland's LGBTQ+ community center. Safe space with multi-generati
- onal programs. Many support groups and weekly events.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>For queer, trans, intersex BIPOC community members</p><p><strong>Address:</strong> 4115 N Mississippi Ave, Portland, OR 97217</p><p><strong>Phone:</strong> <a href="tel:503-234-7837">503-234-7837</a></p><p><strong>Website:</strong> <a href="https://www.pdxqcenter.org/">https://www.pdxqcenter.org/</a></p><p><strong>Details:</strong> Portland&#x27;s LGBTQ+ community center. Safe space with multi-generational programs. Many support groups and weekly events.</p></BODY></HTML>
+ ntersex BIPOC community members. Q Center still lists QTBIPOC support in 2
+ 026 but publishes no day/time online - confirm the schedule by phone befor
+ e attending.\nAddress: 4115 N Mississippi Ave\, Portland\, OR 97217\nPhone
+ : 503-234-7837\nWebsite: https://www.pdxqcenter.org/\nDetails: Portland's 
+ LGBTQ+ community center. Safe space with multi-generational programs. Many
+  support groups and weekly events.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p>For queer, trans, intersex BIPOC community members. Q Center still lists QTBIPOC support in 2026 but publishes no day/time online - confirm the schedule by phone before attending.</p><p><strong>Address:</strong> 4115 N Mississippi Ave, Portland, OR 97217</p><p><strong>Phone:</strong> <a href="tel:503-234-7837">503-234-7837</a></p><p><strong>Website:</strong> <a href="https://www.pdxqcenter.org/">https://www.pdxqcenter.org/</a></p><p><strong>Details:</strong> Portland&#x27;s LGBTQ+ community center. Safe space with multi-generational programs. Many support groups and weekly events.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:4115 N Mississippi Ave\, Portland\, OR 97217
 URL:https://www.pdxqcenter.org/
@@ -1412,6 +1395,201 @@ X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:324 NE 9th St.\, Gresham\, OR 97030
 URL:https://4drecovery.org/
 RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR,SA,SU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b81b916aec5a4591@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260526T173000
+DTEND;TZID=America/Los_Angeles:20260526T183000
+SUMMARY:Plates for the People (at Alano Club): Plates for the People 2026 c
+ ooking class
+DESCRIPTION:Category: Peer Support\nCost: FREE (free Eventbrite ticket requ
+ ired)\nInfo: Confirmed 2026 dates from Eventbrite\; the June and September
+  dates were not captured - check Eventbrite. Classes have run longer in pa
+ st years when a shared meal followed.\nAddress: Cookshop at the Alano Club
+ \, 909 NW 24th Ave\, Portland\, OR 97210\nPhone: (503) 222-5756\nWebsite: 
+ https://www.portlandalano.org/plates-for-the-people\nDetails: Free cooking
+  classes for people in or seeking recovery. Led by award-winning chefs who
+  share their own recovery stories. Learn budgeting\, meal planning\, and c
+ ooking. Each class ends with a shared meal. Partnership between Alano Club
+  and Ben's Friends.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE (free Eventbrite ticket required)</p><p>Confirmed 2026 dates from Eventbrite; the June and September dates were not captured - check Eventbrite. Classes have run longer in past years when a shared meal followed.</p><p><strong>Address:</strong> Cookshop at the Alano Club, 909 NW 24th Ave, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:(503) 222-5756">(503) 222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org/plates-for-the-people">https://www.portlandalano.org/plates-for-the-people</a></p><p><strong>Details:</strong> Free cooking classes for people in or seeking recovery. Led by award-winning chefs who share their own recovery stories. Learn budgeting, meal planning, and cooking. Each class ends with a shared meal. Partnership between Alano Club and Ben&#x27;s Friends.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Cookshop at the Alano Club\, 909 NW 24th Ave\, Portland\, OR 97210
+URL:https://www.portlandalano.org/plates-for-the-people
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:84e2c58cc07a1bcf@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260728T173000
+DTEND;TZID=America/Los_Angeles:20260728T183000
+SUMMARY:Plates for the People (at Alano Club): Plates for the People 2026 c
+ ooking class
+DESCRIPTION:Category: Peer Support\nCost: FREE (free Eventbrite ticket requ
+ ired)\nInfo: Confirmed 2026 dates from Eventbrite\; the June and September
+  dates were not captured - check Eventbrite. Classes have run longer in pa
+ st years when a shared meal followed.\nAddress: Cookshop at the Alano Club
+ \, 909 NW 24th Ave\, Portland\, OR 97210\nPhone: (503) 222-5756\nWebsite: 
+ https://www.portlandalano.org/plates-for-the-people\nDetails: Free cooking
+  classes for people in or seeking recovery. Led by award-winning chefs who
+  share their own recovery stories. Learn budgeting\, meal planning\, and c
+ ooking. Each class ends with a shared meal. Partnership between Alano Club
+  and Ben's Friends.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE (free Eventbrite ticket required)</p><p>Confirmed 2026 dates from Eventbrite; the June and September dates were not captured - check Eventbrite. Classes have run longer in past years when a shared meal followed.</p><p><strong>Address:</strong> Cookshop at the Alano Club, 909 NW 24th Ave, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:(503) 222-5756">(503) 222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org/plates-for-the-people">https://www.portlandalano.org/plates-for-the-people</a></p><p><strong>Details:</strong> Free cooking classes for people in or seeking recovery. Led by award-winning chefs who share their own recovery stories. Learn budgeting, meal planning, and cooking. Each class ends with a shared meal. Partnership between Alano Club and Ben&#x27;s Friends.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Cookshop at the Alano Club\, 909 NW 24th Ave\, Portland\, OR 97210
+URL:https://www.portlandalano.org/plates-for-the-people
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9abe0ed66a3ae3b9@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260825T173000
+DTEND;TZID=America/Los_Angeles:20260825T183000
+SUMMARY:Plates for the People (at Alano Club): Plates for the People 2026 c
+ ooking class
+DESCRIPTION:Category: Peer Support\nCost: FREE (free Eventbrite ticket requ
+ ired)\nInfo: Confirmed 2026 dates from Eventbrite\; the June and September
+  dates were not captured - check Eventbrite. Classes have run longer in pa
+ st years when a shared meal followed.\nAddress: Cookshop at the Alano Club
+ \, 909 NW 24th Ave\, Portland\, OR 97210\nPhone: (503) 222-5756\nWebsite: 
+ https://www.portlandalano.org/plates-for-the-people\nDetails: Free cooking
+  classes for people in or seeking recovery. Led by award-winning chefs who
+  share their own recovery stories. Learn budgeting\, meal planning\, and c
+ ooking. Each class ends with a shared meal. Partnership between Alano Club
+  and Ben's Friends.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE (free Eventbrite ticket required)</p><p>Confirmed 2026 dates from Eventbrite; the June and September dates were not captured - check Eventbrite. Classes have run longer in past years when a shared meal followed.</p><p><strong>Address:</strong> Cookshop at the Alano Club, 909 NW 24th Ave, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:(503) 222-5756">(503) 222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org/plates-for-the-people">https://www.portlandalano.org/plates-for-the-people</a></p><p><strong>Details:</strong> Free cooking classes for people in or seeking recovery. Led by award-winning chefs who share their own recovery stories. Learn budgeting, meal planning, and cooking. Each class ends with a shared meal. Partnership between Alano Club and Ben&#x27;s Friends.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Cookshop at the Alano Club\, 909 NW 24th Ave\, Portland\, OR 97210
+URL:https://www.portlandalano.org/plates-for-the-people
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ed586b351bf19fd3@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20261027T173000
+DTEND;TZID=America/Los_Angeles:20261027T183000
+SUMMARY:Plates for the People (at Alano Club): Plates for the People 2026 c
+ ooking class
+DESCRIPTION:Category: Peer Support\nCost: FREE (free Eventbrite ticket requ
+ ired)\nInfo: Confirmed 2026 dates from Eventbrite\; the June and September
+  dates were not captured - check Eventbrite. Classes have run longer in pa
+ st years when a shared meal followed.\nAddress: Cookshop at the Alano Club
+ \, 909 NW 24th Ave\, Portland\, OR 97210\nPhone: (503) 222-5756\nWebsite: 
+ https://www.portlandalano.org/plates-for-the-people\nDetails: Free cooking
+  classes for people in or seeking recovery. Led by award-winning chefs who
+  share their own recovery stories. Learn budgeting\, meal planning\, and c
+ ooking. Each class ends with a shared meal. Partnership between Alano Club
+  and Ben's Friends.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE (free Eventbrite ticket required)</p><p>Confirmed 2026 dates from Eventbrite; the June and September dates were not captured - check Eventbrite. Classes have run longer in past years when a shared meal followed.</p><p><strong>Address:</strong> Cookshop at the Alano Club, 909 NW 24th Ave, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:(503) 222-5756">(503) 222-5756</a></p><p><strong>Website:</strong> <a href="https://www.portlandalano.org/plates-for-the-people">https://www.portlandalano.org/plates-for-the-people</a></p><p><strong>Details:</strong> Free cooking classes for people in or seeking recovery. Led by award-winning chefs who share their own recovery stories. Learn budgeting, meal planning, and cooking. Each class ends with a shared meal. Partnership between Alano Club and Ben&#x27;s Friends.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Cookshop at the Alano Club\, 909 NW 24th Ave\, Portland\, OR 97210
+URL:https://www.portlandalano.org/plates-for-the-people
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8dedc76acd0cb02c@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T130000
+DTEND;TZID=America/Los_Angeles:20260106T143000
+SUMMARY:NAMI Washington County: Anxiety Connection Support Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
+ er-led NAMI Connection group for adults living with anxiety\nAddress: 1868
+ 0 SW Shaw St\, Aloha\, OR 97007\nPhone: 503-356-6835\nWebsite: https://www
+ .washconami.org\nDetails: Washington County chapter of NAMI. Provides educ
+ ation\, support\, and advocacy for people affected by mental illness.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Peer-led NAMI Connection group for adults living with anxiety</p><p><strong>Address:</strong> 18680 SW Shaw St, Aloha, OR 97007</p><p><strong>Phone:</strong> <a href="tel:503-356-6835">503-356-6835</a></p><p><strong>Website:</strong> <a href="https://www.washconami.org">https://www.washconami.org</a></p><p><strong>Details:</strong> Washington County chapter of NAMI. Provides education, support, and advocacy for people affected by mental illness.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:18680 SW Shaw St\, Aloha\, OR 97007
+URL:https://www.washconami.org
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:94f540f0888d418b@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T140000
+DTEND;TZID=America/Los_Angeles:20260107T153000
+SUMMARY:NAMI Washington County: Women's Connection Support Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
+ er-led NAMI Connection group for women living with mental health condition
+ s\nAddress: 18680 SW Shaw St\, Aloha\, OR 97007\nPhone: 503-356-6835\nWebs
+ ite: https://www.washconami.org\nDetails: Washington County chapter of NAM
+ I. Provides education\, support\, and advocacy for people affected by ment
+ al illness.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Peer-led NAMI Connection group for women living with mental health conditions</p><p><strong>Address:</strong> 18680 SW Shaw St, Aloha, OR 97007</p><p><strong>Phone:</strong> <a href="tel:503-356-6835">503-356-6835</a></p><p><strong>Website:</strong> <a href="https://www.washconami.org">https://www.washconami.org</a></p><p><strong>Details:</strong> Washington County chapter of NAMI. Provides education, support, and advocacy for people affected by mental illness.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:18680 SW Shaw St\, Aloha\, OR 97007
+URL:https://www.washconami.org
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:db2bed42f248855d@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T120000
+DTEND;TZID=America/Los_Angeles:20260103T133000
+SUMMARY:NAMI Washington County: Depression/Bipolar Connection Support Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
+ er-led NAMI Connection group for adults living with depression or bipolar 
+ disorder\nAddress: 18680 SW Shaw St\, Aloha\, OR 97007\nPhone: 503-356-683
+ 5\nWebsite: https://www.washconami.org\nDetails: Washington County chapter
+  of NAMI. Provides education\, support\, and advocacy for people affected 
+ by mental illness.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Peer-led NAMI Connection group for adults living with depression or bipolar disorder</p><p><strong>Address:</strong> 18680 SW Shaw St, Aloha, OR 97007</p><p><strong>Phone:</strong> <a href="tel:503-356-6835">503-356-6835</a></p><p><strong>Website:</strong> <a href="https://www.washconami.org">https://www.washconami.org</a></p><p><strong>Details:</strong> Washington County chapter of NAMI. Provides education, support, and advocacy for people affected by mental illness.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:18680 SW Shaw St\, Aloha\, OR 97007
+URL:https://www.washconami.org
+RRULE:FREQ=WEEKLY;BYDAY=SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6ef78a0620b61022@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T140000
+DTEND;TZID=America/Los_Angeles:20260105T150000
+SUMMARY:NAMI Washington County: Schizophrenia Connection Support Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
+ er-led NAMI Connection group for adults living with schizophrenia or psych
+ osis\nAddress: 18680 SW Shaw St\, Aloha\, OR 97007\nPhone: 503-356-6835\nW
+ ebsite: https://www.washconami.org\nDetails: Washington County chapter of 
+ NAMI. Provides education\, support\, and advocacy for people affected by m
+ ental illness.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Peer-led NAMI Connection group for adults living with schizophrenia or psychosis</p><p><strong>Address:</strong> 18680 SW Shaw St, Aloha, OR 97007</p><p><strong>Phone:</strong> <a href="tel:503-356-6835">503-356-6835</a></p><p><strong>Website:</strong> <a href="https://www.washconami.org">https://www.washconami.org</a></p><p><strong>Details:</strong> Washington County chapter of NAMI. Provides education, support, and advocacy for people affected by mental illness.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:18680 SW Shaw St\, Aloha\, OR 97007
+URL:https://www.washconami.org
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb7b92b7f76f818d@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T140000
+DTEND;TZID=America/Los_Angeles:20260101T150000
+SUMMARY:NAMI Washington County: Men's Support Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Virtual (Zoom)\nInf
+ o: Peer-led group for men living with mental health conditions\; register 
+ on washconami.org for the Zoom link\nAddress: 18680 SW Shaw St\, Aloha\, O
+ R 97007\nPhone: 503-356-6835\nWebsite: https://www.washconami.org\nDetails
+ : Washington County chapter of NAMI. Provides education\, support\, and ad
+ vocacy for people affected by mental illness.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Virtual (Zoom)</p><p>Peer-led group for men living with mental health conditions; register on washconami.org for the Zoom link</p><p><strong>Address:</strong> 18680 SW Shaw St, Aloha, OR 97007</p><p><strong>Phone:</strong> <a href="tel:503-356-6835">503-356-6835</a></p><p><strong>Website:</strong> <a href="https://www.washconami.org">https://www.washconami.org</a></p><p><strong>Details:</strong> Washington County chapter of NAMI. Provides education, support, and advocacy for people affected by mental illness.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:18680 SW Shaw St\, Aloha\, OR 97007
+URL:https://www.washconami.org
+RRULE:FREQ=WEEKLY;BYDAY=TH
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2605,20 +2783,20 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b744c3545429bb98@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T080000
 DTEND;TZID=America/Los_Angeles:20260101T170000
 SUMMARY:Bridges to Change - Club Hope: Recovery Drop-In Center
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Sa
  fe space for peer connection and support. Shower/laundry facilities availa
  ble Mon-Fri 10am-3pm. Bus pass assistance and resource referrals available
- .\nAddress: 100 SE Cleveland Ave\, Gresham\, OR 97030\nPhone: 503-465-2749
- \nWebsite: https://www.bridgestochange.com\nDetails: Peer-run recovery cen
- ter in Gresham. Staff have lived experience in recovery. Also provides hou
- sing\, mobile outreach (MBHT)\, and shower/laundry services.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Safe space for peer connection and support. Shower/laundry facilities available Mon-Fri 10am-3pm. Bus pass assistance and resource referrals available.</p><p><strong>Address:</strong> 100 SE Cleveland Ave, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-465-2749">503-465-2749</a></p><p><strong>Website:</strong> <a href="https://www.bridgestochange.com">https://www.bridgestochange.com</a></p><p><strong>Details:</strong> Peer-run recovery center in Gresham. Staff have lived experience in recovery. Also provides housing, mobile outreach (MBHT), and shower/laundry services.</p></BODY></HTML>
+ .\nAddress: 100 SE Cleveland St\, Gresham\, OR 97030\nPhone: 503-465-2749\
+ nWebsite: https://www.bridgestochange.com\nDetails: Peer-run recovery cent
+ er in Gresham. Staff have lived experience in recovery. Also provides hous
+ ing\, mobile outreach (MBHT)\, and shower/laundry services.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>Safe space for peer connection and support. Shower/laundry facilities available Mon-Fri 10am-3pm. Bus pass assistance and resource referrals available.</p><p><strong>Address:</strong> 100 SE Cleveland St, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-465-2749">503-465-2749</a></p><p><strong>Website:</strong> <a href="https://www.bridgestochange.com">https://www.bridgestochange.com</a></p><p><strong>Details:</strong> Peer-run recovery center in Gresham. Staff have lived experience in recovery. Also provides housing, mobile outreach (MBHT), and shower/laundry services.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:100 SE Cleveland Ave\, Gresham\, OR 97030
+LOCATION:100 SE Cleveland St\, Gresham\, OR 97030
 URL:https://www.bridgestochange.com
 RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
 CATEGORIES:Peer Support
@@ -2626,21 +2804,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3f2be9a46ade2d95@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T173000
 DTEND;TZID=America/Los_Angeles:20260106T183000
 SUMMARY:Bridges to Change - Club Hope: Dual Diagnosis Anonymous (DDA) Meeti
  ng
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Fo
  r people with co-occurring mental health and substance use conditions. Pee
- r-led 12-step style meeting.\nAddress: 100 SE Cleveland Ave\, Gresham\, OR
-  97030\nPhone: 503-465-2749\nWebsite: https://www.bridgestochange.com\nDet
- ails: Peer-run recovery center in Gresham. Staff have lived experience in 
- recovery. Also provides housing\, mobile outreach (MBHT)\, and shower/laun
- dry services.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>For people with co-occurring mental health and substance use conditions. Peer-led 12-step style meeting.</p><p><strong>Address:</strong> 100 SE Cleveland Ave, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-465-2749">503-465-2749</a></p><p><strong>Website:</strong> <a href="https://www.bridgestochange.com">https://www.bridgestochange.com</a></p><p><strong>Details:</strong> Peer-run recovery center in Gresham. Staff have lived experience in recovery. Also provides housing, mobile outreach (MBHT), and shower/laundry services.</p></BODY></HTML>
+ r-led 12-step style meeting.\nAddress: 100 SE Cleveland St\, Gresham\, OR 
+ 97030\nPhone: 503-465-2749\nWebsite: https://www.bridgestochange.com\nDeta
+ ils: Peer-run recovery center in Gresham. Staff have lived experience in r
+ ecovery. Also provides housing\, mobile outreach (MBHT)\, and shower/laund
+ ry services.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> In-person</p><p>For people with co-occurring mental health and substance use conditions. Peer-led 12-step style meeting.</p><p><strong>Address:</strong> 100 SE Cleveland St, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-465-2749">503-465-2749</a></p><p><strong>Website:</strong> <a href="https://www.bridgestochange.com">https://www.bridgestochange.com</a></p><p><strong>Details:</strong> Peer-run recovery center in Gresham. Staff have lived experience in recovery. Also provides housing, mobile outreach (MBHT), and shower/laundry services.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:100 SE Cleveland Ave\, Gresham\, OR 97030
+LOCATION:100 SE Cleveland St\, Gresham\, OR 97030
 URL:https://www.bridgestochange.com
 RRULE:FREQ=WEEKLY;BYDAY=TU
 CATEGORIES:Peer Support
@@ -2648,7 +2826,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dac2e71c3d6922c7@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260128T123000
 DTEND;TZID=America/Los_Angeles:20260128T140000
 SUMMARY:Community for Positive Aging: Conversations on Aging
@@ -2668,7 +2846,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:37934774f23f64f3@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260112T130000
 DTEND;TZID=America/Los_Angeles:20260112T140000
 SUMMARY:Community for Positive Aging: Family Caregivers Support Group
@@ -2689,7 +2867,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c1666e475947148e@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260122T110000
 DTEND;TZID=America/Los_Angeles:20260122T123000
 SUMMARY:Community for Positive Aging: Memory Cafe
@@ -2710,7 +2888,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b2c9ee508316dbb0@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T093000
 DTEND;TZID=America/Los_Angeles:20260107T103000
 SUMMARY:Portland Hearing Voices: In-Person Hearing Voices Group
@@ -2734,7 +2912,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9b4a6cb18a941d5e@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T123000
 DTEND;TZID=America/Los_Angeles:20260105T133000
 SUMMARY:Portland Hearing Voices: Hearing Voices Online
@@ -2778,6 +2956,48 @@ X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:6171 SW Capitol Highway\, Portland\, OR 97239
 URL:https://hopewellhousepdx.org/community-connections/
 RRULE:FREQ=MONTHLY;BYDAY=-1MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5ec4d076b115d57f@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260124T100000
+DTEND;TZID=America/Los_Angeles:20260124T120000
+SUMMARY:PFLAG Portland: In-Person Chapter Meetings
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Walk-in\, no regist
+ ration needed\nInfo: Monthly support circle with announcements\, guest spe
+ akers\, and socializing. Meeting at a faith community center (free of reli
+ gious iconography) - call or email for the address.\nPhone: 503-232-7676\n
+ Website: https://pflagpdx.org\nDetails: Peer-to-peer support for LGBTQ+ pe
+ ople\, their parents\, families\, and allies. In-person meetings are walk-
+ in\; online circles require registration. The helpline is a 24-48 hour cal
+ lback\, not a live line. In-person meetings are the 4th Saturday of the mo
+ nth. Active 501(c)(3)\, EIN 93-0848543.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Walk-in, no registration needed</p><p>Monthly support circle with announcements, guest speakers, and socializing. Meeting at a faith community center (free of religious iconography) - call or email for the address.</p><p><strong>Phone:</strong> <a href="tel:503-232-7676">503-232-7676</a></p><p><strong>Website:</strong> <a href="https://pflagpdx.org">https://pflagpdx.org</a></p><p><strong>Details:</strong> Peer-to-peer support for LGBTQ+ people, their parents, families, and allies. In-person meetings are walk-in; online circles require registration. The helpline is a 24-48 hour callback, not a live line. In-person meetings are the 4th Saturday of the month. Active 501(c)(3), EIN 93-0848543.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+URL:https://pflagpdx.org
+RRULE:FREQ=MONTHLY;BYDAY=4SA
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f524efcc3bcb4f21@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;TZID=America/Los_Angeles:20260124T120000
+DTEND;TZID=America/Los_Angeles:20260124T130000
+SUMMARY:PFLAG Portland: Trans Support Circle
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Walk-in\, no regist
+ ration needed\nInfo: Follows the chapter meeting at the same location\nPho
+ ne: 503-232-7676\nWebsite: https://pflagpdx.org\nDetails: Peer-to-peer sup
+ port for LGBTQ+ people\, their parents\, families\, and allies. In-person 
+ meetings are walk-in\; online circles require registration. The helpline i
+ s a 24-48 hour callback\, not a live line. In-person meetings are the 4th 
+ Saturday of the month. Active 501(c)(3)\, EIN 93-0848543.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Walk-in, no registration needed</p><p>Follows the chapter meeting at the same location</p><p><strong>Phone:</strong> <a href="tel:503-232-7676">503-232-7676</a></p><p><strong>Website:</strong> <a href="https://pflagpdx.org">https://pflagpdx.org</a></p><p><strong>Details:</strong> Peer-to-peer support for LGBTQ+ people, their parents, families, and allies. In-person meetings are walk-in; online circles require registration. The helpline is a 24-48 hour callback, not a live line. In-person meetings are the 4th Saturday of the month. Active 501(c)(3), EIN 93-0848543.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+URL:https://pflagpdx.org
+RRULE:FREQ=MONTHLY;BYDAY=4SA
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT

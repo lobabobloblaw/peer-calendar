@@ -4717,3 +4717,160 @@
     - id: hidden-creek-community-center
       status: updated
       changes: "4 offering strings converted to named programs. No schedules added."
+
+---
+- date: 2026-09-10
+  type: update
+  auditor: claude
+  summary: "Replaced the confirmed dead Arts for All source (review task T0.2)"
+  entries_audited: 1
+  updated:
+    - id: arts-for-all
+      changes:
+        - "Replaced the dead racc.org/artsforall URL with arts4allpdx.org after RACC handed the program to a community-led steering committee in August 2026; softened the venue count to 'dozens of participating organizations' and noted the Street Roots monthly Arts for All calendar"
+
+---
+- date: 2026-09-10
+  type: audit
+  auditor: claude
+  summary: "Worked the overdue backlog by category, corrected stale hours and dates, retired dead venues, and added eight resources"
+  entries_audited: 121
+  method: "Direct page fetches were blocked in the sandbox, so every entry was checked against official-domain search-result snippets and 2026 news. Entries marked verified had their key facts (operating, address, phone, hours or schedule, pricing) matched by an official or reliable 2026 snippet; entries where evidence was thin or conflicting kept their old dates and gained a VERIFY flag instead. Eleven fitness/social entries (friends-of-trees, solve-oregon, hands-on-greater-portland, pdx-board-games-meetup, milwaukie-community-center, northwest-wools, puddletown-knitters, pioneer-community-center, portland-bird-watching-meetup, birdhers, thprd-fitness-in-park) were not checked and remain overdue."
+  updated:
+    - id: loaves-fishes
+      changes: ["Meal cost is $10 (not $10.50); dining centers serve Monday-Friday; main MOWP phone; only Belmont and Gresham centers surfaced in 2026 listings"]
+    - id: sunshine-division
+      changes: ["Added the NW Front Ave headquarters pantry that opened June 9, 2026 with its Thu evening and Saturday hours; SE Stark is now weekdays only"]
+    - id: pobc-community-pantry
+      changes: ["Renamed Nourish Oregon (POBC Community Pantry); Tue 4-7pm and Thu 10am-1pm walk-up, Mon 4-7pm pre-order only; new email and website"]
+    - id: neighborhood-house-barbur
+      changes: ["Free Food Market hours Mon/Wed 10am-4pm (closed 12-1pm) and Thu 2-6pm; ZIP added"]
+    - id: salvation-army-hillsboro
+      changes: ["Pantry closed Wednesdays (mobile pantry day); sack lunch is weekdays 9:30am-3:30pm for Hillsboro/Sherwood residents"]
+    - id: gladstone-food-pantry
+      changes: ["Hours Thu 3-5:30pm; school-district pantry line 503-737-5283; eligibility spelled out"]
+    - id: tualatin-food-pantry
+      changes: ["Filled in hours Mon 4-7pm, Wed/Fri 10am-1pm plus website and email from tualatinfoodpantry.org"]
+    - id: wilsonville-community-sharing
+      changes: ["Evening session ends 7:15pm; new-client sign-up guidance"]
+    - id: estacada-food-bank
+      changes: ["Wednesday is now 2-6pm; Tue/Thu hours conflict across directories - flagged VERIFY, dates not advanced"]
+    - id: clackamas-service-center
+      changes: ["Pantry narrowed to Tue/Thu noon-4pm; to-go meals Tue-Thu 1-2:30pm and Sun 3-3:30pm; tri-county service area"]
+    - id: hollywood-farmers-market
+      changes: ["Winter market is 1st & 3rd Saturdays, not 2nd & 4th"]
+    - id: community-action-washington-county
+      changes: ["Main line 503-648-6646 (503-615-0771 is the utility line); added the three multi-service centers and their hours"]
+    - id: meals-on-wheels-people
+      changes: ["Added phone 503-953-8111; $10 per meal; dining centers serve weekdays"]
+    - id: ride-connection
+      changes: ["Filled in Service Center and rural ride hours; 4-business-day booking rule"]
+    - id: snowcap-community-charities
+      changes: ["Reworded the expired 'through August 2026' visit limit; dates not advanced"]
+    - id: trimet-lift
+      changes: ["Noted the 2026 LIFT+ rideshare option and Instacart delivery"]
+    - id: lift-urban-portland
+      changes: ["Thu/Fri shopping order is by lottery - arrive 2-2:30pm"]
+    - id: birch-community-services
+      changes: ["Corrected first-visit tip: enrollment-based program, not walk-in"]
+    - id: sisters-of-the-road
+      changes: ["Updated the closure flag with the June 2026 Lents house purchase; cafe still closed, still excluded from feeds"]
+    - id: aa-portland-intergroup
+      changes: ["Added the 825 NE 20th Ave office address"]
+    - id: nami-washington-county
+      changes: ["Replaced the vague Connection group with five topic-specific weekly groups (Anxiety Tue 1-2:30pm, Women's Wed 2-3:30pm, Depression/Bipolar Sat 12-1:30pm, Schizophrenia Mon 2-3pm, Men's Thu 2-3pm Zoom)"]
+    - id: bridges-to-change-club-hope
+      changes: ["Hours corrected to Mon-Fri 8am-5pm (the 9am-9pm/Saturday hours belonged to the old Stark St site); street is SE Cleveland St"]
+    - id: q-center-portland
+      changes: ["Hours Wed-Fri 10am-5pm with Saturday and pantry days flagged for a call; removed the NAMI LGBTQ2SIA+ group, which now meets at Rose City Community Collective and is carried by nami-multnomah; QTBIPOC schedule flagged"]
+    - id: peer-company
+      changes: ["Website is thepeercompany.org; public address is the Recovery Campus at 8935 SE Powell; 2740 SE Powell is mailing only"]
+    - id: pflag-portland
+      changes: ["Concrete schedule: 4th Saturday 10am-12pm chapter meeting plus a 12-1pm Trans Support Circle; helpline is a callback"]
+    - id: returning-veterans-project
+      changes: ["Phone corrected to 503-954-2259 per the official site"]
+    - id: plates-for-the-people
+      changes: ["Added the confirmed 2026 class dates (May 26, Jul 28, Aug 25, Oct 27) as a timed program at Cookshop; free Eventbrite ticket required"]
+    - id: recovery-dharma
+      changes: ["About 24 active meetings; Dharma Rain Monday meeting skips Sept 14 and Dec 7, 2026"]
+    - id: bhrc
+      changes: ["Added the four ticket time blocks"]
+    - id: prism-moves
+      changes: ["Moved to 18 N Shaver St; stale coordinates removed"]
+    - id: lloyd-center-walking
+      changes: ["Lloyd Center closed Aug 8; group is at rotating pop-ups with no fixed venue - address set to varies, coordinates removed, VERIFY flag replaces the seasonal flag"]
+    - id: rock-haven-climbing
+      changes: ["Community Climb is free with SNAP/EBT, otherwise a set $5 per person; ID with Gresham address"]
+    - id: foot-traffic-group-runs
+      changes: ["Thursday pizza is the first Thursday of the month"]
+    - id: elsie-stuhr-center
+      changes: ["Official day-by-day hours differ from stored hours; updated and flagged VERIFY, dates not advanced"]
+    - id: thprd-financial-aid
+      changes: ["Replaced the stale Winter 2026 capacity note with fall 2026 registration and the Financial Aid Specialist line"]
+    - id: portland-trail-runners
+      changes: ["Weekday runs are occasional, not a fixed Wednesday recurrence"]
+    - id: friendly-house
+      changes: ["Flagged that Friday Community Night may run to 8pm"]
+    - id: east-portland-cc
+      changes: ["Noted the October pool and building maintenance closures"]
+    - id: repair-pdx
+      changes: ["Removed projected Sept-Dec Leaven cafe dates that repairpdx.org does not list; added the Cedar Mill (Sept 26) and Tualatin (Oct 17) partner fairs; VERIFY flag"]
+    - id: clackamas-county-repair-fairs
+      changes: ["Added the Molalla fair, October 10, 2026, 12-3pm"]
+    - id: trail-sisters-portland
+      changes: ["Street address for the Thurman entrance"]
+    - id: portland-saturday-market
+      changes: ["Season ends December 19, 2026; address 2 SW Naito Pkwy"]
+    - id: st-james-bach
+      changes: ["Vespers are at 5pm, not 4pm"]
+    - id: jade-night-market
+      changes: ["2026 market was August 29, 4-10pm; website moved to the 2026 page"]
+    - id: good-in-the-hood
+      changes: ["2026 ran June 27-28, noon-9pm; park street address"]
+    - id: ppr-summer-free-for-all
+      changes: ["2026 season was July 10 - August 29"]
+    - id: scrap-pdx
+      changes: ["Crafternoon is select Sundays and ticketed ($10-15), not free"]
+    - id: gresham-music-parks
+      changes: ["Replaced the wrong biweekly anchor with the four published 2026 dates"]
+    - id: pcc-theatre
+      changes: ["Replaced the past Magic Theatre run with An Evening of Shakespeare Scenes (Dec 3, 2026) and A Midsummer Night's Dream (Mar 4-7, 2027)"]
+    - id: oregon-city-library
+      changes: ["Address is the current 606 John Adams St building; website path; stale coordinates removed"]
+    - id: india-festival
+      changes: ["Hours 10:30am-8pm"]
+    - id: marianas-festival
+      changes: ["2026 ran August 27-29 with the main day Saturday at Blue Lake; admission free"]
+    - id: christmas-ships-parade
+      changes: ["2026 dates are December 3-20"]
+    - id: winter-light-festival
+      changes: ["2027 dates February 5-13"]
+    - id: ground-kontrol
+      changes: ["Free Play pricing conflict flagged VERIFY; dates not advanced"]
+  added:
+    - id: portland-farmers-market-psu
+      category: food_farms
+      reason: "Year-round Saturday market with full SNAP/Double Up support; seasonal hours as two bounded programs"
+    - id: portland-book-festival
+      category: arts_culture
+      reason: "November 2-8, 2026; free for youth and $5 through Arts for All"
+    - id: oregon-zoo-zoolights
+      category: events
+      reason: "November 20, 2026 - January 3, 2027 with $13 Value Nights"
+    - id: oregon-zoo-discount-days
+      category: discount_programs
+      reason: "Standing $13 income-qualified admission plus Fall Discount Days November 3-9, 2026"
+    - id: st-andre-bessette-hospitality
+      category: food_farms
+      reason: "Free Friday 6:30-7:30pm hot meal and Tue-Thu sack lunches in Old Town"
+    - id: salvation-army-moore-street
+      category: food_farms
+      reason: "Free Tuesday 5-7pm dinner and Wed/Fri pantry in North Portland"
+    - id: union-gospel-mission-portland
+      category: food_farms
+      reason: "Three daily free meals in Old Town; meal times flagged UNVERIFIED pending the official site"
+    - id: portland-night-market
+      category: events
+      reason: "Free October 2-3 and December 3-6, 2026 markets; December flagged VERIFY"
+  not_changed:
+    - "cmhc-peer-groups, sandy-community-action, gleaners-clackamas, tergar-meditation-portland, shift-to-bikes, turn-turn-turn, community-jams-beaverton, portland-art-guild, mhcc-visual-arts-gallery, last-thursday-alberta, washington-county-fair, happy-valley-oktoberfest, happy-valley-tree-lighting, dia-muertos-gresham, portland-tree-lighting, peacock-lane: inconclusive or awaiting published dates; dates left as they were"

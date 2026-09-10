@@ -314,7 +314,7 @@ Paid sessions qualify for the **90% Access Discount** (making adult admission ~6
 
 ### Arts for All (Oregon Trail Card)
 
-Present your EBT card for **$5 tickets** at OMSI, Portland Art Museum, Oregon Zoo, Portland Japanese Garden, Oregon Symphony, Portland Center Stage, and 25+ more venues. Full list: racc.org/artsforall
+Present your EBT card for **$5 tickets** at OMSI, Portland Art Museum, Oregon Zoo, Portland Japanese Garden, Oregon Symphony, Portland Center Stage, and 25+ more venues. Full list: arts4allpdx.org (the program moved off racc.org in August 2026)
 
 ### TriMet Low-Income Fare
 

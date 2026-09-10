@@ -26,7 +26,7 @@ Run `python scripts/audit_check.py` to see current database status, entries due 
 5. When shipping changes that regenerate feeds, add a curated post to the Updates section: `python scripts/add_update_post.py --text "..."` (inserts a dated `<li>` at the top of the list in `docs/index.html`). If no curated post exists for the day, CI appends an auto-summary post on regeneration — at most one auto-post per day, and only when the regenerated feeds actually changed.
 
 **Key files:**
-- `data/sources.yaml` - Master registry with 275 resources (272 active, 3 closed) and audit metadata (multi-document YAML with `---` separators)
+- `data/sources.yaml` - Master registry with 283 resources (280 active, 3 closed) and audit metadata (multi-document YAML with `---` separators)
 - `docs/events.json` - JSON feed used by web calendar preview (generated from sources.yaml)
 - `data/audit-log.yaml` - Verification history
 - `data/queue.yaml` - Pending resources to research

@@ -40,23 +40,28 @@
   resource_type: service
   address: null
   phone: null
-  website: https://racc.org/artsforall
+  website: https://arts4allpdx.org/
   source_urls:
-  - https://racc.org/artsforall
+  - https://arts4allpdx.org/
+  - https://www.pcs.org/arts-for-all
+  - https://www.streetroots.org/culture/2026/09/02/september-arts-for-all-calendar/
   pricing:
-    description: $5 tickets at 100+ cultural organizations
-    notes: Present Oregon Trail Card at venue
+    description: $5 tickets at dozens of participating cultural organizations
+    notes: Present Oregon Trail Card at venue. Participation is opt-in per organization - check the current list at arts4allpdx.org
+      before you go.
   eligibility: Oregon Trail Card (SNAP/EBT) holders
-  last_verified: 2026-04-22
-  next_audit: 2027-04-22
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   audit_frequency: annually
   practical_tips:
     first_visit: Just show your Oregon Trail Card at the ticket window - no pre-registration needed
     registration: None required - just present your EBT card at participating venues
     what_to_bring: Oregon Trail Card (SNAP/EBT) and valid ID
-    good_to_know: Works at 100+ venues including Portland Art Museum, OMSI, Oregon Zoo, Japanese Garden, Oregon Symphony,
-      Portland Opera, and theaters. Most venues allow same-day walk-up. Check individual venue hours and any timed-entry requirements.
-      Some venues may have blackout dates for special exhibitions.
+    good_to_know: Participating venues include Portland Art Museum, OMSI, Oregon Zoo, Japanese Garden, Oregon Symphony,
+      Portland Center Stage, and many theaters. Most venues allow same-day walk-up. Check individual venue hours and any timed-entry
+      requirements. Some venues may have blackout dates for special exhibitions. In August 2026 RACC handed the program to a
+      community-led steering committee of participating organizations; the old racc.org/artsforall page is gone. Street Roots
+      publishes a monthly Arts for All event calendar.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
@@ -122,8 +127,8 @@
     submit_via: Email, mail, or in-person at any THPRD facility
     processing_time: 10 business days
     languages: English and Spanish applications available
-  last_verified: 2026-04-22
-  next_audit: 2026-07-22
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   audit_frequency: annually
   practical_tips:
     first_visit: Submit application online, by email, or in-person at any THPRD facility before registering for programs
@@ -144,8 +149,8 @@
   - creative
   - family_friendly
   guide_location: activities-guide-1.md#community-centers-with-sliding-scale-fees
-  notes: Winter 2026 session at capacity; reopens February 2, 2026 for Spring registration. One application per household
-    yearly. Unused funds expire annually.
+  notes: Fall 2026 registration opened August 8 (in-district) and August 10 (out-of-district). One application per household
+    yearly. Unused funds expire annually. Financial Aid Specialist line 503-619-3994.
   flags:
   - 📅 DATE-SENSITIVE
 - id: pge-income-qualified
@@ -628,12 +633,13 @@
   - Shuttle services
   - Travel training
   service_area: Portland metro tri-county area and surrounding communities
-  hours: 'Service Center: Mon-Fri (call for hours). TTY: 7-1-1'
-  last_verified: 2026-03-24
-  next_audit: 2026-06-24
+  hours: 'Service Center: Mon-Fri 7:30am-5pm. Rural general-public rides: Mon-Fri 8am-4:30pm. TTY: 7-1-1'
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Call 503-226-0700 to schedule a ride or learn about available services in your area
+    first_visit: Call 503-226-0700 to schedule a ride or learn about available services in your area. Book door-to-door rides
+      at least 4 business days ahead.
     registration: Call Service Center; eligibility varies by program
     good_to_know: Door-to-door rides for ANY purpose — not just medical. Covers medical, meals, shopping, recreation, and
       work trips. Especially valuable for seniors and people with disabilities in areas with limited transit. TTY available
@@ -711,8 +717,8 @@
   - River Terrace (Tigard)
   connections: Washington Square Transit Center (TriMet bus connections)
   funding_through: 2027 school year
-  last_verified: 2026-03-25
-  next_audit: 2026-06-25
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Download the SPOT Ride app or call 503-907-7768 to request a same-day ride
@@ -748,8 +754,8 @@
   eligibility: Oregon residents 18-64 at/below 200% FPL, OR receiving OHP, SNAP, TANF, Free/Reduced Lunch, Section 8, LIHEAP
   hours: 'TriMet Customer Support (Pioneer Courthouse Square): Mon-Fri 8:30am-5:30pm. Also available at WorkSource locations
     and partner enrollment sites across the metro area.'
-  last_verified: 2026-03-25
-  next_audit: 2026-06-25
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Apply online at trimet.org/income or visit TriMet Customer Support at Pioneer Courthouse Square (701 SW 6th
@@ -795,8 +801,8 @@
     apply and be determined eligible.
   hours: Generally 3:30am-2:30am, 7 days a week (varies by area based on local bus/MAX service hours)
   service_area: Within 3/4 mile of any TriMet bus line or MAX station in the TriMet service district
-  last_verified: 2026-03-25
-  next_audit: 2026-06-25
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Call 503-962-8000 option 2 to start the eligibility process
@@ -804,7 +810,8 @@
       card.
     good_to_know: Shared-ride door-to-door service. Book rides up to 3 days in advance or by 5pm the day before. Can book
       online via CARES system or by phone. 30-minute pick-up windows. LIFT Hop card also works on regular TriMet buses and
-      MAX at the reduced Honored Citizen fare ($1.40). Also offers LIFT+, a flexible alternative.
+      MAX at the reduced Honored Citizen fare ($1.40). New in 2026 - LIFT+ lets riders opt in to have some trips sent to
+      rideshare partners at the same LIFT fare with shorter waits, and LIFT riders can use an Instacart grocery-delivery option.
   accessibility:
   - wheelchair_accessible
   social_intensity: solo
@@ -832,8 +839,8 @@
   eligibility: Seniors 65+ or Medicare (no application needed, just photo ID); people with disabilities (must apply for Hop
     card); veterans and active-duty military (must apply for Hop card)
   hours: 'TriMet Customer Support (Pioneer Courthouse Square): Mon-Fri 8:30am-5:30pm'
-  last_verified: 2026-03-25
-  next_audit: 2026-06-25
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Seniors 65+ can use reduced fare immediately with photo ID showing age. People with disabilities and veterans
@@ -969,8 +976,8 @@
     schedule: Every Tuesday, 7-8:30pm
     format: Zoom
     eligibility: Those experiencing complex trauma and/or dissociation
-  last_verified: 2026-07-28
-  next_audit: 2026-08-28
+  last_verified: 2026-09-10
+  next_audit: 2026-10-10
   audit_frequency: monthly
   practical_tips:
     first_visit: Just show up to any meeting - no pre-registration needed for most groups
@@ -1120,8 +1127,8 @@
   - Mobile Crisis Response Team (anytime, day or night)
   - Telehealth option available
   eligibility: Anyone living in Clackamas County, regardless of ability to pay
-  last_verified: 2026-03-24
-  next_audit: 2026-06-24
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Call 503-655-8585 anytime, or walk in Mon-Fri 9am-7pm. You don't have to be in crisis — any time you need
@@ -1195,8 +1202,8 @@
     email: respite@folktime.org
     notes: Non-clinical, peer-led. Guests in self-defined crises stay up to 2 weeks in a home-like environment. Voluntary
       participation; guests may continue working and accessing natural supports.
-  last_verified: 2026-07-28
-  next_audit: 2026-08-28
+  last_verified: 2026-09-10
+  next_audit: 2026-10-10
   audit_frequency: monthly
   practical_tips:
     first_visit: Attend orientation on 2nd or 3rd Wednesday of any month
@@ -1344,8 +1351,8 @@
   - Nutrition & food prep
   - Social activities
   - Individual goal setting
-  last_verified: 2026-07-28
-  next_audit: 2026-08-28
+  last_verified: 2026-09-10
+  next_audit: 2026-10-10
   audit_frequency: monthly
   practical_tips:
     first_visit: Orientations are every other Wednesday at 3pm (in-person and on Zoom). Referral from a mental health professional
@@ -1389,8 +1396,8 @@
   - Benefits connection
   - ID acquisition assistance
   - Snacks and activities
-  last_verified: 2026-04-22
-  next_audit: 2026-07-22
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just walk in during open hours - no appointment needed
@@ -1425,8 +1432,8 @@
     description: FREE
   hours: Daily 8am-8pm; Closed 4th Friday each month 11am-3pm
   eligibility: Anyone experiencing homelessness with mental health or addiction challenges
-  access_notes: Day center requires ticket from outreach van at NW Broadway & Glisan St (6am-2pm). Four 3-hour time blocks,
-    25 people per block, first-come first-served.
+  access_notes: Day center requires ticket from outreach van at NW Broadway & Glisan St (6am-2pm). Four 3-hour time blocks
+    (8-10:45am, 11am-1:45pm, 2-4:45pm, 5-7:45pm), 25 tickets per block, first-come first-served. No ticket needed to pick up mail.
   services:
   - Peer support
   - Showers
@@ -1447,8 +1454,8 @@
   bridge_housing:
     beds: 19
     stay_length: 90 days average
-  last_verified: 2026-07-28
-  next_audit: 2026-08-28
+  last_verified: 2026-09-10
+  next_audit: 2026-10-10
   audit_frequency: monthly
   practical_tips:
     first_visit: Get a ticket from the outreach van at NW Broadway & Glisan (6am-2pm) to access day center
@@ -1542,8 +1549,8 @@
   languages:
   - English
   - Spanish (Linea de Esperanza)
-  last_verified: 2026-03-07
-  next_audit: 2026-06-07
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just call anytime - 24/7, no appointment needed
@@ -1620,8 +1627,8 @@
     first_visit: Just show up to any meeting - all welcome beginners
     registration: No registration needed
     what_to_bring: Nothing required; cushions usually available
-    good_to_know: Buddhist-based but non-religious. 30+ meetings weekly. Specialty groups for LGBTQIA+, women/trans/NB. Alternative
-      to 12-step.
+    good_to_know: Buddhist-based but non-religious. About 24 active meetings weekly. Specialty groups for LGBTQIA+, women/trans/NB.
+      Alternative to 12-step. The Dharma Rain Monday meeting skips September 14 and December 7, 2026 for temple retreats.
   accessibility:
   - transit_nearby
   accessibility_notes: Many online meetings available via Zoom. In-person accessibility varies by location - some venues (Portland
@@ -1633,8 +1640,8 @@
   - indoor
   notes: 30+ weekly meetings across Portland. Buddhist-based recovery using mindfulness and loving-kindness - alternative
     to 12-step programs.
-  last_verified: 2026-03-03
-  next_audit: 2026-06-03
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
 - id: peer-company
@@ -1642,16 +1649,17 @@
   category: peer_support
   location_type: physical
   resource_type: organization
-  address: 2740 SE Powell Blvd Suite 3, Portland, OR 97202
+  address: 8935 SE Powell Blvd, Portland, OR 97266
   phone: 503-922-2377
   email: info@mhaoforegon.org
-  website: https://www.mhaoforegon.org/
+  website: https://thepeercompany.org/
   source_urls:
+  - https://thepeercompany.org/
   - https://www.mhaoforegon.org/
   pricing:
     description: FREE
   locations:
-  - name: Administrative Office
+  - name: Mailing address (not a walk-in site)
     address: 2740 SE Powell Blvd Suite 3, Portland, OR 97202
   - name: Recovery Campus
     address: 8935 SE Powell Blvd, Portland, OR 97266
@@ -1666,11 +1674,12 @@
   - Help accessing treatment, housing, employment
   - Recovery advocacy
   - Peer support specialist training (OPTIC, PWS)
-  last_verified: 2026-03-07
-  next_audit: 2026-06-07
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Walk in to Recovery Campus (SE Powell) or CATT (Hillsboro) during business hours
+    first_visit: Walk in to the Recovery Campus at 8935 SE Powell Blvd during business hours. Call before referring someone to
+      CATT in Hillsboro - its walk-in hours were not confirmed in September 2026.
     registration: No appointment needed for walk-in support
     what_to_bring: Nothing required
     good_to_know: Free peer support for both mental health AND substance use. Also offers peer specialist training programs.
@@ -1681,7 +1690,8 @@
   - isolation
   - indoor
   guide_location: activities-guide-2.md#peer-support-organizations
-  notes: Rebranded from MHAAO September 2025. Free peer support services throughout Portland metro. Walk-in locations available.
+  notes: Rebranded from MHAAO September 2025; the website is now thepeercompany.org. Free peer support services throughout
+    Portland metro. The public site is the Recovery Campus in Lents; 2740 SE Powell Suite 3 is a mailing address only.
   latitude: 45.497482
   longitude: -122.637927
 - id: q-center-portland
@@ -1692,37 +1702,37 @@
   address: 4115 N Mississippi Ave, Portland, OR 97217
   phone: 503-234-7837
   website: https://www.pdxqcenter.org/
-  hours: 'Wed-Fri 10am-5pm, Sat 12pm-8pm, Sun-Tue closed. Hand Up Pantry: Mon-Tue 12pm-4pm.'
+  hours: Wed-Fri 10am-5pm (Saturday hours and Hand Up Pantry days not confirmed - call 503-234-7837)
   source_urls:
   - https://www.pdxqcenter.org/
+  - https://www.pdxqcenter.org/contact-us
+  - https://www.pdxqcenter.org/supportgroups
   pricing:
     description: FREE (most programs)
   programs:
   - name: Trans PDX Support Group
     schedule: 1st Saturday 10am-12pm in-person; Tuesdays 6pm virtual (Discord)
     cost: FREE
-    notes: For trans, nonbinary, agender, gender-fabulous folks
-  - name: LGBTQIA2S+ Mental Health Support
-    schedule: Mondays 7-8:30pm (virtual; 1st & 3rd Mondays hybrid at Q Center)
-    cost: FREE
-    notes: Peer-led for anxiety, depression, bipolar, PTSD
+    notes: For trans, nonbinary, agender, gender-fabulous folks. Masks required at in-person meetings.
   - name: QTIBIPOC Community Space
     schedule: 2nd & 4th Wednesdays 7-9pm
     cost: FREE
-    notes: For queer, trans, intersex BIPOC community members
+    notes: For queer, trans, intersex BIPOC community members. Q Center still lists QTBIPOC support in 2026 but publishes no
+      day/time online - confirm the schedule by phone before attending.
   services:
   - Arts & Culture programs
   - Education & Training
   - Health & Wellness
   - Advocacy
-  last_verified: 2026-02-16
-  next_audit: 2026-05-16
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check website for current group schedule and drop in
     registration: Most groups drop-in; some use Discord for virtual
     what_to_bring: Nothing required
-    good_to_know: Portland's LGBTQ+ community hub. Trans support, mental health groups, QTIBIPOC space. Safe and welcoming.
+    good_to_know: Portland's LGBTQ+ community hub. Trans support, 12-step, Late Bloomers, and QTBIPOC groups meet in person
+      here. NAMI Multnomah's LGBTQ2SIA+ peer group no longer meets at Q Center (see the NAMI Multnomah entry). Safe and welcoming.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
@@ -1764,11 +1774,12 @@
   - Community events and field trips
   - Affinity groups
   - Counseling
-  last_verified: 2026-03-24
-  next_audit: 2026-06-24
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Just drop in during open hours. Safe, harassment-free space.
+    first_visit: Just drop in during open hours; the entrance is on the lower level of 1220 SW Columbia. Safe, harassment-free
+      space.
     good_to_know: Since 1998 — one of the longest-running LGBTQ+ youth centers in the US. Free food, clothing, hygiene supplies,
       gender-affirming garments. No judgment, no questions.
   accessibility:
@@ -1906,12 +1917,14 @@
   category: peer_support
   location_type: hybrid
   resource_type: organization
+  address: 825 NE 20th Ave, Suite 200, Portland, OR 97232
   phone: 503-223-8569
   email: office@pdxaa.org
   website: https://www.pdxaa.org/
   hours: Mon-Fri 9am-5pm
   source_urls:
   - https://www.pdxaa.org/
+  - https://www.pdxaa.org/portland-area-intergroup/
   pricing:
     description: FREE
   programs:
@@ -1929,8 +1942,8 @@
   - Meeting finder (website and Meeting Guide app)
   - 24-hour phone support
   - Literature and resources
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Use pdxaa.org or Meeting Guide app to find a meeting near you
@@ -1979,8 +1992,8 @@
   - name: Esperanza (Spanish-language)
     cost: FREE
     notes: Bilingual peer grief support for Spanish-speaking families
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Call to learn about intake process and current group availability
@@ -2100,8 +2113,8 @@
   pricing:
     description: FREE or scholarshipped
   schedule: 24/7 online calendar
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: Searchable online calendar with 392,000+ peer support offerings statewide. Includes support groups, chair
     yoga, Tai-Chi, breathwork, guided art, grief support. Created by The Peer Company (formerly MHAAO).
@@ -2126,8 +2139,8 @@
   pricing:
     description: FREE
   schedule: Multiple weekly meetings across Portland metro
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: Evidence-based, non-spiritual alternative to 12-step programs. Uses cognitive behavioral techniques. Meetings
     in all Portland quadrants plus online. No lifetime commitment - attend as long as helpful.
@@ -2152,8 +2165,8 @@
   pricing:
     description: FREE
   hours: Daily 4-10pm (teen peer volunteers); adult counselors all other hours
-  last_verified: 2026-03-03
-  next_audit: 2026-06-03
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   social_intensity: one_on_one
   good_for:
@@ -2171,16 +2184,27 @@
   category: peer_support
   location_type: physical
   resource_type: program
-  address: 909 NW 24th Ave, Portland, OR 97210 (Alano Club)
+  address: Cookshop at the Alano Club, 909 NW 24th Ave, Portland, OR 97210
   phone: (503) 222-5756
   website: https://www.portlandalano.org/plates-for-the-people
   source_urls:
   - https://www.portlandalano.org/plates-for-the-people
+  - https://www.eventbrite.com/e/plates-for-the-people-2026-tickets-1357105161069
   pricing:
-    description: FREE
-  schedule: Monthly (dates vary, check Eventbrite for registration)
-  last_verified: 2026-03-03
-  next_audit: 2026-06-03
+    description: FREE (free Eventbrite ticket required)
+  schedule: One Tuesday evening a month, May-October 2026 (see dates; free Eventbrite ticket)
+  programs:
+  - name: Plates for the People 2026 cooking class
+    dates:
+    - May 26, 2026
+    - July 28, 2026
+    - August 25, 2026
+    - October 27, 2026
+    schedule: 5:30-6:30pm
+    notes: Confirmed 2026 dates from Eventbrite; the June and September dates were not captured - check Eventbrite. Classes
+      have run longer in past years when a shared meal followed.
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   social_intensity: structured_group
   good_for:
@@ -2419,8 +2443,8 @@
   - name: Farm Yoga
     schedule: Seasonal
     cost: By donation
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check website for current schedule and locations - classes held at various SE Portland venues
@@ -2486,8 +2510,8 @@
   - isolation
   notes: Soto Zen Buddhist community founded in 1986, approximately 220 members. All welcome at Sunday program. Practice advisors
     available for one-on-one guidance.
-  last_verified: 2026-02-16
-  next_audit: 2026-05-16
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
   latitude: 45.544422
@@ -2533,8 +2557,8 @@
   - isolation
   - new_to_area
   notes: Karma Kagyu lineage of Tibetan Buddhism. Live-in center with guest room, near public transit. Founded 1997.
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
   latitude: 45.520247
@@ -2589,8 +2613,8 @@
   - low_energy
   - isolation
   notes: Vipassana (insight) tradition. Welcomes all faiths, orientations, genders, abilities, ages, and backgrounds.
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#free-yoga-and-meditation
   latitude: 45.475593
@@ -2633,14 +2657,16 @@
   - Silver Sneakers
   - One Pass
   - Renew Active
-  last_verified: 2026-05-01
-  next_audit: 2026-08-01
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Register for Access Discount online before visiting to get reduced pricing
     registration: Online at portland.gov/parks, by phone 503-823-2525, or in person
     what_to_bring: Swimsuit and towel if using pool; lock for locker
-    good_to_know: Daily admission good for entire day - swim morning, fitness class noon, spa evening
+    good_to_know: Daily admission good for entire day - swim morning, fitness class noon, spa evening. The center's page lists
+      a pool closure October 12 - November 16 and a full closure October 19-30 for annual maintenance (published as this year's
+      dates - confirm at 503-823-3450 before visiting in October).
   accessibility:
   - wheelchair_accessible
   - transit_nearby
@@ -2695,8 +2721,8 @@
   - Silver Sneakers
   - One Pass
   - Renew Active
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Major renovation completed Sept 2025 - new facility with expanded amenities
@@ -2796,8 +2822,8 @@
     schedule: Sundays 8am
     location: 2258 NW Raleigh St (PRC Northwest)
     notes: 5-18 miles; all paces welcome. Post-run coffee gathering.
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just show up at the designated location at run time. All paces welcome.
@@ -2820,11 +2846,11 @@
   latitude: 45.533868
   longitude: -122.697963
 - id: lloyd-center-walking
-  name: Food Court 5000 (Lloyd Center Mall Walking)
+  name: Food Court 5000 (Mall Walking Group)
   category: fitness_wellness
-  location_type: physical
+  location_type: varies
   resource_type: program
-  address: 2201 Lloyd Center, Portland, OR 97232
+  address: Pop-up locations around Portland (check foodcourt5k.com); permanent home not yet announced
   phone: null
   email: foodcourt5000@gmail.com
   website: https://foodcourt5k.com/
@@ -2839,12 +2865,10 @@
   schedule: Every Sunday 11am-12:30pm
   schedule_end_date: 2026-08-02
   flags:
-  - 🔄 SEASONAL - Lloyd Center closes permanently August 8, 2026 (Portland City Council denied appeals July 8, 2026; demolition
-    approved). Recurring Sunday walks bounded with schedule_end_date 2026-08-02, the last regular Sunday inside the mall.
-    A one-off farewell walk happens Sat August 8; it is described in notes rather than added as a program, because adding
-    a programs list would suppress the entry-level recurring schedule. Group continues at pop-up locations TBA - check foodcourt5k.com
-    or email foodcourt5000@gmail.com for the new location, then update address and schedule, reset schedule_end_date, and
-    remove this flag.
+  - ⚠️ VERIFY - Lloyd Center closed permanently August 8, 2026. The Sunday walks inside the mall ended August 2 (bounded with
+    schedule_end_date). As of September 10, 2026 the group walks at rotating pop-up locations and has not announced a permanent
+    home, day, or time, so no recurring event is published. Check foodcourt5k.com or Instagram weekly, or email
+    foodcourt5000@gmail.com; once a fixed venue is announced, update address, schedule, and schedule_end_date and remove this flag.
   programs:
   - name: Final Lloyd Center Walk (Silent Disco)
     dates: August 8, 2026
@@ -2860,11 +2884,12 @@
   - Take breaks when needed
   - No one walks alone
   practical_tips:
-    first_visit: Meet at Lloyd Center mall entrance, Sundays at 11am. Look for the group in colorful 80s attire!
+    first_visit: The mall is gone - check foodcourt5k.com for this week's pop-up location before heading out. Look for the group
+      in colorful 80s attire!
     registration: None - just show up
     what_to_bring: Comfortable walking shoes. 80s attire encouraged but not required (neon, leg warmers, etc.)
-    good_to_know: 1980s-themed indoor mall walking led by Vera Mysteria. 5K / 3.1 mile route (2 laps, ~90 minutes). Meet at
-      food court on 3rd floor above ice rink. Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks
+    good_to_know: 1980s-themed walking group led by Vera Mysteria that walked Lloyd Center every Sunday until the mall closed
+      on August 8, 2026. 5K / 3.1 mile route (~90 minutes). Rules - pump your arms, wave to passersby, no one walks alone. Post-walk snacks
       at food court. Groups of 70+ regular attendees. Very welcoming and fun community.
   accessibility:
   - wheelchair_accessible
@@ -2877,17 +2902,14 @@
   - isolation
   - new_to_area
   - anxiety_friendly
-  notes: '1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular
-    attendees. Post-walk snacks at food court. Lloyd Center closes permanently August 8, 2026 - the last regular Sunday walk
-    inside the mall is August 2, with a final farewell walk on Saturday August 8. The group continues afterward at rotating
-    pop-up locations around Portland (some outdoors for late summer, some indoors); a permanent home is reportedly close to
-    being finalized but was not announced as of late July 2026.'
-  last_verified: 2026-07-28
-  next_audit: 2026-08-28
+  notes: '1980s/90s-themed walking group. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular
+    attendees. Lloyd Center closed permanently on August 8, 2026; the last regular Sunday walk inside the mall was August 2 and
+    the farewell walk was Saturday August 8. The group now walks at rotating pop-up locations around Portland (some outdoors,
+    some indoors) and has said a permanent home is in the works, but none was announced as of September 10, 2026.'
+  last_verified: 2026-09-10
+  next_audit: 2026-10-10
   audit_frequency: monthly
   guide_location: activities-guide-2.md#mall-walking-programs
-  latitude: 45.532573
-  longitude: -122.653136
 - id: neighborwalks
   name: NeighborWalks
   category: fitness_wellness
@@ -2911,8 +2933,8 @@
     first_visit: null
     registration: null
     what_to_bring: null
-    good_to_know: PROGRAM ENDED - Ran 11 seasons 2012-2022. Try Food Court 5000 (Lloyd Center), Portland Running Company,
-      or Parks Dept walking programs instead.
+    good_to_know: PROGRAM ENDED - Ran 11 seasons 2012-2022. Try Food Court 5000 (pop-up walks since Lloyd Center closed in
+      August 2026), Portland Running Company, or Parks Dept walking programs instead.
   accessibility_notes: PROGRAM ENDED - No longer operational.
   social_intensity: casual_group
   good_for:
@@ -2920,8 +2942,8 @@
   - active
   - isolation
   guide_location: activities-guide-1.md#free-running-and-walking-groups
-  notes: AARP Oregon partnership. Ran 11 seasons from 2012-2022. Consider Portland Running Company, Lloyd Center, or Parks
-    Dept programs as alternatives.
+  notes: AARP Oregon partnership. Ran 11 seasons from 2012-2022. Consider Portland Running Company, Food Court 5000 pop-up
+    walks, or Parks Dept programs as alternatives.
   flags:
   - ❌ CLOSED - Program ended after 2022 season
 - id: shift-to-bikes
@@ -2992,8 +3014,8 @@
   - name: 'Meet PBC: BITS rides'
     schedule: Twice monthly
     notes: Very beginner-friendly, E-bikes welcome
-  last_verified: 2026-05-01
-  next_audit: 2026-08-01
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Join a BITS (Meet PBC) ride - very beginner-friendly, held twice monthly
@@ -3088,8 +3110,8 @@
   programs:
   - name: Community Climb (Friday)
     schedule: 1st Friday 5-9pm
-    cost: FREE for SNAP/EBT holders, $5 suggested donation for other Gresham/Rockwood residents
-    notes: Includes rental shoes & chalk; bring photo ID for verification
+    cost: FREE for Gresham residents with SNAP/EBT; $5 per person for other Gresham residents
+    notes: Includes climbing access and rental shoes; bring photo ID with a Gresham address for verification
   - name: Community Climb (Wednesday)
     schedule: 1st & 3rd Wednesday 9am-9pm
     cost: FREE for Gresham residents
@@ -3098,16 +3120,17 @@
     schedule: 1st & 3rd Saturdays 6-9pm
     cost: FREE
     eligibility: Ages 13-18, Gresham residents
-  last_verified: 2026-05-01
-  next_audit: 2026-08-01
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just show up during free climb times - no reservation needed. Complete waiver online or on-site.
     registration: Waiver required (available online or on-site). Minors need guardian signature.
     what_to_bring: Comfortable clothes and photo ID for residency verification. Rental shoes and chalk included.
-    good_to_know: Three free programs for Gresham residents - 1st Friday Community Climb (5-9pm, free for SNAP/EBT or $5 suggested
-      donation), 1st & 3rd Wednesday all-day climb (9am-9pm, free), and 1st & 3rd Saturday Teen Nights (6-9pm, ages 13-18).
-      May ask for ID to verify residency.
+    good_to_know: Three low-cost programs for Gresham residents - 1st Friday Community Climb (5-9pm, free with SNAP/EBT,
+      otherwise $5 per person), 1st & 3rd Wednesday all-day climb (9am-9pm, free), and 1st & 3rd Saturday Teen Nights (6-9pm,
+      ages 13-18). Photo ID with a Gresham address is required. The Wednesday and Saturday programs were not re-confirmed in
+      September 2026 - call 503-512-5511.
   accessibility:
   - wheelchair_accessible
   accessibility_notes: Rock Haven facility is ADA accessible. Climbing walls have routes of varying difficulty.
@@ -3136,8 +3159,8 @@
   hours: Doors open 7am daily for walkers
   latitude: 45.440417
   longitude: -122.570833
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   audit_frequency: annually
   practical_tips:
     first_visit: Enter through Macy's or JCPenney entrances which open early for walkers
@@ -3171,8 +3194,8 @@
   hours: Opens 7am daily for walkers
   latitude: 45.4525
   longitude: -122.781389
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   audit_frequency: annually
   practical_tips:
     first_visit: Enter through main entrances - mall opens 7am daily for walkers
@@ -3505,8 +3528,8 @@
     notes: 30-45 minute workout. Bodyweight movements and running with alternatives for all levels. Rain or shine - they're
       weatherproof!
   eligibility: All ages, all fitness levels - "All Ages, Faces, & Paces"
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just show up at 6:29am. A waiver form is available on their website (recommended before first workout).
@@ -3557,11 +3580,11 @@
     day: Thursday
     time: 6pm
     location: Foot Traffic Southeast (Sellwood), 1260 SE Lambert St
-    notes: Free pizza on final Thursday of each month
+    notes: ORRC-partnered run; pizza/food after the run on the first Thursday of each month. Meet 5:50pm for a 6pm start.
     phone: 971-271-7264
   eligibility: All abilities welcome
-  last_verified: 2025-12-02
-  next_audit: 2026-06-02
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Arrive 15 minutes early to meet the group
@@ -3597,12 +3620,13 @@
     schedule: Saturdays 8:35am (2 hours)
     notes: 5-7 miles (3-4 mi option). Forest Park, Tryon Creek, Wildwood Trail. Coffee at trailhead after.
   - name: Weeknight Trail Run
-    schedule: Wednesdays 6:35pm
-    notes: Night trails run - headlamp and reflective gear required.
+    schedule: Occasional weeknight runs (check Meetup)
+    notes: Weekday runs are posted on Meetup from time to time rather than every week. Night trails run - headlamp and reflective
+      gear required.
   members: 4302
   eligibility: All levels welcome
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check Meetup for current meeting location
@@ -3628,7 +3652,7 @@
   category: fitness_wellness
   location_type: physical
   resource_type: program
-  address: Forest Park, Thurman Entrance
+  address: Forest Park Thurman entrance, 4100 NW Leif Erikson Dr, Portland, OR 97210
   phone: null
   website: https://trailsisters.net/local-groups/portland-oregon/
   source_urls:
@@ -3653,8 +3677,8 @@
   - No one left behind philosophy
   - Group matches your pace
   - Walking welcomed
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Group will match your pace - no pressure
@@ -4020,8 +4044,8 @@
   - name: Daily Virtual Meditation
     schedule: Daily 8-9am
     notes: Consistent morning practice opportunity. Great for building routine.
-  last_verified: 2026-02-16
-  next_audit: 2026-05-16
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: No registration needed. Gift economy means pay what you can or nothing at all. Daily virtual option helps
     build consistent practice. Welcoming to all traditions.
@@ -4049,8 +4073,8 @@
   pricing:
     description: FREE
   schedule: Mondays & Fridays 6:30-7:25pm
-  last_verified: 2026-04-15
-  next_audit: 2026-07-15
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: Meetings now held at TaborSpace in SE Portland (moved from Portland Shambhala Center). 30 minutes silent
     meditation followed by meditative talking circle and social time. All traditions welcome. Good for connecting with others.
@@ -4079,8 +4103,8 @@
   pricing:
     description: FREE, no registration required
   schedule: Every Tuesday & Thursday 6-8pm
-  last_verified: 2026-03-03
-  next_audit: 2026-06-03
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: Arrive by 5:45pm. Multiple pace groups from leisurely to fast. Cancelled when Portland Public Schools closed
     for weather, forecast >95F, or AQI 151+.
@@ -4118,8 +4142,8 @@
     cost: FREE
     notes: Explore the museum's diverse collections for free. Tickets can be reserved online one week in advance or at the
       door. Often includes live DJs, guided tours, and special programming. Part of Portland's First Thursday arts tradition.
-  last_verified: 2026-03-03
-  next_audit: 2026-06-03
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: Free First Thursday 10am-7pm. Oregon Trail Card provides $5 admission (up to 2 tickets). Quieter on weekday
     mornings. Downtown location near PSU. Multiple floors with diverse collections.
@@ -4165,8 +4189,8 @@
     notes: Discounted admission day - only $5 per person for all exhibits. Planetarium shows, submarine tours, and special
       exhibitions also $5 each. Purchase tickets online in advance to skip the line. Interactive science museum great for
       families and curious minds.
-  last_verified: 2026-05-01
-  next_audit: 2026-08-01
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: First Sunday is only $5 admission. Arts for All accepts EBT/SNAP/WIC/TANF/Medicaid/OHP - up to 4 tickets
     at $5 each, plus up to 55% off memberships. Free companion ticket for aide accompanying visitors with disabilities. Interactive
@@ -4418,6 +4442,10 @@
   - isolation
   - indoor
   notes: Since 1999. Games from Golden Age of Video Arcade.
+  flags:
+  - ⚠️ VERIFY - A 2026 listing describes Free Play as a $5 cover with doors at 5pm and all-ages admission only Friday-Sunday
+    noon-5pm, which conflicts with the stored $6 all-ages / $12 21+ all-day pricing. Check groundkontrol.com/events before
+    quoting prices.
   last_verified: 2026-02-11
   next_audit: 2026-05-11
   audit_frequency: quarterly
@@ -4442,8 +4470,8 @@
     schedule: Sundays 12-6pm
     cost: FREE
     notes: Game library with bartender-hosted game instruction in the Bar area
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: Sunday Board Game Open Play (12-6pm) is free and welcoming to newcomers. Bartender hosts help find games
     and teach rules in the Bar area. Board games, card games, and tabletop RPGs available. Good place to meet people with
@@ -4504,8 +4532,8 @@
   email: Info@nayapdx.org
   hours: Monday-Friday 9am-4:30pm
   notes: 40+ programs. Youth Centered, Family Driven, Elder Guided. Over 50 years serving Portland (founded 1974).
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#cultural-community-centers
   latitude: 45.57075
@@ -4760,8 +4788,8 @@
   - Free WiFi
   - eBooks via Libby/Overdrive
   - Seeds for Sharing garden seed checkout
-  last_verified: 2026-05-01
-  next_audit: 2026-08-01
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: Free library card for all Oregon residents. Cultural passes available for Pittock Mansion and Evergreen
     Aviation. Many locations offer free programs, computer access, and quiet spaces. Homebound delivery available for eligible
@@ -4783,9 +4811,9 @@
   category: arts_culture
   location_type: physical
   resource_type: place
-  address: 362 Warner Milne Rd, Oregon City, OR 97045
+  address: 606 John Adams St, Oregon City, OR 97045
   phone: 503-657-8269
-  website: https://www.orcity.org/library
+  website: https://orcity.org/159/Library
   hours: Mon-Fri 10am-6:30pm, Sat 10am-6pm, Sun 10am-5pm
   source_urls:
   - https://www.orcity.org/library
@@ -4813,8 +4841,8 @@
   - Free WiFi and computer access
   - Community room events
   - Cultural and educational seminars
-  last_verified: 2026-03-24
-  next_audit: 2026-06-24
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check the event calendar at orcity-library.libcal.com for current programs
@@ -4830,8 +4858,6 @@
   - isolation
   guide_location: activities-guide-1.md#libraries
   notes: Oregon City library with strong free adult programming including Art Gym, chess, and book clubs.
-  latitude: 45.336449
-  longitude: -122.592067
 - id: hillsboro-public-library
   name: Hillsboro Public Library
   category: arts_culture
@@ -4873,8 +4899,8 @@
   - Free WiFi and computers
   - Part of WCCLS (Washington County Cooperative Library Services)
   - eBooks and digital resources
-  last_verified: 2026-03-24
-  next_audit: 2026-06-24
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Two locations — Brookwood (NE) and Shute Park (downtown). Both open 7 days.
@@ -4922,8 +4948,8 @@
   - Dome screen visuals
   eligibility: Open to the public
   parking: Lot J closest to planetarium
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Arrive 15 min early - seats fill up
@@ -4960,8 +4986,8 @@
     schedule: 1st & 3rd Wednesdays 12-1pm
     cost: FREE
     notes: Historic 1882 venue, fully wheelchair accessible
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: Free lunchtime concerts on 1st and 3rd Wednesdays 12-1pm. Beautiful historic 1882 venue. No ticket needed
     - just show up. Peaceful midday break. Located downtown near PSU campus.
@@ -5022,14 +5048,14 @@
     description: FREE
   programs:
   - name: Bach Cantata Vespers
-    schedule: Select Sundays 4-5pm (4 per season)
+    schedule: Select Sundays 5-6pm (4 per season)
     cost: FREE
-    dates: February 22, June 14, 2026 (more TBA)
+    dates: February 22, June 14, 2026 (2026-27 season not yet announced)
     notes: Four Bach cantatas per season presented within Evening Prayer liturgy with choir, soloists, and orchestra.
-  last_verified: 2026-02-16
-  next_audit: 2026-05-16
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
-  practical_tips: 'Free concerts featuring Bach cantatas on select Sundays at 4pm. Four cantatas per season. No tickets needed
+  practical_tips: 'Free concerts featuring Bach cantatas on select Sundays at 5pm. Four cantatas per season. No tickets needed
     - just show up. Offerings accepted but not required. Beautiful church setting with excellent acoustics. 2026 dates: Feb
     22, Jun 14.'
   accessibility:
@@ -5140,8 +5166,8 @@
     cost: FREE
     notes: Acoustic, folk, and Americana music. Schedule varies - check laurelthirst.com/music-calendar for listings. Most
       shows free. Tip the musicians.
-  last_verified: 2026-04-22
-  next_audit: 2026-07-22
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: Beloved neighborhood pub with free live acoustic and Americana music during 6-9pm happy hour. All shows
     free unless listed. Gets crowded on weekends. Good food and local beer selection. Cozy historic space. 21+ venue.
@@ -5325,8 +5351,8 @@
   - Public computers
   - Meeting rooms
   - Cultural Pass Express access
-  last_verified: 2026-05-01
-  next_audit: 2026-08-01
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Get a free library card with proof of address
@@ -5451,8 +5477,8 @@
   - name: Makerspace Open Lab
     schedule: Various times
     cost: FREE
-  last_verified: 2026-03-03
-  next_audit: 2026-06-03
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Reference Desk at 503-691-3072 for questions
@@ -5641,16 +5667,17 @@
     description: Ticket prices vary by section (Sections A, B, C)
     notes: Student and senior discounts typically available. Tickets online or at box office (opens 1hr before curtain, cash/check
       only).
-  current_production:
-    name: Magic Theatre
-    dates: March 4-8, 2026
-    schedule: 10-11am daily; Sat-Sun additional show 12-1pm
-    director: Julianne Johnson Weiss
-    producer: Dan Hays
-    season: Winter 2026
+  programs:
+  - name: An Evening of Shakespeare Scenes
+    dates: December 3, 2026
+    schedule: 6:30pm
+    notes: PCC Sylvania Performing Arts; ticket details on pcc.edu/theatre
+  - name: A Midsummer Night's Dream
+    dates: March 4-7, 2027
+    notes: Showtimes and pricing not yet posted; auditions November 2-3, 2026
   parking: Weekday permits required; weekends free
-  last_verified: 2026-03-07
-  next_audit: 2026-06-07
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Purchase tickets in advance online or at the door
@@ -5725,12 +5752,12 @@
   - https://portland.scrapcreativereuse.org/
   - https://portland.scrapcreativereuse.org/Events
   pricing:
-    description: FREE-$7 depending on event
+    description: FREE-$15 depending on event
   programs:
   - name: Sunday Crafternoon
-    schedule: Sundays 2-4pm
-    cost: FREE
-    notes: Guided themed craft projects. Materials provided. All skill levels welcome.
+    schedule: Select Sundays 2-4pm (check calendar)
+    cost: $10-15 online ticket plus fees
+    notes: Guided themed craft projects. Materials provided. All skill levels welcome. Ticketed, not free.
   - name: Sunday Night Stitchin'
     schedule: Once monthly (check website)
     cost: FREE
@@ -5740,10 +5767,10 @@
     cost: FREE
     notes: Bring a project or start a new one.
   hours: 7 days a week 11am-7pm
-  last_verified: 2026-03-03
-  next_audit: 2026-06-03
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
-  practical_tips: Nonprofit creative reuse center with low-cost art supplies. Sunday Crafternoon is great for trying new crafts.
+  practical_tips: Nonprofit creative reuse center with low-cost art supplies. Sunday Crafternoon ($10-15) is great for trying new crafts.
     Low-pressure environment perfect for creative expression without spending much. Materials provided for most events.
   accessibility:
   - wheelchair_accessible
@@ -5778,8 +5805,8 @@
     notes: Free monthly collage session. All materials provided. Great for beginners. Open to the public.
   latitude: 45.51354
   longitude: -122.662339
-  last_verified: 2026-05-01
-  next_audit: 2026-08-01
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: Resource center for zines, books, prints, and comics. Home to 9,000+ zine library. Offers letterpress, screen
     printing, risograph, and bookbinding workshops. Collage Night is beginner-friendly.
@@ -5816,8 +5843,8 @@
     schedule: Last Friday of month, signups 6:30pm, show 7pm
     cost: $5 suggested donation
     notes: Poetry open mic and slam. 10 slots via lottery.
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: Poetry slam and open mic. Poets get 3 minutes on mic. Supportive environment for sharing creative work.
     Slots determined by lottery (10 slots per show). All ages, ADA accessible. Safer space policy in place.
@@ -5842,8 +5869,8 @@
   pricing:
     description: FREE
   schedule: Last Sunday of each month 4-6pm
-  last_verified: 2026-05-01
-  next_audit: 2026-08-01
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: Welcoming open mic for poets and storytellers. Musical accompaniments welcome. Cozy coffeehouse setting
     ideal for those nervous about sharing work for the first time. Very supportive community.
@@ -5872,8 +5899,8 @@
   pricing:
     description: Many free events; membership $57/year (student $30/year)
   schedule: Various workshops and critique groups throughout the month
-  last_verified: 2026-05-01
-  next_audit: 2026-08-01
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: Oregon's largest writers' organization (6,000+ writers). Free writing workshops and drop-in critiques available.
     Annual conference July 30-August 2, 2026 in Portland. Good for connecting with other writers at all levels.
@@ -6049,8 +6076,8 @@
   - Arts and crafts vendors
   - Native foods (fry bread and more)
   - Cultural exhibitions
-  last_verified: 2026-03-24
-  next_audit: 2026-06-01
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   audit_frequency: annually
   practical_tips:
     first_visit: Just show up — open to everyone, Native and non-Native alike
@@ -6203,10 +6230,9 @@
   source_urls:
   - https://www.marianasfestival.com/
   pricing:
-    description: $5 parking
-    notes: Festival admission details TBD — check website closer to event
-  dates: August 28-30, 2026
-  schedule: Fri workshops (location TBD), Sat-Sun at Blue Lake Park
+    description: FREE admission; $5 per vehicle parking
+  dates: August 27-29, 2026
+  schedule: Thu-Fri workshops (Fri 5-8pm at Heritage High School, Vancouver WA); Sat 9am-7pm at Blue Lake Park
   organizer: Marianas Alliance for Growth of Islanders (MAGI)
   features:
   - Chamorro cultural dances
@@ -6214,8 +6240,8 @@
   - Food and flavors of the Marianas Islands
   - Beer garden
   - Friday pre-festival workshops
-  last_verified: 2026-03-24
-  next_audit: 2026-08-01
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   audit_frequency: annually
   practical_tips:
     first_visit: Check website for updated schedule closer to event
@@ -6451,20 +6477,24 @@
     description: FREE
   programs:
   - name: Music in the Parks
-    schedule: Every other Wednesday 6:30-8:30pm
-    schedule_start_date: 2026-07-01
-    schedule_end_date: 2026-08-31
+    dates:
+    - July 8, 2026
+    - July 22, 2026
+    - August 5, 2026
+    - August 19, 2026
+    schedule: 6:30-8:30pm
     cost: FREE
-    notes: July-August at Nadaka Nature Park, Bella Vista Park, Butler Creek Park, Vance Park; 2026 dates TBA
-  last_verified: 2026-03-03
-  next_audit: 2026-06-03
+    notes: 2026 lineup - July 8 Carpathian-Pacific Express at Nadaka Nature Park; July 22 Eric John Kaiser Band at Bella Vista
+      Park; August 5 Brady Goss at Butler Creek Park; August 19 A Cara o Cruz Band at Vance Park
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   audit_frequency: annually
   practical_tips:
     first_visit: Check greshamoregon.gov/Recreation for current schedule and locations
     registration: None - free and open to all
     what_to_bring: Blanket or lawn chairs, picnic food, bug spray
-    good_to_know: Free summer concerts at rotating Gresham parks July-August. Every other Wednesday 6:30-8:30pm. Great family-friendly
-      neighborhood events. Check schedule for park locations.
+    good_to_know: Free summer concerts at rotating Gresham parks on four Wednesdays in July-August, 6:30-8:30pm. Great
+      family-friendly neighborhood events. Food vendors and beer/wine on site. The city publishes exact dates each May.
   accessibility:
   - wheelchair_accessible
   accessibility_notes: Most Gresham parks are accessible. Check specific park for details.
@@ -6565,8 +6595,8 @@
   pricing:
     description: FREE
   dates: July 18, 2026
-  last_verified: 2026-01-24
-  next_audit: 2026-06-01
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   notes: 150+ artists, kids village, live music, food trucks
   audit_frequency: annually
   practical_tips:
@@ -6602,9 +6632,9 @@
   pricing:
     description: FREE
   dates: August 23, 2026
-  hours: 10am-8pm
-  last_verified: 2026-01-24
-  next_audit: 2026-07-01
+  hours: 10:30am-8pm
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   notes: 10,000+ attendees, Indian dance, music, food
   audit_frequency: annually
   practical_tips:
@@ -6640,8 +6670,8 @@
     description: FREE
   dates: August 1, 2026
   hours: 2pm-9pm (Bon Odori dancing starts 7pm)
-  last_verified: 2026-01-24
-  next_audit: 2026-07-01
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   notes: Japanese Buddhist festival, all welcome. Free dance practices held beforehand; no experience needed
   audit_frequency: annually
   practical_tips:
@@ -6678,8 +6708,8 @@
     description: FREE entry (flowers for purchase)
   dates: August 1 - September 30, 2026
   hours: Wed-Sun + Labor Day, 9am-5:30pm
-  last_verified: 2026-01-24
-  next_audit: 2026-07-01
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   notes: Free parking. Festival includes classes, food carts, live music on Sat/Sun, Sunday Market. Over 50 years running.
   audit_frequency: annually
   practical_tips:
@@ -6714,8 +6744,8 @@
   pricing:
     description: $8-12 adults (look for early-week discount days)
   dates: August 18-22, 2026
-  last_verified: 2025-12-02
-  next_audit: 2026-07-01
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   audit_frequency: annually
   practical_tips:
     first_visit: Check for discount admission days early in the week
@@ -6750,8 +6780,8 @@
     description: FREE
   dates: September 19-20, 2026
   hours: Sat 11am-10pm, Sun noon-6pm
-  last_verified: 2026-01-24
-  next_audit: 2026-08-01
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   notes: Longest-running Polish festival on West Coast. Dates estimated based on typical mid-September weekend; confirm closer
     to event.
   audit_frequency: annually
@@ -6787,8 +6817,8 @@
     description: $5 (children under 12 FREE)
   dates: October 2-4, 2026
   hours: Fri-Sat 10am-10pm, Sun 11am-7pm
-  last_verified: 2026-01-24
-  next_audit: 2026-09-01
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   notes: 72nd annual in 2025; 15,000+ guests annually
   audit_frequency: annually
   practical_tips:
@@ -7003,7 +7033,7 @@
   category: events
   location_type: physical
   resource_type: event
-  address: Waterfront Park, Portland, OR
+  address: 2 SW Naito Pkwy, Portland, OR 97204
   phone: null
   website: https://portlandsaturdaymarket.com/
   source_urls:
@@ -7011,14 +7041,14 @@
   pricing:
     description: FREE admission
   schedule_start_date: 2026-03-07
-  schedule_end_date: 2026-12-24
+  schedule_end_date: 2026-12-19
   programs:
   - name: Saturday Market
     schedule: Saturdays 10am-5pm
     cost: FREE
-    notes: March through December; live music at 11am and 2pm
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+    notes: March 7 through December 19, 2026; live music at 11am and 2pm
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   audit_frequency: annually
   practical_tips:
     first_visit: Enter from Waterfront Park - market stretches under Burnside Bridge
@@ -7094,10 +7124,11 @@
   - https://christmasships.org/
   pricing:
     description: FREE viewing from any riverfront
-  dates: November 27 - December 21, 2026
-  last_verified: 2026-01-24
-  next_audit: 2026-11-01
-  notes: 15 nights of decorated boats on the rivers
+  dates: December 3-20, 2026
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
+  notes: 15 nights of decorated boats on the rivers. Meet the Skippers at RiverPlace Marina dock Saturday December 19 8-10pm
+    and Sunday December 20 2-4:30pm.
   audit_frequency: annually
   practical_tips:
     first_visit: Check christmasships.org for nightly schedule showing which river section the fleet will be on
@@ -7296,7 +7327,7 @@
   category: events
   location_type: physical
   resource_type: event
-  website: https://jadedistrict.org/jade-international-night-market-2025
+  website: https://jadedistrict.org/jade-international-night-market-2026
   source_urls:
   - https://jadedistrict.org/jade-international-night-market-2025
   - https://www.pcc.edu/events/jade-market/
@@ -7306,8 +7337,8 @@
   schedule: Annual event, mid-August
   events:
   - name: 10th Annual Jade International Night Market
-    dates: August 2026 (date TBA, typically 3rd Saturday)
-    time: 3pm-10pm
+    dates: August 29, 2026
+    time: 4pm-10pm
     location: PCC Southeast Campus, 2305 SE 82nd Ave, Portland, OR 97216
     expected_attendance: 20,000+
   features:
@@ -7321,8 +7352,8 @@
   - PCC Southeast Campus
   - Portland Art and Cultural Center
   eligibility: Open to the public, family-friendly
-  last_verified: 2026-01-24
-  next_audit: 2026-06-01
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   notes: Portland's largest multicultural night market celebrating Jade District's diverse Asian and immigrant communities.
     Founded 2014.
   audit_frequency: annually
@@ -7427,8 +7458,8 @@
     cost: FREE
     notes: One-hour guided hike with a park naturalist. Topics vary weekly - fungi, wildlife, seasonal themes. Ages 5+ (all
       ages welcome). No registration - meet at Nature Center.
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: 'Park FREE; parking $10/day (free if arriving by foot, bike, or bus #35). Trillium Trail is 0.3 mile paved
     and fully accessible. Free Saturday guided nature walks at 10am. Nature Center 9am-4pm daily.'
@@ -7466,8 +7497,8 @@
   - Group hikes at accessible trails
   - Online trail accessibility guides
   - Disability community building
-  last_verified: 2026-03-24
-  next_audit: 2026-06-24
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check disabledhikers.com for upcoming Portland group hike dates and RSVP
@@ -8151,33 +8182,36 @@
   latitude: 45.677419
   longitude: -122.778631
 - id: pobc-community-pantry
-  name: POBC Community Pantry (Nourish Oregon)
+  name: Nourish Oregon (POBC Community Pantry)
   category: food_farms
   location_type: physical
   resource_type: service
   address: 3223 SE 92nd Ave, Portland, OR 97266
   phone: 503-442-8228
-  email: pantry@pobcpantry.com
-  website: https://www.pobcpantry.com/
+  email: pantry@nourishoregon.com
+  website: https://www.nourishoregon.com/
   source_urls:
+  - https://www.nourishoregon.com/get-food
   - https://www.pobcpantry.com/
+  - https://foodfinder.oregonfoodbank.org/locations/portland-open-bible-community-pantry
   pricing:
     description: FREE
-  hours: Tue 5-8pm, Thu 10am-2pm
+  hours: Tue 4-7pm and Thu 10am-1pm (walk-up); Mon 4-7pm pre-order pickup only
   eligibility: Open to anyone in the state of Oregon. No ID required.
   features:
   - Fruits and vegetables
   - Canned goods and dairy
   - Fresh and frozen meats
   - In-person shopping or scheduled pickup
-  last_verified: 2026-03-24
-  next_audit: 2026-06-24
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just show up during hours. No ID or proof of income required.
     what_to_bring: Bags to carry groceries
-    good_to_know: Inclusive pantry — no questions asked, no ID needed. Can shop in-person or schedule a pickup. Good evening
-      hours on Tuesdays for those who work during the day.
+    good_to_know: Inclusive pantry — no questions asked, no ID needed. Walk-ups welcome Tuesdays and Thursdays; Monday evening
+      is pre-order pickup only, so do not send walk-ins on Monday. Tuesday evening hours (4-7pm) suit people who work days.
+      The pantry now leads with the Nourish Oregon name.
   accessibility:
   - wheelchair_accessible
   social_intensity: solo
@@ -8193,28 +8227,30 @@
   category: food_farms
   location_type: physical
   resource_type: organization
-  address: 8959 SW Barbur Blvd, Portland, OR
+  address: 8959 SW Barbur Blvd, Portland, OR 97219
   phone: 503-246-1663
   website: https://nhpdx.org/
-  hours: Mon-Fri 10am-5pm (Capitol Hwy location). Food pantry hours vary by location.
+  hours: 'Free Food Market: Mon & Wed 10am-4pm (closed 12-1pm), Thu 2-6pm'
   source_urls:
   - https://nhpdx.org/
   - https://nhpdx.org/food-security/
+  - https://nhpdx.org/find-us/
   pricing:
     description: FREE
   programs:
   - name: Free Food Market
+    hours: Mon & Wed 10am-4pm (closed 12-1pm), Thu 2-6pm
     notes: Full grocery shopping experience. Serves 850+ households/month. Nearly 1 million lbs of food distributed annually.
       Personal shoppers available for those who need assistance.
   - name: Senior Center
     notes: Programs and services for older adults
   - name: Community Services
     notes: Shared community spaces, social services
-  last_verified: 2026-03-24
-  next_audit: 2026-06-24
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Check nhpdx.org for current hours at the new Barbur Blvd location
+    first_visit: Thursday 2-6pm is the slot for people who work days; the market closes for lunch 12-1pm on Mon/Wed
     good_to_know: New 16,000 sq ft facility on Barbur Blvd (3-4x larger than previous location). Indoor waiting area. Free
       food market, senior center, and community services under one roof. Serves SW Portland.
   accessibility:
@@ -8240,6 +8276,7 @@
   website: https://www.bethelbeaverton.org/hunger
   source_urls:
   - https://www.bethelbeaverton.org/hunger
+  - https://www.faithcafeor.org/
   pricing:
     description: FREE
   schedule: Sundays 4:15pm; last Thursday of each month 4:15pm
@@ -8248,8 +8285,8 @@
     schedule: Sundays 4:15-5:30pm
   - name: Monthly Thursday Meal
     schedule: Last Thursday of each month 4:15-5:30pm
-  last_verified: 2026-03-24
-  next_audit: 2026-06-24
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just show up at 4:15pm on Sundays. Open to all.
@@ -8284,8 +8321,8 @@
     lunch: 11:30am-12:25pm
     dinner: 5:00-5:55pm
   schedule: Monday-Saturday
-  last_verified: 2026-03-03
-  next_audit: 2026-06-03
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: No questions asked - just show up. Sit-down indoor dining with vegetarian options. Dogs allowed if leashed.
     Wednesday is spaghetti night. Serving since 1952. Downtown Old Town location.
@@ -8319,8 +8356,8 @@
   pricing:
     description: Not currently operating
     notes: The historic cafe was pay-what-you-can; future Lents services and pricing have not been announced.
-  last_verified: 2026-08-13
-  next_audit: 2026-09-13
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: The cafe is closed and is not currently a meal-access option. Check the official move FAQ or newsletter
     for the future Lents opening and services.
@@ -8329,11 +8366,12 @@
   - indoor
   - isolation
   guide_location: activities-guide-1.md#community-meal-programs
-  notes: Sisters is planning a move from Old Town to a residential home in Lents. The organization says the future program
-    model is still being shaped with community input.
+  notes: Sisters closed on a residential house in Lents in June 2026 as its new base of operations (OPB, July 6, 2026). The
+    organization says it is still asking neighbors and partners what the space should become.
   flags:
-  - ⚠️ VERIFY - Cafe service remains closed. Sisters plans a Lents move later in 2026, but its official FAQ does not yet publish
-    the new address, opening date, hours, meal service, or pricing. Recheck before listing it as an available food resource.
+  - ⚠️ VERIFY - Cafe service remains closed as of September 2026. Sisters bought a house in Lents in June 2026 but has not
+    published a street address, opening date, hours, meal service, or pricing. Recheck before listing it as an available food
+    resource.
 - id: portland-rescue-mission
   name: Portland Rescue Mission
   category: food_farms
@@ -8351,8 +8389,8 @@
     dinner: Daily 6pm
     weekend_lunch: 12:30pm
   schedule: 365 days per year
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: Open 365 days per year. Breakfast at 7am, dinner at 6pm daily. Weekend lunch at 12:30pm. No questions asked.
     Downtown Old Town/Burnside location. Can be crowded during meal times.
@@ -8386,8 +8424,8 @@
   - Sense of community and dignity
   latitude: 45.524167
   longitude: -122.681944
-  last_verified: 2026-03-24
-  next_audit: 2026-06-24
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Arrive at North Park Blocks on NW Glisan. Ticketing starts at noon, meal served at 3pm.
@@ -8451,14 +8489,15 @@
   location_type: physical
   resource_type: service
   address: null
-  phone: 503-736-6325
+  phone: 503-953-8111
   website: https://mowp.org
   source_urls:
   - https://mowp.org
+  - https://www.mowp.org/what-we-do/dining-centers/
   pricing:
-    description: $10.50 suggested donation - pay what you can afford
+    description: $10 per meal - contribute what you can afford, no one turned away
   eligibility: Adults 60+ regardless of income
-  schedule: Lunches Monday-Thursday (varies by center)
+  schedule: Lunches served Monday-Friday at most centers (days vary by center - call ahead)
   locations:
   - name: Gresham Center
     address: '600 NE 8th St #155, Gresham, OR 97030'
@@ -8472,11 +8511,12 @@
   - name: St. Johns
     address: 9009 N Foss Ave, Portland, OR 97203
     phone: 503-953-8210
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
-  practical_tips: For adults 60+ regardless of income. Suggested $10.50 donation but pay what you can afford. Lunches Mon-Thu
-    at various locations throughout Portland metro. Social dining experience. Call ahead to confirm hours at specific location.
+  practical_tips: For adults 60+ regardless of income. $10 per meal but contribute what you can afford. Lunches served weekdays
+    at dining centers throughout the Portland metro. Social dining experience. Call ahead to confirm days and hours at a specific
+    center; only the Belmont and Gresham centers surfaced in 2026 listings, so confirm MLK and St. Johns before a first visit.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
@@ -8658,9 +8698,9 @@
   pricing:
     description: FREE
   hours:
-    office: Monday-Thursday 8am-4pm, Friday 10am-3pm
-    food_distribution: Monday-Thursday 1-3:30pm, Friday 2-5pm
-  eligibility: Clackamas County residents; current mail within 30 days required
+    office: Phone line Mon-Fri 9am-5pm
+    food_distribution: Food pantry Tue/Thu noon-4pm; to-go meals Tue-Thu 1-2:30pm and Sun 3-3:30pm
+  eligibility: Serves Clackamas, Multnomah, and Washington County residents; bring current mail within 30 days as proof of address
   services:
   - Grocery programs (fresh, frozen, shelf-stable)
   - To-go meal bags
@@ -8673,14 +8713,15 @@
   secondary_location:
     name: Food Hub (donations only)
     address: 8937 SE Jannsen Rd, Clackamas, OR 97015
-  last_verified: 2026-04-22
-  next_audit: 2026-07-22
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Bring current piece of mail (within 30 days) as proof of address
     registration: null
     what_to_bring: ID and proof of Clackamas County address
-    good_to_know: Largest food pantry in Clackamas County with 51-year history
+    good_to_know: Largest food pantry in Clackamas County with 51-year history. Pantry days narrowed to Tuesday and Thursday in
+      2026; the Sunday 3-3:30pm to-go meal is a rare weekend option. Services in English and Spanish.
   accessibility:
   - wheelchair_accessible
   social_intensity: drop_in
@@ -8926,8 +8967,8 @@
   - name: Drop-In Farming
     schedule: Wednesdays 9:30am-12:30pm and 3-6pm; Saturdays 2-5pm
     notes: Come farm for 2 hours, leave with a bag of fresh produce. No commitment required.
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   audit_frequency: annually
   practical_tips: Drop-in model where anyone can come farm for 2 hours and leave with fresh produce. No commitment required
     - just show up during open hours. Combines gentle physical activity with tangible reward. Great for those wanting to try
@@ -8955,14 +8996,22 @@
   website: https://sunshinedivision.org/
   source_urls:
   - https://sunshinedivision.org/
+  - https://sunshinedivision.org/food-pantry-service/
+  - https://www.kptv.com/2026/06/12/sunshine-division-opens-new-free-food-market-nw-portland/
   pricing:
     description: FREE
-  hours: Tuesday-Saturday 9am-12pm & 1-4pm
-  last_verified: 2026-03-03
-  next_audit: 2026-06-03
+  hours: 'SE Stark: Mon-Fri 9am-12pm & 1-4pm. NW Front Ave: Tue/Wed/Fri 9am-12pm & 1-4pm, Thu 11am-3pm & 4-7pm, Sat 9am-2pm'
+  locations:
+  - name: SE Stark Street Pantry
+    address: 12436 SE Stark St, Portland, OR 97233
+  - name: NW Front Avenue Free Food Market (headquarters, opened June 9, 2026)
+    address: 2121 NW Front Ave, Portland, OR 97209
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: Free food boxes also available 24/7 at every Portland Police precinct. Home delivery Mon/Wed via DoorDash
-    (register at sunshinedivision.org). New headquarters at 2121 NW Front Ave expected spring 2026.
+    (register at sunshinedivision.org). The new NW Front Ave headquarters opened June 9, 2026 as a grocery-style choice pantry;
+    it is the only site with Thursday evening and Saturday hours. The SE Stark pantry is now weekdays only.
   accessibility:
   - transit_nearby
   social_intensity: drop_in
@@ -8987,7 +9036,8 @@
   pricing:
     description: FREE
   hours: Mon-Fri 10am-2pm, Mon & Wed 6-8pm
-  eligibility: East of 82nd Avenue in Multnomah County; pantry visits up to 2 times per month through August 2026.
+  eligibility: East of 82nd Avenue in Multnomah County; pantry visits were limited to 2 per month through August 2026 - ask
+    whether the limit still applies.
   features:
   - Pre-packed food boxes
   - Fresh and frozen food
@@ -9009,8 +9059,8 @@
     first_visit: Complete SnowCap's general application online or call for a quick intake, then visit during pantry hours.
       Evening hours Monday and Wednesday are useful for people who work during the day.
     what_to_bring: Bags or boxes to carry food home
-    good_to_know: Guests may visit the pantry up to twice per month through August 2026. Clothing is available by appointment
-      at a separate location.
+    good_to_know: A twice-per-month visit limit was announced through August 2026; ask at intake whether it still applies.
+      Clothing is available by appointment at a separate location.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
@@ -9044,11 +9094,12 @@
   - Cold storage items
   - Financial literacy education (re$tart course)
   - Family Vision workshops
-  last_verified: 2026-03-30
-  next_audit: 2026-06-30
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Open Mon/Wed/Fri. Walk in during hours — no appointment needed.
+    first_visit: Enrollment-based program for working families that pairs groceries with financial education; call 503-251-5431
+      about joining before visiting. For same-day food, Birch publishes a separate Same Day Food Resources list on its site.
     what_to_bring: Bags for groceries
     good_to_know: Serves 975+ families weekly. Also redistributes 1.2 million lbs of donated products monthly to 70+ partner
       agencies across the region. Founded 1992.
@@ -9090,15 +9141,15 @@
       people with mobility or health challenges.
   - name: Adopted Buildings Program
     notes: Onsite food boxes and pantries placed in 50+ affordable housing buildings throughout Portland
-  last_verified: 2026-03-30
-  next_audit: 2026-06-30
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Located at First United Methodist Church near Goose Hollow MAX stop — use the rear entrance. Shopping-style
       so you choose what you need.
     what_to_bring: Bags for groceries
-    good_to_know: Tuesday 3-5:30pm is by appointment specifically for people with mobility or health challenges — call ahead.
-      Founded 1980 as Northwest Portland Ministries. Also places food boxes in 50+ affordable housing buildings.
+    good_to_know: Thursday and Friday shopping order is drawn by lottery — arrive between 2:00 and 2:30pm to get a number.
+      Tuesday 3-5:30pm is by appointment for people with mobility or health challenges (503-221-1224 x105). Founded 1980 as Northwest Portland Ministries. Also places food boxes in 50+ affordable housing buildings.
   accessibility:
   - transit_nearby
   accessibility_notes: Tuesday 3-5:30pm by appointment for people with mobility or health challenges. Near Goose Hollow MAX
@@ -9125,7 +9176,7 @@
   - https://hillsboro.salvationarmy.org/hillsboro/cure-hunger/
   pricing:
     description: FREE
-  hours: Mon-Fri 1-3:45pm (food boxes). Daily sack lunch available.
+  hours: Food boxes Mon/Tue/Thu/Fri 1-3:45pm (closed Wed). Sack lunch weekdays 9:30am-3:30pm (Hillsboro/Sherwood residents)
   features:
   - Food boxes
   - Bread and baked goods
@@ -9134,11 +9185,12 @@
   programs:
   - name: Mobile Pantry
     notes: Wednesday stops in Banks and West Union with fresh produce, proteins, dry and canned goods
-  last_verified: 2026-03-30
-  next_audit: 2026-06-30
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Walk in during afternoon hours for food boxes. Daily sack lunches also available.
+    first_visit: Walk in on Mon/Tue/Thu/Fri afternoons for food boxes; the pantry is closed Wednesdays while the mobile pantry
+      runs. Weekday sack lunches are for Hillsboro and Sherwood residents.
     what_to_bring: Bags or boxes for food
     good_to_know: Also runs a mobile pantry on Wednesdays reaching Banks and West Union — good option for rural Washington
       County residents. Part of the Salvation Army's Cure Hunger program.
@@ -9150,8 +9202,8 @@
   - low_energy
   - indoor
   guide_location: activities-guide-2.md#free-food-resources
-  notes: Washington County food pantry in Hillsboro. Food boxes Mon-Fri afternoons plus daily sack lunch. Mobile pantry on
-    Wednesdays serves rural Banks and West Union areas.
+  notes: Washington County food pantry in Hillsboro. Food boxes four weekday afternoons plus weekday sack lunches. Mobile pantry
+    on Wednesdays serves rural Banks and West Union areas.
   latitude: 45.508887
   longitude: -122.960188
 - id: hunger-fighters-lake-oswego
@@ -9196,21 +9248,24 @@
   location_type: physical
   resource_type: service
   address: 6460 Glen Echo Ave, Gladstone, OR 97027
-  phone: 503-496-3947
+  phone: 503-737-5283
   website: https://nwfs.org/basic-needs/food-matters
   source_urls:
   - https://nwfs.org/basic-needs/food-matters
+  - https://www.gladstone.k12.or.us/page/gladstone-school-food-pantry
   pricing:
     description: FREE
-  hours: Thu 3-5pm
-  last_verified: 2026-03-30
-  next_audit: 2026-06-30
+  hours: Thu 3-5:30pm
+  eligibility: Gladstone School District families plus residents of Gladstone, Jennings Lodge, and Oak Grove
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Open Thursday afternoons only. Walk in during hours.
     what_to_bring: Bags for groceries
-    good_to_know: Connected to Northwest Family Services FoodMatters program which serves families and seniors across multiple
-      counties.
+    good_to_know: Located on the Gladstone Center for Children & Families campus. Connected to Northwest Family Services
+      FoodMatters program. 503-737-5283 is the pantry line listed by the school district; NW Family Services also lists
+      503-496-3947.
   accessibility:
   - wheelchair_accessible
   social_intensity: drop_in
@@ -9229,17 +9284,21 @@
   resource_type: service
   address: 3550 SW Borland Rd, Tualatin, OR 97062
   phone: 503-783-0721
+  email: pantry@tualatinfoodpantry.org
+  website: https://www.tualatinfoodpantry.org
   source_urls:
+  - https://www.tualatinfoodpantry.org
   - https://www.tualatinoregon.gov/community-services
   pricing:
     description: FREE
-  hours: null
+  hours: Mon 4-7pm, Wed 10am-1pm, Fri 10am-1pm
   eligibility: Tualatin, Lake Oswego, West Linn, and North Wilsonville residents
-  last_verified: 2026-03-30
-  next_audit: 2026-06-30
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Call ahead at 503-783-0721 for current hours and availability.
+    first_visit: Use the lower-level entrance of Rolling Hills Community Church. Monday evening suits people who work days.
+      The phone is only answered during pantry hours.
     good_to_know: Serves a wide south metro area including Tualatin, Lake Oswego, West Linn, and North Wilsonville.
   accessibility:
   - wheelchair_accessible
@@ -9249,7 +9308,8 @@
   - low_energy
   - indoor
   guide_location: activities-guide-2.md#free-food-resources
-  notes: South metro food pantry serving Tualatin, Lake Oswego, West Linn, and North Wilsonville. Call for current hours.
+  notes: South metro food pantry serving Tualatin, Lake Oswego, West Linn, and North Wilsonville, in the lower level of Rolling
+    Hills Community Church.
   latitude: 45.373498
   longitude: -122.711639
 - id: wilsonville-community-sharing
@@ -9264,14 +9324,15 @@
   - https://www.wilsonvillecommunitysharing.org
   pricing:
     description: FREE
-  hours: Tue 12:30-2:30pm & 6-7:30pm
-  last_verified: 2026-03-30
-  next_audit: 2026-06-30
+  hours: Tue 12:30-2:30pm & 6-7:15pm
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Walk in during hours. Tuesday has both afternoon and evening slots.
     what_to_bring: Bags for groceries
-    good_to_know: Evening hours on Tuesdays (6-7:30pm) are great for people who work during the day.
+    good_to_know: Evening hours on Tuesdays (6-7:15pm) are great for people who work during the day. Clients are accepted up to
+      15 minutes before closing; new clients should arrive at least 30 minutes before closing to sign up.
   accessibility:
   - wheelchair_accessible
   social_intensity: drop_in
@@ -9294,15 +9355,20 @@
   - https://www.estacadafoodbank.org
   pricing:
     description: FREE
-  hours: 2nd & 4th Tue 10am-2pm, Wed 10am-2pm, Thu 1-5pm
+  hours: Wed 2-6pm (2-4pm Estacada School District families, 4-6pm everyone); Tue/Thu hours conflict across sources - call
+    503-630-2888
   last_verified: 2026-03-30
   next_audit: 2026-06-30
   audit_frequency: quarterly
+  flags:
+  - ⚠️ VERIFY - September 2026 directory listings disagree on the Tuesday and Thursday hours (one shows Tue/Thu 10am-1pm and Fri
+    10am-2pm, another shows 2nd & 4th Tuesday and Thursday only). Both agree Wednesday is now 2-6pm. Call before publishing
+    exact hours.
   practical_tips:
-    first_visit: Walk in during hours. Tuesdays are 2nd and 4th week of the month only.
+    first_visit: Call 503-630-2888 to confirm the day's hours before making the trip.
     what_to_bring: Bags or boxes for food
-    good_to_know: Serves the rural Estacada and eastern Clackamas County area. Limited Tuesday hours — Wednesdays and Thursdays
-      are more consistently open.
+    good_to_know: Serves the rural Estacada and eastern Clackamas County area. Wednesday afternoon is the most consistently
+      listed session; the first two hours are reserved for Estacada School District families.
   social_intensity: drop_in
   good_for:
   - anxiety_friendly
@@ -9354,14 +9420,14 @@
   - https://www.svdppdx.org/pantries-list
   pricing:
     description: FREE
-  hours: Varies by location — call Food Hotline at 503-235-8431 to find nearest pantry and hours
+  hours: Varies by location — call the Food Hotline at 503-235-8431 (weekdays 9:30am-3:30pm) to find the nearest pantry and hours
   features:
   - 40+ food pantries across the tri-county area
   - Emergency food boxes
   - Food delivery available at some locations
   - Delivery for people with disabilities at select drop-in pantries
-  last_verified: 2026-03-30
-  next_audit: 2026-06-30
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Call the Food Hotline at 503-235-8431 to find the nearest pantry to you. They will tell you the location,
@@ -9382,23 +9448,32 @@
   location_type: varies
   resource_type: organization
   address: Various locations in Washington County
-  phone: 503-615-0771
+  phone: 503-648-6646
   website: https://caowash.org
   source_urls:
   - https://caowash.org
+  - https://caowash.org/locations
   pricing:
     description: FREE
-  hours: Varies by program and location
+  hours: Multi-service centers in Hillsboro, Beaverton, and Tigard open Mon-Fri 8:30am-12pm & 1-5pm
+  locations:
+  - name: Hillsboro Multi-Service Center
+    address: 1001 SW Baseline St, Hillsboro, OR 97123
+  - name: Beaverton Multi-Service Center
+    address: 17933 NW Evergreen Place, Suite 315, Beaverton, OR 97006
+  - name: Tigard Multi-Service Center
+    address: 11515 SW Durham Rd, Suite E8, Tigard, OR 97224
   features:
   - Emergency food boxes
   - Energy assistance
   - Housing support
   - Head Start programs
-  last_verified: 2026-03-30
-  next_audit: 2026-06-30
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Call 503-615-0771 to find the right program for your needs. They serve all of Washington County.
+    first_visit: Call the main line at 503-648-6646 to find the right program; 503-615-0771 is the energy/utility assistance
+      line. They serve all of Washington County.
     good_to_know: Has been serving Washington County for 60+ years. Provides food assistance along with energy assistance,
       housing support, and other services. Good single point of contact for multiple needs.
   social_intensity: drop_in
@@ -9428,8 +9503,8 @@
   - 100+ partner pantries in the Portland metro area
   - Free groceries, fresh produce, and hot meals through partners
   - No proof of income or documentation required at partner sites
-  last_verified: 2026-03-30
-  next_audit: 2026-06-30
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Use the Food Finder at foodfinder.oregonfoodbank.org to search for pantries near you by ZIP code. No proof
@@ -9465,8 +9540,8 @@
   - Phone, text, email, and web access
   - Multilingual support
   - Covers food pantries, farmers markets, community meals, and more
-  last_verified: 2026-03-30
-  next_audit: 2026-06-30
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Call 2-1-1 from any phone, text your ZIP code to 898-211, email help@211info.org, or visit 211info.org. Available
@@ -10097,15 +10172,11 @@
   eligibility: Adults 55+
   audience:
   - seniors
-  hours: 'Mon-Thu: 8am-5pm
-
-    Fri: 8am-2pm
-
-    Sat: 8am-4pm
-
-    Closed Sunday and major holidays
-
-    '
+  hours: Mon 8am-8pm, Tue 8am-2pm, Wed 8am-6pm, Thu 8am-2pm (Fri/Sat hours not captured - verify); closed Sunday and major holidays
+  flags:
+  - ⚠️ VERIFY - The official THPRD page in September 2026 lists day-by-day hours (Mon 8am-8pm, Tue 8am-2pm, Wed 8am-6pm, Thu
+    8am-2pm) that differ from the previously stored Mon-Thu 8am-5pm; the snippet cut off before Friday and Saturday. Confirm
+    at 503-629-6342.
   facilities:
   - 2,436 sq ft fitness room
   - NuSteps, recumbent bikes, ellipticals, treadmills, weight machines
@@ -10281,10 +10352,20 @@
     - June 13, 2026
     - July 11, 2026
     - August 8, 2026
-    - September 12, 2026
-    - October 10, 2026
-    - November 14, 2026
-    - December 12, 2026
+  - name: Cedar Mill Library Repair Fair
+    dates: September 26, 2026
+    schedule: 1-4pm
+    location: Cedar Mill Community Library, Portland, OR (check repairpdx.org/repair-events for the address)
+    cost: FREE
+    format: In-person
+    notes: Partner repair fair listed on repairpdx.org in September 2026
+  - name: Tualatin Library Repair Fair
+    dates: October 17, 2026
+    schedule: 1-4pm
+    location: Tualatin Public Library, 18878 SW Martinazzi Ave, Tualatin, OR 97062
+    cost: FREE
+    format: In-person
+    notes: Partner repair fair listed on repairpdx.org in September 2026
   - name: Soldering for Home Electronics Repairs Workshop
     schedule: Periodic evenings, 6-8pm
     location: Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
@@ -10336,6 +10417,9 @@
     for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.
   flags:
   - 📅 DATE-SENSITIVE
+  - ⚠️ VERIFY - The projected 2nd-Saturday Leaven Repair Café dates for September-December 2026 were removed on 2026-09-10
+    because repairpdx.org/repair-events listed other fall fairs (Cedar Mill Sept 26, Molalla Oct 10, Tualatin Oct 17, Oregon
+    City Oct 24, CCC Nov 7) but no Leaven café after June 13. Re-add Leaven dates once published.
 - id: clackamas-county-repair-fairs
   name: Clackamas County Repair Fairs
   category: social_activities
@@ -10393,6 +10477,10 @@
     dates: September 19, 2026
     schedule: 10am-2pm
     location: 10723 SE Main St, Milwaukie, OR
+  - name: Repair Fair - Molalla
+    dates: October 10, 2026
+    schedule: 12-3pm
+    location: Molalla, OR (venue TBD - check clackamas.us/recycling/repairfair)
   - name: Repair Fair - Oregon City
     dates: October 24, 2026
     schedule: 10am-1pm
@@ -10401,8 +10489,8 @@
     dates: November 7, 2026
     schedule: 10am-1pm
     location: Clackamas Community College, 19600 Molalla Ave, Oregon City, OR
-  last_verified: 2026-07-28
-  next_audit: 2026-08-28
+  last_verified: 2026-09-10
+  next_audit: 2026-10-10
   audit_frequency: monthly
   practical_tips:
     first_visit: Just show up with your broken items
@@ -10512,8 +10600,8 @@
   - The Tree Tour
   latitude: 45.519444
   longitude: -122.641667
-  last_verified: 2026-03-03
-  next_audit: 2026-06-03
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Meet at the Soldiers Monument near SE 26th & Stark. Arrive 5-10 minutes early.
@@ -10591,8 +10679,8 @@
   - name: Energy Assistance
     schedule: Ongoing
     notes: Help applying for utility assistance programs.
-  last_verified: 2026-04-22
-  next_audit: 2026-07-22
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips: For adults 55+. Offers free legal aid, computer workshops, tax assistance, and energy assistance programs.
     Social activity groups and wellness programs. Also hosts NAMI peer support groups on 2nd & 4th Sundays.
@@ -10653,24 +10741,45 @@
   hours: Mon-Thu 10am-6pm, Fri 10am-4pm
   source_urls:
   - https://www.washconami.org
+  - https://www.washconami.org/support-groups
+  - https://www.washconami.org/family-support-groups
   pricing:
     description: FREE
   eligibility: Adults with mental health conditions or family members
   programs:
-  - name: NAMI Connection Recovery Support Group
-    schedule: Contact for current schedule
-    format: In-person and Virtual
-    notes: Peer-led support groups for adults living with mental health conditions
+  - name: Anxiety Connection Support Group
+    schedule: Every Tuesday 1-2:30pm
+    format: In-person
+    notes: Peer-led NAMI Connection group for adults living with anxiety
+  - name: Women's Connection Support Group
+    schedule: Every Wednesday 2-3:30pm
+    format: In-person
+    audience:
+    - women
+    notes: Peer-led NAMI Connection group for women living with mental health conditions
+  - name: Depression/Bipolar Connection Support Group
+    schedule: Every Saturday 12-1:30pm
+    format: In-person
+    notes: Peer-led NAMI Connection group for adults living with depression or bipolar disorder
+  - name: Schizophrenia Connection Support Group
+    schedule: Every Monday 2-3pm
+    format: In-person
+    notes: Peer-led NAMI Connection group for adults living with schizophrenia or psychosis
+  - name: Men's Support Group
+    schedule: Every Thursday 2-3pm
+    format: Virtual (Zoom)
+    notes: Peer-led group for men living with mental health conditions; register on washconami.org for the Zoom link
   - name: NAMI Family Support Group
     schedule: Contact for current schedule
     format: In-person and Virtual
     notes: Support groups for family members and caregivers
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Check website or call for current meeting schedule
-    registration: Registration may be required for some groups
+    first_visit: Topic-specific Connection groups meet weekly at the Aloha office; confirm the day's group at
+      washconami.org/support-groups or 503-356-6835 before a first visit
+    registration: Registration may be required for some groups; the Men's Zoom group needs a link from the website
     what_to_bring: Nothing required - just yourself
     good_to_know: Part of the national NAMI network. Partners with MHAAO for PeerZone workshops. Serves all of Washington
       County.
@@ -10961,12 +11070,13 @@
   category: peer_support
   location_type: physical
   resource_type: place
-  address: 100 SE Cleveland Ave, Gresham, OR 97030
+  address: 100 SE Cleveland St, Gresham, OR 97030
   phone: 503-465-2749
   website: https://www.bridgestochange.com
-  hours: Mon-Fri 9am-9pm, Sat 12pm-8pm
+  hours: Mon-Fri 8am-5pm (showers/laundry Mon-Fri 10am-3pm)
   source_urls:
   - https://www.bridgestochange.com
+  - https://www.bridgestochange.com/immediate-care/
   pricing:
     description: FREE
   eligibility: Anyone seeking recovery support
@@ -10983,11 +11093,12 @@
   - name: Peer Mentorship
     format: In-person
     notes: Peer-led support from staff with lived experience in recovery
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Drop-in anytime during open hours - no appointment needed
+    first_visit: Drop in weekdays 8am-5pm - no appointment needed. The earlier 9am-9pm and Saturday hours belonged to the old
+      SE Stark St location.
     registration: None required
     what_to_bring: Nothing required
     good_to_know: Staff have lived experience in recovery. Also operates housing programs and Mobile Behavioral Health Team
@@ -11036,8 +11147,8 @@
     format: In-person
     notes: Free social gathering with music and refreshments for those with dementia, Alzheimer's, or memory loss, and their
       families. RSVP requested but drop-ins welcome.
-  last_verified: 2026-04-15
-  next_audit: 2026-07-15
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Call or email to learn about current support groups
@@ -11073,16 +11184,16 @@
   - https://pdxwlf.com/plan-your-visit/
   pricing:
     description: FREE
-  dates: February 6-14, 2026
-  hours: Anchor sites activated Friday and Saturday nights during festival
-  last_verified: 2026-02-11
-  next_audit: 2027-02-11
+  dates: February 5-13, 2027
+  hours: Anchor sites activated Friday and Saturday nights during festival (2027 sites and hours not yet posted)
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   audit_frequency: annually
   practical_tips:
     first_visit: Check website for map of installations and anchor site locations
     registration: None required
     what_to_bring: Warm clothing - this is an outdoor winter event
-    good_to_know: 11th anniversary of the festival. Features large-scale interactive art installations, performances, and
+    good_to_know: 12th year of the festival in 2027. Features large-scale interactive art installations, performances, and
       pop-ups across Portland. Best experienced after dark.
   accessibility:
   - wheelchair_accessible
@@ -11102,17 +11213,17 @@
   category: events
   location_type: physical
   resource_type: event
-  address: Lillis-Albina Park, North Portland
+  address: Lillis-Albina Park, 2451 N Flint Ave, Portland, OR 97227
   phone: null
   website: https://www.goodnthehood.org
   source_urls:
   - https://www.goodnthehood.org
   pricing:
     description: FREE (some ticketed events like gospel brunch)
-  dates: June 26-28, 2026
-  hours: Friday 6pm-10pm, Saturday & Sunday noon-10pm
-  last_verified: 2026-01-29
-  next_audit: 2026-06-01
+  dates: June 27-28, 2026
+  hours: Saturday & Sunday noon-9pm (2026 listings; no Friday component was announced)
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   audit_frequency: annually
   practical_tips:
     first_visit: Arrive early on Saturday/Sunday for best parking and seating
@@ -11219,9 +11330,9 @@
   pricing:
     description: FREE
   eligibility: No income requirements or personal information required
-  hours: 42 weekly markets - check Food Finder for specific times and locations
-  last_verified: 2026-04-22
-  next_audit: 2026-07-22
+  hours: 21 public free food markets each week - check the Food Finder for times and locations
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Use the online Food Finder to locate your nearest market
@@ -11252,8 +11363,8 @@
     description: FREE - Take what you need, leave what you can
   eligibility: Open to everyone
   hours: Available 24/7
-  last_verified: 2026-04-22
-  next_audit: 2026-07-22
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check the website map for fridge locations near you
@@ -11286,11 +11397,11 @@
   schedule: Every Saturday, 8am-1pm (April-September); 9am-1pm (October-November)
   schedule_start_date: 2026-04-04
   schedule_end_date: 2026-11-28
-  hours: Year-round. April-Sep every Saturday 8am-1pm. Oct-Nov every Saturday 9am-1pm. Dec-Mar 2nd & 4th Saturdays only, 9am-1pm.
+  hours: Year-round. April-Sep every Saturday 8am-1pm. Oct-Nov every Saturday 9am-1pm. Dec-Mar 1st & 3rd Saturdays only, 9am-1pm.
   latitude: 45.534167
   longitude: -122.621389
-  last_verified: 2026-05-01
-  next_audit: 2026-08-01
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   audit_frequency: annually
   practical_tips:
     first_visit: Find the info booth to exchange SNAP benefits for green tokens
@@ -11314,17 +11425,18 @@
   location_type: varies
   resource_type: service
   address: Various dining centers throughout Portland metro
-  phone: null
+  phone: 503-953-8111
   website: https://www.mowp.org
   source_urls:
   - https://www.mowp.org
+  - https://www.mowp.org/what-we-do/meals-on-wheels/
   pricing:
     description: Donation-based (meals provided regardless of ability to pay)
-    notes: Each meal costs over $10 to prepare
+    notes: $10 per meal; contribute what you can
   eligibility: Adults 60 years and older in Multnomah, Washington, and Clark counties
-  hours: Meal delivery Mon-Thu 10am-2pm; Dining centers serve lunch at least one day weekly
-  last_verified: 2026-04-22
-  next_audit: 2026-07-22
+  hours: Meal delivery Mon-Thu 10am-2pm; dining centers serve lunch Monday-Friday (days vary by center)
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Call to sign up for home delivery or find your nearest dining center
@@ -11355,9 +11467,9 @@
   - https://www.portland.gov/parks/arts-culture/summer-free-all/cultural-events
   pricing:
     description: FREE
-  dates: July 9 - September 5, 2026
-  schedule_start_date: 2026-07-09
-  schedule_end_date: 2026-09-05
+  dates: July 10 - August 29, 2026
+  schedule_start_date: 2026-07-10
+  schedule_end_date: 2026-08-29
   programs:
   - id: free-outdoor-concerts-thursday
     name: Free Outdoor Concerts
@@ -11373,8 +11485,8 @@
     schedule: Saturdays 7:30-10pm
     format: In-person
     notes: Pre-movie performances by local musicians and free popcorn. Movies start at dusk.
-  last_verified: 2026-01-17
-  next_audit: 2026-06-01
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   audit_frequency: annually
   practical_tips:
     first_visit: Check website for schedule and park locations
@@ -11481,8 +11593,8 @@
     location: Portland Art Museum Cart Blocks, SW Park Ave & SW Main St, Portland, OR
     notes: Cart Blocks to Pioneer Courthouse Square to PSU Park Blocks (2.3 miles)
   sponsor: Kaiser Permanente
-  last_verified: 2026-03-24
-  next_audit: 2026-06-24
+  last_verified: 2026-09-10
+  next_audit: 2027-09-10
   audit_frequency: annually
   practical_tips:
     first_visit: Just show up on event day. Streets are closed to cars and open for walking, biking, and rolling.
@@ -11510,7 +11622,7 @@
   category: fitness_wellness
   location_type: physical
   resource_type: place
-  address: 4515 NE Martin Luther King Jr Blvd, Portland, OR 97211
+  address: 18 N Shaver St, Portland, OR 97227
   phone: 503-298-5636
   website: https://prismmoves.org
   hours: Open gym 5am-11pm; class schedule varies (6am-7pm most days)
@@ -11525,8 +11637,8 @@
     format: In-person
     cost: FREE
     notes: For BIPOC community only
-  last_verified: 2026-04-15
-  next_audit: 2026-07-15
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check website for class schedule and sign up online
@@ -11549,9 +11661,8 @@
   - trans_nonbinary
   guide_location: activities-guide-1.md#fitness-centers
   notes: Inclusive nonprofit gym focused on serving women, BIPOC, LGBTQ+, trans/nonbinary, and larger-bodied individuals.
-    Free weekly BIPOC class plus sliding scale memberships.
-  latitude: 45.555719
-  longitude: -122.661658
+    Free weekly BIPOC class plus sliding scale memberships. Moved from NE MLK Jr Blvd to 18 N Shaver St (four independent 2026
+    listings agree); coordinates removed until re-geocoded.
 - id: portland-strength-collective
   name: Portland Strength Collective
   category: fitness_wellness
@@ -11566,8 +11677,8 @@
   pricing:
     description: FREE
   schedule: Every Saturday 9am-10am
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Pre-registration recommended via PushPress on their website (walk-ins usually welcome). Waiver signature
@@ -11745,8 +11856,8 @@
   - name: EBA Functional Fitness
     format: In-person
     notes: Eight-week sessions for athletes and caregivers together
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Contact through website to learn about programs and locations
@@ -11793,9 +11904,10 @@
   - name: Community Nights
     schedule: Fridays 5:00-7:00pm
     cost: FREE
-    notes: Free access to showers (6-8pm, last signup 7pm), internet center, fitness room, and classes. Open to everyone.
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+    notes: Free access to showers (6-8pm, last signup 7pm), internet center, fitness room, and classes. Open to everyone. The
+      official site describes Friday hours as 7am-8pm, so the Community Night window may run later than 7pm - call 503-228-4391.
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by or call for class schedule and pricing
@@ -11880,8 +11992,8 @@
     format: Virtual (Zoom)
     notes: Still listed as '(Possibly)' on the website - may be intermittent, so confirm before relying on it. The former
       Wednesday 12:30-2pm online group is no longer listed as of July 2026.
-  last_verified: 2026-07-28
-  next_audit: 2026-08-28
+  last_verified: 2026-09-10
+  next_audit: 2026-10-10
   audit_frequency: monthly
   practical_tips:
     first_visit: In-person group meets Wednesday mornings at the Behavioral Health Resource Center downtown. Just show up
@@ -11964,12 +12076,19 @@
   - https://pflagpdx.org/meetingsandhelpline/
   pricing:
     description: FREE
-  schedule: Twice monthly (contact for current dates)
+  schedule: 4th Saturday 10am-12pm
   programs:
   - name: In-Person Chapter Meetings
+    schedule: 4th Saturday 10am-12pm
     format: Walk-in, no registration needed
-    notes: Held every other month (~6 per year). Includes announcements, guest speakers, socializing, and support groups.
-      Meeting at a faith community center (free of religious iconography).
+    notes: Monthly support circle with announcements, guest speakers, and socializing. Meeting at a faith community center
+      (free of religious iconography) - call or email for the address.
+  - name: Trans Support Circle
+    schedule: 4th Saturday 12-1pm
+    format: Walk-in, no registration needed
+    audience:
+    - trans_nonbinary
+    notes: Follows the chapter meeting at the same location
   - name: Online Support Circles
     format: Virtual, registration required
     notes: Visit the Online Support Circle Guide on the PFLAG website to register.
@@ -11977,9 +12096,9 @@
     phone: 503-232-7676
     notes: For non-urgent information and private requests. A volunteer will respond within 24-48 hours.
   - name: Transgender Student Scholarship
-    notes: $1,000 scholarship for transgender students headed to college. Apply by 3/31/26.
-  last_verified: 2026-03-04
-  next_audit: 2026-06-04
+    notes: $1,000 scholarship for transgender students headed to college. Applications have been due March 31 each year.
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: In-person meetings are walk-in. If entering a place of worship is uncomfortable, call or email first - they
@@ -11995,8 +12114,8 @@
   - indoor
   guide_location: activities-guide-2.md#peer-support
   notes: Peer-to-peer support for LGBTQ+ people, their parents, families, and allies. In-person meetings are walk-in; online
-    circles require registration. Helpline available. Does not publish a fixed recurring schedule - contact them for current
-    meeting dates. Active 501(c)(3), EIN 93-0848543.
+    circles require registration. The helpline is a 24-48 hour callback, not a live line. In-person meetings are the 4th
+    Saturday of the month. Active 501(c)(3), EIN 93-0848543.
 - id: community-jams-beaverton
   name: Community Jams
   category: arts_culture
@@ -12124,8 +12243,8 @@
   pricing:
     description: FREE with Washington County library card (WCCLS)
   eligibility: WCCLS (Washington County Cooperative Library Services) cardholder
-  last_verified: 2026-03-04
-  next_audit: 2026-06-04
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Visit wccls.org/events-activities/wccls-adventure-pass and log in with your library card number and password.
@@ -12168,8 +12287,8 @@
     notes: General admission pass
   - name: Pittock Mansion
     notes: General admission pass
-  last_verified: 2026-03-04
-  next_audit: 2026-06-04
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Visit culturalpassexpress.quipugroup.net and log in with your LINCC library card number and password.
@@ -12189,7 +12308,7 @@
   category: peer_support
   location_type: varies
   resource_type: service
-  phone: 503-954-2094
+  phone: 503-954-2259
   website: https://returningveterans.org
   source_urls:
   - https://returningveterans.org/get-services
@@ -12210,8 +12329,8 @@
   - name: Massage Therapy
   - name: Naturopathic Medicine
   - name: Physical Therapy
-  last_verified: 2026-03-04
-  next_audit: 2026-06-04
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
   audit_frequency: quarterly
   practical_tips:
     first_visit: Visit returningveterans.org and use the Provider Directory to find a provider near you. No referral or VA
@@ -12224,7 +12343,8 @@
   guide_location: activities-guide-2.md#peer-support
   notes: Comprehensive free health services for post-9/11 veterans, service members, and families through ~200 volunteer providers.
     Services include counseling, acupuncture, chiropractic, massage, art therapy, equine therapy, float therapy, forest therapy,
-    and more. Distinct from VA services - no enrollment or referral needed.
+    and more. Distinct from VA services - no enrollment or referral needed. 503-954-2259 is the number on the official site in
+    September 2026; the previously listed 503-954-2094 no longer appears anywhere.
 - id: brief-encounters
   name: Brief Encounters (Pregnancy & Infant Loss Support)
   category: peer_support
@@ -12699,3 +12819,342 @@
   notes: Free eight-concert Saturday series at Heart of Hawthorne Plaza, July 11-August 29, 2026.
   flags:
   - 🔄 SEASONAL
+- id: portland-farmers-market-psu
+  name: Portland Farmers Market at PSU
+  category: food_farms
+  location_type: physical
+  resource_type: program
+  address: South Park Blocks, SW Park Ave & SW Montgomery St, Portland, OR 97201
+  phone: null
+  website: https://www.portlandfarmersmarket.org/our-markets/psu/
+  source_urls:
+  - https://www.portlandfarmersmarket.org/our-markets/psu/
+  - https://doubleuporegon.org/marketfinder-markets/psu-farmers-market
+  pricing:
+    description: FREE to attend; SNAP/EBT accepted with Double Up Food Bucks match up to $20 per visit
+    notes: Exchange SNAP benefits for market tokens at the info booth; Double Up match applies to fruits and vegetables
+  hours: Year-round Saturdays. April-October 8:30am-2pm; November-March 9am-2pm.
+  programs:
+  - id: psu-market-summer
+    name: Saturday Market (April-October)
+    schedule: Every Saturday 8:30am-2pm
+    schedule_start_date: 2026-04-04
+    schedule_end_date: 2026-10-31
+    cost: FREE
+  - id: psu-market-winter
+    name: Saturday Market (November-March)
+    schedule: Every Saturday 9am-2pm
+    schedule_start_date: 2026-11-07
+    schedule_end_date: 2027-03-27
+    cost: FREE
+  latitude: 45.5118
+  longitude: -122.6838
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Go to the info booth first if you use SNAP - that is where benefits are swapped for tokens and the Double Up match is added
+    registration: None
+    what_to_bring: Reusable bags, Oregon Trail Card if using SNAP
+    good_to_know: The largest market in the Portland Farmers Market network, on the flat, paved South Park Blocks. Busiest late
+      morning; quietest right at opening. The hours shift from 8:30am to 9am in November.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  accessibility_notes: Flat paved park blocks. MAX Green/Yellow/Orange lines and the Portland Streetcar stop within a few blocks.
+  social_intensity: drop_in
+  good_for:
+  - outdoor
+  - isolation
+  - new_to_area
+  - low_energy
+  - family_friendly
+  guide_location: activities-guide-2.md#farmers-markets
+  notes: Year-round Saturday market on the PSU campus with full SNAP/EBT support and Double Up Food Bucks matching. Phone not
+    published on the market page. Coordinates approximate - re-run geocode_addresses.py.
+- id: portland-book-festival
+  name: Portland Book Festival
+  category: arts_culture
+  location_type: physical
+  resource_type: event
+  address: Portland Art Museum, 1219 SW Park Ave, Portland, OR 97205
+  phone: 503-248-4335
+  website: https://literary-arts.org/about/programs/portland-book-festival/
+  source_urls:
+  - https://literary-arts.org/about/programs/portland-book-festival/
+  - https://literary-arts.org/portland-book-festival-faq/
+  - https://literary-arts.org/2025/07/community-tickets/
+  - https://www.wweek.com/arts/books/2026/06/11/portland-book-festival-expands-to-a-week-of-events-for-2026/
+  pricing:
+    description: Youth 17 and under FREE; Arts for All $5 tickets for Oregon Trail Card holders; general admission charged (2025 was $18 advance / $25 day-of)
+    notes: Up to two $5 Arts for All tickets per SNAP card through the Portland'5 Box Office (1111 SW Broadway, Wed-Fri 12-5pm, or 503-248-4335)
+  dates: November 2-8, 2026
+  hours: Main festival day Saturday, November 7, 2026; smaller satellite events during the week
+  latitude: 45.5163
+  longitude: -122.6833
+  last_verified: 2026-09-10
+  next_audit: 2027-06-01
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Buy Arts for All tickets ahead through the Portland'5 Box Office and bring your Oregon Trail Card to wristband pickup
+    registration: Tickets required for most sessions; the 2025 main day sold out in advance
+    what_to_bring: Oregon Trail Card and ID if using Arts for All
+    good_to_know: The Saturday main day is very crowded; the weeknight satellite events added in 2026 are much smaller and calmer.
+      The 2026 general-admission price was not yet posted in September 2026.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  accessibility_notes: Portland Art Museum and the South Park Blocks venues are wheelchair accessible; MAX, streetcar, and bus to downtown.
+  social_intensity: drop_in
+  good_for:
+  - indoor
+  - creative
+  - isolation
+  - new_to_area
+  guide_location: activities-guide-1.md#arts-and-culture
+  notes: Literary Arts' annual festival, expanded to a week of events in 2026. Free for youth; $5 through Arts for All.
+  flags:
+  - 📅 DATE-SENSITIVE
+- id: oregon-zoo-zoolights
+  name: Oregon Zoo ZooLights
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Oregon Zoo, 4001 SW Canyon Rd, Portland, OR 97221
+  phone: 503-226-1561
+  website: https://www.oregonzoo.org/lights
+  source_urls:
+  - https://www.oregonzoo.org/lights
+  - https://oregonzoo.zendesk.com/hc/en-us/articles/19533518941851-How-much-is-ZooLights
+  pricing:
+    description: $13-$35 adults, $13-$30 youth depending on the night; Value Nights are the cheapest and are marked on the ZooLights calendar
+    notes: 10% off tickets bought by September 22, 2026. No other discounts apply on Value Nights. Ask whether the zoo's $13 income-qualified tickets apply.
+  dates:
+  - November 20 - December 31, 2026
+  - January 1-3, 2027
+  hours: Evenings; nightly hours posted on the ZooLights calendar
+  latitude: 45.5096
+  longitude: -122.7159
+  last_verified: 2026-09-10
+  next_audit: 2027-10-01
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Pick a weeknight Value Night for the lowest price and thinner crowds; buy timed tickets online
+    registration: Timed tickets required
+    what_to_bring: Warm layers - the zoo is hilly and outdoors
+    good_to_know: Take MAX to Washington Park station (elevator to the surface) to avoid parking fees. Weekend and holiday-week nights are packed.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  accessibility_notes: Paved but hilly paths; wheelchairs available at the zoo. Washington Park MAX station has elevators.
+  social_intensity: solo
+  good_for:
+  - outdoor
+  - family_friendly
+  - low_energy
+  - isolation
+  guide_location: activities-guide-1.md#seasonal-events
+  notes: Annual holiday light display at the Oregon Zoo, November 20, 2026 through January 3, 2027. Not free, but Value Nights start at $13.
+  flags:
+  - 📅 DATE-SENSITIVE
+- id: oregon-zoo-discount-days
+  name: Oregon Zoo Discount Days & Income-Qualified Admission
+  category: discount_programs
+  location_type: physical
+  resource_type: service
+  address: Oregon Zoo, 4001 SW Canyon Rd, Portland, OR 97221
+  phone: 503-226-1561
+  website: https://www.oregonzoo.org/discounts
+  source_urls:
+  - https://www.oregonzoo.org/discounts
+  - https://www.oregonzoo.org/events/fall-discount-days
+  - https://oregonzoo.zendesk.com/hc/en-us/articles/7907688013083-Am-I-eligible-for-discount-tickets
+  pricing:
+    description: $13 tickets year-round for Oregon and Washington residents on income-assistance programs (up to four per visit); $13 admission for everyone during Fall Discount Days
+    notes: Bring proof of benefits and residency. SNAP funds on the Oregon Trail Card cannot be used to buy tickets or food. Discount Days tickets cannot be combined with other discounts.
+  eligibility: Income-qualified pricing for people enrolled in income-assistance programs; Discount Days open to all
+  hours: Income-qualified tickets available during regular zoo hours year-round
+  programs:
+  - name: Fall Discount Days
+    dates: November 3-9, 2026
+    cost: $13 admission for everyone
+    notes: Half of the regular $26 adult price; federal employees including military and postal workers free, limit four
+  latitude: 45.5096
+  longitude: -122.7159
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Reserve income-qualified tickets online or at the gate and bring a benefits letter or card plus proof of Oregon/Washington address
+    registration: Reservation recommended - the zoo uses timed entry on busy days
+    what_to_bring: Proof of benefits, proof of residency, photo ID
+    good_to_know: There is no $5 second-Tuesday program any more - the income-qualified $13 ticket is the standing discount.
+      Winter Discount Days usually follow in January or February. Take MAX to Washington Park station.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  accessibility_notes: Paved but hilly grounds; wheelchairs available. Washington Park MAX station has elevators.
+  social_intensity: solo
+  good_for:
+  - outdoor
+  - family_friendly
+  - low_energy
+  guide_location: activities-guide-1.md#discount-programs
+  notes: Standing $13 income-qualified admission plus the annual Fall Discount Days week, November 3-9, 2026. The November dates
+    came from a search summary of the zoo page - confirm on oregonzoo.org before promoting.
+  flags:
+  - 📅 DATE-SENSITIVE
+- id: st-andre-bessette-hospitality
+  name: St. Andre Bessette Church Hospitality Meals
+  category: food_farms
+  location_type: physical
+  resource_type: service
+  address: 601 W Burnside St, Portland, OR 97209
+  phone: 503-228-0746
+  website: https://saintandrebessettepdx.org/
+  source_urls:
+  - https://saintandrebessettepdx.org/ministries
+  - https://saintandrebessettepdx.org/about-us
+  pricing:
+    description: FREE
+  hours: 'Morning hospitality (beverage and sack lunch): Tuesday, Wednesday, Thursday mornings. Evening hospitality (hot meal): Friday 6:30-7:30pm. Closed on holidays.'
+  programs:
+  - name: Friday Evening Hospitality Meal
+    schedule: Every Friday 6:30-7:30pm
+    cost: FREE
+    notes: Hot meal and beverage handed out at the church on W Burnside
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Street-level entry on W Burnside in Old Town. Morning hospitality also offers hygiene kits and clothing.
+    registration: None
+    what_to_bring: Nothing required
+    good_to_know: Limited groceries can be requested in the morning before 11am for same-day pickup 1:30-2pm. The morning
+      start time is not published online - call 503-228-0746 (office Mon-Wed 8:30am-3pm).
+  accessibility:
+  - transit_nearby
+  accessibility_notes: MAX Blue/Red at Skidmore Fountain and Old Town/Chinatown; many bus lines on W Burnside.
+  social_intensity: drop_in
+  good_for:
+  - low_energy
+  - isolation
+  - indoor
+  guide_location: activities-guide-2.md#free-community-meals
+  notes: Catholic parish in Old Town serving sack lunches Tue-Thu mornings and a hot Friday dinner. Open to anyone in need.
+- id: salvation-army-moore-street
+  name: Salvation Army Moore Street Corps (Tuesday Dinner & Food Pantry)
+  category: food_farms
+  location_type: physical
+  resource_type: service
+  address: 5325 N Williams Ave, Portland, OR 97217
+  phone: 971-340-4010
+  website: https://moorestreet.salvationarmy.org/
+  source_urls:
+  - https://moorestreet.salvationarmy.org/portland_red_shield/
+  - https://moorestreet.salvationarmy.org/moore_street/food-services/
+  - https://foodfinder.oregonfoodbank.org/locations/salvation-army-moore-street
+  pricing:
+    description: FREE
+  hours: 'Food pantry: Wednesday and Friday 9am-1pm. Tuesday Family Night dinner: 5-7pm.'
+  programs:
+  - name: Tuesday Family Night Dinner
+    schedule: Every Tuesday 5-7pm
+    cost: FREE
+    notes: Free dinner served alongside a Bible study and youth group - a religious program accompanies the meal
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Walk in for the Wednesday or Friday pantry; the shopping-style pantry has fresh produce and canned goods
+    registration: None stated
+    what_to_bring: Bags for groceries
+    good_to_know: The Tuesday dinner includes a Bible study, which may matter to people who prefer a secular meal. Bus 4 on
+      Williams/Vancouver and bus 72 on Killingsworth stop nearby.
+  accessibility:
+  - transit_nearby
+  social_intensity: casual_group
+  good_for:
+  - isolation
+  - indoor
+  - family_friendly
+  - low_energy
+  guide_location: activities-guide-2.md#free-community-meals
+  notes: North Portland Salvation Army corps with a twice-weekly pantry and a free Tuesday evening dinner.
+- id: union-gospel-mission-portland
+  name: Union Gospel Mission Portland (Free Meals)
+  category: food_farms
+  location_type: physical
+  resource_type: service
+  address: 3 NW 3rd Ave, Portland, OR 97209
+  phone: 503-274-4483
+  website: https://www.ugmportland.org/
+  source_urls:
+  - https://www.ugmportland.org/
+  - https://ugmportland.org/services
+  - https://www.shelterbridge.org/portland-food-services
+  pricing:
+    description: FREE
+  hours: Breakfast 6:30-7:30am, lunch 11:30am-12:30pm, dinner 5-6pm daily (per a directory listing - confirm by phone)
+  eligibility: Open to people experiencing homelessness or hunger
+  last_verified: 2026-09-10
+  next_audit: 2026-12-10
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Old Town at NW 3rd and Burnside; arrive a few minutes before the meal window
+    registration: None
+    what_to_bring: Nothing required
+    good_to_know: Faith-based mission. The meal times above come from a third-party directory, not the mission's own site -
+      call 503-274-4483 to confirm before making the trip.
+  accessibility:
+  - transit_nearby
+  accessibility_notes: MAX at Skidmore Fountain and Old Town/Chinatown; multiple bus lines.
+  social_intensity: drop_in
+  good_for:
+  - low_energy
+  - indoor
+  guide_location: activities-guide-2.md#free-community-meals
+  notes: Long-running Old Town mission serving three free meals a day. Meal times not yet confirmed on the official site.
+  flags:
+  - ❓ UNVERIFIED - Meal times come from shelterbridge.org, not ugmportland.org; confirm on the official site or by phone.
+- id: portland-night-market
+  name: Portland Night Market
+  category: events
+  location_type: physical
+  resource_type: event
+  address: 100 SE Alder St, Portland, OR 97214
+  phone: null
+  website: https://www.pdxnm.com/
+  source_urls:
+  - https://www.pdxnm.com/
+  - https://portlandlivingonthecheap.com/portland-night-market/
+  pricing:
+    description: FREE admission, all ages
+    notes: Optional $10 fast pass to skip the entry line; food and vendor purchases extra
+  dates:
+  - October 2-3, 2026
+  - December 3-6, 2026
+  hours: Typically 4-11pm each night
+  last_verified: 2026-09-10
+  next_audit: 2026-11-15
+  audit_frequency: quarterly
+  practical_tips:
+    first_visit: Arrive right at the 4pm opening for the shortest line and quietest hour
+    registration: None for general entry
+    what_to_bring: Cash or card for vendors; layers - the warehouse is open to the elements
+    good_to_know: Very crowded and loud with long entry lines later in the evening - not a low-pressure setting. Under the
+      Morrison Bridge; buses 6 and 15 on SE Grand/MLK and the Streetcar A/B Loop are close.
+  accessibility:
+  - transit_nearby
+  social_intensity: drop_in
+  good_for:
+  - indoor
+  - isolation
+  - new_to_area
+  - creative
+  guide_location: activities-guide-1.md#seasonal-events
+  notes: Free quarterly market with 175+ local vendors and food. Fall/winter 2026 dates from a secondary listing - the December
+    days and nightly hours should be confirmed on pdxnm.com.
+  flags:
+  - 📅 DATE-SENSITIVE
+  - ⚠️ VERIFY - October 2-3 and December 3-6, 2026 come from portlandlivingonthecheap.com; the official pdxnm.com page could not be fetched. Confirm the December days before November.

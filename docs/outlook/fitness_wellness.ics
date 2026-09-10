@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:320e6e4a7b1b2328@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T200000
 SUMMARY:BYMC (Bhakti Yoga Movement Center): Queer and Trans Yoga
@@ -44,7 +44,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da691286eec27342@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T173000
 DTEND;TZID=America/Los_Angeles:20260104T183000
 SUMMARY:BYMC (Bhakti Yoga Movement Center): BIPOC-only Yoga
@@ -63,7 +63,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0338193000ae048d@portlandresources.org
-DTSTAMP:20260216T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T082500
 DTEND;TZID=America/Los_Angeles:20260104T113000
 SUMMARY:Dharma Rain Zen Center: Sunday Morning Program
@@ -82,7 +82,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1843d5accdd3fbb0@portlandresources.org
-DTSTAMP:20260216T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T063000
 DTEND;TZID=America/Los_Angeles:20260101T074500
 SUMMARY:Dharma Rain Zen Center: Weekday Morning Meditation
@@ -101,7 +101,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d1ffac331809a7fc@portlandresources.org
-DTSTAMP:20260216T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T190000
 DTEND;TZID=America/Los_Angeles:20260107T210000
 SUMMARY:Dharma Rain Zen Center: Wednesday Evening Classes
@@ -120,7 +120,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:42253f34f0012a4c@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:Diamond Way Buddhist Center: Guided Meditation
@@ -139,7 +139,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:26b8230065ff1c6a@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T200000
 SUMMARY:Diamond Way Buddhist Center: Guided Meditation
@@ -158,7 +158,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:600bad985806d05a@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T100000
 DTEND;TZID=America/Los_Angeles:20260104T120000
 SUMMARY:Portland Insight Meditation Community (PIMC): Sunday Program
@@ -177,7 +177,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:06dba37e7b380c72@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T183000
 DTEND;TZID=America/Los_Angeles:20260106T200000
 SUMMARY:Portland Insight Meditation Community (PIMC): Women's Sangha with A
@@ -197,7 +197,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:50283de6a02f284c@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T150000
 DTEND;TZID=America/Los_Angeles:20260106T163000
 SUMMARY:Portland Insight Meditation Community (PIMC): Tuesday Teatime
@@ -216,7 +216,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c4627ca915697040@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T190000
 DTEND;TZID=America/Los_Angeles:20260107T203000
 SUMMARY:Portland Insight Meditation Community (PIMC): Heart of Freedom
@@ -237,7 +237,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:94e0cd0418c97e74@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T110000
 DTEND;TZID=America/Los_Angeles:20260102T130000
 SUMMARY:Mt. Scott Community Center: Slide Hours
@@ -257,7 +257,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a9f34038f6565caa@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T143000
 DTEND;TZID=America/Los_Angeles:20260103T162000
 SUMMARY:Mt. Scott Community Center: Rope Swing
@@ -330,7 +330,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2899c7be9dbe89ab@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T180000
 DTEND;TZID=America/Los_Angeles:20260105T190000
 SUMMARY:Portland Running Company Group Runs: Monday Trail Run
@@ -348,7 +348,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b00298890913c7a3@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T183000
 DTEND;TZID=America/Los_Angeles:20260106T193000
 SUMMARY:Portland Running Company Group Runs: Tuesday Track Workout
@@ -366,7 +366,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3c383fb403018a6c@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T180000
 DTEND;TZID=America/Los_Angeles:20260101T190000
 SUMMARY:Portland Running Company Group Runs: Thursday Thirsty Thursdays
@@ -384,7 +384,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:91c2138892ca5291@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T080000
 DTEND;TZID=America/Los_Angeles:20260104T090000
 SUMMARY:Portland Running Company Group Runs: Sunday Long Run
@@ -402,27 +402,28 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:94efda47272343d2@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T110000
 DTEND;TZID=America/Los_Angeles:20260808T120000
-SUMMARY:Food Court 5000 (Lloyd Center Mall Walking): Final Lloyd Center Wal
- k (Silent Disco)
+SUMMARY:Food Court 5000 (Mall Walking Group): Final Lloyd Center Walk (Sile
+ nt Disco)
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: One last walk o
  n the mall's closing day\, with Heartbeat Silent Discos and Snap! Dance Pa
  rty (~150 headphone sets\, $10 reservation). Starts 11am in the food court
  . Part of the Aug 8 farewell day (Lloyderpalooza\, Pedalpalooza funeral ri
- de\, Lloyd Fest 4-7pm).\nAddress: 2201 Lloyd Center\, Portland\, OR 97232\
- nWebsite: https://foodcourt5k.com/\nDetails: 1980s/90s-themed indoor mall 
- walking. Dress code: neon leggings\, acid-washed denim encouraged. Groups 
- of 70+ regular attendees. Post-walk snacks at food court. Lloyd Center clo
- ses permanently August 8\, 2026 - the last regular Sunday walk inside the 
- mall is August 2\, with a final farewell walk on Saturday August 8. The gr
- oup continues afterward at rotating pop-up locations around Portland (some
-  outdoors for late summer\, some indoors)\; a permanent home is reportedly
-  close to being finalized but was not announced as of late July 2026.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>One last walk on the mall&#x27;s closing day, with Heartbeat Silent Discos and Snap! Dance Party (~150 headphone sets, $10 reservation). Starts 11am in the food court. Part of the Aug 8 farewell day (Lloyderpalooza, Pedalpalooza funeral ride, Lloyd Fest 4-7pm).</p><p><strong>Address:</strong> 2201 Lloyd Center, Portland, OR 97232</p><p><strong>Website:</strong> <a href="https://foodcourt5k.com/">https://foodcourt5k.com/</a></p><p><strong>Details:</strong> 1980s/90s-themed indoor mall walking. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Post-walk snacks at food court. Lloyd Center closes permanently August 8, 2026 - the last regular Sunday walk inside the mall is August 2, with a final farewell walk on Saturday August 8. The group continues afterward at rotating pop-up locations around Portland (some outdoors for late summer, some indoors); a permanent home is reportedly close to being finalized but was not announced as of late July 2026.</p></BODY></HTML>
+ de\, Lloyd Fest 4-7pm).\nAddress: Pop-up locations around Portland (check 
+ foodcourt5k.com)\; permanent home not yet announced\nWebsite: https://food
+ court5k.com/\nDetails: 1980s/90s-themed walking group. Dress code: neon le
+ ggings\, acid-washed denim encouraged. Groups of 70+ regular attendees. Ll
+ oyd Center closed permanently on August 8\, 2026\; the last regular Sunday
+  walk inside the mall was August 2 and the farewell walk was Saturday Augu
+ st 8. The group now walks at rotating pop-up locations around Portland (so
+ me outdoors\, some indoors) and has said a permanent home is in the works\
+ , but none was announced as of September 10\, 2026.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>One last walk on the mall&#x27;s closing day, with Heartbeat Silent Discos and Snap! Dance Party (~150 headphone sets, $10 reservation). Starts 11am in the food court. Part of the Aug 8 farewell day (Lloyderpalooza, Pedalpalooza funeral ride, Lloyd Fest 4-7pm).</p><p><strong>Address:</strong> Pop-up locations around Portland (check foodcourt5k.com); permanent home not yet announced</p><p><strong>Website:</strong> <a href="https://foodcourt5k.com/">https://foodcourt5k.com/</a></p><p><strong>Details:</strong> 1980s/90s-themed walking group. Dress code: neon leggings, acid-washed denim encouraged. Groups of 70+ regular attendees. Lloyd Center closed permanently on August 8, 2026; the last regular Sunday walk inside the mall was August 2 and the farewell walk was Saturday August 8. The group now walks at rotating pop-up locations around Portland (some outdoors, some indoors) and has said a permanent home is in the works, but none was announced as of September 10, 2026.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:2201 Lloyd Center\, Portland\, OR 97232
+LOCATION:Pop-up locations around Portland (check foodcourt5k.com)\; permane
+ nt home not yet announced
 URL:https://foodcourt5k.com/
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
@@ -447,16 +448,16 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b6d6695492daf9c2@portlandresources.org
-DTSTAMP:20260501T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T170000
 DTEND;TZID=America/Los_Angeles:20260102T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Community Climb (Friday)
-DESCRIPTION:Category: Fitness & Wellness\nCost: FREE for SNAP/EBT holders\,
-  $5 suggested donation for other Gresham/Rockwood residents\nInfo: Include
- s rental shoes & chalk\; bring photo ID for verification\nAddress: 355 NE 
- 223rd Ave\, Gresham\, OR 97030\nPhone: 503-512-5511\nWebsite: https://www.
- rockhavenclimbing.com/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE for SNAP/EBT holders, $5 suggested donation for other Gresham/Rockwood residents</p><p>Includes rental shoes &amp; chalk; bring photo ID for verification</p><p><strong>Address:</strong> 355 NE 223rd Ave, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-512-5511">503-512-5511</a></p><p><strong>Website:</strong> <a href="https://www.rockhavenclimbing.com/">https://www.rockhavenclimbing.com/</a></p></BODY></HTML>
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE for Gresham residents 
+ with SNAP/EBT\; $5 per person for other Gresham residents\nInfo: Includes 
+ climbing access and rental shoes\; bring photo ID with a Gresham address f
+ or verification\nAddress: 355 NE 223rd Ave\, Gresham\, OR 97030\nPhone: 50
+ 3-512-5511\nWebsite: https://www.rockhavenclimbing.com/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE for Gresham residents with SNAP/EBT; $5 per person for other Gresham residents</p><p>Includes climbing access and rental shoes; bring photo ID with a Gresham address for verification</p><p><strong>Address:</strong> 355 NE 223rd Ave, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-512-5511">503-512-5511</a></p><p><strong>Website:</strong> <a href="https://www.rockhavenclimbing.com/">https://www.rockhavenclimbing.com/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:355 NE 223rd Ave\, Gresham\, OR 97030
 URL:https://www.rockhavenclimbing.com/
@@ -466,7 +467,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fe239b240ce243f8@portlandresources.org
-DTSTAMP:20260501T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T090000
 DTEND;TZID=America/Los_Angeles:20260107T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Community Climb (Wednesd
@@ -485,7 +486,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:120fe89373741af7@portlandresources.org
-DTSTAMP:20260501T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T180000
 DTEND;TZID=America/Los_Angeles:20260103T210000
 SUMMARY:Rock Haven Climbing (Gresham Partnership): Teen Nights
@@ -502,7 +503,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5a723522bb7078a8@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T062900
 DTEND;TZID=America/Los_Angeles:20260107T071500
 SUMMARY:November Project Portland: Wednesday Workout
@@ -523,7 +524,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2d545c0884955257@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T083500
 DTEND;TZID=America/Los_Angeles:20260103T093500
 SUMMARY:Portland Trail Runners: Saturday Trail Run
@@ -541,38 +542,19 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:2a89d50c13cc476b@portlandresources.org
-DTSTAMP:20260213T000000Z
-DTSTART;TZID=America/Los_Angeles:20260107T183500
-DTEND;TZID=America/Los_Angeles:20260107T193500
-SUMMARY:Portland Trail Runners: Weeknight Trail Run
-DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Night trails ru
- n - headlamp and reflective gear required.\nAddress: Forest Park (various 
- trailheads)\nWebsite: https://www.meetup.com/portland-trail-runners-group/
- \nDetails: Portland's original trail running group\, exploring the city's 
- best trails for over 15 years.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>Night trails run - headlamp and reflective gear required.</p><p><strong>Address:</strong> Forest Park (various trailheads)</p><p><strong>Website:</strong> <a href="https://www.meetup.com/portland-trail-runners-group/">https://www.meetup.com/portland-trail-runners-group/</a></p><p><strong>Details:</strong> Portland&#x27;s original trail running group, exploring the city&#x27;s best trails for over 15 years.</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Forest Park (various trailheads)
-URL:https://www.meetup.com/portland-trail-runners-group/
-RRULE:FREQ=WEEKLY;BYDAY=WE
-CATEGORIES:Fitness & Wellness
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:105d2f0b41322d3e@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T183000
 DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:Trail Sisters Portland: Monday Trail Run
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: No one left beh
- ind philosophy - group matches your pace.\nAddress: Forest Park\, Thurman 
- Entrance\nWebsite: https://trailsisters.net/local-groups/portland-oregon/\
- nDetails: Supportive trail running group for women-identifying\, trans\, a
- nd nonbinary runners. 'No one left behind' - will match your pace\, walkin
- g welcome. Also offers self-defense classes and injury avoidance workshops
- .
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>No one left behind philosophy - group matches your pace.</p><p><strong>Address:</strong> Forest Park, Thurman Entrance</p><p><strong>Website:</strong> <a href="https://trailsisters.net/local-groups/portland-oregon/">https://trailsisters.net/local-groups/portland-oregon/</a></p><p><strong>Details:</strong> Supportive trail running group for women-identifying, trans, and nonbinary runners. &#x27;No one left behind&#x27; - will match your pace, walking welcome. Also offers self-defense classes and injury avoidance workshops.</p></BODY></HTML>
+ ind philosophy - group matches your pace.\nAddress: Forest Park Thurman en
+ trance\, 4100 NW Leif Erikson Dr\, Portland\, OR 97210\nWebsite: https://t
+ railsisters.net/local-groups/portland-oregon/\nDetails: Supportive trail r
+ unning group for women-identifying\, trans\, and nonbinary runners. 'No on
+ e left behind' - will match your pace\, walking welcome. Also offers self-
+ defense classes and injury avoidance workshops.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>No one left behind philosophy - group matches your pace.</p><p><strong>Address:</strong> Forest Park Thurman entrance, 4100 NW Leif Erikson Dr, Portland, OR 97210</p><p><strong>Website:</strong> <a href="https://trailsisters.net/local-groups/portland-oregon/">https://trailsisters.net/local-groups/portland-oregon/</a></p><p><strong>Details:</strong> Supportive trail running group for women-identifying, trans, and nonbinary runners. &#x27;No one left behind&#x27; - will match your pace, walking welcome. Also offers self-defense classes and injury avoidance workshops.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Forest Park\, Thurman Entrance
 URL:https://trailsisters.net/local-groups/portland-oregon/
@@ -582,18 +564,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6c4cd51bb25fc508@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T183000
 DTEND;TZID=America/Los_Angeles:20260101T200000
 SUMMARY:Trail Sisters Portland: Thursday Trail Run
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: No one left beh
- ind philosophy - group matches your pace.\nAddress: Forest Park\, Thurman 
- Entrance\nWebsite: https://trailsisters.net/local-groups/portland-oregon/\
- nDetails: Supportive trail running group for women-identifying\, trans\, a
- nd nonbinary runners. 'No one left behind' - will match your pace\, walkin
- g welcome. Also offers self-defense classes and injury avoidance workshops
- .
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>No one left behind philosophy - group matches your pace.</p><p><strong>Address:</strong> Forest Park, Thurman Entrance</p><p><strong>Website:</strong> <a href="https://trailsisters.net/local-groups/portland-oregon/">https://trailsisters.net/local-groups/portland-oregon/</a></p><p><strong>Details:</strong> Supportive trail running group for women-identifying, trans, and nonbinary runners. &#x27;No one left behind&#x27; - will match your pace, walking welcome. Also offers self-defense classes and injury avoidance workshops.</p></BODY></HTML>
+ ind philosophy - group matches your pace.\nAddress: Forest Park Thurman en
+ trance\, 4100 NW Leif Erikson Dr\, Portland\, OR 97210\nWebsite: https://t
+ railsisters.net/local-groups/portland-oregon/\nDetails: Supportive trail r
+ unning group for women-identifying\, trans\, and nonbinary runners. 'No on
+ e left behind' - will match your pace\, walking welcome. Also offers self-
+ defense classes and injury avoidance workshops.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>No one left behind philosophy - group matches your pace.</p><p><strong>Address:</strong> Forest Park Thurman entrance, 4100 NW Leif Erikson Dr, Portland, OR 97210</p><p><strong>Website:</strong> <a href="https://trailsisters.net/local-groups/portland-oregon/">https://trailsisters.net/local-groups/portland-oregon/</a></p><p><strong>Details:</strong> Supportive trail running group for women-identifying, trans, and nonbinary runners. &#x27;No one left behind&#x27; - will match your pace, walking welcome. Also offers self-defense classes and injury avoidance workshops.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Forest Park
 URL:https://trailsisters.net/local-groups/portland-oregon/
@@ -1374,7 +1356,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6fe3cfdc57198d96@portlandresources.org
-DTSTAMP:20260216T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260330T190000
 DTEND;TZID=America/Los_Angeles:20260330T204500
 SUMMARY:Path of Sincerity Meditation Group: Monday Night Sangha
@@ -1395,7 +1377,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb99f91f8bb65d72@portlandresources.org
-DTSTAMP:20260216T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T080000
 DTEND;TZID=America/Los_Angeles:20260101T090000
 SUMMARY:Path of Sincerity Meditation Group: Daily Virtual Meditation
@@ -1415,7 +1397,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0a668cbdc8051419@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T183000
 DTEND;TZID=America/Los_Angeles:20260102T192500
 SUMMARY:Decompress + Connect Meditation Group
@@ -1433,7 +1415,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fe0360e58ccaa78e@portlandresources.org
-DTSTAMP:20260303T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T180000
 DTEND;TZID=America/Los_Angeles:20260101T200000
 SUMMARY:Mazamas Street Rambles
@@ -1452,7 +1434,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:13929b2306504174@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T090000
 DTEND;TZID=America/Los_Angeles:20260103T100000
 SUMMARY:Portland Strength Collective
@@ -1469,17 +1451,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:77f97d44905fa910@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T170000
 DTEND;TZID=America/Los_Angeles:20260102T190000
 SUMMARY:Friendly House: Community Nights
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Free access to 
  showers (6-8pm\, last signup 7pm)\, internet center\, fitness room\, and c
- lasses. Open to everyone.\nAddress: 1737 NW 26th Ave\, Portland\, OR 97210
- \nPhone: 503-228-4391\nWebsite: https://fhpdx.org\nDetails: Nonprofit neig
- hborhood center with sliding scale. Multnomah County Senior Center partner
- . Free Community Nights on Fridays.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>Free access to showers (6-8pm, last signup 7pm), internet center, fitness room, and classes. Open to everyone.</p><p><strong>Address:</strong> 1737 NW 26th Ave, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-228-4391">503-228-4391</a></p><p><strong>Website:</strong> <a href="https://fhpdx.org">https://fhpdx.org</a></p><p><strong>Details:</strong> Nonprofit neighborhood center with sliding scale. Multnomah County Senior Center partner. Free Community Nights on Fridays.</p></BODY></HTML>
+ lasses. Open to everyone. The official site describes Friday hours as 7am-
+ 8pm\, so the Community Night window may run later than 7pm - call 503-228-
+ 4391.\nAddress: 1737 NW 26th Ave\, Portland\, OR 97210\nPhone: 503-228-439
+ 1\nWebsite: https://fhpdx.org\nDetails: Nonprofit neighborhood center with
+  sliding scale. Multnomah County Senior Center partner. Free Community Nig
+ hts on Fridays.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>Free access to showers (6-8pm, last signup 7pm), internet center, fitness room, and classes. Open to everyone. The official site describes Friday hours as 7am-8pm, so the Community Night window may run later than 7pm - call 503-228-4391.</p><p><strong>Address:</strong> 1737 NW 26th Ave, Portland, OR 97210</p><p><strong>Phone:</strong> <a href="tel:503-228-4391">503-228-4391</a></p><p><strong>Website:</strong> <a href="https://fhpdx.org">https://fhpdx.org</a></p><p><strong>Details:</strong> Nonprofit neighborhood center with sliding scale. Multnomah County Senior Center partner. Free Community Nights on Fridays.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:1737 NW 26th Ave\, Portland\, OR 97210
 URL:https://fhpdx.org

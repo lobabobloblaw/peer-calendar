@@ -129,7 +129,7 @@ class TestCorpusAuditPolicy(unittest.TestCase):
         active = [value for value in self.entries if value.get("status") != "CLOSED"]
         counts = {frequency: sum(value.get("audit_frequency") == frequency for value in active)
                   for frequency in ("monthly", "quarterly", "annually")}
-        self.assertEqual(counts, {"monthly": 15, "quarterly": 128, "annually": 129})
+        self.assertEqual(counts, {"monthly": 15, "quarterly": 134, "annually": 131})
         priorities = {priority: sum(audit_priority(value) == priority for value in active)
                       for priority in ("critical", "high", "standard", "low")}
         # juanita-pohl-center moved low -> high when its programs were converted
@@ -137,10 +137,14 @@ class TestCorpusAuditPolicy(unittest.TestCase):
         # recurring support group, which the policy rates higher precisely
         # because it now publishes to subscribers. The cadence inventory this
         # test locks is unchanged; only the derived priority moved.
-        self.assertEqual(priorities, {"critical": 61, "high": 71, "standard": 12, "low": 128})
+        # 2026-09-10: eight entries added (four quarterly food/discount, two
+        # annual events, one quarterly event, one quarterly market) and the
+        # September audit advanced 121 next_audit dates, which is why the
+        # 2026-08-13 backlog below dropped from 131.
+        self.assertEqual(priorities, {"critical": 64, "high": 72, "standard": 12, "low": 132})
         summary = workload_summary(active, capacity_per_week=5, as_of=date(2026, 8, 13))
-        self.assertEqual(summary["backlog"], 131)
-        self.assertEqual(summary["audits_per_year"], 821)
+        self.assertEqual(summary["backlog"], 22)
+        self.assertEqual(summary["audits_per_year"], 847)
         self.assertFalse(summary["backlog_recoverable"])
 
     def test_migration_is_idempotent_after_application(self):
@@ -159,7 +163,7 @@ class TestCorpusAuditPolicy(unittest.TestCase):
         )
         payload = json.loads(result.stdout)
         self.assertEqual(payload["as_of"], "2026-08-13")
-        self.assertEqual(payload["active_entries"], 272)
+        self.assertEqual(payload["active_entries"], 280)
 
 
 if __name__ == "__main__":
