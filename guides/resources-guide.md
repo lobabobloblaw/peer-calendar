@@ -455,7 +455,7 @@ Peer-facilitated online support groups. All meetings are free; obtain Zoom detai
 
 Founded 1985, one of Oregon's oldest peer-run programs. Free membership. Orientation required for new members.
 
-**What to know:** Oregon's oldest peer-run program (1985). Drop-in, no referral needed. Arrive by 11am to join collective lunch prep. The Peer Respite is open 24/7, but you cannot walk in — have the Pathway Conversation first, so you are already eligible when a crisis comes. Contact respite@folktime.org.
+**What to know:** Oregon's oldest peer-run program (1985). Drop-in, no referral needed. Arrive by 11am to join collective lunch prep. The Peer Respite is open 24/7, but you cannot walk in — have the Pathway Conversation first, so you are already eligible when a crisis comes. Respite line 503-756-0066 or respite@folktime.org.
 
 **First visit:** Attend orientation on 2nd or 3rd Wednesday of any month
 
@@ -677,31 +677,31 @@ Portland's first Clubhouse International Community. Program of New Narrative. Cl
 
 ### Out of the Darkness Community Walk - Portland (AFSP Oregon)
 
-- **Address:** Daimler Truck North America (TEC), Portland, OR
-- **Phone:** 971-375-5509
+- **Address:** Daimler Truck North America, 2555 N Channel Ave, Portland, OR
+- **Phone:** 503-810-8937
 - **Website:** https://afspwalks.donordrive.com/PortlandOR
-- **Cost:** FREE - registration costs nothing and fundraising is optional. Raising $150 earns a walk t-shirt, but nobody has to fundraise, and nobody has to walk the route to take part.
-- **Hours:** 11am-1pm on walk day
-- **Eligibility:** Open to everyone - people bereaved by suicide, attempt survivors, people living with mental health conditions, families, and supporters
+- **Cost:** FREE - registration costs nothing. Fundraising is not required to register. Raising $150 or more by October 3 earns the official walk shirt at the event.
+- **Hours:** Check-in 9am; the program starts at 11am
+- **Eligibility:** Open to anyone affected by suicide - loss survivors, attempt survivors, people living with mental health conditions, families, and supporters
 
-AFSP Oregon runs several Out of the Darkness walks across the state each fall; this is the Portland one. Area Director Helen Cotton, 971-375-5509.
+AFSP Oregon runs several Out of the Darkness walks each fall; this is the Portland one. Local contact Stacey Jung, 503-810-8937, oregon@afsp.org.
 
-**What to know:** The resource tables put local mental health organizations in one place, which makes this a low-pressure way to meet several at once. Sitting the route out and staying for the ceremony is a normal way to attend.
+**What to know:** ODOT closed southbound I-5 between I-405 and I-84 on September 11 for up to five weeks, so it is expected to still be closed on walk day - allow extra travel time. If you or someone with you is in crisis, call or text 988, or text TALK to 741-741.
 
-**First visit:** Arrive before the 11am opening ceremony. Honor beads are handed out at check-in - each color stands for a different relationship to suicide loss or lived experience, and wearing them means you never have to explain why you came.
+**First visit:** Check-in opens at 9am and the program starts at 11am. Arriving between the two gives time to pick up honor beads and walk the resource tables before the opening ceremony.
 
-**Registration:** Register free at afspwalks.donordrive.com/PortlandOR. Day-of registration is normally available.
+**Registration:** Register free at afspwalks.donordrive.com/PortlandOR to get walk-day updates, including the route, from the local organizers.
 
-**What to bring:** Layers for the weather, water, and a photo of the person you are walking for if you want one.
+**What to bring:** Layers for the weather and water.
 
 **Programs:**
 
-- **Out of the Darkness Community Walk:** 11am-1pm | FREE | Daimler Truck North America (TEC), Portland, OR
-  Roughly 1.5-2 miles and non-competitive. The program includes an opening ceremony, activities of hope and healing, resource tables, and honor beads for every participant.
+- **Out of the Darkness Community Walk:** 11am-1pm | FREE | Daimler Truck North America, 2555 N Channel Ave, Portland, OR
+  Check-in opens at 9am and the program starts at 11am. The walk is 1-3 miles and non-competitive; AFSP posts the exact route closer to walk day. The program includes an opening ceremony, activities of hope and healing, resource tables, and honor beads for every participant. AFSP's page gives no end time - 1pm comes from its Eventbrite listing.
 
 *Casual group · Grief support, Good for isolation, Active/physical, Outdoor*
 
-**Accessibility:** The route is short, flat, and optional. Ask AFSP Oregon (971-375-5509) about specific accommodations before walk day.
+**Accessibility:** The 1-3 mile route is posted closer to walk day. Ask the organizers about accommodations at 503-810-8937 or oregon@afsp.org.
 
 ### PeerGalaxy Online Wellness Portal
 
@@ -926,20 +926,20 @@ Comprehensive free health services for post-9/11 veterans, service members, and 
 - **Phone:** 866-698-6155
 - **Website:** https://multco.us/programs/care-when-its-cold
 - **Cost:** FREE
-- **Hours:** Open only when severe weather is forecast - call 2-1-1 to find sites open tonight
-- **Eligibility:** Anyone who needs to come inside during severe weather. No ID, referral, or sobriety requirement.
+- **Hours:** Opens only when severe weather thresholds are forecast. 211info's main contact center is Mon-Fri 8am-6pm, with extended hours during extreme weather events.
+- **Eligibility:** Anyone in Multnomah County who needs to come in out of severe weather
 
-Added in the September 2026 events sweep as a winter safety entry - peers ask where to send someone on a freezing night and the answer was not in this database.
+Added in the September 2026 events sweep. Shelter and enhanced-outreach thresholds are different lists on the county page - keep them separate. next_audit is set for November so both are rechecked when the winter page goes live.
 
-**What to know:** This is separate from year-round shelter. It opens on weather thresholds, not on a season, so check each cold night rather than assuming it is running.
+**What to know:** Warm daytime spaces - including Multnomah County Library branches and the Behavioral Health Resource Center - are mapped at link.multco.us/warm-spaces. Worried about someone outside? Call the non-emergency line, 503-823-3333, for a welfare check, or 911 if their life appears to be in danger.
 
-**First visit:** Call 2-1-1, text your ZIP code to 898-211, or check 211info.org. Openings are announced site by site, so the list changes between nights.
+**First visit:** Call 2-1-1 or check 211info.org. For City of Portland overnight shelters, call 311 (7am-8pm). Text "pdxshelter" to 898211 for an alert when a weather advisory is called.
 
-**Registration:** None. Severe weather shelters are walk-in.
+**Registration:** Openings are announced night by night on multco.us/programs/care-when-its-cold and 211info.org.
 
-**What to bring:** Whatever you need to keep with you - ask 211 about pets and belongings for the specific site, since policies vary by building.
+**What to bring:** Ask 211 about pets and belongings for the specific site before you go.
 
-**Features:** Opens when windchill is forecast at 25F or below, or 34F or below with more than a tenth of an inch of precipitation, County and City decide jointly each day during a potential event, Five shelter trailers on standby, each stocked for 80-150 people, 211info staff can also arrange transportation to an open site
+**Features:** Severe weather shelters (Disaster Resource Centers) open when one of these is forecast to last 4+ hours between 8pm and 7am - temperature 25F or below; 32F or below with 1 inch or more of rain and sustained winds above 10 mph; or 1 inch or more of snow in 24 hours, Lower thresholds (32F, 25F windchill, or 34F with more than a tenth of an inch of precipitation) trigger enhanced street outreach with cold-weather supplies, not shelter, More than 2,000 year-round shelter beds stay open whether or not severe weather shelters do, County and City officials meet daily when thresholds may be met and decide shelter plans jointly, 211info staff identify open shelters and warming centers and review transportation options
 
 *Drop-in (come and go freely) · Low energy*
 
@@ -1027,39 +1027,36 @@ Rebranded from MHAAO September 2025; the website is now thepeercompany.org. Free
 - **Phone:** 503-655-8575
 - **Website:** https://www.clackamas.us/relief
 - **Cost:** FREE
-- **Hours:** Overnight shelters open on forecast; Coordinated Housing Access answers 503-655-8575 Mon-Fri 8am-6pm; call 2-1-1 any time
-- **Eligibility:** Anyone who needs to get out of dangerous weather
+- **Hours:** Overnight shelters open on forecast; Coordinated Housing Access answers 503-655-8575 Mon-Fri 8am-6pm; call 2-1-1 for current shelter information
+- **Eligibility:** Open to the general public
 
-clackamas.us/relief is the county's combined page for cooling centers in summer and warming centers in winter.
+clackamas.us/relief carries cooling centers in summer and warming centers in winter; in September it showed the summer list. The 33F threshold comes from the county's February 2025 cold-weather release. next_audit is set for November to recheck both when the winter page goes live.
 
-**What to know:** Clackamas opens at a 33F threshold, which is warmer than Multnomah's 25F windchill trigger, so a night can be a shelter night in one county and not the other.
+**What to know:** Clackamas opens overnight warming shelters at 33F including wind chill. Multnomah's shelter trigger is a forecast temperature of 25F, so a night can be a shelter night in one county and not the other.
 
-**First visit:** Call 2-1-1 for sites open right now. For housing help during business hours, Coordinated Housing Access is 503-655-8575.
+**First visit:** Call 2-1-1 for sites open right now. For housing help during business hours, call Coordinated Housing Access at 503-655-8575.
 
-**Registration:** None for warming centers - they are walk-in.
+**Registration:** None for daytime warming centers. Call a site to confirm its hours before you go.
 
-**Features:** Overnight warming shelters open when temperature including wind chill is forecast at 33F or lower, or when snow, wind, or flooding make sleeping outside especially dangerous, Daytime warming centers open across the county, Motel stays arranged with nonprofit partners for especially vulnerable people, County staff work with 211 on overnight stays, supplies, and transportation
+**Features:** Overnight warming shelters open when temperature including wind chill is forecast at 33F or lower, or when snow, wind, or flooding make sleeping outdoors especially dangerous, Overnight shelters are run with community partners as needed; Father's Heart Street Ministry in Oregon City (603 12th St, 503-722-9780) provides a group overnight warming center, Daytime warming centers open across the county, largely public libraries and community centers, Unless noted, sites are ADA accessible, allow service animals only, and are open to the general public
 
 *Drop-in (come and go freely) · Low energy*
 
-### Winter Shelter Program (Washington County)
+### Winter & Severe Weather Shelter (Washington County)
 
 - **Phone:** 503-640-3263
-- **Website:** https://www.washingtoncountyor.gov/housing/supportive-housing-services/winter-shelters
+- **Website:** https://www.washingtoncountyor.gov/housing/shelters
 - **Cost:** FREE
-- **Hours:** Winter Shelter Program runs November 1 - May 31; Community Connect answers 503-640-3263 seven days a week
-- **Season:** November-May
-- **Eligibility:** People experiencing homelessness in Washington County. During severe weather, extra capacity opens and no one is turned away.
+- **Hours:** Call Community Connect at 503-640-3263 for emergency shelter
+- **Eligibility:** People experiencing homelessness in Washington County. During extreme weather, extra shelter capacity opens so no one is turned away.
 
-Washington County's shelter front door is Community Connect rather than 211, though 211 can route there too.
+The county's dedicated winter-shelters page returned 403 Access denied on 2026-09-16, so the season dates and bed counts for a separate winter shelter network could not be confirmed and are left out. next_audit is set for November to check whether that page is back.
 
-**What to know:** The waitlist and the severe-weather response are two different things. During a freeze, capacity opens beyond the 200-bed network, so call even if the waitlist has not reached you.
+**What to know:** Washington County's front door to shelter is Community Connect rather than 211, though 211 can route there too. The county posts updates on its shelter page during an extreme weather event.
 
-**First visit:** Call Community Connect at 503-640-3263 - it is the front door for shelter and housing in Washington County, seven days a week.
+**First visit:** Call Community Connect at 503-640-3263, or work with a case manager at a county partner organization.
 
-**Registration:** Apply by phone or online to join the waitlist for the next available bed.
-
-**Features:** Roughly 200 beds across the Winter Shelter Network, Waitlist for the next available bed, by phone or online, Additional severe-weather capacity added during freezing weather and heat waves
+**Features:** Winter and severe weather shelters add emergency capacity during freezing temperatures and heat waves, No one is turned away during extreme weather events, More than 430 shelter beds county-wide across bridge, congregate, alternative, and youth shelters, Low-barrier shelters
 
 *One-on-one · Low energy*
 
@@ -3137,7 +3134,7 @@ Free gallery in East County featuring diverse contemporary and traditional art. 
 **Programs:**
 
 - **$5 Day:** 9:30am-5:30pm | $5
-  $5 admission for everyone, and $5 tickets for special exhibitions, the Empirical Theater, Kendall Planetarium shows, and USS Blueback submarine tours. Buy online in advance - $5 Days sell out and the line is long. OMSI publishes specific $5 Days rather than a standing first-Sunday rule, so this is a dated list, not a recurrence.
+  $5 admission for everyone, and $5 tickets for the Empirical Theater, Kendall Planetarium shows, USS Blueback submarine tours (ages 3+), and select special exhibitions. OMSI expects heavy traffic and recommends buying timed tickets online in advance. The days fall on Tuesdays, Thursdays, Sundays, and one Monday (January 25), so this is a dated list rather than a recurrence. OMSI is normally closed Mondays - check hours before going on January 25.
 
 *Drop-in (come and go freely) · Indoor, Family-friendly, Active/physical · Wheelchair accessible, Near transit*
 
@@ -4471,28 +4468,32 @@ Wilsonville food pantry with both afternoon and evening hours on Tuesdays.
 
 Free festivals, seasonal events, concerts, and community gatherings throughout the Portland metro area.
 
-### Beaverton Tree Lighting & Winter Lights
+### Beaverton Winter Lights & Tree Lighting
 
-- **Address:** Beaverton City Park, Beaverton, OR
-- **Phone:** 503-526-2222
-- **Website:** https://www.beavertonoregon.gov/
-- **Cost:** FREE
-- **Hours:** Evening - the markets run beforehand and the lighting itself is a short window
-- **Dates:** December 4, 2026
+- **Address:** Beaverton City Park, 12375 SW 5th St, Beaverton, OR
+- **Phone:** 503-526-2559
+- **Website:** https://www.beavertonoregon.gov/events-0
+- **Cost:** FREE to attend - the winter markets sell goods
+- **Hours:** 4pm-8pm
 
-Added in the September 2026 events sweep. Washington County's winter calendar was thin compared with Multnomah and Clackamas.
+Added in the September 2026 events sweep. Washington County's winter calendar was thin compared with Multnomah and Clackamas. Free admission comes from Portland Living on the Cheap; the City's page lists the event without stating a price.
 
-**What to know:** An outdoor, walk-up holiday event with no ticket and no seating chart, which makes it easy to leave early. Good for someone who wants the feeling of the season without a room full of people.
+**What to know:** An outdoor, walk-up event with no ticket and no seating, which makes it easy to leave early. The City notes events may change with the weather - check the events page that week.
 
-**First visit:** Come early for the children's market and the chamber winter market; the tree lighting itself is brief.
+**First visit:** The markets and the tree lighting run together from 4pm to 8pm, so there is no single moment you have to arrive for.
 
 **Registration:** None.
 
-**What to bring:** Warm layers and a flashlight - the park is dark once the markets close.
+**What to bring:** Warm layers and a little cash if you want to shop the markets.
 
-*Drop-in (come and go freely) · Outdoor, Family-friendly, Good for isolation · Near transit*
+**Programs:**
 
-**Accessibility:** Beaverton City Park is near downtown Beaverton and the MAX/WES transit center. Confirm accessible parking with the City at 503-526-2222.
+- **Winter Lights & Tree Lighting with BACC & Kids Winter Markets:** 4pm-8pm | FREE | Beaverton City Park, 12375 SW 5th St, Beaverton, OR
+  The City's signature winter event, with the Beaverton Area Chamber of Commerce and Kids winter markets running alongside the tree lighting. A menorah lighting is listed separately with its date still to be announced.
+
+*Drop-in (come and go freely) · Outdoor, Family-friendly, Good for isolation*
+
+**Accessibility:** Ask City Events at 503-526-2559 about accessible parking and restrooms.
 
 ### Cascade Festival of African Films
 
@@ -5436,28 +5437,28 @@ One of the few county fairs with completely free admission.
 
 - **Address:** Lake of the Commons, 8325 SW Nyberg St, Tualatin, OR 97062
 - **Phone:** 503-691-3061
-- **Website:** https://www.tualatinoregon.gov/pumpkinregatta
-- **Cost:** FREE admission. Food and some activity booths charge; watching the races costs nothing.
-- **Hours:** 10am-4pm, races at noon and 2pm
+- **Website:** https://parks.tualatinoregon.gov/events/pumpkin-regatta/
+- **Cost:** FREE admission
+- **Hours:** 10am-4pm, pumpkin races at noon and 2pm
 
-Annual Tualatin tradition, held the third Sunday of October. Paired weekend events include a giant pumpkin weigh-off and a 5K run, both run by other organizers.
+Held since 2004. The same weekend includes Pumpkins and Pints (a giant pumpkin weigh-off) and a 5K Regatta Run/Walk hosted by Tualatin Rotary.
 
-**What to know:** Roughly 20,000 people come, and the crowd peaks around the noon race. Arriving at opening or after 2pm is much quieter. Free and genuinely strange - a good outing for someone who wants an event that does not require talking to anyone.
+**What to know:** Free and genuinely strange - a good outing for someone who wants an event that does not require talking to anyone. City of Tualatin Parks answers 503-691-3061, Mon-Fri 8am-5pm.
 
-**First visit:** The Commons is a walkable loop around a small lake, so you can watch from anywhere on the shore and step away whenever you want.
+**First visit:** The races are at noon and 2pm; the rest of the festival runs 10am-4pm, so you can come for one race and leave.
 
 **Registration:** None to attend.
 
-**What to bring:** Rain layers, cash for food carts, and a folding chair if standing is hard.
+**What to bring:** Rain layers, and a folding chair if standing for a race is hard.
 
 **Programs:**
 
 - **Pumpkin Regatta Festival:** 10am-4pm | FREE | Lake of the Commons, 8325 SW Nyberg St, Tualatin, OR 97062
-  Costumed racers paddle hollowed-out giant pumpkins across the lake. Races at noon and 2pm, with pumpkin bowling, pumpkin golf, food, and entertainment in between.
+  Costumed racers paddle giant pumpkin boats across the lake in races at noon and 2pm, with food, entertainment, pumpkin bowling, and pumpkin golf through the day.
 
-*Drop-in (come and go freely) · Outdoor, Family-friendly, Low energy · Wheelchair accessible*
+*Drop-in (come and go freely) · Outdoor, Family-friendly, Low energy*
 
-**Accessibility:** Paved paths circle Lake of the Commons. Confirm accessible parking and restrooms with the City at 503-691-3061.
+**Accessibility:** Ask City of Tualatin Parks at 503-691-3061 about accessible parking and viewing areas.
 
 ### West Linn Old Time Fair
 
@@ -6076,28 +6077,28 @@ Free legal services for low-income Portland metro residents. Covers housing, ben
 
 - **Phone:** 866-698-6155
 - **Website:** https://www.oregon.gov/ohcs/energy-weatherization/pages/utility-bill-payment-assistance.aspx
-- **Cost:** FREE to apply - the program pays part of your heating bill. Fiscal year 2026 heating benefits run from a $250 minimum to a $750 maximum.
-- **Hours:** Program year runs October 1 - September 30; county intake opens on a staggered schedule each fall
-- **Eligibility:** Household income at or below 60% of Oregon's median income. Applications are taken year-round but funds run out, often by late summer.
+- **Cost:** FREE to apply - the program pays part of your energy bill directly to the utility. LIHEAP can also help repair or replace an unsafe or broken heating system.
+- **Hours:** The program year runs October 1 - September 30; each county opens intake on its own schedule
+- **Eligibility:** Household income at or below 60% of Oregon's median income, with documented energy costs. Renters and owners both qualify. For the program year ending September 30, 2026 the limit was $38,385 a year for one person and $73,817 for four - check for updated limits after October 1.
 
-Separate from the ongoing utility discounts already in this database (PGE, Pacific Power, NW Natural). Those cut the monthly rate; LIHEAP pays down the bill itself, and the two stack.
+Separate from the ongoing utility discounts already in this database (PGE, Pacific Power, NW Natural). Those cut the monthly rate; LIHEAP pays down the bill itself, and the two stack. next_audit is set for early October to pick up the new program year's income limits.
 
-**What to know:** Do not wait for a shutoff notice. October and November are the quiet months for seniors and households with young children, and December is when everyone else can apply - which is also when the phones get busiest. People who are homebound can ask to apply by phone or mail.
+**What to know:** Apply in your window rather than waiting for a shutoff notice - Clackamas opens in October only for seniors and people with disabilities, adds families with young children in November, and opens to everyone in December. People who are homebound can ask to apply by phone, mail, or home visit.
 
-**First visit:** Apply through your county's community action agency, not the state. Each county sets its own intake process.
+**First visit:** Apply through your county's community action agency, not the state. To find your agency, call 2-1-1 or Oregon Housing and Community Services at 1-800-453-5511, option 1.
 
-**Registration:** Gather proof of income for the last month, a photo ID, Social Security numbers for the household, and your most recent heating bill before you call.
+**Registration:** Each county runs its own intake. Clackamas mails a paper application with a prepaid return envelope - sign and date it before sending it back.
 
-**What to bring:** Recent utility bills and income documentation.
+**What to bring:** A recent energy bill and your household's gross income. Ask your county agency for its exact document list.
 
 **Programs:**
 
 - **Multnomah County energy assistance:** FREE to apply | Multnomah County
-  First come, first served. Our Just Future (formerly Human Solutions) covers Portland and east county - call 503-405-7877 for funding availability, or 503-548-0217 for the water discount program. Call 2-1-1 for the current list of intake sites.
+  Our Just Future (formerly Human Solutions) serves very-low-income residents of Portland and East Multnomah County - call 503-405-7877 for heat and power funding availability, or 503-548-0217 for the water discount program. Call 2-1-1 for other providers.
 - **Washington County energy assistance:** FREE to apply | Washington County
   Administered by Community Action of Washington County, which is already in this database as community-action-washington-county.
 - **Clackamas County energy assistance:** FREE to apply | Clackamas County
-  Call 503-650-5640 to request an application and they mail a prepaid return envelope. Intake opens in October for people 60+, disabled, or medically fragile; in November for households with children 6 and under; and in December for every income-eligible household, running to April 15 or until funds run out.
+  Covers electricity, natural gas, oil, propane, wood, or pellets. Call 503-650-5640 to request an application; they mail it with a prepaid return envelope. Intake opens in October for people 60+, disabled, or medically fragile; in November for households with children 6 and under; and in December for every income-eligible household, running to April 15 or until funds run out.
 
 *One-on-one · Low energy*
 

@@ -4939,3 +4939,48 @@
     official pages rather than from the pages themselves. Dates were cross-checked against the
     2026 calendar (day-of-week must match) and leads that resolved only to 2025 dates went to
     queue.yaml instead of being added.
+
+---
+- date: 2026-09-16
+  type: audit
+  auditor: claude
+  summary: "Browser verification of the fall/winter sweep against official pages, after the cloud session could only read search summaries"
+  entries_audited: 9
+  updated:
+    - id: severe-weather-shelters-multnomah
+      changes:
+        - "Corrected the shelter-opening thresholds: the published figures (25F windchill; 34F with precipitation) were the county's enhanced street outreach triggers. Shelters open on a 4+ hour overnight forecast of 25F or below, 32F with 1 inch of rain and 10+ mph wind, or 1 inch of snow in 24 hours"
+        - "Corrected 211info from 24/7 to Mon-Fri 8am-6pm with extended hours in extreme weather; added 311, the warm-spaces map, the pdxshelter text alert, and the 503-823-3333 welfare-check line"
+        - "Removed claims not on either source: no-ID/no-sobriety requirement and the shelter-trailer count"
+    - id: warming-centers-clackamas
+      changes:
+        - "Confirmed the 33F-including-wind-chill threshold from the county's February 2025 release; added Father's Heart Street Ministry as the group overnight warming center"
+        - "Removed motel stays and 211-arranged transportation, which neither county page states"
+    - id: winter-shelter-washington-county
+      changes:
+        - "The cited winter-shelters page returns 403 Access denied. Rebuilt the entry on the live Shelter Programs page: Community Connect 503-640-3263, added capacity in extreme weather with no one turned away"
+        - "Removed the November 1 - May 31 season, the 200-bed network, and the online waitlist, none of which the live page supports; renamed to the county's own label"
+    - id: energy-assistance-tri-county
+      changes:
+        - "Confirmed the 60% of state median income limit, program year, homebound application options, Clackamas's phased intake and 503-650-5640, and Our Just Future's numbers"
+        - "Removed the $250-$750 benefit range, the year-round-applications claim, the first-come-first-served note, and a document checklist, none of which the sources state; dropped a multco.us source the extension could not open"
+    - id: afsp-out-of-darkness-walk-portland
+      changes:
+        - "Added the street address (2555 N Channel Ave) and the 9am check-in; corrected the contact to Stacey Jung, 503-810-8937, oregon@afsp.org; corrected the route to 1-3 miles"
+        - "Added the ODOT southbound I-5 closure expected on walk day; removed unsourced claims about bead colors, same-day registration, and a flat route"
+    - id: tualatin-pumpkin-regatta
+      changes:
+        - "Confirmed date, hours, address, free admission, and race times on the City's page, which moved to parks.tualatinoregon.gov; removed the attendance figure and crowd-timing tip, which the page does not state"
+    - id: beaverton-tree-lighting
+      changes:
+        - "Confirmed Friday December 4, 4pm-8pm at City Park on the City's events page; converted from an all-day item to a timed event, added the 12375 SW 5th St address and the 503-526-2559 events line"
+    - id: omsi
+      changes:
+        - "Added the four $5 Days the first pass missed: September 22, 2026 and March 4, April 22, and May 2, 2027"
+    - id: folktime
+      changes:
+        - "Corrected the Peer Respite phone to 503-756-0066 (the entry had the Connection Center line); added eligibility, the intake form, the waitlist and Warmline referral, and house rules"
+  notes: >
+    Read through the user's Chrome session with the claude-in-chrome extension. All seven
+    VERIFY flags from the sweep are cleared. The Washington County winter-shelters page is
+    the one source that could not be read at all, because the county's own site refuses it.
