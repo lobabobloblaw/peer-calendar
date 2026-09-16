@@ -22,6 +22,119 @@ pending:
   # COMPLETED 2026-03-24: Neighborhood House - added as neighborhood-house-barbur
   # COMPLETED 2026-03-24: POBC Community Pantry - added as pobc-community-pantry
 
+  # From the fall/winter events sweep 2026-09-16. Each of these is a real, recurring
+  # tri-county event, but search only surfaced 2025 dates or no published time, and the
+  # official pages were unreachable from that session. Confirm the 2026 date on the
+  # organizer's own page before adding - do not roll last year's date forward.
+  - name: "International Survivors of Suicide Loss Day - Portland (AFSP Oregon)"
+    category: peer_support
+    priority: high
+    notes: >
+      Survivor Day 2026 is Saturday, November 21 (the Saturday before Thanksgiving). AFSP
+      Oregon hosts a Portland event plus Bend, Hood River, and Pendleton, but the Portland
+      venue and time were not published as of 2026-09-16. Area Director Helen Cotton,
+      971-375-5509. High value: a free, facilitated day specifically for people bereaved
+      by suicide.
+    source_urls:
+      - https://afsp.org/chapter/oregon
+      - https://afsp.org/international-survivors-of-suicide-loss-day/
+  - name: "Transgender Day of Remembrance vigils - Portland"
+    category: peer_support
+    priority: high
+    notes: >
+      TDOR is November 20, 2026. Q Center (4115 N Mississippi Ave), the PSU Queer Resource
+      Center, and the Goose Hollow interfaith vigil have all hosted in past years; 2026
+      details were not posted as of 2026-09-16. Check pdxqcenter.org/calendar in late
+      October.
+    source_urls:
+      - https://www.pdxqcenter.org/calendar
+      - https://www.basicrights.org/
+  - name: "Longest Night / Homeless Persons' Memorial vigils"
+    category: peer_support
+    priority: medium
+    notes: >
+      December 21, 2026 (winter solstice). Multiple Portland-metro vigils read the names of
+      people who died unhoused that year; past hosts include Ecumenical Ministries of
+      Oregon and Rose Haven. Organizers usually announce in early December.
+    source_urls:
+      - https://emoregon.org/
+  - name: "Holiday grief workshops (Coping with the Holidays)"
+    category: peer_support
+    priority: medium
+    notes: >
+      Providence, Dougy Center, and Hopewell House all run holiday-season grief programming
+      in November and December. Their 2026 dates were not published as of 2026-09-16. Worth
+      a single sweep in late October to add them together.
+    source_urls:
+      - https://hopewellhousepdx.org/grief-support/
+      - https://www.dougy.org/grief-support-resources/portland-area-support-groups-resources
+  - name: "Free Thanksgiving and Christmas community meals 2026"
+    category: food_farms
+    priority: high
+    notes: >
+      Union Gospel Mission, Portland Rescue Mission, and Poshines Cafe (the Proper
+      Thanksgiving Feast-ival) all serve free holiday meals open to anyone, not only people
+      experiencing homelessness. All three organizations are already in the database; what
+      is missing is the 2026 holiday dates and hours, which are usually announced in early
+      November. Blanchet House is closed both holidays and publishes a list of who is open.
+    source_urls:
+      - https://blanchethouse.org/where-to-find-free-thanksgiving-day-meals-and-volunteer-opportunities/
+      - https://blanchethouse.org/where-to-eat-for-free-on-christmas-day/
+  - name: "Hillsboro Holly Days"
+    category: events
+    priority: medium
+    notes: >
+      Free downtown celebration with a 6pm tree lighting at Civic Center Plaza, held the
+      Saturday before Thanksgiving - November 21 in 2026, but the organizer had not posted
+      the 2026 date as of 2026-09-16.
+    source_urls:
+      - https://www.downtownhillsboro.org/holly-days-celebration/
+  - name: "Lake Oswego Tree Lighting Festival"
+    category: events
+    priority: medium
+    notes: >
+      Free festival at Millennium Plaza Park with caroling, a holiday marketplace, and
+      reindeer. 2026 date not yet posted.
+    source_urls:
+      - https://www.ci.oswego.or.us/parksrec/
+  - name: "Milwaukie Lights Walk and Umbrella Parade"
+    category: events
+    priority: medium
+    notes: >
+      Two separate free Clackamas County events. The Lights Walk is a months-long downtown
+      art installation (December through March in the 2025-26 season); the Umbrella Parade
+      ends at City Hall with the tree lighting. Neither 2026 date was published as of
+      2026-09-16.
+    source_urls:
+      - https://www.downtownmilwaukie.org/
+      - https://www.milwaukieoregon.gov/community/events/umbrella_parade_tree_lighting.php
+  - name: "Oregon City holiday tree lighting"
+    category: events
+    priority: low
+    notes: >
+      Free, at Liberty Plaza, 813 Main St, with live music and Santa. Early December; 2026
+      date not yet posted. Worth pairing with FolkTime's Oregon City connection center.
+    source_urls:
+      - https://www.orcity.org/
+  - name: "Free Halloween and harvest events - tri-county"
+    category: events
+    priority: low
+    notes: >
+      Trick or Treat on Alberta (October 31, 3-6pm, 40+ businesses), BOOverton in downtown
+      Beaverton, and the Wood Village Pumpkin Fest at Donald L Robertson Park are all free
+      and recur annually, but only 2025 dates were findable on 2026-09-16.
+    source_urls:
+      - https://portlandlivingonthecheap.com/free-halloween-events-portland/
+  - name: "Art in the Burbs"
+    category: arts_culture
+    priority: low
+    notes: >
+      Listed for November 7-8, 2026, 10am-5pm at Tigard High School. Free admission was not
+      confirmed. Low peer value on its own, but it is one of the few Washington County
+      November arts events.
+    source_urls:
+      - https://www.tigard-or.gov/explore-tigard/community-events
+
 ---
 # Completed additions moved here with date:
 completed:

@@ -4874,3 +4874,68 @@
       reason: "Free October 2-3 and December 3-6, 2026 markets; December flagged VERIFY"
   not_changed:
     - "cmhc-peer-groups, sandy-community-action, gleaners-clackamas, tergar-meditation-portland, shift-to-bikes, turn-turn-turn, community-jams-beaverton, portland-art-guild, mhcc-visual-arts-gallery, last-thursday-alberta, washington-county-fair, happy-valley-oktoberfest, happy-valley-tree-lighting, dia-muertos-gresham, portland-tree-lighting, peacock-lane: inconclusive or awaiting published dates; dates left as they were"
+
+---
+- date: 2026-09-16
+  type: audit
+  auditor: user
+  summary: "Audit completed - OMSI (Oregon Museum of Science and Industry)"
+  entries_audited: 1
+  entries:
+    - id: omsi
+      status: updated
+      changes: "Replaced the 1st-Sunday $5 recurrence with OMSI's published $5 Day dates (Nov 1 and Dec 6, 2026; Jan 25 and Feb 7, 2027) - January's falls on a Monday, so the recurrence was publishing a wrong date"
+
+---
+- date: 2026-09-16
+  type: audit
+  auditor: user
+  summary: "Audit completed - FolkTime Peer Respite"
+  entries_audited: 1
+  entries:
+    - id: folktime
+      status: updated
+      changes: "Added the Peer Respite access path (Pathway Conversation first, then notification when a room opens) and folktime.org/respite as a source - the respite is 24/7 but is not walk-in"
+
+---
+- date: 2026-09-16
+  type: addition
+  auditor: claude
+  summary: "Fall/winter events sweep across Multnomah, Washington, and Clackamas counties, filtered for peer benefit"
+  entries_added: 7
+  added:
+    - id: afsp-out-of-darkness-walk-portland
+      name: "Out of the Darkness Community Walk - Portland (AFSP Oregon)"
+      category: peer_support
+      reason: "October 3, 2026 suicide-prevention walk; free, non-competitive, walking optional. Nothing in the database marked the fall mental-health observances."
+    - id: severe-weather-shelters-multnomah
+      name: "Severe Weather Shelters (Multnomah County)"
+      category: peer_support
+      reason: "Winter safety gap - no warming or severe-weather shelter information existed anywhere in the database"
+    - id: winter-shelter-washington-county
+      name: "Winter Shelter Program (Washington County)"
+      category: peer_support
+      reason: "November 1 - May 31 program; Community Connect rather than 211 is the front door here"
+    - id: warming-centers-clackamas
+      name: "Warming Centers & Severe Weather Shelter (Clackamas County)"
+      category: peer_support
+      reason: "Opens at a 33F threshold, warmer than Multnomah's, so the counties differ on the same night"
+    - id: energy-assistance-tri-county
+      name: "Home Energy Assistance (LIHEAP) - Tri-County"
+      category: discount_programs
+      reason: "The database held ongoing utility discounts but no bill-payment assistance; county intake opens on a staggered schedule starting in October"
+    - id: tualatin-pumpkin-regatta
+      name: "West Coast Giant Pumpkin Regatta"
+      category: events
+      reason: "Free October 18, 2026 Washington County event; October coverage was thin outside Multnomah"
+    - id: beaverton-tree-lighting
+      name: "Beaverton Tree Lighting & Winter Lights"
+      category: events
+      reason: "Free December 4, 2026 event; Washington County had no winter holiday entry"
+  notes: >
+    Every entry added in this sweep carries a VERIFY flag. The session's egress proxy blocked
+    afsp.org, multco.us, clackamas.us, washingtoncountyor.gov, 211info.org, tualatinoregon.gov,
+    beavertonoregon.gov, and pdxqcenter.org, so details came from search summaries of those
+    official pages rather than from the pages themselves. Dates were cross-checked against the
+    2026 calendar (day-of-week must match) and leads that resolved only to 2025 dates went to
+    queue.yaml instead of being added.

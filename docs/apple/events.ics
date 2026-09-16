@@ -539,6 +539,41 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:02b21b02b35fab81@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20261018T100000
+DTEND;TZID=America/Los_Angeles:20261018T160000
+SUMMARY:West Coast Giant Pumpkin Regatta: Pumpkin Regatta Festival
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: Costumed racers
+  paddle hollowed-out giant pumpkins across the lake. Races at noon and 2pm
+ \, with pumpkin bowling\, pumpkin golf\, food\, and entertainment in betwe
+ en.\nAddress: Lake of the Commons\, 8325 SW Nyberg St\, Tualatin\, OR 9706
+ 2\nPhone: 503-691-3061\nWebsite: https://www.tualatinoregon.gov/pumpkinreg
+ atta\nDetails: Annual Tualatin tradition\, held the third Sunday of Octobe
+ r. Paired weekend events include a giant pumpkin weigh-off and a 5K run\, 
+ both run by other organizers.
+LOCATION:Lake of the Commons\, 8325 SW Nyberg St\, Tualatin\, OR 97062
+URL:https://www.tualatinoregon.gov/pumpkinregatta
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c9b86d2c418fdec9@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Beaverton Tree Lighting & Winter Lights
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Beaverton Ci
+ ty Park\, Beaverton\, OR\nPhone: 503-526-2222\nWebsite: https://www.beaver
+ tonoregon.gov/\nDetails: Added in the September 2026 events sweep. Washing
+ ton County's winter calendar was thin compared with Multnomah and Clackama
+ s.
+LOCATION:Beaverton City Park\, Beaverton\, OR
+URL:https://www.beavertonoregon.gov/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:edc64077dd8da10e@portlandresources.org
 DTSTAMP:20260910T000000Z
 DTSTART;VALUE=DATE:20270205

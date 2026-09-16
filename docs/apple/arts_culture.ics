@@ -43,20 +43,74 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:4d15400e41f273e0@portlandresources.org
-DTSTAMP:20260910T000000Z
-DTSTART;TZID=America/Los_Angeles:20260104T093000
-DTEND;TZID=America/Los_Angeles:20260104T173000
-SUMMARY:OMSI (Oregon Museum of Science and Industry): First Sunday
-DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: Discounted admission 
- day - only $5 per person for all exhibits. Planetarium shows\, submarine t
- ours\, and special exhibitions also $5 each. Purchase tickets online in ad
- vance to skip the line. Interactive science museum great for families and 
- curious minds.\nAddress: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 5
- 03-797-4000\nWebsite: https://omsi.edu/
+UID:6ac64462ffd136ed@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20261101T093000
+DTEND;TZID=America/Los_Angeles:20261101T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for special exhibitions\, the Empirical Theater\, Ke
+ ndall Planetarium shows\, and USS Blueback submarine tours. Buy online in 
+ advance - $5 Days sell out and the line is long. OMSI publishes specific $
+ 5 Days rather than a standing first-Sunday rule\, so this is a dated list\
+ , not a recurrence.\nAddress: 1945 SE Water Ave\, Portland\, OR 97214\nPho
+ ne: 503-797-4000\nWebsite: https://omsi.edu/
 LOCATION:1945 SE Water Ave\, Portland\, OR 97214
 URL:https://omsi.edu/
-RRULE:FREQ=MONTHLY;BYDAY=1SU
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5869b9bc6a3c3430@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20261206T093000
+DTEND;TZID=America/Los_Angeles:20261206T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for special exhibitions\, the Empirical Theater\, Ke
+ ndall Planetarium shows\, and USS Blueback submarine tours. Buy online in 
+ advance - $5 Days sell out and the line is long. OMSI publishes specific $
+ 5 Days rather than a standing first-Sunday rule\, so this is a dated list\
+ , not a recurrence.\nAddress: 1945 SE Water Ave\, Portland\, OR 97214\nPho
+ ne: 503-797-4000\nWebsite: https://omsi.edu/
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c3eca7fb93ca1fdc@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20270125T093000
+DTEND;TZID=America/Los_Angeles:20270125T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for special exhibitions\, the Empirical Theater\, Ke
+ ndall Planetarium shows\, and USS Blueback submarine tours. Buy online in 
+ advance - $5 Days sell out and the line is long. OMSI publishes specific $
+ 5 Days rather than a standing first-Sunday rule\, so this is a dated list\
+ , not a recurrence.\nAddress: 1945 SE Water Ave\, Portland\, OR 97214\nPho
+ ne: 503-797-4000\nWebsite: https://omsi.edu/
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da9fce24eb1b7dfd@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20270207T093000
+DTEND;TZID=America/Los_Angeles:20270207T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for special exhibitions\, the Empirical Theater\, Ke
+ ndall Planetarium shows\, and USS Blueback submarine tours. Buy online in 
+ advance - $5 Days sell out and the line is long. OMSI publishes specific $
+ 5 Days rather than a standing first-Sunday rule\, so this is a dated list\
+ , not a recurrence.\nAddress: 1945 SE Water Ave\, Portland\, OR 97214\nPho
+ ne: 503-797-4000\nWebsite: https://omsi.edu/
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT

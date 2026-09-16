@@ -1,7 +1,7 @@
 {
   "schedule_schema_version": 1,
-  "generated": "2026-09-10",
-  "count": 280,
+  "generated": "2026-09-16",
+  "count": 287,
   "categories": {
     "peer_support": "Peer Support",
     "fitness_wellness": "Fitness & Wellness",
@@ -883,6 +883,97 @@
         "registration": "Standard enrollment process; bring ID for age verification",
         "what_to_bring": "ID, proof of residency",
         "good_to_know": "Great way for seniors to take classes for personal enrichment"
+      }
+    },
+    {
+      "id": "energy-assistance-tri-county",
+      "title": "Home Energy Assistance (LIHEAP) - Tri-County",
+      "category": "discount_programs",
+      "categoryName": "Discount Programs",
+      "color": "#1D5F9B",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "phone": "866-698-6155",
+      "email": null,
+      "website": "https://www.oregon.gov/ohcs/energy-weatherization/pages/utility-bill-payment-assistance.aspx",
+      "pricing": {
+        "description": "FREE to apply - the program pays part of your heating bill",
+        "notes": "Fiscal year 2026 heating benefits run from a $250 minimum to a $750 maximum."
+      },
+      "hours": "Program year runs October 1 - September 30; county intake opens on a staggered schedule each fall",
+      "eligibility": "Household income at or below 60% of Oregon's median income. Applications are taken year-round but funds run out, often by late summer.",
+      "features": [],
+      "locations": [],
+      "services": [],
+      "transit": null,
+      "parking": null,
+      "languages": null,
+      "season": null,
+      "organizer": null,
+      "status": null,
+      "location_type": "varies",
+      "resource_type": "service",
+      "programs": [
+        {
+          "name": "Multnomah County energy assistance",
+          "location": "Multnomah County",
+          "cost": "FREE to apply",
+          "notes": "First come, first served. Our Just Future (formerly Human Solutions) covers Portland and east county - call 503-405-7877 for funding availability, or 503-548-0217 for the water discount program. Call 2-1-1 for the current list of intake sites.",
+          "audience": [
+            "children",
+            "seniors"
+          ],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Washington County energy assistance",
+          "location": "Washington County",
+          "cost": "FREE to apply",
+          "notes": "Administered by Community Action of Washington County, which is already in this database as community-action-washington-county.",
+          "audience": [
+            "children",
+            "seniors"
+          ],
+          "resolved_schedule": null
+        },
+        {
+          "name": "Clackamas County energy assistance",
+          "location": "Clackamas County",
+          "cost": "FREE to apply",
+          "notes": "Call 503-650-5640 to request an application and they mail a prepaid return envelope. Intake opens in October for people 60+, disabled, or medically fragile; in November for households with children 6 and under; and in December for every income-eligible household, running to April 15 or until funds run out.",
+          "audience": [
+            "children"
+          ],
+          "resolved_schedule": null
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "resolved_schedule": null,
+      "flags": [
+        "\ud83d\udd04 SEASONAL",
+        "\u26a0\ufe0f VERIFY - County intake dates, phone numbers, and benefit amounts come from state and county pages by way of search; oregon.gov, multco.us, and clackamas.us are unreachable from this environment. Confirm each county's opening date in early October."
+      ],
+      "last_verified": "2026-09-16",
+      "accessibility": [],
+      "social_intensity": "one_on_one",
+      "good_for": [
+        "low_energy"
+      ],
+      "audience": [
+        "children",
+        "seniors"
+      ],
+      "audience_notes": null,
+      "notes": "Separate from the ongoing utility discounts already in this database (PGE, Pacific Power, NW Natural). Those cut the monthly rate; LIHEAP pays down the bill itself, and the two stack.",
+      "practical_tips": {
+        "first_visit": "Apply through your county's community action agency, not the state. Each county sets its own intake process.",
+        "registration": "Gather proof of income for the last month, a photo ID, Social Security numbers for the household, and your most recent heating bill before you call.",
+        "what_to_bring": "Recent utility bills and income documentation.",
+        "good_to_know": "Do not wait for a shutoff notice. October and November are the quiet months for seniors and households with young children, and December is when everyone else can apply - which is also when the phones get busiest. People who are homebound can ask to apply by phone or mail."
       }
     },
     {
@@ -2187,7 +2278,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-09-16",
       "accessibility": [
         "transit_nearby"
       ],
@@ -2206,7 +2297,7 @@
         "first_visit": "Attend orientation on 2nd or 3rd Wednesday of any month",
         "registration": "Email peerconnection@folktime.org or just show up to orientation",
         "what_to_bring": "Nothing required; $1 donation suggested for collective lunch",
-        "good_to_know": "Oregon's oldest peer-run program (1985). Drop-in, no referral needed. Arrive by 11am to join collective lunch prep. Peer Respite Center now open 24/7 \u2014 contact respite@folktime.org."
+        "good_to_know": "Oregon's oldest peer-run program (1985). Drop-in, no referral needed. Arrive by 11am to join collective lunch prep. The Peer Respite is open 24/7, but you cannot walk in \u2014 have the Pathway Conversation first, so you are already eligible when a crisis comes. Contact respite@folktime.org."
       }
     },
     {
@@ -8421,7 +8512,7 @@
       "email": null,
       "website": "https://omsi.edu/",
       "pricing": {
-        "description": "$22.50 adults (14+); $20.50 seniors (63+); $15.50 youth (3-13); free under 3; $5 First Sunday; $5 Arts for All (EBT/SNAP/WIC/TANF/Medicaid/OHP)",
+        "description": "$22.50 adults (14+); $20.50 seniors (63+); $15.50 youth (3-13); free under 3; $5 on published $5 Days; $5 Arts for All (EBT/SNAP/WIC/TANF/Medicaid/OHP)",
         "notes": "Arts for All provides up to 4 tickets at $5 each for EBT/SNAP/WIC/TANF/Medicaid/OHP recipients (any state); up to 55% off OMSI for 2, Family, Family Plus, and Patron memberships"
       },
       "hours": "Tue-Fri 9:30am-5:30pm; Sat 9:30am-7pm; Sun 9:30am-5:30pm; Mon closed",
@@ -8439,26 +8530,53 @@
       "resource_type": "place",
       "programs": [
         {
-          "name": "First Sunday",
-          "schedule": "1st Sundays 9:30am-5:30pm",
+          "name": "$5 Day",
+          "dates": [
+            "November 1, 2026",
+            "December 6, 2026",
+            "January 25, 2027",
+            "February 7, 2027"
+          ],
+          "schedule": "9:30am-5:30pm",
           "cost": "$5",
-          "notes": "Discounted admission day - only $5 per person for all exhibits. Planetarium shows, submarine tours, and special exhibitions also $5 each. Purchase tickets online in advance to skip the line. Interactive science museum great for families and curious minds.",
+          "notes": "$5 admission for everyone, and $5 tickets for special exhibitions, the Empirical Theater, Kendall Planetarium shows, and USS Blueback submarine tours. Buy online in advance - $5 Days sell out and the line is long. OMSI publishes specific $5 Days rather than a standing first-Sunday rule, so this is a dated list, not a recurrence.",
           "audience": [],
           "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "monthly",
-            "interval": 1,
-            "weekdays": [
-              "SU"
-            ],
-            "month_weeks": [
-              1
-            ],
-            "anchor_date": "2026-01-04",
-            "until_date": null,
-            "start_time": "09:30",
-            "end_time": "17:30",
-            "end_day_offset": 0
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-11-01",
+                "end_date": "2026-11-01",
+                "all_day": false,
+                "start_time": "09:30",
+                "end_time": "17:30",
+                "end_day_offset": 0
+              },
+              {
+                "start_date": "2026-12-06",
+                "end_date": "2026-12-06",
+                "all_day": false,
+                "start_time": "09:30",
+                "end_time": "17:30",
+                "end_day_offset": 0
+              },
+              {
+                "start_date": "2027-01-25",
+                "end_date": "2027-01-25",
+                "all_day": false,
+                "start_time": "09:30",
+                "end_time": "17:30",
+                "end_day_offset": 0
+              },
+              {
+                "start_date": "2027-02-07",
+                "end_date": "2027-02-07",
+                "all_day": false,
+                "start_time": "09:30",
+                "end_time": "17:30",
+                "end_day_offset": 0
+              }
+            ]
           }
         }
       ],
@@ -8468,7 +8586,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-09-16",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -14264,6 +14382,160 @@
         "registration": null,
         "what_to_bring": "Cash, comfortable shoes",
         "good_to_know": "Very crowded - plan for large crowds. Great food variety."
+      }
+    },
+    {
+      "id": "tualatin-pumpkin-regatta",
+      "title": "West Coast Giant Pumpkin Regatta",
+      "category": "events",
+      "categoryName": "Events & Festivals",
+      "color": "#B6402F",
+      "address": "Lake of the Commons, 8325 SW Nyberg St, Tualatin, OR 97062",
+      "latitude": null,
+      "longitude": null,
+      "phone": "503-691-3061",
+      "email": null,
+      "website": "https://www.tualatinoregon.gov/pumpkinregatta",
+      "pricing": {
+        "description": "FREE admission",
+        "notes": "Food and some activity booths charge; watching the races costs nothing."
+      },
+      "hours": "10am-4pm, races at noon and 2pm",
+      "eligibility": null,
+      "features": [],
+      "locations": [],
+      "services": [],
+      "transit": null,
+      "parking": null,
+      "languages": null,
+      "season": null,
+      "organizer": null,
+      "status": null,
+      "location_type": "physical",
+      "resource_type": "event",
+      "programs": [
+        {
+          "name": "Pumpkin Regatta Festival",
+          "dates": "October 18, 2026",
+          "schedule": "10am-4pm",
+          "location": "Lake of the Commons, 8325 SW Nyberg St, Tualatin, OR 97062",
+          "cost": "FREE",
+          "notes": "Costumed racers paddle hollowed-out giant pumpkins across the lake. Races at noon and 2pm, with pumpkin bowling, pumpkin golf, food, and entertainment in between.",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-10-18",
+                "end_date": "2026-10-18",
+                "all_day": false,
+                "start_time": "10:00",
+                "end_time": "16:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "resolved_schedule": null,
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE",
+        "\u26a0\ufe0f VERIFY - The October 18, 2026 date and 10am-4pm hours come from the City of Tualatin and Travel Portland listings by way of search; tualatinoregon.gov is unreachable from this environment. Confirm the race times in early October."
+      ],
+      "last_verified": "2026-09-16",
+      "accessibility": [
+        "wheelchair_accessible"
+      ],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "outdoor",
+        "family_friendly",
+        "low_energy"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Annual Tualatin tradition, held the third Sunday of October. Paired weekend events include a giant pumpkin weigh-off and a 5K run, both run by other organizers.",
+      "practical_tips": {
+        "first_visit": "The Commons is a walkable loop around a small lake, so you can watch from anywhere on the shore and step away whenever you want.",
+        "registration": "None to attend.",
+        "what_to_bring": "Rain layers, cash for food carts, and a folding chair if standing is hard.",
+        "good_to_know": "Roughly 20,000 people come, and the crowd peaks around the noon race. Arriving at opening or after 2pm is much quieter. Free and genuinely strange - a good outing for someone who wants an event that does not require talking to anyone."
+      }
+    },
+    {
+      "id": "beaverton-tree-lighting",
+      "title": "Beaverton Tree Lighting & Winter Lights",
+      "category": "events",
+      "categoryName": "Events & Festivals",
+      "color": "#B6402F",
+      "address": "Beaverton City Park, Beaverton, OR",
+      "latitude": null,
+      "longitude": null,
+      "phone": "503-526-2222",
+      "email": null,
+      "website": "https://www.beavertonoregon.gov/",
+      "pricing": {
+        "description": "FREE"
+      },
+      "hours": "Evening - the markets run beforehand and the lighting itself is a short window",
+      "eligibility": null,
+      "features": [],
+      "locations": [],
+      "services": [],
+      "transit": null,
+      "parking": null,
+      "languages": null,
+      "season": null,
+      "organizer": null,
+      "status": null,
+      "location_type": "physical",
+      "resource_type": "event",
+      "programs": [],
+      "dates": "December 4, 2026",
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "resolved_schedule": {
+        "type": "fixed",
+        "occurrences": [
+          {
+            "start_date": "2026-12-04",
+            "end_date": "2026-12-04",
+            "all_day": true,
+            "start_time": null,
+            "end_time": null,
+            "end_day_offset": 0
+          }
+        ]
+      },
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE",
+        "\u26a0\ufe0f VERIFY - December 4, 2026 comes from secondary listings by way of search; beavertonoregon.gov is unreachable from this environment. The start time and the exact park address are not yet confirmed - get both from the City before November, and this entry stays an all-day calendar item until then."
+      ],
+      "last_verified": "2026-09-16",
+      "accessibility": [
+        "transit_nearby"
+      ],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "outdoor",
+        "family_friendly",
+        "isolation"
+      ],
+      "audience": [
+        "children"
+      ],
+      "audience_notes": null,
+      "notes": "Added in the September 2026 events sweep. Washington County's winter calendar was thin compared with Multnomah and Clackamas.",
+      "practical_tips": {
+        "first_visit": "Come early for the children's market and the chamber winter market; the tree lighting itself is brief.",
+        "registration": "None.",
+        "what_to_bring": "Warm layers and a flashlight - the park is dark once the markets close.",
+        "good_to_know": "An outdoor, walk-up holiday event with no ticket and no seating chart, which makes it easy to leave early. Good for someone who wants the feeling of the season without a room full of people."
       }
     },
     {
@@ -26789,6 +27061,261 @@
         "registration": "None for general entry",
         "what_to_bring": "Cash or card for vendors; layers - the warehouse is open to the elements",
         "good_to_know": "Very crowded and loud with long entry lines later in the evening - not a low-pressure setting. Under the Morrison Bridge; buses 6 and 15 on SE Grand/MLK and the Streetcar A/B Loop are close."
+      }
+    },
+    {
+      "id": "afsp-out-of-darkness-walk-portland",
+      "title": "Out of the Darkness Community Walk - Portland (AFSP Oregon)",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#3E56B5",
+      "address": "Daimler Truck North America (TEC), Portland, OR",
+      "latitude": null,
+      "longitude": null,
+      "phone": "971-375-5509",
+      "email": null,
+      "website": "https://afspwalks.donordrive.com/PortlandOR",
+      "pricing": {
+        "description": "FREE - registration costs nothing and fundraising is optional",
+        "notes": "Raising $150 earns a walk t-shirt, but nobody has to fundraise, and nobody has to walk the route to take part."
+      },
+      "hours": "11am-1pm on walk day",
+      "eligibility": "Open to everyone - people bereaved by suicide, attempt survivors, people living with mental health conditions, families, and supporters",
+      "features": [],
+      "locations": [],
+      "services": [],
+      "transit": null,
+      "parking": null,
+      "languages": null,
+      "season": null,
+      "organizer": null,
+      "status": null,
+      "location_type": "physical",
+      "resource_type": "event",
+      "programs": [
+        {
+          "name": "Out of the Darkness Community Walk",
+          "dates": "October 3, 2026",
+          "schedule": "11am-1pm",
+          "location": "Daimler Truck North America (TEC), Portland, OR",
+          "cost": "FREE",
+          "notes": "Roughly 1.5-2 miles and non-competitive. The program includes an opening ceremony, activities of hope and healing, resource tables, and honor beads for every participant.",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-10-03",
+                "end_date": "2026-10-03",
+                "all_day": false,
+                "start_time": "11:00",
+                "end_time": "13:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "resolved_schedule": null,
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE",
+        "\u26a0\ufe0f VERIFY - Date, time, and venue come from the AFSP walk registration listing by way of search; afsp.org and afspwalks.donordrive.com are unreachable from this environment. Confirm the street address and check-in time on the registration page before promoting it."
+      ],
+      "last_verified": "2026-09-16",
+      "accessibility": [],
+      "social_intensity": "casual_group",
+      "good_for": [
+        "grief",
+        "isolation",
+        "active",
+        "outdoor"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "AFSP Oregon runs several Out of the Darkness walks across the state each fall; this is the Portland one. Area Director Helen Cotton, 971-375-5509.",
+      "practical_tips": {
+        "first_visit": "Arrive before the 11am opening ceremony. Honor beads are handed out at check-in - each color stands for a different relationship to suicide loss or lived experience, and wearing them means you never have to explain why you came.",
+        "registration": "Register free at afspwalks.donordrive.com/PortlandOR. Day-of registration is normally available.",
+        "what_to_bring": "Layers for the weather, water, and a photo of the person you are walking for if you want one.",
+        "good_to_know": "The resource tables put local mental health organizations in one place, which makes this a low-pressure way to meet several at once. Sitting the route out and staying for the ceremony is a normal way to attend."
+      }
+    },
+    {
+      "id": "severe-weather-shelters-multnomah",
+      "title": "Severe Weather Shelters (Multnomah County)",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#3E56B5",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "phone": "866-698-6155",
+      "email": null,
+      "website": "https://multco.us/programs/care-when-its-cold",
+      "pricing": {
+        "description": "FREE"
+      },
+      "hours": "Open only when severe weather is forecast - call 2-1-1 to find sites open tonight",
+      "eligibility": "Anyone who needs to come inside during severe weather. No ID, referral, or sobriety requirement.",
+      "features": [
+        "Opens when windchill is forecast at 25F or below, or 34F or below with more than a tenth of an inch of precipitation",
+        "County and City decide jointly each day during a potential event",
+        "Five shelter trailers on standby, each stocked for 80-150 people",
+        "211info staff can also arrange transportation to an open site"
+      ],
+      "locations": [],
+      "services": [],
+      "transit": null,
+      "parking": null,
+      "languages": null,
+      "season": null,
+      "organizer": null,
+      "status": null,
+      "location_type": "varies",
+      "resource_type": "service",
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "resolved_schedule": null,
+      "flags": [
+        "\ud83d\udd04 SEASONAL",
+        "\u26a0\ufe0f VERIFY - Thresholds and operating details come from Multnomah County news releases and the 211info winter page by way of search; multco.us and 211info.org are unreachable from this environment. Confirm before the first cold snap."
+      ],
+      "last_verified": "2026-09-16",
+      "accessibility": [],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "low_energy"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Added in the September 2026 events sweep as a winter safety entry - peers ask where to send someone on a freezing night and the answer was not in this database.",
+      "practical_tips": {
+        "first_visit": "Call 2-1-1, text your ZIP code to 898-211, or check 211info.org. Openings are announced site by site, so the list changes between nights.",
+        "registration": "None. Severe weather shelters are walk-in.",
+        "what_to_bring": "Whatever you need to keep with you - ask 211 about pets and belongings for the specific site, since policies vary by building.",
+        "good_to_know": "This is separate from year-round shelter. It opens on weather thresholds, not on a season, so check each cold night rather than assuming it is running."
+      }
+    },
+    {
+      "id": "winter-shelter-washington-county",
+      "title": "Winter Shelter Program (Washington County)",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#3E56B5",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "phone": "503-640-3263",
+      "email": null,
+      "website": "https://www.washingtoncountyor.gov/housing/supportive-housing-services/winter-shelters",
+      "pricing": {
+        "description": "FREE"
+      },
+      "hours": "Winter Shelter Program runs November 1 - May 31; Community Connect answers 503-640-3263 seven days a week",
+      "eligibility": "People experiencing homelessness in Washington County. During severe weather, extra capacity opens and no one is turned away.",
+      "features": [
+        "Roughly 200 beds across the Winter Shelter Network",
+        "Waitlist for the next available bed, by phone or online",
+        "Additional severe-weather capacity added during freezing weather and heat waves"
+      ],
+      "locations": [],
+      "services": [],
+      "transit": null,
+      "parking": null,
+      "languages": null,
+      "season": "November-May",
+      "organizer": null,
+      "status": null,
+      "location_type": "varies",
+      "resource_type": "service",
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "resolved_schedule": null,
+      "flags": [
+        "\ud83d\udd04 SEASONAL",
+        "\u26a0\ufe0f VERIFY - Season dates, bed count, and the Community Connect number come from Washington County housing pages by way of search; washingtoncountyor.gov is unreachable from this environment. Confirm in late October."
+      ],
+      "last_verified": "2026-09-16",
+      "accessibility": [],
+      "social_intensity": "one_on_one",
+      "good_for": [
+        "low_energy"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Washington County's shelter front door is Community Connect rather than 211, though 211 can route there too.",
+      "practical_tips": {
+        "first_visit": "Call Community Connect at 503-640-3263 - it is the front door for shelter and housing in Washington County, seven days a week.",
+        "registration": "Apply by phone or online to join the waitlist for the next available bed.",
+        "good_to_know": "The waitlist and the severe-weather response are two different things. During a freeze, capacity opens beyond the 200-bed network, so call even if the waitlist has not reached you."
+      }
+    },
+    {
+      "id": "warming-centers-clackamas",
+      "title": "Warming Centers & Severe Weather Shelter (Clackamas County)",
+      "category": "peer_support",
+      "categoryName": "Peer Support",
+      "color": "#3E56B5",
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "phone": "503-655-8575",
+      "email": null,
+      "website": "https://www.clackamas.us/relief",
+      "pricing": {
+        "description": "FREE"
+      },
+      "hours": "Overnight shelters open on forecast; Coordinated Housing Access answers 503-655-8575 Mon-Fri 8am-6pm; call 2-1-1 any time",
+      "eligibility": "Anyone who needs to get out of dangerous weather",
+      "features": [
+        "Overnight warming shelters open when temperature including wind chill is forecast at 33F or lower, or when snow, wind, or flooding make sleeping outside especially dangerous",
+        "Daytime warming centers open across the county",
+        "Motel stays arranged with nonprofit partners for especially vulnerable people",
+        "County staff work with 211 on overnight stays, supplies, and transportation"
+      ],
+      "locations": [],
+      "services": [],
+      "transit": null,
+      "parking": null,
+      "languages": null,
+      "season": null,
+      "organizer": null,
+      "status": null,
+      "location_type": "varies",
+      "resource_type": "service",
+      "programs": [],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "resolved_schedule": null,
+      "flags": [
+        "\ud83d\udd04 SEASONAL",
+        "\u26a0\ufe0f VERIFY - Thresholds and phone numbers come from Clackamas County news releases by way of search; clackamas.us is unreachable from this environment. Confirm before the first cold snap."
+      ],
+      "last_verified": "2026-09-16",
+      "accessibility": [],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "low_energy"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "clackamas.us/relief is the county's combined page for cooling centers in summer and warming centers in winter.",
+      "practical_tips": {
+        "first_visit": "Call 2-1-1 for sites open right now. For housing help during business hours, Coordinated Housing Access is 503-655-8575.",
+        "registration": "None for warming centers - they are walk-in.",
+        "good_to_know": "Clackamas opens at a 33F threshold, which is warmer than Multnomah's 25F windchill trigger, so a night can be a shelter night in one county and not the other."
       }
     }
   ]

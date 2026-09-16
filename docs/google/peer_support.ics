@@ -452,7 +452,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bf09ccb7ad115192@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20260916T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T100000
 DTEND;TZID=America/Los_Angeles:20260101T140000
 SUMMARY:FolkTime Peer Connection Centers: Drop-in peer support - Free To Be
@@ -470,7 +470,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d64ff11ba8b3e087@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20260916T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T100000
 DTEND;TZID=America/Los_Angeles:20260106T140000
 SUMMARY:FolkTime Peer Connection Centers: Drop-in peer support - Oregon Cit
@@ -2774,6 +2774,26 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Fo
 LOCATION:The Overlook House\, 3839 N Melrose Dr\, Portland\, OR 97227
 URL:https://www.briefencounters.org
 RRULE:FREQ=MONTHLY;BYDAY=1MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cb871f080e917e57@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20261003T110000
+DTEND;TZID=America/Los_Angeles:20261003T130000
+SUMMARY:Out of the Darkness Community Walk - Portland (AFSP Oregon): Out of
+  the Darkness Community Walk
+DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Roughly 1.5-2 miles a
+ nd non-competitive. The program includes an opening ceremony\, activities 
+ of hope and healing\, resource tables\, and honor beads for every particip
+ ant.\nAddress: Daimler Truck North America (TEC)\, Portland\, OR\nPhone: 9
+ 71-375-5509\nWebsite: https://afspwalks.donordrive.com/PortlandOR\nDetails
+ : AFSP Oregon runs several Out of the Darkness walks across the state each
+  fall\; this is the Portland one. Area Director Helen Cotton\, 971-375-550
+ 9.
+LOCATION:Daimler Truck North America (TEC)\, Portland\, OR
+URL:https://afspwalks.donordrive.com/PortlandOR
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -129,7 +129,7 @@ class TestCorpusAuditPolicy(unittest.TestCase):
         active = [value for value in self.entries if value.get("status") != "CLOSED"]
         counts = {frequency: sum(value.get("audit_frequency") == frequency for value in active)
                   for frequency in ("monthly", "quarterly", "annually")}
-        self.assertEqual(counts, {"monthly": 15, "quarterly": 134, "annually": 131})
+        self.assertEqual(counts, {"monthly": 18, "quarterly": 138, "annually": 131})
         priorities = {priority: sum(audit_priority(value) == priority for value in active)
                       for priority in ("critical", "high", "standard", "low")}
         # juanita-pohl-center moved low -> high when its programs were converted
@@ -141,10 +141,17 @@ class TestCorpusAuditPolicy(unittest.TestCase):
         # annual events, one quarterly event, one quarterly market) and the
         # September audit advanced 121 next_audit dates, which is why the
         # 2026-08-13 backlog below dropped from 131.
-        self.assertEqual(priorities, {"critical": 64, "high": 72, "standard": 12, "low": 132})
+        # 2026-09-16: the fall/winter events sweep added seven entries - four
+        # quarterly (three county severe-weather shelter services and tri-county
+        # energy assistance) and three monthly date-sensitive events. Critical
+        # rose by four: the three shelter services plus the dated AFSP walk.
+        # High is unchanged because the new energy-assistance entry replaced
+        # omsi, which dropped to low when its $5 Day program stopped being an
+        # open recurrence and became a published list of dates.
+        self.assertEqual(priorities, {"critical": 68, "high": 72, "standard": 12, "low": 135})
         summary = workload_summary(active, capacity_per_week=5, as_of=date(2026, 8, 13))
         self.assertEqual(summary["backlog"], 22)
-        self.assertEqual(summary["audits_per_year"], 847)
+        self.assertEqual(summary["audits_per_year"], 899)
         self.assertFalse(summary["backlog_recoverable"])
 
     def test_migration_is_idempotent_after_application(self):
@@ -163,7 +170,7 @@ class TestCorpusAuditPolicy(unittest.TestCase):
         )
         payload = json.loads(result.stdout)
         self.assertEqual(payload["as_of"], "2026-08-13")
-        self.assertEqual(payload["active_entries"], 280)
+        self.assertEqual(payload["active_entries"], 287)
 
 
 if __name__ == "__main__":
