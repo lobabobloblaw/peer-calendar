@@ -487,7 +487,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bf09ccb7ad115192@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20260916T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T100000
 DTEND;TZID=America/Los_Angeles:20260101T140000
 SUMMARY:FolkTime Peer Connection Centers: Drop-in peer support - Free To Be
@@ -505,7 +505,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d64ff11ba8b3e087@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20260916T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T100000
 DTEND;TZID=America/Los_Angeles:20260106T140000
 SUMMARY:FolkTime Peer Connection Centers: Drop-in peer support - Oregon Cit
@@ -2813,6 +2813,28 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:cb871f080e917e57@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20261003T110000
+DTEND;TZID=America/Los_Angeles:20261003T130000
+SUMMARY:Out of the Darkness Community Walk - Portland (AFSP Oregon): Out of
+  the Darkness Community Walk
+DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Check-in opens at 9am
+  and the program starts at 11am. The walk is 1-3 miles and non-competitive
+ \; AFSP posts the exact route closer to walk day. The program includes an 
+ opening ceremony\, activities of hope and healing\, resource tables\, and 
+ honor beads for every participant. AFSP's page gives no end time - 1pm com
+ es from its Eventbrite listing.\nAddress: Daimler Truck North America\, 25
+ 55 N Channel Ave\, Portland\, OR\nPhone: 503-810-8937\nWebsite: https://af
+ spwalks.donordrive.com/PortlandOR\nDetails: AFSP Oregon runs several Out o
+ f the Darkness walks each fall\; this is the Portland one. Local contact S
+ tacey Jung\, 503-810-8937\, oregon@afsp.org.
+LOCATION:Daimler Truck North America\, 2555 N Channel Ave\, Portland\, OR
+URL:https://afspwalks.donordrive.com/PortlandOR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:320e6e4a7b1b2328@portlandresources.org
 DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
@@ -4129,20 +4151,162 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:4d15400e41f273e0@portlandresources.org
-DTSTAMP:20260910T000000Z
-DTSTART;TZID=America/Los_Angeles:20260104T093000
-DTEND;TZID=America/Los_Angeles:20260104T173000
-SUMMARY:OMSI (Oregon Museum of Science and Industry): First Sunday
-DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: Discounted admission 
- day - only $5 per person for all exhibits. Planetarium shows\, submarine t
- ours\, and special exhibitions also $5 each. Purchase tickets online in ad
- vance to skip the line. Interactive science museum great for families and 
- curious minds.\nAddress: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 5
- 03-797-4000\nWebsite: https://omsi.edu/
+UID:f6905ce15884ab7c@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20260922T093000
+DTEND;TZID=America/Los_Angeles:20260922T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
 LOCATION:1945 SE Water Ave\, Portland\, OR 97214
 URL:https://omsi.edu/
-RRULE:FREQ=MONTHLY;BYDAY=1SU
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6ac64462ffd136ed@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20261101T093000
+DTEND;TZID=America/Los_Angeles:20261101T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5869b9bc6a3c3430@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20261206T093000
+DTEND;TZID=America/Los_Angeles:20261206T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c3eca7fb93ca1fdc@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20270125T093000
+DTEND;TZID=America/Los_Angeles:20270125T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da9fce24eb1b7dfd@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20270207T093000
+DTEND;TZID=America/Los_Angeles:20270207T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c2d829d96386af6c@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20270304T093000
+DTEND;TZID=America/Los_Angeles:20270304T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd7c509cfabd3847@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20270422T093000
+DTEND;TZID=America/Los_Angeles:20270422T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:737bb08e71761fe6@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20270502T093000
+DTEND;TZID=America/Los_Angeles:20270502T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -6472,6 +6636,46 @@ DESCRIPTION:Category: Events & Festivals\nCost: FREE viewing from any river
  10pm and Sunday December 20 2-4:30pm.
 LOCATION:Columbia and Willamette Rivers\, Portland\, OR
 URL:https://christmasships.org/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:02b21b02b35fab81@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20261018T100000
+DTEND;TZID=America/Los_Angeles:20261018T160000
+SUMMARY:West Coast Giant Pumpkin Regatta: Pumpkin Regatta Festival
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: Costumed racers
+  paddle giant pumpkin boats across the lake in races at noon and 2pm\, wit
+ h food\, entertainment\, pumpkin bowling\, and pumpkin golf through the da
+ y.\nAddress: Lake of the Commons\, 8325 SW Nyberg St\, Tualatin\, OR 97062
+ \nPhone: 503-691-3061\nWebsite: https://parks.tualatinoregon.gov/events/pu
+ mpkin-regatta/\nDetails: Held since 2004. The same weekend includes Pumpki
+ ns and Pints (a giant pumpkin weigh-off) and a 5K Regatta Run/Walk hosted 
+ by Tualatin Rotary.
+LOCATION:Lake of the Commons\, 8325 SW Nyberg St\, Tualatin\, OR 97062
+URL:https://parks.tualatinoregon.gov/events/pumpkin-regatta/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7f68061c611eed43@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20261204T160000
+DTEND;TZID=America/Los_Angeles:20261204T200000
+SUMMARY:Beaverton Winter Lights & Tree Lighting: Winter Lights & Tree Light
+ ing with BACC & Kids Winter Markets
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: The City's sign
+ ature winter event\, with the Beaverton Area Chamber of Commerce and Kids 
+ winter markets running alongside the tree lighting. A menorah lighting is 
+ listed separately with its date still to be announced.\nAddress: Beaverton
+  City Park\, 12375 SW 5th St\, Beaverton\, OR\nPhone: 503-526-2559\nWebsit
+ e: https://www.beavertonoregon.gov/events-0\nDetails: Added in the Septemb
+ er 2026 events sweep. Washington County's winter calendar was thin compare
+ d with Multnomah and Clackamas. Free admission comes from Portland Living 
+ on the Cheap\; the City's page lists the event without stating a price.
+LOCATION:Beaverton City Park\, 12375 SW 5th St\, Beaverton\, OR
+URL:https://www.beavertonoregon.gov/events-0
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT

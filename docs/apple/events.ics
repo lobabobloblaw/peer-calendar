@@ -539,6 +539,46 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:02b21b02b35fab81@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20261018T100000
+DTEND;TZID=America/Los_Angeles:20261018T160000
+SUMMARY:West Coast Giant Pumpkin Regatta: Pumpkin Regatta Festival
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: Costumed racers
+  paddle giant pumpkin boats across the lake in races at noon and 2pm\, wit
+ h food\, entertainment\, pumpkin bowling\, and pumpkin golf through the da
+ y.\nAddress: Lake of the Commons\, 8325 SW Nyberg St\, Tualatin\, OR 97062
+ \nPhone: 503-691-3061\nWebsite: https://parks.tualatinoregon.gov/events/pu
+ mpkin-regatta/\nDetails: Held since 2004. The same weekend includes Pumpki
+ ns and Pints (a giant pumpkin weigh-off) and a 5K Regatta Run/Walk hosted 
+ by Tualatin Rotary.
+LOCATION:Lake of the Commons\, 8325 SW Nyberg St\, Tualatin\, OR 97062
+URL:https://parks.tualatinoregon.gov/events/pumpkin-regatta/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7f68061c611eed43@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20261204T160000
+DTEND;TZID=America/Los_Angeles:20261204T200000
+SUMMARY:Beaverton Winter Lights & Tree Lighting: Winter Lights & Tree Light
+ ing with BACC & Kids Winter Markets
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: The City's sign
+ ature winter event\, with the Beaverton Area Chamber of Commerce and Kids 
+ winter markets running alongside the tree lighting. A menorah lighting is 
+ listed separately with its date still to be announced.\nAddress: Beaverton
+  City Park\, 12375 SW 5th St\, Beaverton\, OR\nPhone: 503-526-2559\nWebsit
+ e: https://www.beavertonoregon.gov/events-0\nDetails: Added in the Septemb
+ er 2026 events sweep. Washington County's winter calendar was thin compare
+ d with Multnomah and Clackamas. Free admission comes from Portland Living 
+ on the Cheap\; the City's page lists the event without stating a price.
+LOCATION:Beaverton City Park\, 12375 SW 5th St\, Beaverton\, OR
+URL:https://www.beavertonoregon.gov/events-0
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:edc64077dd8da10e@portlandresources.org
 DTSTAMP:20260910T000000Z
 DTSTART;VALUE=DATE:20270205

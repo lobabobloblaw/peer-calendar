@@ -44,22 +44,178 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:4d15400e41f273e0@portlandresources.org
-DTSTAMP:20260910T000000Z
-DTSTART;TZID=America/Los_Angeles:20260104T093000
-DTEND;TZID=America/Los_Angeles:20260104T173000
-SUMMARY:OMSI (Oregon Museum of Science and Industry): First Sunday
-DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: Discounted admission 
- day - only $5 per person for all exhibits. Planetarium shows\, submarine t
- ours\, and special exhibitions also $5 each. Purchase tickets online in ad
- vance to skip the line. Interactive science museum great for families and 
- curious minds.\nAddress: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 5
- 03-797-4000\nWebsite: https://omsi.edu/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> $5</p><p>Discounted admission day - only $5 per person for all exhibits. Planetarium shows, submarine tours, and special exhibitions also $5 each. Purchase tickets online in advance to skip the line. Interactive science museum great for families and curious minds.</p><p><strong>Address:</strong> 1945 SE Water Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-797-4000">503-797-4000</a></p><p><strong>Website:</strong> <a href="https://omsi.edu/">https://omsi.edu/</a></p></BODY></HTML>
+UID:f6905ce15884ab7c@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20260922T093000
+DTEND;TZID=America/Los_Angeles:20260922T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> $5</p><p>$5 admission for everyone, and $5 tickets for the Empirical Theater, Kendall Planetarium shows, USS Blueback submarine tours (ages 3+), and select special exhibitions. OMSI expects heavy traffic and recommends buying timed tickets online in advance. The days fall on Tuesdays, Thursdays, Sundays, and one Monday (January 25), so this is a dated list rather than a recurrence. OMSI is normally closed Mondays - check hours before going on January 25.</p><p><strong>Address:</strong> 1945 SE Water Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-797-4000">503-797-4000</a></p><p><strong>Website:</strong> <a href="https://omsi.edu/">https://omsi.edu/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:1945 SE Water Ave\, Portland\, OR 97214
 URL:https://omsi.edu/
-RRULE:FREQ=MONTHLY;BYDAY=1SU
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6ac64462ffd136ed@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20261101T093000
+DTEND;TZID=America/Los_Angeles:20261101T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> $5</p><p>$5 admission for everyone, and $5 tickets for the Empirical Theater, Kendall Planetarium shows, USS Blueback submarine tours (ages 3+), and select special exhibitions. OMSI expects heavy traffic and recommends buying timed tickets online in advance. The days fall on Tuesdays, Thursdays, Sundays, and one Monday (January 25), so this is a dated list rather than a recurrence. OMSI is normally closed Mondays - check hours before going on January 25.</p><p><strong>Address:</strong> 1945 SE Water Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-797-4000">503-797-4000</a></p><p><strong>Website:</strong> <a href="https://omsi.edu/">https://omsi.edu/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5869b9bc6a3c3430@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20261206T093000
+DTEND;TZID=America/Los_Angeles:20261206T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> $5</p><p>$5 admission for everyone, and $5 tickets for the Empirical Theater, Kendall Planetarium shows, USS Blueback submarine tours (ages 3+), and select special exhibitions. OMSI expects heavy traffic and recommends buying timed tickets online in advance. The days fall on Tuesdays, Thursdays, Sundays, and one Monday (January 25), so this is a dated list rather than a recurrence. OMSI is normally closed Mondays - check hours before going on January 25.</p><p><strong>Address:</strong> 1945 SE Water Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-797-4000">503-797-4000</a></p><p><strong>Website:</strong> <a href="https://omsi.edu/">https://omsi.edu/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c3eca7fb93ca1fdc@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20270125T093000
+DTEND;TZID=America/Los_Angeles:20270125T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> $5</p><p>$5 admission for everyone, and $5 tickets for the Empirical Theater, Kendall Planetarium shows, USS Blueback submarine tours (ages 3+), and select special exhibitions. OMSI expects heavy traffic and recommends buying timed tickets online in advance. The days fall on Tuesdays, Thursdays, Sundays, and one Monday (January 25), so this is a dated list rather than a recurrence. OMSI is normally closed Mondays - check hours before going on January 25.</p><p><strong>Address:</strong> 1945 SE Water Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-797-4000">503-797-4000</a></p><p><strong>Website:</strong> <a href="https://omsi.edu/">https://omsi.edu/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da9fce24eb1b7dfd@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20270207T093000
+DTEND;TZID=America/Los_Angeles:20270207T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> $5</p><p>$5 admission for everyone, and $5 tickets for the Empirical Theater, Kendall Planetarium shows, USS Blueback submarine tours (ages 3+), and select special exhibitions. OMSI expects heavy traffic and recommends buying timed tickets online in advance. The days fall on Tuesdays, Thursdays, Sundays, and one Monday (January 25), so this is a dated list rather than a recurrence. OMSI is normally closed Mondays - check hours before going on January 25.</p><p><strong>Address:</strong> 1945 SE Water Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-797-4000">503-797-4000</a></p><p><strong>Website:</strong> <a href="https://omsi.edu/">https://omsi.edu/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c2d829d96386af6c@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20270304T093000
+DTEND;TZID=America/Los_Angeles:20270304T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> $5</p><p>$5 admission for everyone, and $5 tickets for the Empirical Theater, Kendall Planetarium shows, USS Blueback submarine tours (ages 3+), and select special exhibitions. OMSI expects heavy traffic and recommends buying timed tickets online in advance. The days fall on Tuesdays, Thursdays, Sundays, and one Monday (January 25), so this is a dated list rather than a recurrence. OMSI is normally closed Mondays - check hours before going on January 25.</p><p><strong>Address:</strong> 1945 SE Water Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-797-4000">503-797-4000</a></p><p><strong>Website:</strong> <a href="https://omsi.edu/">https://omsi.edu/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd7c509cfabd3847@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20270422T093000
+DTEND;TZID=America/Los_Angeles:20270422T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> $5</p><p>$5 admission for everyone, and $5 tickets for the Empirical Theater, Kendall Planetarium shows, USS Blueback submarine tours (ages 3+), and select special exhibitions. OMSI expects heavy traffic and recommends buying timed tickets online in advance. The days fall on Tuesdays, Thursdays, Sundays, and one Monday (January 25), so this is a dated list rather than a recurrence. OMSI is normally closed Mondays - check hours before going on January 25.</p><p><strong>Address:</strong> 1945 SE Water Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-797-4000">503-797-4000</a></p><p><strong>Website:</strong> <a href="https://omsi.edu/">https://omsi.edu/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:737bb08e71761fe6@portlandresources.org
+DTSTAMP:20260916T000000Z
+DTSTART;TZID=America/Los_Angeles:20270502T093000
+DTEND;TZID=America/Los_Angeles:20270502T173000
+SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
+DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
+ yone\, and $5 tickets for the Empirical Theater\, Kendall Planetarium show
+ s\, USS Blueback submarine tours (ages 3+)\, and select special exhibition
+ s. OMSI expects heavy traffic and recommends buying timed tickets online i
+ n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
+ y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
+  normally closed Mondays - check hours before going on January 25.\nAddres
+ s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
+ https://omsi.edu/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Arts &amp; Culture</p><p><strong>Cost:</strong> $5</p><p>$5 admission for everyone, and $5 tickets for the Empirical Theater, Kendall Planetarium shows, USS Blueback submarine tours (ages 3+), and select special exhibitions. OMSI expects heavy traffic and recommends buying timed tickets online in advance. The days fall on Tuesdays, Thursdays, Sundays, and one Monday (January 25), so this is a dated list rather than a recurrence. OMSI is normally closed Mondays - check hours before going on January 25.</p><p><strong>Address:</strong> 1945 SE Water Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-797-4000">503-797-4000</a></p><p><strong>Website:</strong> <a href="https://omsi.edu/">https://omsi.edu/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:1945 SE Water Ave\, Portland\, OR 97214
+URL:https://omsi.edu/
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
