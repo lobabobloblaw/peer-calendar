@@ -6254,24 +6254,6 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:71e919571174ce47@portlandresources.org
-DTSTAMP:20260813T000000Z
-DTSTART;TZID=America/Los_Angeles:20260402T170000
-DTEND;TZID=America/Los_Angeles:20260402T210000
-SUMMARY:First Thursday Art Walk
-DESCRIPTION:Category: Events & Festivals\nCost: FREE (suggested $2 donation
- )\nAddress: Pearl District\, Portland\nWebsite: https://urbanartnetwork.or
- g/events/first-thursday-street-gallery\nDetails: Indoor gallery openings h
- appen year-round\; the outdoor Street Gallery runs April-October on NW 13t
- h Avenue. Calendar entries reflect the April-October Street Gallery season
- \; year-round indoor gallery openings continue every first Thursday.
-LOCATION:Pearl District\, Portland
-URL:https://urbanartnetwork.org/events/first-thursday-street-gallery
-RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20261002T065959Z
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:bd517104cb00543c@portlandresources.org
 DTSTAMP:20260501T000000Z
 DTSTART;TZID=America/Los_Angeles:20260129T180000
@@ -7167,22 +7149,6 @@ DESCRIPTION:Category: Food & Farms\nCost: FREE to attend\nNote: Participate
 LOCATION:SE Main St & Harrison St\, Milwaukie\, OR 97222
 URL:https://milwaukiefarmersmarket.com/
 RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20261101T065959Z
-CATEGORIES:Food & Farms
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:435f2bc1450ffc3a@portlandresources.org
-DTSTAMP:20260303T000000Z
-DTSTART;TZID=America/Los_Angeles:20260604T150000
-DTEND;TZID=America/Los_Angeles:20260604T190000
-SUMMARY:Rockwood Community Market
-DESCRIPTION:Category: Food & Farms\nCost: FREE to attend\nAddress: Downtown
-  Rockwood Plaza\, 458 SE 185th Ave\, Gresham\, OR\nWebsite: https://rockwo
- odcommunitymarket.com\nDetails: June-September season. Evening market serv
- ing the diverse Rockwood community.
-LOCATION:Downtown Rockwood Plaza\, 458 SE 185th Ave\, Gresham\, OR
-URL:https://rockwoodcommunitymarket.com
-RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20261001T065959Z
 CATEGORIES:Food & Farms
 TRANSP:TRANSPARENT
 END:VEVENT

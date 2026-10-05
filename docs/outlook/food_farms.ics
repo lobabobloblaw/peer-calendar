@@ -182,24 +182,6 @@ CATEGORIES:Food & Farms
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:435f2bc1450ffc3a@portlandresources.org
-DTSTAMP:20260303T000000Z
-DTSTART;TZID=America/Los_Angeles:20260604T150000
-DTEND;TZID=America/Los_Angeles:20260604T190000
-SUMMARY:Rockwood Community Market
-DESCRIPTION:Category: Food & Farms\nCost: FREE to attend\nAddress: Downtown
-  Rockwood Plaza\, 458 SE 185th Ave\, Gresham\, OR\nWebsite: https://rockwo
- odcommunitymarket.com\nDetails: June-September season. Evening market serv
- ing the diverse Rockwood community.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE to attend</p><p><strong>Address:</strong> Downtown Rockwood Plaza, 458 SE 185th Ave, Gresham, OR</p><p><strong>Website:</strong> <a href="https://rockwoodcommunitymarket.com">https://rockwoodcommunitymarket.com</a></p><p><strong>Details:</strong> June-September season. Evening market serving the diverse Rockwood community.</p></BODY></HTML>
-X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Downtown Rockwood Plaza\, 458 SE 185th Ave\, Gresham\, OR
-URL:https://rockwoodcommunitymarket.com
-RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20261001T065959Z
-CATEGORIES:Food & Farms
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:6e4cfdfcf86d5067@portlandresources.org
 DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260502T093000

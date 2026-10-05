@@ -12532,20 +12532,7 @@
       "schedule": "First Thursday monthly, 5-9pm (April-October)",
       "schedule_start_date": "2026-04-02",
       "schedule_end_date": "2026-10-01",
-      "resolved_schedule": {
-        "type": "recurring",
-        "frequency": "weekly",
-        "interval": 1,
-        "weekdays": [
-          "TH"
-        ],
-        "month_weeks": [],
-        "anchor_date": "2026-04-02",
-        "until_date": "2026-10-01",
-        "start_time": "17:00",
-        "end_time": "21:00",
-        "end_day_offset": 0
-      },
+      "resolved_schedule": null,
       "flags": [],
       "last_verified": "2026-08-13",
       "accessibility": [
@@ -17196,20 +17183,7 @@
       "schedule": "Thursdays 3-7pm",
       "schedule_start_date": "2026-06-04",
       "schedule_end_date": "2026-09-30",
-      "resolved_schedule": {
-        "type": "recurring",
-        "frequency": "weekly",
-        "interval": 1,
-        "weekdays": [
-          "TH"
-        ],
-        "month_weeks": [],
-        "anchor_date": "2026-06-04",
-        "until_date": "2026-09-30",
-        "start_time": "15:00",
-        "end_time": "19:00",
-        "end_day_offset": 0
-      },
+      "resolved_schedule": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
