@@ -203,7 +203,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1cc8d79374188c66@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260108T120000
 DTEND;TZID=America/Los_Angeles:20260109T000000
 SUMMARY:Ground Kontrol Classic Arcade: Free Play (2nd Thursday)
@@ -219,7 +219,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:59746f5642178898@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260128T120000
 DTEND;TZID=America/Los_Angeles:20260129T000000
 SUMMARY:Ground Kontrol Classic Arcade: Free Play (Last Wednesday)
@@ -416,36 +416,33 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:d8fc3329cc6894ad@portlandresources.org
+UID:b4963df932d826eb@portlandresources.org
 DTSTAMP:20260213T000000Z
-DTSTART;TZID=America/Los_Angeles:20260104T123000
-DTEND;TZID=America/Los_Angeles:20260104T153000
-SUMMARY:Turn! Turn! Turn!: Drawing Club
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Casual drawing get-
- together - bring your own supplies or just hang out. All skill levels welc
- ome. Women-owned community arts venue doubling as bar\, record store\, and
-  vintage shop.\nAddress: 8 NE Killingsworth St\, Portland\, OR 97211\nPhon
- e: 503-284-6019\nWebsite: https://turnturnturnpdx.com/
+DTSTART;TZID=America/Los_Angeles:20260105T140000
+DTEND;TZID=America/Los_Angeles:20260105T160000
+SUMMARY:Turn! Turn! Turn!: Magic Luscious Spirit Sounds
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Cross-abilities mus
+ ic collective jam\, open to all. All ages (daytime).\nAddress: 8 NE Killin
+ gsworth St\, Portland\, OR 97211\nPhone: 503-284-6019\nWebsite: https://tu
+ rnturnturnpdx.com/
 LOCATION:8 NE Killingsworth St\, Portland\, OR 97211
 URL:https://turnturnturnpdx.com/
-RRULE:FREQ=WEEKLY;BYDAY=SU
+RRULE:FREQ=MONTHLY;BYDAY=1MO,3MO
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:d9e5489d6044ef66@portlandresources.org
+UID:7e3bbed5538c503e@portlandresources.org
 DTSTAMP:20260213T000000Z
-DTSTART;TZID=America/Los_Angeles:20260112T200000
-DTEND;TZID=America/Los_Angeles:20260112T230000
-SUMMARY:Turn! Turn! Turn!: Karaoke Night
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: K-Tel and Larry-oke
- e supportive karaoke night. Low-pressure\, encouraging atmosphere for sing
- ers of all abilities. 21+ after 8pm. Cash only at door\, all payments at b
- ar.\nAddress: 8 NE Killingsworth St\, Portland\, OR 97211\nPhone: 503-284-
- 6019\nWebsite: https://turnturnturnpdx.com/
+DTSTART;TZID=America/Los_Angeles:20260108T163000
+DTEND;TZID=America/Los_Angeles:20260108T190000
+SUMMARY:Turn! Turn! Turn!: T34 Jazz Happy Hour
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: The venue's house j
+ azz quartet.\nAddress: 8 NE Killingsworth St\, Portland\, OR 97211\nPhone:
+  503-284-6019\nWebsite: https://turnturnturnpdx.com/
 LOCATION:8 NE Killingsworth St\, Portland\, OR 97211
 URL:https://turnturnturnpdx.com/
-RRULE:FREQ=MONTHLY;BYDAY=2MO,4MO
+RRULE:FREQ=MONTHLY;BYDAY=2TH,4TH
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1395,16 +1392,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb2584d8ad685306@portlandresources.org
-DTSTAMP:20260304T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T130000
 DTEND;TZID=America/Los_Angeles:20260104T150000
 SUMMARY:Community Jams: EZ-Lead Slow Jam (Blues\, Folk\, Americana)
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
- lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
- nprofit connecting musicians of all abilities through free studio jams. Gr
- ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
- 8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
- s are especially welcoming for beginners.
+DESCRIPTION:Category: Arts & Culture\nCost: FREE to attend\; $20 suggested 
+ donation (PayPal/Venmo)\nAddress: 2365 SW Cedar Hills Blvd\, Beaverton\, O
+ R\nWebsite: https://communityjams.org\nDetails: Nonprofit connecting music
+ ians of all abilities through free studio jams. Grew from Portland Casual 
+ Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.8 rating). 5-6 free jam 
+ sessions weekly. Tuesday and Saturday newcomer jams are especially welcomi
+ ng for beginners.
 LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
 URL:https://communityjams.org
 RRULE:FREQ=WEEKLY;BYDAY=SU
@@ -1413,16 +1411,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:352aca1aa2ae288f@portlandresources.org
-DTSTAMP:20260304T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T180000
 DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:Community Jams: CJ Anything Goes Jam
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
- lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
- nprofit connecting musicians of all abilities through free studio jams. Gr
- ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
- 8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
- s are especially welcoming for beginners.
+DESCRIPTION:Category: Arts & Culture\nCost: FREE to attend\; $20 suggested 
+ donation (PayPal/Venmo)\nAddress: 2365 SW Cedar Hills Blvd\, Beaverton\, O
+ R\nWebsite: https://communityjams.org\nDetails: Nonprofit connecting music
+ ians of all abilities through free studio jams. Grew from Portland Casual 
+ Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.8 rating). 5-6 free jam 
+ sessions weekly. Tuesday and Saturday newcomer jams are especially welcomi
+ ng for beginners.
 LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
 URL:https://communityjams.org
 RRULE:FREQ=WEEKLY;BYDAY=MO
@@ -1431,16 +1430,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:36b525d206d3d5af@portlandresources.org
-DTSTAMP:20260304T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T200000
 DTEND;TZID=America/Los_Angeles:20260105T220000
 SUMMARY:Community Jams: CJ Improv Jam
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
- lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
- nprofit connecting musicians of all abilities through free studio jams. Gr
- ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
- 8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
- s are especially welcoming for beginners.
+DESCRIPTION:Category: Arts & Culture\nCost: FREE to attend\; $20 suggested 
+ donation (PayPal/Venmo)\nAddress: 2365 SW Cedar Hills Blvd\, Beaverton\, O
+ R\nWebsite: https://communityjams.org\nDetails: Nonprofit connecting music
+ ians of all abilities through free studio jams. Grew from Portland Casual 
+ Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.8 rating). 5-6 free jam 
+ sessions weekly. Tuesday and Saturday newcomer jams are especially welcomi
+ ng for beginners.
 LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
 URL:https://communityjams.org
 RRULE:FREQ=WEEKLY;BYDAY=MO
@@ -1449,17 +1449,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:83b0bc41193a745a@portlandresources.org
-DTSTAMP:20260304T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T213000
 SUMMARY:Community Jams: CJ Newcomers and Explorers Jam
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Best for first-time
- rs. Welcoming environment for all skill levels.\nAddress: 2365 SW Cedar Hi
- lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
- nprofit connecting musicians of all abilities through free studio jams. Gr
- ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
- 8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
- s are especially welcoming for beginners.
+DESCRIPTION:Category: Arts & Culture\nCost: FREE to attend\; $20 suggested 
+ donation (PayPal/Venmo)\nInfo: Best for first-timers. Welcoming environmen
+ t for all skill levels.\nAddress: 2365 SW Cedar Hills Blvd\, Beaverton\, O
+ R\nWebsite: https://communityjams.org\nDetails: Nonprofit connecting music
+ ians of all abilities through free studio jams. Grew from Portland Casual 
+ Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.8 rating). 5-6 free jam 
+ sessions weekly. Tuesday and Saturday newcomer jams are especially welcomi
+ ng for beginners.
 LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
 URL:https://communityjams.org
 RRULE:FREQ=WEEKLY;BYDAY=TU
@@ -1468,16 +1469,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a756560fd263fb59@portlandresources.org
-DTSTAMP:20260304T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
-DTEND;TZID=America/Los_Angeles:20260101T200000
+DTEND;TZID=America/Los_Angeles:20260101T213000
 SUMMARY:Community Jams: Themed Jam (varies weekly)
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
- lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
- nprofit connecting musicians of all abilities through free studio jams. Gr
- ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
- 8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
- s are especially welcoming for beginners.
+DESCRIPTION:Category: Arts & Culture\nCost: FREE to attend\; $20 suggested 
+ donation (PayPal/Venmo)\nAddress: 2365 SW Cedar Hills Blvd\, Beaverton\, O
+ R\nWebsite: https://communityjams.org\nDetails: Nonprofit connecting music
+ ians of all abilities through free studio jams. Grew from Portland Casual 
+ Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.8 rating). 5-6 free jam 
+ sessions weekly. Tuesday and Saturday newcomer jams are especially welcomi
+ ng for beginners.
 LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
 URL:https://communityjams.org
 RRULE:FREQ=WEEKLY;BYDAY=TH
@@ -1486,16 +1488,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0f4493dcc6b71ae5@portlandresources.org
-DTSTAMP:20260304T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T130000
-DTEND;TZID=America/Los_Angeles:20260103T150000
+DTEND;TZID=America/Los_Angeles:20260103T160000
 SUMMARY:Community Jams: CJ Newcomers and Explorers Jam (Saturday)
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 2365 SW Cedar Hi
- lls Blvd\, Beaverton\, OR\nWebsite: https://communityjams.org\nDetails: No
- nprofit connecting musicians of all abilities through free studio jams. Gr
- ew from Portland Casual Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.
- 8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jam
- s are especially welcoming for beginners.
+DESCRIPTION:Category: Arts & Culture\nCost: FREE to attend\; $20 suggested 
+ donation (PayPal/Venmo)\nAddress: 2365 SW Cedar Hills Blvd\, Beaverton\, O
+ R\nWebsite: https://communityjams.org\nDetails: Nonprofit connecting music
+ ians of all abilities through free studio jams. Grew from Portland Casual 
+ Jams Meetup (5\,000+ members\, 4\,300+ events\, 4.8 rating). 5-6 free jam 
+ sessions weekly. Tuesday and Saturday newcomer jams are especially welcomi
+ ng for beginners.
 LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
 URL:https://communityjams.org
 RRULE:FREQ=WEEKLY;BYDAY=SA
@@ -1504,17 +1507,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aa470ea8adfb8f4f@portlandresources.org
-DTSTAMP:20260304T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T163000
 DTEND;TZID=America/Los_Angeles:20260103T173000
 SUMMARY:Community Jams: Build a Song Workshop
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Check Meetup calend
- ar for dates.\nAddress: 2365 SW Cedar Hills Blvd\, Beaverton\, OR\nWebsite
- : https://communityjams.org\nDetails: Nonprofit connecting musicians of al
- l abilities through free studio jams. Grew from Portland Casual Jams Meetu
- p (5\,000+ members\, 4\,300+ events\, 4.8 rating). 5-6 free jam sessions w
- eekly. Tuesday and Saturday newcomer jams are especially welcoming for beg
- inners.
+DESCRIPTION:Category: Arts & Culture\nCost: FREE to attend\; $20 suggested 
+ donation (PayPal/Venmo)\nInfo: Check Meetup calendar for dates.\nAddress: 
+ 2365 SW Cedar Hills Blvd\, Beaverton\, OR\nWebsite: https://communityjams.
+ org\nDetails: Nonprofit connecting musicians of all abilities through free
+  studio jams. Grew from Portland Casual Jams Meetup (5\,000+ members\, 4\,
+ 300+ events\, 4.8 rating). 5-6 free jam sessions weekly. Tuesday and Satur
+ day newcomer jams are especially welcoming for beginners.
 LOCATION:2365 SW Cedar Hills Blvd\, Beaverton\, OR
 URL:https://communityjams.org
 RRULE:FREQ=WEEKLY;BYDAY=SA
@@ -1859,7 +1862,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f2e9003f4d3b33c0@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260711T160000
 DTEND;TZID=America/Los_Angeles:20260711T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Sid Murrell
@@ -1876,7 +1879,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:55dc8bc60e8f1fee@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260718T160000
 DTEND;TZID=America/Los_Angeles:20260718T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Taste of Ja
@@ -1894,7 +1897,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3844d73ec9a708bc@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260725T160000
 DTEND;TZID=America/Los_Angeles:20260725T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Rose Gerber
@@ -1911,7 +1914,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ec59b1ef17cbdc6e@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260801T160000
 DTEND;TZID=America/Los_Angeles:20260801T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Lee Walker
@@ -1928,7 +1931,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1550b3336fb7befe@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T160000
 DTEND;TZID=America/Los_Angeles:20260808T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Flat Pocket
@@ -1946,7 +1949,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:09851041642d424c@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260815T160000
 DTEND;TZID=America/Los_Angeles:20260815T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Bigger Nova
@@ -1963,7 +1966,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0be939e3e89dc392@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260822T160000
 DTEND;TZID=America/Los_Angeles:20260822T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Sid Murrell
@@ -1980,7 +1983,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:87d3115c50d5eb22@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260829T160000
 DTEND;TZID=America/Los_Angeles:20260829T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Taste of Ja

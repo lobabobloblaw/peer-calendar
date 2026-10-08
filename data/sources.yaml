@@ -642,7 +642,9 @@
     location: Washington County
     cost: FREE to apply
     notes: Administered by Community Action of Washington County, which is already in this
-      database as community-action-washington-county.
+      database as community-action-washington-county. After a fall backlog pause (August 29 -
+      September 30), applications reopened October 1 for seniors 62+ and people with disabilities;
+      call 503-615-0771 for a paper application.
   - name: Clackamas County energy assistance
     location: Clackamas County
     cost: FREE to apply
@@ -741,8 +743,8 @@
   eligibility: Portland-area residents 16+ receiving SNAP, OHP, TANF, affordable housing assistance, LIHEAP, unemployment
     insurance, Pell Grant, or TriMet Honored Citizens with qualifying incomes
   hours: 'In-person help at Portland Building: Mon-Fri 8am-5pm. Lyft office (Central Eastside): Mon-Thu 9am-4pm'
-  last_verified: 2026-03-25
-  next_audit: 2026-09-25
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Apply online at biketownpdx.com with a credit/debit/prepaid card and proof of qualifying benefits. Or visit
@@ -943,8 +945,8 @@
     description: Affordable used bikes, parts, and repair services. DIY workspace membership available.
     notes: Revenue supports free community bike programs across Portland.
   hours: Wed-Sat 11am-6pm, Sun 12pm-5pm
-  last_verified: 2026-03-25
-  next_audit: 2026-09-25
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   services:
   - Affordable refurbished bikes for sale
@@ -1020,10 +1022,10 @@
     audience:
     - lgbtq
     notes: A 30-minute community arts and crafts session runs beforehand, starting at 12:30pm.
-  - name: Young Adult (18-35) Online
-    schedule: 2nd & 4th Wednesdays, 7-8:30pm
+  - name: Young Adult (18-30) Online
+    schedule: 1st & 3rd Wednesdays, 6-7:30pm
     format: Zoom
-    eligibility: Ages 18-35 with mental health symptoms
+    eligibility: Ages 18-30 with mental health symptoms
     audience:
     - young_adults
   - name: Young Adult (18-35) In-Person
@@ -1043,8 +1045,8 @@
     schedule: Every Tuesday, 7-8:30pm
     format: Zoom
     eligibility: Those experiencing complex trauma and/or dissociation
-  last_verified: 2026-09-10
-  next_audit: 2026-10-10
+  last_verified: 2026-10-08
+  next_audit: 2026-11-08
   audit_frequency: monthly
   practical_tips:
     first_visit: Just show up to any meeting - no pre-registration needed for most groups
@@ -1148,8 +1150,8 @@
     location: NAMI Clackamas office (10202 SE 32nd Ave, Suite 501, Milwaukie)
     notes: Affiliated grief support group. No registration required. The public schedule lists a 7pm start but no end time;
       the one-hour calendar block is a start-time reminder.
-  last_verified: 2026-08-13
-  next_audit: 2026-09-13
+  last_verified: 2026-10-08
+  next_audit: 2026-11-08
   audit_frequency: monthly
   practical_tips:
     first_visit: Call or email to register for your first meeting
@@ -1391,7 +1393,8 @@
   notes: Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime
     in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up — ColorFlow moved
     from Wednesdays to Tuesdays, Cultivate & Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea
-    Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026.
+    Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026. Clinic
+    front office 503-722-6200 (leave a message); 24/7 Clackamas County Support & Crisis Line 503-655-8585.
   flags:
   - 📅 DATE-SENSITIVE
   latitude: 45.46134
@@ -1430,8 +1433,8 @@
   - Nutrition & food prep
   - Social activities
   - Individual goal setting
-  last_verified: 2026-09-10
-  next_audit: 2026-10-10
+  last_verified: 2026-10-08
+  next_audit: 2026-11-08
   audit_frequency: monthly
   practical_tips:
     first_visit: Orientations are every other Wednesday at 3pm (in-person and on Zoom). Referral from a mental health professional
@@ -1533,8 +1536,8 @@
   bridge_housing:
     beds: 19
     stay_length: 90 days average
-  last_verified: 2026-09-10
-  next_audit: 2026-10-10
+  last_verified: 2026-10-08
+  next_audit: 2026-11-08
   audit_frequency: monthly
   practical_tips:
     first_visit: Get a ticket from the outreach van at NW Broadway & Glisan (6am-2pm) to access day center
@@ -1593,8 +1596,8 @@
     notes: For mental healthcare professionals or trainees. The official page publishes a 10am start but no end time.
   eligibility: Open to all adults with any mental health condition (depression, bipolar, anxiety, PTSD, ADHD, etc.)
   member_liaison: dbsaportlandmemberliaison@gmail.com
-  last_verified: 2026-08-13
-  next_audit: 2026-09-13
+  last_verified: 2026-10-08
+  next_audit: 2026-11-08
   audit_frequency: monthly
   practical_tips:
     first_visit: Use the listed email or Meetup group to obtain Zoom details before attending.
@@ -2985,8 +2988,8 @@
     attendees. Lloyd Center closed permanently on August 8, 2026; the last regular Sunday walk inside the mall was August 2 and
     the farewell walk was Saturday August 8. The group now walks at rotating pop-up locations around Portland (some outdoors,
     some indoors) and has said a permanent home is in the works, but none was announced as of September 10, 2026.'
-  last_verified: 2026-09-10
-  next_audit: 2026-10-10
+  last_verified: 2026-10-08
+  next_audit: 2026-11-08
   audit_frequency: monthly
   guide_location: activities-guide-2.md#mall-walking-programs
 - id: neighborwalks
@@ -3039,9 +3042,9 @@
     description: FREE
   programs:
   - name: Mellow Mondays
-    schedule: Every Monday
-    location: Irving Park
-    notes: Casual social ride, welcoming to newcomers
+    schedule: Every Monday 7pm
+    location: Abernethy Elementary School, Ladd's Addition (SE Portland)
+    notes: Casual, no-drop, beginner- and family-friendly loop of about 8-12 miles at a relaxed pace; leaves around 7:30pm.
   - name: Foster Night Ride
     schedule: Every other Tuesday 7pm
     schedule_start_date: 2026-08-04
@@ -3050,14 +3053,15 @@
       (event 23246).
   - name: Friday Night Ride
     schedule: Every Friday (check shift2bikes.org/calendar for meeting point)
+    notes: 21+; meet about 7pm, ride about 8pm; sporty pace, 15-25 miles, not necessarily no-drop.
   - name: Midnight Mystery Ride
     schedule: 2nd Friday of each month
     notes: Meet ~11pm, depart at midnight to a secret location. Meeting point kept secret until day of event.
   - name: Bike Summer (Pedalpalooza)
     schedule: June-August
     notes: Hundreds of free community rides
-  last_verified: 2026-07-28
-  next_audit: 2026-08-28
+  last_verified: 2026-10-08
+  next_audit: 2026-11-08
   audit_frequency: monthly
   practical_tips:
     first_visit: Check shift2bikes.org/calendar for current rides. Most list meeting location, time, and pace.
@@ -3833,13 +3837,15 @@
   location_type: physical
   resource_type: program
   phone: 503-645-6433
-  website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+  website: https://www.thprd.org/fitness-in-the-park
   source_urls:
-  - https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+  - https://www.thprd.org/fitness-in-the-park
+  - https://www.thprd.org/portal/pdfs/activityguide/Fall2026/files/basic-html/page136.html
   pricing:
     description: FREE
-  season: Year-round; session schedules change each term. Summer 2026 runs June 15 - August 23, with no classes on June 19,
-    July 3 or July 4.
+  season: Year-round; session schedules change each term. Fall 2026 runs September 14 - December 13 (free, no registration).
+    Fall classes also meet at partner sites (Holly Tree, The Barcelona, The Opal) - call 503-629-6330 to confirm those are
+    open to the public before attending.
   programs:
   - id: total-body-circuit-monday-virginia-garcia
     name: Total Body Circuit
@@ -3931,6 +3937,11 @@
     - August 22, 2026
     schedule: 9am
     location: Hyland Woods Natural Area
+  - name: Tai Chi at Greenway Park
+    schedule: Saturdays 10am
+    location: Greenway Park covered area, SW Greenway & SW Parkview Loop, Beaverton, OR
+    schedule_start_date: 2026-09-14
+    schedule_end_date: 2026-12-13
   - name: Tai Chi at Melilah Park
     schedule: Sundays 10am
     location: Melilah Park
@@ -3984,8 +3995,8 @@
   eligibility: All ages (varies by class)
   flags:
   - 📅 DATE-SENSITIVE
-  last_verified: 2026-08-13
-  next_audit: 2026-08-24
+  last_verified: 2026-10-08
+  next_audit: 2026-11-08
   audit_frequency: monthly
   practical_tips:
     first_visit: Classes are drop-in, no registration needed
@@ -4008,16 +4019,17 @@
   category: fitness_wellness
   location_type: varies
   resource_type: program
-  address: Various parks - Whitaker Ponds, Smith & Bybee Wetlands, etc.
+  address: Various parks - Whitaker Ponds, Cooper Mountain Nature Park, etc.
   phone: null
-  website: https://www.meetup.com/portland-bird-watching-meetup-group/
+  website: https://www.birdingforthepeople.org/
   source_urls:
-  - https://www.meetup.com/portland-bird-watching-meetup-group/
+  - https://www.birdingforthepeople.org/
+  - https://www.meetup.com/birdingforthepeople/
   pricing:
     description: FREE
   schedule: Multiple walks per week (check Meetup for dates)
-  last_verified: 2026-04-15
-  next_audit: 2026-07-15
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips: Inclusive, beginner-friendly birding walks. Relaxed pace focused on learning together. No experience or
     gear required - free loaner binoculars available. Great gentle outdoor activity for mental wellness.
@@ -4045,8 +4057,8 @@
   pricing:
     description: FREE
   schedule: Every Saturday 9:30am-noon (10am-noon in winter months)
-  last_verified: 2026-04-15
-  next_audit: 2026-07-15
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips: Meditative, slow-paced bird walks (1-2 miles) on paved and dirt paths. No RSVP required. Extra binoculars
     available. Designed to be calming and accessible.
@@ -4087,8 +4099,8 @@
   - name: Wednesday Morning Online Practice
     schedule: Wednesdays 9:30-10:30am
     notes: Nectar of the Path practice sessions via Zoom.
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips: Free meditation practice in Hollywood District. Welcoming to beginners and experienced practitioners. Social
     time with tea and snacks after sitting. No registration needed.
@@ -4510,7 +4522,7 @@
     regular: FREE admission (pay per game)
     free_play_all_ages: $6 (noon-5pm)
     free_play_21_plus: $12 (after 5pm)
-    weekend_cover: Cover charge during peak weekend hours
+    weekend_cover: $4 cover after 7pm Friday-Saturday (no cover Sunday-Thursday; Free Play nights excepted)
   hours: Daily noon-midnight (all ages until 5pm, 21+ after)
   programs:
   - name: Free Play (2nd Thursday)
@@ -4533,12 +4545,8 @@
   - isolation
   - indoor
   notes: Since 1999. Games from Golden Age of Video Arcade.
-  flags:
-  - ⚠️ VERIFY - A 2026 listing describes Free Play as a $5 cover with doors at 5pm and all-ages admission only Friday-Sunday
-    noon-5pm, which conflicts with the stored $6 all-ages / $12 21+ all-day pricing. Check groundkontrol.com/events before
-    quoting prices.
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   guide_location: activities-guide-1.md#gaming-and-social-activities
   latitude: 45.524053
@@ -5213,21 +5221,24 @@
     cost: FREE
     notes: Happy hour comedy open mic hosted by Logan Loughmiller. Low-pressure environment for performers and audience. Women-owned
       community venue since 2014.
-  - name: Drawing Club
-    schedule: Sundays 12:30-3:30pm
+  - name: Magic Luscious Spirit Sounds
+    schedule: 1st & 3rd Mondays 2-4pm
     cost: FREE
-    notes: Casual drawing get-together - bring your own supplies or just hang out. All skill levels welcome. Women-owned community
-      arts venue doubling as bar, record store, and vintage shop.
+    notes: Cross-abilities music collective jam, open to all. All ages (daytime).
+  - name: T34 Jazz Happy Hour
+    schedule: 2nd & 4th Thursdays 4:30-7pm
+    cost: FREE
+    notes: The venue's house jazz quartet.
   - name: Karaoke Night
-    schedule: 2nd & 4th Mondays 8-11pm
     cost: FREE
-    notes: K-Tel and Larry-okee supportive karaoke night. Low-pressure, encouraging atmosphere for singers of all abilities.
-      21+ after 8pm. Cash only at door, all payments at bar.
+    notes: Monthly karaoke on a rotating Monday, 8-11pm, with K-Tel and Larry-okee. Date varies - check turnturnturnpdx.com
+      or call 503-284-6019. Low-pressure, encouraging atmosphere. 21+ after 8pm. Cash only.
   last_verified: 2026-02-13
   next_audit: 2026-05-13
   audit_frequency: quarterly
-  practical_tips: Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Drawing Club (Sun 12:30-3:30pm),
-    and karaoke (2nd & 4th Mon 8-11pm). All ages welcome for most daytime events. Casual atmosphere good for meeting people.
+  practical_tips: Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Magic Luscious Spirit Sounds jam
+    (1st & 3rd Mon 2-4pm), jazz happy hour (2nd & 4th Thu 4:30-7pm), and monthly Monday karaoke. Daytime events are all ages;
+    21+ after 8pm. Casual atmosphere good for meeting people.
   accessibility:
   - transit_nearby
   social_intensity: casual_group
@@ -5236,6 +5247,9 @@
   - indoor
   - isolation
   guide_location: activities-guide-1.md#entertainment
+  flags:
+  - ⚠️ VERIFY - New owners took over in spring 2026 and plan new programming; the entertainment page could not be dated
+    and opening hours are unconfirmed (only third-party listings). Call 503-284-6019.
   latitude: 45.562598
   longitude: -122.666744
 - id: laurelthirst-pub
@@ -5800,7 +5814,7 @@
   - https://www.mhcc.edu/visualartsgallery/
   pricing:
     description: FREE admission
-  hours: Mon-Fri 10am-4pm; weekends by appointment (call 503-491-7309 ext 5)
+  hours: Mon-Thu 10am-4pm; Fri-Sat by appointment (call 503-491-7309); closed Sundays and holidays
   features:
   - 2,000 sq ft gallery space
   - 20-foot ceilings with natural lighting
@@ -5810,8 +5824,8 @@
   schedule: 4 exhibitions per year (October-May)
   eligibility: Open to the public
   parking: Lot J closest to gallery
-  last_verified: 2026-04-22
-  next_audit: 2026-07-22
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check website for current exhibit
@@ -6451,8 +6465,8 @@
     description: FREE
   schedule: Last Thursday monthly (year-round); street closures 6-9pm June-August
   transit: Bus 72
-  last_verified: 2026-05-01
-  next_audit: 2026-08-01
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Start anywhere along Alberta between 15th and 30th Ave
@@ -6485,14 +6499,14 @@
   phone: null
   website: https://www.thesquarepdx.org/
   source_urls:
-  - https://www.thesquarepdx.org/event/41st-annual-tree-lighting-ceremony/
+  - https://www.thesquarepdx.org/event/42nd-annual-tree-lighting-ceremony/
   - https://www.travelportland.com/event/1486667/
   pricing:
     description: FREE
   dates: November 27, 2026 (day after Thanksgiving), 5:30-6:45pm
-  last_verified: 2026-01-24
-  next_audit: 2026-10-01
-  notes: Since 1984. 75-foot tree donated by Stimson Lumber. Pink Martini sing-along, 10,000 lights. 2025 was 41st annual.
+  last_verified: 2026-10-08
+  next_audit: 2027-10-08
+  notes: Since 1984. Pink Martini sing-along, about 10,000 lights. 2026 is the 42nd annual. Tree size and donor for 2026 not yet published.
   audit_frequency: annually
   practical_tips:
     first_visit: Arrive early for best viewing spot on the square's brick steps
@@ -6946,6 +6960,8 @@
     description: FREE
   dates: November 1, 2026
   hours: 4-8pm
+  notes: ⚠️ VERIFY - 2026 date not yet announced. The 2024 and 2025 editions ran on November 1 (2025 was a Saturday, 4-8pm, hosted
+    with the Gresham Center for the Arts Foundation); November 1, 2026 is a Sunday.
   last_verified: 2026-01-24
   next_audit: 2026-10-01
   audit_frequency: annually
@@ -7056,15 +7072,17 @@
   resource_type: event
   address: Happy Valley Park, Happy Valley, OR
   phone: null
-  website: https://www.happyvalleyor.gov/services/hv-community-events/
+  website: https://www.happyvalleyor.gov/community/community-services/community-events/oktoberfest-2/
   source_urls:
+  - https://www.happyvalleyor.gov/community/community-services/community-events/oktoberfest-2/
   - https://www.happyvalleyor.gov/services/hv-community-events/
   pricing:
     description: FREE
   dates: October 3, 2026
-  last_verified: 2026-01-29
-  next_audit: 2026-09-01
-  notes: Date estimated based on typical first-Saturday-of-October pattern; confirm closer to event.
+  hours: 11am-7:30pm
+  last_verified: 2026-10-08
+  next_audit: 2027-08-01
+  notes: 2026 date confirmed by City of Happy Valley announcement (Sept 2, 2026). Rain or shine. Update dates when the 2027 date is announced.
   audit_frequency: annually
   practical_tips:
     first_visit: Happy Valley Park location
@@ -7483,8 +7501,8 @@
     cost: FREE
     notes: Costumed racers paddle giant pumpkin boats across the lake in races at noon and
       2pm, with food, entertainment, pumpkin bowling, and pumpkin golf through the day.
-  last_verified: 2026-09-16
-  next_audit: 2026-10-10
+  last_verified: 2026-10-08
+  next_audit: 2026-11-08
   audit_frequency: monthly
   practical_tips:
     first_visit: The races are at noon and 2pm; the rest of the festival runs 10am-4pm, so
@@ -8929,18 +8947,21 @@
   - https://www.gleanerscc.org
   - https://www.clackamas.us/food-resources
   pricing:
-    description: FREE - members volunteer hours monthly in exchange for weekly groceries
+    description: Membership with monthly dues ($37/month per gleanerscc.org FAQ) plus a regular volunteer commitment on a team,
+      in exchange for weekly groceries
+    notes: Adoptee option for Clackamas County residents 65+ or disabled (with proof of SSD) who cannot meet volunteer requirements
+      - they receive food through a member.
   hours: Mon-Fri 8am-3pm
-  eligibility: Must meet household income guidelines; membership required
+  eligibility: Must meet HUD income guidelines; membership required to receive food
   services:
-  - Weekly groceries and essentials (members volunteer monthly hours)
+  - Weekly groceries and essentials (members pay monthly dues and volunteer)
   - Resource center with clothing and household items
   - Surplus Day events
   - Field Picks & Firewood
   mission: Reduce hunger and waste; aid social services by collecting and distributing food/non-food items to low-income,
     elderly, and disabled residents
-  last_verified: 2026-04-22
-  next_audit: 2026-07-22
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Contact to learn about membership and income guidelines
@@ -9235,8 +9256,8 @@
       of their harvest to the pantry.
   - name: Senior Home Delivery
     notes: Monthly pre-packed food and produce delivery for homebound seniors; individual delivery is currently at capacity.
-  last_verified: 2026-08-13
-  next_audit: 2026-09-01
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Complete SnowCap's general application online or call for a quick intake, then visit during pantry hours.
@@ -9536,6 +9557,7 @@
   phone: 503-630-2888
   source_urls:
   - https://www.estacadafoodbank.org
+  - https://foodfinder.oregonfoodbank.org/locations/estacada-area-food-bank
   pricing:
     description: FREE
   hours: Wed 2-6pm (2-4pm Estacada School District families, 4-6pm everyone); Tue/Thu hours conflict across sources - call
@@ -9544,9 +9566,9 @@
   next_audit: 2026-06-30
   audit_frequency: quarterly
   flags:
-  - ⚠️ VERIFY - September 2026 directory listings disagree on the Tuesday and Thursday hours (one shows Tue/Thu 10am-1pm and Fri
-    10am-2pm, another shows 2nd & 4th Tuesday and Thursday only). Both agree Wednesday is now 2-6pm. Call before publishing
-    exact hours.
+  - ⚠️ VERIFY - The food bank's own site and Oregon Food Bank's Food Finder (both undated, likely spring 2026) list 2nd & 4th
+    Tuesday 10am-2pm, Wednesday 10am-2pm, Thursday 1-5pm, while September 2026 directory listings show Wednesday 2-6pm. Call
+    503-630-2888 before publishing exact hours.
   practical_tips:
     first_visit: Call 503-630-2888 to confirm the day's hours before making the trip.
     what_to_bring: Bags or boxes for food
@@ -9588,6 +9610,9 @@
   - indoor
   guide_location: activities-guide-2.md#free-food-resources
   notes: Mt. Hood corridor food pantry serving Sandy and surrounding communities. Open Wed and Fri only.
+  flags:
+  - ⚠️ VERIFY - The center's homepage and How We Can Help page say Wed & Fri 10am-4pm; its older donate pages and foodbanks.net
+    say Wednesday noon-6pm. No 2026-dated source found. Call 503-668-4746.
   latitude: 45.396117
   longitude: -122.262076
 - id: svdp-portland
@@ -9779,6 +9804,9 @@
   - indoor
   guide_location: activities-guide-1.md#gaming-and-social-activities
   notes: Explicitly welcoming to newcomers
+  flags:
+  - ⚠️ VERIFY - Tuesday CORE series confirmed on Meetup through April 28, 2026 (weekly, 5-9:30pm); later dates not confirmed.
+    Wednesday at Board Bard confirmed October 2026.
 - id: milwaukie-community-center
   name: Milwaukie Community Center
   category: social_activities
@@ -9810,12 +9838,12 @@
   - Blood pressure checks
   programs:
   - name: Woodcarvers Drop-In
-    schedule: Every Wednesday 8:30-11:30am
-    cost: $1 NCPRD / $2 non-resident
-    notes: Novice to advanced; guidance for starters
+    cost: Small drop-in fee (about $2 NCPRD / $2.50 non-resident in 2025)
+    notes: Novice to advanced; guidance for starters. Day and time have varied by season (Wednesday mornings or Thursdays) -
+      call 503-653-8100 to confirm it is running.
   - name: Tai Chi for Seniors
-    schedule: Mon/Wed 4-5pm
-    notes: Gentle exercise for balance and wellness
+    notes: Registered term class; times vary by term (winter 2026 ran Mon/Wed 3-4pm and 4:10-5:10pm). Check the current NCPRD
+      Discovery Guide.
   - name: Congregate Lunch
     schedule: Weekdays noon-12:30pm in dining room
     cost: $3 suggested donation (60+); $5 under 60
@@ -9840,6 +9868,9 @@
   audience:
   - seniors
   notes: Primary hub for older adults in North Clackamas. Meals on Wheels program delivers 300+ meals daily.
+  flags:
+  - ⚠️ VERIFY - Fall 2026 program times not found. Tai Chi time comes from the winter 2026 Discovery Guide; Woodcarvers Drop-In
+    did not appear in the current drop-in list excerpt. Hours, address and phone confirmed October 2026. Call 503-653-8100.
   latitude: 45.426456
   longitude: -122.606167
 - id: write-around-portland
@@ -9886,21 +9917,21 @@
   location_type: physical
   resource_type: organization
   address: null
-  phone: null
+  phone: 503-282-8846
   website: https://friendsoftrees.org
   source_urls:
   - https://friendsoftrees.org
   pricing:
     description: FREE
-  schedule: Weekend mornings during planting season (fall through spring)
+  schedule: Saturday mornings October through April (planting season)
   provides:
   - Gloves
   - Tools
   - Breakfast
   - Coffee/tea
   - Potluck lunch afterward
-  last_verified: 2026-04-22
-  next_audit: 2026-07-22
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips: FREE tree-planting events on weekend mornings fall through spring. Gloves, tools, breakfast, coffee/tea
     provided. Potluck lunch afterward. No experience needed, all ages welcome. Highly social atmosphere.
@@ -9921,9 +9952,9 @@
   resource_type: organization
   address: null
   phone: null
-  website: https://www.solve.org
+  website: https://www.solveoregon.org
   source_urls:
-  - https://www.solve.org
+  - https://www.solveoregon.org
   pricing:
     description: FREE
   programs:
@@ -9933,14 +9964,15 @@
       Equipment and supplies provided. Register online for a site near you.
   - name: Beach/Riverside Cleanup
     schedule: September
-    notes: Annual coastal and river cleanup in September. Help remove debris from Oregon's beaches and riverbanks. Equipment
+    notes: Annual coastal and river cleanup in late September (the 2026 edition ran September 18-27). Help remove debris from Oregon's beaches and riverbanks. Equipment
       provided. Great way to enjoy the outdoors while giving back.
   - name: Pick It Up, Portland!
     schedule: Year-round neighborhood cleanups
     notes: Ongoing neighborhood cleanups throughout the year. Flexible scheduling lets you volunteer when it works for you.
-      Equipment provided. Perfect for those wanting regular outdoor volunteer opportunities.
-  last_verified: 2026-04-22
-  next_audit: 2026-07-22
+      Equipment provided. Perfect for those wanting regular outdoor volunteer opportunities. ⚠️ VERIFY - SOLVE's 2026 announcements
+      name Pick It Up, Milwaukie! and Pick It Up, Bend!, not Portland.
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips: FREE environmental cleanups throughout the year. Oregon Spring Cleanup (April), Beach/Riverside Cleanup
     (September), Pick It Up Portland (year-round). Equipment provided. No experience needed. Good for giving back to community.
@@ -10025,26 +10057,26 @@
   location_type: hybrid
   resource_type: program
   address: 3201 NE 148th Ave, Portland, OR
-  phone: null
+  phone: 888-801-8241
   website: https://portlandartguild.org/
   source_urls:
   - https://portlandartguild.org/
   - https://portlandartguild.org/courses/
   pricing:
-    description: $25-50 members, $45-90 nonmembers per class
-    notes: Mission is to provide low-cost art classes accessible to all. Member discounts available.
+    description: About $50-60 members, $100-120 nonmembers per multi-session class or workshop
+    notes: Membership $50/year individual, $60 family, and includes 50% off class fees. Nonmembers may take classes. Mission
+      is to provide low-cost art classes accessible to all.
   schedule: Mondays in-person, Thursday evenings online
   programs:
   - name: Drawing and painting classes
-  - name: All skill levels welcome
-  - name: In-person (Mondays) and online (Thursdays)
-  last_verified: 2026-03-24
-  next_audit: 2026-06-24
+    notes: All skill levels welcome. In-person classes usually Mondays; online classes generally Thursday evenings.
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Browse classes at portlandartguild.org/courses. No membership required to take classes.
     registration: Online via website
-    good_to_know: Inclusive group for all skill levels. Member discounts bring costs down to $25-50 per class. Monday in-person
+    good_to_know: Inclusive group for all skill levels. Membership halves class fees (about $50-60 per class). Monday in-person
       classes in East Portland, Thursday online option for those who can't travel.
   social_intensity: structured_group
   good_for:
@@ -10074,8 +10106,8 @@
     cost: FREE
     notes: Drop-in fiber arts session every Tuesday. Knit, crochet, or try other crafts while chatting with fellow crafters.
       Projects are donated to charity. Supplies provided or bring your own. All skill levels welcome—beginners encouraged!
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips: FREE Crafting Compassion drop-in Tuesdays 3-5pm. Knitting, crocheting, and other fiber arts. Projects donated
     to charity. Supplies provided or bring your own. All skill levels welcome.
@@ -10107,8 +10139,8 @@
     schedule: 2nd Thursday 6-8:30pm
     cost: FREE for visitors
     notes: Year-round. Doors open 6pm for social knitting; programming begins 7pm. Hybrid (in-person + Zoom).
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips: FREE monthly meetings 2nd Thursday year-round (doors 6pm, program 7pm). At Rose City Park Presbyterian Church
     Fellowship Hall. Also on Zoom. First 2 visits free, then $35/year membership. Knitting-focused with programs and presentations.
@@ -10156,8 +10188,8 @@
   - name: Bingo
     schedule: Every Thursday 12:30-2pm
     notes: Cards available for purchase starting at noon. Cards just 25 cents. Great prizes.
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Multi-purpose center for adults 21+; welcoming atmosphere
@@ -10355,11 +10387,7 @@
   eligibility: Adults 55+
   audience:
   - seniors
-  hours: Mon 8am-8pm, Tue 8am-2pm, Wed 8am-6pm, Thu 8am-2pm (Fri/Sat hours not captured - verify); closed Sunday and major holidays
-  flags:
-  - ⚠️ VERIFY - The official THPRD page in September 2026 lists day-by-day hours (Mon 8am-8pm, Tue 8am-2pm, Wed 8am-6pm, Thu
-    8am-2pm) that differ from the previously stored Mon-Thu 8am-5pm; the snippet cut off before Friday and Saturday. Confirm
-    at 503-629-6342.
+  hours: Mon-Thu 8am-5pm, Fri 8am-2pm, Sat 8am-4pm; closed Sunday and major holidays
   facilities:
   - 2,436 sq ft fitness room
   - NuSteps, recumbent bikes, ellipticals, treadmills, weight machines
@@ -10379,8 +10407,8 @@
     options: Holiday Bazaar, Elsie Stuhr Day, New Year's Dance, Valentine's Dance
   - name: Meals on Wheels Lunch
     schedule: Mon-Fri
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Take a tour to see all the amenities
@@ -10514,6 +10542,7 @@
   source_urls:
   - https://www.repairpdx.org
   - https://www.repairpdx.org/repair-events
+  - https://www.portland.gov/bps/sustainability/resourcefulpdx/borrow-repair-reuse/repair-cafes
   pricing:
     description: FREE
     notes: All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.
@@ -10535,6 +10564,8 @@
     - June 13, 2026
     - July 11, 2026
     - August 8, 2026
+    - September 12, 2026
+    - October 10, 2026
   - name: Cedar Mill Library Repair Fair
     dates: September 26, 2026
     schedule: 1-4pm
@@ -10574,8 +10605,15 @@
     notes: Learn embroidery techniques for mending clothing. Check website/Eventbrite for dates.
     dates:
     - March 30, 2026
-  last_verified: 2026-07-28
-  next_audit: 2026-08-28
+  - name: Learn to Darn Workshop
+    dates: October 24, 2026
+    schedule: 10am-1pm
+    location: Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
+    cost: Sliding scale (paid)
+    format: In-person
+    notes: Listed on portland.gov ResourcefulPDX repair events, October 2026
+  last_verified: 2026-10-08
+  next_audit: 2026-11-08
   audit_frequency: monthly
   practical_tips:
     first_visit: Fill out the Google Form before arriving to let them know what you're bringing
@@ -10600,9 +10638,8 @@
     for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.
   flags:
   - 📅 DATE-SENSITIVE
-  - ⚠️ VERIFY - The projected 2nd-Saturday Leaven Repair Café dates for September-December 2026 were removed on 2026-09-10
-    because repairpdx.org/repair-events listed other fall fairs (Cedar Mill Sept 26, Molalla Oct 10, Tualatin Oct 17, Oregon
-    City Oct 24, CCC Nov 7) but no Leaven café after June 13. Re-add Leaven dates once published.
+  - ⚠️ VERIFY - Leaven Repair Cafés resumed September 12 and October 10, 2026 (portland.gov ResourcefulPDX). November and
+    December dates not yet published; add them once listed.
 - id: clackamas-county-repair-fairs
   name: Clackamas County Repair Fairs
   category: social_activities
@@ -10663,7 +10700,7 @@
   - name: Repair Fair - Molalla
     dates: October 10, 2026
     schedule: 12-3pm
-    location: Molalla, OR (venue TBD - check clackamas.us/recycling/repairfair)
+    location: Molalla Public Library, 201 E 5th St, Molalla, OR 97038
   - name: Repair Fair - Oregon City
     dates: October 24, 2026
     schedule: 10am-1pm
@@ -10672,8 +10709,8 @@
     dates: November 7, 2026
     schedule: 10am-1pm
     location: Clackamas Community College, 19600 Molalla Ave, Oregon City, OR
-  last_verified: 2026-09-10
-  next_audit: 2026-10-10
+  last_verified: 2026-10-08
+  next_audit: 2026-11-08
   audit_frequency: monthly
   practical_tips:
     first_visit: Just show up with your broken items
@@ -10820,8 +10857,8 @@
   pricing:
     description: FREE
   schedule: Various "done-in-a-day" projects throughout the week
-  last_verified: 2026-04-22
-  next_audit: 2026-07-22
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips: Done-in-a-day volunteer projects requiring no experience or ongoing commitment. 2-4 hour projects led by
     trained volunteer leaders. Sign up with two clicks online. Great low-pressure way to contribute and connect with others.
@@ -11433,16 +11470,16 @@
   category: events
   location_type: physical
   resource_type: event
-  address: Washington County Fairgrounds, 801 NE 34th Ave, Hillsboro, OR
+  address: Westside Commons (Washington County Fair Complex), 801 NE 34th Ave, Hillsboro, OR
   phone: null
   website: https://www.bigfairfun.com
   source_urls:
   - https://www.bigfairfun.com
   pricing:
     description: FREE admission for everyone
-  dates: July 24-26, 2026
-  last_verified: 2026-01-17
-  next_audit: 2026-07-01
+  dates: July 24 - August 2, 2026
+  last_verified: 2026-10-08
+  next_audit: 2027-05-01
   audit_frequency: annually
   practical_tips:
     first_visit: Check website for entertainment schedule and map
@@ -12169,7 +12206,8 @@
     schedule: Every Wednesday 9:30-10:30am
     location: Behavioral Health Resource Center, 333 SW Park Ave, Portland
     format: In-person, drop-in
-    notes: Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026.
+    notes: Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026. As of October 2026 the group's own pages
+      still disagree (Wed 9:30-10:30am vs Wed noon-1pm vs Mon 10-11am), so confirm before attending. BHRC main line 503-988-4100.
   - name: Hearing Voices Online
     schedule: (Possibly) Mondays 12:30-1:30pm PST
     format: Virtual (Zoom)
@@ -12310,7 +12348,7 @@
   - https://communityjams.org
   - https://www.meetup.com/portland-casual-jams/events/calendar/
   pricing:
-    description: FREE
+    description: FREE to attend; $20 suggested donation (PayPal/Venmo)
   schedule: Sun 1pm, Mon 6pm & 8pm, Tue 7pm, Thu 7pm, Sat 1pm
   programs:
   - name: EZ-Lead Slow Jam (Blues, Folk, Americana)
@@ -12323,14 +12361,14 @@
     schedule: Every Tuesday 7-9:30pm
     notes: Best for first-timers. Welcoming environment for all skill levels.
   - name: Themed Jam (varies weekly)
-    schedule: Thursdays 7pm
+    schedule: Every Thursday 7-9:30pm
   - name: CJ Newcomers and Explorers Jam (Saturday)
-    schedule: Every Saturday 1-3pm
+    schedule: Every Saturday 1-4pm
   - name: Build a Song Workshop
     schedule: Select Saturdays 4:30pm
     notes: Check Meetup calendar for dates.
-  last_verified: 2026-03-04
-  next_audit: 2026-06-04
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Start with a Tuesday or Saturday 'Newcomers and Explorers' jam. RSVP via Meetup.com (search Portland Casual
@@ -12979,8 +13017,8 @@
     - August 29, 2026
     schedule: 4-6pm
     cost: FREE
-  last_verified: 2026-08-13
-  next_audit: 2026-09-13
+  last_verified: 2026-10-08
+  next_audit: 2026-11-08
   audit_frequency: monthly
   practical_tips:
     first_visit: The plaza is a small open square at SE 37th and Hawthorne. Bring a chair - seating is limited.
@@ -13370,8 +13408,8 @@
       includes an opening ceremony, activities of hope and healing, resource tables,
       and honor beads for every participant. AFSP's page gives no end time - 1pm comes
       from its Eventbrite listing.
-  last_verified: 2026-09-16
-  next_audit: 2026-09-28
+  last_verified: 2026-10-08
+  next_audit: 2026-11-08
   audit_frequency: monthly
   practical_tips:
     first_visit: Check-in opens at 9am and the program starts at 11am. Arriving between

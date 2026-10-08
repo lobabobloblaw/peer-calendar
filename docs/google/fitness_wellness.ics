@@ -362,7 +362,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:94efda47272343d2@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T110000
 DTEND;TZID=America/Los_Angeles:20260808T120000
 SUMMARY:Food Court 5000 (Mall Walking Group): Final Lloyd Center Walk (Sile
@@ -387,8 +387,23 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:2d5f5e8ade21d0b5@portlandresources.org
+DTSTAMP:20261008T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T200000
+SUMMARY:Shift to Bikes: Mellow Mondays
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Casual\, no-dro
+ p\, beginner- and family-friendly loop of about 8-12 miles at a relaxed pa
+ ce\; leaves around 7:30pm.\nWebsite: https://shift2bikes.org/calendar
+LOCATION:Abernethy Elementary School\, Ladd's Addition (SE Portland)
+URL:https://shift2bikes.org/calendar
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d4864019dec4725a@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260804T190000
 DTEND;TZID=America/Los_Angeles:20260804T200000
 SUMMARY:Shift to Bikes: Foster Night Ride
@@ -527,631 +542,650 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3e582e770d0f89d3@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260626T090000
 DTEND;TZID=America/Los_Angeles:20260626T100000
 SUMMARY:THPRD Fitness in the Park: Outdoor Circuit
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Ridgewood View Park
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:22d326cd7aa79cf4@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260710T090000
 DTEND;TZID=America/Los_Angeles:20260710T100000
 SUMMARY:THPRD Fitness in the Park: Outdoor Circuit
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Ridgewood View Park
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:83f1f2eb327e3fe3@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260717T090000
 DTEND;TZID=America/Los_Angeles:20260717T100000
 SUMMARY:THPRD Fitness in the Park: Outdoor Circuit
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Ridgewood View Park
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f72dd18b8f058dc2@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260724T090000
 DTEND;TZID=America/Los_Angeles:20260724T100000
 SUMMARY:THPRD Fitness in the Park: Outdoor Circuit
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Ridgewood View Park
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5743dc2f1a4c7a60@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260731T090000
 DTEND;TZID=America/Los_Angeles:20260731T100000
 SUMMARY:THPRD Fitness in the Park: Outdoor Circuit
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Ridgewood View Park
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e534f049cc3bf238@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260807T090000
 DTEND;TZID=America/Los_Angeles:20260807T100000
 SUMMARY:THPRD Fitness in the Park: Outdoor Circuit
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Ridgewood View Park
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:89c111a9543da245@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260814T090000
 DTEND;TZID=America/Los_Angeles:20260814T100000
 SUMMARY:THPRD Fitness in the Park: Outdoor Circuit
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Ridgewood View Park
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a94a8ccc67a60468@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260821T090000
 DTEND;TZID=America/Los_Angeles:20260821T100000
 SUMMARY:THPRD Fitness in the Park: Outdoor Circuit
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Ridgewood View Park
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b97315ab79002bb6@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260626T173000
 DTEND;TZID=America/Los_Angeles:20260626T183000
 SUMMARY:THPRD Fitness in the Park: Zumba at Virginia Garcia Wellness Center
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Virginia Garcia Wellness Center
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d4a5529cec6ded00@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260710T173000
 DTEND;TZID=America/Los_Angeles:20260710T183000
 SUMMARY:THPRD Fitness in the Park: Zumba at Virginia Garcia Wellness Center
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Virginia Garcia Wellness Center
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:472b8c03fae9b718@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260717T173000
 DTEND;TZID=America/Los_Angeles:20260717T183000
 SUMMARY:THPRD Fitness in the Park: Zumba at Virginia Garcia Wellness Center
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Virginia Garcia Wellness Center
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d99c5447c2d8fbf0@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260724T173000
 DTEND;TZID=America/Los_Angeles:20260724T183000
 SUMMARY:THPRD Fitness in the Park: Zumba at Virginia Garcia Wellness Center
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Virginia Garcia Wellness Center
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e17bb8ec12b432c3@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260731T173000
 DTEND;TZID=America/Los_Angeles:20260731T183000
 SUMMARY:THPRD Fitness in the Park: Zumba at Virginia Garcia Wellness Center
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Virginia Garcia Wellness Center
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:87a43bc2f2330694@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260807T173000
 DTEND;TZID=America/Los_Angeles:20260807T183000
 SUMMARY:THPRD Fitness in the Park: Zumba at Virginia Garcia Wellness Center
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Virginia Garcia Wellness Center
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bf02cacf43c2564d@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260814T173000
 DTEND;TZID=America/Los_Angeles:20260814T183000
 SUMMARY:THPRD Fitness in the Park: Zumba at Virginia Garcia Wellness Center
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Virginia Garcia Wellness Center
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:62ec77254aeb399f@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260821T173000
 DTEND;TZID=America/Los_Angeles:20260821T183000
 SUMMARY:THPRD Fitness in the Park: Zumba at Virginia Garcia Wellness Center
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Virginia Garcia Wellness Center
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e4918411c9f14fcd@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260620T090000
 DTEND;TZID=America/Los_Angeles:20260620T100000
 SUMMARY:THPRD Fitness in the Park: Forest Bathing at Lowami Hart Woods Natu
  ral Area
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Lowami Hart Woods Natural Area
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c95861adab470b6a@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260627T090000
 DTEND;TZID=America/Los_Angeles:20260627T100000
 SUMMARY:THPRD Fitness in the Park: Forest Bathing at Lowami Hart Woods Natu
  ral Area
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Lowami Hart Woods Natural Area
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3a743729c910ee21@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260711T090000
 DTEND;TZID=America/Los_Angeles:20260711T100000
 SUMMARY:THPRD Fitness in the Park: Forest Bathing at Lowami Hart Woods Natu
  ral Area
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Lowami Hart Woods Natural Area
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d070f19f9f401c73@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260718T090000
 DTEND;TZID=America/Los_Angeles:20260718T100000
 SUMMARY:THPRD Fitness in the Park: Forest Bathing at Lowami Hart Woods Natu
  ral Area
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Lowami Hart Woods Natural Area
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a8db22fb6ea5c1eb@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260725T090000
 DTEND;TZID=America/Los_Angeles:20260725T100000
 SUMMARY:THPRD Fitness in the Park: Forest Bathing at Lowami Hart Woods Natu
  ral Area
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Lowami Hart Woods Natural Area
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8b10a4c2674ce672@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260801T090000
 DTEND;TZID=America/Los_Angeles:20260801T100000
 SUMMARY:THPRD Fitness in the Park: Forest Bathing at Hyland Woods Natural A
  rea
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Hyland Woods Natural Area
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:400eaf6d4a219d78@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T090000
 DTEND;TZID=America/Los_Angeles:20260808T100000
 SUMMARY:THPRD Fitness in the Park: Forest Bathing at Hyland Woods Natural A
  rea
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Hyland Woods Natural Area
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:93f0e4189a80d591@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260815T090000
 DTEND;TZID=America/Los_Angeles:20260815T100000
 SUMMARY:THPRD Fitness in the Park: Forest Bathing at Hyland Woods Natural A
  rea
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Hyland Woods Natural Area
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d9384f3cfc0d0921@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260822T090000
 DTEND;TZID=America/Los_Angeles:20260822T100000
 SUMMARY:THPRD Fitness in the Park: Forest Bathing at Hyland Woods Natural A
  rea
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Hyland Woods Natural Area
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6e41d8ce28ec56a2@portlandresources.org
+DTSTAMP:20261008T000000Z
+DTSTART;TZID=America/Los_Angeles:20260919T100000
+DTEND;TZID=America/Los_Angeles:20260919T110000
+SUMMARY:THPRD Fitness in the Park: Tai Chi at Greenway Park
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
+LOCATION:Greenway Park covered area\, SW Greenway & SW Parkview Loop\, Beav
+ erton\, OR
+URL:https://www.thprd.org/fitness-in-the-park
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20261214T075959Z
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c38ea492030e77e2@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260617T093000
 DTEND;TZID=America/Los_Angeles:20260617T103000
 SUMMARY:THPRD Fitness in the Park: Walk with Me - Commonwealth Lake Park
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Commonwealth Lake Park
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a906c09c1759576f@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260624T093000
 DTEND;TZID=America/Los_Angeles:20260624T103000
 SUMMARY:THPRD Fitness in the Park: Walk with Me - Rock Creek Trail
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Park trail entrance at NW 177th Ave & NW Blacktail Dr
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:225c9eb9f272a825@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260701T093000
 DTEND;TZID=America/Los_Angeles:20260701T103000
 SUMMARY:THPRD Fitness in the Park: Walk with Me - Cedar Mill Creek Trail
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Sidewalk on Barnes Road at the bottom of the Market of Choice stai
  rs
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:db80db67569b8111@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260708T093000
 DTEND;TZID=America/Los_Angeles:20260708T103000
 SUMMARY:THPRD Fitness in the Park: Walk with Me - Waterhouse Park
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Waterhouse Soccer Field entrance
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:399580a9bb056f96@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260715T093000
 DTEND;TZID=America/Los_Angeles:20260715T103000
 SUMMARY:THPRD Fitness in the Park: Walk with Me - Bethany Creek Park/Yoshih
  ara Trail
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Bethany Creek Park/Yoshihara Trail
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d0841e09483dee90@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260722T093000
 DTEND;TZID=America/Los_Angeles:20260722T103000
 SUMMARY:THPRD Fitness in the Park: Walk with Me - Greenway Park
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Paved path/park entrance next to Fanno Farmhouse
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:34d1a83a705811d7@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260729T093000
 DTEND;TZID=America/Los_Angeles:20260729T103000
 SUMMARY:THPRD Fitness in the Park: Walk with Me - Jenkins Estate
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Park trail entrance next to the lower lot
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:881c7367631b6bb1@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260805T093000
 DTEND;TZID=America/Los_Angeles:20260805T103000
 SUMMARY:THPRD Fitness in the Park: Walk with Me - Jackie Husen Park
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Paved trailhead next to the parking lot
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cd37b175c0b1d822@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260812T093000
 DTEND;TZID=America/Los_Angeles:20260812T103000
 SUMMARY:THPRD Fitness in the Park: Walk with Me - Lowami Hart Woods
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Park entrance near the benches across from the parking lot
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d85c8e9e1a527e05@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260819T093000
 DTEND;TZID=America/Los_Angeles:20260819T103000
 SUMMARY:THPRD Fitness in the Park: Walk with Me - Fanno Creek Trail
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
+ Website: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness 
+ classes in Washington County parks. Focus on environmental justice areas t
+ o reduce barriers to access. The official schedule publishes start times b
+ ut not class end times\; one-hour calendar blocks are start-time reminders
+ \, not confirmed durations.
 LOCATION:Paved trailhead next to the parking lot
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c13d620aa53bdd75@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260916T173000
 DTEND;TZID=America/Los_Angeles:20260916T190000
 SUMMARY:THPRD Fitness in the Park: Zumba from Around the World
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: All-ages cultur
  al celebration featuring THPRD Zumba instructors.\nPhone: 503-645-6433\nWe
- bsite: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetails
- : Free fitness classes in Washington County parks. Focus on environmental 
- justice areas to reduce barriers to access. The official schedule publishe
- s start times but not class end times\; one-hour calendar blocks are start
- -time reminders\, not confirmed durations.
+ bsite: https://www.thprd.org/fitness-in-the-park\nDetails: Free fitness cl
+ asses in Washington County parks. Focus on environmental justice areas to 
+ reduce barriers to access. The official schedule publishes start times but
+  not class end times\; one-hour calendar blocks are start-time reminders\,
+  not confirmed durations.
 LOCATION:Vose Elementary School
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+URL:https://www.thprd.org/fitness-in-the-park
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5fa19b2b7a92e2f9@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T093000
 DTEND;TZID=America/Los_Angeles:20260103T120000
 SUMMARY:Birdhers
@@ -1167,7 +1201,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0781b534fe7b3022@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260118T130000
 DTEND;TZID=America/Los_Angeles:20260118T150000
 SUMMARY:Tergar Meditation Community of Portland: Monthly In-Person Practice
@@ -1184,7 +1218,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9b052c1131dba353@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:Tergar Meditation Community of Portland: Tuesday Evening Online Pra
@@ -1201,7 +1235,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bac4853c7338ed55@portlandresources.org
-DTSTAMP:20260213T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T093000
 DTEND;TZID=America/Los_Angeles:20260107T103000
 SUMMARY:Tergar Meditation Community of Portland: Wednesday Morning Online P

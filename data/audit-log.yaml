@@ -4984,3 +4984,372 @@
     Read through the user's Chrome session with the claude-in-chrome extension. All seven
     VERIFY flags from the sweep are cleared. The Washington County winter-shelters page is
     the one source that could not be read at all, because the county's own site refuses it.
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Tree Lighting Ceremony"
+  entries_audited: 1
+  entries:
+    - id: portland-tree-lighting
+      status: updated
+      changes: "Source updated to the 2026 (42nd annual) listing; Nov 27 5:30-6:45pm confirmed; unconfirmed 2026 tree size/donor removed from notes"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Happy Valley Oktoberfest"
+  entries_audited: 1
+  entries:
+    - id: happy-valley-oktoberfest
+      status: updated
+      changes: "Oct 3 2026 date confirmed by city (now passed); added hours 11am-7:30pm and the city event page"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Washington County Fair"
+  entries_audited: 1
+  entries:
+    - id: washington-county-fair
+      status: updated
+      changes: "2026 dates corrected to July 24 - August 2 (was July 24-26); venue renamed Westside Commons"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Friends of Trees"
+  entries_audited: 1
+  entries:
+    - id: friends-of-trees
+      status: updated
+      changes: "Added phone 503-282-8846; schedule now Saturday mornings October through April"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - SOLVE Oregon"
+  entries_audited: 1
+  entries:
+    - id: solve-oregon
+      status: updated
+      changes: "Website moved to solveoregon.org; 2026 Beach & Riverside dates noted; Pick It Up, Portland! flagged (not in 2026 announcements)"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Ground Kontrol Classic Arcade"
+  entries_audited: 1
+  entries:
+    - id: ground-kontrol
+      status: updated
+      changes: "Confirmed $6/$12 Free Play pricing on 2026 official pages, removed VERIFY flag; weekend cover is $4 after 7pm Fri-Sat"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - MHCC Visual Arts Gallery"
+  entries_audited: 1
+  entries:
+    - id: mhcc-visual-arts-gallery
+      status: updated
+      changes: "Hours corrected to Mon-Thu 10am-4pm, Fri-Sat by appointment, closed Sundays"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Community Jams"
+  entries_audited: 1
+  entries:
+    - id: community-jams-beaverton
+      status: updated
+      changes: "Saturday jam now 1-4pm, Thursday themed jam 7-9:30pm; noted $20 suggested donation"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Art Guild"
+  entries_audited: 1
+  entries:
+    - id: portland-art-guild
+      status: updated
+      changes: "Pricing updated to 2026 class fees and membership; added phone; cleaned descriptive text out of programs"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Gleaners of Clackamas County"
+  entries_audited: 1
+  entries:
+    - id: gleaners-clackamas
+      status: updated
+      changes: "Pricing corrected: membership has $37/month dues plus volunteer commitment (was listed as FREE)"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Shift to Bikes"
+  entries_audited: 1
+  entries:
+    - id: shift-to-bikes
+      status: updated
+      changes: "Mellow Mondays now at Abernethy Elementary (Ladd's Addition), 7pm; added Friday Night Ride details"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Repair PDX"
+  entries_audited: 1
+  entries:
+    - id: repair-pdx
+      status: updated
+      changes: "Added Leaven Repair Café dates Sept 12 and Oct 10 and the Oct 24 Learn to Darn workshop; updated VERIFY flag"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAMI Multnomah"
+  entries_audited: 1
+  entries:
+    - id: nami-multnomah
+      status: updated
+      changes: "Young Adult Online group is now ages 18-30, 1st & 3rd Wednesdays 6-7:30pm"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Yoga, All Levels"
+  entries_audited: 1
+  entries:
+    - id: thprd-fitness-in-park
+      status: updated
+      changes: "Fall 2026 session (Sept 14 - Dec 13) noted; website moved to thprd.org; added Saturday Tai Chi at Greenway Park"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Bird Watching Meetup (Birding for the People)"
+  entries_audited: 1
+  entries:
+    - id: portland-bird-watching-meetup
+      status: updated
+      changes: "Website and Meetup moved to Birding for the People URLs"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Clackamas County Repair Fairs"
+  entries_audited: 1
+  entries:
+    - id: clackamas-county-repair-fairs
+      status: updated
+      changes: "Molalla Oct 10 venue confirmed: Molalla Public Library, 201 E 5th St"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Last Thursday on Alberta"
+  entries_audited: 1
+  entries:
+    - id: last-thursday-alberta
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - West Coast Giant Pumpkin Regatta"
+  entries_audited: 1
+  entries:
+    - id: tualatin-pumpkin-regatta
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Hands On Greater Portland"
+  entries_audited: 1
+  entries:
+    - id: hands-on-greater-portland
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Taste of Jazz"
+  entries_audited: 1
+  entries:
+    - id: hawthorne-plaza-concerts
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Northwest Wools Crafting Compassion"
+  entries_audited: 1
+  entries:
+    - id: northwest-wools
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Puddletown Knitters Guild"
+  entries_audited: 1
+  entries:
+    - id: puddletown-knitters
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - BIKETOWN for All"
+  entries_audited: 1
+  entries:
+    - id: biketown-for-all
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Community Cycling Center"
+  entries_audited: 1
+  entries:
+    - id: community-cycling-center
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - SnowCap Community Services"
+  entries_audited: 1
+  entries:
+    - id: snowcap-community-charities
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Behavioral Health Resource Center"
+  entries_audited: 1
+  entries:
+    - id: bhrc
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - DBSA Portland (Depression Bipolar Support Alliance)"
+  entries_audited: 1
+  entries:
+    - id: dbsa-portland
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - NorthStar Clubhouse"
+  entries_audited: 1
+  entries:
+    - id: northstar-clubhouse
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Out of the Darkness Community Walk - Portland (AFSP Oregon)"
+  entries_audited: 1
+  entries:
+    - id: afsp-out-of-darkness-walk-portland
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tergar Meditation Community of Portland"
+  entries_audited: 1
+  entries:
+    - id: tergar-meditation-portland
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Pioneer Community Center"
+  entries_audited: 1
+  entries:
+    - id: pioneer-community-center
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAMI Clackamas"
+  entries_audited: 1
+  entries:
+    - id: nami-clackamas
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Food Court 5000 (Mall Walking Group)"
+  entries_audited: 1
+  entries:
+    - id: lloyd-center-walking
+      status: updated
+      changes: "Confirmed no new permanent venue announced after Lloyd Center closed; pop-up walks only. VERIFY flag and end date kept"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Birdhers"
+  entries_audited: 1
+  entries:
+    - id: birdhers
+      status: updated
+      changes: "Confirmed weekly Saturday pattern (9:30am, 10am in winter) and group active through August 2026; fall locations are posted each Friday"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Elsie Stuhr Center (THPRD)"
+  entries_audited: 1
+  entries:
+    - id: elsie-stuhr-center
+      status: updated
+      changes: "Hours Mon-Thu 8am-5pm, Fri 8am-2pm, Sat 8am-4pm confirmed on THPRD's 2026-dated facility page; VERIFY flag removed"

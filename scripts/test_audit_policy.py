@@ -150,7 +150,9 @@ class TestCorpusAuditPolicy(unittest.TestCase):
         # open recurrence and became a published list of dates.
         self.assertEqual(priorities, {"critical": 68, "high": 72, "standard": 12, "low": 135})
         summary = workload_summary(active, capacity_per_week=5, as_of=date(2026, 8, 13))
-        self.assertEqual(summary["backlog"], 22)
+        # 2026-10-08: the October audit advanced 35 next_audit dates, 17 of
+        # which were due on or before 2026-08-13, so this backlog fell from 22.
+        self.assertEqual(summary["backlog"], 5)
         self.assertEqual(summary["audits_per_year"], 899)
         self.assertFalse(summary["backlog_recoverable"])
 

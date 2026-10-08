@@ -2,7 +2,7 @@
 
 A comprehensive guide to free and affordable activities, services, and resources in the Portland metro area, with special attention to accessibility and mental health support.
 
-*Generated from data verified through September 16, 2026. 287 active resources across 9 categories.*
+*Generated from data verified through October 08, 2026. 287 active resources across 9 categories.*
 
 ## Contents
 
@@ -292,7 +292,7 @@ Free 24/7 crisis line and walk-in mental health center for Clackamas County. Pee
 - **Cost:** FREE
 - **Eligibility:** Open to individuals receiving Peer Support services in Clackamas County. If you don't already have a Peer Support Specialist, stop in to the clinic to get connected.
 
-Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up — ColorFlow moved from Wednesdays to Tuesdays, Cultivate & Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026.
+Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up — ColorFlow moved from Wednesdays to Tuesdays, Cultivate & Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026. Clinic front office 503-722-6200 (leave a message); 24/7 Clackamas County Support & Crisis Line 503-655-8585.
 
 **What to know:** Seven peer-led groups resuming August 2026 — art (ColorFlow, Inspired by Nature), mindfulness (Intentional Silence & Meditation), photography, music (Open Mic Night), and two Friday afternoon social groups (Tea Time, Fun Brain Food). Each group is led by a named peer specialist. No art or music experience needed for any of them.
 
@@ -583,7 +583,7 @@ No diagnosis required for any groups. Groups are peer-led by trained volunteers 
 - **LGBTQ2SIA+ Support (In-Person):** 2nd & 4th Sundays, 1-2:30pm | In-person | Rose City Community Collective, 5830 NE Alameda St Suite 205, Portland, OR 97213
   A 30-minute community arts and crafts session runs beforehand, starting at 12:30pm.
   *For: LGBTQ+*
-- **Young Adult (18-35) Online:** 2nd & 4th Wednesdays, 7-8:30pm | Zoom
+- **Young Adult (18-30) Online:** 1st & 3rd Wednesdays, 6-7:30pm | Zoom
   *For: Young adults (18-35)*
 - **Young Adult (18-35) In-Person:** 2nd & 4th Sundays, 3-4:30pm | In-person | Community for Positive Aging, 1820 NE 40th Ave, Portland OR 97212
   *For: Young adults (18-35)*
@@ -806,7 +806,7 @@ Peer-led support groups for people who hear voices, see visions, or have unusual
 **Programs:**
 
 - **In-Person Hearing Voices Group:** Every Wednesday 9:30-10:30am | In-person, drop-in | Behavioral Health Resource Center, 333 SW Park Ave, Portland
-  Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026.
+  Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026. As of October 2026 the group's own pages still disagree (Wed 9:30-10:30am vs Wed noon-1pm vs Mon 10-11am), so confirm before attending. BHRC main line 503-988-4100.
 - **Hearing Voices Online:** (Possibly) Mondays 12:30-1:30pm PST | Virtual (Zoom)
   Still listed as '(Possibly)' on the website - may be intermittent, so confirm before relying on it. The former Wednesday 12:30-2pm online group is no longer listed as of July 2026.
 
@@ -1721,8 +1721,8 @@ Summer and winter layouts available. Park hours 5am-midnight. One of top disc go
 
 ### Portland Bird Watching Meetup (Birding for the People)
 
-- **Address:** Various parks - Whitaker Ponds, Smith & Bybee Wetlands, etc.
-- **Website:** https://www.meetup.com/portland-bird-watching-meetup-group/
+- **Address:** Various parks - Whitaker Ponds, Cooper Mountain Nature Park, etc.
+- **Website:** https://www.birdingforthepeople.org/
 - **Cost:** FREE
 - **Schedule:** Multiple walks per week (check Meetup for dates)
 
@@ -1977,11 +1977,12 @@ Oregon's first disc golf course (established 1980)
 
 **Programs:**
 
-- **Mellow Mondays:** Every Monday | Irving Park
-  Casual social ride, welcoming to newcomers
+- **Mellow Mondays:** Every Monday 7pm | Abernethy Elementary School, Ladd's Addition (SE Portland)
+  Casual, no-drop, beginner- and family-friendly loop of about 8-12 miles at a relaxed pace; leaves around 7:30pm.
 - **Foster Night Ride:** Every other Tuesday 7pm | Foster Food Carts (5205 SE Foster Rd, at SE 52nd Ave)
   Meet 7pm, ride out 8pm; 8-15 miles, ends with a fire. Anchored to the confirmed Aug 4, 2026 ride on shift2bikes.org (event 23246).
 - **Friday Night Ride:** Every Friday (check shift2bikes.org/calendar for meeting point)
+  21+; meet about 7pm, ride about 8pm; sporty pace, 15-25 miles, not necessarily no-drop.
 - **Midnight Mystery Ride:** 2nd Friday of each month
   Meet ~11pm, depart at midnight to a secret location. Meeting point kept secret until day of event.
 - **Bike Summer (Pedalpalooza):** June-August
@@ -2056,9 +2057,9 @@ Community-supported yoga studio with scholarship memberships funded by other mem
 ### THPRD Fitness in the Park
 
 - **Phone:** 503-645-6433
-- **Website:** https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
+- **Website:** https://www.thprd.org/fitness-in-the-park
 - **Cost:** FREE
-- **Season:** Year-round; session schedules change each term. Summer 2026 runs June 15 - August 23, with no classes on June 19, July 3 or July 4.
+- **Season:** Year-round; session schedules change each term. Fall 2026 runs September 14 - December 13 (free, no registration). Fall classes also meet at partner sites (Holly Tree, The Barcelona, The Opal) - call 503-629-6330 to confirm those are open to the public before attending.
 - **Eligibility:** All ages (varies by class)
 
 Free fitness classes in Washington County parks. Focus on environmental justice areas to reduce barriers to access. The official schedule publishes start times but not class end times; one-hour calendar blocks are start-time reminders, not confirmed durations.
@@ -2084,6 +2085,7 @@ Free fitness classes in Washington County parks. Focus on environmental justice 
 - **Zumba at Virginia Garcia Wellness Center:** 5:30pm | Virginia Garcia Wellness Center
 - **Forest Bathing at Lowami Hart Woods Natural Area:** 9am | Lowami Hart Woods Natural Area
 - **Forest Bathing at Hyland Woods Natural Area:** 9am | Hyland Woods Natural Area
+- **Tai Chi at Greenway Park:** Saturdays 10am | Greenway Park covered area, SW Greenway & SW Parkview Loop, Beaverton, OR
 - **Tai Chi at Melilah Park:** Sundays 10am | Melilah Park
 - **Walk with Me - Commonwealth Lake Park:** 9:30am | Commonwealth Lake Park
 - **Walk with Me - Rock Creek Trail:** 9:30am | Park trail entrance at NW 177th Ave & NW Blacktail Dr
@@ -2707,7 +2709,7 @@ Portland's oldest operating movie theater, in Sunnyside neighborhood.
 
 - **Address:** 2365 SW Cedar Hills Blvd, Beaverton, OR
 - **Website:** https://communityjams.org
-- **Cost:** FREE
+- **Cost:** FREE to attend; $20 suggested donation (PayPal/Venmo)
 - **Schedule:** Sun 1pm, Mon 6pm & 8pm, Tue 7pm, Thu 7pm, Sat 1pm
 
 Nonprofit connecting musicians of all abilities through free studio jams. Grew from Portland Casual Jams Meetup (5,000+ members, 4,300+ events, 4.8 rating). 5-6 free jam sessions weekly. Tuesday and Saturday newcomer jams are especially welcoming for beginners.
@@ -2725,8 +2727,8 @@ Nonprofit connecting musicians of all abilities through free studio jams. Grew f
 - **CJ Improv Jam:** Every Monday 8-10pm
 - **CJ Newcomers and Explorers Jam:** Every Tuesday 7-9:30pm
   Best for first-timers. Welcoming environment for all skill levels.
-- **Themed Jam (varies weekly):** Thursdays 7pm
-- **CJ Newcomers and Explorers Jam (Saturday):** Every Saturday 1-3pm
+- **Themed Jam (varies weekly):** Every Thursday 7-9:30pm
+- **CJ Newcomers and Explorers Jam (Saturday):** Every Saturday 1-4pm
 - **Build a Song Workshop:** Select Saturdays 4:30pm
   Check Meetup calendar for dates.
 
@@ -3068,7 +3070,7 @@ Affordable planetarium shows in East County. Different astronomy topic each mont
 - **Phone:** 503-491-7309
 - **Website:** https://www.mhcc.edu/community-resources/visual-arts-gallery
 - **Cost:** FREE admission
-- **Hours:** Mon-Fri 10am-4pm; weekends by appointment (call 503-491-7309 ext 5)
+- **Hours:** Mon-Thu 10am-4pm; Fri-Sat by appointment (call 503-491-7309); closed Sundays and holidays
 - **Schedule:** 4 exhibitions per year (October-May)
 - **Eligibility:** Open to the public
 
@@ -3573,16 +3575,18 @@ Active programming including music series, teen programs, and Makerspace. Part o
 - **Cost:** FREE events
 - **Hours:** Wed-Fri 4pm-11pm, Sat 4pm-11pm, Sun 12:30pm-11pm, Mon 7pm-11pm, Tue closed
 
-**Tips:** Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Drawing Club (Sun 12:30-3:30pm), and karaoke (2nd & 4th Mon 8-11pm). All ages welcome for most daytime events. Casual atmosphere good for meeting people.
+**Tips:** Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Magic Luscious Spirit Sounds jam (1st & 3rd Mon 2-4pm), jazz happy hour (2nd & 4th Thu 4:30-7pm), and monthly Monday karaoke. Daytime events are all ages; 21+ after 8pm. Casual atmosphere good for meeting people.
 
 **Programs:**
 
 - **Casual Friday (Comedy Open Mic):** Fridays 5-7pm | FREE
   Happy hour comedy open mic hosted by Logan Loughmiller. Low-pressure environment for performers and audience. Women-owned community venue since 2014.
-- **Drawing Club:** Sundays 12:30-3:30pm | FREE
-  Casual drawing get-together - bring your own supplies or just hang out. All skill levels welcome. Women-owned community arts venue doubling as bar, record store, and vintage shop.
-- **Karaoke Night:** 2nd & 4th Mondays 8-11pm | FREE
-  K-Tel and Larry-okee supportive karaoke night. Low-pressure, encouraging atmosphere for singers of all abilities. 21+ after 8pm. Cash only at door, all payments at bar.
+- **Magic Luscious Spirit Sounds:** 1st & 3rd Mondays 2-4pm | FREE
+  Cross-abilities music collective jam, open to all. All ages (daytime).
+- **T34 Jazz Happy Hour:** 2nd & 4th Thursdays 4:30-7pm | FREE
+  The venue's house jazz quartet.
+- **Karaoke Night:** FREE
+  Monthly karaoke on a rotating Monday, 8-11pm, with K-Tel and Larry-okee. Date varies - check turnturnturnpdx.com or call 503-284-6019. Low-pressure, encouraging atmosphere. 21+ after 8pm. Cash only.
 
 *Casual group · Creative, Indoor, Good for isolation · Near transit*
 
@@ -3793,9 +3797,9 @@ Gladstone area food pantry, part of NW Family Services FoodMatters program. Thur
 - **Address:** 13821 Fir St, Oregon City, OR 97045
 - **Phone:** 503-655-8740
 - **Website:** https://www.gleanerscc.org
-- **Cost:** FREE - members volunteer hours monthly in exchange for weekly groceries
+- **Cost:** Membership with monthly dues ($37/month per gleanerscc.org FAQ) plus a regular volunteer commitment on a team, in exchange for weekly groceries. Adoptee option for Clackamas County residents 65+ or disabled (with proof of SSD) who cannot meet volunteer requirements - they receive food through a member.
 - **Hours:** Mon-Fri 8am-3pm
-- **Eligibility:** Must meet household income guidelines; membership required
+- **Eligibility:** Must meet HUD income guidelines; membership required to receive food
 
 Member-based, all-volunteer food share organization serving Clackamas County since 1981.
 
@@ -4627,6 +4631,8 @@ Annual intertribal powwow since 1970. Free admission. Draws participants from ac
 - **Hours:** 4-8pm
 - **Dates:** November 1, 2026
 
+⚠️ VERIFY - 2026 date not yet announced. The 2024 and 2025 editions ran on November 1 (2025 was a Saturday, 4-8pm, hosted with the Gresham Center for the Arts Foundation); November 1, 2026 is a Sunday.
+
 **What to know:** Free celebration of Mexican tradition honoring departed loved ones. Community ofrenda (altar), traditional food, music, sugar skull decorating. All welcome to participate and learn about this meaningful cultural celebration.
 
 **First visit:** Located at Gresham Arts Plaza downtown
@@ -4772,11 +4778,12 @@ Independence Day hike at 9:30am, parade at noon. Beer garden, carnival rides (wr
 ### Happy Valley Oktoberfest
 
 - **Address:** Happy Valley Park, Happy Valley, OR
-- **Website:** https://www.happyvalleyor.gov/services/hv-community-events/
+- **Website:** https://www.happyvalleyor.gov/community/community-services/community-events/oktoberfest-2/
 - **Cost:** FREE
+- **Hours:** 11am-7:30pm
 - **Dates:** October 3, 2026
 
-Date estimated based on typical first-Saturday-of-October pattern; confirm closer to event.
+2026 date confirmed by City of Happy Valley announcement (Sept 2, 2026). Rain or shine. Update dates when the 2027 date is announced.
 
 **What to know:** Free community Oktoberfest celebration with German food, beer garden, live music. Family-friendly with kids activities. Great fall neighborhood event.
 
@@ -5318,7 +5325,7 @@ Free car-free street events for biking, walking, and rolling. Four events May-Se
 - **Cost:** FREE
 - **Dates:** November 27, 2026 (day after Thanksgiving), 5:30-6:45pm
 
-Since 1984. 75-foot tree donated by Stimson Lumber. Pink Martini sing-along, 10,000 lights. 2025 was 41st annual.
+Since 1984. Pink Martini sing-along, about 10,000 lights. 2026 is the 42nd annual. Tree size and donor for 2026 not yet published.
 
 **What to know:** Since 1984 - Portland's official holiday kickoff. 75-foot tree with 10,000 lights. Pink Martini sing-along tradition. Arrives day after Thanksgiving. Right at MAX lines - easy transit access.
 
@@ -5416,10 +5423,10 @@ Free outdoor summer concert series featuring diverse music genres.
 
 ### Washington County Fair
 
-- **Address:** Washington County Fairgrounds, 801 NE 34th Ave, Hillsboro, OR
+- **Address:** Westside Commons (Washington County Fair Complex), 801 NE 34th Ave, Hillsboro, OR
 - **Website:** https://www.bigfairfun.com
 - **Cost:** FREE admission for everyone
-- **Dates:** July 24-26, 2026
+- **Dates:** July 24 - August 2, 2026
 
 One of the few county fairs with completely free admission.
 
@@ -5546,7 +5553,7 @@ Clackamas County repair fair series rotating through libraries and community cen
 - **Repair Fair - Canby:** 10am-1pm | Canby Public Library, 220 NE 2nd Ave, Canby, OR
 - **Repair Fair - Estacada:** 11am-2pm | Estacada Library, 825 NW Wade St, Estacada, OR
 - **Milwaukie Sustainability Fair:** 10am-2pm | 10723 SE Main St, Milwaukie, OR
-- **Repair Fair - Molalla:** 12-3pm | Molalla, OR (venue TBD - check clackamas.us/recycling/repairfair)
+- **Repair Fair - Molalla:** 12-3pm | Molalla Public Library, 201 E 5th St, Molalla, OR 97038
 - **Repair Fair - Oregon City:** 10am-1pm | Oregon City Public Library, 606 John Adams St, Oregon City, OR
 - **Repair Fair - Clackamas Community College:** 10am-1pm | Clackamas Community College, 19600 Molalla Ave, Oregon City, OR
 
@@ -5558,7 +5565,7 @@ Clackamas County repair fair series rotating through libraries and community cen
 - **Phone:** 503-629-6342
 - **Website:** https://www.thprd.org/facilities/recreation/elsie-stuhr-center
 - **Cost:** Drop-in fees vary; many activities free or low-cost. THPRD Financial Aid available for qualifying residents
-- **Hours:** Mon 8am-8pm, Tue 8am-2pm, Wed 8am-6pm, Thu 8am-2pm (Fri/Sat hours not captured - verify); closed Sunday and major holidays
+- **Hours:** Mon-Thu 8am-5pm, Fri 8am-2pm, Sat 8am-4pm; closed Sunday and major holidays
 - **Eligibility:** Adults 55+
 
 THPRD's only recreation center dedicated to 55+ adults. Warm, welcoming community with diverse programming.
@@ -5597,9 +5604,10 @@ Nonprofit electronics recycler and refurbisher. Volunteer shifts teach tech skil
 
 ### Friends of Trees
 
+- **Phone:** 503-282-8846
 - **Website:** https://friendsoftrees.org
 - **Cost:** FREE
-- **Schedule:** Weekend mornings during planting season (fall through spring)
+- **Schedule:** Saturday mornings October through April (planting season)
 
 Highly social tree-planting events. No experience needed, all ages welcome.
 
@@ -5716,10 +5724,10 @@ Primary hub for older adults in North Clackamas. Meals on Wheels program deliver
 
 **Programs:**
 
-- **Woodcarvers Drop-In:** Every Wednesday 8:30-11:30am | $1 NCPRD / $2 non-resident
-  Novice to advanced; guidance for starters
-- **Tai Chi for Seniors:** Mon/Wed 4-5pm
-  Gentle exercise for balance and wellness
+- **Woodcarvers Drop-In:** Small drop-in fee (about $2 NCPRD / $2.50 non-resident in 2025)
+  Novice to advanced; guidance for starters. Day and time have varied by season (Wednesday mornings or Thursdays) - call 503-653-8100 to confirm it is running.
+- **Tai Chi for Seniors**
+  Registered term class; times vary by term (winter 2026 ran Mon/Wed 3-4pm and 4:10-5:10pm). Check the current NCPRD Discovery Guide.
 - **Congregate Lunch:** Weekdays noon-12:30pm in dining room | $3 suggested donation (60+); $5 under 60
   Social dining for older adults
 
@@ -5820,13 +5828,14 @@ Explicitly welcoming to newcomers
 ### Portland Art Guild
 
 - **Address:** 3201 NE 148th Ave, Portland, OR
+- **Phone:** 888-801-8241
 - **Website:** https://portlandartguild.org/
-- **Cost:** $25-50 members, $45-90 nonmembers per class. Mission is to provide low-cost art classes accessible to all. Member discounts available.
+- **Cost:** About $50-60 members, $100-120 nonmembers per multi-session class or workshop. Membership $50/year individual, $60 family, and includes 50% off class fees. Nonmembers may take classes. Mission is to provide low-cost art classes accessible to all.
 - **Schedule:** Mondays in-person, Thursday evenings online
 
 Low-cost art classes for all skill levels. In-person Mondays, online Thursdays.
 
-**What to know:** Inclusive group for all skill levels. Member discounts bring costs down to $25-50 per class. Monday in-person classes in East Portland, Thursday online option for those who can't travel.
+**What to know:** Inclusive group for all skill levels. Membership halves class fees (about $50-60 per class). Monday in-person classes in East Portland, Thursday online option for those who can't travel.
 
 **First visit:** Browse classes at portlandartguild.org/courses. No membership required to take classes.
 
@@ -5835,8 +5844,7 @@ Low-cost art classes for all skill levels. In-person Mondays, online Thursdays.
 **Programs:**
 
 - **Drawing and painting classes**
-- **All skill levels welcome**
-- **In-person (Mondays) and online (Thursdays)**
+  All skill levels welcome. In-person classes usually Mondays; online classes generally Thursday evenings.
 
 *Structured group · Creative, Good for isolation, Indoor, Newcomer-friendly*
 
@@ -5885,6 +5893,8 @@ Operating since 2013. Part of global Repair Café movement promoting sustainabil
   Traditional Japanese embroidered mending technique. Check website for dates.
 - **Mend With Embroidery Workshop:** Periodic evenings, 6-8pm | TBD | In-person | Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
   Learn embroidery techniques for mending clothing. Check website/Eventbrite for dates.
+- **Learn to Darn Workshop:** 10am-1pm | Sliding scale (paid) | In-person | Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
+  Listed on portland.gov ResourcefulPDX repair events, October 2026
 
 *Casual group · Anxiety-friendly, Good for isolation, Creative, Indoor, Newcomer-friendly · Wheelchair accessible, Near transit*
 
@@ -5892,7 +5902,7 @@ Operating since 2013. Part of global Repair Café movement promoting sustainabil
 
 ### SOLVE Oregon
 
-- **Website:** https://www.solve.org
+- **Website:** https://www.solveoregon.org
 - **Cost:** FREE
 
 **Tips:** FREE environmental cleanups throughout the year. Oregon Spring Cleanup (April), Beach/Riverside Cleanup (September), Pick It Up Portland (year-round). Equipment provided. No experience needed. Good for giving back to community.
@@ -5902,9 +5912,9 @@ Operating since 2013. Part of global Repair Café movement promoting sustainabil
 - **Oregon Spring Cleanup:** April
   Statewide volunteer cleanup in April. Join thousands of volunteers removing litter from parks, trails, and waterways. Equipment and supplies provided. Register online for a site near you.
 - **Beach/Riverside Cleanup:** September
-  Annual coastal and river cleanup in September. Help remove debris from Oregon's beaches and riverbanks. Equipment provided. Great way to enjoy the outdoors while giving back.
+  Annual coastal and river cleanup in late September (the 2026 edition ran September 18-27). Help remove debris from Oregon's beaches and riverbanks. Equipment provided. Great way to enjoy the outdoors while giving back.
 - **Pick It Up, Portland!:** Year-round neighborhood cleanups
-  Ongoing neighborhood cleanups throughout the year. Flexible scheduling lets you volunteer when it works for you. Equipment provided. Perfect for those wanting regular outdoor volunteer opportunities.
+  Ongoing neighborhood cleanups throughout the year. Flexible scheduling lets you volunteer when it works for you. Equipment provided. Perfect for those wanting regular outdoor volunteer opportunities. ⚠️ VERIFY - SOLVE's 2026 announcements name Pick It Up, Milwaukie! and Pick It Up, Bend!, not Portland.
 
 *Casual group · Outdoor, Active/physical, Good for isolation · Wheelchair accessible*
 
@@ -6096,7 +6106,7 @@ Separate from the ongoing utility discounts already in this database (PGE, Pacif
 - **Multnomah County energy assistance:** FREE to apply | Multnomah County
   Our Just Future (formerly Human Solutions) serves very-low-income residents of Portland and East Multnomah County - call 503-405-7877 for heat and power funding availability, or 503-548-0217 for the water discount program. Call 2-1-1 for other providers.
 - **Washington County energy assistance:** FREE to apply | Washington County
-  Administered by Community Action of Washington County, which is already in this database as community-action-washington-county.
+  Administered by Community Action of Washington County, which is already in this database as community-action-washington-county. After a fall backlog pause (August 29 - September 30), applications reopened October 1 for seniors 62+ and people with disabilities; call 503-615-0771 for a paper application.
 - **Clackamas County energy assistance:** FREE to apply | Clackamas County
   Covers electricity, natural gas, oil, propane, wood, or pellets. Call 503-650-5640 to request an application; they mail it with a prepaid return envelope. Intake opens in October for people 60+, disabled, or medically fragile; in November for households with children 6 and under; and in December for every income-eligible household, running to April 15 or until funds run out.
 
