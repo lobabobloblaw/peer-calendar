@@ -76,15 +76,16 @@ END:VEVENT
 BEGIN:VEVENT
 UID:85f82cd177356b11@portlandresources.org
 DTSTAMP:20260211T000000Z
-DTSTART;TZID=America/Los_Angeles:20260105T160000
-DTEND;TZID=America/Los_Angeles:20260105T170000
+DTSTART;TZID=America/Los_Angeles:20260105T150000
+DTEND;TZID=America/Los_Angeles:20260105T160000
 SUMMARY:Milwaukie Community Center: Tai Chi for Seniors
 DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
- some low-cost\nInfo: Gentle exercise for balance and wellness\nAddress: 54
- 40 SE Kellogg Creek Dr\, Milwaukie\, OR 97222\nPhone: 503-653-8100\nWebsit
- e: https://ncprd.org/milwaukie-community-center\nDetails: Primary hub for 
- older adults in North Clackamas. Meals on Wheels program delivers 300+ mea
- ls daily.
+ some low-cost\nInfo: Registered term class\; times vary by term (winter 20
+ 26 ran Mon/Wed 3-4pm and 4:10-5:10pm). Check the current NCPRD Discovery G
+ uide.\nAddress: 5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222\nPhone: 50
+ 3-653-8100\nWebsite: https://ncprd.org/milwaukie-community-center\nDetails
+ : Primary hub for older adults in North Clackamas. Meals on Wheels program
+  delivers 300+ meals daily.
 LOCATION:5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222
 URL:https://ncprd.org/milwaukie-community-center
 RRULE:FREQ=WEEKLY;BYDAY=MO,WE
@@ -110,7 +111,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8961f5d05e61f6ab@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T150000
 DTEND;TZID=America/Los_Angeles:20260106T170000
 SUMMARY:Northwest Wools Crafting Compassion: Crafting Compassion
@@ -128,7 +129,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8569003d0f2e736e@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260108T180000
 DTEND;TZID=America/Los_Angeles:20260108T203000
 SUMMARY:Puddletown Knitters Guild: Monthly Meeting
@@ -146,7 +147,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a46e449e668cab99@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T080000
 DTEND;TZID=America/Los_Angeles:20260101T090000
 SUMMARY:Pioneer Community Center: Zumba
@@ -164,7 +165,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8e93e04951e560a1@portlandresources.org
-DTSTAMP:20260211T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T123000
 DTEND;TZID=America/Los_Angeles:20260101T140000
 SUMMARY:Pioneer Community Center: Bingo
@@ -202,7 +203,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3432df74a675b19b@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260110T120000
 DTEND;TZID=America/Los_Angeles:20260110T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -220,7 +221,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:30ef4d659b56572a@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260214T120000
 DTEND;TZID=America/Los_Angeles:20260214T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -238,7 +239,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ad18b3e73fb66aca@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260314T120000
 DTEND;TZID=America/Los_Angeles:20260314T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -256,7 +257,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:422f98ef9fdb8fa3@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260411T120000
 DTEND;TZID=America/Los_Angeles:20260411T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -274,7 +275,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:741454cf748389c6@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260509T120000
 DTEND;TZID=America/Los_Angeles:20260509T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -292,7 +293,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d21e58f557816555@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260613T120000
 DTEND;TZID=America/Los_Angeles:20260613T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -310,7 +311,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e63c0b84870ac3f5@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260711T120000
 DTEND;TZID=America/Los_Angeles:20260711T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -328,7 +329,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:08f8dd88e4d82f7a@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T120000
 DTEND;TZID=America/Los_Angeles:20260808T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -345,8 +346,44 @@ CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:05cb9bc450497075@portlandresources.org
+DTSTAMP:20261008T000000Z
+DTSTART;TZID=America/Los_Angeles:20260912T120000
+DTEND;TZID=America/Los_Angeles:20260912T150000
+SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
+DESCRIPTION:Category: Social Activities\nCost: FREE\nFormat: In-person\nInf
+ o: Volunteers fix small appliances\, bikes\, clothing. Tool/knife sharpeni
+ ng and Kintsugi repair available. Registration form recommended.\nWebsite:
+  https://www.repairpdx.org\nDetails: Operating since 2013. Part of global 
+ Repair Café movement promoting sustainability and community connection. Gr
+ eat for learning basic repair skills. Contact 503-893-9656 or repairpdx@gm
+ ail.com.
+LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:410d463b401e225e@portlandresources.org
+DTSTAMP:20261008T000000Z
+DTSTART;TZID=America/Los_Angeles:20261010T120000
+DTEND;TZID=America/Los_Angeles:20261010T150000
+SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
+DESCRIPTION:Category: Social Activities\nCost: FREE\nFormat: In-person\nInf
+ o: Volunteers fix small appliances\, bikes\, clothing. Tool/knife sharpeni
+ ng and Kintsugi repair available. Registration form recommended.\nWebsite:
+  https://www.repairpdx.org\nDetails: Operating since 2013. Part of global 
+ Repair Café movement promoting sustainability and community connection. Gr
+ eat for learning basic repair skills. Contact 503-893-9656 or repairpdx@gm
+ ail.com.
+LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:695664c10c9fd872@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260926T130000
 DTEND;TZID=America/Los_Angeles:20260926T160000
 SUMMARY:Repair PDX: Cedar Mill Library Repair Fair
@@ -364,7 +401,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2d5bdf1e6c26426c@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20261017T130000
 DTEND;TZID=America/Los_Angeles:20261017T160000
 SUMMARY:Repair PDX: Tualatin Library Repair Fair
@@ -382,7 +419,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e64eb6b85bee52da@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260114T180000
 DTEND;TZID=America/Los_Angeles:20260114T200000
 SUMMARY:Repair PDX: Soldering for Home Electronics Repairs Workshop
@@ -399,7 +436,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cb6d9141ea768a8f@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260118T100000
 DTEND;TZID=America/Los_Angeles:20260118T130000
 SUMMARY:Repair PDX: Sashiko Mending Workshop
@@ -416,7 +453,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:47ccfa6d4b581092@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260322T100000
 DTEND;TZID=America/Los_Angeles:20260322T130000
 SUMMARY:Repair PDX: Sashiko Mending Workshop
@@ -433,7 +470,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c81962a1bd7d2482@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260330T180000
 DTEND;TZID=America/Los_Angeles:20260330T200000
 SUMMARY:Repair PDX: Mend With Embroidery Workshop
@@ -449,8 +486,25 @@ CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:f7956fad993a84c0@portlandresources.org
+DTSTAMP:20261008T000000Z
+DTSTART;TZID=America/Los_Angeles:20261024T100000
+DTEND;TZID=America/Los_Angeles:20261024T130000
+SUMMARY:Repair PDX: Learn to Darn Workshop
+DESCRIPTION:Category: Social Activities\nCost: Sliding scale (paid)\nFormat
+ : In-person\nInfo: Listed on portland.gov ResourcefulPDX repair events\, O
+ ctober 2026\nWebsite: https://www.repairpdx.org\nDetails: Operating since 
+ 2013. Part of global Repair Café movement promoting sustainability and com
+ munity connection. Great for learning basic repair skills. Contact 503-893
+ -9656 or repairpdx@gmail.com.
+LOCATION:Leaven Community Center\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:624f2b20731fcb70@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260228T100000
 DTEND;TZID=America/Los_Angeles:20260228T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - West Linn
@@ -466,7 +520,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3f3149a6fa9bdf22@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260314T100000
 DTEND;TZID=America/Los_Angeles:20260314T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Oak Grove/Milwaukie
@@ -481,7 +535,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49b50bb9a25b3c3c@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260404T130000
 DTEND;TZID=America/Los_Angeles:20260404T160000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Gladstone
@@ -496,7 +550,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:757e1433fd2efe49@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260418T100000
 DTEND;TZID=America/Los_Angeles:20260418T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Happy Valley
@@ -512,7 +566,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17b6b256361be7b2@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260516T100000
 DTEND;TZID=America/Los_Angeles:20260516T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Lake Oswego
@@ -527,7 +581,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5ea56ad8448c7f9b@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260530T100000
 DTEND;TZID=America/Los_Angeles:20260530T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Wilsonville
@@ -543,7 +597,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d404f0c1dc7c855@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260613T100000
 DTEND;TZID=America/Los_Angeles:20260613T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Sandy
@@ -558,7 +612,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9ee4409b09b3caa6@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260718T100000
 DTEND;TZID=America/Los_Angeles:20260718T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Canby
@@ -573,7 +627,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dca1f49eebde20b3@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T110000
 DTEND;TZID=America/Los_Angeles:20260808T140000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Estacada
@@ -588,7 +642,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8342ee4af0164666@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260919T100000
 DTEND;TZID=America/Los_Angeles:20260919T140000
 SUMMARY:Clackamas County Repair Fairs: Milwaukie Sustainability Fair
@@ -603,7 +657,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e083ad23c713dcc0@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20261010T120000
 DTEND;TZID=America/Los_Angeles:20261010T150000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Molalla
@@ -611,14 +665,14 @@ DESCRIPTION:Category: Social Activities\nCost: FREE\nWebsite: https://www.c
  lackamas.us/recycling/repairfair\nDetails: Clackamas County repair fair se
  ries rotating through libraries and community centers. Check clackamas.us/
  recycling/repairfair for latest schedule.
-LOCATION:Molalla\, OR (venue TBD - check clackamas.us/recycling/repairfair)
+LOCATION:Molalla Public Library\, 201 E 5th St\, Molalla\, OR 97038
 URL:https://www.clackamas.us/recycling/repairfair
 CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8b15f94e3f55e9c2@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20261024T100000
 DTEND;TZID=America/Los_Angeles:20261024T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Oregon City
@@ -633,7 +687,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:551f37e6feb55818@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20261107T100000
 DTEND;TZID=America/Los_Angeles:20261107T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Clackamas Community Co

@@ -25,7 +25,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:b8b48cbe08f220fe@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260111T150000
 DTEND;TZID=America/Los_Angeles:20260111T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (In-Person)
@@ -51,7 +51,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dba6711eb13da213@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T150000
 DTEND;TZID=America/Los_Angeles:20260104T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (Online)
@@ -76,7 +76,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9777816b12080f9@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support
@@ -102,7 +102,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:59d4efd22aea95e4@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260111T130000
 DTEND;TZID=America/Los_Angeles:20260111T143000
 SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support (In-Person)
@@ -129,13 +129,13 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:6be9edf2f9be9c02@portlandresources.org
-DTSTAMP:20260910T000000Z
-DTSTART;TZID=America/Los_Angeles:20260114T190000
-DTEND;TZID=America/Los_Angeles:20260114T203000
-SUMMARY:NAMI Multnomah: Young Adult (18-35) Online
+UID:59234b683662965b@portlandresources.org
+DTSTAMP:20261008T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T180000
+DTEND;TZID=America/Los_Angeles:20260107T193000
+SUMMARY:NAMI Multnomah: Young Adult (18-30) Online
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
- Ages 18-35 with mental health symptoms\nAddress: 464 SE 185th Ave\, Suite 
+ Ages 18-30 with mental health symptoms\nAddress: 464 SE 185th Ave\, Suite 
  315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: https://namimultn
  omah.org\nDetails: No diagnosis required for any groups. Groups are peer-l
  ed by trained volunteers with lived experience. NAMI Multnomah also runs f
@@ -145,17 +145,17 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility:
  ity Collective)\, Parent Support Group (1st & 3rd Wednesdays 4-5:15pm)\, a
  nd Military Family Support Group (2nd Thursday 6-7:30pm). Refer family mem
  bers to namimultnomah.org/family-support-groups or 503-228-5692.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p><strong>Eligibility:</strong> Ages 18-35 with mental health symptoms</p><p><strong>Address:</strong> 464 SE 185th Ave, Suite 315, Portland, OR 97233</p><p><strong>Phone:</strong> <a href="tel:503-228-5692">503-228-5692</a></p><p><strong>Website:</strong> <a href="https://namimultnomah.org">https://namimultnomah.org</a></p><p><strong>Details:</strong> No diagnosis required for any groups. Groups are peer-led by trained volunteers with lived experience. NAMI Multnomah also runs family and caregiver groups that are deliberately not listed here, because this database covers groups people attend for their own support - Family Support Group (Mondays 6-7:30pm, 1st Monday in person at Rose City Community Collective), Parent Support Group (1st &amp; 3rd Wednesdays 4-5:15pm), and Military Family Support Group (2nd Thursday 6-7:30pm). Refer family members to namimultnomah.org/family-support-groups or 503-228-5692.</p></BODY></HTML>
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Peer Support</p><p><strong>Cost:</strong> FREE</p><p><strong>Format:</strong> Zoom</p><p><strong>Eligibility:</strong> Ages 18-30 with mental health symptoms</p><p><strong>Address:</strong> 464 SE 185th Ave, Suite 315, Portland, OR 97233</p><p><strong>Phone:</strong> <a href="tel:503-228-5692">503-228-5692</a></p><p><strong>Website:</strong> <a href="https://namimultnomah.org">https://namimultnomah.org</a></p><p><strong>Details:</strong> No diagnosis required for any groups. Groups are peer-led by trained volunteers with lived experience. NAMI Multnomah also runs family and caregiver groups that are deliberately not listed here, because this database covers groups people attend for their own support - Family Support Group (Mondays 6-7:30pm, 1st Monday in person at Rose City Community Collective), Parent Support Group (1st &amp; 3rd Wednesdays 4-5:15pm), and Military Family Support Group (2nd Thursday 6-7:30pm). Refer family members to namimultnomah.org/family-support-groups or 503-228-5692.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
 URL:https://namimultnomah.org
-RRULE:FREQ=MONTHLY;BYDAY=2WE,4WE
+RRULE:FREQ=MONTHLY;BYDAY=1WE,3WE
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e824f70c00e4569b@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260111T150000
 DTEND;TZID=America/Los_Angeles:20260111T163000
 SUMMARY:NAMI Multnomah: Young Adult (18-35) In-Person
@@ -181,7 +181,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4b11c0aa298f2306@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:NAMI Multnomah: BIPOC Peer Support
@@ -207,7 +207,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c08dbed81b24d0f5@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Multnomah: Complex Trauma & Dissociation Support
@@ -721,7 +721,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:651932636ba165c7@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): LGBTQIA+ Suppo
@@ -740,7 +740,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:215024356d2538f2@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (W
@@ -759,7 +759,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49d6b06cbd9d0a5b@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (E
@@ -777,7 +777,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a8aee7696d751ae1@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T100000
 DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Mental Healthc
@@ -3073,7 +3073,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cb871f080e917e57@portlandresources.org
-DTSTAMP:20260916T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20261003T110000
 DTEND;TZID=America/Los_Angeles:20261003T130000
 SUMMARY:Out of the Darkness Community Walk - Portland (AFSP Oregon): Out of

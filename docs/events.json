@@ -1,6 +1,6 @@
 {
   "schedule_schema_version": 1,
-  "generated": "2026-09-16",
+  "generated": "2026-10-08",
   "count": 287,
   "categories": {
     "peer_support": "Peer Support",
@@ -1074,7 +1074,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-03-25",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "transit_nearby"
       ],
@@ -1416,7 +1416,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-03-25",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "transit_nearby"
       ],
@@ -1566,10 +1566,10 @@
           }
         },
         {
-          "name": "Young Adult (18-35) Online",
-          "schedule": "2nd & 4th Wednesdays, 7-8:30pm",
+          "name": "Young Adult (18-30) Online",
+          "schedule": "1st & 3rd Wednesdays, 6-7:30pm",
           "format": "Zoom",
-          "eligibility": "Ages 18-35 with mental health symptoms",
+          "eligibility": "Ages 18-30 with mental health symptoms",
           "audience": [
             "young_adults"
           ],
@@ -1581,13 +1581,13 @@
               "WE"
             ],
             "month_weeks": [
-              2,
-              4
+              1,
+              3
             ],
-            "anchor_date": "2026-01-14",
+            "anchor_date": "2026-01-07",
             "until_date": null,
-            "start_time": "19:00",
-            "end_time": "20:30",
+            "start_time": "18:00",
+            "end_time": "19:30",
             "end_day_offset": 0
           }
         },
@@ -1672,7 +1672,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "transit_nearby"
       ],
@@ -2584,7 +2584,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -2717,7 +2717,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -2863,7 +2863,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-08-13",
+      "last_verified": "2026-10-08",
       "accessibility": [],
       "social_intensity": "structured_group",
       "good_for": [
@@ -5878,11 +5878,24 @@
       "programs": [
         {
           "name": "Mellow Mondays",
-          "schedule": "Every Monday",
-          "location": "Irving Park",
-          "notes": "Casual social ride, welcoming to newcomers",
+          "schedule": "Every Monday 7pm",
+          "location": "Abernethy Elementary School, Ladd's Addition (SE Portland)",
+          "notes": "Casual, no-drop, beginner- and family-friendly loop of about 8-12 miles at a relaxed pace; leaves around 7:30pm.",
           "audience": [],
-          "resolved_schedule": null
+          "resolved_schedule": {
+            "type": "recurring",
+            "frequency": "weekly",
+            "interval": 1,
+            "weekdays": [
+              "MO"
+            ],
+            "month_weeks": [],
+            "anchor_date": "2026-01-05",
+            "until_date": null,
+            "start_time": "19:00",
+            "end_time": "20:00",
+            "end_day_offset": 0
+          }
         },
         {
           "name": "Foster Night Ride",
@@ -5909,6 +5922,7 @@
         {
           "name": "Friday Night Ride",
           "schedule": "Every Friday (check shift2bikes.org/calendar for meeting point)",
+          "notes": "21+; meet about 7pm, ride about 8pm; sporty pace, 15-25 miles, not necessarily no-drop.",
           "audience": [],
           "resolved_schedule": null
         },
@@ -5933,7 +5947,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-07-28",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "transit_nearby"
       ],
@@ -7314,7 +7328,7 @@
       "longitude": null,
       "phone": "503-645-6433",
       "email": null,
-      "website": "https://www.tualatinhillsparks.org/446/Fitness-In-The-Park",
+      "website": "https://www.thprd.org/fitness-in-the-park",
       "pricing": {
         "description": "FREE"
       },
@@ -7326,7 +7340,7 @@
       "transit": null,
       "parking": null,
       "languages": null,
-      "season": "Year-round; session schedules change each term. Summer 2026 runs June 15 - August 23, with no classes on June 19, July 3 or July 4.",
+      "season": "Year-round; session schedules change each term. Fall 2026 runs September 14 - December 13 (free, no registration). Fall classes also meet at partner sites (Holly Tree, The Barcelona, The Opal) - call 503-629-6330 to confirm those are open to the public before attending.",
       "organizer": null,
       "status": null,
       "location_type": "physical",
@@ -7697,6 +7711,28 @@
           }
         },
         {
+          "name": "Tai Chi at Greenway Park",
+          "schedule": "Saturdays 10am",
+          "location": "Greenway Park covered area, SW Greenway & SW Parkview Loop, Beaverton, OR",
+          "schedule_start_date": "2026-09-14",
+          "schedule_end_date": "2026-12-13",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "recurring",
+            "frequency": "weekly",
+            "interval": 1,
+            "weekdays": [
+              "SA"
+            ],
+            "month_weeks": [],
+            "anchor_date": "2026-09-19",
+            "until_date": "2026-12-13",
+            "start_time": "10:00",
+            "end_time": "11:00",
+            "end_day_offset": 0
+          }
+        },
+        {
           "name": "Tai Chi at Melilah Park",
           "schedule": "Sundays 10am",
           "location": "Melilah Park",
@@ -7935,7 +7971,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
-      "last_verified": "2026-08-13",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -7961,12 +7997,12 @@
       "category": "fitness_wellness",
       "categoryName": "Fitness & Wellness",
       "color": "#496800",
-      "address": "Various parks - Whitaker Ponds, Smith & Bybee Wetlands, etc.",
+      "address": "Various parks - Whitaker Ponds, Cooper Mountain Nature Park, etc.",
       "latitude": null,
       "longitude": null,
       "phone": null,
       "email": null,
-      "website": "https://www.meetup.com/portland-bird-watching-meetup-group/",
+      "website": "https://www.birdingforthepeople.org/",
       "pricing": {
         "description": "FREE"
       },
@@ -7990,7 +8026,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-04-15",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "varies"
       ],
@@ -8175,7 +8211,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-02-13",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "transit_nearby"
       ],
@@ -8970,7 +9006,7 @@
         "regular": "FREE admission (pay per game)",
         "free_play_all_ages": "$6 (noon-5pm)",
         "free_play_21_plus": "$12 (after 5pm)",
-        "weekend_cover": "Cover charge during peak weekend hours"
+        "weekend_cover": "$4 cover after 7pm Friday-Saturday (no cover Sunday-Thursday; Free Play nights excepted)"
       },
       "hours": "Daily noon-midnight (all ages until 5pm, 21+ after)",
       "eligibility": null,
@@ -9040,10 +9076,8 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "resolved_schedule": null,
-      "flags": [
-        "\u26a0\ufe0f VERIFY - A 2026 listing describes Free Play as a $5 cover with doors at 5pm and all-ages admission only Friday-Sunday noon-5pm, which conflicts with the stored $6 all-ages / $12 21+ all-day pricing. Check groundkontrol.com/events before quoting prices."
-      ],
-      "last_verified": "2026-02-11",
+      "flags": [],
+      "last_verified": "2026-10-08",
       "accessibility": [
         "transit_nearby"
       ],
@@ -10374,7 +10408,9 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "resolved_schedule": null,
-      "flags": [],
+      "flags": [
+        "\u26a0\ufe0f VERIFY - The official entertainment page (2026) no longer shows a recurring Sunday Drawing Club, and lists karaoke as a monthly rotating Monday 8-11pm rather than 2nd & 4th Mondays. Hours unconfirmed. Call 503-284-6019."
+      ],
       "last_verified": "2026-02-13",
       "accessibility": [
         "transit_nearby"
@@ -11397,7 +11433,7 @@
       "pricing": {
         "description": "FREE admission"
       },
-      "hours": "Mon-Fri 10am-4pm; weekends by appointment (call 503-491-7309 ext 5)",
+      "hours": "Mon-Thu 10am-4pm; Fri-Sat by appointment (call 503-491-7309); closed Sundays and holidays",
       "eligibility": "Open to the public",
       "features": [
         "2,000 sq ft gallery space",
@@ -11423,7 +11459,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-04-22",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -12608,7 +12644,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
-      "last_verified": "2026-05-01",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "transit_nearby"
       ],
@@ -12678,7 +12714,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
-      "last_verified": "2026-01-24",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -12691,7 +12727,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Since 1984. 75-foot tree donated by Stimson Lumber. Pink Martini sing-along, 10,000 lights. 2025 was 41st annual.",
+      "notes": "Since 1984. Pink Martini sing-along, about 10,000 lights. 2026 is the 42nd annual. Tree size and donor for 2026 not yet published.",
       "practical_tips": {
         "first_visit": "Arrive early for best viewing spot on the square's brick steps",
         "registration": "None - free and open to all",
@@ -13558,7 +13594,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": null,
+      "notes": "\u26a0\ufe0f VERIFY - 2026 date not yet announced. The 2024 and 2025 editions ran on November 1 (2025 was a Saturday, 4-8pm, hosted with the Gresham Center for the Arts Foundation); November 1, 2026 is a Sunday.",
       "practical_tips": {
         "first_visit": "Located at Gresham Arts Plaza downtown",
         "registration": "None - free admission",
@@ -13720,11 +13756,11 @@
       "longitude": -122.521144,
       "phone": null,
       "email": null,
-      "website": "https://www.happyvalleyor.gov/services/hv-community-events/",
+      "website": "https://www.happyvalleyor.gov/community/community-services/community-events/oktoberfest-2/",
       "pricing": {
         "description": "FREE"
       },
-      "hours": null,
+      "hours": "11am-7:30pm",
       "eligibility": null,
       "features": [],
       "locations": [],
@@ -13758,7 +13794,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
-      "last_verified": "2026-01-29",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -13771,7 +13807,7 @@
         "children"
       ],
       "audience_notes": null,
-      "notes": "Date estimated based on typical first-Saturday-of-October pattern; confirm closer to event.",
+      "notes": "2026 date confirmed by City of Happy Valley announcement (Sept 2, 2026). Rain or shine. Update dates when the 2027 date is announced.",
       "practical_tips": {
         "first_visit": "Happy Valley Park location",
         "registration": "None - free admission",
@@ -14466,7 +14502,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-10-08",
       "accessibility": [],
       "social_intensity": "drop_in",
       "good_for": [
@@ -16877,14 +16913,15 @@
       "email": "vp@gleanerscc.org",
       "website": "https://www.gleanerscc.org",
       "pricing": {
-        "description": "FREE - members volunteer hours monthly in exchange for weekly groceries"
+        "description": "Membership with monthly dues ($37/month per gleanerscc.org FAQ) plus a regular volunteer commitment on a team, in exchange for weekly groceries",
+        "notes": "Adoptee option for Clackamas County residents 65+ or disabled (with proof of SSD) who cannot meet volunteer requirements - they receive food through a member."
       },
       "hours": "Mon-Fri 8am-3pm",
-      "eligibility": "Must meet household income guidelines; membership required",
+      "eligibility": "Must meet HUD income guidelines; membership required to receive food",
       "features": [],
       "locations": [],
       "services": [
-        "Weekly groceries and essentials (members volunteer monthly hours)",
+        "Weekly groceries and essentials (members pay monthly dues and volunteer)",
         "Resource center with clothing and household items",
         "Surplus Day events",
         "Field Picks & Firewood"
@@ -16904,7 +16941,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-04-22",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -17404,7 +17441,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-08-13",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -17930,7 +17967,9 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "resolved_schedule": null,
-      "flags": [],
+      "flags": [
+        "\u26a0\ufe0f VERIFY - Wednesday pantry hours conflict (10am-4pm per 211info and the center's homepage; 12-6pm per foodbanks.net). Friday 10am-4pm is consistent. Call 503-668-4746."
+      ],
       "last_verified": "2026-03-30",
       "accessibility": [],
       "social_intensity": "drop_in",
@@ -18261,7 +18300,9 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "resolved_schedule": null,
-      "flags": [],
+      "flags": [
+        "\u26a0\ufe0f VERIFY - Tuesday CORE game night not found on current Meetup listings (only an older BoardGameGeek listing, 4:15-9:30pm). The current Meetup series at CORE is a biweekly Thursday \"Board Games for 50-Somethings\". Wednesday at Board Bard confirmed October 2026."
+      ],
       "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible",
@@ -18347,8 +18388,8 @@
         },
         {
           "name": "Tai Chi for Seniors",
-          "schedule": "Mon/Wed 4-5pm",
-          "notes": "Gentle exercise for balance and wellness",
+          "schedule": "Mon/Wed 3-4pm",
+          "notes": "Registered term class; times vary by term (winter 2026 ran Mon/Wed 3-4pm and 4:10-5:10pm). Check the current NCPRD Discovery Guide.",
           "audience": [
             "seniors"
           ],
@@ -18363,8 +18404,8 @@
             "month_weeks": [],
             "anchor_date": "2026-01-05",
             "until_date": null,
-            "start_time": "16:00",
-            "end_time": "17:00",
+            "start_time": "15:00",
+            "end_time": "16:00",
             "end_day_offset": 0
           }
         },
@@ -18401,7 +18442,9 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "resolved_schedule": null,
-      "flags": [],
+      "flags": [
+        "\u26a0\ufe0f VERIFY - Fall 2026 program times not found. Tai Chi time comes from the winter 2026 Discovery Guide; Woodcarvers Drop-In did not appear in the current drop-in list excerpt. Hours, address and phone confirmed October 2026. Call 503-653-8100."
+      ],
       "last_verified": "2026-02-11",
       "accessibility": [
         "wheelchair_accessible",
@@ -18507,7 +18550,7 @@
       "address": null,
       "latitude": null,
       "longitude": null,
-      "phone": null,
+      "phone": "503-282-8846",
       "email": null,
       "website": "https://friendsoftrees.org",
       "pricing": {
@@ -18528,12 +18571,12 @@
       "resource_type": "organization",
       "programs": [],
       "dates": null,
-      "schedule": "Weekend mornings during planting season (fall through spring)",
+      "schedule": "Saturday mornings October through April (planting season)",
       "schedule_start_date": null,
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-04-22",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -18560,7 +18603,7 @@
       "longitude": null,
       "phone": null,
       "email": null,
-      "website": "https://www.solve.org",
+      "website": "https://www.solveoregon.org",
       "pricing": {
         "description": "FREE"
       },
@@ -18588,14 +18631,14 @@
         {
           "name": "Beach/Riverside Cleanup",
           "schedule": "September",
-          "notes": "Annual coastal and river cleanup in September. Help remove debris from Oregon's beaches and riverbanks. Equipment provided. Great way to enjoy the outdoors while giving back.",
+          "notes": "Annual coastal and river cleanup in late September (the 2026 edition ran September 18-27). Help remove debris from Oregon's beaches and riverbanks. Equipment provided. Great way to enjoy the outdoors while giving back.",
           "audience": [],
           "resolved_schedule": null
         },
         {
           "name": "Pick It Up, Portland!",
           "schedule": "Year-round neighborhood cleanups",
-          "notes": "Ongoing neighborhood cleanups throughout the year. Flexible scheduling lets you volunteer when it works for you. Equipment provided. Perfect for those wanting regular outdoor volunteer opportunities.",
+          "notes": "Ongoing neighborhood cleanups throughout the year. Flexible scheduling lets you volunteer when it works for you. Equipment provided. Perfect for those wanting regular outdoor volunteer opportunities. \u26a0\ufe0f VERIFY - SOLVE's 2026 announcements name Pick It Up, Milwaukie! and Pick It Up, Bend!, not Portland.",
           "audience": [],
           "resolved_schedule": null
         }
@@ -18606,7 +18649,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-04-22",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -18763,12 +18806,12 @@
       "address": "3201 NE 148th Ave, Portland, OR",
       "latitude": 45.546314,
       "longitude": -122.510614,
-      "phone": null,
+      "phone": "888-801-8241",
       "email": null,
       "website": "https://portlandartguild.org/",
       "pricing": {
-        "description": "$25-50 members, $45-90 nonmembers per class",
-        "notes": "Mission is to provide low-cost art classes accessible to all. Member discounts available."
+        "description": "About $50-60 members, $100-120 nonmembers per multi-session class or workshop",
+        "notes": "Membership $50/year individual, $60 family, and includes 50% off class fees. Nonmembers may take classes. Mission is to provide low-cost art classes accessible to all."
       },
       "hours": null,
       "eligibility": null,
@@ -18786,16 +18829,7 @@
       "programs": [
         {
           "name": "Drawing and painting classes",
-          "audience": [],
-          "resolved_schedule": null
-        },
-        {
-          "name": "All skill levels welcome",
-          "audience": [],
-          "resolved_schedule": null
-        },
-        {
-          "name": "In-person (Mondays) and online (Thursdays)",
+          "notes": "All skill levels welcome. In-person classes usually Mondays; online classes generally Thursday evenings.",
           "audience": [],
           "resolved_schedule": null
         }
@@ -18806,7 +18840,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-03-24",
+      "last_verified": "2026-10-08",
       "accessibility": [],
       "social_intensity": "structured_group",
       "good_for": [
@@ -18821,7 +18855,7 @@
       "practical_tips": {
         "first_visit": "Browse classes at portlandartguild.org/courses. No membership required to take classes.",
         "registration": "Online via website",
-        "good_to_know": "Inclusive group for all skill levels. Member discounts bring costs down to $25-50 per class. Monday in-person classes in East Portland, Thursday online option for those who can't travel."
+        "good_to_know": "Inclusive group for all skill levels. Membership halves class fees (about $50-60 per class). Monday in-person classes in East Portland, Thursday online option for those who can't travel."
       }
     },
     {
@@ -18881,7 +18915,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-02-11",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -18956,7 +18990,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-02-11",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -19059,7 +19093,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-02-11",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -19357,7 +19391,7 @@
         "description": "Drop-in fees vary; many activities free or low-cost",
         "notes": "THPRD Financial Aid available for qualifying residents"
       },
-      "hours": "Mon 8am-8pm, Tue 8am-2pm, Wed 8am-6pm, Thu 8am-2pm (Fri/Sat hours not captured - verify); closed Sunday and major holidays",
+      "hours": "Mon-Thu 8am-5pm, Fri 8am-2pm, Sat 8am-4pm; closed Sunday and major holidays",
       "eligibility": "Adults 55+",
       "features": [],
       "locations": [],
@@ -19426,7 +19460,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [
-        "\u26a0\ufe0f VERIFY - The official THPRD page in September 2026 lists day-by-day hours (Mon 8am-8pm, Tue 8am-2pm, Wed 8am-6pm, Thu 8am-2pm) that differ from the previously stored Mon-Thu 8am-5pm; the snippet cut off before Friday and Saturday. Confirm at 503-629-6342."
+        "\u26a0\ufe0f VERIFY - THPRD's web schedule (October 2026, lists 2026 Thanksgiving closures) gives Mon-Thu 8am-5pm, Fri 8am-2pm, Sat 8am-4pm; an undated THPRD PDF gives Mon 8am-8pm, Tue 8am-2pm, Wed 8am-6pm, Thu/Fri 8am-2pm. Confirm at 503-629-6342."
       ],
       "last_verified": "2026-02-13",
       "accessibility": [
@@ -19739,7 +19773,9 @@
             "May 9, 2026",
             "June 13, 2026",
             "July 11, 2026",
-            "August 8, 2026"
+            "August 8, 2026",
+            "September 12, 2026",
+            "October 10, 2026"
           ],
           "audience": [],
           "resolved_schedule": {
@@ -19804,6 +19840,22 @@
               {
                 "start_date": "2026-08-08",
                 "end_date": "2026-08-08",
+                "all_day": false,
+                "start_time": "12:00",
+                "end_time": "15:00",
+                "end_day_offset": 0
+              },
+              {
+                "start_date": "2026-09-12",
+                "end_date": "2026-09-12",
+                "all_day": false,
+                "start_time": "12:00",
+                "end_time": "15:00",
+                "end_day_offset": 0
+              },
+              {
+                "start_date": "2026-10-10",
+                "end_date": "2026-10-10",
                 "all_day": false,
                 "start_time": "12:00",
                 "end_time": "15:00",
@@ -19941,6 +19993,29 @@
               }
             ]
           }
+        },
+        {
+          "name": "Learn to Darn Workshop",
+          "dates": "October 24, 2026",
+          "schedule": "10am-1pm",
+          "location": "Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211",
+          "cost": "Sliding scale (paid)",
+          "format": "In-person",
+          "notes": "Listed on portland.gov ResourcefulPDX repair events, October 2026",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-10-24",
+                "end_date": "2026-10-24",
+                "all_day": false,
+                "start_time": "10:00",
+                "end_time": "13:00",
+                "end_day_offset": 0
+              }
+            ]
+          }
         }
       ],
       "dates": null,
@@ -19950,9 +20025,9 @@
       "resolved_schedule": null,
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE",
-        "\u26a0\ufe0f VERIFY - The projected 2nd-Saturday Leaven Repair Caf\u00e9 dates for September-December 2026 were removed on 2026-09-10 because repairpdx.org/repair-events listed other fall fairs (Cedar Mill Sept 26, Molalla Oct 10, Tualatin Oct 17, Oregon City Oct 24, CCC Nov 7) but no Leaven caf\u00e9 after June 13. Re-add Leaven dates once published."
+        "\u26a0\ufe0f VERIFY - Leaven Repair Caf\u00e9s resumed September 12 and October 10, 2026 (portland.gov ResourcefulPDX). November and December dates not yet published; add them once listed."
       ],
-      "last_verified": "2026-07-28",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -20208,7 +20283,7 @@
           "name": "Repair Fair - Molalla",
           "dates": "October 10, 2026",
           "schedule": "12-3pm",
-          "location": "Molalla, OR (venue TBD - check clackamas.us/recycling/repairfair)",
+          "location": "Molalla Public Library, 201 E 5th St, Molalla, OR 97038",
           "audience": [],
           "resolved_schedule": {
             "type": "fixed",
@@ -20273,7 +20348,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -20757,7 +20832,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-04-22",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "varies"
       ],
@@ -22976,7 +23051,7 @@
       "category": "events",
       "categoryName": "Events & Festivals",
       "color": "#B6402F",
-      "address": "Washington County Fairgrounds, 801 NE 34th Ave, Hillsboro, OR",
+      "address": "Westside Commons (Washington County Fair Complex), 801 NE 34th Ave, Hillsboro, OR",
       "latitude": 45.52995,
       "longitude": -122.95036,
       "phone": null,
@@ -22999,7 +23074,7 @@
       "location_type": "physical",
       "resource_type": "event",
       "programs": [],
-      "dates": "July 24-26, 2026",
+      "dates": "July 24 - August 2, 2026",
       "schedule": null,
       "schedule_start_date": null,
       "schedule_end_date": null,
@@ -23008,7 +23083,7 @@
         "occurrences": [
           {
             "start_date": "2026-07-24",
-            "end_date": "2026-07-26",
+            "end_date": "2026-08-02",
             "all_day": true,
             "start_time": null,
             "end_time": null,
@@ -23019,7 +23094,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
-      "last_verified": "2026-01-17",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -24669,7 +24744,7 @@
       "email": null,
       "website": "https://communityjams.org",
       "pricing": {
-        "description": "FREE"
+        "description": "FREE to attend; $20 suggested donation (PayPal/Venmo)"
       },
       "hours": null,
       "eligibility": null,
@@ -24764,7 +24839,7 @@
         },
         {
           "name": "Themed Jam (varies weekly)",
-          "schedule": "Thursdays 7pm",
+          "schedule": "Every Thursday 7-9:30pm",
           "audience": [],
           "resolved_schedule": {
             "type": "recurring",
@@ -24777,13 +24852,13 @@
             "anchor_date": "2026-01-01",
             "until_date": null,
             "start_time": "19:00",
-            "end_time": "20:00",
+            "end_time": "21:30",
             "end_day_offset": 0
           }
         },
         {
           "name": "CJ Newcomers and Explorers Jam (Saturday)",
-          "schedule": "Every Saturday 1-3pm",
+          "schedule": "Every Saturday 1-4pm",
           "audience": [],
           "resolved_schedule": {
             "type": "recurring",
@@ -24796,7 +24871,7 @@
             "anchor_date": "2026-01-03",
             "until_date": null,
             "start_time": "13:00",
-            "end_time": "15:00",
+            "end_time": "16:00",
             "end_day_offset": 0
           }
         },
@@ -24827,7 +24902,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-03-04",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "transit_nearby"
       ],
@@ -26419,7 +26494,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
-      "last_verified": "2026-08-13",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -27137,7 +27212,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-10-08",
       "accessibility": [],
       "social_intensity": "casual_group",
       "good_for": [
