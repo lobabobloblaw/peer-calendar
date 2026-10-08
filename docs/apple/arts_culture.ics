@@ -417,36 +417,33 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:d8fc3329cc6894ad@portlandresources.org
+UID:b4963df932d826eb@portlandresources.org
 DTSTAMP:20260213T000000Z
-DTSTART;TZID=America/Los_Angeles:20260104T123000
-DTEND;TZID=America/Los_Angeles:20260104T153000
-SUMMARY:Turn! Turn! Turn!: Drawing Club
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Casual drawing get-
- together - bring your own supplies or just hang out. All skill levels welc
- ome. Women-owned community arts venue doubling as bar\, record store\, and
-  vintage shop.\nAddress: 8 NE Killingsworth St\, Portland\, OR 97211\nPhon
- e: 503-284-6019\nWebsite: https://turnturnturnpdx.com/
+DTSTART;TZID=America/Los_Angeles:20260105T140000
+DTEND;TZID=America/Los_Angeles:20260105T160000
+SUMMARY:Turn! Turn! Turn!: Magic Luscious Spirit Sounds
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Cross-abilities mus
+ ic collective jam\, open to all. All ages (daytime).\nAddress: 8 NE Killin
+ gsworth St\, Portland\, OR 97211\nPhone: 503-284-6019\nWebsite: https://tu
+ rnturnturnpdx.com/
 LOCATION:8 NE Killingsworth St\, Portland\, OR 97211
 URL:https://turnturnturnpdx.com/
-RRULE:FREQ=WEEKLY;BYDAY=SU
+RRULE:FREQ=MONTHLY;BYDAY=1MO,3MO
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:d9e5489d6044ef66@portlandresources.org
+UID:7e3bbed5538c503e@portlandresources.org
 DTSTAMP:20260213T000000Z
-DTSTART;TZID=America/Los_Angeles:20260112T200000
-DTEND;TZID=America/Los_Angeles:20260112T230000
-SUMMARY:Turn! Turn! Turn!: Karaoke Night
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: K-Tel and Larry-oke
- e supportive karaoke night. Low-pressure\, encouraging atmosphere for sing
- ers of all abilities. 21+ after 8pm. Cash only at door\, all payments at b
- ar.\nAddress: 8 NE Killingsworth St\, Portland\, OR 97211\nPhone: 503-284-
- 6019\nWebsite: https://turnturnturnpdx.com/
+DTSTART;TZID=America/Los_Angeles:20260108T163000
+DTEND;TZID=America/Los_Angeles:20260108T190000
+SUMMARY:Turn! Turn! Turn!: T34 Jazz Happy Hour
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: The venue's house j
+ azz quartet.\nAddress: 8 NE Killingsworth St\, Portland\, OR 97211\nPhone:
+  503-284-6019\nWebsite: https://turnturnturnpdx.com/
 LOCATION:8 NE Killingsworth St\, Portland\, OR 97211
 URL:https://turnturnturnpdx.com/
-RRULE:FREQ=MONTHLY;BYDAY=2MO,4MO
+RRULE:FREQ=MONTHLY;BYDAY=2TH,4TH
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -253,7 +253,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:037946b9b573fb32@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Clackamas: NAMI Connection Support Group - Tuesday
@@ -271,7 +271,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1b9953e2137b6606@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T140000
 DTEND;TZID=America/Los_Angeles:20260107T153000
 SUMMARY:NAMI Clackamas: NAMI Connection Support Group - Wednesday
@@ -289,7 +289,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:53e690c50aeada48@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T180000
 DTEND;TZID=America/Los_Angeles:20260104T193000
 SUMMARY:NAMI Clackamas: NAMI Connection Support Group - Sunday
@@ -307,7 +307,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:abda9c8971b1314b@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T170000
 DTEND;TZID=America/Los_Angeles:20260107T183000
 SUMMARY:NAMI Clackamas: Women (18+) Only Support Group
@@ -324,7 +324,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d00b7987fd0d91ef@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Clackamas: NAMI Family Support Group - Tuesday
@@ -342,7 +342,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4857c38419b59235@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T183000
 DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:NAMI Clackamas: NAMI Family Support Group - Monday
@@ -360,7 +360,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c2b49f8ad5f5c06c@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260117T090000
 DTEND;TZID=America/Los_Angeles:20260117T103000
 SUMMARY:NAMI Clackamas: NAMI Family Support Group - Saturday
@@ -378,7 +378,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d8997f26797c801@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T190000
 DTEND;TZID=America/Los_Angeles:20260107T203000
 SUMMARY:NAMI Clackamas: NAMI Clackamas Conexion (Spanish-Speaking Support G
@@ -397,7 +397,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ea6aaafa1987c3ab@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:NAMI Clackamas: LGBTQ+ Support Group
@@ -415,7 +415,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d485a809056eb93d@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Clackamas: Suicide Bereavement Support - Tuesday Online
@@ -433,7 +433,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9a653776875afe2e@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260114T180000
 DTEND;TZID=America/Los_Angeles:20260114T194500
 SUMMARY:NAMI Clackamas: Suicide Bereavement Support - Wednesday Online
@@ -451,7 +451,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e6040178bc14d7a1@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260125T140000
 DTEND;TZID=America/Los_Angeles:20260125T160000
 SUMMARY:NAMI Clackamas: Suicide Bereavement Support - Sunday In-Person
@@ -469,7 +469,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85d355a359c1e2b9@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260127T190000
 DTEND;TZID=America/Los_Angeles:20260127T200000
 SUMMARY:NAMI Clackamas: Compassionate Friends
@@ -539,7 +539,9 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
  , with a revised line-up — ColorFlow moved from Wednesdays to Tuesdays\, C
  ultivate & Connect is now Inspired by Nature\, Karaoke Night is now Open M
  ic Night\, and Tea Time and Fun Brain Food are new. Verified from the offi
- cial FolkTime/Clackamas County flyer received July 2026.
+ cial FolkTime/Clackamas County flyer received July 2026. Clinic front offi
+ ce 503-722-6200 (leave a message)\; 24/7 Clackamas County Support & Crisis
+  Line 503-655-8585.
 LOCATION:11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086
 URL:https://folktime.org
 RRULE:FREQ=MONTHLY;BYDAY=1TU,3TU
@@ -565,7 +567,8 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
  ved from Wednesdays to Tuesdays\, Cultivate & Connect is now Inspired by N
  ature\, Karaoke Night is now Open Mic Night\, and Tea Time and Fun Brain F
  ood are new. Verified from the official FolkTime/Clackamas County flyer re
- ceived July 2026.
+ ceived July 2026. Clinic front office 503-722-6200 (leave a message)\; 24/
+ 7 Clackamas County Support & Crisis Line 503-655-8585.
 LOCATION:11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086
 URL:https://folktime.org
 RRULE:FREQ=MONTHLY;BYDAY=2TU,4TU
@@ -590,7 +593,9 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
  r a hiatus\, with a revised line-up — ColorFlow moved from Wednesdays to T
  uesdays\, Cultivate & Connect is now Inspired by Nature\, Karaoke Night is
   now Open Mic Night\, and Tea Time and Fun Brain Food are new. Verified fr
- om the official FolkTime/Clackamas County flyer received July 2026.
+ om the official FolkTime/Clackamas County flyer received July 2026. Clinic
+  front office 503-722-6200 (leave a message)\; 24/7 Clackamas County Suppo
+ rt & Crisis Line 503-655-8585.
 LOCATION:11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086
 URL:https://folktime.org
 RRULE:FREQ=MONTHLY;BYDAY=2WE,4WE
@@ -615,7 +620,8 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
  Flow moved from Wednesdays to Tuesdays\, Cultivate & Connect is now Inspir
  ed by Nature\, Karaoke Night is now Open Mic Night\, and Tea Time and Fun 
  Brain Food are new. Verified from the official FolkTime/Clackamas County f
- lyer received July 2026.
+ lyer received July 2026. Clinic front office 503-722-6200 (leave a message
+ )\; 24/7 Clackamas County Support & Crisis Line 503-655-8585.
 LOCATION:11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086
 URL:https://folktime.org
 RRULE:FREQ=MONTHLY;BYDAY=1TH,3TH
@@ -640,7 +646,8 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
  ved from Wednesdays to Tuesdays\, Cultivate & Connect is now Inspired by N
  ature\, Karaoke Night is now Open Mic Night\, and Tea Time and Fun Brain F
  ood are new. Verified from the official FolkTime/Clackamas County flyer re
- ceived July 2026.
+ ceived July 2026. Clinic front office 503-722-6200 (leave a message)\; 24/
+ 7 Clackamas County Support & Crisis Line 503-655-8585.
 LOCATION:11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086
 URL:https://folktime.org
 RRULE:FREQ=MONTHLY;BYDAY=1FR,3FR
@@ -664,7 +671,8 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
  olorFlow moved from Wednesdays to Tuesdays\, Cultivate & Connect is now In
  spired by Nature\, Karaoke Night is now Open Mic Night\, and Tea Time and 
  Fun Brain Food are new. Verified from the official FolkTime/Clackamas Coun
- ty flyer received July 2026.
+ ty flyer received July 2026. Clinic front office 503-722-6200 (leave a mes
+ sage)\; 24/7 Clackamas County Support & Crisis Line 503-655-8585.
 LOCATION:11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086
 URL:https://folktime.org
 RRULE:FREQ=MONTHLY;BYDAY=2FR
@@ -688,7 +696,9 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Pe
  evised line-up — ColorFlow moved from Wednesdays to Tuesdays\, Cultivate &
   Connect is now Inspired by Nature\, Karaoke Night is now Open Mic Night\,
   and Tea Time and Fun Brain Food are new. Verified from the official FolkT
- ime/Clackamas County flyer received July 2026.
+ ime/Clackamas County flyer received July 2026. Clinic front office 503-722
+ -6200 (leave a message)\; 24/7 Clackamas County Support & Crisis Line 503-
+ 655-8585.
 LOCATION:11211 SE 82nd Ave\, Suite O\, Portland\, OR 97086
 URL:https://folktime.org
 RRULE:FREQ=MONTHLY;BYDAY=4FR
@@ -2652,14 +2662,16 @@ DTEND;TZID=America/Los_Angeles:20260107T103000
 SUMMARY:Portland Hearing Voices: In-Person Hearing Voices Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\, drop-in
  \nInfo: Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed 
- July 2026.\nAddress: 333 SW Park Ave\, Portland\, OR 97205\nWebsite: https
- ://www.portlandhearingvoices.net\nDetails: Peer-led support groups for peo
- ple who hear voices\, see visions\, or have unusual beliefs/sensory experi
- ences. In-person group confirmed active at BHRC\, Wednesdays 9:30-10:30am 
- (moved from Mondays). Online group may be intermittent - website lists it 
- as '(Possibly)'. Part of Hearing Voices Network USA. The network also list
- s a Salem online group hosted for Project ABLE\, which is outside the Port
- land metro scope of this database.
+ July 2026. As of October 2026 the group's own pages still disagree (Wed 9:
+ 30-10:30am vs Wed noon-1pm vs Mon 10-11am)\, so confirm before attending. 
+ BHRC main line 503-988-4100.\nAddress: 333 SW Park Ave\, Portland\, OR 972
+ 05\nWebsite: https://www.portlandhearingvoices.net\nDetails: Peer-led supp
+ ort groups for people who hear voices\, see visions\, or have unusual beli
+ efs/sensory experiences. In-person group confirmed active at BHRC\, Wednes
+ days 9:30-10:30am (moved from Mondays). Online group may be intermittent -
+  website lists it as '(Possibly)'. Part of Hearing Voices Network USA. The
+  network also lists a Salem online group hosted for Project ABLE\, which i
+ s outside the Portland metro scope of this database.
 LOCATION:Behavioral Health Resource Center\, 333 SW Park Ave\, Portland
 URL:https://www.portlandhearingvoices.net
 RRULE:FREQ=WEEKLY;BYDAY=WE
@@ -3174,7 +3186,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:94efda47272343d2@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T110000
 DTEND;TZID=America/Los_Angeles:20260808T120000
 SUMMARY:Food Court 5000 (Mall Walking Group): Final Lloyd Center Walk (Sile
@@ -3997,7 +4009,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5fa19b2b7a92e2f9@portlandresources.org
-DTSTAMP:20260415T000000Z
+DTSTAMP:20261008T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T093000
 DTEND;TZID=America/Los_Angeles:20260103T120000
 SUMMARY:Birdhers
@@ -4560,36 +4572,33 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:d8fc3329cc6894ad@portlandresources.org
+UID:b4963df932d826eb@portlandresources.org
 DTSTAMP:20260213T000000Z
-DTSTART;TZID=America/Los_Angeles:20260104T123000
-DTEND;TZID=America/Los_Angeles:20260104T153000
-SUMMARY:Turn! Turn! Turn!: Drawing Club
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Casual drawing get-
- together - bring your own supplies or just hang out. All skill levels welc
- ome. Women-owned community arts venue doubling as bar\, record store\, and
-  vintage shop.\nAddress: 8 NE Killingsworth St\, Portland\, OR 97211\nPhon
- e: 503-284-6019\nWebsite: https://turnturnturnpdx.com/
+DTSTART;TZID=America/Los_Angeles:20260105T140000
+DTEND;TZID=America/Los_Angeles:20260105T160000
+SUMMARY:Turn! Turn! Turn!: Magic Luscious Spirit Sounds
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Cross-abilities mus
+ ic collective jam\, open to all. All ages (daytime).\nAddress: 8 NE Killin
+ gsworth St\, Portland\, OR 97211\nPhone: 503-284-6019\nWebsite: https://tu
+ rnturnturnpdx.com/
 LOCATION:8 NE Killingsworth St\, Portland\, OR 97211
 URL:https://turnturnturnpdx.com/
-RRULE:FREQ=WEEKLY;BYDAY=SU
+RRULE:FREQ=MONTHLY;BYDAY=1MO,3MO
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:d9e5489d6044ef66@portlandresources.org
+UID:7e3bbed5538c503e@portlandresources.org
 DTSTAMP:20260213T000000Z
-DTSTART;TZID=America/Los_Angeles:20260112T200000
-DTEND;TZID=America/Los_Angeles:20260112T230000
-SUMMARY:Turn! Turn! Turn!: Karaoke Night
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: K-Tel and Larry-oke
- e supportive karaoke night. Low-pressure\, encouraging atmosphere for sing
- ers of all abilities. 21+ after 8pm. Cash only at door\, all payments at b
- ar.\nAddress: 8 NE Killingsworth St\, Portland\, OR 97211\nPhone: 503-284-
- 6019\nWebsite: https://turnturnturnpdx.com/
+DTSTART;TZID=America/Los_Angeles:20260108T163000
+DTEND;TZID=America/Los_Angeles:20260108T190000
+SUMMARY:Turn! Turn! Turn!: T34 Jazz Happy Hour
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: The venue's house j
+ azz quartet.\nAddress: 8 NE Killingsworth St\, Portland\, OR 97211\nPhone:
+  503-284-6019\nWebsite: https://turnturnturnpdx.com/
 LOCATION:8 NE Killingsworth St\, Portland\, OR 97211
 URL:https://turnturnturnpdx.com/
-RRULE:FREQ=MONTHLY;BYDAY=2MO,4MO
+RRULE:FREQ=MONTHLY;BYDAY=2TH,4TH
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -7338,42 +7347,6 @@ DESCRIPTION:Category: Social Activities\nCost: FREE - just buy food/drink f
 LOCATION:Board Bard Games (7960 SE Stark St)
 URL:https://meetup.com/pdxgames
 RRULE:FREQ=WEEKLY;BYDAY=WE
-CATEGORIES:Social Activities
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:22b230d60826a8b3@portlandresources.org
-DTSTAMP:20260211T000000Z
-DTSTART;TZID=America/Los_Angeles:20260107T083000
-DTEND;TZID=America/Los_Angeles:20260107T113000
-SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
-DESCRIPTION:Category: Social Activities\nCost: $1 NCPRD / $2 non-resident\n
- Info: Novice to advanced\; guidance for starters\nAddress: 5440 SE Kellogg
-  Creek Dr\, Milwaukie\, OR 97222\nPhone: 503-653-8100\nWebsite: https://nc
- prd.org/milwaukie-community-center\nDetails: Primary hub for older adults 
- in North Clackamas. Meals on Wheels program delivers 300+ meals daily.
-LOCATION:5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222
-URL:https://ncprd.org/milwaukie-community-center
-RRULE:FREQ=WEEKLY;BYDAY=WE
-CATEGORIES:Social Activities
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:85f82cd177356b11@portlandresources.org
-DTSTAMP:20260211T000000Z
-DTSTART;TZID=America/Los_Angeles:20260105T150000
-DTEND;TZID=America/Los_Angeles:20260105T160000
-SUMMARY:Milwaukie Community Center: Tai Chi for Seniors
-DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
- some low-cost\nInfo: Registered term class\; times vary by term (winter 20
- 26 ran Mon/Wed 3-4pm and 4:10-5:10pm). Check the current NCPRD Discovery G
- uide.\nAddress: 5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222\nPhone: 50
- 3-653-8100\nWebsite: https://ncprd.org/milwaukie-community-center\nDetails
- : Primary hub for older adults in North Clackamas. Meals on Wheels program
-  delivers 300+ meals daily.
-LOCATION:5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222
-URL:https://ncprd.org/milwaukie-community-center
-RRULE:FREQ=WEEKLY;BYDAY=MO,WE
 CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT

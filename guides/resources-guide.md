@@ -292,7 +292,7 @@ Free 24/7 crisis line and walk-in mental health center for Clackamas County. Pee
 - **Cost:** FREE
 - **Eligibility:** Open to individuals receiving Peer Support services in Clackamas County. If you don't already have a Peer Support Specialist, stop in to the clinic to get connected.
 
-Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up — ColorFlow moved from Wednesdays to Tuesdays, Cultivate & Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026.
+Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up — ColorFlow moved from Wednesdays to Tuesdays, Cultivate & Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026. Clinic front office 503-722-6200 (leave a message); 24/7 Clackamas County Support & Crisis Line 503-655-8585.
 
 **What to know:** Seven peer-led groups resuming August 2026 — art (ColorFlow, Inspired by Nature), mindfulness (Intentional Silence & Meditation), photography, music (Open Mic Night), and two Friday afternoon social groups (Tea Time, Fun Brain Food). Each group is led by a named peer specialist. No art or music experience needed for any of them.
 
@@ -806,7 +806,7 @@ Peer-led support groups for people who hear voices, see visions, or have unusual
 **Programs:**
 
 - **In-Person Hearing Voices Group:** Every Wednesday 9:30-10:30am | In-person, drop-in | Behavioral Health Resource Center, 333 SW Park Ave, Portland
-  Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026.
+  Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026. As of October 2026 the group's own pages still disagree (Wed 9:30-10:30am vs Wed noon-1pm vs Mon 10-11am), so confirm before attending. BHRC main line 503-988-4100.
 - **Hearing Voices Online:** (Possibly) Mondays 12:30-1:30pm PST | Virtual (Zoom)
   Still listed as '(Possibly)' on the website - may be intermittent, so confirm before relying on it. The former Wednesday 12:30-2pm online group is no longer listed as of July 2026.
 
@@ -3575,16 +3575,18 @@ Active programming including music series, teen programs, and Makerspace. Part o
 - **Cost:** FREE events
 - **Hours:** Wed-Fri 4pm-11pm, Sat 4pm-11pm, Sun 12:30pm-11pm, Mon 7pm-11pm, Tue closed
 
-**Tips:** Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Drawing Club (Sun 12:30-3:30pm), and karaoke (2nd & 4th Mon 8-11pm). All ages welcome for most daytime events. Casual atmosphere good for meeting people.
+**Tips:** Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Magic Luscious Spirit Sounds jam (1st & 3rd Mon 2-4pm), jazz happy hour (2nd & 4th Thu 4:30-7pm), and monthly Monday karaoke. Daytime events are all ages; 21+ after 8pm. Casual atmosphere good for meeting people.
 
 **Programs:**
 
 - **Casual Friday (Comedy Open Mic):** Fridays 5-7pm | FREE
   Happy hour comedy open mic hosted by Logan Loughmiller. Low-pressure environment for performers and audience. Women-owned community venue since 2014.
-- **Drawing Club:** Sundays 12:30-3:30pm | FREE
-  Casual drawing get-together - bring your own supplies or just hang out. All skill levels welcome. Women-owned community arts venue doubling as bar, record store, and vintage shop.
-- **Karaoke Night:** 2nd & 4th Mondays 8-11pm | FREE
-  K-Tel and Larry-okee supportive karaoke night. Low-pressure, encouraging atmosphere for singers of all abilities. 21+ after 8pm. Cash only at door, all payments at bar.
+- **Magic Luscious Spirit Sounds:** 1st & 3rd Mondays 2-4pm | FREE
+  Cross-abilities music collective jam, open to all. All ages (daytime).
+- **T34 Jazz Happy Hour:** 2nd & 4th Thursdays 4:30-7pm | FREE
+  The venue's house jazz quartet.
+- **Karaoke Night:** FREE
+  Monthly karaoke on a rotating Monday, 8-11pm, with K-Tel and Larry-okee. Date varies - check turnturnturnpdx.com or call 503-284-6019. Low-pressure, encouraging atmosphere. 21+ after 8pm. Cash only.
 
 *Casual group · Creative, Indoor, Good for isolation · Near transit*
 
@@ -5722,9 +5724,9 @@ Primary hub for older adults in North Clackamas. Meals on Wheels program deliver
 
 **Programs:**
 
-- **Woodcarvers Drop-In:** Every Wednesday 8:30-11:30am | $1 NCPRD / $2 non-resident
-  Novice to advanced; guidance for starters
-- **Tai Chi for Seniors:** Mon/Wed 3-4pm
+- **Woodcarvers Drop-In:** Small drop-in fee (about $2 NCPRD / $2.50 non-resident in 2025)
+  Novice to advanced; guidance for starters. Day and time have varied by season (Wednesday mornings or Thursdays) - call 503-653-8100 to confirm it is running.
+- **Tai Chi for Seniors**
   Registered term class; times vary by term (winter 2026 ran Mon/Wed 3-4pm and 4:10-5:10pm). Check the current NCPRD Discovery Guide.
 - **Congregate Lunch:** Weekdays noon-12:30pm in dining room | $3 suggested donation (60+); $5 under 60
   Social dining for older adults
@@ -6104,7 +6106,7 @@ Separate from the ongoing utility discounts already in this database (PGE, Pacif
 - **Multnomah County energy assistance:** FREE to apply | Multnomah County
   Our Just Future (formerly Human Solutions) serves very-low-income residents of Portland and East Multnomah County - call 503-405-7877 for heat and power funding availability, or 503-548-0217 for the water discount program. Call 2-1-1 for other providers.
 - **Washington County energy assistance:** FREE to apply | Washington County
-  Administered by Community Action of Washington County, which is already in this database as community-action-washington-county.
+  Administered by Community Action of Washington County, which is already in this database as community-action-washington-county. After a fall backlog pause (August 29 - September 30), applications reopened October 1 for seniors 62+ and people with disabilities; call 503-615-0771 for a paper application.
 - **Clackamas County energy assistance:** FREE to apply | Clackamas County
   Covers electricity, natural gas, oil, propane, wood, or pellets. Call 503-650-5640 to request an application; they mail it with a prepaid return envelope. Intake opens in October for people 60+, disabled, or medically fragile; in November for households with children 6 and under; and in December for every income-eligible household, running to April 15 or until funds run out.
 

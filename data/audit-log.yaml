@@ -5310,3 +5310,46 @@
   entries:
     - id: pioneer-community-center
       status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - NAMI Clackamas"
+  entries_audited: 1
+  entries:
+    - id: nami-clackamas
+      status: verified
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Food Court 5000 (Mall Walking Group)"
+  entries_audited: 1
+  entries:
+    - id: lloyd-center-walking
+      status: updated
+      changes: "Confirmed no new permanent venue announced after Lloyd Center closed; pop-up walks only. VERIFY flag and end date kept"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Birdhers"
+  entries_audited: 1
+  entries:
+    - id: birdhers
+      status: updated
+      changes: "Confirmed weekly Saturday pattern (9:30am, 10am in winter) and group active through August 2026; fall locations are posted each Friday"
+
+---
+- date: 2026-10-08
+  type: audit
+  auditor: user
+  summary: "Audit completed - Elsie Stuhr Center (THPRD)"
+  entries_audited: 1
+  entries:
+    - id: elsie-stuhr-center
+      status: updated
+      changes: "Hours Mon-Thu 8am-5pm, Fri 8am-2pm, Sat 8am-4pm confirmed on THPRD's 2026-dated facility page; VERIFY flag removed"

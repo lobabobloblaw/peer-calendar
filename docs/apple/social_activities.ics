@@ -57,42 +57,6 @@ CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:22b230d60826a8b3@portlandresources.org
-DTSTAMP:20260211T000000Z
-DTSTART;TZID=America/Los_Angeles:20260107T083000
-DTEND;TZID=America/Los_Angeles:20260107T113000
-SUMMARY:Milwaukie Community Center: Woodcarvers Drop-In
-DESCRIPTION:Category: Social Activities\nCost: $1 NCPRD / $2 non-resident\n
- Info: Novice to advanced\; guidance for starters\nAddress: 5440 SE Kellogg
-  Creek Dr\, Milwaukie\, OR 97222\nPhone: 503-653-8100\nWebsite: https://nc
- prd.org/milwaukie-community-center\nDetails: Primary hub for older adults 
- in North Clackamas. Meals on Wheels program delivers 300+ meals daily.
-LOCATION:5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222
-URL:https://ncprd.org/milwaukie-community-center
-RRULE:FREQ=WEEKLY;BYDAY=WE
-CATEGORIES:Social Activities
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:85f82cd177356b11@portlandresources.org
-DTSTAMP:20260211T000000Z
-DTSTART;TZID=America/Los_Angeles:20260105T150000
-DTEND;TZID=America/Los_Angeles:20260105T160000
-SUMMARY:Milwaukie Community Center: Tai Chi for Seniors
-DESCRIPTION:Category: Social Activities\nCost: Programs vary\; some free\, 
- some low-cost\nInfo: Registered term class\; times vary by term (winter 20
- 26 ran Mon/Wed 3-4pm and 4:10-5:10pm). Check the current NCPRD Discovery G
- uide.\nAddress: 5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222\nPhone: 50
- 3-653-8100\nWebsite: https://ncprd.org/milwaukie-community-center\nDetails
- : Primary hub for older adults in North Clackamas. Meals on Wheels program
-  delivers 300+ meals daily.
-LOCATION:5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222
-URL:https://ncprd.org/milwaukie-community-center
-RRULE:FREQ=WEEKLY;BYDAY=MO,WE
-CATEGORIES:Social Activities
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:89444dc8c3fb77ee@portlandresources.org
 DTSTAMP:20260211T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T120000

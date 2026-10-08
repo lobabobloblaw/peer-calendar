@@ -642,7 +642,9 @@
     location: Washington County
     cost: FREE to apply
     notes: Administered by Community Action of Washington County, which is already in this
-      database as community-action-washington-county.
+      database as community-action-washington-county. After a fall backlog pause (August 29 -
+      September 30), applications reopened October 1 for seniors 62+ and people with disabilities;
+      call 503-615-0771 for a paper application.
   - name: Clackamas County energy assistance
     location: Clackamas County
     cost: FREE to apply
@@ -1148,8 +1150,8 @@
     location: NAMI Clackamas office (10202 SE 32nd Ave, Suite 501, Milwaukie)
     notes: Affiliated grief support group. No registration required. The public schedule lists a 7pm start but no end time;
       the one-hour calendar block is a start-time reminder.
-  last_verified: 2026-08-13
-  next_audit: 2026-09-13
+  last_verified: 2026-10-08
+  next_audit: 2026-11-08
   audit_frequency: monthly
   practical_tips:
     first_visit: Call or email to register for your first meeting
@@ -1391,7 +1393,8 @@
   notes: Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime
     in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up — ColorFlow moved
     from Wednesdays to Tuesdays, Cultivate & Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea
-    Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026.
+    Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026. Clinic
+    front office 503-722-6200 (leave a message); 24/7 Clackamas County Support & Crisis Line 503-655-8585.
   flags:
   - 📅 DATE-SENSITIVE
   latitude: 45.46134
@@ -2985,8 +2988,8 @@
     attendees. Lloyd Center closed permanently on August 8, 2026; the last regular Sunday walk inside the mall was August 2 and
     the farewell walk was Saturday August 8. The group now walks at rotating pop-up locations around Portland (some outdoors,
     some indoors) and has said a permanent home is in the works, but none was announced as of September 10, 2026.'
-  last_verified: 2026-09-10
-  next_audit: 2026-10-10
+  last_verified: 2026-10-08
+  next_audit: 2026-11-08
   audit_frequency: monthly
   guide_location: activities-guide-2.md#mall-walking-programs
 - id: neighborwalks
@@ -4054,8 +4057,8 @@
   pricing:
     description: FREE
   schedule: Every Saturday 9:30am-noon (10am-noon in winter months)
-  last_verified: 2026-04-15
-  next_audit: 2026-07-15
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips: Meditative, slow-paced bird walks (1-2 miles) on paved and dirt paths. No RSVP required. Extra binoculars
     available. Designed to be calming and accessible.
@@ -5218,21 +5221,24 @@
     cost: FREE
     notes: Happy hour comedy open mic hosted by Logan Loughmiller. Low-pressure environment for performers and audience. Women-owned
       community venue since 2014.
-  - name: Drawing Club
-    schedule: Sundays 12:30-3:30pm
+  - name: Magic Luscious Spirit Sounds
+    schedule: 1st & 3rd Mondays 2-4pm
     cost: FREE
-    notes: Casual drawing get-together - bring your own supplies or just hang out. All skill levels welcome. Women-owned community
-      arts venue doubling as bar, record store, and vintage shop.
+    notes: Cross-abilities music collective jam, open to all. All ages (daytime).
+  - name: T34 Jazz Happy Hour
+    schedule: 2nd & 4th Thursdays 4:30-7pm
+    cost: FREE
+    notes: The venue's house jazz quartet.
   - name: Karaoke Night
-    schedule: 2nd & 4th Mondays 8-11pm
     cost: FREE
-    notes: K-Tel and Larry-okee supportive karaoke night. Low-pressure, encouraging atmosphere for singers of all abilities.
-      21+ after 8pm. Cash only at door, all payments at bar.
+    notes: Monthly karaoke on a rotating Monday, 8-11pm, with K-Tel and Larry-okee. Date varies - check turnturnturnpdx.com
+      or call 503-284-6019. Low-pressure, encouraging atmosphere. 21+ after 8pm. Cash only.
   last_verified: 2026-02-13
   next_audit: 2026-05-13
   audit_frequency: quarterly
-  practical_tips: Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Drawing Club (Sun 12:30-3:30pm),
-    and karaoke (2nd & 4th Mon 8-11pm). All ages welcome for most daytime events. Casual atmosphere good for meeting people.
+  practical_tips: Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Magic Luscious Spirit Sounds jam
+    (1st & 3rd Mon 2-4pm), jazz happy hour (2nd & 4th Thu 4:30-7pm), and monthly Monday karaoke. Daytime events are all ages;
+    21+ after 8pm. Casual atmosphere good for meeting people.
   accessibility:
   - transit_nearby
   social_intensity: casual_group
@@ -5242,8 +5248,8 @@
   - isolation
   guide_location: activities-guide-1.md#entertainment
   flags:
-  - ⚠️ VERIFY - The official entertainment page (2026) no longer shows a recurring Sunday Drawing Club, and lists karaoke
-    as a monthly rotating Monday 8-11pm rather than 2nd & 4th Mondays. Hours unconfirmed. Call 503-284-6019.
+  - ⚠️ VERIFY - New owners took over in spring 2026 and plan new programming; the entertainment page could not be dated
+    and opening hours are unconfirmed (only third-party listings). Call 503-284-6019.
   latitude: 45.562598
   longitude: -122.666744
 - id: laurelthirst-pub
@@ -9551,6 +9557,7 @@
   phone: 503-630-2888
   source_urls:
   - https://www.estacadafoodbank.org
+  - https://foodfinder.oregonfoodbank.org/locations/estacada-area-food-bank
   pricing:
     description: FREE
   hours: Wed 2-6pm (2-4pm Estacada School District families, 4-6pm everyone); Tue/Thu hours conflict across sources - call
@@ -9559,9 +9566,9 @@
   next_audit: 2026-06-30
   audit_frequency: quarterly
   flags:
-  - ⚠️ VERIFY - September 2026 directory listings disagree on the Tuesday and Thursday hours (one shows Tue/Thu 10am-1pm and Fri
-    10am-2pm, another shows 2nd & 4th Tuesday and Thursday only). Both agree Wednesday is now 2-6pm. Call before publishing
-    exact hours.
+  - ⚠️ VERIFY - The food bank's own site and Oregon Food Bank's Food Finder (both undated, likely spring 2026) list 2nd & 4th
+    Tuesday 10am-2pm, Wednesday 10am-2pm, Thursday 1-5pm, while September 2026 directory listings show Wednesday 2-6pm. Call
+    503-630-2888 before publishing exact hours.
   practical_tips:
     first_visit: Call 503-630-2888 to confirm the day's hours before making the trip.
     what_to_bring: Bags or boxes for food
@@ -9604,8 +9611,8 @@
   guide_location: activities-guide-2.md#free-food-resources
   notes: Mt. Hood corridor food pantry serving Sandy and surrounding communities. Open Wed and Fri only.
   flags:
-  - ⚠️ VERIFY - Wednesday pantry hours conflict (10am-4pm per 211info and the center's homepage; 12-6pm per foodbanks.net).
-    Friday 10am-4pm is consistent. Call 503-668-4746.
+  - ⚠️ VERIFY - The center's homepage and How We Can Help page say Wed & Fri 10am-4pm; its older donate pages and foodbanks.net
+    say Wednesday noon-6pm. No 2026-dated source found. Call 503-668-4746.
   latitude: 45.396117
   longitude: -122.262076
 - id: svdp-portland
@@ -9798,9 +9805,8 @@
   guide_location: activities-guide-1.md#gaming-and-social-activities
   notes: Explicitly welcoming to newcomers
   flags:
-  - ⚠️ VERIFY - Tuesday CORE game night not found on current Meetup listings (only an older BoardGameGeek listing, 4:15-9:30pm).
-    The current Meetup series at CORE is a biweekly Thursday "Board Games for 50-Somethings". Wednesday at Board Bard confirmed
-    October 2026.
+  - ⚠️ VERIFY - Tuesday CORE series confirmed on Meetup through April 28, 2026 (weekly, 5-9:30pm); later dates not confirmed.
+    Wednesday at Board Bard confirmed October 2026.
 - id: milwaukie-community-center
   name: Milwaukie Community Center
   category: social_activities
@@ -9832,11 +9838,10 @@
   - Blood pressure checks
   programs:
   - name: Woodcarvers Drop-In
-    schedule: Every Wednesday 8:30-11:30am
-    cost: $1 NCPRD / $2 non-resident
-    notes: Novice to advanced; guidance for starters
+    cost: Small drop-in fee (about $2 NCPRD / $2.50 non-resident in 2025)
+    notes: Novice to advanced; guidance for starters. Day and time have varied by season (Wednesday mornings or Thursdays) -
+      call 503-653-8100 to confirm it is running.
   - name: Tai Chi for Seniors
-    schedule: Mon/Wed 3-4pm
     notes: Registered term class; times vary by term (winter 2026 ran Mon/Wed 3-4pm and 4:10-5:10pm). Check the current NCPRD
       Discovery Guide.
   - name: Congregate Lunch
@@ -10383,9 +10388,6 @@
   audience:
   - seniors
   hours: Mon-Thu 8am-5pm, Fri 8am-2pm, Sat 8am-4pm; closed Sunday and major holidays
-  flags:
-  - ⚠️ VERIFY - THPRD's web schedule (October 2026, lists 2026 Thanksgiving closures) gives Mon-Thu 8am-5pm, Fri 8am-2pm,
-    Sat 8am-4pm; an undated THPRD PDF gives Mon 8am-8pm, Tue 8am-2pm, Wed 8am-6pm, Thu/Fri 8am-2pm. Confirm at 503-629-6342.
   facilities:
   - 2,436 sq ft fitness room
   - NuSteps, recumbent bikes, ellipticals, treadmills, weight machines
@@ -10405,8 +10407,8 @@
     options: Holiday Bazaar, Elsie Stuhr Day, New Year's Dance, Valentine's Dance
   - name: Meals on Wheels Lunch
     schedule: Mon-Fri
-  last_verified: 2026-02-13
-  next_audit: 2026-05-13
+  last_verified: 2026-10-08
+  next_audit: 2027-01-08
   audit_frequency: quarterly
   practical_tips:
     first_visit: Take a tour to see all the amenities
@@ -12204,7 +12206,8 @@
     schedule: Every Wednesday 9:30-10:30am
     location: Behavioral Health Resource Center, 333 SW Park Ave, Portland
     format: In-person, drop-in
-    notes: Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026.
+    notes: Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026. As of October 2026 the group's own pages
+      still disagree (Wed 9:30-10:30am vs Wed noon-1pm vs Mon 10-11am), so confirm before attending. BHRC main line 503-988-4100.
   - name: Hearing Voices Online
     schedule: (Possibly) Mondays 12:30-1:30pm PST
     format: Virtual (Zoom)

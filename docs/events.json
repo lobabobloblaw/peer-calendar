@@ -930,9 +930,8 @@
           "name": "Washington County energy assistance",
           "location": "Washington County",
           "cost": "FREE to apply",
-          "notes": "Administered by Community Action of Washington County, which is already in this database as community-action-washington-county.",
+          "notes": "Administered by Community Action of Washington County, which is already in this database as community-action-washington-county. After a fall backlog pause (August 29 - September 30), applications reopened October 1 for seniors 62+ and people with disabilities; call 503-615-0771 for a paper application.",
           "audience": [
-            "children",
             "seniors"
           ],
           "resolved_schedule": null
@@ -2065,7 +2064,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-08-13",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "transit_nearby"
       ],
@@ -2531,7 +2530,7 @@
       ],
       "audience": [],
       "audience_notes": "Adults receiving Peer Support services in Clackamas County. Sponsored by FolkTime in partnership with Clackamas County.",
-      "notes": "Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up \u2014 ColorFlow moved from Wednesdays to Tuesdays, Cultivate & Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026.",
+      "notes": "Peer-led creative, mindful, and connection-focused groups at Clackamas Mental Health Clinic, offered through FolkTime in partnership with Clackamas County. Groups return August 2026 after a hiatus, with a revised line-up \u2014 ColorFlow moved from Wednesdays to Tuesdays, Cultivate & Connect is now Inspired by Nature, Karaoke Night is now Open Mic Night, and Tea Time and Fun Brain Food are new. Verified from the official FolkTime/Clackamas County flyer received July 2026. Clinic front office 503-722-6200 (leave a message); 24/7 Clackamas County Support & Crisis Line 503-655-8585.",
       "practical_tips": {
         "first_visit": "Open to people receiving Peer Support in Clackamas County. If you don't already have a Peer Support Specialist, stop in to the clinic to get connected.",
         "registration": "Connect through your Peer Support Specialist, or stop in at the Clackamas Mental Health Clinic.",
@@ -5824,7 +5823,7 @@
       "flags": [
         "\u26a0\ufe0f VERIFY - Lloyd Center closed permanently August 8, 2026. The Sunday walks inside the mall ended August 2 (bounded with schedule_end_date). As of September 10, 2026 the group walks at rotating pop-up locations and has not announced a permanent home, day, or time, so no recurring event is published. Check foodcourt5k.com or Instagram weekly, or email foodcourt5000@gmail.com; once a fixed venue is announced, update address, schedule, and schedule_end_date and remove this flag."
       ],
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -8090,7 +8089,7 @@
         "end_day_offset": 0
       },
       "flags": [],
-      "last_verified": "2026-04-15",
+      "last_verified": "2026-10-08",
       "accessibility": [
         "varies"
       ],
@@ -10356,33 +10355,10 @@
           }
         },
         {
-          "name": "Drawing Club",
-          "schedule": "Sundays 12:30-3:30pm",
+          "name": "Magic Luscious Spirit Sounds",
+          "schedule": "1st & 3rd Mondays 2-4pm",
           "cost": "FREE",
-          "notes": "Casual drawing get-together - bring your own supplies or just hang out. All skill levels welcome. Women-owned community arts venue doubling as bar, record store, and vintage shop.",
-          "audience": [
-            "women"
-          ],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "SU"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-01-04",
-            "until_date": null,
-            "start_time": "12:30",
-            "end_time": "15:30",
-            "end_day_offset": 0
-          }
-        },
-        {
-          "name": "Karaoke Night",
-          "schedule": "2nd & 4th Mondays 8-11pm",
-          "cost": "FREE",
-          "notes": "K-Tel and Larry-okee supportive karaoke night. Low-pressure, encouraging atmosphere for singers of all abilities. 21+ after 8pm. Cash only at door, all payments at bar.",
+          "notes": "Cross-abilities music collective jam, open to all. All ages (daytime).",
           "audience": [],
           "resolved_schedule": {
             "type": "recurring",
@@ -10392,15 +10368,46 @@
               "MO"
             ],
             "month_weeks": [
+              1,
+              3
+            ],
+            "anchor_date": "2026-01-05",
+            "until_date": null,
+            "start_time": "14:00",
+            "end_time": "16:00",
+            "end_day_offset": 0
+          }
+        },
+        {
+          "name": "T34 Jazz Happy Hour",
+          "schedule": "2nd & 4th Thursdays 4:30-7pm",
+          "cost": "FREE",
+          "notes": "The venue's house jazz quartet.",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "recurring",
+            "frequency": "monthly",
+            "interval": 1,
+            "weekdays": [
+              "TH"
+            ],
+            "month_weeks": [
               2,
               4
             ],
-            "anchor_date": "2026-01-12",
+            "anchor_date": "2026-01-08",
             "until_date": null,
-            "start_time": "20:00",
-            "end_time": "23:00",
+            "start_time": "16:30",
+            "end_time": "19:00",
             "end_day_offset": 0
           }
+        },
+        {
+          "name": "Karaoke Night",
+          "cost": "FREE",
+          "notes": "Monthly karaoke on a rotating Monday, 8-11pm, with K-Tel and Larry-okee. Date varies - check turnturnturnpdx.com or call 503-284-6019. Low-pressure, encouraging atmosphere. 21+ after 8pm. Cash only.",
+          "audience": [],
+          "resolved_schedule": null
         }
       ],
       "dates": null,
@@ -10409,7 +10416,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [
-        "\u26a0\ufe0f VERIFY - The official entertainment page (2026) no longer shows a recurring Sunday Drawing Club, and lists karaoke as a monthly rotating Monday 8-11pm rather than 2nd & 4th Mondays. Hours unconfirmed. Call 503-284-6019."
+        "\u26a0\ufe0f VERIFY - New owners took over in spring 2026 and plan new programming; the entertainment page could not be dated and opening hours are unconfirmed (only third-party listings). Call 503-284-6019."
       ],
       "last_verified": "2026-02-13",
       "accessibility": [
@@ -10424,7 +10431,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": null,
-      "practical_tips": "Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Drawing Club (Sun 12:30-3:30pm), and karaoke (2nd & 4th Mon 8-11pm). All ages welcome for most daytime events. Casual atmosphere good for meeting people."
+      "practical_tips": "Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Magic Luscious Spirit Sounds jam (1st & 3rd Mon 2-4pm), jazz happy hour (2nd & 4th Thu 4:30-7pm), and monthly Monday karaoke. Daytime events are all ages; 21+ after 8pm. Casual atmosphere good for meeting people."
     },
     {
       "id": "laurelthirst-pub",
@@ -17914,7 +17921,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [
-        "\u26a0\ufe0f VERIFY - September 2026 directory listings disagree on the Tuesday and Thursday hours (one shows Tue/Thu 10am-1pm and Fri 10am-2pm, another shows 2nd & 4th Tuesday and Thursday only). Both agree Wednesday is now 2-6pm. Call before publishing exact hours."
+        "\u26a0\ufe0f VERIFY - The food bank's own site and Oregon Food Bank's Food Finder (both undated, likely spring 2026) list 2nd & 4th Tuesday 10am-2pm, Wednesday 10am-2pm, Thursday 1-5pm, while September 2026 directory listings show Wednesday 2-6pm. Call 503-630-2888 before publishing exact hours."
       ],
       "last_verified": "2026-03-30",
       "accessibility": [],
@@ -17968,7 +17975,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [
-        "\u26a0\ufe0f VERIFY - Wednesday pantry hours conflict (10am-4pm per 211info and the center's homepage; 12-6pm per foodbanks.net). Friday 10am-4pm is consistent. Call 503-668-4746."
+        "\u26a0\ufe0f VERIFY - The center's homepage and How We Can Help page say Wed & Fri 10am-4pm; its older donate pages and foodbanks.net say Wednesday noon-6pm. No 2026-dated source found. Call 503-668-4746."
       ],
       "last_verified": "2026-03-30",
       "accessibility": [],
@@ -18301,7 +18308,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [
-        "\u26a0\ufe0f VERIFY - Tuesday CORE game night not found on current Meetup listings (only an older BoardGameGeek listing, 4:15-9:30pm). The current Meetup series at CORE is a biweekly Thursday \"Board Games for 50-Somethings\". Wednesday at Board Bard confirmed October 2026."
+        "\u26a0\ufe0f VERIFY - Tuesday CORE series confirmed on Meetup through April 28, 2026 (weekly, 5-9:30pm); later dates not confirmed. Wednesday at Board Bard confirmed October 2026."
       ],
       "last_verified": "2026-02-11",
       "accessibility": [
@@ -18365,49 +18372,20 @@
       "programs": [
         {
           "name": "Woodcarvers Drop-In",
-          "schedule": "Every Wednesday 8:30-11:30am",
-          "cost": "$1 NCPRD / $2 non-resident",
-          "notes": "Novice to advanced; guidance for starters",
+          "cost": "Small drop-in fee (about $2 NCPRD / $2.50 non-resident in 2025)",
+          "notes": "Novice to advanced; guidance for starters. Day and time have varied by season (Wednesday mornings or Thursdays) - call 503-653-8100 to confirm it is running.",
           "audience": [
             "seniors"
           ],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "WE"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-01-07",
-            "until_date": null,
-            "start_time": "08:30",
-            "end_time": "11:30",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Tai Chi for Seniors",
-          "schedule": "Mon/Wed 3-4pm",
           "notes": "Registered term class; times vary by term (winter 2026 ran Mon/Wed 3-4pm and 4:10-5:10pm). Check the current NCPRD Discovery Guide.",
           "audience": [
             "seniors"
           ],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "MO",
-              "WE"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-01-05",
-            "until_date": null,
-            "start_time": "15:00",
-            "end_time": "16:00",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Congregate Lunch",
@@ -19459,10 +19437,8 @@
       "schedule_start_date": null,
       "schedule_end_date": null,
       "resolved_schedule": null,
-      "flags": [
-        "\u26a0\ufe0f VERIFY - THPRD's web schedule (October 2026, lists 2026 Thanksgiving closures) gives Mon-Thu 8am-5pm, Fri 8am-2pm, Sat 8am-4pm; an undated THPRD PDF gives Mon 8am-8pm, Tue 8am-2pm, Wed 8am-6pm, Thu/Fri 8am-2pm. Confirm at 503-629-6342."
-      ],
-      "last_verified": "2026-02-13",
+      "flags": [],
+      "last_verified": "2026-10-08",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -24442,7 +24418,7 @@
           "schedule": "Every Wednesday 9:30-10:30am",
           "location": "Behavioral Health Resource Center, 333 SW Park Ave, Portland",
           "format": "In-person, drop-in",
-          "notes": "Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026.",
+          "notes": "Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026. As of October 2026 the group's own pages still disagree (Wed 9:30-10:30am vs Wed noon-1pm vs Mon 10-11am), so confirm before attending. BHRC main line 503-988-4100.",
           "audience": [],
           "resolved_schedule": {
             "type": "recurring",
