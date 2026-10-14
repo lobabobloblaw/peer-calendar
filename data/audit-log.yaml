@@ -5353,3 +5353,14 @@
     - id: elsie-stuhr-center
       status: updated
       changes: "Hours Mon-Thu 8am-5pm, Fri 8am-2pm, Sat 8am-4pm confirmed on THPRD's 2026-dated facility page; VERIFY flag removed"
+
+---
+- date: 2026-10-14
+  type: audit
+  auditor: user
+  summary: "Audit completed - FolkTime Peer Respite"
+  entries_audited: 1
+  entries:
+    - id: folktime
+      status: updated
+      changes: "Connection-center hours (NE Portland Mon/Wed/Thu 10am-2pm, Oregon City Tue 10am-2pm), 2nd/3rd Wednesday orientation, and free no-referral access confirmed against folktime.org/what-we-do/connection via search; site itself unreachable from this session's network, no data changes"

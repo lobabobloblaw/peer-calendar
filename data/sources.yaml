@@ -1282,8 +1282,8 @@
       provider can help someone call or set up the Pathway Conversation. Five spaces with a waitlist - FolkTime points
       people in crisis while they wait to the Oregon Warmline, 1-800-698-2392. No pets. A stocked pantry but no meals
       provided. No on-demand transportation, though staff may help someone get there. No alcohol or drug use onsite.
-  last_verified: 2026-09-16
-  next_audit: 2026-10-16
+  last_verified: 2026-10-14
+  next_audit: 2026-11-14
   audit_frequency: monthly
   practical_tips:
     first_visit: Attend orientation on 2nd or 3rd Wednesday of any month
@@ -9592,6 +9592,8 @@
   address: 38982 Pioneer Blvd, Sandy, OR 97055
   phone: 503-668-4746
   source_urls:
+  - https://sandyactioncenter.com
+  - https://sandyactioncenter.com/how-we-can-help-before-import/
   - https://www.sandycac.org
   pricing:
     description: FREE
@@ -9602,7 +9604,8 @@
   practical_tips:
     first_visit: Walk in during hours on Wednesday or Friday.
     what_to_bring: Bags or boxes for food
-    good_to_know: Serves the Sandy area and Mt. Hood corridor communities. Only open two days per week.
+    good_to_know: Serves the Sandy area and Mt. Hood corridor communities. Only open two days per week. No appointment
+      or paperwork needed; one pantry visit per household per month.
   social_intensity: drop_in
   good_for:
   - anxiety_friendly
@@ -12207,7 +12210,8 @@
     location: Behavioral Health Resource Center, 333 SW Park Ave, Portland
     format: In-person, drop-in
     notes: Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026. As of October 2026 the group's own pages
-      still disagree (Wed 9:30-10:30am vs Wed noon-1pm vs Mon 10-11am), so confirm before attending. BHRC main line 503-988-4100.
+      still disagree (Wed 9:30-10:30am vs Wed noon-1pm vs Mon 10-11am, and portlandhearingvoices.willhall.net lists Wed 12:30-1:30pm),
+      so confirm before attending. BHRC main line 503-988-4100.
   - name: Hearing Voices Online
     schedule: (Possibly) Mondays 12:30-1:30pm PST
     format: Virtual (Zoom)
