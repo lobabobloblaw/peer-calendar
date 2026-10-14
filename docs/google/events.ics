@@ -185,6 +185,24 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:c8f42108a7538ee3@portlandresources.org
+DTSTAMP:20260813T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20270101
+SUMMARY:Peacock Lane Holiday Lights
+DESCRIPTION:Category: Events & Festivals\nCost: FREE (free cocoa booth from
+  6pm\, December 15-24\, 2026\, while supplies last)\nAddress: SE Peacock L
+ ane between SE Belmont St & SE Stark St\, Portland\, OR 97214\nWebsite: ht
+ tps://www.peacocklane.org/\nDetails: Since 1932. The homepage announces th
+ e 2026 season (lights December 15-31\, 6pm\; pedestrian-only nights Decemb
+ er 15-16). The FAQ page still shows 2025.
+LOCATION:SE Peacock Lane between SE Belmont St & SE Stark St\, Portland\, O
+ R 97214
+URL:https://www.peacocklane.org/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6ef01d9473bc6841@portlandresources.org
 DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260708T183000
@@ -386,22 +404,6 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:b297a771e14010c2@portlandresources.org
-DTSTAMP:20260124T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Día de los Muertos (Gresham)
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Gresham Arts
-  Plaza\, 401 NE 2nd St\, Gresham\, OR\nWebsite: https://greshamoregon.gov/
- \nDetails: ⚠️ VERIFY - 2026 date not yet announced. The 2024 and 2025 edit
- ions ran on November 1 (2025 was a Saturday\, 4-8pm\, hosted with the Gres
- ham Center for the Arts Foundation)\; November 1\, 2026 is a Sunday.
-LOCATION:Gresham Arts Plaza\, 401 NE 2nd St\, Gresham\, OR
-URL:https://greshamoregon.gov/
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:f74bcb91ff4bdb04@portlandresources.org
 DTSTAMP:20260813T000000Z
 DTSTART;VALUE=DATE:20260704
@@ -561,6 +563,104 @@ DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: The City's sign
  on the Cheap\; the City's page lists the event without stating a price.
 LOCATION:Beaverton City Park\, 12375 SW 5th St\, Beaverton\, OR
 URL:https://www.beavertonoregon.gov/events-0
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1d71fc75f856acd1@portlandresources.org
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Wood Village Pumpkin Fest
+DESCRIPTION:Category: Events & Festivals\nCost: FREE - free pumpkins and go
+ odie bags while they last\nAddress: Donald L. Robertson City Park\, 24300 
+ NE Halsey St\, Wood Village\, OR 97060\nWebsite: https://www.woodvillageor
+ .gov/calendar-events/11th-annual-pumpkin-fest/\nDetails: Added in the Octo
+ ber 2026 events sweep from the September queue. East Multnomah County had 
+ no fall festival entry.
+LOCATION:Donald L. Robertson City Park\, 24300 NE Halsey St\, Wood Village\
+ , OR 97060
+URL:https://www.woodvillageor.gov/calendar-events/11th-annual-pumpkin-fest/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3d3829f3f573bf7a@portlandresources.org
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Hillsboro Holly Days Celebration
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Hillsboro Ci
+ vic Center\, 150 E Main St\, Hillsboro\, OR 97123\nWebsite: https://www.do
+ wntownhillsboro.org/holly-days-celebration/\nDetails: Added in the October
+  2026 events sweep from the September queue. Held the Saturday before Than
+ ksgiving.
+LOCATION:Hillsboro Civic Center\, 150 E Main St\, Hillsboro\, OR 97123
+URL:https://www.downtownhillsboro.org/holly-days-celebration/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:32b82815f20eb780@portlandresources.org
+DTSTAMP:20261014T000000Z
+DTSTART;TZID=America/Los_Angeles:20261204T180000
+DTEND;TZID=America/Los_Angeles:20261204T193000
+SUMMARY:Tualatin Light Parades: Tualatin Light Parade - North
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Residential 
+ routes across Tualatin\, OR 97062 (North\, South\, and East neighborhoods)
+ \nWebsite: https://parks.tualatinoregon.gov/events/tualatin-light-parades/
+ \nDetails: Added in the October 2026 events sweep. The city says 2026 rout
+ es are coming soon\; add the street routes to each program once published.
+LOCATION:North Tualatin route\, Tualatin\, OR 97062
+URL:https://parks.tualatinoregon.gov/events/tualatin-light-parades/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cf5beefa6854412c@portlandresources.org
+DTSTAMP:20261014T000000Z
+DTSTART;TZID=America/Los_Angeles:20261205T180000
+DTEND;TZID=America/Los_Angeles:20261205T193000
+SUMMARY:Tualatin Light Parades: Tualatin Light Parade - South
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Residential 
+ routes across Tualatin\, OR 97062 (North\, South\, and East neighborhoods)
+ \nWebsite: https://parks.tualatinoregon.gov/events/tualatin-light-parades/
+ \nDetails: Added in the October 2026 events sweep. The city says 2026 rout
+ es are coming soon\; add the street routes to each program once published.
+LOCATION:South Tualatin route\, Tualatin\, OR 97062
+URL:https://parks.tualatinoregon.gov/events/tualatin-light-parades/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c263fa178562b525@portlandresources.org
+DTSTAMP:20261014T000000Z
+DTSTART;TZID=America/Los_Angeles:20261206T180000
+DTEND;TZID=America/Los_Angeles:20261206T193000
+SUMMARY:Tualatin Light Parades: Tualatin Light Parade - East
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Residential 
+ routes across Tualatin\, OR 97062 (North\, South\, and East neighborhoods)
+ \nWebsite: https://parks.tualatinoregon.gov/events/tualatin-light-parades/
+ \nDetails: Added in the October 2026 events sweep. The city says 2026 rout
+ es are coming soon\; add the street routes to each program once published.
+LOCATION:East Tualatin route\, Tualatin\, OR 97062
+URL:https://parks.tualatinoregon.gov/events/tualatin-light-parades/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:768a353cc6fcc103@portlandresources.org
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Oregon City Holiday Tree Lighting
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Liberty Plaz
+ a\, 800 Main St\, Oregon City\, OR 97045\nWebsite: https://downtownoregonc
+ ity.org/event/holiday-tree-lighting-2026/\nDetails: Added in the October 2
+ 026 events sweep from the September queue. Sources disagree on the plaza a
+ ddress (800\, 813\, or 814 Main St)\; all point to Liberty Plaza.
+LOCATION:Liberty Plaza\, 800 Main St\, Oregon City\, OR 97045
+URL:https://downtownoregoncity.org/event/holiday-tree-lighting-2026/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT

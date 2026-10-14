@@ -1282,8 +1282,8 @@
       provider can help someone call or set up the Pathway Conversation. Five spaces with a waitlist - FolkTime points
       people in crisis while they wait to the Oregon Warmline, 1-800-698-2392. No pets. A stocked pantry but no meals
       provided. No on-demand transportation, though staff may help someone get there. No alcohol or drug use onsite.
-  last_verified: 2026-09-16
-  next_audit: 2026-10-16
+  last_verified: 2026-10-14
+  next_audit: 2026-11-14
   audit_frequency: monthly
   practical_tips:
     first_visit: Attend orientation on 2nd or 3rd Wednesday of any month
@@ -5147,16 +5147,20 @@
     description: FREE
   programs:
   - name: Bach Cantata Vespers
-    schedule: Select Sundays 5-6pm (4 per season)
+    schedule: 5-6pm
     cost: FREE
-    dates: February 22, June 14, 2026 (2026-27 season not yet announced)
-    notes: Four Bach cantatas per season presented within Evening Prayer liturgy with choir, soloists, and orchestra.
-  last_verified: 2026-09-10
-  next_audit: 2026-12-10
+    dates:
+    - November 22, 2026
+    - February 28, 2027
+    - May 23, 2027
+    notes: 19th annual series (2026-27). A Bach cantata within Evening Prayer with choir, soloists, and orchestra; a reception
+      follows and a freewill offering is taken. November 22 is BWV 140 "Wachet auf"; February 28 is BWV 54.
+  last_verified: 2026-10-14
+  next_audit: 2027-01-14
   audit_frequency: quarterly
   practical_tips: 'Free concerts featuring Bach cantatas on select Sundays at 5pm. Four cantatas per season. No tickets needed
-    - just show up. Offerings accepted but not required. Beautiful church setting with excellent acoustics. 2026 dates: Feb
-    22, Jun 14.'
+    - just show up. Offerings accepted but not required. Beautiful church setting with excellent acoustics. 2026-27 dates: Nov
+    22, 2026; Feb 28 and May 23, 2027.'
   accessibility:
   - wheelchair_accessible
   social_intensity: drop_in
@@ -5222,9 +5226,9 @@
     notes: Happy hour comedy open mic hosted by Logan Loughmiller. Low-pressure environment for performers and audience. Women-owned
       community venue since 2014.
   - name: Magic Luscious Spirit Sounds
-    schedule: 1st & 3rd Mondays 2-4pm
     cost: FREE
-    notes: Cross-abilities music collective jam, open to all. All ages (daytime).
+    notes: Cross-abilities music collective jam, previously listed for 1st & 3rd Mondays 2-4pm. Not found on any 2026
+      source, so it no longer publishes a recurrence - call 503-284-6019 to confirm.
   - name: T34 Jazz Happy Hour
     schedule: 2nd & 4th Thursdays 4:30-7pm
     cost: FREE
@@ -5237,7 +5241,7 @@
   next_audit: 2026-05-13
   audit_frequency: quarterly
   practical_tips: Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Magic Luscious Spirit Sounds jam
-    (1st & 3rd Mon 2-4pm), jazz happy hour (2nd & 4th Thu 4:30-7pm), and monthly Monday karaoke. Daytime events are all ages;
+    (unconfirmed for 2026), jazz happy hour (2nd & 4th Thu 4:30-7pm), and monthly Monday karaoke. Daytime events are all ages;
     21+ after 8pm. Casual atmosphere good for meeting people.
   accessibility:
   - transit_nearby
@@ -5248,8 +5252,9 @@
   - isolation
   guide_location: activities-guide-1.md#entertainment
   flags:
-  - ⚠️ VERIFY - New owners took over in spring 2026 and plan new programming; the entertainment page could not be dated
-    and opening hours are unconfirmed (only third-party listings). Call 503-284-6019.
+  - ⚠️ VERIFY - Joel Christerson and Annie Ostrowski took over in April 2026. The T34 jazz happy hour is still on the
+    venue's undated entertainment page; the jam, comedy, and karaoke nights were not found on any 2026 source, and hours
+    are unconfirmed (only third-party listings, which conflict). Call 503-284-6019.
   latitude: 45.562598
   longitude: -122.666744
 - id: laurelthirst-pub
@@ -6539,18 +6544,20 @@
   source_urls:
   - https://www.peacocklane.org/
   pricing:
-    description: FREE (2026 cocoa-booth details not yet announced)
+    description: FREE (free cocoa booth from 6pm, December 15-24, 2026, while supplies last)
+  dates: December 15-31, 2026
+  schedule: 6-10pm
+  hours: 6-10pm nightly, December 15-31, 2026 (the site also shows 11pm in one place)
   transit: TriMet recommended - no official parking
   last_verified: 2026-08-13
-  next_audit: 2026-11-01
+  next_audit: 2026-12-01
   audit_frequency: annually
   practical_tips:
-    first_visit: Check the official site for the 2026 dates and pedestrian-only nights before making a trip.
+    first_visit: December 15 and 16, 2026 are pedestrian-only nights - the calmest way to walk the street.
     registration: None - just show up
-    what_to_bring: Warm clothes and walking shoes; check the official site for current cocoa-booth details.
-    good_to_know: Historic Tudor homes have hosted this volunteer-run tradition since 1932. The official site still shows
-      the 2025 schedule; 2026 dates and pedestrian-only nights have not yet been announced. Take TriMet when the season opens—there
-      is no official parking.
+    what_to_bring: Warm clothes and walking shoes. The free cocoa booth runs December 15-24 from 6pm.
+    good_to_know: Historic Tudor homes have hosted this volunteer-run tradition since 1932. Take TriMet—there is no
+      official parking.
   accessibility:
   - transit_nearby
   accessibility_notes: Flat residential street, walkable. Can also drive through slowly on non-pedestrian nights.
@@ -6560,12 +6567,12 @@
   - family_friendly
   - anxiety_friendly
   guide_location: activities-guide-2.md#winter-holiday-events
-  notes: Since 1932. The official site still shows the 2025 schedule, so this entry is intentionally directory-only until
-    the 2026 dates are announced. The calendar will not guess dates from last year's schedule.
+  notes: Since 1932. The homepage announces the 2026 season (lights December 15-31, 6pm; pedestrian-only nights December
+    15-16). The FAQ page still shows 2025.
   flags:
   - 📅 DATE-SENSITIVE
-  - ⚠️ VERIFY - The official site still displays its 2025 schedule. Recheck in November and add 2026 dates only after the
-    organizer publishes them.
+  - ⚠️ VERIFY - 2026 dates come from search summaries of peacocklane.org's homepage, which was unreachable from the
+    session that added them. The homepage gives both 10pm and 11pm as the nightly end time, and the FAQ still shows 2025.
   latitude: 45.517783
   longitude: -122.621441
 - id: gresham-music-parks
@@ -6958,10 +6965,9 @@
   - https://greshamoregon.gov/
   pricing:
     description: FREE
-  dates: November 1, 2026
-  hours: 4-8pm
-  notes: ⚠️ VERIFY - 2026 date not yet announced. The 2024 and 2025 editions ran on November 1 (2025 was a Saturday, 4-8pm, hosted
-    with the Gresham Center for the Arts Foundation); November 1, 2026 is a Sunday.
+  hours: 4-8pm (2025)
+  notes: The 2024 and 2025 editions ran on November 1 (2025 was a Saturday, 4-8pm, at the Arts Plaza, hosted by Spirit of
+    Gresham). No 2026 listing exists yet, so the entry is directory-only; the calendar will not roll last year's date forward.
   last_verified: 2026-01-24
   next_audit: 2026-10-01
   audit_frequency: annually
@@ -6983,6 +6989,8 @@
   guide_location: activities-guide-2.md#cultural-festivals
   flags:
   - 📅 DATE-SENSITIVE
+  - ⚠️ VERIFY - No 2026 listing on greshamoregon.gov or spiritofgresham.org as of 2026-10-14. Add the date only once
+    the organizer posts it.
   latitude: 45.499036
   longitude: -122.426781
 - id: happy-valley-july4
@@ -7571,6 +7579,206 @@
     on the Cheap; the City's page lists the event without stating a price.
   flags:
   - 📅 DATE-SENSITIVE
+- id: wood-village-pumpkin-fest
+  name: Wood Village Pumpkin Fest
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Donald L. Robertson City Park, 24300 NE Halsey St, Wood Village, OR 97060
+  phone: null
+  website: https://www.woodvillageor.gov/calendar-events/11th-annual-pumpkin-fest/
+  source_urls:
+  - https://www.woodvillageor.gov/calendar-events/11th-annual-pumpkin-fest/
+  pricing:
+    description: FREE - free pumpkins and goodie bags while they last
+  hours: 10am-noon
+  dates: October 24, 2026
+  schedule: 10am-noon
+  transit: TriMet 77 (NE Halsey St)
+  last_verified: 2026-10-14
+  next_audit: 2026-10-21
+  audit_frequency: monthly
+  practical_tips:
+    first_visit: It runs only two hours, so arrive near 10am if you want a free pumpkin.
+    registration: None.
+    what_to_bring: Rain layers; the event is outdoors in the park.
+    good_to_know: The 11th annual city festival, with trunk-or-treat, a petting zoo, games, hot drinks, and a Día de
+      los Muertos celebration with Líderes Naturales.
+  social_intensity: drop_in
+  good_for:
+  - outdoor
+  - family_friendly
+  - isolation
+  guide_location: activities-guide-1.md#seasonal-events
+  notes: Added in the October 2026 events sweep from the September queue. East Multnomah County had no fall festival
+    entry.
+  flags:
+  - 📅 DATE-SENSITIVE
+  - ⚠️ VERIFY - Date, time, and free admission come from a search summary of the City of Wood Village's 2026 event page;
+    the page itself was unreachable from the session that added this. Confirm before the event.
+- id: art-in-the-burbs
+  name: Art in the Burbs
+  category: arts_culture
+  location_type: physical
+  resource_type: event
+  address: Tigard High School, 9000 SW Durham Rd, Tigard, OR 97224
+  phone: null
+  website: https://artintheburbs.org/
+  source_urls:
+  - https://artintheburbs.org/
+  - https://artintheburbs.org/artists/application/
+  pricing:
+    description: FREE admission; suggested $3 donation at the door
+  hours: 10am-5pm
+  dates: November 7-8, 2026
+  schedule: 10am-5pm
+  last_verified: 2026-10-14
+  next_audit: 2026-11-02
+  audit_frequency: monthly
+  practical_tips:
+    first_visit: Browsing is free and there is no pressure to buy; the donation is optional.
+    registration: None.
+    good_to_know: A juried indoor show of 90+ local artists that benefits the Foundation for Tigard Tualatin Schools.
+      Sunday mornings are usually quieter than Saturday.
+  social_intensity: drop_in
+  good_for:
+  - creative
+  - indoor
+  - low_energy
+  guide_location: activities-guide-1.md#arts-and-culture
+  notes: Added in the October 2026 events sweep from the September queue, which had left free admission unconfirmed.
+    One of the few Washington County November arts events.
+  flags:
+  - 📅 DATE-SENSITIVE
+  - ⚠️ VERIFY - Dates and hours come from a search summary of artintheburbs.org; the $3 suggested donation comes from its
+    artist-application page. Neither page was reachable from the session that added this.
+- id: hillsboro-holly-days
+  name: Hillsboro Holly Days Celebration
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Hillsboro Civic Center, 150 E Main St, Hillsboro, OR 97123
+  phone: null
+  website: https://www.downtownhillsboro.org/holly-days-celebration/
+  source_urls:
+  - https://www.downtownhillsboro.org/holly-days-celebration/
+  - https://www.downtownhillsboro.org/connections/23363-hillsboro-artists-regional-theatre-hart/events/2026/11/21/620146/hillsboro-holly-days-celebration-santa-hart/
+  pricing:
+    description: FREE
+  hours: 2-7pm, tree lighting at 6pm
+  dates: November 21, 2026
+  schedule: 2-7pm
+  transit: MAX Blue Line (Hillsboro Central/SE 3rd Ave TC)
+  last_verified: 2026-10-14
+  next_audit: 2026-11-09
+  audit_frequency: monthly
+  practical_tips:
+    first_visit: Come in the afternoon for a calmer visit; the 6pm tree lighting is the most crowded part.
+    registration: None.
+    what_to_bring: Warm layers.
+    good_to_know: Downtown celebration with an artisan fair, carolers, and a sing-along led by the Oregon Chorale after
+      the tree lighting. Crowds were about 15,000 in 2025, so step away from the plaza if it gets to be too much.
+  social_intensity: drop_in
+  good_for:
+  - outdoor
+  - family_friendly
+  - isolation
+  - new_to_area
+  guide_location: activities-guide-2.md#winter-holiday-events
+  notes: Added in the October 2026 events sweep from the September queue. Held the Saturday before Thanksgiving.
+  flags:
+  - 📅 DATE-SENSITIVE
+  - ⚠️ VERIFY - The 2026 date and 2-7pm hours come from search summaries of downtownhillsboro.org pages, which were
+    unreachable from the session that added this. Confirm the hours before the event.
+- id: tualatin-light-parades
+  name: Tualatin Light Parades
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Residential routes across Tualatin, OR 97062 (North, South, and East neighborhoods)
+  phone: null
+  website: https://parks.tualatinoregon.gov/events/tualatin-light-parades/
+  source_urls:
+  - https://parks.tualatinoregon.gov/events/tualatin-light-parades/
+  pricing:
+    description: FREE to watch
+  hours: 6pm start, about 60-90 minutes per route
+  programs:
+  - name: Tualatin Light Parade - North
+    dates: December 4, 2026
+    schedule: 6-7:30pm
+    location: North Tualatin route, Tualatin, OR 97062
+    cost: FREE
+  - name: Tualatin Light Parade - South
+    dates: December 5, 2026
+    schedule: 6-7:30pm
+    location: South Tualatin route, Tualatin, OR 97062
+    cost: FREE
+  - name: Tualatin Light Parade - East
+    dates: December 6, 2026
+    schedule: 6-7:30pm
+    location: East Tualatin route, Tualatin, OR 97062
+    cost: FREE
+  last_verified: 2026-10-14
+  next_audit: 2026-11-20
+  audit_frequency: monthly
+  practical_tips:
+    first_visit: Watch from a curb along the route near home; the parade comes to you.
+    registration: None.
+    good_to_know: Police-led parades of lit vehicles, each covering 5-6 miles. Watching from a front step or a quiet
+      corner is easy, and there is nothing to line up for.
+  accessibility:
+  - varies
+  social_intensity: solo
+  good_for:
+  - outdoor
+  - family_friendly
+  - low_energy
+  - anxiety_friendly
+  guide_location: activities-guide-2.md#winter-holiday-events
+  notes: Added in the October 2026 events sweep. The city says 2026 routes are coming soon; add the street routes to each
+    program once published.
+  flags:
+  - 📅 DATE-SENSITIVE
+  - ⚠️ VERIFY - Dates and the 6pm start come from a search summary of the city's 2026 event page, which was unreachable
+    from the session that added this. The routes page still showed 2025.
+- id: oregon-city-tree-lighting
+  name: Oregon City Holiday Tree Lighting
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Liberty Plaza, 800 Main St, Oregon City, OR 97045
+  phone: null
+  website: https://downtownoregoncity.org/event/holiday-tree-lighting-2026/
+  source_urls:
+  - https://downtownoregoncity.org/event/holiday-tree-lighting-2026/
+  pricing:
+    description: FREE
+  hours: 5-7pm
+  dates: December 5, 2026
+  schedule: 5-7pm
+  transit: Oregon City Transit Center (TriMet 32, 33, 99), short walk
+  last_verified: 2026-10-14
+  next_audit: 2026-11-23
+  audit_frequency: monthly
+  practical_tips:
+    first_visit: A short walk from the Oregon City Transit Center.
+    registration: None.
+    what_to_bring: Warm layers.
+    good_to_know: Downtown Oregon City Association event with live music, Santa, and holiday vendors. FolkTime's Oregon
+      City connection center is nearby.
+  social_intensity: drop_in
+  good_for:
+  - outdoor
+  - family_friendly
+  - isolation
+  guide_location: activities-guide-2.md#winter-holiday-events
+  notes: Added in the October 2026 events sweep from the September queue. Sources disagree on the plaza address (800,
+    813, or 814 Main St); all point to Liberty Plaza.
+  flags:
+  - 📅 DATE-SENSITIVE
+  - ⚠️ VERIFY - Date and time come from a search summary of the Downtown Oregon City Association's 2026 event page,
+    which was unreachable from the session that added this. The page says more details are coming.
 ---
 ---
 - id: forest-park
@@ -9003,14 +9211,14 @@
   - SNAP matching - doubles your EBT dollars
   - Holiday Market (November)
   special_events:
-  - name: Holiday Farmers' Market
+  - name: Reunion Farmers' Market
     dates: November 21, 2026
     schedule: 9am-2pm
     hours: 9am-2pm
     notes: Thanksgiving-themed market with fall harvest vendors
   notes: May-October season. One of the best farmers' markets for SNAP users due to matching program.
-  last_verified: 2026-01-31
-  next_audit: 2027-01-31
+  last_verified: 2026-10-14
+  next_audit: 2027-03-15
   audit_frequency: annually
   practical_tips:
     first_visit: SNAP matching booth usually near entrance
@@ -9592,6 +9800,8 @@
   address: 38982 Pioneer Blvd, Sandy, OR 97055
   phone: 503-668-4746
   source_urls:
+  - https://sandyactioncenter.com
+  - https://sandyactioncenter.com/how-we-can-help-before-import/
   - https://www.sandycac.org
   pricing:
     description: FREE
@@ -9602,7 +9812,8 @@
   practical_tips:
     first_visit: Walk in during hours on Wednesday or Friday.
     what_to_bring: Bags or boxes for food
-    good_to_know: Serves the Sandy area and Mt. Hood corridor communities. Only open two days per week.
+    good_to_know: Serves the Sandy area and Mt. Hood corridor communities. Only open two days per week. No appointment
+      or paperwork needed; one pantry visit per household per month.
   social_intensity: drop_in
   good_for:
   - anxiety_friendly
@@ -9839,7 +10050,7 @@
   programs:
   - name: Woodcarvers Drop-In
     cost: Small drop-in fee (about $2 NCPRD / $2.50 non-resident in 2025)
-    notes: Novice to advanced; guidance for starters. Day and time have varied by season (Wednesday mornings or Thursdays) -
+    notes: Novice to advanced; guidance for starters. Day and time have varied by season (the 2025 summer guide listed Thursdays 9:30-11am and 6-7:15pm) -
       call 503-653-8100 to confirm it is running.
   - name: Tai Chi for Seniors
     notes: Registered term class; times vary by term (winter 2026 ran Mon/Wed 3-4pm and 4:10-5:10pm). Check the current NCPRD
@@ -10708,9 +10919,9 @@
   - name: Repair Fair - Clackamas Community College
     dates: November 7, 2026
     schedule: 10am-1pm
-    location: Clackamas Community College, 19600 Molalla Ave, Oregon City, OR
-  last_verified: 2026-10-08
-  next_audit: 2026-11-08
+    location: Clackamas Community College, Holden Industrial Technology Center, 19600 Molalla Ave, Oregon City, OR
+  last_verified: 2026-10-14
+  next_audit: 2026-11-14
   audit_frequency: monthly
   practical_tips:
     first_visit: Just show up with your broken items
@@ -11614,14 +11825,15 @@
   pricing:
     description: SNAP/EBT accepted with Double Up Food Bucks match up to $20
     notes: No surcharge for SNAP/EBT transactions
-  schedule: Every Saturday, 8am-1pm (April-September); 9am-1pm (October-November)
+  schedule: Every Saturday 8am-1pm
   schedule_start_date: 2026-04-04
-  schedule_end_date: 2026-11-28
-  hours: Year-round. April-Sep every Saturday 8am-1pm. Oct-Nov every Saturday 9am-1pm. Dec-Mar 1st & 3rd Saturdays only, 9am-1pm.
+  schedule_end_date: 2026-12-19
+  hours: Year-round. April through December 19, 2026 every Saturday 8am-1pm. January-March 2027 2nd & 4th Saturdays only,
+    9am-1pm.
   latitude: 45.534167
   longitude: -122.621389
-  last_verified: 2026-09-10
-  next_audit: 2027-09-10
+  last_verified: 2026-10-14
+  next_audit: 2026-12-10
   audit_frequency: annually
   practical_tips:
     first_visit: Find the info booth to exchange SNAP benefits for green tokens
@@ -12207,7 +12419,8 @@
     location: Behavioral Health Resource Center, 333 SW Park Ave, Portland
     format: In-person, drop-in
     notes: Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026. As of October 2026 the group's own pages
-      still disagree (Wed 9:30-10:30am vs Wed noon-1pm vs Mon 10-11am), so confirm before attending. BHRC main line 503-988-4100.
+      still disagree (Wed 9:30-10:30am vs Wed noon-1pm vs Mon 10-11am, and portlandhearingvoices.willhall.net lists Wed 12:30-1:30pm),
+      so confirm before attending. BHRC main line 503-988-4100.
   - name: Hearing Voices Online
     schedule: (Possibly) Mondays 12:30-1:30pm PST
     format: Virtual (Zoom)
@@ -13113,8 +13326,8 @@
   hours: Main festival day Saturday, November 7, 2026; smaller satellite events during the week
   latitude: 45.5163
   longitude: -122.6833
-  last_verified: 2026-09-10
-  next_audit: 2027-06-01
+  last_verified: 2026-10-14
+  next_audit: 2027-10-14
   audit_frequency: annually
   practical_tips:
     first_visit: Buy Arts for All tickets ahead through the Portland'5 Box Office and bring your Oregon Trail Card to wristband pickup

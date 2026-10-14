@@ -35,6 +35,7 @@ pending:
       venue and time were not published as of 2026-09-16. Area Director Helen Cotton,
       971-375-5509. High value: a free, facilitated day specifically for people bereaved
       by suicide.
+      Rechecked 2026-10-14: still no Portland venue or time; AFSP Oregon lists only a Nov 22 'Through a Jewish Lens' event with no location. Recheck around Nov 5.
     source_urls:
       - https://afsp.org/chapter/oregon
       - https://afsp.org/international-survivors-of-suicide-loss-day/
@@ -46,6 +47,7 @@ pending:
       Center, and the Goose Hollow interfaith vigil have all hosted in past years; 2026
       details were not posted as of 2026-09-16. Check pdxqcenter.org/calendar in late
       October.
+      Rechecked 2026-10-14: nothing for 2026 from Q Center or Basic Rights Oregon (BRO's guide is still 2025). Recheck around Nov 5.
     source_urls:
       - https://www.pdxqcenter.org/calendar
       - https://www.basicrights.org/
@@ -56,6 +58,7 @@ pending:
       December 21, 2026 (winter solstice). Multiple Portland-metro vigils read the names of
       people who died unhoused that year; past hosts include Ecumenical Ministries of
       Oregon and Rose Haven. Organizers usually announce in early December.
+      Rechecked 2026-10-14: no Portland, Oregon listings yet. Recheck in early December.
     source_urls:
       - https://emoregon.org/
   - name: "Holiday grief workshops (Coping with the Holidays)"
@@ -65,6 +68,7 @@ pending:
       Providence, Dougy Center, and Hopewell House all run holiday-season grief programming
       in November and December. Their 2026 dates were not published as of 2026-09-16. Worth
       a single sweep in late October to add them together.
+      Rechecked 2026-10-14: Dougy Center's Oct 22 holiday session is a $65 professional webinar - do not add. Providence 'Get Me Through the Holidays' has no 2026 dates (503-215-2273). Hopewell House lists only its monthly grief circle.
     source_urls:
       - https://hopewellhousepdx.org/grief-support/
       - https://www.dougy.org/grief-support-resources/portland-area-support-groups-resources
@@ -77,24 +81,17 @@ pending:
       experiencing homelessness. All three organizations are already in the database; what
       is missing is the 2026 holiday dates and hours, which are usually announced in early
       November. Blanchet House is closed both holidays and publishes a list of who is open.
+      Rechecked 2026-10-14: no 2026 meal dates from Union Gospel Mission, Portland Rescue Mission, Poshines, or Blanchet House. Poshines is not yet in the database. Recheck around Nov 5.
     source_urls:
       - https://blanchethouse.org/where-to-find-free-thanksgiving-day-meals-and-volunteer-opportunities/
       - https://blanchethouse.org/where-to-eat-for-free-on-christmas-day/
-  - name: "Hillsboro Holly Days"
-    category: events
-    priority: medium
-    notes: >
-      Free downtown celebration with a 6pm tree lighting at Civic Center Plaza, held the
-      Saturday before Thanksgiving - November 21 in 2026, but the organizer had not posted
-      the 2026 date as of 2026-09-16.
-    source_urls:
-      - https://www.downtownhillsboro.org/holly-days-celebration/
   - name: "Lake Oswego Tree Lighting Festival"
     category: events
     priority: medium
     notes: >
       Free festival at Millennium Plaza Park with caroling, a holiday marketplace, and
       reindeer. 2026 date not yet posted.
+      Rechecked 2026-10-14: the Lake Oswego Millennium Concert Band schedule lists the festival on November 27, 2026 (band at 5:45pm), but the city has not posted it. Add once the city confirms.
     source_urls:
       - https://www.ci.oswego.or.us/parksrec/
   - name: "Milwaukie Lights Walk and Umbrella Parade"
@@ -105,17 +102,10 @@ pending:
       art installation (December through March in the 2025-26 season); the Umbrella Parade
       ends at City Hall with the tree lighting. Neither 2026 date was published as of
       2026-09-16.
+      Rechecked 2026-10-14: the city's Umbrella Parade and Winter Solstice pages still show 2025 dates; nothing for the Lights Walk.
     source_urls:
       - https://www.downtownmilwaukie.org/
       - https://www.milwaukieoregon.gov/community/events/umbrella_parade_tree_lighting.php
-  - name: "Oregon City holiday tree lighting"
-    category: events
-    priority: low
-    notes: >
-      Free, at Liberty Plaza, 813 Main St, with live music and Santa. Early December; 2026
-      date not yet posted. Worth pairing with FolkTime's Oregon City connection center.
-    source_urls:
-      - https://www.orcity.org/
   - name: "Free Halloween and harvest events - tri-county"
     category: events
     priority: low
@@ -123,21 +113,15 @@ pending:
       Trick or Treat on Alberta (October 31, 3-6pm, 40+ businesses), BOOverton in downtown
       Beaverton, and the Wood Village Pumpkin Fest at Donald L Robertson Park are all free
       and recur annually, but only 2025 dates were findable on 2026-09-16.
+      Rechecked 2026-10-14: Wood Village Pumpkin Fest added as wood-village-pumpkin-fest (Oct 24). The Beaverton Downtown Association blog lists BOOverton on October 25, 2026, but its event page still shows 2025, so no time is confirmed. Nothing for Trick or Treat on Alberta.
     source_urls:
       - https://portlandlivingonthecheap.com/free-halloween-events-portland/
-  - name: "Art in the Burbs"
-    category: arts_culture
-    priority: low
-    notes: >
-      Listed for November 7-8, 2026, 10am-5pm at Tigard High School. Free admission was not
-      confirmed. Low peer value on its own, but it is one of the few Washington County
-      November arts events.
-    source_urls:
-      - https://www.tigard-or.gov/explore-tigard/community-events
-
 ---
 # Completed additions moved here with date:
 completed:
+  # 2026-10-14 events sweep: added hillsboro-holly-days, oregon-city-tree-lighting,
+  # art-in-the-burbs (free admission, $3 suggested donation), wood-village-pumpkin-fest,
+  # and tualatin-light-parades (new lead).
   # Session 5: Community Colleges (Completed December 2025)
   - name: "PCC free community programs"
     category: arts_culture

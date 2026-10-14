@@ -365,16 +365,54 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:3b3d00bc4d800c42@portlandresources.org
-DTSTAMP:20260910T000000Z
-DTSTART;TZID=America/Los_Angeles:20260222T170000
-DTEND;TZID=America/Los_Angeles:20260222T180000
+UID:a8c5e9f864da0e2e@portlandresources.org
+DTSTAMP:20261014T000000Z
+DTSTART;TZID=America/Los_Angeles:20261122T170000
+DTEND;TZID=America/Los_Angeles:20261122T180000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
  s
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Four Bach cantatas 
- per season presented within Evening Prayer liturgy with choir\, soloists\,
-  and orchestra.\nAddress: 1315 SW Park Ave\, Portland\, OR 97201\nWebsite:
-  https://stjamespdx.org/life/wm/bach/
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: 19th annual series 
+ (2026-27). A Bach cantata within Evening Prayer with choir\, soloists\, an
+ d orchestra\; a reception follows and a freewill offering is taken. Novemb
+ er 22 is BWV 140 "Wachet auf"\; February 28 is BWV 54.\nAddress: 1315 SW P
+ ark Ave\, Portland\, OR 97201\nWebsite: https://stjamespdx.org/life/wm/bac
+ h/
+LOCATION:1315 SW Park Ave\, Portland\, OR 97201
+URL:https://stjamespdx.org/life/wm/bach/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3a0b1e2e2ad73e10@portlandresources.org
+DTSTAMP:20261014T000000Z
+DTSTART;TZID=America/Los_Angeles:20270228T170000
+DTEND;TZID=America/Los_Angeles:20270228T180000
+SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
+ s
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: 19th annual series 
+ (2026-27). A Bach cantata within Evening Prayer with choir\, soloists\, an
+ d orchestra\; a reception follows and a freewill offering is taken. Novemb
+ er 22 is BWV 140 "Wachet auf"\; February 28 is BWV 54.\nAddress: 1315 SW P
+ ark Ave\, Portland\, OR 97201\nWebsite: https://stjamespdx.org/life/wm/bac
+ h/
+LOCATION:1315 SW Park Ave\, Portland\, OR 97201
+URL:https://stjamespdx.org/life/wm/bach/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2c04a9532170ae4e@portlandresources.org
+DTSTAMP:20261014T000000Z
+DTSTART;TZID=America/Los_Angeles:20270523T170000
+DTEND;TZID=America/Los_Angeles:20270523T180000
+SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
+ s
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: 19th annual series 
+ (2026-27). A Bach cantata within Evening Prayer with choir\, soloists\, an
+ d orchestra\; a reception follows and a freewill offering is taken. Novemb
+ er 22 is BWV 140 "Wachet auf"\; February 28 is BWV 54.\nAddress: 1315 SW P
+ ark Ave\, Portland\, OR 97201\nWebsite: https://stjamespdx.org/life/wm/bac
+ h/
 LOCATION:1315 SW Park Ave\, Portland\, OR 97201
 URL:https://stjamespdx.org/life/wm/bach/
 CATEGORIES:Arts & Culture
@@ -412,22 +450,6 @@ DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Happy hour comedy o
 LOCATION:8 NE Killingsworth St\, Portland\, OR 97211
 URL:https://turnturnturnpdx.com/
 RRULE:FREQ=WEEKLY;BYDAY=FR
-CATEGORIES:Arts & Culture
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:b4963df932d826eb@portlandresources.org
-DTSTAMP:20260213T000000Z
-DTSTART;TZID=America/Los_Angeles:20260105T140000
-DTEND;TZID=America/Los_Angeles:20260105T160000
-SUMMARY:Turn! Turn! Turn!: Magic Luscious Spirit Sounds
-DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Cross-abilities mus
- ic collective jam\, open to all. All ages (daytime).\nAddress: 8 NE Killin
- gsworth St\, Portland\, OR 97211\nPhone: 503-284-6019\nWebsite: https://tu
- rnturnturnpdx.com/
-LOCATION:8 NE Killingsworth St\, Portland\, OR 97211
-URL:https://turnturnturnpdx.com/
-RRULE:FREQ=MONTHLY;BYDAY=1MO,3MO
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -746,6 +768,23 @@ LOCATION:The Stacks Coffeehouse\, 1831 N Killingsworth St\, Portland\, OR 9
  7217
 URL:https://www.thestackscoffeehouse.com/events
 RRULE:FREQ=MONTHLY;BYDAY=-1SU
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5d7caf6997d1c22c@portlandresources.org
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:Art in the Burbs
+DESCRIPTION:Category: Arts & Culture\nCost: FREE admission\; suggested $3 d
+ onation at the door\nAddress: Tigard High School\, 9000 SW Durham Rd\, Tig
+ ard\, OR 97224\nWebsite: https://artintheburbs.org/\nDetails: Added in the
+  October 2026 events sweep from the September queue\, which had left free 
+ admission unconfirmed. One of the few Washington County November arts even
+ ts.
+LOCATION:Tigard High School\, 9000 SW Durham Rd\, Tigard\, OR 97224
+URL:https://artintheburbs.org/
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2001,7 +2040,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2db1062664d6bbdb@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261014T000000Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261109
 SUMMARY:Portland Book Festival
