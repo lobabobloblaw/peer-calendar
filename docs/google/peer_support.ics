@@ -452,7 +452,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bf09ccb7ad115192@portlandresources.org
-DTSTAMP:20260916T000000Z
+DTSTAMP:20261014T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T100000
 DTEND;TZID=America/Los_Angeles:20260101T140000
 SUMMARY:FolkTime Peer Connection Centers: Drop-in peer support - Free To Be
@@ -470,7 +470,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d64ff11ba8b3e087@portlandresources.org
-DTSTAMP:20260916T000000Z
+DTSTAMP:20261014T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T100000
 DTEND;TZID=America/Los_Angeles:20260106T140000
 SUMMARY:FolkTime Peer Connection Centers: Drop-in peer support - Oregon Cit
@@ -2627,15 +2627,16 @@ SUMMARY:Portland Hearing Voices: In-Person Hearing Voices Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\, drop-in
  \nInfo: Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed 
  July 2026. As of October 2026 the group's own pages still disagree (Wed 9:
- 30-10:30am vs Wed noon-1pm vs Mon 10-11am)\, so confirm before attending. 
- BHRC main line 503-988-4100.\nAddress: 333 SW Park Ave\, Portland\, OR 972
- 05\nWebsite: https://www.portlandhearingvoices.net\nDetails: Peer-led supp
- ort groups for people who hear voices\, see visions\, or have unusual beli
- efs/sensory experiences. In-person group confirmed active at BHRC\, Wednes
- days 9:30-10:30am (moved from Mondays). Online group may be intermittent -
-  website lists it as '(Possibly)'. Part of Hearing Voices Network USA. The
-  network also lists a Salem online group hosted for Project ABLE\, which i
- s outside the Portland metro scope of this database.
+ 30-10:30am vs Wed noon-1pm vs Mon 10-11am\, and portlandhearingvoices.will
+ hall.net lists Wed 12:30-1:30pm)\, so confirm before attending. BHRC main 
+ line 503-988-4100.\nAddress: 333 SW Park Ave\, Portland\, OR 97205\nWebsit
+ e: https://www.portlandhearingvoices.net\nDetails: Peer-led support groups
+  for people who hear voices\, see visions\, or have unusual beliefs/sensor
+ y experiences. In-person group confirmed active at BHRC\, Wednesdays 9:30-
+ 10:30am (moved from Mondays). Online group may be intermittent - website l
+ ists it as '(Possibly)'. Part of Hearing Voices Network USA. The network a
+ lso lists a Salem online group hosted for Project ABLE\, which is outside 
+ the Portland metro scope of this database.
 LOCATION:Behavioral Health Resource Center\, 333 SW Park Ave\, Portland
 URL:https://www.portlandhearingvoices.net
 RRULE:FREQ=WEEKLY;BYDAY=WE

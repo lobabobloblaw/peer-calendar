@@ -2,16 +2,16 @@
 
 A comprehensive guide to free and affordable activities, services, and resources in the Portland metro area, with special attention to accessibility and mental health support.
 
-*Generated from data verified through October 08, 2026. 287 active resources across 9 categories.*
+*Generated from data verified through October 14, 2026. 292 active resources across 9 categories.*
 
 ## Contents
 
 - [Peer Support: Mental Health & Recovery](#peer-support-mental-health-recovery) (36 resources)
 - [Fitness & Wellness: Accessible Programs for All Abilities](#fitness-wellness-accessible-programs-for-all-abilities) (45 resources)
 - [Parks & Nature: Free Outdoor Spaces](#parks-nature-free-outdoor-spaces) (21 resources)
-- [Arts & Culture: Museums, Galleries, and Performances](#arts-culture-museums-galleries-and-performances) (44 resources)
+- [Arts & Culture: Museums, Galleries, and Performances](#arts-culture-museums-galleries-and-performances) (45 resources)
 - [Food & Farms: Community Meals, U-Pick, and Markets](#food-farms-community-meals-u-pick-and-markets) (45 resources)
-- [Events & Festivals: Free Community Celebrations](#events-festivals-free-community-celebrations) (48 resources)
+- [Events & Festivals: Free Community Celebrations](#events-festivals-free-community-celebrations) (52 resources)
 - [Social Activities: Connection and Community](#social-activities-connection-and-community) (21 resources)
 - [Discount Programs: Maximize Your Access](#discount-programs-maximize-your-access) (20 resources)
 - [Transportation: Getting Around Portland](#transportation-getting-around-portland) (7 resources)
@@ -806,7 +806,7 @@ Peer-led support groups for people who hear voices, see visions, or have unusual
 **Programs:**
 
 - **In-Person Hearing Voices Group:** Every Wednesday 9:30-10:30am | In-person, drop-in | Behavioral Health Resource Center, 333 SW Park Ave, Portland
-  Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026. As of October 2026 the group's own pages still disagree (Wed 9:30-10:30am vs Wed noon-1pm vs Mon 10-11am), so confirm before attending. BHRC main line 503-988-4100.
+  Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026. As of October 2026 the group's own pages still disagree (Wed 9:30-10:30am vs Wed noon-1pm vs Mon 10-11am, and portlandhearingvoices.willhall.net lists Wed 12:30-1:30pm), so confirm before attending. BHRC main line 503-988-4100.
 - **Hearing Voices Online:** (Possibly) Mondays 12:30-1:30pm PST | Virtual (Zoom)
   Still listed as '(Possibly)' on the website - may be intermittent, so confirm before relying on it. The former Wednesday 12:30-2pm online group is no longer listed as of July 2026.
 
@@ -2648,6 +2648,25 @@ Independent dinner theater in Montavilla neighborhood.
 
 *Do alone · Anxiety-friendly, Low energy, Indoor · Wheelchair accessible, Near transit*
 
+### Art in the Burbs
+
+- **Address:** Tigard High School, 9000 SW Durham Rd, Tigard, OR 97224
+- **Website:** https://artintheburbs.org/
+- **Cost:** FREE admission; suggested $3 donation at the door
+- **Hours:** 10am-5pm
+- **Schedule:** 10am-5pm
+- **Dates:** November 7-8, 2026
+
+Added in the October 2026 events sweep from the September queue, which had left free admission unconfirmed. One of the few Washington County November arts events.
+
+**What to know:** A juried indoor show of 90+ local artists that benefits the Foundation for Tigard Tualatin Schools. Sunday mornings are usually quieter than Saturday.
+
+**First visit:** Browsing is free and there is no pressure to buy; the donation is optional.
+
+**Registration:** None.
+
+*Drop-in (come and go freely) · Creative, Indoor, Low energy*
+
 ### Artichoke Community Music
 
 - **Address:** 2007 SE Powell Blvd, Portland, OR 97202
@@ -3424,12 +3443,12 @@ Supportive poetry open mic with both intimate and larger venue options
 - **Website:** https://stjamespdx.org/life/wm/bach/
 - **Cost:** FREE
 
-**Tips:** Free concerts featuring Bach cantatas on select Sundays at 5pm. Four cantatas per season. No tickets needed - just show up. Offerings accepted but not required. Beautiful church setting with excellent acoustics. 2026 dates: Feb 22, Jun 14.
+**Tips:** Free concerts featuring Bach cantatas on select Sundays at 5pm. Four cantatas per season. No tickets needed - just show up. Offerings accepted but not required. Beautiful church setting with excellent acoustics. 2026-27 dates: Nov 22, 2026; Feb 28 and May 23, 2027.
 
 **Programs:**
 
-- **Bach Cantata Vespers:** Select Sundays 5-6pm (4 per season) | FREE
-  Four Bach cantatas per season presented within Evening Prayer liturgy with choir, soloists, and orchestra.
+- **Bach Cantata Vespers:** 5-6pm | FREE
+  19th annual series (2026-27). A Bach cantata within Evening Prayer with choir, soloists, and orchestra; a reception follows and a freewill offering is taken. November 22 is BWV 140 "Wachet auf"; February 28 is BWV 54.
 
 *Drop-in (come and go freely) · Anxiety-friendly, Indoor, Low energy · Wheelchair accessible*
 
@@ -3575,14 +3594,14 @@ Active programming including music series, teen programs, and Makerspace. Part o
 - **Cost:** FREE events
 - **Hours:** Wed-Fri 4pm-11pm, Sat 4pm-11pm, Sun 12:30pm-11pm, Mon 7pm-11pm, Tue closed
 
-**Tips:** Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Magic Luscious Spirit Sounds jam (1st & 3rd Mon 2-4pm), jazz happy hour (2nd & 4th Thu 4:30-7pm), and monthly Monday karaoke. Daytime events are all ages; 21+ after 8pm. Casual atmosphere good for meeting people.
+**Tips:** Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Magic Luscious Spirit Sounds jam (unconfirmed for 2026), jazz happy hour (2nd & 4th Thu 4:30-7pm), and monthly Monday karaoke. Daytime events are all ages; 21+ after 8pm. Casual atmosphere good for meeting people.
 
 **Programs:**
 
 - **Casual Friday (Comedy Open Mic):** Fridays 5-7pm | FREE
   Happy hour comedy open mic hosted by Logan Loughmiller. Low-pressure environment for performers and audience. Women-owned community venue since 2014.
-- **Magic Luscious Spirit Sounds:** 1st & 3rd Mondays 2-4pm | FREE
-  Cross-abilities music collective jam, open to all. All ages (daytime).
+- **Magic Luscious Spirit Sounds:** FREE
+  Cross-abilities music collective jam, previously listed for 1st & 3rd Mondays 2-4pm. Not found on any 2026 source, so it no longer publishes a recurrence - call 503-284-6019 to confirm.
 - **T34 Jazz Happy Hour:** 2nd & 4th Thursdays 4:30-7pm | FREE
   The venue's house jazz quartet.
 - **Karaoke Night:** FREE
@@ -3836,8 +3855,8 @@ May-October season. One of three markets in Gresham area. EBT purple tokens avai
 - **Address:** NE Hancock St between NE 44th & NE 45th Ave, Portland, OR 97213
 - **Website:** https://www.hollywoodfarmersmarket.org
 - **Cost:** SNAP/EBT accepted with Double Up Food Bucks match up to $20. No surcharge for SNAP/EBT transactions
-- **Hours:** Year-round. April-Sep every Saturday 8am-1pm. Oct-Nov every Saturday 9am-1pm. Dec-Mar 1st & 3rd Saturdays only, 9am-1pm.
-- **Schedule:** Every Saturday, 8am-1pm (April-September); 9am-1pm (October-November)
+- **Hours:** Year-round. April through December 19, 2026 every Saturday 8am-1pm. January-March 2027 2nd & 4th Saturdays only, 9am-1pm.
+- **Schedule:** Every Saturday 8am-1pm
 
 One of Portland's best farmers markets with full SNAP/EBT support and Double Up Food Bucks matching.
 
@@ -4217,7 +4236,7 @@ North Portland Salvation Army corps with a twice-weekly pantry and a free Tuesda
 
 Mt. Hood corridor food pantry serving Sandy and surrounding communities. Open Wed and Fri only.
 
-**What to know:** Serves the Sandy area and Mt. Hood corridor communities. Only open two days per week.
+**What to know:** Serves the Sandy area and Mt. Hood corridor communities. Only open two days per week. No appointment or paperwork needed; one pantry visit per household per month.
 
 **First visit:** Walk in during hours on Wednesday or Friday.
 
@@ -4628,10 +4647,9 @@ Annual intertribal powwow since 1970. Free admission. Draws participants from ac
 - **Address:** Gresham Arts Plaza, 401 NE 2nd St, Gresham, OR
 - **Website:** https://greshamoregon.gov/
 - **Cost:** FREE
-- **Hours:** 4-8pm
-- **Dates:** November 1, 2026
+- **Hours:** 4-8pm (2025)
 
-⚠️ VERIFY - 2026 date not yet announced. The 2024 and 2025 editions ran on November 1 (2025 was a Saturday, 4-8pm, hosted with the Gresham Center for the Arts Foundation); November 1, 2026 is a Sunday.
+The 2024 and 2025 editions ran on November 1 (2025 was a Saturday, 4-8pm, at the Arts Plaza, hosted by Spirit of Gresham). No 2026 listing exists yet, so the entry is directory-only; the calendar will not roll last year's date forward.
 
 **What to know:** Free celebration of Mexican tradition honoring departed loved ones. Community ofrenda (altar), traditional food, music, sugar skull decorating. All welcome to participate and learn about this meaningful cultural celebration.
 
@@ -4817,6 +4835,28 @@ Date estimated based on typical first-Sunday-of-December pattern; confirm closer
 *Drop-in (come and go freely) · Outdoor, Family-friendly · Wheelchair accessible*
 
 **Accessibility:** City Hall area is accessible.
+
+### Hillsboro Holly Days Celebration
+
+- **Address:** Hillsboro Civic Center, 150 E Main St, Hillsboro, OR 97123
+- **Website:** https://www.downtownhillsboro.org/holly-days-celebration/
+- **Cost:** FREE
+- **Hours:** 2-7pm, tree lighting at 6pm
+- **Schedule:** 2-7pm
+- **Dates:** November 21, 2026
+- **Transit:** MAX Blue Line (Hillsboro Central/SE 3rd Ave TC)
+
+Added in the October 2026 events sweep from the September queue. Held the Saturday before Thanksgiving.
+
+**What to know:** Downtown celebration with an artisan fair, carolers, and a sing-along led by the Oregon Chorale after the tree lighting. Crowds were about 15,000 in 2025, so step away from the plaza if it gets to be too much.
+
+**First visit:** Come in the afternoon for a calmer visit; the 6pm tree lighting is the most crowded part.
+
+**Registration:** None.
+
+**What to bring:** Warm layers.
+
+*Drop-in (come and go freely) · Outdoor, Family-friendly, Good for isolation, Newcomer-friendly*
 
 ### India Festival
 
@@ -5008,6 +5048,28 @@ Japanese Buddhist festival, all welcome. Free dance practices held beforehand; n
 
 **Accessibility:** Temple grounds. Check with temple for specific accessibility needs.
 
+### Oregon City Holiday Tree Lighting
+
+- **Address:** Liberty Plaza, 800 Main St, Oregon City, OR 97045
+- **Website:** https://downtownoregoncity.org/event/holiday-tree-lighting-2026/
+- **Cost:** FREE
+- **Hours:** 5-7pm
+- **Schedule:** 5-7pm
+- **Dates:** December 5, 2026
+- **Transit:** Oregon City Transit Center (TriMet 32, 33, 99), short walk
+
+Added in the October 2026 events sweep from the September queue. Sources disagree on the plaza address (800, 813, or 814 Main St); all point to Liberty Plaza.
+
+**What to know:** Downtown Oregon City Association event with live music, Santa, and holiday vendors. FolkTime's Oregon City connection center is nearby.
+
+**First visit:** A short walk from the Oregon City Transit Center.
+
+**Registration:** None.
+
+**What to bring:** Warm layers.
+
+*Drop-in (come and go freely) · Outdoor, Family-friendly, Good for isolation*
+
 ### Oregon Free Fishing Weekends
 
 - **Address:** Statewide - all Oregon waters
@@ -5074,18 +5136,21 @@ Annual holiday light display at the Oregon Zoo, November 20, 2026 through Januar
 
 - **Address:** SE Peacock Lane between SE Belmont St & SE Stark St, Portland, OR 97214
 - **Website:** https://www.peacocklane.org/
-- **Cost:** FREE (2026 cocoa-booth details not yet announced)
+- **Cost:** FREE (free cocoa booth from 6pm, December 15-24, 2026, while supplies last)
+- **Hours:** 6-10pm nightly, December 15-31, 2026 (the site also shows 11pm in one place)
+- **Schedule:** 6-10pm
+- **Dates:** December 15-31, 2026
 - **Transit:** TriMet recommended - no official parking
 
-Since 1932. The official site still shows the 2025 schedule, so this entry is intentionally directory-only until the 2026 dates are announced. The calendar will not guess dates from last year's schedule.
+Since 1932. The homepage announces the 2026 season (lights December 15-31, 6pm; pedestrian-only nights December 15-16). The FAQ page still shows 2025.
 
-**What to know:** Historic Tudor homes have hosted this volunteer-run tradition since 1932. The official site still shows the 2025 schedule; 2026 dates and pedestrian-only nights have not yet been announced. Take TriMet when the season opens—there is no official parking.
+**What to know:** Historic Tudor homes have hosted this volunteer-run tradition since 1932. Take TriMet—there is no official parking.
 
-**First visit:** Check the official site for the 2026 dates and pedestrian-only nights before making a trip.
+**First visit:** December 15 and 16, 2026 are pedestrian-only nights - the calmest way to walk the street.
 
 **Registration:** None - just show up
 
-**What to bring:** Warm clothes and walking shoes; check the official site for current cocoa-booth details.
+**What to bring:** Warm clothes and walking shoes. The free cocoa booth runs December 15-24 from 6pm.
 
 *Drop-in (come and go freely) · Outdoor, Family-friendly, Anxiety-friendly · Near transit*
 
@@ -5421,6 +5486,29 @@ Free outdoor summer concert series featuring diverse music genres.
 
 *Casual group · Outdoor, Family-friendly · Wheelchair accessible*
 
+### Tualatin Light Parades
+
+- **Address:** Residential routes across Tualatin, OR 97062 (North, South, and East neighborhoods)
+- **Website:** https://parks.tualatinoregon.gov/events/tualatin-light-parades/
+- **Cost:** FREE to watch
+- **Hours:** 6pm start, about 60-90 minutes per route
+
+Added in the October 2026 events sweep. The city says 2026 routes are coming soon; add the street routes to each program once published.
+
+**What to know:** Police-led parades of lit vehicles, each covering 5-6 miles. Watching from a front step or a quiet corner is easy, and there is nothing to line up for.
+
+**First visit:** Watch from a curb along the route near home; the parade comes to you.
+
+**Registration:** None.
+
+**Programs:**
+
+- **Tualatin Light Parade - North:** 6-7:30pm | FREE | North Tualatin route, Tualatin, OR 97062
+- **Tualatin Light Parade - South:** 6-7:30pm | FREE | South Tualatin route, Tualatin, OR 97062
+- **Tualatin Light Parade - East:** 6-7:30pm | FREE | East Tualatin route, Tualatin, OR 97062
+
+*Do alone · Outdoor, Family-friendly, Low energy, Anxiety-friendly · Varies*
+
 ### Washington County Fair
 
 - **Address:** Westside Commons (Washington County Fair Complex), 801 NE 34th Ave, Hillsboro, OR
@@ -5487,6 +5575,28 @@ Held since 2004. The same weekend includes Pumpkins and Pints (a giant pumpkin w
 **Features:** Community parade (theme - Celebrating Hometown Heroes), Amusement rides, Olde Time Baseball Game, Food vendors and exhibitor booths, Live music from local bands, Car show
 
 *Drop-in (come and go freely) · Outdoor, Family-friendly, Newcomer-friendly · Wheelchair accessible*
+
+### Wood Village Pumpkin Fest
+
+- **Address:** Donald L. Robertson City Park, 24300 NE Halsey St, Wood Village, OR 97060
+- **Website:** https://www.woodvillageor.gov/calendar-events/11th-annual-pumpkin-fest/
+- **Cost:** FREE - free pumpkins and goodie bags while they last
+- **Hours:** 10am-noon
+- **Schedule:** 10am-noon
+- **Dates:** October 24, 2026
+- **Transit:** TriMet 77 (NE Halsey St)
+
+Added in the October 2026 events sweep from the September queue. East Multnomah County had no fall festival entry.
+
+**What to know:** The 11th annual city festival, with trunk-or-treat, a petting zoo, games, hot drinks, and a Día de los Muertos celebration with Líderes Naturales.
+
+**First visit:** It runs only two hours, so arrive near 10am if you want a free pumpkin.
+
+**Registration:** None.
+
+**What to bring:** Rain layers; the event is outdoors in the park.
+
+*Drop-in (come and go freely) · Outdoor, Family-friendly, Good for isolation*
 
 ### Wooden Shoe Tulip Festival
 
@@ -5555,7 +5665,7 @@ Clackamas County repair fair series rotating through libraries and community cen
 - **Milwaukie Sustainability Fair:** 10am-2pm | 10723 SE Main St, Milwaukie, OR
 - **Repair Fair - Molalla:** 12-3pm | Molalla Public Library, 201 E 5th St, Molalla, OR 97038
 - **Repair Fair - Oregon City:** 10am-1pm | Oregon City Public Library, 606 John Adams St, Oregon City, OR
-- **Repair Fair - Clackamas Community College:** 10am-1pm | Clackamas Community College, 19600 Molalla Ave, Oregon City, OR
+- **Repair Fair - Clackamas Community College:** 10am-1pm | Clackamas Community College, Holden Industrial Technology Center, 19600 Molalla Ave, Oregon City, OR
 
 *Casual group · Anxiety-friendly, Good for isolation, Indoor, Newcomer-friendly · Wheelchair accessible*
 
@@ -5725,7 +5835,7 @@ Primary hub for older adults in North Clackamas. Meals on Wheels program deliver
 **Programs:**
 
 - **Woodcarvers Drop-In:** Small drop-in fee (about $2 NCPRD / $2.50 non-resident in 2025)
-  Novice to advanced; guidance for starters. Day and time have varied by season (Wednesday mornings or Thursdays) - call 503-653-8100 to confirm it is running.
+  Novice to advanced; guidance for starters. Day and time have varied by season (the 2025 summer guide listed Thursdays 9:30-11am and 6-7:15pm) - call 503-653-8100 to confirm it is running.
 - **Tai Chi for Seniors**
   Registered term class; times vary by term (winter 2026 ran Mon/Wed 3-4pm and 4:10-5:10pm). Check the current NCPRD Discovery Guide.
 - **Congregate Lunch:** Weekdays noon-12:30pm in dining room | $3 suggested donation (60+); $5 under 60

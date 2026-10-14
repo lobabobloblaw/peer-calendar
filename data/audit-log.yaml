@@ -5364,3 +5364,101 @@
     - id: folktime
       status: updated
       changes: "Connection-center hours (NE Portland Mon/Wed/Thu 10am-2pm, Oregon City Tue 10am-2pm), 2nd/3rd Wednesday orientation, and free no-referral access confirmed against folktime.org/what-we-do/connection via search; site itself unreachable from this session's network, no data changes"
+
+---
+- date: 2026-10-14
+  type: audit
+  auditor: user
+  summary: "Audit completed - Hollywood Farmers Market"
+  entries_audited: 1
+  entries:
+    - id: hollywood-farmers-market
+      status: updated
+      changes: "Official Plan Your Visit page: every Saturday 8am-1pm through December 19, 2026, then 2nd & 4th Saturdays 9am-1pm January-March. Season end moved from Nov 28 to Dec 19; the Oct-Nov 9am and winter 1st & 3rd Saturday pattern was outdated"
+
+---
+- date: 2026-10-14
+  type: audit
+  auditor: user
+  summary: "Audit completed - St. James Lutheran Church Bach Cantata Vespers"
+  entries_audited: 1
+  entries:
+    - id: st-james-bach
+      status: updated
+      changes: "2026-27 season (19th annual) announced: November 22, 2026, February 28 and May 23, 2027, Sundays 5pm. Replaced the free-text dates string with a dates list so the calendar publishes them"
+
+---
+- date: 2026-10-14
+  type: audit
+  auditor: user
+  summary: "Audit completed - Lake Oswego Farmers' Market"
+  entries_audited: 1
+  entries:
+    - id: lake-oswego-farmers-market
+      status: updated
+      changes: "2026 season confirmed through October 31 on the city's page; holiday market renamed to its official name, Reunion Farmers' Market, November 21, 2026, 9am-2pm"
+
+---
+- date: 2026-10-14
+  type: audit
+  auditor: user
+  summary: "Audit completed - Clackamas County Repair Fairs"
+  entries_audited: 1
+  entries:
+    - id: clackamas-county-repair-fairs
+      status: updated
+      changes: "Oct 24 Oregon City and Nov 7 Clackamas Community College fairs confirmed on the county repair-fair page; CCC venue narrowed to the Holden Industrial Technology Center. No fairs listed after Nov 7"
+
+---
+- date: 2026-10-14
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Book Festival"
+  entries_audited: 1
+  entries:
+    - id: portland-book-festival
+      status: verified
+
+---
+- date: 2026-10-14
+  type: addition
+  auditor: claude
+  summary: "October events sweep: five free tri-county events with published 2026 dates, mostly from the September queue"
+  entries_added: 5
+  added:
+    - id: wood-village-pumpkin-fest
+      name: "Wood Village Pumpkin Fest (October 24, 2026)"
+    - id: art-in-the-burbs
+      name: "Art in the Burbs, Tigard (November 7-8, 2026; free admission, $3 suggested donation)"
+    - id: hillsboro-holly-days
+      name: "Hillsboro Holly Days Celebration (November 21, 2026)"
+    - id: tualatin-light-parades
+      name: "Tualatin Light Parades (December 4-6, 2026)"
+    - id: oregon-city-tree-lighting
+      name: "Oregon City Holiday Tree Lighting (December 5, 2026)"
+  notes: "Organizer pages were unreachable from this session's network; facts come from search summaries of those pages, so every addition carries a VERIFY flag."
+
+---
+- date: 2026-10-14
+  type: maintenance
+  auditor: claude
+  summary: "October events sweep: changes on entries that stay unverified"
+  entries:
+    - id: peacock-lane
+      status: updated
+      changes: "Published the 2026 season (December 15-31, 6pm; pedestrian-only nights December 15-16; cocoa booth December 15-24) from search summaries of the homepage. VERIFY flag kept: end time shows as both 10pm and 11pm"
+    - id: dia-muertos-gresham
+      status: updated
+      changes: "Removed the November 1, 2026 date, which had been rolled forward from 2025; no 2026 listing exists. Corrected the 2025 host to Spirit of Gresham. Still due"
+    - id: turn-turn-turn
+      status: updated
+      changes: "Magic Luscious Spirit Sounds jam no longer publishes a recurrence; it appears on no 2026 source. Flag names the April 2026 owners and what remains unconfirmed. Still due"
+    - id: portland-hearing-voices
+      status: updated
+      changes: "Added a fourth conflicting in-person time (Wed 12:30-1:30pm on the group's older site) to the VERIFY note. Still due"
+    - id: sandy-community-action
+      status: updated
+      changes: "Added the center's new site, sandyactioncenter.com, and a no-paperwork, once-a-month tip. Hours conflict unresolved. Still due"
+    - id: milwaukie-community-center
+      status: updated
+      changes: "Woodcarvers note now cites the 2025 summer guide times; no fall 2026 guide found. Still due"

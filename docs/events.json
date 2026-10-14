@@ -1,7 +1,7 @@
 {
   "schedule_schema_version": 1,
-  "generated": "2026-10-08",
-  "count": 287,
+  "generated": "2026-10-14",
+  "count": 292,
   "categories": {
     "peer_support": "Peer Support",
     "fitness_wellness": "Fitness & Wellness",
@@ -2276,7 +2276,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-10-14",
       "accessibility": [
         "transit_nearby"
       ],
@@ -10188,17 +10188,37 @@
       "programs": [
         {
           "name": "Bach Cantata Vespers",
-          "schedule": "Select Sundays 5-6pm (4 per season)",
+          "schedule": "5-6pm",
           "cost": "FREE",
-          "dates": "February 22, June 14, 2026 (2026-27 season not yet announced)",
-          "notes": "Four Bach cantatas per season presented within Evening Prayer liturgy with choir, soloists, and orchestra.",
+          "dates": [
+            "November 22, 2026",
+            "February 28, 2027",
+            "May 23, 2027"
+          ],
+          "notes": "19th annual series (2026-27). A Bach cantata within Evening Prayer with choir, soloists, and orchestra; a reception follows and a freewill offering is taken. November 22 is BWV 140 \"Wachet auf\"; February 28 is BWV 54.",
           "audience": [],
           "resolved_schedule": {
             "type": "fixed",
             "occurrences": [
               {
-                "start_date": "2026-02-22",
-                "end_date": "2026-02-22",
+                "start_date": "2026-11-22",
+                "end_date": "2026-11-22",
+                "all_day": false,
+                "start_time": "17:00",
+                "end_time": "18:00",
+                "end_day_offset": 0
+              },
+              {
+                "start_date": "2027-02-28",
+                "end_date": "2027-02-28",
+                "all_day": false,
+                "start_time": "17:00",
+                "end_time": "18:00",
+                "end_day_offset": 0
+              },
+              {
+                "start_date": "2027-05-23",
+                "end_date": "2027-05-23",
                 "all_day": false,
                 "start_time": "17:00",
                 "end_time": "18:00",
@@ -10214,7 +10234,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [],
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-10-14",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -10227,7 +10247,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": null,
-      "practical_tips": "Free concerts featuring Bach cantatas on select Sundays at 5pm. Four cantatas per season. No tickets needed - just show up. Offerings accepted but not required. Beautiful church setting with excellent acoustics. 2026 dates: Feb 22, Jun 14."
+      "practical_tips": "Free concerts featuring Bach cantatas on select Sundays at 5pm. Four cantatas per season. No tickets needed - just show up. Offerings accepted but not required. Beautiful church setting with excellent acoustics. 2026-27 dates: Nov 22, 2026; Feb 28 and May 23, 2027."
     },
     {
       "id": "belmont-firehouse",
@@ -10356,27 +10376,10 @@
         },
         {
           "name": "Magic Luscious Spirit Sounds",
-          "schedule": "1st & 3rd Mondays 2-4pm",
           "cost": "FREE",
-          "notes": "Cross-abilities music collective jam, open to all. All ages (daytime).",
+          "notes": "Cross-abilities music collective jam, previously listed for 1st & 3rd Mondays 2-4pm. Not found on any 2026 source, so it no longer publishes a recurrence - call 503-284-6019 to confirm.",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "monthly",
-            "interval": 1,
-            "weekdays": [
-              "MO"
-            ],
-            "month_weeks": [
-              1,
-              3
-            ],
-            "anchor_date": "2026-01-05",
-            "until_date": null,
-            "start_time": "14:00",
-            "end_time": "16:00",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "T34 Jazz Happy Hour",
@@ -10416,7 +10419,7 @@
       "schedule_end_date": null,
       "resolved_schedule": null,
       "flags": [
-        "\u26a0\ufe0f VERIFY - New owners took over in spring 2026 and plan new programming; the entertainment page could not be dated and opening hours are unconfirmed (only third-party listings). Call 503-284-6019."
+        "\u26a0\ufe0f VERIFY - Joel Christerson and Annie Ostrowski took over in April 2026. The T34 jazz happy hour is still on the venue's undated entertainment page; the jam, comedy, and karaoke nights were not found on any 2026 source, and hours are unconfirmed (only third-party listings, which conflict). Call 503-284-6019."
       ],
       "last_verified": "2026-02-13",
       "accessibility": [
@@ -10431,7 +10434,7 @@
       "audience": [],
       "audience_notes": null,
       "notes": null,
-      "practical_tips": "Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Magic Luscious Spirit Sounds jam (1st & 3rd Mon 2-4pm), jazz happy hour (2nd & 4th Thu 4:30-7pm), and monthly Monday karaoke. Daytime events are all ages; 21+ after 8pm. Casual atmosphere good for meeting people."
+      "practical_tips": "Neighborhood bar with free events including comedy open mic (Fri 5-7pm), Magic Luscious Spirit Sounds jam (unconfirmed for 2026), jazz happy hour (2nd & 4th Thu 4:30-7pm), and monthly Monday karaoke. Daytime events are all ages; 21+ after 8pm. Casual atmosphere good for meeting people."
     },
     {
       "id": "laurelthirst-pub",
@@ -12755,9 +12758,9 @@
       "email": null,
       "website": "https://www.peacocklane.org/",
       "pricing": {
-        "description": "FREE (2026 cocoa-booth details not yet announced)"
+        "description": "FREE (free cocoa booth from 6pm, December 15-24, 2026, while supplies last)"
       },
-      "hours": null,
+      "hours": "6-10pm nightly, December 15-31, 2026 (the site also shows 11pm in one place)",
       "eligibility": null,
       "features": [],
       "locations": [],
@@ -12771,14 +12774,26 @@
       "location_type": "physical",
       "resource_type": "event",
       "programs": [],
-      "dates": null,
-      "schedule": null,
+      "dates": "December 15-31, 2026",
+      "schedule": "6-10pm",
       "schedule_start_date": null,
       "schedule_end_date": null,
-      "resolved_schedule": null,
+      "resolved_schedule": {
+        "type": "fixed",
+        "occurrences": [
+          {
+            "start_date": "2026-12-15",
+            "end_date": "2026-12-31",
+            "all_day": true,
+            "start_time": null,
+            "end_time": null,
+            "end_day_offset": 0
+          }
+        ]
+      },
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE",
-        "\u26a0\ufe0f VERIFY - The official site still displays its 2025 schedule. Recheck in November and add 2026 dates only after the organizer publishes them."
+        "\u26a0\ufe0f VERIFY - 2026 dates come from search summaries of peacocklane.org's homepage, which was unreachable from the session that added them. The homepage gives both 10pm and 11pm as the nightly end time, and the FAQ still shows 2025."
       ],
       "last_verified": "2026-08-13",
       "accessibility": [
@@ -12792,12 +12807,12 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "Since 1932. The official site still shows the 2025 schedule, so this entry is intentionally directory-only until the 2026 dates are announced. The calendar will not guess dates from last year's schedule.",
+      "notes": "Since 1932. The homepage announces the 2026 season (lights December 15-31, 6pm; pedestrian-only nights December 15-16). The FAQ page still shows 2025.",
       "practical_tips": {
-        "first_visit": "Check the official site for the 2026 dates and pedestrian-only nights before making a trip.",
+        "first_visit": "December 15 and 16, 2026 are pedestrian-only nights - the calmest way to walk the street.",
         "registration": "None - just show up",
-        "what_to_bring": "Warm clothes and walking shoes; check the official site for current cocoa-booth details.",
-        "good_to_know": "Historic Tudor homes have hosted this volunteer-run tradition since 1932. The official site still shows the 2025 schedule; 2026 dates and pedestrian-only nights have not yet been announced. Take TriMet when the season opens\u2014there is no official parking."
+        "what_to_bring": "Warm clothes and walking shoes. The free cocoa booth runs December 15-24 from 6pm.",
+        "good_to_know": "Historic Tudor homes have hosted this volunteer-run tradition since 1932. Take TriMet\u2014there is no official parking."
       }
     },
     {
@@ -13554,7 +13569,7 @@
       "pricing": {
         "description": "FREE"
       },
-      "hours": "4-8pm",
+      "hours": "4-8pm (2025)",
       "eligibility": null,
       "features": [],
       "locations": [],
@@ -13568,25 +13583,14 @@
       "location_type": "physical",
       "resource_type": "event",
       "programs": [],
-      "dates": "November 1, 2026",
+      "dates": null,
       "schedule": null,
       "schedule_start_date": null,
       "schedule_end_date": null,
-      "resolved_schedule": {
-        "type": "fixed",
-        "occurrences": [
-          {
-            "start_date": "2026-11-01",
-            "end_date": "2026-11-01",
-            "all_day": true,
-            "start_time": null,
-            "end_time": null,
-            "end_day_offset": 0
-          }
-        ]
-      },
+      "resolved_schedule": null,
       "flags": [
-        "\ud83d\udcc5 DATE-SENSITIVE"
+        "\ud83d\udcc5 DATE-SENSITIVE",
+        "\u26a0\ufe0f VERIFY - No 2026 listing on greshamoregon.gov or spiritofgresham.org as of 2026-10-14. Add the date only once the organizer posts it."
       ],
       "last_verified": "2026-01-24",
       "accessibility": [
@@ -13601,7 +13605,7 @@
       ],
       "audience": [],
       "audience_notes": null,
-      "notes": "\u26a0\ufe0f VERIFY - 2026 date not yet announced. The 2024 and 2025 editions ran on November 1 (2025 was a Saturday, 4-8pm, hosted with the Gresham Center for the Arts Foundation); November 1, 2026 is a Sunday.",
+      "notes": "The 2024 and 2025 editions ran on November 1 (2025 was a Saturday, 4-8pm, at the Arts Plaza, hosted by Spirit of Gresham). No 2026 listing exists yet, so the entry is directory-only; the calendar will not roll last year's date forward.",
       "practical_tips": {
         "first_visit": "Located at Gresham Arts Plaza downtown",
         "registration": "None - free admission",
@@ -14605,6 +14609,400 @@
         "registration": "None.",
         "what_to_bring": "Warm layers and a little cash if you want to shop the markets.",
         "good_to_know": "An outdoor, walk-up event with no ticket and no seating, which makes it easy to leave early. The City notes events may change with the weather - check the events page that week."
+      }
+    },
+    {
+      "id": "wood-village-pumpkin-fest",
+      "title": "Wood Village Pumpkin Fest",
+      "category": "events",
+      "categoryName": "Events & Festivals",
+      "color": "#B6402F",
+      "address": "Donald L. Robertson City Park, 24300 NE Halsey St, Wood Village, OR 97060",
+      "latitude": null,
+      "longitude": null,
+      "phone": null,
+      "email": null,
+      "website": "https://www.woodvillageor.gov/calendar-events/11th-annual-pumpkin-fest/",
+      "pricing": {
+        "description": "FREE - free pumpkins and goodie bags while they last"
+      },
+      "hours": "10am-noon",
+      "eligibility": null,
+      "features": [],
+      "locations": [],
+      "services": [],
+      "transit": "TriMet 77 (NE Halsey St)",
+      "parking": null,
+      "languages": null,
+      "season": null,
+      "organizer": null,
+      "status": null,
+      "location_type": "physical",
+      "resource_type": "event",
+      "programs": [],
+      "dates": "October 24, 2026",
+      "schedule": "10am-noon",
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "resolved_schedule": {
+        "type": "fixed",
+        "occurrences": [
+          {
+            "start_date": "2026-10-24",
+            "end_date": "2026-10-24",
+            "all_day": true,
+            "start_time": null,
+            "end_time": null,
+            "end_day_offset": 0
+          }
+        ]
+      },
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE",
+        "\u26a0\ufe0f VERIFY - Date, time, and free admission come from a search summary of the City of Wood Village's 2026 event page; the page itself was unreachable from the session that added this. Confirm before the event."
+      ],
+      "last_verified": "2026-10-14",
+      "accessibility": [],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "outdoor",
+        "family_friendly",
+        "isolation"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Added in the October 2026 events sweep from the September queue. East Multnomah County had no fall festival entry.",
+      "practical_tips": {
+        "first_visit": "It runs only two hours, so arrive near 10am if you want a free pumpkin.",
+        "registration": "None.",
+        "what_to_bring": "Rain layers; the event is outdoors in the park.",
+        "good_to_know": "The 11th annual city festival, with trunk-or-treat, a petting zoo, games, hot drinks, and a D\u00eda de los Muertos celebration with L\u00edderes Naturales."
+      }
+    },
+    {
+      "id": "art-in-the-burbs",
+      "title": "Art in the Burbs",
+      "category": "arts_culture",
+      "categoryName": "Arts & Culture",
+      "color": "#6949AC",
+      "address": "Tigard High School, 9000 SW Durham Rd, Tigard, OR 97224",
+      "latitude": null,
+      "longitude": null,
+      "phone": null,
+      "email": null,
+      "website": "https://artintheburbs.org/",
+      "pricing": {
+        "description": "FREE admission; suggested $3 donation at the door"
+      },
+      "hours": "10am-5pm",
+      "eligibility": null,
+      "features": [],
+      "locations": [],
+      "services": [],
+      "transit": null,
+      "parking": null,
+      "languages": null,
+      "season": null,
+      "organizer": null,
+      "status": null,
+      "location_type": "physical",
+      "resource_type": "event",
+      "programs": [],
+      "dates": "November 7-8, 2026",
+      "schedule": "10am-5pm",
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "resolved_schedule": {
+        "type": "fixed",
+        "occurrences": [
+          {
+            "start_date": "2026-11-07",
+            "end_date": "2026-11-08",
+            "all_day": true,
+            "start_time": null,
+            "end_time": null,
+            "end_day_offset": 0
+          }
+        ]
+      },
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE",
+        "\u26a0\ufe0f VERIFY - Dates and hours come from a search summary of artintheburbs.org; the $3 suggested donation comes from its artist-application page. Neither page was reachable from the session that added this."
+      ],
+      "last_verified": "2026-10-14",
+      "accessibility": [],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "creative",
+        "indoor",
+        "low_energy"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Added in the October 2026 events sweep from the September queue, which had left free admission unconfirmed. One of the few Washington County November arts events.",
+      "practical_tips": {
+        "first_visit": "Browsing is free and there is no pressure to buy; the donation is optional.",
+        "registration": "None.",
+        "good_to_know": "A juried indoor show of 90+ local artists that benefits the Foundation for Tigard Tualatin Schools. Sunday mornings are usually quieter than Saturday."
+      }
+    },
+    {
+      "id": "hillsboro-holly-days",
+      "title": "Hillsboro Holly Days Celebration",
+      "category": "events",
+      "categoryName": "Events & Festivals",
+      "color": "#B6402F",
+      "address": "Hillsboro Civic Center, 150 E Main St, Hillsboro, OR 97123",
+      "latitude": null,
+      "longitude": null,
+      "phone": null,
+      "email": null,
+      "website": "https://www.downtownhillsboro.org/holly-days-celebration/",
+      "pricing": {
+        "description": "FREE"
+      },
+      "hours": "2-7pm, tree lighting at 6pm",
+      "eligibility": null,
+      "features": [],
+      "locations": [],
+      "services": [],
+      "transit": "MAX Blue Line (Hillsboro Central/SE 3rd Ave TC)",
+      "parking": null,
+      "languages": null,
+      "season": null,
+      "organizer": null,
+      "status": null,
+      "location_type": "physical",
+      "resource_type": "event",
+      "programs": [],
+      "dates": "November 21, 2026",
+      "schedule": "2-7pm",
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "resolved_schedule": {
+        "type": "fixed",
+        "occurrences": [
+          {
+            "start_date": "2026-11-21",
+            "end_date": "2026-11-21",
+            "all_day": true,
+            "start_time": null,
+            "end_time": null,
+            "end_day_offset": 0
+          }
+        ]
+      },
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE",
+        "\u26a0\ufe0f VERIFY - The 2026 date and 2-7pm hours come from search summaries of downtownhillsboro.org pages, which were unreachable from the session that added this. Confirm the hours before the event."
+      ],
+      "last_verified": "2026-10-14",
+      "accessibility": [],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "outdoor",
+        "family_friendly",
+        "isolation",
+        "new_to_area"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Added in the October 2026 events sweep from the September queue. Held the Saturday before Thanksgiving.",
+      "practical_tips": {
+        "first_visit": "Come in the afternoon for a calmer visit; the 6pm tree lighting is the most crowded part.",
+        "registration": "None.",
+        "what_to_bring": "Warm layers.",
+        "good_to_know": "Downtown celebration with an artisan fair, carolers, and a sing-along led by the Oregon Chorale after the tree lighting. Crowds were about 15,000 in 2025, so step away from the plaza if it gets to be too much."
+      }
+    },
+    {
+      "id": "tualatin-light-parades",
+      "title": "Tualatin Light Parades",
+      "category": "events",
+      "categoryName": "Events & Festivals",
+      "color": "#B6402F",
+      "address": "Residential routes across Tualatin, OR 97062 (North, South, and East neighborhoods)",
+      "latitude": null,
+      "longitude": null,
+      "phone": null,
+      "email": null,
+      "website": "https://parks.tualatinoregon.gov/events/tualatin-light-parades/",
+      "pricing": {
+        "description": "FREE to watch"
+      },
+      "hours": "6pm start, about 60-90 minutes per route",
+      "eligibility": null,
+      "features": [],
+      "locations": [],
+      "services": [],
+      "transit": null,
+      "parking": null,
+      "languages": null,
+      "season": null,
+      "organizer": null,
+      "status": null,
+      "location_type": "physical",
+      "resource_type": "event",
+      "programs": [
+        {
+          "name": "Tualatin Light Parade - North",
+          "dates": "December 4, 2026",
+          "schedule": "6-7:30pm",
+          "location": "North Tualatin route, Tualatin, OR 97062",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-12-04",
+                "end_date": "2026-12-04",
+                "all_day": false,
+                "start_time": "18:00",
+                "end_time": "19:30",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "name": "Tualatin Light Parade - South",
+          "dates": "December 5, 2026",
+          "schedule": "6-7:30pm",
+          "location": "South Tualatin route, Tualatin, OR 97062",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-12-05",
+                "end_date": "2026-12-05",
+                "all_day": false,
+                "start_time": "18:00",
+                "end_time": "19:30",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        },
+        {
+          "name": "Tualatin Light Parade - East",
+          "dates": "December 6, 2026",
+          "schedule": "6-7:30pm",
+          "location": "East Tualatin route, Tualatin, OR 97062",
+          "cost": "FREE",
+          "audience": [],
+          "resolved_schedule": {
+            "type": "fixed",
+            "occurrences": [
+              {
+                "start_date": "2026-12-06",
+                "end_date": "2026-12-06",
+                "all_day": false,
+                "start_time": "18:00",
+                "end_time": "19:30",
+                "end_day_offset": 0
+              }
+            ]
+          }
+        }
+      ],
+      "dates": null,
+      "schedule": null,
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "resolved_schedule": null,
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE",
+        "\u26a0\ufe0f VERIFY - Dates and the 6pm start come from a search summary of the city's 2026 event page, which was unreachable from the session that added this. The routes page still showed 2025."
+      ],
+      "last_verified": "2026-10-14",
+      "accessibility": [
+        "varies"
+      ],
+      "social_intensity": "solo",
+      "good_for": [
+        "outdoor",
+        "family_friendly",
+        "low_energy",
+        "anxiety_friendly"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Added in the October 2026 events sweep. The city says 2026 routes are coming soon; add the street routes to each program once published.",
+      "practical_tips": {
+        "first_visit": "Watch from a curb along the route near home; the parade comes to you.",
+        "registration": "None.",
+        "good_to_know": "Police-led parades of lit vehicles, each covering 5-6 miles. Watching from a front step or a quiet corner is easy, and there is nothing to line up for."
+      }
+    },
+    {
+      "id": "oregon-city-tree-lighting",
+      "title": "Oregon City Holiday Tree Lighting",
+      "category": "events",
+      "categoryName": "Events & Festivals",
+      "color": "#B6402F",
+      "address": "Liberty Plaza, 800 Main St, Oregon City, OR 97045",
+      "latitude": null,
+      "longitude": null,
+      "phone": null,
+      "email": null,
+      "website": "https://downtownoregoncity.org/event/holiday-tree-lighting-2026/",
+      "pricing": {
+        "description": "FREE"
+      },
+      "hours": "5-7pm",
+      "eligibility": null,
+      "features": [],
+      "locations": [],
+      "services": [],
+      "transit": "Oregon City Transit Center (TriMet 32, 33, 99), short walk",
+      "parking": null,
+      "languages": null,
+      "season": null,
+      "organizer": null,
+      "status": null,
+      "location_type": "physical",
+      "resource_type": "event",
+      "programs": [],
+      "dates": "December 5, 2026",
+      "schedule": "5-7pm",
+      "schedule_start_date": null,
+      "schedule_end_date": null,
+      "resolved_schedule": {
+        "type": "fixed",
+        "occurrences": [
+          {
+            "start_date": "2026-12-05",
+            "end_date": "2026-12-05",
+            "all_day": true,
+            "start_time": null,
+            "end_time": null,
+            "end_day_offset": 0
+          }
+        ]
+      },
+      "flags": [
+        "\ud83d\udcc5 DATE-SENSITIVE",
+        "\u26a0\ufe0f VERIFY - Date and time come from a search summary of the Downtown Oregon City Association's 2026 event page, which was unreachable from the session that added this. The page says more details are coming."
+      ],
+      "last_verified": "2026-10-14",
+      "accessibility": [],
+      "social_intensity": "drop_in",
+      "good_for": [
+        "outdoor",
+        "family_friendly",
+        "isolation"
+      ],
+      "audience": [],
+      "audience_notes": null,
+      "notes": "Added in the October 2026 events sweep from the September queue. Sources disagree on the plaza address (800, 813, or 814 Main St); all point to Liberty Plaza.",
+      "practical_tips": {
+        "first_visit": "A short walk from the Oregon City Transit Center.",
+        "registration": "None.",
+        "what_to_bring": "Warm layers.",
+        "good_to_know": "Downtown Oregon City Association event with live music, Santa, and holiday vendors. FolkTime's Oregon City connection center is nearby."
       }
     },
     {
@@ -17023,7 +17421,7 @@
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
-      "last_verified": "2026-01-31",
+      "last_verified": "2026-10-14",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -17991,7 +18389,7 @@
       "practical_tips": {
         "first_visit": "Walk in during hours on Wednesday or Friday.",
         "what_to_bring": "Bags or boxes for food",
-        "good_to_know": "Serves the Sandy area and Mt. Hood corridor communities. Only open two days per week."
+        "good_to_know": "Serves the Sandy area and Mt. Hood corridor communities. Only open two days per week. No appointment or paperwork needed; one pantry visit per household per month."
       }
     },
     {
@@ -18373,7 +18771,7 @@
         {
           "name": "Woodcarvers Drop-In",
           "cost": "Small drop-in fee (about $2 NCPRD / $2.50 non-resident in 2025)",
-          "notes": "Novice to advanced; guidance for starters. Day and time have varied by season (Wednesday mornings or Thursdays) - call 503-653-8100 to confirm it is running.",
+          "notes": "Novice to advanced; guidance for starters. Day and time have varied by season (the 2025 summer guide listed Thursdays 9:30-11am and 6-7:15pm) - call 503-653-8100 to confirm it is running.",
           "audience": [
             "seniors"
           ],
@@ -20299,7 +20697,7 @@
           "name": "Repair Fair - Clackamas Community College",
           "dates": "November 7, 2026",
           "schedule": "10am-1pm",
-          "location": "Clackamas Community College, 19600 Molalla Ave, Oregon City, OR",
+          "location": "Clackamas Community College, Holden Industrial Technology Center, 19600 Molalla Ave, Oregon City, OR",
           "audience": [],
           "resolved_schedule": {
             "type": "fixed",
@@ -20324,7 +20722,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
-      "last_verified": "2026-10-08",
+      "last_verified": "2026-10-14",
       "accessibility": [
         "wheelchair_accessible"
       ],
@@ -23285,7 +23683,7 @@
         "description": "SNAP/EBT accepted with Double Up Food Bucks match up to $20",
         "notes": "No surcharge for SNAP/EBT transactions"
       },
-      "hours": "Year-round. April-Sep every Saturday 8am-1pm. Oct-Nov every Saturday 9am-1pm. Dec-Mar 1st & 3rd Saturdays only, 9am-1pm.",
+      "hours": "Year-round. April through December 19, 2026 every Saturday 8am-1pm. January-March 2027 2nd & 4th Saturdays only, 9am-1pm.",
       "eligibility": null,
       "features": [],
       "locations": [],
@@ -23300,9 +23698,9 @@
       "resource_type": "event",
       "programs": [],
       "dates": null,
-      "schedule": "Every Saturday, 8am-1pm (April-September); 9am-1pm (October-November)",
+      "schedule": "Every Saturday 8am-1pm",
       "schedule_start_date": "2026-04-04",
-      "schedule_end_date": "2026-11-28",
+      "schedule_end_date": "2026-12-19",
       "resolved_schedule": {
         "type": "recurring",
         "frequency": "weekly",
@@ -23312,13 +23710,13 @@
         ],
         "month_weeks": [],
         "anchor_date": "2026-04-04",
-        "until_date": "2026-11-28",
+        "until_date": "2026-12-19",
         "start_time": "08:00",
         "end_time": "13:00",
         "end_day_offset": 0
       },
       "flags": [],
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-10-14",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
@@ -24418,7 +24816,7 @@
           "schedule": "Every Wednesday 9:30-10:30am",
           "location": "Behavioral Health Resource Center, 333 SW Park Ave, Portland",
           "format": "In-person, drop-in",
-          "notes": "Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026. As of October 2026 the group's own pages still disagree (Wed 9:30-10:30am vs Wed noon-1pm vs Mon 10-11am), so confirm before attending. BHRC main line 503-988-4100.",
+          "notes": "Moved from Mondays 10-11am to Wednesdays 9:30-10:30am - confirmed July 2026. As of October 2026 the group's own pages still disagree (Wed 9:30-10:30am vs Wed noon-1pm vs Mon 10-11am, and portlandhearingvoices.willhall.net lists Wed 12:30-1:30pm), so confirm before attending. BHRC main line 503-988-4100.",
           "audience": [],
           "resolved_schedule": {
             "type": "recurring",
@@ -26648,7 +27046,7 @@
       "flags": [
         "\ud83d\udcc5 DATE-SENSITIVE"
       ],
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-10-14",
       "accessibility": [
         "wheelchair_accessible",
         "transit_nearby"
