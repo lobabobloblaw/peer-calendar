@@ -24,6 +24,85 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:6ecd2efacdb0507e@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261031T083000
+DTEND;TZID=America/Los_Angeles:20261031T133000
+SUMMARY:Beaverton Farmers Market
+DESCRIPTION:Category: Food & Farms\nCost: Free to enter\nNote: A participat
+ ing Double Up Food Bucks market\; the SNAP terms were not readable on the 
+ site.\nAddress: Beaverton City Library west parking lot\, 12375 SW 5th St\
+ , Beaverton\, OR 97005\nWebsite: https://beavertonfarmersmarket.com/\nDeta
+ ils: Added in the October 2026 discovery sweep\; the database had no Beave
+ rton market. The weekday is inferred from the market calendar's October 31
+  Halloween listing.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> Free to enter</p><p><em>A participating Double Up Food Bucks market; the SNAP terms were not readable on the site.</em></p><p><strong>Address:</strong> Beaverton City Library west parking lot, 12375 SW 5th St, Beaverton, OR 97005</p><p><strong>Website:</strong> <a href="https://beavertonfarmersmarket.com/">https://beavertonfarmersmarket.com/</a></p><p><strong>Details:</strong> Added in the October 2026 discovery sweep; the database had no Beaverton market. The weekday is inferred from the market calendar&#x27;s October 31 Halloween listing.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Beaverton City Library west parking lot\, 12375 SW 5th St\, Beaver
+ ton\, OR 97005
+URL:https://beavertonfarmersmarket.com/
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20261122T075959Z
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:276ee1e755c90c63@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Proper's Free Thanksgiving Dinner (Po'Shines Cafe De La Soul)
+DESCRIPTION:Category: Food & Farms\nCost: FREE\nNote: Donations welcome.\nA
+ ddress: Po'Shines Cafe De La Soul\, 8139 N Denver Ave\, Portland\, OR 9721
+ 7\nWebsite: https://properpdx.org\nDetails: From the queue's Poshines lead
+ . Date\, time\, and address come from the organizer's 2026 poster (posted 
+ October 22) and match Blanchet House's 2026 list.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE</p><p><em>Donations welcome.</em></p><p><strong>Address:</strong> Po&#x27;Shines Cafe De La Soul, 8139 N Denver Ave, Portland, OR 97217</p><p><strong>Website:</strong> <a href="https://properpdx.org">https://properpdx.org</a></p><p><strong>Details:</strong> From the queue&#x27;s Poshines lead. Date, time, and address come from the organizer&#x27;s 2026 poster (posted October 22) and match Blanchet House&#x27;s 2026 list.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Po'Shines Cafe De La Soul\, 8139 N Denver Ave\, Portland\, OR 9721
+ 7
+URL:https://properpdx.org
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:984e251cacdcab13@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Cornelius Community Dinner
+DESCRIPTION:Category: Food & Farms\nCost: FREE turkey dinner\nAddress: Corn
+ elius Elementary School\, 200 N 14th Ave\, Cornelius\, OR 97113\nWebsite: 
+ https://www.washingtoncountyor.gov/sheriff/news/2026/10/19/cornelius-commu
+ nity-dinner\nDetails: Added in the October 2026 discovery sweep.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE turkey dinner</p><p><strong>Address:</strong> Cornelius Elementary School, 200 N 14th Ave, Cornelius, OR 97113</p><p><strong>Website:</strong> <a href="https://www.washingtoncountyor.gov/sheriff/news/2026/10/19/cornelius-community-dinner">https://www.washingtoncountyor.gov/sheriff/news/2026/10/19/cornelius-community-dinner</a></p><p><strong>Details:</strong> Added in the October 2026 discovery sweep.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Cornelius Elementary School\, 200 N 14th Ave\, Cornelius\, OR 9711
+ 3
+URL:https://www.washingtoncountyor.gov/sheriff/news/2026/10/19/cornelius-community-dinner
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fd5385f9133578ba@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Community Holiday Dinner (Congregation Beth Israel with LiftUP)
+DESCRIPTION:Category: Food & Farms\nCost: Cost is not stated on the event p
+ age\nAddress: Goodman Hall\, Congregation Beth Israel\, 1972 NW Flanders S
+ t\, Portland\, OR 97209\nPhone: 503-222-1069\nWebsite: https://www.bethisr
+ ael-pdx.org/calendar/filter-by/event/308/2026/12/25\nDetails: From the Chr
+ istmas Day search in the October 2026 audit. One of few Christmas Day meal
+ s with a confirmed 2026 date.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> Cost is not stated on the event page</p><p><strong>Address:</strong> Goodman Hall, Congregation Beth Israel, 1972 NW Flanders St, Portland, OR 97209</p><p><strong>Phone:</strong> <a href="tel:503-222-1069">503-222-1069</a></p><p><strong>Website:</strong> <a href="https://www.bethisrael-pdx.org/calendar/filter-by/event/308/2026/12/25">https://www.bethisrael-pdx.org/calendar/filter-by/event/308/2026/12/25</a></p><p><strong>Details:</strong> From the Christmas Day search in the October 2026 audit. One of few Christmas Day meals with a confirmed 2026 date.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Goodman Hall\, Congregation Beth Israel\, 1972 NW Flanders St\, Po
+ rtland\, OR 97209
+URL:https://www.bethisrael-pdx.org/calendar/filter-by/event/308/2026/12/25
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f2e8a8002b3ae77e@portlandresources.org
 DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T161500
@@ -62,16 +141,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:63ba5f7f93d4a09e@portlandresources.org
-DTSTAMP:20260910T000000Z
-DTSTART;TZID=America/Los_Angeles:20260104T150000
-DTEND;TZID=America/Los_Angeles:20260104T160000
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T120000
+DTEND;TZID=America/Los_Angeles:20260104T143000
 SUMMARY:Potluck in the Park
 DESCRIPTION:Category: Food & Farms\nCost: FREE\nAddress: North Park Blocks\
  , NW Glisan St between 8th Ave & Park Ave\, Portland\, OR\nPhone: 503-255-
  7611\nWebsite: https://potluckinthepark.org/\nDetails: Free Sunday hot mea
  l at North Park Blocks. 34+ years serving 400-600 people weekly\, rain or 
- shine.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> North Park Blocks, NW Glisan St between 8th Ave &amp; Park Ave, Portland, OR</p><p><strong>Phone:</strong> <a href="tel:503-255-7611">503-255-7611</a></p><p><strong>Website:</strong> <a href="https://potluckinthepark.org/">https://potluckinthepark.org/</a></p><p><strong>Details:</strong> Free Sunday hot meal at North Park Blocks. 34+ years serving 400-600 people weekly, rain or shine.</p></BODY></HTML>
+ shine. The site says it partners with the Portland Art Museum each year on
+  a free Christmas Day dinner\; no 2026 date or time is posted yet.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> North Park Blocks, NW Glisan St between 8th Ave &amp; Park Ave, Portland, OR</p><p><strong>Phone:</strong> <a href="tel:503-255-7611">503-255-7611</a></p><p><strong>Website:</strong> <a href="https://potluckinthepark.org/">https://potluckinthepark.org/</a></p><p><strong>Details:</strong> Free Sunday hot meal at North Park Blocks. 34+ years serving 400-600 people weekly, rain or shine. The site says it partners with the Portland Art Museum each year on a free Christmas Day dinner; no 2026 date or time is posted yet.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:North Park Blocks\, NW Glisan St between 8th Ave & Park Ave\, Port
  land\, OR
@@ -82,7 +162,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:82b08310f2a35cf2@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T103000
 DTEND;TZID=America/Los_Angeles:20260104T113000
 SUMMARY:Sikh Center of Oregon Langar: Sunday Langar
@@ -104,7 +184,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7d8691a323748517@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T200000
 DTEND;TZID=America/Los_Angeles:20260102T210000
 SUMMARY:Sikh Center of Oregon Langar: Friday Langar
@@ -126,35 +206,53 @@ CATEGORIES:Food & Farms
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:997f8b927cde4848@portlandresources.org
-DTSTAMP:20261014T000000Z
-DTSTART;TZID=America/Los_Angeles:20260509T083000
-DTEND;TZID=America/Los_Angeles:20260509T133000
-SUMMARY:Lake Oswego Farmers' Market
-DESCRIPTION:Category: Food & Farms\nCost: FREE entry\nNote: SNAP/EBT accept
- ed with matching program\nAddress: Millennium Plaza Park\, Lake Oswego\, O
- R\nWebsite: https://www.ci.oswego.or.us/lofm\nDetails: May-October season.
-  One of the best farmers' markets for SNAP users due to matching program.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE entry</p><p><em>SNAP/EBT accepted with matching program</em></p><p><strong>Address:</strong> Millennium Plaza Park, Lake Oswego, OR</p><p><strong>Website:</strong> <a href="https://www.ci.oswego.or.us/lofm">https://www.ci.oswego.or.us/lofm</a></p><p><strong>Details:</strong> May-October season. One of the best farmers&#x27; markets for SNAP users due to matching program.</p></BODY></HTML>
+UID:77ee27e0aadfff1b@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T120000
+DTEND;TZID=America/Los_Angeles:20260101T130000
+SUMMARY:Loaves & Fishes Senior Dining Centers
+DESCRIPTION:Category: Food & Farms\nCost: $10 per meal - contribute what yo
+ u can afford\, no one turned away\nPhone: 503-953-8111\nWebsite: https://m
+ owp.org\nEligibility: Adults 60+ regardless of income\nDetails: 30+ dining
+  centers operated by Meals on Wheels People
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> $10 per meal - contribute what you can afford, no one turned away</p><p><strong>Phone:</strong> <a href="tel:503-953-8111">503-953-8111</a></p><p><strong>Website:</strong> <a href="https://mowp.org">https://mowp.org</a></p><p><strong>Eligibility:</strong> Adults 60+ regardless of income</p><p><strong>Details:</strong> 30+ dining centers operated by Meals on Wheels People</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
-LOCATION:Millennium Plaza Park\, Lake Oswego\, OR
+URL:https://mowp.org
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c2e16094fd95a49f@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261121T090000
+DTEND;TZID=America/Los_Angeles:20261121T140000
+SUMMARY:Lake Oswego Farmers' Market: Reunion Farmers' Market
+DESCRIPTION:Category: Food & Farms\nCost: FREE entry\nInfo: Thanksgiving-th
+ emed market with fall harvest vendors. The city's page for this day does n
+ ot mention the SNAP match.\nAddress: Millennium Plaza Park\, 200 1st Stree
+ t\, Lake Oswego\, OR 97034\nPhone: 503-697-6517\nWebsite: https://www.ci.o
+ swego.or.us/lofm\nDetails: May-October season. One of the best farmers' ma
+ rkets for SNAP users due to matching program.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE entry</p><p>Thanksgiving-themed market with fall harvest vendors. The city&#x27;s page for this day does not mention the SNAP match.</p><p><strong>Address:</strong> Millennium Plaza Park, 200 1st Street, Lake Oswego, OR 97034</p><p><strong>Phone:</strong> <a href="tel:503-697-6517">503-697-6517</a></p><p><strong>Website:</strong> <a href="https://www.ci.oswego.or.us/lofm">https://www.ci.oswego.or.us/lofm</a></p><p><strong>Details:</strong> May-October season. One of the best farmers&#x27; markets for SNAP users due to matching program.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Millennium Plaza Park\, 200 1st Street\, Lake Oswego\, OR 97034
 URL:https://www.ci.oswego.or.us/lofm
-RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20261101T065959Z
 CATEGORIES:Food & Farms
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6517fa2bcf3ed8b4@portlandresources.org
-DTSTAMP:20260131T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260502T083000
 DTEND;TZID=America/Los_Angeles:20260502T140000
 SUMMARY:Gresham Farmers' Market
 DESCRIPTION:Category: Food & Farms\nCost: FREE to attend\nNote: Most produc
  e vendors accept Senior/WIC checks\nAddress: Arts Plaza\, NE 3rd St and NE
-  Hood Ave\, Gresham\, OR\nWebsite: https://www.greshamfarmersmarket.com\nD
- etails: May-October season. One of three markets in Gresham area. EBT purp
- le tokens available at info booth.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE to attend</p><p><em>Most produce vendors accept Senior/WIC checks</em></p><p><strong>Address:</strong> Arts Plaza, NE 3rd St and NE Hood Ave, Gresham, OR</p><p><strong>Website:</strong> <a href="https://www.greshamfarmersmarket.com">https://www.greshamfarmersmarket.com</a></p><p><strong>Details:</strong> May-October season. One of three markets in Gresham area. EBT purple tokens available at info booth.</p></BODY></HTML>
+  Hood Ave\, Gresham\, OR\nPhone: 971-303-2248\nWebsite: https://www.gresha
+ mfarmersmarket.com\nDetails: May-October season. One of three markets in G
+ resham area. EBT purple tokens available at info booth.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE to attend</p><p><em>Most produce vendors accept Senior/WIC checks</em></p><p><strong>Address:</strong> Arts Plaza, NE 3rd St and NE Hood Ave, Gresham, OR</p><p><strong>Phone:</strong> <a href="tel:971-303-2248">971-303-2248</a></p><p><strong>Website:</strong> <a href="https://www.greshamfarmersmarket.com">https://www.greshamfarmersmarket.com</a></p><p><strong>Details:</strong> May-October season. One of three markets in Gresham area. EBT purple tokens available at info booth.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:Arts Plaza\, NE 3rd St and NE Hood Ave\, Gresham\, OR
 URL:https://www.greshamfarmersmarket.com
@@ -163,21 +261,21 @@ CATEGORIES:Food & Farms
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:67340f12a09b5cd7@portlandresources.org
-DTSTAMP:20260324T000000Z
-DTSTART;TZID=America/Los_Angeles:20260503T093000
-DTEND;TZID=America/Los_Angeles:20260503T140000
-SUMMARY:Milwaukie Farmers Market
-DESCRIPTION:Category: Food & Farms\nCost: FREE to attend\nNote: Participate
- s in Double Up Food Bucks Oregon (SNAP matching)\nAddress: SE Main St & Ha
- rrison St\, Milwaukie\, OR 97222\nWebsite: https://milwaukiefarmersmarket.
- com/\nDetails: Sundays May-October in downtown Milwaukie. SNAP/EBT accepte
- d with Double Up Food Bucks matching.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE to attend</p><p><em>Participates in Double Up Food Bucks Oregon (SNAP matching)</em></p><p><strong>Address:</strong> SE Main St &amp; Harrison St, Milwaukie, OR 97222</p><p><strong>Website:</strong> <a href="https://milwaukiefarmersmarket.com/">https://milwaukiefarmersmarket.com/</a></p><p><strong>Details:</strong> Sundays May-October in downtown Milwaukie. SNAP/EBT accepted with Double Up Food Bucks matching.</p></BODY></HTML>
+UID:3d41edee64d9b0ab@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261122T093000
+DTEND;TZID=America/Los_Angeles:20261122T140000
+SUMMARY:Milwaukie Farmers Market: Thanksgiving Market
+DESCRIPTION:Category: Food & Farms\nCost: FREE to attend\nInfo: One-day mar
+ ket the Sunday before Thanksgiving\, announced on the market's home page. 
+ The market's news post for it still carries a stale 'November 24th' in its
+  body text.\nAddress: SE Main St & Harrison St\, Milwaukie\, OR 97222\nWeb
+ site: https://milwaukiefarmersmarket.com/\nDetails: Sundays May-October in
+  downtown Milwaukie. SNAP/EBT accepted with Double Up Food Bucks matching.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE to attend</p><p>One-day market the Sunday before Thanksgiving, announced on the market&#x27;s home page. The market&#x27;s news post for it still carries a stale &#x27;November 24th&#x27; in its body text.</p><p><strong>Address:</strong> SE Main St &amp; Harrison St, Milwaukie, OR 97222</p><p><strong>Website:</strong> <a href="https://milwaukiefarmersmarket.com/">https://milwaukiefarmersmarket.com/</a></p><p><strong>Details:</strong> Sundays May-October in downtown Milwaukie. SNAP/EBT accepted with Double Up Food Bucks matching.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:SE Main St & Harrison St\, Milwaukie\, OR 97222
 URL:https://milwaukiefarmersmarket.com/
-RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20261101T065959Z
 CATEGORIES:Food & Farms
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -202,17 +300,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e5557256b5233151@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260404T080000
 DTEND;TZID=America/Los_Angeles:20260404T130000
 SUMMARY:Hollywood Farmers Market
 DESCRIPTION:Category: Food & Farms\nCost: SNAP/EBT accepted with Double Up 
  Food Bucks match up to $20\nNote: No surcharge for SNAP/EBT transactions\n
  Address: NE Hancock St between NE 44th & NE 45th Ave\, Portland\, OR 97213
- \nWebsite: https://www.hollywoodfarmersmarket.org\nDetails: One of Portlan
- d's best farmers markets with full SNAP/EBT support and Double Up Food Buc
- ks matching.
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> SNAP/EBT accepted with Double Up Food Bucks match up to $20</p><p><em>No surcharge for SNAP/EBT transactions</em></p><p><strong>Address:</strong> NE Hancock St between NE 44th &amp; NE 45th Ave, Portland, OR 97213</p><p><strong>Website:</strong> <a href="https://www.hollywoodfarmersmarket.org">https://www.hollywoodfarmersmarket.org</a></p><p><strong>Details:</strong> One of Portland&#x27;s best farmers markets with full SNAP/EBT support and Double Up Food Bucks matching.</p></BODY></HTML>
+ \nPhone: 503-709-7403\nWebsite: https://www.hollywoodfarmersmarket.org\nDe
+ tails: One of Portland's best farmers markets with full SNAP/EBT support a
+ nd Double Up Food Bucks matching.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> SNAP/EBT accepted with Double Up Food Bucks match up to $20</p><p><em>No surcharge for SNAP/EBT transactions</em></p><p><strong>Address:</strong> NE Hancock St between NE 44th &amp; NE 45th Ave, Portland, OR 97213</p><p><strong>Phone:</strong> <a href="tel:503-709-7403">503-709-7403</a></p><p><strong>Website:</strong> <a href="https://www.hollywoodfarmersmarket.org">https://www.hollywoodfarmersmarket.org</a></p><p><strong>Details:</strong> One of Portland&#x27;s best farmers markets with full SNAP/EBT support and Double Up Food Bucks matching.</p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:NE Hancock St between NE 44th & NE 45th Ave\, Portland\, OR 97213
 URL:https://www.hollywoodfarmersmarket.org
@@ -222,7 +320,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f27b3bf690a597ac@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260404T083000
 DTEND;TZID=America/Los_Angeles:20260404T140000
 SUMMARY:Portland Farmers Market at PSU: Saturday Market (April-October)
@@ -243,10 +341,32 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0b4dd8cc1ac585cc@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20261107T090000
 DTEND;TZID=America/Los_Angeles:20261107T140000
-SUMMARY:Portland Farmers Market at PSU: Saturday Market (November-March)
+SUMMARY:Portland Farmers Market at PSU: Saturday Market (November-December)
+DESCRIPTION:Category: Food & Farms\nCost: FREE\nInfo: Closed Saturday\, Dec
+ ember 26\, 2026.\nAddress: South Park Blocks\, SW Park Ave & SW Montgomery
+  St\, Portland\, OR 97201\nWebsite: https://www.portlandfarmersmarket.org/
+ our-markets/psu/\nDetails: Year-round Saturday market on the PSU campus wi
+ th full SNAP/EBT support and Double Up Food Bucks matching. Phone not publ
+ ished on the market page. Coordinates approximate - re-run geocode_address
+ es.py.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Food &amp; Farms</p><p><strong>Cost:</strong> FREE</p><p>Closed Saturday, December 26, 2026.</p><p><strong>Address:</strong> South Park Blocks, SW Park Ave &amp; SW Montgomery St, Portland, OR 97201</p><p><strong>Website:</strong> <a href="https://www.portlandfarmersmarket.org/our-markets/psu/">https://www.portlandfarmersmarket.org/our-markets/psu/</a></p><p><strong>Details:</strong> Year-round Saturday market on the PSU campus with full SNAP/EBT support and Double Up Food Bucks matching. Phone not published on the market page. Coordinates approximate - re-run geocode_addresses.py.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:South Park Blocks\, SW Park Ave & SW Montgomery St\, Portland\, OR
+  97201
+URL:https://www.portlandfarmersmarket.org/our-markets/psu/
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20261220T075959Z
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:318412e501f41fa9@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20270102T090000
+DTEND;TZID=America/Los_Angeles:20270102T140000
+SUMMARY:Portland Farmers Market at PSU: Saturday Market (January-March)
 DESCRIPTION:Category: Food & Farms\nCost: FREE\nAddress: South Park Blocks\
  , SW Park Ave & SW Montgomery St\, Portland\, OR 97201\nWebsite: https://w
  ww.portlandfarmersmarket.org/our-markets/psu/\nDetails: Year-round Saturda

@@ -25,6 +25,23 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:9da988f6b27fd0ba@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Newt Day! (Tualatin Hills Nature Center)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nNote: Sponsored by the Fr
+ iends of the Tualatin Hills Nature Park.\nAddress: Tualatin Hills Nature C
+ enter\, 15655 SW Millikan Way\, Beaverton\, OR 97006\nPhone: 503-629-6350\
+ nWebsite: https://www.tualatinhillsparks.org/Calendar.aspx?EID=17175\nDeta
+ ils: Added in the October 2026 discovery sweep.
+LOCATION:Tualatin Hills Nature Center\, 15655 SW Millikan Way\, Beaverton\,
+  OR 97006
+URL:https://www.tualatinhillsparks.org/Calendar.aspx?EID=17175
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:697356c9eaa7b5bb@portlandresources.org
 DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T100000

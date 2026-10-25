@@ -171,15 +171,16 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a51c3018c49f316a@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Portland Tree Lighting Ceremony
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Pioneer Cour
  thouse Square\, 701 SW 6th Ave\, Portland\nWebsite: https://www.thesquarep
- dx.org/\nDetails: Since 1984. Pink Martini sing-along\, about 10\,000 ligh
- ts. 2026 is the 42nd annual. Tree size and donor for 2026 not yet publishe
- d.
+ dx.org/\nDetails: Since 1984. Pink Martini sing-along\, nearly 10\,000 lig
+ hts. 2026 is the 42nd annual. The Square lists the Stimson Lumber Tree Arr
+ ival on November 10\, 2026\, 11am-12:30pm\; the 2026 tree size is not publ
+ ished.
 LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland
 URL:https://www.thesquarepdx.org/
 CATEGORIES:Events & Festivals
@@ -187,16 +188,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c8f42108a7538ee3@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20270101
 SUMMARY:Peacock Lane Holiday Lights
 DESCRIPTION:Category: Events & Festivals\nCost: FREE (free cocoa booth from
   6pm\, December 15-24\, 2026\, while supplies last)\nAddress: SE Peacock L
  ane between SE Belmont St & SE Stark St\, Portland\, OR 97214\nWebsite: ht
- tps://www.peacocklane.org/\nDetails: Since 1932. The homepage announces th
- e 2026 season (lights December 15-31\, 6pm\; pedestrian-only nights Decemb
- er 15-16). The FAQ page still shows 2025.
+ tps://www.peacocklane.org/\nDetails: Since 1932. The homepage and FAQ both
+  show the 2026 season - lights December 15-31\, 6-10pm\; pedestrian-only n
+ ights December 15-16\; free cocoa booth December 15-24 from 6pm. One homep
+ age line says 11pm for opening night\, but the header\, Quick Facts\, and 
+ FAQ all say 10pm.
 LOCATION:SE Peacock Lane between SE Belmont St & SE Stark St\, Portland\, O
  R 97214
 URL:https://www.peacocklane.org/
@@ -405,6 +408,24 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:b297a771e14010c2@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Día de los Muertos (Gresham)
+DESCRIPTION:Category: Events & Festivals\nCost: No admission price is liste
+ d\; free champurado while supplies last\nAddress: Futbarrio\, 2919 NW Divi
+ sion St\, Gresham\, OR 97030\nPhone: (503) 489-7603\nWebsite: https://www.
+ spiritofgresham.org/events-1/dia-de-lps-muertos\nDetails: 2026 is Sunday\,
+  November 1\, 9am-5pm at Futbarrio on NW Division St\, hosted by the Cente
+ r for the Arts Foundation with Spirit of Gresham. Earlier editions (2024 a
+ nd 2025) ran at the Gresham Arts Plaza\, 4-8pm in 2025.
+LOCATION:Futbarrio\, 2919 NW Division St\, Gresham\, OR 97030
+URL:https://www.spiritofgresham.org/events-1/dia-de-lps-muertos
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:f74bcb91ff4bdb04@portlandresources.org
 DTSTAMP:20260813T000000Z
 DTSTART;VALUE=DATE:20260704
@@ -439,14 +460,16 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:28c7937075bc38a8@portlandresources.org
-DTSTAMP:20260124T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Happy Valley Tree Lighting
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: 16000 SE Mis
  ty Dr\, Happy Valley\, OR\nWebsite: https://www.happyvalleyor.gov/services
- /hv-community-events/tree-lighting-ceremony/\nDetails: Date estimated base
- d on typical first-Sunday-of-December pattern\; confirm closer to event.
+ /hv-community-events/tree-lighting-ceremony/\nDetails: Sunday\, December 6
+ \, 4-6pm at Happy Valley City Hall\, per the city's 2026 page (the weekday
+  and date match 2026). The page says more details are coming\; the lightin
+ g time itself is not posted.
 LOCATION:16000 SE Misty Dr\, Happy Valley\, OR
 URL:https://www.happyvalleyor.gov/services/hv-community-events/tree-lighting-ceremony/
 CATEGORIES:Events & Festivals
@@ -454,15 +477,15 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6c03d30cb8f57738@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260307T100000
 DTEND;TZID=America/Los_Angeles:20260307T170000
 SUMMARY:Portland Saturday Market: Saturday Market
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: March 7 through
-  December 19\, 2026\; live music at 11am and 2pm\nAddress: 2 SW Naito Pkwy
- \, Portland\, OR 97204\nWebsite: https://portlandsaturdaymarket.com/\nDeta
- ils: Largest continuously operating outdoor arts market in the U.S.\, 250+
-  vendors
+  December 19\, 2026 (no Sunday market)\; live music most Saturdays\nAddres
+ s: 2 SW Naito Pkwy\, Portland\, OR 97204\nPhone: (503) 222-6072\nWebsite: 
+ https://portlandsaturdaymarket.com/\nDetails: Largest continuously operati
+ ng outdoor arts market in the U.S.\, 250+ vendors
 LOCATION:2 SW Naito Pkwy\, Portland\, OR 97204
 URL:https://portlandsaturdaymarket.com/
 RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20261220T075959Z
@@ -471,7 +494,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d278ca247411846b@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20260214
 DTEND;VALUE=DATE:20260216
 SUMMARY:Oregon Free Fishing Weekends
@@ -485,7 +508,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:77ae73c28b0f9ccd@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20260608
 SUMMARY:Oregon Free Fishing Weekends
@@ -499,7 +522,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:aadf365d4c01dd72@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261129
 SUMMARY:Oregon Free Fishing Weekends
@@ -513,15 +536,15 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b15d343b54d9cc34@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261221
 SUMMARY:Christmas Ships Parade
 DESCRIPTION:Category: Events & Festivals\nCost: FREE viewing from any river
  front\nAddress: Columbia and Willamette Rivers\, Portland\, OR\nWebsite: h
  ttps://christmasships.org/\nDetails: 15 nights of decorated boats on the r
- ivers. Meet the Skippers at RiverPlace Marina dock Saturday December 19 8-
- 10pm and Sunday December 20 2-4:30pm.
+ ivers. Meet & Greet at RiverPlace Marina dock Saturday December 19 8-10pm 
+ and Sunday December 20 2-4:30pm.
 LOCATION:Columbia and Willamette Rivers\, Portland\, OR
 URL:https://christmasships.org/
 CATEGORIES:Events & Festivals
@@ -569,12 +592,12 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1d71fc75f856acd1@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Wood Village Pumpkin Fest
-DESCRIPTION:Category: Events & Festivals\nCost: FREE - free pumpkins and go
- odie bags while they last\nAddress: Donald L. Robertson City Park\, 24300 
+DESCRIPTION:Category: Events & Festivals\nCost: FREE (free arts and crafts\
+ , activities\, and music)\nAddress: Donald L. Robertson City Park\, 24300 
  NE Halsey St\, Wood Village\, OR 97060\nWebsite: https://www.woodvillageor
  .gov/calendar-events/11th-annual-pumpkin-fest/\nDetails: Added in the Octo
  ber 2026 events sweep from the September queue. East Multnomah County had 
@@ -587,7 +610,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d3829f3f573bf7a@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Hillsboro Holly Days Celebration
@@ -603,65 +626,768 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:32b82815f20eb780@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20261204T180000
 DTEND;TZID=America/Los_Angeles:20261204T193000
 SUMMARY:Tualatin Light Parades: Tualatin Light Parade - North
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Residential 
  routes across Tualatin\, OR 97062 (North\, South\, and East neighborhoods)
  \nWebsite: https://parks.tualatinoregon.gov/events/tualatin-light-parades/
- \nDetails: Added in the October 2026 events sweep. The city says 2026 rout
- es are coming soon\; add the street routes to each program once published.
-LOCATION:North Tualatin route\, Tualatin\, OR 97062
+ \nDetails: Added in the October 2026 events sweep\; dates and the 6pm star
+ t confirmed on the city's 2026 page on 2026-10-25. The page says street ro
+ utes are coming soon\, so add them to each program once published. Registr
+ ation is required only for vehicles in the parade\, and it is free.
+LOCATION:North Tualatin route (neighborhoods around Community Park and Jurg
+ ens Park)\, Tualatin\, OR 97062
 URL:https://parks.tualatinoregon.gov/events/tualatin-light-parades/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cf5beefa6854412c@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20261205T180000
 DTEND;TZID=America/Los_Angeles:20261205T193000
 SUMMARY:Tualatin Light Parades: Tualatin Light Parade - South
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Residential 
  routes across Tualatin\, OR 97062 (North\, South\, and East neighborhoods)
  \nWebsite: https://parks.tualatinoregon.gov/events/tualatin-light-parades/
- \nDetails: Added in the October 2026 events sweep. The city says 2026 rout
- es are coming soon\; add the street routes to each program once published.
-LOCATION:South Tualatin route\, Tualatin\, OR 97062
+ \nDetails: Added in the October 2026 events sweep\; dates and the 6pm star
+ t confirmed on the city's 2026 page on 2026-10-25. The page says street ro
+ utes are coming soon\, so add them to each program once published. Registr
+ ation is required only for vehicles in the parade\, and it is free.
+LOCATION:South Tualatin route (neighborhoods around Ibach Park and Tualatin
+  High School)\, Tualatin\, OR 97062
 URL:https://parks.tualatinoregon.gov/events/tualatin-light-parades/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c263fa178562b525@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20261206T180000
 DTEND;TZID=America/Los_Angeles:20261206T193000
 SUMMARY:Tualatin Light Parades: Tualatin Light Parade - East
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Residential 
  routes across Tualatin\, OR 97062 (North\, South\, and East neighborhoods)
  \nWebsite: https://parks.tualatinoregon.gov/events/tualatin-light-parades/
- \nDetails: Added in the October 2026 events sweep. The city says 2026 rout
- es are coming soon\; add the street routes to each program once published.
-LOCATION:East Tualatin route\, Tualatin\, OR 97062
+ \nDetails: Added in the October 2026 events sweep\; dates and the 6pm star
+ t confirmed on the city's 2026 page on 2026-10-25. The page says street ro
+ utes are coming soon\, so add them to each program once published. Registr
+ ation is required only for vehicles in the parade\, and it is free.
+LOCATION:East Tualatin route (neighborhoods around Atfalati Park\, Fox Hill
+ s\, and Marquis)\, Tualatin\, OR 97062
 URL:https://parks.tualatinoregon.gov/events/tualatin-light-parades/
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:768a353cc6fcc103@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Oregon City Holiday Tree Lighting
 DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Liberty Plaz
  a\, 800 Main St\, Oregon City\, OR 97045\nWebsite: https://downtownoregonc
- ity.org/event/holiday-tree-lighting-2026/\nDetails: Added in the October 2
- 026 events sweep from the September queue. Sources disagree on the plaza a
- ddress (800\, 813\, or 814 Main St)\; all point to Liberty Plaza.
+ ity.org/event/holiday-tree-lighting\nDetails: Added in the October 2026 ev
+ ents sweep from the September queue. Sources disagree on the plaza address
+  (800\, 813\, or 814 Main St)\; all point to Liberty Plaza.
 LOCATION:Liberty Plaza\, 800 Main St\, Oregon City\, OR 97045
-URL:https://downtownoregoncity.org/event/holiday-tree-lighting-2026/
+URL:https://downtownoregoncity.org/event/holiday-tree-lighting
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:08fa3a1f43dc4ed3@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261101T120000
+DTEND;TZID=America/Los_Angeles:20261101T131500
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Traditional Native Games & Storytelling (St. Johns)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nPhone: 503-9
+ 88-5123\nWebsite: https://multcolib.org/events-classes\nDetails: Added in 
+ the October 2026 discovery sweep\; the database had no Multnomah County Li
+ brary umbrella entry. Adult and all-ages sessions only\, as listed on 2026
+ -10-25.
+LOCATION:St. Johns Library\, 7510 N Charleston Ave\, Portland\, OR 97203
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c9d03e14db61cf6d@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261107T140000
+DTEND;TZID=America/Los_Angeles:20261107T151500
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Traditional Native Games & Storytelling (Central)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nPhone: 503-9
+ 88-5123\nWebsite: https://multcolib.org/events-classes\nDetails: Added in 
+ the October 2026 discovery sweep\; the database had no Multnomah County Li
+ brary umbrella entry. Adult and all-ages sessions only\, as listed on 2026
+ -10-25.
+LOCATION:Central Library\, 801 SW 10th Ave\, Portland\, OR 97205
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fc0bb9ee321a77e1@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261108T140000
+DTEND;TZID=America/Los_Angeles:20261108T160000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Basic Brick Stitch Beaded Earrings (Capitol Hill)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nInfo: Regist
+ ration link on the event page\; space is limited.\nPhone: 503-988-5123\nWe
+ bsite: https://multcolib.org/events-classes\nDetails: Added in the October
+  2026 discovery sweep\; the database had no Multnomah County Library umbre
+ lla entry. Adult and all-ages sessions only\, as listed on 2026-10-25.
+LOCATION:Capitol Hill Library\, 10723 SW Capitol Hwy\, Portland\, OR 97219
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:00537939d1366f53@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261110T170000
+DTEND;TZID=America/Los_Angeles:20261110T193000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Beginner Beaded Earrings (Midland)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nInfo: Regist
+ ration link on the event page\; space is limited.\nPhone: 503-988-5123\nWe
+ bsite: https://multcolib.org/events-classes\nDetails: Added in the October
+  2026 discovery sweep\; the database had no Multnomah County Library umbre
+ lla entry. Adult and all-ages sessions only\, as listed on 2026-10-25.
+LOCATION:Midland Library\, 805 SE 122nd Ave\, Portland\, OR 97233
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e6f9d017241e173d@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261114T110000
+DTEND;TZID=America/Los_Angeles:20261114T130000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Beginner Beaded Earrings (Troutdale)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nInfo: Regist
+ ration link on the event page\; space is limited.\nPhone: 503-988-5123\nWe
+ bsite: https://multcolib.org/events-classes\nDetails: Added in the October
+  2026 discovery sweep\; the database had no Multnomah County Library umbre
+ lla entry. Adult and all-ages sessions only\, as listed on 2026-10-25.
+LOCATION:Troutdale Library\, 2451 SW Cherry Park Rd\, Troutdale\, OR 97060
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dfbb6aa9e276b0fb@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261114T140000
+DTEND;TZID=America/Los_Angeles:20261114T150000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Celebrating Native Stories with Karen Kitchen (East County)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nPhone: 503-9
+ 88-5123\nWebsite: https://multcolib.org/events-classes\nDetails: Added in 
+ the October 2026 discovery sweep\; the database had no Multnomah County Li
+ brary umbrella entry. Adult and all-ages sessions only\, as listed on 2026
+ -10-25.
+LOCATION:East County Library\, 475 NW Division St\, Gresham\, OR 97030
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5bae38ad116ae7bc@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261114T150000
+DTEND;TZID=America/Los_Angeles:20261114T160000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: 2S/Indigiqueer Crafts (Hollywood)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nInfo: For ad
+ ults and teens 16+ who identify as Two-Spirit or LGBTQ+\, and allies\; mee
+ ts the second Saturday monthly except December and January.\nPhone: 503-98
+ 8-5123\nWebsite: https://multcolib.org/events-classes\nDetails: Added in t
+ he October 2026 discovery sweep\; the database had no Multnomah County Lib
+ rary umbrella entry. Adult and all-ages sessions only\, as listed on 2026-
+ 10-25.
+LOCATION:Hollywood Library\, 4040 NE Tillamook St\, Portland\, OR 97212
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6e3219fdbddeb11a@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261114T153000
+DTEND;TZID=America/Los_Angeles:20261114T163000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Native Stories and Traditional Native Games (East County)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nPhone: 503-9
+ 88-5123\nWebsite: https://multcolib.org/events-classes\nDetails: Added in 
+ the October 2026 discovery sweep\; the database had no Multnomah County Li
+ brary umbrella entry. Adult and all-ages sessions only\, as listed on 2026
+ -10-25.
+LOCATION:East County Library\, 475 NW Division St\, Gresham\, OR 97030
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:52779b39cfd4aaac@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261115T123000
+DTEND;TZID=America/Los_Angeles:20261115T143000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Cultural Knowledge Preservation and Sharing (Wisdom of the Elders) 
+ (Belmont)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nPhone: 503-9
+ 88-5123\nWebsite: https://multcolib.org/events-classes\nDetails: Added in 
+ the October 2026 discovery sweep\; the database had no Multnomah County Li
+ brary umbrella entry. Adult and all-ages sessions only\, as listed on 2026
+ -10-25.
+LOCATION:Belmont Library\, 1038 SE Cesar E. Chavez Blvd\, Portland\, OR 972
+ 14
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:22bf4191f1dd5106@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261115T140000
+DTEND;TZID=America/Los_Angeles:20261115T160000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Brick Stitch Beaded Earrings (Capitol Hill)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nInfo: Regist
+ ration link on the event page\; space is limited.\nPhone: 503-988-5123\nWe
+ bsite: https://multcolib.org/events-classes\nDetails: Added in the October
+  2026 discovery sweep\; the database had no Multnomah County Library umbre
+ lla entry. Adult and all-ages sessions only\, as listed on 2026-10-25.
+LOCATION:Capitol Hill Library\, 10723 SW Capitol Hwy\, Portland\, OR 97219
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0fd9b4263a4c7eac@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261115T150000
+DTEND;TZID=America/Los_Angeles:20261115T163000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Indigenous Storytelling with Karen Kitchen (Northwest)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nInfo: Intend
+ ed for all audiences.\nPhone: 503-988-5123\nWebsite: https://multcolib.org
+ /events-classes\nDetails: Added in the October 2026 discovery sweep\; the 
+ database had no Multnomah County Library umbrella entry. Adult and all-age
+ s sessions only\, as listed on 2026-10-25.
+LOCATION:Northwest Library\, 2030 NW Pettygrove St\, Portland\, OR 97209
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b8a2c3009d30f3fd@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261115T150000
+DTEND;TZID=America/Los_Angeles:20261115T170000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Beading with PANCF (Belmont)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nInfo: First 
+ come\, first served\; space is limited.\nPhone: 503-988-5123\nWebsite: htt
+ ps://multcolib.org/events-classes\nDetails: Added in the October 2026 disc
+ overy sweep\; the database had no Multnomah County Library umbrella entry.
+  Adult and all-ages sessions only\, as listed on 2026-10-25.
+LOCATION:Belmont Library\, 1038 SE Cesar E. Chavez Blvd\, Portland\, OR 972
+ 14
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2d5a603a49b77a4f@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261117T160000
+DTEND;TZID=America/Los_Angeles:20261117T183000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Beginner Beaded Earrings (North Portland)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nInfo: Regist
+ ration link on the event page\; space is limited.\nPhone: 503-988-5123\nWe
+ bsite: https://multcolib.org/events-classes\nDetails: Added in the October
+  2026 discovery sweep\; the database had no Multnomah County Library umbre
+ lla entry. Adult and all-ages sessions only\, as listed on 2026-10-25.
+LOCATION:North Portland Library\, 512 N Killingsworth St\, Portland\, OR 97
+ 217
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f2b34516d25dbc22@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261121T103000
+DTEND;TZID=America/Los_Angeles:20261121T120000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Walking in Beauty (participatory art) (Albina)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nPhone: 503-9
+ 88-5123\nWebsite: https://multcolib.org/events-classes\nDetails: Added in 
+ the October 2026 discovery sweep\; the database had no Multnomah County Li
+ brary umbrella entry. Adult and all-ages sessions only\, as listed on 2026
+ -10-25.
+LOCATION:Albina Library\, 205 NE Russell St\, Portland\, OR 97212
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:002deba28e79cb47@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261121T140000
+DTEND;TZID=America/Los_Angeles:20261121T160000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Weaving with PANCF (Rockwood)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nInfo: First 
+ come\, first served\; space is limited.\nPhone: 503-988-5123\nWebsite: htt
+ ps://multcolib.org/events-classes\nDetails: Added in the October 2026 disc
+ overy sweep\; the database had no Multnomah County Library umbrella entry.
+  Adult and all-ages sessions only\, as listed on 2026-10-25.
+LOCATION:Rockwood Library\, 17917 SE Stark St\, Portland\, OR 97233
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:96c4b4efd1a1245b@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261121T150000
+DTEND;TZID=America/Los_Angeles:20261121T160000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Removal of the Tribes with Dr. David Lewis (Hollywood)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nPhone: 503-9
+ 88-5123\nWebsite: https://multcolib.org/events-classes\nDetails: Added in 
+ the October 2026 discovery sweep\; the database had no Multnomah County Li
+ brary umbrella entry. Adult and all-ages sessions only\, as listed on 2026
+ -10-25.
+LOCATION:Hollywood Library\, 4040 NE Tillamook St\, Portland\, OR 97212
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7d2471a25eac98cc@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261121T160000
+DTEND;TZID=America/Los_Angeles:20261121T174000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Native Wisdom screening with Tim Burgess (East County)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nInfo: Suitab
+ le for teenagers and older.\nPhone: 503-988-5123\nWebsite: https://multcol
+ ib.org/events-classes\nDetails: Added in the October 2026 discovery sweep\
+ ; the database had no Multnomah County Library umbrella entry. Adult and a
+ ll-ages sessions only\, as listed on 2026-10-25.
+LOCATION:East County Library\, 475 NW Division St\, Gresham\, OR 97030
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:68e2c8977065fdff@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261127T150000
+DTEND;TZID=America/Los_Angeles:20261127T170000
+SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
+  NAHM: Regalia Repair (Holgate)
+DESCRIPTION:Category: Events & Festivals\nCost: No fee listed\nInfo: Drop-i
+ n\; no sign-up or registration needed.\nPhone: 503-988-5123\nWebsite: http
+ s://multcolib.org/events-classes\nDetails: Added in the October 2026 disco
+ very sweep\; the database had no Multnomah County Library umbrella entry. 
+ Adult and all-ages sessions only\, as listed on 2026-10-25.
+LOCATION:Holgate Library\, 7905 SE Holgate Blvd\, Portland\, OR 97206
+URL:https://multcolib.org/events-classes
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9ebb6bd0aa70ed55@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Spirit of Christmas (Gresham)
+DESCRIPTION:Category: Events & Festivals\nCost: FREE street event\nNote: Fr
+ ee photos with Santa and free treats are listed\; the breakfast price is n
+ ot stated.\nAddress: Historic downtown Gresham\, N Main Ave\, Gresham\, OR
+  97030\nPhone: 503-489-7603\nWebsite: https://www.greshamoregon.gov/events
+ /2026/community-events/spirit-of-christmas/\nDetails: Added in the October
+  2026 discovery sweep.
+LOCATION:Historic downtown Gresham\, N Main Ave\, Gresham\, OR 97030
+URL:https://www.greshamoregon.gov/events/2026/community-events/spirit-of-christmas/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1f3b4ec87e7cb09e@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Fairview Annual Tree Lighting
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nNote: The city calend
+ ar lists the cost as free.\nAddress: Fairview City Hall & Community Park\,
+  1300 NE Village St\, Fairview\, OR 97024\nPhone: 503-665-7929\nWebsite: h
+ ttps://www.fairvieworegon.gov/calendar.aspx?EID=2763\nDetails: Added in th
+ e October 2026 discovery sweep.
+LOCATION:Fairview City Hall & Community Park\, 1300 NE Village St\, Fairvie
+ w\, OR 97024
+URL:https://www.fairvieworegon.gov/calendar.aspx?EID=2763
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a87b7f43d8c91710@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:Troutdale Windy Wonderland & Tree Lighting
+DESCRIPTION:Category: Events & Festivals\nCost: No admission fee is listed\
+ nNote: Donations of cash\, food\, or clothes to benefit SnowCap earn a raf
+ fle ticket.\nAddress: The Troutdale House\, 411 E Historic Columbia River 
+ Hwy\, Troutdale\, OR 97060 (tree lighting at Mayors Square\, 114 E Histori
+ c Columbia River Hwy)\nPhone: 503-665-5175\nWebsite: https://www.troutdale
+ oregon.gov/community/page/windy-wonderland-tree-lighting\nDetails: Added i
+ n the October 2026 discovery sweep. Benefits SnowCap Community Services.
+LOCATION:The Troutdale House\, 411 E Historic Columbia River Hwy\, Troutdal
+ e\, OR 97060 (tree lighting at Mayors Square\, 114 E Historic Columbia Riv
+ er Hwy)
+URL:https://www.troutdaleoregon.gov/community/page/windy-wonderland-tree-lighting
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:00b93e38e7b2eb0d@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:Made & Found Market (Lovett Deconstruction)
+DESCRIPTION:Category: Events & Festivals\nCost: FREE entry and parking\nNot
+ e: Free entry and parking is stated on the City of Portland listing\; the 
+ organizer's page does not mention cost.\nAddress: Lovett Deconstruction an
+ d Salvage Shop\, 4315 NW Saint Helens Rd\, Portland\, OR 97210\nPhone: 503
+ -206-7919\nWebsite: https://www.lovettdeconstruction.com/lovett-events-cal
+ endar/2026/11/21/made-found-2026\nDetails: Added in the October 2026 disco
+ very sweep.
+LOCATION:Lovett Deconstruction and Salvage Shop\, 4315 NW Saint Helens Rd\,
+  Portland\, OR 97210
+URL:https://www.lovettdeconstruction.com/lovett-events-calendar/2026/11/21/made-found-2026
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4e4d956373c4fb84@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Holiday Cheer at the Oregon Historical Society
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nNote: The page says f
+ ree and open to the public.\nAddress: Oregon Historical Society\, 1200 SW 
+ Park Ave\, Portland\, OR 97205\nPhone: 503-222-1741\nWebsite: https://www.
+ ohs.org/events/holiday-cheer.cfm\nDetails: Added in the October 2026 disco
+ very sweep. The oregon-historical-society entry is the place listing.
+LOCATION:Oregon Historical Society\, 1200 SW Park Ave\, Portland\, OR 97205
+URL:https://www.ohs.org/events/holiday-cheer.cfm
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c24eec8b470acef3@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Great Figgy Pudding Caroling Competition
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nNote: The page calls 
+ it a free event for the public.\nAddress: Pioneer Courthouse Square\, 701 
+ SW 6th Ave\, Portland\, OR 97204\nWebsite: https://www.thesquarepdx.org/ev
+ ent/12th-annual-great-figgy-pudding-caroling-competition/\nDetails: Added 
+ in the October 2026 discovery sweep.
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland\, OR 97204
+URL:https://www.thesquarepdx.org/event/12th-annual-great-figgy-pudding-caroling-competition/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1f47d15b610ec13c@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Tuba Christmas Concert (Pioneer Courthouse Square)
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nNote: The page says a
+ ttending is free for the public.\nAddress: Pioneer Courthouse Square\, 701
+  SW 6th Ave\, Portland\, OR 97204\nWebsite: https://www.thesquarepdx.org/e
+ vent/35th-annual-tuba-christmas-concert/\nDetails: Added in the October 20
+ 26 discovery sweep.
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland\, OR 97204
+URL:https://www.thesquarepdx.org/event/35th-annual-tuba-christmas-concert/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7d6d8a8abf74195e@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Safe Trick or Treat (Gresham)
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Historic dow
+ ntown Gresham\, N Main Ave\, Gresham\, OR 97030\nWebsite: https://www.gres
+ hamoregon.gov/events/2026/community-events/safe-trick-or-treat/\nDetails: 
+ Added in the October 2026 discovery sweep. Mostly for youth and families.
+LOCATION:Historic downtown Gresham\, N Main Ave\, Gresham\, OR 97030
+URL:https://www.greshamoregon.gov/events/2026/community-events/safe-trick-or-treat/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a83362a838345b5e@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Fiesta del Dia de Muertos (Kenton Library)
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nNote: The page says i
+ t is completely free and no registration is required.\nAddress: Kenton Lib
+ rary\, 8226 N Denver Ave\, Portland\, OR 97217\nPhone: 503-988-5123\nWebsi
+ te: https://multcolib.org/events-classes/fiesta-del-dia-de-muertos\nDetail
+ s: Added in the October 2026 discovery sweep.
+LOCATION:Kenton Library\, 8226 N Denver Ave\, Portland\, OR 97217
+URL:https://multcolib.org/events-classes/fiesta-del-dia-de-muertos
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b003b183b3dd52d1@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261102T180000
+DTEND;TZID=America/Los_Angeles:20261102T210000
+SUMMARY:Wilsonville Community Events (Day of the Dead\, Veterans Day\, Tree
+  Lighting): Day of the Dead
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: Live mariachi\,
+  a catrina contest\, a live performance\, face painting\, sugar skulls\, a
+ nd an art show.\nPhone: 503-783-7529\nWebsite: https://www.wilsonvilleoreg
+ on.gov/Calendar.aspx\nDetails: Added in the October 2026 discovery sweep\;
+  Wilsonville had no events in the database. The city's old Winterfest 2025
+  pages 404 after a website migration\; the calendar entries are the live s
+ ource.
+LOCATION:Wilsonville High School\, 6800 SW Wilsonville Rd\, Wilsonville\, O
+ R 97070
+URL:https://www.wilsonvilleoregon.gov/Calendar.aspx
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a7d53bba30d5e928@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261111T100000
+DTEND;TZID=America/Los_Angeles:20261111T110000
+SUMMARY:Wilsonville Community Events (Day of the Dead\, Veterans Day\, Tree
+  Lighting): Veteran's Day Ceremony
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: City offices an
+ d the library are closed that day.\nPhone: 503-783-7529\nWebsite: https://
+ www.wilsonvilleoregon.gov/Calendar.aspx\nDetails: Added in the October 202
+ 6 discovery sweep\; Wilsonville had no events in the database. The city's 
+ old Winterfest 2025 pages 404 after a website migration\; the calendar ent
+ ries are the live source.
+LOCATION:Town Center Park\, 29600 SW Park Place\, Wilsonville\, OR 97070
+URL:https://www.wilsonvilleoregon.gov/Calendar.aspx
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4966128c866180e9@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261203T170000
+DTEND;TZID=America/Los_Angeles:20261203T180000
+SUMMARY:Wilsonville Community Events (Day of the Dead\, Veterans Day\, Tree
+  Lighting): Community Tree Lighting
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: Hot cocoa\, cho
+ ir performances\, pictures with Santa\, a Letters to Winter Wonderland sta
+ tion\, a library storytime\, and trolley viewing.\nPhone: 503-783-7529\nWe
+ bsite: https://www.wilsonvilleoregon.gov/Calendar.aspx\nDetails: Added in 
+ the October 2026 discovery sweep\; Wilsonville had no events in the databa
+ se. The city's old Winterfest 2025 pages 404 after a website migration\; t
+ he calendar entries are the live source.
+LOCATION:Town Center Park\, 29600 SW Park Place\, Wilsonville\, OR 97070
+URL:https://www.wilsonvilleoregon.gov/Calendar.aspx
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3034f2dab9f08a6b@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Elsie Stuhr Holiday Bazaar (THPRD)
+DESCRIPTION:Category: Events & Festivals\nCost: FREE admission\nAddress: El
+ sie Stuhr Center\, 5550 SW Hall Blvd\, Beaverton\, OR 97005\nWebsite: http
+ s://www.tualatinhillsparks.org/Calendar.aspx?EID=18036\nDetails: Added in 
+ the October 2026 discovery sweep. The elsie-stuhr-center entry is the plac
+ e listing.
+LOCATION:Elsie Stuhr Center\, 5550 SW Hall Blvd\, Beaverton\, OR 97005
+URL:https://www.tualatinhillsparks.org/Calendar.aspx?EID=18036
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a4733edbae2b7fab@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261116
+SUMMARY:West Linn Holiday Bazaar
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nNote: Cinnamon rolls\
+ , cocoa\, and hamburgers are for sale.\nAddress: West Linn Adult Community
+  Center\, 1180 Rosemont Rd\, West Linn\, OR 97068\nPhone: 503-557-4700\nWe
+ bsite: https://westlinnoregon.gov/parksrec/parks-and-recreation-annual-hol
+ iday-bazaar\nDetails: Added in the October 2026 discovery sweep.
+LOCATION:West Linn Adult Community Center\, 1180 Rosemont Rd\, West Linn\, 
+ OR 97068
+URL:https://westlinnoregon.gov/parksrec/parks-and-recreation-annual-holiday-bazaar
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2f6fb4d7dca50ea4@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:West Linn Holiday Parade & Tree Lighting
+DESCRIPTION:Category: Events & Festivals\nCost: No admission is mentioned (
+ public street parade)\nAddress: Historic Willamette Main Street area\, Wes
+ t Linn\, OR 97068\nPhone: 503-557-4700\nWebsite: https://westlinnoregon.go
+ v/parksrec/holiday-parade\nDetails: Added in the October 2026 discovery sw
+ eep. Replaces the separate West Linn tree lighting this year.
+LOCATION:Historic Willamette Main Street area\, West Linn\, OR 97068
+URL:https://westlinnoregon.gov/parksrec/holiday-parade
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ff7e540aacd265b5@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Light Up the Night (Canby)
+DESCRIPTION:Category: Events & Festivals\nCost: No admission is mentioned (
+ public parade)\nAddress: Wait Park\, Canby\, OR 97013\nPhone: 503-266-7001
+ \nWebsite: https://www.canbyoregon.gov/events/page/light-night\nDetails: A
+ dded in the October 2026 discovery sweep\; the 25th annual event.
+LOCATION:Wait Park\, Canby\, OR 97013
+URL:https://www.canbyoregon.gov/events/page/light-night
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f0a6279828e9fb90@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Forest Grove Holiday Tree Lighting
+DESCRIPTION:Category: Events & Festivals\nCost: No admission is mentioned\n
+ Address: Pacific University campus\, tree at College Way and 21st Ave\, 20
+ 43 College Way\, Forest Grove\, OR 97116\nPhone: 503-357-3006\nWebsite: ht
+ tps://fgcchamber.org/fg-holiday-tree-lighting/\nDetails: Added in the Octo
+ ber 2026 discovery sweep.
+LOCATION:Pacific University campus\, tree at College Way and 21st Ave\, 204
+ 3 College Way\, Forest Grove\, OR 97116
+URL:https://fgcchamber.org/fg-holiday-tree-lighting/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5d5f0313f665a1cd@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Lake Oswego Tree Lighting Festival
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nNote: The festival pa
+ ge states no price\; the city's events page lists its tree lighting among 
+ its free\, public events. Holiday Marketplace and winery purchases are ext
+ ra.\nAddress: Millennium Plaza Park\, 200 1st Street\, Lake Oswego\, OR 97
+ 034\nWebsite: https://www.ci.oswego.or.us/parksrec/62nd-annual-tree-lighti
+ ng-festival\nDetails: Added in the October 2026 audit and discovery sweep 
+ from a queue lead\; the city's event page posts the 2026 date.
+LOCATION:Millennium Plaza Park\, 200 1st Street\, Lake Oswego\, OR 97034
+URL:https://www.ci.oswego.or.us/parksrec/62nd-annual-tree-lighting-festival
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:007d13c2b37c7842@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Milwaukie Umbrella Parade & Tree Lighting
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nNote: No fee is menti
+ oned\; free treats\, hot chocolate\, and cider from Keeper Coffee.\nAddres
+ s: Historic Milwaukie City Hall\, 10722 SE Main St\, Milwaukie\, OR 97222\
+ nPhone: 503-786-7519\nWebsite: https://www.milwaukieoregon.gov/community/e
+ vents/umbrella_parade_tree_lighting.php\nDetails: Added in the October 202
+ 6 audit and discovery sweep. The separate Milwaukie Lights Walk has no 202
+ 6-27 season posted yet.
+LOCATION:Historic Milwaukie City Hall\, 10722 SE Main St\, Milwaukie\, OR 9
+ 7222
+URL:https://www.milwaukieoregon.gov/community/events/umbrella_parade_tree_lighting.php
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6f20023e01e6abb5@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Community Services Network Fall Community Health Fair
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: IRCO Sokhom 
+ Tauch Center\, 10323 NE Glisan St\, Portland\, OR 97220\nPhone: 503-468-55
+ 70\nWebsite: https://www.csnpdx.org/community-resource-fairs/fall-communit
+ y-health-fair\nDetails: Added in the October 2026 discovery sweep. CSN lis
+ ts no 2026 winter preparedness fair or coat giveaway yet.
+LOCATION:IRCO Sokhom Tauch Center\, 10323 NE Glisan St\, Portland\, OR 9722
+ 0
+URL:https://www.csnpdx.org/community-resource-fairs/fall-community-health-fair
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7bdd8547014dab27@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Portland Veterans Day Parade and Resource Fair
+DESCRIPTION:Category: Events & Festivals\nCost: No admission is listed (pub
+ lic parade)\nAddress: Parade on MLK Blvd from NE Beech St to NE Emerson St
+ \, Portland\; ceremony and fair at Walnut Park\, 5305 NE Martin Luther Kin
+ g Jr. Blvd\, Portland\, OR 97211\nWebsite: https://veteransdayportland.org
+ \nDetails: Added in the October 2026 discovery sweep. The parade was cance
+ lled in 2025 and returns in 2026.
+LOCATION:Parade on MLK Blvd from NE Beech St to NE Emerson St\, Portland\; 
+ ceremony and fair at Walnut Park\, 5305 NE Martin Luther King Jr. Blvd\, P
+ ortland\, OR 97211
+URL:https://veteransdayportland.org
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:094a1c20501450ba@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:NARA NW Native American New Year's Eve Sobriety Powwow
+DESCRIPTION:Category: Events & Festivals\nCost: Cost is not stated on the 2
+ 026 listing\nAddress: Oregon Convention Center\, Halls A-A1\, 777 NE Marti
+ n Luther King Jr. Blvd\, Portland\, OR 97232\nPhone: 503-224-1044\nWebsite
+ : https://www.oregoncc.org/attend/events/2026/12/native-american-new-years
+ -eve-pow-wow-2026\nDetails: Added in the October 2026 discovery sweep. Ven
+ ue and date come from the Oregon Convention Center's event listing\; the h
+ ost is NARA NW (503-224-1044).
+LOCATION:Oregon Convention Center\, Halls A-A1\, 777 NE Martin Luther King 
+ Jr. Blvd\, Portland\, OR 97232
+URL:https://www.oregoncc.org/attend/events/2026/12/native-american-new-years-eve-pow-wow-2026
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -747,7 +1473,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9f592c53be720466@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260501T170000
 DTEND;TZID=America/Los_Angeles:20260501T200000
 SUMMARY:Milwaukie First Friday
@@ -849,19 +1575,77 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3a188dac215082fd@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261124
+SUMMARY:Oregon Zoo ZooLights
+DESCRIPTION:Category: Events & Festivals\nCost: $13-$35 adults\, $13-$30 yo
+ uth depending on the night\; prices and times vary throughout the season. 
+ Income-assistance tickets are $13 each.\nNote: Members get 20% off regular
+  tickets\, with no additional discounts on Value Nights. Income-assistance
+  tickets are $13 each\, up to four per household\, with an Oregon Trail ca
+ rd\, Washington Quest card\, OHP/Apple Health\, WIC eWIC card\, or TANF. R
+ eserve them through the ZooLights income-assistance link on oregonzoo.org/
+ discounts and bring proof of benefits and residency. A ZooLights ticket is
+  also a TriMet and Streetcar fare to and from the zoo on your admission da
+ te.\nAddress: Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221\nPhone:
+  503-226-1561\nWebsite: https://www.oregonzoo.org/lights\nDetails: Annual 
+ holiday light display at the Oregon Zoo\, November 20\, 2026 through Janua
+ ry 3\, 2027 (closed November 24-26 and December 25). Not free\; the lowest
+  ticket price is $13 (income-assistance tickets\, up to four per household
+ ).
+LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
+URL:https://www.oregonzoo.org/lights
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6edaa236c0ff22b8@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261225
+SUMMARY:Oregon Zoo ZooLights
+DESCRIPTION:Category: Events & Festivals\nCost: $13-$35 adults\, $13-$30 yo
+ uth depending on the night\; prices and times vary throughout the season. 
+ Income-assistance tickets are $13 each.\nNote: Members get 20% off regular
+  tickets\, with no additional discounts on Value Nights. Income-assistance
+  tickets are $13 each\, up to four per household\, with an Oregon Trail ca
+ rd\, Washington Quest card\, OHP/Apple Health\, WIC eWIC card\, or TANF. R
+ eserve them through the ZooLights income-assistance link on oregonzoo.org/
+ discounts and bring proof of benefits and residency. A ZooLights ticket is
+  also a TriMet and Streetcar fare to and from the zoo on your admission da
+ te.\nAddress: Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221\nPhone:
+  503-226-1561\nWebsite: https://www.oregonzoo.org/lights\nDetails: Annual 
+ holiday light display at the Oregon Zoo\, November 20\, 2026 through Janua
+ ry 3\, 2027 (closed November 24-26 and December 25). Not free\; the lowest
+  ticket price is $13 (income-assistance tickets\, up to four per household
+ ).
+LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
+URL:https://www.oregonzoo.org/lights
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fcf5c167758df738@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20270101
 SUMMARY:Oregon Zoo ZooLights
 DESCRIPTION:Category: Events & Festivals\nCost: $13-$35 adults\, $13-$30 yo
- uth depending on the night\; Value Nights are the cheapest and are marked 
- on the ZooLights calendar\nNote: 10% off tickets bought by September 22\, 
- 2026. No other discounts apply on Value Nights. Ask whether the zoo's $13 
- income-qualified tickets apply.\nAddress: Oregon Zoo\, 4001 SW Canyon Rd\,
-  Portland\, OR 97221\nPhone: 503-226-1561\nWebsite: https://www.oregonzoo.
- org/lights\nDetails: Annual holiday light display at the Oregon Zoo\, Nove
- mber 20\, 2026 through January 3\, 2027. Not free\, but Value Nights start
-  at $13.
+ uth depending on the night\; prices and times vary throughout the season. 
+ Income-assistance tickets are $13 each.\nNote: Members get 20% off regular
+  tickets\, with no additional discounts on Value Nights. Income-assistance
+  tickets are $13 each\, up to four per household\, with an Oregon Trail ca
+ rd\, Washington Quest card\, OHP/Apple Health\, WIC eWIC card\, or TANF. R
+ eserve them through the ZooLights income-assistance link on oregonzoo.org/
+ discounts and bring proof of benefits and residency. A ZooLights ticket is
+  also a TriMet and Streetcar fare to and from the zoo on your admission da
+ te.\nAddress: Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221\nPhone:
+  503-226-1561\nWebsite: https://www.oregonzoo.org/lights\nDetails: Annual 
+ holiday light display at the Oregon Zoo\, November 20\, 2026 through Janua
+ ry 3\, 2027 (closed November 24-26 and December 25). Not free\; the lowest
+  ticket price is $13 (income-assistance tickets\, up to four per household
+ ).
 LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
 URL:https://www.oregonzoo.org/lights
 CATEGORIES:Events & Festivals
@@ -869,19 +1653,25 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6b399c2dd83ebade@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270104
 SUMMARY:Oregon Zoo ZooLights
 DESCRIPTION:Category: Events & Festivals\nCost: $13-$35 adults\, $13-$30 yo
- uth depending on the night\; Value Nights are the cheapest and are marked 
- on the ZooLights calendar\nNote: 10% off tickets bought by September 22\, 
- 2026. No other discounts apply on Value Nights. Ask whether the zoo's $13 
- income-qualified tickets apply.\nAddress: Oregon Zoo\, 4001 SW Canyon Rd\,
-  Portland\, OR 97221\nPhone: 503-226-1561\nWebsite: https://www.oregonzoo.
- org/lights\nDetails: Annual holiday light display at the Oregon Zoo\, Nove
- mber 20\, 2026 through January 3\, 2027. Not free\, but Value Nights start
-  at $13.
+ uth depending on the night\; prices and times vary throughout the season. 
+ Income-assistance tickets are $13 each.\nNote: Members get 20% off regular
+  tickets\, with no additional discounts on Value Nights. Income-assistance
+  tickets are $13 each\, up to four per household\, with an Oregon Trail ca
+ rd\, Washington Quest card\, OHP/Apple Health\, WIC eWIC card\, or TANF. R
+ eserve them through the ZooLights income-assistance link on oregonzoo.org/
+ discounts and bring proof of benefits and residency. A ZooLights ticket is
+  also a TriMet and Streetcar fare to and from the zoo on your admission da
+ te.\nAddress: Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221\nPhone:
+  503-226-1561\nWebsite: https://www.oregonzoo.org/lights\nDetails: Annual 
+ holiday light display at the Oregon Zoo\, November 20\, 2026 through Janua
+ ry 3\, 2027 (closed November 24-26 and December 25). Not free\; the lowest
+  ticket price is $13 (income-assistance tickets\, up to four per household
+ ).
 LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
 URL:https://www.oregonzoo.org/lights
 CATEGORIES:Events & Festivals
@@ -896,9 +1686,10 @@ SUMMARY:Portland Night Market
 DESCRIPTION:Category: Events & Festivals\nCost: FREE admission\, all ages\n
  Note: Optional $10 fast pass to skip the entry line\; food and vendor purc
  hases extra\nAddress: 100 SE Alder St\, Portland\, OR 97214\nWebsite: http
- s://www.pdxnm.com/\nDetails: Free quarterly market with 175+ local vendors
-  and food. Fall/winter 2026 dates from a secondary listing - the December 
- days and nightly hours should be confirmed on pdxnm.com.
+ s://www.pdxnm.com/\nDetails: Free market with 175+ local vendors and food.
+  pdxnm.com lists October 2-3\, December 3-6\, and December 18-19 with no y
+ ear printed\, but its Friday and Saturday weekdays fit 2026. Thursday and 
+ Sunday hours are not posted.
 LOCATION:100 SE Alder St\, Portland\, OR 97214
 URL:https://www.pdxnm.com/
 CATEGORIES:Events & Festivals
@@ -913,9 +1704,28 @@ SUMMARY:Portland Night Market
 DESCRIPTION:Category: Events & Festivals\nCost: FREE admission\, all ages\n
  Note: Optional $10 fast pass to skip the entry line\; food and vendor purc
  hases extra\nAddress: 100 SE Alder St\, Portland\, OR 97214\nWebsite: http
- s://www.pdxnm.com/\nDetails: Free quarterly market with 175+ local vendors
-  and food. Fall/winter 2026 dates from a secondary listing - the December 
- days and nightly hours should be confirmed on pdxnm.com.
+ s://www.pdxnm.com/\nDetails: Free market with 175+ local vendors and food.
+  pdxnm.com lists October 2-3\, December 3-6\, and December 18-19 with no y
+ ear printed\, but its Friday and Saturday weekdays fit 2026. Thursday and 
+ Sunday hours are not posted.
+LOCATION:100 SE Alder St\, Portland\, OR 97214
+URL:https://www.pdxnm.com/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:14e1049db4b72aa9@portlandresources.org
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261220
+SUMMARY:Portland Night Market
+DESCRIPTION:Category: Events & Festivals\nCost: FREE admission\, all ages\n
+ Note: Optional $10 fast pass to skip the entry line\; food and vendor purc
+ hases extra\nAddress: 100 SE Alder St\, Portland\, OR 97214\nWebsite: http
+ s://www.pdxnm.com/\nDetails: Free market with 175+ local vendors and food.
+  pdxnm.com lists October 2-3\, December 3-6\, and December 18-19 with no y
+ ear printed\, but its Friday and Saturday weekdays fit 2026. Thursday and 
+ Sunday hours are not posted.
 LOCATION:100 SE Alder St\, Portland\, OR 97214
 URL:https://www.pdxnm.com/
 CATEGORIES:Events & Festivals
