@@ -25,6 +25,507 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:07958d648e0b247f@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261026T130000
+DTEND;TZID=America/Los_Angeles:20261026T160000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): Mahjong at the Library
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nInfo: American Mahjong\; bring your National Mah Jongg League car
+ d.\nPhone: 503-988-5123\nWebsite: https://multcolib.org/events-classes\nDe
+ tails: Added in the October 2026 discovery sweep\; weekly social options\,
+  several in East Multnomah.
+LOCATION:Troutdale Library\, 2451 SW Cherry Park Rd\, Troutdale\, OR 97060
+URL:https://multcolib.org/events-classes
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20261229T075959Z
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d3d56e7371c99abc@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261101T130000
+DTEND;TZID=America/Los_Angeles:20261101T170000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): East Portland Tabletop Arcade
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nInfo: A free\, friendly meetup to play hobby and strategy board g
+ ames.\nPhone: 503-988-5123\nWebsite: https://multcolib.org/events-classes\
+ nDetails: Added in the October 2026 discovery sweep\; weekly social option
+ s\, several in East Multnomah.
+LOCATION:Midland Library\, 805 SE 122nd Ave\, Portland\, OR 97233
+URL:https://multcolib.org/events-classes
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6b4466c472480b80@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261206T130000
+DTEND;TZID=America/Los_Angeles:20261206T170000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): East Portland Tabletop Arcade
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nInfo: A free\, friendly meetup to play hobby and strategy board g
+ ames.\nPhone: 503-988-5123\nWebsite: https://multcolib.org/events-classes\
+ nDetails: Added in the October 2026 discovery sweep\; weekly social option
+ s\, several in East Multnomah.
+LOCATION:Midland Library\, 805 SE 122nd Ave\, Portland\, OR 97233
+URL:https://multcolib.org/events-classes
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b4bd78c64de0982c@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261031T133000
+DTEND;TZID=America/Los_Angeles:20261031T173000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): Casual Chess
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nPhone: 503-988-5123\nWebsite: https://multcolib.org/events-classe
+ s\nDetails: Added in the October 2026 discovery sweep\; weekly social opti
+ ons\, several in East Multnomah.
+LOCATION:Midland Library\, 805 SE 122nd Ave\, Portland\, OR 97233
+URL:https://multcolib.org/events-classes
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20261227T075959Z
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5d725bd108707272@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261103T173000
+DTEND;TZID=America/Los_Angeles:20261103T193000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): Knotty Knitters / Crafty Crocheters
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nPhone: 503-988-5123\nWebsite: https://multcolib.org/events-classe
+ s\nDetails: Added in the October 2026 discovery sweep\; weekly social opti
+ ons\, several in East Multnomah.
+LOCATION:Midland Library\, 805 SE 122nd Ave\, Portland\, OR 97233
+URL:https://multcolib.org/events-classes
+RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20261230T075959Z
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0f12abd9fd11d2d9@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261027T140000
+DTEND;TZID=America/Los_Angeles:20261027T160000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): A Good Yarn Knitting & Crochet Group
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nInfo: Bring your own supplies.\nPhone: 503-988-5123\nWebsite: htt
+ ps://multcolib.org/events-classes\nDetails: Added in the October 2026 disc
+ overy sweep\; weekly social options\, several in East Multnomah.
+LOCATION:Gregory Heights Library\, 7921 NE Sandy Blvd\, Portland\, OR 97213
+URL:https://multcolib.org/events-classes
+RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20261125T075959Z
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:49b14fd1d2d24768@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261028T130000
+DTEND;TZID=America/Los_Angeles:20261028T150000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): Crafternoon for Adults
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nInfo: First come\, first served.\nPhone: 503-988-5123\nWebsite: h
+ ttps://multcolib.org/events-classes\nDetails: Added in the October 2026 di
+ scovery sweep\; weekly social options\, several in East Multnomah.
+LOCATION:Holgate Library\, 7905 SE Holgate Blvd\, Portland\, OR 97206
+URL:https://multcolib.org/events-classes
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:af3355489a426f0b@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261111T130000
+DTEND;TZID=America/Los_Angeles:20261111T150000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): Crafternoon for Adults
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nInfo: First come\, first served.\nPhone: 503-988-5123\nWebsite: h
+ ttps://multcolib.org/events-classes\nDetails: Added in the October 2026 di
+ scovery sweep\; weekly social options\, several in East Multnomah.
+LOCATION:Holgate Library\, 7905 SE Holgate Blvd\, Portland\, OR 97206
+URL:https://multcolib.org/events-classes
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5a2e19f652a778e0@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261125T130000
+DTEND;TZID=America/Los_Angeles:20261125T150000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): Crafternoon for Adults
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nInfo: First come\, first served.\nPhone: 503-988-5123\nWebsite: h
+ ttps://multcolib.org/events-classes\nDetails: Added in the October 2026 di
+ scovery sweep\; weekly social options\, several in East Multnomah.
+LOCATION:Holgate Library\, 7905 SE Holgate Blvd\, Portland\, OR 97206
+URL:https://multcolib.org/events-classes
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a2d3d5842a6d658b@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261209T130000
+DTEND;TZID=America/Los_Angeles:20261209T150000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): Crafternoon for Adults
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nInfo: First come\, first served.\nPhone: 503-988-5123\nWebsite: h
+ ttps://multcolib.org/events-classes\nDetails: Added in the October 2026 di
+ scovery sweep\; weekly social options\, several in East Multnomah.
+LOCATION:Holgate Library\, 7905 SE Holgate Blvd\, Portland\, OR 97206
+URL:https://multcolib.org/events-classes
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd7ee5abbd431076@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261223T130000
+DTEND;TZID=America/Los_Angeles:20261223T150000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): Crafternoon for Adults
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nInfo: First come\, first served.\nPhone: 503-988-5123\nWebsite: h
+ ttps://multcolib.org/events-classes\nDetails: Added in the October 2026 di
+ scovery sweep\; weekly social options\, several in East Multnomah.
+LOCATION:Holgate Library\, 7905 SE Holgate Blvd\, Portland\, OR 97206
+URL:https://multcolib.org/events-classes
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0ab0181d1c7d2260@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261129T120000
+DTEND;TZID=America/Los_Angeles:20261129T140000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): Last Sunday Crafting Club for Adults
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nInfo: Space is limited.\nPhone: 503-988-5123\nWebsite: https://mu
+ ltcolib.org/events-classes\nDetails: Added in the October 2026 discovery s
+ weep\; weekly social options\, several in East Multnomah.
+LOCATION:Woodstock Library\, 6008 SE 49th Ave\, Portland\, OR 97206
+URL:https://multcolib.org/events-classes
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8f62989cfc91eee6@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261104T180000
+DTEND;TZID=America/Los_Angeles:20261104T190000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): Portland Puzzlers & Puzzle Swap
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nPhone: 503-988-5123\nWebsite: https://multcolib.org/events-classe
+ s\nDetails: Added in the October 2026 discovery sweep\; weekly social opti
+ ons\, several in East Multnomah.
+LOCATION:Midland Library\, 805 SE 122nd Ave\, Portland\, OR 97233
+URL:https://multcolib.org/events-classes
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:304b009a23d629a3@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261118T180000
+DTEND;TZID=America/Los_Angeles:20261118T190000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): Portland Puzzlers & Puzzle Swap
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nPhone: 503-988-5123\nWebsite: https://multcolib.org/events-classe
+ s\nDetails: Added in the October 2026 discovery sweep\; weekly social opti
+ ons\, several in East Multnomah.
+LOCATION:Midland Library\, 805 SE 122nd Ave\, Portland\, OR 97233
+URL:https://multcolib.org/events-classes
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1840483a107565f2@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261202T180000
+DTEND;TZID=America/Los_Angeles:20261202T190000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): Portland Puzzlers & Puzzle Swap
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nPhone: 503-988-5123\nWebsite: https://multcolib.org/events-classe
+ s\nDetails: Added in the October 2026 discovery sweep\; weekly social opti
+ ons\, several in East Multnomah.
+LOCATION:Midland Library\, 805 SE 122nd Ave\, Portland\, OR 97233
+URL:https://multcolib.org/events-classes
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5bf517b9b0e9751e@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261216T180000
+DTEND;TZID=America/Los_Angeles:20261216T190000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): Portland Puzzlers & Puzzle Swap
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nPhone: 503-988-5123\nWebsite: https://multcolib.org/events-classe
+ s\nDetails: Added in the October 2026 discovery sweep\; weekly social opti
+ ons\, several in East Multnomah.
+LOCATION:Midland Library\, 805 SE 122nd Ave\, Portland\, OR 97233
+URL:https://multcolib.org/events-classes
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:590691aa69c8553a@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261230T180000
+DTEND;TZID=America/Los_Angeles:20261230T190000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): Portland Puzzlers & Puzzle Swap
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nPhone: 503-988-5123\nWebsite: https://multcolib.org/events-classe
+ s\nDetails: Added in the October 2026 discovery sweep\; weekly social opti
+ ons\, several in East Multnomah.
+LOCATION:Midland Library\, 805 SE 122nd Ave\, Portland\, OR 97233
+URL:https://multcolib.org/events-classes
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:175cbb4adea330ec@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261030T110000
+DTEND;TZID=America/Los_Angeles:20261030T130000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): International Women's Sewing Group
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nInfo: For international women.\nPhone: 503-988-5123\nWebsite: htt
+ ps://multcolib.org/events-classes\nDetails: Added in the October 2026 disc
+ overy sweep\; weekly social options\, several in East Multnomah.
+LOCATION:Midland Library\, 805 SE 122nd Ave\, Portland\, OR 97233
+URL:https://multcolib.org/events-classes
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20261219T075959Z
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1bf98995e870225f@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261031T130000
+DTEND;TZID=America/Los_Angeles:20261031T143000
+SUMMARY:Multnomah County Library - Adult Drop-In Groups (craft\, games\, la
+ nguage exchange): Intercambio / Language Exchange
+DESCRIPTION:Category: Social Activities\nCost: No fee is listed on the even
+ t pages (public library programs)\nNote: Only the Tabletop Arcade page say
+ s free.\nPhone: 503-988-5123\nWebsite: https://multcolib.org/events-classe
+ s\nDetails: Added in the October 2026 discovery sweep\; weekly social opti
+ ons\, several in East Multnomah.
+LOCATION:Kenton Library\, 8226 N Denver Ave\, Portland\, OR 97217
+URL:https://multcolib.org/events-classes
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20261227T075959Z
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8af4cd331b3b0e21@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:North Portland Free Clothing Exchange
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: No donation is r
+ equired in order to receive clothing.\nAddress: The Loft @ Kenton Church\,
+  2115 N Lombard St\, Portland\, OR 97217\nWebsite: https://freeclothingexc
+ hange.wordpress.com/\nDetails: Added in the October 2026 discovery sweep. 
+ A third-party listing shows alternate months only\; the organizer's own pa
+ ge names November 15 and December 20.
+LOCATION:The Loft @ Kenton Church\, 2115 N Lombard St\, Portland\, OR 97217
+URL:https://freeclothingexchange.wordpress.com/
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6d87139d591840f7@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:North Portland Free Clothing Exchange
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: No donation is r
+ equired in order to receive clothing.\nAddress: The Loft @ Kenton Church\,
+  2115 N Lombard St\, Portland\, OR 97217\nWebsite: https://freeclothingexc
+ hange.wordpress.com/\nDetails: Added in the October 2026 discovery sweep. 
+ A third-party listing shows alternate months only\; the organizer's own pa
+ ge names November 15 and December 20.
+LOCATION:The Loft @ Kenton Church\, 2115 N Lombard St\, Portland\, OR 97217
+URL:https://freeclothingexchange.wordpress.com/
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3ca4f7300741ff5f@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261027T090000
+DTEND;TZID=America/Los_Angeles:20261027T110000
+SUMMARY:Portland Parks & Recreation Volunteer Days (South Park Blocks\, Pit
+ tock Garden\, Argay Park): South Park Blocks Gardening and Turf Crew
+DESCRIPTION:Category: Social Activities\nCost: FREE\nInfo: Pre-registration
+  is not required.\nPhone: 503-278-9001\nWebsite: https://www.portland.gov/
+ parks/events/2026/10/27/south-park-blocks-gardening-and-turf-crew\nDetails
+ : Added in the October 2026 discovery sweep.
+LOCATION:South Park Blocks\, park block between SW Clay and SW Market\, SW 
+ Park Ave\, Portland\, OR 97205
+URL:https://www.portland.gov/parks/events/2026/10/27/south-park-blocks-gardening-and-turf-crew
+RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20261230T075959Z
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:69326a6d2d56b1be@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261027T090000
+DTEND;TZID=America/Los_Angeles:20261027T113000
+SUMMARY:Portland Parks & Recreation Volunteer Days (South Park Blocks\, Pit
+ tock Garden\, Argay Park): Pittock Garden Tuesday Volunteer Day
+DESCRIPTION:Category: Social Activities\nCost: FREE\nInfo: Register before 
+ joining.\nPhone: 503-278-9001\nWebsite: https://www.portland.gov/parks/eve
+ nts/2026/10/27/south-park-blocks-gardening-and-turf-crew\nDetails: Added i
+ n the October 2026 discovery sweep.
+LOCATION:Pittock Mansion main entrance\, 3229 NW Pittock Dr\, Portland\, OR
+  97210
+URL:https://www.portland.gov/parks/events/2026/10/27/south-park-blocks-gardening-and-turf-crew
+RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20261230T075959Z
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8fb38e914af5d756@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261105T100000
+DTEND;TZID=America/Los_Angeles:20261105T110000
+SUMMARY:Portland Parks & Recreation Volunteer Days (South Park Blocks\, Pit
+ tock Garden\, Argay Park): Argay Park Volunteer Day
+DESCRIPTION:Category: Social Activities\nCost: FREE\nInfo: Low-barrier\; go
+  at your own pace. Register through the PP&R volunteer website.\nPhone: 50
+ 3-278-9001\nWebsite: https://www.portland.gov/parks/events/2026/10/27/sout
+ h-park-blocks-gardening-and-turf-crew\nDetails: Added in the October 2026 
+ discovery sweep.
+LOCATION:Argay Park\, Portland\, OR
+URL:https://www.portland.gov/parks/events/2026/10/27/south-park-blocks-gardening-and-turf-crew
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c1f9fd5c519d92ee@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261124T120000
+DTEND;TZID=America/Los_Angeles:20261124T130000
+SUMMARY:Social Hour (Aloha Community Library): Social Hour - last Tuesday
+DESCRIPTION:Category: Social Activities\nCost: Cost not stated\; coffee and
+  refreshments are offered\nAddress: Aloha Community Library\, 17455 SW Far
+ mington Rd\, Suite 26A\, Aloha\, OR 97007\nPhone: 503-259-0185\nWebsite: h
+ ttps://alohalibrary.org/event/second-sat-social-hour/\nDetails: Added in t
+ he October 2026 discovery sweep. The library's own page states the rule (s
+ econd Saturday and last Tuesday)\; the 2026 dates come from the county lib
+ rary event feed. The library site says 17455 SW Farmington Rd and the feed
+  says 17445\; confirm by phone.
+LOCATION:Aloha Community Library\, 17455 SW Farmington Rd\, Suite 26A\, Alo
+ ha\, OR 97007
+URL:https://alohalibrary.org/event/second-sat-social-hour/
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7a2e746e7cdfa38a@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261229T120000
+DTEND;TZID=America/Los_Angeles:20261229T130000
+SUMMARY:Social Hour (Aloha Community Library): Social Hour - last Tuesday
+DESCRIPTION:Category: Social Activities\nCost: Cost not stated\; coffee and
+  refreshments are offered\nAddress: Aloha Community Library\, 17455 SW Far
+ mington Rd\, Suite 26A\, Aloha\, OR 97007\nPhone: 503-259-0185\nWebsite: h
+ ttps://alohalibrary.org/event/second-sat-social-hour/\nDetails: Added in t
+ he October 2026 discovery sweep. The library's own page states the rule (s
+ econd Saturday and last Tuesday)\; the 2026 dates come from the county lib
+ rary event feed. The library site says 17455 SW Farmington Rd and the feed
+  says 17445\; confirm by phone.
+LOCATION:Aloha Community Library\, 17455 SW Farmington Rd\, Suite 26A\, Alo
+ ha\, OR 97007
+URL:https://alohalibrary.org/event/second-sat-social-hour/
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:914b9d224fe7a763@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261114T090000
+DTEND;TZID=America/Los_Angeles:20261114T100000
+SUMMARY:Social Hour (Aloha Community Library): Social Hour - second Saturda
+ y
+DESCRIPTION:Category: Social Activities\nCost: Cost not stated\; coffee and
+  refreshments are offered\nAddress: Aloha Community Library\, 17455 SW Far
+ mington Rd\, Suite 26A\, Aloha\, OR 97007\nPhone: 503-259-0185\nWebsite: h
+ ttps://alohalibrary.org/event/second-sat-social-hour/\nDetails: Added in t
+ he October 2026 discovery sweep. The library's own page states the rule (s
+ econd Saturday and last Tuesday)\; the 2026 dates come from the county lib
+ rary event feed. The library site says 17455 SW Farmington Rd and the feed
+  says 17445\; confirm by phone.
+LOCATION:Aloha Community Library\, 17455 SW Farmington Rd\, Suite 26A\, Alo
+ ha\, OR 97007
+URL:https://alohalibrary.org/event/second-sat-social-hour/
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c79f64b7525a2390@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261212T090000
+DTEND;TZID=America/Los_Angeles:20261212T100000
+SUMMARY:Social Hour (Aloha Community Library): Social Hour - second Saturda
+ y
+DESCRIPTION:Category: Social Activities\nCost: Cost not stated\; coffee and
+  refreshments are offered\nAddress: Aloha Community Library\, 17455 SW Far
+ mington Rd\, Suite 26A\, Aloha\, OR 97007\nPhone: 503-259-0185\nWebsite: h
+ ttps://alohalibrary.org/event/second-sat-social-hour/\nDetails: Added in t
+ he October 2026 discovery sweep. The library's own page states the rule (s
+ econd Saturday and last Tuesday)\; the 2026 dates come from the county lib
+ rary event feed. The library site says 17455 SW Farmington Rd and the feed
+  says 17445\; confirm by phone.
+LOCATION:Aloha Community Library\, 17455 SW Farmington Rd\, Suite 26A\, Alo
+ ha\, OR 97007
+URL:https://alohalibrary.org/event/second-sat-social-hour/
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d749c957e9a0991a@portlandresources.org
 DTSTAMP:20260211T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T170000
@@ -70,6 +571,273 @@ DESCRIPTION:Category: Social Activities\nCost: $3 suggested donation (60+)\
 LOCATION:5440 SE Kellogg Creek Dr\, Milwaukie\, OR 97222
 URL:https://ncprd.org/milwaukie-community-center
 RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5a016ee1d8cdb789@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261031T084500
+DTEND;TZID=America/Los_Angeles:20261031T130000
+SUMMARY:Friends of Trees: Friends of Trees planting - Nadaka Nature Park (G
+ resham)
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: No fee is listed
+  for individual volunteers. Registration is required for every planting.\n
+ Phone: 503-282-8846\nWebsite: https://friendsoftrees.org\nDetails: Tree-pl
+ anting volunteer events. Registration is required through each event's RSV
+ P link. The organizer's calendar lists 13 tri-county plantings from Octobe
+ r 31 to December 12\, 2026 and may add more\; Vancouver WA and Salem event
+ s are left out. The generic Saturday-mornings season is shown as text only
+ \, since plantings are not every Saturday.
+LOCATION:Nadaka Nature Park\, 17615 NE Glisan St\, Portland (Gresham)\, OR 
+ 97230
+URL:https://friendsoftrees.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:34460c2f349249ae@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261031T094500
+DTEND;TZID=America/Los_Angeles:20261031T130000
+SUMMARY:Friends of Trees: Friends of Trees planting - Gateway Green (NE Por
+ tland)
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: No fee is listed
+  for individual volunteers. Registration is required for every planting.\n
+ Info: Sign-in 9:45am\, planting 10am. Reached only by the I-205 multi-use 
+ path\, about a 15-minute walk.\nPhone: 503-282-8846\nWebsite: https://frie
+ ndsoftrees.org\nDetails: Tree-planting volunteer events. Registration is r
+ equired through each event's RSVP link. The organizer's calendar lists 13 
+ tri-county plantings from October 31 to December 12\, 2026 and may add mor
+ e\; Vancouver WA and Salem events are left out. The generic Saturday-morni
+ ngs season is shown as text only\, since plantings are not every Saturday.
+LOCATION:Gateway Green\, 10110 NE Halsey St\, Portland\, OR 97220
+URL:https://friendsoftrees.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9456adced375e996@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261107T084500
+DTEND;TZID=America/Los_Angeles:20261107T130000
+SUMMARY:Friends of Trees: Friends of Trees planting - Atfalati Park (Tualat
+ in)
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: No fee is listed
+  for individual volunteers. Registration is required for every planting.\n
+ Phone: 503-282-8846\nWebsite: https://friendsoftrees.org\nDetails: Tree-pl
+ anting volunteer events. Registration is required through each event's RSV
+ P link. The organizer's calendar lists 13 tri-county plantings from Octobe
+ r 31 to December 12\, 2026 and may add more\; Vancouver WA and Salem event
+ s are left out. The generic Saturday-mornings season is shown as text only
+ \, since plantings are not every Saturday.
+LOCATION:Atfalati Park\, 6600 SW Sagert St\, Tualatin\, OR 97062
+URL:https://friendsoftrees.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a2025ad472d4ae55@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261107T084500
+DTEND;TZID=America/Los_Angeles:20261107T130000
+SUMMARY:Friends of Trees: Friends of Trees planting - Jackson Bottom Wetlan
+ ds (Hillsboro)
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: No fee is listed
+  for individual volunteers. Registration is required for every planting.\n
+ Info: Final planting weekend at Jackson Bottom this season.\nPhone: 503-28
+ 2-8846\nWebsite: https://friendsoftrees.org\nDetails: Tree-planting volunt
+ eer events. Registration is required through each event's RSVP link. The o
+ rganizer's calendar lists 13 tri-county plantings from October 31 to Decem
+ ber 12\, 2026 and may add more\; Vancouver WA and Salem events are left ou
+ t. The generic Saturday-mornings season is shown as text only\, since plan
+ tings are not every Saturday.
+LOCATION:Jackson Bottom Wetlands\, 2600 SW Hillsboro Hwy\, Hillsboro\, OR 9
+ 7123
+URL:https://friendsoftrees.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3b9a2dcefbfff2d0@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261114T084500
+DTEND;TZID=America/Los_Angeles:20261114T130000
+SUMMARY:Friends of Trees: Friends of Trees planting - Boones Ferry Park (Wi
+ lsonville)
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: No fee is listed
+  for individual volunteers. Registration is required for every planting.\n
+ Phone: 503-282-8846\nWebsite: https://friendsoftrees.org\nDetails: Tree-pl
+ anting volunteer events. Registration is required through each event's RSV
+ P link. The organizer's calendar lists 13 tri-county plantings from Octobe
+ r 31 to December 12\, 2026 and may add more\; Vancouver WA and Salem event
+ s are left out. The generic Saturday-mornings season is shown as text only
+ \, since plantings are not every Saturday.
+LOCATION:Boones Ferry Park\, 31240 SW Boones Ferry Rd\, Wilsonville\, OR 97
+ 070
+URL:https://friendsoftrees.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:74111988d451b865@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261121T084500
+DTEND;TZID=America/Los_Angeles:20261121T130000
+SUMMARY:Friends of Trees: Friends of Trees planting - SE Firland Parkway (S
+ E Portland)
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: No fee is listed
+  for individual volunteers. Registration is required for every planting.\n
+ Phone: 503-282-8846\nWebsite: https://friendsoftrees.org\nDetails: Tree-pl
+ anting volunteer events. Registration is required through each event's RSV
+ P link. The organizer's calendar lists 13 tri-county plantings from Octobe
+ r 31 to December 12\, 2026 and may add more\; Vancouver WA and Salem event
+ s are left out. The generic Saturday-mornings season is shown as text only
+ \, since plantings are not every Saturday.
+LOCATION:SE Schiller St & SE 72nd Ave\, Portland\, OR
+URL:https://friendsoftrees.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b54df01af1656c27@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261121T084500
+DTEND;TZID=America/Los_Angeles:20261121T130000
+SUMMARY:Friends of Trees: Friends of Trees planting - Southern Lites Park (
+ Happy Valley)
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: No fee is listed
+  for individual volunteers. Registration is required for every planting.\n
+ Phone: 503-282-8846\nWebsite: https://friendsoftrees.org\nDetails: Tree-pl
+ anting volunteer events. Registration is required through each event's RSV
+ P link. The organizer's calendar lists 13 tri-county plantings from Octobe
+ r 31 to December 12\, 2026 and may add more\; Vancouver WA and Salem event
+ s are left out. The generic Saturday-mornings season is shown as text only
+ \, since plantings are not every Saturday.
+LOCATION:Southern Lites Park\, 12088 SE 117th Ave\, Happy Valley\, OR 97086
+URL:https://friendsoftrees.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:59726bdb57a44071@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261121T084500
+DTEND;TZID=America/Los_Angeles:20261121T130000
+SUMMARY:Friends of Trees: Friends of Trees planting - Cedar Mill & Cedar Hi
+ lls (Beaverton)
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: No fee is listed
+  for individual volunteers. Registration is required for every planting.\n
+ Phone: 503-282-8846\nWebsite: https://friendsoftrees.org\nDetails: Tree-pl
+ anting volunteer events. Registration is required through each event's RSV
+ P link. The organizer's calendar lists 13 tri-county plantings from Octobe
+ r 31 to December 12\, 2026 and may add more\; Vancouver WA and Salem event
+ s are left out. The generic Saturday-mornings season is shown as text only
+ \, since plantings are not every Saturday.
+LOCATION:St. Andrew Lutheran Church\, 12405 SW Butner Rd\, Beaverton\, OR 9
+ 7005
+URL:https://friendsoftrees.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e408d6fd63e09d56@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261121T084500
+DTEND;TZID=America/Los_Angeles:20261121T130000
+SUMMARY:Friends of Trees: Friends of Trees planting - Gresham neighborhood 
+ (Rockwood)
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: No fee is listed
+  for individual volunteers. Registration is required for every planting.\n
+ Phone: 503-282-8846\nWebsite: https://friendsoftrees.org\nDetails: Tree-pl
+ anting volunteer events. Registration is required through each event's RSV
+ P link. The organizer's calendar lists 13 tri-county plantings from Octobe
+ r 31 to December 12\, 2026 and may add more\; Vancouver WA and Salem event
+ s are left out. The generic Saturday-mornings season is shown as text only
+ \, since plantings are not every Saturday.
+LOCATION:Rockwood Common Tool Library\, 18600 SE Stark St\, Portland\, OR 9
+ 7233
+URL:https://friendsoftrees.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f477815f1b30213e@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261205T084500
+DTEND;TZID=America/Los_Angeles:20261205T130000
+SUMMARY:Friends of Trees: Friends of Trees planting - Mariposa Park (Cornel
+ ius)
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: No fee is listed
+  for individual volunteers. Registration is required for every planting.\n
+ Phone: 503-282-8846\nWebsite: https://friendsoftrees.org\nDetails: Tree-pl
+ anting volunteer events. Registration is required through each event's RSV
+ P link. The organizer's calendar lists 13 tri-county plantings from Octobe
+ r 31 to December 12\, 2026 and may add more\; Vancouver WA and Salem event
+ s are left out. The generic Saturday-mornings season is shown as text only
+ \, since plantings are not every Saturday.
+LOCATION:Mariposa Park\, 12972 S Quartz Dr\, Cornelius\, OR 97113
+URL:https://friendsoftrees.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bc9bc48d3754708f@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261205T084500
+DTEND;TZID=America/Los_Angeles:20261205T130000
+SUMMARY:Friends of Trees: Friends of Trees planting - North Portland neighb
+ orhood
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: No fee is listed
+  for individual volunteers. Registration is required for every planting.\n
+ Phone: 503-282-8846\nWebsite: https://friendsoftrees.org\nDetails: Tree-pl
+ anting volunteer events. Registration is required through each event's RSV
+ P link. The organizer's calendar lists 13 tri-county plantings from Octobe
+ r 31 to December 12\, 2026 and may add more\; Vancouver WA and Salem event
+ s are left out. The generic Saturday-mornings season is shown as text only
+ \, since plantings are not every Saturday.
+LOCATION:Cesar Chavez School\, 5103 N Willis Blvd\, Portland\, OR 97203
+URL:https://friendsoftrees.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e2a94a25f5941e46@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261212T084500
+DTEND;TZID=America/Los_Angeles:20261212T130000
+SUMMARY:Friends of Trees: Friends of Trees planting - Fanno Creek Greenway 
+ (Beaverton)
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: No fee is listed
+  for individual volunteers. Registration is required for every planting.\n
+ Phone: 503-282-8846\nWebsite: https://friendsoftrees.org\nDetails: Tree-pl
+ anting volunteer events. Registration is required through each event's RSV
+ P link. The organizer's calendar lists 13 tri-county plantings from Octobe
+ r 31 to December 12\, 2026 and may add more\; Vancouver WA and Salem event
+ s are left out. The generic Saturday-mornings season is shown as text only
+ \, since plantings are not every Saturday.
+LOCATION:Fanno Creek Greenway\, SW Fallbrook Pl\, Beaverton\, OR 97005
+URL:https://friendsoftrees.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:37bf6cfbde173d54@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261212T084500
+DTEND;TZID=America/Los_Angeles:20261212T130000
+SUMMARY:Friends of Trees: Friends of Trees planting - Milwaukie neighborhoo
+ d (Arbor Day)
+DESCRIPTION:Category: Social Activities\nCost: FREE\nNote: No fee is listed
+  for individual volunteers. Registration is required for every planting.\n
+ Phone: 503-282-8846\nWebsite: https://friendsoftrees.org\nDetails: Tree-pl
+ anting volunteer events. Registration is required through each event's RSV
+ P link. The organizer's calendar lists 13 tri-county plantings from Octobe
+ r 31 to December 12\, 2026 and may add more\; Vancouver WA and Salem event
+ s are left out. The generic Saturday-mornings season is shown as text only
+ \, since plantings are not every Saturday.
+LOCATION:SE 42nd Ave & SE Monroe St\, Milwaukie\, OR 97222
+URL:https://friendsoftrees.org
 CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -167,7 +935,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3432df74a675b19b@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260110T120000
 DTEND;TZID=America/Los_Angeles:20260110T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -185,7 +953,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:30ef4d659b56572a@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260214T120000
 DTEND;TZID=America/Los_Angeles:20260214T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -203,7 +971,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ad18b3e73fb66aca@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260314T120000
 DTEND;TZID=America/Los_Angeles:20260314T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -221,7 +989,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:422f98ef9fdb8fa3@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260411T120000
 DTEND;TZID=America/Los_Angeles:20260411T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -239,7 +1007,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:741454cf748389c6@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260509T120000
 DTEND;TZID=America/Los_Angeles:20260509T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -257,7 +1025,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d21e58f557816555@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260613T120000
 DTEND;TZID=America/Los_Angeles:20260613T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -275,7 +1043,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e63c0b84870ac3f5@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260711T120000
 DTEND;TZID=America/Los_Angeles:20260711T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -293,7 +1061,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:08f8dd88e4d82f7a@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T120000
 DTEND;TZID=America/Los_Angeles:20260808T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -311,7 +1079,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:05cb9bc450497075@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260912T120000
 DTEND;TZID=America/Los_Angeles:20260912T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -329,7 +1097,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:410d463b401e225e@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20261010T120000
 DTEND;TZID=America/Los_Angeles:20261010T150000
 SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
@@ -346,8 +1114,26 @@ CATEGORIES:Social Activities
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:8897057cdba5424c@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261114T120000
+DTEND;TZID=America/Los_Angeles:20261114T150000
+SUMMARY:Repair PDX: RPDX Repair Café @ Leaven Common House
+DESCRIPTION:Category: Social Activities\nCost: FREE\nFormat: In-person\nInf
+ o: Volunteers fix small appliances\, bikes\, clothing. Tool/knife sharpeni
+ ng and Kintsugi repair available. Registration form recommended.\nWebsite:
+  https://www.repairpdx.org\nDetails: Operating since 2013. Part of global 
+ Repair Café movement promoting sustainability and community connection. Gr
+ eat for learning basic repair skills. Contact 503-893-9656 or repairpdx@gm
+ ail.com.
+LOCATION:Leaven Common House\, 5431 NE 20th Ave\, Portland\, OR 97211
+URL:https://www.repairpdx.org
+CATEGORIES:Social Activities
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:695664c10c9fd872@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260926T130000
 DTEND;TZID=America/Los_Angeles:20260926T160000
 SUMMARY:Repair PDX: Cedar Mill Library Repair Fair
@@ -365,7 +1151,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2d5bdf1e6c26426c@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20261017T130000
 DTEND;TZID=America/Los_Angeles:20261017T160000
 SUMMARY:Repair PDX: Tualatin Library Repair Fair
@@ -383,7 +1169,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e64eb6b85bee52da@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260114T180000
 DTEND;TZID=America/Los_Angeles:20260114T200000
 SUMMARY:Repair PDX: Soldering for Home Electronics Repairs Workshop
@@ -400,7 +1186,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cb6d9141ea768a8f@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260118T100000
 DTEND;TZID=America/Los_Angeles:20260118T130000
 SUMMARY:Repair PDX: Sashiko Mending Workshop
@@ -417,7 +1203,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:47ccfa6d4b581092@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260322T100000
 DTEND;TZID=America/Los_Angeles:20260322T130000
 SUMMARY:Repair PDX: Sashiko Mending Workshop
@@ -434,7 +1220,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c81962a1bd7d2482@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260330T180000
 DTEND;TZID=America/Los_Angeles:20260330T200000
 SUMMARY:Repair PDX: Mend With Embroidery Workshop
@@ -451,7 +1237,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f7956fad993a84c0@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20261024T100000
 DTEND;TZID=America/Los_Angeles:20261024T130000
 SUMMARY:Repair PDX: Learn to Darn Workshop
@@ -468,7 +1254,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:624f2b20731fcb70@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260228T100000
 DTEND;TZID=America/Los_Angeles:20260228T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - West Linn
@@ -484,7 +1270,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3f3149a6fa9bdf22@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260314T100000
 DTEND;TZID=America/Los_Angeles:20260314T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Oak Grove/Milwaukie
@@ -499,7 +1285,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49b50bb9a25b3c3c@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260404T130000
 DTEND;TZID=America/Los_Angeles:20260404T160000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Gladstone
@@ -514,7 +1300,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:757e1433fd2efe49@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260418T100000
 DTEND;TZID=America/Los_Angeles:20260418T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Happy Valley
@@ -530,7 +1316,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:17b6b256361be7b2@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260516T100000
 DTEND;TZID=America/Los_Angeles:20260516T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Lake Oswego
@@ -545,7 +1331,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5ea56ad8448c7f9b@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260530T100000
 DTEND;TZID=America/Los_Angeles:20260530T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Wilsonville
@@ -561,7 +1347,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d404f0c1dc7c855@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260613T100000
 DTEND;TZID=America/Los_Angeles:20260613T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Sandy
@@ -576,7 +1362,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9ee4409b09b3caa6@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260718T100000
 DTEND;TZID=America/Los_Angeles:20260718T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Canby
@@ -591,7 +1377,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dca1f49eebde20b3@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T110000
 DTEND;TZID=America/Los_Angeles:20260808T140000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Estacada
@@ -606,7 +1392,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8342ee4af0164666@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260919T100000
 DTEND;TZID=America/Los_Angeles:20260919T140000
 SUMMARY:Clackamas County Repair Fairs: Milwaukie Sustainability Fair
@@ -621,7 +1407,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e083ad23c713dcc0@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20261010T120000
 DTEND;TZID=America/Los_Angeles:20261010T150000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Molalla
@@ -636,7 +1422,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8b15f94e3f55e9c2@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20261024T100000
 DTEND;TZID=America/Los_Angeles:20261024T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Oregon City
@@ -651,15 +1437,16 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:551f37e6feb55818@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20261107T100000
 DTEND;TZID=America/Los_Angeles:20261107T130000
 SUMMARY:Clackamas County Repair Fairs: Repair Fair - Clackamas Community Co
  llege
-DESCRIPTION:Category: Social Activities\nCost: FREE\nWebsite: https://www.c
- lackamas.us/recycling/repairfair\nDetails: Clackamas County repair fair se
- ries rotating through libraries and community centers. Check clackamas.us/
- recycling/repairfair for latest schedule.
+DESCRIPTION:Category: Social Activities\nCost: FREE\nInfo: Room to be annou
+ nced\; the county lists this fair as Oregon City.\nWebsite: https://www.cl
+ ackamas.us/recycling/repairfair\nDetails: Clackamas County repair fair ser
+ ies rotating through libraries and community centers. Check clackamas.us/r
+ ecycling/repairfair for latest schedule.
 LOCATION:Clackamas Community College\, Holden Industrial Technology Center\
  , 19600 Molalla Ave\, Oregon City\, OR
 URL:https://www.clackamas.us/recycling/repairfair

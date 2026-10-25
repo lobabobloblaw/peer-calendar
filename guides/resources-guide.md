@@ -2,18 +2,18 @@
 
 A comprehensive guide to free and affordable activities, services, and resources in the Portland metro area, with special attention to accessibility and mental health support.
 
-*Generated from data verified through October 14, 2026. 292 active resources across 9 categories.*
+*Generated from data verified through October 25, 2026. 333 active resources across 9 categories.*
 
 ## Contents
 
-- [Peer Support: Mental Health & Recovery](#peer-support-mental-health-recovery) (36 resources)
+- [Peer Support: Mental Health & Recovery](#peer-support-mental-health-recovery) (40 resources)
 - [Fitness & Wellness: Accessible Programs for All Abilities](#fitness-wellness-accessible-programs-for-all-abilities) (45 resources)
-- [Parks & Nature: Free Outdoor Spaces](#parks-nature-free-outdoor-spaces) (21 resources)
-- [Arts & Culture: Museums, Galleries, and Performances](#arts-culture-museums-galleries-and-performances) (45 resources)
-- [Food & Farms: Community Meals, U-Pick, and Markets](#food-farms-community-meals-u-pick-and-markets) (45 resources)
-- [Events & Festivals: Free Community Celebrations](#events-festivals-free-community-celebrations) (52 resources)
-- [Social Activities: Connection and Community](#social-activities-connection-and-community) (21 resources)
-- [Discount Programs: Maximize Your Access](#discount-programs-maximize-your-access) (20 resources)
+- [Parks & Nature: Free Outdoor Spaces](#parks-nature-free-outdoor-spaces) (22 resources)
+- [Arts & Culture: Museums, Galleries, and Performances](#arts-culture-museums-galleries-and-performances) (49 resources)
+- [Food & Farms: Community Meals, U-Pick, and Markets](#food-farms-community-meals-u-pick-and-markets) (49 resources)
+- [Events & Festivals: Free Community Celebrations](#events-festivals-free-community-celebrations) (73 resources)
+- [Social Activities: Connection and Community](#social-activities-connection-and-community) (25 resources)
+- [Discount Programs: Maximize Your Access](#discount-programs-maximize-your-access) (23 resources)
 - [Transportation: Getting Around Portland](#transportation-getting-around-portland) (7 resources)
 
 ---
@@ -273,14 +273,14 @@ Portland-based peer support for pregnancy and infant loss, including early pregn
 - **Phone:** 503-655-8585
 - **Website:** https://www.clackamas.us/behavioralhealth/urgentmentalhealth
 - **Cost:** FREE (regardless of insurance or ability to pay)
-- **Hours:** Crisis Line: 24/7, every day of the year; Walk In: Mon-Fri 9am-7pm
+- **Hours:** Crisis Line: 24/7, every day of the year; Walk In: Mon-Fri 9am-7pm; closed Thanksgiving (November 26, 2026), Christmas (December 25, 2026), and New Year's Day (January 1, 2027)
 - **Eligibility:** Anyone living in Clackamas County, regardless of ability to pay
 
 Free 24/7 crisis line and walk-in mental health center for Clackamas County. Peer-delivered services. Mobile crisis response available.
 
 **What to know:** Not just for crisis — call anytime you need mental health support. Peer-delivered services from people with lived experience. Walk-in center in Happy Valley. Mobile crisis team can come to you. Telehealth available. Free for all Clackamas County residents.
 
-**First visit:** Call 503-655-8585 anytime, or walk in Mon-Fri 9am-7pm. You don't have to be in crisis — any time you need help is the right time.
+**First visit:** Call 503-655-8585 anytime, or walk in Mon-Fri 9am-7pm (closed Thanksgiving, Christmas, and New Year's Day). You don't have to be in crisis — any time you need help is the right time.
 
 *One-on-one · Anxiety-friendly, Good for isolation, Grief support, Indoor · Wheelchair accessible*
 
@@ -477,6 +477,31 @@ Founded 1985, one of Oregon's oldest peer-run programs. Free membership. Orienta
 
 *Casual group · Anxiety-friendly, Good for isolation, Creative, Indoor, Low energy · Near transit*
 
+### Get Trained to Help (free suicide-prevention classes)
+
+- **Website:** https://gettrainedtohelp.com/find-a-class/
+- **Cost:** FREE. The site says classes are offered free of charge.
+- **Eligibility:** Adults 18+ who live or work in Clackamas, Multnomah, or Washington County
+
+Added in the October 2026 discovery sweep. The calendar shows no other dated classes right now; check the site for new ones.
+
+**What to know:** These trainings teach skills for helping others. They are not therapy or a support group. If you are having thoughts of suicide, call or text 988.
+
+**First visit:** QPR (Question, Persuade, Refer) is a short class on spotting and responding to suicide warning signs.
+
+**Registration:** Required for each class.
+
+**Programs:**
+
+- **QPR - Older Adult Focus (Oregon City):** 1-3pm | FREE | Willamette Falls Studios, 1101 Jackson St, Oregon City, OR 97045
+  Registration required through the link on the event page.
+- **Veterans QPR (virtual):** 9:30-11:30am | FREE | Online (Zoom link emailed to registrants)
+  Registration required; email vicki_horn@washingtoncountyor.gov.
+- **Veterans QPR (in person, Hillsboro):** 3:30-5:30pm | FREE | Washington County DAVS, 5240 NE Elam Young Pkwy, Suite 300, Hillsboro, OR 97124
+  Registration required; email vicki_horn@washingtoncountyor.gov.
+
+*Structured group · Indoor*
+
 ### Hopewell House Grief Support
 
 - **Address:** 6171 SW Capitol Highway, Portland, OR 97239
@@ -503,6 +528,26 @@ Community grief support in a beautiful, peaceful setting. The monthly Community 
   For LGBTQIA+ people mourning the death of a significant person. Join the waitlist through the official page for availability and exact session dates.
 
 *Structured group · Grief support, Anxiety-friendly, Indoor · Wheelchair accessible*
+
+### International Survivors of Suicide Loss Day - Portland (AFSP Oregon)
+
+- **Address:** The Lantern, 2828 SE Stephens, Portland, OR 97214
+- **Phone:** 971-375-5509
+- **Website:** https://portland.isosld.afsp.org/
+- **Cost:** FREE. The event system marks the event free; no ticket price is published.
+- **Hours:** 9:30am-2:30pm
+- **Schedule:** 9:30am-2:30pm
+- **Dates:** November 21, 2026
+
+From the queue's high-priority Survivor Day lead. Date, time, and venue come from the event site's own data and match the afsp.org chapter listing; the visible page needs JavaScript and has no description.
+
+**What to know:** The phone number is AFSP Oregon's area director line, listed on the chapter page.
+
+**First visit:** A day for people who have lost someone to suicide, hosted by AFSP Oregon. Call 971-375-5509 for details before you go.
+
+**Registration:** The event site currently says registration is closed. Call before going to ask whether a place is still available.
+
+*Structured group · Grief support*
 
 ### NAMI Clackamas
 
@@ -592,6 +637,28 @@ No diagnosis required for any groups. Groups are peer-led by trained volunteers 
 - **Complex Trauma & Dissociation Support:** Every Tuesday, 7-8:30pm | Zoom
 
 *Structured group · Anxiety-friendly, Good for isolation, Indoor · Near transit*
+
+### NAMI Multnomah Give & Glow Self-Care Kickoff
+
+- **Address:** Community for Positive Aging, 1820 NE 40th Ave, Portland, OR 97212
+- **Phone:** 971-393-3728
+- **Website:** https://www.namimultnomah.org/nami-events/ds757jk6bwdhtgn-bwkz2-7xgdd-x9krc-k7d2s-rs2cf
+- **Cost:** FREE
+- **Hours:** 3-5pm
+- **Schedule:** 3-5pm
+- **Dates:** November 1, 2026
+
+Added in the October 2026 sweep. Kicks off Willamette Week's Give!Guide season.
+
+**What to know:** All ages are welcome.
+
+**First visit:** A social afternoon with NAMI Multnomah, NAMI Clackamas, and Community for Positive Aging: self-care activities, treats and refreshments, raffles and giveaways, and mental health resources.
+
+**Registration:** Registration is requested at https://bit.ly/4hqcAoP.
+
+**What to bring:** Nothing required.
+
+*Casual group · Anxiety-friendly, Good for isolation, Indoor, Family-friendly · Near transit*
 
 ### NAMI Washington County
 
@@ -746,7 +813,7 @@ Peer-to-peer support for LGBTQ+ people, their parents, families, and allies. In-
 
 ### Plates for the People (at Alano Club)
 
-- **Address:** Cookshop at the Alano Club, 909 NW 24th Ave, Portland, OR 97210
+- **Address:** Cookshop, 2625 SE 26th Ave, Portland, OR 97202
 - **Phone:** (503) 222-5756
 - **Website:** https://www.portlandalano.org/plates-for-the-people
 - **Cost:** FREE (free Eventbrite ticket required)
@@ -757,7 +824,7 @@ Free cooking classes for people in or seeking recovery. Led by award-winning che
 **Programs:**
 
 - **Plates for the People 2026 cooking class:** 5:30-6:30pm
-  Confirmed 2026 dates from Eventbrite; the June and September dates were not captured - check Eventbrite. Classes have run longer in past years when a shared meal followed.
+  Confirmed 2026 dates from Eventbrite; the June and September dates were not captured - check Eventbrite. Classes have run longer in past years when a shared meal followed. The October 27 class is held at Cookshop (not the Alano Club) and showed SOLD OUT on Eventbrite on 2026-10-25. No November or December class is listed.
 
 *Structured group · Good for isolation, Newcomer-friendly, Indoor, Creative · Near transit*
 
@@ -1003,6 +1070,26 @@ Pioneering peer grief support model since 1982. World-renowned programs. Also of
 
 *Structured group · Grief support, Good for isolation, Indoor, Family-friendly · For: Children (3-12) · Wheelchair accessible*
 
+### The Lost Table (Portland Grief House with Milagro)
+
+- **Address:** El Zocalo at El Centro Milagro, 537 SE Stark St, Portland, OR 97214
+- **Phone:** 503-236-7253
+- **Website:** https://milagro.org/event/the-lost-table/
+- **Cost:** FREE or pay-what-you-wish
+- **Hours:** 4-7pm: opening ritual 4:00, conversation 4:30-5:45, closing 5:45
+- **Schedule:** 4-7pm
+- **Dates:** November 7, 2026
+
+Added in the October 2026 discovery sweep. Reported by two separate sweeps.
+
+**What to know:** Ages 10 and up.
+
+**First visit:** A welcoming community gathering to remember people we have lost, with a shared meal.
+
+**Registration:** Reserve a ticket on the event page; tickets are free or pay-what-you-wish.
+
+*Structured group · Grief support, Good for isolation, Indoor*
+
 ### The Peer Company (formerly MHAAO)
 
 - **Address:** 8935 SE Powell Blvd, Portland, OR 97266
@@ -1030,7 +1117,7 @@ Rebranded from MHAAO September 2025; the website is now thepeercompany.org. Free
 - **Hours:** Overnight shelters open on forecast; Coordinated Housing Access answers 503-655-8575 Mon-Fri 8am-6pm; call 2-1-1 for current shelter information
 - **Eligibility:** Open to the general public
 
-clackamas.us/relief carries cooling centers in summer and warming centers in winter; in September it showed the summer list. The 33F threshold comes from the county's February 2025 cold-weather release. next_audit is set for November to recheck both when the winter page goes live.
+clackamas.us/relief carries cooling centers in summer and warming centers in winter; on 2026-10-25 it still showed the summer list, so the winter daytime sites are unconfirmed. The 33F threshold is on the county's Winter Weather Information page (12/30/2025) and in its February 2025 release. No 2026-27 season dates are published. next_audit is set for November to recheck when the winter page goes live.
 
 **What to know:** Clackamas opens overnight warming shelters at 33F including wind chill. Multnomah's shelter trigger is a forecast temperature of 25F, so a night can be a shelter night in one county and not the other.
 
@@ -1050,13 +1137,13 @@ clackamas.us/relief carries cooling centers in summer and warming centers in win
 - **Hours:** Call Community Connect at 503-640-3263 for emergency shelter
 - **Eligibility:** People experiencing homelessness in Washington County. During extreme weather, extra shelter capacity opens so no one is turned away.
 
-The county's dedicated winter-shelters page returned 403 Access denied on 2026-09-16, so the season dates and bed counts for a separate winter shelter network could not be confirmed and are left out. next_audit is set for November to check whether that page is back.
+The county's dedicated winter-shelters page still returns 403 on 2026-10-25, so the thresholds and sites above come from the county's January 23, 2026 release and its shelters page. No 2026-27 season dates are published. next_audit is set for November to check again.
 
-**What to know:** Washington County's front door to shelter is Community Connect rather than 211, though 211 can route there too. The county posts updates on its shelter page during an extreme weather event.
+**What to know:** Washington County's front door to shelter is Community Connect rather than 211, though 211 can route there too. The county posts updates on its shelter page during an extreme weather event; wcor.us/SevereWeatherShelter is its updates link.
 
 **First visit:** Call Community Connect at 503-640-3263, or work with a case manager at a county partner organization.
 
-**Features:** Winter and severe weather shelters add emergency capacity during freezing temperatures and heat waves, No one is turned away during extreme weather events, More than 430 shelter beds county-wide across bridge, congregate, alternative, and youth shelters, Low-barrier shelters
+**Features:** Winter and severe weather shelters add emergency capacity during freezing temperatures and heat waves, No one is turned away during extreme weather events, More than 430 shelter beds county-wide across bridge, congregate, alternative, and youth shelters, Regular county shelter beds are by referral only (no walk-ins) and currently have waitlists; the county's FAQ lists eligibility as homeless or at risk, strong ties to Washington County, 18 or older, and agreement to take part in recovery services and live in a sober environment, Severe weather shelters may activate, in coordination with Multnomah County, when the forecast is 25F or below, 1 inch or more of snow, or 32F or below with 1 inch or more of driving rain overnight (county release, January 23, 2026), In the January 2026 storm the county opened 24-hour no-turn-away shelters (pets allowed) at the Salvation Army Building, 1440 SE 21st Ave, Hillsboro, and Just Compassion, 12264 SW Hall Blvd, Tigard; sites change by event
 
 *One-on-one · Low energy*
 
@@ -2057,9 +2144,9 @@ Community-supported yoga studio with scholarship memberships funded by other mem
 ### THPRD Fitness in the Park
 
 - **Phone:** 503-645-6433
-- **Website:** https://www.thprd.org/fitness-in-the-park
+- **Website:** https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
 - **Cost:** FREE
-- **Season:** Year-round; session schedules change each term. Fall 2026 runs September 14 - December 13 (free, no registration). Fall classes also meet at partner sites (Holly Tree, The Barcelona, The Opal) - call 503-629-6330 to confirm those are open to the public before attending.
+- **Season:** Year-round; session schedules change each term. Fall 2026 runs September 14 - December 13 (free, no registration). Fall classes also meet at partner sites (Holly Tree, The Barcelona, The Opal), which THPRD lists as part of the free program.
 - **Eligibility:** All ages (varies by class)
 
 Free fitness classes in Washington County parks. Focus on environmental justice areas to reduce barriers to access. The official schedule publishes start times but not class end times; one-hour calendar blocks are start-time reminders, not confirmed durations.
@@ -2086,6 +2173,13 @@ Free fitness classes in Washington County parks. Focus on environmental justice 
 - **Forest Bathing at Lowami Hart Woods Natural Area:** 9am | Lowami Hart Woods Natural Area
 - **Forest Bathing at Hyland Woods Natural Area:** 9am | Hyland Woods Natural Area
 - **Tai Chi at Greenway Park:** Saturdays 10am | Greenway Park covered area, SW Greenway & SW Parkview Loop, Beaverton, OR
+- **Tai Chi at The Opal:** Mondays 4pm | The Opal, 12691 NW Dogwood St, Beaverton, OR
+  THPRD's calendar labels one Monday Tai Chi session '8/10'; confirm the run of this class with THPRD at 503-645-6433.
+- **Chair Yoga at Holly Tree:** Tuesdays 2:30pm | Holly Tree, 5335 SW Murray Blvd, Beaverton, OR
+- **Chair Fitness at The Barcelona:** Tuesdays 2:30pm | The Barcelona, 4745 SW Lombard Ave, Beaverton, OR (entrance at the corner of SW Lombard Ave and SW 2nd St)
+- **Zumba at Cooper Park (fall):** Wednesdays 5:30pm | Cooper Park, access off SW Oak St between 172nd and 176th; meet at the basketball court
+- **Chair Fitness at Holly Tree:** Thursdays 9:30am | Holly Tree, 5335 SW Murray Blvd, Beaverton, OR
+- **Kids Fit & Fun at Greenway Park:** Sundays 10am | Greenway Park, Beaverton, OR
 - **Tai Chi at Melilah Park:** Sundays 10am | Melilah Park
 - **Walk with Me - Commonwealth Lake Park:** 9:30am | Commonwealth Lake Park
 - **Walk with Me - Rock Creek Trail:** 9:30am | Park trail entrance at NW 177th Ave & NW Blacktail Dr
@@ -2435,6 +2529,24 @@ Central Gresham park hosting festivals, concerts, and community events. Tsuru Is
 
 *Do alone · Outdoor, Anxiety-friendly, Active/physical · Wheelchair accessible*
 
+### Newt Day! (Tualatin Hills Nature Center)
+
+- **Address:** Tualatin Hills Nature Center, 15655 SW Millikan Way, Beaverton, OR 97006
+- **Phone:** 503-629-6350
+- **Website:** https://www.tualatinhillsparks.org/Calendar.aspx?EID=17175
+- **Cost:** FREE. Sponsored by the Friends of the Tualatin Hills Nature Park.
+- **Hours:** 12-4pm
+- **Schedule:** 12-4pm
+- **Dates:** November 7, 2026
+
+Added in the October 2026 discovery sweep.
+
+**First visit:** Indoor exhibits and hands-on activities about the rough-skinned newt.
+
+**Registration:** None.
+
+*Drop-in (come and go freely) · Outdoor, Indoor, Family-friendly*
+
 ### Oaks Bottom Wildlife Refuge
 
 - **Address:** SE 7th & Sellwood, Portland
@@ -2652,7 +2764,7 @@ Independent dinner theater in Montavilla neighborhood.
 
 - **Address:** Tigard High School, 9000 SW Durham Rd, Tigard, OR 97224
 - **Website:** https://artintheburbs.org/
-- **Cost:** FREE admission; suggested $3 donation at the door
+- **Cost:** Suggested $3 donation at the door (one raffle ticket per $3)
 - **Hours:** 10am-5pm
 - **Schedule:** 10am-5pm
 - **Dates:** November 7-8, 2026
@@ -2701,6 +2813,33 @@ Portland's oldest operating movie theater, in Sunnyside neighborhood.
 **Features:** Two screens, Art Deco design (built 1912), Classic nickel arcade (since 1925)
 
 *Do alone · Anxiety-friendly, Low energy, Indoor · Wheelchair accessible, Near transit*
+
+### Beaverton City Library - Adult Programs
+
+- **Address:** 12375 SW Fifth St, Beaverton, OR 97005
+- **Phone:** 503-644-2197
+- **Website:** https://www.beavertonlibrary.org/
+- **Cost:** FREE. Each event page lists the program as free.
+
+Added in the October 2026 discovery sweep; the database had no Beaverton City Library entry. Dates for the second session of each series come from the library's list view.
+
+**First visit:** No sign-up listed for these programs; just come to the room.
+
+**Registration:** None listed.
+
+**Programs:**
+
+- **Silent Book Club:** 4-5:30pm | FREE | Beaverton City Library, Auditorium
+  Read quietly together for an hour; chat or don't. Everyone is welcome.
+- **Song Circle:** 5:30-7pm | FREE | Beaverton City Library, Cathy Stanton Conference Room
+  Sing and play songs together; lyrics and chords provided.
+- **Beaverton Community Band Holiday Concert:** 2-3:30pm | FREE | Beaverton City Library, Auditorium
+  All ages; doors open 1:30pm.
+- **Death Cafe:** 11am-12pm | FREE | Beaverton City Library
+  A discussion group about death and dying, not a grief support or counseling session.
+- **English Conversation Club:** Saturdays 2-3pm | FREE | Beaverton City Library, Cathy Stanton Conference Room
+
+*Casual group · Anxiety-friendly, Good for isolation, Low energy, Indoor*
 
 ### Clackamas County Libraries (LINCC)
 
@@ -3103,6 +3242,31 @@ Free gallery in East County featuring diverse contemporary and traditional art. 
 
 *Do alone · Anxiety-friendly, Indoor, Low energy, Creative · Wheelchair accessible*
 
+### Milagro Altares y Muertos (Central Eastside Dia de Muertos)
+
+- **Address:** El Zocalo at El Centro Milagro, 537 SE Stark St, Portland, OR 97214
+- **Phone:** 503-236-7253
+- **Website:** https://milagro.org/event/altares-y-muertos-public-art-exhibition/
+- **Cost:** FREE. Exhibition: no tickets or reservations required. The tour is free; the page also shows pay-what-you-wish.
+- **Hours:** Exhibition during each business's regular hours at nine Central Eastside locations
+- **Dates:** October 24 - November 6, 2026
+
+Added in the October 2026 discovery sweep. Not free and left out: Cumbia con los Muertos, Marigolds y Memorias, and the Viva Milagro fundraiser.
+
+**First visit:** Download the exhibition map on the event page and stroll between the altars at your own pace.
+
+**Registration:** None for the exhibition; the tour has a reserve button.
+
+**Programs:**
+
+- **Altares y Muertos Tour:** 11:30am-3pm | FREE | Starts at El Zocalo, 537 SE Stark St, Portland, OR 97214
+  Guided bike or walk route past the altars, departing around noon. The page has a Reserve your space button.
+- **Lectura de los Muertos:** 11am-1pm | FREE | Nossa Familia Coffee, 1633 SE 3rd Ave, Portland, OR 97214
+- **Pinta Calaveritas:** 6-8pm | FREE | Hey Doc Clinic, 1221 SE Madison St, Portland, OR 97214
+  Ages 14 and up; donations appreciated.
+
+*Do alone · Creative, Grief support, Outdoor*
+
 ### Mt. Hood Theatre
 
 - **Address:** 401 E Powell Blvd, Gresham, OR 97030
@@ -3147,15 +3311,15 @@ Free gallery in East County featuring diverse contemporary and traditional art. 
 - **Address:** 1945 SE Water Ave, Portland, OR 97214
 - **Phone:** 503-797-4000
 - **Website:** https://omsi.edu/
-- **Cost:** $22.50 adults (14+); $20.50 seniors (63+); $15.50 youth (3-13); free under 3; $5 on published $5 Days; $5 Arts for All (EBT/SNAP/WIC/TANF/Medicaid/OHP). Arts for All provides up to 4 tickets at $5 each for EBT/SNAP/WIC/TANF/Medicaid/OHP recipients (any state); up to 55% off OMSI for 2, Family, Family Plus, and Patron memberships
+- **Cost:** $21.50 adults (14+); $19.50 seniors (63+); $14.50 youth (3-13) for October 20 - November 20, 2026 (prices change by date range); free under 3 (ticket required); $5 on published $5 Days; $8 OMSI for All tickets (EBT/SNAP/WIC/TANF/Medicaid/OHP). OMSI for All provides up to 4 tickets at $8 each for EBT/SNAP/WIC/TANF/Medicaid/OHP recipients (any state); up to 55% off OMSI for 2, Family, Family Plus, and Patron memberships (not rechecked)
 - **Hours:** Tue-Fri 9:30am-5:30pm; Sat 9:30am-7pm; Sun 9:30am-5:30pm; Mon closed
 
-**Tips:** First Sunday is only $5 admission. Arts for All accepts EBT/SNAP/WIC/TANF/Medicaid/OHP - up to 4 tickets at $5 each, plus up to 55% off memberships. Free companion ticket for aide accompanying visitors with disabilities. Interactive exhibits good for all ages. Can be crowded on weekends - weekday visits are quieter.
+**Tips:** OMSI for All accepts EBT/SNAP/WIC/TANF/Medicaid/OHP - up to 4 tickets at $8 each, plus up to 55% off memberships. Free companion ticket for aide accompanying visitors with disabilities. Interactive exhibits good for all ages. Can be crowded on weekends - weekday visits are quieter.
 
 **Programs:**
 
 - **$5 Day:** 9:30am-5:30pm | $5
-  $5 admission for everyone, and $5 tickets for the Empirical Theater, Kendall Planetarium shows, USS Blueback submarine tours (ages 3+), and select special exhibitions. OMSI expects heavy traffic and recommends buying timed tickets online in advance. The days fall on Tuesdays, Thursdays, Sundays, and one Monday (January 25), so this is a dated list rather than a recurrence. OMSI is normally closed Mondays - check hours before going on January 25.
+  $5 admission for everyone, and $5 tickets for the Empirical Theater, Kendall Planetarium shows, USS Blueback submarine tours (ages 3+), and select special exhibitions. OMSI expects heavy traffic and recommends buying timed tickets online in advance. The days fall on Tuesdays, Thursdays, Sundays, and one Monday (January 25), so this is a dated list rather than a recurrence. OMSI is normally closed Mondays - check hours before going on January 25. The Physics Lab is closed September 8 - November 14, 2026.
 
 *Drop-in (come and go freely) · Indoor, Family-friendly, Active/physical · Wheelchair accessible, Near transit*
 
@@ -3309,10 +3473,10 @@ Community college theater with professional-quality productions. Drama, comedy, 
 
 **Programs:**
 
-- **An Evening of Shakespeare Scenes:** 6:30pm
-  PCC Sylvania Performing Arts; ticket details on pcc.edu/theatre
+- **An Evening of Shakespeare Scenes:** 6:30-8pm
+  FREE. Held in room ST 108 on the PCC Sylvania campus (12000 SW 49th Ave), not in the Performing Arts Center theater.
 - **A Midsummer Night's Dream**
-  Showtimes and pricing not yet posted; auditions November 2-3, 2026
+  Ticketed. Showtimes March 4 at 11am and 7pm, March 5 at 7pm (audio description), March 6 at 7pm (ASL performance), March 7 at 2pm; auditions November 2-3, 2026
 
 *Do alone · Anxiety-friendly, Indoor, Creative · Wheelchair accessible*
 
@@ -3339,16 +3503,16 @@ Community college theater with professional-quality productions. Drama, comedy, 
 
 - **Address:** Portland Art Museum, 1219 SW Park Ave, Portland, OR 97205
 - **Phone:** 503-248-4335
-- **Website:** https://literary-arts.org/about/programs/portland-book-festival/
-- **Cost:** Youth 17 and under FREE; Arts for All $5 tickets for Oregon Trail Card holders; general admission charged (2025 was $18 advance / $25 day-of). Up to two $5 Arts for All tickets per SNAP card through the Portland'5 Box Office (1111 SW Broadway, Wed-Fri 12-5pm, or 503-248-4335)
-- **Hours:** Main festival day Saturday, November 7, 2026; smaller satellite events during the week
+- **Website:** https://pdxbookfest.org/
+- **Cost:** Main day Saturday, November 7: general admission pass $20 in advance or $27 at the box office; Arts for All $5 (Oregon Trail Card or SNAP ID); youth under 17 (or 18 with a high school ID) FREE; veterans and active military FREE with ID. A wristband is required for everyone. 14 Cover to Cover events around town, November 2-8, are labeled free.. Bring your Oregon Trail Card or SNAP ID for Arts for All. The festival's passes-and-tickets page has the current wristband pickup details. The Umbrella All-Access passes are sold out.
+- **Hours:** Main festival day Saturday, November 7, 2026, 10am-6pm; Cover to Cover events around Portland November 2-8, 2026
 - **Dates:** November 2-8, 2026
 
 Literary Arts' annual festival, expanded to a week of events in 2026. Free for youth; $5 through Arts for All.
 
-**What to know:** The Saturday main day is very crowded; the weeknight satellite events added in 2026 are much smaller and calmer. The 2026 general-admission price was not yet posted in September 2026.
+**What to know:** The Saturday main day is very crowded; the weeknight satellite events added in 2026 are much smaller and calmer. Several are free, such as poetry and author readings at neighborhood bookstores and libraries.
 
-**First visit:** Buy Arts for All tickets ahead through the Portland'5 Box Office and bring your Oregon Trail Card to wristband pickup
+**First visit:** Arts for All, youth, and veteran wristbands are free or $5 but still required; bring your Oregon Trail Card or SNAP ID and check pdxbookfest.org/passes-and-tickets for pickup details
 
 **Registration:** Tickets required for most sessions; the 2025 main day sold out in advance
 
@@ -3357,6 +3521,25 @@ Literary Arts' annual festival, expanded to a week of events in 2026. Free for y
 *Drop-in (come and go freely) · Indoor, Creative, Good for isolation, Newcomer-friendly · Wheelchair accessible, Near transit*
 
 **Accessibility:** Portland Art Museum and the South Park Blocks venues are wheelchair accessible; MAX, streetcar, and bus to downtown.
+
+### PSU Music @ Midday
+
+- **Address:** Lincoln Recital Hall, 1620 SW Park Ave, Portland, OR 97201
+- **Website:** https://www.pdx.edu/music-theater/music-midday-concert-series
+- **Cost:** FREE. The series page calls it a free weekly opportunity; event pages say free and open to the public.
+- **Hours:** Fridays 12:15-1:15pm (the October 30 concert ends 1:05pm); also streamed on YouTube
+- **Schedule:** 12:15-1:15pm
+- **Dates:** October 30, 2026, November 6, 2026, November 13, 2026, November 20, 2026, December 4, 2026
+
+Added in the October 2026 discovery sweep. Fall series ends December 4.
+
+**What to know:** No concert is listed for November 27 (Thanksgiving week). The general public is welcome in Lincoln Hall.
+
+**First visit:** A short daytime concert by PSU students, faculty, and guests. Easy to slip in and out.
+
+**Registration:** None.
+
+*Drop-in (come and go freely) · Creative, Indoor · Near transit*
 
 ### Rockwood Library
 
@@ -3415,6 +3598,28 @@ Nonprofit creative reuse center with free/low-cost craft events
   Bring a project or start a new one.
 
 *Casual group · Creative, Good for isolation, Newcomer-friendly, Indoor · Wheelchair accessible, Near transit*
+
+### Sherwood Center for the Arts - Veterans Day Event and Monday Mic Night
+
+- **Address:** 22689 SW Pine St, Sherwood, OR 97140
+- **Phone:** 503-625-4278
+- **Website:** https://www.sherwoodcenterforthearts.org/
+- **Cost:** FREE. Both pages say free.
+
+Added in the October 2026 discovery sweep. The end time of the Veterans Day event is not stated; the schedule shows an assumed one hour.
+
+**First visit:** Both are drop-in. For the open mic, sign up at 6:30pm if you want to perform.
+
+**Registration:** None.
+
+**Programs:**
+
+- **City of Sherwood Veterans Day Recognition Event:** 11am-12pm | FREE | Sherwood Center for the Arts, 22689 SW Pine St, Sherwood, OR 97140
+  Doors open 10:45am. Music by the Tristan Weitkamp Jazz Ensemble and the Sherwood Mixolydians, remarks from elected officials, light refreshments. The page body says Tuesday, November 11; the calendar line says Wednesday, which matches 2026.
+- **Monday Mic Night:** 7-9pm | FREE | Sherwood Center for the Arts, 22689 SW Pine St, Sherwood, OR 97140
+  All-ages, family-friendly open mic; sign up to perform at 6:30pm, or just listen. The last date on the 2026 schedule.
+
+*Drop-in (come and go freely) · Creative, Indoor*
 
 ### Slamlandia Poetry Open Mic
 
@@ -3650,6 +3855,22 @@ Universal resource directory for Oregon. Call 2-1-1, text ZIP to 898-211, or vis
 
 *One-on-one · Anxiety-friendly, Low energy*
 
+### Beaverton Farmers Market
+
+- **Address:** Beaverton City Library west parking lot, 12375 SW 5th St, Beaverton, OR 97005
+- **Website:** https://beavertonfarmersmarket.com/
+- **Cost:** Free to enter. A participating Double Up Food Bucks market; the SNAP terms were not readable on the site.
+- **Schedule:** Saturdays 8:30am-1:30pm
+- **Season:** April - November 21, 2026
+
+Added in the October 2026 discovery sweep; the database had no Beaverton market. The weekday is inferred from the market calendar's October 31 Halloween listing.
+
+**First visit:** The market is in the library's west parking lot, SW Hall Blvd between 3rd and 5th.
+
+**Registration:** None.
+
+*Do alone · Outdoor · Wheelchair accessible*
+
 ### Birch Community Services
 
 - **Address:** 17780 NE San Rafael St, Portland, OR 97230
@@ -3679,7 +3900,7 @@ Major NE Portland food hub serving 975+ families weekly. Also operates as a food
 - **Hours:** Breakfast: 6:30-7:25am; Lunch: 11:30am-12:25pm; Dinner: 5:00-5:55pm
 - **Schedule:** Monday-Saturday
 
-Serving since 1952. ~1,200 meals daily. Sit-down indoor dining, vegetarian options, dogs allowed if leashed. Wednesday is spaghetti night. No questions asked.
+Serving since 1952. ~1,200 meals daily. Sit-down indoor dining, vegetarian options, dogs allowed if leashed. Wednesday is spaghetti night. No questions asked. Closed to the public on Thanksgiving Day (Thursday, November 26, 2026), per its 2026 holiday list. Its Christmas notice (2025) says no meals on December 25; call 503-241-4340 to confirm for 2026.
 
 **Tips:** No questions asked - just show up. Sit-down indoor dining with vegetarian options. Dogs allowed if leashed. Wednesday is spaghetti night. Serving since 1952. Downtown Old Town location.
 
@@ -3754,6 +3975,43 @@ Farm for 2 hours, take home fresh produce. No ongoing commitment required.
   Come farm for 2 hours, leave with a bag of fresh produce. No commitment required.
 
 *Casual group · Outdoor, Active/physical, Low energy · Varies*
+
+### Community Holiday Dinner (Congregation Beth Israel with LiftUP)
+
+- **Address:** Goodman Hall, Congregation Beth Israel, 1972 NW Flanders St, Portland, OR 97209
+- **Phone:** 503-222-1069
+- **Website:** https://www.bethisrael-pdx.org/calendar/filter-by/event/308/2026/12/25
+- **Cost:** Cost is not stated on the event page
+- **Hours:** 9am-4pm
+- **Schedule:** 9am-4pm
+- **Dates:** December 25, 2026
+
+From the Christmas Day search in the October 2026 audit. One of few Christmas Day meals with a confirmed 2026 date.
+
+**First visit:** Congregation Beth Israel's long-running Christmas Day community dinner, held with LiftUP.
+
+**Registration:** The page has a Register button; requirements are not stated. Call 503-222-1069.
+
+*Casual group · Good for isolation, Indoor*
+
+### Cornelius Community Dinner
+
+- **Address:** Cornelius Elementary School, 200 N 14th Ave, Cornelius, OR 97113
+- **Website:** https://www.washingtoncountyor.gov/sheriff/news/2026/10/19/cornelius-community-dinner
+- **Cost:** FREE turkey dinner
+- **Hours:** 4-7pm
+- **Schedule:** 4-7pm
+- **Dates:** November 21, 2026
+
+Added in the October 2026 discovery sweep.
+
+**What to know:** Everyone is welcome.
+
+**First visit:** The 11th annual community dinner, hosted by the City of Cornelius and the Washington County Sheriff's Office.
+
+**Registration:** None. No reservations needed.
+
+*Casual group · Good for isolation, Family-friendly, Indoor*
 
 ### Estacada Area Food Bank
 
@@ -3833,6 +4091,7 @@ Member-based, all-volunteer food share organization serving Clackamas County sin
 ### Gresham Farmers' Market
 
 - **Address:** Arts Plaza, NE 3rd St and NE Hood Ave, Gresham, OR
+- **Phone:** 971-303-2248
 - **Website:** https://www.greshamfarmersmarket.com
 - **Cost:** FREE to attend. Most produce vendors accept Senior/WIC checks
 - **Schedule:** Saturdays 8:30am-2pm
@@ -3853,6 +4112,7 @@ May-October season. One of three markets in Gresham area. EBT purple tokens avai
 ### Hollywood Farmers Market
 
 - **Address:** NE Hancock St between NE 44th & NE 45th Ave, Portland, OR 97213
+- **Phone:** 503-709-7403
 - **Website:** https://www.hollywoodfarmersmarket.org
 - **Cost:** SNAP/EBT accepted with Double Up Food Bucks match up to $20. No surcharge for SNAP/EBT transactions
 - **Hours:** Year-round. April through December 19, 2026 every Saturday 8am-1pm. January-March 2027 2nd & 4th Saturdays only, 9am-1pm.
@@ -3891,7 +4151,8 @@ No-barriers Lake Oswego pantry offering free food, hygiene items, and household 
 
 ### Lake Oswego Farmers' Market
 
-- **Address:** Millennium Plaza Park, Lake Oswego, OR
+- **Address:** Millennium Plaza Park, 200 1st Street, Lake Oswego, OR 97034
+- **Phone:** 503-697-6517
 - **Website:** https://www.ci.oswego.or.us/lofm
 - **Cost:** FREE entry. SNAP/EBT accepted with matching program
 - **Schedule:** Saturdays 8:30am-1:30pm
@@ -3904,6 +4165,11 @@ May-October season. One of the best farmers' markets for SNAP users due to match
 **First visit:** SNAP matching booth usually near entrance
 
 **What to bring:** Oregon Trail Card/EBT for SNAP matching
+
+**Programs:**
+
+- **Reunion Farmers' Market:** 9am-2pm | FREE entry | Millennium Plaza Park, 200 1st Street, Lake Oswego, OR 97034
+  Thanksgiving-themed market with fall harvest vendors. The city's page for this day does not mention the SNAP match.
 
 **Features:** Fresh local produce, SNAP/EBT accepted, SNAP matching - doubles your EBT dollars, Holiday Market (November)
 
@@ -3944,12 +4210,12 @@ Shopping-style food pantry in NW/Downtown Portland near Goose Hollow MAX. Dignit
 - **Phone:** 503-953-8111
 - **Website:** https://mowp.org
 - **Cost:** $10 per meal - contribute what you can afford, no one turned away
-- **Schedule:** Lunches served Monday-Friday at most centers (days vary by center - call ahead)
+- **Schedule:** Lunch noon-1pm, 1-3 weekdays per center: Belmont Mon-Wed, Ambleside (Gresham) Tue-Thu, MLK Tue-Thu. Call 503-953-8111 to confirm
 - **Eligibility:** Adults 60+ regardless of income
 
 30+ dining centers operated by Meals on Wheels People
 
-**Tips:** For adults 60+ regardless of income. $10 per meal but contribute what you can afford. Lunches served weekdays at dining centers throughout the Portland metro. Social dining experience. Call ahead to confirm days and hours at a specific center; only the Belmont and Gresham centers surfaced in 2026 listings, so confirm MLK and St. Johns before a first visit.
+**Tips:** For adults 60+ regardless of income. $10 per meal but contribute what you can afford. Lunch is served noon-1pm on one to three weekdays per center (Belmont Monday-Wednesday, Ambleside in Gresham and MLK Tuesday-Thursday). Social dining experience. Call ahead to confirm days and hours; St. Johns has no page on mowp.org, so confirm it before a first visit.
 
 *Casual group · Indoor, Good for isolation, Low energy · For: Seniors (55+) · Wheelchair accessible, Near transit*
 
@@ -3989,6 +4255,11 @@ Sundays May-October in downtown Milwaukie. SNAP/EBT accepted with Double Up Food
 **First visit:** SNAP/EBT users go to Information booth for red tokens
 
 **What to bring:** EBT card, reusable bags
+
+**Programs:**
+
+- **Thanksgiving Market:** 9:30am-2pm | FREE to attend | SE Main St & Harrison St, Milwaukie, OR 97222
+  One-day market the Sunday before Thanksgiving, announced on the market's home page. The market's news post for it still carries a stale 'November 24th' in its body text.
 
 **Features:** 75+ vendors, SNAP tokens at info booth, Double Up Food Bucks matching
 
@@ -4107,7 +4378,7 @@ Community mutual aid project. Take what you need, leave what you can. Fridges cl
 - **Address:** South Park Blocks, SW Park Ave & SW Montgomery St, Portland, OR 97201
 - **Website:** https://www.portlandfarmersmarket.org/our-markets/psu/
 - **Cost:** FREE to attend; SNAP/EBT accepted with Double Up Food Bucks match up to $20 per visit. Exchange SNAP benefits for market tokens at the info booth; Double Up match applies to fruits and vegetables
-- **Hours:** Year-round Saturdays. April-October 8:30am-2pm; November-March 9am-2pm.
+- **Hours:** Year-round Saturdays. April-October 8:30am-2pm; November-March 9am-2pm. Closed Saturday, December 26, 2026.
 
 Year-round Saturday market on the PSU campus with full SNAP/EBT support and Double Up Food Bucks matching. Phone not published on the market page. Coordinates approximate - re-run geocode_addresses.py.
 
@@ -4122,7 +4393,9 @@ Year-round Saturday market on the PSU campus with full SNAP/EBT support and Doub
 **Programs:**
 
 - **Saturday Market (April-October):** Every Saturday 8:30am-2pm | FREE
-- **Saturday Market (November-March):** Every Saturday 9am-2pm | FREE
+- **Saturday Market (November-December):** Every Saturday 9am-2pm | FREE
+  Closed Saturday, December 26, 2026.
+- **Saturday Market (January-March):** Every Saturday 9am-2pm | FREE
 
 *Drop-in (come and go freely) · Outdoor, Good for isolation, Newcomer-friendly, Low energy, Family-friendly · Wheelchair accessible, Near transit*
 
@@ -4147,17 +4420,36 @@ Year-round Saturday market on the PSU campus with full SNAP/EBT support and Doub
 - **Phone:** 503-255-7611
 - **Website:** https://potluckinthepark.org/
 - **Cost:** FREE
-- **Schedule:** Every Sunday 3pm (ticketing begins at noon)
+- **Schedule:** Every Sunday noon-2:30pm
 
-Free Sunday hot meal at North Park Blocks. 34+ years serving 400-600 people weekly, rain or shine.
+Free Sunday hot meal at North Park Blocks. 34+ years serving 400-600 people weekly, rain or shine. The site says it partners with the Portland Art Museum each year on a free Christmas Day dinner; no 2026 date or time is posted yet.
 
 **What to know:** 34+ years running. Free hot meal every Sunday, rain or shine, all year. 400-600 people served weekly. Open to everyone — offers not just food but community and dignity. Great volunteer opportunity too.
 
-**First visit:** Arrive at North Park Blocks on NW Glisan. Ticketing starts at noon, meal served at 3pm.
+**First visit:** Arrive at North Park Blocks on NW Glisan. Meal service runs noon-2:30pm (setup starts at 11:30am).
 
 **Features:** Hot, healthy meal every Sunday, Rain or shine, 52 weeks a year, 400-600 people served weekly, Sense of community and dignity
 
 *Drop-in (come and go freely) · Indoor, Low energy, Good for isolation · Wheelchair accessible, Near transit*
+
+### Proper's Free Thanksgiving Dinner (Po'Shines Cafe De La Soul)
+
+- **Address:** Po'Shines Cafe De La Soul, 8139 N Denver Ave, Portland, OR 97217
+- **Website:** https://properpdx.org
+- **Cost:** FREE. Donations welcome.
+- **Hours:** 12 noon-4pm
+- **Schedule:** 12-4pm
+- **Dates:** November 26, 2026
+
+From the queue's Poshines lead. Date, time, and address come from the organizer's 2026 poster (posted October 22) and match Blanchet House's 2026 list.
+
+**What to know:** The 2026 poster does not say dine-in or to-go; the 2025 dinner was to-go boxes.
+
+**First visit:** A free Thanksgiving dinner open to everyone.
+
+**Registration:** None stated.
+
+*Drop-in (come and go freely) · Good for isolation*
 
 ### Rockwood Community Market
 
@@ -4425,18 +4717,18 @@ South metro food pantry serving Tualatin, Lake Oswego, West Linn, and North Wils
 
 ### Union Gospel Mission Portland (Free Meals)
 
-- **Address:** 3 NW 3rd Ave, Portland, OR 97209
+- **Address:** 15 NW 3rd Ave, Portland, OR 97209
 - **Phone:** 503-274-4483
 - **Website:** https://www.ugmportland.org/
 - **Cost:** FREE
-- **Hours:** Breakfast 6:30-7:30am, lunch 11:30am-12:30pm, dinner 5-6pm daily (per a directory listing - confirm by phone)
-- **Eligibility:** Open to people experiencing homelessness or hunger
+- **Hours:** To-go meals Wednesday-Friday at 2pm and 8pm and Saturday at 11am; no meal service Sunday-Tuesday; all meals while supplies last. Clothing Wednesday-Friday 4pm and Saturday 10am; Wednesday chapel 1pm.
+- **Eligibility:** Open to anyone in need
 
-Long-running Old Town mission serving three free meals a day. Meal times not yet confirmed on the official site.
+Long-running Old Town mission serving free to-go meals Wednesday through Saturday. The mission's site posts no Thanksgiving or Christmas plans yet; Blanchet House's 2026 list shows a Thanksgiving meal on November 26, 10am-12pm, which the mission has not confirmed.
 
-**What to know:** Faith-based mission. The meal times above come from a third-party directory, not the mission's own site - call 503-274-4483 to confirm before making the trip.
+**What to know:** Faith-based mission. Meal and clothing times come from the mission's own Meals + Clothing page (checked 2026-10-25) and can change; call 503-274-4483 to confirm before making the trip.
 
-**First visit:** Old Town at NW 3rd and Burnside; arrive a few minutes before the meal window
+**First visit:** Meals are to-go at 15 NW 3rd Ave in Old Town; arrive a few minutes before the meal time
 
 **Registration:** None
 
@@ -4564,7 +4856,7 @@ Longest-running free jazz/blues festival west of the Mississippi. All-volunteer 
 - **Cost:** FREE viewing from any riverfront
 - **Dates:** December 3-20, 2026
 
-15 nights of decorated boats on the rivers. Meet the Skippers at RiverPlace Marina dock Saturday December 19 8-10pm and Sunday December 20 2-4:30pm.
+15 nights of decorated boats on the rivers. Meet & Greet at RiverPlace Marina dock Saturday December 19 8-10pm and Sunday December 20 2-4:30pm.
 
 **What to know:** 15 nights of decorated boats parading on the Columbia and Willamette Rivers. Free to view from any riverfront location. Fleet visits different areas each night - check schedule. Restaurants along the river offer viewing with dinner. Magical Portland holiday tradition.
 
@@ -4598,6 +4890,26 @@ Carnival, PRCA rodeo, livestock, multiple entertainment stages
 *Drop-in (come and go freely) · Outdoor, Family-friendly · Wheelchair accessible*
 
 **Accessibility:** Fairgrounds are paved and generally accessible. Wheelchair rentals may be available.
+
+### Community Services Network Fall Community Health Fair
+
+- **Address:** IRCO Sokhom Tauch Center, 10323 NE Glisan St, Portland, OR 97220
+- **Phone:** 503-468-5570
+- **Website:** https://www.csnpdx.org/community-resource-fairs/fall-community-health-fair
+- **Cost:** FREE
+- **Hours:** 11am-2pm
+- **Schedule:** 11am-2pm
+- **Dates:** November 7, 2026
+
+Added in the October 2026 discovery sweep. CSN lists no 2026 winter preparedness fair or coat giveaway yet.
+
+**What to know:** Hosted by Community Services Network with IRCO and the Coalition of Community Health Clinics.
+
+**First visit:** A free event for the whole family with health and wellness resources and screenings, nonprofit resources, bill discount program information, winter preparedness resources, and lunch.
+
+**Registration:** None stated for attendees.
+
+*Drop-in (come and go freely) · Newcomer-friendly, Family-friendly, Indoor*
 
 ### Concerts in the Valley (Happy Valley)
 
@@ -4644,24 +4956,82 @@ Annual intertribal powwow since 1970. Free admission. Draws participants from ac
 
 ### Día de los Muertos (Gresham)
 
-- **Address:** Gresham Arts Plaza, 401 NE 2nd St, Gresham, OR
-- **Website:** https://greshamoregon.gov/
-- **Cost:** FREE
-- **Hours:** 4-8pm (2025)
+- **Address:** Futbarrio, 2919 NW Division St, Gresham, OR 97030
+- **Phone:** (503) 489-7603
+- **Website:** https://www.spiritofgresham.org/events-1/dia-de-lps-muertos
+- **Cost:** No admission price is listed; free champurado while supplies last
+- **Hours:** 9am-5pm (live music and dance 11am-1pm)
+- **Schedule:** 9am-5pm
+- **Dates:** November 1, 2026
 
-The 2024 and 2025 editions ran on November 1 (2025 was a Saturday, 4-8pm, at the Arts Plaza, hosted by Spirit of Gresham). No 2026 listing exists yet, so the entry is directory-only; the calendar will not roll last year's date forward.
+2026 is Sunday, November 1, 9am-5pm at Futbarrio on NW Division St, hosted by the Center for the Arts Foundation with Spirit of Gresham. Earlier editions (2024 and 2025) ran at the Gresham Arts Plaza, 4-8pm in 2025.
 
-**What to know:** Free celebration of Mexican tradition honoring departed loved ones. Community ofrenda (altar), traditional food, music, sugar skull decorating. All welcome to participate and learn about this meaningful cultural celebration.
+**What to know:** Celebration of Mexican tradition honoring departed loved ones. Community ofrenda (bring photos and offerings), live music and dance 11am-1pm, open futsal play, free champurado while supplies last, and a costume contest. All welcome.
 
-**First visit:** Located at Gresham Arts Plaza downtown
+**First visit:** At Futbarrio on NW Division St in Gresham; the 2026 event is not at the Arts Plaza
 
-**Registration:** None - free admission
+**Registration:** None
 
 **What to bring:** Photos of loved ones to add to community ofrenda if desired, cash for food
 
-*Drop-in (come and go freely) · Outdoor, Family-friendly, Grief support · Wheelchair accessible, Near transit*
+*Drop-in (come and go freely) · Outdoor, Family-friendly, Grief support*
 
-**Accessibility:** Downtown Gresham location near MAX Blue Line. Accessible plaza.
+**Accessibility:** Futbarrio is on NW Division St in Gresham. Accessibility and transit have not been confirmed for this venue.
+
+### Elsie Stuhr Holiday Bazaar (THPRD)
+
+- **Address:** Elsie Stuhr Center, 5550 SW Hall Blvd, Beaverton, OR 97005
+- **Website:** https://www.tualatinhillsparks.org/Calendar.aspx?EID=18036
+- **Cost:** FREE admission
+- **Hours:** 9am-3pm
+- **Schedule:** 9am-3pm
+- **Dates:** December 5, 2026
+
+Added in the October 2026 discovery sweep. The elsie-stuhr-center entry is the place listing.
+
+**First visit:** 80+ local art and craft vendors, holiday music, prizes, and food trucks.
+
+**Registration:** None.
+
+*Drop-in (come and go freely) · Indoor*
+
+### Fairview Annual Tree Lighting
+
+- **Address:** Fairview City Hall & Community Park, 1300 NE Village St, Fairview, OR 97024
+- **Phone:** 503-665-7929
+- **Website:** https://www.fairvieworegon.gov/calendar.aspx?EID=2763
+- **Cost:** FREE. The city calendar lists the cost as free.
+- **Hours:** 6-7:30pm
+- **Schedule:** 6-7:30pm
+- **Dates:** December 4, 2026
+
+Added in the October 2026 discovery sweep.
+
+**What to know:** The city's static page says the tree lights at 7:30pm; the calendar lists 6-7:30pm. The calendar's zip code (97204) looks like a typo for 97024.
+
+**First visit:** Small-town tree lighting with crafts, prizes, holiday music, and refreshments.
+
+**Registration:** None.
+
+*Drop-in (come and go freely) · Outdoor, Family-friendly*
+
+### Fiesta del Dia de Muertos (Kenton Library)
+
+- **Address:** Kenton Library, 8226 N Denver Ave, Portland, OR 97217
+- **Phone:** 503-988-5123
+- **Website:** https://multcolib.org/events-classes/fiesta-del-dia-de-muertos
+- **Cost:** FREE. The page says it is completely free and no registration is required.
+- **Hours:** 3:30-5pm
+- **Schedule:** 3:30-5pm
+- **Dates:** November 2, 2026
+
+Added in the October 2026 discovery sweep.
+
+**First visit:** Stories and crafts for Dia de Muertos, led in Spanglish.
+
+**Registration:** None.
+
+*Drop-in (come and go freely) · Creative, Family-friendly, Indoor*
 
 ### First Thursday Art Walk
 
@@ -4685,6 +5055,24 @@ Indoor gallery openings happen year-round; the outdoor Street Gallery runs April
 
 **Accessibility:** Most Pearl District galleries are street-level accessible. Check individual galleries for specifics.
 
+### Forest Grove Holiday Tree Lighting
+
+- **Address:** Pacific University campus, tree at College Way and 21st Ave, 2043 College Way, Forest Grove, OR 97116
+- **Phone:** 503-357-3006
+- **Website:** https://fgcchamber.org/fg-holiday-tree-lighting/
+- **Cost:** No admission is mentioned
+- **Hours:** 6-7:30pm
+- **Schedule:** 6-7:30pm
+- **Dates:** November 27, 2026
+
+Added in the October 2026 discovery sweep.
+
+**First visit:** The tree is lit at 6pm, then everyone heads into Washburne Hall for cookies, Santa, crafts, and caroling. Rain or dry.
+
+**Registration:** None.
+
+*Drop-in (come and go freely) · Outdoor, Family-friendly*
+
 ### Good in the Hood Multicultural Festival
 
 - **Address:** Lillis-Albina Park, 2451 N Flint Ave, Portland, OR 97227
@@ -4704,6 +5092,23 @@ Portland's longest-running multicultural festival celebrating diverse communitie
 **What to bring:** Sunscreen, lawn chair or blanket, cash for vendors
 
 *Casual group · Good for isolation, Family-friendly, Outdoor, Creative · Wheelchair accessible, Near transit*
+
+### Great Figgy Pudding Caroling Competition
+
+- **Address:** Pioneer Courthouse Square, 701 SW 6th Ave, Portland, OR 97204
+- **Website:** https://www.thesquarepdx.org/event/12th-annual-great-figgy-pudding-caroling-competition/
+- **Cost:** FREE. The page calls it a free event for the public.
+- **Hours:** 6-8pm; caroling groups perform across a ten-block area, and the top groups carol off at the Square
+- **Schedule:** 6-8pm
+- **Dates:** December 18, 2026
+
+Added in the October 2026 discovery sweep.
+
+**First visit:** Walk the blocks around the Square to hear the caroling groups and vote for your favorite.
+
+**Registration:** None to watch; groups register to perform.
+
+*Drop-in (come and go freely) · Outdoor, Creative · Near transit*
 
 ### Gresham Arts Festival
 
@@ -4820,11 +5225,13 @@ Independence Day hike at 9:30am, parade at noon. Beer garden, carnival rides (wr
 - **Address:** 16000 SE Misty Dr, Happy Valley, OR
 - **Website:** https://www.happyvalleyor.gov/services/hv-community-events/tree-lighting-ceremony/
 - **Cost:** FREE
+- **Hours:** 4-6pm
+- **Schedule:** 4-6pm
 - **Dates:** December 6, 2026
 
-Date estimated based on typical first-Sunday-of-December pattern; confirm closer to event.
+Sunday, December 6, 4-6pm at Happy Valley City Hall, per the city's 2026 page (the weekday and date match 2026). The page says more details are coming; the lighting time itself is not posted.
 
-**What to know:** Free community tree lighting ceremony to kick off the holiday season. Hot cocoa, caroling, Santa visit. Family-friendly neighborhood celebration.
+**What to know:** Free community tree lighting ceremony to kick off the holiday season. Hot cocoa, Santa, live entertainment, and kids' activities. Family-friendly neighborhood celebration.
 
 **First visit:** Located at Happy Valley City Hall area
 
@@ -4857,6 +5264,24 @@ Added in the October 2026 events sweep from the September queue. Held the Saturd
 **What to bring:** Warm layers.
 
 *Drop-in (come and go freely) · Outdoor, Family-friendly, Good for isolation, Newcomer-friendly*
+
+### Holiday Cheer at the Oregon Historical Society
+
+- **Address:** Oregon Historical Society, 1200 SW Park Ave, Portland, OR 97205
+- **Phone:** 503-222-1741
+- **Website:** https://www.ohs.org/events/holiday-cheer.cfm
+- **Cost:** FREE. The page says free and open to the public.
+- **Hours:** 12-4pm
+- **Schedule:** 12-4pm
+- **Dates:** December 6, 2026
+
+Added in the October 2026 discovery sweep. The oregon-historical-society entry is the place listing.
+
+**First visit:** The 57th annual celebration of Oregon authors, with signed-book sales, hot cocoa, and the Meier & Frank Santaland display.
+
+**Registration:** None listed.
+
+*Drop-in (come and go freely) · Indoor, Family-friendly · Wheelchair accessible*
 
 ### India Festival
 
@@ -4918,6 +5343,27 @@ Free outdoor concert series with local musicians.
 
 *Casual group · Outdoor, Family-friendly, Anxiety-friendly · Wheelchair accessible*
 
+### Lake Oswego Tree Lighting Festival
+
+- **Address:** Millennium Plaza Park, 200 1st Street, Lake Oswego, OR 97034
+- **Website:** https://www.ci.oswego.or.us/parksrec/62nd-annual-tree-lighting-festival
+- **Cost:** FREE. The festival page states no price; the city's events page lists its tree lighting among its free, public events. Holiday Marketplace and winery purchases are extra.
+- **Hours:** 3-7pm; Millennium Tree Lighting Ceremony at 5:30pm
+- **Schedule:** 3-7pm
+- **Dates:** November 27, 2026
+
+Added in the October 2026 audit and discovery sweep from a queue lead; the city's event page posts the 2026 date.
+
+**What to know:** The city's 62nd annual festival, presented with the Lake Oswego Chamber of Commerce: holiday marketplace, photos with Santa, reindeer, letters to Santa with the Lake Oswego Police Department, school show choirs, and the Millennium Concert Band. A local winery row means alcohol is on site.
+
+**First visit:** Come in the afternoon for a calmer visit; the 5:30pm tree lighting is the busiest moment.
+
+**Registration:** None.
+
+**What to bring:** Warm layers.
+
+*Drop-in (come and go freely) · Outdoor, Family-friendly, Good for isolation*
+
 ### Last Thursday on Alberta
 
 - **Address:** NE Alberta Street, 15th-30th Ave, Portland
@@ -4939,6 +5385,41 @@ Since 1997. 29 years of community-driven arts. Year-round gallery openings indoo
 *Drop-in (come and go freely) · Outdoor, Creative, Good for isolation, Newcomer-friendly · Near transit*
 
 **Accessibility:** Alberta St is flat and walkable. Bus 72 serves the area. Summer street closures improve pedestrian accessibility.
+
+### Light Up the Night (Canby)
+
+- **Address:** Wait Park, Canby, OR 97013
+- **Phone:** 503-266-7001
+- **Website:** https://www.canbyoregon.gov/events/page/light-night
+- **Cost:** No admission is mentioned (public parade)
+- **Hours:** Parade starts 6pm and ends at Wait Park about 6:30pm with Santa
+- **Dates:** December 4, 2026
+
+Added in the October 2026 discovery sweep; the 25th annual event.
+
+**First visit:** A lighted parade through downtown Canby ending at Wait Park, where children can chat with Santa.
+
+**Registration:** None for spectators.
+
+*Drop-in (come and go freely) · Outdoor, Family-friendly*
+
+### Made & Found Market (Lovett Deconstruction)
+
+- **Address:** Lovett Deconstruction and Salvage Shop, 4315 NW Saint Helens Rd, Portland, OR 97210
+- **Phone:** 503-206-7919
+- **Website:** https://www.lovettdeconstruction.com/lovett-events-calendar/2026/11/21/made-found-2026
+- **Cost:** FREE entry and parking. Free entry and parking is stated on the City of Portland listing; the organizer's page does not mention cost.
+- **Hours:** 10am-4pm both days
+- **Schedule:** 10am-4pm
+- **Dates:** November 21-22, 2026
+
+Added in the October 2026 discovery sweep.
+
+**First visit:** A holiday market of 30+ vendors selling secondhand and upcycled goods, with food trucks.
+
+**Registration:** None.
+
+*Drop-in (come and go freely) · Indoor*
 
 ### Marianas Festival
 
@@ -4982,6 +5463,77 @@ Monthly arts and community event May-October on Historic Milwaukie Main Street. 
 
 **Accessibility:** Downtown Milwaukie near Orange Line MAX station
 
+### Milwaukie Umbrella Parade & Tree Lighting
+
+- **Address:** Historic Milwaukie City Hall, 10722 SE Main St, Milwaukie, OR 97222
+- **Phone:** 503-786-7519
+- **Website:** https://www.milwaukieoregon.gov/community/events/umbrella_parade_tree_lighting.php
+- **Cost:** FREE. No fee is mentioned; free treats, hot chocolate, and cider from Keeper Coffee.
+- **Hours:** Contest check-in by 4:15pm; parade at 4:30pm; umbrella winners about 5:30pm, then the tree is lit; ends 6pm
+- **Schedule:** 4:30-6pm
+- **Dates:** December 5, 2026
+
+Added in the October 2026 audit and discovery sweep. The separate Milwaukie Lights Walk has no 2026-27 season posted yet.
+
+**What to know:** Main St closes from Washington St south to 21st Ave for staging from noon. Watching from the sidewalk is as welcome as marching.
+
+**First visit:** The parade gathers at South Downtown Plaza near the Post Office, 11222 SE Main St, and walks four blocks north on Main St to Historic City Hall, where the tree is lit.
+
+**Registration:** None. No pre-registration is required, even to join the parade.
+
+**What to bring:** An umbrella to decorate (optional) and warm layers.
+
+*Drop-in (come and go freely) · Outdoor, Family-friendly, Good for isolation · Near transit*
+
+### Multnomah County Library - Native American Heritage Month Programs
+
+- **Phone:** 503-988-5123
+- **Website:** https://multcolib.org/events-classes
+- **Cost:** No fee is listed on the event pages (public library programs). The pages never use the word free; all are public library programs.
+- **Eligibility:** Open to all. For disability accommodations, call 503-988-5123 or email help@multcolib.org two to three days before a program.
+
+Added in the October 2026 discovery sweep; the database had no Multnomah County Library umbrella entry. Adult and all-ages sessions only, as listed on 2026-10-25.
+
+**What to know:** Children-only story hours are left out of this list. Sessions can be cancelled; check multcolib.org/events-classes before you go.
+
+**First visit:** Pick a branch near you. Most sessions are drop-in; the beaded earrings classes have limited, registered seats.
+
+**Registration:** None for most sessions; the beaded earrings classes show a Register link, and the PANCF sessions are first come, first served.
+
+**Programs:**
+
+- **NAHM: Traditional Native Games & Storytelling (St. Johns):** 12-1:15pm | No fee listed | St. Johns Library, 7510 N Charleston Ave, Portland, OR 97203
+- **NAHM: Traditional Native Games & Storytelling (Central):** 2-3:15pm | No fee listed | Central Library, 801 SW 10th Ave, Portland, OR 97205
+- **NAHM: Basic Brick Stitch Beaded Earrings (Capitol Hill):** 2-4pm | No fee listed | Capitol Hill Library, 10723 SW Capitol Hwy, Portland, OR 97219
+  Registration link on the event page; space is limited.
+- **NAHM: Beginner Beaded Earrings (Midland):** 5-7:30pm | No fee listed | Midland Library, 805 SE 122nd Ave, Portland, OR 97233
+  Registration link on the event page; space is limited.
+- **NAHM: Beginner Beaded Earrings (Troutdale):** 11am-1pm | No fee listed | Troutdale Library, 2451 SW Cherry Park Rd, Troutdale, OR 97060
+  Registration link on the event page; space is limited.
+- **NAHM: Celebrating Native Stories with Karen Kitchen (East County):** 2-3pm | No fee listed | East County Library, 475 NW Division St, Gresham, OR 97030
+- **NAHM: 2S/Indigiqueer Crafts (Hollywood):** 3-4pm | No fee listed | Hollywood Library, 4040 NE Tillamook St, Portland, OR 97212
+  For adults and teens 16+ who identify as Two-Spirit or LGBTQ+, and allies; meets the second Saturday monthly except December and January.
+- **NAHM: Native Stories and Traditional Native Games (East County):** 3:30-4:30pm | No fee listed | East County Library, 475 NW Division St, Gresham, OR 97030
+- **NAHM: Cultural Knowledge Preservation and Sharing (Wisdom of the Elders) (Belmont):** 12:30-2:30pm | No fee listed | Belmont Library, 1038 SE Cesar E. Chavez Blvd, Portland, OR 97214
+- **NAHM: Brick Stitch Beaded Earrings (Capitol Hill):** 2-4pm | No fee listed | Capitol Hill Library, 10723 SW Capitol Hwy, Portland, OR 97219
+  Registration link on the event page; space is limited.
+- **NAHM: Indigenous Storytelling with Karen Kitchen (Northwest):** 3-4:30pm | No fee listed | Northwest Library, 2030 NW Pettygrove St, Portland, OR 97209
+  Intended for all audiences.
+- **NAHM: Beading with PANCF (Belmont):** 3-5pm | No fee listed | Belmont Library, 1038 SE Cesar E. Chavez Blvd, Portland, OR 97214
+  First come, first served; space is limited.
+- **NAHM: Beginner Beaded Earrings (North Portland):** 4-6:30pm | No fee listed | North Portland Library, 512 N Killingsworth St, Portland, OR 97217
+  Registration link on the event page; space is limited.
+- **NAHM: Walking in Beauty (participatory art) (Albina):** 10:30am-12pm | No fee listed | Albina Library, 205 NE Russell St, Portland, OR 97212
+- **NAHM: Weaving with PANCF (Rockwood):** 2-4pm | No fee listed | Rockwood Library, 17917 SE Stark St, Portland, OR 97233
+  First come, first served; space is limited.
+- **NAHM: Removal of the Tribes with Dr. David Lewis (Hollywood):** 3-4pm | No fee listed | Hollywood Library, 4040 NE Tillamook St, Portland, OR 97212
+- **NAHM: Native Wisdom screening with Tim Burgess (East County):** 4-5:40pm | No fee listed | East County Library, 475 NW Division St, Gresham, OR 97030
+  Suitable for teenagers and older.
+- **NAHM: Regalia Repair (Holgate):** 3-5pm | No fee listed | Holgate Library, 7905 SE Holgate Blvd, Portland, OR 97206
+  Drop-in; no sign-up or registration needed.
+
+*Casual group · Creative, Indoor, Good for isolation · Varies*
+
 ### Multnomah Days Festival & Parade
 
 - **Address:** SW Capitol Hwy & SW 35th Ave, Portland, OR 97219
@@ -5004,6 +5556,23 @@ Annual Multnomah Village street festival and parade, organised by the Multnomah 
 *Drop-in (come and go freely) · Outdoor, Family-friendly, Newcomer-friendly, Good for isolation · Wheelchair accessible, Near transit*
 
 **Accessibility:** Street-level festival on closed roads. Crowds can be dense midday.
+
+### NARA NW Native American New Year's Eve Sobriety Powwow
+
+- **Address:** Oregon Convention Center, Halls A-A1, 777 NE Martin Luther King Jr. Blvd, Portland, OR 97232
+- **Phone:** 503-224-1044
+- **Website:** https://www.oregoncc.org/attend/events/2026/12/native-american-new-years-eve-pow-wow-2026
+- **Cost:** Cost is not stated on the 2026 listing
+- **Hours:** 1pm to midnight
+- **Dates:** December 31, 2026
+
+Added in the October 2026 discovery sweep. Venue and date come from the Oregon Convention Center's event listing; the host is NARA NW (503-224-1044).
+
+**First visit:** One of the largest sober New Year's celebrations in the country, with dancers in regalia. Alcohol-free.
+
+**Registration:** None stated.
+
+*Drop-in (come and go freely) · Good for isolation, Indoor, Family-friendly*
 
 ### Noon Tunes at Pioneer Courthouse Square
 
@@ -5051,16 +5620,16 @@ Japanese Buddhist festival, all welcome. Free dance practices held beforehand; n
 ### Oregon City Holiday Tree Lighting
 
 - **Address:** Liberty Plaza, 800 Main St, Oregon City, OR 97045
-- **Website:** https://downtownoregoncity.org/event/holiday-tree-lighting-2026/
+- **Website:** https://downtownoregoncity.org/event/holiday-tree-lighting
 - **Cost:** FREE
-- **Hours:** 5-7pm
-- **Schedule:** 5-7pm
+- **Hours:** 5-6:30pm
+- **Schedule:** 5-6:30pm
 - **Dates:** December 5, 2026
 - **Transit:** Oregon City Transit Center (TriMet 32, 33, 99), short walk
 
 Added in the October 2026 events sweep from the September queue. Sources disagree on the plaza address (800, 813, or 814 Main St); all point to Liberty Plaza.
 
-**What to know:** Downtown Oregon City Association event with live music, Santa, and holiday vendors. FolkTime's Oregon City connection center is nearby.
+**What to know:** Downtown Oregon City Association event; the organizer's page says more details are coming. FolkTime's Oregon City connection center is nearby.
 
 **First visit:** A short walk from the Oregon City Transit Center.
 
@@ -5114,15 +5683,15 @@ Annual Nordic solstice celebration at Nordic Northwest Campus.
 - **Address:** Oregon Zoo, 4001 SW Canyon Rd, Portland, OR 97221
 - **Phone:** 503-226-1561
 - **Website:** https://www.oregonzoo.org/lights
-- **Cost:** $13-$35 adults, $13-$30 youth depending on the night; Value Nights are the cheapest and are marked on the ZooLights calendar. 10% off tickets bought by September 22, 2026. No other discounts apply on Value Nights. Ask whether the zoo's $13 income-qualified tickets apply.
-- **Hours:** Evenings; nightly hours posted on the ZooLights calendar
-- **Dates:** November 20 - December 31, 2026, January 1-3, 2027
+- **Cost:** $13-$35 adults, $13-$30 youth depending on the night; prices and times vary throughout the season. Income-assistance tickets are $13 each.. Members get 20% off regular tickets, with no additional discounts on Value Nights. Income-assistance tickets are $13 each, up to four per household, with an Oregon Trail card, Washington Quest card, OHP/Apple Health, WIC eWIC card, or TANF. Reserve them through the ZooLights income-assistance link on oregonzoo.org/discounts and bring proof of benefits and residency. A ZooLights ticket is also a TriMet and Streetcar fare to and from the zoo on your admission date.
+- **Hours:** Opens nightly at 4:30pm; closing time varies by night (see the ticket calendar). Closed November 24-26 and December 25, 2026. January 1-2 are 21+ only nights.
+- **Dates:** November 20-23, 2026, November 27 - December 24, 2026, December 26-31, 2026, January 1-3, 2027
 
-Annual holiday light display at the Oregon Zoo, November 20, 2026 through January 3, 2027. Not free, but Value Nights start at $13.
+Annual holiday light display at the Oregon Zoo, November 20, 2026 through January 3, 2027 (closed November 24-26 and December 25). Not free; the lowest ticket price is $13 (income-assistance tickets, up to four per household).
 
-**What to know:** Take MAX to Washington Park station (elevator to the surface) to avoid parking fees. Weekend and holiday-week nights are packed.
+**What to know:** Take MAX to Washington Park station (elevator to the surface) to avoid parking fees. Weekend and holiday-week nights are packed. Your ZooLights ticket works as your TriMet fare to and from the zoo on your admission date.
 
-**First visit:** Pick a weeknight Value Night for the lowest price and thinner crowds; buy timed tickets online
+**First visit:** Check the ticket calendar for the cheapest nights and thinner crowds; buy timed tickets online
 
 **Registration:** Timed tickets required
 
@@ -5137,12 +5706,12 @@ Annual holiday light display at the Oregon Zoo, November 20, 2026 through Januar
 - **Address:** SE Peacock Lane between SE Belmont St & SE Stark St, Portland, OR 97214
 - **Website:** https://www.peacocklane.org/
 - **Cost:** FREE (free cocoa booth from 6pm, December 15-24, 2026, while supplies last)
-- **Hours:** 6-10pm nightly, December 15-31, 2026 (the site also shows 11pm in one place)
+- **Hours:** 6-10pm nightly, December 15-31, 2026
 - **Schedule:** 6-10pm
 - **Dates:** December 15-31, 2026
 - **Transit:** TriMet recommended - no official parking
 
-Since 1932. The homepage announces the 2026 season (lights December 15-31, 6pm; pedestrian-only nights December 15-16). The FAQ page still shows 2025.
+Since 1932. The homepage and FAQ both show the 2026 season - lights December 15-31, 6-10pm; pedestrian-only nights December 15-16; free cocoa booth December 15-24 from 6pm. One homepage line says 11pm for opening night, but the header, Quick Facts, and FAQ all say 10pm.
 
 **What to know:** Historic Tudor homes have hosted this volunteer-run tradition since 1932. Take TriMet—there is no official parking.
 
@@ -5154,7 +5723,7 @@ Since 1932. The homepage announces the 2026 season (lights December 15-31, 6pm; 
 
 *Drop-in (come and go freely) · Outdoor, Family-friendly, Anxiety-friendly · Near transit*
 
-**Accessibility:** Flat residential street, walkable. Can also drive through slowly on non-pedestrian nights.
+**Accessibility:** Flat residential street, walkable. The FAQ says driving the lane is permitted December 18-31 for people with mobility issues.
 
 ### Pedalpalooza / Bike Summer
 
@@ -5222,10 +5791,10 @@ Annual Scottish cultural festival at Washington County Fairgrounds.
 - **Address:** 100 SE Alder St, Portland, OR 97214
 - **Website:** https://www.pdxnm.com/
 - **Cost:** FREE admission, all ages. Optional $10 fast pass to skip the entry line; food and vendor purchases extra
-- **Hours:** Typically 4-11pm each night
-- **Dates:** October 2-3, 2026, December 3-6, 2026
+- **Hours:** Friday and Saturday nights 4-11pm; hours for Thursday December 3 and Sunday December 6 are not posted
+- **Dates:** October 2-3, 2026, December 3-6, 2026, December 18-19, 2026
 
-Free quarterly market with 175+ local vendors and food. Fall/winter 2026 dates from a secondary listing - the December days and nightly hours should be confirmed on pdxnm.com.
+Free market with 175+ local vendors and food. pdxnm.com lists October 2-3, December 3-6, and December 18-19 with no year printed, but its Friday and Saturday weekdays fit 2026. Thursday and Sunday hours are not posted.
 
 **What to know:** Very crowded and loud with long entry lines later in the evening - not a low-pressure setting. Under the Morrison Bridge; buses 6 and 15 on SE Grand/MLK and the Streetcar A/B Loop are close.
 
@@ -5334,12 +5903,13 @@ One of largest donation-based LGBTQIA2S+ Pride events on west coast. Moved from 
 ### Portland Saturday Market
 
 - **Address:** 2 SW Naito Pkwy, Portland, OR 97204
+- **Phone:** (503) 222-6072
 - **Website:** https://portlandsaturdaymarket.com/
 - **Cost:** FREE admission
 
 Largest continuously operating outdoor arts market in the U.S., 250+ vendors
 
-**What to know:** Largest continuously operating outdoor arts market in the U.S. 250+ vendors selling handmade crafts, art, and food. Live music at 11am and 2pm. Free to browse - no pressure to buy. Great people-watching and local culture experience.
+**What to know:** Largest continuously operating outdoor arts market in the U.S. 250+ vendors selling handmade crafts, art, and food. Live music most Saturdays. Free to browse - no pressure to buy. Great people-watching and local culture experience.
 
 **First visit:** Enter from Waterfront Park - market stretches under Burnside Bridge
 
@@ -5350,7 +5920,7 @@ Largest continuously operating outdoor arts market in the U.S., 250+ vendors
 **Programs:**
 
 - **Saturday Market:** Saturdays 10am-5pm | FREE
-  March 7 through December 19, 2026; live music at 11am and 2pm
+  March 7 through December 19, 2026 (no Sunday market); live music most Saturdays
 
 *Drop-in (come and go freely) · Outdoor, Creative, Family-friendly, Newcomer-friendly · Wheelchair accessible, Near transit*
 
@@ -5390,9 +5960,9 @@ Free car-free street events for biking, walking, and rolling. Four events May-Se
 - **Cost:** FREE
 - **Dates:** November 27, 2026 (day after Thanksgiving), 5:30-6:45pm
 
-Since 1984. Pink Martini sing-along, about 10,000 lights. 2026 is the 42nd annual. Tree size and donor for 2026 not yet published.
+Since 1984. Pink Martini sing-along, nearly 10,000 lights. 2026 is the 42nd annual. The Square lists the Stimson Lumber Tree Arrival on November 10, 2026, 11am-12:30pm; the 2026 tree size is not published.
 
-**What to know:** Since 1984 - Portland's official holiday kickoff. 75-foot tree with 10,000 lights. Pink Martini sing-along tradition. Arrives day after Thanksgiving. Right at MAX lines - easy transit access.
+**What to know:** Since 1984 - Portland's official holiday kickoff. Nearly 10,000 lights. Pink Martini sing-along tradition. Arrives day after Thanksgiving. Right at MAX lines - easy transit access.
 
 **First visit:** Arrive early for best viewing spot on the square's brick steps
 
@@ -5403,6 +5973,22 @@ Since 1984. Pink Martini sing-along, about 10,000 lights. 2026 is the 42nd annua
 *Drop-in (come and go freely) · Outdoor, Family-friendly, Newcomer-friendly · Wheelchair accessible, Near transit*
 
 **Accessibility:** Pioneer Courthouse Square is ADA accessible. Accessible viewing areas available.
+
+### Portland Veterans Day Parade and Resource Fair
+
+- **Address:** Parade on MLK Blvd from NE Beech St to NE Emerson St, Portland; ceremony and fair at Walnut Park, 5305 NE Martin Luther King Jr. Blvd, Portland, OR 97211
+- **Website:** https://veteransdayportland.org
+- **Cost:** No admission is listed (public parade)
+- **Hours:** Parade starts at 10am; the closing ceremony and Vendor and Resource Fair follow immediately
+- **Dates:** November 11, 2026
+
+Added in the October 2026 discovery sweep. The parade was cancelled in 2025 and returns in 2026.
+
+**First visit:** Watch from the sidewalk along MLK Blvd. The Vendor and Resource Fair is in the Walnut Park parking lot after the parade.
+
+**Registration:** None for spectators.
+
+*Drop-in (come and go freely) · Outdoor, Newcomer-friendly · Near transit*
 
 ### Portland Winter Light Festival
 
@@ -5423,6 +6009,43 @@ Portland's annual winter light art festival. Free citywide event with installati
 **What to bring:** Warm clothing - this is an outdoor winter event
 
 *Do alone · Anxiety-friendly, Creative, Outdoor, Family-friendly · Wheelchair accessible, Near transit*
+
+### Safe Trick or Treat (Gresham)
+
+- **Address:** Historic downtown Gresham, N Main Ave, Gresham, OR 97030
+- **Website:** https://www.greshamoregon.gov/events/2026/community-events/safe-trick-or-treat/
+- **Cost:** FREE
+- **Hours:** 4-6pm, rain or shine
+- **Schedule:** 4-6pm
+- **Dates:** October 31, 2026
+
+Added in the October 2026 discovery sweep. Mostly for youth and families.
+
+**First visit:** A kid-focused Halloween event along Main Ave; teal pumpkins mark allergy-friendly stops.
+
+**Registration:** None.
+
+*Drop-in (come and go freely) · Outdoor, Family-friendly*
+
+### Spirit of Christmas (Gresham)
+
+- **Address:** Historic downtown Gresham, N Main Ave, Gresham, OR 97030
+- **Phone:** 503-489-7603
+- **Website:** https://www.greshamoregon.gov/events/2026/community-events/spirit-of-christmas/
+- **Cost:** FREE street event. Free photos with Santa and free treats are listed; the breakfast price is not stated.
+- **Hours:** 8am-9pm: breakfast 8-11am at the Little Theater; market and activities 9am-4pm; parade of lights 5pm; tree lighting 6:15pm at the Arts Plaza; free photos with Santa 6:30pm
+- **Schedule:** 8am-9pm
+- **Dates:** December 5, 2026
+
+Added in the October 2026 discovery sweep.
+
+**What to know:** Presented by the Center for the Arts Foundation. Little Theater is at 333 N Main Ave.
+
+**First visit:** Come for the afternoon market, or arrive by 5pm for the parade of lights and tree lighting at the Arts Plaza.
+
+**Registration:** None for attendees; cars in the parade must register.
+
+*Drop-in (come and go freely) · Outdoor, Family-friendly, Newcomer-friendly*
 
 ### Spring Garden Fair
 
@@ -5468,6 +6091,24 @@ Free parking. Festival includes classes, food carts, live music on Sat/Sun, Sund
 
 **Accessibility:** Gravel paths between rows. Some areas may be uneven. Call ahead for accessibility needs.
 
+### Troutdale Windy Wonderland & Tree Lighting
+
+- **Address:** The Troutdale House, 411 E Historic Columbia River Hwy, Troutdale, OR 97060 (tree lighting at Mayors Square, 114 E Historic Columbia River Hwy)
+- **Phone:** 503-665-5175
+- **Website:** https://www.troutdaleoregon.gov/community/page/windy-wonderland-tree-lighting
+- **Cost:** No admission fee is listed. Donations of cash, food, or clothes to benefit SnowCap earn a raffle ticket.
+- **Hours:** 12-7pm both days; city tree-lighting ceremony Sunday at 5pm
+- **Schedule:** 12-7pm
+- **Dates:** December 5-6, 2026
+
+Added in the October 2026 discovery sweep. Benefits SnowCap Community Services.
+
+**First visit:** A holiday market inside The Troutdale House, with the city's tree lighting at Mayors Square on Sunday at 5pm.
+
+**Registration:** None for visitors.
+
+*Drop-in (come and go freely) · Outdoor, Family-friendly*
+
 ### Tualatin Concerts in the Parks
 
 - **Address:** Tualatin Community Park, 8515 SW Tualatin Rd
@@ -5491,9 +6132,9 @@ Free outdoor summer concert series featuring diverse music genres.
 - **Address:** Residential routes across Tualatin, OR 97062 (North, South, and East neighborhoods)
 - **Website:** https://parks.tualatinoregon.gov/events/tualatin-light-parades/
 - **Cost:** FREE to watch
-- **Hours:** 6pm start, about 60-90 minutes per route
+- **Hours:** 6pm start; about 60-90 minutes per route (the city page also says up to 2 hours)
 
-Added in the October 2026 events sweep. The city says 2026 routes are coming soon; add the street routes to each program once published.
+Added in the October 2026 events sweep; dates and the 6pm start confirmed on the city's 2026 page on 2026-10-25. The page says street routes are coming soon, so add them to each program once published. Registration is required only for vehicles in the parade, and it is free.
 
 **What to know:** Police-led parades of lit vehicles, each covering 5-6 miles. Watching from a front step or a quiet corner is easy, and there is nothing to line up for.
 
@@ -5503,11 +6144,28 @@ Added in the October 2026 events sweep. The city says 2026 routes are coming soo
 
 **Programs:**
 
-- **Tualatin Light Parade - North:** 6-7:30pm | FREE | North Tualatin route, Tualatin, OR 97062
-- **Tualatin Light Parade - South:** 6-7:30pm | FREE | South Tualatin route, Tualatin, OR 97062
-- **Tualatin Light Parade - East:** 6-7:30pm | FREE | East Tualatin route, Tualatin, OR 97062
+- **Tualatin Light Parade - North:** 6-7:30pm | FREE | North Tualatin route (neighborhoods around Community Park and Jurgens Park), Tualatin, OR 97062
+- **Tualatin Light Parade - South:** 6-7:30pm | FREE | South Tualatin route (neighborhoods around Ibach Park and Tualatin High School), Tualatin, OR 97062
+- **Tualatin Light Parade - East:** 6-7:30pm | FREE | East Tualatin route (neighborhoods around Atfalati Park, Fox Hills, and Marquis), Tualatin, OR 97062
 
 *Do alone · Outdoor, Family-friendly, Low energy, Anxiety-friendly · Varies*
+
+### Tuba Christmas Concert (Pioneer Courthouse Square)
+
+- **Address:** Pioneer Courthouse Square, 701 SW 6th Ave, Portland, OR 97204
+- **Website:** https://www.thesquarepdx.org/event/35th-annual-tuba-christmas-concert/
+- **Cost:** FREE. The page says attending is free for the public.
+- **Hours:** 1:30-3pm
+- **Schedule:** 1:30-3pm
+- **Dates:** December 19, 2026
+
+Added in the October 2026 discovery sweep.
+
+**First visit:** The 35th annual concert of holiday music played by a crowd of tubas and euphoniums.
+
+**Registration:** None to attend; players register online.
+
+*Drop-in (come and go freely) · Outdoor, Creative · Near transit*
 
 ### Washington County Fair
 
@@ -5555,6 +6213,43 @@ Held since 2004. The same weekend includes Pumpkins and Pints (a giant pumpkin w
 
 **Accessibility:** Ask City of Tualatin Parks at 503-691-3061 about accessible parking and viewing areas.
 
+### West Linn Holiday Bazaar
+
+- **Address:** West Linn Adult Community Center, 1180 Rosemont Rd, West Linn, OR 97068
+- **Phone:** 503-557-4700
+- **Website:** https://westlinnoregon.gov/parksrec/parks-and-recreation-annual-holiday-bazaar
+- **Cost:** FREE. Cinnamon rolls, cocoa, and hamburgers are for sale.
+- **Hours:** 9am-3pm both days
+- **Schedule:** 9am-3pm
+- **Dates:** November 14-15, 2026
+
+Added in the October 2026 discovery sweep.
+
+**What to know:** The calendar header lists only November 14; the page text says both days.
+
+**First visit:** Over 40 local vendors selling handcrafted gifts.
+
+**Registration:** None.
+
+*Drop-in (come and go freely) · Indoor*
+
+### West Linn Holiday Parade & Tree Lighting
+
+- **Address:** Historic Willamette Main Street area, West Linn, OR 97068
+- **Phone:** 503-557-4700
+- **Website:** https://westlinnoregon.gov/parksrec/holiday-parade
+- **Cost:** No admission is mentioned (public street parade)
+- **Hours:** Parade at 5pm; Santa lights the tree about 6:15pm
+- **Dates:** December 5, 2026
+
+Added in the October 2026 discovery sweep. Replaces the separate West Linn tree lighting this year.
+
+**First visit:** The parade and the Historic Willamette Main Street tree lighting are combined this year. Willamette Falls Dr is closed 4-6pm.
+
+**Registration:** None for spectators.
+
+*Drop-in (come and go freely) · Outdoor, Family-friendly*
+
 ### West Linn Old Time Fair
 
 - **Address:** Willamette Park, 12th St, West Linn, OR
@@ -5576,11 +6271,34 @@ Held since 2004. The same weekend includes Pumpkins and Pints (a giant pumpkin w
 
 *Drop-in (come and go freely) · Outdoor, Family-friendly, Newcomer-friendly · Wheelchair accessible*
 
+### Wilsonville Community Events (Day of the Dead, Veterans Day, Tree Lighting)
+
+- **Phone:** 503-783-7529
+- **Website:** https://www.wilsonvilleoregon.gov/Calendar.aspx
+- **Cost:** FREE. The city calendar lists each as a free public event.
+
+Added in the October 2026 discovery sweep; Wilsonville had no events in the database. The city's old Winterfest 2025 pages 404 after a website migration; the calendar entries are the live source.
+
+**First visit:** All three are drop-in public events.
+
+**Registration:** None.
+
+**Programs:**
+
+- **Day of the Dead:** 6-9pm | FREE | Wilsonville High School, 6800 SW Wilsonville Rd, Wilsonville, OR 97070
+  Live mariachi, a catrina contest, a live performance, face painting, sugar skulls, and an art show.
+- **Veteran's Day Ceremony:** 10am | FREE | Town Center Park, 29600 SW Park Place, Wilsonville, OR 97070
+  City offices and the library are closed that day.
+- **Community Tree Lighting:** 5pm | FREE | Town Center Park, 29600 SW Park Place, Wilsonville, OR 97070
+  Hot cocoa, choir performances, pictures with Santa, a Letters to Winter Wonderland station, a library storytime, and trolley viewing.
+
+*Drop-in (come and go freely) · Outdoor, Family-friendly · Varies*
+
 ### Wood Village Pumpkin Fest
 
 - **Address:** Donald L. Robertson City Park, 24300 NE Halsey St, Wood Village, OR 97060
 - **Website:** https://www.woodvillageor.gov/calendar-events/11th-annual-pumpkin-fest/
-- **Cost:** FREE - free pumpkins and goodie bags while they last
+- **Cost:** FREE (free arts and crafts, activities, and music)
 - **Hours:** 10am-noon
 - **Schedule:** 10am-noon
 - **Dates:** October 24, 2026
@@ -5588,9 +6306,9 @@ Held since 2004. The same weekend includes Pumpkins and Pints (a giant pumpkin w
 
 Added in the October 2026 events sweep from the September queue. East Multnomah County had no fall festival entry.
 
-**What to know:** The 11th annual city festival, with trunk-or-treat, a petting zoo, games, hot drinks, and a Día de los Muertos celebration with Líderes Naturales.
+**What to know:** The 11th annual city festival, with Trunk-or-Treat, a pet costume contest, arts and crafts, music, and a Día de los Muertos booth with Líderes Naturales.
 
-**First visit:** It runs only two hours, so arrive near 10am if you want a free pumpkin.
+**First visit:** It runs only two hours, so arrive near 10am.
 
 **Registration:** None.
 
@@ -5666,6 +6384,7 @@ Clackamas County repair fair series rotating through libraries and community cen
 - **Repair Fair - Molalla:** 12-3pm | Molalla Public Library, 201 E 5th St, Molalla, OR 97038
 - **Repair Fair - Oregon City:** 10am-1pm | Oregon City Public Library, 606 John Adams St, Oregon City, OR
 - **Repair Fair - Clackamas Community College:** 10am-1pm | Clackamas Community College, Holden Industrial Technology Center, 19600 Molalla Ave, Oregon City, OR
+  Room to be announced; the county lists this fair as Oregon City.
 
 *Casual group · Anxiety-friendly, Good for isolation, Indoor, Newcomer-friendly · Wheelchair accessible*
 
@@ -5716,14 +6435,40 @@ Nonprofit electronics recycler and refurbisher. Volunteer shifts teach tech skil
 
 - **Phone:** 503-282-8846
 - **Website:** https://friendsoftrees.org
-- **Cost:** FREE
+- **Cost:** FREE. No fee is listed for individual volunteers. Registration is required for every planting.
 - **Schedule:** Saturday mornings October through April (planting season)
 
-Highly social tree-planting events. No experience needed, all ages welcome.
+Tree-planting volunteer events. Registration is required through each event's RSVP link. The organizer's calendar lists 13 tri-county plantings from October 31 to December 12, 2026 and may add more; Vancouver WA and Salem events are left out. The generic Saturday-mornings season is shown as text only, since plantings are not every Saturday.
 
-**Tips:** FREE tree-planting events on weekend mornings fall through spring. Gloves, tools, breakfast, coffee/tea provided. Potluck lunch afterward. No experience needed, all ages welcome. Highly social atmosphere.
+**What to know:** No experience needed. Recommended ages are 6+ for Green Space plantings and 10+ for Neighborhood Trees; youth under 18 need a parent or guardian's signed waiver. No dogs (service animals are welcome). Times below come from the organizer's public calendar feed as of 2026-10-25; the RSVP page has the final details. Volunteer line 503-595-0213.
 
-*Casual group · Outdoor, Good for isolation, Active/physical, Newcomer-friendly · Wheelchair accessible*
+**First visit:** Arrive by 8:45am to sign in and be assigned a planting crew; planting starts at 9am. Gloves, tools, and planting guidance are provided.
+
+**Registration:** Required. Use the RSVP link on each event's calendar page; events can fill up, so check a few weeks ahead.
+
+**What to bring:** Clothes you can get muddy, rain gear, and a water bottle. Under-18s must bring a signed youth waiver.
+
+**Programs:**
+
+- **Friends of Trees planting - Nadaka Nature Park (Gresham):** 8:45am-1pm | Nadaka Nature Park, 17615 NE Glisan St, Portland (Gresham), OR 97230
+- **Friends of Trees planting - Gateway Green (NE Portland):** 9:45am-1pm | Gateway Green, 10110 NE Halsey St, Portland, OR 97220
+  Sign-in 9:45am, planting 10am. Reached only by the I-205 multi-use path, about a 15-minute walk.
+- **Friends of Trees planting - Atfalati Park (Tualatin):** 8:45am-1pm | Atfalati Park, 6600 SW Sagert St, Tualatin, OR 97062
+- **Friends of Trees planting - Jackson Bottom Wetlands (Hillsboro):** 8:45am-1pm | Jackson Bottom Wetlands, 2600 SW Hillsboro Hwy, Hillsboro, OR 97123
+  Final planting weekend at Jackson Bottom this season.
+- **Friends of Trees planting - Boones Ferry Park (Wilsonville):** 8:45am-1pm | Boones Ferry Park, 31240 SW Boones Ferry Rd, Wilsonville, OR 97070
+- **Friends of Trees planting - SE Firland Parkway (SE Portland):** 8:45am-1pm | SE Schiller St & SE 72nd Ave, Portland, OR
+- **Friends of Trees planting - Southern Lites Park (Happy Valley):** 8:45am-1pm | Southern Lites Park, 12088 SE 117th Ave, Happy Valley, OR 97086
+- **Friends of Trees planting - Cedar Mill & Cedar Hills (Beaverton):** 8:45am-1pm | St. Andrew Lutheran Church, 12405 SW Butner Rd, Beaverton, OR 97005
+- **Friends of Trees planting - Gresham neighborhood (Rockwood):** 8:45am-1pm | Rockwood Common Tool Library, 18600 SE Stark St, Portland, OR 97233
+- **Friends of Trees planting - Mariposa Park (Cornelius):** 8:45am-1pm | Mariposa Park, 12972 S Quartz Dr, Cornelius, OR 97113
+- **Friends of Trees planting - North Portland neighborhood:** 8:45am-1pm | Cesar Chavez School, 5103 N Willis Blvd, Portland, OR 97203
+- **Friends of Trees planting - Fanno Creek Greenway (Beaverton):** 8:45am-1pm | Fanno Creek Greenway, SW Fallbrook Pl, Beaverton, OR 97005
+- **Friends of Trees planting - Milwaukie neighborhood (Arbor Day):** 8:45am-1pm | SE 42nd Ave & SE Monroe St, Milwaukie, OR 97222
+
+*Casual group · Outdoor, Good for isolation, Active/physical, Newcomer-friendly · Varies*
+
+**Accessibility:** Some sites are wheelchair accessible, not all. The organizer can coordinate accommodations; call 503-595-0213 about three weeks ahead.
 
 ### Hands On Greater Portland
 
@@ -5865,6 +6610,61 @@ Sliding-scale arts education
 
 *Structured group · Creative, Good for isolation, Indoor · Wheelchair accessible, Near transit*
 
+### Multnomah County Library - Adult Drop-In Groups (craft, games, language exchange)
+
+- **Phone:** 503-988-5123
+- **Website:** https://multcolib.org/events-classes
+- **Cost:** No fee is listed on the event pages (public library programs). Only the Tabletop Arcade page says free.
+- **Eligibility:** Adults
+
+Added in the October 2026 discovery sweep; weekly social options, several in East Multnomah.
+
+**What to know:** Dates come from the library's event calendar on 2026-10-25, where individual sessions are sometimes cancelled; check multcolib.org/events-classes before you go. Intercambio is also listed at Gregory Heights and Woodstock; those times were not checked.
+
+**First visit:** Low-pressure, no sign-up listed for these groups. Just show up at the branch.
+
+**Registration:** None listed.
+
+**Programs:**
+
+- **Mahjong at the Library:** Mondays 1-4pm | Troutdale Library, 2451 SW Cherry Park Rd, Troutdale, OR 97060
+  American Mahjong; bring your National Mah Jongg League card.
+- **East Portland Tabletop Arcade:** 1-5pm | Midland Library, 805 SE 122nd Ave, Portland, OR 97233
+  A free, friendly meetup to play hobby and strategy board games.
+- **Casual Chess:** Saturdays 1:30-5:30pm | Midland Library, 805 SE 122nd Ave, Portland, OR 97233
+- **Knotty Knitters / Crafty Crocheters:** Tuesdays 5:30-7:30pm | Midland Library, 805 SE 122nd Ave, Portland, OR 97233
+- **A Good Yarn Knitting & Crochet Group:** Tuesdays 2-4pm | Gregory Heights Library, 7921 NE Sandy Blvd, Portland, OR 97213
+  Bring your own supplies.
+- **Crafternoon for Adults:** 1-3pm | Holgate Library, 7905 SE Holgate Blvd, Portland, OR 97206
+  First come, first served.
+- **Last Sunday Crafting Club for Adults:** 12-2pm | Woodstock Library, 6008 SE 49th Ave, Portland, OR 97206
+  Space is limited.
+- **Portland Puzzlers & Puzzle Swap:** 6-7pm | Midland Library, 805 SE 122nd Ave, Portland, OR 97233
+- **International Women's Sewing Group:** Fridays 11am-1pm | Midland Library, 805 SE 122nd Ave, Portland, OR 97233
+  For international women.
+- **Intercambio / Language Exchange:** Saturdays 1-2:30pm | Kenton Library, 8226 N Denver Ave, Portland, OR 97217
+
+*Casual group · Good for isolation, Creative, Indoor · Varies*
+
+### North Portland Free Clothing Exchange
+
+- **Address:** The Loft @ Kenton Church, 2115 N Lombard St, Portland, OR 97217
+- **Website:** https://freeclothingexchange.wordpress.com/
+- **Cost:** FREE. No donation is required in order to receive clothing.
+- **Hours:** Every 3rd Sunday, 2-4pm
+- **Schedule:** 2-4pm
+- **Dates:** November 15, 2026, December 20, 2026
+
+Added in the October 2026 discovery sweep. A third-party listing shows alternate months only; the organizer's own page names November 15 and December 20.
+
+**What to know:** Everyone is welcome.
+
+**First visit:** Take what you need and leave what you don't. Men's, women's, and children's clothing in all sizes.
+
+**Registration:** None.
+
+*Drop-in (come and go freely) · Indoor*
+
 ### Northwest Wools Crafting Compassion
 
 - **Address:** 3524 SW Troy St, Portland, OR 97219
@@ -5958,6 +6758,32 @@ Low-cost art classes for all skill levels. In-person Mondays, online Thursdays.
 
 *Structured group · Creative, Good for isolation, Indoor, Newcomer-friendly*
 
+### Portland Parks & Recreation Volunteer Days (South Park Blocks, Pittock Garden, Argay Park)
+
+- **Phone:** 503-278-9001
+- **Website:** https://www.portland.gov/parks/events/2026/10/27/south-park-blocks-gardening-and-turf-crew
+- **Cost:** FREE (volunteering; no fee stated)
+- **Eligibility:** Open to all; new and experienced gardeners welcome, tools provided
+
+Added in the October 2026 discovery sweep.
+
+**What to know:** Dates run through December 29 and may be cancelled in bad weather.
+
+**First visit:** Show up at the meeting spot ready to garden; tools are provided.
+
+**Registration:** None for South Park Blocks; register for Pittock and Argay Park.
+
+**Programs:**
+
+- **South Park Blocks Gardening and Turf Crew:** Tuesdays 9-11am | FREE | South Park Blocks, park block between SW Clay and SW Market, SW Park Ave, Portland, OR 97205
+  Pre-registration is not required.
+- **Pittock Garden Tuesday Volunteer Day:** Tuesdays 9-11:30am | FREE | Pittock Mansion main entrance, 3229 NW Pittock Dr, Portland, OR 97210
+  Register before joining.
+- **Argay Park Volunteer Day:** 10-11am | FREE | Argay Park, Portland, OR
+  Low-barrier; go at your own pace. Register through the PP&R volunteer website.
+
+*Drop-in (come and go freely) · Outdoor, Active/physical, Good for isolation · Varies*
+
 ### Puddletown Knitters Guild
 
 - **Address:** Rose City Park Presbyterian Church (Fellowship Hall), 1907 NE 45th Ave, Portland, OR 97213
@@ -6009,6 +6835,28 @@ Operating since 2013. Part of global Repair Café movement promoting sustainabil
 *Casual group · Anxiety-friendly, Good for isolation, Creative, Indoor, Newcomer-friendly · Wheelchair accessible, Near transit*
 
 **Accessibility:** Leaven Community Center is ADA accessible. TriMet bus 71 nearby.
+
+### Social Hour (Aloha Community Library)
+
+- **Address:** Aloha Community Library, 17455 SW Farmington Rd, Suite 26A, Aloha, OR 97007
+- **Phone:** 503-259-0185
+- **Website:** https://alohalibrary.org/event/second-sat-social-hour/
+- **Cost:** Cost not stated; coffee and refreshments are offered
+- **Hours:** Last Tuesdays 12-1pm; second Saturdays 9-10am
+- **Eligibility:** Adults
+
+Added in the October 2026 discovery sweep. The library's own page states the rule (second Saturday and last Tuesday); the 2026 dates come from the county library event feed. The library site says 17455 SW Farmington Rd and the feed says 17445; confirm by phone.
+
+**First visit:** An hour of coffee, refreshments, and conversation with others seeking connection.
+
+**Registration:** None listed.
+
+**Programs:**
+
+- **Social Hour - last Tuesday:** 12-1pm
+- **Social Hour - second Saturday:** 9-10am
+
+*Drop-in (come and go freely) · Good for isolation, Newcomer-friendly, Indoor*
 
 ### SOLVE Oregon
 
@@ -6171,6 +7019,25 @@ Free cultural admission passes for Clackamas County library cardholders. Include
 
 **Accessibility:** Outdoor farmers markets on paved surfaces. Most markets are accessible, though ground may be uneven in some areas. Seating usually available.
 
+### Explore Health (Oregon Health Insurance Marketplace) - 2027 Open Enrollment
+
+- **Phone:** 855-268-3767
+- **Website:** https://healthcare.oregon.gov/explorehealth/
+- **Cost:** FREE help signing up; plan premiums vary, with income-based financial help. Help from enrollment assisters and agents is free of charge.
+- **Hours:** Open Enrollment for 2027 coverage runs November 1, 2026 to January 15, 2027; enroll by December 31 for coverage starting January 1. Free help is available year-round.
+- **Dates:** November 1 - December 31, 2026, January 1-15, 2027
+- **Eligibility:** Oregonians who buy their own health insurance and are not enrolled in job-based coverage or the Oregon Health Plan
+
+Added in the October 2026 discovery sweep; the database had no marketplace entry. The enrollment window is entered as two same-year ranges because the calendar parser does not read a range that crosses a year boundary.
+
+**What to know:** Per the Oregon Health Authority's October 15, 2026 release, Providence and PacificSource will no longer offer individual plans in Oregon in 2027, and Moda will be available only in some counties, so people on those plans need to pick a new plan.
+
+**First visit:** Call 855-268-3767 or use the find-help page to reach a free local assister or agent.
+
+**Registration:** Appointments with enrollment partners.
+
+*One-on-one · Varies*
+
 ### Free Legal Aid Services (Portland Metro)
 
 - **Website:** https://www.pdxlrg.org/general
@@ -6199,11 +7066,11 @@ Free legal services for low-income Portland metro residents. Covers housing, ben
 - **Website:** https://www.oregon.gov/ohcs/energy-weatherization/pages/utility-bill-payment-assistance.aspx
 - **Cost:** FREE to apply - the program pays part of your energy bill directly to the utility. LIHEAP can also help repair or replace an unsafe or broken heating system.
 - **Hours:** The program year runs October 1 - September 30; each county opens intake on its own schedule
-- **Eligibility:** Household income at or below 60% of Oregon's median income, with documented energy costs. Renters and owners both qualify. For the program year ending September 30, 2026 the limit was $38,385 a year for one person and $73,817 for four - check for updated limits after October 1.
+- **Eligibility:** Household income at or below 60% of Oregon's median income, with documented energy costs. Renters and owners both qualify. For 2026-27 the county-published limit is $40,326 a year ($3,360.50 a month) for one person and $77,550 a year ($6,462.50 a month) for four.
 
 Separate from the ongoing utility discounts already in this database (PGE, Pacific Power, NW Natural). Those cut the monthly rate; LIHEAP pays down the bill itself, and the two stack. next_audit is set for early October to pick up the new program year's income limits.
 
-**What to know:** Apply in your window rather than waiting for a shutoff notice - Clackamas opens in October only for seniors and people with disabilities, adds families with young children in November, and opens to everyone in December. People who are homebound can ask to apply by phone, mail, or home visit.
+**What to know:** Washington County's window for seniors 62+ and people with disabilities closes October 31. Apply in your window rather than waiting for a shutoff notice - Clackamas opens in October only for seniors and people with disabilities, adds families with young children in November, and opens to everyone in December. People who are homebound can ask to apply by phone, mail, or home visit.
 
 **First visit:** Apply through your county's community action agency, not the state. To find your agency, call 2-1-1 or Oregon Housing and Community Services at 1-800-453-5511, option 1.
 
@@ -6214,9 +7081,9 @@ Separate from the ongoing utility discounts already in this database (PGE, Pacif
 **Programs:**
 
 - **Multnomah County energy assistance:** FREE to apply | Multnomah County
-  Our Just Future (formerly Human Solutions) serves very-low-income residents of Portland and East Multnomah County - call 503-405-7877 for heat and power funding availability, or 503-548-0217 for the water discount program. Call 2-1-1 for other providers.
+  Multnomah County runs energy assistance through six nonprofit partners, first-come, first-served, and applications go through 211info. Dial 2-1-1 (toll-free), text your zip code to 898211, email help@211info.org (Mon-Fri 8am-6pm), or visit 211info.org. Our Just Future's energy line closed to referrals after September 18, 2026. For the water discount program call Our Just Future at 503-548-0217.
 - **Washington County energy assistance:** FREE to apply | Washington County
-  Administered by Community Action of Washington County, which is already in this database as community-action-washington-county. After a fall backlog pause (August 29 - September 30), applications reopened October 1 for seniors 62+ and people with disabilities; call 503-615-0771 for a paper application.
+  Administered by Community Action of Washington County, which is already in this database as community-action-washington-county. Applications are open October 1-31 for seniors 62+ and people with disabilities. If you have not received a mailed application by October 9, call 503-615-0771 to request one. No later window is posted yet.
 - **Clackamas County energy assistance:** FREE to apply | Clackamas County
   Covers electricity, natural gas, oil, propane, wood, or pellets. Call 503-650-5640 to request an application; they mail it with a prepaid return envelope. Intake opens in October for people 60+, disabled, or medically fragile; in November for households with children 6 and under; and in December for every income-eligible household, running to April 15 or until funds run out.
 
@@ -6312,6 +7179,45 @@ Free cultural passes for Multnomah County Library cardholders. Provides online a
 
 *Low energy, Indoor, Creative*
 
+### Multnomah County SHIBA Medicare Open Enrollment Help
+
+- **Phone:** 503-988-3646
+- **Website:** https://www.multco.us/services/shiba
+- **Cost:** FREE. Free, one-on-one appointments in person, by phone, and online.
+- **Hours:** By appointment only; times are not published. Call 503-988-3646, option 3. Medicare open enrollment runs October 15 to December 7.
+- **Eligibility:** People with Medicare or about to enroll
+
+Added in the October 2026 discovery sweep. The Washington County sessions are in washington-shiba-medicare-help.
+
+**What to know:** Counselors give unbiased plan comparisons. If your plan is leaving your area, an extended window runs December 8, 2026 to February 28, 2027.
+
+**First visit:** Call the Aging, Disability and Veterans Services helpline at 503-988-3646, option 3, to book a counselor at the site and date you want.
+
+**Registration:** Appointment required.
+
+**Programs:**
+
+- **SHIBA help - Community for Positive Aging:** FREE | 1820 NE 40th Ave, Portland, OR 97212
+  By appointment; call 503-988-3646, option 3.
+- **SHIBA help - Hollywood Library:** FREE | 4040 NE Tillamook St, Portland, OR 97212
+  By appointment; call 503-988-3646, option 3.
+- **SHIBA help - Albina Library:** FREE | 205 NE Russell St, Portland, OR 97212
+  By appointment; call 503-988-3646, option 3.
+- **SHIBA help - Neighborhood House Senior Center:** FREE | 8959 SW Barbur Blvd, Portland, OR 97219
+  By appointment; call 503-988-3646, option 3.
+- **SHIBA help - Multnomah County Aging Services:** FREE | 4610 SE Belmont St, Portland, OR 97215
+  By appointment; call 503-988-3646, option 3.
+- **SHIBA help - Holgate Library:** FREE | 7905 SE Holgate Blvd, Portland, OR 97206
+  By appointment; call 503-988-3646, option 3.
+- **SHIBA help - Central Library:** FREE | 801 SW 10th Ave, Portland, OR 97205
+  By appointment; call 503-988-3646, option 3.
+- **SHIBA help - Midland Library:** FREE | 805 SE 122nd Ave, Portland, OR 97233
+  By appointment; call 503-988-3646, option 3.
+- **SHIBA help - East County Library:** FREE | 475 NW Division St, Gresham, OR 97030
+  By appointment; call 503-988-3646, option 3. The county flyer prints 427 NW Division; the county page and the library use 475.
+
+*One-on-one · Near transit*
+
 ### NCPRD Scholarship Program
 
 - **Phone:** 503-794-8080
@@ -6376,10 +7282,10 @@ Oregon PUC program reducing phone or internet costs for low-income households.
 - **Phone:** 503-226-1561
 - **Website:** https://www.oregonzoo.org/discounts
 - **Cost:** $13 tickets year-round for Oregon and Washington residents on income-assistance programs (up to four per visit); $13 admission for everyone during Fall Discount Days. Bring proof of benefits and residency. SNAP funds on the Oregon Trail Card cannot be used to buy tickets or food. Discount Days tickets cannot be combined with other discounts.
-- **Hours:** Income-qualified tickets available during regular zoo hours year-round
+- **Hours:** Income-qualified tickets available during regular zoo hours year-round. In November the zoo is open daily 9:30am-3:30pm (last entry 2:30pm) and closed November 26.
 - **Eligibility:** Income-qualified pricing for people enrolled in income-assistance programs; Discount Days open to all
 
-Standing $13 income-qualified admission plus the annual Fall Discount Days week, November 3-9, 2026. The November dates came from a search summary of the zoo page - confirm on oregonzoo.org before promoting.
+Standing $13 income-qualified admission plus the annual Fall Discount Days week, November 2-8, 2026. Confirmed on oregonzoo.org's event page on 2026-10-25; the page prints no year, but November 2-8 is a Monday-to-Sunday week listed beside the 2026 ZooLights dates.
 
 **What to know:** There is no $5 second-Tuesday program any more - the income-qualified $13 ticket is the standing discount. Winter Discount Days usually follow in January or February. Take MAX to Washington Park station.
 
@@ -6391,8 +7297,8 @@ Standing $13 income-qualified admission plus the annual Fall Discount Days week,
 
 **Programs:**
 
-- **Fall Discount Days:** $13 admission for everyone
-  Half of the regular $26 adult price; federal employees including military and postal workers free, limit four
+- **Fall Discount Days:** 9:30am-3:30pm | $13 admission for everyone
+  Half of the regular $26 adult price. Cannot be combined with other discounts, including membership. Infants 0-1 are free with a paid adult ticket.
 
 *Do alone · Outdoor, Family-friendly, Low energy · Wheelchair accessible, Near transit*
 
@@ -6535,6 +7441,31 @@ City scholarship program to ensure recreation access for all Tualatin children r
 *varies · Good for isolation, Active/physical, Family-friendly · For: Children (3-12) · Wheelchair accessible*
 
 **Accessibility:** Tualatin recreation facilities are generally ADA accessible. Contact specific program locations for detailed accessibility info.
+
+### Washington County SHIBA Medicare Help Sessions
+
+- **Phone:** 503-846-3094
+- **Website:** https://www.washingtoncountyor.gov/davs/medicare-help
+- **Cost:** FREE. Free Medicare counseling from trained volunteers.
+- **Hours:** Medicare open enrollment runs October 15 to December 7. Walk-ins: Fridays 10am-3pm at DAVS (Hillsboro) and Wednesdays 12-2pm at Hillsboro Senior Center. By appointment (503-846-3094): DAVS Mon-Thu 10am-3pm; Elsie Stuhr Thursdays 11am-2pm; Juanita Pohl Fridays 12:30-3:30pm; Marjorie Stewart Wednesdays 12-3pm; Tigard Senior Center Thursdays October 29, November 12 and 19 and Wednesdays November 25 and December 2, 11am-2pm. No sessions on November 11, 26, or 27.
+- **Eligibility:** People with Medicare; interpretation in other languages on request
+
+Added in the October 2026 discovery sweep. Juanita Pohl Center already lists SHIBA counseling; this entry adds the other sites.
+
+**What to know:** Bring your Medicare card and a list of your medicines.
+
+**First visit:** Walk in on a Friday at DAVS or a Wednesday at Hillsboro Senior Center, or call 503-846-3094 for an appointment at another site.
+
+**Registration:** Walk-in at two sites; appointments elsewhere.
+
+**Programs:**
+
+- **SHIBA walk-in help - DAVS (Hillsboro):** 10am-3pm | FREE | DAVS, 5240 NE Elam Young Pkwy, Hillsboro, OR 97124
+  Walk-ins only on Fridays. No session November 27.
+- **SHIBA walk-in help - Hillsboro Senior Center:** 12-2pm | FREE | Hillsboro Senior Center, 750 SE 8th Ave, Hillsboro, OR 97123
+  Walk-ins on Wednesdays. No session November 11.
+
+*One-on-one · Near transit*
 
 ### WCCLS Adventure Pass
 

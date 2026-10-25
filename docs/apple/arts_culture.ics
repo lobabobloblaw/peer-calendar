@@ -44,7 +44,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f6905ce15884ab7c@portlandresources.org
-DTSTAMP:20260916T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260922T093000
 DTEND;TZID=America/Los_Angeles:20260922T173000
 SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
@@ -54,9 +54,10 @@ DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
  s. OMSI expects heavy traffic and recommends buying timed tickets online i
  n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
  y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
-  normally closed Mondays - check hours before going on January 25.\nAddres
- s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
- https://omsi.edu/
+  normally closed Mondays - check hours before going on January 25. The Phy
+ sics Lab is closed September 8 - November 14\, 2026.\nAddress: 1945 SE Wat
+ er Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: https://omsi.e
+ du/
 LOCATION:1945 SE Water Ave\, Portland\, OR 97214
 URL:https://omsi.edu/
 CATEGORIES:Arts & Culture
@@ -64,7 +65,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6ac64462ffd136ed@portlandresources.org
-DTSTAMP:20260916T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20261101T093000
 DTEND;TZID=America/Los_Angeles:20261101T173000
 SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
@@ -74,9 +75,10 @@ DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
  s. OMSI expects heavy traffic and recommends buying timed tickets online i
  n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
  y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
-  normally closed Mondays - check hours before going on January 25.\nAddres
- s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
- https://omsi.edu/
+  normally closed Mondays - check hours before going on January 25. The Phy
+ sics Lab is closed September 8 - November 14\, 2026.\nAddress: 1945 SE Wat
+ er Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: https://omsi.e
+ du/
 LOCATION:1945 SE Water Ave\, Portland\, OR 97214
 URL:https://omsi.edu/
 CATEGORIES:Arts & Culture
@@ -84,7 +86,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5869b9bc6a3c3430@portlandresources.org
-DTSTAMP:20260916T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20261206T093000
 DTEND;TZID=America/Los_Angeles:20261206T173000
 SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
@@ -94,9 +96,10 @@ DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
  s. OMSI expects heavy traffic and recommends buying timed tickets online i
  n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
  y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
-  normally closed Mondays - check hours before going on January 25.\nAddres
- s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
- https://omsi.edu/
+  normally closed Mondays - check hours before going on January 25. The Phy
+ sics Lab is closed September 8 - November 14\, 2026.\nAddress: 1945 SE Wat
+ er Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: https://omsi.e
+ du/
 LOCATION:1945 SE Water Ave\, Portland\, OR 97214
 URL:https://omsi.edu/
 CATEGORIES:Arts & Culture
@@ -104,7 +107,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c3eca7fb93ca1fdc@portlandresources.org
-DTSTAMP:20260916T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20270125T093000
 DTEND;TZID=America/Los_Angeles:20270125T173000
 SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
@@ -114,9 +117,10 @@ DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
  s. OMSI expects heavy traffic and recommends buying timed tickets online i
  n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
  y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
-  normally closed Mondays - check hours before going on January 25.\nAddres
- s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
- https://omsi.edu/
+  normally closed Mondays - check hours before going on January 25. The Phy
+ sics Lab is closed September 8 - November 14\, 2026.\nAddress: 1945 SE Wat
+ er Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: https://omsi.e
+ du/
 LOCATION:1945 SE Water Ave\, Portland\, OR 97214
 URL:https://omsi.edu/
 CATEGORIES:Arts & Culture
@@ -124,7 +128,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:da9fce24eb1b7dfd@portlandresources.org
-DTSTAMP:20260916T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20270207T093000
 DTEND;TZID=America/Los_Angeles:20270207T173000
 SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
@@ -134,9 +138,10 @@ DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
  s. OMSI expects heavy traffic and recommends buying timed tickets online i
  n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
  y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
-  normally closed Mondays - check hours before going on January 25.\nAddres
- s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
- https://omsi.edu/
+  normally closed Mondays - check hours before going on January 25. The Phy
+ sics Lab is closed September 8 - November 14\, 2026.\nAddress: 1945 SE Wat
+ er Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: https://omsi.e
+ du/
 LOCATION:1945 SE Water Ave\, Portland\, OR 97214
 URL:https://omsi.edu/
 CATEGORIES:Arts & Culture
@@ -144,7 +149,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c2d829d96386af6c@portlandresources.org
-DTSTAMP:20260916T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20270304T093000
 DTEND;TZID=America/Los_Angeles:20270304T173000
 SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
@@ -154,9 +159,10 @@ DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
  s. OMSI expects heavy traffic and recommends buying timed tickets online i
  n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
  y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
-  normally closed Mondays - check hours before going on January 25.\nAddres
- s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
- https://omsi.edu/
+  normally closed Mondays - check hours before going on January 25. The Phy
+ sics Lab is closed September 8 - November 14\, 2026.\nAddress: 1945 SE Wat
+ er Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: https://omsi.e
+ du/
 LOCATION:1945 SE Water Ave\, Portland\, OR 97214
 URL:https://omsi.edu/
 CATEGORIES:Arts & Culture
@@ -164,7 +170,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dd7c509cfabd3847@portlandresources.org
-DTSTAMP:20260916T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20270422T093000
 DTEND;TZID=America/Los_Angeles:20270422T173000
 SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
@@ -174,9 +180,10 @@ DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
  s. OMSI expects heavy traffic and recommends buying timed tickets online i
  n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
  y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
-  normally closed Mondays - check hours before going on January 25.\nAddres
- s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
- https://omsi.edu/
+  normally closed Mondays - check hours before going on January 25. The Phy
+ sics Lab is closed September 8 - November 14\, 2026.\nAddress: 1945 SE Wat
+ er Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: https://omsi.e
+ du/
 LOCATION:1945 SE Water Ave\, Portland\, OR 97214
 URL:https://omsi.edu/
 CATEGORIES:Arts & Culture
@@ -184,7 +191,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:737bb08e71761fe6@portlandresources.org
-DTSTAMP:20260916T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20270502T093000
 DTEND;TZID=America/Los_Angeles:20270502T173000
 SUMMARY:OMSI (Oregon Museum of Science and Industry): $5 Day
@@ -194,9 +201,10 @@ DESCRIPTION:Category: Arts & Culture\nCost: $5\nInfo: $5 admission for ever
  s. OMSI expects heavy traffic and recommends buying timed tickets online i
  n advance. The days fall on Tuesdays\, Thursdays\, Sundays\, and one Monda
  y (January 25)\, so this is a dated list rather than a recurrence. OMSI is
-  normally closed Mondays - check hours before going on January 25.\nAddres
- s: 1945 SE Water Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: 
- https://omsi.edu/
+  normally closed Mondays - check hours before going on January 25. The Phy
+ sics Lab is closed September 8 - November 14\, 2026.\nAddress: 1945 SE Wat
+ er Ave\, Portland\, OR 97214\nPhone: 503-797-4000\nWebsite: https://omsi.e
+ du/
 LOCATION:1945 SE Water Ave\, Portland\, OR 97214
 URL:https://omsi.edu/
 CATEGORIES:Arts & Culture
@@ -620,17 +628,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f2af9fc66198c4ab@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20261203T183000
-DTEND;TZID=America/Los_Angeles:20261203T193000
+DTEND;TZID=America/Los_Angeles:20261203T200000
 SUMMARY:PCC Theatre: An Evening of Shakespeare Scenes
 DESCRIPTION:Category: Arts & Culture\nCost: Ticket prices vary by section (
  Sections A\, B\, C)\nNote: Student and senior discounts typically availabl
  e. Tickets online or at box office (opens 1hr before curtain\, cash/check 
- only).\nInfo: PCC Sylvania Performing Arts\; ticket details on pcc.edu/the
- atre\nAddress: 12000 SW 49th Ave\, Portland\, OR 97219\nPhone: 971-722-484
- 8\nWebsite: https://www.pcc.edu/theatre/\nDetails: Community college theat
- er with professional-quality productions. Drama\, comedy\, and musicals.
+ only).\nInfo: FREE. Held in room ST 108 on the PCC Sylvania campus (12000 
+ SW 49th Ave)\, not in the Performing Arts Center theater.\nAddress: 12000 
+ SW 49th Ave\, Portland\, OR 97219\nPhone: 971-722-4848\nWebsite: https://w
+ ww.pcc.edu/theatre/\nDetails: Community college theater with professional-
+ quality productions. Drama\, comedy\, and musicals.
 LOCATION:12000 SW 49th Ave\, Portland\, OR 97219
 URL:https://www.pcc.edu/theatre/
 CATEGORIES:Arts & Culture
@@ -638,18 +647,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ed474ca226a145d0@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270308
 SUMMARY:PCC Theatre: A Midsummer Night's Dream
 DESCRIPTION:Category: Arts & Culture\nCost: Ticket prices vary by section (
  Sections A\, B\, C)\nNote: Student and senior discounts typically availabl
  e. Tickets online or at box office (opens 1hr before curtain\, cash/check 
- only).\nInfo: Showtimes and pricing not yet posted\; auditions November 2-
- 3\, 2026\nAddress: 12000 SW 49th Ave\, Portland\, OR 97219\nPhone: 971-722
- -4848\nWebsite: https://www.pcc.edu/theatre/\nDetails: Community college t
- heater with professional-quality productions. Drama\, comedy\, and musical
- s.
+ only).\nInfo: Ticketed. Showtimes March 4 at 11am and 7pm\, March 5 at 7pm
+  (audio description)\, March 6 at 7pm (ASL performance)\, March 7 at 2pm\;
+  auditions November 2-3\, 2026\nAddress: 12000 SW 49th Ave\, Portland\, OR
+  97219\nPhone: 971-722-4848\nWebsite: https://www.pcc.edu/theatre/\nDetail
+ s: Community college theater with professional-quality productions. Drama\
+ , comedy\, and musicals.
 LOCATION:12000 SW 49th Ave\, Portland\, OR 97219
 URL:https://www.pcc.edu/theatre/
 CATEGORIES:Arts & Culture
@@ -774,18 +784,355 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5d7caf6997d1c22c@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:Art in the Burbs
-DESCRIPTION:Category: Arts & Culture\nCost: FREE admission\; suggested $3 d
- onation at the door\nAddress: Tigard High School\, 9000 SW Durham Rd\, Tig
- ard\, OR 97224\nWebsite: https://artintheburbs.org/\nDetails: Added in the
-  October 2026 events sweep from the September queue\, which had left free 
- admission unconfirmed. One of the few Washington County November arts even
- ts.
+DESCRIPTION:Category: Arts & Culture\nCost: Suggested $3 donation at the do
+ or (one raffle ticket per $3)\nAddress: Tigard High School\, 9000 SW Durha
+ m Rd\, Tigard\, OR 97224\nWebsite: https://artintheburbs.org/\nDetails: Ad
+ ded in the October 2026 events sweep from the September queue\, which had 
+ left free admission unconfirmed. One of the few Washington County November
+  arts events.
 LOCATION:Tigard High School\, 9000 SW Durham Rd\, Tigard\, OR 97224
 URL:https://artintheburbs.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d90ed30cefb16e12@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:PSU Music @ Midday
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nNote: The series page cal
+ ls it a free weekly opportunity\; event pages say free and open to the pub
+ lic.\nAddress: Lincoln Recital Hall\, 1620 SW Park Ave\, Portland\, OR 972
+ 01\nWebsite: https://www.pdx.edu/music-theater/music-midday-concert-series
+ \nDetails: Added in the October 2026 discovery sweep. Fall series ends Dec
+ ember 4.
+LOCATION:Lincoln Recital Hall\, 1620 SW Park Ave\, Portland\, OR 97201
+URL:https://www.pdx.edu/music-theater/music-midday-concert-series
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fc38058672c25f5a@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:PSU Music @ Midday
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nNote: The series page cal
+ ls it a free weekly opportunity\; event pages say free and open to the pub
+ lic.\nAddress: Lincoln Recital Hall\, 1620 SW Park Ave\, Portland\, OR 972
+ 01\nWebsite: https://www.pdx.edu/music-theater/music-midday-concert-series
+ \nDetails: Added in the October 2026 discovery sweep. Fall series ends Dec
+ ember 4.
+LOCATION:Lincoln Recital Hall\, 1620 SW Park Ave\, Portland\, OR 97201
+URL:https://www.pdx.edu/music-theater/music-midday-concert-series
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c3f159534e0a2852@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:PSU Music @ Midday
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nNote: The series page cal
+ ls it a free weekly opportunity\; event pages say free and open to the pub
+ lic.\nAddress: Lincoln Recital Hall\, 1620 SW Park Ave\, Portland\, OR 972
+ 01\nWebsite: https://www.pdx.edu/music-theater/music-midday-concert-series
+ \nDetails: Added in the October 2026 discovery sweep. Fall series ends Dec
+ ember 4.
+LOCATION:Lincoln Recital Hall\, 1620 SW Park Ave\, Portland\, OR 97201
+URL:https://www.pdx.edu/music-theater/music-midday-concert-series
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2a46c423f15656d0@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:PSU Music @ Midday
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nNote: The series page cal
+ ls it a free weekly opportunity\; event pages say free and open to the pub
+ lic.\nAddress: Lincoln Recital Hall\, 1620 SW Park Ave\, Portland\, OR 972
+ 01\nWebsite: https://www.pdx.edu/music-theater/music-midday-concert-series
+ \nDetails: Added in the October 2026 discovery sweep. Fall series ends Dec
+ ember 4.
+LOCATION:Lincoln Recital Hall\, 1620 SW Park Ave\, Portland\, OR 97201
+URL:https://www.pdx.edu/music-theater/music-midday-concert-series
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0bb8cfea73f31e54@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:PSU Music @ Midday
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nNote: The series page cal
+ ls it a free weekly opportunity\; event pages say free and open to the pub
+ lic.\nAddress: Lincoln Recital Hall\, 1620 SW Park Ave\, Portland\, OR 972
+ 01\nWebsite: https://www.pdx.edu/music-theater/music-midday-concert-series
+ \nDetails: Added in the October 2026 discovery sweep. Fall series ends Dec
+ ember 4.
+LOCATION:Lincoln Recital Hall\, 1620 SW Park Ave\, Portland\, OR 97201
+URL:https://www.pdx.edu/music-theater/music-midday-concert-series
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:021b1ae5b082880c@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261108T160000
+DTEND;TZID=America/Los_Angeles:20261108T173000
+SUMMARY:Beaverton City Library - Adult Programs: Silent Book Club
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Read quietly togeth
+ er for an hour\; chat or don't. Everyone is welcome.\nAddress: 12375 SW Fi
+ fth St\, Beaverton\, OR 97005\nPhone: 503-644-2197\nWebsite: https://www.b
+ eavertonlibrary.org/\nDetails: Added in the October 2026 discovery sweep\;
+  the database had no Beaverton City Library entry. Dates for the second se
+ ssion of each series come from the library's list view.
+LOCATION:Beaverton City Library\, Auditorium
+URL:https://www.beavertonlibrary.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2b1e3e1481bead45@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261213T160000
+DTEND;TZID=America/Los_Angeles:20261213T173000
+SUMMARY:Beaverton City Library - Adult Programs: Silent Book Club
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Read quietly togeth
+ er for an hour\; chat or don't. Everyone is welcome.\nAddress: 12375 SW Fi
+ fth St\, Beaverton\, OR 97005\nPhone: 503-644-2197\nWebsite: https://www.b
+ eavertonlibrary.org/\nDetails: Added in the October 2026 discovery sweep\;
+  the database had no Beaverton City Library entry. Dates for the second se
+ ssion of each series come from the library's list view.
+LOCATION:Beaverton City Library\, Auditorium
+URL:https://www.beavertonlibrary.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c5cdefd4aeac3d82@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261102T173000
+DTEND;TZID=America/Los_Angeles:20261102T190000
+SUMMARY:Beaverton City Library - Adult Programs: Song Circle
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Sing and play songs
+  together\; lyrics and chords provided.\nAddress: 12375 SW Fifth St\, Beav
+ erton\, OR 97005\nPhone: 503-644-2197\nWebsite: https://www.beavertonlibra
+ ry.org/\nDetails: Added in the October 2026 discovery sweep\; the database
+  had no Beaverton City Library entry. Dates for the second session of each
+  series come from the library's list view.
+LOCATION:Beaverton City Library\, Cathy Stanton Conference Room
+URL:https://www.beavertonlibrary.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d51f57f38fb44ec6@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261207T173000
+DTEND;TZID=America/Los_Angeles:20261207T190000
+SUMMARY:Beaverton City Library - Adult Programs: Song Circle
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Sing and play songs
+  together\; lyrics and chords provided.\nAddress: 12375 SW Fifth St\, Beav
+ erton\, OR 97005\nPhone: 503-644-2197\nWebsite: https://www.beavertonlibra
+ ry.org/\nDetails: Added in the October 2026 discovery sweep\; the database
+  had no Beaverton City Library entry. Dates for the second session of each
+  series come from the library's list view.
+LOCATION:Beaverton City Library\, Cathy Stanton Conference Room
+URL:https://www.beavertonlibrary.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f8ad49cef0d47aec@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261205T140000
+DTEND;TZID=America/Los_Angeles:20261205T153000
+SUMMARY:Beaverton City Library - Adult Programs: Beaverton Community Band H
+ oliday Concert
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: All ages\; doors op
+ en 1:30pm.\nAddress: 12375 SW Fifth St\, Beaverton\, OR 97005\nPhone: 503-
+ 644-2197\nWebsite: https://www.beavertonlibrary.org/\nDetails: Added in th
+ e October 2026 discovery sweep\; the database had no Beaverton City Librar
+ y entry. Dates for the second session of each series come from the library
+ 's list view.
+LOCATION:Beaverton City Library\, Auditorium
+URL:https://www.beavertonlibrary.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f017249ffa8e1d78@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261119T110000
+DTEND;TZID=America/Los_Angeles:20261119T120000
+SUMMARY:Beaverton City Library - Adult Programs: Death Cafe
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: A discussion group 
+ about death and dying\, not a grief support or counseling session.\nAddres
+ s: 12375 SW Fifth St\, Beaverton\, OR 97005\nPhone: 503-644-2197\nWebsite:
+  https://www.beavertonlibrary.org/\nDetails: Added in the October 2026 dis
+ covery sweep\; the database had no Beaverton City Library entry. Dates for
+  the second session of each series come from the library's list view.
+LOCATION:Beaverton City Library
+URL:https://www.beavertonlibrary.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c1a5c889d0d5d95f@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261217T110000
+DTEND;TZID=America/Los_Angeles:20261217T120000
+SUMMARY:Beaverton City Library - Adult Programs: Death Cafe
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: A discussion group 
+ about death and dying\, not a grief support or counseling session.\nAddres
+ s: 12375 SW Fifth St\, Beaverton\, OR 97005\nPhone: 503-644-2197\nWebsite:
+  https://www.beavertonlibrary.org/\nDetails: Added in the October 2026 dis
+ covery sweep\; the database had no Beaverton City Library entry. Dates for
+  the second session of each series come from the library's list view.
+LOCATION:Beaverton City Library
+URL:https://www.beavertonlibrary.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4f56155096f0f23e@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261031T140000
+DTEND;TZID=America/Los_Angeles:20261031T150000
+SUMMARY:Beaverton City Library - Adult Programs: English Conversation Club
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: 12375 SW Fifth S
+ t\, Beaverton\, OR 97005\nPhone: 503-644-2197\nWebsite: https://www.beaver
+ tonlibrary.org/\nDetails: Added in the October 2026 discovery sweep\; the 
+ database had no Beaverton City Library entry. Dates for the second session
+  of each series come from the library's list view.
+LOCATION:Beaverton City Library\, Cathy Stanton Conference Room
+URL:https://www.beavertonlibrary.org/
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20261227T075959Z
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9ed860dc75bbe494@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261111T110000
+DTEND;TZID=America/Los_Angeles:20261111T120000
+SUMMARY:Sherwood Center for the Arts - Veterans Day Event and Monday Mic Ni
+ ght: City of Sherwood Veterans Day Recognition Event
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Doors open 10:45am.
+  Music by the Tristan Weitkamp Jazz Ensemble and the Sherwood Mixolydians\
+ , remarks from elected officials\, light refreshments. The page body says 
+ Tuesday\, November 11\; the calendar line says Wednesday\, which matches 2
+ 026.\nAddress: 22689 SW Pine St\, Sherwood\, OR 97140\nPhone: 503-625-4278
+ \nWebsite: https://www.sherwoodcenterforthearts.org/\nDetails: Added in th
+ e October 2026 discovery sweep. The end time of the Veterans Day event is 
+ not stated\; the schedule shows an assumed one hour.
+LOCATION:Sherwood Center for the Arts\, 22689 SW Pine St\, Sherwood\, OR 97
+ 140
+URL:https://www.sherwoodcenterforthearts.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b31eb7fa3d708339@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261109T190000
+DTEND;TZID=America/Los_Angeles:20261109T210000
+SUMMARY:Sherwood Center for the Arts - Veterans Day Event and Monday Mic Ni
+ ght: Monday Mic Night
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: All-ages\, family-f
+ riendly open mic\; sign up to perform at 6:30pm\, or just listen. The last
+  date on the 2026 schedule.\nAddress: 22689 SW Pine St\, Sherwood\, OR 971
+ 40\nPhone: 503-625-4278\nWebsite: https://www.sherwoodcenterforthearts.org
+ /\nDetails: Added in the October 2026 discovery sweep. The end time of the
+  Veterans Day event is not stated\; the schedule shows an assumed one hour
+ .
+LOCATION:Sherwood Center for the Arts\, 22689 SW Pine St\, Sherwood\, OR 97
+ 140
+URL:https://www.sherwoodcenterforthearts.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4205e8231e5e86fa@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261107
+SUMMARY:Milagro Altares y Muertos (Central Eastside Dia de Muertos)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nNote: Exhibition: no tick
+ ets or reservations required. The tour is free\; the page also shows pay-w
+ hat-you-wish.\nAddress: El Zocalo at El Centro Milagro\, 537 SE Stark St\,
+  Portland\, OR 97214\nPhone: 503-236-7253\nWebsite: https://milagro.org/ev
+ ent/altares-y-muertos-public-art-exhibition/\nDetails: Added in the Octobe
+ r 2026 discovery sweep. Not free and left out: Cumbia con los Muertos\, Ma
+ rigolds y Memorias\, and the Viva Milagro fundraiser.
+LOCATION:El Zocalo at El Centro Milagro\, 537 SE Stark St\, Portland\, OR 9
+ 7214
+URL:https://milagro.org/event/altares-y-muertos-public-art-exhibition/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6cafba6f5073d32f@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261031T113000
+DTEND;TZID=America/Los_Angeles:20261031T150000
+SUMMARY:Milagro Altares y Muertos (Central Eastside Dia de Muertos): Altare
+ s y Muertos Tour
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Guided bike or walk
+  route past the altars\, departing around noon. The page has a Reserve you
+ r space button.\nAddress: El Zocalo at El Centro Milagro\, 537 SE Stark St
+ \, Portland\, OR 97214\nPhone: 503-236-7253\nWebsite: https://milagro.org/
+ event/altares-y-muertos-public-art-exhibition/\nDetails: Added in the Octo
+ ber 2026 discovery sweep. Not free and left out: Cumbia con los Muertos\, 
+ Marigolds y Memorias\, and the Viva Milagro fundraiser.
+LOCATION:Starts at El Zocalo\, 537 SE Stark St\, Portland\, OR 97214
+URL:https://milagro.org/event/altares-y-muertos-public-art-exhibition/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dcb7cdf37137b4ca@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261031T110000
+DTEND;TZID=America/Los_Angeles:20261031T130000
+SUMMARY:Milagro Altares y Muertos (Central Eastside Dia de Muertos): Lectur
+ a de los Muertos
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: El Zocalo at El 
+ Centro Milagro\, 537 SE Stark St\, Portland\, OR 97214\nPhone: 503-236-725
+ 3\nWebsite: https://milagro.org/event/altares-y-muertos-public-art-exhibit
+ ion/\nDetails: Added in the October 2026 discovery sweep. Not free and lef
+ t out: Cumbia con los Muertos\, Marigolds y Memorias\, and the Viva Milagr
+ o fundraiser.
+LOCATION:Nossa Familia Coffee\, 1633 SE 3rd Ave\, Portland\, OR 97214
+URL:https://milagro.org/event/altares-y-muertos-public-art-exhibition/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:678d5039164720d2@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261030T180000
+DTEND;TZID=America/Los_Angeles:20261030T200000
+SUMMARY:Milagro Altares y Muertos (Central Eastside Dia de Muertos): Pinta 
+ Calaveritas
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Ages 14 and up\; do
+ nations appreciated.\nAddress: El Zocalo at El Centro Milagro\, 537 SE Sta
+ rk St\, Portland\, OR 97214\nPhone: 503-236-7253\nWebsite: https://milagro
+ .org/event/altares-y-muertos-public-art-exhibition/\nDetails: Added in the
+  October 2026 discovery sweep. Not free and left out: Cumbia con los Muert
+ os\, Marigolds y Memorias\, and the Viva Milagro fundraiser.
+LOCATION:Hey Doc Clinic\, 1221 SE Madison St\, Portland\, OR 97214
+URL:https://milagro.org/event/altares-y-muertos-public-art-exhibition/
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -2041,21 +2388,24 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2db1062664d6bbdb@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261025T000000Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261109
 SUMMARY:Portland Book Festival
-DESCRIPTION:Category: Arts & Culture\nCost: Youth 17 and under FREE\; Arts 
- for All $5 tickets for Oregon Trail Card holders\; general admission charg
- ed (2025 was $18 advance / $25 day-of)\nNote: Up to two $5 Arts for All ti
- ckets per SNAP card through the Portland'5 Box Office (1111 SW Broadway\, 
- Wed-Fri 12-5pm\, or 503-248-4335)\nAddress: Portland Art Museum\, 1219 SW 
- Park Ave\, Portland\, OR 97205\nPhone: 503-248-4335\nWebsite: https://lite
- rary-arts.org/about/programs/portland-book-festival/\nDetails: Literary Ar
- ts' annual festival\, expanded to a week of events in 2026. Free for youth
- \; $5 through Arts for All.
+DESCRIPTION:Category: Arts & Culture\nCost: Main day Saturday\, November 7:
+  general admission pass $20 in advance or $27 at the box office\; Arts for
+  All $5 (Oregon Trail Card or SNAP ID)\; youth under 17 (or 18 with a high
+  school ID) FREE\; veterans and active military FREE with ID. A wristband 
+ is required for everyone. 14 Cover to Cover events around town\, November 
+ 2-8\, are labeled free.\nNote: Bring your Oregon Trail Card or SNAP ID for
+  Arts for All. The festival's passes-and-tickets page has the current wris
+ tband pickup details. The Umbrella All-Access passes are sold out.\nAddres
+ s: Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR 97205\nPhone: 50
+ 3-248-4335\nWebsite: https://pdxbookfest.org/\nDetails: Literary Arts' ann
+ ual festival\, expanded to a week of events in 2026. Free for youth\; $5 t
+ hrough Arts for All.
 LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR 97205
-URL:https://literary-arts.org/about/programs/portland-book-festival/
+URL:https://pdxbookfest.org/
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT

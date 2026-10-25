@@ -25,20 +25,457 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:a765ab03c489889f@portlandresources.org
-DTSTAMP:20260910T000000Z
-DTSTART;VALUE=DATE:20261103
+UID:9d1b495f6e1a171f@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20270101
+SUMMARY:Explore Health (Oregon Health Insurance Marketplace) - 2027 Open En
+ rollment
+DESCRIPTION:Category: Discount Programs\nCost: FREE help signing up\; plan 
+ premiums vary\, with income-based financial help\nNote: Help from enrollme
+ nt assisters and agents is free of charge.\nPhone: 855-268-3767\nWebsite: 
+ https://healthcare.oregon.gov/explorehealth/\nEligibility: Oregonians who 
+ buy their own health insurance and are not enrolled in job-based coverage 
+ or the Oregon Health Plan\nDetails: Added in the October 2026 discovery sw
+ eep\; the database had no marketplace entry. The enrollment window is ente
+ red as two same-year ranges because the calendar parser does not read a ra
+ nge that crosses a year boundary.
+URL:https://healthcare.oregon.gov/explorehealth/
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:23271af3f2a2f990@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270116
+SUMMARY:Explore Health (Oregon Health Insurance Marketplace) - 2027 Open En
+ rollment
+DESCRIPTION:Category: Discount Programs\nCost: FREE help signing up\; plan 
+ premiums vary\, with income-based financial help\nNote: Help from enrollme
+ nt assisters and agents is free of charge.\nPhone: 855-268-3767\nWebsite: 
+ https://healthcare.oregon.gov/explorehealth/\nEligibility: Oregonians who 
+ buy their own health insurance and are not enrolled in job-based coverage 
+ or the Oregon Health Plan\nDetails: Added in the October 2026 discovery sw
+ eep\; the database had no marketplace entry. The enrollment window is ente
+ red as two same-year ranges because the calendar parser does not read a ra
+ nge that crosses a year boundary.
+URL:https://healthcare.oregon.gov/explorehealth/
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:25cfb64135e64d62@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Multnomah County SHIBA Medicare Open Enrollment Help: SHIBA help - 
+ Community for Positive Aging
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: By appointment\;
+  call 503-988-3646\, option 3.\nPhone: 503-988-3646\nWebsite: https://www.
+ multco.us/services/shiba\nDetails: Added in the October 2026 discovery swe
+ ep. The Washington County sessions are in washington-shiba-medicare-help.
+LOCATION:1820 NE 40th Ave\, Portland\, OR 97212
+URL:https://www.multco.us/services/shiba
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4ca4867cad4ccfc1@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Multnomah County SHIBA Medicare Open Enrollment Help: SHIBA help - 
+ Community for Positive Aging
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: By appointment\;
+  call 503-988-3646\, option 3.\nPhone: 503-988-3646\nWebsite: https://www.
+ multco.us/services/shiba\nDetails: Added in the October 2026 discovery swe
+ ep. The Washington County sessions are in washington-shiba-medicare-help.
+LOCATION:1820 NE 40th Ave\, Portland\, OR 97212
+URL:https://www.multco.us/services/shiba
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:58871916aec709c7@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Multnomah County SHIBA Medicare Open Enrollment Help: SHIBA help - 
+ Hollywood Library
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: By appointment\;
+  call 503-988-3646\, option 3.\nPhone: 503-988-3646\nWebsite: https://www.
+ multco.us/services/shiba\nDetails: Added in the October 2026 discovery swe
+ ep. The Washington County sessions are in washington-shiba-medicare-help.
+LOCATION:4040 NE Tillamook St\, Portland\, OR 97212
+URL:https://www.multco.us/services/shiba
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:28e8bfea2d2e93aa@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Multnomah County SHIBA Medicare Open Enrollment Help: SHIBA help - 
+ Hollywood Library
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: By appointment\;
+  call 503-988-3646\, option 3.\nPhone: 503-988-3646\nWebsite: https://www.
+ multco.us/services/shiba\nDetails: Added in the October 2026 discovery swe
+ ep. The Washington County sessions are in washington-shiba-medicare-help.
+LOCATION:4040 NE Tillamook St\, Portland\, OR 97212
+URL:https://www.multco.us/services/shiba
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c752a7b7408bfedc@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Multnomah County SHIBA Medicare Open Enrollment Help: SHIBA help - 
+ Albina Library
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: By appointment\;
+  call 503-988-3646\, option 3.\nPhone: 503-988-3646\nWebsite: https://www.
+ multco.us/services/shiba\nDetails: Added in the October 2026 discovery swe
+ ep. The Washington County sessions are in washington-shiba-medicare-help.
+LOCATION:205 NE Russell St\, Portland\, OR 97212
+URL:https://www.multco.us/services/shiba
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:23680d11616d4db1@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Multnomah County SHIBA Medicare Open Enrollment Help: SHIBA help - 
+ Albina Library
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: By appointment\;
+  call 503-988-3646\, option 3.\nPhone: 503-988-3646\nWebsite: https://www.
+ multco.us/services/shiba\nDetails: Added in the October 2026 discovery swe
+ ep. The Washington County sessions are in washington-shiba-medicare-help.
+LOCATION:205 NE Russell St\, Portland\, OR 97212
+URL:https://www.multco.us/services/shiba
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:70261186096383fb@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Multnomah County SHIBA Medicare Open Enrollment Help: SHIBA help - 
+ Neighborhood House Senior Center
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: By appointment\;
+  call 503-988-3646\, option 3.\nPhone: 503-988-3646\nWebsite: https://www.
+ multco.us/services/shiba\nDetails: Added in the October 2026 discovery swe
+ ep. The Washington County sessions are in washington-shiba-medicare-help.
+LOCATION:8959 SW Barbur Blvd\, Portland\, OR 97219
+URL:https://www.multco.us/services/shiba
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:105425cc2c6f3e83@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Multnomah County SHIBA Medicare Open Enrollment Help: SHIBA help - 
+ Neighborhood House Senior Center
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: By appointment\;
+  call 503-988-3646\, option 3.\nPhone: 503-988-3646\nWebsite: https://www.
+ multco.us/services/shiba\nDetails: Added in the October 2026 discovery swe
+ ep. The Washington County sessions are in washington-shiba-medicare-help.
+LOCATION:8959 SW Barbur Blvd\, Portland\, OR 97219
+URL:https://www.multco.us/services/shiba
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:503752159aa35a8a@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Multnomah County SHIBA Medicare Open Enrollment Help: SHIBA help - 
+ Multnomah County Aging Services
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: By appointment\;
+  call 503-988-3646\, option 3.\nPhone: 503-988-3646\nWebsite: https://www.
+ multco.us/services/shiba\nDetails: Added in the October 2026 discovery swe
+ ep. The Washington County sessions are in washington-shiba-medicare-help.
+LOCATION:4610 SE Belmont St\, Portland\, OR 97215
+URL:https://www.multco.us/services/shiba
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7e1d58443680c3d2@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Multnomah County SHIBA Medicare Open Enrollment Help: SHIBA help - 
+ Multnomah County Aging Services
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: By appointment\;
+  call 503-988-3646\, option 3.\nPhone: 503-988-3646\nWebsite: https://www.
+ multco.us/services/shiba\nDetails: Added in the October 2026 discovery swe
+ ep. The Washington County sessions are in washington-shiba-medicare-help.
+LOCATION:4610 SE Belmont St\, Portland\, OR 97215
+URL:https://www.multco.us/services/shiba
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:33fe7ad3444bcb81@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
+SUMMARY:Multnomah County SHIBA Medicare Open Enrollment Help: SHIBA help - 
+ Holgate Library
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: By appointment\;
+  call 503-988-3646\, option 3.\nPhone: 503-988-3646\nWebsite: https://www.
+ multco.us/services/shiba\nDetails: Added in the October 2026 discovery swe
+ ep. The Washington County sessions are in washington-shiba-medicare-help.
+LOCATION:7905 SE Holgate Blvd\, Portland\, OR 97206
+URL:https://www.multco.us/services/shiba
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5bd46e615760d183@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Multnomah County SHIBA Medicare Open Enrollment Help: SHIBA help - 
+ Central Library
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: By appointment\;
+  call 503-988-3646\, option 3.\nPhone: 503-988-3646\nWebsite: https://www.
+ multco.us/services/shiba\nDetails: Added in the October 2026 discovery swe
+ ep. The Washington County sessions are in washington-shiba-medicare-help.
+LOCATION:801 SW 10th Ave\, Portland\, OR 97205
+URL:https://www.multco.us/services/shiba
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0b237024b826d658@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Multnomah County SHIBA Medicare Open Enrollment Help: SHIBA help - 
+ Midland Library
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: By appointment\;
+  call 503-988-3646\, option 3.\nPhone: 503-988-3646\nWebsite: https://www.
+ multco.us/services/shiba\nDetails: Added in the October 2026 discovery swe
+ ep. The Washington County sessions are in washington-shiba-medicare-help.
+LOCATION:805 SE 122nd Ave\, Portland\, OR 97233
+URL:https://www.multco.us/services/shiba
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a9c9a7a72ed29ccc@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Multnomah County SHIBA Medicare Open Enrollment Help: SHIBA help - 
+ East County Library
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: By appointment\;
+  call 503-988-3646\, option 3. The county flyer prints 427 NW Division\; t
+ he county page and the library use 475.\nPhone: 503-988-3646\nWebsite: htt
+ ps://www.multco.us/services/shiba\nDetails: Added in the October 2026 disc
+ overy sweep. The Washington County sessions are in washington-shiba-medica
+ re-help.
+LOCATION:475 NW Division St\, Gresham\, OR 97030
+URL:https://www.multco.us/services/shiba
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:408dd181bd98d148@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261030T100000
+DTEND;TZID=America/Los_Angeles:20261030T150000
+SUMMARY:Washington County SHIBA Medicare Help Sessions: SHIBA walk-in help 
+ - DAVS (Hillsboro)
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: Walk-ins only on
+  Fridays. No session November 27.\nPhone: 503-846-3094\nWebsite: https://w
+ ww.washingtoncountyor.gov/davs/medicare-help\nDetails: Added in the Octobe
+ r 2026 discovery sweep. Juanita Pohl Center already lists SHIBA counseling
+ \; this entry adds the other sites.
+LOCATION:DAVS\, 5240 NE Elam Young Pkwy\, Hillsboro\, OR 97124
+URL:https://www.washingtoncountyor.gov/davs/medicare-help
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d962780ddfcdb586@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261106T100000
+DTEND;TZID=America/Los_Angeles:20261106T150000
+SUMMARY:Washington County SHIBA Medicare Help Sessions: SHIBA walk-in help 
+ - DAVS (Hillsboro)
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: Walk-ins only on
+  Fridays. No session November 27.\nPhone: 503-846-3094\nWebsite: https://w
+ ww.washingtoncountyor.gov/davs/medicare-help\nDetails: Added in the Octobe
+ r 2026 discovery sweep. Juanita Pohl Center already lists SHIBA counseling
+ \; this entry adds the other sites.
+LOCATION:DAVS\, 5240 NE Elam Young Pkwy\, Hillsboro\, OR 97124
+URL:https://www.washingtoncountyor.gov/davs/medicare-help
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cfd82c16f5019389@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261113T100000
+DTEND;TZID=America/Los_Angeles:20261113T150000
+SUMMARY:Washington County SHIBA Medicare Help Sessions: SHIBA walk-in help 
+ - DAVS (Hillsboro)
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: Walk-ins only on
+  Fridays. No session November 27.\nPhone: 503-846-3094\nWebsite: https://w
+ ww.washingtoncountyor.gov/davs/medicare-help\nDetails: Added in the Octobe
+ r 2026 discovery sweep. Juanita Pohl Center already lists SHIBA counseling
+ \; this entry adds the other sites.
+LOCATION:DAVS\, 5240 NE Elam Young Pkwy\, Hillsboro\, OR 97124
+URL:https://www.washingtoncountyor.gov/davs/medicare-help
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:07a3e431a3681c22@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261120T100000
+DTEND;TZID=America/Los_Angeles:20261120T150000
+SUMMARY:Washington County SHIBA Medicare Help Sessions: SHIBA walk-in help 
+ - DAVS (Hillsboro)
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: Walk-ins only on
+  Fridays. No session November 27.\nPhone: 503-846-3094\nWebsite: https://w
+ ww.washingtoncountyor.gov/davs/medicare-help\nDetails: Added in the Octobe
+ r 2026 discovery sweep. Juanita Pohl Center already lists SHIBA counseling
+ \; this entry adds the other sites.
+LOCATION:DAVS\, 5240 NE Elam Young Pkwy\, Hillsboro\, OR 97124
+URL:https://www.washingtoncountyor.gov/davs/medicare-help
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1e9ed7d8e947be24@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261204T100000
+DTEND;TZID=America/Los_Angeles:20261204T150000
+SUMMARY:Washington County SHIBA Medicare Help Sessions: SHIBA walk-in help 
+ - DAVS (Hillsboro)
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: Walk-ins only on
+  Fridays. No session November 27.\nPhone: 503-846-3094\nWebsite: https://w
+ ww.washingtoncountyor.gov/davs/medicare-help\nDetails: Added in the Octobe
+ r 2026 discovery sweep. Juanita Pohl Center already lists SHIBA counseling
+ \; this entry adds the other sites.
+LOCATION:DAVS\, 5240 NE Elam Young Pkwy\, Hillsboro\, OR 97124
+URL:https://www.washingtoncountyor.gov/davs/medicare-help
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fc0a55ae58e4b400@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261028T120000
+DTEND;TZID=America/Los_Angeles:20261028T140000
+SUMMARY:Washington County SHIBA Medicare Help Sessions: SHIBA walk-in help 
+ - Hillsboro Senior Center
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: Walk-ins on Wedn
+ esdays. No session November 11.\nPhone: 503-846-3094\nWebsite: https://www
+ .washingtoncountyor.gov/davs/medicare-help\nDetails: Added in the October 
+ 2026 discovery sweep. Juanita Pohl Center already lists SHIBA counseling\;
+  this entry adds the other sites.
+LOCATION:Hillsboro Senior Center\, 750 SE 8th Ave\, Hillsboro\, OR 97123
+URL:https://www.washingtoncountyor.gov/davs/medicare-help
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fb671d20bb1e338b@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261104T120000
+DTEND;TZID=America/Los_Angeles:20261104T140000
+SUMMARY:Washington County SHIBA Medicare Help Sessions: SHIBA walk-in help 
+ - Hillsboro Senior Center
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: Walk-ins on Wedn
+ esdays. No session November 11.\nPhone: 503-846-3094\nWebsite: https://www
+ .washingtoncountyor.gov/davs/medicare-help\nDetails: Added in the October 
+ 2026 discovery sweep. Juanita Pohl Center already lists SHIBA counseling\;
+  this entry adds the other sites.
+LOCATION:Hillsboro Senior Center\, 750 SE 8th Ave\, Hillsboro\, OR 97123
+URL:https://www.washingtoncountyor.gov/davs/medicare-help
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5716f4122fa71623@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261118T120000
+DTEND;TZID=America/Los_Angeles:20261118T140000
+SUMMARY:Washington County SHIBA Medicare Help Sessions: SHIBA walk-in help 
+ - Hillsboro Senior Center
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: Walk-ins on Wedn
+ esdays. No session November 11.\nPhone: 503-846-3094\nWebsite: https://www
+ .washingtoncountyor.gov/davs/medicare-help\nDetails: Added in the October 
+ 2026 discovery sweep. Juanita Pohl Center already lists SHIBA counseling\;
+  this entry adds the other sites.
+LOCATION:Hillsboro Senior Center\, 750 SE 8th Ave\, Hillsboro\, OR 97123
+URL:https://www.washingtoncountyor.gov/davs/medicare-help
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3b0cbb15b5816a9d@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261125T120000
+DTEND;TZID=America/Los_Angeles:20261125T140000
+SUMMARY:Washington County SHIBA Medicare Help Sessions: SHIBA walk-in help 
+ - Hillsboro Senior Center
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: Walk-ins on Wedn
+ esdays. No session November 11.\nPhone: 503-846-3094\nWebsite: https://www
+ .washingtoncountyor.gov/davs/medicare-help\nDetails: Added in the October 
+ 2026 discovery sweep. Juanita Pohl Center already lists SHIBA counseling\;
+  this entry adds the other sites.
+LOCATION:Hillsboro Senior Center\, 750 SE 8th Ave\, Hillsboro\, OR 97123
+URL:https://www.washingtoncountyor.gov/davs/medicare-help
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cd1615f19dceed7c@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;TZID=America/Los_Angeles:20261202T120000
+DTEND;TZID=America/Los_Angeles:20261202T140000
+SUMMARY:Washington County SHIBA Medicare Help Sessions: SHIBA walk-in help 
+ - Hillsboro Senior Center
+DESCRIPTION:Category: Discount Programs\nCost: FREE\nInfo: Walk-ins on Wedn
+ esdays. No session November 11.\nPhone: 503-846-3094\nWebsite: https://www
+ .washingtoncountyor.gov/davs/medicare-help\nDetails: Added in the October 
+ 2026 discovery sweep. Juanita Pohl Center already lists SHIBA counseling\;
+  this entry adds the other sites.
+LOCATION:Hillsboro Senior Center\, 750 SE 8th Ave\, Hillsboro\, OR 97123
+URL:https://www.washingtoncountyor.gov/davs/medicare-help
+CATEGORIES:Discount Programs
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:65b0f08b96d2d689@portlandresources.org
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261109
 SUMMARY:Oregon Zoo Discount Days & Income-Qualified Admission: Fall Discoun
  t Days
 DESCRIPTION:Category: Discount Programs\nCost: $13 admission for everyone\n
- Info: Half of the regular $26 adult price\; federal employees including mi
- litary and postal workers free\, limit four\nAddress: Oregon Zoo\, 4001 SW
-  Canyon Rd\, Portland\, OR 97221\nPhone: 503-226-1561\nWebsite: https://ww
- w.oregonzoo.org/discounts\nDetails: Standing $13 income-qualified admissio
- n plus the annual Fall Discount Days week\, November 3-9\, 2026. The Novem
- ber dates came from a search summary of the zoo page - confirm on oregonzo
- o.org before promoting.
+ Info: Half of the regular $26 adult price. Cannot be combined with other d
+ iscounts\, including membership. Infants 0-1 are free with a paid adult ti
+ cket.\nAddress: Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221\nPhon
+ e: 503-226-1561\nWebsite: https://www.oregonzoo.org/discounts\nDetails: St
+ anding $13 income-qualified admission plus the annual Fall Discount Days w
+ eek\, November 2-8\, 2026. Confirmed on oregonzoo.org's event page on 2026
+ -10-25\; the page prints no year\, but November 2-8 is a Monday-to-Sunday 
+ week listed beside the 2026 ZooLights dates.
 LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
 URL:https://www.oregonzoo.org/discounts
 CATEGORIES:Discount Programs

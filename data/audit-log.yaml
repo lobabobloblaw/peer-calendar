@@ -5462,3 +5462,545 @@
     - id: milwaukie-community-center
       status: updated
       changes: "Woodcarvers note now cites the 2025 summer guide times; no fall 2026 guide found. Still due"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Oregon Zoo ZooLights"
+  entries_audited: 1
+  entries:
+    - id: oregon-zoo-zoolights
+      status: updated
+      changes: "Closed Nov 24-26 and Dec 25 split out of the date range; added the $13 income-assistance ticket terms, TriMet fare benefit, and 21+ nights; dropped the expired 10% deal"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Tree Lighting Ceremony"
+  entries_audited: 1
+  entries:
+    - id: portland-tree-lighting
+      status: updated
+      changes: "Date, time, venue confirmed; removed the unsupported 75-foot tree figure; added the Nov 10 tree arrival"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Christmas Ships Parade"
+  entries_audited: 1
+  entries:
+    - id: christmas-ships-parade
+      status: updated
+      changes: "All 15 nights confirmed; Meet & Greet renamed"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Tualatin Light Parades"
+  entries_audited: 1
+  entries:
+    - id: tualatin-light-parades
+      status: updated
+      changes: "Dates, 6pm start, and route areas confirmed on the city page; VERIFY cleared"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Oregon City Holiday Tree Lighting"
+  entries_audited: 1
+  entries:
+    - id: oregon-city-tree-lighting
+      status: updated
+      changes: "End time corrected to 6:30pm and URL fixed; venue and price still unconfirmed"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Happy Valley Tree Lighting"
+  entries_audited: 1
+  entries:
+    - id: happy-valley-tree-lighting
+      status: updated
+      changes: "Sunday Dec 6, 4-6pm at City Hall confirmed on the 2026 city page"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Peacock Lane Holiday Lights"
+  entries_audited: 1
+  entries:
+    - id: peacock-lane
+      status: updated
+      changes: "2026 season confirmed on homepage and FAQ; end time settled at 10pm; VERIFY cleared"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Severe Weather Shelters (Multnomah County)"
+  entries_audited: 1
+  entries:
+    - id: severe-weather-shelters-multnomah
+      status: verified
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Winter & Severe Weather Shelter (Washington County)"
+  entries_audited: 1
+  entries:
+    - id: winter-shelter-washington-county
+      status: updated
+      changes: "Added severe-weather thresholds and sites from the Jan 2026 county release; referral-only and waitlist caveats"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Warming Centers & Severe Weather Shelter (Clackamas County)"
+  entries_audited: 1
+  entries:
+    - id: warming-centers-clackamas
+      status: updated
+      changes: "Confirmed 33F threshold on the county winter page; summer list still showing"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Home Energy Assistance (LIHEAP) - Tri-County"
+  entries_audited: 1
+  entries:
+    - id: energy-assistance-tri-county
+      status: updated
+      changes: "2026-27 income limits; Our Just Future energy line closed Sept 18, Multnomah applies via 211info; Washington window is Oct 1-31"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Saturday Market"
+  entries_audited: 1
+  entries:
+    - id: portland-saturday-market
+      status: updated
+      changes: "Season end Dec 19 confirmed; added phone; dropped the unsupported live-music times"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Hollywood Farmers Market"
+  entries_audited: 1
+  entries:
+    - id: hollywood-farmers-market
+      status: updated
+      changes: "Hours and Dec 19 season end confirmed; added phone"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Saturday Market (January-March)"
+  entries_audited: 1
+  entries:
+    - id: portland-farmers-market-psu
+      status: updated
+      changes: "Closed Dec 26; winter market split into Nov-Dec and Jan-Mar programs"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Lake Oswego Farmers' Market"
+  entries_audited: 1
+  entries:
+    - id: lake-oswego-farmers-market
+      status: updated
+      changes: "Season end and Nov 21 Reunion market confirmed; converted unsupported special_events to a program so it reaches the calendar"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Gresham Farmers' Market"
+  entries_audited: 1
+  entries:
+    - id: gresham-farmers-market
+      status: updated
+      changes: "Season Oct 31 end confirmed; start corrected to May 2; added phone"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Milwaukie Farmers Market"
+  entries_audited: 1
+  entries:
+    - id: milwaukie-farmers-market
+      status: updated
+      changes: "Added the Nov 22 Thanksgiving Market; still flagged for a stale date in the news post"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Friends of Trees"
+  entries_audited: 1
+  entries:
+    - id: friends-of-trees
+      status: updated
+      changes: "Registration required; 13 dated tri-county plantings Oct 31-Dec 12 added from the organizer calendar; removed unsupported potluck"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Yoga, All Levels"
+  entries_audited: 1
+  entries:
+    - id: thprd-fitness-in-park
+      status: updated
+      changes: "Added six fall classes; term Sept 14-Dec 13 confirmed"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Milwaukie First Friday"
+  entries_audited: 1
+  entries:
+    - id: milwaukie-first-friday
+      status: verified
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Plates for the People (at Alano Club)"
+  entries_audited: 1
+  entries:
+    - id: plates-for-the-people
+      status: updated
+      changes: "Venue corrected to Cookshop, 2625 SE 26th Ave; Oct 27 class is sold out"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Portland Book Festival"
+  entries_audited: 1
+  entries:
+    - id: portland-book-festival
+      status: updated
+      changes: "2026 prices and free-event details added"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - OMSI (Oregon Museum of Science and Industry)"
+  entries_audited: 1
+  entries:
+    - id: omsi
+      status: updated
+      changes: "Current admission prices; Arts for All is now OMSI for All at $8"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Oregon Zoo Discount Days & Income-Qualified Admission"
+  entries_audited: 1
+  entries:
+    - id: oregon-zoo-discount-days
+      status: updated
+      changes: "Fall Discount Days corrected to Nov 2-8"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Clackamas County Repair Fairs"
+  entries_audited: 1
+  entries:
+    - id: clackamas-county-repair-fairs
+      status: updated
+      changes: "Nov 7 fair confirmed; room to be announced"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Repair PDX"
+  entries_audited: 1
+  entries:
+    - id: repair-pdx
+      status: updated
+      changes: "Added the Nov 14 Repair Cafe; December not yet published"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Art in the Burbs"
+  entries_audited: 1
+  entries:
+    - id: art-in-the-burbs
+      status: updated
+      changes: "Dates, hours, venue, and $3 suggested donation confirmed; VERIFY cleared"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - PCC Theatre"
+  entries_audited: 1
+  entries:
+    - id: pcc-theatre
+      status: updated
+      changes: "Shakespeare Scenes confirmed free in ST 108; Midsummer showtimes added"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Hillsboro Holly Days Celebration"
+  entries_audited: 1
+  entries:
+    - id: hillsboro-holly-days
+      status: updated
+      changes: "Date and hours confirmed; price not stated, flag narrowed"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Oregon Free Fishing Weekends"
+  entries_audited: 1
+  entries:
+    - id: free-fishing-weekends
+      status: verified
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Día de los Muertos (Gresham)"
+  entries_audited: 1
+  entries:
+    - id: dia-muertos-gresham
+      status: updated
+      changes: "2026 event exists: Sunday Nov 1, 9am-5pm at Futbarrio; price not listed"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Wood Village Pumpkin Fest"
+  entries_audited: 1
+  entries:
+    - id: wood-village-pumpkin-fest
+      status: updated
+      changes: "Event page confirmed Oct 24; event is now past; VERIFY cleared"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Union Gospel Mission Portland (Free Meals)"
+  entries_audited: 1
+  entries:
+    - id: union-gospel-mission-portland
+      status: updated
+      changes: "Meals are to-go Wed-Sat only per the mission's own page, not three daily meals"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Blanchet House of Hospitality"
+  entries_audited: 1
+  entries:
+    - id: blanchet-house
+      status: updated
+      changes: "Closed Thanksgiving Day per its 2026 list"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Loaves & Fishes Senior Dining Centers"
+  entries_audited: 1
+  entries:
+    - id: loaves-fishes
+      status: updated
+      changes: "Per-center days corrected from the organizer's pages"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Potluck in the Park"
+  entries_audited: 1
+  entries:
+    - id: potluck-in-the-park
+      status: updated
+      changes: "Meal service noon-2:30pm, not 3pm"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Clackamas County Crisis & Walk-In Mental Health Center"
+  entries_audited: 1
+  entries:
+    - id: clackamas-crisis-center
+      status: updated
+      changes: "Walk-in center closed Thanksgiving, Christmas, New Year's Day"
+
+---
+- date: 2026-10-25
+  type: audit
+  auditor: user
+  summary: "Audit completed - Sikh Center of Oregon Langar"
+  entries_audited: 1
+  entries:
+    - id: sikh-center-langar
+      status: verified
+
+---
+- date: 2026-10-25
+  type: addition
+  auditor: claude
+  summary: "Audit of events through December 31 plus three discovery sweeps: 41 new entries, every date read on an organizer page"
+  entries_added: 41
+  added:
+    - id: isosld-portland
+      name: "Survivor Day, Portland (November 21, 2026; registration shown as closed, flagged)"
+    - id: lake-oswego-tree-lighting
+      name: "Lake Oswego Tree Lighting Festival (November 27, 2026)"
+    - id: milwaukie-umbrella-parade
+      name: "Milwaukie Umbrella Parade & Tree Lighting (December 5, 2026)"
+    - id: proper-thanksgiving-dinner
+      name: "Proper's Free Thanksgiving Dinner (November 26, 2026)"
+    - id: cornelius-community-dinner
+      name: "Cornelius Community Dinner (November 21, 2026)"
+    - id: cbi-community-holiday-dinner
+      name: "Congregation Beth Israel Christmas Day dinner (cost unconfirmed, flagged)"
+    - id: explore-health-oregon
+      name: "Explore Health 2027 Open Enrollment (November 1 - January 15)"
+    - id: multnomah-shiba-medicare-help
+      name: "Multnomah County SHIBA Medicare help, nine sites by appointment"
+    - id: washington-shiba-medicare-help
+      name: "Washington County SHIBA Medicare help, walk-in and appointment sites"
+    - id: nami-give-and-glow
+      name: "NAMI Multnomah Give & Glow (November 1, 2026)"
+    - id: lost-table-grief-gathering
+      name: "The Lost Table grief gathering (November 7, 2026)"
+    - id: get-trained-to-help
+      name: "Get Trained to Help free QPR classes (November 10 and 12, December 10)"
+    - id: csn-fall-health-fair
+      name: "Community Services Network Fall Health Fair (November 7, 2026)"
+    - id: portland-veterans-day-parade
+      name: "Portland Veterans Day Parade and Resource Fair (November 11, 2026; cost unconfirmed, flagged)"
+    - id: milagro-altares-y-muertos
+      name: "Milagro Altares y Muertos exhibition and tour (October 24 - November 6)"
+    - id: nara-sobriety-powwow
+      name: "NARA NW New Year's Eve Sobriety Powwow (December 31, 2026; cost unconfirmed, flagged)"
+    - id: mcl-native-heritage-month
+      name: "Multnomah County Library Native American Heritage Month programs (18 sessions)"
+    - id: mcl-adult-social-groups
+      name: "Multnomah County Library adult drop-in groups (ten series)"
+    - id: psu-music-at-midday
+      name: "PSU Music @ Midday free concerts (five Fridays)"
+    - id: spirit-of-christmas-gresham
+      name: "Spirit of Christmas, Gresham (December 5, 2026)"
+    - id: fairview-tree-lighting
+      name: "Fairview Tree Lighting (December 4, 2026)"
+    - id: troutdale-windy-wonderland
+      name: "Troutdale Windy Wonderland & Tree Lighting (December 5-6, 2026; cost not stated, flagged)"
+    - id: north-portland-free-clothing-exchange
+      name: "North Portland Free Clothing Exchange (November 15 and December 20; address conflict, flagged)"
+    - id: made-and-found-market
+      name: "Made & Found Market (November 21-22, 2026)"
+    - id: ohs-holiday-cheer
+      name: "Holiday Cheer at the Oregon Historical Society (December 6, 2026)"
+    - id: figgy-pudding-caroling
+      name: "Great Figgy Pudding Caroling Competition (December 18, 2026)"
+    - id: tuba-christmas-pdx
+      name: "Tuba Christmas Concert (December 19, 2026)"
+    - id: portland-parks-volunteer-days
+      name: "Portland Parks & Recreation volunteer days"
+    - id: gresham-safe-trick-or-treat
+      name: "Safe Trick or Treat, Gresham (October 31, 2026)"
+    - id: kenton-library-dia-de-muertos
+      name: "Fiesta del Dia de Muertos, Kenton Library (November 2, 2026)"
+    - id: beaverton-farmers-market
+      name: "Beaverton Farmers Market (through November 21; SNAP terms unconfirmed, flagged)"
+    - id: aloha-library-social-hour
+      name: "Aloha Community Library Social Hour"
+    - id: beaverton-city-library
+      name: "Beaverton City Library adult programs (Silent Book Club, Song Circle, and others)"
+    - id: wilsonville-community-events
+      name: "Wilsonville Day of the Dead, Veterans Day ceremony, and Tree Lighting"
+    - id: sherwood-center-for-the-arts-events
+      name: "Sherwood Veterans Day event and Monday Mic Night"
+    - id: thprd-newt-day
+      name: "Newt Day at the Tualatin Hills Nature Center (November 7, 2026)"
+    - id: elsie-stuhr-holiday-bazaar
+      name: "Elsie Stuhr Holiday Bazaar (December 5, 2026)"
+    - id: west-linn-holiday-bazaar
+      name: "West Linn Holiday Bazaar (November 14-15, 2026)"
+    - id: west-linn-holiday-parade
+      name: "West Linn Holiday Parade & Tree Lighting (December 5, 2026; cost not stated, flagged)"
+    - id: canby-light-up-the-night
+      name: "Canby Light Up the Night (December 4, 2026; cost not stated, flagged)"
+    - id: forest-grove-tree-lighting
+      name: "Forest Grove Holiday Tree Lighting (November 27, 2026; cost not stated, flagged)"
+  notes: "Organizer pages were readable from this local session, unlike the two cloud sweeps in September and October. Five audit workers and three discovery workers (all Sonnet 5.5) researched read-only; the lead spot-checked key facts on the raw pages before writing. Where a page states no price, the entry says so and carries a VERIFY flag instead of FREE. Geocoded with geocode_addresses.py; Lake Oswego, Canby, Forest Grove, and Cornelius could not be placed within the script's metro bounds."
+
+---
+- date: 2026-10-25
+  type: maintenance
+  auditor: claude
+  summary: "Events audit through December 31: entries changed or left unverified"
+  entries:
+    - id: lake-oswego-farmers-market
+      status: updated
+      changes: "The Reunion Farmers' Market (November 21) was stored in an unsupported special_events field and never reached the calendar; moved it to a dated program"
+    - id: portland-night-market
+      status: updated
+      changes: "pdxnm.com lists October 2-3, December 3-6, and December 18-19 but prints no year; added December 18-19 and kept the VERIFY flag. Last-verified date not advanced"
+    - id: beaverton-tree-lighting
+      status: unverified
+      changes: "The city page loads its text dynamically; the December 4 date and 4-8pm rest on a search snippet. Not changed; needs a browser read"
+    - id: st-james-bach
+      status: unverified
+      changes: "stjamespdx.org returns 403 to automated fetch; November 22 rests on a search snippet that matches the entry. Not changed"
+    - id: mhcc-planetarium
+      status: unverified
+      changes: "mhcc.edu returns 403; a snippet suggests shows on November 5 and 19 and December 3 with no December 17 show, and a card surcharge. Not changed; call 503-491-7309"
+    - id: mhcc-visual-arts-gallery
+      status: unverified
+      changes: "mhcc.edu returns 403; snippets suggest a November 5 reception and a December clay sale. Not changed"
+    - id: last-thursday-alberta
+      status: unverified
+      changes: "No source states whether November 26 (Thanksgiving) or December 31 events happen. Not changed"
+    - id: lone-fir-cemetery-tours
+      status: unverified
+      changes: "All six dates and times match the organizer's tour pages; the price rests on a search snippet. Not changed"
+    - id: tualatin-heritage-center
+      status: unverified
+      changes: "No program is posted for November or December; the Old Fashioned Christmas page returns only a template. Not changed"
+    - id: portland-rescue-mission
+      status: unverified
+      changes: "The mission's site publishes no meal times or holiday plans; Blanchet House's list shows a Thanksgiving meal on November 25 at 5:45pm. Not changed"
