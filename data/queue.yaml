@@ -26,99 +26,194 @@ pending:
   # tri-county event, but search only surfaced 2025 dates or no published time, and the
   # official pages were unreachable from that session. Confirm the 2026 date on the
   # organizer's own page before adding - do not roll last year's date forward.
-  - name: "International Survivors of Suicide Loss Day - Portland (AFSP Oregon)"
-    category: peer_support
-    priority: high
-    notes: >
-      Survivor Day 2026 is Saturday, November 21 (the Saturday before Thanksgiving). AFSP
-      Oregon hosts a Portland event plus Bend, Hood River, and Pendleton, but the Portland
-      venue and time were not published as of 2026-09-16. Area Director Helen Cotton,
-      971-375-5509. High value: a free, facilitated day specifically for people bereaved
-      by suicide.
-      Rechecked 2026-10-14: still no Portland venue or time; AFSP Oregon lists only a Nov 22 'Through a Jewish Lens' event with no location. Recheck around Nov 5.
-    source_urls:
-      - https://afsp.org/chapter/oregon
-      - https://afsp.org/international-survivors-of-suicide-loss-day/
   - name: "Transgender Day of Remembrance vigils - Portland"
     category: peer_support
     priority: high
     notes: >
-      TDOR is November 20, 2026. Q Center (4115 N Mississippi Ave), the PSU Queer Resource
-      Center, and the Goose Hollow interfaith vigil have all hosted in past years; 2026
-      details were not posted as of 2026-09-16. Check pdxqcenter.org/calendar in late
-      October.
-      Rechecked 2026-10-14: nothing for 2026 from Q Center or Basic Rights Oregon (BRO's guide is still 2025). Recheck around Nov 5.
+      TDOR is Friday, November 20, 2026. Q Center, the PSU Queer Resource Center, and the
+      Goose Hollow interfaith vigil have all hosted in past years.
+      Rechecked 2026-10-25: Q Center's calendar (pdxqcenter.org/events - the old /calendar
+      path 404s) lists no vigil through Nov 21; Basic Rights Oregon's guide is still the 2025
+      one; PSU QRC and First United Methodist have nothing. Recheck around Nov 5 and Nov 16.
+      Q Center phone 503-234-7837.
     source_urls:
-      - https://www.pdxqcenter.org/calendar
+      - https://pdxqcenter.org/events
       - https://www.basicrights.org/
   - name: "Longest Night / Homeless Persons' Memorial vigils"
     category: peer_support
     priority: medium
     notes: >
-      December 21, 2026 (winter solstice). Multiple Portland-metro vigils read the names of
-      people who died unhoused that year; past hosts include Ecumenical Ministries of
-      Oregon and Rose Haven. Organizers usually announce in early December.
-      Rechecked 2026-10-14: no Portland, Oregon listings yet. Recheck in early December.
+      Monday, December 21, 2026 (winter solstice). Multiple Portland-metro vigils read the
+      names of people who died unhoused that year.
+      Rechecked 2026-10-25: nothing for 2026; Ecumenical Ministries of Oregon lists no
+      events. In 2025 the Portland vigil was at St. Andre Bessette Catholic Church with Rose
+      Haven involved. Recheck about Dec 1.
     source_urls:
       - https://emoregon.org/
   - name: "Holiday grief workshops (Coping with the Holidays)"
     category: peer_support
     priority: medium
     notes: >
-      Providence, Dougy Center, and Hopewell House all run holiday-season grief programming
-      in November and December. Their 2026 dates were not published as of 2026-09-16. Worth
-      a single sweep in late October to add them together.
-      Rechecked 2026-10-14: Dougy Center's Oct 22 holiday session is a $65 professional webinar - do not add. Providence 'Get Me Through the Holidays' has no 2026 dates (503-215-2273). Hopewell House lists only its monthly grief circle.
+      Providence "Get Me Through the Holidays" is a one-hour seminar scheduled in November,
+      but the page gives no 2026 dates or venue. Call 503-215-4622 (the number on Providence's
+      grief-groups page; the 503-215-2273 in earlier notes appears on no Providence page).
+      Hopewell House's page moved to hopewellhousepdx.org/community-connections/; it lists only
+      the last-Monday grief circle (Oct 26, Nov 30, Dec 28) and a quarterly group starting
+      October 2026. Dougy Center lists only paid professional webinars. The Portland Grief
+      House gathering on Nov 7 was added as lost-table-grief-gathering.
+      Rechecked 2026-10-25. Recheck Providence about Nov 5.
     source_urls:
-      - https://hopewellhousepdx.org/grief-support/
-      - https://www.dougy.org/grief-support-resources/portland-area-support-groups-resources
-  - name: "Free Thanksgiving and Christmas community meals 2026"
+      - https://www.providence.org/locations/or/hospice/bereavement-services
+      - https://hopewellhousepdx.org/community-connections/
+      - https://www.dougy.org/events
+  - name: "Free Thanksgiving and Christmas community meals 2026 (remaining leads)"
     category: food_farms
     priority: high
     notes: >
-      Union Gospel Mission, Portland Rescue Mission, and Poshines Cafe (the Proper
-      Thanksgiving Feast-ival) all serve free holiday meals open to anyone, not only people
-      experiencing homelessness. All three organizations are already in the database; what
-      is missing is the 2026 holiday dates and hours, which are usually announced in early
-      November. Blanchet House is closed both holidays and publishes a list of who is open.
-      Rechecked 2026-10-14: no 2026 meal dates from Union Gospel Mission, Portland Rescue Mission, Poshines, or Blanchet House. Poshines is not yet in the database. Recheck around Nov 5.
+      Added 2026-10-25: proper-thanksgiving-dinner (Nov 26), cornelius-community-dinner
+      (Nov 21), cbi-community-holiday-dinner (Dec 25, cost unconfirmed). Blanchet House posted
+      its 2026 Thanksgiving list on Oct 24 but says it is not all organizer-confirmed. Still
+      only on that list, not confirmed by the organizers: Union Gospel Mission (Nov 26,
+      10am-12pm, 3 NW 3rd Ave), Portland Rescue Mission (Wed Nov 25, 5:45pm; regular meals
+      Nov 26), American Legion Post 180 (Nov 26, 1-4pm, 2146 SE Monroe St, Milwaukie), and
+      St. John the Apostle Church (Nov 26, 417 Washington St, Oregon City, parish office
+      503-742-8200). Christmas: Blanchet's Christmas page is still the 2025 version; Potluck
+      in the Park says it partners with the Portland Art Museum on a free Christmas Day dinner
+      (503-255-7611) but posts no 2026 date. Recheck all around Nov 5-12.
     source_urls:
       - https://blanchethouse.org/where-to-find-free-thanksgiving-day-meals-and-volunteer-opportunities/
       - https://blanchethouse.org/where-to-eat-for-free-on-christmas-day/
-  - name: "Lake Oswego Tree Lighting Festival"
-    category: events
-    priority: medium
-    notes: >
-      Free festival at Millennium Plaza Park with caroling, a holiday marketplace, and
-      reindeer. 2026 date not yet posted.
-      Rechecked 2026-10-14: the Lake Oswego Millennium Concert Band schedule lists the festival on November 27, 2026 (band at 5:45pm), but the city has not posted it. Add once the city confirms.
-    source_urls:
-      - https://www.ci.oswego.or.us/parksrec/
-  - name: "Milwaukie Lights Walk and Umbrella Parade"
-    category: events
-    priority: medium
-    notes: >
-      Two separate free Clackamas County events. The Lights Walk is a months-long downtown
-      art installation (December through March in the 2025-26 season); the Umbrella Parade
-      ends at City Hall with the tree lighting. Neither 2026 date was published as of
-      2026-09-16.
-      Rechecked 2026-10-14: the city's Umbrella Parade and Winter Solstice pages still show 2025 dates; nothing for the Lights Walk.
-    source_urls:
-      - https://www.downtownmilwaukie.org/
-      - https://www.milwaukieoregon.gov/community/events/umbrella_parade_tree_lighting.php
-  - name: "Free Halloween and harvest events - tri-county"
+      - https://potluckinthepark.org/community-meals/christmas-tradition/
+  - name: "Milwaukie Lights Walk"
     category: events
     priority: low
     notes: >
-      Trick or Treat on Alberta (October 31, 3-6pm, 40+ businesses), BOOverton in downtown
-      Beaverton, and the Wood Village Pumpkin Fest at Donald L Robertson Park are all free
-      and recur annually, but only 2025 dates were findable on 2026-09-16.
-      Rechecked 2026-10-14: Wood Village Pumpkin Fest added as wood-village-pumpkin-fest (Oct 24). The Beaverton Downtown Association blog lists BOOverton on October 25, 2026, but its event page still shows 2025, so no time is confirmed. Nothing for Trick or Treat on Alberta.
+      A months-long downtown art installation (December through March in the 2025-26
+      season). Rechecked 2026-10-25: downtownmilwaukie.org still shows only the 2025-2026
+      page; no 2026-27 season posted. The Umbrella Parade was added as
+      milwaukie-umbrella-parade.
     source_urls:
-      - https://portlandlivingonthecheap.com/free-halloween-events-portland/
+      - https://www.downtownmilwaukie.org/p/events/milwaukie-lights-walk-20252026
+  - name: "Free Halloween and harvest events - tri-county (remaining leads)"
+    category: events
+    priority: low
+    notes: >
+      Wood Village Pumpkin Fest (Oct 24) is in the database and now past. Not confirmed for
+      2026: BOOverton in Beaverton (the Downtown Beaverton Association page still shows
+      Oct 26, 2025), Trick or Treat on Alberta, Canby's Spooktacular Village (page states a
+      rule, "each October 31st 1-4pm", with no year). Rechecked 2026-10-25. Past-dated by the
+      time anyone reads this; keep only to learn the pattern for 2027.
+    source_urls:
+      - https://downtownbeaverton.org/event/booverton
+  - name: "City of Portland monthly resource fairs for people living outside"
+    category: peer_support
+    priority: high
+    notes: >
+      portland.gov/shelter-services/get-connected-resources lists monthly fairs (Dawson Park
+      1st Tue 11-2, Old Town 1st Thu 11-2, Ground Score 2nd Fri 12-3, Delta Park 3rd Tue 11-2,
+      SE Portland 3rd Thu 11-2, OASIS 3rd Fri 1-4) plus weekly Oasis services. The dates were
+      computed from the City's public calendar recurrence rules, which were last edited May 1,
+      2026, and the page warns of shelter closures. Call 311 once to confirm, then add as an
+      entry with dated programs. Phone 503-823-4000.
+    source_urls:
+      - https://www.portland.gov/shelter-services/get-connected-resources
+  - name: "Q Center support groups with 2026 dates but no price shown"
+    category: peer_support
+    priority: medium
+    notes: >
+      pdxqcenter.org/events lists Trans-Femme Support (Tue 5:30pm), QTM Support (Tue 6:30pm),
+      QGE Support (Thu 5pm), BIPOC Support Space (Wed 7pm, already covered by q-center-portland),
+      a 70+ Women's Group (3rd Mon), and tea meditation, but shows no price. The site says
+      many events are free or sliding scale. Call 503-234-7837 for cost before adding.
+    source_urls:
+      - https://pdxqcenter.org/events
+  - name: "Veterans Day 2026 events"
+    category: events
+    priority: medium
+    notes: >
+      Added 2026-10-25: portland-veterans-day-parade, wilsonville-community-events (ceremony),
+      sherwood-center-for-the-arts-events (ceremony). Not confirmed for 2026: Oregon Zoo free
+      Veterans Day admission (the zoo page shows Nov 11, 9:30am-3:30pm with no year; reserve
+      tickets in advance), Hillsboro and Washington County ceremonies (2025 was Nov 11, 11am at
+      the Washington County Veterans Memorial Gateway), Beaverton American Legion Post 124.
+      Washington County cancelled its 2026 Veterans Stand Down.
+    source_urls:
+      - https://www.oregonzoo.org/events/veterans-day
+      - https://www.washingtoncountyor.gov/davs/veterans-stand-down
+  - name: "Cultural and faith holiday events not yet posted for 2026"
+    category: events
+    priority: low
+    notes: >
+      Hanukkah is Dec 4-12: public menorah lightings (Pioneer Courthouse Square via Chabad of
+      Oregon 503-977-9947, Light Up Hillsboro, Light Up Beaverton, Troutdale) have only 2025
+      listings. Kwanzaa (starts Dec 26) and Diwali (Nov 8; Wilsonville library's Nov 14 Diwali
+      celebration is posted but its cost is not stated) have nothing confirmed. Frybread Fest and
+      the Portland Indigenous Marketplace holiday market had 2025 dates only. Recheck in late
+      November.
+    source_urls:
+      - https://www.jewishportland.org/
+      - https://indigenousmarketplace.org/
+  - name: "Tree lightings and parades not yet confirmed for 2026"
+    category: events
+    priority: medium
+    notes: >
+      Not found for 2026: St. Johns Community Tree Lighting (2025 was Fri Nov 21, 6-8pm, free),
+      Sherwood Holiday Festival and parade, Forest Grove light parade, downtown Tigard tree
+      lighting, Estacada tree lighting (a snippet says Fri Dec 4, Harvest Market Square), Sellwood,
+      Hollywood, Multnomah Village, Alberta. The Hillsboro, Tualatin, Tigard, Happy Valley and
+      Gladstone city sites returned HTTP 403 to automated fetch, so their 2026 holiday events are
+      unchecked; read them in a browser. Recheck in mid-November.
+  - name: "NAMI classes and Clackamas Medicare help dates"
+    category: peer_support
+    priority: medium
+    notes: >
+      NAMI Multnomah's Peer-to-Peer, Family-to-Family, and veteran class pages still show fall
+      2025; NAMI Clackamas posts sign-up links only. Free, registration required: 503-228-5692
+      (Multnomah), 503-344-5050 (Clackamas). Clackamas County SHIBA Medicare open-enrollment
+      counseling has only the 2025 schedule posted (helpline 503-655-8269, Mon-Thu); Medicare
+      open enrollment ends Dec 7.
+    source_urls:
+      - https://www.namimultnomah.org/
+      - https://www.clackamas.us/
+  - name: "Pittock Mansion and Lan Su Chinese Garden income-assistance admission"
+    category: discount_programs
+    priority: low
+    notes: >
+      Search summaries say Pittock Mansion offers Museums for All (up to four $5 tickets;
+      adults $17) and Lan Su offers EBT/WIC $5 tickets (up to four per cardholder; adults $18).
+      Read each organizer page directly before adding; neither was verified a second way.
+    source_urls:
+      - https://pittockmansion.org/visit/
+      - https://lansugarden.org/visit/
+  - name: "Oregon Zoo sensory-friendly night and other low-sensory events"
+    category: events
+    priority: low
+    notes: >
+      The zoo's ZooLights page lists Nov 16 as a Sensory Friendly Night with "more 2026 event
+      details coming soon" (no time or price yet). Recheck in mid-November. OMSI's next Low
+      Sensory Hours is Jan 14, 2027 (outside this year).
+    source_urls:
+      - https://www.oregonzoo.org/lights
+  - name: "Other free library and parks programs seen but not added"
+    category: social_activities
+    priority: low
+    notes: >
+      Forest Grove City Library free classes with registration (My Peaceful Day mindfulness
+      Wednesdays 10am for ages 16+, craft nights); Oregon City Pioneer Community Center line
+      dance and folk dancing ($1 drop-in) and the third-Thursday Fireside Book Chat (add as
+      programs on pioneer-community-center); THPRD Harvest Hike (Nov 27) and Jenkins Estate tour
+      (Dec 16); Wilsonville's Light Up the Night bike ride (Nov 6) and game nights; Sherwood Old
+      Town art walk (Dec 1) and a 62+ social group starting Nov 5; Free on the Outside
+      Celebrate Recovery in Oregon City (faith-based; decide fit first). All read on organizer
+      or library pages on 2026-10-25 but ranked below what was added.
+    source_urls:
+      - https://www.forestgrove-or.gov/
 ---
 # Completed additions moved here with date:
 completed:
+  # 2026-10-25 audit and discovery sweep: added isosld-portland, lake-oswego-tree-lighting,
+  # milwaukie-umbrella-parade, proper-thanksgiving-dinner, cornelius-community-dinner,
+  # cbi-community-holiday-dinner, and 35 more entries from three discovery sweeps (see audit-log.yaml).
   # 2026-10-14 events sweep: added hillsboro-holly-days, oregon-city-tree-lighting,
   # art-in-the-burbs (free admission, $3 suggested donation), wood-village-pumpkin-fest,
   # and tualatin-light-parades (new lead).
