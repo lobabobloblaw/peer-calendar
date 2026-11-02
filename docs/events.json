@@ -7805,20 +7805,7 @@
           "schedule_start_date": "2026-09-23",
           "schedule_end_date": "2026-10-28",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "WE"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-09-23",
-            "until_date": "2026-10-28",
-            "start_time": "17:30",
-            "end_time": "18:30",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Chair Fitness at Holly Tree",
@@ -20037,20 +20024,7 @@
           "schedule_end_date": "2026-10-31",
           "notes": "Sign up day-of at Visitor Center",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "SU"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-04-05",
-            "until_date": "2026-10-31",
-            "start_time": "11:00",
-            "end_time": "12:00",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "name": "Free Volunteer-Led Hikes",
@@ -21947,20 +21921,7 @@
       "schedule": "Saturdays 8:30am-2pm",
       "schedule_start_date": "2026-05-02",
       "schedule_end_date": "2026-10-31",
-      "resolved_schedule": {
-        "type": "recurring",
-        "frequency": "weekly",
-        "interval": 1,
-        "weekdays": [
-          "SA"
-        ],
-        "month_weeks": [],
-        "anchor_date": "2026-05-02",
-        "until_date": "2026-10-31",
-        "start_time": "08:30",
-        "end_time": "14:00",
-        "end_day_offset": 0
-      },
+      "resolved_schedule": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -22161,21 +22122,7 @@
           "schedule": "Wednesdays 9:30am-12:30pm and 3-6pm; Saturdays 2-5pm",
           "notes": "Come farm for 2 hours, leave with a bag of fresh produce. No commitment required.",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "WE",
-              "SA"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-05-02",
-            "until_date": "2026-10-31",
-            "start_time": "09:30",
-            "end_time": "12:30",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         }
       ],
       "dates": null,
@@ -28691,22 +28638,7 @@
       "schedule": "1st Fridays 5-8pm",
       "schedule_start_date": "2026-05-01",
       "schedule_end_date": "2026-10-31",
-      "resolved_schedule": {
-        "type": "recurring",
-        "frequency": "monthly",
-        "interval": 1,
-        "weekdays": [
-          "FR"
-        ],
-        "month_weeks": [
-          1
-        ],
-        "anchor_date": "2026-05-01",
-        "until_date": "2026-10-31",
-        "start_time": "17:00",
-        "end_time": "20:00",
-        "end_day_offset": 0
-      },
+      "resolved_schedule": null,
       "flags": [
         "\ud83d\udd04 SEASONAL"
       ],
@@ -31685,20 +31617,7 @@
           "schedule_end_date": "2026-10-31",
           "cost": "FREE",
           "audience": [],
-          "resolved_schedule": {
-            "type": "recurring",
-            "frequency": "weekly",
-            "interval": 1,
-            "weekdays": [
-              "SA"
-            ],
-            "month_weeks": [],
-            "anchor_date": "2026-04-04",
-            "until_date": "2026-10-31",
-            "start_time": "08:30",
-            "end_time": "14:00",
-            "end_day_offset": 0
-          }
+          "resolved_schedule": null
         },
         {
           "id": "psu-market-winter",

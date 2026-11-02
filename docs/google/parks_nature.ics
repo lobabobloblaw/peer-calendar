@@ -59,22 +59,6 @@ CATEGORIES:Parks & Nature
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:b1cd3f91d0b7fc50@portlandresources.org
-DTSTAMP:20260303T000000Z
-DTSTART;TZID=America/Los_Angeles:20260405T110000
-DTEND;TZID=America/Los_Angeles:20260405T120000
-SUMMARY:Hoyt Arboretum: Free Public Tours
-DESCRIPTION:Category: Parks & Nature\nInfo: Sign up day-of at Visitor Cente
- r\nAddress: 4000 SW Fairview Blvd\, Portland\, OR 97221\nPhone: 503-865-87
- 33\nWebsite: https://www.hoytarboretum.org/\nDetails: Living museum of tre
- es. Trail maps in English and Spanish.
-LOCATION:4000 SW Fairview Blvd\, Portland\, OR 97221
-URL:https://www.hoytarboretum.org/
-RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20261101T065959Z
-CATEGORIES:Parks & Nature
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:26b379a33a5f1049@portlandresources.org
 DTSTAMP:20260124T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T130000

@@ -1052,25 +1052,6 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:56830e3ea90faade@portlandresources.org
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=America/Los_Angeles:20260923T173000
-DTEND;TZID=America/Los_Angeles:20260923T183000
-SUMMARY:THPRD Fitness in the Park: Zumba at Cooper Park (fall)
-DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nPhone: 503-645-6433\n
- Website: https://www.tualatinhillsparks.org/446/Fitness-In-The-Park\nDetai
- ls: Free fitness classes in Washington County parks. Focus on environmenta
- l justice areas to reduce barriers to access. The official schedule publis
- hes start times but not class end times\; one-hour calendar blocks are sta
- rt-time reminders\, not confirmed durations.
-LOCATION:Cooper Park\, access off SW Oak St between 172nd and 176th\; meet 
- at the basketball court
-URL:https://www.tualatinhillsparks.org/446/Fitness-In-The-Park
-RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20261029T065959Z
-CATEGORIES:Fitness & Wellness
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:a6eca6ffb798700e@portlandresources.org
 DTSTAMP:20261025T000000Z
 DTSTART;TZID=America/Los_Angeles:20260917T093000

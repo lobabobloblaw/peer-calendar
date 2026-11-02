@@ -1471,22 +1471,6 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:9f592c53be720466@portlandresources.org
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=America/Los_Angeles:20260501T170000
-DTEND;TZID=America/Los_Angeles:20260501T200000
-SUMMARY:Milwaukie First Friday
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nAddress: Historic Mil
- waukie Main Street\, Milwaukie\, OR 97222\nWebsite: https://www.firstfrida
- ymilwaukie.com/\nDetails: Monthly arts and community event May-October on 
- Historic Milwaukie Main Street. Free to attend.
-LOCATION:Historic Milwaukie Main Street\, Milwaukie\, OR 97222
-URL:https://www.firstfridaymilwaukie.com/
-RRULE:FREQ=MONTHLY;BYDAY=1FR;UNTIL=20261101T065959Z
-CATEGORIES:Events & Festivals
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:514cc305c64689a1@portlandresources.org
 DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260517T110000
