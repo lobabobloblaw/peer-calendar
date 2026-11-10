@@ -26,27 +26,15 @@ pending:
   # tri-county event, but search only surfaced 2025 dates or no published time, and the
   # official pages were unreachable from that session. Confirm the 2026 date on the
   # organizer's own page before adding - do not roll last year's date forward.
-  - name: "Transgender Day of Remembrance vigils - Portland"
-    category: peer_support
-    priority: high
-    notes: >
-      TDOR is Friday, November 20, 2026. Q Center, the PSU Queer Resource Center, and the
-      Goose Hollow interfaith vigil have all hosted in past years.
-      Rechecked 2026-10-25: Q Center's calendar (pdxqcenter.org/events - the old /calendar
-      path 404s) lists no vigil through Nov 21; Basic Rights Oregon's guide is still the 2025
-      one; PSU QRC and First United Methodist have nothing. Recheck around Nov 5 and Nov 16.
-      Q Center phone 503-234-7837.
-    source_urls:
-      - https://pdxqcenter.org/events
-      - https://www.basicrights.org/
+  # COMPLETED 2026-11-09: Transgender Day of Remembrance vigils - Portland - added as q-center-tdor-vigil (Fri Nov 20, 2026, 5:30-9pm at Q Center)
   - name: "Longest Night / Homeless Persons' Memorial vigils"
     category: peer_support
     priority: medium
     notes: >
       Monday, December 21, 2026 (winter solstice). Multiple Portland-metro vigils read the
       names of people who died unhoused that year.
-      Rechecked 2026-10-25: nothing for 2026; Ecumenical Ministries of Oregon lists no
-      events. In 2025 the Portland vigil was at St. Andre Bessette Catholic Church with Rose
+      Rechecked 2026-11-09: nothing posted yet for 2026; Ecumenical Ministries of Oregon lists
+      no events. In 2025 the Portland vigil was at St. Andre Bessette Catholic Church with Rose
       Haven involved. Recheck about Dec 1.
     source_urls:
       - https://emoregon.org/
@@ -57,11 +45,10 @@ pending:
       Providence "Get Me Through the Holidays" is a one-hour seminar scheduled in November,
       but the page gives no 2026 dates or venue. Call 503-215-4622 (the number on Providence's
       grief-groups page; the 503-215-2273 in earlier notes appears on no Providence page).
-      Hopewell House's page moved to hopewellhousepdx.org/community-connections/; it lists only
-      the last-Monday grief circle (Oct 26, Nov 30, Dec 28) and a quarterly group starting
-      October 2026. Dougy Center lists only paid professional webinars. The Portland Grief
+      Hopewell House's page at hopewellhousepdx.org/community-connections/ lists the
+      last-Monday grief circle (Nov 30, Dec 28) and quarterly groups. The Portland Grief
       House gathering on Nov 7 was added as lost-table-grief-gathering.
-      Rechecked 2026-10-25. Recheck Providence about Nov 5.
+      Rechecked 2026-11-09: Providence still posts no public dates online (call 503-215-4622).
     source_urls:
       - https://www.providence.org/locations/or/hospice/bereavement-services
       - https://hopewellhousepdx.org/community-connections/
@@ -73,13 +60,14 @@ pending:
       Added 2026-10-25: proper-thanksgiving-dinner (Nov 26), cornelius-community-dinner
       (Nov 21), cbi-community-holiday-dinner (Dec 25, cost unconfirmed). Blanchet House posted
       its 2026 Thanksgiving list on Oct 24 but says it is not all organizer-confirmed. Still
-      only on that list, not confirmed by the organizers: Union Gospel Mission (Nov 26,
-      10am-12pm, 3 NW 3rd Ave), Portland Rescue Mission (Wed Nov 25, 5:45pm; regular meals
-      Nov 26), American Legion Post 180 (Nov 26, 1-4pm, 2146 SE Monroe St, Milwaukie), and
-      St. John the Apostle Church (Nov 26, 417 Washington St, Oregon City, parish office
-      503-742-8200). Christmas: Blanchet's Christmas page is still the 2025 version; Potluck
-      in the Park says it partners with the Portland Art Museum on a free Christmas Day dinner
-      (503-255-7611) but posts no 2026 date. Recheck all around Nov 5-12.
+      only on that list, not confirmed on the organizers' own websites as of 2026-11-09: Union
+      Gospel Mission (Nov 26, 10am-12pm, 3 NW 3rd Ave), Portland Rescue Mission (Wed Nov 25,
+      5:45pm; regular meals Nov 26), American Legion Post 180 (Nov 26, 1-4pm, 2146 SE Monroe St,
+      Milwaukie), and St. John the Apostle Church (Nov 26, 417 Washington St, Oregon City, parish
+      office 503-742-8200). Christmas: Blanchet's Christmas page is still the 2025 version
+      (last updated 12/17/2025); Potluck in the Park says it partners with the Portland Art
+      Museum on a free Christmas Day dinner (503-255-7611) but posts no 2026 date yet. Recheck
+      around Nov 18 and Dec 10.
     source_urls:
       - https://blanchethouse.org/where-to-find-free-thanksgiving-day-meals-and-volunteer-opportunities/
       - https://blanchethouse.org/where-to-eat-for-free-on-christmas-day/
@@ -89,7 +77,7 @@ pending:
     priority: low
     notes: >
       A months-long downtown art installation (December through March in the 2025-26
-      season). Rechecked 2026-10-25: downtownmilwaukie.org still shows only the 2025-2026
+      season). Rechecked 2026-11-09: downtownmilwaukie.org still shows only the 2025-2026
       page; no 2026-27 season posted. The Umbrella Parade was added as
       milwaukie-umbrella-parade.
     source_urls:
@@ -122,34 +110,22 @@ pending:
     priority: medium
     notes: >
       pdxqcenter.org/events lists Trans-Femme Support (Tue 5:30pm), QTM Support (Tue 6:30pm),
-      QGE Support (Thu 5pm), BIPOC Support Space (Wed 7pm, already covered by q-center-portland),
-      a 70+ Women's Group (3rd Mon), and tea meditation, but shows no price. The site says
-      many events are free or sliding scale. Call 503-234-7837 for cost before adding.
+      QGE Support (Thu 5pm), BIPOC Support Space (Wed 6pm, already covered by q-center-portland),
+      a 70+ Women's Group (3rd Mon 12:30pm), and Sereni-Tea queer-led tea meditation, but shows
+      no price. The site says many events are free or sliding scale. Call 503-234-7837 for cost
+      before adding.
     source_urls:
       - https://pdxqcenter.org/events
-  - name: "Veterans Day 2026 events"
-    category: events
-    priority: medium
-    notes: >
-      Added 2026-10-25: portland-veterans-day-parade, wilsonville-community-events (ceremony),
-      sherwood-center-for-the-arts-events (ceremony). Not confirmed for 2026: Oregon Zoo free
-      Veterans Day admission (the zoo page shows Nov 11, 9:30am-3:30pm with no year; reserve
-      tickets in advance), Hillsboro and Washington County ceremonies (2025 was Nov 11, 11am at
-      the Washington County Veterans Memorial Gateway), Beaverton American Legion Post 124.
-      Washington County cancelled its 2026 Veterans Stand Down.
-    source_urls:
-      - https://www.oregonzoo.org/events/veterans-day
-      - https://www.washingtoncountyor.gov/davs/veterans-stand-down
+  # COMPLETED 2026-11-09: Oregon Zoo Veterans Day free admission added as oregon-zoo-veterans-day;
+  # City of Tigard Veterans Day Flag Raising added as tigard-veterans-day-flag-raising.
   - name: "Cultural and faith holiday events not yet posted for 2026"
     category: events
     priority: low
     notes: >
-      Hanukkah is Dec 4-12: public menorah lightings (Pioneer Courthouse Square via Chabad of
-      Oregon 503-977-9947, Light Up Hillsboro, Light Up Beaverton, Troutdale) have only 2025
-      listings. Kwanzaa (starts Dec 26) and Diwali (Nov 8; Wilsonville library's Nov 14 Diwali
-      celebration is posted but its cost is not stated) have nothing confirmed. Frybread Fest and
-      the Portland Indigenous Marketplace holiday market had 2025 dates only. Recheck in late
-      November.
+      Added 2026-11-09: pioneer-square-menorah-lighting (Portland's Public Menorah at Pioneer
+      Courthouse Square, Dec 4-13, 2026, 4-6:30pm daily, free). Suburban menorah lightings
+      (Light Up Hillsboro, Light Up Beaverton, Troutdale) and Kwanzaa (starts Dec 26) have
+      no 2026 dates posted yet on organizer pages as of 2026-11-09. Recheck in late November.
     source_urls:
       - https://www.jewishportland.org/
       - https://indigenousmarketplace.org/
@@ -157,60 +133,58 @@ pending:
     category: events
     priority: medium
     notes: >
-      Not found for 2026: St. Johns Community Tree Lighting (2025 was Fri Nov 21, 6-8pm, free),
-      Sherwood Holiday Festival and parade, Forest Grove light parade, downtown Tigard tree
-      lighting, Estacada tree lighting (a snippet says Fri Dec 4, Harvest Market Square), Sellwood,
-      Hollywood, Multnomah Village, Alberta. The Hillsboro, Tualatin, Tigard, Happy Valley and
-      Gladstone city sites returned HTTP 403 to automated fetch, so their 2026 holiday events are
-      unchecked; read them in a browser. Recheck in mid-November.
+      Checked in browser 2026-11-09: Hillsboro Holly Days (Nov 21, 2-7pm), Hillsboro Senior
+      Center Holiday Bazaar (Nov 21-22), and Walters Artisan Pop-Up Shop (Dec 1, 5-8pm)
+      confirmed on hillsboro-oregon.gov; Beaverton Winter Lights & Tree Lighting (Dec 4, 4-8pm,
+      plus nightly displays Dec 1 - Jan 3) confirmed on beavertonoregon.gov/beaverton-winter-lights.
+      Still not posted for 2026 on organizer pages: St. Johns Community Tree Lighting, Sherwood
+      Holiday Festival and parade, Forest Grove light parade, downtown Tigard tree lighting,
+      Estacada tree lighting. Recheck in late November.
   - name: "NAMI classes and Clackamas Medicare help dates"
     category: peer_support
     priority: medium
     notes: >
-      NAMI Multnomah's Peer-to-Peer, Family-to-Family, and veteran class pages still show fall
-      2025; NAMI Clackamas posts sign-up links only. Free, registration required: 503-228-5692
-      (Multnomah), 503-344-5050 (Clackamas). Clackamas County SHIBA Medicare open-enrollment
-      counseling has only the 2025 schedule posted (helpline 503-655-8269, Mon-Thu); Medicare
-      open enrollment ends Dec 7.
+      NAMI Multnomah's Peer-to-Peer, Family-to-Family, and veteran class pages still show
+      interest sign-ups only (no winter 2027 dates posted as of 2026-11-09); NAMI Clackamas
+      posts sign-up links only. Free, registration required: 503-228-5692 (Multnomah),
+      503-344-5050 (Clackamas). Clackamas County SHIBA Medicare open-enrollment counseling
+      is by phone helpline 503-655-8269 (Mon-Thu); Medicare open enrollment ends Dec 7.
     source_urls:
       - https://www.namimultnomah.org/
       - https://www.clackamas.us/
-  - name: "Pittock Mansion and Lan Su Chinese Garden income-assistance admission"
-    category: discount_programs
-    priority: low
-    notes: >
-      Search summaries say Pittock Mansion offers Museums for All (up to four $5 tickets;
-      adults $17) and Lan Su offers EBT/WIC $5 tickets (up to four per cardholder; adults $18).
-      Read each organizer page directly before adding; neither was verified a second way.
-    source_urls:
-      - https://pittockmansion.org/visit/
-      - https://lansugarden.org/visit/
-  - name: "Oregon Zoo sensory-friendly night and other low-sensory events"
-    category: events
-    priority: low
-    notes: >
-      The zoo's ZooLights page lists Nov 16 as a Sensory Friendly Night with "more 2026 event
-      details coming soon" (no time or price yet). Recheck in mid-November. OMSI's next Low
-      Sensory Hours is Jan 14, 2027 (outside this year).
-    source_urls:
-      - https://www.oregonzoo.org/lights
+  # COMPLETED 2026-11-09: Pittock Mansion ($5 EBT/SNAP up to 4 tickets via Museums for All)
+  # added as pittock-mansion; Lan Su Chinese Garden ($5 EBT/WIC up to 4 tickets) added as
+  # lan-su-chinese-garden; Leach Botanical Garden ("Garden for All" free walk-up admission)
+  # added as leach-botanical-garden.
+  # COMPLETED 2026-11-09: Oregon Zoo ZooLights Sensory-Friendly Night (Nov 16, 2026, 4:30-8:30pm,
+  # $13-$22) confirmed on oregonzoo.org/events/zoolights-sensory-friendly-night and added to
+  # oregon-zoo-zoolights; Lan Su Sensory Night (Nov 14, 5-7pm) added to lan-su-chinese-garden.
+  # COMPLETED 2026-11-09: Sherwood Old Town Art Walk (Dec 1, 2026, 5-8pm) added as
+  # sherwood-old-town-art-walk.
   - name: "Other free library and parks programs seen but not added"
     category: social_activities
     priority: low
     notes: >
       Forest Grove City Library free classes with registration (My Peaceful Day mindfulness
       Wednesdays 10am for ages 16+, craft nights); Oregon City Pioneer Community Center line
-      dance and folk dancing ($1 drop-in) and the third-Thursday Fireside Book Chat (add as
-      programs on pioneer-community-center); THPRD Harvest Hike (Nov 27) and Jenkins Estate tour
-      (Dec 16); Wilsonville's Light Up the Night bike ride (Nov 6) and game nights; Sherwood Old
-      Town art walk (Dec 1) and a 62+ social group starting Nov 5; Free on the Outside
-      Celebrate Recovery in Oregon City (faith-based; decide fit first). All read on organizer
-      or library pages on 2026-10-25 but ranked below what was added.
+      dance and folk dancing ($1 drop-in) and the third-Thursday Fireside Book Chat; THPRD
+      Harvest Hike (Nov 27) and Jenkins Estate tour (Dec 16); Free on the Outside Celebrate
+      Recovery in Oregon City (faith-based; decide fit first). Sherwood Old Town Art Walk
+      (Dec 1) was added as sherwood-old-town-art-walk on 2026-11-09.
     source_urls:
       - https://www.forestgrove-or.gov/
 ---
 # Completed additions moved here with date:
 completed:
+  # 2026-11-09 Q1 2027 events and discovery sweep: added q-center-tdor-vigil,
+  # oregon-zoo-veterans-day, lan-su-chinese-garden, pittock-mansion, leach-botanical-garden,
+  # the-recovery-gym, alano-club-recovery-events, st-james-jazz-vespers,
+  # pioneer-square-menorah-lighting, pioneer-square-holiday-performances,
+  # ohs-feminist-activism-panel, columbia-slough-events, metro-parks-free-parking-days,
+  # ppr-explore-your-park, gresham-repair-cafe, sherwood-old-town-art-walk,
+  # hillsboro-senior-center-events, walters-artisan-pop-up-shop,
+  # tigard-veterans-day-flag-raising, and tualatin-riverkeepers-stewardship (20 new entries;
+  # see audit-log.yaml).
   # 2026-10-25 audit and discovery sweep: added isosld-portland, lake-oswego-tree-lighting,
   # milwaukie-umbrella-parade, proper-thanksgiving-dinner, cornelius-community-dinner,
   # cbi-community-holiday-dinner, and 35 more entries from three discovery sweeps (see audit-log.yaml).

@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:b8b48cbe08f220fe@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260111T150000
 DTEND;TZID=America/Los_Angeles:20260111T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (In-Person)
@@ -50,7 +50,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dba6711eb13da213@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T150000
 DTEND;TZID=America/Los_Angeles:20260104T163000
 SUMMARY:NAMI Multnomah: Connection Peer Support (Online)
@@ -73,7 +73,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9777816b12080f9@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support
@@ -97,9 +97,9 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:59d4efd22aea95e4@portlandresources.org
-DTSTAMP:20261008T000000Z
-DTSTART;TZID=America/Los_Angeles:20260111T130000
-DTEND;TZID=America/Los_Angeles:20260111T143000
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260104T130000
+DTEND;TZID=America/Los_Angeles:20260104T143000
 SUMMARY:NAMI Multnomah: LGBTQ2SIA+ Support (In-Person)
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nEligibil
  ity: LGBTQ2SIA+ adults 18+ with mental health symptoms\nInfo: A 30-minute 
@@ -117,60 +117,13 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nEligibil
 LOCATION:Rose City Community Collective\, 5830 NE Alameda St Suite 205\, Po
  rtland\, OR 97213
 URL:https://namimultnomah.org
-RRULE:FREQ=MONTHLY;BYDAY=2SU,4SU
-CATEGORIES:Peer Support
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:59234b683662965b@portlandresources.org
-DTSTAMP:20261008T000000Z
-DTSTART;TZID=America/Los_Angeles:20260107T180000
-DTEND;TZID=America/Los_Angeles:20260107T193000
-SUMMARY:NAMI Multnomah: Young Adult (18-30) Online
-DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
- Ages 18-30 with mental health symptoms\nAddress: 464 SE 185th Ave\, Suite 
- 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: https://namimultn
- omah.org\nDetails: No diagnosis required for any groups. Groups are peer-l
- ed by trained volunteers with lived experience. NAMI Multnomah also runs f
- amily and caregiver groups that are deliberately not listed here\, because
-  this database covers groups people attend for their own support - Family 
- Support Group (Mondays 6-7:30pm\, 1st Monday in person at Rose City Commun
- ity Collective)\, Parent Support Group (1st & 3rd Wednesdays 4-5:15pm)\, a
- nd Military Family Support Group (2nd Thursday 6-7:30pm). Refer family mem
- bers to namimultnomah.org/family-support-groups or 503-228-5692.
-LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
-URL:https://namimultnomah.org
-RRULE:FREQ=MONTHLY;BYDAY=1WE,3WE
-CATEGORIES:Peer Support
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e824f70c00e4569b@portlandresources.org
-DTSTAMP:20261008T000000Z
-DTSTART;TZID=America/Los_Angeles:20260111T150000
-DTEND;TZID=America/Los_Angeles:20260111T163000
-SUMMARY:NAMI Multnomah: Young Adult (18-35) In-Person
-DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nEligibil
- ity: Ages 18-35 with mental health symptoms\nAddress: 464 SE 185th Ave\, S
- uite 315\, Portland\, OR 97233\nPhone: 503-228-5692\nWebsite: https://nami
- multnomah.org\nDetails: No diagnosis required for any groups. Groups are p
- eer-led by trained volunteers with lived experience. NAMI Multnomah also r
- uns family and caregiver groups that are deliberately not listed here\, be
- cause this database covers groups people attend for their own support - Fa
- mily Support Group (Mondays 6-7:30pm\, 1st Monday in person at Rose City C
- ommunity Collective)\, Parent Support Group (1st & 3rd Wednesdays 4-5:15pm
- )\, and Military Family Support Group (2nd Thursday 6-7:30pm). Refer famil
- y members to namimultnomah.org/family-support-groups or 503-228-5692.
-LOCATION:Community for Positive Aging\, 1820 NE 40th Ave\, Portland OR 9721
- 2
-URL:https://namimultnomah.org
-RRULE:FREQ=MONTHLY;BYDAY=2SU,4SU
+RRULE:FREQ=MONTHLY;BYDAY=1SU,3SU
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4b11c0aa298f2306@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:NAMI Multnomah: BIPOC Peer Support
@@ -194,7 +147,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c08dbed81b24d0f5@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Multnomah: Complex Trauma & Dissociation Support
@@ -217,8 +170,82 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:160cf4a085eca8e2@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T180000
+DTEND;TZID=America/Los_Angeles:20260101T193000
+SUMMARY:NAMI Multnomah: Military Support Group (Veterans & Service Members)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
+ Veterans and military service members 18+ living with mental health condit
+ ions (any discharge status)\nAddress: 464 SE 185th Ave\, Suite 315\, Portl
+ and\, OR 97233\nPhone: 503-228-5692\nWebsite: https://namimultnomah.org\nD
+ etails: No diagnosis required for any groups. Groups are peer-led by train
+ ed volunteers with lived experience. NAMI Multnomah also runs family and c
+ aregiver groups that are deliberately not listed here\, because this datab
+ ase covers groups people attend for their own support - Family Support Gro
+ up (Mondays 6-7:30pm\, 1st Monday in person at Rose City Community Collect
+ ive)\, Parent Support Group (1st & 3rd Wednesdays 4-5:15pm)\, and Military
+  Family Support Group (2nd Thursday 6-7:30pm). Refer family members to nam
+ imultnomah.org/family-support-groups or 503-228-5692.
+LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+URL:https://namimultnomah.org
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0aea0c4fbf959479@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260114T190000
+DTEND;TZID=America/Los_Angeles:20260114T203000
+SUMMARY:NAMI Multnomah: Military Sexual Trauma (MST) Peer Support Group - W
+ omen
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
+ Women veterans and service members who have experienced Military Sexual Tr
+ auma\nAddress: 464 SE 185th Ave\, Suite 315\, Portland\, OR 97233\nPhone: 
+ 503-228-5692\nWebsite: https://namimultnomah.org\nDetails: No diagnosis re
+ quired for any groups. Groups are peer-led by trained volunteers with live
+ d experience. NAMI Multnomah also runs family and caregiver groups that ar
+ e deliberately not listed here\, because this database covers groups peopl
+ e attend for their own support - Family Support Group (Mondays 6-7:30pm\, 
+ 1st Monday in person at Rose City Community Collective)\, Parent Support G
+ roup (1st & 3rd Wednesdays 4-5:15pm)\, and Military Family Support Group (
+ 2nd Thursday 6-7:30pm). Refer family members to namimultnomah.org/family-s
+ upport-groups or 503-228-5692.
+LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+URL:https://namimultnomah.org
+RRULE:FREQ=MONTHLY;BYDAY=2WE,4WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6243bb6b16910926@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T190000
+DTEND;TZID=America/Los_Angeles:20260107T203000
+SUMMARY:NAMI Multnomah: Military Sexual Trauma (MST) Peer Support Group - A
+ ll Genders
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nEligibility: 
+ Veterans and service members of all genders who have experienced Military 
+ Sexual Trauma\nAddress: 464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+ \nPhone: 503-228-5692\nWebsite: https://namimultnomah.org\nDetails: No dia
+ gnosis required for any groups. Groups are peer-led by trained volunteers 
+ with lived experience. NAMI Multnomah also runs family and caregiver group
+ s that are deliberately not listed here\, because this database covers gro
+ ups people attend for their own support - Family Support Group (Mondays 6-
+ 7:30pm\, 1st Monday in person at Rose City Community Collective)\, Parent 
+ Support Group (1st & 3rd Wednesdays 4-5:15pm)\, and Military Family Suppor
+ t Group (2nd Thursday 6-7:30pm). Refer family members to namimultnomah.org
+ /family-support-groups or 503-228-5692.
+LOCATION:464 SE 185th Ave\, Suite 315\, Portland\, OR 97233
+URL:https://namimultnomah.org
+RRULE:FREQ=MONTHLY;BYDAY=1WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:037946b9b573fb32@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Clackamas: NAMI Connection Support Group - Tuesday
@@ -236,7 +263,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1b9953e2137b6606@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T140000
 DTEND;TZID=America/Los_Angeles:20260107T153000
 SUMMARY:NAMI Clackamas: NAMI Connection Support Group - Wednesday
@@ -254,7 +281,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:53e690c50aeada48@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T180000
 DTEND;TZID=America/Los_Angeles:20260104T193000
 SUMMARY:NAMI Clackamas: NAMI Connection Support Group - Sunday
@@ -272,7 +299,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:abda9c8971b1314b@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T170000
 DTEND;TZID=America/Los_Angeles:20260107T183000
 SUMMARY:NAMI Clackamas: Women (18+) Only Support Group
@@ -289,7 +316,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d00b7987fd0d91ef@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Clackamas: NAMI Family Support Group - Tuesday
@@ -307,7 +334,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4857c38419b59235@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T183000
 DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:NAMI Clackamas: NAMI Family Support Group - Monday
@@ -325,7 +352,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c2b49f8ad5f5c06c@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260117T090000
 DTEND;TZID=America/Los_Angeles:20260117T103000
 SUMMARY:NAMI Clackamas: NAMI Family Support Group - Saturday
@@ -343,7 +370,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d8997f26797c801@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T190000
 DTEND;TZID=America/Los_Angeles:20260107T203000
 SUMMARY:NAMI Clackamas: NAMI Clackamas Conexion (Spanish-Speaking Support G
@@ -362,7 +389,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ea6aaafa1987c3ab@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:NAMI Clackamas: LGBTQ+ Support Group
@@ -380,7 +407,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d485a809056eb93d@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:NAMI Clackamas: Suicide Bereavement Support - Tuesday Online
@@ -398,7 +425,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9a653776875afe2e@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260114T180000
 DTEND;TZID=America/Los_Angeles:20260114T194500
 SUMMARY:NAMI Clackamas: Suicide Bereavement Support - Wednesday Online
@@ -416,7 +443,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e6040178bc14d7a1@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260125T140000
 DTEND;TZID=America/Los_Angeles:20260125T160000
 SUMMARY:NAMI Clackamas: Suicide Bereavement Support - Sunday In-Person
@@ -434,7 +461,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:85d355a359c1e2b9@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260127T190000
 DTEND;TZID=America/Los_Angeles:20260127T200000
 SUMMARY:NAMI Clackamas: Compassionate Friends
@@ -453,7 +480,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bf09ccb7ad115192@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T100000
 DTEND;TZID=America/Los_Angeles:20260101T140000
 SUMMARY:FolkTime Peer Connection Centers: Drop-in peer support - Free To Be
@@ -471,7 +498,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d64ff11ba8b3e087@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T100000
 DTEND;TZID=America/Los_Angeles:20260106T140000
 SUMMARY:FolkTime Peer Connection Centers: Drop-in peer support - Oregon Cit
@@ -672,7 +699,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:651932636ba165c7@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): LGBTQIA+ Suppo
@@ -689,7 +716,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:215024356d2538f2@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (W
@@ -706,7 +733,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:49d6b06cbd9d0a5b@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Open to All (E
@@ -722,7 +749,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a8aee7696d751ae1@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T100000
 DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:DBSA Portland (Depression Bipolar Support Alliance): Mental Healthc
@@ -921,7 +948,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d38dc6be9514a666@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T140000
 DTEND;TZID=America/Los_Angeles:20260106T150000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at the 8x8
@@ -940,7 +967,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f0b5d5c2028650a3@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T110000
 DTEND;TZID=America/Los_Angeles:20260101T120000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at the Mead Building
@@ -959,7 +986,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:83f0dda716f10bc5@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T110000
 DTEND;TZID=America/Los_Angeles:20260102T120000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at Garlington Wellness C
@@ -979,7 +1006,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c521e972b3cb1a31@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T110000
 DTEND;TZID=America/Los_Angeles:20260105T120000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at New Narrative
@@ -998,7 +1025,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d03e805960da82ec@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T173000
 DTEND;TZID=America/Los_Angeles:20260106T183000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at Club Hope (Gresham)
@@ -1017,7 +1044,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8e53fc7dd5f856ab@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T150000
 DTEND;TZID=America/Los_Angeles:20260102T160000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at True Colors Recovery
@@ -1036,7 +1063,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dfab8921e1f6b150@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T100000
 DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Saturday Meeting at Alano Cl
@@ -1058,7 +1085,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9d6ae81810e11112@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T140000
 DTEND;TZID=America/Los_Angeles:20260101T150000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Thursday Meeting at Alano Cl
@@ -1080,7 +1107,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bc087d2079d81941@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T120000
 DTEND;TZID=America/Los_Angeles:20260106T130000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at Clackamas Transition 
@@ -1100,7 +1127,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a7f463ec89cb186d@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T160000
 DTEND;TZID=America/Los_Angeles:20260107T170000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at 4D Recovery Clackamas
@@ -1119,7 +1146,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1eab2bfeaf2b01e4@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T130000
 DTEND;TZID=America/Los_Angeles:20260106T140000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at FolkTime Pink Church
@@ -1138,7 +1165,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b07aa22b1f9d51a7@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T160000
 DTEND;TZID=America/Los_Angeles:20260102T170000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at Sandy Clinic
@@ -1156,8 +1183,87 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:afc7c7977ba4f542@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T180000
+DTEND;TZID=America/Los_Angeles:20260106T190000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at NAMI Washington Count
+ y (Aloha)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nPhone: 503-222-6484\nWebsit
+ e: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for co-oc
+ curring mental illness and substance use. Peer-led meetings. The former SW
+  11th office address and hours were removed because current official sourc
+ es publish only a PO box\, not a public office. The national in-person dir
+ ectory publishes start times but not end times\; one-hour calendar blocks 
+ for those listings are start-time reminders\, not confirmed durations.
+LOCATION:18680 SW Shaw St\, Aloha\, OR
+URL:https://ddainc.org/
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fb9b678f0d3c1af0@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T160000
+DTEND;TZID=America/Los_Angeles:20260107T170000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA "New Energy" at 4D Recov
+ ery Hillsboro
+DESCRIPTION:Category: Peer Support\nCost: FREE\nPhone: 503-222-6484\nWebsit
+ e: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for co-oc
+ curring mental illness and substance use. Peer-led meetings. The former SW
+  11th office address and hours were removed because current official sourc
+ es publish only a PO box\, not a public office. The national in-person dir
+ ectory publishes start times but not end times\; one-hour calendar blocks 
+ for those listings are start-time reminders\, not confirmed durations.
+LOCATION:362 SW Oak St\, Hillsboro\, OR
+URL:https://ddainc.org/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:43c90c443bafe799@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T180000
+DTEND;TZID=America/Los_Angeles:20260107T190000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at The Peer Company (Hil
+ lsboro)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nPhone: 503-222-6484\nWebsit
+ e: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for co-oc
+ curring mental illness and substance use. Peer-led meetings. The former SW
+  11th office address and hours were removed because current official sourc
+ es publish only a PO box\, not a public office. The national in-person dir
+ ectory publishes start times but not end times\; one-hour calendar blocks 
+ for those listings are start-time reminders\, not confirmed durations.
+LOCATION:5193 NE Elam Young Pkwy\, Suite D\, Hillsboro\, OR
+URL:https://ddainc.org/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:43e63b2e308da08b@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T140000
+DTEND;TZID=America/Los_Angeles:20260102T150000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: DDA at Comfort Zone (Tigard)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nPhone: 503-222-6484\nWebsit
+ e: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for co-oc
+ curring mental illness and substance use. Peer-led meetings. The former SW
+  11th office address and hours were removed because current official sourc
+ es publish only a PO box\, not a public office. The national in-person dir
+ ectory publishes start times but not end times\; one-hour calendar blocks 
+ for those listings are start-time reminders\, not confirmed durations.
+LOCATION:10130 SW Nimbus Ave\, Suite D2\, Tigard\, OR
+URL:https://ddainc.org/
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:d92720a6acf0e82e@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T100000
 DTEND;TZID=America/Los_Angeles:20260104T110000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Online DDA Morning Meetings 
@@ -1177,12 +1283,33 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:24706b50ad7a8a7f@portlandresources.org
-DTSTAMP:20260813T000000Z
+UID:9c425dedb28a69ef@portlandresources.org
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T100000
 DTEND;TZID=America/Los_Angeles:20260101T110000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Online DDA Book Study Meetin
+ g - Thursday Morning
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nInfo: Book St
+ udy. Zoom meeting ID 849 3539 5086\; no passcode. Pacific time.\nPhone: 50
+ 3-222-6484\nWebsite: https://ddainc.org/\nDetails: 12-Step plus 5 addition
+ al steps for co-occurring mental illness and substance use. Peer-led meeti
+ ngs. The former SW 11th office address and hours were removed because curr
+ ent official sources publish only a PO box\, not a public office. The nati
+ onal in-person directory publishes start times but not end times\; one-hou
+ r calendar blocks for those listings are start-time reminders\, not confir
+ med durations.
+URL:https://ddainc.org/
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:518de09769c5adf9@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T120000
+DTEND;TZID=America/Los_Angeles:20260101T130000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Online DDA Women's Meeting -
-  Thursday Morning
+  Thursday Midday
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nInfo: Women-o
  nly. Zoom meeting ID 849 3539 5086\; no passcode. Pacific time.\nPhone: 50
  3-222-6484\nWebsite: https://ddainc.org/\nDetails: 12-Step plus 5 addition
@@ -1198,29 +1325,29 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:e64134a8c82a0030@portlandresources.org
-DTSTAMP:20260813T000000Z
-DTSTART;TZID=America/Los_Angeles:20260103T100000
-DTEND;TZID=America/Los_Angeles:20260103T110000
-SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Online DDA Saturday Morning 
- Meeting
+UID:4c263455a0296933@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T100000
+DTEND;TZID=America/Los_Angeles:20260102T110000
+SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Online DDA Morning Meetings 
+ - Friday & Saturday
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Zoom\nInfo: Zoom me
- eting ID 849 3539 5086\; no passcode. There is currently no Friday 10am me
- eting. Pacific time.\nPhone: 503-222-6484\nWebsite: https://ddainc.org/\nD
- etails: 12-Step plus 5 additional steps for co-occurring mental illness an
- d substance use. Peer-led meetings. The former SW 11th office address and 
- hours were removed because current official sources publish only a PO box\
- , not a public office. The national in-person directory publishes start ti
- mes but not end times\; one-hour calendar blocks for those listings are st
- art-time reminders\, not confirmed durations.
+ eting ID 849 3539 5086\; no passcode. Pacific time.\nPhone: 503-222-6484\n
+ Website: https://ddainc.org/\nDetails: 12-Step plus 5 additional steps for
+  co-occurring mental illness and substance use. Peer-led meetings. The for
+ mer SW 11th office address and hours were removed because current official
+  sources publish only a PO box\, not a public office. The national in-pers
+ on directory publishes start times but not end times\; one-hour calendar b
+ locks for those listings are start-time reminders\, not confirmed duration
+ s.
 URL:https://ddainc.org/
-RRULE:FREQ=WEEKLY;BYDAY=SA
+RRULE:FREQ=WEEKLY;BYDAY=FR,SA
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:946ab2321b10735e@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T170000
 DTEND;TZID=America/Los_Angeles:20260101T180000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Online DDA Evening Meetings
@@ -1240,7 +1367,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3535967883f28ee4@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260125T130000
 DTEND;TZID=America/Los_Angeles:20260125T150000
 SUMMARY:Dual Diagnosis Anonymous (DDA) Oregon: Online DDA Open Mic Fellowsh
@@ -1261,7 +1388,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0870cb364bf69dbd@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T140000
 DTEND;TZID=America/Los_Angeles:20260101T220000
 SUMMARY:4D Recovery: Drop-In Center
@@ -1381,18 +1508,17 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:70e22bbc8f025372@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:International Survivors of Suicide Loss Day - Portland (AFSP Oregon
  )
 DESCRIPTION:Category: Peer Support\nCost: FREE\nNote: The event system mark
  s the event free\; no ticket price is published.\nAddress: The Lantern\, 2
- 828 SE Stephens\, Portland\, OR 97214\nPhone: 971-375-5509\nWebsite: https
- ://portland.isosld.afsp.org/\nDetails: From the queue's high-priority Surv
- ivor Day lead. Date\, time\, and venue come from the event site's own data
-  and match the afsp.org chapter listing\; the visible page needs JavaScrip
- t and has no description.
+ 828 SE Stephens\, Portland\, OR 97214\nPhone: 503-880-8794\nWebsite: https
+ ://portland.isosld.afsp.org/\nDetails: Confirmed on portland.isosld.afsp.o
+ rg on 2026-11-09: online registration is open\, admission is free\, and ho
+ st contact is Joan Hoff (503-880-8794\, joanshoff2020@gmail.com).
 LOCATION:The Lantern\, 2828 SE Stephens\, Portland\, OR 97214
 URL:https://portland.isosld.afsp.org/
 CATEGORIES:Peer Support
@@ -1400,7 +1526,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c47d584db68d2380@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:NAMI Multnomah Give & Glow Self-Care Kickoff
@@ -1417,7 +1543,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9c5a84124601a862@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:The Lost Table (Portland Grief House with Milagro)
@@ -1434,7 +1560,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1528df38844e1886@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261110T130000
 DTEND;TZID=America/Los_Angeles:20261110T150000
 SUMMARY:Get Trained to Help (free suicide-prevention classes): QPR - Older 
@@ -1452,7 +1578,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7a5720fb1ed8ad09@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261112T093000
 DTEND;TZID=America/Los_Angeles:20261112T113000
 SUMMARY:Get Trained to Help (free suicide-prevention classes): Veterans QPR
@@ -1469,7 +1595,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:72e3931e79c300ed@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261210T153000
 DTEND;TZID=America/Los_Angeles:20261210T173000
 SUMMARY:Get Trained to Help (free suicide-prevention classes): Veterans QPR
@@ -1481,6 +1607,25 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Registration required
   new ones.
 LOCATION:Washington County DAVS\, 5240 NE Elam Young Pkwy\, Suite 300\, Hil
  lsboro\, OR 97124
+URL:https://gettrainedtohelp.com/find-a-class/
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0b8f11a9b0d4e357@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270209T100000
+DTEND;TZID=America/Los_Angeles:20270209T120000
+SUMMARY:Get Trained to Help (free suicide-prevention classes): QPR Older Ad
+ ult Suicide Prevention Training (virtual\, Multnomah County)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Free virtual Question
+ \, Persuade\, Refer (QPR) suicide-prevention training focused on older adu
+ lts. Register at gettrainedtohelp.com.\nWebsite: https://gettrainedtohelp.
+ com/find-a-class/\nDetails: Added in the October 2026 discovery sweep. The
+  calendar shows no other dated classes right now\; check the site for new 
+ ones.
+LOCATION:Online (link sent to registered participants one day before traini
+ ng)
 URL:https://gettrainedtohelp.com/find-a-class/
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
@@ -1576,7 +1721,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fb7bf229fdbee72a@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T063000
 DTEND;TZID=America/Los_Angeles:20260101T073000
 SUMMARY:Alano Club of Portland: AA: Dawn Patrol
@@ -1593,7 +1738,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:18677ec7a70cc383@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T120000
 DTEND;TZID=America/Los_Angeles:20260101T130000
 SUMMARY:Alano Club of Portland: AA: Noon Meetings
@@ -1612,7 +1757,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1043507d7df9b0e9@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T173000
 DTEND;TZID=America/Los_Angeles:20260101T183000
 SUMMARY:Alano Club of Portland: AA: New Alternatives & Upstairs 5:30
@@ -1629,7 +1774,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ac12dc2282cdffe9@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T184500
 DTEND;TZID=America/Los_Angeles:20260105T194500
 SUMMARY:Alano Club of Portland: AA: Recovery Sisters (WO) - Evening
@@ -1646,7 +1791,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:047af9701c99f7c5@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T100000
 DTEND;TZID=America/Los_Angeles:20260107T110000
 SUMMARY:Alano Club of Portland: AA: Recovery Sisters (WO) - Wednesday Morni
@@ -1664,7 +1809,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:db0032ee3fc9deb0@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T150000
 DTEND;TZID=America/Los_Angeles:20260101T160000
 SUMMARY:Alano Club of Portland: AA: Recovery Sisters (WO) - Afternoons
@@ -1681,7 +1826,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:36824d45c7f1afbd@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:Alano Club of Portland: AA: Young at Heart
@@ -1698,7 +1843,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:67bafcb81d17f5ee@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T200000
 SUMMARY:Alano Club of Portland: AA: For Musicians/Artists/Writers
@@ -1715,7 +1860,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:98e63b7b80a3a874@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T190000
 DTEND;TZID=America/Los_Angeles:20260107T200000
 SUMMARY:Alano Club of Portland: AA: Whoopie Party
@@ -1732,7 +1877,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:670ab3bfe9d5e044@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T200000
 SUMMARY:Alano Club of Portland: AA: Soul Purpose Group
@@ -1749,7 +1894,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a71945d89b3524cd@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T193000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:Alano Club of Portland: AA: Guys Night Out
@@ -1766,7 +1911,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:19dbabcf554f3bb3@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T150000
 DTEND;TZID=America/Los_Angeles:20260102T160000
 SUMMARY:Alano Club of Portland: AA: Women's Sex Workers (WO)
@@ -1783,7 +1928,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1bc99f867e6e3548@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T183000
 DTEND;TZID=America/Los_Angeles:20260102T193000
 SUMMARY:Alano Club of Portland: AA: Tight Rope (GMO)
@@ -1800,7 +1945,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3ec3bb25b9bfa6d@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T190000
 DTEND;TZID=America/Los_Angeles:20260102T200000
 SUMMARY:Alano Club of Portland: AA: NW Beginners
@@ -1817,7 +1962,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c4e5e576f817253c@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T080000
 DTEND;TZID=America/Los_Angeles:20260104T090000
 SUMMARY:Alano Club of Portland: AA: Dignitaries Sympathy (MO)
@@ -1834,7 +1979,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0291f6ac087cbeee@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T090000
 DTEND;TZID=America/Los_Angeles:20260104T100000
 SUMMARY:Alano Club of Portland: AA: Serenity Sisters (WO)
@@ -1851,7 +1996,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:68438b80395a9a56@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T093000
 DTEND;TZID=America/Los_Angeles:20260104T103000
 SUMMARY:Alano Club of Portland: AA: Now What
@@ -1868,7 +2013,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:731a6fc5202b321d@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T100000
 DTEND;TZID=America/Los_Angeles:20260104T110000
 SUMMARY:Alano Club of Portland: AA: Beyond Belief (Secular)
@@ -1885,7 +2030,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f84eac9fac2ab683@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T150000
 DTEND;TZID=America/Los_Angeles:20260101T160000
 SUMMARY:Alano Club of Portland: NA: RITH
@@ -1902,7 +2047,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6c1fd453fcbfda3d@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T190000
 DTEND;TZID=America/Los_Angeles:20260107T201500
 SUMMARY:Alano Club of Portland: NA: LGBTQ+ Queer as Folk
@@ -1919,7 +2064,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4012dc6b5bf1b092@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T090000
 DTEND;TZID=America/Los_Angeles:20260104T103000
 SUMMARY:Alano Club of Portland: NA: A New Way to Live
@@ -1936,7 +2081,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:46b47f8100b9079c@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T120000
 DTEND;TZID=America/Los_Angeles:20260101T130000
 SUMMARY:Alano Club of Portland: Al-Anon: NW at Noon
@@ -1953,7 +2098,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3181bab17864fda@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T181500
 DTEND;TZID=America/Los_Angeles:20260107T193000
 SUMMARY:Alano Club of Portland: Al-Anon: Growing Towards Wisdom (MO)
@@ -1970,7 +2115,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5721ac85ac2ae4e3@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T174500
 DTEND;TZID=America/Los_Angeles:20260105T184500
 SUMMARY:Alano Club of Portland: Al-Anon: Weekend Survivors
@@ -1987,7 +2132,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6bd54ad567812c97@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T173000
 DTEND;TZID=America/Los_Angeles:20260103T183000
 SUMMARY:Alano Club of Portland: Al-Anon: We Care
@@ -2004,7 +2149,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b771efbfb1167d6f@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T081500
 DTEND;TZID=America/Los_Angeles:20260104T091500
 SUMMARY:Alano Club of Portland: Al-Anon: Early Morning Meditation
@@ -2021,7 +2166,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2a24b240871e9901@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T160000
 DTEND;TZID=America/Los_Angeles:20260105T170000
 SUMMARY:Alano Club of Portland: SMART Recovery
@@ -2038,7 +2183,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6cefcd8a5d12faaf@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T173000
 DTEND;TZID=America/Los_Angeles:20260105T190000
 SUMMARY:Alano Club of Portland: SMART Recovery Friends & Family
@@ -2055,7 +2200,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5982d8bb9b5d0de1@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:Alano Club of Portland: ACA: True Selves
@@ -2072,7 +2217,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ab5bd6d31d2ec751@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T170000
 DTEND;TZID=America/Los_Angeles:20260106T180000
 SUMMARY:Alano Club of Portland: ACA: ACA for Alcoholics
@@ -2089,7 +2234,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9b69662028daa372@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T183000
 DTEND;TZID=America/Los_Angeles:20260107T200000
 SUMMARY:Alano Club of Portland: ACA: Gentleness\, Love\, Humor\, Respect
@@ -2106,7 +2251,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:12893bee49d52c91@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T100000
 DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:Alano Club of Portland: ACA: A New Hope
@@ -2123,7 +2268,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0edb7a96fb1da40b@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T120000
 DTEND;TZID=America/Los_Angeles:20260103T133000
 SUMMARY:Alano Club of Portland: ACA: Awareness
@@ -2140,7 +2285,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c40a6aae79d039fc@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T203000
 SUMMARY:Alano Club of Portland: CODA: The Way of CODA
@@ -2157,7 +2302,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:46cac297770a1ca2@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T183000
 DTEND;TZID=America/Los_Angeles:20260102T200000
 SUMMARY:Alano Club of Portland: CODA: Step Share
@@ -2174,7 +2319,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:501c94e36ef21d42@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T190000
 DTEND;TZID=America/Los_Angeles:20260103T203000
 SUMMARY:Alano Club of Portland: CODA: Portland Men's CoDA (MO)
@@ -2191,7 +2336,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:208d56d49ba85c6c@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T100000
 DTEND;TZID=America/Los_Angeles:20260104T110000
 SUMMARY:Alano Club of Portland: CODA: PWL2M
@@ -2208,7 +2353,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:445c92b4ea533d65@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T140000
 DTEND;TZID=America/Los_Angeles:20260104T150000
 SUMMARY:Alano Club of Portland: RTS Recovery Yoga
@@ -2228,7 +2373,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9bd9580f5ba0452@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T190000
 DTEND;TZID=America/Los_Angeles:20260106T200000
 SUMMARY:Alano Club of Portland: HA: Women's Sunlight of the Spirit (WO)
@@ -2245,7 +2390,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1dbce92a5bd0da1c@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T210000
 DTEND;TZID=America/Los_Angeles:20260102T220000
 SUMMARY:Alano Club of Portland: HA: Candlelight
@@ -2262,7 +2407,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:de7a985f4f259517@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T160000
 DTEND;TZID=America/Los_Angeles:20260104T170000
 SUMMARY:Alano Club of Portland: HA: The Way Out
@@ -2279,7 +2424,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2a28af5cfead43c6@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T184500
 DTEND;TZID=America/Los_Angeles:20260101T194500
 SUMMARY:Alano Club of Portland: SAA: Thursday Group
@@ -2296,7 +2441,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fa4c70f456bc8d58@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T093000
 DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:Alano Club of Portland: SAA: Touchstone
@@ -2313,7 +2458,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f8aa9145e095057a@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T170000
 DTEND;TZID=America/Los_Angeles:20260104T180000
 SUMMARY:Alano Club of Portland: SAA: Steps Into Action
@@ -2330,7 +2475,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a50e0e2177082bc1@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T120000
 DTEND;TZID=America/Los_Angeles:20260101T130000
 SUMMARY:Alano Club of Portland: Recovery Dharma
@@ -2347,7 +2492,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0d5c57bf0b9986e4@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T190000
 DTEND;TZID=America/Los_Angeles:20260103T201500
 SUMMARY:Alano Club of Portland: Recovery Dharma: Meditation Sandwich
@@ -2364,7 +2509,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:37b70b199cb50a4e@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T140000
 DTEND;TZID=America/Los_Angeles:20260101T150000
 SUMMARY:Alano Club of Portland: DDA: Thursday Meeting
@@ -2381,7 +2526,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:42a73941da19a43a@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T100000
 DTEND;TZID=America/Los_Angeles:20260103T110000
 SUMMARY:Alano Club of Portland: DDA: Saturday Meeting
@@ -2400,7 +2545,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b08f689c49c26474@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T110000
 DTEND;TZID=America/Los_Angeles:20260103T123000
 SUMMARY:Alano Club of Portland: Gamblers Anonymous
@@ -2417,7 +2562,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ea21d61982e10469@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T090000
 DTEND;TZID=America/Los_Angeles:20260103T103000
 SUMMARY:Alano Club of Portland: Women For Sobriety
@@ -2434,7 +2579,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:95d11ba6d2b1e72c@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T183000
 DTEND;TZID=America/Los_Angeles:20260107T193000
 SUMMARY:Alano Club of Portland: SLAA: Anorexia Focus
@@ -2451,7 +2596,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1d1804cd3a9cf2c5@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T190000
 DTEND;TZID=America/Los_Angeles:20260107T200000
 SUMMARY:Alano Club of Portland: SLAA: Women's Honesty\, Openness and Willin
@@ -2469,7 +2614,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:147496e329ea4f5f@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T213000
 DTEND;TZID=America/Los_Angeles:20260103T224500
 SUMMARY:Alano Club of Portland: SLAA: Real Love
@@ -2486,7 +2631,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:39692b03676412e8@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260102T190000
 DTEND;TZID=America/Los_Angeles:20260102T200000
 SUMMARY:Alano Club of Portland: Refuge Recovery
@@ -2503,7 +2648,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:30548664c4dafea5@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:Alano Club of Portland: Recovery International
@@ -2520,7 +2665,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1d5773b9ae2fda82@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T203000
 SUMMARY:Alano Club of Portland: DA: Peace & Prosperity
@@ -2537,7 +2682,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d26f16eddc078751@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T183000
 DTEND;TZID=America/Los_Angeles:20260101T193000
 SUMMARY:Alano Club of Portland: ITAA: Log Off!
@@ -2555,7 +2700,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cb624fa33ca66144@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T194500
 DTEND;TZID=America/Los_Angeles:20260107T204500
 SUMMARY:Alano Club of Portland: MA: A New Leaf
@@ -2572,7 +2717,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c5aa32f84861e97b@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T153000
 DTEND;TZID=America/Los_Angeles:20260104T163000
 SUMMARY:Alano Club of Portland: SPAA: Awakenings
@@ -2589,7 +2734,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ae1e1e62c2cd8119@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260104T184500
 DTEND;TZID=America/Los_Angeles:20260104T210000
 SUMMARY:Alano Club of Portland: Wellbriety
@@ -2606,7 +2751,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e6998d1184a6f992@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260101T190000
 DTEND;TZID=America/Los_Angeles:20260101T200000
 SUMMARY:Alano Club of Portland: Mindfulness Meditation
@@ -2623,7 +2768,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:71f790604d335fd8@portlandresources.org
-DTSTAMP:20260807T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T160000
 DTEND;TZID=America/Los_Angeles:20260103T170000
 SUMMARY:Alano Club of Portland: Sounds of Recovery
@@ -2735,7 +2880,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b2c9ee508316dbb0@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T093000
 DTEND;TZID=America/Los_Angeles:20260107T103000
 SUMMARY:Portland Hearing Voices: In-Person Hearing Voices Group
@@ -2760,7 +2905,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9b4a6cb18a941d5e@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T123000
 DTEND;TZID=America/Los_Angeles:20260105T133000
 SUMMARY:Portland Hearing Voices: Hearing Voices Online
@@ -2783,7 +2928,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:189390ff57aed616@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260727T183000
 DTEND;TZID=America/Los_Angeles:20260727T200000
 SUMMARY:Hopewell House Grief Support: Community Grief Circle
@@ -2843,20 +2988,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:48eff2276e9d2d0b@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260810T190000
 DTEND;TZID=America/Los_Angeles:20260810T210000
 SUMMARY:Brief Encounters (Pregnancy & Infant Loss Support): Parents of Preg
  nancy and Infant Loss
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: In
- cludes early pregnancy loss. No registration is required. Call or text 503
- -334-2564 to confirm the venue because the official site's static page sti
- ll names the former Peace House location.\nPhone: 503-334-2564\nWebsite: h
- ttps://www.briefencounters.org\nDetails: Portland-based peer support for p
- regnancy and infant loss\, including early pregnancy loss\, plus a separat
- e group for non-birthing parents and partners. Added July 2026 to fill a p
- erinatal grief gap not covered by Dougy Center\, Providence Hospice or Hop
- ewell House.
+ cludes early pregnancy loss. No registration is required for in-person mee
+ tings.\nPhone: 503-334-2564\nWebsite: https://www.briefencounters.org\nDet
+ ails: Portland-based peer support for pregnancy and infant loss\, includin
+ g early pregnancy loss\, non-birthing parents\, subsequent pregnancies\, a
+ nd medical termination. Added July 2026\; all official pages and calendar 
+ listings now confirm The Overlook House as the in-person venue.
 LOCATION:The Overlook House\, 3839 N Melrose Dr\, Portland\, OR 97227
 URL:https://www.briefencounters.org
 RRULE:FREQ=MONTHLY;BYDAY=2MO
@@ -2865,7 +3008,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e14d82444a5352d5@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260127T190000
 DTEND;TZID=America/Los_Angeles:20260127T210000
 SUMMARY:Brief Encounters (Pregnancy & Infant Loss Support): Parents of Preg
@@ -2874,10 +3017,10 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nInfo: Call
  or text 503-334-2564 for Zoom help. Keep camera and audio focused on the a
  dult participant during the meeting.\nPhone: 503-334-2564\nWebsite: https:
  //www.briefencounters.org\nDetails: Portland-based peer support for pregna
- ncy and infant loss\, including early pregnancy loss\, plus a separate gro
- up for non-birthing parents and partners. Added July 2026 to fill a perina
- tal grief gap not covered by Dougy Center\, Providence Hospice or Hopewell
-  House.
+ ncy and infant loss\, including early pregnancy loss\, non-birthing parent
+ s\, subsequent pregnancies\, and medical termination. Added July 2026\; al
+ l official pages and calendar listings now confirm The Overlook House as t
+ he in-person venue.
 LOCATION:Online (Zoom)
 URL:https://www.briefencounters.org
 RRULE:FREQ=MONTHLY;BYDAY=4TU
@@ -2886,19 +3029,19 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c332712d8be556fb@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260803T183000
 DTEND;TZID=America/Los_Angeles:20260803T200000
 SUMMARY:Brief Encounters (Pregnancy & Infant Loss Support): Non-Birthing Pa
  rent Support Group
 DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Fo
- r grieving partners and non-birthing parents. Call or text 503-334-2564 to
-  confirm the venue because the official site's static page still names the
-  former Peace House location.\nPhone: 503-334-2564\nWebsite: https://www.b
- riefencounters.org\nDetails: Portland-based peer support for pregnancy and
-  infant loss\, including early pregnancy loss\, plus a separate group for 
- non-birthing parents and partners. Added July 2026 to fill a perinatal gri
- ef gap not covered by Dougy Center\, Providence Hospice or Hopewell House.
+ r grieving partners and non-birthing parents of all gender identities and 
+ sexual orientations.\nPhone: 503-334-2564\nWebsite: https://www.briefencou
+ nters.org\nDetails: Portland-based peer support for pregnancy and infant l
+ oss\, including early pregnancy loss\, non-birthing parents\, subsequent p
+ regnancies\, and medical termination. Added July 2026\; all official pages
+  and calendar listings now confirm The Overlook House as the in-person ven
+ ue.
 LOCATION:The Overlook House\, 3839 N Melrose Dr\, Portland\, OR 97227
 URL:https://www.briefencounters.org
 RRULE:FREQ=MONTHLY;BYDAY=1MO
@@ -2906,8 +3049,50 @@ CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:4927f6327e0db275@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260824T190000
+DTEND;TZID=America/Los_Angeles:20260824T210000
+SUMMARY:Brief Encounters (Pregnancy & Infant Loss Support): Subsequent Preg
+ nancies\, Adoptions & Trying to Conceive Support Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: In-person\nInfo: Fo
+ r anyone experiencing or considering a subsequent pregnancy or adoption af
+ ter a loss\; babies and young children are welcome at this meeting.\nPhone
+ : 503-334-2564\nWebsite: https://www.briefencounters.org\nDetails: Portlan
+ d-based peer support for pregnancy and infant loss\, including early pregn
+ ancy loss\, non-birthing parents\, subsequent pregnancies\, and medical te
+ rmination. Added July 2026\; all official pages and calendar listings now 
+ confirm The Overlook House as the in-person venue.
+LOCATION:The Overlook House\, 3839 N Melrose Dr\, Portland\, OR 97227
+URL:https://www.briefencounters.org
+RRULE:FREQ=MONTHLY;BYDAY=4MO
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6116006ae38d5e09@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260122T190000
+DTEND;TZID=America/Los_Angeles:20260122T210000
+SUMMARY:Brief Encounters (Pregnancy & Infant Loss Support): Ending a Wanted
+  Pregnancy for Medical Reasons Support Group
+DESCRIPTION:Category: Peer Support\nCost: FREE\nFormat: Online\nInfo: For p
+ arents who have undergone a pregnancy termination due to a prenatal diagno
+ sis or maternal/fetal health reasons.\nPhone: 503-334-2564\nWebsite: https
+ ://www.briefencounters.org\nDetails: Portland-based peer support for pregn
+ ancy and infant loss\, including early pregnancy loss\, non-birthing paren
+ ts\, subsequent pregnancies\, and medical termination. Added July 2026\; a
+ ll official pages and calendar listings now confirm The Overlook House as 
+ the in-person venue.
+LOCATION:Online (Zoom)
+URL:https://www.briefencounters.org
+RRULE:FREQ=MONTHLY;BYDAY=4TH
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:cb871f080e917e57@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261003T110000
 DTEND;TZID=America/Los_Angeles:20261003T130000
 SUMMARY:Out of the Darkness Community Walk - Portland (AFSP Oregon): Out of
@@ -2924,6 +3109,102 @@ DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Check-in opens at 9am
  tacey Jung\, 503-810-8937\, oregon@afsp.org.
 LOCATION:Daimler Truck North America\, 2555 N Channel Ave\, Portland\, OR
 URL:https://afspwalks.donordrive.com/PortlandOR
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e03219605d07cfc9@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Transgender Day of Remembrance Vigil (Q Center)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nNote: Community remembrance
+  vigil at Q Center\; RSVP on the event page.\nAddress: Q Center\, 4115 N M
+ ississippi Ave\, Portland\, OR 97217\nPhone: 503-234-7837\nWebsite: https:
+ //www.pdxqcenter.org/events-1/trans-day-of-remembrance-vigil\nDetails: Res
+ olve the high-priority Transgender Day of Remembrance vigil lead from queu
+ e.yaml. Published on pdxqcenter.org/events on November 5\, 2026.
+LOCATION:Q Center\, 4115 N Mississippi Ave\, Portland\, OR 97217
+URL:https://www.pdxqcenter.org/events-1/trans-day-of-remembrance-vigil
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:de2383ab2d07fe0c@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T160000
+DTEND;TZID=America/Los_Angeles:20260106T170000
+SUMMARY:Alano Club Recovery Toolkit Workshops & Expungement Clinic: Transit
+ ions Lab (Housing & Employment Peer Workspace)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Weekly peer-supported
+  workspace with on-site staff and peer mentors to work on resumes\, housin
+ g applications\, and life transitions.\nAddress: 909 NW 24th Ave\, Portlan
+ d\, OR 97210\nPhone: 503-222-5756\nWebsite: https://www.portlandalano.org/
+ events\nDetails: Free Recovery Toolkit Series workshops\, OHP navigation\,
+  and Clear Clinic legal expungement clinics from the Alano Club of Portlan
+ d.
+LOCATION:Alano Club of Portland (Cafe)\, 909 NW 24th Ave\, Portland\, OR 97
+ 210
+URL:https://www.portlandalano.org/events
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f3d7ddedc6d02326@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T113000
+DTEND;TZID=America/Los_Angeles:20260107T123000
+SUMMARY:Alano Club Recovery Toolkit Workshops & Expungement Clinic: OHP Nav
+ igation Office Hours
+DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Drop-in help navigati
+ ng Oregon Health Plan (OHP) enrollment and benefits.\nAddress: 909 NW 24th
+  Ave\, Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: https://www.port
+ landalano.org/events\nDetails: Free Recovery Toolkit Series workshops\, OH
+ P navigation\, and Clear Clinic legal expungement clinics from the Alano C
+ lub of Portland.
+LOCATION:Alano Club of Portland\, 909 NW 24th Ave\, Portland\, OR 97210
+URL:https://www.portlandalano.org/events
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c74bf6f496dfa584@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261117T190000
+DTEND;TZID=America/Los_Angeles:20261117T203000
+SUMMARY:Alano Club Recovery Toolkit Workshops & Expungement Clinic: Sober L
+ ifestyle Sessions: Sobriety During the Holidays
+DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Monthly panel discuss
+ ion hosted by Hailey Hosler (Ben's Friends) on tending to recovery during 
+ the holidays.\nAddress: 909 NW 24th Ave\, Portland\, OR 97210\nPhone: 503-
+ 222-5756\nWebsite: https://www.portlandalano.org/events\nDetails: Free Rec
+ overy Toolkit Series workshops\, OHP navigation\, and Clear Clinic legal e
+ xpungement clinics from the Alano Club of Portland.
+LOCATION:Alano Club of Portland (Loft)\, 909 NW 24th Ave\, Portland\, OR 97
+ 210
+URL:https://www.portlandalano.org/events
+CATEGORIES:Peer Support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3c5e28b5242d9992@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261125T120000
+DTEND;TZID=America/Los_Angeles:20261125T130000
+SUMMARY:Alano Club Recovery Toolkit Workshops & Expungement Clinic: Free Le
+ gal Services and Expungement Clinic (with Clear Clinic)
+DESCRIPTION:Category: Peer Support\nCost: FREE\nInfo: Monthly drop-in legal
+  and record-expungement clinic in partnership with PCC Clear Clinic (curre
+ ntly hosted at The Peer Company in Hillsboro).\nAddress: 909 NW 24th Ave\,
+  Portland\, OR 97210\nPhone: 503-222-5756\nWebsite: https://www.portlandal
+ ano.org/events\nDetails: Free Recovery Toolkit Series workshops\, OHP navi
+ gation\, and Clear Clinic legal expungement clinics from the Alano Club of
+  Portland.
+LOCATION:The Peer Company\, 5193 NE Elam Young Pkwy\, Suite D\, Hillsboro\,
+  OR 97124
+URL:https://www.portlandalano.org/events
 CATEGORIES:Peer Support
 TRANSP:TRANSPARENT
 END:VEVENT

@@ -374,7 +374,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a8c5e9f864da0e2e@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261122T170000
 DTEND;TZID=America/Los_Angeles:20261122T180000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
@@ -382,17 +382,17 @@ SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: 19th annual series 
  (2026-27). A Bach cantata within Evening Prayer with choir\, soloists\, an
  d orchestra\; a reception follows and a freewill offering is taken. Novemb
- er 22 is BWV 140 "Wachet auf"\; February 28 is BWV 54.\nAddress: 1315 SW P
- ark Ave\, Portland\, OR 97201\nWebsite: https://stjamespdx.org/life/wm/bac
- h/
+ er 22 is BWV 140 "Wachet auf"\; February 28 is BWV 54\; May 23 is BWV 172.
+ \nAddress: 1315 SW Park Ave\, Portland\, OR 97201\nPhone: 503-227-2439\nWe
+ bsite: https://www.stjamespdx.org/life/wm/bach/
 LOCATION:1315 SW Park Ave\, Portland\, OR 97201
-URL:https://stjamespdx.org/life/wm/bach/
+URL:https://www.stjamespdx.org/life/wm/bach/
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3a0b1e2e2ad73e10@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20270228T170000
 DTEND;TZID=America/Los_Angeles:20270228T180000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
@@ -400,17 +400,17 @@ SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: 19th annual series 
  (2026-27). A Bach cantata within Evening Prayer with choir\, soloists\, an
  d orchestra\; a reception follows and a freewill offering is taken. Novemb
- er 22 is BWV 140 "Wachet auf"\; February 28 is BWV 54.\nAddress: 1315 SW P
- ark Ave\, Portland\, OR 97201\nWebsite: https://stjamespdx.org/life/wm/bac
- h/
+ er 22 is BWV 140 "Wachet auf"\; February 28 is BWV 54\; May 23 is BWV 172.
+ \nAddress: 1315 SW Park Ave\, Portland\, OR 97201\nPhone: 503-227-2439\nWe
+ bsite: https://www.stjamespdx.org/life/wm/bach/
 LOCATION:1315 SW Park Ave\, Portland\, OR 97201
-URL:https://stjamespdx.org/life/wm/bach/
+URL:https://www.stjamespdx.org/life/wm/bach/
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2c04a9532170ae4e@portlandresources.org
-DTSTAMP:20261014T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20270523T170000
 DTEND;TZID=America/Los_Angeles:20270523T180000
 SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
@@ -418,11 +418,11 @@ SUMMARY:St. James Lutheran Church Bach Cantata Vespers: Bach Cantata Vesper
 DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: 19th annual series 
  (2026-27). A Bach cantata within Evening Prayer with choir\, soloists\, an
  d orchestra\; a reception follows and a freewill offering is taken. Novemb
- er 22 is BWV 140 "Wachet auf"\; February 28 is BWV 54.\nAddress: 1315 SW P
- ark Ave\, Portland\, OR 97201\nWebsite: https://stjamespdx.org/life/wm/bac
- h/
+ er 22 is BWV 140 "Wachet auf"\; February 28 is BWV 54\; May 23 is BWV 172.
+ \nAddress: 1315 SW Park Ave\, Portland\, OR 97201\nPhone: 503-227-2439\nWe
+ bsite: https://www.stjamespdx.org/life/wm/bach/
 LOCATION:1315 SW Park Ave\, Portland\, OR 97201
-URL:https://stjamespdx.org/life/wm/bach/
+URL:https://www.stjamespdx.org/life/wm/bach/
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -495,6 +495,149 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:0ab2ae0f9874fcd9@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T180000
+DTEND;TZID=America/Los_Angeles:20260107T193000
+SUMMARY:Tigard Public Library: English Conversation Group
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Relaxed environment
+  led by an ESL tutor and certified instructor. All levels welcome\, no reg
+ istration required.\nAddress: 13500 SW Hall Blvd\, Tigard\, OR 97223\nPhon
+ e: 503-684-6537\nWebsite: https://www.tigard-or.gov/your-government/depart
+ ments/library\nDetails: Part of Washington County Cooperative Library Serv
+ ices (WCCLS). Cultural Pass Express provides free/reduced admission to loc
+ al venues.
+LOCATION:Technology Room (2nd floor)
+URL:https://www.tigard-or.gov/your-government/departments/library
+RRULE:FREQ=MONTHLY;BYDAY=1WE,3WE
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:adffe31abfbb373f@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T180000
+DTEND;TZID=America/Los_Angeles:20260101T193000
+SUMMARY:Tigard Public Library: Tigard Writers' Space
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Drop-in hour of qui
+ et writing for writers of all skill levels\; no registration required.\nAd
+ dress: 13500 SW Hall Blvd\, Tigard\, OR 97223\nPhone: 503-684-6537\nWebsit
+ e: https://www.tigard-or.gov/your-government/departments/library\nDetails:
+  Part of Washington County Cooperative Library Services (WCCLS). Cultural 
+ Pass Express provides free/reduced admission to local venues.
+LOCATION:Technology Room (2nd floor)
+URL:https://www.tigard-or.gov/your-government/departments/library
+RRULE:FREQ=MONTHLY;BYDAY=1TH
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c87147422f225fcb@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261101T153000
+DTEND;TZID=America/Los_Angeles:20261101T173000
+SUMMARY:Tigard Public Library: Fiber Arts Meet-Up
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Bring knitting\, cr
+ ocheting\, weaving\, sewing\, or other fiber arts projects\; beginners wel
+ come.\nAddress: 13500 SW Hall Blvd\, Tigard\, OR 97223\nPhone: 503-684-653
+ 7\nWebsite: https://www.tigard-or.gov/your-government/departments/library\
+ nDetails: Part of Washington County Cooperative Library Services (WCCLS). 
+ Cultural Pass Express provides free/reduced admission to local venues.
+LOCATION:Technology Room (2nd floor)
+URL:https://www.tigard-or.gov/your-government/departments/library
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7cb1d1bd2bccf4dd@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261206T153000
+DTEND;TZID=America/Los_Angeles:20261206T173000
+SUMMARY:Tigard Public Library: Fiber Arts Meet-Up
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Bring knitting\, cr
+ ocheting\, weaving\, sewing\, or other fiber arts projects\; beginners wel
+ come.\nAddress: 13500 SW Hall Blvd\, Tigard\, OR 97223\nPhone: 503-684-653
+ 7\nWebsite: https://www.tigard-or.gov/your-government/departments/library\
+ nDetails: Part of Washington County Cooperative Library Services (WCCLS). 
+ Cultural Pass Express provides free/reduced admission to local venues.
+LOCATION:Technology Room (2nd floor)
+URL:https://www.tigard-or.gov/your-government/departments/library
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:134ea91dcc986e02@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261208T183000
+DTEND;TZID=America/Los_Angeles:20261208T193000
+SUMMARY:Tigard Public Library: Sound Bath Meditation
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Crystal bowls and g
+ ongs with Melissa Felsenstein of Inner Sounds Meditation\; bring a yoga ma
+ t or blanket if you want to lie down.\nAddress: 13500 SW Hall Blvd\, Tigar
+ d\, OR 97223\nPhone: 503-684-6537\nWebsite: https://www.tigard-or.gov/your
+ -government/departments/library\nDetails: Part of Washington County Cooper
+ ative Library Services (WCCLS). Cultural Pass Express provides free/reduce
+ d admission to local venues.
+LOCATION:Burgess Community Room
+URL:https://www.tigard-or.gov/your-government/departments/library
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9041c348e861080e@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270124T143000
+DTEND;TZID=America/Los_Angeles:20270124T153000
+SUMMARY:Tigard Public Library: A Musical Journey to Persia
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Master musician Hos
+ sein Salehi introduces the santoor\, the traditional Persian hammered dulc
+ imer.\nAddress: 13500 SW Hall Blvd\, Tigard\, OR 97223\nPhone: 503-684-653
+ 7\nWebsite: https://www.tigard-or.gov/your-government/departments/library\
+ nDetails: Part of Washington County Cooperative Library Services (WCCLS). 
+ Cultural Pass Express provides free/reduced admission to local venues.
+LOCATION:Burgess Community Room
+URL:https://www.tigard-or.gov/your-government/departments/library
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a96570c98b10c365@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Tigard Public Library: Winter Walk on Fanno Creek Trail
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Self-guided outdoor
+  reading walk along the trail exploring Kalapuyan and local history.\nAddr
+ ess: 13500 SW Hall Blvd\, Tigard\, OR 97223\nPhone: 503-684-6537\nWebsite:
+  https://www.tigard-or.gov/your-government/departments/library\nDetails: P
+ art of Washington County Cooperative Library Services (WCCLS). Cultural Pa
+ ss Express provides free/reduced admission to local venues.
+LOCATION:Fanno Creek Trail behind Tigard Public Library
+URL:https://www.tigard-or.gov/your-government/departments/library
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a69c448724cce690@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270228T130000
+DTEND;TZID=America/Los_Angeles:20270228T170000
+SUMMARY:Lake Oswego Public Library: Lake Oswego Reads 2027 - Free Book Give
+ away
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: 21st annual Lake Os
+ wego Reads program featuring Good People by Patmeena Sabit. 800 free copie
+ s distributed first-come\, first-served (walk-in and parking lot) to LINCC
+  library cardholders starting at 1pm on Sunday\, February 28\, 2027. Free 
+ events follow in April 2027.\nAddress: 706 Fourth St\, Lake Oswego\, OR 97
+ 034\nPhone: 503-636-7628\nWebsite: https://www.ci.oswego.or.us/library\nDe
+ tails: Part of LINCC system. Strong community programming including book g
+ roups\, film series\, and Lake Oswego Reads.
+LOCATION:706 Fourth St\, Lake Oswego\, OR 97034
+URL:https://www.ci.oswego.or.us/library
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:081b91eb97012860@portlandresources.org
 DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260107T200000
@@ -530,7 +673,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2cd9fb858053dc3e@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260801T100000
 DTEND;TZID=America/Los_Angeles:20260801T160000
 SUMMARY:Tualatin Heritage Center: Northwest Fossil Fest
@@ -547,8 +690,27 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:29c2c236faba54ec@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261212T120000
+DTEND;TZID=America/Los_Angeles:20261212T160000
+SUMMARY:Tualatin Heritage Center: An Old Fashioned Christmas
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Old-fashioned Chris
+ tmas tree and decorations\, free sweet treats\, the Tualatin Crimsonnaires
+  at 1pm\, and St. Nick from 2-4pm.\nAddress: 8700 SW Sweek Drive\, Tualati
+ n\, OR 97062\nPhone: 503-885-1926\nWebsite: https://www.tualatinhistory.or
+ g\nDetails: Free local history museum with excellent family events. Fossil
+  Fest is a highlight - 400+ attendees. Re-tiered from annual to quarterly 
+ audits in July 2026 - an annual cadence let the whole program list sit a f
+ ull year stale\, still advertising 2025 dates.
+LOCATION:8700 SW Sweek Drive\, Tualatin\, OR 97062
+URL:https://www.tualatinhistory.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:180600ab13298af1@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:Tualatin Heritage Center: Heritage Center 100th Anniversary Lecture
@@ -568,7 +730,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:88595ac438b7c617@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:Tualatin Heritage Center: Making History Today: The Man Behind Tual
@@ -587,7 +749,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:12d61015051083c6@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260911T173000
 DTEND;TZID=America/Los_Angeles:20260911T203000
 SUMMARY:Tualatin Heritage Center: Heritage Evening
@@ -607,20 +769,72 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:81a04f3f6a39be83@portlandresources.org
-DTSTAMP:20260813T000000Z
-DTSTART;TZID=America/Los_Angeles:20260830T110000
-DTEND;TZID=America/Los_Angeles:20260830T120000
-SUMMARY:PCC Art Galleries: Marcus Fischer: We Are the Confluence of Two Riv
- ers - closing performance
-DESCRIPTION:Category: Arts & Culture\nCost: FREE admission\nNote: All galle
- ries free and open to the public\nInfo: Site-specific performance inaugura
- ting North View Mobile during the gallery building's two-year renovation. 
- The official page publishes an 11am start but no end time\; the one-hour c
- alendar block is a start-time reminder.\nWebsite: https://www.pcc.edu/gall
+UID:1b844956ea5a020d@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261113T170000
+DTEND;TZID=America/Los_Angeles:20261113T200000
+SUMMARY:PCC Art Galleries: Paragon Arts Gallery: Yo hablo español & Distant
+  Traces - Opening Reception
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Exhibition by Diego
+  Morales-Portillo and Miya Hannan runs November 13\, 2026 - January 23\, 2
+ 027 (open Wed-Fri 12-7pm\, Sat 12-5pm).\nWebsite: https://www.pcc.edu/gall
  eries/\nDetails: Three free campus galleries featuring regional and nation
  al artists. Student exhibitions in spring.
-LOCATION:Rock garden on the PCC Sylvania campus
+LOCATION:PCC Cascade Campus\, Paragon Arts Building\, 815 N Killingsworth S
+ t\, Portland\, OR
+URL:https://www.pcc.edu/galleries/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c227949c02181409@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270122T170000
+DTEND;TZID=America/Los_Angeles:20270122T200000
+SUMMARY:PCC Art Galleries: Paragon Arts Gallery: Yo hablo español & Distant
+  Traces - Closing Reception & Artist Talks
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Artist talks begin 
+ at 5:30pm.\nWebsite: https://www.pcc.edu/galleries/\nDetails: Three free c
+ ampus galleries featuring regional and national artists. Student exhibitio
+ ns in spring.
+LOCATION:PCC Cascade Campus\, Paragon Arts Building\, 815 N Killingsworth S
+ t\, Portland\, OR
+URL:https://www.pcc.edu/galleries/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:48c02e3028ce8c64@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261117T120000
+DTEND;TZID=America/Los_Angeles:20261117T153000
+SUMMARY:PCC Art Galleries: North View Mobile (Sylvania): Houselessness Awar
+ eness Week Screening & Tour
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Screening of "No Pl
+ ace to Grow Old" (12-1:30pm in CC 233B) followed by a dessert reception an
+ d tour of the "Dear Portland" exhibition (1:30-3:30pm).\nWebsite: https://
+ www.pcc.edu/galleries/\nDetails: Three free campus galleries featuring reg
+ ional and national artists. Student exhibitions in spring.
+LOCATION:PCC Sylvania Campus\, CC Building (Room CC 233B & North View Mobil
+ e)\, 12000 SW 49th Ave\, Portland\, OR
+URL:https://www.pcc.edu/galleries/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:464af0db3474cc05@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261119T163000
+DTEND;TZID=America/Los_Angeles:20261119T193000
+SUMMARY:PCC Art Galleries: North View Mobile (Sylvania): Dear Portland Clos
+ ing Reception
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Closing reception f
+ or "Dear Portland: An Exhibition from Humans for Housing" (on view through
+  November 23\, Mon-Fri 11am-4pm).\nWebsite: https://www.pcc.edu/galleries/
+ \nDetails: Three free campus galleries featuring regional and national art
+ ists. Student exhibitions in spring.
+LOCATION:PCC Sylvania Campus\, CC Building\, 12000 SW 49th Ave\, Portland\,
+  OR
 URL:https://www.pcc.edu/galleries/
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
@@ -783,7 +997,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5d7caf6997d1c22c@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:Art in the Burbs
@@ -800,7 +1014,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d90ed30cefb16e12@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:PSU Music @ Midday
@@ -817,7 +1031,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fc38058672c25f5a@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:PSU Music @ Midday
@@ -834,7 +1048,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c3f159534e0a2852@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:PSU Music @ Midday
@@ -851,7 +1065,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2a46c423f15656d0@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:PSU Music @ Midday
@@ -868,7 +1082,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0bb8cfea73f31e54@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:PSU Music @ Midday
@@ -885,7 +1099,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:021b1ae5b082880c@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261108T160000
 DTEND;TZID=America/Los_Angeles:20261108T173000
 SUMMARY:Beaverton City Library - Adult Programs: Silent Book Club
@@ -902,7 +1116,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2b1e3e1481bead45@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261213T160000
 DTEND;TZID=America/Los_Angeles:20261213T173000
 SUMMARY:Beaverton City Library - Adult Programs: Silent Book Club
@@ -919,7 +1133,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c5cdefd4aeac3d82@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261102T173000
 DTEND;TZID=America/Los_Angeles:20261102T190000
 SUMMARY:Beaverton City Library - Adult Programs: Song Circle
@@ -936,7 +1150,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d51f57f38fb44ec6@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261207T173000
 DTEND;TZID=America/Los_Angeles:20261207T190000
 SUMMARY:Beaverton City Library - Adult Programs: Song Circle
@@ -953,7 +1167,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f8ad49cef0d47aec@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261205T140000
 DTEND;TZID=America/Los_Angeles:20261205T153000
 SUMMARY:Beaverton City Library - Adult Programs: Beaverton Community Band H
@@ -971,7 +1185,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f017249ffa8e1d78@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261119T110000
 DTEND;TZID=America/Los_Angeles:20261119T120000
 SUMMARY:Beaverton City Library - Adult Programs: Death Cafe
@@ -988,7 +1202,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c1a5c889d0d5d95f@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261217T110000
 DTEND;TZID=America/Los_Angeles:20261217T120000
 SUMMARY:Beaverton City Library - Adult Programs: Death Cafe
@@ -1005,7 +1219,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4f56155096f0f23e@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261031T140000
 DTEND;TZID=America/Los_Angeles:20261031T150000
 SUMMARY:Beaverton City Library - Adult Programs: English Conversation Club
@@ -1022,7 +1236,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9ed860dc75bbe494@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261111T110000
 DTEND;TZID=America/Los_Angeles:20261111T120000
 SUMMARY:Sherwood Center for the Arts - Veterans Day Event and Monday Mic Ni
@@ -1043,7 +1257,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b31eb7fa3d708339@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261109T190000
 DTEND;TZID=America/Los_Angeles:20261109T210000
 SUMMARY:Sherwood Center for the Arts - Veterans Day Event and Monday Mic Ni
@@ -1063,7 +1277,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4205e8231e5e86fa@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261107
 SUMMARY:Milagro Altares y Muertos (Central Eastside Dia de Muertos)
@@ -1082,7 +1296,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6cafba6f5073d32f@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261031T113000
 DTEND;TZID=America/Los_Angeles:20261031T150000
 SUMMARY:Milagro Altares y Muertos (Central Eastside Dia de Muertos): Altare
@@ -1101,7 +1315,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dcb7cdf37137b4ca@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261031T110000
 DTEND;TZID=America/Los_Angeles:20261031T130000
 SUMMARY:Milagro Altares y Muertos (Central Eastside Dia de Muertos): Lectur
@@ -1119,7 +1333,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:678d5039164720d2@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261030T180000
 DTEND;TZID=America/Los_Angeles:20261030T200000
 SUMMARY:Milagro Altares y Muertos (Central Eastside Dia de Muertos): Pinta 
@@ -1137,7 +1351,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0563adc825cb0aa6@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260214T100000
 DTEND;TZID=America/Los_Angeles:20260214T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -1156,7 +1370,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6f0e2bc6def72722@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260314T100000
 DTEND;TZID=America/Los_Angeles:20260314T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -1175,7 +1389,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3be71a6ec6a28cac@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260411T100000
 DTEND;TZID=America/Los_Angeles:20260411T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -1194,7 +1408,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:520296f185cd5d96@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260509T100000
 DTEND;TZID=America/Los_Angeles:20260509T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -1213,7 +1427,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c2e4afbf05ceed8f@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260613T100000
 DTEND;TZID=America/Los_Angeles:20260613T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -1232,7 +1446,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d32e053e81f15b19@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260711T100000
 DTEND;TZID=America/Los_Angeles:20260711T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -1251,7 +1465,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b139c00a489781b9@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T100000
 DTEND;TZID=America/Los_Angeles:20260808T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -1270,7 +1484,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1cad5a0e0292687b@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260912T100000
 DTEND;TZID=America/Los_Angeles:20260912T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -1289,7 +1503,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:df97fcec1ecd4da0@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261010T100000
 DTEND;TZID=America/Los_Angeles:20261010T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -1308,7 +1522,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9f93e7744b81b1f@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261114T100000
 DTEND;TZID=America/Los_Angeles:20261114T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -1327,7 +1541,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d7c4cfbb28c0d562@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261212T100000
 DTEND;TZID=America/Los_Angeles:20261212T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
@@ -1345,8 +1559,65 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:a481dc503178ac8f@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270109T100000
+DTEND;TZID=America/Los_Angeles:20270109T120000
+SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
+DESCRIPTION:Category: Arts & Culture\nCost: $10\nFormat: In-person\nInfo: L
+ earn about Portland's founders and regionally-known pioneers. Meet at Sold
+ iers Monument.\nAddress: Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, P
+ ortland\, OR 97214\nWebsite: https://www.friendsoflonefircemetery.org\nDet
+ ails: 501(c)(3) nonprofit preserving cemetery history since 2000. One of P
+ ortland's most beautiful and historic green spaces. Final resting place of
+  many Portland pioneers.
+LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
+ 4
+URL:https://www.friendsoflonefircemetery.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0593f844bc285c1d@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270213T100000
+DTEND;TZID=America/Los_Angeles:20270213T120000
+SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
+DESCRIPTION:Category: Arts & Culture\nCost: $10\nFormat: In-person\nInfo: L
+ earn about Portland's founders and regionally-known pioneers. Meet at Sold
+ iers Monument.\nAddress: Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, P
+ ortland\, OR 97214\nWebsite: https://www.friendsoflonefircemetery.org\nDet
+ ails: 501(c)(3) nonprofit preserving cemetery history since 2000. One of P
+ ortland's most beautiful and historic green spaces. Final resting place of
+  many Portland pioneers.
+LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
+ 4
+URL:https://www.friendsoflonefircemetery.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0c1422a01c85ae44@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270313T100000
+DTEND;TZID=America/Los_Angeles:20270313T120000
+SUMMARY:Friends of Lone Fir Cemetery Tours: Guided Historical Tour
+DESCRIPTION:Category: Arts & Culture\nCost: $10\nFormat: In-person\nInfo: L
+ earn about Portland's founders and regionally-known pioneers. Meet at Sold
+ iers Monument.\nAddress: Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, P
+ ortland\, OR 97214\nWebsite: https://www.friendsoflonefircemetery.org\nDet
+ ails: 501(c)(3) nonprofit preserving cemetery history since 2000. One of P
+ ortland's most beautiful and historic green spaces. Final resting place of
+  many Portland pioneers.
+LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
+ 4
+URL:https://www.friendsoflonefircemetery.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:08f87c8f17706bfb@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260207T100000
 DTEND;TZID=America/Los_Angeles:20260207T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -1365,7 +1636,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:89a5c07482d43ff3@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260404T100000
 DTEND;TZID=America/Los_Angeles:20260404T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -1384,7 +1655,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:608e99291c074b68@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260606T100000
 DTEND;TZID=America/Los_Angeles:20260606T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -1403,7 +1674,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:23e47de98033ad52@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260801T100000
 DTEND;TZID=America/Los_Angeles:20260801T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -1422,7 +1693,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b4b0729cb9f8cb30@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261003T100000
 DTEND;TZID=America/Los_Angeles:20261003T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -1441,7 +1712,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2d5e6aab547c3c4c@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261205T100000
 DTEND;TZID=America/Los_Angeles:20261205T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
@@ -1459,8 +1730,27 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:36454713208064c7@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270206T100000
+DTEND;TZID=America/Los_Angeles:20270206T120000
+SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – North
+DESCRIPTION:Category: Arts & Culture\nCost: $10\nFormat: In-person\nInfo: E
+ xplores northern cemetery sections\, structures\, symbolism\, and granite 
+ types. Meet at Soldiers Monument.\nAddress: Lone Fir Cemetery\, SE 26th Av
+ e & SE Stark St\, Portland\, OR 97214\nWebsite: https://www.friendsoflonef
+ ircemetery.org\nDetails: 501(c)(3) nonprofit preserving cemetery history s
+ ince 2000. One of Portland's most beautiful and historic green spaces. Fin
+ al resting place of many Portland pioneers.
+LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
+ 4
+URL:https://www.friendsoflonefircemetery.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:1d8db4cd879ea3c2@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260307T100000
 DTEND;TZID=America/Los_Angeles:20260307T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -1478,7 +1768,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6379df558d3bd9bc@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260502T100000
 DTEND;TZID=America/Los_Angeles:20260502T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -1496,7 +1786,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bc7743c0a7fbf986@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260704T100000
 DTEND;TZID=America/Los_Angeles:20260704T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -1514,7 +1804,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7160c4921e2e8e5d@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260905T100000
 DTEND;TZID=America/Los_Angeles:20260905T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -1532,7 +1822,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c6e7fc6acefa2605@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261107T100000
 DTEND;TZID=America/Los_Angeles:20261107T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
@@ -1549,8 +1839,44 @@ CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:a314fe265f2fcb43@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270102T100000
+DTEND;TZID=America/Los_Angeles:20270102T120000
+SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
+DESCRIPTION:Category: Arts & Culture\nCost: $10\nFormat: In-person\nInfo: E
+ xplores southern section of cemetery. Meet at Soldiers Monument.\nAddress:
+  Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 97214\nWebs
+ ite: https://www.friendsoflonefircemetery.org\nDetails: 501(c)(3) nonprofi
+ t preserving cemetery history since 2000. One of Portland's most beautiful
+  and historic green spaces. Final resting place of many Portland pioneers.
+LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
+ 4
+URL:https://www.friendsoflonefircemetery.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ec5d8ac9a4e3526f@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270306T100000
+DTEND;TZID=America/Los_Angeles:20270306T120000
+SUMMARY:Friends of Lone Fir Cemetery Tours: Stories in Stone – South
+DESCRIPTION:Category: Arts & Culture\nCost: $10\nFormat: In-person\nInfo: E
+ xplores southern section of cemetery. Meet at Soldiers Monument.\nAddress:
+  Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 97214\nWebs
+ ite: https://www.friendsoflonefircemetery.org\nDetails: 501(c)(3) nonprofi
+ t preserving cemetery history since 2000. One of Portland's most beautiful
+  and historic green spaces. Final resting place of many Portland pioneers.
+LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
+ 4
+URL:https://www.friendsoflonefircemetery.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:41179eb899303506@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260124T100000
 DTEND;TZID=America/Los_Angeles:20260124T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1569,7 +1895,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e97063187e284bdc@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260228T100000
 DTEND;TZID=America/Los_Angeles:20260228T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1588,7 +1914,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5297965998432b34@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260328T100000
 DTEND;TZID=America/Los_Angeles:20260328T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1607,7 +1933,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6f757b7220991fab@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260425T100000
 DTEND;TZID=America/Los_Angeles:20260425T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1626,7 +1952,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d039051f4551428a@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260523T100000
 DTEND;TZID=America/Los_Angeles:20260523T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1645,7 +1971,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:23ba5123dad8bc7e@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260627T100000
 DTEND;TZID=America/Los_Angeles:20260627T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1664,7 +1990,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4cbaa15d2d805b00@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260725T100000
 DTEND;TZID=America/Los_Angeles:20260725T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1683,7 +2009,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1976293e0d4de57a@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260822T100000
 DTEND;TZID=America/Los_Angeles:20260822T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1702,7 +2028,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b701902d4ce9b21f@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260926T100000
 DTEND;TZID=America/Los_Angeles:20260926T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1721,7 +2047,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f9f0e9fed413b871@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261024T100000
 DTEND;TZID=America/Los_Angeles:20261024T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1740,7 +2066,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eb476a9878ba238d@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261128T100000
 DTEND;TZID=America/Los_Angeles:20261128T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
@@ -1759,9 +2085,66 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:206b17258ef1a0a2@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261226T100000
 DTEND;TZID=America/Los_Angeles:20261226T120000
+SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
+DESCRIPTION:Category: Arts & Culture\nCost: $10\nFormat: In-person\nInfo: H
+ ighlights notable women including Terwilliger\, McLoughlin\, Macleay famil
+ ies. Meet at Soldiers Monument.\nAddress: Lone Fir Cemetery\, SE 26th Ave 
+ & SE Stark St\, Portland\, OR 97214\nWebsite: https://www.friendsoflonefir
+ cemetery.org\nDetails: 501(c)(3) nonprofit preserving cemetery history sin
+ ce 2000. One of Portland's most beautiful and historic green spaces. Final
+  resting place of many Portland pioneers.
+LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
+ 4
+URL:https://www.friendsoflonefircemetery.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5651dea2bc13e7a6@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270123T100000
+DTEND;TZID=America/Los_Angeles:20270123T120000
+SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
+DESCRIPTION:Category: Arts & Culture\nCost: $10\nFormat: In-person\nInfo: H
+ ighlights notable women including Terwilliger\, McLoughlin\, Macleay famil
+ ies. Meet at Soldiers Monument.\nAddress: Lone Fir Cemetery\, SE 26th Ave 
+ & SE Stark St\, Portland\, OR 97214\nWebsite: https://www.friendsoflonefir
+ cemetery.org\nDetails: 501(c)(3) nonprofit preserving cemetery history sin
+ ce 2000. One of Portland's most beautiful and historic green spaces. Final
+  resting place of many Portland pioneers.
+LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
+ 4
+URL:https://www.friendsoflonefircemetery.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1adeea6ed4417b05@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270227T100000
+DTEND;TZID=America/Los_Angeles:20270227T120000
+SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
+DESCRIPTION:Category: Arts & Culture\nCost: $10\nFormat: In-person\nInfo: H
+ ighlights notable women including Terwilliger\, McLoughlin\, Macleay famil
+ ies. Meet at Soldiers Monument.\nAddress: Lone Fir Cemetery\, SE 26th Ave 
+ & SE Stark St\, Portland\, OR 97214\nWebsite: https://www.friendsoflonefir
+ cemetery.org\nDetails: 501(c)(3) nonprofit preserving cemetery history sin
+ ce 2000. One of Portland's most beautiful and historic green spaces. Final
+  resting place of many Portland pioneers.
+LOCATION:Lone Fir Cemetery\, SE 26th Ave & SE Stark St\, Portland\, OR 9721
+ 4
+URL:https://www.friendsoflonefircemetery.org
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:226b06bcd50a0467@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270327T100000
+DTEND;TZID=America/Los_Angeles:20270327T120000
 SUMMARY:Friends of Lone Fir Cemetery Tours: Women's Tour
 DESCRIPTION:Category: Arts & Culture\nCost: $10\nFormat: In-person\nInfo: H
  ighlights notable women including Terwilliger\, McLoughlin\, Macleay famil
@@ -2248,7 +2631,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f2e9003f4d3b33c0@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260711T160000
 DTEND;TZID=America/Los_Angeles:20260711T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Sid Murrell
@@ -2265,7 +2648,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:55dc8bc60e8f1fee@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260718T160000
 DTEND;TZID=America/Los_Angeles:20260718T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Taste of Ja
@@ -2283,7 +2666,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3844d73ec9a708bc@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260725T160000
 DTEND;TZID=America/Los_Angeles:20260725T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Rose Gerber
@@ -2300,7 +2683,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ec59b1ef17cbdc6e@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260801T160000
 DTEND;TZID=America/Los_Angeles:20260801T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Lee Walker
@@ -2317,7 +2700,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1550b3336fb7befe@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260808T160000
 DTEND;TZID=America/Los_Angeles:20260808T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Flat Pocket
@@ -2335,7 +2718,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:09851041642d424c@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260815T160000
 DTEND;TZID=America/Los_Angeles:20260815T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Bigger Nova
@@ -2352,7 +2735,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0be939e3e89dc392@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260822T160000
 DTEND;TZID=America/Los_Angeles:20260822T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Sid Murrell
@@ -2369,7 +2752,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:87d3115c50d5eb22@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260829T160000
 DTEND;TZID=America/Los_Angeles:20260829T180000
 SUMMARY:Hawthorne Plaza Concert Series (Concerts in the Plaza): Taste of Ja
@@ -2405,6 +2788,550 @@ DESCRIPTION:Category: Arts & Culture\nCost: Main day Saturday\, November 7:
  hrough Arts for All.
 LOCATION:Portland Art Museum\, 1219 SW Park Ave\, Portland\, OR 97205
 URL:https://pdxbookfest.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b54eb60179418ea5@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261111T100000
+DTEND;TZID=America/Los_Angeles:20261111T160000
+SUMMARY:Lan Su Chinese Garden: Veterans Day Free Admission for Veterans & A
+ ctive-Duty Military
+DESCRIPTION:Category: Arts & Culture\nCost: FREE for veterans and active-du
+ ty military (discounted admission for family members)\nAddress: 239 NW Eve
+ rett St\, Portland\, OR 97209\nPhone: 503-228-8131\nWebsite: https://lansu
+ garden.org/\nDetails: Classical Chinese scholar garden in Old Town Chinato
+ wn. Resolves the queue's Lan Su income-assistance lead\; $5 EBT/WIC admiss
+ ion (up to 4 tickets) and complimentary caregiver entry confirmed on lansu
+ garden.org/visit/admission-hours/.
+LOCATION:239 NW Everett St\, Portland\, OR 97209
+URL:https://lansugarden.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:984ce936948a5f5d@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261116
+SUMMARY:Lan Su Chinese Garden: Chrysanthemum Floral Design Showcase
+DESCRIPTION:Category: Arts & Culture\nCost: Included with admission ($5 wit
+ h EBT/WIC)\nInfo: Annual showcase of 18 local floral artists and 81 variet
+ ies of chrysanthemums.\nAddress: 239 NW Everett St\, Portland\, OR 97209\n
+ Phone: 503-228-8131\nWebsite: https://lansugarden.org/\nDetails: Classical
+  Chinese scholar garden in Old Town Chinatown. Resolves the queue's Lan Su
+  income-assistance lead\; $5 EBT/WIC admission (up to 4 tickets) and compl
+ imentary caregiver entry confirmed on lansugarden.org/visit/admission-hour
+ s/.
+LOCATION:239 NW Everett St\, Portland\, OR 97209
+URL:https://lansugarden.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5976556dc7b6787b@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261112T110000
+DTEND;TZID=America/Los_Angeles:20261112T120000
+SUMMARY:Lan Su Chinese Garden: Growing Mums & Lan Su Collection Tour
+DESCRIPTION:Category: Arts & Culture\nCost: Included with admission ($5 wit
+ h EBT/WIC)\nAddress: 239 NW Everett St\, Portland\, OR 97209\nPhone: 503-2
+ 28-8131\nWebsite: https://lansugarden.org/\nDetails: Classical Chinese sch
+ olar garden in Old Town Chinatown. Resolves the queue's Lan Su income-assi
+ stance lead\; $5 EBT/WIC admission (up to 4 tickets) and complimentary car
+ egiver entry confirmed on lansugarden.org/visit/admission-hours/.
+LOCATION:239 NW Everett St\, Portland\, OR 97209
+URL:https://lansugarden.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cc7d8758d91f50c9@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261119T110000
+DTEND;TZID=America/Los_Angeles:20261119T120000
+SUMMARY:Lan Su Chinese Garden: Growing Mums & Lan Su Collection Tour
+DESCRIPTION:Category: Arts & Culture\nCost: Included with admission ($5 wit
+ h EBT/WIC)\nAddress: 239 NW Everett St\, Portland\, OR 97209\nPhone: 503-2
+ 28-8131\nWebsite: https://lansugarden.org/\nDetails: Classical Chinese sch
+ olar garden in Old Town Chinatown. Resolves the queue's Lan Su income-assi
+ stance lead\; $5 EBT/WIC admission (up to 4 tickets) and complimentary car
+ egiver entry confirmed on lansugarden.org/visit/admission-hours/.
+LOCATION:239 NW Everett St\, Portland\, OR 97209
+URL:https://lansugarden.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9e5141401f8e34e0@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261114T110000
+DTEND;TZID=America/Los_Angeles:20261114T123000
+SUMMARY:Lan Su Chinese Garden: Taste of Home: Chinese Homestyle Cooking Dem
+ onstration
+DESCRIPTION:Category: Arts & Culture\nCost: Included with admission ($5 wit
+ h EBT/WIC)\nAddress: 239 NW Everett St\, Portland\, OR 97209\nPhone: 503-2
+ 28-8131\nWebsite: https://lansugarden.org/\nDetails: Classical Chinese sch
+ olar garden in Old Town Chinatown. Resolves the queue's Lan Su income-assi
+ stance lead\; $5 EBT/WIC admission (up to 4 tickets) and complimentary car
+ egiver entry confirmed on lansugarden.org/visit/admission-hours/.
+LOCATION:239 NW Everett St\, Portland\, OR 97209
+URL:https://lansugarden.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:124d1f4a3b850402@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261212T110000
+DTEND;TZID=America/Los_Angeles:20261212T123000
+SUMMARY:Lan Su Chinese Garden: Taste of Home: Chinese Homestyle Cooking Dem
+ onstration
+DESCRIPTION:Category: Arts & Culture\nCost: Included with admission ($5 wit
+ h EBT/WIC)\nAddress: 239 NW Everett St\, Portland\, OR 97209\nPhone: 503-2
+ 28-8131\nWebsite: https://lansugarden.org/\nDetails: Classical Chinese sch
+ olar garden in Old Town Chinatown. Resolves the queue's Lan Su income-assi
+ stance lead\; $5 EBT/WIC admission (up to 4 tickets) and complimentary car
+ egiver entry confirmed on lansugarden.org/visit/admission-hours/.
+LOCATION:239 NW Everett St\, Portland\, OR 97209
+URL:https://lansugarden.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eb5fa5dcb4841d3d@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261115T110000
+DTEND;TZID=America/Los_Angeles:20261115T150000
+SUMMARY:Lan Su Chinese Garden: Make Your Own Chrysanthemum Wind Chime
+DESCRIPTION:Category: Arts & Culture\nCost: Included with admission ($5 wit
+ h EBT/WIC)\nAddress: 239 NW Everett St\, Portland\, OR 97209\nPhone: 503-2
+ 28-8131\nWebsite: https://lansugarden.org/\nDetails: Classical Chinese sch
+ olar garden in Old Town Chinatown. Resolves the queue's Lan Su income-assi
+ stance lead\; $5 EBT/WIC admission (up to 4 tickets) and complimentary car
+ egiver entry confirmed on lansugarden.org/visit/admission-hours/.
+LOCATION:239 NW Everett St\, Portland\, OR 97209
+URL:https://lansugarden.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f92a50221994f081@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261122T110000
+DTEND;TZID=America/Los_Angeles:20261122T150000
+SUMMARY:Lan Su Chinese Garden: Make Your Own Chrysanthemum Wind Chime
+DESCRIPTION:Category: Arts & Culture\nCost: Included with admission ($5 wit
+ h EBT/WIC)\nAddress: 239 NW Everett St\, Portland\, OR 97209\nPhone: 503-2
+ 28-8131\nWebsite: https://lansugarden.org/\nDetails: Classical Chinese sch
+ olar garden in Old Town Chinatown. Resolves the queue's Lan Su income-assi
+ stance lead\; $5 EBT/WIC admission (up to 4 tickets) and complimentary car
+ egiver entry confirmed on lansugarden.org/visit/admission-hours/.
+LOCATION:239 NW Everett St\, Portland\, OR 97209
+URL:https://lansugarden.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:89fddb71cda33736@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261114T170000
+DTEND;TZID=America/Los_Angeles:20261114T190000
+SUMMARY:Lan Su Chinese Garden: Sensory Night: Nights of the Golden Flower
+DESCRIPTION:Category: Arts & Culture\nCost: $24 ($0 children 5 & under\; sp
+ ecial evening ticket)\nInfo: Sensory-inclusive evening viewing of illumina
+ ted chrysanthemum floral installations with lower capacity and sensory too
+ ls (headphones\, strobe glasses\, fidgets) at the ticket booth.\nAddress: 
+ 239 NW Everett St\, Portland\, OR 97209\nPhone: 503-228-8131\nWebsite: htt
+ ps://lansugarden.org/\nDetails: Classical Chinese scholar garden in Old To
+ wn Chinatown. Resolves the queue's Lan Su income-assistance lead\; $5 EBT/
+ WIC admission (up to 4 tickets) and complimentary caregiver entry confirme
+ d on lansugarden.org/visit/admission-hours/.
+LOCATION:239 NW Everett St\, Portland\, OR 97209
+URL:https://lansugarden.org/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b5ccf6723815a9a1@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261115T165000
+DTEND;TZID=America/Los_Angeles:20261115T180000
+SUMMARY:St. James Lutheran Church Jazz Vespers: St. James Monthly Jazz Vesp
+ ers (2026-2027 Season)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE (freewill offering)\nInfo:
+  Featured guest artists join the Mike Horsfall Trio and cantor Della Simon
+ e: Nov 15 Renato Caranto & Vince Frates (followed by Visual Artists' Group
+  reception at 6pm)\; Dec 20 Marilyn Keller\; Jan 17 John Stowell\; Feb 21 
+ Eddie Parente\; Mar 21 David Evans.\nAddress: St. James Lutheran Church\, 
+ 1315 SW Park Ave\, Portland\, OR 97201\nPhone: 503-227-2439\nWebsite: http
+ s://www.stjamespdx.org/life/wm/jazz/\nDetails: Monthly live jazz vespers o
+ n the 3rd Sunday of every month at St. James Lutheran Church\; 2026-27 gue
+ st artist roster confirmed on stjamespdx.org/life/wm/jazz/.
+LOCATION:St. James Lutheran Church\, 1315 SW Park Ave\, Portland\, OR 97201
+URL:https://www.stjamespdx.org/life/wm/jazz/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7e895028e35975b2@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261220T165000
+DTEND;TZID=America/Los_Angeles:20261220T180000
+SUMMARY:St. James Lutheran Church Jazz Vespers: St. James Monthly Jazz Vesp
+ ers (2026-2027 Season)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE (freewill offering)\nInfo:
+  Featured guest artists join the Mike Horsfall Trio and cantor Della Simon
+ e: Nov 15 Renato Caranto & Vince Frates (followed by Visual Artists' Group
+  reception at 6pm)\; Dec 20 Marilyn Keller\; Jan 17 John Stowell\; Feb 21 
+ Eddie Parente\; Mar 21 David Evans.\nAddress: St. James Lutheran Church\, 
+ 1315 SW Park Ave\, Portland\, OR 97201\nPhone: 503-227-2439\nWebsite: http
+ s://www.stjamespdx.org/life/wm/jazz/\nDetails: Monthly live jazz vespers o
+ n the 3rd Sunday of every month at St. James Lutheran Church\; 2026-27 gue
+ st artist roster confirmed on stjamespdx.org/life/wm/jazz/.
+LOCATION:St. James Lutheran Church\, 1315 SW Park Ave\, Portland\, OR 97201
+URL:https://www.stjamespdx.org/life/wm/jazz/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c76d211e5c95bd5c@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270117T165000
+DTEND;TZID=America/Los_Angeles:20270117T180000
+SUMMARY:St. James Lutheran Church Jazz Vespers: St. James Monthly Jazz Vesp
+ ers (2026-2027 Season)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE (freewill offering)\nInfo:
+  Featured guest artists join the Mike Horsfall Trio and cantor Della Simon
+ e: Nov 15 Renato Caranto & Vince Frates (followed by Visual Artists' Group
+  reception at 6pm)\; Dec 20 Marilyn Keller\; Jan 17 John Stowell\; Feb 21 
+ Eddie Parente\; Mar 21 David Evans.\nAddress: St. James Lutheran Church\, 
+ 1315 SW Park Ave\, Portland\, OR 97201\nPhone: 503-227-2439\nWebsite: http
+ s://www.stjamespdx.org/life/wm/jazz/\nDetails: Monthly live jazz vespers o
+ n the 3rd Sunday of every month at St. James Lutheran Church\; 2026-27 gue
+ st artist roster confirmed on stjamespdx.org/life/wm/jazz/.
+LOCATION:St. James Lutheran Church\, 1315 SW Park Ave\, Portland\, OR 97201
+URL:https://www.stjamespdx.org/life/wm/jazz/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5f9e985ee49a619d@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270221T165000
+DTEND;TZID=America/Los_Angeles:20270221T180000
+SUMMARY:St. James Lutheran Church Jazz Vespers: St. James Monthly Jazz Vesp
+ ers (2026-2027 Season)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE (freewill offering)\nInfo:
+  Featured guest artists join the Mike Horsfall Trio and cantor Della Simon
+ e: Nov 15 Renato Caranto & Vince Frates (followed by Visual Artists' Group
+  reception at 6pm)\; Dec 20 Marilyn Keller\; Jan 17 John Stowell\; Feb 21 
+ Eddie Parente\; Mar 21 David Evans.\nAddress: St. James Lutheran Church\, 
+ 1315 SW Park Ave\, Portland\, OR 97201\nPhone: 503-227-2439\nWebsite: http
+ s://www.stjamespdx.org/life/wm/jazz/\nDetails: Monthly live jazz vespers o
+ n the 3rd Sunday of every month at St. James Lutheran Church\; 2026-27 gue
+ st artist roster confirmed on stjamespdx.org/life/wm/jazz/.
+LOCATION:St. James Lutheran Church\, 1315 SW Park Ave\, Portland\, OR 97201
+URL:https://www.stjamespdx.org/life/wm/jazz/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:49503f4da5af6325@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270321T165000
+DTEND;TZID=America/Los_Angeles:20270321T180000
+SUMMARY:St. James Lutheran Church Jazz Vespers: St. James Monthly Jazz Vesp
+ ers (2026-2027 Season)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE (freewill offering)\nInfo:
+  Featured guest artists join the Mike Horsfall Trio and cantor Della Simon
+ e: Nov 15 Renato Caranto & Vince Frates (followed by Visual Artists' Group
+  reception at 6pm)\; Dec 20 Marilyn Keller\; Jan 17 John Stowell\; Feb 21 
+ Eddie Parente\; Mar 21 David Evans.\nAddress: St. James Lutheran Church\, 
+ 1315 SW Park Ave\, Portland\, OR 97201\nPhone: 503-227-2439\nWebsite: http
+ s://www.stjamespdx.org/life/wm/jazz/\nDetails: Monthly live jazz vespers o
+ n the 3rd Sunday of every month at St. James Lutheran Church\; 2026-27 gue
+ st artist roster confirmed on stjamespdx.org/life/wm/jazz/.
+LOCATION:St. James Lutheran Church\, 1315 SW Park Ave\, Portland\, OR 97201
+URL:https://www.stjamespdx.org/life/wm/jazz/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:19d8d13d418fdd7f@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270418T165000
+DTEND;TZID=America/Los_Angeles:20270418T180000
+SUMMARY:St. James Lutheran Church Jazz Vespers: St. James Monthly Jazz Vesp
+ ers (2026-2027 Season)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE (freewill offering)\nInfo:
+  Featured guest artists join the Mike Horsfall Trio and cantor Della Simon
+ e: Nov 15 Renato Caranto & Vince Frates (followed by Visual Artists' Group
+  reception at 6pm)\; Dec 20 Marilyn Keller\; Jan 17 John Stowell\; Feb 21 
+ Eddie Parente\; Mar 21 David Evans.\nAddress: St. James Lutheran Church\, 
+ 1315 SW Park Ave\, Portland\, OR 97201\nPhone: 503-227-2439\nWebsite: http
+ s://www.stjamespdx.org/life/wm/jazz/\nDetails: Monthly live jazz vespers o
+ n the 3rd Sunday of every month at St. James Lutheran Church\; 2026-27 gue
+ st artist roster confirmed on stjamespdx.org/life/wm/jazz/.
+LOCATION:St. James Lutheran Church\, 1315 SW Park Ave\, Portland\, OR 97201
+URL:https://www.stjamespdx.org/life/wm/jazz/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e9ef9235a394366f@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270516T165000
+DTEND;TZID=America/Los_Angeles:20270516T180000
+SUMMARY:St. James Lutheran Church Jazz Vespers: St. James Monthly Jazz Vesp
+ ers (2026-2027 Season)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE (freewill offering)\nInfo:
+  Featured guest artists join the Mike Horsfall Trio and cantor Della Simon
+ e: Nov 15 Renato Caranto & Vince Frates (followed by Visual Artists' Group
+  reception at 6pm)\; Dec 20 Marilyn Keller\; Jan 17 John Stowell\; Feb 21 
+ Eddie Parente\; Mar 21 David Evans.\nAddress: St. James Lutheran Church\, 
+ 1315 SW Park Ave\, Portland\, OR 97201\nPhone: 503-227-2439\nWebsite: http
+ s://www.stjamespdx.org/life/wm/jazz/\nDetails: Monthly live jazz vespers o
+ n the 3rd Sunday of every month at St. James Lutheran Church\; 2026-27 gue
+ st artist roster confirmed on stjamespdx.org/life/wm/jazz/.
+LOCATION:St. James Lutheran Church\, 1315 SW Park Ave\, Portland\, OR 97201
+URL:https://www.stjamespdx.org/life/wm/jazz/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:71f41739838bd232@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270620T165000
+DTEND;TZID=America/Los_Angeles:20270620T180000
+SUMMARY:St. James Lutheran Church Jazz Vespers: St. James Monthly Jazz Vesp
+ ers (2026-2027 Season)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE (freewill offering)\nInfo:
+  Featured guest artists join the Mike Horsfall Trio and cantor Della Simon
+ e: Nov 15 Renato Caranto & Vince Frates (followed by Visual Artists' Group
+  reception at 6pm)\; Dec 20 Marilyn Keller\; Jan 17 John Stowell\; Feb 21 
+ Eddie Parente\; Mar 21 David Evans.\nAddress: St. James Lutheran Church\, 
+ 1315 SW Park Ave\, Portland\, OR 97201\nPhone: 503-227-2439\nWebsite: http
+ s://www.stjamespdx.org/life/wm/jazz/\nDetails: Monthly live jazz vespers o
+ n the 3rd Sunday of every month at St. James Lutheran Church\; 2026-27 gue
+ st artist roster confirmed on stjamespdx.org/life/wm/jazz/.
+LOCATION:St. James Lutheran Church\, 1315 SW Park Ave\, Portland\, OR 97201
+URL:https://www.stjamespdx.org/life/wm/jazz/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c29802c6b0be8f19@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270718T165000
+DTEND;TZID=America/Los_Angeles:20270718T180000
+SUMMARY:St. James Lutheran Church Jazz Vespers: St. James Monthly Jazz Vesp
+ ers (2026-2027 Season)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE (freewill offering)\nInfo:
+  Featured guest artists join the Mike Horsfall Trio and cantor Della Simon
+ e: Nov 15 Renato Caranto & Vince Frates (followed by Visual Artists' Group
+  reception at 6pm)\; Dec 20 Marilyn Keller\; Jan 17 John Stowell\; Feb 21 
+ Eddie Parente\; Mar 21 David Evans.\nAddress: St. James Lutheran Church\, 
+ 1315 SW Park Ave\, Portland\, OR 97201\nPhone: 503-227-2439\nWebsite: http
+ s://www.stjamespdx.org/life/wm/jazz/\nDetails: Monthly live jazz vespers o
+ n the 3rd Sunday of every month at St. James Lutheran Church\; 2026-27 gue
+ st artist roster confirmed on stjamespdx.org/life/wm/jazz/.
+LOCATION:St. James Lutheran Church\, 1315 SW Park Ave\, Portland\, OR 97201
+URL:https://www.stjamespdx.org/life/wm/jazz/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e0ee6f3037a45539@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270815T165000
+DTEND;TZID=America/Los_Angeles:20270815T180000
+SUMMARY:St. James Lutheran Church Jazz Vespers: St. James Monthly Jazz Vesp
+ ers (2026-2027 Season)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE (freewill offering)\nInfo:
+  Featured guest artists join the Mike Horsfall Trio and cantor Della Simon
+ e: Nov 15 Renato Caranto & Vince Frates (followed by Visual Artists' Group
+  reception at 6pm)\; Dec 20 Marilyn Keller\; Jan 17 John Stowell\; Feb 21 
+ Eddie Parente\; Mar 21 David Evans.\nAddress: St. James Lutheran Church\, 
+ 1315 SW Park Ave\, Portland\, OR 97201\nPhone: 503-227-2439\nWebsite: http
+ s://www.stjamespdx.org/life/wm/jazz/\nDetails: Monthly live jazz vespers o
+ n the 3rd Sunday of every month at St. James Lutheran Church\; 2026-27 gue
+ st artist roster confirmed on stjamespdx.org/life/wm/jazz/.
+LOCATION:St. James Lutheran Church\, 1315 SW Park Ave\, Portland\, OR 97201
+URL:https://www.stjamespdx.org/life/wm/jazz/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:76cf628b6258a2ad@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261201T120000
+DTEND;TZID=America/Los_Angeles:20261201T130000
+SUMMARY:Holiday Performances at Pioneer Courthouse Square: Purple Moon Quar
+ tet
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Pioneer Courthou
+ se Square\, 701 SW 6th Ave\, Portland\, OR 97204\nPhone: 503-223-1613\nWeb
+ site: https://www.thesquarepdx.org/events/month/2026-12/\nDetails: Free De
+ cember 2026 musical and dance performances at Pioneer Courthouse Square\, 
+ confirmed on thesquarepdx.org/events/month/2026-12/.
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland\, OR 97204
+URL:https://www.thesquarepdx.org/events/month/2026-12/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f4fc962a084dcf9a@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261202T170000
+DTEND;TZID=America/Los_Angeles:20261202T180000
+SUMMARY:Holiday Performances at Pioneer Courthouse Square: Jennifer Holman
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Pioneer Courthou
+ se Square\, 701 SW 6th Ave\, Portland\, OR 97204\nPhone: 503-223-1613\nWeb
+ site: https://www.thesquarepdx.org/events/month/2026-12/\nDetails: Free De
+ cember 2026 musical and dance performances at Pioneer Courthouse Square\, 
+ confirmed on thesquarepdx.org/events/month/2026-12/.
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland\, OR 97204
+URL:https://www.thesquarepdx.org/events/month/2026-12/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:893fb2a3d6dac170@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261205T120000
+DTEND;TZID=America/Los_Angeles:20261205T130000
+SUMMARY:Holiday Performances at Pioneer Courthouse Square: Blueprint Ensemb
+ le Arts
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Pioneer Courthou
+ se Square\, 701 SW 6th Ave\, Portland\, OR 97204\nPhone: 503-223-1613\nWeb
+ site: https://www.thesquarepdx.org/events/month/2026-12/\nDetails: Free De
+ cember 2026 musical and dance performances at Pioneer Courthouse Square\, 
+ confirmed on thesquarepdx.org/events/month/2026-12/.
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland\, OR 97204
+URL:https://www.thesquarepdx.org/events/month/2026-12/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:65e79631b1c25983@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261206T140000
+DTEND;TZID=America/Los_Angeles:20261206T150000
+SUMMARY:Holiday Performances at Pioneer Courthouse Square: Dance Fusion Nor
+ thwest
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Pioneer Courthou
+ se Square\, 701 SW 6th Ave\, Portland\, OR 97204\nPhone: 503-223-1613\nWeb
+ site: https://www.thesquarepdx.org/events/month/2026-12/\nDetails: Free De
+ cember 2026 musical and dance performances at Pioneer Courthouse Square\, 
+ confirmed on thesquarepdx.org/events/month/2026-12/.
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland\, OR 97204
+URL:https://www.thesquarepdx.org/events/month/2026-12/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:53e2cd77b071c98a@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261215T120000
+DTEND;TZID=America/Los_Angeles:20261215T130000
+SUMMARY:Holiday Performances at Pioneer Courthouse Square: Ockley Green Mid
+ dle School Band
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Pioneer Courthou
+ se Square\, 701 SW 6th Ave\, Portland\, OR 97204\nPhone: 503-223-1613\nWeb
+ site: https://www.thesquarepdx.org/events/month/2026-12/\nDetails: Free De
+ cember 2026 musical and dance performances at Pioneer Courthouse Square\, 
+ confirmed on thesquarepdx.org/events/month/2026-12/.
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland\, OR 97204
+URL:https://www.thesquarepdx.org/events/month/2026-12/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e8312bc5ef443b32@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261217T120000
+DTEND;TZID=America/Los_Angeles:20261217T130000
+SUMMARY:Holiday Performances at Pioneer Courthouse Square: MAC Balladeers
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Pioneer Courthou
+ se Square\, 701 SW 6th Ave\, Portland\, OR 97204\nPhone: 503-223-1613\nWeb
+ site: https://www.thesquarepdx.org/events/month/2026-12/\nDetails: Free De
+ cember 2026 musical and dance performances at Pioneer Courthouse Square\, 
+ confirmed on thesquarepdx.org/events/month/2026-12/.
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland\, OR 97204
+URL:https://www.thesquarepdx.org/events/month/2026-12/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:95a13b18b3ae1d78@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261219T160000
+DTEND;TZID=America/Los_Angeles:20261219T190000
+SUMMARY:Holiday Performances at Pioneer Courthouse Square: Power Pep Band\,
+  The Tide\, Joe's Orchestra & The Beat Goes On Marching Band
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nInfo: Afternoon and eveni
+ ng holiday performances following the 1:30-3pm Tuba Christmas Concert.\nAd
+ dress: Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland\, OR 97204\nP
+ hone: 503-223-1613\nWebsite: https://www.thesquarepdx.org/events/month/202
+ 6-12/\nDetails: Free December 2026 musical and dance performances at Pione
+ er Courthouse Square\, confirmed on thesquarepdx.org/events/month/2026-12/
+ .
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland\, OR 97204
+URL:https://www.thesquarepdx.org/events/month/2026-12/
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c85ca88f4ec580b7@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Oregon Historical Society Panel: Feminist Activism in Oregon (The F
+ light of the Mind)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nNote: Free and open to th
+ e public.\nAddress: Oregon Historical Society\, 1200 SW Park Ave\, Portlan
+ d\, OR 97205\nPhone: 503-222-1741\nWebsite: https://www.ohs.org/events/fem
+ inist-activism-in-oregon.cfm\nDetails: Free Q1 2027 public panel at the Or
+ egon Historical Society\, confirmed on ohs.org/events/feminist-activism-in
+ -oregon.cfm.
+LOCATION:Oregon Historical Society\, 1200 SW Park Ave\, Portland\, OR 97205
+URL:https://www.ohs.org/events/feminist-activism-in-oregon.cfm
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c0cd0fe742b1a8fb@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Old Town Sherwood Art Walk (Winter Holiday Market)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE\nAddress: Sherwood Center 
+ for the Arts\, 22689 SW Pine St\, Sherwood\, OR 97140 (and across 6 blocks
+  of Old Town Sherwood)\nPhone: 503-625-4278\nWebsite: https://www.sherwood
+ centerforthearts.org/general/page/old-town-sherwood-art-walk\nDetails: Res
+ olve the queue's Sherwood Old Town Art Walk lead\; confirmed on sherwoodce
+ nterforthearts.org for Tuesday\, December 1\, 2026\, 5-8pm.
+LOCATION:Sherwood Center for the Arts\, 22689 SW Pine St\, Sherwood\, OR 97
+ 140 (and across 6 blocks of Old Town Sherwood)
+URL:https://www.sherwoodcenterforthearts.org/general/page/old-town-sherwood-art-walk
+CATEGORIES:Arts & Culture
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2f4bc632dc892aab@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Walters Artisan Pop-Up Shop (Hillsboro)
+DESCRIPTION:Category: Arts & Culture\nCost: FREE admission\nAddress: Walter
+ s Cultural Arts Center\, 527 E Main St\, Hillsboro\, OR 97123\nPhone: 503-
+ 615-3485\nWebsite: https://www.hillsboro-oregon.gov/Home/Components/Calend
+ ar/Event/149462/4860\nDetails: Confirmed on hillsboro-oregon.gov for Tuesd
+ ay\, December 1\, 2026\, 5-8pm.
+LOCATION:Walters Cultural Arts Center\, 527 E Main St\, Hillsboro\, OR 9712
+ 3
+URL:https://www.hillsboro-oregon.gov/Home/Components/Calendar/Event/149462/4860
 CATEGORIES:Arts & Culture
 TRANSP:TRANSPARENT
 END:VEVENT

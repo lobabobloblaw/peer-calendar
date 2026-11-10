@@ -277,15 +277,16 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:69576450a4c8ec45@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260106T163000
-DTEND;TZID=America/Los_Angeles:20260106T190000
+DTEND;TZID=America/Los_Angeles:20260106T183000
 SUMMARY:Gresham Senior Center: Tuesday Night Dance
-DESCRIPTION:Category: Fitness & Wellness\nCost: $6/person\nInfo: Live band 
- (Desert Dogs)\; country and more\; not on holidays\nAddress: 600 NE 8th St
- reet\, Room 130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: https:
- //www.greshamseniorcenter.com/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> $6/person</p><p>Live band (Desert Dogs); country and more; not on holidays</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
+DESCRIPTION:Category: Fitness & Wellness\nCost: $6/person\nInfo: Doors open
+  at 4pm\; live music 4:30-6:30pm with the Desert Dogs in the Meals on Whee
+ ls Dining Room (Trillium Rooms A & B). Potluck style.\nAddress: 600 NE 8th
+  Street\, Room 130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: htt
+ ps://www.greshamseniorcenter.com/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> $6/person</p><p>Doors open at 4pm; live music 4:30-6:30pm with the Desert Dogs in the Meals on Wheels Dining Room (Trillium Rooms A &amp; B). Potluck style.</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
 URL:https://www.greshamseniorcenter.com/
@@ -295,15 +296,15 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:01ed38b215787e3e@portlandresources.org
-DTSTAMP:20260813T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T130000
 DTEND;TZID=America/Los_Angeles:20260105T140000
 SUMMARY:Gresham Senior Center: Movie Madness
 DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: End time varies
- \; meets in the Chinook Room. Schedule confirmed in the official July/Augu
- st 2026 newsletter.\nAddress: 600 NE 8th Street\, Room 130\, Gresham\, OR 
- 97030\nPhone: 503-988-4860\nWebsite: https://www.greshamseniorcenter.com/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>End time varies; meets in the Chinook Room. Schedule confirmed in the official July/August 2026 newsletter.</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
+ \; meets in the Chinook Room. Confirmed in the November/December 2026 news
+ letter.\nAddress: 600 NE 8th Street\, Room 130\, Gresham\, OR 97030\nPhone
+ : 503-988-4860\nWebsite: https://www.greshamseniorcenter.com/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>End time varies; meets in the Chinook Room. Confirmed in the November/December 2026 newsletter.</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
 URL:https://www.greshamseniorcenter.com/
@@ -312,19 +313,202 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:79365ba3889a5027@portlandresources.org
-DTSTAMP:20260813T000000Z
-DTSTART;TZID=America/Los_Angeles:20260102T130000
-DTEND;TZID=America/Los_Angeles:20260102T143000
-SUMMARY:Gresham Senior Center: Friday Speaker Series
-DESCRIPTION:Category: Fitness & Wellness\nCost: FREE (RSVP required)\nAddre
- ss: 600 NE 8th Street\, Room 130\, Gresham\, OR 97030\nPhone: 503-988-4860
- \nWebsite: https://www.greshamseniorcenter.com/
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE (RSVP required)</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
+UID:306edc078ca9ea32@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T083000
+DTEND;TZID=America/Los_Angeles:20260107T100000
+SUMMARY:Gresham Senior Center: Veterans Coffee
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Free coffee\, s
+ nacks\, and camaraderie in the GSC Library\; learn about county\, state\, 
+ and VA benefits.\nAddress: 600 NE 8th Street\, Room 130\, Gresham\, OR 970
+ 30\nPhone: 503-988-4860\nWebsite: https://www.greshamseniorcenter.com/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>Free coffee, snacks, and camaraderie in the GSC Library; learn about county, state, and VA benefits.</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
 X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
 URL:https://www.greshamseniorcenter.com/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:639e4e5fd7d8c5ed@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260107T130000
+DTEND;TZID=America/Los_Angeles:20260107T143000
+SUMMARY:Gresham Senior Center: Alzheimer Caregiver Support Group
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Open to caregiv
+ ers for those with Alzheimer's or dementia (Trillium Room\; call Breanna a
+ t 503-750-9545).\nAddress: 600 NE 8th Street\, Room 130\, Gresham\, OR 970
+ 30\nPhone: 503-988-4860\nWebsite: https://www.greshamseniorcenter.com/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>Open to caregivers for those with Alzheimer&#x27;s or dementia (Trillium Room; call Breanna at 503-750-9545).</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
+URL:https://www.greshamseniorcenter.com/
+RRULE:FREQ=WEEKLY;BYDAY=WE
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b6c94e999a3f58b0@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260113T130000
+DTEND;TZID=America/Los_Angeles:20260113T150000
+SUMMARY:Gresham Senior Center: Death Café
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Open\, welcomin
+ g discussion space about mortality with free tea and cake (not a grief sup
+ port group). Call Barbara at 971-431-6816 to confirm attendance.\nAddress:
+  600 NE 8th Street\, Room 130\, Gresham\, OR 97030\nPhone: 503-988-4860\nW
+ ebsite: https://www.greshamseniorcenter.com/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>Open, welcoming discussion space about mortality with free tea and cake (not a grief support group). Call Barbara at 971-431-6816 to confirm attendance.</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
+URL:https://www.greshamseniorcenter.com/
+RRULE:FREQ=MONTHLY;BYDAY=2TU
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a7145c3b855c5399@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260109T150000
+DTEND;TZID=America/Los_Angeles:20260109T170000
+SUMMARY:Gresham Senior Center: Citizens Law School Sessions
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Free legal educ
+ ation sessions with Attorney Nathan Begley\, open to the public (Nov 13 Me
+ dicaid/housing\; Dec 11 gift-giving\; no class Nov 27 or Dec 25).\nAddress
+ : 600 NE 8th Street\, Room 130\, Gresham\, OR 97030\nPhone: 503-988-4860\n
+ Website: https://www.greshamseniorcenter.com/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>Free legal education sessions with Attorney Nathan Begley, open to the public (Nov 13 Medicaid/housing; Dec 11 gift-giving; no class Nov 27 or Dec 25).</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
+URL:https://www.greshamseniorcenter.com/
+RRULE:FREQ=MONTHLY;BYDAY=2FR,4FR
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d22bad6c30436f1c@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T130000
+DTEND;TZID=America/Los_Angeles:20260102T143000
+SUMMARY:Gresham Senior Center: Improv Comedy Class
+DESCRIPTION:Category: Fitness & Wellness\nCost: $2 user fee\nInfo: Taught b
+ y actor/director Bruce Coen\, starting November 2026.\nAddress: 600 NE 8th
+  Street\, Room 130\, Gresham\, OR 97030\nPhone: 503-988-4860\nWebsite: htt
+ ps://www.greshamseniorcenter.com/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> $2 user fee</p><p>Taught by actor/director Bruce Coen, starting November 2026.</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Mt. Hood Repertory Theatre\, 333 N Main Ave\, Gresham\, OR 97030
+URL:https://www.greshamseniorcenter.com/
 RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2bd801e976151d32@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261130T100000
+DTEND;TZID=America/Los_Angeles:20261130T110000
+SUMMARY:Gresham Senior Center: E-Bikes 101 Clinic (The Street Trust)
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Free classroom 
+ clinic on e-bike classifications\, rules of the road\, and where to buy.\n
+ Address: 600 NE 8th Street\, Room 130\, Gresham\, OR 97030\nPhone: 503-988
+ -4860\nWebsite: https://www.greshamseniorcenter.com/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>Free classroom clinic on e-bike classifications, rules of the road, and where to buy.</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
+URL:https://www.greshamseniorcenter.com/
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b5fbe7c5ad6ca75a@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261203
+SUMMARY:Gresham Senior Center: 3rd Annual Christmas Craft & Gift Bazaar
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE admission\nInfo: 25 lo
+ cal artists and vendors with handmade gifts and a gift-wrapping table.\nAd
+ dress: 600 NE 8th Street\, Room 130\, Gresham\, OR 97030\nPhone: 503-988-4
+ 860\nWebsite: https://www.greshamseniorcenter.com/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE admission</p><p>25 local artists and vendors with handmade gifts and a gift-wrapping table.</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
+URL:https://www.greshamseniorcenter.com/
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cf762b810c33fb51@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261202T100000
+DTEND;TZID=America/Los_Angeles:20261202T113000
+SUMMARY:Gresham Senior Center: Intro to Social Media (MetroEast Digital Med
+ ia)
+DESCRIPTION:Category: Fitness & Wellness\nCost: $2 user fee\nInfo: 3-part b
+ eginners class taught by MetroEast Digital Media Educator Roberta Cumbianc
+ hera covering apps\, accounts\, privacy settings\, and AI safety.\nAddress
+ : 600 NE 8th Street\, Room 130\, Gresham\, OR 97030\nPhone: 503-988-4860\n
+ Website: https://www.greshamseniorcenter.com/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> $2 user fee</p><p>3-part beginners class taught by MetroEast Digital Media Educator Roberta Cumbianchera covering apps, accounts, privacy settings, and AI safety.</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
+URL:https://www.greshamseniorcenter.com/
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4fb4241be0aae2f1@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261209T100000
+DTEND;TZID=America/Los_Angeles:20261209T113000
+SUMMARY:Gresham Senior Center: Intro to Social Media (MetroEast Digital Med
+ ia)
+DESCRIPTION:Category: Fitness & Wellness\nCost: $2 user fee\nInfo: 3-part b
+ eginners class taught by MetroEast Digital Media Educator Roberta Cumbianc
+ hera covering apps\, accounts\, privacy settings\, and AI safety.\nAddress
+ : 600 NE 8th Street\, Room 130\, Gresham\, OR 97030\nPhone: 503-988-4860\n
+ Website: https://www.greshamseniorcenter.com/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> $2 user fee</p><p>3-part beginners class taught by MetroEast Digital Media Educator Roberta Cumbianchera covering apps, accounts, privacy settings, and AI safety.</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
+URL:https://www.greshamseniorcenter.com/
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6a105247b434a50c@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261216T100000
+DTEND;TZID=America/Los_Angeles:20261216T113000
+SUMMARY:Gresham Senior Center: Intro to Social Media (MetroEast Digital Med
+ ia)
+DESCRIPTION:Category: Fitness & Wellness\nCost: $2 user fee\nInfo: 3-part b
+ eginners class taught by MetroEast Digital Media Educator Roberta Cumbianc
+ hera covering apps\, accounts\, privacy settings\, and AI safety.\nAddress
+ : 600 NE 8th Street\, Room 130\, Gresham\, OR 97030\nPhone: 503-988-4860\n
+ Website: https://www.greshamseniorcenter.com/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> $2 user fee</p><p>3-part beginners class taught by MetroEast Digital Media Educator Roberta Cumbianchera covering apps, accounts, privacy settings, and AI safety.</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
+URL:https://www.greshamseniorcenter.com/
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:aa1dfb673c0e8a25@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270128T093000
+DTEND;TZID=America/Los_Angeles:20270128T140000
+SUMMARY:Gresham Senior Center: Gresham Senior Center Wellness Resource Fair
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Senior advisors
+ \, home care and hospice providers\, downsizing/aging-in-place resources\,
+  and prize drawings.\nAddress: 600 NE 8th Street\, Room 130\, Gresham\, OR
+  97030\nPhone: 503-988-4860\nWebsite: https://www.greshamseniorcenter.com/
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>Senior advisors, home care and hospice providers, downsizing/aging-in-place resources, and prize drawings.</p><p><strong>Address:</strong> 600 NE 8th Street, Room 130, Gresham, OR 97030</p><p><strong>Phone:</strong> <a href="tel:503-988-4860">503-988-4860</a></p><p><strong>Website:</strong> <a href="https://www.greshamseniorcenter.com/">https://www.greshamseniorcenter.com/</a></p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:600 NE 8th Street\, Room 130\, Gresham\, OR 97030
+URL:https://www.greshamseniorcenter.com/
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -430,7 +614,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2d5f5e8ade21d0b5@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260105T190000
 DTEND;TZID=America/Los_Angeles:20260105T200000
 SUMMARY:Shift to Bikes: Mellow Mondays
@@ -447,7 +631,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:d4864019dec4725a@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260804T190000
 DTEND;TZID=America/Los_Angeles:20260804T200000
 SUMMARY:Shift to Bikes: Foster Night Ride
@@ -1574,6 +1758,71 @@ CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:97fa437bf6c6827d@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T190000
+DTEND;TZID=America/Los_Angeles:20260105T203000
+SUMMARY:Hidden Creek Community Center (Hillsboro): All Ability Drop-in Bask
+ etball
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Free weekly inc
+ lusive drop-in basketball (warmups\, drills\, and scrimmages) for ages 12+
+  experiencing disability\; all are welcome and no registration is required
+  (except holidays).\nAddress: 5100 NE Hidden Creek Dr\, Hillsboro\, OR 971
+ 24\nPhone: 503-681-6120\nWebsite: https://www.hillsboro-oregon.gov/our-cit
+ y/departments/parks-recreation/facilities-rentals/hidden-creek\nDetails: H
+ illsboro Parks & Recreation community center. Financial assistance (50% of
+ f) available for qualifying residents.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>Free weekly inclusive drop-in basketball (warmups, drills, and scrimmages) for ages 12+ experiencing disability; all are welcome and no registration is required (except holidays).</p><p><strong>Address:</strong> 5100 NE Hidden Creek Dr, Hillsboro, OR 97124</p><p><strong>Phone:</strong> <a href="tel:503-681-6120">503-681-6120</a></p><p><strong>Website:</strong> <a href="https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/hidden-creek">https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/hidden-creek</a></p><p><strong>Details:</strong> Hillsboro Parks &amp; Recreation community center. Financial assistance (50% off) available for qualifying residents.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:5100 NE Hidden Creek Dr\, Hillsboro\, OR 97124
+URL:https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/hidden-creek
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:594b9713d1cb28f3@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261109T173000
+DTEND;TZID=America/Los_Angeles:20261109T183000
+SUMMARY:Hidden Creek Community Center (Hillsboro): Adaptive BINGO @ Hidden 
+ Creek
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Free monthly ad
+ aptive recreation bingo night for ages 14+ experiencing disability\; all a
+ re welcome and no registration is required.\nAddress: 5100 NE Hidden Creek
+  Dr\, Hillsboro\, OR 97124\nPhone: 503-681-6120\nWebsite: https://www.hill
+ sboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/
+ hidden-creek\nDetails: Hillsboro Parks & Recreation community center. Fina
+ ncial assistance (50% off) available for qualifying residents.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>Free monthly adaptive recreation bingo night for ages 14+ experiencing disability; all are welcome and no registration is required.</p><p><strong>Address:</strong> 5100 NE Hidden Creek Dr, Hillsboro, OR 97124</p><p><strong>Phone:</strong> <a href="tel:503-681-6120">503-681-6120</a></p><p><strong>Website:</strong> <a href="https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/hidden-creek">https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/hidden-creek</a></p><p><strong>Details:</strong> Hillsboro Parks &amp; Recreation community center. Financial assistance (50% off) available for qualifying residents.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:5100 NE Hidden Creek Dr\, Hillsboro\, OR 97124
+URL:https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/hidden-creek
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e98266582090ea07@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261214T173000
+DTEND;TZID=America/Los_Angeles:20261214T183000
+SUMMARY:Hidden Creek Community Center (Hillsboro): Adaptive BINGO @ Hidden 
+ Creek
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Free monthly ad
+ aptive recreation bingo night for ages 14+ experiencing disability\; all a
+ re welcome and no registration is required.\nAddress: 5100 NE Hidden Creek
+  Dr\, Hillsboro\, OR 97124\nPhone: 503-681-6120\nWebsite: https://www.hill
+ sboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/
+ hidden-creek\nDetails: Hillsboro Parks & Recreation community center. Fina
+ ncial assistance (50% off) available for qualifying residents.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>Free monthly adaptive recreation bingo night for ages 14+ experiencing disability; all are welcome and no registration is required.</p><p><strong>Address:</strong> 5100 NE Hidden Creek Dr, Hillsboro, OR 97124</p><p><strong>Phone:</strong> <a href="tel:503-681-6120">503-681-6120</a></p><p><strong>Website:</strong> <a href="https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/hidden-creek">https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/hidden-creek</a></p><p><strong>Details:</strong> Hillsboro Parks &amp; Recreation community center. Financial assistance (50% off) available for qualifying residents.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:5100 NE Hidden Creek Dr\, Hillsboro\, OR 97124
+URL:https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/hidden-creek
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:13929b2306504174@portlandresources.org
 DTSTAMP:20260910T000000Z
 DTSTART;TZID=America/Los_Angeles:20260103T090000
@@ -1609,6 +1858,194 @@ X-MICROSOFT-CDO-BUSYSTATUS:FREE
 LOCATION:1737 NW 26th Ave\, Portland\, OR 97210
 URL:https://fhpdx.org
 RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b184a4cb44efe8d6@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T070000
+DTEND;TZID=America/Los_Angeles:20260105T080000
+SUMMARY:The Recovery Gym (TRG) & Run TRG: Strength Training for Every Body 
+ (Portland)
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 931 SE 6th A
+ ve\, Portland\, OR 97214\nPhone: 503-222-5756\nWebsite: https://www.therec
+ overygym.org/\nDetails: A project of the Alano Club of Portland offering 1
+ 00% free functional fitness\, yoga\, somatic/DBT recovery workshops\, and 
+ the Run TRG running club in Portland and Hillsboro.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 931 SE 6th Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.therecoverygym.org/">https://www.therecoverygym.org/</a></p><p><strong>Details:</strong> A project of the Alano Club of Portland offering 100% free functional fitness, yoga, somatic/DBT recovery workshops, and the Run TRG running club in Portland and Hillsboro.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:The Recovery Gym\, 931 SE 6th Ave\, Portland\, OR 97214
+URL:https://www.therecoverygym.org/
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ae2154ec6dc08e89@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T090000
+DTEND;TZID=America/Los_Angeles:20260102T100000
+SUMMARY:The Recovery Gym (TRG) & Run TRG: Yoga for Athletes at TRG (Portlan
+ d)
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 931 SE 6th A
+ ve\, Portland\, OR 97214\nPhone: 503-222-5756\nWebsite: https://www.therec
+ overygym.org/\nDetails: A project of the Alano Club of Portland offering 1
+ 00% free functional fitness\, yoga\, somatic/DBT recovery workshops\, and 
+ the Run TRG running club in Portland and Hillsboro.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 931 SE 6th Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.therecoverygym.org/">https://www.therecoverygym.org/</a></p><p><strong>Details:</strong> A project of the Alano Club of Portland offering 100% free functional fitness, yoga, somatic/DBT recovery workshops, and the Run TRG running club in Portland and Hillsboro.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:The Recovery Gym\, 931 SE 6th Ave\, Portland\, OR 97214
+URL:https://www.therecoverygym.org/
+RRULE:FREQ=WEEKLY;BYDAY=WE,FR
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b0edcedecd710381@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260105T173000
+DTEND;TZID=America/Los_Angeles:20260105T183000
+SUMMARY:The Recovery Gym (TRG) & Run TRG: Yoga: A Practice For All (Hillsbo
+ ro)
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 931 SE 6th A
+ ve\, Portland\, OR 97214\nPhone: 503-222-5756\nWebsite: https://www.therec
+ overygym.org/\nDetails: A project of the Alano Club of Portland offering 1
+ 00% free functional fitness\, yoga\, somatic/DBT recovery workshops\, and 
+ the Run TRG running club in Portland and Hillsboro.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 931 SE 6th Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.therecoverygym.org/">https://www.therecoverygym.org/</a></p><p><strong>Details:</strong> A project of the Alano Club of Portland offering 100% free functional fitness, yoga, somatic/DBT recovery workshops, and the Run TRG running club in Portland and Hillsboro.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:The Recovery Gym - Hillsboro\, 1060 SW Baseline St\, Hillsboro\, O
+ R 97123
+URL:https://www.therecoverygym.org/
+RRULE:FREQ=WEEKLY;BYDAY=MO
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7acdf9da05547cf8@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T180000
+DTEND;TZID=America/Los_Angeles:20260106T190000
+SUMMARY:The Recovery Gym (TRG) & Run TRG: DBT Recovery Action Group (Hillsb
+ oro)
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Weekly peer-led
+  workshop building one practical Dialectical Behavior Therapy (DBT) skill 
+ per week for emotional sobriety and distress tolerance.\nAddress: 931 SE 6
+ th Ave\, Portland\, OR 97214\nPhone: 503-222-5756\nWebsite: https://www.th
+ erecoverygym.org/\nDetails: A project of the Alano Club of Portland offeri
+ ng 100% free functional fitness\, yoga\, somatic/DBT recovery workshops\, 
+ and the Run TRG running club in Portland and Hillsboro.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>Weekly peer-led workshop building one practical Dialectical Behavior Therapy (DBT) skill per week for emotional sobriety and distress tolerance.</p><p><strong>Address:</strong> 931 SE 6th Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.therecoverygym.org/">https://www.therecoverygym.org/</a></p><p><strong>Details:</strong> A project of the Alano Club of Portland offering 100% free functional fitness, yoga, somatic/DBT recovery workshops, and the Run TRG running club in Portland and Hillsboro.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:The Recovery Gym - Hillsboro\, 1060 SW Baseline St\, Hillsboro\, O
+ R 97123
+URL:https://www.therecoverygym.org/
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6ce4e778c3f02361@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260101T180000
+DTEND;TZID=America/Los_Angeles:20260101T190000
+SUMMARY:The Recovery Gym (TRG) & Run TRG: 30 for 30 Somatic Skills (Hillsbo
+ ro)
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: 30 minutes of g
+ uided grounding techniques and 30 minutes of collaborative peer processing
+ .\nAddress: 931 SE 6th Ave\, Portland\, OR 97214\nPhone: 503-222-5756\nWeb
+ site: https://www.therecoverygym.org/\nDetails: A project of the Alano Clu
+ b of Portland offering 100% free functional fitness\, yoga\, somatic/DBT r
+ ecovery workshops\, and the Run TRG running club in Portland and Hillsboro
+ .
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>30 minutes of guided grounding techniques and 30 minutes of collaborative peer processing.</p><p><strong>Address:</strong> 931 SE 6th Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.therecoverygym.org/">https://www.therecoverygym.org/</a></p><p><strong>Details:</strong> A project of the Alano Club of Portland offering 100% free functional fitness, yoga, somatic/DBT recovery workshops, and the Run TRG running club in Portland and Hillsboro.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:The Recovery Gym - Hillsboro\, 1060 SW Baseline St\, Hillsboro\, O
+ R 97123
+URL:https://www.therecoverygym.org/
+RRULE:FREQ=WEEKLY;BYDAY=TH
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e206a57c447203e4@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260131T120000
+DTEND;TZID=America/Los_Angeles:20260131T130000
+SUMMARY:The Recovery Gym (TRG) & Run TRG: Sound Bath at TRG Hillsboro
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nInfo: Monthly sound b
+ ath led by Anahata Beatspeaker in partnership with PUSH Movement (also 1st
+  Saturdays 12-1pm at SE Portland TRG).\nAddress: 931 SE 6th Ave\, Portland
+ \, OR 97214\nPhone: 503-222-5756\nWebsite: https://www.therecoverygym.org/
+ \nDetails: A project of the Alano Club of Portland offering 100% free func
+ tional fitness\, yoga\, somatic/DBT recovery workshops\, and the Run TRG r
+ unning club in Portland and Hillsboro.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p>Monthly sound bath led by Anahata Beatspeaker in partnership with PUSH Movement (also 1st Saturdays 12-1pm at SE Portland TRG).</p><p><strong>Address:</strong> 931 SE 6th Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.therecoverygym.org/">https://www.therecoverygym.org/</a></p><p><strong>Details:</strong> A project of the Alano Club of Portland offering 100% free functional fitness, yoga, somatic/DBT recovery workshops, and the Run TRG running club in Portland and Hillsboro.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:The Recovery Gym - Hillsboro\, 1060 SW Baseline St\, Hillsboro\, O
+ R 97123
+URL:https://www.therecoverygym.org/
+RRULE:FREQ=MONTHLY;BYDAY=-1SA
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c3c1f5c3ee3378f7@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260106T180000
+DTEND;TZID=America/Los_Angeles:20260106T190000
+SUMMARY:The Recovery Gym (TRG) & Run TRG: Run TRG: Track Tuesdays
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 931 SE 6th A
+ ve\, Portland\, OR 97214\nPhone: 503-222-5756\nWebsite: https://www.therec
+ overygym.org/\nDetails: A project of the Alano Club of Portland offering 1
+ 00% free functional fitness\, yoga\, somatic/DBT recovery workshops\, and 
+ the Run TRG running club in Portland and Hillsboro.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 931 SE 6th Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.therecoverygym.org/">https://www.therecoverygym.org/</a></p><p><strong>Details:</strong> A project of the Alano Club of Portland offering 100% free functional fitness, yoga, somatic/DBT recovery workshops, and the Run TRG running club in Portland and Hillsboro.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Duniway Track\, 2815 SW Barbur Blvd\, Portland\, OR 97201
+URL:https://www.therecoverygym.org/
+RRULE:FREQ=WEEKLY;BYDAY=TU
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d87f397c4a80eacd@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260102T180000
+DTEND;TZID=America/Los_Angeles:20260102T190000
+SUMMARY:The Recovery Gym (TRG) & Run TRG: Run TRG: "Happy Hour" Trail Run
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 931 SE 6th A
+ ve\, Portland\, OR 97214\nPhone: 503-222-5756\nWebsite: https://www.therec
+ overygym.org/\nDetails: A project of the Alano Club of Portland offering 1
+ 00% free functional fitness\, yoga\, somatic/DBT recovery workshops\, and 
+ the Run TRG running club in Portland and Hillsboro.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 931 SE 6th Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.therecoverygym.org/">https://www.therecoverygym.org/</a></p><p><strong>Details:</strong> A project of the Alano Club of Portland offering 100% free functional fitness, yoga, somatic/DBT recovery workshops, and the Run TRG running club in Portland and Hillsboro.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Forest Park\, Leif Erikson Gate\, 4015 NW Thurman St\, Portland\, 
+ OR 97210
+URL:https://www.therecoverygym.org/
+RRULE:FREQ=WEEKLY;BYDAY=FR
+CATEGORIES:Fitness & Wellness
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7bc889363c1d53af@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260103T080000
+DTEND;TZID=America/Los_Angeles:20260103T090000
+SUMMARY:The Recovery Gym (TRG) & Run TRG: Run TRG: Trail Run Saturdays
+DESCRIPTION:Category: Fitness & Wellness\nCost: FREE\nAddress: 931 SE 6th A
+ ve\, Portland\, OR 97214\nPhone: 503-222-5756\nWebsite: https://www.therec
+ overygym.org/\nDetails: A project of the Alano Club of Portland offering 1
+ 00% free functional fitness\, yoga\, somatic/DBT recovery workshops\, and 
+ the Run TRG running club in Portland and Hillsboro.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><HTML><BODY><p><strong>Category:</strong> Fitness &amp; Wellness</p><p><strong>Cost:</strong> FREE</p><p><strong>Address:</strong> 931 SE 6th Ave, Portland, OR 97214</p><p><strong>Phone:</strong> <a href="tel:503-222-5756">503-222-5756</a></p><p><strong>Website:</strong> <a href="https://www.therecoverygym.org/">https://www.therecoverygym.org/</a></p><p><strong>Details:</strong> A project of the Alano Club of Portland offering 100% free functional fitness, yoga, somatic/DBT recovery workshops, and the Run TRG running club in Portland and Hillsboro.</p></BODY></HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+LOCATION:Mt. Tabor Park\, SE 64th Ave & SE Lincoln St entrance\, Portland\,
+  OR
+URL:https://www.therecoverygym.org/
+RRULE:FREQ=WEEKLY;BYDAY=SA
 CATEGORIES:Fitness & Wellness
 TRANSP:TRANSPARENT
 END:VEVENT

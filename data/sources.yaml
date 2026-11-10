@@ -309,8 +309,8 @@
   eligibility: Currently tailored to selected single-family residential customers facing financial hardship; eligibility is
     determined automatically.
   apply: No application required; eligible customers are notified before the discount appears.
-  last_verified: 2026-08-13
-  next_audit: 2026-11-13
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips:
     first_visit: No application is available for Smart Discount. Call 503-823-7770 with account questions or to ask about
@@ -989,7 +989,8 @@
   website: https://namimultnomah.org
   source_urls:
   - https://namimultnomah.org
-  - https://namimultnomah.org/peer-support-groups/
+  - https://www.namimultnomah.org/peer-support-groups
+  - https://www.namimultnomah.org/veteran-support-groups
   - https://www.namimultnomah.org/support-groups
   - https://www.namimultnomah.org/family-support-groups
   pricing:
@@ -1009,26 +1010,13 @@
     audience:
     - lgbtq
   - name: LGBTQ2SIA+ Support (In-Person)
-    schedule: 2nd & 4th Sundays, 1-2:30pm
+    schedule: 1st & 3rd Sundays, 1-2:30pm
     format: In-person
     location: Rose City Community Collective, 5830 NE Alameda St Suite 205, Portland, OR 97213
     eligibility: LGBTQ2SIA+ adults 18+ with mental health symptoms
     audience:
     - lgbtq
     notes: A 30-minute community arts and crafts session runs beforehand, starting at 12:30pm.
-  - name: Young Adult (18-30) Online
-    schedule: 1st & 3rd Wednesdays, 6-7:30pm
-    format: Zoom
-    eligibility: Ages 18-30 with mental health symptoms
-    audience:
-    - young_adults
-  - name: Young Adult (18-35) In-Person
-    schedule: 2nd & 4th Sundays, 3-4:30pm
-    format: In-person
-    location: Community for Positive Aging, 1820 NE 40th Ave, Portland OR 97212
-    eligibility: Ages 18-35 with mental health symptoms
-    audience:
-    - young_adults
   - name: BIPOC Peer Support
     schedule: 1st & 3rd Thursdays, 7-8:30pm
     format: Zoom
@@ -1039,8 +1027,22 @@
     schedule: Every Tuesday, 7-8:30pm
     format: Zoom
     eligibility: Those experiencing complex trauma and/or dissociation
-  last_verified: 2026-10-08
-  next_audit: 2026-11-08
+  - name: Military Support Group (Veterans & Service Members)
+    schedule: Every Thursday, 6-7:30pm
+    format: Zoom
+    eligibility: Veterans and military service members 18+ living with mental health conditions (any discharge status)
+  - name: Military Sexual Trauma (MST) Peer Support Group - Women
+    schedule: 2nd & 4th Wednesdays, 7-8:30pm
+    format: Zoom
+    audience:
+    - women
+    eligibility: Women veterans and service members who have experienced Military Sexual Trauma
+  - name: Military Sexual Trauma (MST) Peer Support Group - All Genders
+    schedule: 1st Wednesdays, 7-8:30pm
+    format: Zoom
+    eligibility: Veterans and service members of all genders who have experienced Military Sexual Trauma
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: Just show up to any meeting - no pre-registration needed for most groups
@@ -1146,8 +1148,8 @@
     location: NAMI Clackamas office (10202 SE 32nd Ave, Suite 501, Milwaukie)
     notes: Affiliated grief support group. No registration required. The public schedule lists a 7pm start but no end time;
       the one-hour calendar block is a start-time reminder.
-  last_verified: 2026-10-08
-  next_audit: 2026-11-08
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: Call or email to register for your first meeting
@@ -1279,8 +1281,8 @@
       help someone call or set up the Pathway Conversation. Five spaces with a waitlist - FolkTime points people in crisis
       while they wait to the Oregon Warmline, 1-800-698-2392. No pets. A stocked pantry but no meals provided. No on-demand
       transportation, though staff may help someone get there. No alcohol or drug use onsite.
-  last_verified: 2026-10-14
-  next_audit: 2026-11-14
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: Attend orientation on 2nd or 3rd Wednesday of any month
@@ -1430,8 +1432,8 @@
   - Nutrition & food prep
   - Social activities
   - Individual goal setting
-  last_verified: 2026-10-08
-  next_audit: 2026-11-08
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: Orientations are every other Wednesday at 3pm (in-person and on Zoom). Referral from a mental health professional
@@ -1534,8 +1536,8 @@
   bridge_housing:
     beds: 19
     stay_length: 90 days average
-  last_verified: 2026-10-08
-  next_audit: 2026-11-08
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: Get a ticket from the outreach van at NW Broadway & Glisan (6am-2pm) to access day center
@@ -1594,8 +1596,8 @@
     notes: For mental healthcare professionals or trainees. The official page publishes a 10am start but no end time.
   eligibility: Open to all adults with any mental health condition (depression, bipolar, anxiety, PTSD, ADHD, etc.)
   member_liaison: dbsaportlandmemberliaison@gmail.com
-  last_verified: 2026-10-08
-  next_audit: 2026-11-08
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: Use the listed email or Meetup group to obtain Zoom details before attending.
@@ -1943,23 +1945,44 @@
     schedule: Fridays 4pm
     location: 39740 Pleasant St, Sandy
     cost: FREE
+  - name: DDA at NAMI Washington County (Aloha)
+    schedule: Tuesdays 6pm
+    location: 18680 SW Shaw St, Aloha, OR
+    cost: FREE
+  - name: DDA "New Energy" at 4D Recovery Hillsboro
+    schedule: Wednesdays 4pm
+    location: 362 SW Oak St, Hillsboro, OR
+    cost: FREE
+  - name: DDA at The Peer Company (Hillsboro)
+    schedule: Wednesdays 6pm
+    location: 5193 NE Elam Young Pkwy, Suite D, Hillsboro, OR
+    cost: FREE
+  - name: DDA at Comfort Zone (Tigard)
+    schedule: Fridays 2pm
+    location: 10130 SW Nimbus Ave, Suite D2, Tigard, OR
+    cost: FREE
   - name: Online DDA Morning Meetings - Sunday through Wednesday
     schedule: Sundays-Wednesdays 10-11am
     format: Zoom
     cost: FREE
     notes: Zoom meeting ID 849 3539 5086; no passcode. Pacific time.
-  - name: Online DDA Women's Meeting - Thursday Morning
+  - name: Online DDA Book Study Meeting - Thursday Morning
     schedule: Thursdays 10-11am
+    format: Zoom
+    cost: FREE
+    notes: Book Study. Zoom meeting ID 849 3539 5086; no passcode. Pacific time.
+  - name: Online DDA Women's Meeting - Thursday Midday
+    schedule: Thursdays 12-1pm
     format: Zoom
     audience:
     - women
     cost: FREE
     notes: Women-only. Zoom meeting ID 849 3539 5086; no passcode. Pacific time.
-  - name: Online DDA Saturday Morning Meeting
-    schedule: Saturdays 10-11am
+  - name: Online DDA Morning Meetings - Friday & Saturday
+    schedule: Fridays and Saturdays 10-11am
     format: Zoom
     cost: FREE
-    notes: Zoom meeting ID 849 3539 5086; no passcode. There is currently no Friday 10am meeting. Pacific time.
+    notes: Zoom meeting ID 849 3539 5086; no passcode. Pacific time.
   - name: Online DDA Evening Meetings
     schedule: Daily 5-6pm
     format: Zoom
@@ -1970,16 +1993,17 @@
     format: Zoom
     cost: FREE
     notes: Fellowship event open to all. Zoom meeting ID 849 3539 5086; no passcode. Pacific time.
-  last_verified: 2026-08-13
-  next_audit: 2026-09-13
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: Use the current in-person directory or join an online meeting. The current official site publishes each open
       meeting and the shared Zoom details.
     registration: No registration needed
     what_to_bring: Nothing required
-    good_to_know: 17-step program designed for co-occurring mental health and substance use. Online meetings run every evening,
-      with morning meetings except Friday; current open in-person meetings are listed above.
+    good_to_know: 17-step program designed for co-occurring mental health and substance use. Online meetings run daily at 10am
+      and 5pm (plus a Thursday 12-1pm Women's meeting and last-Sunday 1-3pm Open Mic Fellowship); current open in-person meetings
+      across Multnomah, Clackamas, and Washington counties are listed above.
   accessibility:
   - transit_nearby
   social_intensity: structured_group
@@ -2112,8 +2136,8 @@
   - Portland grief support groups (call for current schedule and location)
   - Seven Strategies class for people coping with a death within the last year (call for current schedule and location)
   - Bereavement support and resources for individuals and families
-  last_verified: 2026-08-13
-  next_audit: 2026-11-13
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips:
     first_visit: Call 503-215-4622 for current group schedule and registration
@@ -2157,8 +2181,8 @@
   - name: Recovery Support Meetings
     schedule: Various weekly meetings
     notes: 12-step, dharma, yoga, and social recovery approaches available. Check website for current schedule.
-  last_verified: 2026-08-07
-  next_audit: 2026-11-07
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just drop in during open hours - no appointment needed
@@ -2836,23 +2860,68 @@
   source_urls:
   - https://www.greshamseniorcenter.com/
   - https://www.greshamseniorcenter.com/activities---classes-calendar
-  - https://container.parishesonline.com/bulletins/05/1112/20260701N.pdf
+  - https://container.parishesonline.com/bulletins/05/1112/20261101N.pdf
   - https://volunteer.greshamoregon.gov/agency/detail/?agency_id=169304
   hours: Monday-Friday 8:30am-3pm
   programs:
   - name: Tuesday Night Dance
-    schedule: Tuesdays 4:30-7pm
+    schedule: Tuesdays 4:30-6:30pm
     cost: $6/person
-    notes: Live band (Desert Dogs); country and more; not on holidays
+    notes: Doors open at 4pm; live music 4:30-6:30pm with the Desert Dogs in the Meals on Wheels Dining Room (Trillium Rooms
+      A & B). Potluck style.
   - name: Movie Madness
     schedule: 1st & 3rd Mondays, 1pm
     cost: FREE
-    notes: End time varies; meets in the Chinook Room. Schedule confirmed in the official July/August 2026 newsletter.
-  - name: Friday Speaker Series
+    notes: End time varies; meets in the Chinook Room. Confirmed in the November/December 2026 newsletter.
+  - name: Veterans Coffee
+    schedule: Wednesdays 8:30-10am
+    cost: FREE
+    notes: Free coffee, snacks, and camaraderie in the GSC Library; learn about county, state, and VA benefits.
+  - name: Alzheimer Caregiver Support Group
+    schedule: Wednesdays 1-2:30pm
+    cost: FREE
+    notes: Open to caregivers for those with Alzheimer's or dementia (Trillium Room; call Breanna at 503-750-9545).
+  - name: Death Café
+    schedule: 2nd Tuesdays 1-3pm
+    cost: FREE
+    notes: Open, welcoming discussion space about mortality with free tea and cake (not a grief support group). Call Barbara
+      at 971-431-6816 to confirm attendance.
+  - name: Citizens Law School Sessions
+    schedule: 2nd & 4th Fridays 3-5pm
+    cost: FREE
+    notes: Free legal education sessions with Attorney Nathan Begley, open to the public (Nov 13 Medicaid/housing; Dec 11
+      gift-giving; no class Nov 27 or Dec 25).
+  - name: Improv Comedy Class
     schedule: Fridays 1-2:30pm
-    cost: FREE (RSVP required)
-  last_verified: 2026-08-13
-  next_audit: 2026-11-13
+    location: Mt. Hood Repertory Theatre, 333 N Main Ave, Gresham, OR 97030
+    cost: $2 user fee
+    notes: Taught by actor/director Bruce Coen, starting November 2026.
+  - name: E-Bikes 101 Clinic (The Street Trust)
+    dates: November 30, 2026
+    schedule: 10-11am
+    cost: FREE
+    notes: Free classroom clinic on e-bike classifications, rules of the road, and where to buy.
+  - name: 3rd Annual Christmas Craft & Gift Bazaar
+    dates: December 1-2, 2026
+    schedule: 9am-3pm
+    cost: FREE admission
+    notes: 25 local artists and vendors with handmade gifts and a gift-wrapping table.
+  - name: Intro to Social Media (MetroEast Digital Media)
+    dates:
+    - December 2, 2026
+    - December 9, 2026
+    - December 16, 2026
+    schedule: 10-11:30am
+    cost: $2 user fee
+    notes: 3-part beginners class taught by MetroEast Digital Media Educator Roberta Cumbianchera covering apps, accounts,
+      privacy settings, and AI safety.
+  - name: Gresham Senior Center Wellness Resource Fair
+    dates: January 28, 2027
+    schedule: 9:30am-2pm
+    cost: FREE
+    notes: Senior advisors, home care and hospice providers, downsizing/aging-in-place resources, and prize drawings.
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by during open hours (Mon-Fri 8:30am-3pm) to see the facility and learn about programs
@@ -3061,8 +3130,8 @@
   - name: Bike Summer (Pedalpalooza)
     schedule: June-August
     notes: Hundreds of free community rides
-  last_verified: 2026-10-08
-  next_audit: 2026-11-08
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: Check shift2bikes.org/calendar for current rides. Most list meeting location, time, and pace.
@@ -5175,12 +5244,12 @@
   location_type: physical
   resource_type: program
   address: 1315 SW Park Ave, Portland, OR 97201
-  phone: null
-  website: https://stjamespdx.org/life/wm/bach/
+  phone: 503-227-2439
+  website: https://www.stjamespdx.org/life/wm/bach/
   source_urls:
-  - https://stjamespdx.org/life/wm/bach/
+  - https://www.stjamespdx.org/life/wm/bach/
   pricing:
-    description: FREE
+    description: FREE (freewill offering)
   programs:
   - name: Bach Cantata Vespers
     schedule: 5-6pm
@@ -5190,9 +5259,10 @@
     - February 28, 2027
     - May 23, 2027
     notes: 19th annual series (2026-27). A Bach cantata within Evening Prayer with choir, soloists, and orchestra; a reception
-      follows and a freewill offering is taken. November 22 is BWV 140 "Wachet auf"; February 28 is BWV 54.
-  last_verified: 2026-10-14
-  next_audit: 2027-01-14
+      follows and a freewill offering is taken. November 22 is BWV 140 "Wachet auf"; February 28 is BWV 54; May 23 is BWV
+      172.
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips: 'Free concerts featuring Bach cantatas on select Sundays at 5pm. Four cantatas per season. No tickets needed
     - just show up. Offerings accepted but not required. Beautiful church setting with excellent acoustics. 2026-27 dates:
@@ -5475,10 +5545,41 @@
   hours: 'Mon-Thu: 10am-8pm, Fri-Sun: 10am-6pm'
   programs:
   - name: English Conversation Group
-    schedule: Weekly (check library calendar for current day/time)
+    schedule: 1st & 3rd Wednesdays, 6-7:30pm
     location: Technology Room (2nd floor)
     cost: FREE
-    notes: All levels welcome. Also see TIELLA (tiella.org) for ESL classes Mon/Thu.
+    notes: Relaxed environment led by an ESL tutor and certified instructor. All levels welcome, no registration required.
+  - name: Tigard Writers' Space
+    schedule: 1st Thursdays, 6-7:30pm
+    location: Technology Room (2nd floor)
+    cost: FREE
+    notes: Drop-in hour of quiet writing for writers of all skill levels; no registration required.
+  - name: Fiber Arts Meet-Up
+    dates:
+    - November 1, 2026
+    - December 6, 2026
+    schedule: 3:30-5:30pm
+    location: Technology Room (2nd floor)
+    cost: FREE
+    notes: Bring knitting, crocheting, weaving, sewing, or other fiber arts projects; beginners welcome.
+  - name: Sound Bath Meditation
+    dates: December 8, 2026
+    schedule: 6:30-7:30pm
+    location: Burgess Community Room
+    cost: FREE
+    notes: Crystal bowls and gongs with Melissa Felsenstein of Inner Sounds Meditation; bring a yoga mat or blanket if you
+      want to lie down.
+  - name: A Musical Journey to Persia
+    dates: January 24, 2027
+    schedule: 2:30-3:30pm
+    location: Burgess Community Room
+    cost: FREE
+    notes: Master musician Hossein Salehi introduces the santoor, the traditional Persian hammered dulcimer.
+  - name: Winter Walk on Fanno Creek Trail
+    dates: December 1, 2026 - February 28, 2027
+    location: Fanno Creek Trail behind Tigard Public Library
+    cost: FREE
+    notes: Self-guided outdoor reading walk along the trail exploring Kalapuyan and local history.
   - name: Tech Help Sessions
     schedule: By appointment
     cost: FREE
@@ -5497,8 +5598,8 @@
   - Public computers
   - Meeting rooms
   - Cultural Pass Express access
-  last_verified: 2026-09-10
-  next_audit: 2026-12-10
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips:
     first_visit: Get a free library card with proof of address
@@ -5529,7 +5630,7 @@
   source_urls:
   - https://www.ci.oswego.or.us/library
   - https://www.ci.oswego.or.us/loreads
-  - https://www.ci.oswego.or.us/loreads/events-2026
+  - https://www.ci.oswego.or.us/loreads/book-giveaway-228
   pricing:
     description: FREE
   hours: 'Mon-Thu: 10am-7pm
@@ -5540,10 +5641,13 @@
 
     '
   programs:
-  - name: Lake Oswego Reads
+  - name: Lake Oswego Reads 2027 - Free Book Giveaway
+    dates: February 28, 2027
+    schedule: 1-5pm
     cost: FREE
-    notes: Annual community reading program; 2026 events centered on Tilt and took place in April. Check the official page
-      for the next book and event series.
+    notes: 21st annual Lake Oswego Reads program featuring Good People by Patmeena Sabit. 800 free copies distributed first-come,
+      first-served (walk-in and parking lot) to LINCC library cardholders starting at 1pm on Sunday, February 28, 2027. Free
+      events follow in April 2027.
   - name: World Cinema Series
     schedule: Monthly
     location: Lake Theater & Cafe
@@ -5564,8 +5668,8 @@
     schedule: June 1 - August 31
     cost: FREE
     notes: All ages; readings, special events, prizes
-  last_verified: 2026-08-13
-  next_audit: 2026-11-13
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips:
     first_visit: Kids Librarian available at 503-697-6580
@@ -5654,7 +5758,7 @@
   source_urls:
   - https://www.tualatinhistory.org
   - https://www.tualatinoregon.gov/recreation/tualatin-heritage-center
-  - https://www.tualatinhistory.org/heritage-evening/p/heritage-evening-ticket-for-2023
+  - https://www.tualatinhistory.org/events/an-old-fashioned-christmas-g5wmh
   pricing:
     description: FREE admission
   hours: Mon-Fri 10am-2pm (closed weekends)
@@ -5671,10 +5775,12 @@
     - Expert paleontology talks
     - Bring your own fossils for identification
     notes: 2026 date confirmed as August 1. Draws 400+ visitors - arrive early.
-  - name: Old Fashioned Christmas
+  - name: An Old Fashioned Christmas
+    dates: December 12, 2026
+    schedule: 12-4pm
     cost: FREE
-    notes: Annual December event. The 2026 date was not published as of late July 2026, so no date is recorded here rather
-      than carrying the stale 2025 one. Check tualatinhistory.org/events in the fall.
+    notes: Old-fashioned Christmas tree and decorations, free sweet treats, the Tualatin Crimsonnaires at 1pm, and St. Nick
+      from 2-4pm.
   - name: Memorial Day Celebration
     notes: Honors veterans, kicks off city celebrations
   - name: Arbor Month Poetry Contest
@@ -5692,8 +5798,8 @@
     notes: The society's single annual fundraiser. Tickets are $50. The 2026 event is Friday, September 11, 2026, 5:30-8:30pm,
       with a "Half a Grand" raffle; tickets are on sale at tualatinhistory.org/heritage-evening. The 2025 edition was September
       5 and featured Oregon Cowboy Poet Tom Swearingen.
-  last_verified: 2026-08-13
-  next_audit: 2026-11-13
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check website for current exhibit information
@@ -5726,7 +5832,8 @@
   - https://www.pcc.edu/galleries/cascade/
   - https://www.pcc.edu/galleries/rock-creek/
   - https://www.pcc.edu/galleries/sylvania/
-  - https://www.pcc.edu/galleries/2026/07/16/7619/
+  - https://www.pcc.edu/galleries/2026/11/04/yo-hablo-espanol-by-diego-morales-portillo-and-distant-traces-by-miya-hannan/
+  - https://www.pcc.edu/galleries/2026/09/11/dear-portland/
   pricing:
     description: FREE admission
     notes: All galleries free and open to the public
@@ -5741,46 +5848,53 @@
     notes: Named for longtime ceramics faculty Richard Helzer
   - name: North View Gallery (Sylvania Campus)
     address: 12000 SW 49th Ave, Portland, OR 97219
-    hours: Locations vary during the building's two-year renovation
+    hours: Mon-Fri 11am-4pm in the CC Building during the gallery building's renovation
     notes: Operating as North View Mobile, activating temporary sites around the Sylvania campus. Check the event page for
       each location.
   exhibits:
-  - name: 'Joni Smith: Markmaker'
-    location: Paragon Gallery
-    dates: October 2 - November 15, 2025
-  - name: MATERIA ANIMA (Marjorie Dial)
-    location: Helzer Gallery
-    dates: November 24, 2025 - March 6, 2026
-    event: 'Artist talk and reception: January 20, 2026, 11am-12pm'
-  - name: Thanatopsis
-    location: Paragon Gallery
-    dates: December 4, 2025 - February 15, 2026
-    artists: Marne Lucas, Dardinelle Troen, Shelley Chamberlin
-  - name: Memory Palace (Marsha Mack)
-    location: Paragon Gallery
-    dates: March 5 - April 11, 2026
-  - name: Paragon Arts Annual Student Exhibition 25/26
-    location: Paragon Gallery
-    dates: May 6 - May 27, 2026
-  - name: 'Emerging: PCC Art Student Exhibition 25/26'
-    location: North View Gallery
-    dates: May 13 - June 13, 2026
-    event: Award ceremony and reception Saturday, June 13, 12-2pm
-  - name: 'Marcus Fischer: We Are the Confluence of Two Rivers'
-    location: North View Gallery
-    dates: On view as of July 2026; closing date not published
-    event: Performance Sunday, August 30, 2026, 11am
+  - name: 'Yo hablo español (Diego Morales-Portillo) & Distant Traces (Miya Hannan)'
+    location: Paragon Arts Gallery (Cascade)
+    dates: November 13, 2026 - January 23, 2027
+    event: 'Opening reception: Friday, November 13, 2026, 5-8pm; Closing reception & artist talks: Friday, January 22, 2027,
+      5-8pm (talks at 5:30pm)'
+  - name: 'Diane Jacobs: what do you feel?'
+    location: Helzer Gallery (Rock Creek)
+    dates: September 21 - November 17, 2026
+  - name: 'Dear Portland: An Exhibition from Humans for Housing'
+    location: North View Mobile (Sylvania CC Building)
+    dates: October 19 - November 23, 2026
   programs:
-  - name: 'Marcus Fischer: We Are the Confluence of Two Rivers - closing performance'
-    dates: August 30, 2026
-    schedule: 11am
-    location: Rock garden on the PCC Sylvania campus
-    notes: Site-specific performance inaugurating North View Mobile during the gallery building's two-year renovation. The
-      official page publishes an 11am start but no end time; the one-hour calendar block is a start-time reminder.
+  - name: 'Paragon Arts Gallery: Yo hablo español & Distant Traces - Opening Reception'
+    dates: November 13, 2026
+    schedule: 5-8pm
+    location: PCC Cascade Campus, Paragon Arts Building, 815 N Killingsworth St, Portland, OR
+    cost: FREE
+    notes: Exhibition by Diego Morales-Portillo and Miya Hannan runs November 13, 2026 - January 23, 2027 (open Wed-Fri 12-7pm,
+      Sat 12-5pm).
+  - name: 'Paragon Arts Gallery: Yo hablo español & Distant Traces - Closing Reception & Artist Talks'
+    dates: January 22, 2027
+    schedule: 5-8pm
+    location: PCC Cascade Campus, Paragon Arts Building, 815 N Killingsworth St, Portland, OR
+    cost: FREE
+    notes: Artist talks begin at 5:30pm.
+  - name: 'North View Mobile (Sylvania): Houselessness Awareness Week Screening & Tour'
+    dates: November 17, 2026
+    schedule: 12-3:30pm
+    location: PCC Sylvania Campus, CC Building (Room CC 233B & North View Mobile), 12000 SW 49th Ave, Portland, OR
+    cost: FREE
+    notes: Screening of "No Place to Grow Old" (12-1:30pm in CC 233B) followed by a dessert reception and tour of the "Dear
+      Portland" exhibition (1:30-3:30pm).
+  - name: 'North View Mobile (Sylvania): Dear Portland Closing Reception'
+    dates: November 19, 2026
+    schedule: 4:30-7:30pm
+    location: PCC Sylvania Campus, CC Building, 12000 SW 49th Ave, Portland, OR
+    cost: FREE
+    notes: 'Closing reception for "Dear Portland: An Exhibition from Humans for Housing" (on view through November 23, Mon-Fri
+      11am-4pm).'
   eligibility: Open to the public
   parking: Weekday permits required at kiosks; free on weekends
-  last_verified: 2026-08-13
-  next_audit: 2026-11-13
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips:
     first_visit: Check hours online - galleries close between exhibits
@@ -6667,15 +6781,16 @@
   website: https://www.woodenshoe.com/
   source_urls:
   - https://www.woodenshoe.com/
+  - https://www.woodenshoe.com/events/tulip-fest/
   pricing:
     description: $19 weekday / $24 weekend adults (ages 13-64); Children 12 and under FREE
     seniors: $14 weekday / $19 weekend (65+)
     notes: Online tickets only; timed entry; best bloom mid-April. 10% off 4+ tickets with code 4TICKETS.
-  dates: March 20 - April 26, 2026
+  dates: March 19 - April 25, 2027
   latitude: 45.141667
   longitude: -122.819444
-  last_verified: 2026-03-17
-  next_audit: 2027-03-01
+  last_verified: 2026-11-09
+  next_audit: 2027-02-15
   audit_frequency: annually
   practical_tips:
     first_visit: Buy tickets online only - no gate sales. Timed entry (arrive within 30 min of selected time). Weekdays less
@@ -6696,6 +6811,8 @@
   guide_location: activities-guide-2.md#spring-events
   flags:
   - 📅 DATE-SENSITIVE
+  notes: 40 acres of blooming tulips in Woodburn. The 2027 Wooden Shoe Tulip Festival is scheduled for March 19 - April 25,
+    2027 (dates may shift slightly with bloom conditions). Recheck ticket prices in February 2027.
 - id: spring-garden-fair
   name: Spring Garden Fair
   category: events
@@ -7552,8 +7669,8 @@
     cost: FREE
     notes: Costumed racers paddle giant pumpkin boats across the lake in races at noon and 2pm, with food, entertainment,
       pumpkin bowling, and pumpkin golf through the day.
-  last_verified: 2026-10-08
-  next_audit: 2026-11-08
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: The races are at noon and 2pm; the rest of the festival runs 10am-4pm, so you can come for one race and leave.
@@ -7581,23 +7698,33 @@
   resource_type: event
   address: Beaverton City Park, 12375 SW 5th St, Beaverton, OR
   phone: 503-526-2559
-  website: https://www.beavertonoregon.gov/events-0
+  website: https://beavertonoregon.gov/beaverton-winter-lights
   source_urls:
+  - https://beavertonoregon.gov/beaverton-winter-lights
   - https://www.beavertonoregon.gov/events-0
-  - https://portlandlivingonthecheap.com/beaverton-winter-lights/
   pricing:
     description: FREE to attend - the winter markets sell goods
-  hours: 4pm-8pm
+  hours: 'Tree Lighting & Winter Markets: Friday, December 4, 2026, 4-8pm (performances & activities 6-8pm, tree lighting
+    ceremony at 7pm). Light Displays glow nightly December 1, 2026 through January 3, 2027 from 4pm to 8am.'
   programs:
   - name: Winter Lights & Tree Lighting with BACC & Kids Winter Markets
     dates: December 4, 2026
     schedule: 4pm-8pm
-    location: Beaverton City Park, 12375 SW 5th St, Beaverton, OR
+    location: Beaverton City Park, SW 5th St & SW Hall Blvd, Beaverton, OR
     cost: FREE
-    notes: The City's signature winter event, with the Beaverton Area Chamber of Commerce and Kids winter markets running
-      alongside the tree lighting. A menorah lighting is listed separately with its date still to be announced.
-  last_verified: 2026-09-16
-  next_audit: 2026-11-09
+    notes: Winter Markets (Beaverton Area Chamber of Commerce and Kids Market) 4-8pm; festive fun programming and live performances
+      6-8pm; Tree Lighting Ceremony at 7pm.
+  - name: Beaverton Winter Light Displays
+    dates:
+    - December 1-31, 2026
+    - January 1-3, 2027
+    schedule: 4pm-11pm
+    location: Beaverton City Park, SW 5th St & SW Hall Blvd, Beaverton, OR
+    cost: FREE
+    notes: Walkways in Beaverton City Park are lit nightly from 4pm to 8am December 1, 2026 through January 3, 2027. All displays
+      are wheelchair accessible from paved paths.
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: The markets and the tree lighting run together from 4pm to 8pm, so there is no single moment you have to
@@ -7619,6 +7746,9 @@
   - 📅 DATE-SENSITIVE
   latitude: 45.484122
   longitude: -122.804062
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
 - id: wood-village-pumpkin-fest
   name: Wood Village Pumpkin Fest
   category: events
@@ -7635,8 +7765,8 @@
   dates: October 24, 2026
   schedule: 10am-noon
   transit: TriMet 77 (NE Halsey St)
-  last_verified: 2026-10-25
-  next_audit: 2026-11-25
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: It runs only two hours, so arrive near 10am.
@@ -7671,8 +7801,8 @@
   hours: 10am-5pm
   dates: November 7-8, 2026
   schedule: 10am-5pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-25
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: Browsing is free and there is no pressure to buy; the donation is optional.
@@ -7708,8 +7838,8 @@
   dates: November 21, 2026
   schedule: 2-7pm
   transit: MAX Blue Line (Hillsboro Central/SE 3rd Ave TC)
-  last_verified: 2026-10-25
-  next_audit: 2026-11-25
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: Come in the afternoon for a calmer visit; the 6pm tree lighting is the most crowded part.
@@ -7760,8 +7890,8 @@
     schedule: 6-7:30pm
     location: East Tualatin route (neighborhoods around Atfalati Park, Fox Hills, and Marquis), Tualatin, OR 97062
     cost: FREE
-  last_verified: 2026-10-25
-  next_audit: 2026-11-25
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: Watch from a curb along the route near home; the parade comes to you.
@@ -7794,12 +7924,12 @@
   - https://downtownoregoncity.org/event/holiday-tree-lighting
   pricing:
     description: FREE
-  hours: 5-6:30pm
+  hours: 5-7pm
   dates: December 5, 2026
-  schedule: 5-6:30pm
+  schedule: 5-7pm
   transit: Oregon City Transit Center (TriMet 32, 33, 99), short walk
-  last_verified: 2026-10-25
-  next_audit: 2026-11-25
+  last_verified: 2026-11-09
+  next_audit: 2026-11-28
   audit_frequency: monthly
   practical_tips:
     first_visit: A short walk from the Oregon City Transit Center.
@@ -7817,9 +7947,9 @@
     or 814 Main St); all point to Liberty Plaza.
   flags:
   - 📅 DATE-SENSITIVE
-  - ⚠️ VERIFY - The Downtown Oregon City Association's 2026 page confirms Saturday, December 5, 5:00-6:30pm but gives no venue
-    or price yet (more details coming). Liberty Plaza and free admission carry over from earlier years' listings; confirm
-    in late November.
+  - ⚠️ VERIFY - The Downtown Oregon City Association's 2026 page confirms Saturday, December 5, 2026, 5:00-7:00pm (updated
+    from 6:30pm) but still states 'More details coming' with no venue or price yet. Liberty Plaza and free admission carry
+    over from earlier years' listings; confirm in late November.
   latitude: 45.358347
   longitude: -122.607175
 - id: mcl-native-heritage-month
@@ -7941,8 +8071,8 @@
     location: Holgate Library, 7905 SE Holgate Blvd, Portland, OR 97206
     cost: No fee listed
     notes: Drop-in; no sign-up or registration needed.
-  last_verified: 2026-10-25
-  next_audit: 2026-11-05
+  last_verified: 2026-11-09
+  next_audit: 2027-10-01
   audit_frequency: annually
   practical_tips:
     first_visit: Pick a branch near you. Most sessions are drop-in; the beaded earrings classes have limited, registered seats.
@@ -8042,8 +8172,8 @@
     schedule_start_date: 2026-10-31
     schedule_end_date: 2026-12-26
     location: Kenton Library, 8226 N Denver Ave, Portland, OR 97217
-  last_verified: 2026-10-25
-  next_audit: 2026-11-20
+  last_verified: 2026-11-09
+  next_audit: 2027-01-05
   audit_frequency: annually
   practical_tips:
     first_visit: Low-pressure, no sign-up listed for these groups. Just show up at the branch.
@@ -8084,8 +8214,8 @@
   - November 20, 2026
   - December 4, 2026
   schedule: 12:15-1:15pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-27
+  last_verified: 2026-11-09
+  next_audit: 2027-01-15
   audit_frequency: annually
   practical_tips:
     first_visit: A short daytime concert by PSU students, faculty, and guests. Easy to slip in and out.
@@ -8120,8 +8250,8 @@
     6:15pm at the Arts Plaza; free photos with Santa 6:30pm'
   dates: December 5, 2026
   schedule: 8am-9pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-25
+  last_verified: 2026-11-09
+  next_audit: 2027-11-01
   audit_frequency: annually
   practical_tips:
     first_visit: Come for the afternoon market, or arrive by 5pm for the parade of lights and tree lighting at the Arts Plaza.
@@ -8155,8 +8285,8 @@
   hours: 6-7:30pm
   dates: December 4, 2026
   schedule: 6-7:30pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-25
+  last_verified: 2026-11-09
+  next_audit: 2027-11-01
   audit_frequency: annually
   practical_tips:
     first_visit: Small-town tree lighting with crafts, prizes, holiday music, and refreshments.
@@ -8190,8 +8320,8 @@
   hours: 12-7pm both days; city tree-lighting ceremony Sunday at 5pm
   dates: December 5-6, 2026
   schedule: 12-7pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-25
+  last_verified: 2026-11-09
+  next_audit: 2027-11-01
   audit_frequency: annually
   practical_tips:
     first_visit: A holiday market inside The Troutdale House, with the city's tree lighting at Mayors Square on Sunday at
@@ -8263,8 +8393,8 @@
   hours: 10am-4pm both days
   dates: November 21-22, 2026
   schedule: 10am-4pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-18
+  last_verified: 2026-11-09
+  next_audit: 2027-10-25
   audit_frequency: annually
   practical_tips:
     first_visit: A holiday market of 30+ vendors selling secondhand and upcycled goods, with food trucks.
@@ -8294,8 +8424,8 @@
   hours: 12-4pm
   dates: December 6, 2026
   schedule: 12-4pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-30
+  last_verified: 2026-11-09
+  next_audit: 2027-11-01
   audit_frequency: annually
   practical_tips:
     first_visit: The 57th annual celebration of Oregon authors, with signed-book sales, hot cocoa, and the Meier & Frank Santaland
@@ -8330,8 +8460,8 @@
   hours: 6-8pm; caroling groups perform across a ten-block area, and the top groups carol off at the Square
   dates: December 18, 2026
   schedule: 6-8pm
-  last_verified: 2026-10-25
-  next_audit: 2026-12-10
+  last_verified: 2026-11-09
+  next_audit: 2027-11-01
   audit_frequency: annually
   practical_tips:
     first_visit: Walk the blocks around the Square to hear the caroling groups and vote for your favorite.
@@ -8365,8 +8495,8 @@
   hours: 1:30-3pm
   dates: December 19, 2026
   schedule: 1:30-3pm
-  last_verified: 2026-10-25
-  next_audit: 2026-12-10
+  last_verified: 2026-11-09
+  next_audit: 2027-11-01
   audit_frequency: annually
   practical_tips:
     first_visit: The 35th annual concert of holiday music played by a crowd of tubas and euphoniums.
@@ -8384,17 +8514,19 @@
   latitude: 45.518941
   longitude: -122.679529
 - id: portland-parks-volunteer-days
-  name: Portland Parks & Recreation Volunteer Days (South Park Blocks, Pittock Garden, Argay Park)
+  name: Portland Parks & Recreation Volunteer Days (South Park Blocks, Pittock Garden, Baltimore Woods, Mt. Tabor, Oaks Bottom)
   category: social_activities
   location_type: varies
   resource_type: program
   address: null
   phone: 503-278-9001
-  website: https://www.portland.gov/parks/events/2026/10/27/south-park-blocks-gardening-and-turf-crew
+  website: https://www.portland.gov/parks/events
   source_urls:
   - https://www.portland.gov/parks/events/2026/10/27/south-park-blocks-gardening-and-turf-crew
   - https://www.portland.gov/parks/events/2026/10/27/pittock-garden-tuesday-volunteer-day
-  - https://www.portland.gov/parks/events/2026/11/5/argay-park-volunteer-day
+  - https://www.portland.gov/parks/events/2026/11/14/baltimore-woods-volunteer-planting-event
+  - https://www.portland.gov/parks/events/2026/11/28/mt-tabor-last-saturday-volunteer-event
+  - https://www.portland.gov/parks/events/2026/12/5/oaks-bottom-wildlife-refuge-planting-event
   pricing:
     description: FREE (volunteering; no fee stated)
   eligibility: Open to all; new and experienced gardeners welcome, tools provided
@@ -8419,8 +8551,27 @@
     location: Argay Park, Portland, OR
     cost: FREE
     notes: Low-barrier; go at your own pace. Register through the PP&R volunteer website.
-  last_verified: 2026-10-25
-  next_audit: 2026-11-20
+  - name: Baltimore Woods Volunteer Planting Event
+    dates: November 14, 2026
+    schedule: 9am-12pm
+    location: Baltimore Woods Natural Area, 9907 N Decatur St (park at N Reno Ave & N Edison St), Portland, OR 97203
+    cost: FREE
+    notes: Planting native shrubs and trees with Friends of Baltimore Woods and PP&R. Tools, gloves, coffee/tea, and light
+      snacks provided. Registration required.
+  - name: Mt. Tabor Last Saturday Volunteer Event
+    dates: November 28, 2026
+    schedule: 9am-12pm
+    location: Mt. Tabor Park Visitor Center, SE Salmon Way & SE Park Dr, Portland, OR 97215
+    cost: FREE
+    notes: Planting native trees and shrubs with Friends of Mt. Tabor Park Weed Warriors and PP&R. Registration required.
+  - name: Oaks Bottom Wildlife Refuge Planting Event
+    dates: December 5, 2026
+    schedule: 10am-1pm
+    location: Oaks Bottom Wildlife Refuge North Parking Lot & Trailhead, SE Milwaukie Ave, Portland, OR 97202
+    cost: FREE
+    notes: Planting and mulching native shrubs with Friends of Oaks Bottom and PP&R. Registration required.
+  last_verified: 2026-11-09
+  next_audit: 2027-01-05
   audit_frequency: annually
   practical_tips:
     first_visit: Show up at the meeting spot ready to garden; tools are provided.
@@ -8452,8 +8603,8 @@
   hours: 4-6pm, rain or shine
   dates: October 31, 2026
   schedule: 4-6pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-02
+  last_verified: 2026-11-09
+  next_audit: 2027-10-01
   audit_frequency: annually
   practical_tips:
     first_visit: A kid-focused Halloween event along Main Ave; teal pumpkins mark allergy-friendly stops.
@@ -8484,8 +8635,8 @@
   hours: 3:30-5pm
   dates: November 2, 2026
   schedule: 3:30-5pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-02
+  last_verified: 2026-11-09
+  next_audit: 2027-10-01
   audit_frequency: annually
   practical_tips:
     first_visit: Stories and crafts for Dia de Muertos, led in Spanglish.
@@ -8511,15 +8662,19 @@
   website: https://beavertonfarmersmarket.com/
   source_urls:
   - https://beavertonfarmersmarket.com/
+  - https://www.beavertonfarmersmarket.com/page3
+  - https://doubleuporegon.org/marketfinder-markets/beaverton-farmers-market
   pricing:
-    description: Free to enter
-    notes: A participating Double Up Food Bucks market; the SNAP terms were not readable on the site.
+    description: FREE admission; SNAP/Oregon Trail Card accepted with Double Up Food Bucks match up to $20 per market day
+    notes: Bring your Oregon Trail Card to the Market Information Booth in the center of the market to buy $1 wooden EBT tokens;
+      Double Up Food Bucks matches SNAP $1-for-$1 in $2 increments up to $20 per day for fruits, vegetables, herbs, mushroom
+      grow kits, and food-producing plants. WIC and Senior Farm Direct Nutrition Program checks accepted.
   season: April - November 21, 2026
   schedule: Saturdays 8:30am-1:30pm
   schedule_start_date: 2026-10-31
   schedule_end_date: 2026-11-21
-  last_verified: 2026-10-25
-  next_audit: 2026-11-19
+  last_verified: 2026-11-09
+  next_audit: 2027-02-01
   audit_frequency: annually
   practical_tips:
     first_visit: The market is in the library's west parking lot, SW Hall Blvd between 3rd and 5th.
@@ -8534,9 +8689,21 @@
     market calendar's October 31 Halloween listing.
   flags:
   - 🔄 SEASONAL
-  - ⚠️ VERIFY - SNAP/EBT terms and the Double Up cap were not readable on the market's site. Confirm before promoting.
   latitude: 45.484122
   longitude: -122.804062
+  hours: 'Main season (April - November 21, 2026): Saturdays 8:30am-1:30pm. Winter market (February - March 2027): Saturdays
+    10am-1:30pm. Closed December and January.'
+  programs:
+  - name: Main Season Market (April-November)
+    schedule: Saturdays 8:30am-1:30pm
+    schedule_start_date: 2026-04-04
+    schedule_end_date: 2026-11-21
+    cost: FREE admission; SNAP + up to $20 Double Up match
+  - name: Winter Market (February-March)
+    schedule: Saturdays 10am-1:30pm
+    schedule_start_date: 2027-02-06
+    schedule_end_date: 2027-03-27
+    cost: FREE admission; SNAP + up to $20 Double Up match
 - id: aloha-library-social-hour
   name: Social Hour (Aloha Community Library)
   category: social_activities
@@ -8563,8 +8730,8 @@
     - November 14, 2026
     - December 12, 2026
     schedule: 9-10am
-  last_verified: 2026-10-25
-  next_audit: 2026-11-20
+  last_verified: 2026-11-09
+  next_audit: 2027-01-05
   audit_frequency: annually
   practical_tips:
     first_visit: An hour of coffee, refreshments, and conversation with others seeking connection.
@@ -8633,8 +8800,8 @@
     schedule_end_date: 2026-12-26
     location: Beaverton City Library, Cathy Stanton Conference Room
     cost: FREE
-  last_verified: 2026-10-25
-  next_audit: 2026-11-20
+  last_verified: 2026-11-09
+  next_audit: 2027-01-05
   audit_frequency: annually
   practical_tips:
     first_visit: No sign-up listed for these programs; just come to the room.
@@ -8687,8 +8854,8 @@
     cost: FREE
     notes: Hot cocoa, choir performances, pictures with Santa, a Letters to Winter Wonderland station, a library storytime,
       and trolley viewing.
-  last_verified: 2026-10-25
-  next_audit: 2026-11-20
+  last_verified: 2026-11-09
+  next_audit: 2027-10-25
   audit_frequency: annually
   practical_tips:
     first_visit: All three are drop-in public events.
@@ -8733,8 +8900,8 @@
     location: Sherwood Center for the Arts, 22689 SW Pine St, Sherwood, OR 97140
     cost: FREE
     notes: All-ages, family-friendly open mic; sign up to perform at 6:30pm, or just listen. The last date on the 2026 schedule.
-  last_verified: 2026-10-25
-  next_audit: 2026-11-05
+  last_verified: 2026-11-09
+  next_audit: 2027-10-01
   audit_frequency: annually
   practical_tips:
     first_visit: Both are drop-in. For the open mic, sign up at 6:30pm if you want to perform.
@@ -8766,8 +8933,8 @@
   hours: 12-4pm
   dates: November 7, 2026
   schedule: 12-4pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-04
+  last_verified: 2026-11-09
+  next_audit: 2027-10-01
   audit_frequency: annually
   practical_tips:
     first_visit: Indoor exhibits and hands-on activities about the rough-skinned newt.
@@ -8798,8 +8965,8 @@
   hours: 9am-3pm
   dates: December 5, 2026
   schedule: 9am-3pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-30
+  last_verified: 2026-11-09
+  next_audit: 2027-11-01
   audit_frequency: annually
   practical_tips:
     first_visit: 80+ local art and craft vendors, holiday music, prizes, and food trucks.
@@ -8829,8 +8996,8 @@
   hours: 9am-3pm both days
   dates: November 14-15, 2026
   schedule: 9am-3pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-10
+  last_verified: 2026-11-09
+  next_audit: 2027-10-25
   audit_frequency: annually
   practical_tips:
     first_visit: Over 40 local vendors selling handcrafted gifts.
@@ -8857,10 +9024,10 @@
   - https://westlinnoregon.gov/parksrec/holiday-parade
   pricing:
     description: No admission is mentioned (public street parade)
-  hours: Parade at 5pm; Santa lights the tree about 6:15pm
+  hours: Starts at 5pm
   dates: December 5, 2026
-  last_verified: 2026-10-25
-  next_audit: 2026-11-25
+  last_verified: 2026-11-09
+  next_audit: 2027-11-01
   audit_frequency: annually
   practical_tips:
     first_visit: The parade and the Historic Willamette Main Street tree lighting are combined this year. Willamette Falls
@@ -8871,13 +9038,17 @@
   - outdoor
   - family_friendly
   guide_location: activities-guide-2.md#winter-holiday-events
-  notes: Added in the October 2026 discovery sweep. Replaces the separate West Linn tree lighting this year.
+  notes: Combined Holiday Parade ('Light Up the Night') and Historic Willamette Main Street Holiday Tree Lighting on Saturday,
+    December 5, 2026 starting at 5pm in the Historic Willamette Main Street area, followed by the tree lighting with Santa
+    at the Ale & Cider House.
   flags:
   - 📅 DATE-SENSITIVE
-  - ⚠️ VERIFY - The city page does not state an admission price or an end time; a public street parade has no ticket, but
-    confirm before promoting it as free.
+  - ⚠️ VERIFY - The city page confirms Saturday, December 5, 2026 starting at 5pm (followed by tree lighting at the Ale &
+    Cider House) but does not state an admission price or an end time; a public street parade has no ticket, but confirm before
+    promoting it as free.
   latitude: 45.344681
   longitude: -122.65517
+  schedule: 5-6:30pm
 - id: canby-light-up-the-night
   name: Light Up the Night (Canby)
   category: events
@@ -8890,10 +9061,10 @@
   - https://www.canbyoregon.gov/events/page/light-night
   pricing:
     description: No admission is mentioned (public parade)
-  hours: Parade starts 6pm and ends at Wait Park about 6:30pm with Santa
+  hours: Parade kicks off at 6pm; tree lighting at Wait Park at approximately 6:30pm
   dates: December 4, 2026
-  last_verified: 2026-10-25
-  next_audit: 2026-11-25
+  last_verified: 2026-11-09
+  next_audit: 2027-11-01
   audit_frequency: annually
   practical_tips:
     first_visit: A lighted parade through downtown Canby ending at Wait Park, where children can chat with Santa.
@@ -8906,8 +9077,9 @@
   notes: Added in the October 2026 discovery sweep; the 25th annual event.
   flags:
   - 📅 DATE-SENSITIVE
-  - ⚠️ VERIFY - The city page does not state an admission price; a public parade has no ticket, but confirm before promoting
-    it as free.
+  - ⚠️ VERIFY - The city page confirms Friday, December 4, 2026 with a 6pm lighted parade and ~6:30pm Wait Park tree lighting,
+    but does not state an admission price; a public parade has no ticket, but confirm before promoting it as free.
+  schedule: 6-7:30pm
 - id: forest-grove-tree-lighting
   name: Forest Grove Holiday Tree Lighting
   category: events
@@ -8923,8 +9095,8 @@
   hours: 6-7:30pm
   dates: November 27, 2026
   schedule: 6-7:30pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-20
+  last_verified: 2026-11-09
+  next_audit: 2027-10-25
   audit_frequency: annually
   practical_tips:
     first_visit: The tree is lit at 6pm, then everyone heads into Washburne Hall for cookies, Santa, crafts, and caroling.
@@ -8957,8 +9129,8 @@
   hours: 3-7pm; Millennium Tree Lighting Ceremony at 5:30pm
   dates: November 27, 2026
   schedule: 3-7pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-20
+  last_verified: 2026-11-09
+  next_audit: 2027-10-25
   audit_frequency: annually
   practical_tips:
     first_visit: Come in the afternoon for a calmer visit; the 5:30pm tree lighting is the busiest moment.
@@ -8992,8 +9164,8 @@
   hours: Contest check-in by 4:15pm; parade at 4:30pm; umbrella winners about 5:30pm, then the tree is lit; ends 6pm
   dates: December 5, 2026
   schedule: 4:30-6pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-25
+  last_verified: 2026-11-09
+  next_audit: 2027-11-01
   audit_frequency: annually
   practical_tips:
     first_visit: The parade gathers at South Downtown Plaza near the Post Office, 11222 SE Main St, and walks four blocks
@@ -9022,7 +9194,7 @@
   location_type: physical
   resource_type: event
   address: The Lantern, 2828 SE Stephens, Portland, OR 97214
-  phone: 971-375-5509
+  phone: 503-880-8794
   website: https://portland.isosld.afsp.org/
   source_urls:
   - https://portland.isosld.afsp.org/
@@ -9033,25 +9205,23 @@
   hours: 9:30am-2:30pm
   dates: November 21, 2026
   schedule: 9:30am-2:30pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-12
+  last_verified: 2026-11-09
+  next_audit: 2027-10-15
   audit_frequency: annually
   practical_tips:
-    first_visit: A day for people who have lost someone to suicide, hosted by AFSP Oregon. Call 971-375-5509 for details before
-      you go.
-    registration: The event site currently says registration is closed. Call before going to ask whether a place is still
-      available.
-    good_to_know: The phone number is AFSP Oregon's area director line, listed on the chapter page.
+    first_visit: A day for people who have lost someone to suicide, hosted by AFSP Oregon. Light snacks and refreshments are
+      served.
+    registration: Free online registration is open at portland.isosld.afsp.org.
+    good_to_know: 'This event is for Survivors of Suicide Loss only. Host contact: Joan Hoff, joanshoff2020@gmail.com or 503-880-8794
+      (AFSP Oregon area director line: 971-375-5509).'
   social_intensity: structured_group
   good_for:
   - grief
   guide_location: activities-guide-2.md#grief-support
-  notes: From the queue's high-priority Survivor Day lead. Date, time, and venue come from the event site's own data and match
-    the afsp.org chapter listing; the visible page needs JavaScript and has no description.
+  notes: 'Confirmed on portland.isosld.afsp.org on 2026-11-09: online registration is open, admission is free, and host contact
+    is Joan Hoff (503-880-8794, joanshoff2020@gmail.com).'
   flags:
   - 📅 DATE-SENSITIVE
-  - ⚠️ VERIFY - The event site says registration is closed, and the venue's accessibility is not published. Call 971-375-5509
-    before telling anyone to walk in.
   latitude: 45.502224
   longitude: -122.645416
 - id: nami-give-and-glow
@@ -9069,8 +9239,8 @@
   hours: 3-5pm
   dates: November 1, 2026
   schedule: 3-5pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-01
+  last_verified: 2026-11-09
+  next_audit: 2027-10-01
   audit_frequency: annually
   practical_tips:
     first_visit: 'A social afternoon with NAMI Multnomah, NAMI Clackamas, and Community for Positive Aging: self-care activities,
@@ -9107,8 +9277,8 @@
   hours: '4-7pm: opening ritual 4:00, conversation 4:30-5:45, closing 5:45'
   dates: November 7, 2026
   schedule: 4-7pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-04
+  last_verified: 2026-11-09
+  next_audit: 2027-10-01
   audit_frequency: annually
   practical_tips:
     first_visit: A welcoming community gathering to remember people we have lost, with a shared meal.
@@ -9137,6 +9307,7 @@
   - https://gettrainedtohelp.com/find-a-class/
   - https://gettrainedtohelp.com/events/qpr-older-adult-focus-cc/
   - https://gettrainedtohelp.com/events/veterans-question-persuade-refer-qpr-in-person-wc-2/
+  - https://gettrainedtohelp.com/events/question-persuade-refer-qpr-older-adult-suicide-prevention-training-virtual-mc/
   pricing:
     description: FREE
     notes: The site says classes are offered free of charge.
@@ -9160,8 +9331,14 @@
     location: Washington County DAVS, 5240 NE Elam Young Pkwy, Suite 300, Hillsboro, OR 97124
     cost: FREE
     notes: Registration required; email vicki_horn@washingtoncountyor.gov.
-  last_verified: 2026-10-25
-  next_audit: 2026-11-05
+  - name: QPR Older Adult Suicide Prevention Training (virtual, Multnomah County)
+    dates: February 9, 2027
+    schedule: 10am-12pm
+    location: Online (link sent to registered participants one day before training)
+    cost: FREE
+    notes: Free virtual Question, Persuade, Refer (QPR) suicide-prevention training focused on older adults. Register at gettrainedtohelp.com.
+  last_verified: 2026-11-09
+  next_audit: 2027-01-15
   audit_frequency: annually
   practical_tips:
     first_visit: QPR (Question, Persuade, Refer) is a short class on spotting and responding to suicide warning signs.
@@ -9192,8 +9369,8 @@
   hours: 12 noon-4pm
   dates: November 26, 2026
   schedule: 12-4pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-18
+  last_verified: 2026-11-09
+  next_audit: 2027-10-25
   audit_frequency: annually
   practical_tips:
     first_visit: A free Thanksgiving dinner open to everyone.
@@ -9226,8 +9403,8 @@
   hours: 4-7pm
   dates: November 21, 2026
   schedule: 4-7pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-16
+  last_verified: 2026-11-09
+  next_audit: 2027-10-25
   audit_frequency: annually
   practical_tips:
     first_visit: The 11th annual community dinner, hosted by the City of Cornelius and the Washington County Sheriff's Office.
@@ -9257,8 +9434,8 @@
   hours: 9am-4pm
   dates: December 25, 2026
   schedule: 9am-4pm
-  last_verified: 2026-10-25
-  next_audit: 2026-12-10
+  last_verified: 2026-11-09
+  next_audit: 2026-12-18
   audit_frequency: annually
   practical_tips:
     first_visit: Congregation Beth Israel's long-running Christmas Day community dinner, held with LiftUP.
@@ -9297,8 +9474,8 @@
   dates:
   - November 1 - December 31, 2026
   - January 1-15, 2027
-  last_verified: 2026-10-25
-  next_audit: 2026-11-15
+  last_verified: 2026-11-09
+  next_audit: 2027-01-05
   audit_frequency: annually
   practical_tips:
     first_visit: Call 855-268-3767 or use the find-help page to reach a free local assister or agent.
@@ -9329,8 +9506,8 @@
   hours: 11am-2pm
   dates: November 7, 2026
   schedule: 11am-2pm
-  last_verified: 2026-10-25
-  next_audit: 2026-11-04
+  last_verified: 2026-11-09
+  next_audit: 2027-10-01
   audit_frequency: annually
   practical_tips:
     first_visit: A free event for the whole family with health and wellness resources and screenings, nonprofit resources,
@@ -9422,8 +9599,8 @@
     cost: FREE
     notes: By appointment; call 503-988-3646, option 3. The county flyer prints 427 NW Division; the county page and the library
       use 475.
-  last_verified: 2026-10-25
-  next_audit: 2026-11-20
+  last_verified: 2026-11-09
+  next_audit: 2027-10-01
   audit_frequency: annually
   practical_tips:
     first_visit: Call the Aging, Disability and Veterans Services helpline at 503-988-3646, option 3, to book a counselor
@@ -9479,8 +9656,8 @@
     location: Hillsboro Senior Center, 750 SE 8th Ave, Hillsboro, OR 97123
     cost: FREE
     notes: Walk-ins on Wednesdays. No session November 11.
-  last_verified: 2026-10-25
-  next_audit: 2026-11-20
+  last_verified: 2026-11-09
+  next_audit: 2027-10-01
   audit_frequency: annually
   practical_tips:
     first_visit: Walk in on a Friday at DAVS or a Wednesday at Hillsboro Senior Center, or call 503-846-3094 for an appointment
@@ -9510,8 +9687,8 @@
     description: No admission is listed (public parade)
   hours: Parade starts at 10am; the closing ceremony and Vendor and Resource Fair follow immediately
   dates: November 11, 2026
-  last_verified: 2026-10-25
-  next_audit: 2026-11-06
+  last_verified: 2026-11-09
+  next_audit: 2027-10-01
   audit_frequency: annually
   practical_tips:
     first_visit: Watch from the sidewalk along MLK Blvd. The Vendor and Resource Fair is in the Walnut Park parking lot after
@@ -9567,8 +9744,8 @@
     location: Hey Doc Clinic, 1221 SE Madison St, Portland, OR 97214
     cost: FREE
     notes: Ages 14 and up; donations appreciated.
-  last_verified: 2026-10-25
-  next_audit: 2026-11-02
+  last_verified: 2026-11-09
+  next_audit: 2027-10-01
   audit_frequency: annually
   practical_tips:
     first_visit: Download the exhibition map on the event page and stroll between the altars at your own pace.
@@ -9597,9 +9774,9 @@
   - https://www.oregoncc.org/attend/events/2026/12/native-american-new-years-eve-pow-wow-2026
   pricing:
     description: Cost is not stated on the 2026 listing
-  hours: 1pm to midnight
+  hours: 1:00pm-12:00am (midnight)
   dates: December 31, 2026
-  last_verified: 2026-10-25
+  last_verified: 2026-11-09
   next_audit: 2026-12-15
   audit_frequency: annually
   practical_tips:
@@ -9619,6 +9796,7 @@
     not carry that forward without calling 503-224-1044.
   latitude: 45.527271
   longitude: -122.662848
+  schedule: 1pm-11:59pm
 ---
 ---
 - id: forest-park
@@ -11158,8 +11336,8 @@
     cost: FREE to attend
     notes: One-day market the Sunday before Thanksgiving, announced on the market's home page. The market's news post for
       it still carries a stale 'November 24th' in its body text.
-  last_verified: 2026-10-25
-  next_audit: 2027-10-25
+  last_verified: 2026-11-09
+  next_audit: 2027-04-15
   audit_frequency: annually
   practical_tips:
     first_visit: SNAP/EBT users go to Information booth for red tokens
@@ -11175,11 +11353,10 @@
   - family_friendly
   - anxiety_friendly
   guide_location: activities-guide-2.md#farmers-markets
-  notes: Sundays May-October in downtown Milwaukie. SNAP/EBT accepted with Double Up Food Bucks matching.
+  notes: Main Sunday season runs May through October (9:30am-2pm). The annual Thanksgiving Market is confirmed on the homepage
+    banner for Sunday, November 22, 2026, 9:30am-2pm at Main and Harrison in downtown Milwaukie.
   flags:
   - 🔄 SEASONAL
-  - ⚠️ VERIFY - The Thanksgiving Market date (Sunday, November 22, 9:30am-2pm) is on the market's home banner and news headline,
-    but the news body text still says November 24th. Confirm with the market.
 - id: rockwood-community-market
   name: Rockwood Community Market
   category: food_farms
@@ -11492,8 +11669,8 @@
     description: FREE
   hours: Mon 4-6pm, Wed 5-7pm, Fri 10am-1pm
   eligibility: No proof of income or residency required. No appointment required; guests may shop twice per month.
-  last_verified: 2026-08-13
-  next_audit: 2026-11-13
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips:
     first_visit: Walk in during open hours; guests are admitted first-come, first-served. New guests complete a basic demographic
@@ -11844,26 +12021,43 @@
   resource_type: program
   address: null
   phone: null
-  website: https://meetup.com/pdxgames
+  website: https://www.meetup.com/pdxgames/events/
   source_urls:
-  - https://meetup.com/pdxgames
+  - https://www.meetup.com/pdxgames/events/
   pricing:
-    description: FREE - just buy food/drink from venue
+    description: FREE - just buy food/drink from venue (Board Bard Games and Guardian Games require no purchase)
   programs:
-  - name: Tuesday Board Games
-    location: CORE Food Carts (3612 SE 82nd Ave)
+  - name: Tuesday Board Games @ SE CORE Food Carts
+    location: CORE - Collective Oregon Eateries, 3612 SE 82nd Ave, Portland, OR
     schedule: Every Tuesday 5-9:30pm
-    notes: 20-30 attendees typical. Games provided. All skill levels welcome.
+    cost: FREE
+    notes: 20-30 attendees typical in a 6,500 sq ft heated indoor space. Games provided and taught. All skill levels welcome.
   - name: Wednesday East Side Game Night
-    location: Board Bard Games (7960 SE Stark St)
+    location: Board Bard Games, 7960 SE Stark St, Portland, OR
     schedule: Every Wednesday 5-9:30pm
-    notes: Free weekly social for all levels. Games provided by the shop.
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+    cost: FREE
+    notes: Free weekly hosted board game social for all levels. In-store demo library is free to play; outside food welcome.
+  - name: Monday Night Game Event
+    location: Capes and Crepes Board Game Cafe, 4990 SE Division St, Portland, OR
+    schedule: Every Monday 5-9pm
+    cost: FREE
+    notes: Weekly Monday board game social; venue has a large game library.
+  - name: Portland Veggie Board Gamers
+    location: The Bye and Bye, 1011 NE Alberta St, Portland, OR
+    schedule: Every Monday 5:30-9pm
+    cost: FREE
+    notes: Weekly board games at a 100% vegan venue (21+); look for the green "Veggie Board Games" sign.
+  - name: Weekday Daytime Board Games
+    location: Guardian Games, 345 SE Taylor St, Portland, OR 97214
+    schedule: Wednesdays 12-4pm
+    cost: FREE
+    notes: Daytime medium-to-heavy board games; great for retirees or those off work during the day.
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
-  practical_tips: FREE - just buy food/drink from venue. Tuesdays at CORE Food Carts (82nd Ave, 5pm) and Wednesdays at Board
-    Bard Games (5pm). Explicitly welcoming to newcomers. Games provided. All skill levels welcome. Check Meetup.com/pdxgames
-    for full schedule and additional events.
+  practical_tips: FREE - Tuesdays at CORE Food Carts (3612 SE 82nd Ave, 5pm), Wednesdays at Board Bard Games (7960 SE Stark
+    St, 5pm) and Guardian Games (noon), and Mondays at Capes & Crepes (5pm) and The Bye and Bye (5:30pm). Explicitly welcoming
+    to newcomers; games provided and taught. Check meetup.com/pdxgames/events/ for the full weekly list.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
@@ -11873,10 +12067,7 @@
   - new_to_area
   - indoor
   guide_location: activities-guide-1.md#gaming-and-social-activities
-  notes: Explicitly welcoming to newcomers
-  flags:
-  - ⚠️ VERIFY - Tuesday CORE series confirmed on Meetup through April 28, 2026 (weekly, 5-9:30pm); later dates not confirmed.
-    Wednesday at Board Bard confirmed October 2026.
+  notes: Explicitly welcoming to newcomers; active weekly events across Portland confirmed on Meetup in November 2026.
 - id: milwaukie-community-center
   name: Milwaukie Community Center
   category: social_activities
@@ -11887,10 +12078,11 @@
   website: https://ncprd.org/milwaukie-community-center
   source_urls:
   - https://ncprd.org/milwaukie-community-center
-  - https://ncprd.org/milwaukie-community-center
+  - https://ncprd.org/programs/adult-classes-and-activities/activity-and-interest-groups
+  - https://ncprd.org/programs/community-services/clinics-and-groups
   pricing:
-    description: Programs vary; some free, some low-cost
-    drop_in_activities: $1-2/session for NCPRD residents
+    description: Programs vary; some free, some low-cost ($0.25-$2 drop-in for NCPRD residents)
+    drop_in_activities: $0.25-$2/session for NCPRD residents ($2.50 non-resident)
   hours: Monday-Friday 8am-4pm
   services:
   - Meals on Wheels (70,000+ meals/year delivered)
@@ -11908,24 +12100,75 @@
   - Blood pressure checks
   programs:
   - name: Woodcarvers Drop-In
-    cost: Small drop-in fee (about $2 NCPRD / $2.50 non-resident in 2025)
-    notes: Novice to advanced; guidance for starters. Day and time have varied by season (the 2025 summer guide listed Thursdays
-      9:30-11am and 6-7:15pm) - call 503-653-8100 to confirm it is running.
-  - name: Tai Chi for Seniors
-    notes: Registered term class; times vary by term (winter 2026 ran Mon/Wed 3-4pm and 4:10-5:10pm). Check the current NCPRD
-      Discovery Guide.
+    schedule: Wednesdays 8-11:30am
+    schedule_end_date: 2026-12-30
+    cost: $2 drop-in
+    notes: Novice to advanced woodcarvers with guidance for starter projects, safety, and tool care.
+  - name: Ukulele Jam Group - Morning
+    schedule: Thursdays 9:30-11am
+    schedule_end_date: 2026-12-31
+    cost: $2 drop-in
+    notes: Meets in-person or via Zoom; all ages welcome (call 503-794-8092 or email recreation@ncprd.com for the email list).
+  - name: Ukulele Jam Group - Evening
+    schedule: 1st & 3rd Thursdays 6-7:15pm
+    schedule_end_date: 2026-12-17
+    cost: $2 drop-in
+  - name: Mt. Dulcimer Jam Group
+    schedule: 1st & 3rd Fridays 12-2pm
+    schedule_end_date: 2026-12-18
+    cost: $2 drop-in
+  - name: Daytime Bingo
+    schedule: Tuesdays and Thursdays 12:40-1:40pm
+    schedule_end_date: 2026-12-31
+    cost: $0.25
+  - name: Cards and Board Game Day
+    schedule: Tuesdays 2-4pm
+    schedule_end_date: 2026-12-29
+    cost: $2 drop-in
+    notes: Rummikub, Five Crowns, Golf (card game), or bring your own favorite game.
+  - name: Caregivers Support Group
+    schedule: 2nd & 4th Wednesdays 12:30-2pm
+    schedule_end_date: 2027-03-24
+    cost: FREE
+    notes: Free support group for individuals caring for a spouse, parent, friend, or sibling.
+  - name: Blood Pressure Check Clinic
+    schedule: 2nd Tuesdays 10-11am
+    schedule_end_date: 2027-04-13
+    cost: FREE
+    notes: Free drop-in blood pressure checks by volunteer nurses.
+  - name: Board and Card Games (at Concord Community Center)
+    schedule: Wednesdays 10:30am-12pm
+    schedule_end_date: 2027-06-09
+    location: Concord Community Center, 3811 SE Concord Rd, Oak Grove, OR 97267
+    cost: $2 drop-in
+    notes: Runs Sep 16 - Dec 16, 2026; Jan 6 - Mar 17, 2027; and Mar 31 - Jun 9, 2027.
+  - name: Spanish Social Hour (at Concord Community Center)
+    schedule: Tuesdays 10-11am
+    schedule_end_date: 2027-06-08
+    location: Concord Community Center, 3811 SE Concord Rd, Oak Grove, OR 97267
+    cost: $2 drop-in
+    notes: Casual Spanish conversation for all skill levels (runs Sep 15 - Dec 15, 2026; Jan 5 - Mar 16, 2027; Mar 30 - Jun
+      8, 2027).
+  - name: Project Meet-Up (at Concord Community Center)
+    schedule: 2nd & 4th Mondays 10-11:30am
+    schedule_end_date: 2027-05-24
+    location: Concord Community Center, 3811 SE Concord Rd, Oak Grove, OR 97267
+    cost: $2 drop-in
+    notes: Bring any craft, hobby, or creative project to work on alongside others.
   - name: Congregate Lunch
     schedule: Weekdays noon-12:30pm in dining room
     cost: $3 suggested donation (60+); $5 under 60
     notes: Social dining for older adults
-  last_verified: 2026-02-11
-  next_audit: 2026-05-11
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips:
     first_visit: Stop by during office hours to get oriented to services
-    registration: Many programs available through ncprd.org or by calling 503-794-8092
+    registration: Drop-in activity groups require no registration; call 503-794-8092 for class registration
+    what_to_know: null
     what_to_bring: null
-    good_to_know: Opened in 1980; comprehensive resource for older adults and families
+    good_to_know: Opened in 1980; comprehensive resource for older adults and families. NCPRD also runs drop-in groups at
+      Concord Community Center in Oak Grove.
   accessibility:
   - wheelchair_accessible
   - transit_nearby
@@ -11937,10 +12180,8 @@
   guide_location: activities-guide-2.md#clackamas-county-senior-centers
   audience:
   - seniors
-  notes: Primary hub for older adults in North Clackamas. Meals on Wheels program delivers 300+ meals daily.
-  flags:
-  - ⚠️ VERIFY - Fall 2026 program times not found. Tai Chi time comes from the winter 2026 Discovery Guide; Woodcarvers Drop-In
-    did not appear in the current drop-in list excerpt. Hours, address and phone confirmed October 2026. Call 503-653-8100.
+  notes: Primary hub for older adults in North Clackamas. Meals on Wheels program delivers 300+ meals daily. Drop-in schedules
+    verified through Q1/Q2 2027 on ncprd.org.
   latitude: 45.426456
   longitude: -122.606167
 - id: write-around-portland
@@ -12002,8 +12243,8 @@
   - Tools and planting guidance
   - Light breakfast snacks
   - Coffee, tea, and hot chocolate
-  last_verified: 2026-10-25
-  next_audit: 2026-11-25
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: Arrive by 8:45am to sign in and be assigned a planting crew; planting starts at 9am. Gloves, tools, and planting
@@ -12012,7 +12253,7 @@
     what_to_bring: Clothes you can get muddy, rain gear, and a water bottle. Under-18s must bring a signed youth waiver.
     good_to_know: No experience needed. Recommended ages are 6+ for Green Space plantings and 10+ for Neighborhood Trees;
       youth under 18 need a parent or guardian's signed waiver. No dogs (service animals are welcome). Times below come from
-      the organizer's public calendar feed as of 2026-10-25; the RSVP page has the final details. Volunteer line 503-595-0213.
+      the organizer's public calendar feed as of 2026-11-09; the RSVP page has the final details. Volunteer line 503-595-0213.
   accessibility:
   - varies
   accessibility_notes: Some sites are wheelchair accessible, not all. The organizer can coordinate accommodations; call 503-595-0213
@@ -12065,13 +12306,115 @@
     schedule: 8:45am-1pm
     location: Cesar Chavez School, 5103 N Willis Blvd, Portland, OR 97203
   - name: Friends of Trees planting - Fanno Creek Greenway (Beaverton)
-    dates: December 12, 2026
+    dates:
+    - December 12, 2026
+    - March 13, 2027
     schedule: 8:45am-1pm
     location: Fanno Creek Greenway, SW Fallbrook Pl, Beaverton, OR 97005
   - name: Friends of Trees planting - Milwaukie neighborhood (Arbor Day)
     dates: December 12, 2026
     schedule: 8:45am-1pm
     location: SE 42nd Ave & SE Monroe St, Milwaukie, OR 97222
+  - name: Friends of Trees planting - Forest Grove High School
+    dates: January 9, 2027
+    schedule: 8:45am-1pm
+    location: Forest Grove High School, 1401 Nichols Ln, Forest Grove, OR 97116
+  - name: Friends of Trees Crew Leader Training - Green Space (NE Portland)
+    dates: January 9, 2027
+    schedule: 8:45am-1pm
+    location: Level Beer, 5211 NE 148th Ave, Portland, OR 97230
+  - name: Friends of Trees planting - MLK Corridor neighborhood (N/NE/SE Portland)
+    dates: January 16, 2027
+    schedule: 8:45am-1pm
+    location: Friends of Trees, 3117 NE Martin Luther King Jr Blvd, Portland, OR 97212
+  - name: Friends of Trees planting - Gales Creek Terrace (Forest Grove)
+    dates: January 16, 2027
+    schedule: 8:45am-1pm
+    location: 18th Ave & Dee Ct, Forest Grove, OR 97116
+  - name: Friends of Trees planting - Colwood Natural Area (NE Portland)
+    dates: January 16, 2027
+    schedule: 9:45am-1pm
+    location: 6373 NE Alderwood Rd, Portland, OR 97218
+  - name: Friends of Trees planting - Kelly Butte Natural Area (SE Portland)
+    dates: January 23, 2027
+    schedule: 9:45am-1pm
+    location: Kelly Butte Natural Area, SE Taggart St & SE 103rd Ave, Portland, OR 97266
+  - name: Friends of Trees planting - Bybee Lakes Hope Center (N Portland)
+    dates: January 30, 2027
+    schedule: 8:45am-1pm
+    location: Bybee Lakes Hope Center, 14355 N Bybee Lake Ct, Portland, OR 97203
+  - name: Friends of Trees planting - Brown Nature Area (Tigard)
+    dates: January 30, 2027
+    schedule: 8:45am-1pm
+    location: SW Milton Ct, Tigard, OR 97224
+  - name: Friends of Trees planting - Troutdale neighborhood (Columbia Park)
+    dates: February 6, 2027
+    schedule: 8:45am-1pm
+    location: Columbia Park, 1900 SW Cherry Park Rd, Troutdale, OR 97060
+  - name: Friends of Trees planting - Fairview Woods Park (Fairview)
+    dates: February 6, 2027
+    schedule: 8:45am-1pm
+    location: Fairview Woods Park, Fairview, OR 97024
+  - name: Friends of Trees planting - Columbia Slough Natural Area (NE Portland)
+    dates: February 6, 2027
+    schedule: 9:45am-1pm
+    location: 11058 NE Simpson St, Portland, OR 97220
+  - name: Friends of Trees planting - East Portland neighborhood
+    dates: February 13, 2027
+    schedule: 8:45am-1pm
+    location: Gethsemane Lutheran Church, 11560 SE Market St, Portland, OR 97216
+  - name: Friends of Trees planting - Stites Nature Park (Forest Grove)
+    dates: February 13, 2027
+    schedule: 8:45am-1pm
+    location: 2423 26th Ave, Forest Grove, OR 97116
+  - name: Friends of Trees planting - Madrona Park (N Portland)
+    dates: February 13, 2027
+    schedule: 9:45am-1pm
+    location: Madrona Park, N Portland, OR
+  - name: Friends of Trees planting - West Bethany Creek (Bethany)
+    dates: February 20, 2027
+    schedule: 8:45am-1pm
+    location: NW Vetter Dr & NW 165th Ave, Bethany, OR 97229
+  - name: Friends of Trees planting - Powell Butte Nature Park (SE Portland)
+    dates: February 27, 2027
+    schedule: 8:45am-1pm
+    location: Powell Butte Nature Park, 16160 SE Powell Blvd, Portland, OR 97236
+  - name: Friends of Trees planting - Forest Creek Open Space (Happy Valley)
+    dates: February 27, 2027
+    schedule: 8:45am-1pm
+    location: 14074 SE 139th Ave, Happy Valley, OR 97015
+  - name: Friends of Trees planting - East Gresham Park (Gresham)
+    dates: March 6, 2027
+    schedule: 8:45am-1pm
+    location: SE Greenway Dr & SE Paloma Ave, Gresham, OR 97080
+  - name: Friends of Trees planting - SE Portland neighborhood
+    dates: March 6, 2027
+    schedule: 8:45am-1pm
+    location: SE Portland, OR (check event calendar for staging site)
+  - name: Friends of Trees planting - Oregon City neighborhood (Rivercrest Park)
+    dates: March 13, 2027
+    schedule: 8:45am-1pm
+    location: Rivercrest Park, 131 Park Dr, Oregon City, OR 97045
+  - name: Friends of Trees planting - Wilkes Creek Headwaters (NE Portland)
+    dates: March 13, 2027
+    schedule: 9:45am-1pm
+    location: 15401 NE Fremont St, Portland, OR 97230
+  - name: Friends of Trees planting - Village Green Pollinator Garden (Happy Valley)
+    dates: March 20, 2027
+    schedule: 8:45am-1pm
+    location: 13786 SE Sieben Park Way, Happy Valley, OR 97015
+  - name: Friends of Trees planting - Gresham neighborhood
+    dates: March 20, 2027
+    schedule: 8:45am-1pm
+    location: Gresham, OR (check event calendar for staging site)
+  - name: Friends of Trees planting - Sunrise Corridor (Happy Valley/Clackamas)
+    dates: March 27, 2027
+    schedule: 8:45am-1pm
+    location: Riverside Park, 17298 SE Water Ave, Clackamas, OR 97015
+  - name: Friends of Trees planting - NE Portland neighborhood
+    dates: March 27, 2027
+    schedule: 8:45am-1pm
+    location: Level Beer, 5211 NE 148th Ave, Portland, OR 97230
   social_intensity: casual_group
   good_for:
   - outdoor
@@ -12080,8 +12423,8 @@
   - new_to_area
   guide_location: activities-guide-2.md#volunteer-opportunities
   notes: Tree-planting volunteer events. Registration is required through each event's RSVP link. The organizer's calendar
-    lists 13 tri-county plantings from October 31 to December 12, 2026 and may add more; Vancouver WA and Salem events are
-    left out. The generic Saturday-mornings season is shown as text only, since plantings are not every Saturday.
+    lists 38 tri-county plantings from October 31, 2026 through March 27, 2027; Vancouver WA and Salem events are left out.
+    The generic Saturday-mornings season is shown as text only, since plantings are not every Saturday.
 - id: solve-oregon
   name: SOLVE Oregon
   category: social_activities
@@ -12576,6 +12919,8 @@
   source_urls:
   - https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/hidden-creek
   - https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/classes-programs/registration/financial-assistance
+  - https://www.hillsboro-oregon.gov/Home/Components/Calendar/Event/150767/4860
+  - https://www.hillsboro-oregon.gov/Home/Components/Calendar/Event/150277/4860
   pricing:
     description: Varies by program; financial assistance available
     notes: Hillsboro residents with qualifying income eligible for 50% off programs. Youth art scholarships cover 100%.
@@ -12584,12 +12929,25 @@
     application: Apply anytime; allow 2 weeks for processing; notified by email
     youth_art_scholarship: 100% of registration for youth/teen classes at Walters Cultural Arts Center
   programs:
+  - name: All Ability Drop-in Basketball
+    schedule: Mondays 7-8:30pm
+    cost: FREE
+    notes: Free weekly inclusive drop-in basketball (warmups, drills, and scrimmages) for ages 12+ experiencing disability;
+      all are welcome and no registration is required (except holidays).
+  - name: Adaptive BINGO @ Hidden Creek
+    dates:
+    - November 9, 2026
+    - December 14, 2026
+    schedule: 5:30-6:30pm
+    cost: FREE
+    notes: Free monthly adaptive recreation bingo night for ages 14+ experiencing disability; all are welcome and no registration
+      is required.
   - name: Fitness classes
   - name: Aquatics
   - name: Youth and teen programs
   - name: Community events
-  last_verified: 2026-03-24
-  next_audit: 2027-03-24
+  last_verified: 2026-11-09
+  next_audit: 2027-11-09
   audit_frequency: annually
   practical_tips:
     first_visit: Check the class catalog at hillsboro-oregon.gov/parks-recreation
@@ -12681,6 +13039,7 @@
   - https://www.repairpdx.org/repair-events
   - https://www.portland.gov/bps/sustainability/resourcefulpdx/borrow-repair-reuse/repair-cafes
   - https://www.portland.gov/bps/sustainability/resourcefulpdx/events/2026/11/14/repair-cafe-leaven-community-hosted-repair-pdx
+  - https://www.portland.gov/bps/sustainability/resourcefulpdx/events/2026/11/28/hedron-repair-cafe-hosted-repair-pdx-and-hedron
   pricing:
     description: FREE
     notes: All Repair Cafés and most workshops are free. Bring broken items to be repaired by volunteers.
@@ -12705,6 +13064,15 @@
     - September 12, 2026
     - October 10, 2026
     - November 14, 2026
+    - December 12, 2026
+  - name: Hedron Repair Café (Repair PDX & Hedron Hackerspace)
+    dates: November 28, 2026
+    schedule: 12-3pm
+    location: Hedron Hackerspace, 2020 SE Bush St, Portland, OR 97202
+    cost: FREE
+    format: In-person
+    notes: Free drop-in repair café for small appliances, electronics, tools, and clean clothing, hosted by Repair PDX and
+      Hedron Hackerspace on the 4th Saturday of the month.
   - name: Cedar Mill Library Repair Fair
     dates: September 26, 2026
     schedule: 1-4pm
@@ -12730,12 +13098,13 @@
   - name: Sashiko Mending Workshop
     schedule: Periodic, 10am-1pm
     location: Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
-    cost: TBD
+    cost: Paid (Eventbrite)
     format: In-person
     notes: Traditional Japanese embroidered mending technique. Check website for dates.
     dates:
     - January 18, 2026
     - March 22, 2026
+    - November 15, 2026
   - name: Mend With Embroidery Workshop
     schedule: Periodic evenings, 6-8pm
     location: Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
@@ -12745,14 +13114,16 @@
     dates:
     - March 30, 2026
   - name: Learn to Darn Workshop
-    dates: October 24, 2026
+    dates:
+    - October 24, 2026
+    - November 21, 2026
     schedule: 10am-1pm
     location: Leaven Community Center, 5431 NE 20th Ave, Portland, OR 97211
     cost: Sliding scale (paid)
     format: In-person
-    notes: Listed on portland.gov ResourcefulPDX repair events, October 2026
-  last_verified: 2026-10-25
-  next_audit: 2026-11-25
+    notes: Hands-on knitwear darning workshop with Sivia at Leaven Community Center.
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: Fill out the Google Form before arriving to let them know what you're bringing
@@ -12777,8 +13148,6 @@
     for learning basic repair skills. Contact 503-893-9656 or repairpdx@gmail.com.
   flags:
   - 📅 DATE-SENSITIVE
-  - ⚠️ VERIFY - Leaven Repair Cafés resumed September 12 and October 10, 2026, and portland.gov lists November 14 (12-3pm,
-    basement room). The December date is not yet published; add it once listed.
 - id: clackamas-county-repair-fairs
   name: Clackamas County Repair Fairs
   category: social_activities
@@ -12849,8 +13218,15 @@
     schedule: 10am-1pm
     location: Clackamas Community College, Holden Industrial Technology Center, 19600 Molalla Ave, Oregon City, OR
     notes: Room to be announced; the county lists this fair as Oregon City.
-  last_verified: 2026-10-25
-  next_audit: 2026-11-25
+  - name: Lake Oswego 'Repair to Regift' Repair Fair
+    dates: November 21, 2026
+    schedule: 10am-1pm
+    location: Lake Oswego Adult Community Center, 505 G Ave, Lake Oswego, OR 97034
+    cost: FREE
+    notes: Sponsored by Lake Oswego Sustainability Network and City of Lake Oswego. Bring tools, toys, small appliances, clean
+      clothes, and stuffed animals to be repaired or mended (jewelry repair is not offered at this event).
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: Just show up with your broken items
@@ -12906,6 +13282,9 @@
     - October 10, 2026
     - November 14, 2026
     - December 12, 2026
+    - January 9, 2027
+    - February 13, 2027
+    - March 13, 2027
   - name: Stories in Stone – North
     schedule: 1st Saturday of even months, 10am-12pm
     cost: $10
@@ -12918,6 +13297,7 @@
     - August 1, 2026
     - October 3, 2026
     - December 5, 2026
+    - February 6, 2027
   - name: Stories in Stone – South
     schedule: 1st Saturday of odd months, 10am-12pm
     cost: $10
@@ -12929,6 +13309,8 @@
     - July 4, 2026
     - September 5, 2026
     - November 7, 2026
+    - January 2, 2027
+    - March 6, 2027
   - name: Women's Tour
     schedule: 4th Saturday monthly, 10am-12pm
     cost: $10
@@ -12947,6 +13329,9 @@
     - October 24, 2026
     - November 28, 2026
     - December 26, 2026
+    - January 23, 2027
+    - February 27, 2027
+    - March 27, 2027
   self_guided_tours:
   - Our Pioneer Beginnings
   - Founders of Rose Festival
@@ -12960,8 +13345,8 @@
   - The Tree Tour
   latitude: 45.519444
   longitude: -122.641667
-  last_verified: 2026-09-10
-  next_audit: 2026-12-10
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips:
     first_visit: Meet at the Soldiers Monument near SE 26th & Stark. Arrive 5-10 minutes early.
@@ -13402,8 +13787,8 @@
     schedule: Saturdays 4-5pm
     format: In-person
     notes: Basement. Music and recovery.
-  last_verified: 2026-08-07
-  next_audit: 2026-11-07
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips:
     first_visit: Just walk in - no appointment needed. Check meeting schedule online first.
@@ -13759,11 +14144,10 @@
   schedule: Every Saturday 8am-1pm
   schedule_start_date: 2026-04-04
   schedule_end_date: 2026-12-19
-  hours: Year-round. April through December 19, 2026 every Saturday 8am-1pm. January-March 2027 2nd & 4th Saturdays only,
-    9am-1pm.
+  hours: 'April - December 19, 2026: Every Saturday 8am-1pm. January - March 2027: 2nd & 4th Saturdays 9am-1pm.'
   latitude: 45.534167
   longitude: -122.621389
-  last_verified: 2026-10-25
+  last_verified: 2026-11-09
   next_audit: 2027-10-25
   audit_frequency: annually
   practical_tips:
@@ -13782,6 +14166,23 @@
   - family_friendly
   guide_location: activities-guide-2.md#farmers-markets
   notes: One of Portland's best farmers markets with full SNAP/EBT support and Double Up Food Bucks matching.
+  programs:
+  - name: Saturday Market (April-December)
+    schedule: Every Saturday 8am-1pm
+    schedule_start_date: 2026-04-04
+    schedule_end_date: 2026-12-19
+    cost: FREE admission; SNAP + up to $20 Double Up Food Bucks match
+  - name: Winter Market (January-March 2027)
+    dates:
+    - January 9, 2027
+    - January 23, 2027
+    - February 13, 2027
+    - February 27, 2027
+    - March 13, 2027
+    - March 27, 2027
+    schedule: 9am-1pm
+    cost: FREE admission; SNAP + up to $20 Double Up Food Bucks match
+    notes: Open 2nd and 4th Saturdays in January, February, and March 2027 from 9am to 1pm.
 - id: meals-on-wheels-people
   name: Meals on Wheels People
   category: food_farms
@@ -14359,8 +14760,8 @@
     format: Virtual (Zoom)
     notes: Still listed as '(Possibly)' on the website - may be intermittent, so confirm before relying on it. The former
       Wednesday 12:30-2pm online group is no longer listed as of July 2026.
-  last_verified: 2026-09-10
-  next_audit: 2026-10-10
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: In-person group meets Wednesday mornings at the Behavioral Health Resource Center downtown. Just show up
@@ -14410,8 +14811,8 @@
     notes: For LGBTQIA+ people mourning the death of a significant person. Join the waitlist through the official page for
       availability and exact session dates.
   schedule: Last Monday 6:30-8pm (Community Grief Circle); grief groups run quarterly by advance registration
-  last_verified: 2026-08-13
-  next_audit: 2026-11-13
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips:
     first_visit: The monthly Community Grief Circle is drop-in—just show up on the last Monday. For 6-session grief groups,
@@ -14582,8 +14983,8 @@
     notes: Pass admits 2 adults
   - name: Rose City Comic Con
     notes: Single day and 3-day badges
-  last_verified: 2026-08-13
-  next_audit: 2026-11-13
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips:
     first_visit: Log in at multcolib.org/my-discovery-pass with your library card number and password.
@@ -14726,6 +15127,8 @@
   - https://www.briefencounters.org/calendar
   - https://www.briefencounters.org/pregnancy-and-infant-loss-support-groups
   - https://www.briefencounters.org/grievingpartnersgroup
+  - https://www.briefencounters.org/parents-of-subsequent-pregnancies-adoptions-and-parents-trying-to-conceive
+  - https://www.briefencounters.org/parents-ending-a-wanted-pregnancy-for-medical-reasons
   pricing:
     description: FREE
     notes: Free of charge to bereaved parents and their family and friends.
@@ -14737,8 +15140,7 @@
     location: The Overlook House, 3839 N Melrose Dr, Portland, OR 97227
     format: In-person
     cost: FREE
-    notes: Includes early pregnancy loss. No registration is required. Call or text 503-334-2564 to confirm the venue because
-      the official site's static page still names the former Peace House location.
+    notes: Includes early pregnancy loss. No registration is required for in-person meetings.
   - name: Parents of Pregnancy and Infant Loss (Zoom)
     schedule: 4th Tuesday 7-9pm
     format: Online
@@ -14752,18 +15154,31 @@
     location: The Overlook House, 3839 N Melrose Dr, Portland, OR 97227
     format: In-person
     cost: FREE
-    notes: For grieving partners and non-birthing parents. Call or text 503-334-2564 to confirm the venue because the official
-      site's static page still names the former Peace House location.
-  last_verified: 2026-08-13
-  next_audit: 2026-11-13
+    notes: For grieving partners and non-birthing parents of all gender identities and sexual orientations.
+  - name: Subsequent Pregnancies, Adoptions & Trying to Conceive Support Group
+    schedule: 4th Monday 7-9pm
+    schedule_start_date: 2026-08-01
+    location: The Overlook House, 3839 N Melrose Dr, Portland, OR 97227
+    format: In-person
+    cost: FREE
+    notes: For anyone experiencing or considering a subsequent pregnancy or adoption after a loss; babies and young children
+      are welcome at this meeting.
+  - name: Ending a Wanted Pregnancy for Medical Reasons Support Group
+    schedule: 4th Thursday 7-9pm
+    format: Online
+    location: Online (Zoom)
+    registration: https://us06web.zoom.us/meeting/register/tZIlcuisrTIpEtGWsIW8HeMlrDqpKknKMoG6
+    cost: FREE
+    notes: For parents who have undergone a pregnancy termination due to a prenatal diagnosis or maternal/fetal health reasons.
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
   audit_frequency: quarterly
   practical_tips:
-    first_visit: Call or text 503-334-2564 before an in-person meeting to confirm the venue.
-    registration: No registration for in-person meetings; use the published Zoom link for the fourth-Tuesday meeting.
+    first_visit: In-person meetings take place at The Overlook House (3839 N Melrose Dr, Portland, OR 97227).
+    registration: No registration for in-person meetings; register online via the Zoom link for virtual meetings.
     what_to_bring: Nothing required.
     good_to_know: Peer-led support run by trained volunteers, specifically for perinatal loss - a gap the general grief groups
-      in this guide do not cover. Current dated calendar entries list The Overlook House, but call to confirm because other
-      official pages still name The Peace House.
+      in this guide do not cover. Translation services available by emailing info@briefencounters.org.
   accessibility:
   - transit_nearby
   social_intensity: structured_group
@@ -14773,14 +15188,9 @@
   - isolation
   - indoor
   guide_location: activities-guide-2.md#peer-support
-  notes: Portland-based peer support for pregnancy and infant loss, including early pregnancy loss, plus a separate group
-    for non-birthing parents and partners. Added July 2026 to fill a perinatal grief gap not covered by Dougy Center, Providence
-    Hospice or Hopewell House.
-  flags:
-  - ⚠️ VERIFY - The dated August 2026 official calendar places the first-Monday and second-Monday in-person groups at The
-    Overlook House, 3839 N Melrose Dr, while the static support pages and event-description boilerplate still name The Peace
-    House, 2116 NE 18th Ave. Schedules and the fourth-Tuesday Zoom format are confirmed; call or text 503-334-2564 to confirm
-    the in-person venue before attending.
+  notes: Portland-based peer support for pregnancy and infant loss, including early pregnancy loss, non-birthing parents,
+    subsequent pregnancies, and medical termination. Added July 2026; all official pages and calendar listings now confirm
+    The Overlook House as the in-person venue.
 - id: portland-memory-garden
   name: Portland Memory Garden (Ed Benedict Park)
   category: parks_nature
@@ -14815,8 +15225,8 @@
     cost: FREE
     format: In-person, outdoor
     notes: Hollywood Ukulele performs. Hosted by Friends of Portland Memory Garden.
-  last_verified: 2026-07-28
-  next_audit: 2026-10-28
+  last_verified: 2026-11-09
+  next_audit: 2027-05-01
   audit_frequency: annually
   practical_tips:
     first_visit: The garden is inside Ed Benedict Park. Paths are wide, level and looped, designed so visitors cannot get
@@ -15163,8 +15573,8 @@
     - August 29, 2026
     schedule: 4-6pm
     cost: FREE
-  last_verified: 2026-10-08
-  next_audit: 2026-11-08
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: The plaza is a small open square at SE 37th and Hawthorne. Bring a chair - seating is limited.
@@ -15309,24 +15719,27 @@
   website: https://www.oregonzoo.org/lights
   source_urls:
   - https://www.oregonzoo.org/lights
+  - https://www.oregonzoo.org/events/zoolights-sensory-friendly-night
   - https://www.oregonzoo.org/discounts
   pricing:
-    description: $13-$35 adults, $13-$30 youth depending on the night; prices and times vary throughout the season. Income-assistance
+    description: $13-$35 adults, $13-$30 youth depending on the night ($13-$22 on Sensory-Friendly Night); Income-assistance
       tickets are $13 each.
     notes: Members get 20% off regular tickets, with no additional discounts on Value Nights. Income-assistance tickets are
       $13 each, up to four per household, with an Oregon Trail card, Washington Quest card, OHP/Apple Health, WIC eWIC card,
       or TANF. Reserve them through the ZooLights income-assistance link on oregonzoo.org/discounts and bring proof of benefits
       and residency. A ZooLights ticket is also a TriMet and Streetcar fare to and from the zoo on your admission date.
   dates:
+  - November 16, 2026
   - November 20-23, 2026
   - November 27 - December 24, 2026
   - December 26-31, 2026
   - January 1-3, 2027
-  hours: Opens nightly at 4:30pm; closing time varies by night (see the ticket calendar). Closed November 24-26 and December
-    25, 2026. January 1-2 are 21+ only nights.
+  hours: Opens nightly at 4:30pm; closing time varies by night (see the ticket calendar). November 16 (4:30-8:30pm) is Sensory-Friendly
+    Night with quieter music, lower capacity, cool-down spaces, and free KultureCity sensory kits. Closed November 17-19,
+    November 24-26, and December 25, 2026. January 1-2 are 21+ only nights.
   latitude: 45.5096
   longitude: -122.7159
-  last_verified: 2026-10-25
+  last_verified: 2026-11-09
   next_audit: 2027-10-25
   audit_frequency: annually
   practical_tips:
@@ -15544,9 +15957,10 @@
   - October 2-3, 2026
   - December 3-6, 2026
   - December 18-19, 2026
-  hours: Friday and Saturday nights 4-11pm; hours for Thursday December 3 and Sunday December 6 are not posted
-  last_verified: 2026-09-10
-  next_audit: 2026-11-15
+  - February 12-13, 2027
+  hours: Select Friday & Saturday nights 4-11pm (see pdxnm.com before December 3-6 for Thursday/Sunday holiday market hours)
+  last_verified: 2026-11-09
+  next_audit: 2026-12-01
   audit_frequency: quarterly
   practical_tips:
     first_visit: Arrive right at the 4pm opening for the shortest line and quietest hour
@@ -15567,8 +15981,9 @@
     no year printed, but its Friday and Saturday weekdays fit 2026. Thursday and Sunday hours are not posted.
   flags:
   - 📅 DATE-SENSITIVE
-  - ⚠️ VERIFY - pdxnm.com (the organizer) lists October 2-3, December 3-6, and December 18-19 but prints no year, and gives
-    no hours for Thursday December 3 or Sunday December 6. Confirm the dates and hours before December 3.
+  - ⚠️ VERIFY - pdxnm.com (the organizer) lists December 3-6, December 18-19, and February 12-13 with hours 4-11pm on Friday
+    and Saturday nights, but gives no separate hours for Thursday December 3 or Sunday December 6. Confirm the four-day December
+    3-6 hours before December 3.
   latitude: 45.51787
   longitude: -122.664433
 - id: afsp-out-of-darkness-walk-portland
@@ -15598,8 +16013,8 @@
     notes: Check-in opens at 9am and the program starts at 11am. The walk is 1-3 miles and non-competitive; AFSP posts the
       exact route closer to walk day. The program includes an opening ceremony, activities of hope and healing, resource tables,
       and honor beads for every participant. AFSP's page gives no end time - 1pm comes from its Eventbrite listing.
-  last_verified: 2026-10-08
-  next_audit: 2026-11-08
+  last_verified: 2026-11-09
+  next_audit: 2026-12-09
   audit_frequency: monthly
   practical_tips:
     first_visit: Check-in opens at 9am and the program starts at 11am. Arriving between the two gives time to pick up honor
@@ -15753,3 +16168,1067 @@
     to recheck when the winter page goes live.
   flags:
   - 🔄 SEASONAL
+- id: q-center-tdor-vigil
+  name: Transgender Day of Remembrance Vigil (Q Center)
+  category: peer_support
+  location_type: physical
+  resource_type: event
+  address: Q Center, 4115 N Mississippi Ave, Portland, OR 97217
+  phone: 503-234-7837
+  email: info@pdxqcenter.org
+  website: https://www.pdxqcenter.org/events-1/trans-day-of-remembrance-vigil
+  source_urls:
+  - https://www.pdxqcenter.org/events-1/trans-day-of-remembrance-vigil
+  - https://pdxqcenter.org/events
+  pricing:
+    description: FREE
+    notes: Community remembrance vigil at Q Center; RSVP on the event page.
+  hours: 5:30-9pm
+  dates: November 20, 2026
+  schedule: 5:30-9pm
+  last_verified: 2026-11-09
+  next_audit: 2027-10-25
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Guided by Elena, a queer, trans ordained spiritual leader and member of Ravens Wing Co-Op, with a reading
+      of names, open mic, community altar, and quiet reflection crafts.
+    registration: RSVP open on the Q Center event page; drop-ins welcome.
+    what_to_bring: Photos or mementos for the community altar if you wish.
+    good_to_know: Held indoors at Q Center on North Mississippi Ave.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  - gender_neutral_restroom
+  social_intensity: structured_group
+  good_for:
+  - grief
+  - anxiety_friendly
+  - isolation
+  - indoor
+  audience:
+  - lgbtq
+  - trans_nonbinary
+  guide_location: activities-guide-2.md#lgbtq-support
+  notes: Resolve the high-priority Transgender Day of Remembrance vigil lead from queue.yaml. Published on pdxqcenter.org/events
+    on November 5, 2026.
+  flags:
+  - 📅 DATE-SENSITIVE
+  latitude: 45.553656
+  longitude: -122.675855
+- id: oregon-zoo-veterans-day
+  name: Oregon Zoo Veterans Day Free Admission
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Oregon Zoo, 4001 SW Canyon Rd, Portland, OR 97221
+  phone: 503-226-1561
+  website: https://www.oregonzoo.org/events/veterans-day
+  source_urls:
+  - https://www.oregonzoo.org/events/veterans-day
+  pricing:
+    description: FREE for military members, veterans, and their families (up to 4 tickets total)
+    notes: Complimentary admission includes up to three family tickets per active military member or veteran (four tickets
+      total), plus families of deployed military personnel. Reserve timed tickets online in advance and bring military/veteran
+      ID or discharge papers.
+  hours: 9:30am-3:30pm (last entry 2:30pm)
+  dates: November 11, 2026
+  schedule: 9:30am-3:30pm
+  last_verified: 2026-11-09
+  next_audit: 2027-10-15
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Reserve tickets online in advance at oregonzoo.org/events/veterans-day (select your entry time and scroll
+      to the bottom for the Veterans Day option).
+    registration: Advance online ticket reservation required.
+    what_to_bring: Military or veteran organization ID, discharge papers (DD-214), or active-duty family ID.
+    good_to_know: Take MAX Red or Blue Line to Washington Park station.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  social_intensity: solo
+  good_for:
+  - outdoor
+  - family_friendly
+  - low_energy
+  guide_location: activities-guide-1.md#seasonal-events
+  notes: Resolves the queue's Oregon Zoo Veterans Day lead; the ticket reservation link on oregonzoo.org/events/veterans-day
+    explicitly targets date=2026-11-11.
+  flags:
+  - 📅 DATE-SENSITIVE
+  latitude: 45.5096
+  longitude: -122.7159
+- id: lan-su-chinese-garden
+  name: Lan Su Chinese Garden
+  category: arts_culture
+  location_type: physical
+  resource_type: place
+  address: 239 NW Everett St, Portland, OR 97209
+  phone: 503-228-8131
+  email: info@lansugarden.org
+  website: https://lansugarden.org/
+  source_urls:
+  - https://lansugarden.org/visit/admission-hours/
+  - https://lansugarden.org/events/list/
+  - https://lansugarden.org/event/free-admission-for-veterans-active-duty-military-2026/
+  - https://lansugarden.org/event/notgfsensory/
+  pricing:
+    description: $5 EBT/WIC admission (up to 4 tickets per cardholder in person via Museums for All / Arts for All); $18 adults,
+      $17 seniors 62+/students, $15 youth 6-18, FREE ages 5 & under; FREE for one caregiver accompanying a visitor with a
+      mobility need
+    notes: Present your EBT (Oregon Trail/Quest) or WIC card and photo ID in person at the Ticket Booth for up to four $5
+      daytime admission tickets (cannot be reserved online; does not apply to special evening ticketed events). Veterans and
+      active-duty military receive $2 off year-round and FREE admission on Veterans Day (November 11, 2026).
+  hours: 'Fall/Winter (Oct 15, 2026 - Mar 2027): Daily 10am-4:30pm (last entry 4pm). Spring/Summer (Mar 21 - Oct 14): Daily
+    10am-5:30pm (last entry 5pm).'
+  programs:
+  - name: Veterans Day Free Admission for Veterans & Active-Duty Military
+    dates: November 11, 2026
+    schedule: 10am-4pm
+    cost: FREE for veterans and active-duty military (discounted admission for family members)
+  - name: Chrysanthemum Floral Design Showcase
+    dates: November 5-15, 2026
+    schedule: 10am-4:30pm
+    cost: Included with admission ($5 with EBT/WIC)
+    notes: Annual showcase of 18 local floral artists and 81 varieties of chrysanthemums.
+  - name: Growing Mums & Lan Su Collection Tour
+    dates:
+    - November 12, 2026
+    - November 19, 2026
+    schedule: 11am-12pm
+    cost: Included with admission ($5 with EBT/WIC)
+  - name: 'Taste of Home: Chinese Homestyle Cooking Demonstration'
+    dates:
+    - November 14, 2026
+    - December 12, 2026
+    schedule: 11am-12:30pm
+    cost: Included with admission ($5 with EBT/WIC)
+  - name: Make Your Own Chrysanthemum Wind Chime
+    dates:
+    - November 15, 2026
+    - November 22, 2026
+    schedule: 11am-3pm
+    cost: Included with admission ($5 with EBT/WIC)
+  - name: 'Sensory Night: Nights of the Golden Flower'
+    dates: November 14, 2026
+    schedule: 5-7pm
+    cost: $24 ($0 children 5 & under; special evening ticket)
+    notes: Sensory-inclusive evening viewing of illuminated chrysanthemum floral installations with lower capacity and sensory
+      tools (headphones, strobe glasses, fidgets) at the ticket booth.
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Show your Oregon Trail (EBT) or WIC card and photo ID at the NW Everett St ticket booth for $5 admission
+      (up to 4 people).
+    registration: EBT/WIC $5 tickets are walk-up only at the ticket booth.
+    what_to_bring: EBT or WIC card and photo ID.
+    good_to_know: One caregiver accompanying a visitor with a mobility need always receives complimentary entry. Free public
+      docent tours run most days between 11am and 4pm with admission. Sensory tools (headphones, fidgets) can be checked out
+      at the ticket booth anytime.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  social_intensity: solo
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  - outdoor
+  - indoor
+  - creative
+  guide_location: activities-guide-1.md#parks-and-gardens
+  notes: Classical Chinese scholar garden in Old Town Chinatown. Resolves the queue's Lan Su income-assistance lead; $5 EBT/WIC
+    admission (up to 4 tickets) and complimentary caregiver entry confirmed on lansugarden.org/visit/admission-hours/.
+  flags:
+  - 📅 DATE-SENSITIVE
+  latitude: 45.525684
+  longitude: -122.673041
+- id: pittock-mansion
+  name: Pittock Mansion (Museums for All Discount Admission)
+  category: arts_culture
+  location_type: physical
+  resource_type: place
+  address: 3229 NW Pittock Dr, Portland, OR 97210
+  phone: 503-823-3623
+  website: https://pittockmansion.org/visit/
+  source_urls:
+  - https://pittockmansion.org/visit/
+  pricing:
+    description: $5 EBT/SNAP admission (up to 4 tickets per cardholder via Museums for All); $17 adults, $15 seniors 65+/students,
+      $14 youth 6-18, FREE under 6; grounds and viewpoint are FREE
+    notes: Present your EBT/SNAP card in person at the ticket desk on the day of your visit to purchase up to four $5 tickets.
+      The surrounding park grounds and viewpoint overlooking Portland are free to visit daily.
+  hours: Daily 10am-4pm (opens at noon on Tuesdays; last admission 30 minutes before closing). Closed Thanksgiving, Christmas,
+    New Year's Day, MLK Jr. Day, Juneteenth, and January maintenance days.
+  last_verified: 2026-11-09
+  next_audit: 2027-11-09
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Inquire at the ticket desk in person with your Oregon Trail (EBT/SNAP) card to purchase up to four $5 tickets
+      for the Mansion, Gate Lodge, and special exhibit.
+    registration: Museums for All $5 tickets are purchased in person on the day of visit.
+    what_to_bring: EBT/SNAP card and ID.
+    good_to_know: The outdoor grounds, gardens, and panoramic city viewpoint are free year-round. Free gravel-turnout parking
+      is available along NW Pittock Dr if you do not want to pay for the main lot during summer/holiday managed-parking dates.
+  accessibility:
+  - wheelchair_accessible
+  - elevator
+  social_intensity: solo
+  good_for:
+  - low_energy
+  - indoor
+  - outdoor
+  guide_location: activities-guide-1.md#historic-sites
+  notes: Historic 1914 mansion and viewpoint in the West Hills. Resolves the queue's Pittock Mansion Museums for All lead;
+    $5 EBT/SNAP tickets (up to 4) confirmed on pittockmansion.org/visit/.
+  latitude: 45.525216
+  longitude: -122.716309
+- id: leach-botanical-garden
+  name: Leach Botanical Garden (Garden for All Free Admission)
+  category: parks_nature
+  location_type: physical
+  resource_type: place
+  address: 6704 SE 122nd Ave, Portland, OR 97236 (Main entrance & free parking at 12323 SE Claybourne St)
+  phone: 503-208-6030
+  email: info@leachgarden.org
+  website: https://www.leachgarden.org/visit/garden-for-all
+  source_urls:
+  - https://www.leachgarden.org/visit/garden-for-all
+  - https://www.leachgarden.org/plan-a-visit
+  pricing:
+    description: FREE upon request through "Garden for All" (no questions asked, no proof of benefits required); standard
+      admission $12 adults/seniors, $5 youth 6-18, FREE ages 5 & under; Arts for All $5 tickets also honored
+    notes: Anyone for whom admission fees are a barrier may request free "Garden for All" admission at the walk-up admission
+      booth — no ID or benefit card is required. Guest parking at 12323 SE Claybourne St is also free.
+  hours: Thursday-Sunday 10am-4pm (last entry 3:30pm); closed Monday-Wednesday and major holidays (Thanksgiving, Christmas
+    Eve, Christmas Day, New Year's Eve, New Year's Day).
+  last_verified: 2026-11-09
+  next_audit: 2027-11-09
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Drive or walk to the main entrance at 12323 SE Claybourne St and simply ask for "Garden for All" admission
+      at the booth for free entry.
+    registration: None required — walk-up only.
+    what_to_bring: Comfortable walking shoes and a water bottle.
+    good_to_know: 16 acres of woodland and botanical gardens along Johnson Creek in outer SE Portland, including the accessible
+      upper pollinator garden, aerial tree walk, and Far Meadow. No dogs (service animals welcome).
+  accessibility:
+  - wheelchair_accessible
+  accessibility_notes: Upper garden, pollinator garden, aerial tree walk, and Far Meadow are accessible; lower creekside trails
+    have slopes, stairs, and uneven paths.
+  social_intensity: solo
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  - outdoor
+  - family_friendly
+  guide_location: activities-guide-1.md#parks-and-gardens
+  notes: 16-acre botanical garden in outer SE Portland offering no-questions-asked free entry through its "Garden for All"
+    program, confirmed on leachgarden.org/visit/garden-for-all.
+  latitude: 45.474419
+  longitude: -122.537625
+- id: the-recovery-gym
+  name: The Recovery Gym (TRG) & Run TRG
+  category: fitness_wellness
+  location_type: physical
+  resource_type: organization
+  address: 931 SE 6th Ave, Portland, OR 97214
+  phone: 503-222-5756
+  website: https://www.therecoverygym.org/
+  source_urls:
+  - https://www.therecoverygym.org/
+  - https://www.therecoverygym.org/about/location/
+  - https://www.therecoverygym.org/join-trg/
+  - https://www.therecoverygym.org/run-trg/
+  - https://www.portlandalano.org/events
+  pricing:
+    description: FREE for anyone in or seeking recovery (substance use, mental health, disordered eating, trauma, or grief)
+    notes: 100% cost-free classes, gym access, running club, and workshops. Allies not identifying as in recovery can also
+      join for free after two introductory sessions with a coach.
+  locations:
+  - name: The Recovery Gym - Portland (Central Eastside)
+    address: 931 SE 6th Ave, Portland, OR 97214
+  - name: The Recovery Gym - Hillsboro
+    address: 1060 SW Baseline St, Hillsboro, OR 97123
+  programs:
+  - name: Strength Training for Every Body (Portland)
+    schedule: Mondays 7-8am
+    location: The Recovery Gym, 931 SE 6th Ave, Portland, OR 97214
+    cost: FREE
+  - name: Yoga for Athletes at TRG (Portland)
+    schedule: Wednesdays and Fridays 9-10am
+    location: The Recovery Gym, 931 SE 6th Ave, Portland, OR 97214
+    cost: FREE
+  - name: 'Yoga: A Practice For All (Hillsboro)'
+    schedule: Mondays 5:30-6:30pm
+    location: The Recovery Gym - Hillsboro, 1060 SW Baseline St, Hillsboro, OR 97123
+    cost: FREE
+  - name: DBT Recovery Action Group (Hillsboro)
+    schedule: Tuesdays 6-7pm
+    location: The Recovery Gym - Hillsboro, 1060 SW Baseline St, Hillsboro, OR 97123
+    cost: FREE
+    notes: Weekly peer-led workshop building one practical Dialectical Behavior Therapy (DBT) skill per week for emotional
+      sobriety and distress tolerance.
+  - name: 30 for 30 Somatic Skills (Hillsboro)
+    schedule: Thursdays 6-7pm
+    location: The Recovery Gym - Hillsboro, 1060 SW Baseline St, Hillsboro, OR 97123
+    cost: FREE
+    notes: 30 minutes of guided grounding techniques and 30 minutes of collaborative peer processing.
+  - name: Sound Bath at TRG Hillsboro
+    schedule: Last Saturday of each month, 12-1pm
+    location: The Recovery Gym - Hillsboro, 1060 SW Baseline St, Hillsboro, OR 97123
+    cost: FREE
+    notes: Monthly sound bath led by Anahata Beatspeaker in partnership with PUSH Movement (also 1st Saturdays 12-1pm at SE
+      Portland TRG).
+  - name: 'Run TRG: Track Tuesdays'
+    schedule: Tuesdays 6-7pm
+    location: Duniway Track, 2815 SW Barbur Blvd, Portland, OR 97201
+    cost: FREE
+  - name: 'Run TRG: "Happy Hour" Trail Run'
+    schedule: Fridays 6-7pm
+    location: Forest Park, Leif Erikson Gate, 4015 NW Thurman St, Portland, OR 97210
+    cost: FREE
+  - name: 'Run TRG: Trail Run Saturdays'
+    schedule: Saturdays 8-9am
+    location: Mt. Tabor Park, SE 64th Ave & SE Lincoln St entrance, Portland, OR
+    cost: FREE
+  last_verified: 2026-11-09
+  next_audit: 2027-11-09
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Fill out the online prospect form at therecoverygym.org/join-trg or drop into a Run TRG group run or workshop.
+    registration: Free membership; register online at therecoverygym.org/join-trg.
+    what_to_bring: Workout clothes, athletic shoes, and a water bottle.
+    good_to_know: A project of the Alano Club of Portland with standalone gyms in SE Portland and Downtown Hillsboro. Open
+      to anyone in recovery from substance use, mental health conditions, disordered eating, trauma, or grief.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  social_intensity: casual_group
+  good_for:
+  - active
+  - isolation
+  - anxiety_friendly
+  - indoor
+  - outdoor
+  guide_location: activities-guide-2.md#recovery-support
+  notes: A project of the Alano Club of Portland offering 100% free functional fitness, yoga, somatic/DBT recovery workshops,
+    and the Run TRG running club in Portland and Hillsboro.
+  latitude: 45.516018
+  longitude: -122.659691
+- id: alano-club-recovery-events
+  name: Alano Club Recovery Toolkit Workshops & Expungement Clinic
+  category: peer_support
+  location_type: physical
+  resource_type: program
+  address: 909 NW 24th Ave, Portland, OR 97210
+  phone: 503-222-5756
+  website: https://www.portlandalano.org/events
+  source_urls:
+  - https://www.portlandalano.org/events
+  - https://www.portlandalano.org/rts
+  - https://www.portlandalano.org/events/sober-lifestyle-sessions
+  - https://www.portlandalano.org/events/free-legal-clinic-zhcpd-24dbm-nfes5-wwlw7-2mf3l-afggg-8m58g-2mwth-8tmk8-9lpsa-9cbkj-ys95c-chsr7-gx7md-85dw8
+  pricing:
+    description: FREE
+  programs:
+  - name: Transitions Lab (Housing & Employment Peer Workspace)
+    schedule: Tuesdays 4-5pm
+    location: Alano Club of Portland (Cafe), 909 NW 24th Ave, Portland, OR 97210
+    cost: FREE
+    notes: Weekly peer-supported workspace with on-site staff and peer mentors to work on resumes, housing applications, and
+      life transitions.
+  - name: OHP Navigation Office Hours
+    schedule: Wednesdays 11:30am-12:30pm
+    location: Alano Club of Portland, 909 NW 24th Ave, Portland, OR 97210
+    cost: FREE
+    notes: Drop-in help navigating Oregon Health Plan (OHP) enrollment and benefits.
+  - name: 'Sober Lifestyle Sessions: Sobriety During the Holidays'
+    dates: November 17, 2026
+    schedule: 7-8:30pm
+    location: Alano Club of Portland (Loft), 909 NW 24th Ave, Portland, OR 97210
+    cost: FREE
+    notes: Monthly panel discussion hosted by Hailey Hosler (Ben's Friends) on tending to recovery during the holidays.
+  - name: Free Legal Services and Expungement Clinic (with Clear Clinic)
+    dates: November 25, 2026
+    schedule: 12-1pm
+    location: The Peer Company, 5193 NE Elam Young Pkwy, Suite D, Hillsboro, OR 97124
+    cost: FREE
+    notes: Monthly drop-in legal and record-expungement clinic in partnership with PCC Clear Clinic (currently hosted at The
+      Peer Company in Hillsboro).
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Drop in to Transitions Lab (Tue 4pm), OHP Navigation (Wed 11:30am), or the monthly Hillsboro expungement
+      clinic.
+    registration: Drop-ins welcome for all sessions.
+    good_to_know: Part of the Alano Club's Recovery Toolkit Series (RTS), offering free practical and holistic recovery support
+      beyond 12-step meetings.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  social_intensity: casual_group
+  good_for:
+  - anxiety_friendly
+  - isolation
+  - indoor
+  guide_location: activities-guide-2.md#recovery-support
+  notes: Free Recovery Toolkit Series workshops, OHP navigation, and Clear Clinic legal expungement clinics from the Alano
+    Club of Portland.
+  flags:
+  - 📅 DATE-SENSITIVE
+  latitude: 45.529256
+  longitude: -122.700932
+- id: st-james-jazz-vespers
+  name: St. James Lutheran Church Jazz Vespers
+  category: arts_culture
+  location_type: physical
+  resource_type: program
+  address: St. James Lutheran Church, 1315 SW Park Ave, Portland, OR 97201
+  phone: 503-227-2439
+  website: https://www.stjamespdx.org/life/wm/jazz/
+  source_urls:
+  - https://www.stjamespdx.org/life/wm/jazz/
+  pricing:
+    description: FREE (freewill offering to support the musicians)
+  hours: 3rd Sunday of each month, prelude at 4:50pm, service at 5:00-6:00pm
+  programs:
+  - name: St. James Monthly Jazz Vespers (2026-2027 Season)
+    dates:
+    - November 15, 2026
+    - December 20, 2026
+    - January 17, 2027
+    - February 21, 2027
+    - March 21, 2027
+    - April 18, 2027
+    - May 16, 2027
+    - June 20, 2027
+    - July 18, 2027
+    - August 15, 2027
+    schedule: 4:50-6pm
+    cost: FREE (freewill offering)
+    notes: 'Featured guest artists join the Mike Horsfall Trio and cantor Della Simone: Nov 15 Renato Caranto & Vince Frates
+      (followed by Visual Artists'' Group reception at 6pm); Dec 20 Marilyn Keller; Jan 17 John Stowell; Feb 21 Eddie Parente;
+      Mar 21 David Evans.'
+  last_verified: 2026-11-09
+  next_audit: 2027-09-01
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Arrive by 4:50pm for the jazz prelude in the renovated sanctuary on the South Park Blocks.
+    registration: None required — just walk in.
+    good_to_know: Held every 3rd Sunday at 4:50pm. Freewill offering supports the professional jazz musicians.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  social_intensity: drop_in
+  good_for:
+  - anxiety_friendly
+  - low_energy
+  - indoor
+  - creative
+  guide_location: activities-guide-2.md#church-concerts
+  notes: Monthly live jazz vespers on the 3rd Sunday of every month at St. James Lutheran Church; 2026-27 guest artist roster
+    confirmed on stjamespdx.org/life/wm/jazz/.
+  flags:
+  - 📅 DATE-SENSITIVE
+  latitude: 45.515592
+  longitude: -122.683715
+- id: pioneer-square-menorah-lighting
+  name: Portland's Public Menorah at Pioneer Courthouse Square
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Pioneer Courthouse Square, 701 SW 6th Ave, Portland, OR 97204
+  phone: 503-977-9947
+  website: https://www.thesquarepdx.org/event/portlands-public-menorah-at-the-square-3/2026-12-04/
+  source_urls:
+  - https://www.thesquarepdx.org/event/portlands-public-menorah-at-the-square-3/2026-12-04/
+  - https://www.thesquarepdx.org/events/month/2026-12/
+  pricing:
+    description: FREE
+    notes: Public community Hanukkah menorah lighting hosted by Chabad Center for Jewish Life.
+  hours: Daily 4-6:30pm
+  dates: December 4-13, 2026
+  schedule: 4-6:30pm
+  last_verified: 2026-11-09
+  next_audit: 2027-11-15
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Drop by Pioneer Courthouse Square between 4pm and 6:30pm any evening from December 4 through December 13,
+      2026.
+    registration: None required.
+    good_to_know: Directly served by all MAX lines and downtown TriMet buses.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  social_intensity: drop_in
+  good_for:
+  - outdoor
+  - family_friendly
+  - low_energy
+  guide_location: activities-guide-2.md#winter-holiday-events
+  notes: Resolves the queue's Hanukkah public menorah lighting lead; confirmed on Pioneer Courthouse Square's December 2026
+    calendar.
+  flags:
+  - 📅 DATE-SENSITIVE
+  latitude: 45.518941
+  longitude: -122.679529
+- id: pioneer-square-holiday-performances
+  name: Holiday Performances at Pioneer Courthouse Square
+  category: arts_culture
+  location_type: physical
+  resource_type: event
+  address: Pioneer Courthouse Square, 701 SW 6th Ave, Portland, OR 97204
+  phone: 503-223-1613
+  website: https://www.thesquarepdx.org/events/month/2026-12/
+  source_urls:
+  - https://www.thesquarepdx.org/events/month/2026-12/
+  - https://www.thesquarepdx.org/event/purple-moon-quartet-holiday-performances-at-the-square/
+  pricing:
+    description: FREE
+  hours: See individual performance dates and times below
+  programs:
+  - name: Purple Moon Quartet
+    dates: December 1, 2026
+    schedule: 12-1pm
+    cost: FREE
+  - name: Jennifer Holman
+    dates: December 2, 2026
+    schedule: 5-6pm
+    cost: FREE
+  - name: Blueprint Ensemble Arts
+    dates: December 5, 2026
+    schedule: 12-1pm
+    cost: FREE
+  - name: Dance Fusion Northwest
+    dates: December 6, 2026
+    schedule: 2-3pm
+    cost: FREE
+  - name: Ockley Green Middle School Band
+    dates: December 15, 2026
+    schedule: 12-1pm
+    cost: FREE
+  - name: MAC Balladeers
+    dates: December 17, 2026
+    schedule: 12-1pm
+    cost: FREE
+  - name: Power Pep Band, The Tide, Joe's Orchestra & The Beat Goes On Marching Band
+    dates: December 19, 2026
+    schedule: 4-7pm
+    cost: FREE
+    notes: Afternoon and evening holiday performances following the 1:30-3pm Tuba Christmas Concert.
+  last_verified: 2026-11-09
+  next_audit: 2027-11-15
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Free outdoor concerts and dance performances under the holiday tree at Pioneer Courthouse Square.
+    registration: None required.
+    what_to_bring: Warm layers and rain gear.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  social_intensity: drop_in
+  good_for:
+  - outdoor
+  - creative
+  - family_friendly
+  - low_energy
+  guide_location: activities-guide-2.md#winter-holiday-events
+  notes: Free December 2026 musical and dance performances at Pioneer Courthouse Square, confirmed on thesquarepdx.org/events/month/2026-12/.
+  flags:
+  - 📅 DATE-SENSITIVE
+  latitude: 45.518941
+  longitude: -122.679529
+- id: ohs-feminist-activism-panel
+  name: 'Oregon Historical Society Panel: Feminist Activism in Oregon (The Flight of the Mind)'
+  category: arts_culture
+  location_type: physical
+  resource_type: event
+  address: Oregon Historical Society, 1200 SW Park Ave, Portland, OR 97205
+  phone: 503-222-1741
+  website: https://www.ohs.org/events/feminist-activism-in-oregon.cfm
+  source_urls:
+  - https://www.ohs.org/events/feminist-activism-in-oregon.cfm
+  - https://www.ohs.org/events/
+  pricing:
+    description: FREE
+    notes: Free and open to the public.
+  hours: 2-3:30pm
+  dates: January 31, 2027
+  schedule: 2-3:30pm
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Panel discussion with Judith Barrington, Ruth Gundle, Anndee Hochman, Deborah Miranda, and Barbara Sjoholm,
+      facilitated by Dr. Annelise Heinz, on the history of The Flight of the Mind writing workshops for women (1984-2000).
+    registration: None required — free and open to the public.
+    good_to_know: Multnomah County residents also receive free admission to the Oregon Historical Society museum year-round.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  social_intensity: drop_in
+  good_for:
+  - indoor
+  - creative
+  - low_energy
+  guide_location: activities-guide-1.md#museums
+  notes: Free Q1 2027 public panel at the Oregon Historical Society, confirmed on ohs.org/events/feminist-activism-in-oregon.cfm.
+  flags:
+  - 📅 DATE-SENSITIVE
+  latitude: 45.515859
+  longitude: -122.682184
+- id: columbia-slough-events
+  name: Columbia Slough Watershed Council Free Community Events (Slough Science & Bird Walks)
+  category: parks_nature
+  location_type: physical
+  resource_type: program
+  address: 7040 NE 47th Ave, Portland, OR 97218
+  phone: 503-281-1132
+  email: info@columbiaslough.org
+  website: https://www.columbiaslough.org/events
+  source_urls:
+  - https://www.columbiaslough.org/events
+  - https://www.columbiaslough.org/events-list/slough-science-climate-resilience-in-your-yard-amp-beyond
+  - https://www.columbiaslough.org/events-list/bird-walk-at-smith-and-bybee
+  - https://www.columbiaslough.org/events-list/slough-science-tour-the-gresham-wastewater-treatment-plant
+  pricing:
+    description: FREE
+  programs:
+  - name: 'Slough Science: Climate Resilience in Your Yard & Beyond'
+    dates: November 24, 2026
+    schedule: 6-7:30pm
+    location: Level Beer, 5211 NE 148th Ave, Portland, OR 97230
+    cost: FREE
+    notes: Low-interaction presentation workshop with East Multnomah Soil & Water Conservation District on soil, water, and
+      native plants. Register on the event page.
+  - name: Bird Walk at Smith and Bybee Wetlands
+    dates: January 24, 2027
+    schedule: 9-11am
+    location: Smith and Bybee Wetlands Natural Area (meet at the boat launch past main parking lot), 5300 N Marine Dr, Portland,
+      OR 97203
+    cost: FREE
+    notes: Guided morning bird walk with Ryan Gilpin along a gentle paved trail to a wheelchair-accessible viewing platform.
+      Extra binoculars, snacks, and drinks provided. No dogs.
+  - name: 'Slough Science: Tour the Gresham Wastewater Treatment Plant'
+    dates: January 29, 2027
+    schedule: 10am-12pm
+    location: City of Gresham Wastewater Treatment Plant, 20015 NE Sandy Blvd, Portland, OR 97230
+    cost: FREE
+    notes: Guided "Story of the Flush" educational tour for ages 14+; closed-toed shoes required. Served by TriMet Bus 21.
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Register for free on each event's page at columbiaslough.org/events.
+    registration: Free online registration on columbiaslough.org/events.
+    what_to_bring: Weather-appropriate layers and water; loaner binoculars are provided on bird walks.
+    good_to_know: Columbia Slough Watershed Council explicitly labels interaction levels and accessibility notes on its event
+      pages.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  social_intensity: casual_group
+  good_for:
+  - anxiety_friendly
+  - outdoor
+  - indoor
+  - low_energy
+  guide_location: activities-guide-1.md#parks-and-nature
+  notes: Free environmental education, bird walks, and watershed tours in North and Northeast Portland and Gresham through
+    Q1 2027.
+  flags:
+  - 📅 DATE-SENSITIVE
+  latitude: 45.573521
+  longitude: -122.614318
+- id: metro-parks-free-parking-days
+  name: Metro Regional Parks Free Parking Days & Stewardship Events
+  category: parks_nature
+  location_type: varies
+  resource_type: program
+  address: null
+  phone: 503-797-1545
+  website: https://www.oregonmetro.gov/events
+  source_urls:
+  - https://www.oregonmetro.gov/events/free-parking-day-metro-parks-2026-11-11
+  - https://www.oregonmetro.gov/events/free-parking-day-metro-parks-2027-01-01
+  - https://www.oregonmetro.gov/events/cemetery-tending-multnomah-park-cemetery-2026-11-13
+  - https://www.oregonmetro.gov/events/stewardship-day-glendoveer-2026-11-20
+  pricing:
+    description: FREE
+    notes: Waives day-use parking fees at Oxbow Regional Park, Blue Lake Regional Park, Broughton Beach, M. James Gleason
+      Memorial Boat Ramp, and Chinook Landing Marine Park (all other Metro parks and nature areas have free parking year-round).
+  programs:
+  - name: Free Parking Day at Metro Regional Parks (2026-2027)
+    dates:
+    - November 11, 2026
+    - November 19, 2026
+    - November 27, 2026
+    - December 17, 2026
+    - January 1, 2027
+    - January 18, 2027
+    - January 21, 2027
+    - February 15, 2027
+    - February 18, 2027
+    - March 18, 2027
+    - April 15, 2027
+    - May 20, 2027
+    - June 17, 2027
+    - June 19, 2027
+    - July 15, 2027
+    - August 19, 2027
+    - September 16, 2027
+    - October 11, 2027
+    - October 21, 2027
+    - November 11, 2027
+    - November 18, 2027
+    - November 26, 2027
+    - December 16, 2027
+    cost: FREE
+    notes: Free day-use parking all day during regular park hours at Oxbow and Blue Lake regional parks, Broughton Beach,
+      Gleason Boat Ramp, and Chinook Landing Marine Park.
+  - name: Cemetery Tending at Multnomah Park Cemetery
+    dates: November 13, 2026
+    schedule: 10:30am-1:30pm
+    location: Multnomah Park Cemetery (Metro pop-up canopy), 4649 SE 82nd Ave, Portland, OR 97220
+    cost: FREE
+    notes: Drop-in community event cleaning grave markers, learning about headstone symbols, and picking up litter. Refreshments,
+      tools, and gloves provided; no registration required.
+  - name: Stewardship Day at Glendoveer Nature Trail
+    dates: November 20, 2026
+    schedule: 10:30am-1:30pm
+    location: Glendoveer Nature Trail parking lot (NE 148th Ave & NE Halsey St), 14015 NE Glisan St, Portland, OR 97230
+    cost: FREE
+    notes: Drop-in native planting and nature-patch tending; all tools and supplies provided, no registration required.
+  last_verified: 2026-11-09
+  next_audit: 2027-11-09
+  audit_frequency: annually
+  practical_tips:
+    first_visit: No pass or coupon needed on Free Parking Days — just drive in during regular park hours.
+    registration: None required for Free Parking Days or the drop-in stewardship events.
+    good_to_know: Metro does not allow pets at most regional parks and natural areas (service animals welcome).
+  accessibility:
+  - wheelchair_accessible
+  social_intensity: solo
+  good_for:
+  - outdoor
+  - anxiety_friendly
+  - family_friendly
+  - low_energy
+  guide_location: activities-guide-1.md#parks-and-nature
+  notes: Official 2026 and 2027 Metro Regional Parks free parking calendar and drop-in stewardship events, confirmed on oregonmetro.gov/events.
+  flags:
+  - 📅 DATE-SENSITIVE
+- id: ppr-explore-your-park
+  name: Portland Parks & Recreation Explore Your Park Fall Series
+  category: parks_nature
+  location_type: varies
+  resource_type: event
+  address: null
+  phone: 503-823-2525
+  website: https://www.portland.gov/parks/events/2026/10/24/explore-your-park-series-events-fall
+  source_urls:
+  - https://www.portland.gov/parks/events/2026/10/24/explore-your-park-series-events-fall
+  - https://www.portland.gov/parks/events/2026/11/14/explore-your-park-series-event-westmoreland-park
+  - https://www.portland.gov/parks/events/2026/11/21/explore-your-park-series-event-mill-park
+  - https://www.portland.gov/parks/events/2026/11/23/explore-your-park-series-event-wallace-park
+  pricing:
+    description: FREE
+  hours: 11am-1pm (drop in any time during the 2-hour window)
+  programs:
+  - name: Explore Your Park - Westmoreland Park
+    dates: November 14, 2026
+    schedule: 11am-1pm
+    location: Westmoreland Park Playground, SE McLoughlin Blvd & SE Bybee Blvd, Portland, OR 97202
+    cost: FREE
+  - name: Explore Your Park - Mill Park
+    dates: November 21, 2026
+    schedule: 11am-1pm
+    location: Mill Park Playground, SE 117th Ave & SE Lincoln St, Portland, OR 97216
+    cost: FREE
+  - name: Explore Your Park - Wallace Park
+    dates: November 23, 2026
+    schedule: 11am-1pm
+    location: Wallace Park Playground, NW 25th Ave & NW Raleigh St, Portland, OR 97210
+    cost: FREE
+  last_verified: 2026-11-09
+  next_audit: 2027-09-15
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Look for the Portland Parks Environmental Education check-in sign near the playground to pick up a scavenger
+      hunt stamp card and free warm apple cider or hot cocoa.
+    registration: None — free drop-in program for all ages.
+    what_to_bring: Weather-appropriate layers (runs rain or shine).
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  social_intensity: drop_in
+  good_for:
+  - outdoor
+  - family_friendly
+  - anxiety_friendly
+  - low_energy
+  guide_location: activities-guide-1.md#parks-and-nature
+  notes: Free drop-in nature education and self-guided park scavenger hunts with complimentary hot cocoa and apple cider from
+    Portland Parks & Recreation.
+  flags:
+  - 📅 DATE-SENSITIVE
+- id: gresham-repair-cafe
+  name: Gresham Repair Café & Clothing Swap
+  category: social_activities
+  location_type: physical
+  resource_type: event
+  address: Multnomah County Library - East County Library (Rooms 2H/J), 475 NW Division St, Gresham, OR 97030
+  phone: 503-618-2525
+  email: RepairCafeGresham@gmail.com
+  website: https://www.greshamoregon.gov/repair-cafe/
+  source_urls:
+  - https://www.greshamoregon.gov/repair-cafe/
+  - https://www.repairpdx.org/repair-events
+  pricing:
+    description: FREE
+    notes: Both the repair café and the clothing swap are completely free; you do not need to bring clothing or a broken item
+      to take clothes from the swap.
+  hours: 10am-1pm (check in repair items by 12pm noon)
+  dates: November 21, 2026
+  schedule: 10am-1pm
+  last_verified: 2026-11-09
+  next_audit: 2027-02-01
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Arrive before noon to check in broken items (small appliances, lamps, vacuums, clothing/sock/sweater mending,
+      jewelry clasps, manual garden tool sharpening, electronics, computer tune-ups) or browse the free clothing swap.
+    registration: None required — drop-in.
+    what_to_bring: Reusable bag for the clothing swap; any replacement parts, cords, or manuals for items being repaired.
+    good_to_know: Hosted quarterly by the City of Gresham, Coalition of Gresham Neighborhood Associations, and Gresham Free
+      Swaps at the new East County Library next to the Gresham Central Transit Center MAX station. Underground library parking
+      opens at 10am; overflow parking is across the MAX tracks at Gresham City Hall.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  - elevator
+  social_intensity: drop_in
+  good_for:
+  - indoor
+  - low_energy
+  - anxiety_friendly
+  guide_location: activities-guide-2.md#community-workshops
+  notes: Quarterly free repair café and no-barrier clothing swap in Gresham, confirmed on greshamoregon.gov/repair-cafe/ and
+    the regional repair calendar for Saturday, November 21, 2026, 10am-1pm.
+  flags:
+  - 📅 DATE-SENSITIVE
+  latitude: 45.502985
+  longitude: -122.435714
+- id: sherwood-old-town-art-walk
+  name: Old Town Sherwood Art Walk (Winter Holiday Market)
+  category: arts_culture
+  location_type: physical
+  resource_type: event
+  address: Sherwood Center for the Arts, 22689 SW Pine St, Sherwood, OR 97140 (and across 6 blocks of Old Town Sherwood)
+  phone: 503-625-4278
+  email: arts@sherwoodoregon.gov
+  website: https://www.sherwoodcenterforthearts.org/general/page/old-town-sherwood-art-walk
+  source_urls:
+  - https://www.sherwoodcenterforthearts.org/general/page/old-town-sherwood-art-walk
+  pricing:
+    description: FREE
+  hours: 5-8pm
+  dates: December 1, 2026
+  schedule: 5-8pm
+  last_verified: 2026-11-09
+  next_audit: 2027-05-15
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Pick up an Art Walk map at Sherwood Center for the Arts (22689 SW Pine St) or any numbered sandwich board
+      in Old Town Sherwood, visit local artist and performer stops, and return a stamped map for a prize drawing.
+    registration: None required.
+  accessibility:
+  - wheelchair_accessible
+  social_intensity: drop_in
+  good_for:
+  - creative
+  - indoor
+  - outdoor
+  - family_friendly
+  guide_location: activities-guide-2.md#winter-holiday-events
+  notes: Resolve the queue's Sherwood Old Town Art Walk lead; confirmed on sherwoodcenterforthearts.org for Tuesday, December
+    1, 2026, 5-8pm.
+  flags:
+  - 📅 DATE-SENSITIVE
+  latitude: 45.356758
+  longitude: -122.840797
+- id: hillsboro-senior-center-events
+  name: Hillsboro Community Senior Center (Free Groceries & Annual Holiday Bazaar)
+  category: social_activities
+  location_type: physical
+  resource_type: place
+  address: Hillsboro Community Senior Center, 750 SE 8th Ave, Hillsboro, OR 97123
+  phone: 503-615-1090
+  website: https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation/facilities-rentals/senior-center
+  source_urls:
+  - https://www.hillsboro-oregon.gov/Home/Components/Calendar/Event/150641/4860
+  - https://www.hillsboro-oregon.gov/Home/Components/Calendar/Event/152031/4860
+  pricing:
+    description: FREE admission to Holiday Bazaar and FREE Trader Joe's grocery distributions
+  programs:
+  - name: Free Groceries Donated by Trader Joe's
+    schedule: Mon, Tue, Thu, Fri 1-2pm
+    cost: FREE
+    notes: Free grocery distribution Mondays, Tuesdays, Thursdays, and Fridays at 1pm (no groceries on Wednesdays). Bring
+      your own bag; a lottery drawing sets the line order. Call 503-615-1090 for details.
+  - name: Senior Center Annual Holiday Bazaar
+    dates: November 21-22, 2026
+    schedule: 10am-4pm
+    cost: FREE admission
+    notes: Saturday, November 21 (10am-4pm) and Sunday, November 22 (10am-3pm). Local handmade craft vendors, holiday music,
+      raffle prizes, and goodies from the Bistro benefiting senior programs.
+  last_verified: 2026-11-09
+  next_audit: 2027-11-01
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Bring your own reusable grocery bag for the 1pm Mon/Tue/Thu/Fri Trader Joe's grocery distribution, or stop
+      by November 21-22 for the free Holiday Bazaar.
+    registration: None required.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  social_intensity: drop_in
+  good_for:
+  - low_energy
+  - indoor
+  - isolation
+  audience:
+  - seniors
+  guide_location: activities-guide-2.md#senior-centers
+  notes: Hillsboro Community Senior Center's 4-day-a-week free Trader Joe's grocery distribution and Nov 21-22 Annual Holiday
+    Bazaar, confirmed on hillsboro-oregon.gov.
+  flags:
+  - 📅 DATE-SENSITIVE
+  latitude: 45.516521
+  longitude: -122.977412
+- id: walters-artisan-pop-up-shop
+  name: Walters Artisan Pop-Up Shop (Hillsboro)
+  category: arts_culture
+  location_type: physical
+  resource_type: event
+  address: Walters Cultural Arts Center, 527 E Main St, Hillsboro, OR 97123
+  phone: 503-615-3485
+  website: https://www.hillsboro-oregon.gov/Home/Components/Calendar/Event/149462/4860
+  source_urls:
+  - https://www.hillsboro-oregon.gov/Home/Components/Calendar/Event/149462/4860
+  pricing:
+    description: FREE admission
+  hours: 5-8pm
+  dates: December 1, 2026
+  schedule: 5-8pm
+  last_verified: 2026-11-09
+  next_audit: 2027-11-01
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Free First Tuesday evening holiday artisan market featuring 40+ Hillsboro artists and makers at the Walters
+      Cultural Arts Center.
+    registration: None required.
+    good_to_know: Two blocks from the Hatfield Government Center MAX Blue Line station.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  - elevator
+  social_intensity: drop_in
+  good_for:
+  - creative
+  - indoor
+  - low_energy
+  guide_location: activities-guide-2.md#winter-holiday-events
+  notes: Confirmed on hillsboro-oregon.gov for Tuesday, December 1, 2026, 5-8pm.
+  flags:
+  - 📅 DATE-SENSITIVE
+  latitude: 45.522214
+  longitude: -122.981885
+- id: tigard-veterans-day-flag-raising
+  name: City of Tigard Veterans Day Flag Raising Ceremony
+  category: events
+  location_type: physical
+  resource_type: event
+  address: Tigard Public Library lawn, 13500 SW Hall Blvd, Tigard, OR 97223
+  phone: 503-639-4171
+  website: https://www.tigard-or.gov/Home/Components/Calendar/Event/12998/230
+  source_urls:
+  - https://www.tigard-or.gov/Home/Components/Calendar/Event/12998/230
+  pricing:
+    description: FREE (includes free coffee and donuts)
+  hours: 11am-12pm
+  dates: November 11, 2026
+  schedule: 11am-12pm
+  last_verified: 2026-11-09
+  next_audit: 2027-10-15
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Gather on the Tigard Public Library lawn by 11am for the flag raising, tribute reading, and complimentary
+      donuts and coffee.
+    registration: None required.
+  accessibility:
+  - wheelchair_accessible
+  - transit_nearby
+  social_intensity: drop_in
+  good_for:
+  - outdoor
+  - family_friendly
+  - low_energy
+  guide_location: activities-guide-1.md#seasonal-events
+  notes: Confirmed on tigard-or.gov for Wednesday, November 11, 2026 at 11am; explicitly listed as a free, family-friendly
+    event with coffee and donuts.
+  flags:
+  - 📅 DATE-SENSITIVE
+  latitude: 45.4226
+  longitude: -122.764888
+- id: tualatin-riverkeepers-stewardship
+  name: Tualatin Riverkeepers Free Stewardship & Nature Events
+  category: parks_nature
+  location_type: varies
+  resource_type: program
+  address: 11675 SW Hazelbrook Rd, Tualatin, OR 97062
+  phone: 503-218-2580
+  email: info@tualatinriverkeepers.org
+  website: https://www.tualatinriverkeepers.org/events
+  source_urls:
+  - https://www.tualatinriverkeepers.org/events
+  - https://www.tualatinriverkeepers.org/events/beaver-pond-planting-day-in-tigard
+  - https://www.tualatinriverkeepers.org/events/tualatin-riverkeepers-talk-walk-and-plant
+  pricing:
+    description: FREE
+  programs:
+  - name: Beaver Pond Planting Day in Tigard
+    dates: November 22, 2026
+    schedule: 10am-1pm
+    location: Across from Tigard Public Library, 13500 SW Hall Blvd, Tigard, OR 97223
+    cost: FREE
+    notes: Plant native species along the beaver pond and stream banks. Snacks, coffee, tools, safety gear, and instruction
+      provided. Accessible via TriMet Bus 76.
+  - name: Tualatin Riverkeepers Talk, Walk, and Plant
+    dates: December 13, 2026
+    schedule: 2-3pm
+    location: Tigard Public Library, 13500 SW Hall Blvd, Tigard, OR 97223
+    cost: FREE
+    notes: Learn about community-led watershed stewardship and the beaver habitat enhancement across from the library, followed
+      by a short tour and native planting.
+  last_verified: 2026-11-09
+  next_audit: 2027-02-09
+  audit_frequency: annually
+  practical_tips:
+    first_visit: Register online at tualatinriverkeepers.org/events; tools, gloves, coffee, and snacks are provided at planting
+      events.
+    registration: Free registration on tualatinriverkeepers.org/events.
+    what_to_bring: Sturdy shoes and weather-appropriate clothes.
+  accessibility:
+  - transit_nearby
+  social_intensity: casual_group
+  good_for:
+  - outdoor
+  - active
+  - isolation
+  guide_location: activities-guide-2.md#volunteer-opportunities
+  notes: Free watershed stewardship and educational events in Washington County from Tualatin Riverkeepers.
+  flags:
+  - 📅 DATE-SENSITIVE
+  latitude: 45.4226
+  longitude: -122.764888

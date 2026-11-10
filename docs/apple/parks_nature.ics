@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:9da988f6b27fd0ba@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:Newt Day! (Tualatin Hills Nature Center)
@@ -78,7 +78,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:30a768da05a00e8c@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260912T113000
 DTEND;TZID=America/Los_Angeles:20260912T130000
 SUMMARY:Portland Memory Garden (Ed Benedict Park): Music in the Garden
@@ -101,7 +101,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4435c42ce1eae5fc@portlandresources.org
-DTSTAMP:20260728T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260913T113000
 DTEND;TZID=America/Los_Angeles:20260913T130000
 SUMMARY:Portland Memory Garden (Ed Benedict Park): National Grandparents Da
@@ -116,6 +116,588 @@ DESCRIPTION:Category: Parks & Nature\nCost: FREE\nFormat: In-person\, outdo
 LOCATION:Ed Benedict Park\, SE 104th Ave & SE Powell Blvd\, Portland\, OR 9
  7266
 URL:https://www.portland.gov/parks/portland-memory-garden
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:864c3f418e4c5a9e@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261124T180000
+DTEND;TZID=America/Los_Angeles:20261124T193000
+SUMMARY:Columbia Slough Watershed Council Free Community Events (Slough Sci
+ ence & Bird Walks): Slough Science: Climate Resilience in Your Yard & Beyo
+ nd
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Low-interaction pre
+ sentation workshop with East Multnomah Soil & Water Conservation District 
+ on soil\, water\, and native plants. Register on the event page.\nAddress:
+  7040 NE 47th Ave\, Portland\, OR 97218\nPhone: 503-281-1132\nWebsite: htt
+ ps://www.columbiaslough.org/events\nDetails: Free environmental education\
+ , bird walks\, and watershed tours in North and Northeast Portland and Gre
+ sham through Q1 2027.
+LOCATION:Level Beer\, 5211 NE 148th Ave\, Portland\, OR 97230
+URL:https://www.columbiaslough.org/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cc7f9d515d8c17c3@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270124T090000
+DTEND;TZID=America/Los_Angeles:20270124T110000
+SUMMARY:Columbia Slough Watershed Council Free Community Events (Slough Sci
+ ence & Bird Walks): Bird Walk at Smith and Bybee Wetlands
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Guided morning bird
+  walk with Ryan Gilpin along a gentle paved trail to a wheelchair-accessib
+ le viewing platform. Extra binoculars\, snacks\, and drinks provided. No d
+ ogs.\nAddress: 7040 NE 47th Ave\, Portland\, OR 97218\nPhone: 503-281-1132
+ \nWebsite: https://www.columbiaslough.org/events\nDetails: Free environmen
+ tal education\, bird walks\, and watershed tours in North and Northeast Po
+ rtland and Gresham through Q1 2027.
+LOCATION:Smith and Bybee Wetlands Natural Area (meet at the boat launch pas
+ t main parking lot)\, 5300 N Marine Dr\, Portland\, OR 97203
+URL:https://www.columbiaslough.org/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3061c60d4c4aba21@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270129T100000
+DTEND;TZID=America/Los_Angeles:20270129T120000
+SUMMARY:Columbia Slough Watershed Council Free Community Events (Slough Sci
+ ence & Bird Walks): Slough Science: Tour the Gresham Wastewater Treatment 
+ Plant
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Guided "Story of th
+ e Flush" educational tour for ages 14+\; closed-toed shoes required. Serve
+ d by TriMet Bus 21.\nAddress: 7040 NE 47th Ave\, Portland\, OR 97218\nPhon
+ e: 503-281-1132\nWebsite: https://www.columbiaslough.org/events\nDetails: 
+ Free environmental education\, bird walks\, and watershed tours in North a
+ nd Northeast Portland and Gresham through Q1 2027.
+LOCATION:City of Gresham Wastewater Treatment Plant\, 20015 NE Sandy Blvd\,
+  Portland\, OR 97230
+URL:https://www.columbiaslough.org/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e4c15186913c84bd@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3fb9f65a3b56bbf2@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5ab5cbdd0e1ebdb9@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5e22753962bee1cd@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:58c995496c1f56db@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:43f63e89dfacdb8b@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da26432b2524aa33@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:42aca249c41f8aa2@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:304e49da9f7934d5@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fff1aca10417eea6@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:c59e5ea7aee358cb@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a00dc1606da9ade7@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:08c9502a4a2e821c@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270618
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a069ca288eb21155@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:04cbf54b0a3fbf83@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:edc891377a8d60b3@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270819
+DTEND;VALUE=DATE:20270820
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0015f94448ce71fd@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d27f15c55c9518ec@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8c940b7d496d8d1d@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20271021
+DTEND;VALUE=DATE:20271022
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:3e47483215439ec6@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20271112
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5a0eee17fd2c9d2b@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20271118
+DTEND;VALUE=DATE:20271119
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:61e778a71c5cc889@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20271126
+DTEND;VALUE=DATE:20271127
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cc275e75f8a6eb42@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20271216
+DTEND;VALUE=DATE:20271217
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Free P
+ arking Day at Metro Regional Parks (2026-2027)
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Free day-use parkin
+ g all day during regular park hours at Oxbow and Blue Lake regional parks\
+ , Broughton Beach\, Gleason Boat Ramp\, and Chinook Landing Marine Park.\n
+ Phone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/events\nDetails:
+  Official 2026 and 2027 Metro Regional Parks free parking calendar and dro
+ p-in stewardship events\, confirmed on oregonmetro.gov/events.
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:320a5d66cef5eaac@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261113T103000
+DTEND;TZID=America/Los_Angeles:20261113T133000
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Cemete
+ ry Tending at Multnomah Park Cemetery
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Drop-in community e
+ vent cleaning grave markers\, learning about headstone symbols\, and picki
+ ng up litter. Refreshments\, tools\, and gloves provided\; no registration
+  required.\nPhone: 503-797-1545\nWebsite: https://www.oregonmetro.gov/even
+ ts\nDetails: Official 2026 and 2027 Metro Regional Parks free parking cale
+ ndar and drop-in stewardship events\, confirmed on oregonmetro.gov/events.
+LOCATION:Multnomah Park Cemetery (Metro pop-up canopy)\, 4649 SE 82nd Ave\,
+  Portland\, OR 97220
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b8bfef0b32b071ee@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261120T103000
+DTEND;TZID=America/Los_Angeles:20261120T133000
+SUMMARY:Metro Regional Parks Free Parking Days & Stewardship Events: Stewar
+ dship Day at Glendoveer Nature Trail
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Drop-in native plan
+ ting and nature-patch tending\; all tools and supplies provided\, no regis
+ tration required.\nPhone: 503-797-1545\nWebsite: https://www.oregonmetro.g
+ ov/events\nDetails: Official 2026 and 2027 Metro Regional Parks free parki
+ ng calendar and drop-in stewardship events\, confirmed on oregonmetro.gov/
+ events.
+LOCATION:Glendoveer Nature Trail parking lot (NE 148th Ave & NE Halsey St)\
+ , 14015 NE Glisan St\, Portland\, OR 97230
+URL:https://www.oregonmetro.gov/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4d86fb57c03c0d5a@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261114T110000
+DTEND;TZID=America/Los_Angeles:20261114T130000
+SUMMARY:Portland Parks & Recreation Explore Your Park Fall Series: Explore 
+ Your Park - Westmoreland Park
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nPhone: 503-823-2525\nWebs
+ ite: https://www.portland.gov/parks/events/2026/10/24/explore-your-park-se
+ ries-events-fall\nDetails: Free drop-in nature education and self-guided p
+ ark scavenger hunts with complimentary hot cocoa and apple cider from Port
+ land Parks & Recreation.
+LOCATION:Westmoreland Park Playground\, SE McLoughlin Blvd & SE Bybee Blvd\
+ , Portland\, OR 97202
+URL:https://www.portland.gov/parks/events/2026/10/24/explore-your-park-series-events-fall
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dd4dd6ad6ebf4484@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261121T110000
+DTEND;TZID=America/Los_Angeles:20261121T130000
+SUMMARY:Portland Parks & Recreation Explore Your Park Fall Series: Explore 
+ Your Park - Mill Park
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nPhone: 503-823-2525\nWebs
+ ite: https://www.portland.gov/parks/events/2026/10/24/explore-your-park-se
+ ries-events-fall\nDetails: Free drop-in nature education and self-guided p
+ ark scavenger hunts with complimentary hot cocoa and apple cider from Port
+ land Parks & Recreation.
+LOCATION:Mill Park Playground\, SE 117th Ave & SE Lincoln St\, Portland\, O
+ R 97216
+URL:https://www.portland.gov/parks/events/2026/10/24/explore-your-park-series-events-fall
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2ce2656f975f98bc@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261123T110000
+DTEND;TZID=America/Los_Angeles:20261123T130000
+SUMMARY:Portland Parks & Recreation Explore Your Park Fall Series: Explore 
+ Your Park - Wallace Park
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nPhone: 503-823-2525\nWebs
+ ite: https://www.portland.gov/parks/events/2026/10/24/explore-your-park-se
+ ries-events-fall\nDetails: Free drop-in nature education and self-guided p
+ ark scavenger hunts with complimentary hot cocoa and apple cider from Port
+ land Parks & Recreation.
+LOCATION:Wallace Park Playground\, NW 25th Ave & NW Raleigh St\, Portland\,
+  OR 97210
+URL:https://www.portland.gov/parks/events/2026/10/24/explore-your-park-series-events-fall
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:269ac3ad3be243eb@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261122T100000
+DTEND;TZID=America/Los_Angeles:20261122T130000
+SUMMARY:Tualatin Riverkeepers Free Stewardship & Nature Events: Beaver Pond
+  Planting Day in Tigard
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Plant native specie
+ s along the beaver pond and stream banks. Snacks\, coffee\, tools\, safety
+  gear\, and instruction provided. Accessible via TriMet Bus 76.\nAddress: 
+ 11675 SW Hazelbrook Rd\, Tualatin\, OR 97062\nPhone: 503-218-2580\nWebsite
+ : https://www.tualatinriverkeepers.org/events\nDetails: Free watershed ste
+ wardship and educational events in Washington County from Tualatin Riverke
+ epers.
+LOCATION:Across from Tigard Public Library\, 13500 SW Hall Blvd\, Tigard\, 
+ OR 97223
+URL:https://www.tualatinriverkeepers.org/events
+CATEGORIES:Parks & Nature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fe066b4e59053034@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20261213T140000
+DTEND;TZID=America/Los_Angeles:20261213T150000
+SUMMARY:Tualatin Riverkeepers Free Stewardship & Nature Events: Tualatin Ri
+ verkeepers Talk\, Walk\, and Plant
+DESCRIPTION:Category: Parks & Nature\nCost: FREE\nInfo: Learn about communi
+ ty-led watershed stewardship and the beaver habitat enhancement across fro
+ m the library\, followed by a short tour and native planting.\nAddress: 11
+ 675 SW Hazelbrook Rd\, Tualatin\, OR 97062\nPhone: 503-218-2580\nWebsite: 
+ https://www.tualatinriverkeepers.org/events\nDetails: Free watershed stewa
+ rdship and educational events in Washington County from Tualatin Riverkeep
+ ers.
+LOCATION:Tigard Public Library\, 13500 SW Hall Blvd\, Tigard\, OR 97223
+URL:https://www.tualatinriverkeepers.org/events
 CATEGORIES:Parks & Nature
 TRANSP:TRANSPARENT
 END:VEVENT

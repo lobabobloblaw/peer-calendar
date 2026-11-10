@@ -132,7 +132,9 @@ class TestCorpusAuditPolicy(unittest.TestCase):
         # 2026-10-25: the events audit added 41 dated entries at an annual cadence
         # (next_audit carries each pre-event recheck) and moved friends-of-trees from
         # quarterly to monthly while its planting season runs.
-        self.assertEqual(counts, {"monthly": 24, "quarterly": 137, "annually": 172})
+        # 2026-11-09: the Q1 2027 events and discovery sweep added 20 entries at an
+        # annual cadence.
+        self.assertEqual(counts, {"monthly": 24, "quarterly": 137, "annually": 192})
         priorities = {priority: sum(audit_priority(value) == priority for value in active)
                       for priority in ("critical", "high", "standard", "low")}
         # juanita-pohl-center moved low -> high when its programs were converted
@@ -155,14 +157,17 @@ class TestCorpusAuditPolicy(unittest.TestCase):
         # date-sensitive events, all rated low because each is a dated list
         # rather than an open recurrence.
         # 2026-10-25: the 41 new dated entries add 4 critical, 3 high, and 34 low.
-        self.assertEqual(priorities, {"critical": 72, "high": 75, "standard": 12, "low": 174})
+        # 2026-11-09: the 20 new entries and open-recurrence updates add 2 critical,
+        # 4 high, and 14 low.
+        self.assertEqual(priorities, {"critical": 74, "high": 79, "standard": 12, "low": 188})
         summary = workload_summary(active, capacity_per_week=5, as_of=date(2026, 8, 13))
         # 2026-10-08: the October audit advanced 35 next_audit dates, 17 of
         # which were due on or before 2026-08-13, so this backlog fell from 22.
-        self.assertEqual(summary["backlog"], 5)
-        # The 41 annual additions and friends-of-trees going monthly add 49 audits
-        # a year (959 before).
-        self.assertEqual(summary["audits_per_year"], 1008)
+        # 2026-11-09: pdx-board-games-meetup and milwaukie-community-center were
+        # verified on their organizer pages, reducing the 2026-08-13 backlog from 5 to 3.
+        self.assertEqual(summary["backlog"], 3)
+        # The 20 annual additions add 20 audits a year (1008 before).
+        self.assertEqual(summary["audits_per_year"], 1028)
         self.assertFalse(summary["backlog_recoverable"])
 
     def test_migration_is_idempotent_after_application(self):
@@ -181,7 +186,7 @@ class TestCorpusAuditPolicy(unittest.TestCase):
         )
         payload = json.loads(result.stdout)
         self.assertEqual(payload["as_of"], "2026-08-13")
-        self.assertEqual(payload["active_entries"], 333)
+        self.assertEqual(payload["active_entries"], 353)
 
 
 if __name__ == "__main__":
