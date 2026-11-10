@@ -270,16 +270,19 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:708c6dfd86bfecc0@portlandresources.org
-DTSTAMP:20260317T000000Z
-DTSTART;VALUE=DATE:20260320
-DTEND;VALUE=DATE:20260427
+UID:f29006f2972c647a@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270426
 SUMMARY:Wooden Shoe Tulip Festival
 DESCRIPTION:Category: Events & Festivals\nCost: $19 weekday / $24 weekend a
  dults (ages 13-64)\; Children 12 and under FREE\nNote: Online tickets only
  \; timed entry\; best bloom mid-April. 10% off 4+ tickets with code 4TICKE
  TS.\nAddress: 33814 S Meridian Rd\, Woodburn\, OR 97071\nWebsite: https://
- www.woodenshoe.com/
+ www.woodenshoe.com/\nDetails: 40 acres of blooming tulips in Woodburn. The
+  2027 Wooden Shoe Tulip Festival is scheduled for March 19 - April 25\, 20
+ 27 (dates may shift slightly with bloom conditions). Recheck ticket prices
+  in February 2027.
 LOCATION:33814 S Meridian Rd\, Woodburn\, OR 97071
 URL:https://www.woodenshoe.com/
 CATEGORIES:Events & Festivals
@@ -551,7 +554,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:02b21b02b35fab81@portlandresources.org
-DTSTAMP:20261008T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261018T100000
 DTEND;TZID=America/Los_Angeles:20261018T160000
 SUMMARY:West Coast Giant Pumpkin Regatta: Pumpkin Regatta Festival
@@ -570,28 +573,70 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7f68061c611eed43@portlandresources.org
-DTSTAMP:20260916T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261204T160000
 DTEND;TZID=America/Los_Angeles:20261204T200000
 SUMMARY:Beaverton Winter Lights & Tree Lighting: Winter Lights & Tree Light
  ing with BACC & Kids Winter Markets
-DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: The City's sign
- ature winter event\, with the Beaverton Area Chamber of Commerce and Kids 
- winter markets running alongside the tree lighting. A menorah lighting is 
- listed separately with its date still to be announced.\nAddress: Beaverton
-  City Park\, 12375 SW 5th St\, Beaverton\, OR\nPhone: 503-526-2559\nWebsit
- e: https://www.beavertonoregon.gov/events-0\nDetails: Added in the Septemb
- er 2026 events sweep. Washington County's winter calendar was thin compare
- d with Multnomah and Clackamas. Free admission comes from Portland Living 
- on the Cheap\; the City's page lists the event without stating a price.
-LOCATION:Beaverton City Park\, 12375 SW 5th St\, Beaverton\, OR
-URL:https://www.beavertonoregon.gov/events-0
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: Winter Markets 
+ (Beaverton Area Chamber of Commerce and Kids Market) 4-8pm\; festive fun p
+ rogramming and live performances 6-8pm\; Tree Lighting Ceremony at 7pm.\nA
+ ddress: Beaverton City Park\, 12375 SW 5th St\, Beaverton\, OR\nPhone: 503
+ -526-2559\nWebsite: https://beavertonoregon.gov/beaverton-winter-lights\nD
+ etails: Added in the September 2026 events sweep. Washington County's wint
+ er calendar was thin compared with Multnomah and Clackamas. Free admission
+  comes from Portland Living on the Cheap\; the City's page lists the event
+  without stating a price.
+LOCATION:Beaverton City Park\, SW 5th St & SW Hall Blvd\, Beaverton\, OR
+URL:https://beavertonoregon.gov/beaverton-winter-lights
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:10c2181d86f35be4@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270101
+SUMMARY:Beaverton Winter Lights & Tree Lighting: Beaverton Winter Light Dis
+ plays
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: Walkways in Bea
+ verton City Park are lit nightly from 4pm to 8am December 1\, 2026 through
+  January 3\, 2027. All displays are wheelchair accessible from paved paths
+ .\nAddress: Beaverton City Park\, 12375 SW 5th St\, Beaverton\, OR\nPhone:
+  503-526-2559\nWebsite: https://beavertonoregon.gov/beaverton-winter-light
+ s\nDetails: Added in the September 2026 events sweep. Washington County's 
+ winter calendar was thin compared with Multnomah and Clackamas. Free admis
+ sion comes from Portland Living on the Cheap\; the City's page lists the e
+ vent without stating a price.
+LOCATION:Beaverton City Park\, SW 5th St & SW Hall Blvd\, Beaverton\, OR
+URL:https://beavertonoregon.gov/beaverton-winter-lights
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:79e428180b0d32cf@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270104
+SUMMARY:Beaverton Winter Lights & Tree Lighting: Beaverton Winter Light Dis
+ plays
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nInfo: Walkways in Bea
+ verton City Park are lit nightly from 4pm to 8am December 1\, 2026 through
+  January 3\, 2027. All displays are wheelchair accessible from paved paths
+ .\nAddress: Beaverton City Park\, 12375 SW 5th St\, Beaverton\, OR\nPhone:
+  503-526-2559\nWebsite: https://beavertonoregon.gov/beaverton-winter-light
+ s\nDetails: Added in the September 2026 events sweep. Washington County's 
+ winter calendar was thin compared with Multnomah and Clackamas. Free admis
+ sion comes from Portland Living on the Cheap\; the City's page lists the e
+ vent without stating a price.
+LOCATION:Beaverton City Park\, SW 5th St & SW Hall Blvd\, Beaverton\, OR
+URL:https://beavertonoregon.gov/beaverton-winter-lights
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1d71fc75f856acd1@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Wood Village Pumpkin Fest
@@ -609,7 +654,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d3829f3f573bf7a@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Hillsboro Holly Days Celebration
@@ -625,7 +670,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:32b82815f20eb780@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261204T180000
 DTEND;TZID=America/Los_Angeles:20261204T193000
 SUMMARY:Tualatin Light Parades: Tualatin Light Parade - North
@@ -644,7 +689,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cf5beefa6854412c@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261205T180000
 DTEND;TZID=America/Los_Angeles:20261205T193000
 SUMMARY:Tualatin Light Parades: Tualatin Light Parade - South
@@ -663,7 +708,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c263fa178562b525@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261206T180000
 DTEND;TZID=America/Los_Angeles:20261206T193000
 SUMMARY:Tualatin Light Parades: Tualatin Light Parade - East
@@ -682,7 +727,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:768a353cc6fcc103@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Oregon City Holiday Tree Lighting
@@ -698,7 +743,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:08fa3a1f43dc4ed3@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261101T120000
 DTEND;TZID=America/Los_Angeles:20261101T131500
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -715,7 +760,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c9d03e14db61cf6d@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261107T140000
 DTEND;TZID=America/Los_Angeles:20261107T151500
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -732,7 +777,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fc0bb9ee321a77e1@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261108T140000
 DTEND;TZID=America/Los_Angeles:20261108T160000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -749,7 +794,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:00537939d1366f53@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261110T170000
 DTEND;TZID=America/Los_Angeles:20261110T193000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -766,7 +811,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:e6f9d017241e173d@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261114T110000
 DTEND;TZID=America/Los_Angeles:20261114T130000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -783,7 +828,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:dfbb6aa9e276b0fb@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261114T140000
 DTEND;TZID=America/Los_Angeles:20261114T150000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -800,7 +845,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5bae38ad116ae7bc@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261114T150000
 DTEND;TZID=America/Los_Angeles:20261114T160000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -819,7 +864,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6e3219fdbddeb11a@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261114T153000
 DTEND;TZID=America/Los_Angeles:20261114T163000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -836,7 +881,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:52779b39cfd4aaac@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261115T123000
 DTEND;TZID=America/Los_Angeles:20261115T143000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -855,7 +900,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:22bf4191f1dd5106@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261115T140000
 DTEND;TZID=America/Los_Angeles:20261115T160000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -872,7 +917,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:0fd9b4263a4c7eac@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261115T150000
 DTEND;TZID=America/Los_Angeles:20261115T163000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -889,7 +934,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b8a2c3009d30f3fd@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261115T150000
 DTEND;TZID=America/Los_Angeles:20261115T170000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -907,7 +952,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2d5a603a49b77a4f@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261117T160000
 DTEND;TZID=America/Los_Angeles:20261117T183000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -925,7 +970,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f2b34516d25dbc22@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261121T103000
 DTEND;TZID=America/Los_Angeles:20261121T120000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -942,7 +987,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:002deba28e79cb47@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261121T140000
 DTEND;TZID=America/Los_Angeles:20261121T160000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -959,7 +1004,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:96c4b4efd1a1245b@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261121T150000
 DTEND;TZID=America/Los_Angeles:20261121T160000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -976,7 +1021,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7d2471a25eac98cc@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261121T160000
 DTEND;TZID=America/Los_Angeles:20261121T174000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -993,7 +1038,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:68e2c8977065fdff@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261127T150000
 DTEND;TZID=America/Los_Angeles:20261127T170000
 SUMMARY:Multnomah County Library - Native American Heritage Month Programs:
@@ -1010,7 +1055,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9ebb6bd0aa70ed55@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Spirit of Christmas (Gresham)
@@ -1027,7 +1072,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f3b4ec87e7cb09e@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Fairview Annual Tree Lighting
@@ -1044,7 +1089,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a87b7f43d8c91710@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261207
 SUMMARY:Troutdale Windy Wonderland & Tree Lighting
@@ -1064,7 +1109,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:00b93e38e7b2eb0d@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261123
 SUMMARY:Made & Found Market (Lovett Deconstruction)
@@ -1083,7 +1128,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4e4d956373c4fb84@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Holiday Cheer at the Oregon Historical Society
@@ -1099,7 +1144,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c24eec8b470acef3@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Great Figgy Pudding Caroling Competition
@@ -1115,7 +1160,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:1f47d15b610ec13c@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Tuba Christmas Concert (Pioneer Courthouse Square)
@@ -1131,7 +1176,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7d6d8a8abf74195e@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Safe Trick or Treat (Gresham)
@@ -1146,7 +1191,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a83362a838345b5e@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:Fiesta del Dia de Muertos (Kenton Library)
@@ -1162,7 +1207,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b003b183b3dd52d1@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261102T180000
 DTEND;TZID=America/Los_Angeles:20261102T210000
 SUMMARY:Wilsonville Community Events (Day of the Dead\, Veterans Day\, Tree
@@ -1182,7 +1227,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a7d53bba30d5e928@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261111T100000
 DTEND;TZID=America/Los_Angeles:20261111T110000
 SUMMARY:Wilsonville Community Events (Day of the Dead\, Veterans Day\, Tree
@@ -1200,7 +1245,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:4966128c866180e9@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261203T170000
 DTEND;TZID=America/Los_Angeles:20261203T180000
 SUMMARY:Wilsonville Community Events (Day of the Dead\, Veterans Day\, Tree
@@ -1219,7 +1264,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3034f2dab9f08a6b@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Elsie Stuhr Holiday Bazaar (THPRD)
@@ -1235,7 +1280,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a4733edbae2b7fab@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:West Linn Holiday Bazaar
@@ -1252,15 +1297,18 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2f6fb4d7dca50ea4@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:West Linn Holiday Parade & Tree Lighting
 DESCRIPTION:Category: Events & Festivals\nCost: No admission is mentioned (
  public street parade)\nAddress: Historic Willamette Main Street area\, Wes
  t Linn\, OR 97068\nPhone: 503-557-4700\nWebsite: https://westlinnoregon.go
- v/parksrec/holiday-parade\nDetails: Added in the October 2026 discovery sw
- eep. Replaces the separate West Linn tree lighting this year.
+ v/parksrec/holiday-parade\nDetails: Combined Holiday Parade ('Light Up the
+  Night') and Historic Willamette Main Street Holiday Tree Lighting on Satu
+ rday\, December 5\, 2026 starting at 5pm in the Historic Willamette Main S
+ treet area\, followed by the tree lighting with Santa at the Ale & Cider H
+ ouse.
 LOCATION:Historic Willamette Main Street area\, West Linn\, OR 97068
 URL:https://westlinnoregon.gov/parksrec/holiday-parade
 CATEGORIES:Events & Festivals
@@ -1268,7 +1316,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ff7e540aacd265b5@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Light Up the Night (Canby)
@@ -1283,7 +1331,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f0a6279828e9fb90@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Forest Grove Holiday Tree Lighting
@@ -1300,7 +1348,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:5d5f0313f665a1cd@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Lake Oswego Tree Lighting Festival
@@ -1318,7 +1366,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:007d13c2b37c7842@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Milwaukie Umbrella Parade & Tree Lighting
@@ -1337,7 +1385,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6f20023e01e6abb5@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:Community Services Network Fall Community Health Fair
@@ -1354,7 +1402,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:7bdd8547014dab27@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Portland Veterans Day Parade and Resource Fair
@@ -1373,7 +1421,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:094a1c20501450ba@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:NARA NW Native American New Year's Eve Sobriety Powwow
@@ -1557,26 +1605,50 @@ CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:fcf7780fc8bfe11b@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Oregon Zoo ZooLights
+DESCRIPTION:Category: Events & Festivals\nCost: $13-$35 adults\, $13-$30 yo
+ uth depending on the night ($13-$22 on Sensory-Friendly Night)\; Income-as
+ sistance tickets are $13 each.\nNote: Members get 20% off regular tickets\
+ , with no additional discounts on Value Nights. Income-assistance tickets 
+ are $13 each\, up to four per household\, with an Oregon Trail card\, Wash
+ ington Quest card\, OHP/Apple Health\, WIC eWIC card\, or TANF. Reserve th
+ em through the ZooLights income-assistance link on oregonzoo.org/discounts
+  and bring proof of benefits and residency. A ZooLights ticket is also a T
+ riMet and Streetcar fare to and from the zoo on your admission date.\nAddr
+ ess: Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221\nPhone: 503-226-
+ 1561\nWebsite: https://www.oregonzoo.org/lights\nDetails: Annual holiday l
+ ight display at the Oregon Zoo\, November 20\, 2026 through January 3\, 20
+ 27 (closed November 24-26 and December 25). Not free\; the lowest ticket p
+ rice is $13 (income-assistance tickets\, up to four per household).
+LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
+URL:https://www.oregonzoo.org/lights
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:3a188dac215082fd@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261124
 SUMMARY:Oregon Zoo ZooLights
 DESCRIPTION:Category: Events & Festivals\nCost: $13-$35 adults\, $13-$30 yo
- uth depending on the night\; prices and times vary throughout the season. 
- Income-assistance tickets are $13 each.\nNote: Members get 20% off regular
-  tickets\, with no additional discounts on Value Nights. Income-assistance
-  tickets are $13 each\, up to four per household\, with an Oregon Trail ca
- rd\, Washington Quest card\, OHP/Apple Health\, WIC eWIC card\, or TANF. R
- eserve them through the ZooLights income-assistance link on oregonzoo.org/
- discounts and bring proof of benefits and residency. A ZooLights ticket is
-  also a TriMet and Streetcar fare to and from the zoo on your admission da
- te.\nAddress: Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221\nPhone:
-  503-226-1561\nWebsite: https://www.oregonzoo.org/lights\nDetails: Annual 
- holiday light display at the Oregon Zoo\, November 20\, 2026 through Janua
- ry 3\, 2027 (closed November 24-26 and December 25). Not free\; the lowest
-  ticket price is $13 (income-assistance tickets\, up to four per household
- ).
+ uth depending on the night ($13-$22 on Sensory-Friendly Night)\; Income-as
+ sistance tickets are $13 each.\nNote: Members get 20% off regular tickets\
+ , with no additional discounts on Value Nights. Income-assistance tickets 
+ are $13 each\, up to four per household\, with an Oregon Trail card\, Wash
+ ington Quest card\, OHP/Apple Health\, WIC eWIC card\, or TANF. Reserve th
+ em through the ZooLights income-assistance link on oregonzoo.org/discounts
+  and bring proof of benefits and residency. A ZooLights ticket is also a T
+ riMet and Streetcar fare to and from the zoo on your admission date.\nAddr
+ ess: Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221\nPhone: 503-226-
+ 1561\nWebsite: https://www.oregonzoo.org/lights\nDetails: Annual holiday l
+ ight display at the Oregon Zoo\, November 20\, 2026 through January 3\, 20
+ 27 (closed November 24-26 and December 25). Not free\; the lowest ticket p
+ rice is $13 (income-assistance tickets\, up to four per household).
 LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
 URL:https://www.oregonzoo.org/lights
 CATEGORIES:Events & Festivals
@@ -1584,25 +1656,24 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6edaa236c0ff22b8@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261225
 SUMMARY:Oregon Zoo ZooLights
 DESCRIPTION:Category: Events & Festivals\nCost: $13-$35 adults\, $13-$30 yo
- uth depending on the night\; prices and times vary throughout the season. 
- Income-assistance tickets are $13 each.\nNote: Members get 20% off regular
-  tickets\, with no additional discounts on Value Nights. Income-assistance
-  tickets are $13 each\, up to four per household\, with an Oregon Trail ca
- rd\, Washington Quest card\, OHP/Apple Health\, WIC eWIC card\, or TANF. R
- eserve them through the ZooLights income-assistance link on oregonzoo.org/
- discounts and bring proof of benefits and residency. A ZooLights ticket is
-  also a TriMet and Streetcar fare to and from the zoo on your admission da
- te.\nAddress: Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221\nPhone:
-  503-226-1561\nWebsite: https://www.oregonzoo.org/lights\nDetails: Annual 
- holiday light display at the Oregon Zoo\, November 20\, 2026 through Janua
- ry 3\, 2027 (closed November 24-26 and December 25). Not free\; the lowest
-  ticket price is $13 (income-assistance tickets\, up to four per household
- ).
+ uth depending on the night ($13-$22 on Sensory-Friendly Night)\; Income-as
+ sistance tickets are $13 each.\nNote: Members get 20% off regular tickets\
+ , with no additional discounts on Value Nights. Income-assistance tickets 
+ are $13 each\, up to four per household\, with an Oregon Trail card\, Wash
+ ington Quest card\, OHP/Apple Health\, WIC eWIC card\, or TANF. Reserve th
+ em through the ZooLights income-assistance link on oregonzoo.org/discounts
+  and bring proof of benefits and residency. A ZooLights ticket is also a T
+ riMet and Streetcar fare to and from the zoo on your admission date.\nAddr
+ ess: Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221\nPhone: 503-226-
+ 1561\nWebsite: https://www.oregonzoo.org/lights\nDetails: Annual holiday l
+ ight display at the Oregon Zoo\, November 20\, 2026 through January 3\, 20
+ 27 (closed November 24-26 and December 25). Not free\; the lowest ticket p
+ rice is $13 (income-assistance tickets\, up to four per household).
 LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
 URL:https://www.oregonzoo.org/lights
 CATEGORIES:Events & Festivals
@@ -1610,25 +1681,24 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fcf5c167758df738@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20270101
 SUMMARY:Oregon Zoo ZooLights
 DESCRIPTION:Category: Events & Festivals\nCost: $13-$35 adults\, $13-$30 yo
- uth depending on the night\; prices and times vary throughout the season. 
- Income-assistance tickets are $13 each.\nNote: Members get 20% off regular
-  tickets\, with no additional discounts on Value Nights. Income-assistance
-  tickets are $13 each\, up to four per household\, with an Oregon Trail ca
- rd\, Washington Quest card\, OHP/Apple Health\, WIC eWIC card\, or TANF. R
- eserve them through the ZooLights income-assistance link on oregonzoo.org/
- discounts and bring proof of benefits and residency. A ZooLights ticket is
-  also a TriMet and Streetcar fare to and from the zoo on your admission da
- te.\nAddress: Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221\nPhone:
-  503-226-1561\nWebsite: https://www.oregonzoo.org/lights\nDetails: Annual 
- holiday light display at the Oregon Zoo\, November 20\, 2026 through Janua
- ry 3\, 2027 (closed November 24-26 and December 25). Not free\; the lowest
-  ticket price is $13 (income-assistance tickets\, up to four per household
- ).
+ uth depending on the night ($13-$22 on Sensory-Friendly Night)\; Income-as
+ sistance tickets are $13 each.\nNote: Members get 20% off regular tickets\
+ , with no additional discounts on Value Nights. Income-assistance tickets 
+ are $13 each\, up to four per household\, with an Oregon Trail card\, Wash
+ ington Quest card\, OHP/Apple Health\, WIC eWIC card\, or TANF. Reserve th
+ em through the ZooLights income-assistance link on oregonzoo.org/discounts
+  and bring proof of benefits and residency. A ZooLights ticket is also a T
+ riMet and Streetcar fare to and from the zoo on your admission date.\nAddr
+ ess: Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221\nPhone: 503-226-
+ 1561\nWebsite: https://www.oregonzoo.org/lights\nDetails: Annual holiday l
+ ight display at the Oregon Zoo\, November 20\, 2026 through January 3\, 20
+ 27 (closed November 24-26 and December 25). Not free\; the lowest ticket p
+ rice is $13 (income-assistance tickets\, up to four per household).
 LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
 URL:https://www.oregonzoo.org/lights
 CATEGORIES:Events & Festivals
@@ -1636,25 +1706,24 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:6b399c2dd83ebade@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270104
 SUMMARY:Oregon Zoo ZooLights
 DESCRIPTION:Category: Events & Festivals\nCost: $13-$35 adults\, $13-$30 yo
- uth depending on the night\; prices and times vary throughout the season. 
- Income-assistance tickets are $13 each.\nNote: Members get 20% off regular
-  tickets\, with no additional discounts on Value Nights. Income-assistance
-  tickets are $13 each\, up to four per household\, with an Oregon Trail ca
- rd\, Washington Quest card\, OHP/Apple Health\, WIC eWIC card\, or TANF. R
- eserve them through the ZooLights income-assistance link on oregonzoo.org/
- discounts and bring proof of benefits and residency. A ZooLights ticket is
-  also a TriMet and Streetcar fare to and from the zoo on your admission da
- te.\nAddress: Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221\nPhone:
-  503-226-1561\nWebsite: https://www.oregonzoo.org/lights\nDetails: Annual 
- holiday light display at the Oregon Zoo\, November 20\, 2026 through Janua
- ry 3\, 2027 (closed November 24-26 and December 25). Not free\; the lowest
-  ticket price is $13 (income-assistance tickets\, up to four per household
- ).
+ uth depending on the night ($13-$22 on Sensory-Friendly Night)\; Income-as
+ sistance tickets are $13 each.\nNote: Members get 20% off regular tickets\
+ , with no additional discounts on Value Nights. Income-assistance tickets 
+ are $13 each\, up to four per household\, with an Oregon Trail card\, Wash
+ ington Quest card\, OHP/Apple Health\, WIC eWIC card\, or TANF. Reserve th
+ em through the ZooLights income-assistance link on oregonzoo.org/discounts
+  and bring proof of benefits and residency. A ZooLights ticket is also a T
+ riMet and Streetcar fare to and from the zoo on your admission date.\nAddr
+ ess: Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221\nPhone: 503-226-
+ 1561\nWebsite: https://www.oregonzoo.org/lights\nDetails: Annual holiday l
+ ight display at the Oregon Zoo\, November 20\, 2026 through January 3\, 20
+ 27 (closed November 24-26 and December 25). Not free\; the lowest ticket p
+ rice is $13 (income-assistance tickets\, up to four per household).
 LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
 URL:https://www.oregonzoo.org/lights
 CATEGORIES:Events & Festivals
@@ -1662,7 +1731,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:78e57fbf8ca8200a@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261004
 SUMMARY:Portland Night Market
@@ -1680,7 +1749,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3e0abe2afae2c440@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261207
 SUMMARY:Portland Night Market
@@ -1698,7 +1767,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:14e1049db4b72aa9@portlandresources.org
-DTSTAMP:20260910T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261220
 SUMMARY:Portland Night Market
@@ -1711,6 +1780,81 @@ DESCRIPTION:Category: Events & Festivals\nCost: FREE admission\, all ages\n
  Sunday hours are not posted.
 LOCATION:100 SE Alder St\, Portland\, OR 97214
 URL:https://www.pdxnm.com/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:82e5e97c88a89d88@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270214
+SUMMARY:Portland Night Market
+DESCRIPTION:Category: Events & Festivals\nCost: FREE admission\, all ages\n
+ Note: Optional $10 fast pass to skip the entry line\; food and vendor purc
+ hases extra\nAddress: 100 SE Alder St\, Portland\, OR 97214\nWebsite: http
+ s://www.pdxnm.com/\nDetails: Free market with 175+ local vendors and food.
+  pdxnm.com lists October 2-3\, December 3-6\, and December 18-19 with no y
+ ear printed\, but its Friday and Saturday weekdays fit 2026. Thursday and 
+ Sunday hours are not posted.
+LOCATION:100 SE Alder St\, Portland\, OR 97214
+URL:https://www.pdxnm.com/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8891d6cd84bb638c@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Oregon Zoo Veterans Day Free Admission
+DESCRIPTION:Category: Events & Festivals\nCost: FREE for military members\,
+  veterans\, and their families (up to 4 tickets total)\nNote: Complimentar
+ y admission includes up to three family tickets per active military member
+  or veteran (four tickets total)\, plus families of deployed military pers
+ onnel. Reserve timed tickets online in advance and bring military/veteran 
+ ID or discharge papers.\nAddress: Oregon Zoo\, 4001 SW Canyon Rd\, Portlan
+ d\, OR 97221\nPhone: 503-226-1561\nWebsite: https://www.oregonzoo.org/even
+ ts/veterans-day\nDetails: Resolves the queue's Oregon Zoo Veterans Day lea
+ d\; the ticket reservation link on oregonzoo.org/events/veterans-day expli
+ citly targets date=2026-11-11.
+LOCATION:Oregon Zoo\, 4001 SW Canyon Rd\, Portland\, OR 97221
+URL:https://www.oregonzoo.org/events/veterans-day
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:50b6405a206c2a3c@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261214
+SUMMARY:Portland's Public Menorah at Pioneer Courthouse Square
+DESCRIPTION:Category: Events & Festivals\nCost: FREE\nNote: Public communit
+ y Hanukkah menorah lighting hosted by Chabad Center for Jewish Life.\nAddr
+ ess: Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland\, OR 97204\nPho
+ ne: 503-977-9947\nWebsite: https://www.thesquarepdx.org/event/portlands-pu
+ blic-menorah-at-the-square-3/2026-12-04/\nDetails: Resolves the queue's Ha
+ nukkah public menorah lighting lead\; confirmed on Pioneer Courthouse Squa
+ re's December 2026 calendar.
+LOCATION:Pioneer Courthouse Square\, 701 SW 6th Ave\, Portland\, OR 97204
+URL:https://www.thesquarepdx.org/event/portlands-public-menorah-at-the-square-3/2026-12-04/
+CATEGORIES:Events & Festivals
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5217160a6483c183@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:City of Tigard Veterans Day Flag Raising Ceremony
+DESCRIPTION:Category: Events & Festivals\nCost: FREE (includes free coffee 
+ and donuts)\nAddress: Tigard Public Library lawn\, 13500 SW Hall Blvd\, Ti
+ gard\, OR 97223\nPhone: 503-639-4171\nWebsite: https://www.tigard-or.gov/H
+ ome/Components/Calendar/Event/12998/230\nDetails: Confirmed on tigard-or.g
+ ov for Wednesday\, November 11\, 2026 at 11am\; explicitly listed as a fre
+ e\, family-friendly event with coffee and donuts.
+LOCATION:Tigard Public Library lawn\, 13500 SW Hall Blvd\, Tigard\, OR 9722
+ 3
+URL:https://www.tigard-or.gov/Home/Components/Calendar/Event/12998/230
 CATEGORIES:Events & Festivals
 TRANSP:TRANSPARENT
 END:VEVENT

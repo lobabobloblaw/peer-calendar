@@ -24,18 +24,17 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:6ecd2efacdb0507e@portlandresources.org
-DTSTAMP:20261025T000000Z
-DTSTART;TZID=America/Los_Angeles:20261031T083000
-DTEND;TZID=America/Los_Angeles:20261031T133000
-SUMMARY:Beaverton Farmers Market
-DESCRIPTION:Category: Food & Farms\nCost: Free to enter\nNote: A participat
- ing Double Up Food Bucks market\; the SNAP terms were not readable on the 
- site.\nAddress: Beaverton City Library west parking lot\, 12375 SW 5th St\
- , Beaverton\, OR 97005\nWebsite: https://beavertonfarmersmarket.com/\nDeta
- ils: Added in the October 2026 discovery sweep\; the database had no Beave
- rton market. The weekday is inferred from the market calendar's October 31
-  Halloween listing.
+UID:defd88a8e9c6835b@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20260404T083000
+DTEND;TZID=America/Los_Angeles:20260404T133000
+SUMMARY:Beaverton Farmers Market: Main Season Market (April-November)
+DESCRIPTION:Category: Food & Farms\nCost: FREE admission\; SNAP + up to $20
+  Double Up match\nAddress: Beaverton City Library west parking lot\, 12375
+  SW 5th St\, Beaverton\, OR 97005\nWebsite: https://beavertonfarmersmarket
+ .com/\nDetails: Added in the October 2026 discovery sweep\; the database h
+ ad no Beaverton market. The weekday is inferred from the market calendar's
+  October 31 Halloween listing.
 LOCATION:Beaverton City Library west parking lot\, 12375 SW 5th St\, Beaver
  ton\, OR 97005
 URL:https://beavertonfarmersmarket.com/
@@ -44,8 +43,27 @@ CATEGORIES:Food & Farms
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:24898fabf14cd8f9@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270206T100000
+DTEND;TZID=America/Los_Angeles:20270206T133000
+SUMMARY:Beaverton Farmers Market: Winter Market (February-March)
+DESCRIPTION:Category: Food & Farms\nCost: FREE admission\; SNAP + up to $20
+  Double Up match\nAddress: Beaverton City Library west parking lot\, 12375
+  SW 5th St\, Beaverton\, OR 97005\nWebsite: https://beavertonfarmersmarket
+ .com/\nDetails: Added in the October 2026 discovery sweep\; the database h
+ ad no Beaverton market. The weekday is inferred from the market calendar's
+  October 31 Halloween listing.
+LOCATION:Beaverton City Library west parking lot\, 12375 SW 5th St\, Beaver
+ ton\, OR 97005
+URL:https://beavertonfarmersmarket.com/
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20270328T065959Z
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:276ee1e755c90c63@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Proper's Free Thanksgiving Dinner (Po'Shines Cafe De La Soul)
@@ -62,7 +80,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:984e251cacdcab13@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Cornelius Community Dinner
@@ -78,7 +96,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:fd5385f9133578ba@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Community Holiday Dinner (Congregation Beth Israel with LiftUP)
@@ -221,7 +239,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:3d41edee64d9b0ab@portlandresources.org
-DTSTAMP:20261025T000000Z
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20261122T093000
 DTEND;TZID=America/Los_Angeles:20261122T140000
 SUMMARY:Milwaukie Farmers Market: Thanksgiving Market
@@ -229,28 +247,137 @@ DESCRIPTION:Category: Food & Farms\nCost: FREE to attend\nInfo: One-day mar
  ket the Sunday before Thanksgiving\, announced on the market's home page. 
  The market's news post for it still carries a stale 'November 24th' in its
   body text.\nAddress: SE Main St & Harrison St\, Milwaukie\, OR 97222\nWeb
- site: https://milwaukiefarmersmarket.com/\nDetails: Sundays May-October in
-  downtown Milwaukie. SNAP/EBT accepted with Double Up Food Bucks matching.
+ site: https://milwaukiefarmersmarket.com/\nDetails: Main Sunday season run
+ s May through October (9:30am-2pm). The annual Thanksgiving Market is conf
+ irmed on the homepage banner for Sunday\, November 22\, 2026\, 9:30am-2pm 
+ at Main and Harrison in downtown Milwaukie.
 LOCATION:SE Main St & Harrison St\, Milwaukie\, OR 97222
 URL:https://milwaukiefarmersmarket.com/
 CATEGORIES:Food & Farms
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:e5557256b5233151@portlandresources.org
-DTSTAMP:20261025T000000Z
+UID:659b65fef6654eba@portlandresources.org
+DTSTAMP:20261109T000000Z
 DTSTART;TZID=America/Los_Angeles:20260404T080000
 DTEND;TZID=America/Los_Angeles:20260404T130000
-SUMMARY:Hollywood Farmers Market
-DESCRIPTION:Category: Food & Farms\nCost: SNAP/EBT accepted with Double Up 
- Food Bucks match up to $20\nNote: No surcharge for SNAP/EBT transactions\n
- Address: NE Hancock St between NE 44th & NE 45th Ave\, Portland\, OR 97213
- \nPhone: 503-709-7403\nWebsite: https://www.hollywoodfarmersmarket.org\nDe
- tails: One of Portland's best farmers markets with full SNAP/EBT support a
- nd Double Up Food Bucks matching.
+SUMMARY:Hollywood Farmers Market: Saturday Market (April-December)
+DESCRIPTION:Category: Food & Farms\nCost: FREE admission\; SNAP + up to $20
+  Double Up Food Bucks match\nAddress: NE Hancock St between NE 44th & NE 4
+ 5th Ave\, Portland\, OR 97213\nPhone: 503-709-7403\nWebsite: https://www.h
+ ollywoodfarmersmarket.org\nDetails: One of Portland's best farmers markets
+  with full SNAP/EBT support and Double Up Food Bucks matching.
 LOCATION:NE Hancock St between NE 44th & NE 45th Ave\, Portland\, OR 97213
 URL:https://www.hollywoodfarmersmarket.org
 RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20261220T075959Z
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:23d83c341d12d666@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270109T090000
+DTEND;TZID=America/Los_Angeles:20270109T130000
+SUMMARY:Hollywood Farmers Market: Winter Market (January-March 2027)
+DESCRIPTION:Category: Food & Farms\nCost: FREE admission\; SNAP + up to $20
+  Double Up Food Bucks match\nInfo: Open 2nd and 4th Saturdays in January\,
+  February\, and March 2027 from 9am to 1pm.\nAddress: NE Hancock St betwee
+ n NE 44th & NE 45th Ave\, Portland\, OR 97213\nPhone: 503-709-7403\nWebsit
+ e: https://www.hollywoodfarmersmarket.org\nDetails: One of Portland's best
+  farmers markets with full SNAP/EBT support and Double Up Food Bucks match
+ ing.
+LOCATION:NE Hancock St between NE 44th & NE 45th Ave\, Portland\, OR 97213
+URL:https://www.hollywoodfarmersmarket.org
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:de92a66140ec8c8a@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270123T090000
+DTEND;TZID=America/Los_Angeles:20270123T130000
+SUMMARY:Hollywood Farmers Market: Winter Market (January-March 2027)
+DESCRIPTION:Category: Food & Farms\nCost: FREE admission\; SNAP + up to $20
+  Double Up Food Bucks match\nInfo: Open 2nd and 4th Saturdays in January\,
+  February\, and March 2027 from 9am to 1pm.\nAddress: NE Hancock St betwee
+ n NE 44th & NE 45th Ave\, Portland\, OR 97213\nPhone: 503-709-7403\nWebsit
+ e: https://www.hollywoodfarmersmarket.org\nDetails: One of Portland's best
+  farmers markets with full SNAP/EBT support and Double Up Food Bucks match
+ ing.
+LOCATION:NE Hancock St between NE 44th & NE 45th Ave\, Portland\, OR 97213
+URL:https://www.hollywoodfarmersmarket.org
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d5f8f06d086566b0@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270213T090000
+DTEND;TZID=America/Los_Angeles:20270213T130000
+SUMMARY:Hollywood Farmers Market: Winter Market (January-March 2027)
+DESCRIPTION:Category: Food & Farms\nCost: FREE admission\; SNAP + up to $20
+  Double Up Food Bucks match\nInfo: Open 2nd and 4th Saturdays in January\,
+  February\, and March 2027 from 9am to 1pm.\nAddress: NE Hancock St betwee
+ n NE 44th & NE 45th Ave\, Portland\, OR 97213\nPhone: 503-709-7403\nWebsit
+ e: https://www.hollywoodfarmersmarket.org\nDetails: One of Portland's best
+  farmers markets with full SNAP/EBT support and Double Up Food Bucks match
+ ing.
+LOCATION:NE Hancock St between NE 44th & NE 45th Ave\, Portland\, OR 97213
+URL:https://www.hollywoodfarmersmarket.org
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:370ad3e3a1722dee@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270227T090000
+DTEND;TZID=America/Los_Angeles:20270227T130000
+SUMMARY:Hollywood Farmers Market: Winter Market (January-March 2027)
+DESCRIPTION:Category: Food & Farms\nCost: FREE admission\; SNAP + up to $20
+  Double Up Food Bucks match\nInfo: Open 2nd and 4th Saturdays in January\,
+  February\, and March 2027 from 9am to 1pm.\nAddress: NE Hancock St betwee
+ n NE 44th & NE 45th Ave\, Portland\, OR 97213\nPhone: 503-709-7403\nWebsit
+ e: https://www.hollywoodfarmersmarket.org\nDetails: One of Portland's best
+  farmers markets with full SNAP/EBT support and Double Up Food Bucks match
+ ing.
+LOCATION:NE Hancock St between NE 44th & NE 45th Ave\, Portland\, OR 97213
+URL:https://www.hollywoodfarmersmarket.org
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d6f7ca37492284b2@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270313T090000
+DTEND;TZID=America/Los_Angeles:20270313T130000
+SUMMARY:Hollywood Farmers Market: Winter Market (January-March 2027)
+DESCRIPTION:Category: Food & Farms\nCost: FREE admission\; SNAP + up to $20
+  Double Up Food Bucks match\nInfo: Open 2nd and 4th Saturdays in January\,
+  February\, and March 2027 from 9am to 1pm.\nAddress: NE Hancock St betwee
+ n NE 44th & NE 45th Ave\, Portland\, OR 97213\nPhone: 503-709-7403\nWebsit
+ e: https://www.hollywoodfarmersmarket.org\nDetails: One of Portland's best
+  farmers markets with full SNAP/EBT support and Double Up Food Bucks match
+ ing.
+LOCATION:NE Hancock St between NE 44th & NE 45th Ave\, Portland\, OR 97213
+URL:https://www.hollywoodfarmersmarket.org
+CATEGORIES:Food & Farms
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:daec41655db7a42a@portlandresources.org
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Los_Angeles:20270327T090000
+DTEND;TZID=America/Los_Angeles:20270327T130000
+SUMMARY:Hollywood Farmers Market: Winter Market (January-March 2027)
+DESCRIPTION:Category: Food & Farms\nCost: FREE admission\; SNAP + up to $20
+  Double Up Food Bucks match\nInfo: Open 2nd and 4th Saturdays in January\,
+  February\, and March 2027 from 9am to 1pm.\nAddress: NE Hancock St betwee
+ n NE 44th & NE 45th Ave\, Portland\, OR 97213\nPhone: 503-709-7403\nWebsit
+ e: https://www.hollywoodfarmersmarket.org\nDetails: One of Portland's best
+  farmers markets with full SNAP/EBT support and Double Up Food Bucks match
+ ing.
+LOCATION:NE Hancock St between NE 44th & NE 45th Ave\, Portland\, OR 97213
+URL:https://www.hollywoodfarmersmarket.org
 CATEGORIES:Food & Farms
 TRANSP:TRANSPARENT
 END:VEVENT
