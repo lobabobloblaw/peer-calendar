@@ -6004,3 +6004,149 @@
     - id: portland-rescue-mission
       status: unverified
       changes: "The mission's site publishes no meal times or holiday plans; Blanchet House's list shows a Thanksgiving meal on November 25 at 5:45pm. Not changed"
+
+---
+- date: 2026-11-09
+  type: audit
+  auditor: gemini
+  summary: "Events and peer-support audit through Q1 2027: 78 entries verified, schedule updates applied, and VERIFY flags resolved"
+  entries_audited: 78
+  entries:
+    - id: beaverton-tree-lighting
+      status: updated
+      changes: "Rendered lazy-loaded beavertonoregon.gov/beaverton-winter-lights in headless Chrome; confirmed Dec 4 (4-8pm markets, 6-8pm performances, 7pm tree lighting) and added the Dec 1, 2026 - Jan 3, 2027 nightly park light displays"
+    - id: portland-night-market
+      status: updated
+      changes: "Added February 12-13, 2027 from pdxnm.com; narrowed VERIFY flag to the Thursday/Sunday hours for Dec 3-6"
+    - id: oregon-city-tree-lighting
+      status: updated
+      changes: "Updated end time from 6:30pm to 7:00pm (5-7pm on Dec 5, 2026) per downtownoregoncity.org"
+    - id: west-linn-holiday-parade
+      status: updated
+      changes: "Confirmed 5pm start on Saturday, Dec 5, 2026 on westlinnoregon.gov, followed by tree lighting with Santa at the Ale & Cider House"
+    - id: canby-light-up-the-night
+      status: updated
+      changes: "Confirmed 6pm lighted parade start and ~6:30pm Wait Park tree lighting on Friday, Dec 4, 2026 on canbyoregon.gov"
+    - id: nara-sobriety-powwow
+      status: updated
+      changes: "Confirmed hours 1:00pm-12:00am (midnight) on Dec 31, 2026 on oregoncc.org"
+    - id: isosld-portland
+      status: updated
+      changes: "Confirmed online registration is open on portland.isosld.afsp.org, added host contact Joan Hoff (503-880-8794), and cleared VERIFY flag"
+    - id: beaverton-farmers-market
+      status: updated
+      changes: "Confirmed $1 wooden EBT tokens and up to $20/day Double Up Food Bucks match on beavertonfarmersmarket.com/page3 and doubleuporegon.org; added Feb-Mar 2027 Winter Market (Saturdays 10am-1:30pm); cleared VERIFY flag"
+    - id: hollywood-farmers-market
+      status: updated
+      changes: "Added Jan-Mar 2027 winter market dates (2nd & 4th Saturdays, 9am-1pm) from hollywoodfarmersmarket.org/plan-your-visit"
+    - id: milwaukie-farmers-market
+      status: updated
+      changes: "Confirmed Sunday, Nov 22, 2026 (9:30am-2pm) Thanksgiving Market on milwaukiefarmersmarket.com and cleared VERIFY flag"
+    - id: get-trained-to-help
+      status: updated
+      changes: "Confirmed Nov 10, Nov 12, and Dec 10 QPR classes and added the newly published Feb 9, 2027 (10am-12pm) virtual Older Adult QPR training"
+    - id: wooden-shoe-tulip
+      status: updated
+      changes: "Updated to the published 2027 season dates: March 19 - April 25, 2027"
+    - id: friends-of-trees
+      status: updated
+      changes: "Pulled the organizer's Google Calendar ICS feeds and added 25 Q1 2027 tri-county volunteer plantings (January 9 - March 27, 2027)"
+    - id: repair-pdx
+      status: updated
+      changes: "Confirmed Dec 12, 2026 (12-3pm) Leaven Repair Cafe, Nov 15 Sashiko and Nov 21 Learn to Darn workshops, and added the Nov 28 Hedron Repair Cafe (2020 SE Bush St); cleared VERIFY flag"
+    - id: clackamas-county-repair-fairs
+      status: updated
+      changes: "Added the Nov 21, 2026 (10am-1pm) Lake Oswego 'Repair to Regift' Repair Fair at Lake Oswego Adult Community Center"
+    - id: tualatin-heritage-center
+      status: updated
+      changes: "Confirmed An Old Fashioned Christmas on Saturday, Dec 12, 2026, 12-4pm on tualatinhistory.org"
+    - id: pcc-art-galleries
+      status: updated
+      changes: "Updated exhibitions and events through Jan 23, 2027 (Cascade Paragon Yo hablo espanol / Distant Traces Nov 13 opening and Jan 22, 2027 closing reception & artist talks; Sylvania North View Mobile Houselessness Awareness Week film screening & reception Nov 17 & 19)"
+    - id: lone-fir-cemetery-tours
+      status: updated
+      changes: "Added Q1 2027 tour dates (Jan-Mar 2027) across all four tour series from friendsoflonefircemetery.org"
+    - id: st-james-bach
+      status: updated
+      changes: "Read www.stjamespdx.org/life/wm/bach/ directly; confirmed Nov 22, 2026 (BWV 140), Feb 28, 2027 (BWV 54), and May 23, 2027 (BWV 172) at 5pm and added church phone"
+    - id: gresham-senior-center
+      status: updated
+      changes: "Verified against the Nov/Dec 2026 official PDF newsletter: updated Tuesday Night Dance to 4:30-6:30pm and added Veterans Coffee, Alzheimer Caregiver Support Group, Death Cafe, Citizens Law School, Improv Comedy, E-Bikes 101 (Nov 30), Christmas Craft & Gift Bazaar (Dec 1-2), Intro to Social Media (Dec 2/9/16), and Wellness Resource Fair (Jan 28, 2027)"
+    - id: milwaukie-community-center
+      status: updated
+      changes: "Verified Fall 2026 - Q2 2027 drop-in activity schedules on ncprd.org (Woodcarvers Wednesdays 8-11:30am, Ukulele Jam, Mt. Dulcimer Jam, Daytime Bingo, Cards & Board Games, Caregivers Support Group, Blood Pressure Clinic, and Concord Community Center drop-in groups); cleared VERIFY flag"
+    - id: pdx-board-games-meetup
+      status: updated
+      changes: "Verified on meetup.com/pdxgames/events/: confirmed Tuesday CORE Food Carts and Wednesday Board Bard Games, added Monday Capes & Crepes, Monday Veggie Board Gamers (Bye and Bye), and Wednesday daytime Guardian Games; cleared VERIFY flag"
+    - id: dda-oregon
+      status: updated
+      changes: "Verified on ddainc.org: added four Washington County in-person meetings (Aloha, 4D Hillsboro, Peer Company Hillsboro, Comfort Zone Tigard), Thursday 10am Book Study, Thursday 12pm Women's online meeting, and Friday 10am online meeting"
+    - id: nami-multnomah
+      status: updated
+      changes: "Corrected In-Person LGBTQ2SIA+ Support Group to 1st & 3rd Sundays 1-2:30pm per namimultnomah.org/peer-support-groups and /nami-events, and added three Veteran Peer Support Groups (Military Support Thursdays 6-7:30pm, Women's MST 2nd & 4th Wednesdays 7-8:30pm, All-Gender MST 1st Wednesdays 7-8:30pm)"
+    - id: brief-encounters
+      status: updated
+      changes: "Confirmed all static pages and calendar listings now name The Overlook House (3839 N Melrose Dr), added 4th Monday Subsequent Pregnancies in-person group and 4th Thursday Ending a Wanted Pregnancy Zoom group, and cleared VERIFY flag"
+    - id: oregon-zoo-zoolights
+      status: updated
+      changes: "Confirmed ZooLights Sensory-Friendly Night on Monday, Nov 16, 2026, 4:30-8:30pm ($13-$22) on oregonzoo.org/events/zoolights-sensory-friendly-night"
+    - id: lake-oswego-library
+      status: updated
+      changes: "Added Lake Oswego Reads 2027 (Good People by Patmeena Sabit) free 800-book giveaway on Sunday, Feb 28, 2027, 1-5pm"
+    - id: tigard-public-library
+      status: updated
+      changes: "Confirmed English Conversation Group (1st & 3rd Wednesdays 6-7:30pm) and added Tigard Writers' Space (1st Thursdays 6-7:30pm), Fiber Arts Meet-Up (Dec 6), Sound Bath Meditation (Dec 8), Winter Walk on Fanno Creek Trail (Dec 1 - Feb 28), and A Musical Journey to Persia (Jan 24, 2027)"
+    - id: hidden-creek-community-center
+      status: updated
+      changes: "Added free All Ability Drop-in Basketball (Mondays 7-8:30pm) and Adaptive BINGO @ Hidden Creek (Nov 9 & Dec 14, 5:30-6:30pm) from hillsboro-oregon.gov"
+    - id: portland-parks-volunteer-days
+      status: updated
+      changes: "Added Baltimore Woods (Nov 14), Mt. Tabor Last Saturday (Nov 28), and Oaks Bottom Wildlife Refuge (Dec 5) volunteer planting events from portland.gov/parks/events"
+
+---
+- date: 2026-11-09
+  type: addition
+  auditor: gemini
+  summary: "Discovery sweep for November 2026 through Q1 2027: 20 new entries verified on official organizer pages"
+  entries_added: 20
+  added:
+    - id: q-center-tdor-vigil
+      name: "Transgender Day of Remembrance Vigil at Q Center (November 20, 2026, 5:30-9pm)"
+    - id: oregon-zoo-veterans-day
+      name: "Oregon Zoo Veterans Day Free Admission (November 11, 2026, 9:30am-3:30pm)"
+    - id: lan-su-chinese-garden
+      name: "Lan Su Chinese Garden ($5 EBT/WIC admission up to 4 tickets, free caregiver entry, Nov 11 Veterans Day free admission, and cultural programs)"
+    - id: pittock-mansion
+      name: "Pittock Mansion ($5 EBT/SNAP admission up to 4 tickets via Museums for All; free grounds and viewpoint)"
+    - id: leach-botanical-garden
+      name: "Leach Botanical Garden ('Garden for All' free walk-up admission upon request, no questions asked)"
+    - id: the-recovery-gym
+      name: "The Recovery Gym (TRG) & Run TRG (free recovery fitness centers in SE Portland and Hillsboro, yoga, DBT/somatic groups, sound bath, and weekly runs)"
+    - id: alano-club-recovery-events
+      name: "Alano Club Recovery Toolkit Workshops & Expungement Clinic (Transitions Lab, OHP Navigation, Sober Lifestyle Sessions Nov 17, Clear Clinic Expungement Nov 25)"
+    - id: st-james-jazz-vespers
+      name: "St. James Lutheran Church Jazz Vespers (3rd Sundays at 4:50pm, 2026-2027 season)"
+    - id: pioneer-square-menorah-lighting
+      name: "Portland's Public Menorah at Pioneer Courthouse Square (December 4-13, 2026, 4-6:30pm)"
+    - id: pioneer-square-holiday-performances
+      name: "Holiday Performances at Pioneer Courthouse Square (seven free December 2026 concert dates)"
+    - id: ohs-feminist-activism-panel
+      name: "Oregon Historical Society Panel: Feminist Activism in Oregon (January 31, 2027, 2-3:30pm)"
+    - id: columbia-slough-events
+      name: "Columbia Slough Watershed Council Free Community Events (Slough Science Nov 24, Smith & Bybee Bird Walk Jan 24, 2027, Gresham WWTP Tour Jan 29, 2027)"
+    - id: metro-parks-free-parking-days
+      name: "Metro Regional Parks Free Parking Days (2026-2027 schedule) & Drop-In Stewardship Events (Nov 13 & Nov 20, 2026)"
+    - id: ppr-explore-your-park
+      name: "Portland Parks & Recreation Explore Your Park Fall Series (Westmoreland Park Nov 14, Mill Park Nov 21, Wallace Park Nov 23)"
+    - id: gresham-repair-cafe
+      name: "Gresham Repair Cafe & Clothing Swap at East County Library (November 21, 2026, 10am-1pm)"
+    - id: sherwood-old-town-art-walk
+      name: "Old Town Sherwood Art Walk: Winter Holiday Market (December 1, 2026, 5-8pm)"
+    - id: hillsboro-senior-center-events
+      name: "Hillsboro Community Senior Center Free Trader Joe's Groceries (Mon/Tue/Thu/Fri 1pm) & Annual Holiday Bazaar (November 21-22, 2026)"
+    - id: walters-artisan-pop-up-shop
+      name: "Walters Artisan Pop-Up Shop, Hillsboro (December 1, 2026, 5-8pm)"
+    - id: tigard-veterans-day-flag-raising
+      name: "City of Tigard Veterans Day Flag Raising Ceremony (November 11, 2026, 11am-12pm)"
+    - id: tualatin-riverkeepers-stewardship
+      name: "Tualatin Riverkeepers Free Stewardship & Nature Events in Tigard (November 22 & December 13, 2026)"
